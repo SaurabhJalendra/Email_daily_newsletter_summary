@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: AI Newsletter Summarization System\n\nFeatures:\n- Gmail IMAP integration for fetching newsletters\n- Google Gemini AI for comprehensive summarization\n- Daily scheduling at 12 midnight IST via GitHub Actions\n- Email notifications with beautifully formatted summaries\n- Next.js dashboard with calendar view for browsing history\n- JSON-based storage for easy portability\n- Complete deployment setup for Vercel and GitHub Actions\n\nArchitecture:\n- Backend: Node.js pipeline with modular components\n- Frontend: Next.js 14 with Tailwind CSS\n- AI: Google Gemini 1.5 Flash\n- Hosting: GitHub Actions + Vercel (100% free)\n\nNewsletter sources configured for AI/tech updates.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

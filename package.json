@@ -1,0 +1,24 @@
+{
+  "name": "newsletter-summarizer",
+  "version": "1.0.0",
+  "description": "Daily AI-powered newsletter summarization agent",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node src/index.js --test"
+  },
+  "keywords": ["newsletter", "summarizer", "ai", "gemini", "email"],
+  "author": "Saurabh Jalendra",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "imap": "^0.8.19",
+    "mailparser": "^3.7.1",
+    "nodemailer": "^6.9.15",
+    "dotenv": "^16.4.5",
+    "cheerio": "^1.0.0",
+    "turndown": "^7.2.0"
+  }
+}

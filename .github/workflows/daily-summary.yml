@@ -1,0 +1,59 @@
+name: Daily Newsletter Summary
+
+on:
+  # Run at 12:00 AM IST (6:30 PM UTC previous day)
+  schedule:
+    - cron: '30 18 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run newsletter summarization
+        env:
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+          NEWSLETTER_SENDERS: ${{ secrets.NEWSLETTER_SENDERS }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+          TZ: Asia/Kolkata
+        run: npm start
+
+      - name: Commit and push summary data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/summaries/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Add newsletter summary for $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Upload summary artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: newsletter-summary-${{ github.run_number }}
+          path: data/summaries/
+          retention-days: 90
