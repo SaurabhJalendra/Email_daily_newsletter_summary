@@ -4,7 +4,7 @@ import { config } from '../utils/config.js';
 export class GeminiSummarizer {
   constructor() {
     this.genAI = new GoogleGenerativeAI(config.ai.geminiApiKey);
-    this.model = this.genAI.getGenerativeModel({ model: 'gemini-pro' });
+    this.model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-pro-latest' });
   }
 
   /**
