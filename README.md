@@ -87,14 +87,14 @@ vercel --prod
 
 ### 3. Custom Domain Setup (saurabhjalendra.com)
 
-#### DNS Settings for Subdomain: newsletters.saurabhjalendra.com
+#### DNS Settings for Subdomain: newsletter.saurabhjalendra.com
 
 Add the following DNS records in your domain registrar (GoDaddy, Namecheap, Cloudflare, etc.):
 
 **Option 1: CNAME Record (Recommended)**
 ```
 Type: CNAME
-Name: newsletters
+Name: newsletter
 Value: cname.vercel-dns.com
 TTL: Auto or 3600
 ```
@@ -102,7 +102,7 @@ TTL: Auto or 3600
 **Option 2: A Records (Alternative)**
 ```
 Type: A
-Name: newsletters
+Name: newsletter
 Value: 76.76.21.21
 TTL: Auto or 3600
 ```
@@ -110,11 +110,11 @@ TTL: Auto or 3600
 #### In Vercel Dashboard:
 
 1. Go to your project → **Settings** → **Domains**
-2. Add domain: `newsletters.saurabhjalendra.com`
+2. Add domain: `newsletter.saurabhjalendra.com`
 3. Vercel will verify DNS and issue SSL certificate automatically
 4. Wait 5-10 minutes for DNS propagation
 
-Your dashboard will be live at: **https://newsletters.saurabhjalendra.com**
+Your dashboard will be live at: **https://newsletter.saurabhjalendra.com**
 
 ### 4. GitHub Actions Permissions
 

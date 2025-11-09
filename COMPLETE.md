@@ -15,7 +15,7 @@ I've successfully built a complete, production-ready newsletter summarization sy
 ✅ **Email Notifications** - Beautiful HTML emails with daily digest
 ✅ **Web Dashboard** - Interactive calendar interface to browse summaries by date
 ✅ **Historical Archive** - All summaries saved and accessible forever
-✅ **Custom Domain Ready** - Pre-configured for newsletters.saurabhjalendra.com
+✅ **Custom Domain Ready** - Pre-configured for newsletter.saurabhjalendra.com
 
 ### Technical Components
 ✅ **Backend Pipeline** (Node.js + ES Modules)
@@ -118,10 +118,10 @@ Go to: https://vercel.com/new
 
 ### Step 5: Setup Custom Domain (5 minutes)
 In your DNS provider (GoDaddy/Namecheap/Cloudflare):
-- Add CNAME record: `newsletters` → `cname.vercel-dns.com`
+- Add CNAME record: `newsletter` → `cname.vercel-dns.com`
 
 In Vercel:
-- Add domain: `newsletters.saurabhjalendra.com`
+- Add domain: `newsletter.saurabhjalendra.com`
 
 **Total setup time: ~20 minutes**
 
@@ -201,7 +201,7 @@ In Vercel:
    ↓
 9. Vercel auto-deploys dashboard with new data
    ↓
-10. Summary accessible at newsletters.saurabhjalendra.com
+10. Summary accessible at newsletter.saurabhjalendra.com
 ```
 
 ### Manual Trigger (Anytime)

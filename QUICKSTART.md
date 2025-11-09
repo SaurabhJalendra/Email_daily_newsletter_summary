@@ -66,7 +66,7 @@ vercel --prod
 Add this DNS record:
 ```
 Type: CNAME
-Name: newsletters
+Name: newsletter
 Value: cname.vercel-dns.com
 TTL: Auto
 ```
@@ -74,9 +74,9 @@ TTL: Auto
 #### In Vercel:
 
 1. Go to your project → **Settings** → **Domains**
-2. Add: `newsletters.saurabhjalendra.com`
+2. Add: `newsletter.saurabhjalendra.com`
 3. Wait 5-10 minutes
-4. Visit: https://newsletters.saurabhjalendra.com
+4. Visit: https://newsletter.saurabhjalendra.com
 
 ---
 
@@ -84,7 +84,7 @@ TTL: Auto
 
 - ✅ Newsletters will be summarized **every day at 12 midnight IST**
 - ✅ You'll receive an email with the summary
-- ✅ View archive at **newsletters.saurabhjalendra.com**
+- ✅ View archive at **newsletter.saurabhjalendra.com**
 
 ## 🧪 Test Manually Anytime
 
@@ -108,6 +108,7 @@ Subject: 📰 Your AI Newsletter Digest - [Date]
 - Calendar view with clickable dates
 - Detailed summaries for each day
 - Searchable archive
+- Live at: https://newsletter.saurabhjalendra.com
 
 ---
 

@@ -4,7 +4,7 @@
 
 This guide will walk you through deploying your newsletter summarization system completely free using:
 - **GitHub Actions**: Runs the summarization at 12 midnight IST
-- **Vercel**: Hosts the web dashboard at newsletters.saurabhjalendra.com
+- **Vercel**: Hosts the web dashboard at newsletter.saurabhjalendra.com
 
 Total time: ~15 minutes
 
@@ -126,12 +126,12 @@ vercel --prod
 
 Go to your domain registrar's DNS management page (GoDaddy, Namecheap, Cloudflare, etc.) and add:
 
-#### For subdomain: newsletters.saurabhjalendra.com
+#### For subdomain: newsletter.saurabhjalendra.com
 
 **Option 1: CNAME Record (Recommended)**
 ```
 Type:  CNAME
-Name:  newsletters
+Name:  newsletter
 Value: cname.vercel-dns.com
 TTL:   Automatic (or 3600)
 ```
@@ -139,7 +139,7 @@ TTL:   Automatic (or 3600)
 **Option 2: A Record (Alternative)**
 ```
 Type:  A
-Name:  newsletters
+Name:  newsletter
 Value: 76.76.21.21
 TTL:   Automatic (or 3600)
 ```
@@ -148,7 +148,7 @@ TTL:   Automatic (or 3600)
 
 1. Go to your Vercel project dashboard
 2. Click **"Settings"** → **"Domains"**
-3. In the domain input field, enter: `newsletters.saurabhjalendra.com`
+3. In the domain input field, enter: `newsletter.saurabhjalendra.com`
 4. Click **"Add"**
 5. Vercel will verify your DNS configuration
 6. SSL certificate will be auto-generated (takes ~1 minute)
@@ -158,7 +158,7 @@ TTL:   Automatic (or 3600)
 
 Wait 5-10 minutes for DNS propagation, then visit:
 ```
-https://newsletters.saurabhjalendra.com
+https://newsletter.saurabhjalendra.com
 ```
 
 You should see your dashboard!
@@ -178,7 +178,7 @@ You should see your dashboard!
 - [ ] Dashboard loads at Vercel URL
 - [ ] Custom domain added
 - [ ] SSL certificate active
-- [ ] Dashboard loads at newsletters.saurabhjalendra.com
+- [ ] Dashboard loads at newsletter.saurabhjalendra.com
 
 ### ✅ Daily Automation
 - [ ] GitHub Action scheduled for 12 midnight IST (6:30 PM UTC)
@@ -194,7 +194,7 @@ You should see your dashboard!
 2. Click "Add" under DNS Records
 3. Select "CNAME"
 4. Enter:
-   - Name: `newsletters`
+   - Name: `newsletter`
    - Value: `cname.vercel-dns.com`
    - TTL: `1 Hour`
 5. Click "Save"
@@ -204,7 +204,7 @@ You should see your dashboard!
 2. Click "Add New Record"
 3. Select "CNAME Record"
 4. Enter:
-   - Host: `newsletters`
+   - Host: `newsletter`
    - Value: `cname.vercel-dns.com`
    - TTL: `Automatic`
 5. Click the checkmark to save
@@ -214,7 +214,7 @@ You should see your dashboard!
 2. Click "Add record"
 3. Select "CNAME"
 4. Enter:
-   - Name: `newsletters`
+   - Name: `newsletter`
    - Target: `cname.vercel-dns.com`
    - Proxy status: `DNS only` (orange cloud OFF)
    - TTL: `Auto`
@@ -245,9 +245,9 @@ You should see your dashboard!
 3. Try redeploying
 
 **Domain not working:**
-1. Check DNS records are correct
+1. Check DNS records are correct (newsletter, not newsletters)
 2. Wait 10-30 minutes for DNS propagation
-3. Use https://dnschecker.org to verify propagation
+3. Use https://dnschecker.org to verify propagation (check newsletter.saurabhjalendra.com)
 4. Ensure SSL certificate is active in Vercel
 
 ### No Summaries Generated

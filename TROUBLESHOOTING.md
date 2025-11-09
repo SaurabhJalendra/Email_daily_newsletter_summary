@@ -169,13 +169,13 @@ Solution:
 ### 🌐 Custom Domain Not Working
 
 #### Symptom
-`newsletters.saurabhjalendra.com` doesn't load or shows error.
+`newsletter.saurabhjalendra.com` doesn't load or shows error.
 
 #### Diagnosis
 ```bash
 # Check DNS propagation
 # Visit: https://dnschecker.org
-# Enter: newsletters.saurabhjalendra.com
+# Enter: newsletter.saurabhjalendra.com
 ```
 
 #### Solutions
@@ -202,7 +202,7 @@ Check:
 ```
 1. Verify domain in Vercel:
    - Settings → Domains
-   - Add: newsletters.saurabhjalendra.com
+   - Add: newsletter.saurabhjalendra.com
 2. Ensure domain is verified
 3. Check nameservers are correct if using Cloudflare
 ```
