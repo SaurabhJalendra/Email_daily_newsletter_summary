@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "test": "node src/index.js --test"
+    "test": "node src/index.js --test",
+    "import": "node src/historical-import.js",
+    "import:from": "node src/historical-import.js"
   },
   "keywords": ["newsletter", "summarizer", "ai", "gemini", "email"],
   "author": "Saurabh Jalendra",
