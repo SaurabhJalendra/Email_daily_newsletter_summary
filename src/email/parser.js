@@ -1,4 +1,3 @@
-import { convert } from 'html-to-text';
 import TurndownService from 'turndown';
 
 const turndownService = new TurndownService({
@@ -51,14 +50,8 @@ export class NewsletterParser {
       return markdown;
     } catch (error) {
       console.error('Error converting HTML to markdown:', error);
-      // Fallback to plain text conversion
-      return convert(html, {
-        wordwrap: 130,
-        selectors: [
-          { selector: 'a', options: { ignoreHref: false } },
-          { selector: 'img', format: 'skip' }
-        ]
-      });
+      // Fallback to stripping HTML tags
+      return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
     }
   }
 

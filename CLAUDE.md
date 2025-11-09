@@ -40,11 +40,92 @@ The project requires credentials and configuration to be set up:
 - Schedule timing (10 PM)
 - Delivery method configuration
 
-## Development Status
+## Commands
 
-This is a new project. Core decisions pending:
-- Email provider and authentication method
-- Summary delivery medium (web dashboard vs email vs messaging app)
-- AI service selection (OpenAI, Anthropic, Gemini, local LLM)
-- Database choice (SQLite, PostgreSQL, MongoDB, JSON)
-- Hosting environment (local, cloud, home server)
+### Backend Pipeline
+```bash
+# Install dependencies
+npm install
+
+# Run the summarization pipeline
+npm start
+
+# Run in development/watch mode
+npm run dev
+
+# Test mode (manual trigger)
+npm start -- --test
+```
+
+### Dashboard
+```bash
+cd dashboard
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+
+# Deploy to Vercel
+vercel --prod
+```
+
+### GitHub Actions
+- Workflow runs automatically at 12 midnight IST (6:30 PM UTC)
+- Manual trigger: Go to Actions → Daily Newsletter Summary → Run workflow
+- Logs: Check Actions tab for execution details
+
+## Implementation Details
+
+### Email Fetching (src/email/fetcher.js)
+- Uses IMAP to connect to Gmail
+- Filters emails by sender addresses (configured in .env)
+- Fetches newsletters since last summary date
+- Handles connection errors and retries
+
+### Content Parsing (src/email/parser.js)
+- Converts HTML newsletters to clean Markdown using Turndown
+- Extracts important links (filters out unsubscribe/tracking links)
+- Handles both HTML and plain text newsletters
+- Preserves formatting for better AI summarization
+
+### AI Summarization (src/summarizer/gemini.js)
+- Uses Google Gemini 1.5 Flash for cost-effective summarization
+- Two-level summarization:
+  1. Individual newsletter summaries (comprehensive, no info loss)
+  2. Overall daily digest (categorized by topic)
+- Prompts emphasize completeness - critical for user's AI updates
+
+### Storage (src/database/storage.js)
+- Saves summaries as JSON files (YYYY-MM-DD.json format)
+- Maintains index for quick lookups
+- Easy to migrate to database later if needed
+- Committed to Git for version control and Vercel access
+
+### Email Notifications (src/notifier/email.js)
+- Sends beautifully formatted HTML + plain text emails
+- Uses nodemailer with Gmail SMTP
+- Includes daily overview and individual summaries
+- Error notifications if pipeline fails
+
+### Dashboard (dashboard/pages/index.js)
+- Next.js 14 with static site generation
+- Interactive calendar using react-calendar
+- Markdown rendering with marked library
+- Tailwind CSS for styling
+- Deployed on Vercel with custom domain support
+
+## Tech Stack Decisions Made
+
+- ✅ Email provider: Gmail (IMAP + SMTP)
+- ✅ Summary delivery: Web dashboard + Email notifications
+- ✅ AI service: Google Gemini (free tier)
+- ✅ Database: JSON files (future: can migrate to PostgreSQL/MongoDB)
+- ✅ Hosting: GitHub Actions (scheduler) + Vercel (dashboard)
