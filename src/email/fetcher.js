@@ -39,9 +39,11 @@ export class EmailFetcher {
           return;
         }
 
+        // Build proper search criteria with nested ORs
+        const senderCriteria = this.buildSenderCriteria();
         const searchCriteria = [
           ['SINCE', sinceDate],
-          ['OR', ...this.buildSenderCriteria()]
+          senderCriteria
         ];
 
         this.imap.search(searchCriteria, (err, results) => {
@@ -88,10 +90,27 @@ export class EmailFetcher {
 
   /**
    * Build search criteria for newsletter senders
+   * IMAP OR only accepts exactly 2 arguments, so we need to nest them
    */
   buildSenderCriteria() {
     const senders = config.newsletters.senders;
-    return senders.map(sender => ['FROM', sender]);
+
+    if (senders.length === 0) {
+      return ['ALL'];
+    }
+
+    if (senders.length === 1) {
+      return ['FROM', senders[0]];
+    }
+
+    // Build nested OR structure: OR(sender1, OR(sender2, OR(sender3, ...)))
+    let criteria = ['FROM', senders[senders.length - 1]];
+
+    for (let i = senders.length - 2; i >= 0; i--) {
+      criteria = ['OR', ['FROM', senders[i]], criteria];
+    }
+
+    return criteria;
   }
 
   /**
