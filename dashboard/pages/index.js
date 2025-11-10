@@ -229,7 +229,8 @@ export async function getStaticProps() {
   const path = require('path');
 
   try {
-    const summariesDir = path.join(process.cwd(), '../data/summaries');
+    // Look for data in dashboard's data directory (copied by prebuild script)
+    const summariesDir = path.join(process.cwd(), 'data/summaries');
     const files = await fs.readdir(summariesDir);
     const jsonFiles = files.filter(f => f.endsWith('.json') && f !== 'index.json');
 
