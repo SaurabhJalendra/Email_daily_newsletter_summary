@@ -1,10 +1,18 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import OpenAI from 'openai';
 import { config } from '../utils/config.js';
 
 export class GeminiSummarizer {
   constructor() {
-    this.genAI = new GoogleGenerativeAI(config.ai.geminiApiKey);
-    this.model = this.genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    // Initialize OpenRouter with Llama 3.1 70B
+    this.openRouter = new OpenAI({
+      baseURL: 'https://openrouter.ai/api/v1',
+      apiKey: config.ai.openRouterApiKey,
+      defaultHeaders: {
+        'HTTP-Referer': 'https://newsletter.saurabhjalendra.com',
+        'X-Title': 'AI Newsletter Summarizer'
+      }
+    });
+    this.model = config.ai.openRouterModel;
   }
 
   /**
@@ -20,20 +28,20 @@ export class GeminiSummarizer {
       };
     }
 
-    console.log(`Summarizing ${newsletters.length} newsletters with Gemini AI...`);
+    console.log(`Summarizing ${newsletters.length} newsletters with OpenRouter (${this.model})...`);
 
     try {
       // Process each newsletter individually for detailed summaries
-      // Sequential processing to avoid rate limits (free tier: 10 req/min)
+      // Sequential processing to avoid rate limits
       const individualSummaries = [];
       for (let i = 0; i < newsletters.length; i++) {
         console.log(`  [${i + 1}/${newsletters.length}] Summarizing newsletter from ${newsletters[i].from}...`);
         const summary = await this.summarizeIndividual(newsletters[i]);
         individualSummaries.push(summary);
 
-        // Add delay between requests to avoid rate limits (6 seconds = max 10/min)
+        // Add delay between requests (adjust as needed)
         if (i < newsletters.length - 1) {
-          await new Promise(resolve => setTimeout(resolve, 6000));
+          await new Promise(resolve => setTimeout(resolve, 2000));
         }
       }
 
@@ -50,6 +58,20 @@ export class GeminiSummarizer {
       console.error('Error during summarization:', error);
       throw error;
     }
+  }
+
+  /**
+   * Generate content using OpenRouter
+   */
+  async generateContent(prompt) {
+    const completion = await this.openRouter.chat.completions.create({
+      model: this.model,
+      messages: [
+        { role: 'user', content: prompt }
+      ]
+    });
+
+    return completion.choices[0].message.content;
   }
 
   /**
@@ -95,9 +117,7 @@ Format your response as:
 Be thorough - missing information is worse than being verbose.`;
 
     try {
-      const result = await this.model.generateContent(prompt);
-      const response = result.response;
-      const summary = response.text();
+      const summary = await this.generateContent(prompt);
 
       return {
         from: newsletter.from,
@@ -164,9 +184,7 @@ Format:
 Total Newsletters: ${individualSummaries.length}`;
 
     try {
-      const result = await this.model.generateContent(prompt);
-      const response = result.response;
-      return response.text();
+      return await this.generateContent(prompt);
     } catch (error) {
       console.error('Error generating overall summary:', error);
       return `Received ${individualSummaries.length} newsletters. See individual summaries below.`;
