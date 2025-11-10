@@ -1,9 +1,9 @@
 import OpenAI from 'openai';
 import { config } from '../utils/config.js';
 
-export class GeminiSummarizer {
+export class OpenRouterSummarizer {
   constructor() {
-    // Initialize OpenRouter with Llama 3.1 70B
+    // Initialize OpenRouter with Llama 3.3 70B
     this.openRouter = new OpenAI({
       baseURL: 'https://openrouter.ai/api/v1',
       apiKey: config.ai.openRouterApiKey,

@@ -2,7 +2,7 @@
 
 import { EmailFetcher } from './email/fetcher.js';
 import { NewsletterParser } from './email/parser.js';
-import { GeminiSummarizer } from './summarizer/gemini.js';
+import { OpenRouterSummarizer } from './summarizer/openrouter.js';
 import { SummaryStorage } from './database/storage.js';
 import { EmailNotifier } from './notifier/email.js';
 
@@ -15,7 +15,7 @@ async function runSummarization() {
 
   const storage = new SummaryStorage();
   const fetcher = new EmailFetcher();
-  const summarizer = new GeminiSummarizer();
+  const summarizer = new OpenRouterSummarizer();
   const notifier = new EmailNotifier();
 
   try {
@@ -44,7 +44,7 @@ async function runSummarization() {
     console.log(`   Parsed ${parsedNewsletters.length} newsletters`);
 
     // Step 4: Generate AI summaries
-    console.log('\n🤖 Step 4: Generating AI summaries with Gemini...');
+    console.log('\n🤖 Step 4: Generating AI summaries with OpenRouter...');
     const summaryData = await summarizer.summarizeNewsletters(parsedNewsletters);
     console.log('   ✓ Summaries generated');
 

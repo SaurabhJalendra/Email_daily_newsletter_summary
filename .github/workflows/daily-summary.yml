@@ -33,7 +33,6 @@ jobs:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
           NEWSLETTER_SENDERS: ${{ secrets.NEWSLETTER_SENDERS }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ secrets.OPENROUTER_MODEL }}
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}

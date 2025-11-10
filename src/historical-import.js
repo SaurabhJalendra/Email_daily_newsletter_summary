@@ -2,7 +2,7 @@
 
 import { EmailFetcher } from './email/fetcher.js';
 import { NewsletterParser } from './email/parser.js';
-import { GeminiSummarizer } from './summarizer/gemini.js';
+import { OpenRouterSummarizer } from './summarizer/openrouter.js';
 import { SummaryStorage } from './database/storage.js';
 import { EmailNotifier } from './notifier/email.js';
 
@@ -89,7 +89,7 @@ async function processDayNewsletters(date, emails, summarizer, storage) {
  */
 async function runHistoricalImport() {
   const fetcher = new EmailFetcher();
-  const summarizer = new GeminiSummarizer();
+  const summarizer = new OpenRouterSummarizer();
   const storage = new SummaryStorage();
 
   let totalDaysProcessed = 0;

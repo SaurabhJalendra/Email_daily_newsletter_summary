@@ -27,9 +27,8 @@ export const config = {
     senders: process.env.NEWSLETTER_SENDERS?.split(',').map(s => s.trim()) || []
   },
   ai: {
-    geminiApiKey: process.env.GEMINI_API_KEY,
     openRouterApiKey: process.env.OPENROUTER_API_KEY,
-    openRouterModel: process.env.OPENROUTER_MODEL || 'meta-llama/llama-3.1-70b-instruct'
+    openRouterModel: process.env.OPENROUTER_MODEL || 'meta-llama/llama-3.3-70b-instruct'
   },
   notification: {
     recipientEmail: process.env.NOTIFICATION_EMAIL
