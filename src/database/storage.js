@@ -27,7 +27,8 @@ export class SummaryStorage {
    * Save daily summary to JSON file
    */
   async saveSummary(summaryData) {
-    const date = new Date();
+    // Use the date from summaryData if provided, otherwise use current date
+    const date = summaryData.date ? new Date(summaryData.date) : new Date();
     const dateString = this.formatDate(date);
     const filename = `${dateString}.json`;
     const filepath = path.join(DATA_DIR, filename);

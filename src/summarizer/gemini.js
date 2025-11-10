@@ -4,7 +4,7 @@ import { config } from '../utils/config.js';
 export class GeminiSummarizer {
   constructor() {
     this.genAI = new GoogleGenerativeAI(config.ai.geminiApiKey);
-    this.model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-pro-latest' });
+    this.model = this.genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
   }
 
   /**
@@ -24,9 +24,18 @@ export class GeminiSummarizer {
 
     try {
       // Process each newsletter individually for detailed summaries
-      const individualSummaries = await Promise.all(
-        newsletters.map(nl => this.summarizeIndividual(nl))
-      );
+      // Sequential processing to avoid rate limits (free tier: 10 req/min)
+      const individualSummaries = [];
+      for (let i = 0; i < newsletters.length; i++) {
+        console.log(`  [${i + 1}/${newsletters.length}] Summarizing newsletter from ${newsletters[i].from}...`);
+        const summary = await this.summarizeIndividual(newsletters[i]);
+        individualSummaries.push(summary);
+
+        // Add delay between requests to avoid rate limits (6 seconds = max 10/min)
+        if (i < newsletters.length - 1) {
+          await new Promise(resolve => setTimeout(resolve, 6000));
+        }
+      }
 
       // Generate overall daily summary
       const overallSummary = await this.generateOverallSummary(individualSummaries);
