@@ -54,6 +54,11 @@ jobs:
             git push
           fi
 
+      - name: Trigger Vercel deployment
+        if: success()
+        run: |
+          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_9k1CnPiQfm1qHWEjZv1CkfQR6bAp/QVGwQqWZdK"
+
       - name: Upload summary artifacts
         if: always()
         uses: actions/upload-artifact@v4
