@@ -61,9 +61,7 @@ jobs:
           VERCEL_PROJECT_ID: prj_iTdVbHbSDVDXer61oTXPDIMr7oeh
         run: |
           npm install -g vercel
-          vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
-          vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
-          vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+          vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Upload summary artifacts
         if: always()
