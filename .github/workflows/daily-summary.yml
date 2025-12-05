@@ -54,10 +54,13 @@ jobs:
             git push
           fi
 
-      - name: Trigger Vercel deployment
+      - name: Deploy to Vercel
         if: success()
         run: |
-          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_9k1CnPiQfm1qHWEjZv1CkfQR6bAp/QVGwQqWZdK"
+          npm install -g vercel
+          vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+          vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+          vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Upload summary artifacts
         if: always()
