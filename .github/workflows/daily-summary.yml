@@ -56,6 +56,9 @@ jobs:
 
       - name: Deploy to Vercel
         if: success()
+        env:
+          VERCEL_ORG_ID: team_HegGO2eeiZoYQEAfMjz3Y0TG
+          VERCEL_PROJECT_ID: prj_iTdVbHbSDVDXer61oTXPDIMr7oeh
         run: |
           npm install -g vercel
           vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
