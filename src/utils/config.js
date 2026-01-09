@@ -11,7 +11,9 @@ export const config = {
       host: 'imap.gmail.com',
       port: 993,
       tls: true,
-      tlsOptions: { rejectUnauthorized: false }
+      tlsOptions: { rejectUnauthorized: false },
+      authTimeout: 30000,
+      connTimeout: 30000
     },
     smtp: {
       host: 'smtp.gmail.com',
