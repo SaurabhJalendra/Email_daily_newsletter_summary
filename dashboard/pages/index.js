@@ -238,7 +238,15 @@ export async function getStaticProps() {
       jsonFiles.map(async (file) => {
         const filePath = path.join(summariesDir, file);
         const content = await fs.readFile(filePath, 'utf-8');
-        return JSON.parse(content);
+        const data = JSON.parse(content);
+
+        // Strip originalContent to reduce page data size
+        // (not displayed in dashboard, was causing Vercel ISR oversized page errors)
+        if (data.newsletters) {
+          data.newsletters = data.newsletters.map(({ originalContent, ...rest }) => rest);
+        }
+
+        return data;
       })
     );
 
