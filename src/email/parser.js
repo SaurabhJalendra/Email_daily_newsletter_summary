@@ -1,9 +1,20 @@
 import TurndownService from 'turndown';
+import * as cheerio from 'cheerio';
 
 const turndownService = new TurndownService({
   headingStyle: 'atx',
   codeBlockStyle: 'fenced'
 });
+
+function cleanUrl(url) {
+  try {
+    const u = new URL(url);
+    [...u.searchParams.keys()]
+      .filter(k => k.startsWith('utm_'))
+      .forEach(k => u.searchParams.delete(k));
+    return u.toString();
+  } catch { return url; }
+}
 
 export class NewsletterParser {
   /**
@@ -59,24 +70,55 @@ export class NewsletterParser {
    * Extract important links from newsletter
    */
   static extractLinks(html) {
+    const $ = cheerio.load(html);
     const links = [];
-    const linkRegex = /<a[^>]+href=["']([^"']+)["'][^>]*>(.*?)<\/a>/gi;
-    let match;
+    const seen = new Set();
 
-    while ((match = linkRegex.exec(html)) !== null) {
-      const url = match[1];
-      const text = match[2].replace(/<[^>]+>/g, '').trim();
+    const urlBlocklist = [
+      'unsubscribe', 'track.', 'click.',
+      'link.mail.beehiiv.com', 'links.beehiiv.com',
+      'email.mg.', 'click.convertkit',
+      'facebook.com', 'twitter.com', 'linkedin.com', 'instagram.com',
+      'list-manage.com'
+    ];
 
-      // Skip unsubscribe, tracking, and social media links
-      if (!url.includes('unsubscribe') &&
-          !url.includes('track.') &&
-          !url.includes('facebook.com') &&
-          !url.includes('twitter.com') &&
-          !url.includes('linkedin.com') &&
-          text.length > 0) {
-        links.push({ text, url });
-      }
-    }
+    const textBlocklist = [
+      'privacy policy', 'terms of service', 'terms of use', 'email preferences',
+      'manage preferences', 'update preferences', 'become a sponsor', 'submit your',
+      'view in browser', 'read online', 'unsubscribe', 'manage subscription',
+      'powered by', 'sent by', 'forward to a friend'
+    ];
+
+    const assetExtensions = [
+      '.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp', '.ico', '.css', '.js'
+    ];
+
+    $('a[href]').each((_, el) => {
+      const rawUrl = $(el).attr('href');
+      const text = $(el).text().trim();
+
+      if (!rawUrl || !text) return;
+
+      const urlLower = rawUrl.toLowerCase();
+      const textLower = text.toLowerCase();
+
+      // Skip blocked URLs
+      if (urlBlocklist.some(pattern => urlLower.includes(pattern))) return;
+
+      // Skip blocked link text
+      if (textBlocklist.some(pattern => textLower.includes(pattern))) return;
+
+      // Skip image/asset URLs
+      if (assetExtensions.some(ext => urlLower.endsWith(ext))) return;
+
+      const cleaned = cleanUrl(rawUrl);
+
+      // Deduplicate by cleaned URL
+      if (seen.has(cleaned)) return;
+      seen.add(cleaned);
+
+      links.push({ text, url: cleaned });
+    });
 
     return links.slice(0, 10); // Limit to top 10 links
   }

@@ -35,5 +35,11 @@ export const config = {
   notification: {
     recipientEmail: process.env.NOTIFICATION_EMAIL
   },
+  research: {
+    enabled: process.env.RESEARCH_AGENT_ENABLED === 'true',
+    model: process.env.RESEARCH_MODEL || 'meta-llama/llama-3.3-70b-instruct',
+    searchModel: process.env.RESEARCH_SEARCH_MODEL || 'perplexity/sonar-pro',
+    maxSearches: parseInt(process.env.RESEARCH_MAX_SEARCHES || '5', 10)
+  },
   timezone: process.env.TZ || 'Asia/Kolkata'
 };

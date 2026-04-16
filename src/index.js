@@ -5,6 +5,8 @@ import { NewsletterParser } from './email/parser.js';
 import { OpenRouterSummarizer } from './summarizer/openrouter.js';
 import { SummaryStorage } from './database/storage.js';
 import { EmailNotifier } from './notifier/email.js';
+import { ResearchAgent } from './research/agent.js';
+import { config } from './utils/config.js';
 
 /**
  * Main newsletter summarization pipeline
@@ -43,9 +45,21 @@ async function runSummarization() {
     const parsedNewsletters = NewsletterParser.parseNewsletters(emails);
     console.log(`   Parsed ${parsedNewsletters.length} newsletters`);
 
+    // Step 3.5: Research enrichment (if enabled)
+    let enrichedNewsletters = parsedNewsletters;
+    let researchFindings = null;
+    if (config.research?.enabled) {
+      console.log('\n🔍 Step 3.5: Running Research Agent...');
+      const researcher = new ResearchAgent();
+      const enrichedData = await researcher.enrichNewsletters(parsedNewsletters);
+      enrichedNewsletters = enrichedData.enrichedNewsletters;
+      researchFindings = enrichedData.researchFindings;
+      console.log(`   ✓ Research complete: ${researchFindings?.missingStories?.length || 0} additional stories found`);
+    }
+
     // Step 4: Generate AI summaries
     console.log('\n🤖 Step 4: Generating AI summaries with OpenRouter...');
-    const summaryData = await summarizer.summarizeNewsletters(parsedNewsletters);
+    const summaryData = await summarizer.summarizeNewsletters(enrichedNewsletters, researchFindings);
     console.log('   ✓ Summaries generated');
 
     // Step 5: Save summary to storage

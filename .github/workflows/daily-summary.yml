@@ -39,6 +39,10 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ secrets.OPENROUTER_MODEL }}
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+          RESEARCH_AGENT_ENABLED: ${{ secrets.RESEARCH_AGENT_ENABLED }}
+          RESEARCH_MODEL: ${{ secrets.RESEARCH_MODEL }}
+          RESEARCH_SEARCH_MODEL: ${{ secrets.RESEARCH_SEARCH_MODEL }}
+          RESEARCH_MAX_SEARCHES: ${{ secrets.RESEARCH_MAX_SEARCHES }}
           TZ: Asia/Kolkata
         run: npm start
 
