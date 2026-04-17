@@ -45,16 +45,22 @@ async function runSummarization() {
     const parsedNewsletters = NewsletterParser.parseNewsletters(emails);
     console.log(`   Parsed ${parsedNewsletters.length} newsletters`);
 
-    // Step 3.5: Research enrichment (if enabled)
+    // Step 3.5: Research enrichment (if enabled) — failure should not crash pipeline
     let enrichedNewsletters = parsedNewsletters;
     let researchFindings = null;
     if (config.research?.enabled) {
-      console.log('\n🔍 Step 3.5: Running Research Agent...');
-      const researcher = new ResearchAgent();
-      const enrichedData = await researcher.enrichNewsletters(parsedNewsletters);
-      enrichedNewsletters = enrichedData.enrichedNewsletters;
-      researchFindings = enrichedData.researchFindings;
-      console.log(`   ✓ Research complete: ${researchFindings?.missingStories?.length || 0} additional stories found`);
+      try {
+        console.log('\n🔍 Step 3.5: Running Research Agent...');
+        const researcher = new ResearchAgent();
+        const enrichedData = await researcher.enrichNewsletters(parsedNewsletters);
+        enrichedNewsletters = enrichedData.enrichedNewsletters;
+        researchFindings = enrichedData.researchFindings;
+        console.log(`   ✓ Research complete: ${researchFindings?.missingStories?.length || 0} additional stories found`);
+      } catch (error) {
+        console.error('   ⚠️  Research agent failed, continuing without research:', error.message);
+        enrichedNewsletters = parsedNewsletters;
+        researchFindings = null;
+      }
     }
 
     // Step 4: Generate AI summaries

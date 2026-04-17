@@ -23,10 +23,11 @@ const emailRenderer = {
     return `<li class="md-li">${text}</li>`;
   },
   link({ href, text }) {
-    // Strip tracking URLs and overly long URLs from summary markdown
-    // (LLM sometimes includes them despite prompt instructions)
+    // Strip tracking URLs from summary markdown (LLM sometimes includes them despite prompt)
+    // Bumped threshold to 250 chars so legitimate long URLs (GitHub gists, arXiv with params,
+    // Google Docs, signed S3) stay clickable
     const isTracking = /link\.mail\.beehiiv\.com|tracking\.tldrnewsletter\.com|journalclub\.io\/track|link\.skool\.com|app\.alphasignal\.ai\/c|links\.beehiiv\.com/.test(href);
-    if (isTracking || href.length > 150) {
+    if (isTracking || href.length > 250) {
       return `<span class="md-strong">${text}</span>`;
     }
     return `<a href="${href}" class="md-a">${text}</a>`;
@@ -235,8 +236,9 @@ export class EmailNotifier {
         <div class="links-sec">
           <span class="links-label">Links: </span>
           ${nl.links.slice(0, 5).map(link => {
-            const shortText = link.text.length > 30 ? link.text.substring(0, 28) + '…' : link.text;
-            return `<a href="${escapeHtml(link.url)}" class="link-pill">${escapeHtml(shortText)}</a>`;
+            const text = link.text || link.url || 'link';
+            const shortText = text.length > 30 ? text.substring(0, 28) + '…' : text;
+            return `<a href="${escapeHtml(link.url || '#')}" class="link-pill">${escapeHtml(shortText)}</a>`;
           }).join('')}
         </div>` : '';
 

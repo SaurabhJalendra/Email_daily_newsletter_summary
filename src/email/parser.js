@@ -9,11 +9,13 @@ const turndownService = new TurndownService({
 function cleanUrl(url) {
   try {
     const u = new URL(url);
+    // Only allow http(s) — reject mailto:, tel:, javascript:, etc.
+    if (u.protocol !== 'http:' && u.protocol !== 'https:') return null;
     [...u.searchParams.keys()]
       .filter(k => k.startsWith('utm_'))
       .forEach(k => u.searchParams.delete(k));
     return u.toString();
-  } catch { return url; }
+  } catch { return null; }
 }
 
 export class NewsletterParser {
@@ -70,7 +72,13 @@ export class NewsletterParser {
    * Extract important links from newsletter
    */
   static extractLinks(html) {
-    const $ = cheerio.load(html);
+    let $;
+    try {
+      $ = cheerio.load(html);
+    } catch (error) {
+      console.error('Error loading HTML with cheerio:', error.message);
+      return [];
+    }
     const links = [];
     const seen = new Set();
 
@@ -120,10 +128,13 @@ export class NewsletterParser {
       // Skip blocked link text
       if (textBlocklist.some(pattern => textLower.includes(pattern))) return;
 
-      // Skip image/asset URLs
-      if (assetExtensions.some(ext => urlLower.endsWith(ext))) return;
+      // Skip image/asset URLs (check pathname to handle query strings like logo.png?v=1)
+      let pathname = urlLower;
+      try { pathname = new URL(rawUrl).pathname.toLowerCase(); } catch {}
+      if (assetExtensions.some(ext => pathname.endsWith(ext))) return;
 
       const cleaned = cleanUrl(rawUrl);
+      if (!cleaned) return; // skip mailto:, tel:, relative, javascript:, etc.
 
       // Deduplicate by cleaned URL
       if (seen.has(cleaned)) return;

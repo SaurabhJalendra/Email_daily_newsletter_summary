@@ -72,18 +72,24 @@ export class OpenRouterSummarizer {
   }
 
   /**
-   * Derive the logical date from newsletter dates, using IST timezone
+   * Derive the logical IST calendar date from newsletter dates.
+   * Uses the EARLIEST newsletter's IST date to avoid the midnight boundary bug
+   * (pipeline runs at 00:05 IST, fetches yesterday's newsletters, but a newsletter
+   * received at 00:02 IST today shouldn't drag the digest into today's filename).
    */
   deriveDateFromNewsletters(newsletters) {
     const dates = newsletters
       .map(nl => nl.date ? new Date(nl.date) : null)
       .filter(d => d && !isNaN(d.getTime()));
 
-    if (dates.length > 0) {
-      dates.sort((a, b) => b - a);
-      return dates[0]; // Most recent newsletter date
-    }
-    return new Date();
+    if (dates.length === 0) return new Date();
+
+    dates.sort((a, b) => a - b); // earliest first
+    const earliest = dates[0];
+
+    // Pin to IST calendar day start (prevents cross-day drift from timestamp-based selection)
+    const istDateString = earliest.toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
+    return new Date(`${istDateString}T00:00:00+05:30`);
   }
 
   /**
@@ -104,6 +110,23 @@ export class OpenRouterSummarizer {
    * Summarize individual newsletter with ALL key information preserved
    */
   async summarizeIndividual(newsletter) {
+    // Defensive defaults — protect against undefined/null fields
+    const textContent = newsletter.textContent || '';
+    const links = Array.isArray(newsletter.links) ? newsletter.links : [];
+
+    // Skip empty content with a low-priority marker
+    if (!textContent.trim()) {
+      return {
+        from: newsletter.from,
+        subject: newsletter.subject,
+        date: newsletter.date,
+        summary: `*No content extracted from this newsletter.*\n\n**Priority: LOW**`,
+        links,
+        priority: 'LOW',
+        originalContent: ''
+      };
+    }
+
     const researchSection = newsletter.researchContext
       ? `\n\nAdditional Research Context:\n${newsletter.researchContext}`
       : '';
@@ -115,10 +138,10 @@ Subject: ${newsletter.subject}
 Date: ${newsletter.date}
 
 Content:
-${newsletter.textContent}
+${textContent}
 
 Important Links:
-${newsletter.links.map(l => `- ${l.text}: ${l.url}`).join('\n')}
+${links.map(l => `- ${l.text}: ${l.url}`).join('\n')}
 ${researchSection}
 
 Instructions:
@@ -157,18 +180,22 @@ Be thorough - missing information is worse than being verbose.`;
     try {
       const summary = await this.generateContent(prompt);
 
-      // Extract priority from the summary
-      const priorityMatch = summary.match(/\*\*Priority:\s*(HIGH|MEDIUM|LOW)\*\*/i);
+      // Extract priority — permissive regex handles all common LLM variations:
+      // **Priority: HIGH**, **Priority:** HIGH, **Priority**: HIGH, Priority: HIGH, etc.
+      const priorityMatch = summary.match(/priority\*{0,2}\s*:?\s*\*{0,2}\s*(HIGH|MEDIUM|LOW)\b/i);
       const priority = priorityMatch ? priorityMatch[1].toUpperCase() : 'MEDIUM';
+      if (!priorityMatch) {
+        console.warn(`⚠️  Priority not detected for "${newsletter.subject}" — defaulting to MEDIUM`);
+      }
 
       return {
         from: newsletter.from,
         subject: newsletter.subject,
         date: newsletter.date,
         summary: summary,
-        links: newsletter.links,
+        links,
         priority,
-        originalContent: newsletter.textContent.substring(0, 1000) // Keep snippet for reference
+        originalContent: textContent.substring(0, 1000) // Keep snippet for reference
       };
     } catch (error) {
       console.error(`Error summarizing newsletter from ${newsletter.from}:`, error);
@@ -177,7 +204,7 @@ Be thorough - missing information is worse than being verbose.`;
         subject: newsletter.subject,
         date: newsletter.date,
         summary: `Error generating summary. Original subject: ${newsletter.subject}`,
-        links: newsletter.links,
+        links: Array.isArray(newsletter.links) ? newsletter.links : [],
         priority: 'LOW',
         error: error.message
       };

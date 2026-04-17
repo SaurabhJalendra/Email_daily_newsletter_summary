@@ -53,9 +53,14 @@ export class ResearchAgent {
 
     // 3. Find missing stories
     const coveredTopics = entities.map(e => e.name);
-    const dateString = parsedNewsletters[0]?.date
-      ? new Date(parsedNewsletters[0].date).toISOString().split('T')[0]
-      : new Date().toISOString().split('T')[0];
+    // Use earliest newsletter date in IST to match summarizer's logic
+    const datesFromNewsletters = parsedNewsletters
+      .map(nl => nl.date ? new Date(nl.date) : null)
+      .filter(d => d && !isNaN(d.getTime()))
+      .sort((a, b) => a - b);
+    const dateString = datesFromNewsletters[0]
+      ? datesFromNewsletters[0].toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' })
+      : new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
 
     let missingStories = [];
     try {
@@ -67,10 +72,13 @@ export class ResearchAgent {
 
     // 4. Build research context per newsletter and add "why it matters" to top stories
     const enrichedNewsletters = parsedNewsletters.map(newsletter => {
-      // Find relevant context for this newsletter
+      // Find relevant context — use word-boundary match to avoid common-word false positives
       const relevantContext = additionalContext.filter(ctx => {
-        const newsletterText = `${newsletter.subject} ${newsletter.textContent}`.toLowerCase();
-        return newsletterText.includes(ctx.topic.toLowerCase());
+        if (!ctx?.topic || ctx.topic.length < 3) return false;
+        const text = `${newsletter.subject || ''} ${newsletter.textContent || ''}`;
+        const escaped = ctx.topic.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const regex = new RegExp(`\\b${escaped}\\b`, 'i');
+        return regex.test(text);
       });
 
       return {
@@ -240,7 +248,9 @@ Limit to the top 5 most significant missing stories.`;
       ]
     });
 
-    return completion.choices[0].message.content;
+    const content = completion?.choices?.[0]?.message?.content;
+    if (!content) throw new Error(`Empty response from OpenRouter (model: ${model})`);
+    return content;
   }
 
   /**
@@ -250,6 +260,10 @@ Limit to the top 5 most significant missing stories.`;
    * @returns {Array}
    */
   _parseJsonArray(text, fallback = []) {
+    if (typeof text !== 'string' || !text.trim()) {
+      console.warn('⚠️  Empty/non-string LLM response; using fallback.');
+      return fallback;
+    }
     try {
       // Try direct parse first
       const parsed = JSON.parse(text);
@@ -287,6 +301,10 @@ Limit to the top 5 most significant missing stories.`;
    * @returns {Object|null}
    */
   _parseJsonObject(text, fallback = null) {
+    if (typeof text !== 'string' || !text.trim()) {
+      console.warn('⚠️  Empty/non-string LLM response; using fallback.');
+      return fallback;
+    }
     try {
       const parsed = JSON.parse(text);
       if (typeof parsed === 'object' && !Array.isArray(parsed)) return parsed;
