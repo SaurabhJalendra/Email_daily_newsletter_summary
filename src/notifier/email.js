@@ -187,15 +187,16 @@ export class EmailNotifier {
         ? `<p style="margin: 10px 0 0 0;"><a href="https://newsletters.saurabhjalendra.com?date=${dateParam}" style="color: #667eea; text-decoration: none; font-weight: 600;">Read full summary on dashboard →</a></p>`
         : '';
 
+      // Render links as compact inline pills — no raw URLs shown
       const linksHtml = nl.links && nl.links.length > 0 ? `
-        <table cellpadding="0" cellspacing="0" style="margin-top: 12px; border-top: 1px solid #e5e7eb; padding-top: 10px; width: 100%;">
-          <tr><td style="padding-top: 8px;">
-            <strong style="color: #555; font-size: 13px;">Notable Links:</strong>
-            <ul style="margin: 6px 0 0 0; padding-left: 20px;">
-              ${nl.links.slice(0, 5).map(link => `
-                <li style="margin: 3px 0;"><a href="${escapeHtml(link.url)}" style="color: #0066cc; font-size: 13px; text-decoration: none;">→ ${escapeHtml(link.text)}</a></li>
-              `).join('')}
-            </ul>
+        <table cellpadding="0" cellspacing="0" style="margin-top: 12px; border-top: 1px solid #e5e7eb; width: 100%;">
+          <tr><td style="padding-top: 10px;">
+            <strong style="color: #555; font-size: 12px;">Links: </strong>
+            ${nl.links.slice(0, 5).map(link => {
+              // Shorten link text to max 30 chars
+              const shortText = link.text.length > 30 ? link.text.substring(0, 28) + '…' : link.text;
+              return `<a href="${escapeHtml(link.url)}" style="display: inline-block; color: #0066cc; font-size: 12px; text-decoration: none; background: #eff6ff; padding: 3px 8px; border-radius: 4px; margin: 2px 4px 2px 0;">${escapeHtml(shortText)}</a>`;
+            }).join(' ')}
           </td></tr>
         </table>` : '';
 
@@ -330,7 +331,7 @@ export class EmailNotifier {
       const { text: truncatedSummary } = truncateForEmail(nl.summary, 300);
       const cleanSummary = stripMarkdown(truncatedSummary);
       const linksText = nl.links && nl.links.length > 0
-        ? `\nLinks:\n${nl.links.slice(0, 5).map(link => `  → ${link.text}: ${link.url}`).join('\n')}\n`
+        ? `\nLinks: ${nl.links.slice(0, 5).map(link => `[${link.text}]`).join(' | ')}\n(Open in dashboard for clickable links)\n`
         : '';
 
       return `${'═'.repeat(60)}

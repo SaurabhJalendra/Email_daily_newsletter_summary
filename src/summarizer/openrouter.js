@@ -131,11 +131,13 @@ Instructions:
 7. Focus on AI, ML, and directly related technology content
 8. Exclude generic marketing, sponsor content, and non-AI filler
 9. DO NOT create separate "Key Highlights" and "Detailed Points" sections that repeat the same information
+10. DO NOT include raw tracking/redirect URLs in your summary (URLs containing beehiiv.com, tldrnewsletter.com, skool.com/ls/click, alphasignal.ai/c). Only reference links by descriptive name.
+11. If the newsletter is primarily a webinar invitation, product ad, or promotional content with no AI news, mark it as LOW priority
 
 Rate this newsletter's impact for AI practitioners:
-- HIGH: Breaking news, major model release, significant industry shift
-- MEDIUM: Notable update, useful tool, interesting research
-- LOW: Minor update, niche topic, primarily promotional
+- HIGH: ONLY for breaking news, major model releases (GPT-5, Claude 4, Gemini 2), significant acquisitions/funding >$100M, or paradigm shifts. Most newsletters should NOT be HIGH.
+- MEDIUM: Notable updates, useful tool launches, interesting research papers, industry news
+- LOW: Minor updates, niche topics, primarily promotional/marketing content, webinar invitations, course promotions, non-AI content
 
 Format your response as:
 ## [Newsletter Name]

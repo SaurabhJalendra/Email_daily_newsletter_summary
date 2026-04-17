@@ -75,11 +75,20 @@ export class NewsletterParser {
     const seen = new Set();
 
     const urlBlocklist = [
-      'unsubscribe', 'track.', 'click.',
-      'link.mail.beehiiv.com', 'links.beehiiv.com',
-      'email.mg.', 'click.convertkit',
+      'unsubscribe',
       'facebook.com', 'twitter.com', 'linkedin.com', 'instagram.com',
       'list-manage.com'
+    ];
+
+    // Tracking redirect domains — these hide the real destination URL
+    const trackingDomains = [
+      'link.mail.beehiiv.com', 'links.beehiiv.com',
+      'email.mg.', 'click.convertkit',
+      'tracking.tldrnewsletter.com',
+      'journalclub.io/track/',
+      'link.skool.com',
+      'app.alphasignal.ai/c',
+      'track.', 'click.'
     ];
 
     const textBlocklist = [
@@ -102,8 +111,11 @@ export class NewsletterParser {
       const urlLower = rawUrl.toLowerCase();
       const textLower = text.toLowerCase();
 
-      // Skip blocked URLs
+      // Skip blocked URLs (social media, unsubscribe)
       if (urlBlocklist.some(pattern => urlLower.includes(pattern))) return;
+
+      // Skip tracking redirect URLs
+      if (trackingDomains.some(domain => urlLower.includes(domain))) return;
 
       // Skip blocked link text
       if (textBlocklist.some(pattern => textLower.includes(pattern))) return;
