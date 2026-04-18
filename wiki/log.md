@@ -61,6 +61,235 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 **Digest generated**: wiki/digests/2025-W42.md (covers 2025-10-13 → 2025-10-19, 7 ingests)
 
+## 2025-11-04
+**Ingested**: data/summaries/2025-11-04.json (12 newsletters; LLM summaries plus subject-line signals; the deal-flow finale of the late-2025 backfill window)
+
+**Pages updated**:
+- [[openai]] — $38B multi-year [[amazon]] AWS compute deal; AGI roadmap framing
+- [[amazon]] — $38B OpenAI compute win
+- [[anthropic]] — Dario Amodei ~2030 AGI timeline articulated
+- [[google]] — [[gemma]] open model pulled after Senator Marsha Blackburn defamation incident
+- [[alibaba]] — Qwen3-Max-Thinking reportedly hits 100% AIME 2025
+- [[ai-funding-rounds]] — $38B AWS-OpenAI deal; Massive Deals Offset Bubble Concerns
+- [[ai-hardware]] — $38B AWS-OpenAI: hundreds of thousands of NVIDIA GPUs across AWS data centers
+- [[ai-regulation]] — Gemma defamation pull adds political-defamation as a regulatory vector
+- [[ai-bubble-concerns]] — "Massive AI Deals Continue To Offset Bubble Concerns" framing
+
+**Pages created**: *(none — all entities already had pages from earlier backfill)*
+
+**Notable**: The $38B OpenAI-AWS deal is OpenAI's first major hyperscaler diversification away from Microsoft Azure and the largest single AI-cloud customer win for AWS to date — flipping the narrative that landed earlier in the week (AWS layoffs, AWS-struggling-on-AI). Combined with Qwen3-Max-Thinking's headline 100% AIME and Anthropic's public AGI-by-2030 timeline, the day frames a "frontier labs commit to compute, model timelines, and reasoning benchmarks all at once" theme. The Gemma defamation pull is the first time a major US senator has forced a frontier lab to remove a model — a regulatory-pressure first.
+
+## 2025-11-03
+**Ingested**: data/summaries/2025-11-03.json (12 newsletters; strong LLM coverage day; Apple-Gemini story dominates)
+
+**Pages updated**:
+- [[apple]] — Apple licenses a private [[google]] [[gemini]] model to power the next Siri; "abandons solo AI strategy"; Q3 2025 revenue $102.5B
+- [[google]] — Apple-Siri/Gemini deal; SRL (Structured Reasoning Learning) for small LLMs; Veo-made ad
+- [[anthropic]] — reports of ~$300B valuation talks
+- [[openai]] — Ilya Sutskever deposition reveals new details on Nov 2023 board ouster
+- [[perplexity]] — favorable court/licensing ruling ("legal permission")
+- [[chatgpt]] / [[ai-browsers]] — [[chatgpt-atlas]] adds Agent Mode for autonomous task execution
+- [[ai-video-generation]] — Veo-made ad coverage
+- [[ai-funding-rounds]] — Anthropic $300B rumor
+
+**Pages created**: *(none)*
+
+**Notable**: Apple's Siri-via-Gemini deal is a structural reversal of the "Apple does AI alone" thesis that drove most of October 2025 Apple coverage (M5, internal Siri, AI-team reshuffles). It puts Google in two of the three major US assistant surfaces (its own + Apple's). The Ilya deposition feeds the "what really happened in Nov 2023" archive without changing the present.
+
+## 2025-11-02
+**Ingested**: data/summaries/2025-11-02.json (6 newsletters; mostly weekend ephemera; only OpenAI $1T IPO carries weekend)
+
+**Pages updated**:
+- [[openai]] / [[ai-funding-rounds]] — $1T IPO discussion continues from 2025-10-30 — *source: AI Innovations Hub*
+
+**Pages created**: *(none)*
+
+**Notable**: Lightest weekday-equivalent of the backfill window. AI Innovations Hub re-litigates the $1T IPO; Mindstream covers a creator-hypergrowth story; TAAFT covers a "Dying Robot Mental Breakdown" narrative without substantive AI/ML/dev coverage. Weekend low.
+
+## 2025-11-01
+**Ingested**: data/summaries/2025-11-01.json (8 newsletters; Saturday; Sora-vs-Veo + GitHub shipping coverage)
+
+**Pages updated**:
+- [[sora-2]] / [[ai-video-generation]] — TAAFT publishes "Sora 2 vs Veo 3.1: Who Wins?" head-to-head
+- [[cursor]] — Cursor 2.0 / Composer continues to dominate post-launch coverage
+
+**Pages created**: *(none)*
+
+**Notable**: GitHub shipping spree coverage in Hello, World! is a "GitHub keeps moving" signal alongside the Oct 29 [[github-agent-hq]] launch. Lumi.new (build apps with AI) surfaces in World of AI as part of the long tail of agentic-coding tools spawned in the 2025-10-29..30 window.
+
+## 2025-10-31
+**Ingested**: data/summaries/2025-10-31.json (16 newsletters; LLM coverage rich; the launch-cluster day before the weekend)
+
+**Pages updated**:
+- [[openai]] — [[aardvark]] launches (GPT-5 code-security agent; 92% identification, 10 CVEs); [[sora-2]] monetization rolls out
+- [[xai]] — [[grokipedia]] launches as Grok-built Wikipedia alternative
+- [[meta]] — Meta raises $25B in bonds for AI infrastructure
+- [[alibaba]] — Quark AI Glasses surface in coverage
+- [[claude-code]] — "Claude Code secrets" power-user coverage
+- [[cursor]] / [[cursor-composer]] — AlphaSignal headlines Composer at "first in-house model, 4× faster coding"
+- [[agent-frameworks]] — Composer launch in this category
+- [[prompt-injection]] — TAAFT "AI's Brain Got Hacked" + Aardvark security-agent framing
+- [[perplexity]] — defense-in-depth security write-up for [[perplexity-comet]]
+- [[ai-bubble-concerns]] — "Vertical AI Eats SaaS" framing as bull-case counter
+- [[ai-hardware]] — Meta $25B bond
+- [[ai-funding-rounds]] — Meta $25B bond; NVIDIA $5T context
+
+**Pages created**: *(none — Aardvark, Grokipedia pages were created in the previous backfill batch and remain on disk)*
+
+**Notable**: Three ship-day items hit at once: OpenAI's first agentic-security product (Aardvark), xAI's first knowledge product (Grokipedia), and Cursor's first in-house model (Composer). Combined with [[sora-2]] monetization and Meta's $25B AI-infra bond, the day is the densest single-day product/funding cluster in the 15-day window.
+
+## 2025-10-30
+**Ingested**: data/summaries/2025-10-30.json (9 newsletters; LLM-summary day; Cursor 2.0 + Extropic + Cognition SWE-1.5 + $1T IPO + $5T NVIDIA)
+
+**Pages updated**:
+- [[cursor]] / [[cursor-composer]] — Cursor 2.0 launches with in-house Composer model and multi-agent UI
+- [[cognition]] — SWE-1.5 ships on Windsurf
+- [[extropic]] — TSU thermodynamic-sampling chip with ~10,000× energy-efficiency claim
+- [[openai]] / [[ai-funding-rounds]] — $1T IPO exploration
+- [[nvidia]] / [[ai-funding-rounds]] — market cap reportedly tops $5T
+- [[microsoft]] — Copilot App Builder turns Copilot into no-code enterprise app surface
+- [[meta]] — $75B AI-infrastructure spend coverage continues
+- [[agent-frameworks]] — Cursor 2.0 multi-agent IDE; Cognition SWE-1.5
+- [[ai-hardware]] — Extropic TSU; NVIDIA $5T; Meta $75B
+- [[ai-bubble-concerns]] — $1T IPO and $5T cap as bubble-watch milestones
+- [[enterprise-ai]] — Microsoft Copilot App Builder
+
+**Pages created**: *(none — Extropic, Cursor Composer, Cognition were created earlier in the backfill batch)*
+
+**Notable**: Two-track day. Track one is product velocity in agentic coding IDEs — Cursor 2.0 + SWE-1.5 ship the same day, both with their own coding model, marking the moment the AI-IDE category crossed from "thin client over OpenAI/Anthropic" to "model vendor." Track two is finance — $1T OpenAI IPO and $5T NVIDIA cap land alongside Meta's $75B infra commitment, sustaining the bubble-debate cycle. Extropic is the dark-horse hardware story.
+
+## 2025-10-29
+**Ingested**: data/summaries/2025-10-29.json (16 newsletters; LLM-rich; OpenAI recapitalization, Mercor $10B, GitHub Agent HQ, Uber 100k robotaxi, ChatGPT mental-health & PayPal)
+
+**Pages updated**:
+- [[openai]] — for-profit (PBC) recapitalization completes; Microsoft renewed at ~27%; PayPal in ChatGPT; AGI roadmap revealed; ChatGPT mental-health/suicide-prevention plan
+- [[microsoft]] — OpenAI partnership renewed at reported ~27% stake
+- [[anthropic]] — featured agent in [[github-agent-hq]] launch
+- [[mercor]] — $350M raise at $10B valuation
+- [[nvidia]] — Uber to deploy 100k NVIDIA-powered robotaxis
+- [[character-ai]] — announces ban on minors using its chatbots (effective Nov 25 2025)
+- [[chatgpt]] — PayPal checkout; mental-health plan
+- [[sora-2]] / [[ai-video-generation]] — "AI Video Creates Itself Live"
+- [[agent-frameworks]] — GitHub Agent HQ as multi-agent control plane
+- [[enterprise-ai]] — GitHub Agent HQ
+- [[ai-funding-rounds]] — OpenAI recapitalization, Mercor $10B
+- [[ai-regulation]] — Character.AI minors ban; ChatGPT mental-health plan
+
+**Pages created**: *(none — Mercor, GitHub Agent HQ, Character.AI pages were created in the earlier backfill batch)*
+
+**Notable**: Highest-density day for OpenAI-corporate news in the window: the recapitalization closes the for-profit transition, the Microsoft renewal sets the new ownership math, PayPal joins Walmart as the second commerce surface, and the AGI roadmap is published the same day. GitHub Agent HQ is structurally important — it's the first hyperscaler-grade multi-agent control plane outside the labs themselves.
+
+## 2025-10-28
+**Ingested**: data/summaries/2025-10-28.json (14 newsletters; LLM-rich; Excel + Company Knowledge + Qualcomm + Mercor + Amazon layoffs)
+
+**Pages updated**:
+- [[openai]] / [[chatgpt]] / [[chatgpt-company-knowledge]] — workplace-RAG ChatGPT launches over Slack/Drive/SharePoint/GitHub/Gmail with citations
+- [[anthropic]] / [[claude-for-excel]] — Claude as Excel sidebar with finance-tuned Agent Skills
+- [[amazon]] — 30,000 corporate-staff layoffs announced
+- [[qualcomm]] — AI200 / AI250 data-center AI chips announced
+- [[mercor]] — $10B valuation surfaces
+- [[deepseek]] — World of AI flags new DeepSeek release ("DeepSeek DROPPED a NEW AI!")
+- [[enterprise-ai]] — Company Knowledge + Excel as the two main enterprise launches of the day
+- [[ai-hardware]] — Qualcomm AI200/AI250
+
+**Pages created**: *(none — Company Knowledge, Claude for Excel, Qualcomm, Mercor, Amazon pages all from earlier backfill)*
+
+**Notable**: The two flagship workplace-AI launches land in the same 24-hour window — Claude moves into Excel for finance teams, ChatGPT moves into the rest of enterprise SaaS via Company Knowledge. Qualcomm's data-center entry is the most significant non-NVIDIA / non-AMD silicon news of the period. Amazon's layoffs and the AI-coding-tools narrative converge.
+
+## 2025-10-27
+**Ingested**: data/summaries/2025-10-27.json (11 newsletters; LLM-rich; SoftBank $22.5B, OpenAI music, AWS struggles, Mistral Studio, Google vibe coding, Perplexity-Getty)
+
+**Pages updated**:
+- [[openai]] — SoftBank invests $22.5B; music-generator project surfaces; mitigation guidance for prompt injections
+- [[google]] — vibe-coding tool surfaces; Pomelli-class consumer surface coverage
+- [[mistral]] / [[mistral-studio]] — production-AI platform launches
+- [[perplexity]] — Getty Images licensing deal coverage
+- [[nvidia]] — robotaxi coverage; AWS-vs-NVIDIA framing
+- [[amazon]] — AWS criticized as struggling on AI / internal bureaucracy
+- [[prompt-injection]] — OpenAI publishes mitigation guidance for ChatGPT
+- [[enterprise-ai]] — Mistral Studio
+- [[ai-funding-rounds]] — SoftBank $22.5B
+
+**Pages created**: *(none — Mistral, Mistral Studio created in earlier backfill batch)*
+
+**Notable**: SoftBank's $22.5B is the largest single financing event of the 15-day window prior to the AWS deal. OpenAI's music-generator surfacing the same day as the SoftBank tranche is interesting timing — points to where the next consumer surface is going. Mistral Studio gives Europe a credible production-AI platform alongside the US-lab launches.
+
+## 2025-10-26
+**Ingested**: data/summaries/2025-10-26.json (8 newsletters; Sunday; subject-line-only)
+
+**Pages updated**:
+- [[openai]] — "OpenAI's Secret Music Lab" surfaces as Sunday teaser ahead of Mon Oct 27 SoftBank/music coverage
+- [[ai-bubble-concerns]] — "You Have No Idea How Screwed OpenAI Actually Is" Medium-curated bubble-skeptic essay
+
+**Pages created**: *(none)*
+
+**Notable**: Sunday low day. The "Secret Music Lab" framing is the only signal that recurs into Monday coverage. Dropbox redefining work with Dash and "Largest Science Project Ever" appear as adjacencies but don't reach the AI/ML/dev-tools threshold.
+
+## 2025-10-25
+**Ingested**: data/summaries/2025-10-25.json (7 newsletters; Saturday; mostly subject-line-only or off-topic)
+
+**Pages updated**:
+- [[ai-bubble-concerns]] — "Apple Just Pulled the Plug on the AI Hype" (Medium); "AI, AGI, and the End of Coding" (TAAFT) — bubble-vs-transformation framings
+
+**Pages created**: *(none)*
+
+**Notable**: AWS-saga retrospective in Hello, World! Mindstream "Email marketing? Use Claude" is a use-case piece. Saturday low.
+
+## 2025-10-24
+**Ingested**: data/summaries/2025-10-24.json (12 newsletters; LLM-rich; AWS post-mortem, Google-Anthropic deal, Microsoft Mico, Meta cuts AI staff, Netflix AI era)
+
+**Pages updated**:
+- [[anthropic]] / [[google]] — Google Cloud + Anthropic multi-year TPU deal (reported up to ~$50B / 1M TPUs)
+- [[microsoft]] — "Mico" Copilot personality upgrade; Microsoft AI browser surfaces
+- [[meta]] — Meta cuts AI staff (Vibes group / AI org reorg)
+- [[amazon]] — AWS post-mortem coverage on the global outage
+- [[ai-hardware]] — Google-Anthropic TPU deal as the day's silicon headline
+- [[ai-funding-rounds]] — Google-Anthropic TPU deal
+- [[enterprise-ai]] — Microsoft Mico personality and AI browser surface
+
+**Pages created**: *(none)*
+
+**Notable**: The Google-Anthropic TPU deal is the third multi-billion-dollar lab-hyperscaler compute commitment in three weeks (after AMD-OpenAI and Broadcom-OpenAI), and it explicitly diversifies Anthropic away from sole AWS dependence. Mico is Microsoft consciously trying to repeat the Clippy/Cortana brand-personality experiment with a more capable Copilot underneath.
+
+## 2025-10-23
+**Ingested**: data/summaries/2025-10-23.json (9 newsletters; LLM-rich; Atlas hidden-text hijack, ASI freeze open letter, Meta AI layoffs, Google quantum)
+
+**Pages updated**:
+- [[chatgpt-atlas]] / [[chatgpt]] / [[ai-browsers]] / [[prompt-injection]] — hidden-text browser-hijack vulnerability disclosed against Atlas
+- [[openai]] — Open letter demands ASI freeze
+- [[google]] — Google quantum-algorithm coverage
+- [[meta]] — Meta AI layoffs coverage
+- [[ai-regulation]] — Open letter demands ASI freeze; hidden-text browser-security regulatory questions
+
+**Pages created**: *(none)*
+
+**Notable**: Atlas's first big public security event arrives within 24 hours of launch — a fast feedback loop that defines the [[prompt-injection]] / [[ai-browsers]] beat for the rest of the window. The ASI-freeze letter is a notable industry-coordination signal even if non-binding.
+
+## 2025-10-22
+**Ingested**: data/summaries/2025-10-22.json (15 newsletters; the [[chatgpt-atlas]] launch day; richest LLM-summary day of the backfill window)
+
+**Pages updated**:
+- [[openai]] / [[chatgpt]] / [[chatgpt-atlas]] / [[ai-browsers]] — Atlas launches as Chromium-based browser with built-in ChatGPT; OpenAI enters the browser war
+- [[anthropic]] — "Special agent Claude" coverage on agentic Claude positioning; "Anthropic + Google" framing
+
+**Pages created**: *(none — Atlas page from earlier backfill batch)*
+
+**Notable**: Single-product-launch headline day. Atlas is OpenAI's most direct attack on the Google Chrome / Microsoft Edge consumer-browser stack to date and reframes [[ai-browsers]] from a niche category (Opera, Comet) into a frontier-lab category. Amazon's "automating 500k jobs" coverage plays as adjacent labor narrative.
+
+## 2025-10-21
+**Ingested**: data/summaries/2025-10-21.json (13 newsletters; LLM-rich; AWS global outage, Sora-Hollywood, Claude Code Web, DeepSeek OCR, AI bubble framing)
+
+**Pages updated**:
+- [[anthropic]] / [[claude-code]] / [[claude-code-web]] / [[agent-frameworks]] — Claude Code Web launches for browser/cloud-based dev work
+- [[openai]] / [[sora-2]] / [[ai-video-generation]] — "Sora breaks bad with Hollywood" — IP/cameo backlash and studio pushback
+- [[deepseek]] / [[deepseek-ocr]] — DeepSeek-OCR open-source release coverage (10× vision-token compression, 97% accuracy)
+- [[amazon]] / [[ai-hardware]] — global AWS outage disrupts services worldwide
+- [[ai-bubble-concerns]] — "is AI a bubble?" framing in TLDR AI cycle
+
+**Pages created**: *(none — Claude Code Web, DeepSeek, DeepSeek-OCR, Amazon pages all from earlier backfill batch)*
+
+**Notable**: Day-1 of the 15-day backfill window. Claude Code Web is the first browser-native deployment of a major frontier-lab CLI coding agent — a notable move from terminal-only to managed-cloud surface. The AWS outage is the infrastructure event that frames the rest of the week's AWS-vs-NVIDIA / AWS-struggling-on-AI / OpenAI-AWS-deal arc.
+
 ## 2025-10-20
 **Ingested**: data/summaries/2025-10-20.json (13 newsletters; most had failed LLM summarization — worked from subject lines)
 

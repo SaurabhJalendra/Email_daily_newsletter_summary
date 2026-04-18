@@ -10,7 +10,7 @@ type: product
 > **First mentioned**: 2025-10-13
 > **Last updated**: 2026-04-16
 > **Status**: active
-> **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-design]], [[agent-frameworks]], [[jules]], [[cursor]]
+> **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-design]], [[claude-code-web]], [[agent-frameworks]], [[jules]], [[cursor]]
 
 ## Summary
 
@@ -21,6 +21,8 @@ Claude Code is [[anthropic]]'s official command-line coding agent, built around 
 - **2026-04-16**: Always-on Routines launched — reusable prompt/repo/connector bundles running on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: [[claude-design]] ships with direct hand-off into Claude Code for build stage — *source: TAAFT "Claude Just Became a Designer"; World of AI "ANTHROPIC DROPS Claude Design!"*
 - **2026-04-16**: Nate Herk demos a fully autonomous Claude Code 4.7 trading bot that researches, trades on Alpaca, manages stops, and self-reports on cron — illustrative of agentic Claude Code workflows in the community — *source: AI Automation Society*
+- **2025-10-31**: "Claude Code secrets" coverage — power-user features and patterns surface — *source: TLDR AI "Claude Code secrets"*
+- **2025-10-21**: [[claude-code-web]] launches — browser-/cloud-based Claude Code execution outside the terminal — *source: AlphaSignal "Anthropic releases Claude Code Web for cloud-based dev work"; TLDR AI "Claude Code Web"*
 - **2025-10-13**: Claude Code plugins coverage — *source: TLDR AI "Claude Code plugins"*
 
 ## Key Facts
@@ -41,4 +43,6 @@ Claude Code is [[anthropic]]'s official command-line coding agent, built around 
 ## Sources
 
 - data/summaries/2025-10-13.json (TLDR AI — Claude Code plugins)
+- data/summaries/2025-10-21.json (AlphaSignal — Claude Code Web; TLDR AI — Claude Code Web)
+- data/summaries/2025-10-31.json (TLDR AI — Claude Code secrets)
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; TAAFT — Claude Just Became a Designer; World of AI — ANTHROPIC DROPS Claude Design!; AI Automation Society — Nate Herk posted "Claude Opus 4.7 Just Dropped"; AI Automation Society — Nate Herk autonomous trading bot)

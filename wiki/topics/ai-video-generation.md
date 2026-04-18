@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-10-17
-> **Status**: stale
-> **Related**: [[sora-2]], [[veo-3]], [[openai]], [[google]]
+> **Last updated**: 2025-11-03
+> **Status**: active
+> **Related**: [[sora-2]], [[veo-3]], [[openai]], [[google]], [[ai-regulation]]
 
 ## Summary
 
@@ -18,6 +18,11 @@ AI video generation in October 2025 was dominated initially by [[sora-2]] — [[
 
 ## Timeline
 
+- **2025-11-03**: Google demos a Veo-made ad — first studio-grade Veo creative reaches mainstream coverage — *source: AI Breakfast "Google Demos VEO-made Ad"*
+- **2025-11-01**: "Sora 2 vs Veo 3.1: Who Wins?" head-to-head framing in TAAFT — *source: TAAFT*
+- **2025-10-31**: [[sora-2]] monetization rolls out — creator earnings on cameos / character licensing — *source: AI Breakfast*
+- **2025-10-29**: "AI Video Creates Itself Live" — agentic / live generation framing — *source: TAAFT*
+- **2025-10-21**: "Sora breaks bad with Hollywood" — IP/cameo backlash and studio pushback — *source: The Rundown AI*
 - **2025-10-17**: Japan formally asks OpenAI to stop generating manga/anime lookalikes via Sora — *source: Matt from FutureTools "Japan Challenges OpenAI on Copyright"*
 - **2025-10-17**: Sora 2 upgrades alongside ChatGPT "golden hour" memory cull — *source: AI Breakfast*
 - **2025-10-16**: [[google]] launches [[veo-3]] 3.1 — *source: World of AI Newsletter; The Rundown AI; TLDR AI*
@@ -48,3 +53,8 @@ AI video generation in October 2025 was dominated initially by [[sora-2]] — [[
 - data/summaries/2025-10-13.json (TLDR AI — Veo 3.1 leaks)
 - data/summaries/2025-10-16.json (World of AI Newsletter — Google DROPS Veo 3.1; The Rundown AI — Google's new AI video upgrade; TLDR AI — Google Veo 3.1)
 - data/summaries/2025-10-17.json (Matt from FutureTools — Japan Challenges OpenAI on Copyright; AI Breakfast — ChatGPT golden hour memory cull alongside Sora 2 upgrades)
+- data/summaries/2025-10-21.json (The Rundown AI — Sora breaks bad with Hollywood)
+- data/summaries/2025-10-29.json (TAAFT — AI Video Creates Itself Live)
+- data/summaries/2025-10-31.json (AI Breakfast — Sora Monetization)
+- data/summaries/2025-11-01.json (TAAFT — Sora 2 vs Veo 3.1: Who Wins?)
+- data/summaries/2025-11-03.json (AI Breakfast — Google Demos VEO-made Ad)

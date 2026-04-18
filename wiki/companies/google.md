@@ -21,6 +21,13 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-16**: Gemini Mac app launches — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT "Gemini Gets TTS and Mac App"; Superhuman "Gemini gets a Mac app"; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome adds "Skills" — save Gemini prompts to reuse across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
+- **2025-11-04**: [[gemma]] open model pulled after Senator Marsha Blackburn defamation incident — *source: Mindstream "Google's Gemma is in trouble"*
+- **2025-11-03**: SRL (Structured Reasoning Learning) method introduced for small LLMs — *source: AlphaSignal "Google unveils SRL method for structured reasoning in small LLMs"*
+- **2025-11-03**: Apple-Siri / Gemini deal — Apple licenses a private Gemini model to power the next Siri — *source: TLDR "Gemini Siri"; TLDR AI "Siri's private Gemini model"; TAAFT "Apple Abandons Solo AI Strategy"*
+- **2025-11-03**: Veo-made ad demonstrated by Google — *source: AI Breakfast "Google Demos VEO-made Ad"*
+- **2025-10-27**: Vibe-coding tool surfaces from Google; Pomelli / consumer-facing surface coverage — *source: Mindstream "Google's vibe coding tool"*
+- **2025-10-24**: Google Cloud + [[anthropic]] multi-year TPU deal (reported up to 1M TPUs) — *source: TLDR "Google Anthropic deal"*
+- **2025-10-23**: Google quantum-algorithm coverage — *source: TLDR "Google's quantum algo"*
 - **2025-10-20**: [[gemini-3]] confirmed; Maps data added to Gemini API for location-aware responses — *source: AI Breakfast; AlphaSignal; TLDR AI*
 - **2025-10-16**: [[veo-3]] 3.1 launched; DeepMind cancer-treatment research coverage — *source: World of AI; The Rundown AI; TLDR AI; TLDR*
 - **2025-10-15**: Real-time Gemini AI ships in Google Meet — *source: AI Breakfast*
@@ -63,4 +70,9 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - data/summaries/2025-10-15.json (AI Breakfast — Google Ships Real-Time AI in Meet)
 - data/summaries/2025-10-16.json (World of AI — DROPS Veo 3.1; The Rundown AI — new AI video upgrade; TLDR AI — Google Veo 3.1; TLDR — DeepMind cancer treatment)
 - data/summaries/2025-10-20.json (AI Breakfast — Gemini 3.0 Confirmed; AlphaSignal — Google adds Maps data to Gemini API; TLDR AI — Google Maps Gemini API)
+- data/summaries/2025-10-23.json (TLDR — Google's quantum algo)
+- data/summaries/2025-10-24.json (TLDR — Google Anthropic deal)
+- data/summaries/2025-10-27.json (Mindstream — Google's vibe coding tool)
+- data/summaries/2025-11-03.json (TLDR — Gemini Siri; TLDR AI — Siri's private Gemini model; TAAFT — Apple Abandons Solo AI Strategy; AI Breakfast — Google Demos VEO-made Ad; AlphaSignal — Google unveils SRL method)
+- data/summaries/2025-11-04.json (Mindstream — Google's Gemma is in trouble)
 - data/summaries/2026-04-16.json (AlphaSignal — Google Gemini 3.1 Flash TTS; World of AI — GOOGLE: Gemini 3.1 TTS DROPS!; TAAFT — Gemini Gets TTS and Mac App; TLDR AI — Gemini 3.1 Flash TTS; The Code — Shoemaker company pivots to AI; Superhuman — Gemini gets a Mac app; The Rundown AI — Allbirds ditches sneakers; "Gemini on your desktop"; Mindstream — AI just made Chrome even more useful)

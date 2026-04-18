@@ -22,6 +22,9 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2025-10-30**: NVIDIA market cap reportedly tops $5T — *source: TLDR "Nvidia hits $5T"; Matt from FutureTools "AI's $5T milestone"*
+- **2025-10-29**: Uber to deploy 100k NVIDIA-powered robotaxis — *source: TLDR "Uber's 100k robotaxis"*
+- **2025-10-27**: NVIDIA robotaxi coverage; AWS-vs-NVIDIA framing — *source: TLDR "Nvidia robotaxi"*
 - **2025-10-16**: "Nvidia isn't done yet" — defense of NVIDIA dominance amid AMD/Broadcom deal flow — *source: Mindstream*
 - **2025-10-08**: NVIDIA–[[xai]] compute deal announced — *source: TLDR*
 
@@ -44,4 +47,7 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 
 - data/summaries/2025-10-08.json (TLDR — Nvidia xAI deal)
 - data/summaries/2025-10-16.json (Mindstream — Nvidia isn't done yet)
+- data/summaries/2025-10-27.json (TLDR — Nvidia robotaxi)
+- data/summaries/2025-10-29.json (TLDR — Uber's 100k robotaxis)
+- data/summaries/2025-10-30.json (TLDR — Nvidia hits $5T; Matt from FutureTools — $5T milestone)
 - data/summaries/2026-04-16.json (NVIDIA Newsletter — From SDG to physical AI; NVIDIA Developer News — GTC Taipei / DeepStream; The Tech Buzz — TSMC Earnings, Nvidia Quantum Chips; InstaByte — Snap cuts 1,000 jobs [Meta CoreWeave / Vera Rubin])

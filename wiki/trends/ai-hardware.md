@@ -10,7 +10,7 @@ type: trend
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-04-16
 > **Status**: active
-> **Related**: [[nvidia]], [[nvidia-cosmos]], [[amd]], [[broadcom]], [[oracle]], [[meta]], [[apple]], [[apple-m5]], [[xai]], [[openai]], [[figure]]
+> **Related**: [[nvidia]], [[nvidia-cosmos]], [[amd]], [[broadcom]], [[oracle]], [[meta]], [[apple]], [[apple-m5]], [[xai]], [[openai]], [[amazon]], [[qualcomm]], [[extropic]], [[figure]]
 
 ## Summary
 
@@ -24,6 +24,14 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - **2026-04-16**: [[nvidia-cosmos]] 2.5 GA; Cosmos 3 pre-announced for summer 2026 — *source: NVIDIA Newsletter*
 - **2026-04-16**: [[xai]] Terafab team sources chipmaking gear; xAI repurposes compute for external rental — *source: TLDR; Forward Future*
 - **2026-04-16**: Allbirds rebrands as "NewBird AI" with a $50M financing deal and pivots from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code; "Gemini on your desktop"*
+- **2025-11-04**: [[openai]] + [[amazon]] AWS sign $38B multi-year compute deal — hundreds of thousands of NVIDIA GPUs across AWS data centers — *source: The Rundown AI; TLDR; TLDR AI*
+- **2025-10-31**: Meta raises $25B in bonds for AI infrastructure — *source: Mindstream "Meta borrows billions on Halloween"*
+- **2025-10-30**: [[extropic]] announces TSU thermodynamic sampling unit — claims ~10,000× energy efficiency vs GPUs; first dev kits shipped — *source: The Rundown AI "Extropic's 10,000x AI energy breakthrough"*
+- **2025-10-30**: [[nvidia]] market cap reportedly tops $5T — *source: TLDR; Matt from FutureTools*
+- **2025-10-29**: Uber to deploy 100k [[nvidia]]-powered robotaxis — *source: TLDR "Uber's 100k robotaxis"*
+- **2025-10-28**: [[qualcomm]] AI200 / AI250 data-center AI chips announced — *source: TLDR AI "Qualcomm AI chips"*
+- **2025-10-24**: [[anthropic]] + [[google]] Cloud TPU multi-year deal (reported up to ~$50B / 1M TPUs) — *source: TLDR "Google Anthropic deal"*
+- **2025-10-21**: Global AWS outage disrupts services worldwide — *source: TLDR "AWS global outage"*
 - **2025-10-17**: [[apple-m5]] launches for MacBook Pro / iPad Pro / Vision Pro with 4× AI GPU boost, per-core Neural Accelerators, 153 GB/s bandwidth — *source: Matt from FutureTools*
 - **2025-10-16**: M5 MacBook Pro coverage; "Nvidia isn't done yet" — *source: TLDR; Mindstream*
 - **2025-10-15**: [[oracle]]–[[amd]] partnership — *source: TLDR AI*
@@ -66,4 +74,11 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - data/summaries/2025-10-15.json (TLDR AI — Oracle and AMD partnership)
 - data/summaries/2025-10-16.json (TLDR — M5 MacBook Pro; Mindstream — Nvidia isn't done yet)
 - data/summaries/2025-10-17.json (Matt from FutureTools — Apple Unveils M5 Chip)
+- data/summaries/2025-10-21.json (TLDR — AWS global outage)
+- data/summaries/2025-10-24.json (TLDR — Google Anthropic deal)
+- data/summaries/2025-10-28.json (TLDR AI — Qualcomm AI chips)
+- data/summaries/2025-10-29.json (TLDR — Uber's 100k robotaxis)
+- data/summaries/2025-10-30.json (The Rundown AI — Extropic's 10,000x AI energy breakthrough; TLDR — Nvidia hits $5T; Matt from FutureTools — $5T milestone)
+- data/summaries/2025-10-31.json (Mindstream — Meta borrows billions on Halloween)
+- data/summaries/2025-11-04.json (The Rundown AI — OpenAI, Amazon $38B; TLDR; TLDR AI — AWS + OpenAI)
 - data/summaries/2026-04-16.json (InstaByte — Snap cuts 1,000 jobs, blames AI [Meta CoreWeave]; The Tech Buzz — TSMC Earnings, Nvidia Quantum Chips; NVIDIA Newsletter — Cosmos; TLDR — Inside Elon's Terafab; Forward Future — Anthropic challenges OpenAI in London [xAI compute]; The Rundown AI — Allbirds ditches sneakers; The Code — Shoemaker company pivots to AI; "Gemini on your desktop")

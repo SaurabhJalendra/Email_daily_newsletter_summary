@@ -8,16 +8,20 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-10-17
-> **Status**: stale
+> **Last updated**: 2025-11-01
+> **Status**: active
 > **Related**: [[openai]], [[chatgpt]], [[veo-3]], [[ai-video-generation]], [[ai-regulation]]
 
 ## Summary
 
-Sora 2 is [[openai]]'s second-generation AI video generation model, launched October 2025. It brings significantly more realistic physics, consistent worlds across shots, the ability to embed a user into any scene via face/voice, style transfer (cinematic ↔ anime), and synced dialogue with ambient audio. OpenAI shipped an iOS consumer app alongside the model. User growth reportedly outpaced early ChatGPT, and the rollout triggered a shift to tighter copyright/rights controls within days of release.
+Sora 2 is [[openai]]'s second-generation AI video generation model, launched October 2025. It brings significantly more realistic physics, consistent worlds across shots, the ability to embed a user into any scene via face/voice, style transfer (cinematic ↔ anime), and synced dialogue with ambient audio. OpenAI shipped an iOS consumer app alongside the model. User growth reportedly outpaced early ChatGPT, and the rollout triggered a shift to tighter copyright/rights controls within days of release. By late October 2025 the conflict with Hollywood ("Sora breaks bad with Hollywood") sat alongside the launch of a creator-monetization layer for cameos and character licensing — turning IP friction into a revenue surface. Comparison coverage with [[veo-3]] 3.1 became a recurring "who wins?" framing.
 
 ## Timeline
 
+- **2025-11-01**: "Sora 2 vs Veo 3.1: Who Wins?" head-to-head comparison coverage — *source: TAAFT*
+- **2025-10-31**: Sora 2 monetization rolls out — creator earnings on cameos / character licensing — *source: AI Breakfast "OpenAI rolls out Sora Monetization"*
+- **2025-10-29**: "AI Video Creates Itself Live" coverage on live/agentic generation — *source: TAAFT*
+- **2025-10-21**: "Sora breaks bad with Hollywood" — IP/cameo backlash and studio pushback — *source: The Rundown AI*
 - **2025-10-17**: Japan formally requests OpenAI stop generating manga/anime lookalikes via Sora 2; Sora 2 upgrades land alongside ChatGPT memory cull — *source: Matt from FutureTools "Japan Challenges OpenAI on Copyright"; AI Breakfast "ChatGPT's golden hour memory cull lands alongside Sora 2 upgrades"*
 - **2025-10-10**: Sora user growth reportedly exceeds early ChatGPT trajectory — *source: AI Breakfast "Sora grew faster than ChatGPT!"; Mindstream "Sora > ChatGPT?"*
 - **2025-10-06**: Tighter copyright/rights controls introduced — *source: The Rundown AI "Sora's copyright Wild West ends"*
@@ -44,3 +48,7 @@ Sora 2 is [[openai]]'s second-generation AI video generation model, launched Oct
 - data/summaries/2025-10-06.json (The Rundown AI — Sora's copyright Wild West ends)
 - data/summaries/2025-10-10.json (AI Breakfast — Sora grew faster than ChatGPT; Mindstream — Sora > ChatGPT?)
 - data/summaries/2025-10-17.json (Matt from FutureTools — Japan Challenges OpenAI on Copyright; AI Breakfast — ChatGPT golden hour memory cull alongside Sora 2 upgrades)
+- data/summaries/2025-10-21.json (The Rundown AI — Sora breaks bad with Hollywood)
+- data/summaries/2025-10-29.json (TAAFT — AI Video Creates Itself Live)
+- data/summaries/2025-10-31.json (AI Breakfast — OpenAI rolls out Sora Monetization)
+- data/summaries/2025-11-01.json (TAAFT — Sora 2 vs Veo 3.1: Who Wins?)

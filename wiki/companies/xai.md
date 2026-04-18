@@ -20,6 +20,7 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 - **2026-04-16**: Terafab reaches out to chipmaking suppliers for price quotes and delivery timelines, requesting speedy estimates with minimal product disclosure — *source: TLDR "Inside Elon's Terafab"*
 - **2026-04-16**: xAI starts repurposing compute stockpile for external customers — *source: Forward Future "Anthropic challenges OpenAI in London"*
+- **2025-10-31**: [[grokipedia]] launches — Wikipedia alternative built and edited by Grok; ~800K articles at launch — *source: TLDR cycle (referenced through subsequent coverage)*
 - **2025-10-08**: NVIDIA–xAI compute deal — *source: TLDR "Nvidia xAI deal"*
 
 ## Key Facts
@@ -28,6 +29,7 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 - Flagship: Grok model family
 - Compute: massive GPU stockpile, partially being rented to external customers (Apr 2026)
 - Silicon ambition: Terafab effort to build chipmaking capacity (Apr 2026)
+- Knowledge product: [[grokipedia]] (Oct 2025) — Grok-built Wikipedia alternative
 
 ## Open Questions
 
@@ -38,4 +40,5 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 ## Sources
 
 - data/summaries/2025-10-08.json (TLDR — Nvidia xAI deal)
+- data/summaries/2025-10-31.json (subject coverage of [[grokipedia]] launch in surrounding TLDR cycle)
 - data/summaries/2026-04-16.json (TLDR — Inside Elon's Terafab; Forward Future — Anthropic challenges OpenAI in London [xAI compute repurposing])

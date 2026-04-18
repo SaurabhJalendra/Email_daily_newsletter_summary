@@ -20,6 +20,10 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: Introduces [[muse-spark]] — natively multimodal reasoning with tool use and multi-agent orchestration; framed as marking Meta's pivot from open-weights releases — *source: The Batch "Meta Pivots From Open Weights"*
+- **2025-10-31**: Meta raises $25B in bonds for AI infrastructure — *source: Mindstream "Meta borrows billions on Halloween"*
+- **2025-10-30**: $75B AI-infrastructure spend coverage continues — *source: TLDR; The Tech Buzz*
+- **2025-10-24**: Meta cuts AI staff (Vibes group / AI org reorg) — *source: Mindstream "Meta cuts AI staff"*
+- **2025-10-23**: Meta AI layoffs coverage — *source: TLDR AI "Meta AI layoffs"*
 - **2025-10-13**: Poaches a [[thinking-machines]] co-founder — *source: The Rundown AI; TLDR AI*
 - **2025-10-13**: Meta onboarding culture coverage — *source: TLDR*
 - **2025-10-03**: Defaults users into AI-training data collection ("Meta opts you in") — *source: Matt from FutureTools*
@@ -48,4 +52,7 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 - data/summaries/2025-10-02.json (AlphaSignal — Apple chases Meta's AI glasses lead)
 - data/summaries/2025-10-03.json (Matt from FutureTools — Meta opts you in)
 - data/summaries/2025-10-13.json (The Rundown AI — Thinking Machines co-founder heads to Meta; TLDR — Meta onboarding culture; TLDR AI — Meta poaches TML cofounder)
+- data/summaries/2025-10-23.json (TLDR AI — Meta AI layoffs)
+- data/summaries/2025-10-24.json (Mindstream — Meta cuts AI staff)
+- data/summaries/2025-10-31.json (Mindstream — Meta borrows billions on Halloween)
 - data/summaries/2026-04-16.json (The Batch — Meta Pivots From Open Weights; InstaByte — Snap cuts 1,000 jobs, blames AI [Meta CoreWeave deal])
