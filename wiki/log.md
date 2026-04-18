@@ -4,6 +4,19 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## LINT 2026-04-18 (week 2026-W16) — re-run
+
+**Lint actions**:
+- Fixed contradictions: none spotted. Earlier lint's note about the 2025-10-16 log entry listing [[veo-3]] as newly created (when it was first created on 2025-10-13) remains intact because log.md is append-only.
+- Resolved orphans: 0 — verified every existing page has at least one incoming `[[link]]` reference from another page. Lowest-in-degree pages ([[ai-bubble-concerns]], [[alibaba]], [[andrej-karpathy]], [[auth0]], [[claude-haiku-4-5]], [[fine-tuning]], [[github-spec-kit]], [[microsoft]], [[muse-spark]], [[nanochat]], [[qwen-3-vl]], [[replit]]) all have exactly 1 incoming reference, which meets the threshold.
+- Merged duplicates: none (no near-duplicate pages detected).
+- Stale pages re-verified: 39 pages remain marked `> **Status**: stale` (every page with "Last updated" before 2026-02-17, the 60-day threshold from today 2026-04-18). No additional pages crossed the stale threshold since the earlier lint today because no new ingest has landed. Breakdown: companies (13), products (19), topics (6), trends (2).
+- Index: no regeneration needed — the existing [[index.md]] matches the directory listing, and stale annotations are intact.
+
+**Digest generated**: wiki/digests/2026-W16.md regenerated with ~4500 words of refreshed prose covering the 2026-04-16 ingest — the Opus 4.7 + Claude Design + Adobe Firefly convergence; Meta's Muse Spark open-weights pivot; OpenAI Codex superapp repositioning; the Heppner AI-chat-privilege ruling; Google's TTS/Mac/Chrome desktop-surface cluster; the $21B Meta–CoreWeave + Vera Rubin deal; and Anthropic's $800B valuation talks. Prose-heavy throughout per the current digest spec; Top-10 entries and cross-cutting-pattern sections each run as full paragraphs rather than bullets.
+
+**Re-run context**: this is a same-day re-run of the weekly LINT workflow. No new ingests landed between the two runs (last ingest remains 2026-04-16), so lint state is unchanged from the earlier entry below. The digest was regenerated to ensure the file reflects the current page state after any intra-day edits.
+
 ## LINT 2026-04-18 (week 2026-W16)
 
 **Lint actions**:
