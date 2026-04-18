@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-03-14 (backfill 2026-03-07..2026-03-16)
 > **Status**: active
 > **Related**: [[meta]], [[google]], [[gemini]], [[anthropic]], [[claude-code]], [[openai]], [[ai-hardware]], [[apple-m5]]
 
@@ -18,6 +18,12 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2026-03-14**: Apple Ultra lineup expansion beyond Watch/iPhone expected this year — several new premium products coming — *source: 2026-03-14 cycle*
+- **2026-03-13**: MacBook Neo launches at $599 — Apple's cheapest laptop ever; powered by iPhone A18 Pro chip — *source: 2026-03-13 cycle (MacBook Neo $599)*
+- **2026-03-13**: Foldable iPhone layout detailed — iPad-like side-by-side-apps interface when unfolded; interior display ~iPad mini size; Apple developing new iOS app layouts — *source: 2026-03-13 cycle (TLDR — iPhone Fold layout)*
+- **2026-03-12**: Smart home display (J490 / HomePod with screen) delayed to September — Siri not ready; display was originally expected spring 2025 — *source: 2026-03-12 cycle (Apple's latest Siri delay)*
+- **2026-03-11**: Apple smart home display delayed further pending new Siri; foldable iPhone and touchscreen MacBook Ultra in premium-product pipeline — *source: 2026-03-11 cycle (Siri delays Apple products)*
+- **2026-03-10**: Apple Ultra product line expansion planned — foldable iPhone, new AirPods, touch-enabled OLED MacBook Pro; Tim Cook multi-tier pricing strategy — *source: 2026-03-10 cycle (TLDR — Apple Ultra products)*
 - **2026-03-05**: iPhone 17e launches — budget iPhone with same A19 chip as standard iPhone 17; makes on-device AI features more accessible to broader consumer base — *source: 2026-03-05 cycle*
 - **2026-03-04**: Apple to replace Core ML with new "Core AI" framework at WWDC for iOS 27 — overhaul of on-device ML stack as Apple rebuilds around the Gemini-Siri pivot — *source: 2026-03-04 cycle*
 - **2026-03-02**: AI-enabled wearables in development jointly with [[openai]] — OpenAI building portable speaker with built-in camera; Apple testing three devices (AI-enabled AirPods, smart glasses, smart pendant necklace) — *source: 2026-03-02 cycle*
@@ -102,3 +108,8 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 - data/summaries/2026-03-02.json (OpenAI + Apple AI-enabled wearables)
 - data/summaries/2026-03-04.json (Core AI framework for iOS 27)
 - data/summaries/2026-03-05.json (iPhone 17e A19 chip)
+- data/summaries/2026-03-10.json (TLDR — Apple Ultra products expansion)
+- data/summaries/2026-03-11.json (TLDR — Siri delays Apple products)
+- data/summaries/2026-03-12.json (Apple's latest Siri delay — smart home display J490)
+- data/summaries/2026-03-13.json (MacBook Neo $599; TLDR — iPhone Fold layout)
+- data/summaries/2026-03-14.json (Apple Ultra lineup expansion coverage)

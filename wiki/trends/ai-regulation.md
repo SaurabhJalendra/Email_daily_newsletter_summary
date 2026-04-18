@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-17
-> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-09)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[sora-2]], [[character-ai]], [[google]], [[ai-video-generation]], [[ai-copyright]], [[prompt-injection]]
 
@@ -19,6 +19,8 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 ## Timeline
 
 - **2026-04-16**: US federal court rules in *United States v. Heppner* that AI chatbot conversations (incl. Claude) are not protected by attorney-client privilege — the chatbot is not a lawyer and provider privacy policies permit collection of inputs/outputs — *source: Uncovering AI "Your AI chats can be used against you"*
+- **2026-03-09**: North Korea IT-worker fraud campaign using AI — face-swap + AI-generated resumes to pose as remote hires at US companies; cited as first large-scale nation-state labor-infiltration via generative AI — *source: TAAFT 2026-03-09 "AI Went Rogue and Mined Crypto"*
+- **2026-03-07**: [[anthropic]] sues Department of War (contract-termination challenge) after Pentagon ultimatum; leaked apology memo to staff surfaces — legal/regulatory escalation from the DoW guardrails standoff — *source: 2026-03-07 cycle*
 - **2026-03-06**: [[openai]] revises Pentagon contract after employee backlash + user cancellations — bars intelligence agencies from using AI for domestic surveillance absent formal contract mod — *source: 2026-03-06 cycle*
 - **2026-03-04**: US Supreme Court declines to hear AI-copyright case — leaves the "humans only" authorship standard in place for AI-generated works (also 2026-03-05 cycle) — *source: 2026-03-04 / 2026-03-05 cycles*
 - **2026-03-03**: Pentagon replaces [[anthropic]] with [[xai]] on classified systems after Anthropic's military-safeguards refusal — regulatory/defense-procurement leverage as pressure on model policy — *source: 2026-03-03 cycle*
@@ -107,3 +109,5 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 - data/summaries/2026-03-04.json (SCOTUS declines AI-copyright case)
 - data/summaries/2026-03-05.json (SCOTUS declines AI-copyright case coverage)
 - data/summaries/2026-03-06.json (OpenAI Pentagon contract revision)
+- data/summaries/2026-03-07.json (Anthropic DoW lawsuit; leaked memo apology)
+- data/summaries/2026-03-09.json (TAAFT — North Korea AI-worker fraud)

@@ -4,6 +4,148 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-03-16
+**Ingested**: data/summaries/2026-03-16.json
+
+**Pages updated**:
+- [[openai]] — ChatGPT cancer-vaccine project coverage
+- [[google]] — AI glasses coverage
+- [[xai]] — full rebuild narrative (9 of 11 cofounders gone)
+
+**Notable**: xAI framed as rebuilding after cofounder exodus; OpenAI ChatGPT cancer-vaccine research project surfaces; Google AI glasses continue chasing Meta.
+
+## 2026-03-15
+**Ingested**: data/summaries/2026-03-15.json
+
+**Pages updated**:
+- [[anthropic]] — 1M-token context free + $100M partner program
+- [[amazon]] — Alexa+ adults-only mode; AI-coding-tool guardrails requiring senior-engineer sign-off
+- [[nvidia]] — GTC 2026 preview coverage
+
+**Notable**: Anthropic makes 1M-token context window free for all Claude users and rolls out $100M partner program; Alexa+ ships adults-only curses-and-roasts mode with kid-mode lockout; NVIDIA GTC preview sets up Vera Rubin + Nemotron roadmap.
+
+## 2026-03-14
+**Ingested**: data/summaries/2026-03-14.json
+
+**Pages updated**:
+- [[anthropic]] — TIME cover; Claude Visuals launch; $2.5B Claude Code ARR disclosure
+- [[openai]] — Sora joins ChatGPT; Finance Project; ChatGPT Pro Lite
+- [[claude-code]] — Claude Visuals integration
+- [[cursor]] — CursorBench release; xAI talent-poaching counter-narrative
+- [[xai]] — Cursor talent-poaching campaign
+- [[meta]] — Avocado model delay
+- [[google]] — Maps overhaul ("brings Gemini to the road")
+- [[microsoft]] — Copilot Health launch
+- [[perplexity]] — Perplexity API platform rebuilt as full-stack model-agnostic agent API
+- [[apple]] — Ultra lineup expansion coverage
+
+**Notable**: Anthropic lands TIME cover with $2.5B Claude Code ARR disclosure; OpenAI folds Sora into ChatGPT and ships Finance Project / Pro Lite tier; Google Maps and Microsoft Copilot both add major Gemini/Claude-powered assistant layers the same day.
+
+## 2026-03-13
+**Ingested**: data/summaries/2026-03-13.json
+
+**Pages updated**:
+- [[anthropic]] — opens research institute for AI's impact on jobs/economies/law/governance
+- [[google]] — Workspace Gemini expanded (Docs/Sheets/Slides/Drive for AI Ultra/Pro)
+- [[nvidia]] — Nemotron 3 Super 120B launch; OpenClaw competitor framing
+- [[nemotron-3]] — Super 120B released (hybrid Mamba-Transformer MoE, 1M context, 5× throughput)
+- [[cursor]] — $50B valuation talks surface
+- [[replit]] — Replit Agent 4 launches (infinite canvas + parallel agents)
+- [[perplexity]] — Personal Computer launch (always-on Comet Assistant on dedicated Mac mini)
+- [[apple]] — MacBook Neo $599 launch; foldable-iPhone iPad-like layout detailed
+- [[elevenlabs]] — ElevenCreative full creative platform launched
+- [[anduril]] — ExoAnalytic Solutions acquisition doubles space unit
+- [[ai-jobs-displacement]] — Anthropic research institute addition
+- [[claude-code]] — /btw slash-command addition
+- [[openai]] — interactive math in ChatGPT; Kalinowski departure
+- [[xai]] — Macrohard revival narrative
+- [[meta]] — 4 in-house chips detail
+- [[amazon]] — Amazon Health AI launch with One Medical integration
+
+**Pages created**: [[perplexity-personal-computer]]
+
+**Notable**: Perplexity's Personal Computer makes Mac mini the default hardware for the AI-agent era; Nemotron 3 Super 120B hybrid Mamba-Transformer MoE ships with 1M context; Anthropic's research institute signals labor-economics frame for AI policy; Replit Agent 4 and ElevenCreative broaden the creative-agent stack.
+
+## 2026-03-12
+**Ingested**: data/summaries/2026-03-12.json
+
+**Pages updated**:
+- [[ami-labs]] — $1.03B raise at $3.5B valuation
+- [[meta]] — acquires Moltbook
+- [[moltbook]] — status changed to "acquired by [[meta]]"
+- [[google]] — Gemini Embedding 2 launch
+- [[nvidia]] — Thinking Machines gigawatt compute deal
+- [[thinking-machines]] — NVIDIA gigawatt deal + revived from stale
+- [[apple]] — smart home display (J490) delayed to September pending new Siri
+- [[perplexity]] — Amazon court order blocking Perplexity shopping agent
+- [[amazon]] — wins court order vs Perplexity AI shopping agent
+
+**Pages created**: [[gemini-embedding-2]]
+
+**Notable**: Meta buys Moltbook — first major AI-social acquisition; Thinking Machines secures gigawatt NVIDIA compute deal; Amazon wins first major agent-access injunction against Perplexity; Gemini Embedding 2 unifies embeddings across text/image/video/audio/PDF.
+
+## 2026-03-11
+**Ingested**: data/summaries/2026-03-11.json
+
+**Pages updated**:
+- [[anthropic]] — two federal lawsuits vs Pentagon ("supply chain risk" designation); Claude Code Review launch; fork-mid-session in Claude Code
+- [[openai]] — acquires Promptfoo; Stargate expansion scrapped; shopping killed; adult mode paused
+- [[claude-code]] — Code Review + fork-mid-session features
+- [[microsoft]] — Copilot Cowork launch (with Anthropic)
+- [[apple]] — smart home display delayed further pending Siri; foldable iPhone + touchscreen MacBook Ultra pipeline
+- [[anduril]] — $8B round at $60B valuation (Thrive + a16z leading)
+
+**Pages created**: [[copilot-cowork]]
+
+**Notable**: Anthropic goes to court against the Pentagon over "supply chain risk" label; Microsoft × Anthropic launch Copilot Cowork (first Claude-powered M365 task agent); OpenAI acquires Promptfoo and kills Stargate expansion + shopping effort; ChatGPT pauses adult mode.
+
+## 2026-03-10
+**Ingested**: data/summaries/2026-03-10.json
+
+**Pages updated**:
+- [[anthropic]] — Claude Marketplace launch with GitLab/Harvey/Replit/Snowflake; sleep mode; Firefox bug discoveries
+- [[cursor]] — "War Time" posture; $2B ARR disclosure
+- [[meta]] — Vibes editor launch
+- [[replit]] — named as [[claude-marketplace]] launch partner; revived from stale
+- [[openai]] — Codex Security launch; Excel add-in; Codex for Open Source Software
+- [[claude-code]] — sleep/loop modes
+- [[luma]] — Uni-1 tops RISEBench leaderboard
+- [[apple]] — Apple Ultra products expansion (foldable iPhone, AirPods, OLED MacBook Pro)
+
+**Pages created**: [[claude-marketplace]], [[codex-security]]
+
+**Notable**: Claude Opus 4.6 discovers 22 Firefox vulnerabilities (14 high severity); Claude Marketplace launches with enterprise anchor partners; OpenAI ships Codex Security autonomous appsec agent; Cursor pivots to "War Time" enterprise posture with $2B ARR disclosure.
+
+## 2026-03-09
+**Ingested**: data/summaries/2026-03-09.json
+
+**Pages updated**:
+- [[claude-code-security]] — Firefox 22-vuln discovery (14 high severity) source reference
+- [[ai-regulation]] — North Korea IT-worker AI-assisted fraud; Anthropic DoW lawsuit context
+
+**Notable**: Claude credited with accelerating vulnerability discovery in large codebases; AI-assisted North Korea IT-worker fraud operation surfaces as an AI-misuse data point.
+
+## 2026-03-08
+**Ingested**: data/summaries/2026-03-08.json
+
+**Pages updated**:
+- [[luma]] — TAAFT February recap reference for Luma Agents
+
+**Notable**: Low-signal day dominated by TAAFT's February recap; no material new launches beyond restated prior-week items.
+
+## 2026-03-07
+**Ingested**: data/summaries/2026-03-07.json
+
+**Pages updated**:
+- [[openai]] — GPT-5.4 arrival coverage (2M-token context + Stateful AI)
+- [[anthropic]] — Economic Index / AI-jobs study publication
+- [[luma]] — Luma Agents launch with Uni-1 model
+- [[ai-regulation]] — Anthropic DoW lawsuit framing
+
+**Pages created**: [[anduril]], [[ai-jobs-displacement]]
+
+**Notable**: Anduril raising $4B at $60B valuation (targeting $4.3B 2026 revenue); Anthropic Economic Index publishes first AI-jobs exposure study (44% high-risk, programmers most exposed); Luma Agents + Uni-1 extends creative agents into self-critiquing multimodal workflows.
+
 ## 2026-03-06
 **Ingested**: data/summaries/2026-03-06.json
 

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-03-15 (backfill 2026-02-20..2026-03-15)
 > **Status**: active
 > **Related**: [[claude-opus-4-7]], [[claude-opus-4-6]], [[claude-opus-4-5]], [[claude-sonnet-4-6]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-cowork]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-hardware]]
 
@@ -19,6 +19,12 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 ## Timeline
 
 - **2026-04-16**: [[claude-opus-4-7]] released across all major cloud platforms at $5/$25 per M tokens; includes xhigh effort, task budgets, 3.75 MP vision, file-based memory, desktop agent controls — *source: AlphaSignal, World of AI, TLDR, TLDR AI, Superhuman, Forward Future, AI Breakfast, The Code, TAAFT, Staying Ahead with AI, Hello World!*
+- **2026-03-15**: 1M-token Claude context window moved to standard pricing (surcharge removed); media limit raised from 100 to 600 images/PDF pages per request; $100M partner program announced for consulting firms/agencies (technical certifications, sales playbooks, dedicated engineers, code library) — *source: 2026-03-15 cycle (World of AI — "1M Tokens Are Now FREE!"; TAAFT)*
+- **2026-03-14**: Anthropic cover story on TIME — $380B valuation; Claude Code at $2.5B annualized revenue; "Imagine with Claude"/Claude Visuals beta lets Claude generate inline charts/diagrams/flowcharts in chat across free and paid plans — *source: 2026-03-14 cycle (TAAFT; TLDR AI; The Code; Superhuman; World of AI)*
+- **2026-03-13**: Anthropic research institute announced to study AI's impact on jobs, economies, law, governance; Claude for Excel/PowerPoint upgraded with shared cross-app context and one-click skills (Amazon Bedrock, Vertex AI, Microsoft Foundry availability) — *source: 2026-03-13 cycle (TAAFT; World of AI; Superhuman)*
+- **2026-03-11**: Anthropic files two federal lawsuits against DoW (Pentagon) challenging "supply chain risk" designation — cited as potentially costing "multiple billions" of 2026 revenue, $100M+ already lost; 30+ OpenAI/Google DeepMind researchers file amicus brief; Claude Code Review ships — multi-agent PR reviewer finds 7.5× more bugs in large PRs, <1% false-positive rate, $15–25/review avg; Claude Code fork-mid-session adds branching without losing context — *source: 2026-03-11 cycle (TAAFT; The Rundown AI; TLDR; AlphaSignal — Claude Code Review; The Code — Anthropic vs DoD; Forward Future)*
+- **2026-03-10**: Claude Marketplace launches — centralized hub where enterprises spend existing Anthropic commitment on third-party Claude-powered tools (GitLab, Harvey, Replit, Snowflake launch partners); Claude Code scheduled tasks + loop command ("runs while you sleep" — up to 3-day loops); Claude Opus 4.6 reported to have found 22 Firefox bugs (14 high-severity) in 2 weeks during Firefox security scan — *source: 2026-03-10 cycle (AI Breakfast; Superhuman — Claude Code sleep mode; TLDR AI — Claude finds Firefox bugs; The Code)*
+- **2026-03-07**: Anthropic CEO apologizes for leaked internal memo questioning DoW's supply-chain-risk designation; Anthropic takes Department of War to court challenging the designation; publishes AI-jobs study — 44% of roles at high risk, computer programmers most exposed (74.5% task coverage; real-world usage 33%), hiring of 22–25-year-olds in exposed fields down 14% since ChatGPT launch; ARR reported at $19B (vs OpenAI's $25B); [[claude-code]] Auto Mode released for permission decisions during sessions (isolated-env only) — *source: 2026-03-07 cycle (TLDR; The Code; TAAFT; Forward Future; The Rundown AI — Anthropic's early-warning system for AI job loss; Superhuman)*
 - **2026-03-05**: Claude surges to #1 in US App Store amid Pentagon refusal stance — material jump in signups + paid subscribers — *source: 2026-03-05 cycle*
 - **2026-03-04**: Claude Memory launches — remembers user preferences, writing style, context, past conversations; ChatGPT→Claude memory-import tool added — *source: 2026-03-04 cycle*
 - **2026-03-03**: US government labels Anthropic a "supply-chain risk" after Pentagon deal refusal; Elon Musk's [[xai]] set to replace Anthropic in classified Pentagon systems — *source: 2026-03-03 cycle*
@@ -207,3 +213,9 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - data/summaries/2026-03-03.json (Supply-chain-risk label; xAI replaces Anthropic for Pentagon)
 - data/summaries/2026-03-04.json (Claude Memory; ChatGPT memory import tool)
 - data/summaries/2026-03-05.json (Claude #1 in US App Store)
+- data/summaries/2026-03-07.json (leaked memo apology; lawsuit vs DoW; AI-jobs study; $19B ARR; Claude Code Auto Mode)
+- data/summaries/2026-03-10.json (Claude Marketplace; Claude Code sleep/loop/scheduled tasks; Firefox 22 bugs)
+- data/summaries/2026-03-11.json (Two Anthropic DoW lawsuits; Claude Code Review multi-agent; fork-mid-session)
+- data/summaries/2026-03-13.json (Anthropic research institute; Claude for Excel/PowerPoint shared context)
+- data/summaries/2026-03-14.json (Anthropic on TIME cover; Claude Visuals; $2.5B Claude Code ARR)
+- data/summaries/2026-03-15.json (1M-token context free; $100M partner program)

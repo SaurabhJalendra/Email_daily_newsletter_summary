@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-03-16 (backfill 2026-02-20..2026-03-16)
 > **Status**: active
 > **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[openai-for-healthcare]], [[chatgpt-translate]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[gpt-5-2]], [[gpt-5-2-codex]], [[gpt-5-3-codex]], [[gpt-5-3-codex-spark]], [[gpt-image-1-5]], [[openai-frontier]], [[openclaw]], [[merge-labs]], [[anthropic]], [[google]], [[amazon]], [[disney]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]], [[agentic-ai-foundation]]
 
@@ -19,6 +19,13 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 ## Timeline
 
 - **2026-04-16**: [[openai-codex]] superapp — background computer use, parallel agents, in-app browser, image gen; expanded beyond code across ChatGPT, desktop, CLI, IDEs; rate limits doubled — *source: The Rundown AI "OpenAI's superapp hiding inside Codex"; multiple*
+- **2026-03-16**: ChatGPT-designed cancer vaccine shrinks dog's tumor by ~75% (Paul Conyngham + UNSW RNA Institute — ChatGPT sequenced tumor DNA, identified mutations; custom mRNA vaccine manufactured in <2 months) — first publicized consumer-LLM drug-design case-study — *source: 2026-03-16 cycle (TAAFT; Superhuman)*
+- **2026-03-14**: Sora added to main ChatGPT interface (video generation alongside text/image); Finance Project feature (sync bank accounts → track spending, flag fraud, auto-generate debt-repayment plans); Pro Lite $100/mo tier announced (5× standard Plus limits); Response API reframed as dedicated execution environment for autonomous agents — *source: 2026-03-14 cycle (AI Breakfast — agentic OS features)*
+- **2026-03-13**: Interactive math/science visualizations in ChatGPT — 70+ topics (compound interest, Pythagoras, Ohm's law etc) with live variable adjustment; CaitlinKalinowski (Head of Robotics & Hardware) resigns over Pentagon deal (domestic surveillance and lethal autonomy concerns) — *source: 2026-03-13 cycle (AlphaSignal; Vaibhav Sisinty; Superhuman)*
+- **2026-03-11**: OpenAI acquires [[promptfoo]] (open-source AI security/eval startup used by >25% of Fortune 500) — folded into [[openai-frontier]] for built-in security testing, eval workflows, compliance reporting; Stargate expansion with [[oracle]] scrapped over financing + demand-forecast shifts; ChatGPT in-app shopping experiment quietly killed (few completed purchases in-app) — *source: 2026-03-11 cycle (TAAFT; Superhuman; TLDR AI; InstaByte)*
+- **2026-03-10**: [[codex-security]] (OpenAI Codex Security) ships — autonomous appsec agent scans repos, builds threat models, proposes context-aware patches; sandboxed validation to cut false positives; ChatGPT for Excel add-in (GPT-5.4 Thinking — build/update/analyze spreadsheet models in natural language); Codex for Open Source — 6 months free ChatGPT Pro + API credits for core OSS maintainers — *source: 2026-03-10 cycle (AI Breakfast; The Code — OpenAI builds a security agent; TLDR AI — Codex Security)*
+- **2026-03-09**: Age-verified adult-content mode for ChatGPT delayed again (no new timeline; Mindstream cites intelligence/personality/responsiveness priorities); North Korea AI-worker fraud disclosure highlights OpenAI-tier models as tools for fake-identity infiltration — *source: 2026-03-09 cycle (Uncovering AI; Mindstream)*
+- **2026-03-07**: [[gpt-5-4]] ships — 1M context, native computer use, Excel sidebar, x-high reasoning; 75% OSWorld-Verified beats humans; available as ChatGPT Thinking/Pro + API; OpenAI hits $25B ARR; Pentagon partnership on classified networks continues (OpenAI accepts where Anthropic refused; see [[ai-military]]) — *source: 2026-03-07 cycle (multiple)*
 - **2026-03-06**: [[gpt-5-4]] info leak — 2M-token context, "Stateful AI" that retains workflow and project environment across sessions, "extreme" thinking mode burning more compute; Codex App on Windows with native agent sandbox + PowerShell support; OpenAI revises Pentagon contract after employee backlash and user cancellations — bars intelligence agencies from domestic surveillance without formal modification — *source: 2026-03-06 cycle*
 - **2026-03-05**: [[gpt-5-3-instant]] released — default ChatGPT upgrade prioritizing conversational quality; reduces unnecessary refusals/safety preambles; hallucinations down 26.8% with web, 19.7% without — *source: 2026-03-05 cycle*
 - **2026-03-03**: $110B mega-round with Amazon/[[nvidia]]/SoftBank confirmed as largest private tech financing ever (surpassing Anthropic's $30B); ChatGPT hits 900M weekly users and 50M subscribers but faces "Cancel ChatGPT" movement over Pentagon tie-up — *source: 2026-03-03 cycle*
@@ -232,3 +239,10 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - data/summaries/2026-03-03.json ($110B mega-round; ChatGPT 900M WAU; Cancel ChatGPT movement)
 - data/summaries/2026-03-05.json (GPT-5.3 Instant release)
 - data/summaries/2026-03-06.json (GPT-5.4 leak; Codex Windows; Pentagon contract revision)
+- data/summaries/2026-03-07.json (GPT-5.4 launch; $25B ARR; Pentagon continuation)
+- data/summaries/2026-03-09.json (Adult-mode delay; North Korea AI-worker fraud)
+- data/summaries/2026-03-10.json (Codex Security; ChatGPT for Excel; Codex for Open Source)
+- data/summaries/2026-03-11.json (OpenAI acquires Promptfoo; Stargate scrapped; in-app shopping killed)
+- data/summaries/2026-03-13.json (Interactive math/science; Kalinowski resignation)
+- data/summaries/2026-03-14.json (Sora in ChatGPT; Finance Project; Pro Lite tier)
+- data/summaries/2026-03-16.json (ChatGPT-designed cancer vaccine)

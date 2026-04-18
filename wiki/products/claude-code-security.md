@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **Vendor**: [[anthropic]]
 > **First mentioned**: 2026-02-22
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-03-10 (backfill 2026-02-20..2026-03-10)
 > **Status**: active
 > **Related**: [[claude-code]], [[anthropic]]
 
@@ -19,6 +19,7 @@ Claude Code Security is a security-scanning feature that Anthropic built directl
 
 ## Timeline
 
+- **2026-03-09**: Claude AI discovers 22 Firefox vulnerabilities (14 high-severity) in an autonomous scan — treated as flagship result for AI-driven vulnerability research — *source: TAAFT 2026-03-09 "AI Went Rogue and Mined Crypto" (Anthropic's AI Hacked Firefox segment)*
 - **2026-02-23**: Claude Code Security Scanner positioned as tool that scans codebases and suggests patches for human review — *source: 2026-02-23 cycle*
 - **2026-02-22**: Security features announced inside Claude Code — expands its reach across traditionally separate software domains — *source: 2026-02-22 cycle*
 
@@ -38,3 +39,4 @@ Claude Code Security is a security-scanning feature that Anthropic built directl
 
 - data/summaries/2026-02-22.json (Claude Code Security announcement)
 - data/summaries/2026-02-23.json (Claude Code Security Scanner framing)
+- data/summaries/2026-03-09.json (TAAFT — Claude discovers 22 Firefox vulnerabilities, 14 high-severity)

@@ -83,12 +83,15 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills
 - [[claude-haiku-4-5]] — Anthropic's fast, low-cost coding model *(stale)*
+- [[claude-marketplace]] — Anthropic's enterprise marketplace for Claude-powered third-party tools (Mar 2026)
 - [[claude-opus-4-5]] — Anthropic's Nov 2025 flagship; 80.9% SWE-bench Verified; T2 Retail 88.9% / Telecom 98.2%
 - [[claude-opus-4-6]] — Anthropic's Feb 2026 flagship; 1M context, agent teams, fast mode 2.5×
 - [[claude-opus-4-7]] — Anthropic's Apr 2026 flagship; 3.75 MP vision, xhigh effort, file memory
 - [[claude-skills]] — Anthropic's reusable capabilities + Agent Skills *(stale)*
 - [[claude-sonnet-4-6]] — Anthropic's Feb 2026 mid-tier; Opus-class perf at 40% lower cost; 79.6% SWE-Bench
 - [[codex-app]] — OpenAI's native macOS app for Codex; parallel agents, Skills library, Automations
+- [[codex-security]] — OpenAI's autonomous appsec agent inside Codex; scans repos, builds threat models, proposes patches (Mar 2026)
+- [[copilot-cowork]] — Microsoft 365 Copilot's Claude-powered multi-step task agent across Office apps (Mar 2026)
 - [[cursor]] — AI IDE; 1.7, Plan Mode, 2.0 with Composer and multi-agent UI
 - [[cursor-composer]] — Cursor's first in-house coding model; ~4× faster, sub-30-second tasks
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier
@@ -104,6 +107,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-1-flash-tts]] — Google's low-latency TTS (70+ languages, multi-speaker)
 - [[gemini-3-1-pro]] — Google's Mar 2026 flagship; 77.1% ARC-AGI-2; successor to Gemini 3 Pro
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence
+- [[gemini-embedding-2]] — Google's multimodal embedding model across text/image/video/audio/PDF (Mar 2026)
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
 - [[github-agent-hq]] — GitHub's multi-agent control plane
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
@@ -155,6 +159,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[opera-neon]] — Opera's AI browser *(stale)*
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
 - [[perplexity-computer]] — Perplexity's 19-model orchestration platform for end-to-end workflows (Feb 2026)
+- [[perplexity-personal-computer]] — Perplexity's always-on local AI agent on a dedicated Mac mini (Mar 2026)
 - [[project-genie]] — Google DeepMind's interactive 3D-world generator powered by Genie 3 model
 - [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO
 - [[qwen-3-5]] — Alibaba's Feb 2026 vision-language MoE family; 397B-A17B Max, Medium MoE, Small tiny-model tier

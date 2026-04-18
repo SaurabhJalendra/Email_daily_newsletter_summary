@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-20
-> **Last updated**: 2025-12-20
+> **Last updated**: 2026-03-10
 > **Status**: active
 > **Related**: [[ai-video-generation]], [[runway]], [[sora-2]]
 
@@ -18,11 +18,14 @@ Luma AI is a video-generation lab best known for its Dream Machine / Ray model l
 
 ## Timeline
 
+- **2026-03-10**: Uni-1 tops RISEBench leaderboard — reasoning-in-image-generation model leads reasoning-image benchmark — *source: 2026-03-10 cycle (TAAFT — OpenAI builds a security agent / Luma Uni-1)*
+- **2026-03-07**: Luma Agents launched with new Uni-1 model — handles end-to-end creative work across text/image/video/audio; coordinates external models ([[veo-3]], ElevenLabs) and self-critiques iteratively; creates full ad campaigns from a single brief — *source: Superhuman "ChatGPT 5.4 is here"; TAAFT 2026-03-08 February recap*
 - **2025-12-20**: Luma Ray3 Modify released — reshape existing footage while keeping original performance intact; pushes category into editing-of-existing-video — *source: TLDR; 2025-12-20 cycle*
 
 ## Key Facts
 
 - Dec 2025 flagship: Ray3 Modify
+- Mar 2026 product: Luma Agents on Uni-1 (multimodal creative agents; self-critique loop)
 - Positioning: AI video editing (modify existing footage) alongside text-to-video peers [[runway]], [[sora-2]]
 
 ## Open Questions
@@ -34,3 +37,6 @@ Luma AI is a video-generation lab best known for its Dream Machine / Ray model l
 ## Sources
 
 - data/summaries/2025-12-20.json (TLDR — Luma Ray3 Modify)
+- data/summaries/2026-03-07.json (Superhuman — Luma Agents + Uni-1 model)
+- data/summaries/2026-03-08.json (TAAFT February recap — Luma Agents)
+- data/summaries/2026-03-10.json (TAAFT — Luma Uni-1 tops RISEBench)

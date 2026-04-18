@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-03-14 (backfill 2026-02-20..2026-03-14)
 > **Status**: active
 > **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[google]], [[alibaba]], [[world-models]], [[world-labs]], [[ai-hardware]]
 
@@ -19,6 +19,11 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 ## Timeline
 
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
+- **2026-03-14**: Avocado base-model launch delayed (at least to May) after failing internal reasoning, coding, and writing tests — flagship efficiency pitch under pressure — *source: 2026-03-14 cycle (TLDR — Meta's AI flop)*
+- **2026-03-13**: Meta announces four new homegrown AI chips — diversification from outside chipmakers; cost-reduction + throughput focus — *source: 2026-03-13 cycle (TLDR AI — Meta AI chips)*
+- **2026-03-12**: Meta acquires [[moltbook]] — AI-agent social network; co-founders Matt Schlicht and Ben Parr join Meta Superintelligence Labs — *source: 2026-03-12 cycle (TLDR; TAAFT; Superhuman; Matt from FutureTools; TLDR AI; The Rundown AI)*
+- **2026-03-10**: Meta silently launches Vibes AI editor — transforms Vibes from Meta AI feature into standalone creation studio similar to Google Flow — *source: 2026-03-10 cycle (TLDR AI — Vibes editor)*
+- **2026-03-07**: Ray-Ban Meta AI glasses under privacy fire — report finds highly sensitive footage (nudity, bank-card details) sent to human annotators via subcontractor Sama in Nairobi; face-blurring tools often fail, glasses continue recording after being set down; smart-glasses privacy-lawsuit framing — *source: 2026-03-07 cycle (Superhuman "ChatGPT 5.4 is here" — Meta Ray-Ban segment; Mindstream "Meta's glasses saw too much"; Forward Future)*
 - **2026-03-03**: Meta x [[amd]] partnership confirmed — up to 6 GW of AMD Instinct GPUs for Meta AI infrastructure starting late 2026 — *source: 2026-03-03 cycle*
 - **2026-02-26**: Meta agrees to buy 6 GW of AI computing power from [[amd]] in a deal valued at >$100B — *source: 2026-02-26 cycle*
 - **2026-02-25**: Meta AI safety chief describes an AI-agent incident where [[openclaw]] "went rogue" — cited as AI-safety cautionary tale — *source: 2026-02-25 cycle*
@@ -109,3 +114,8 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 - data/summaries/2026-02-25.json (OpenClaw rogue incident — safety framing)
 - data/summaries/2026-02-26.json ($100B AMD deal, 6 GW)
 - data/summaries/2026-03-03.json (Meta-AMD 6GW partnership)
+- data/summaries/2026-03-07.json (Ray-Ban Meta glasses privacy scandal — Sama annotators in Kenya)
+- data/summaries/2026-03-10.json (Vibes AI editor standalone launch)
+- data/summaries/2026-03-12.json (Meta acquires Moltbook)
+- data/summaries/2026-03-13.json (Four new homegrown Meta AI chips)
+- data/summaries/2026-03-14.json (Avocado model delayed)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-11-06
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-13 (backfill 2026-03-07..2026-03-16)
 > **Status**: active
 > **Related**: [[openai]], [[agent-frameworks]], [[ai-funding-rounds]]
 
@@ -18,6 +18,7 @@ ElevenLabs is the voice-AI platform widely used for TTS, voice cloning, and voic
 
 ## Timeline
 
+- **2026-03-13**: ElevenCreative launches — full creative platform combining voice cloning, text-to-speech, AI video, music, sound effects, and image generation in a browser-based editor; 70+ language support — *source: 2026-03-13 cycle (ElevenLabs Launches ElevenCreative)*
 - **2026-02-13**: Expressive Mode — real-time tone shifts and emotional range for voice agents (more human-like conversation) — *source: 2026-02-13 cycle*
 - **2026-02-11**: Scribe v2 launches — long-form transcription with two variants (Batch + Realtime); language switching, filler-word handling, late-recording accuracy — *source: 2026-02-11 cycle*
 - **2026-02-07**: Closes $500M from Sequoia Capital at $11B valuation; introduces Collaborative Notes (AI-written context + community feedback/ratings) — *source: 2026-02-07 cycle*
@@ -45,3 +46,4 @@ ElevenLabs is the voice-AI platform widely used for TTS, voice cloning, and voic
 - data/summaries/2025-11-13.json (AlphaSignal — Iconic Voice Marketplace; The Rundown AI)
 - data/summaries/2025-11-14.json (The Rundown AI — AI marketplace for famous voices)
 - data/summaries/2025-11-16.json (TAAFT cycle — ElevenLabs Music)
+- data/summaries/2026-03-13.json (ElevenCreative launch — creative platform with voice + video + music + image generation)

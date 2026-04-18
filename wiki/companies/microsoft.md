@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-03-14 (backfill 2026-02-20..2026-03-14)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]], [[github-agent-hq]], [[ai-funding-rounds]]
 
@@ -18,6 +18,8 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 
 ## Timeline
 
+- **2026-03-14**: Copilot Health launches — AI experience combining EHR records from 50K+ US hospitals, 50+ wearables, lab results; personalized health-story generation; framed as step toward "medical superintelligence" — *source: 2026-03-14 cycle (The Rundown AI; Superhuman — Copilot Health)*
+- **2026-03-11**: [[copilot-cowork]] launches (limited research preview) — Microsoft + Anthropic co-branded; Claude executes multi-step tasks across Outlook, Teams, Excel, PowerPoint, Word; $99/user E7 tier; Microsoft reports threat actors using AI to generate attack code/media — *source: 2026-03-11 cycle (Superhuman; The Rundown AI; AlphaSignal; TAAFT; World of AI; TLDR AI; Mindstream)*
 - **2026-03-02**: Microsoft reaffirms [[openai]] exclusivity deal — Azure will remain the exclusive cloud for OpenAI's APIs — *source: 2026-03-02 cycle*
 - **2026-02-22**: Microsoft AI bug leaks private emails — exposed sensitive messages for weeks; number of affected users undisclosed — *source: 2026-02-22 cycle*
 - **2026-01-19**: Microsoft debuts Copilot Checkout — conversational commerce tool enabling brands to build "shopping agents" directly into sites — *source: 2026-01-19 cycle*
@@ -78,3 +80,5 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 - data/summaries/2025-12-12.json (AlphaSignal — Microsoft 37.5M Copilot use shifts)
 - data/summaries/2026-02-22.json (Microsoft AI private-email leak)
 - data/summaries/2026-03-02.json (Microsoft reaffirms OpenAI Azure exclusivity)
+- data/summaries/2026-03-11.json (Copilot Cowork launch with Anthropic)
+- data/summaries/2026-03-14.json (Copilot Health — EHR + wearables + lab results)

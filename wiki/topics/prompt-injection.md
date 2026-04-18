@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-12-16 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-03-07
 > **Status**: active
 > **Related**: [[gemini]], [[google]], [[chatgpt-atlas]], [[ai-browsers]], [[aardvark]], [[openai]], [[perplexity]]
 
@@ -18,6 +18,7 @@ Prompt injection is a security category where adversarial content embedded in mo
 
 ## Timeline
 
+- **2026-03-07**: GitHub issue title compromises ~4,000 developer machines — crafted title installs [[openclaw]] when pasted into AI dev tools that interpret prompts as instructions; first large-scale reported supply-chain prompt-injection on agentic dev tooling — *source: TLDR "GPT-5.4 + Anthropic's leaked memo"*
 - **2025-12-18**: AI Breakfast reports "8M+ AI Chats Secretly Harvested" — large-scale chat-data exfiltration coverage — *source: AI Breakfast "8M+ AI Chats Secretly Harvested"; TAAFT*
 - **2025-12-16**: Reverse-engineering of [[anthropic]]'s Claude memory system published — uses on-demand tools and selective retrieval; raises red-team-style transparency questions — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal*
 - **2025-12-12**: [[openai]] self-rates GPT-5 "high" cybersecurity threat under preparedness framework — zero-day discovery, enterprise intrusion potential — *source: TAAFT "GPT-5 Gets a Danger Label"*
@@ -55,3 +56,4 @@ Prompt injection is a security category where adversarial content embedded in mo
 - data/summaries/2025-12-12.json (TAAFT — GPT-5 Gets a Danger Label)
 - data/summaries/2025-12-16.json (TLDR AI — OpenAI adopts Skills [Claude memory reverse-engineering]; AlphaSignal)
 - data/summaries/2025-12-18.json (AI Breakfast — 8M+ AI Chats Secretly Harvested; TAAFT)
+- data/summaries/2026-03-07.json (TLDR — GitHub issue title OpenClaw prompt injection — 4K dev machines)

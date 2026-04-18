@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-02
-> **Last updated**: 2025-10-13
-> **Status**: stale
-> **Related**: [[tinker-api]], [[openai]], [[meta]], [[ai-funding-rounds]]
+> **Last updated**: 2026-03-12 (backfill 2026-03-12)
+> **Status**: active
+> **Related**: [[tinker-api]], [[openai]], [[meta]], [[nvidia]], [[ai-funding-rounds]], [[ai-hardware]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Thinking Machines is the AI lab founded by former [[openai]] CTO Mira Murati. In
 
 ## Timeline
 
+- **2026-03-12**: Secures multi-year [[nvidia]] compute deal — at least a gigawatt of NVIDIA chips for training and serving frontier models; NVIDIA also invests in the startup — major AI-infrastructure commitment — *source: 2026-03-12 cycle (TLDR — Thinking Machines Lab; Yann LeCun's $1B bet)*
 - **2025-10-13**: Thinking Machines co-founder reportedly heads to [[meta]] — *source: The Rundown AI "Thinking Machines co-founder heads to Meta"; TLDR AI "Meta poaches TML cofounder"*
 - **2025-10-05**: Continued coverage of Tinker launch — *source: The Rundown AI "Ex-OpenAI CTO Just Launched a New AI Platform"*
 - **2025-10-03**: Ex-OpenAI CTO's lab launches first product for LLM fine-tuning — *source: AlphaSignal*
@@ -40,3 +41,4 @@ Thinking Machines is the AI lab founded by former [[openai]] CTO Mira Murati. In
 - data/summaries/2025-10-03.json (AlphaSignal — Ex-OpenAI CTO's lab launches first product for LLM fine-tuning)
 - data/summaries/2025-10-05.json (The Rundown AI — Ex-OpenAI CTO Just Launched a New AI Platform)
 - data/summaries/2025-10-13.json (The Rundown AI — Thinking Machines co-founder heads to Meta; TLDR AI — Meta poaches TML cofounder)
+- data/summaries/2026-03-12.json (TLDR — Murati lands NVIDIA gigawatt deal; Yann LeCun's $1B bet cycle)

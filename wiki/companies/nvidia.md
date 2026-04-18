@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-03-15 (backfill 2026-02-20..2026-03-15)
 > **Status**: active
 > **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[vera-rubin]], [[alpamayo]], [[nitrogen]], [[xai]], [[openai]], [[anthropic]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-healthcare]], [[ai-bubble-concerns]]
 
@@ -22,6 +22,10 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2026-03-15**: GTC 2026 set for the following week (expectations high for AI hardware announcements) — *source: 2026-03-15 cycle (World of AI)*
+- **2026-03-13**: [[nemotron-3]] Super released — 120B open-source reasoning model, hybrid Mamba-Transformer MoE, 1M-token native context, 4× memory efficiency over prior gen, dev-controlled reasoning budget; 5× throughput vs prior gen — *source: 2026-03-13 cycle (TAAFT — NVIDIA releases Nemotron 3 Super; World of AI — NVIDIA's NEW Open-Source Model; The Code; TLDR AI)*
+- **2026-03-13**: NVIDIA plans open-source [[openclaw]] competitor (per coverage) — *source: 2026-03-13 cycle (TLDR)*
+- **2026-03-12**: NVIDIA invests in Mira Murati's [[thinking-machines]] Labs — multi-year deal for "at least a gigawatt of compute"; cutting-edge chips to train + serve Thinking Machines frontier models — *source: 2026-03-12 cycle (TLDR AI — Nvidia + Thinky; The Rundown AI — Thinking Machines + NVIDIA)*
 - **2026-03-06**: NVIDIA reportedly may stop investing further in [[openai]] and [[anthropic]] ahead of their IPOs — pivots focus to selling chips that power their systems — *source: 2026-03-06 cycle*
 - **2026-03-03**: Participates in [[openai]] $110B mega-round alongside Amazon + SoftBank; [[broadcom]] separately targets 1M 3D-stacked chips by 2027, AI revenue $8.2B Q1 — *source: 2026-03-03 cycle*
 - **2026-02-24**: Close to finalizing $30B investment in [[openai]] — replaces the stalled $100B pact — *source: 2026-02-24 cycle*
@@ -114,3 +118,6 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - data/summaries/2026-02-24.json ($30B OpenAI investment close)
 - data/summaries/2026-03-03.json ($110B OpenAI mega-round participation; Broadcom 3D stacked)
 - data/summaries/2026-03-06.json (Potential pullback from OpenAI/Anthropic pre-IPO)
+- data/summaries/2026-03-12.json (NVIDIA invests in Thinking Machines — gigawatt compute deal)
+- data/summaries/2026-03-13.json (Nemotron 3 Super 120B; open-source OpenClaw competitor report)
+- data/summaries/2026-03-15.json (GTC 2026 preview)

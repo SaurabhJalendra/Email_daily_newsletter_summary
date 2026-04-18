@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-13
-> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-14)
 > **Status**: active
 > **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code-web]], [[claude-code-security]], [[claude-cowork]], [[agent-frameworks]], [[jules]], [[cursor]]
 
@@ -21,6 +21,11 @@ Claude Code is [[anthropic]]'s official command-line coding agent, built around 
 - **2026-04-16**: Always-on Routines launched — reusable prompt/repo/connector bundles running on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: [[claude-design]] ships with direct hand-off into Claude Code for build stage — *source: TAAFT "Claude Just Became a Designer"; World of AI "ANTHROPIC DROPS Claude Design!"*
 - **2026-04-16**: Nate Herk demos a fully autonomous Claude Code 4.7 trading bot that researches, trades on Alpaca, manages stops, and self-reports on cron — illustrative of agentic Claude Code workflows in the community — *source: AI Automation Society*
+- **2026-03-14**: Claude Visuals ("Imagine with Claude") beta in Claude Chat — auto-picks format (chart, diagram, flowchart) and generates interactive visuals inline; free + paid plans; refinable via follow-up — *source: 2026-03-14 cycle (TLDR AI — Claude Visuals; Superhuman — interactive charts & diagrams; The Code — Anthropic adds visuals)*
+- **2026-03-13**: `/btw` contextual-question command added — ask questions without interrupting active Claude Code tasks; Claude Code referenced at $2.5B annualized revenue (TIME cover) — *source: 2026-03-13 cycle (AlphaSignal); TAAFT 2026-03-14*
+- **2026-03-11**: Claude Code Review ships (research preview, Team+Enterprise) — multi-agent PR reviewer, 7.5× more bugs on 1K+ line PRs, <1% false-positive rate, $15–$25/review; fork-mid-session adds branch-from-current-point without losing context — *source: 2026-03-11 cycle (AlphaSignal — 7.5x more bugs; The Code — Claude Code Review; TLDR — Code Review; World of AI)*
+- **2026-03-10**: Claude Code sleep mode — local scheduled tasks + loop command; loops run up to 3 days without input; cited as turning Claude Code into "always-on" automation surface; Nate Herk tutorials drive community adoption — *source: 2026-03-10 cycle (Superhuman — Claude Code now runs while you sleep; AI Automation Society; Chase AI Community)*
+- **2026-03-07**: Auto Mode launched for permission decisions during sessions — safer alternative to bypassing permissions entirely; positioned for isolated environments only — *source: TLDR "GPT-5.4 + Claude Code auto mode"*
 - **2026-02-22**: Full PR workflow — preview, review, and merge capabilities added; [[claude-code-security]] announced as in-product security-scanner surface — *source: 2026-02-22 cycle*
 - **2026-02-19**: Claude Code referenced as design-to-implementation downstream surface in Figma's Code-to-Canvas integration — *source: 2026-02-19 cycle*
 - **2026-02-09**: Anthropic Claude SDK lands in Apple Xcode 26.3 alongside [[openai-codex]] — first-party Mac IDE integration for Claude — *source: 2026-02-09 cycle*
@@ -67,3 +72,8 @@ Claude Code is [[anthropic]]'s official command-line coding agent, built around 
 - data/summaries/2025-12-12.json (AlphaSignal — Microsoft 37.5M Copilot [async subagents + compaction])
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; TAAFT — Claude Just Became a Designer; World of AI — ANTHROPIC DROPS Claude Design!; AI Automation Society — Nate Herk posted "Claude Opus 4.7 Just Dropped"; AI Automation Society — Nate Herk autonomous trading bot)
 - data/summaries/2026-02-22.json (Claude Code full PR workflow + Claude Code Security announcement)
+- data/summaries/2026-03-07.json (Claude Code Auto Mode for permission decisions)
+- data/summaries/2026-03-10.json (Claude Code sleep/loop + scheduled tasks)
+- data/summaries/2026-03-11.json (Claude Code Review multi-agent PR reviewer; fork-mid-session)
+- data/summaries/2026-03-13.json (/btw contextual command; $2.5B ARR)
+- data/summaries/2026-03-14.json (Claude Visuals beta)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-03-16 (backfill 2026-02-20..2026-03-16)
 > **Status**: active
 > **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[translategemma]], [[medgemma]], [[project-genie]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[universal-commerce-protocol]], [[model-context-protocol]], [[prompt-injection]], [[computer-use]], [[ai-hardware]], [[ai-healthcare]]
 
@@ -19,6 +19,11 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 ## Timeline
 
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
+- **2026-03-16**: Live photo-editing AI smart glasses demo — Gemini + [[nano-banana-pro]] snap and edit photos instantly; "vibe design" tool in early build — *source: 2026-03-16 cycle (TAAFT — ChatGPT Designs Cancer Vaccine)*
+- **2026-03-14**: Google Maps rebuilt on Gemini — "Ask Maps" (conversational query layer over 300M locations) + "Immersive Navigation" (3D rendering of buildings/overpasses/lanes/signs from Street View + aerial imagery); rollout targets 2B Maps users — *source: 2026-03-14 cycle (World of AI; The Rundown AI; Superhuman; AI Breakfast; The Code; TLDR — Google Maps redesign)*
+- **2026-03-13**: Expanded Gemini capabilities GA across Docs/Sheets/Slides/Drive for AI Ultra and Pro — Docs drafts from reference templates, Sheets auto-populates from web data, Slides generates editable theme-matched decks, Drive answers natural-language questions across files/email/calendar — *source: 2026-03-13 cycle (Superhuman — Google embeds Gemini into Workspace)*
+- **2026-03-12**: [[gemini-embedding-2]] launches on Gemini API + Vertex AI — multimodal (text/image/video/audio/PDF) unified embedding space, Matryoshka scaling, 100+ languages — *source: 2026-03-12 cycle (World of AI; Google AI Studio; TLDR AI; AI Breakfast; Superhuman; AlphaSignal 03-13)*
+- **2026-03-07**: NotebookLM Cinematic Video Overviews GA — integrates [[gemini-3]] + [[nano-banana-pro]] + [[veo-3]] to turn research into studio-quality animated videos; English-only, Google AI Ultra subscribers, 20 generations/day; open-source CLI for Workspace suite released — *source: TAAFT; AI Breakfast "NotebookLM turns your research into a full cinematic video"; The Rundown AI*
 - **2026-03-06**: [[notebook-lm]] adds cinematic animated video generation via Gemini + Veo (turns research notes into videos); `gws` CLI for Google Workspace launches (humans + agents) — *source: 2026-03-06 cycle*
 - **2026-03-05**: [[gemini-3-1-flash-lite]] launches — budget tier with configurable thinking level, 2.5× faster time-to-first-token vs Gemini 2.5 Flash — *source: 2026-03-05 cycle*
 - **2026-03-03**: Merkle Tree Certificate system rolled out — quantum-resistant assurances for HTTPS certificates — *source: 2026-03-03 cycle*
@@ -209,3 +214,8 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - data/summaries/2026-03-03.json (Merkle Tree Certificate quantum HTTPS)
 - data/summaries/2026-03-05.json (Gemini 3.1 Flash-Lite)
 - data/summaries/2026-03-06.json (NotebookLM cinematic videos; gws CLI)
+- data/summaries/2026-03-07.json (NotebookLM Cinematic Video Overviews GA; Workspace CLI open-source)
+- data/summaries/2026-03-12.json (Gemini Embedding 2 launch)
+- data/summaries/2026-03-13.json (Gemini in Docs/Sheets/Slides/Drive — Workspace overhaul)
+- data/summaries/2026-03-14.json (Google Maps Gemini overhaul — Ask Maps + Immersive Navigation)
+- data/summaries/2026-03-16.json (AI smart glasses demo)

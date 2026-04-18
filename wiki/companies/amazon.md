@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-21
-> **Last updated**: 2025-12-19 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-03-15 (backfill 2026-03-07..2026-03-16)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[nvidia]], [[perplexity]], [[perplexity-comet]], [[ai-hardware]], [[ai-funding-rounds]]
 
@@ -18,6 +18,10 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 
 ## Timeline
 
+- **2026-03-15**: Alexa+ adults-only mode launches — curses and roasts users; extra security checks required; disabled when Amazon Kids active — *source: 2026-03-15 cycle (Alexa Now Curses and Roasts You)*
+- **2026-03-15**: Amazon requires senior-engineer sign-off for AI-tool code changes — formal guardrails around AI coding assistants (alongside Agoda policy) — *source: 2026-03-15 cycle (AI gets reality check)*
+- **2026-03-13**: Amazon Health AI launches — healthcare assistant on web/app; answers health questions, explains lab results, interprets records, manages prescriptions, books appointments; One Medical hand-off for 30+ common conditions — *source: 2026-03-13 cycle (Perplexity launches Personal Computer — Amazon Health AI)*
+- **2026-03-12**: Amazon wins court order blocking [[perplexity-comet]] AI shopping agent — first major agent-access injunction; cites customer-data protection and unauthorized scraping — *source: 2026-03-12 cycle (TLDR AI — Amazon wins court order)*
 - **2025-12-27**: Amazon faces "leader's dilemma" in dealing with AI shopping bots; relies on a secret army of humans to rescue stranded robotaxis — *source: 2025-12-27 cycle*
 - **2025-12-20**: Amazon–OpenAI potential $10B+ investment coverage continues; $830B OpenAI valuation framing — *source: 2025-12-20 cycle*
 - **2025-12-19**: Amazon reportedly considering $10B+ investment in [[openai]] at $500B+ valuation; deal would include OpenAI training/inference workloads on AWS Trainium — *source: TLDR; The Rundown AI*
@@ -78,3 +82,6 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 - data/summaries/2025-12-06.json (TAAFT — AWS Factories + Trainium vs NVIDIA)
 - data/summaries/2025-12-12.json (TAAFT — Amazon launched a new Coding agent)
 - data/summaries/2025-12-19.json (TLDR; The Rundown AI — Amazon considering $10B+ in OpenAI at $500B+ val)
+- data/summaries/2026-03-12.json (TLDR AI — Amazon wins court order vs Perplexity shopping agent)
+- data/summaries/2026-03-13.json (Amazon Health AI + One Medical integration)
+- data/summaries/2026-03-15.json (Alexa+ adults-only mode; Amazon AI coding guardrails policy)
