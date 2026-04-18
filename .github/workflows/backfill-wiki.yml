@@ -78,7 +78,7 @@ jobs:
             - Do NOT commit — the workflow step after this will commit.
             - Process EXACTLY ${{ inputs.batch_size }} summaries (or fewer if that exhausts the backlog). Don't try to do more.
           claude_args: |
-            --max-turns 300
+            --max-turns 500
             --model claude-opus-4-7
             --allowedTools Read,Write,Edit,Glob,Grep
 
