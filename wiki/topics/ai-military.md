@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-12-25
-> **Last updated**: 2026-03-21 (backfill 2026-02-20..2026-03-21)
+> **Last updated**: 2026-03-30 (backfill 2026-02-20..2026-03-30)
 > **Status**: active
 > **Related**: [[anthropic]], [[xai]], [[openai]], [[ai-regulation]], [[enterprise-ai]]
 
@@ -18,6 +18,7 @@ AI-military coverage tracks how the US Department of War / Department of Defense
 
 ## Timeline
 
+- **2026-03-30**: Federal judge issues preliminary injunction freezing the Pentagon's "supply-chain risk" designation of [[anthropic]] — calls the label an "Orwellian notion"; Claude remains usable across federal agencies pending lawsuit resolution; separately, China deploys robot wolves with micro-missiles and a shared "collective brain" for simulated urban warfare — lethal-autonomy surface expands beyond drones — *source: 2026-03-30 cycle (TAAFT — Judge Blocks the Pentagon's Anthropic Ban; Robot Wolves in China)*
 - **2026-03-23**: Palantir's Maven AI system designated a formal Pentagon "program of record" — secures long-term funding and institutionalizes Maven as reference defense-AI stack — *source: 2026-03-23 cycle*
 - **2026-03-21**: Pentagon escalates [[anthropic]] label from "supply-chain risk" to "unacceptable risk" — citing Anthropic's refusal to let Claude be used for mass surveillance or lethal-weapon targeting decisions — *source: 2026-03-21 cycle*
 - **2026-03-07**: [[anthropic]] sues the Department of War over "supply-chain risk" designation; Anthropic CEO apologizes for leaked internal memo questioning DoW's decision — lab explicitly argues the action "is not legally sound"; [[anduril]] meanwhile raises $4B at $60B valuation for autonomous warfare (separate thread; DoD customer) — *source: 2026-03-07 cycle (TLDR; TAAFT; Forward Future)*
@@ -56,3 +57,4 @@ AI-military coverage tracks how the US Department of War / Department of Defense
 - data/summaries/2026-03-07.json (Anthropic files lawsuit vs DoW; leaked-memo apology; Anduril $60B round in parallel)
 - data/summaries/2026-03-21.json (Pentagon escalates Anthropic label to "unacceptable risk")
 - data/summaries/2026-03-23.json (Palantir Maven — formal Pentagon program of record)
+- data/summaries/2026-03-30.json (TAAFT — federal judge blocks Pentagon's Anthropic ban; robot wolves in China)

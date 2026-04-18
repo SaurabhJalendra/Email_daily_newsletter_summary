@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-31
-> **Last updated**: 2026-03-24
+> **Last updated**: 2026-03-27
 > **Status**: active
 > **Related**: [[meta]], [[agent-frameworks]], [[ai-funding-rounds]]
 
@@ -18,6 +18,7 @@ Manus is a Singapore-headquartered AI agent startup — with roots in Chinese AI
 
 ## Timeline
 
+- **2026-03-27**: Co-founders Xiao Hong and Ji Yichao restricted from leaving China — authorities reviewing the $2.5B [[meta]] sale over concerns about Chinese startups relocating; coverage notes the $2.5B figure (vs $2B+ in Dec 2025 framing) — *source: 2026-03-27 cycle (TLDR AI — "Manus founders detained")*
 - **2026-03-24**: Manus "My Computer" desktop app launches — agent works directly on user's local machine via terminal commands — *source: 2026-03-24 cycle*
 - **2026-01-02**: Meta–Manus deal reframed as shift toward "Personal Superintelligence" / general-purpose agents integrated into social platforms — *source: 2026-01-02 cycle*
 - **2026-01-01**: $2B Meta acquisition confirmed — agents to ship inside Facebook, Instagram, WhatsApp — *source: The Rundown AI; TLDR 2026-01-01 cycle*
@@ -43,3 +44,4 @@ Manus is a Singapore-headquartered AI agent startup — with roots in Chinese AI
 - data/summaries/2026-01-01.json (The Rundown AI; TLDR — acquisition confirmed)
 - data/summaries/2026-01-02.json (Personal Superintelligence framing)
 - data/summaries/2026-03-24.json (Manus "My Computer" desktop app — local-machine agent via terminal)
+- data/summaries/2026-03-27.json (TLDR AI — Manus founders detained in China; $2.5B Meta sale under review)

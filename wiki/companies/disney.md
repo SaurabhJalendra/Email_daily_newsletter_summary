@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-13
-> **Last updated**: 2025-12-24
+> **Last updated**: 2026-03-27
 > **Status**: active
 > **Related**: [[openai]], [[google]], [[chatgpt]], [[sora-2]], [[ai-copyright]]
 
@@ -18,6 +18,7 @@ Disney enters newsletter coverage in mid-December 2025 as the year's most conseq
 
 ## Timeline
 
+- **2026-03-27**: $1B [[openai]] content partnership ends as [[sora-2]] platform shuts down — character-licensing exclusivity becomes moot; coverage notes OpenAI ending the deal as it refocuses away from Sora — *source: 2026-03-27 cycle (Mindstream — "OpenAI is killing Sora already")*
 - **2025-12-24**: Disney $1B equity investment in [[openai]] reported — reframes the character-license deal as a direct capital commitment; Sora can now use 200+ copyrighted characters — *source: 2025-12-24 cycle*
 - **2025-12-16**: Disney 1-year exclusivity for Sora characters confirmed — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal*
 - **2025-12-13**: $1B Disney–OpenAI deal announced — Sora and ChatGPT Image access to 200+ Disney/Pixar/Marvel/Star Wars characters; Disney also sues [[google]] over AI usage of its IP — *source: TAAFT "Google vs OpenAI Same-Day Showdown"; The Rundown AI "Disney chooses OpenAI"; TLDR; AI Breakfast; Superhuman; Mindstream*
@@ -40,3 +41,4 @@ Disney enters newsletter coverage in mid-December 2025 as the year's most conseq
 
 - data/summaries/2025-12-13.json (TAAFT — Google vs OpenAI Same-Day Showdown; The Rundown AI — Disney chooses OpenAI; TLDR; AI Breakfast; Superhuman; Mindstream)
 - data/summaries/2025-12-16.json (TLDR AI — OpenAI adopts Skills [Disney exclusivity]; AlphaSignal)
+- data/summaries/2026-03-27.json (Mindstream — OpenAI is killing Sora; Disney content deal ends)

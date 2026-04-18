@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-11-07
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-04-04 (backfill 2026-04-04)
 > **Status**: active
-> **Related**: [[kimi-k2-thinking]], [[kimi-k2-5]], [[openclaw]], [[baidu]], [[alibaba]], [[deepseek]]
+> **Related**: [[kimi-k2-thinking]], [[kimi-k2-5]], [[openclaw]], [[baidu]], [[alibaba]], [[deepseek]], [[cursor]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Moonshot AI (the company behind the "Kimi" assistant) is a Chinese frontier-lab 
 
 ## Timeline
 
+- **2026-04-04**: Moonshot AI's valuation quadruples to $18B (up from ~$4.8B in January) after Kimi K2.5 is used by [[cursor]] as the underlying model to build Cursor 3; coverage details a zero-hierarchy operating model — no departments, titles, OKRs, or KPIs; each co-founder directly oversees ~50 people; hire-for-generalists with more than half of staff having rotated through multiple roles; framed as a pointed counter-example to the Big-Tech org chart now that a Chinese open-weights lab is powering a flagship Western developer product — *source: 2026-04-04 cycle (The Code — Cursor 3 powered by Kimi K2.5 + Moonshot $18B; TLDR AI — Moonshot valuation 4× on Cursor 3 usage)*
 - **2026-02-17**: Launches Kimi Claw — brings [[openclaw]] directly into the browser; access to 5,000+ community-built skills via ClawHub; 40GB cloud storage; "Bring Your Own Claw" option; Moonshot also rolls out persistent OpenClaw assistant integrated into Kimi with cloud deployment — *source: 2026-02-17 cycle (The Code; AlphaSignal)*
 - **2026-02-06**: Kimi AI slides — text-prompt-to-stunning-slides positioning continues — *source: 2026-02-06 cycle*
 - **2026-02-04**: [[kimi-k2-5]] framing continues — advances toward "execution" capabilities with multimodal and agentic systems — *source: World of AI "AI Is Leaving the ChatBox"*
@@ -46,3 +47,4 @@ Moonshot AI (the company behind the "Kimi" assistant) is a Chinese frontier-lab 
 - data/summaries/2025-11-11.json (AlphaSignal — Kimi K2 Thinking outperforms)
 - data/summaries/2025-11-12.json (TLDR — open-sourced)
 - data/summaries/2025-11-14.json (TLDR AI cycle — Kimi K2 Thinking API)
+- data/summaries/2026-04-04.json (The Code — Cursor 3 powered by Kimi K2.5; TLDR AI — Moonshot $18B valuation + zero-hierarchy operating model)

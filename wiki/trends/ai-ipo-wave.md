@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-30
-> **Last updated**: 2026-01-17
+> **Last updated**: 2026-03-31
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[ai-funding-rounds]], [[xai]], [[ai-bubble-concerns]]
 
@@ -18,6 +18,8 @@ By early 2026 the top frontier AI labs were publicly discussed as IPO candidates
 
 ## Timeline
 
+- **2026-03-31**: [[openai]] raising an additional $10B from MGX, Coatue, and Thrive — total private funding surpasses $120B at $120B+ valuation framing; SK Hynix plans confidential US IPO in late 2026 targeting $9.6B–$14.4B (first major memory-silicon AI-adjacent listing on the US market); Defense-AI startup Shield AI raises $2B at $12.7B valuation; Kleiner Perkins closes $3.5B fund ($1B early-stage + $2.5B late-stage) heavily tilted toward AI startups; Hummingbird Ventures nears $800M raise including first $600M growth fund — late-stage AI capital remains aggressive — *source: 2026-03-31 cycle (Tech Buzz — SignalPulse: OpenAI Raising; SK Hynix IPO; Shield AI; Kleiner Perkins $3.5B; Hummingbird $800M)*
+- **2026-03-28**: [[anthropic]] reportedly in talks for an October 2026 IPO that could raise $60B+; SpaceX $75B IPO planned at $1.75T valuation — two of the largest tech IPOs on record teed up in the same cycle — *source: 2026-03-28 cycle (TLDR AI — Anthropic October IPO; Forward Future — SpaceX $75B IPO)*
 - **2026-01-17**: [[anthropic]] publishes January 2026 Economic Index — new data on Claude usage across geographies and sectors; context for public-market disclosure — *source: 2026-01-17 cycle*
 - **2026-01-16**: OpenAI ($500B) and Anthropic ($350B) reportedly working on potential public offerings simultaneously; joins SpaceX in "historic IPO wave" framing — *source: 2026-01-16 cycle*
 - **2026-01-10**: Anthropic reportedly raising $10B at $350B valuation (vs previous $300B); xAI closed upsized $20B Series E — "capital still flooding into frontier AI" — *source: 2026-01-10 cycle*
@@ -51,3 +53,5 @@ By early 2026 the top frontier AI labs were publicly discussed as IPO candidates
 - data/summaries/2026-01-10.json (capital flood framing)
 - data/summaries/2026-01-16.json (OpenAI + Anthropic simultaneous IPO prep)
 - data/summaries/2026-01-17.json (Anthropic Economic Index)
+- data/summaries/2026-03-28.json (TLDR AI — Anthropic October IPO $60B+; Forward Future — SpaceX $75B IPO at $1.75T)
+- data/summaries/2026-03-31.json (Tech Buzz SignalPulse — OpenAI $10B / $120B+; SK Hynix confidential US IPO late 2026; Shield AI $2B at $12.7B; Kleiner Perkins $3.5B; Hummingbird ~$800M)

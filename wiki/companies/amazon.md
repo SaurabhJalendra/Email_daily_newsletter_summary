@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-21
-> **Last updated**: 2026-03-24 (backfill 2026-03-07..2026-03-24)
+> **Last updated**: 2026-04-05 (backfill 2026-04-05)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[nvidia]], [[perplexity]], [[perplexity-comet]], [[ai-hardware]], [[ai-funding-rounds]]
 
@@ -18,6 +18,10 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 
 ## Timeline
 
+- **2026-04-05**: Ring AI app store coverage continues — second-cycle mention confirms the 2026-04-02 launch as an ongoing developer story rather than a one-day announcement; specifically framed alongside Apple's planned AI app marketplace as the two dominant distribution surfaces emerging for consumer AI agents — *source: 2026-04-05 cycle (The Tech Buzz — Ring Launches App Store)*
+- **2026-04-02**: Ring opens an AI app store — 100M+ cameras in the field become a developer platform for third-party AI apps covering elder care, workforce analytics, and rental management; developers get access to Ring's cameras and audio streams with user permission; positions Amazon's consumer camera fleet as the leading installed base for physical-world computer vision + audio agents (direct parallel to [[openai-codex]] plugins / [[claude-code]] plugins on the coding side); $122B OpenAI round (Amazon + Nvidia + SoftBank led) reinforces Amazon's AI-compute investment thesis; also $2B/month OpenAI revenue framing continues — *source: 2026-04-02 cycle (TAAFT — Ring Opens an AI App Store; The Rundown AI — OpenAI $122B round; AI Breakfast — Anthropic agent architecture leak / $122B at $852B led by Amazon/Nvidia/SoftBank)*
+- **2026-03-29**: Amazon acquires Fauna Robotics — consumer home-robotics expansion; Sprout, a child-sized humanoid designed for household tasks, is Fauna's flagship — positions Amazon as a direct challenger to Tesla, Figure, and Boston Dynamics on the household-humanoid axis (follows 2026-03-22 Rivr quadruped acquisition) — *source: 2026-03-29 cycle (Superhuman — China straps OpenClaw to robots)*
+- **2026-03-28**: Amazon + [[openai]] infrastructure partnership confirmed — $15B base + up to $35B contingent; OpenAI commits to using AWS Trainium chips alongside NVIDIA GPUs; Amazon plans $200B capex push in 2026 focused largely on AI infrastructure expansion for AWS — aimed at reclaiming cloud leadership; SpaceX $75B IPO at $1.75T valuation planned (sector backdrop) — *source: 2026-03-28 cycle (The Batch — Nvidia's Open Salvo / OpenAI Amazon Deal; Forward Future — Amazon $200B AI capex)*
 - **2026-03-24**: Amazon reportedly developing AI-centric smartphone codenamed "Transformer" — deep Amazon shopping integration + Prime Video/Music streaming — *source: 2026-03-24 cycle*
 - **2026-03-22**: Amazon acquires Swiss robotics startup Rivr — quadruped robots for doorstep delivery; extends Amazon's last-mile automation push — *source: 2026-03-22 cycle*
 - **2026-03-20**: AWS signs deal with [[openai]] to make OpenAI products available to US government (classified + unclassified workloads) — [[microsoft]] reportedly weighing legal action over $50B arrangement as potential Azure-exclusivity violation — *source: 2026-03-20 cycle*
@@ -91,3 +95,7 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 - data/summaries/2026-03-20.json (AWS-OpenAI deal extends to US government)
 - data/summaries/2026-03-22.json (Amazon acquires Rivr — quadruped delivery robots)
 - data/summaries/2026-03-24.json ("Transformer" AI-centric smartphone project)
+- data/summaries/2026-03-28.json (The Batch — OpenAI-Amazon $15B+$35B partnership; Forward Future — Amazon $200B 2026 AI capex)
+- data/summaries/2026-03-29.json (Superhuman — Amazon acquires Fauna Robotics; Sprout child-sized humanoid)
+- data/summaries/2026-04-02.json (TAAFT — Ring Opens an AI App Store; The Rundown AI — OpenAI $122B round / Amazon-led; AI Breakfast — $122B at $852B Amazon-led)
+- data/summaries/2026-04-05.json (The Tech Buzz — Ring Launches App Store)

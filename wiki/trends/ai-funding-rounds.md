@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-04-04)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[reflection]], [[thinking-machines]], [[ai-bubble-concerns]], [[merge-labs]], [[ai-ipo-wave]]
 
@@ -21,6 +21,9 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - **2026-04-16**: [[anthropic]] reportedly in investor talks at $800B+ valuation, approaching OpenAI territory — *source: Superhuman "Gemini gets a Mac app"*
 - **2026-04-16**: Eli Lilly agrees to pay up to $2.75B to Insilico Medicine (AI drug discovery) — *source: The Batch "Meta Pivots From Open Weights, Big Pharma Bets On AI"*
 - **2026-04-16**: Allbirds/NewBird AI announces $50M financing to pivot from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code*
+- **2026-04-04**: [[moonshot-ai]] valuation quadruples to $18B (from ~$4.8B in Jan) after [[cursor]] uses Kimi K2.5 to build Cursor 3 — first time a Chinese open-weights lab visibly anchors a flagship Western developer product; [[nvidia]] invests $2B in Marvell to co-develop custom AI chips (hedges the in-house silicon squeeze from hyperscalers); Intel invests ~$15M for a ~9% stake in SambaNova (Intel silicon-strategy hedge) — *source: 2026-04-04 cycle (The Code — Moonshot $18B / Cursor 3; TLDR AI — Moonshot valuation 4×; The Tech Buzz — NVIDIA $2B Marvell; Forward Future — Intel SambaNova)*
+- **2026-04-03**: [[salesforce]] invests in [[anthropic]] (not [[openai]]) — surfaced as an enterprise-vendor signal that capital is rotating toward Claude; [[openai]] shares drop on secondary markets (some holders unable to find buyers) as investors reportedly pivot to Anthropic; OpenRouter in talks to raise $120M at a $1.3B valuation (led by CapitalG) — annualized revenue crossed $50M, positioning OpenRouter as the multi-model inference aggregator of record; Cognichip raises $60M to build AI tools for semiconductor chip design, targeting >75% cost reduction and >50% timeline reduction on chip development; Q1 2026 total framing: [[openai]] $122B + [[anthropic]] $30B + [[xai]] $20B + Waymo $16B = $188B, >63% of all AI funding in the quarter; SpaceX files confidential S-1 for what would be the largest IPO ever — targeting ~$1.75T valuation and up to $75B raise (AI exposure via xAI) — *source: 2026-04-03 cycle (Forward Future — Anthropic / Cognichip / OpenRouter / Salesforce invests in Anthropic; TLDR AI — Cognichip $60M; World of AI — $188B Q1 framing; TLDR / The Rundown AI — SpaceX IPO filing)*
+- **2026-04-02**: [[openai]] closes $122B at $852B valuation — Amazon + Nvidia + SoftBank led; framed as the largest single VC fundraise in venture history (surpassing the 2026-03-03 $110B/$730B round); revenue $2B/month, enterprise 40%+; capital earmarked for the ChatGPT + [[openai-codex]] + agent-tool "superapp" and post-Sora refocus; [[runway]] launches $10M startup fund (pre-seed/seed; up to $500K checks; 500K API credits to Series C); [[qodo]] raises $70M for AI agents handling code review, testing, and governance (customers include [[nvidia]], Walmart, Red Hat) — *source: 2026-04-02 cycle (The Rundown AI — OpenAI's new $122B funding round; TLDR AI — $122B at $852B; Superhuman — $122B largest private round in history; AI Breakfast — $122B at $852B Amazon/Nvidia/SoftBank led; TAAFT — Runway Launches $10M Startup Fund; FutureTools — Qodo $70M)*
 - **2026-03-03**: [[openai]] $110B mega-round closes at $730B valuation — [[nvidia]] participates; largest private financing to date — *source: 2026-03-03 cycle (also 2026-03-01)*
 - **2026-02-26**: [[meta]] + AMD $100B compute deal — 6 GW of AI compute; largest single compute agreement publicly disclosed — *source: 2026-02-26 cycle*
 - **2026-02-24**: [[nvidia]]'s $30B [[openai]] commitment closes — tranche of the broader OpenAI financing stack — *source: 2026-02-24 cycle*
@@ -90,6 +93,7 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 
 ## Key Facts
 
+- $852B: OpenAI valuation on $122B close (Apr 2 2026) — largest single VC fundraise in venture history
 - $800B+: Anthropic reported valuation talks (Apr 2026)
 - $500B: OpenAI valuation (Oct 2025); ~$1T IPO exploration (Oct 30 2025)
 - $300B: Anthropic talks (Nov 3 2025)
@@ -159,3 +163,6 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - data/summaries/2026-02-26.json (Meta-AMD $100B compute deal)
 - data/summaries/2026-03-01.json (OpenAI $110B at $730B)
 - data/summaries/2026-03-03.json (OpenAI $110B close, Nvidia participation)
+- data/summaries/2026-04-02.json (The Rundown AI — $122B at $852B; TLDR AI — $122B round; Superhuman — largest private round in history; AI Breakfast — Amazon/Nvidia/SoftBank led; TAAFT — Runway $10M Startup Fund; FutureTools — Qodo $70M)
+- data/summaries/2026-04-03.json (Forward Future — OpenRouter $120M @ $1.3B / Cognichip $60M / Salesforce invests in Anthropic; TLDR AI — Cognichip $60M; World of AI — $188B Q1 framing; TLDR / The Rundown AI — SpaceX IPO $75B @ $1.75T)
+- data/summaries/2026-04-04.json (The Code — Moonshot $18B / Cursor 3 Kimi K2.5; TLDR AI — Moonshot valuation 4×; The Tech Buzz — NVIDIA $2B Marvell; Forward Future — Intel $15M SambaNova stake)

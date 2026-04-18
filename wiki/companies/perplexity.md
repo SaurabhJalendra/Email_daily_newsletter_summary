@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-03
-> **Last updated**: 2026-03-21 (backfill 2026-02-20..2026-03-21)
+> **Last updated**: 2026-04-04 (backfill 2026-04-04)
 > **Status**: active
 > **Related**: [[perplexity-comet]], [[perplexity-computer]], [[perplexity-personal-computer]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[amazon]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,8 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 
 ## Timeline
 
+- **2026-04-04**: Tax-filing automation ships in Perplexity — uploads user tax documents, answers a Q&A flow, and applies up-to-date tax code to prepare + file federal returns; framed as a consumer-facing agentic task that sidesteps traditional tax-prep software (TurboTax/H&R Block category) — *source: 2026-04-04 cycle (The Rundown AI — Perplexity files your taxes)*
+- **2026-04-02**: Secure Intelligence Institute launches — Perplexity-backed research institute focused on AI security, privacy, and trust; framed as industry counter-posture to the Claude Code source-code leak cycle (same day) and to broader agent-access legal fights (follow-on to the 2026-03-12 [[amazon]] injunction) — *source: 2026-04-02 cycle (FutureTools — Apple pivots AI strategy / Perplexity Secure Intelligence Institute)*
 - **2026-03-21**: Perplexity Health enters US market — customizable health hub with specialized AI agents leveraging real user data for personalized insights — *source: 2026-03-21 cycle*
 - **2026-03-14**: Perplexity API platform rebuilt as full-stack, model-agnostic API for building agents; replaces model providers, search layers, embeddings; curated presets + frontier-model swap — *source: 2026-03-14 cycle (TLDR — Perplexity Agent API)*
 - **2026-03-13**: [[perplexity-personal-computer]] launches — always-on Comet Assistant on a dedicated Mac mini; persistent local file/app access, remote control, kill-switch safeguards; positioned as secure, locally controlled rival to [[openclaw]] — *source: 2026-03-13 cycle (The Rundown AI; Superhuman; The Code; AlphaSignal 2026-03-14)*
@@ -70,3 +72,5 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 - data/summaries/2026-03-13.json (The Rundown AI; Superhuman; The Code — Perplexity Personal Computer launch)
 - data/summaries/2026-03-14.json (TLDR — Perplexity Agent API; AlphaSignal — Personal Computer deep-dive)
 - data/summaries/2026-03-21.json (Perplexity Health US launch)
+- data/summaries/2026-04-02.json (FutureTools — Perplexity Secure Intelligence Institute)
+- data/summaries/2026-04-04.json (The Rundown AI — Perplexity files your taxes)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-02-27
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-03-29
 > **Status**: active
 > **Related**: [[agent-frameworks]], [[developer-tools]]
 
@@ -18,6 +18,7 @@ Vercel is the frontend/edge deployment platform (known for Next.js). In late Feb
 
 ## Timeline
 
+- **2026-03-29**: JSON-Render open-sourced — framework that lets an AI generate full user interfaces from simple text prompts; developers define allowed components and the model composes them via structured JSON (bounded-generation approach to agent-driven UI) — *source: 2026-03-29 cycle (Hello, World! — Vercel JSON-Render)*
 - **2026-02-27**: Open-sources Chat SDK for cross-platform bots — write bot logic once, ship across multiple platforms — *source: 2026-02-27 cycle*
 
 ## Key Facts
@@ -33,3 +34,4 @@ Vercel is the frontend/edge deployment platform (known for Next.js). In late Feb
 ## Sources
 
 - data/summaries/2026-02-27.json (Vercel Chat SDK open-sourced)
+- data/summaries/2026-03-29.json (Hello, World! — Vercel JSON-Render AI-driven UI framework)

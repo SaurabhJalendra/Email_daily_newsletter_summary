@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-27
-> **Last updated**: 2026-03-19
+> **Last updated**: 2026-03-28
 > **Status**: active
 > **Related**: [[mistral-studio]], [[mistral-3]], [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]]
 
@@ -18,6 +18,7 @@ Mistral AI is the Paris-based frontier lab known for its open-weight model line 
 
 ## Timeline
 
+- **2026-03-28**: Voxtral released — open-weight text-to-speech model; fast, expressive, multilingual (initial launch across 9 languages); framed alongside [[cohere]] Transcribe and ElevenLabs as part of a wave of open-weight audio models pressuring proprietary incumbents — *source: 2026-03-28 cycle (The Rundown AI — Mistral Voxtral)*
 - **2026-03-21**: Mistral Vibe released — terminal-native coding agent that refactors entire codebases; PRs, tests, docs "on autopilot" — *source: 2026-03-21 cycle*
 - **2026-03-19**: Mistral Forge debuts — full-cycle model development with internal training recipes and forward-deployed scientists; Mistral Small 4 MoE released for enterprise customers — *source: 2026-03-19 cycle*
 - **2026-02-19**: Acquires Koyeb — first Mistral acquisition; serverless deployment startup positioned as core component of Mistral Compute — *source: 2026-02-19 cycle*
@@ -48,3 +49,4 @@ Mistral AI is the Paris-based frontier lab known for its open-weight model line 
 - data/summaries/2025-12-11.json (TLDR AI — Devstral 2)
 - data/summaries/2026-03-19.json (Mistral Forge — full-cycle dev; Mistral Small 4 MoE)
 - data/summaries/2026-03-21.json (Mistral Vibe — terminal-native coding agent)
+- data/summaries/2026-03-28.json (The Rundown AI — Mistral Voxtral open-weight TTS across 9 languages)

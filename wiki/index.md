@@ -22,6 +22,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[character-ai]] — companion chatbot; ban on minors effective Nov 25 2025; ships Stories interactive fiction
 - [[cisco]] — networking incumbent; AI agents absorbing ~80% of routine network-ops work Feb 2026
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf
+- [[cohere]] — Toronto enterprise LLM vendor; open-source Transcribe ASR tops HuggingFace leaderboard across 14 languages
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025
 - [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace, in-platform LLM hosting
@@ -45,6 +46,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[notion]] — workspace app; Custom Agents autonomous AI teammates Feb 2026
 - [[nous-research]] — open-source AI research collective; Hermes Agent self-improving AI agent Feb 2026
 - [[nvidia]] — AI GPUs; Cosmos physical AI; Ising quantum; Vera Rubin; $57B record quarter; Alpamayo-R1
+- [[ollama]] — local-model runtime; launches Pi coding agent behind OpenClaw with Pro/Max cloud tiers Mar 2026
 - [[openai]] — ChatGPT/Sora; Atlas browser; Aardvark; "Code Red" vs Gemini 3; first device w/ Jony Ive
 - [[oracle]] — enterprise cloud; AMD partnership *(stale)*
 - [[perplexity]] — AI search; Comet browser; AI Browser w/ shopping + virtual try-on
@@ -84,6 +86,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills
 - [[claude-haiku-4-5]] — Anthropic's fast, low-cost coding model *(stale)*
 - [[claude-marketplace]] — Anthropic's enterprise marketplace for Claude-powered third-party tools (Mar 2026)
+- [[claude-mythos]] — unreleased Anthropic Claude tier above Opus 4.7; release delayed over cybersecurity risk
 - [[claude-opus-4-5]] — Anthropic's Nov 2025 flagship; 80.9% SWE-bench Verified; T2 Retail 88.9% / Telecom 98.2%
 - [[claude-opus-4-6]] — Anthropic's Feb 2026 flagship; 1M context, agent teams, fast mode 2.5×
 - [[claude-opus-4-7]] — Anthropic's Apr 2026 flagship; 3.75 MP vision, xhigh effort, file memory
@@ -104,11 +107,13 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-2-5-computer-use]] — Gemini variant for UI control *(stale)*
 - [[gemini-3]] — Google's next-generation model; 1M token context, Deep Think mode
 - [[gemini-3-1-flash-lite]] — Google's Mar 2026 budget/fast tier; 2.5× TTFT vs 2.5 Flash; configurable thinking level
+- [[gemini-3-1-flash-live]] — Google's real-time voice model; 90.8% ComplexFuncBench Audio; powers Gemini Live + Search Live
 - [[gemini-3-1-flash-tts]] — Google's low-latency TTS (70+ languages, multi-speaker)
 - [[gemini-3-1-pro]] — Google's Mar 2026 flagship; 77.1% ARC-AGI-2; successor to Gemini 3 Pro
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence
 - [[gemini-embedding-2]] — Google's multimodal embedding model across text/image/video/audio/PDF (Mar 2026)
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
+- [[gemma-4]] — Google's Apr 2026 open-weights family (2B/4B/26B MoE/31B Dense); 256K context; Apache 2.0; 140+ languages
 - [[github-agent-hq]] — GitHub's multi-agent control plane
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
 - [[glm-4-7]] — Zhipu AI open-source WebDev model topping open leaderboards Dec 2025

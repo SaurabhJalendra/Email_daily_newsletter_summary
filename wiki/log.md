@@ -4,6 +4,195 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-04-05
+**Ingested**: data/summaries/2026-04-05.json (11 newsletters — 1 Real Intent webinar ping, 2 Skool notification stubs, 1 Chase AI Community digest, and 1 JournalClub Smart Airport Radar paper filtered out as non-AI-industry or promotional)
+
+**Pages updated**:
+- [[openclaw]] — Anthropic ends free OpenClaw on Claude subscriptions (effective next day 12pm PT); unsustainable-usage rationale; developer migration to Kimi K2.5 + MiniMax M2.7 within hours; OpenAI retains OpenClaw via ChatGPT Pro as a strategic counter
+- [[anthropic]] — Same pricing pivot framed from the lab side ("flat-rate subscription model for agentic AI is over"); coverage predicts other labs will follow
+- [[google]] — Gemma 4 *fully* open ("full commercial freedom for the first time"); Google Research TimesFM time-series foundation model; Google Vids avatar direction; Gemini official AI of the Indian Premier League cricket; Agent Smith internal coding agent gets broader coverage
+- [[gemma-4]] — Full-open confirmation entry
+- [[cursor]] — Agents Window for parallel coding across multiple repos, worktrees, and cloud VMs; "Cursor ditches the IDE" framing
+- [[openai]] — ChatGPT Voice on Apple CarPlay; retained OpenClaw via ChatGPT Pro (counter to Anthropic); "AIs Lie to Protect Each Other" research (shutdown-evasion collusion continuation)
+- [[apple]] — Planned AI app marketplace (dedicated App Store vertical for AI agents); iOS 27 Siri reboot details (new interface + "Ask Siri" button + deeper OS integration)
+- [[meta]] — Ray-Ban Rx smart glasses launch (prescription users)
+- [[amazon]] — Ring AI app store second-cycle mention (pairs with Apple AI marketplace)
+- [[ai-regulation]] — US Supreme Court major music-piracy ruling with direct spillover into AI training on copyrighted works
+
+**Pages created**: *(none — "Agent Smith" Google internal agent, Lindy iMessage AI assistant, TimesFM, Lumiere all deferred pending second mention)*
+
+**Notable**: 2026-04-05 is the day the flat-rate subscription model for agentic AI formally breaks. [[anthropic]] announces that [[openclaw]] harness use will no longer be covered under $20 Claude subscriptions starting the next day at 12pm PT — citing millions of tokens/day per-user usage that breaks subscription economics — and coverage frames this as the first of many pricing-strategy resets. [[openai]], which acquihired OpenClaw creator Peter Steinberger in Feb 2026, keeps OpenClaw permitted via ChatGPT Pro, a direct pull on developer mindshare; developers are already migrating en masse to [[kimi-k2-5]] (Moonshot) and MiniMax M2.7 for cheaper harness runtime, reinforcing the 2026-04-04 Moonshot-powers-Cursor-3 story that Chinese open-weights labs are now the active alternative. Google completes the open-weights narrative from the day before by formally confirming [[gemma-4]] is fully open with full commercial freedom (no field-of-use restrictions), publishes TimesFM as its first time-series foundation model, and lands Gemini as the official AI of the Indian Premier League. [[cursor]] follows up Cursor 3 with an Agents Window surface that makes parallel agents across repos/worktrees/cloud VMs the default — TAAFT captures the trajectory as "Cursor ditches the IDE." [[apple]] plans a dedicated AI app marketplace (the flip side of the April 3 App Store enforcement against vibe-coding apps — Apple is moving to gatekeep *and* distribute) alongside an iOS 27 Siri reboot with an explicit "Ask Siri" button. [[meta]] launches Ray-Ban Rx prescription smart glasses, expanding the AI-glasses wearable footprint into corrective eyewear. US Supreme Court issues a major music-piracy ruling with direct spillover into AI training on copyrighted works — the most consequential copyright signal to date for AI-training legal posture. Deferred for future-page creation: Google "Agent Smith" internal coding agent, Lindy iMessage assistant, Lumiere video model, TimesFM.
+
+---
+
+## 2026-04-04
+**Ingested**: data/summaries/2026-04-04.json (19 newsletters — 2 Real Intent webinar pings, 1 JournalClub BCDNet breast-cancer paper, and 1 A Life Engineered non-AI interview book filtered out as non-AI-domain)
+
+**Pages updated**:
+- [[google]] — Gemma 4 open-weights launch (Apache 2.0, 4 sizes — 2B/4B/26B MoE/31B Dense, 256K context, multimodal text+images+audio, 140+ languages, #3 on Arena); NVIDIA-optimized for local agentic AI on phones/workstations/IoT; Gmail US username changes follow-on
+- [[anthropic]] — DMCA retraction (~8,100 repos acknowledged + retracted from the prior-day takedown); functional emotion vectors surfaced in Claude Sonnet 4.5 (interpretability research); $400M Coefficient Bio acquisition for life-sciences AI
+- [[openai]] — TBPN acquisition (first media deal; 70K viewers/episode; ~$5M 2025 ad revenue; 11-person team rolls up under Chris Lehane); Codex pay-as-you-go pricing rolls out (reducing ChatGPT Business cost of agent coding); $3B retail-distribution window; Excalibur framework + AI-collusion research
+- [[microsoft]] — Three new MAI models (MAI-Transcribe-1 multilingual speech-to-text top-of-benchmarks across 25 languages; MAI-Voice-1 TTS/voice-synthesis; MAI-Image-2) all landing in Azure Foundry; positioned explicitly as independence-from-OpenAI push + direct competition with Gemma/Veo and Anthropic's audio/vision stack
+- [[alibaba]] — Qwen3.6-Plus coding-agent upgrade (1M context, multimodal, native function calling + structured JSON; reported to outperform Opus 4.5 on terminal coding; direct integrations with OpenClaw + Claude Code + Cline)
+- [[cursor]] — Cursor 3 release (multi-repo agent workspace, clearer agent-work abstraction, local↔cloud hand-off, Design Mode visual editing layer); coverage attributes the underlying model to Moonshot's Kimi K2.5
+- [[moonshot-ai]] — $18B valuation (quadrupled from ~$4.8B Jan 2026) after Kimi K2.5 powers Cursor 3; zero-hierarchy operating model (no departments/titles/OKRs/KPIs; each co-founder directly oversees ~50 people; hire-for-generalists)
+- [[meta]] — Hyperion AI data center details (Louisiana, $27B, 7.5 GW ≈ South Dakota's entire power draw, 10 new natural-gas plants, projected +12.4M t/yr CO2 / ~50% of Meta's 2024 footprint); Intel $15M SambaNova stake framed alongside
+- [[perplexity]] — Tax-filing automation (uploads tax documents, Q&A flow, applies up-to-date tax code to prepare and file federal returns)
+- [[nvidia]] — Gemma 4 optimizations for local agentic AI (phones/workstations/IoT); MLPerf inference records via "Extreme Co-Design"; $2B Marvell investment for custom AI chips; IGX Thor / CloudXR 6.0 / CloudXR.js; single-digit-microsecond latency capital-markets pitch
+- [[ai-funding-rounds]] — Moonshot $18B (4× step-up); NVIDIA $2B Marvell; Intel $15M SambaNova (~9% stake)
+
+**Pages created**:
+- [[gemma-4]] — Google's Apr 2026 open-weights family
+
+**Notable**: 2026-04-04 is the day the open-weights lineup pushes back on Western closed-source leaders on two fronts simultaneously — Google ships Gemma 4 (Apache 2.0, four sizes including a 31B Dense and 26B MoE, 256K context, 140+ languages, #3 Arena) paired with NVIDIA local-AI optimizations, while Alibaba drops Qwen3.6-Plus as a coding-agent-first model that reportedly beats Opus 4.5 on terminal benchmarks and plugs directly into OpenClaw / Claude Code / Cline. The headline geopolitical flip of the day is [[cursor]] 3 launching with Moonshot's Kimi K2.5 as its underlying model — the first time a Chinese open-weights lab is visibly powering a flagship Western developer product — and Moonshot's valuation quadruples to $18B on that news, with coverage spotlighting its zero-hierarchy, co-founder-directly-oversees-50-people operating model. Microsoft rolls out its MAI trio (Transcribe-1 / Voice-1 / Image-2) in Azure Foundry, explicitly positioning this as independence-from-OpenAI — a 24-hour follow-on to the Apr 3 capital-rotation story where Salesforce put money into Anthropic, not OpenAI. Anthropic retracts the ~8,100 DMCA takedowns from the prior day and publishes functional-emotion-vector interpretability work on Sonnet 4.5 while announcing a $400M Coefficient Bio acquisition; OpenAI buys TBPN (its first media acquisition) and rolls out Codex pay-as-you-go pricing to cut the cost of agent coding inside ChatGPT Business. Meta's Hyperion AI data center detail lands with real numbers — $27B build, 7.5 GW (South Dakota-state equivalent), 10 new natural-gas plants, +50% to Meta's 2024 carbon footprint — which sharpens the AI-buildout-vs-climate tension for the first time with concrete plant counts. Perplexity ships federal tax filing as an agentic consumer product, cracking into TurboTax/H&R Block territory. Deferred for future-page creation: MAI-Transcribe-1 / MAI-Voice-1 / MAI-Image-2 (currently consolidated inside Microsoft), Medvi (one-person billion-dollar AI company framing — awaiting second mention), TBPN (awaiting second mention).
+
+---
+
+## 2026-04-03
+**Ingested**: data/summaries/2026-04-03.json (16 newsletters — 2 Real Intent webinar pings, 2 Skool notification stubs, 1 JournalClub CWoLa physics classifier paper, and the Chase AI Community digest all filtered out as non-AI-industry or promotional)
+
+**Pages updated**:
+- [[anthropic]] — Mass GitHub takedown (~8,000 repos affected) during DMCA push to purge the 2026-04-02 Claude Code leak; ongoing leak analysis details what was exposed (orchestration logic, memory systems, planning/review flows, model-specific control logic); attackers publishing malicious npm packages targeting developers compiling the leaked code; [[salesforce]] invested in Anthropic (not OpenAI) in a recent round
+- [[claude-code]] — Post-leak cleanup fallout — 8K-repo GitHub takedown; live security hazard framing (malicious npm packages); Trinity-Large-Thinking surfaced as safer open alternative
+- [[google]] — Gmail AI-powered inbox (Gemini VIP detection, privacy-isolated environment, suggested to-dos, categorized less-urgent updates); Google Quantum AI whitepaper tightening the post-quantum threat (<500K physical qubits to break 256-bit ECC protecting Bitcoin); AI Studio + Antigravity + Firebase one-click app factory with Remix button
+- [[openai]] — Secondary-market share drop as investors pivot to Anthropic (some holders unable to find buyers); "Project Stagecraft" freelance training-data program ($50/hr) across aviation, pharmacy, plant science, etc.
+- [[salesforce]] — 30 new AI features in Slack (reusable Slackbot AI skills, meeting transcription + summaries, cross-device memory, MCP-client posture, Agentforce integration); invested in Anthropic (not OpenAI); stale → active
+- [[oracle]] — Mass layoffs (~30,000) to free $8-10B for AI data-center buildout; stale → active
+- [[block]] — Dorsey's "AI replaces middle management" post (world-model-of-the-business framing); three-role taxonomy (builders / problem-owners / player-coaches); recontextualizes ~4,000-person / ~40% cut as AI bet
+- [[ai-funding-rounds]] — OpenRouter $120M at $1.3B (>$50M ARR, CapitalG); Cognichip $60M (AI chip design, >75% cost cut target); Salesforce invests in Anthropic; Q1 2026 top-4 (OpenAI+Anthropic+xAI+Waymo) = $188B / 63% of quarter; SpaceX confidential IPO filing (~$1.75T target, up to $75B raise)
+- [[ai-regulation]] — California executive order requiring AI bias + civil-rights safeguards; Apple App Store pulls "Anything" + blocks Replit / Vibecode updates (first major vibe-coding app-store enforcement); China smart-glasses exam cheating
+
+**Pages created**: *(none — Cognichip, OpenRouter, Trinity-Large-Thinking, PrismML 1-bit Bonsai, and "Spec Layer" deferred pending second mentions)*
+
+**Notable**: 2026-04-03 is the day the post-leak cleanup outruns the leak itself — Anthropic's DMCA push to purge Claude Code triggers ~8,000 GitHub repo takedowns (well beyond leak-derived forks), while TLDR AI details what the leak actually exposed and flags a live security hazard: attackers are already publishing malicious npm packages aimed at developers trying to compile leaked Claude Code. The capital story flips the OpenAI vs Anthropic framing: on the same day OpenAI's secondary-market shares drop as investors can't find buyers, Salesforce discloses it picked Anthropic (not OpenAI) in a recent round — a concrete enterprise-vendor signal that the ChatGPT/OpenAI axis is no longer the default path. OpenRouter is in talks for $120M at a $1.3B valuation (>$50M ARR, CapitalG-led), positioning the multi-model inference aggregator as a category-defining layer, and Cognichip raises $60M to have AI design the chips that run AI (>75% cost-cut target). Google ships the Gmail AI inbox (Gemini VIP identification + privacy-isolated environment + to-dos + categorized updates) and publishes a Quantum AI whitepaper tightening the post-quantum timeline (<500K physical qubits can break Bitcoin's 256-bit ECC) — reinforcing the Q Day migration push. Workforce-restructure theme hardens into a recognizable pattern: Oracle pulls ~30,000 layoffs to free $8-10B for AI data centers, Jack Dorsey publishes a "middle managers exist to route information, and AI can now do that via a live world model of the business" post and reclassifies every Block role into builders / problem-owners / player-coaches, reframing the 4,000-person cut as an AI bet rather than a weakness signal. California signs an executive order requiring AI bias + civil-rights safeguards (first significant state-level mandate since federal-preemption talk began), and Apple pulls the "Anything" vibe-coding app from the App Store while blocking Replit + Vibecode updates — the first meaningful App Store enforcement action against agentic app-builder platforms. Deferred for future-page creation: OpenRouter, Cognichip, Trinity-Large-Thinking, PrismML 1-bit Bonsai 8B, and "Spec Layer" (software-dev paradigm).
+
+---
+
+## 2026-04-02
+**Ingested**: data/summaries/2026-04-02.json (17 newsletters — 2 Real Intent webinar pings, 2 Skool notification stubs, 1 JournalClub HDR CMOS sensor paper, and 1 A Life Engineered interview book filtered out as non-AI-domain)
+
+**Pages updated**:
+- [[openai]] — $122B at $852B valuation (largest single VC fundraise in venture history; Amazon + Nvidia + SoftBank led; $2B/month revenue; enterprise 40%+); Sora user collapse — peaked ~1M DAU, dropped to <500K while burning ~$1M/day (direct trigger for the 2026-04-01 shutdown); ChatGPT for Apple CarPlay
+- [[google]] — Veo 3.1 Lite (text-to-video + image-to-video, 720p/1080p, landscape or portrait, native audio + synced SFX + dialogue; matches Veo 3.1 Fast speed at <½ cost; Gemini API + AI Studio); Q Day warning reinforced — 256-bit elliptic-curve crypto protecting Bitcoin could break in minutes; post-quantum crypto migration recommended by 2029; Gmail AI-inbox testing
+- [[minimax]] — M2.7 release details — built on self-evolution, reaches parity with Sonnet 4.6 on OpenClaw at fraction of cost; open-sourced Office Skills library (Word/Excel/PDF/PPT deliverable generation); unified Token subscription plan spanning M2.7 + video + voice + music + image
+- [[runway]] — $10M Runway Startup Fund (pre-seed/seed; up to $500K checks; 500K API credits to Series C) — model provider becomes capital allocator
+- [[perplexity]] — Secure Intelligence Institute (AI security/privacy/trust research)
+- [[amazon]] — Ring AI app store (100M+ cameras become developer platform for elder care, workforce analytics, rental management); OpenAI $122B round leadership reinforces Amazon's AI-compute thesis
+- [[ai-funding-rounds]] — OpenAI $122B at $852B (largest VC raise in history); Runway $10M startup fund; Qodo $70M for AI code-review/testing/governance agents (customers include Nvidia, Walmart, Red Hat)
+
+**Pages created**: *(none)*
+
+**Notable**: OpenAI's $122B at $852B — explicitly the largest single VC fundraise in venture history — anchors the cycle, led by Amazon, Nvidia, and SoftBank, with revenue now $2B/month and enterprise 40%+ of the mix; the capital is explicitly earmarked for the ChatGPT + Codex + agent-tool "superapp" and the Sora wind-down. The Sora shutdown narrative sharpens with a specific user-count trajectory — peaked ~1M DAU then collapsed to <500K while burning ~$1M/day — the concrete driver behind the 2026-04-01 blindsiding of Disney. Google answers on two fronts: Veo 3.1 Lite launches as a budget text-to-video + image-to-video model at less than half the cost of Veo 3.1 Fast (moving into Sora's vacated volume tier), and Google researchers publish a quantum-crypto warning that 256-bit elliptic-curve signatures (including those protecting Bitcoin) may fall to a utility-scale quantum computer in minutes, pushing the post-quantum migration deadline back to 2029 and reinforcing the 2026-03-27 Q Day framing. MiniMax M2.7 details firm up — self-evolving training + Sonnet 4.6 parity on OpenClaw at fraction of cost + a four-skill open-source Office Skills library + a single unified Token plan spanning all modalities — cementing MiniMax as the cross-modal Chinese open-weights reference. Runway launches a $10M startup fund (up to $500K checks + 500K API credits through Series C), making the AI-video lab an ecosystem capital allocator. Perplexity counter-posts the Claude Code leak cycle with a Secure Intelligence Institute focused on AI security/privacy/trust. Amazon Ring opens its 100M+ camera fleet as a third-party AI app platform (elder care / workforce analytics / rental management) — the physical-world analog to Codex Plugins and Claude Code plugins. Funding supplements: Qodo raises $70M for code-review/testing/governance agents with Nvidia/Walmart/Red Hat as customers. The ARC-AGI-3 video-game evaluation from the Superhuman cycle — Gemini, Claude, and ChatGPT all scoring <1% when dropped into a game with no rules — is noted here but left unwritten pending a dedicated page; same for the Caltech 1-bit edge-AI compression work surfaced by TLDR AI.
+
+---
+
+## 2026-04-01
+**Ingested**: data/summaries/2026-04-01.json (19 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Claude Code Computer Use research preview (macOS, Pro/Max); Dispatch remote trigger from phone; first-party Codex plugin integration (Codex as second agent inside Claude Code); Bluesky Attie custom-feed AI on Claude
+- [[claude-code]] — v2.1.88 Computer Use — full UI testing + debugging from single CLI prompt; closes write-code → manually-test-code loop
+- [[alibaba]] — Qwen3.5-Omni (text + images + audio + video, 256K-token combined context, 113-language ASR, beats Gemini 3.1 Pro on audio); Qwen 3.6 Plus Preview; AutoClaw local executor
+- [[openai]] — Sora shutdown fallout ($1M/day burn; Disney blindsided with <1hr notice); official Codex use-case gallery; first-party Codex plugin for Claude Code; Stanford "people-pleasing" paper (11 LLMs side with users even when wrong)
+- [[microsoft]] — 365 Copilot Critique (dual-model research pipeline) + Council (parallel multi-model reports); Copilot Cowork Frontier Program expansion
+- [[ollama]] — MLX-powered Apple-silicon rebuild (M5/M5 Pro/M5 Max GPU Neural Accelerators); NVIDIA NVFP4 support; cache overhaul (intelligent checkpoints + smarter eviction)
+- [[apple]] — public AI-strategy recommit to hardware + services (embed AI in OSes, open Siri to third parties, hardware as differentiator); App Store pulls a "vibe-coded" app ("Anything")
+- [[nvidia]] — IGX Thor (Blackwell-powered industrial edge; unified functional safety + AI) lineup available
+- [[nous-research]] — Hermes Agent gains video generation and multi-instance agent workflows (no-human-intervention)
+
+**Pages created**: *(none)*
+
+**Notable**: Claude Code's Computer Use research preview lands as the headline release of the cycle — Claude now opens apps, clicks, types, and reads screen contents from a single CLI prompt, closing the write/test/debug loop end-to-end on macOS. OpenAI's Sora shutdown gets its sharp edge exposed: $1M/day burn + Disney learning less than an hour before the public announcement, orphaning Disney's enterprise-Sora marketing/VFX pilot. Perhaps most structurally surprising: OpenAI publishes a first-party Codex plugin that runs Codex as a second agent *inside* Claude Code — a cross-lab product integration that is rare in 2026. Microsoft builds on this cross-model trend directly, shipping Copilot Critique (dual-model pipeline) and Council (parallel multi-model reports) — "pitting Claude against ChatGPT for research" as a deliberate product choice. Alibaba's Qwen3.5-Omni joins the frontier tier by beating Gemini 3.1 Pro on audio while handling text/image/audio/video in one 256K-token context. Ollama rebuilt on Apple's MLX framework + NVFP4 reframes Apple silicon as a first-class macOS agent runtime for OpenClaw/Claude Code/OpenCode/Codex. Apple publicly recommits to selling hardware + services rather than chasing frontier consumer AI — and in the same cycle the App Store pulls a "vibe-coded" app, signaling gatekeeping against AI-generated apps. NVIDIA IGX Thor moves physical-AI to the industrial edge with Blackwell. Stanford's "people-pleasing" finding (11 LLMs consistently side with users, even backing harmful behavior) adds a concrete safety datapoint to the cycle.
+
+## 2026-03-31
+**Ingested**: data/summaries/2026-03-31.json (14 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Mythos leak officially confirmed (CMS-error origin); Claude Operon biology desktop mode powered by Mythos; paid Claude subscriptions more than double in 2026; Opus 4.6 autonomously finds unknown Ghost CMS + Linux kernel vulnerabilities
+- [[claude-mythos]] — CMS-error confirmation; first named Mythos-powered product (Claude Operon); cyber-threat proof-point (Ghost CMS + Linux kernel vulns)
+- [[google]] — Gemma 4 leak on LMSYS Arena ("significant-otter" codename); TurboQuant 6× memory reduction sparks chip selloff; internal "Agent Smith" AI so popular Google restricts it; Gemini imports ChatGPT history + preferences; NotebookLM off-page generation; "Agentic AI and the next intelligence explosion" paper
+- [[openai]] — Codex Plugins (Figma, Linear, Notion, Sentry, Slack, Gmail); $10B raise at $120B+ valuation; "superapp" consolidation framing (ChatGPT + Codex + Atlas)
+- [[meta]] — Avocado delay to at least May reaffirmed (9B + Mango Agent variants); reportedly considering licensing Google Gemini; AIO Sandbox unifies browser/shell/filesystem for agents; MetaClaw adds downtime-learning to OpenClaw-style agents
+- [[xai]] — last remaining co-founder exits — completes original founding-team departure
+- [[cursor-composer]] — Composer 2 beats Claude Opus 4.6 on terminal benchmarks at ~1/10 cost; cited as evidence for vertical-model thesis
+- [[openclaw]] — Ollama Pi framed as its coding-agent harness; MetaClaw + Claude Operon this cycle position OpenClaw as cross-lab agent runtime
+- [[ai-ipo-wave]] — OpenAI $10B at $120B+; SK Hynix confidential US IPO late 2026 ($9.6B–$14.4B); Shield AI $2B @ $12.7B; Kleiner Perkins $3.5B AI-tilted fund; Hummingbird ~$800M
+
+**Pages created**:
+- [[ollama]] — local-model runtime; ships Pi minimal coding agent behind OpenClaw; Pro/Max cloud tiers; `pi-subagents` + `pi-autoresearch` extensions
+
+**Notable**: Claude Mythos shifts from rumor to confirmed — Anthropic attributes the leak to a CMS error and explicitly frames Mythos as a cybersecurity "step change" so severe release is paused for defender hardening. The proof-point arrives the same day: a researcher shows Claude Opus 4.6 autonomously surfacing unknown vulnerabilities in Ghost CMS and the Linux kernel. OpenAI responds with Codex Plugins (Figma/Linear/Notion/Sentry/Slack/Gmail) plus a $10B raise, bringing its agent-tool surface level with Claude Code and Gemini CLI and priming a ChatGPT+Codex+Atlas "superapp." Meta publicly acknowledges the Avocado slippage and — most notably — is reported to be weighing licensing Google Gemini, a sharp departure for an open-weights leader. Google's Gemma 4 leak on LMSYS (as "significant-otter") + TurboQuant's 6× memory cut (triggering a chip selloff) reopen the open-weights race. Ollama crosses into the agent layer with Pi, which becomes OpenClaw's coding harness and pairs with Meta's MetaClaw and Anthropic's Claude Operon to cement OpenClaw as the cross-lab agent-runtime abstraction. Vertical-model thesis crystallizes around Cursor Composer 2 (beats Opus 4.6 on terminals at 1/10 cost) and Intercom Apex 1.0 (73.1% resolution; hallucinates 65% less than GPT-5.4 / Opus 4.5). xAI's founding-team departure completes with the last co-founder's exit.
+
+## 2026-03-30
+**Ingested**: data/summaries/2026-03-30.json (7 newsletters)
+
+**Pages updated**:
+- [[alibaba]] — Accio Work: Qwen-powered agent teams for B2B (multi-step e-commerce workflows)
+- [[google]] — Google Translate Live Translate on iOS; any headphones = translator; 70+ languages, prosody-preserving
+- [[openclaw]] — managed-deployment wave (Amazon Lightsail, NVIDIA NemoClaw, Zenity, Onyx AI CLAW-10); exposed-instance studies; Meta Superintelligence Labs "confused deputy"
+- [[ai-military]] — federal preliminary injunction freezes Pentagon's Anthropic "supply-chain risk" label ("Orwellian notion"); China robot-wolves lethal-autonomy escalation
+
+**Pages created**: *(none)*
+
+**Notable**: Federal court formally enjoins the Pentagon's Anthropic ban — "Orwellian notion" framing codifies First-Amendment retaliation risk around AI-procurement discrimination. OpenClaw's production-security story goes mainstream: cloud sandboxes (Amazon Lightsail, NVIDIA NemoClaw), inspection frameworks (Zenity), and enterprise-requirements spec (Onyx AI CLAW-10) emerge to answer "confused deputy" incidents and tens of thousands of exposed instances. Alibaba's Accio Work crystallizes the agent-team-as-team-hire product form from the Chinese B2B side. China adds robot-wolves with micro-missiles and "collective brain" to the lethal-autonomy surface.
+
+## 2026-03-29
+**Ingested**: data/summaries/2026-03-29.json (11 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — expanded Claude Mythos leak provenance (~3,000 unpublished assets, European CEO summit, cyber-defender-first rollout); longest-ever Claude outage (~8 hours)
+- [[claude-mythos]] — full leak context; initial rollout restricted to cybersecurity-defender customers
+- [[amazon]] — acquires Fauna Robotics (child-sized humanoid "Sprout" for household tasks)
+- [[figure]] — Figure 03 becomes first humanoid robot inside the White House (11 languages)
+- [[vercel]] — JSON-Render open-sourced (AI-generated UIs via bounded structured JSON)
+- [[openclaw]] — deployed on Ecovacs Bajie, Unitree G1, and Xiaomi devices in China
+
+**Pages created**: *(none)*
+
+**Notable**: Anthropic's Mythos leak expands — traced to ~3,000 inadvertently exposed unpublished internal assets including a secret European CEO summit where Dario Amodei is slated to demo the model; initial rollout reportedly targets cybersecurity-defender customers because of unprecedented offensive-security implications. Claude then hits its longest-ever outage (~8 hours). Humanoid-robotics momentum: Figure 03 walks the White House at a "Fostering the Future Together" summit; Amazon acquires Fauna Robotics for the Sprout household humanoid (second Amazon robotics acquisition this month after Rivr). OpenClaw runs on Chinese household and humanoid robots, pushing the open-source agent runtime into the physical-AI stack.
+
+## 2026-03-28
+**Ingested**: data/summaries/2026-03-28.json (21 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Claude Mythos leak; October IPO $60B+ talks; Pentagon preliminary injunction won; Claude 4.5 auto-PR fix + "vibe physics" 110-draft QFT paper
+- [[openai]] — Amazon $15B + $35B partnership; Adult Mode shelved; White House preemption framework
+- [[google]] — Gemini 3.1 Flash Live + Search Live 200+ countries
+- [[meta]] — TRIBE v2 open-source tri-modal brain AI; $600B 2028 data-center plan
+- [[apple]] — Siri opens to rivals in iOS 27; Mac Pro discontinued; $400K designer bonuses
+- [[amazon]] — $15B+$35B OpenAI partnership; $200B 2026 AI capex plan
+- [[mistral]] — Voxtral open-weight TTS across 9 languages
+- [[bytedance]] — Seedance 2.0 rolling out in CapCut with real-face blocking
+- [[cursor]] — Real-time RL training for Composer (online user-response learning loop)
+- [[ai-ipo-wave]] — Anthropic October IPO $60B+; SpaceX $75B IPO at $1.75T
+- [[ai-regulation]] — Wikipedia bans AI-generated articles; WH national AI preemption framework; Pentagon injunction; data-center tax proposal
+
+**Pages created**:
+- [[gemini-3-1-flash-live]] — Google's real-time voice model; 90.8% ComplexFuncBench Audio; 90+ languages; Gemini Live + Search Live
+- [[claude-mythos]] — unreleased Claude tier above Opus 4.7; release delayed over cybersecurity risk
+- [[cohere]] — Toronto enterprise LLM vendor; Transcribe open-source ASR tops HuggingFace across 14 languages
+
+**Notable**: Leaked (later-deleted) Anthropic blog post reveals Claude Mythos — a tier above Opus 4.7 whose release is being deliberately held back so cybersecurity orgs can harden against AI-enabled attacks. Google ships its "sixth major AI drop in March 2026" — Gemini 3.1 Flash Live powering Search Live in 200+ countries with 90+ languages and 90.8% ComplexFuncBench Audio. OpenAI-Amazon partnership contours firm up ($15B base + up to $35B contingent, OpenAI commits to Trainium). Meta open-sources TRIBE v2, a tri-modal foundation model for predicting human brain activity trained on 1,000+ hours of fMRI across ~720 subjects. Regulatory front widens: Wikipedia bans AI articles, White House pushes federal preemption, Anthropic wins First Amendment injunction vs Pentagon, US senator floats AI data-center tax. Open-weight audio wave intensifies: Mistral Voxtral TTS (9 languages) + Cohere Transcribe ASR (#1 HuggingFace across 14 languages) pressure proprietary incumbents.
+
+## 2026-03-27
+**Ingested**: data/summaries/2026-03-27.json (18 newsletters)
+
+**Pages updated**:
+- [[openai]] — Disney $1B content deal ends; Sora tech → robot training; $10B more at $120B+
+- [[disney]] — $1B OpenAI content partnership ends
+- [[apple]] — gains complete edit access to private Gemini model for on-device distillation
+- [[manus]] — founders detained in China; $2.5B Meta sale under regulatory review
+- [[reflection]] — NVIDIA-backed; seeking $2.5B at $25B valuation (US open-source push)
+- [[anthropic]] — Claude mobile app gains work-tool integrations (Figma/Canva/Slack/Amplitude)
+- [[claude-code]] — Auto Mode GA; classifier-based permission skipping; self-hosted cloud agents
+- [[cursor]] — Self-Hosted Agents for in-network parallel coding with Kubernetes support
+- [[google]] — Lyria 3 Pro 3-min tracks; Q Day deadline moved to 2029
+- [[lyria-3]] — Lyria 3 Pro update (full-track generation with structure control)
+
+**Pages created**: *(none — reflection.md promoted from stale + rewritten)*
+
+**Notable**: OpenAI's Sora shutdown cascades: Disney $1B deal ends, tech repurposed for robots; Altman reportedly sees Anthropic as OpenAI's most serious competitor. Apple cements Gemini dependency with edit-level access for on-device distillation. ARC-AGI-3 benchmark launches — all frontier models (Gemini 3 Pro, GPT-5.4 High, Opus 4.6, Grok-4.20) score <1%, resetting the agentic-intelligence scoreboard. NVIDIA-backed Reflection raises at $25B as explicit US counter to Chinese open-source lead.
+
 ## 2026-03-26
 **Ingested**: data/summaries/2026-03-26.json
 

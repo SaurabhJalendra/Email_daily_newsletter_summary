@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-26 (backfill 2026-03-07..2026-03-26)
+> **Last updated**: 2026-04-05 (backfill 2026-04-05)
 > **Status**: active
 > **Related**: [[meta]], [[google]], [[gemini]], [[anthropic]], [[claude-code]], [[openai]], [[ai-hardware]], [[apple-m5]]
 
@@ -18,6 +18,10 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2026-04-05**: Apple plans AI app marketplace — a dedicated App Store vertical for AI agents and tools (reframes the 2026-04-03 [[ai-regulation]] story where Apple pulled "Anything" and blocked Replit/Vibecode updates — App Store enforcement plus a curated AI-agent storefront signal Apple is positioning itself as the gatekeeper for consumer AI distribution, not a platform-neutral host); iOS 27 Siri reboot detailed — new interface, dedicated "Ask Siri" button, deeper AI integration across the OS; Meta Ray-Ban prescription smart glasses launch cited in parallel as Apple's AR competition; *source: 2026-04-05 cycle (The Tech Buzz — Apple Plans AI App Store / iOS 27 Siri Reboot)*
+- **2026-04-01**: Apple frames its AI strategy as recommitting to core business — selling hardware and services rather than racing to build a frontier consumer AI — via embedding AI in its OSes to prevent user defection, opening Siri + Apple Intelligence to third-party services, and leveraging hardware as the differentiator; Apple pulls a "vibe-coded" app named "Anything" from the App Store (App Store gatekeeping signal against AI-generated apps); [[ollama]]'s new MLX-powered Ollama build (Apple-silicon M5 GPU Neural Accelerators) reframes Apple silicon as a first-class target for agents like [[openclaw]] + [[claude-code]] — *source: 2026-04-01 cycle (TLDR — Apple's AI strategy; TLDR — vibe-coded "Anything" app pulled; Ollama Newsletter — MLX update)*
+- **2026-03-28**: Apple plans to open Siri to rival AI assistants in iOS 27 — users can choose which AI handles queries directly from the assistant; expected to monetize third-party AI subscriptions via the App Store; Apple discontinues the Mac Pro (removed from website, no future hardware plans); Apple issues up to $400K restricted-stock bonuses to iPhone designers as a counter-retention move against OpenAI poaching — *source: 2026-03-28 cycle (The Rundown AI — Apple unlocks Siri; TLDR — Apple allows AI assistants; TLDR — Apple Discontinues Mac Pro + designer bonuses)*
+- **2026-03-27**: Apple gains complete edit access to private [[google]] [[gemini]] model under the Siri partnership — can tune/distill smaller variants for on-device execution on Apple silicon; reduces cloud dependency — *source: 2026-03-27 cycle (TLDR)*
 - **2026-03-26**: Standalone Siri app + chatbot for iOS 27 in testing — breaks Siri out of system-setting dependency into a conversational app surface; framed as WWDC (June) reveal target — *source: 2026-03-26 cycle*
 - **2026-03-14**: Apple Ultra lineup expansion beyond Watch/iPhone expected this year — several new premium products coming — *source: 2026-03-14 cycle*
 - **2026-03-13**: MacBook Neo launches at $599 — Apple's cheapest laptop ever; powered by iPhone A18 Pro chip — *source: 2026-03-13 cycle (MacBook Neo $599)*
@@ -115,3 +119,6 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 - data/summaries/2026-03-13.json (MacBook Neo $599; TLDR — iPhone Fold layout)
 - data/summaries/2026-03-14.json (Apple Ultra lineup expansion coverage)
 - data/summaries/2026-03-26.json (Standalone Siri app + chatbot for iOS 27 in testing)
+- data/summaries/2026-03-27.json (TLDR — Apple gains Gemini edit access for on-device distillation)
+- data/summaries/2026-03-28.json (The Rundown AI — Apple unlocks Siri; TLDR — Apple allows AI assistants / Mac Pro discontinuation / $400K designer bonuses)
+- data/summaries/2026-04-05.json (The Tech Buzz — Apple Plans AI App Store / iOS 27 Siri Reboot)

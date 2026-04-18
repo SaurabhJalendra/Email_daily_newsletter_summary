@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-16
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-04-04
 > **Status**: active
 > **Related**: [[qwen-3-vl]], [[qwen-image]], [[qwen-image-2]], [[qwen-3-5]], [[qwen3-coder-next]], [[openai]], [[meta]], [[deepseek]], [[ai-hardware]]
 
@@ -18,6 +18,9 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 
 ## Timeline
 
+- **2026-04-04**: Qwen3.6-Plus released — reasoning/coding upgrade explicitly built for coding agents; native 1M-token context window; multimodal inputs; native function calling + structured JSON output; Alibaba reports Qwen3.6-Plus outperforms [[claude-opus-4-5]] in terminal-based coding benchmarks; direct integration with [[openclaw]], [[claude-code]], and Cline (plug-and-play for existing agent tooling); called out by TLDR AI as "a highly stable and reliable foundation for the developer ecosystem" with "sharper multimodal reasoning" than prior Qwen generations; paired in coverage with Google's [[gemma-4]] as the two major open-model drops of the week — *source: 2026-04-04 cycle (The Code — Qwen3.6-Plus massive upgrade for coding agents; TLDR AI — Qwen3.6-Plus; The Rundown AI — Qwen3.6-Plus rivals Opus 4.5)*
+- **2026-04-01**: [[qwen-3-5-omni]] released — full omnimodal LLM (text + images + audio + video in one system); 256K-token context across combined multimodal inputs in a single request; handles 10+ hours of audio and 400 s of 720p video without splitting inputs; trained on 100M+ hours of multimodal data; speech recognition in 113 languages, speech generation in 36; reported to outperform Google [[gemini-3-1-pro]] on audio reasoning and speech benchmarks; can generate functional websites and games from spoken descriptions + camera input; QWEN 3.6 Plus Preview released alongside — hybrid architecture tuned for reasoning + agent workflows; Z.ai ships AutoClaw (local AI assistant that breaks down + executes tasks) — *source: 2026-04-01 cycle (World of AI — Claude Controls Computers [Qwen 3.6 Plus]; The Code — Claude Code gets computer use [Qwen 3.5 Omni]; TLDR AI — Qwen3.5-Omni; AlphaSignal — full omnimodal)*
+- **2026-03-30**: Alibaba.com launches Accio Work — agentic B2B system that assembles Qwen-powered agent teams for businesses; handles multi-step workflows like launching an e-commerce business (market analysis, supplier negotiations, logistics tracking); positioned for agent-to-agent B2B communication; President Kuo Zhang predicts "first one-person billion-dollar company just months away" — *source: 2026-03-30 cycle (The Rundown AI — Kuo Zhang exclusive)*
 - **2026-03-06**: Significant departures from Qwen team — including lead researcher Junyang Lin — raising questions about continued Qwen development velocity — *source: 2026-03-06 cycle*
 - **2026-03-04**: [[qwen-3-5-small]] series released — tiny open-source Qwen 3.5 Small family that runs on laptops/phones and outperforms larger models in specific tasks — *source: 2026-03-04 cycle*
 - **2026-02-27**: [[qwen-3-5-medium]] open-source — outperforms its larger predecessor via smarter architecture + MoE — *source: 2026-02-27 cycle*
@@ -70,3 +73,6 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 - data/summaries/2026-02-27.json (Qwen 3.5 Medium MoE)
 - data/summaries/2026-03-04.json (Qwen 3.5 Small family)
 - data/summaries/2026-03-06.json (Qwen team departures — Junyang Lin)
+- data/summaries/2026-03-30.json (The Rundown AI — Kuo Zhang exclusive on Accio Work / Qwen agent teams for B2B)
+- data/summaries/2026-04-01.json (World of AI / The Code / TLDR AI / AlphaSignal — Qwen3.5-Omni + Qwen 3.6 Plus Preview)
+- data/summaries/2026-04-04.json (The Code — Qwen3.6-Plus massive upgrade for coding agents; TLDR AI — Qwen3.6-Plus; The Rundown AI — Qwen3.6-Plus rivals Opus 4.5)

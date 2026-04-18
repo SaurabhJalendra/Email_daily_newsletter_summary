@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-19 (backfill 2026-02-20..2026-03-19)
+> **Last updated**: 2026-04-05 (backfill 2026-04-05)
 > **Status**: active
 > **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[google]], [[alibaba]], [[world-models]], [[world-labs]], [[ai-hardware]]
 
@@ -18,7 +18,11 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 
 ## Timeline
 
+- **2026-04-05**: Ray-Ban Meta Rx smart glasses launch for prescription users — brings AI assistant + cameras + on-frame display to corrective eyewear, expanding beyond clear-lens Ray-Ban frames and pulling the 2026-03-07 Sama-annotator privacy story into a larger deployed user base; positioning: first mass-market AI-enabled prescription frames ahead of [[apple]]'s competing AR pipeline — *source: 2026-04-05 cycle (The Tech Buzz — Meta Prescription Glasses)*
+- **2026-04-04**: Hyperion AI data center details surface — Louisiana build projected at $27B and 7.5 GW (roughly the power draw of the entire state of South Dakota); plan includes ~10 new natural-gas plants and is projected to add ~12.4M metric tons of CO2/year (a ~50% increase over Meta's 2024 footprint); framed as the emblematic case for Big-Tech AI buildouts blowing through prior climate commitments; same cycle: Intel puts ~$15M into SambaNova for a ~9% stake — the Intel angle is framed as a hedge toward non-NVIDIA silicon — *source: 2026-04-04 cycle (TLDR — Meta Hyperion data center; Superhuman — South-Dakota-equivalent power draw; The Tech Buzz — 10 natural gas plants + emissions; Forward Future — Intel SambaNova stake)*
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
+- **2026-03-31**: Avocado delay reaffirmed — flagship base model now pushed back to at least May, with parallel experiments running across multiple variants (Avocado 9B, Avocado Mango Agent); Meta reportedly considering licensing Google's [[gemini]] technology as a contingency for Avocado's slippage — a notable reversal for a company that has anchored on open-weight Llama; Meta also launches AIO Sandbox, which unifies browser, shell, and filesystem into a single execution surface for AI agents; MetaClaw — a downtime-learning layer for [[openclaw]]-style agents — extracts compact rules from errors and injects them into the system prompt, letting agents learn between active sessions — *source: 2026-03-31 cycle (TLDR AI — Claude Mythos leaks; AI Breakfast — Google's internal AI so popular [Meta AIO Sandbox + MetaClaw])*
+- **2026-03-28**: TRIBE v2 open-sourced — tri-modal (video/audio/language) foundation model that predicts human brain activity; trained on 1,000+ hours of fMRI data across ~720 subjects; outperforms linear encoding models and in some tasks even synthetic predictions beat real fMRI recordings; released with codebase + demo for neuroscience research; Meta executes layoffs in AI pivot with plans for $600B data-center investment by 2028 and Moltbook-style tuck-in acquisitions — *source: 2026-03-28 cycle (The Rundown AI — Meta's new open-source brain AI; Superhuman — Gemini Live gets a major overhaul [TRIBE v2]; AI Breakfast — Claude Mythos leak [TRIBE v2 spec]; FutureTools — Meta AI pivot layoffs)*
 - **2026-03-20**: Meta plans layoffs of up to 20% of workforce (~16K jobs) to offset massive AI infrastructure spending — framed as AI-capex-funded restructure — *source: 2026-03-20 cycle*
 - **2026-03-19**: $27B infrastructure deal with Nebius — five-year AI computing commitment; stacks with CoreWeave + AMD deals as triangulated capacity buildout — *source: 2026-03-19 cycle*
 - **2026-03-14**: Avocado base-model launch delayed (at least to May) after failing internal reasoning, coding, and writing tests — flagship efficiency pitch under pressure — *source: 2026-03-14 cycle (TLDR — Meta's AI flop)*
@@ -123,3 +127,6 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 - data/summaries/2026-03-14.json (Avocado model delayed)
 - data/summaries/2026-03-19.json ($27B Nebius infrastructure deal)
 - data/summaries/2026-03-20.json (20% workforce layoffs / ~16K jobs)
+- data/summaries/2026-03-28.json (The Rundown AI — open-source brain AI TRIBE v2; Superhuman — TRIBE v2 fMRI data; AI Breakfast — tri-modal TRIBE v2; FutureTools — Meta AI pivot layoffs / $600B data-center plan)
+- data/summaries/2026-04-04.json (TLDR — Hyperion data center; Superhuman — South-Dakota-equivalent power draw; The Tech Buzz — 10 natural gas plants + 12.4M t/yr CO2; Forward Future — Intel $15M SambaNova stake)
+- data/summaries/2026-04-05.json (The Tech Buzz — Meta Prescription Ray-Ban smart glasses)

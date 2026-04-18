@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-17
-> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-09)
+> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-04-05)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[sora-2]], [[character-ai]], [[google]], [[ai-video-generation]], [[ai-copyright]], [[prompt-injection]]
 
@@ -19,6 +19,9 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 ## Timeline
 
 - **2026-04-16**: US federal court rules in *United States v. Heppner* that AI chatbot conversations (incl. Claude) are not protected by attorney-client privilege — the chatbot is not a lawyer and provider privacy policies permit collection of inputs/outputs — *source: Uncovering AI "Your AI chats can be used against you"*
+- **2026-04-05**: US Supreme Court issues major music-piracy ruling with direct spillover into AI-training on copyrighted works and streaming-royalty structures — framed as the most consequential copyright ruling yet for AI-training legal posture; SCOTUS-ruling framing lands alongside ongoing publisher/label litigation against [[perplexity]] and [[microsoft]] — *source: 2026-04-05 cycle (The Tech Buzz — SCOTUS piracy/AI ruling)*
+- **2026-04-03**: California signs an executive order requiring AI companies to demonstrate safeguards against bias and civil-rights violations — first major state-level bias/civil-rights mandate on AI developers; lands as state-level counter-pressure to the White House's 2026-03-23/2026-03-28 federal-preemption framing; Apple cracks down on "vibe coding" apps — pulls "Anything" from the App Store and blocks updates to Replit and Vibecode (first major App Store enforcement action against agentic app-builder platforms); China coverage of students using smart glasses ($6-12/day rental) to scan exam questions and display answers — exam-integrity flashpoint in the agentic-eyewear cycle — *source: 2026-04-03 cycle (InstaByte — California executive order / Apple vibe-coding crackdown; Forward Future — China smart-glasses exam cheating)*
+- **2026-03-28**: Wikipedia formally bans AI-generated articles — editors cite accuracy drift + citation fabrication; first major open-knowledge platform to prohibit generative-AI-written entries; White House proposes a national AI preemption framework to avoid a 50-state regulatory patchwork; [[anthropic]] wins federal preliminary injunction blocking Pentagon's Claude ban on First Amendment (retaliation) grounds; US senator proposes a data-center tax targeting AI hyperscaler build-out — *source: 2026-03-28 cycle (FutureTools — Wikipedia AI ban; OpenAI / Adult Mode shelved; FutureTools — Anthropic court injunction; Forward Future — data-center tax proposal)*
 - **2026-03-23**: White House releases a national AI framework — aims at a single federal standard for AI laws; positioned to preempt fragmented state-level rules — *source: 2026-03-23 cycle*
 - **2026-03-09**: North Korea IT-worker fraud campaign using AI — face-swap + AI-generated resumes to pose as remote hires at US companies; cited as first large-scale nation-state labor-infiltration via generative AI — *source: TAAFT 2026-03-09 "AI Went Rogue and Mined Crypto"*
 - **2026-03-07**: [[anthropic]] sues Department of War (contract-termination challenge) after Pentagon ultimatum; leaked apology memo to staff surfaces — legal/regulatory escalation from the DoW guardrails standoff — *source: 2026-03-07 cycle*
@@ -113,3 +116,6 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 - data/summaries/2026-03-07.json (Anthropic DoW lawsuit; leaked memo apology)
 - data/summaries/2026-03-09.json (TAAFT — North Korea AI-worker fraud)
 - data/summaries/2026-03-23.json (White House national AI framework)
+- data/summaries/2026-03-28.json (FutureTools — Wikipedia AI ban; Anthropic Pentagon injunction; White House preemption framework; data-center tax proposal)
+- data/summaries/2026-04-03.json (InstaByte — California AI executive order / Apple vibe-coding crackdown; Forward Future — China smart-glasses exam cheating)
+- data/summaries/2026-04-05.json (The Tech Buzz — SCOTUS piracy/AI-training ruling)

@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-04
-> **Last updated**: 2026-03-25 (backfill 2026-03-07..2026-03-25)
+> **Last updated**: 2026-04-05 (backfill 2026-03-07..2026-04-05)
 > **Status**: active
 > **Related**: [[agent-frameworks]], [[jules]], [[claude-code]], [[replit]], [[cursor-composer]], [[cognition]]
 
@@ -18,6 +18,10 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 
 ## Timeline
 
+- **2026-04-05**: Agents Window ships — dedicated surface for running coding agents in parallel across multiple repositories, worktrees, and cloud VMs; covered in TAAFT as "Cursor ditches the IDE" framing (agent-first workflow replacing in-editor pairing); reinforces the Cursor 3 multi-repo thesis and makes parallel-agent work the default rather than opt-in — *source: 2026-04-05 cycle (TAAFT — Cursor launches Agents Window for parallel coding / Cursor Ditches the IDE)*
+- **2026-04-04**: Cursor 3 released — major interface overhaul built explicitly for agent-driven development: multi-repo workspace (agents coordinate across multiple repositories without context switching), clearer abstraction over agent work (shows what each agent is doing at a higher level), and seamless hand-off between local and cloud agents (start in local IDE, continue in cloud, return to local); new Design Mode — a visual editing layer where developers click-to-edit, drag-to-draw, and feed selections straight into the agent chat; framed as positioning Cursor for a future where agents handle the bulk of software development and developers operate at a higher level of abstraction; Moonshot AI's Kimi K2.5 is reportedly the underlying model used to build Cursor 3 (Moonshot also quadruples its valuation to $18B the same cycle) — *source: 2026-04-04 cycle (TLDR — Cursor 3; The Code — IDE built for agents; TLDR AI — Cursor 3 multi-repo + clearer abstraction; Forward Future — Cursor introduces Cursor 3; Superhuman — Cursor 3)*
+- **2026-03-28**: Real-time RL training detailed for [[cursor-composer]] — Composer learns from real inference tokens by observing user responses (accept / reject / edit), closing the online-learning loop that other in-house coding models haven't exposed — *source: 2026-03-28 cycle (AlphaSignal — Cursor Real-time RL)*
+- **2026-03-27**: Self-Hosted Agents launched — cloud agents run inside the customer's own infrastructure (code/secrets/artifacts never leave network); supports parallel agents in isolated environments, Kubernetes, worker pools, autoscaling — security/compliance pitch for regulated orgs — *source: 2026-03-27 cycle (AlphaSignal — Cursor Self-Hosted)*
 - **2026-03-25**: Cursor Instant Grep launched — client-side code indexing system scans millions of files in ~13 ms (~1000× faster than traditional code search) — *source: 2026-03-25 cycle*
 - **2026-03-14**: CursorBench introduced — internal eval suite for measuring agent performance; [[xai]] poaches two Cursor product leads to build a coding product, signaling xAI entry into the AI-coding market — *source: 2026-03-14 cycle (TLDR AI — CursorBench; xAI poaches Cursor leads)*
 - **2026-03-13**: Cursor in talks for funding round at $50B valuation (~2× vs fall 2025); hits $2B ARR; Anduril adjacent: ExoAnalytic acquisition noted same day for context on defense-tech VC momentum — *source: 2026-03-13 cycle (TLDR AI — Cursor eyes $50B valuation)*
@@ -62,3 +66,7 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 - data/summaries/2026-03-13.json (Cursor $50B valuation talks)
 - data/summaries/2026-03-14.json (CursorBench; xAI poaches Cursor leads)
 - data/summaries/2026-03-25.json (Instant Grep — 13 ms client-side code search)
+- data/summaries/2026-03-27.json (AlphaSignal — Cursor Self-Hosted Agents)
+- data/summaries/2026-03-28.json (AlphaSignal — Cursor Real-time RL for Composer)
+- data/summaries/2026-04-04.json (TLDR — Cursor 3; The Code — IDE built for agents + Design Mode; TLDR AI — Cursor 3 multi-repo; Forward Future — Cursor 3; Superhuman — Cursor 3)
+- data/summaries/2026-04-05.json (TAAFT — Cursor Agents Window / Cursor Ditches the IDE)

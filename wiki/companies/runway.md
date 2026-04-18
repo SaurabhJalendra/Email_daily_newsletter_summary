@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-03
-> **Last updated**: 2025-12-04
+> **Last updated**: 2026-04-02
 > **Status**: active
 > **Related**: [[runway-gen-4-5]], [[ai-video-generation]], [[veo-3]], [[sora-2]]
 
@@ -18,6 +18,7 @@ Runway is the AI video-generation company behind the Gen-N video model series. I
 
 ## Timeline
 
+- **2026-04-02**: $10M Runway Startup Fund launches — targeted at pre-seed and seed-stage startups building on AI, media, and world simulation; writes checks up to $500K; separately offers 500K API credits for startups up to Series C — positions Runway as both a model provider and a capital allocator in the AI-video / generative-media ecosystem (parallel framing to the concurrent OpenAI / Anthropic ecosystem funds) — *source: 2026-04-02 cycle (TAAFT — Runway Launches $10M Startup Fund; AI Breakfast — $10M fund to back early-stage AI startups)*
 - **2025-12-04**: Continued coverage frames Gen-4.5 as setting a new realism/motion bar — *source: 2025-12-04 cycle*
 - **2025-12-03**: [[runway-gen-4-5]] launches — surpasses Veo 3 and Sora on Artificial Analysis text-to-video benchmark — *source: 2025-12-03 cycle*
 
@@ -37,3 +38,4 @@ Runway is the AI video-generation company behind the Gen-N video model series. I
 
 - data/summaries/2025-12-03.json (Runway Gen-4.5 launch)
 - data/summaries/2025-12-04.json (Runway Gen-4.5 follow-up coverage)
+- data/summaries/2026-04-02.json (TAAFT — Runway Launches $10M Startup Fund; AI Breakfast — $10M fund to back early-stage AI startups)

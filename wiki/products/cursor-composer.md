@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-30
-> **Last updated**: 2026-03-21
+> **Last updated**: 2026-03-31
 > **Status**: active
 > **Related**: [[cursor]], [[cognition]], [[claude-code]]
 
@@ -18,6 +18,7 @@ Composer is [[cursor]]'s first in-house coding model, launched 2025-10-30 as the
 
 ## Timeline
 
+- **2026-03-31**: Composer 2 reported to beat [[claude-opus-4-6]] on terminal benchmarks at roughly 1/10 the cost — framed (alongside [[intercom-apex-1]]'s customer-service results) as evidence that vertical, task-specialized models now outperform general-purpose frontier models on their target domains; reinforces the "vertical-model" thesis highlighted by Andrej Karpathy this cycle — *source: 2026-03-31 cycle (The Code — Midjourney engineer changes websites forever)*
 - **2026-03-22**: Composer 2 framing sharpened — reduces coding costs ~50% with multi-file workflow support — *source: 2026-03-22 cycle*
 - **2026-03-21**: Composer 2 released — frontier-level coding performance "at a fraction of the cost" of flagship rivals; outperforms Composer 1 on coding tasks — *source: 2026-03-21 cycle*
 - **2025-10-31**: AlphaSignal headlines "Cursor unveils Composer: first in-house model, 4× faster coding" — *source: AlphaSignal*
@@ -43,3 +44,4 @@ Composer is [[cursor]]'s first in-house coding model, launched 2025-10-30 as the
 - data/summaries/2025-10-31.json (AlphaSignal — Cursor unveils Composer)
 - data/summaries/2026-03-21.json (Composer 2 release — frontier-level at fraction of cost)
 - data/summaries/2026-03-22.json (Composer 2 — 50% cost reduction; multi-file workflows)
+- data/summaries/2026-03-31.json (The Code — Composer 2 beats Opus 4.6 on terminal benchmarks at 1/10 cost)

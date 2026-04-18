@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-02-27
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-04-01 (backfill 2026-02-20..2026-04-01)
 > **Status**: active
 > **Related**: [[agent-frameworks]], [[open-source-ai]]
 
@@ -18,6 +18,7 @@ Nous Research is an open-source AI research collective best known for the Hermes
 
 ## Timeline
 
+- **2026-04-01**: Hermes Agent adds video generation and multi-instance agent workflows that run without human intervention — first video-gen capability in the Hermes Agent stack and a step toward long-horizon autonomy — *source: 2026-04-01 cycle (AlphaSignal — Nous Research's Hermes Agent Update)*
 - **2026-02-27**: Releases Hermes Agent — open-source, self-improving AI agent built in Python; learns and adapts to projects over time — *source: 2026-02-27 cycle*
 
 ## Key Facts
@@ -33,3 +34,4 @@ Nous Research is an open-source AI research collective best known for the Hermes
 ## Sources
 
 - data/summaries/2026-02-27.json (Nous Research Hermes Agent release)
+- data/summaries/2026-04-01.json (AlphaSignal — Hermes Agent adds video generation + multi-instance agent workflows)

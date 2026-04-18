@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-02-10
-> **Last updated**: 2026-02-19
+> **Last updated**: 2026-03-28
 > **Status**: active
 > **Related**: [[seedance-2]], [[ai-video-generation]], [[disney]]
 
@@ -18,6 +18,7 @@ ByteDance is the Chinese tech giant best known for TikTok / Douyin and now opera
 
 ## Timeline
 
+- **2026-03-28**: [[seedance-2]] rolls out inside CapCut — text/image/video-clip inputs generate multi-shot scenes; real-face blocking safeguard built in to limit non-consensual likeness generation — *source: 2026-03-28 cycle (The Rundown AI — Seedance 2.0 in CapCut)*
 - **2026-02-19**: [[disney]] threatens legal action over Seedance's apparent reproduction of protected character/style — copyright friction with Western studios — *source: 2026-02-19 cycle (Mindstream)*
 - **2026-02-17**: Seed 2.0 family released — matches/beats [[gpt-5-2]] and [[gemini-3]] Pro across many benchmarks at ~1/10 the cost; coherent storyline + realistic voice-overs in video — *source: 2026-02-17 cycle (The Rundown AI; TLDR)*
 - **2026-02-14**: [[seedance-2]] highlighted with "anchor" system for sophisticated multi-shot video — *source: 2026-02-14 cycle*
@@ -44,3 +45,4 @@ ByteDance is the Chinese tech giant best known for TikTok / Douyin and now opera
 - data/summaries/2026-02-14.json (Seedance "anchor" system)
 - data/summaries/2026-02-17.json (Seed 2.0 vs GPT-5.2/Gemini 3 Pro; AlphaSignal; The Rundown AI; TLDR; The Code)
 - data/summaries/2026-02-19.json (Disney IP threat; Mindstream)
+- data/summaries/2026-03-28.json (The Rundown AI — Seedance 2.0 rolling out in CapCut with real-face blocking)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2026-03-22 (backfill 2026-02-20..2026-03-22)
+> **Last updated**: 2026-04-04 (backfill 2026-02-20..2026-04-04)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]], [[github-agent-hq]], [[ai-funding-rounds]]
 
@@ -18,6 +18,8 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 
 ## Timeline
 
+- **2026-04-04**: Microsoft ships three new in-house MAI models — MAI-Transcribe-1 (multilingual speech-to-text, top benchmarks across 25 languages), MAI-Voice-1 (TTS / voice synthesis), and MAI-Image-2 (image generation); all available in Azure Foundry; explicitly positioned as Microsoft reducing dependence on [[openai]] and competing directly with [[google]]'s Gemma/Veo and Anthropic's audio/vision stack; Microsoft frames the release as "state-of-the-art performance with fewer resources and competitive pricing"; same cycle, Superhuman reports OpenAI's projected $44B loss before 2029 profitability — sharpening the independence rationale — *source: 2026-04-04 cycle (TAAFT — Microsoft ships three in-house models; Forward Future — Microsoft Launches AI Models Rivaling OpenAI; Superhuman — MAI family; TLDR AI — Microsoft MAI models in Foundry; The Tech Buzz — Microsoft enterprise voice transcription + audio + image)*
+- **2026-04-01**: Microsoft 365 Copilot adds Critique and Council research modes — Critique splits research into a dual-model pipeline (one plans + drafts, the other reviews for source reliability, completeness, and evidence grounding — Microsoft reports it outperforms single-model research); Council runs multiple models on the same prompt in parallel, generates independent reports, and summarizes agreement + divergence; framed explicitly as pitting Claude against ChatGPT inside Copilot for the same research question ("multi-model deep research"); [[copilot-cowork]] rolled out more broadly via the Frontier Program with multi-step workflow handling — *source: 2026-04-01 cycle (The Rundown AI — Microsoft pits Claude against ChatGPT; AlphaSignal — Copilot Critique + Council; Superhuman — Copilot Cowork + Critique; TLDR AI — Critique + Council modes)*
 - **2026-03-22**: MAI-Image-2 released — improved 3D rendering + text rendering over MAI-Image-1; part of Microsoft AI's own-model push — *source: 2026-03-22 cycle*
 - **2026-03-18**: Copilot team reorg — commercial + consumer AI divisions unified; AI chief freed up to focus on superintelligence; framed as competitive response to Anthropic's advances — *source: 2026-03-18 cycle*
 - **2026-03-14**: Copilot Health launches — AI experience combining EHR records from 50K+ US hospitals, 50+ wearables, lab results; personalized health-story generation; framed as step toward "medical superintelligence" — *source: 2026-03-14 cycle (The Rundown AI; Superhuman — Copilot Health)*
@@ -86,3 +88,5 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 - data/summaries/2026-03-14.json (Copilot Health — EHR + wearables + lab results)
 - data/summaries/2026-03-18.json (Copilot team reorg — consumer/commercial unification; superintelligence focus)
 - data/summaries/2026-03-22.json (MAI-Image-2 — improved 3D + text rendering)
+- data/summaries/2026-04-01.json (The Rundown AI — Microsoft pits Claude against ChatGPT; AlphaSignal — Copilot Critique + Council; Superhuman — Copilot Cowork + Critique; TLDR AI — Critique + Council modes)
+- data/summaries/2026-04-04.json (TAAFT — three in-house models; Forward Future — MAI rivals OpenAI; Superhuman — MAI family; TLDR AI — MAI in Foundry; The Tech Buzz — enterprise voice + transcription + image)
