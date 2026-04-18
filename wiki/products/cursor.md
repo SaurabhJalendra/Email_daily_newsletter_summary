@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-04
-> **Last updated**: 2025-11-17
+> **Last updated**: 2025-12-12 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
 > **Related**: [[agent-frameworks]], [[jules]], [[claude-code]], [[replit]], [[cursor-composer]], [[cognition]]
 
@@ -18,6 +18,7 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 
 ## Timeline
 
+- **2025-12-12**: Cursor adds Debug Mode — interactive debugger UX inside the agent loop — *source: TLDR AI "DeepMind's automated lab / reverse engineering ChatGPT / Cursor Debug Mode"*
 - **2025-11-17**: Cursor raises $2.3B — further underlining the AI coding IDE boom — *source: TAAFT cycle "Cursor raises $2.3 billion"*
 - **2025-11-06**: Reports 12.5% accuracy gain from semantic code retrieval; trains custom embedding model — *source: AlphaSignal "Cursor semantic code retrieval"*
 - **2025-11-01**: Cursor 2.0 / Composer continues to dominate post-launch coverage — *source: TAAFT "Sora 2 vs Veo 3.1: Who Wins?"*
@@ -49,3 +50,4 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 - data/summaries/2025-11-01.json (TAAFT — Sora 2 vs Veo 3.1)
 - data/summaries/2025-11-06.json (AlphaSignal — Cursor semantic code retrieval / custom embeddings)
 - data/summaries/2025-11-17.json (TAAFT — Cursor raises $2.3B)
+- data/summaries/2025-12-12.json (TLDR AI — Cursor Debug Mode)

@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2025-11-05..2025-11-19)
+> **Last updated**: 2025-12-19 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[claude-opus-4-7]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[agent-frameworks]], [[ai-funding-rounds]], [[ai-hardware]]
+> **Related**: [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-hardware]]
 
 ## Summary
 
@@ -23,6 +23,13 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - **2026-04-16**: Always-on Routines added to [[claude-code]] — reusable configurations that auto-run on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: Anthropic in London challenging OpenAI in Europe — *source: Forward Future "Anthropic challenges OpenAI in London"*
 - **2026-04-16**: Reports of Anthropic in investor talks at $800B+ valuation — *source: Superhuman "Gemini gets a Mac app"*
+- **2025-12-18**: Anthropic testing Agentic Tasks Mode for Claude — reframes assistant as a system for getting work done — *source: AI Breakfast "OpenAI's Triple Strike"; TLDR AI*
+- **2025-12-16**: Reverse-engineering of Claude memory system — uses on-demand tools and selective retrieval; FrontierScience announced alongside other lab updates — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal*
+- **2025-12-13**: [[broadcom]]'s mystery $10B customer revealed as Anthropic — entire server racks to be delivered; "Anthropic's vision advantage" framed as comparable to early-2010s Apple — *source: TLDR AI "Disney + OpenAI / GPT-5.2"; TLDR*
+- **2025-12-12**: [[claude-code]] CLI updated — async subagents and faster compaction; Claude Code in Slack ships ("debuggers, REJOICE") — *source: AlphaSignal "Microsoft 37.5M Copilot"; The Rundown AI; Mindstream*
+- **2025-12-11**: Anthropic + [[openai]] + Block + Linux Foundation co-found [[agentic-ai-foundation]]; Anthropic donates [[model-context-protocol]] (MCP); SGTM method published for surgically removing specific knowledge from models — *source: TAAFT "First AGI Achieved"; TLDR AI "OpenAI Image-2"; AlphaSignal — OpenAI 320× surge / SGTM*
+- **2025-12-10**: [[claude-code]] launches inside Slack — coding tasks delegable directly from threads; Lovart adds Touch Edit on top of [[nano-banana-pro]] — *source: The Rundown AI "Inside OpenAI's massive AI enterprise report"; TLDR AI*
+- **2025-12-06**: Claude Interviewer launched — automated qualitative research tool ran 1,250 interviews on how professionals use AI; [[claude-opus-4-5]] "soul" document leaked (Anthropic's method for embedding reasoning + ethics); [[snowflake]] $200M multi-year AI partnership integrates Claude into the data platform — *source: AI Breakfast "Anthropic to Go Public"; TAAFT "20M ChatGPT Chats"; The Rundown AI; Mindstream "Claude got the keys to the data vault"; Forward Future; TLDR AI*
 - **2025-12-04**: Anthropic reportedly preparing for one of the largest IPOs ever; acquires [[bun]] (fast open-source JavaScript toolkit) to enhance [[claude-code]]; Claude Code reportedly hits $1B ARR — *source: 2025-12-04 cycle*
 - **2025-12-03**: Anthropic AI agents successfully exploit blockchain smart contracts — extracted $4.6M from contracts deployed after March 2025; SCONE-bench security research — *source: 2025-12-03 cycle*
 - **2025-11-30**: [[claude-opus-4-5]] reframed as "most advanced model yet" for complex reasoning, world-class coding, long-running AI agents — *source: 2025-11-30 cycle*
@@ -105,4 +112,11 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - data/summaries/2025-11-30.json (Claude Opus 4.5 broad-rollout framing)
 - data/summaries/2025-12-03.json (Anthropic blockchain exploit research; SCONE-bench)
 - data/summaries/2025-12-04.json (Anthropic IPO preparation; Bun acquisition; Claude Code $1B ARR)
+- data/summaries/2025-12-06.json (AI Breakfast — Anthropic to Go Public; TAAFT — 20M ChatGPT Chats / Opus 4.5 soul leak; The Rundown AI — Anthropic puts Claude in the interviewer's chair; Mindstream — Claude got the keys to the data vault; Forward Future — AWS Factories; TLDR AI — Anthropic Interviewer)
+- data/summaries/2025-12-10.json (The Rundown AI — Inside OpenAI's massive AI enterprise report; TLDR AI — State of enterprise AI / Claude Code in Slack)
+- data/summaries/2025-12-11.json (TAAFT — First AGI Achieved Claim; TLDR AI — OpenAI Image-2; AlphaSignal — OpenAI 320× surge / SGTM)
+- data/summaries/2025-12-12.json (AlphaSignal — Microsoft 37.5M Copilot; The Rundown AI — Nous Research; Mindstream — Debuggers REJOICE)
+- data/summaries/2025-12-13.json (TLDR — GPT-5.2 / Anthropic vision; TLDR AI — Disney + OpenAI / Broadcom Anthropic)
+- data/summaries/2025-12-16.json (TLDR AI — OpenAI adopts Skills / reverse engineering Claude; AlphaSignal)
+- data/summaries/2025-12-18.json (AI Breakfast — OpenAI's Triple Strike; TLDR AI — ChatGPT removes router; AlphaSignal)
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; AlphaSignal — Anthropic Opus 4.7: 3.75MP vision; World of AI — ANTHROPIC: Opus 4.7 DROPS!; World of AI — ANTHROPIC DROPS Claude Design!; TLDR — Opus 4.7; TLDR AI — Claude Opus 4.7; Forward Future — Anthropic challenges OpenAI in London; AI Breakfast — Claude Opus 4.7 gains native design tools; Superhuman — Claude Opus 4.7 arrives; Superhuman — Gemini gets a Mac app; TAAFT — Claude Opus 4.7 Drops; TAAFT — Claude Just Became a Designer; Staying Ahead with AI — opus 4.7 tested; The Code — Anthropic does it again; Hello, World! — Claude Opus 4.7 and Kubernetes; AI Automation Society — Nate Herk Claude Design)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-21
-> **Last updated**: 2025-12-04
+> **Last updated**: 2025-12-19 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[nvidia]], [[perplexity]], [[perplexity-comet]], [[ai-hardware]], [[ai-funding-rounds]]
 
@@ -18,6 +18,9 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 
 ## Timeline
 
+- **2025-12-19**: Amazon reportedly considering $10B+ investment in [[openai]] at $500B+ valuation; deal would include OpenAI training/inference workloads on AWS Trainium — *source: TLDR; The Rundown AI*
+- **2025-12-12**: Amazon launches new Coding Agent — *source: TAAFT "Amazon launched a new Coding agent"*
+- **2025-12-06**: AWS Factories + Trainium positioned vs NVIDIA in coverage — *source: TAAFT "AWS Factories + Trainium vs NVIDIA"*
 - **2025-12-04**: Amazon Nova 2 + Trainium 3 + Nova Forge + Kiro + AWS AI Factories announced — Trainium 3 claims up to 50% lower training/operating cost vs NVIDIA; Nova Forge service for building frontier models — *source: 2025-12-04 cycle*
 - **2025-12-04**: Rufus (AI shopping assistant) drives spike in purchase-converting sessions; Adobe Analytics reports 805% YoY surge in AI-driven traffic to US retail Black Friday — *source: 2025-12-04 cycle*
 - **2025-11-30**: AWS introduces flat-rate pricing plans bundling CDN, security, DNS, logging, edge compute, storage — predictable-cost positioning vs usage-based hyperscaler pricing — *source: 2025-11-30 cycle*
@@ -70,3 +73,6 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 - data/summaries/2025-11-27.json (Amazon $50B AWS US-government AI investment)
 - data/summaries/2025-11-30.json (AWS flat-rate pricing plans)
 - data/summaries/2025-12-04.json (Nova 2; Trainium 3; Nova Forge; Kiro; AWS AI Factories; Rufus shopping; Adobe Analytics 805% YoY)
+- data/summaries/2025-12-06.json (TAAFT — AWS Factories + Trainium vs NVIDIA)
+- data/summaries/2025-12-12.json (TAAFT — Amazon launched a new Coding agent)
+- data/summaries/2025-12-19.json (TLDR; The Rundown AI — Amazon considering $10B+ in OpenAI at $500B+ val)

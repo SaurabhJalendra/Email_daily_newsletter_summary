@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-12-04
+> **Last updated**: 2025-12-19 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[anthropic]], [[google]], [[amazon]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]]
+> **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[gpt-5-2]], [[gpt-image-1-5]], [[anthropic]], [[google]], [[amazon]], [[disney]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]], [[agentic-ai-foundation]]
 
 ## Summary
 
@@ -22,6 +22,16 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - **2026-04-16**: GPT-Rosalind introduced — biology-tuned LLM for drug discovery / biological research — *source: TLDR "Opus 4.7, the clip economy, Cloudflare Agents Week"; TLDR AI "GPT Rosalind, Perplexity Personal Computer"*
 - **2026-04-16**: Agents SDK updated — native harness for cross-file / tool workflows, sandboxed execution — *source: TLDR AI "Gemini 3.1 Flash TTS, OpenAI Agents SDK"*
 - **2026-04-16**: Trusted Access program expands (mentions GPT-5 tiered-identity framing continuing) — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
+- **2025-12-19**: ChatGPT Apps Store opens — third-party apps publishable to ChatGPT after review; OpenAI in preliminary funding talks at $750B valuation; Amazon reportedly considering $10B+ investment at $500B+ valuation (would include Trainium chips usage) — *source: 2025-12-19 cycle (TLDR; The Rundown AI; Superhuman)*
+- **2025-12-18**: [[gpt-image-1-5]] released — 4× faster, sharper detail, better text rendering, Likeness Retention; OpenAI quietly abandons GPT-5 model router for Free/Go tier (defaults to GPT-5.2 Instant) — *source: AlphaSignal "GPT-Image-1.5 4× faster"; The Rundown AI; TLDR AI; Uncovering AI; AI Breakfast "Triple Strike"*
+- **2025-12-17**: OpenAI ends new-hire equity vesting cliff — talent-war response — *source: Forward Future "NVIDIA Agentic Bet"*
+- **2025-12-16**: OpenAI adopts Skills — accessible by prompting "Create a zip file of /home/oai/skills" in ChatGPT and Codex CLI; sparse circuit models open-sourced; Disney 1-year exclusivity for Sora characters confirmed; Maps integrated into Gemini responses (cross-co. context); ChatGPT halts ads amid backlash; $115B burn-rate / $1.4T compute spend through 2030 framing — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal; SignalPulse*
+- **2025-12-13**: [[gpt-5-2]] launched — three-tier lineup (Instant, Thinking, Pro); 38% reduction in errors on complex decision-making, 400K context, top of coding/math/reasoning; [[disney]] $1B partnership + 3-year deal grants Sora and ChatGPT Image access to 200+ Disney/Pixar/Marvel/Star Wars characters; ChatGPT becomes most-downloaded iPhone app of 2025 — *source: TAAFT "Google vs OpenAI Same-Day Showdown"; The Rundown AI "Disney chooses OpenAI"; TLDR; AI Breakfast; Superhuman; Mindstream "GPT-5.2 just made everyone else look slow"; OpenAI Open Season*
+- **2025-12-12**: GPT-5 self-rated "high" cybersecurity threat under OpenAI's preparedness framework (zero-day, enterprise intrusion); Slack CEO Denise Dresser hired as Chief Revenue Officer — *source: TAAFT "GPT-5 Gets a Danger Label"; OpenAI Open Season*
+- **2025-12-11**: Tokyo startup AGI claim circulates; OpenAI + [[anthropic]] + Block co-found Linux Foundation's [[agentic-ai-foundation]] (Anthropic donates [[model-context-protocol]]); Image-2 next-gen image models spotted on eval boards; "truth serum" research — *source: TAAFT "First AGI Achieved Claim"; The Rundown AI "Microsoft cancer-mapping AI"; TLDR AI "OpenAI Image-2"*
+- **2025-12-10**: Adobe (Photoshop, Express, Acrobat) integrated into ChatGPT for in-chat editing; Sam Altman pauses side projects 8 weeks to focus on ChatGPT; ChatGPT message volume +8× since Nov 2024; ChatGPT + Instacart in-app shopping; first enterprise report: 75% of business users report productivity gains — *source: AI Breakfast "Adobe Launches Inside ChatGPT"; The Rundown AI; TLDR; Mindstream "ChatGPT becoming office default"; Superhuman*
+- **2025-12-09**: GPT-5.2 release imminent (prediction markets target Dec 9–11); enterprise reasoning workloads up 320× — *source: AI Breakfast "GPT-5.2 Code Red This Week?"; Superhuman; TLDR AI*
+- **2025-12-06**: 20M ChatGPT chats ordered turned over to court in copyright lawsuit (cloud chats not as private as assumed); "Confessions" technique introduced — model admits to reward hacking as a diagnostic; Workspace Studio coverage from Google in same cycle — *source: TAAFT "20M ChatGPT Chats Exposed"; AI Breakfast "Anthropic to Go Public" (Confessions); The Rundown AI*
 - **2025-12-04**: OpenAI declares "Code Red" amid Gemini 3 competitive pressure — focus shifts to ChatGPT speed, reliability, personality — *source: 2025-12-04 cycle*
 - **2025-12-02**: ChatGPT Android app surfaces references to ads ("ads feature", "search ads", "bazaar content") — ads in ChatGPT may ship soon — *source: TLDR 2025-12-02*
 - **2025-11-30**: Mixpanel breach reconfirmed — analytics-provider exposure of profile/analytics data; chat content and credentials reportedly safe — *source: 2025-11-30 cycle*
@@ -125,4 +135,15 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - data/summaries/2025-11-30.json (Mixpanel breach reconfirmation)
 - data/summaries/2025-12-02.json (TLDR — OpenAI ads feature leak)
 - data/summaries/2025-12-04.json (OpenAI declares Code Red)
+- data/summaries/2025-12-06.json (TAAFT — 20M ChatGPT Chats Exposed; AI Breakfast — Anthropic To Go Public / Confessions; The Rundown AI — Anthropic interviewer / OpenAI confessions)
+- data/summaries/2025-12-09.json (AI Breakfast — GPT-5.2 Code Red This Week?; Superhuman — GPT-5.2 arriving early?; TLDR AI — OpenAI GPT-5.2)
+- data/summaries/2025-12-10.json (AI Breakfast — Adobe Launches Inside ChatGPT; The Rundown AI — Inside OpenAI's massive AI enterprise report; TLDR — Inside OpenAI's code red; Mindstream — ChatGPT is becoming the office default; Superhuman; TAAFT — AI Turns Speech Into Reality)
+- data/summaries/2025-12-11.json (TAAFT — First AGI Achieved Claim; The Rundown AI — Microsoft cancer-mapping AI; TLDR AI — OpenAI Image-2 / Devstral2)
+- data/summaries/2025-12-12.json (TAAFT — GPT-5 Gets a Danger Label; OpenAI Open Season; Uncovering AI — Something is happening at OpenAI)
+- data/summaries/2025-12-13.json (TAAFT — Google vs OpenAI Same-Day Showdown; The Rundown AI — Disney chooses OpenAI; TLDR — GPT-5.2; AI Breakfast; Superhuman; Mindstream — GPT-5.2 just made everyone else look slow; OpenAI Open Season; Forward Future; Staying Ahead with AI — WAKE UP GPT 5.2)
+- data/summaries/2025-12-14.json (Get Into AI — OpenAI Just Dropped GPT 5.2)
+- data/summaries/2025-12-16.json (TLDR AI — OpenAI adopts Skills; AlphaSignal; SignalPulse; Uncovering AI — GPT-5.2 + Disney's $1B AI Bet)
+- data/summaries/2025-12-17.json (Forward Future — NVIDIA Agentic Bet; TAAFT — First 100% AI-Made Game; Mindstream — AI bubble or not)
+- data/summaries/2025-12-18.json (AlphaSignal — GPT-Image-1.5; The Rundown AI — OpenAI answers Google; TLDR AI — GPT-Image-1.5; Uncovering AI; AI Breakfast — Triple Strike; TLDR; Mindstream)
+- data/summaries/2025-12-19.json (TLDR — Gemini 3 Flash + ChatGPT app store; The Rundown AI — Google's Flash-y Gemini 3; Superhuman — Google strikes back; TAAFT — ChatGPT Gets an App Store; InstaByte)
 - data/summaries/2026-04-16.json (The Rundown AI — OpenAI's superapp hiding inside Codex; AlphaSignal — Anthropic presents always-on Routines / Trusted Access GPT-5; TLDR — Opus 4.7, Cloudflare Agents Week, GPT-Rosalind; TLDR AI — OpenAI Agents SDK; TLDR AI — GPT Rosalind, Perplexity Personal Computer)

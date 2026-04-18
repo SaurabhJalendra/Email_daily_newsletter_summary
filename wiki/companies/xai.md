@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
 > **Related**: [[nvidia]], [[grok-4-1]], [[grokipedia]], [[ai-hardware]], [[ai-funding-rounds]]
 
@@ -20,6 +20,8 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 - **2026-04-16**: Terafab reaches out to chipmaking suppliers for price quotes and delivery timelines, requesting speedy estimates with minimal product disclosure — *source: TLDR "Inside Elon's Terafab"*
 - **2026-04-16**: xAI starts repurposing compute stockpile for external customers — *source: Forward Future "Anthropic challenges OpenAI in London"*
+- **2025-12-19**: Grok Voice Agent API released — voice-first agent endpoint — *source: AlphaSignal "Gemini 3 Flash / TPU PyTorch / Grok Voice Agent API"*
+- **2025-12-08**: "Musk's Grok Saves a Life" — viral case study; Grok credited with medical-emergency assistance — *source: TAAFT "Musk's Grok Saves a Life!?"*
 - **2025-12-02**: xAI launches Grok 4.1 dialog model with Thinking and Standard modes — controlled, conversational; mode toggle balances depth vs speed — *source: 2025-12-02 cycle*
 - **2025-11-29**: xAI to build 88-acre solar farm next to Memphis Colossus data center — projected 30 MW (~10% of facility's needs) — *source: 2025-11-29 cycle*
 - **2025-11-27**: $15B raise at $230B pre-money confirmed for December close — *source: 2025-11-27 cycle*
@@ -70,4 +72,6 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 - data/summaries/2025-11-27.json (xAI $15B at $230B confirmed)
 - data/summaries/2025-11-29.json (xAI Memphis solar farm)
 - data/summaries/2025-12-02.json (Grok 4.1 dialog model — Thinking/Standard modes)
+- data/summaries/2025-12-08.json (TAAFT — Musk's Grok Saves a Life)
+- data/summaries/2025-12-19.json (AlphaSignal — Grok Voice Agent API)
 - data/summaries/2026-04-16.json (TLDR — Inside Elon's Terafab; Forward Future — Anthropic challenges OpenAI in London [xAI compute repurposing])

@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-11-15
+> **Last updated**: 2025-12-13 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[opera-neon]], [[perplexity-comet]], [[chatgpt-atlas]], [[perplexity]], [[openai]], [[computer-use]], [[prompt-injection]]
+> **Related**: [[opera-neon]], [[perplexity-comet]], [[chatgpt-atlas]], [[perplexity]], [[openai]], [[google]], [[gemini-3]], [[computer-use]], [[prompt-injection]]
 
 ## Summary
 
@@ -18,6 +18,8 @@ AI browsers are a product category where the browser itself acts as an AI runtim
 
 ## Timeline
 
+- **2025-12-13**: Disco AI browser launched in Google Labs — GenTabs powered by [[gemini-3]] turn web pages into interactive web apps — *source: Superhuman "GPT-5.2 is here"*
+- **2025-12-10**: "Slop Evader" web browser launches — content-quality filter as a browser-level feature — *source: TLDR cycle*
 - **2025-11-15**: Mozilla adds AI window to Firefox — users pick preferred AI model while maintaining privacy controls — *source: TAAFT cycle "Mozilla AI window"*
 - **2025-11-10**: Android [[perplexity-comet]] rolls out to power users — *source: TAAFT cycle*
 - **2025-11-08**: [[chatgpt-atlas]] macOS availability continues — *source: TAAFT cycle*
@@ -56,3 +58,5 @@ AI browsers are a product category where the browser itself acts as an AI runtim
 - data/summaries/2025-11-08.json (TAAFT — ChatGPT Atlas macOS continues)
 - data/summaries/2025-11-10.json (TAAFT — Android Comet rollout)
 - data/summaries/2025-11-15.json (TAAFT — Mozilla Firefox AI window)
+- data/summaries/2025-12-10.json (TLDR — Slop Evader web browser launch)
+- data/summaries/2025-12-13.json (Superhuman — Disco AI browser w/ GenTabs)

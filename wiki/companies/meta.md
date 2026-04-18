@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[world-models]], [[world-labs]], [[ai-hardware]]
+> **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[google]], [[alibaba]], [[world-models]], [[world-labs]], [[ai-hardware]]
 
 ## Summary
 
@@ -20,6 +20,12 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: Introduces [[muse-spark]] — natively multimodal reasoning with tool use and multi-agent orchestration; framed as marking Meta's pivot from open-weights releases — *source: The Batch "Meta Pivots From Open Weights"*
+- **2025-12-19**: Meta and [[google]] team up on TPU PyTorch initiative — *source: AlphaSignal "Gemini 3 Flash / TPU PyTorch / Grok Voice"*
+- **2025-12-18**: SAM Audio shipped — companion to SAM 3 family for audio segmentation — *source: AlphaSignal "ChatGPT removes router / GPT-Image-1.5 / Meta SAM Audio"*
+- **2025-12-16**: Meta trains AI on Alibaba's Qwen — coverage frames Meta as falling back on China's open weights for training — *source: AI Breakfast "Meta Trains AI on China's Qwen"*
+- **2025-12-11**: Reports of internal Meta AI confusion / strategy uncertainty — *source: TLDR "SpaceX $1.5T target, Meta AI internal confusion"*; Meta's "next device" timeline pushed back — *source: The Rundown AI "A longer wait for Meta's next device"*
+- **2025-12-09**: Meta acquires Limitless (wearable AI startup) — *source: TLDR AI "Meta acquires Limitless / Gemini Nano Banana 2 Flash / GPT-5.2"*
+- **2025-12-06**: Coverage frames Meta as "Metaverse reverse" — paring back Reality Labs spend — *source: TAAFT "Metaverse reverse"; TLDR cycle "Meta cuts Metaverse"*
 - **2025-11-25**: WorldGen released — turns text prompts into walkable, game-ready worlds via procedural reasoning, diffusion-based 3D generation, and object-aware scene decomposition — *source: 2025-11-25 cycle*
 - **2025-11-22**: SAM 3D coverage continues — system creates 3D models from a single image; companion to SAM 3 — *source: The Rundown AI "Google's bananas AI image upgrade"; AI Breakfast*
 - **2025-11-21**: Meta open-sources SAM 3 (Segment Anything 3) and SAM 3D — text + visual prompts, video segmentation/tracking, photo-to-3D model rebuild for objects/people; uses span robotics, gaming, education — *source: TLDR AI "Segment Anything 3"; The Rundown AI "Codex-Max codes for 24 hours" [SAM 3 / SAM 3D]; AI Breakfast*
@@ -71,4 +77,10 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 - data/summaries/2025-11-21.json (TLDR AI — Segment Anything 3; The Rundown AI — SAM 3 / SAM 3D; AI Breakfast)
 - data/summaries/2025-11-22.json (The Rundown AI — Google's bananas AI image upgrade [SAM 3D]; AI Breakfast — Nano Banana Pro Sets New Standard)
 - data/summaries/2025-11-25.json (Meta WorldGen text-to-3D-world)
+- data/summaries/2025-12-06.json (TAAFT — Metaverse reverse; TLDR — Meta cuts Metaverse)
+- data/summaries/2025-12-09.json (TLDR AI — Meta acquires Limitless)
+- data/summaries/2025-12-11.json (TLDR — Meta AI internal confusion; The Rundown AI — A longer wait for Meta's next device)
+- data/summaries/2025-12-16.json (AI Breakfast — Meta Trains AI on China's Qwen)
+- data/summaries/2025-12-18.json (AlphaSignal — Meta SAM Audio)
+- data/summaries/2025-12-19.json (AlphaSignal — TPU PyTorch initiative w/ Google)
 - data/summaries/2026-04-16.json (The Batch — Meta Pivots From Open Weights; InstaByte — Snap cuts 1,000 jobs, blames AI [Meta CoreWeave deal])

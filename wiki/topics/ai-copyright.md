@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-11-05
-> **Last updated**: 2025-11-28
+> **Last updated**: 2025-12-16 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[openai]], [[ai-regulation]], [[sora-2]], [[perplexity]], [[chatgpt]], [[ai-video-generation]]
+> **Related**: [[openai]], [[ai-regulation]], [[sora-2]], [[perplexity]], [[google]], [[disney]], [[chatgpt]], [[ai-video-generation]]
 
 ## Summary
 
@@ -18,6 +18,10 @@ AI copyright moved from background concern to concrete case law through November
 
 ## Timeline
 
+- **2025-12-16**: Disney granted 1-year exclusivity for Sora characters (clarification of OpenAI deal); coverage continues — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal*
+- **2025-12-13**: [[disney]] sues [[google]] over AI usage of its IP — counterpart to the same-day [[disney]]–[[openai]] $1B partnership — *source: The Rundown AI "Disney chooses OpenAI"*
+- **2025-12-09**: New York Times sues [[perplexity]] over content scraping — *source: TLDR cycle "The Times vs Perplexity"*
+- **2025-12-06**: A US court orders 20M [[chatgpt]] cloud chats turned over in copyright lawsuit — establishes that "private" cloud chats are discoverable — *source: TAAFT "20M ChatGPT Chats Exposed"; AI Breakfast*
 - **2025-11-28**: Warner Music settles its copyright case with AI music startup Suno via strategic partnership — second major Warner-AI-music thaw within a week (after Udio Nov 21–22) — *source: 2025-11-28 cycle*
 - **2025-11-23**: Klay Vision becomes the first AI music company to sign licensing deals with major record labels for Large Music Model training — *source: TAAFT "900 Days to Decide AI's Future"*
 - **2025-11-22**: Warner Music signs licensing deal with AI music startup Udio to power a new song-creation platform — Warner had earlier dropped its lawsuit against Udio — *source: Mindstream "That big EU AI regulation? It's not working"; The Rundown AI cycle*
@@ -54,3 +58,7 @@ AI copyright moved from background concern to concrete case law through November
 - data/summaries/2025-11-22.json (Mindstream — Warner-Udio licensing deal)
 - data/summaries/2025-11-23.json (TAAFT — Klay Vision licensing major labels)
 - data/summaries/2025-11-28.json (Warner Music–Suno settlement / strategic partnership)
+- data/summaries/2025-12-06.json (TAAFT — 20M ChatGPT Chats Exposed; AI Breakfast)
+- data/summaries/2025-12-09.json (TLDR cycle — The Times vs Perplexity)
+- data/summaries/2025-12-13.json (The Rundown AI — Disney chooses OpenAI / sues Google)
+- data/summaries/2025-12-16.json (TLDR AI — OpenAI adopts Skills [Disney exclusivity]; AlphaSignal)

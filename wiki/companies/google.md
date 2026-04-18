@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2025-11-27..2025-12-04)
+> **Last updated**: 2025-12-19 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[anthropic]], [[apple]], [[openai]], [[prompt-injection]], [[computer-use]], [[ai-hardware]]
+> **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[prompt-injection]], [[computer-use]], [[ai-hardware]]
 
 ## Summary
 
@@ -21,6 +21,16 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-16**: Gemini Mac app launches — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT "Gemini Gets TTS and Mac App"; Superhuman "Gemini gets a Mac app"; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome adds "Skills" — save Gemini prompts to reuse across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
+- **2025-12-19**: [[gemini-3-flash]] launches — frontier-level intelligence at fraction of price; 3× faster than Gemini 2.5 Pro and outperforms it on PhD-level reasoning/knowledge benchmarks; powers Gemini app and AI Search by default; Google + [[meta]] team up on TPU PyTorch initiative — *source: World of AI; The Rundown AI; TLDR; Superhuman; AlphaSignal*
+- **2025-12-18**: Gmail launches CC — Gemini-powered productivity assistant connecting Gmail/Calendar/Drive (curated email summaries replacing morning scrolling); DeepMind CEO predicts AGI within 10 years; Gemini desktop adds interactive Gem mini-apps that turn prompts into reusable, structured tools — *source: TAAFT "8M+ AI Chats"; The Rundown AI; AI Breakfast "OpenAI's Triple Strike"; Superhuman; AlphaSignal*
+- **2025-12-17**: Co-founder admits company was late to AI; Gemini Deep Research now produces visual reports for Google AI Ultra subscribers; Code Wiki — auto-update repository documentation system treating docs like code — *source: TAAFT; The Rundown AI; TLDR AI; AlphaSignal "Nemotron 3"*
+- **2025-12-16**: Real-time translation through any headphones — Gemini-powered, 70+ languages, preserves tone/cadence; DeepMind opens automated science lab in UK (priority access to DeepMind tools, AISI partnership); Maps integrated into Gemini responses; Mixboard + Doppl revamps powered by [[gemini-3]]; Code Wiki rolled out — *source: TAAFT; AI Breakfast; The Rundown AI; AlphaSignal; Mindstream "Google is on a roll"; Superhuman*
+- **2025-12-13**: Gemini Deep Research agent now in Gemini API via new Interactions API; Disney sues Google (counterpart to Disney–OpenAI partnership); Disco AI browser launched in Google Labs (GenTabs powered by Gemini 3 creates interactive web apps) — *source: Google AI Studio; The Rundown AI "Disney chooses OpenAI"; Superhuman "GPT-5.2 is here"*
+- **2025-12-12**: Google partners with [[anthropic]] et al on Agentic AI Foundation framing; Gemini 2.5 TTS update (style following, natural pacing); FACTS benchmark released for factual reliability across four domains; ranked "AI winner" by Wall Street on stock outperformance — *source: AlphaSignal "Microsoft 37.5M Copilot"; FutureTools "Wall Street says Google Wins"*
+- **2025-12-10**: Plans 2026 AI-glasses launch with Samsung, Warby Parker, Gentle Monster (display-equipped + audio-only models); deepens Replit enterprise vibe-coding partnership — *source: TLDR; The Rundown AI; AI Breakfast; Superhuman*
+- **2025-12-08**: Google Research unveils Titans + MIRAS — systems that update long-term memory in real time without retraining — *source: TAAFT "Musk's Grok Saves a Life"*
+- **2025-12-06**: Workspace Studio launches — build AI agents across Gmail, Drive, Chat without coding; Gemini 3 Deep Think available in Gemini app (parallel reasoning); Google + Replit partnership for enterprise vibe-coding; Demis Hassabis warns of AI cyberattacks on energy/water systems — *source: AI Breakfast "Anthropic to Go Public"; TLDR AI "Anthropic Interviewer / Gemini 3 Deep Think"; The Rundown AI; TAAFT "Gemini Surges 30%"*
+- **2025-12-05**: [[gemini-3]] Deep Think reasoning mode released — explores multiple reasoning paths, gains on math/science/logic/visual puzzles — *source: World of AI "Google DROPS Gemini 3 DEEP THINK!"*
 - **2025-12-04**: [[gemini-3]] Pro and [[nano-banana-pro]] expanded across additional countries in Search — *source: 2025-12-04 cycle*
 - **2025-12-03**: Google Gemini "Projects" feature in development — organize files and chats around topics — *source: 2025-12-03 cycle*
 - **2025-12-02**: [[gemini-3]] reframed as integrated shared-intelligence layer across Google products with improved multimodal reasoning + stable long-context — *source: 2025-12-02 cycle*
@@ -130,4 +140,14 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - data/summaries/2025-12-02.json (Gemini 3 shared-intelligence layer)
 - data/summaries/2025-12-03.json (Gemini Projects in development)
 - data/summaries/2025-12-04.json (Gemini 3 Pro + Nano Banana Pro country expansion in Search)
+- data/summaries/2025-12-05.json (World of AI — Google DROPS Gemini 3 DEEP THINK!)
+- data/summaries/2025-12-06.json (AI Breakfast — Anthropic to Go Public / Workspace Studio; TLDR AI — Anthropic Interviewer / Gemini 3 Deep Think; The Rundown AI; TAAFT — Gemini Surges 30%)
+- data/summaries/2025-12-08.json (TAAFT — Musk's Grok Saves a Life — Titans + MIRAS)
+- data/summaries/2025-12-10.json (TLDR — AI glasses 2026; The Rundown AI; AI Breakfast; Superhuman)
+- data/summaries/2025-12-12.json (AlphaSignal — Microsoft 37.5M Copilot; FutureTools — Wall Street says Google Wins; TLDR AI — DeepMind UK lab)
+- data/summaries/2025-12-13.json (Google AI Studio — Gemini Deep Research API; The Rundown AI; Superhuman — GPT-5.2 is here / Disco)
+- data/summaries/2025-12-16.json (TAAFT — Meta Trains AI on China's Qwen; AI Breakfast; The Rundown AI; AlphaSignal; Mindstream — Google is on a roll; Superhuman; TLDR AI — OpenAI adopts Skills)
+- data/summaries/2025-12-17.json (TAAFT — First 100% AI-Made Game; The Rundown AI; TLDR AI; AlphaSignal "Nemotron 3"; Superhuman — Nvidia drops open-source AI models)
+- data/summaries/2025-12-18.json (TAAFT — 8M+ AI Chats; The Rundown AI; AI Breakfast; Superhuman — Gmail's new AI assistant; AlphaSignal)
+- data/summaries/2025-12-19.json (World of AI — Google Drops GEMINI 3 FLASH; The Rundown AI; TLDR; Superhuman; AlphaSignal; Google AI Studio — Try Gemini 3 Flash; TLDR AI — Gemini 3 Flash / TPU PyTorch / Grok Voice Agent API)
 - data/summaries/2026-04-16.json (AlphaSignal — Google Gemini 3.1 Flash TTS; World of AI — GOOGLE: Gemini 3.1 TTS DROPS!; TAAFT — Gemini Gets TTS and Mac App; TLDR AI — Gemini 3.1 Flash TTS; The Code — Shoemaker company pivots to AI; Superhuman — Gemini gets a Mac app; The Rundown AI — Allbirds ditches sneakers; "Gemini on your desktop"; Mindstream — AI just made Chrome even more useful)

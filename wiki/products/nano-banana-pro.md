@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-11-22
-> **Last updated**: 2025-11-26
+> **Last updated**: 2025-12-10 (backfill 2025-12-05..2025-12-19)
 > **Status**: launched
 > **Related**: [[google]], [[gemini-3]], [[gemini]], [[ai-video-generation]], [[veo-3]], [[adobe]], [[canva]]
 
@@ -18,6 +18,8 @@ Nano Banana Pro is the production name for Google's Gemini 3 Pro Image model —
 
 ## Timeline
 
+- **2025-12-10**: Lovart adds Touch Edit on top of Nano Banana Pro — third-party editing layer — *source: TLDR AI 2025-12-10*
+- **2025-12-09**: "Gemini Nano Banana 2 Flash" referenced in coverage — possible Flash-tier sibling — *source: TLDR AI "Meta acquires Limitless / Gemini Nano Banana 2 Flash / GPT-5.2"*
 - **2025-12-04**: Google expands Nano Banana Pro access across additional countries via Search rollout — *source: 2025-12-04 digest*
 - **2025-11-26**: Coverage highlights outfit-swap and 4K detail capabilities as differentiators vs Firefly — *source: TLDR / The Rundown AI 2025-11-26*
 - **2025-11-22**: Nano Banana Pro (Gemini 3 Pro Image) launches — 4K, 14 inputs, 5-character consistency, SynthID + C2PA provenance, integrated into Canva / Figma / Adobe Firefly / Photoshop / Antigravity / Google Ads / Workspace — *source: AI Breakfast "Nano Banana Pro Sets New Standard"; Mindstream*
@@ -42,3 +44,5 @@ Nano Banana Pro is the production name for Google's Gemini 3 Pro Image model —
 - data/summaries/2025-11-22.json (AI Breakfast — Nano Banana Pro Sets New Standard; Mindstream)
 - data/summaries/2025-11-26.json (TLDR; The Rundown AI)
 - data/summaries/2025-12-04.json (Google expands Nano Banana Pro access across additional countries)
+- data/summaries/2025-12-09.json (TLDR AI — Gemini Nano Banana 2 Flash mention)
+- data/summaries/2025-12-10.json (TLDR AI — Lovart Touch Edit on Nano Banana Pro)

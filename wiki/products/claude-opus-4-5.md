@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-11-26
-> **Last updated**: 2025-11-30
+> **Last updated**: 2025-12-06 (backfill 2025-12-05..2025-12-19)
 > **Status**: launched
 > **Related**: [[anthropic]], [[claude-code]], [[claude-opus-4-7]], [[claude-haiku-4-5]], [[gemini-3]], [[gpt-5-1-codex-max]], [[agent-frameworks]]
 
@@ -18,6 +18,7 @@ Claude Opus 4.5 (also styled "Claude 4.5 Opus") was Anthropic's late-November 20
 
 ## Timeline
 
+- **2025-12-06**: Opus 4.5 "soul" document leaked — Anthropic's internal method for embedding reasoning + ethics into the model's character; framed as a values/system-card insight — *source: Mindstream "Claude got the keys to the data vault"; Forward Future*
 - **2025-11-30**: Reframed as Anthropic's "most advanced model yet" for complex reasoning, world-class coding, long-running AI agents — handles ambiguity, multi-step reasoning, tricky technical problems with precision — *source: 2025-11-30 cycle*
 - **2025-11-27**: Coverage frames Claude 4.5 as outperforming human engineers on certain coding tasks; SWE-bench Verified 80.9% — *source: 2025-11-27 cycle*
 - **2025-11-26**: Claude Opus 4.5 launches — 80.9% SWE-bench Verified (highest ever recorded); 88.9% T2 Retail, 98.2% T2 Telecom; significant gains in graduate-level reasoning, visual reasoning, computer use, multilingual Q&A — *source: TLDR; The Rundown AI; AI Breakfast; FutureTools*
@@ -41,3 +42,4 @@ Claude Opus 4.5 (also styled "Claude 4.5 Opus") was Anthropic's late-November 20
 - data/summaries/2025-11-26.json (TLDR — Opus 4.5 release; The Rundown AI; AI Breakfast; FutureTools)
 - data/summaries/2025-11-27.json (Claude 4.5 follow-up coverage)
 - data/summaries/2025-11-30.json (Anthropic Opus 4.5 broad-rollout framing)
+- data/summaries/2025-12-06.json (Mindstream — Claude got the keys to the data vault [Opus 4.5 soul leak]; Forward Future)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-12-04
+> **Last updated**: 2025-12-17 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
 > **Related**: [[meta]], [[google]], [[gemini]], [[ai-hardware]], [[apple-m5]]
 
@@ -18,6 +18,7 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2025-12-17**: 2026 Apple lineup leaks — early product roadmap details surface — *source: TLDR "Apple lineup leaks, PayPal bank, Cloudflare year in review"*
 - **2025-12-04**: Amar Subramanya confirmed as new VP of AI; John Giannandrea steps down — *source: 2025-12-04 cycle*
 - **2025-12-03**: Apple appoints Amar Subramanya as AI chief; John Giannandrea to retire spring 2026 — *source: 2025-12-03 cycle*
 - **2025-11-28**: iPhone 17 sees double-digit YoY sales growth in US and China; Apple positioned to overtake Samsung as world's top phone maker — *source: 2025-11-28 cycle*
@@ -75,3 +76,4 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 - data/summaries/2025-11-28.json (Apple iPhone 17 growth, top-phone-maker position)
 - data/summaries/2025-12-03.json (Apple AI chief — Subramanya replaces Giannandrea)
 - data/summaries/2025-12-04.json (Subramanya confirmed; Giannandrea steps down)
+- data/summaries/2025-12-17.json (TLDR — Apple lineup leaks)

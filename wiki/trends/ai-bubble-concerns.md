@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-10
-> **Last updated**: 2025-11-30
+> **Last updated**: 2025-12-17 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
 > **Related**: [[ai-funding-rounds]], [[openai]], [[anthropic]], [[nvidia]], [[google]]
 
@@ -18,6 +18,10 @@ In October 2025 multiple institutional voices — the Bank of England, the IMF, 
 
 ## Timeline
 
+- **2025-12-17**: "AI: bubble or not?" framing in TLDR AI cycle alongside [[nemotron-3]] coverage; "$3B collapse" headline with NVIDIA agentic announcements — *source: TLDR AI "Nvidia Nemotron 3 / Claude agentic tasks"; Forward Future "NVIDIA Agentic Bet & A $3B Collapse"*
+- **2025-12-16**: "Design is search" framing as design tools shift to AI; signal-pulse covers economy-wide consolidation — *source: TLDR "SpaceX IPO banks / design is search"; SignalPulse*
+- **2025-12-12**: "Why AGI won't happen" coverage; ongoing skepticism narrative — *source: TLDR "Musk Bezos space race / why AGI won't happen"*
+- **2025-12-06**: $115B burn-rate / $1.4T compute-spend through 2030 [[openai]] framing surfaces alongside Anthropic IPO talk — *source: SignalPulse; AI Breakfast cycle*
 - **2025-11-30**: China warns of a "humanoid robot bubble" — excessive investment despite few proven use cases; over 150 companies in the space — *source: 2025-11-30 cycle*
 - **2025-11-29**: Michael Burry places $1.1B short positions vs [[nvidia]] + Palantir over alleged AI bubble and depreciation practices; China economic-planning agency robotics-bubble warning includes 10–20% AI human-extinction probability framing — *source: 2025-11-29 cycle*
 - **2025-11-20**: Sundar Pichai (Google CEO) warns the trillion-dollar AI investment boom has "elements of irrationality" and could lead to a bubble burst; cautions users not to fully rely on AI given ~45% news-misrepresentation rate across major chatbots — *source: TLDR "Gemini 3"; Mindstream "Alphabet CEO has an AI warning"*
@@ -62,3 +66,7 @@ In October 2025 multiple institutional voices — the Bank of England, the IMF, 
 - data/summaries/2025-11-20.json (TLDR — Gemini 3 [Pichai irrationality warning]; Mindstream — Alphabet CEO has an AI warning)
 - data/summaries/2025-11-29.json (Michael Burry $1.1B shorts; China robotics-bubble warning)
 - data/summaries/2025-11-30.json (China humanoid-robot-bubble warning)
+- data/summaries/2025-12-06.json (SignalPulse; AI Breakfast cycle — $115B burn-rate / $1.4T compute)
+- data/summaries/2025-12-12.json (TLDR — why AGI won't happen)
+- data/summaries/2025-12-16.json (TLDR — design is search; SignalPulse)
+- data/summaries/2025-12-17.json (TLDR AI — Nvidia Nemotron 3 [bubble framing]; Forward Future — $3B collapse)

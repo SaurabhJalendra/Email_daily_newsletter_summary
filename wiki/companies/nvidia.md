@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[nvidia-cosmos]], [[xai]], [[openai]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-bubble-concerns]]
+> **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[xai]], [[openai]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-bubble-concerns]]
 
 ## Summary
 
@@ -22,6 +22,8 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2025-12-17**: [[nemotron-3]] open-source models drop — Nano (30B total / 3B active MoE), 4× faster throughput for multi-agent AI, Super and Ultra promised in 2026; framed as NVIDIA's "agentic" play; "$3B collapse" headlines surface alongside the launch — *source: TLDR AI "Nvidia Nemotron 3 / Claude agentic tasks"; AlphaSignal "NVIDIA Nemotron 3: 4x faster"; The Rundown AI "Nvidia's powerful open AI model play"; Forward Future "NVIDIA's Agentic Bet & A $3B Collapse"; AI Breakfast "NVIDIA Drops NEMOTRON 3"; TLDR "Nvidia drops open-source AI models"*
+- **2025-12-06**: AWS factories + Trainium narrative reframed as direct NVIDIA challenge; "AWS Factories + Trainium vs NVIDIA" coverage — *source: TAAFT "AWS Factories + Trainium vs NVIDIA"*
 - **2025-12-04**: NVIDIA unveils Alpamayo-R1 — human-like perception/reasoning for autonomous vehicles; part of open-source "digital and physical AI" stack — *source: 2025-12-04 cycle*
 - **2025-12-03**: Open-source DRIVE Alpamayo-R1 released as part of digital/physical AI stack — *source: 2025-12-03 cycle*
 - **2025-11-29**: NVIDIA ToolOrchestra research; Michael Burry $1.1B short positions vs NVIDIA + Palantir over alleged AI bubble and depreciation practices; China economic-planning-agency robotics-bubble warning — *source: 2025-11-29 cycle*
@@ -79,4 +81,6 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - data/summaries/2025-11-29.json (NVIDIA ToolOrchestra; Burry shorts; China robotics-bubble warning)
 - data/summaries/2025-12-03.json (NVIDIA DRIVE Alpamayo-R1)
 - data/summaries/2025-12-04.json (Alpamayo-R1 autonomous-vehicle perception/reasoning)
+- data/summaries/2025-12-06.json (TAAFT — AWS Factories + Trainium vs NVIDIA)
+- data/summaries/2025-12-17.json (TLDR AI — Nvidia Nemotron 3; AlphaSignal — Nemotron 3: 4x faster; The Rundown AI — Nvidia's powerful open AI model; Forward Future — NVIDIA's Agentic Bet; AI Breakfast — NVIDIA Drops NEMOTRON 3; TLDR — Nvidia drops open-source AI models)
 - data/summaries/2026-04-16.json (NVIDIA Newsletter — From SDG to physical AI; NVIDIA Developer News — GTC Taipei / DeepStream; The Tech Buzz — TSMC Earnings, Nvidia Quantum Chips; InstaByte — Snap cuts 1,000 jobs [Meta CoreWeave / Vera Rubin])

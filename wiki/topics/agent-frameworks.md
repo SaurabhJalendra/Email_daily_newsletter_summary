@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]]
+> **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]]
 
 ## Summary
 
@@ -24,6 +24,14 @@ type: topic
 - **2026-04-16**: Cloudflare launches Agent Memory — managed service that extracts facts / events / instructions from agent conversations and retrieves on demand (part of Cloudflare Agents Week) — *source: TAAFT "Claude Just Became a Designer"; TLDR "Opus 4.7, Cloudflare Agents Week"*
 - **2026-04-16**: Ollama 0.21 ships with Hermes Agent (Nous Research) integration for local self-improving agents — *source: Ollama Newsletter*
 - **2026-04-16**: [[claude-design]] ships as design-stage agent with hand-off to [[claude-code]] — *source: TAAFT; World of AI*
+- **2025-12-19**: Grok Voice Agent API released by [[xai]] — voice-first agent endpoint — *source: AlphaSignal "Gemini 3 Flash / TPU PyTorch / Grok Voice Agent API"*
+- **2025-12-18**: [[anthropic]] testing Agentic Tasks Mode for Claude — reframes assistant as a system for getting work done — *source: AI Breakfast "OpenAI's Triple Strike"; TLDR AI*
+- **2025-12-17**: [[nemotron-3]] launched — NVIDIA's open-source agentic models (30B/3B active MoE) with 4× throughput for multi-agent AI — *source: AlphaSignal "Nemotron 3"; TLDR AI*
+- **2025-12-16**: [[openai]] adopts Skills — accessible by prompting "Create a zip file of /home/oai/skills" in ChatGPT and Codex CLI; Tinker GA from [[thinking-machines]] — *source: TLDR AI "OpenAI adopts Skills / Tinker GA / reverse engineering Claude"*
+- **2025-12-13**: Gemini Deep Research agent now in Gemini API via new Interactions API — *source: Google AI Studio*
+- **2025-12-12**: [[cursor]] Debug Mode added; [[claude-code]] async subagents and faster compaction — *source: TLDR AI "DeepMind's automated lab / Cursor Debug Mode"; AlphaSignal*
+- **2025-12-11**: Linux Foundation co-founds [[agentic-ai-foundation]] with [[openai]] + [[anthropic]] + Block; [[anthropic]] donates [[model-context-protocol]] (MCP); SGTM published for selective knowledge removal — *source: TAAFT "First AGI Achieved"; TLDR AI "OpenAI Image-2"; AlphaSignal*
+- **2025-12-10**: [[claude-code]] launches inside Slack; LlamaIndex Newsletter ships agentic-RAG patterns — *source: The Rundown AI "Inside OpenAI's massive AI enterprise report"; LlamaIndex Newsletter 2025-12-09*
 - **2025-11-22**: xAI Grok 4.1 Fast API + Agent Tools API — autonomous web/X search, document retrieval, Python execution, MCP-server integration, parallel tool execution — *source: AI Breakfast*
 - **2025-11-21**: [[gpt-5-1-codex-max]] released — compaction across context windows enables 24+ hour development sessions; 77.9% SWE-bench Verified, 30% fewer thinking tokens; default in Codex CLI / IDE — *source: TLDR AI; The Rundown AI; AI Breakfast*
 - **2025-11-21**: Sentry's Seer AI code reviewer — uses production-error data and commit history to predict regressions; auto-generates unit tests for PRs — *source: TLDR AI*
@@ -87,4 +95,12 @@ type: topic
 - data/summaries/2025-11-20.json (TLDR AI — Antigravity; The Rundown AI; TAAFT — Gemini 3 Is Officially Here; FutureTools — Manus extension)
 - data/summaries/2025-11-21.json (TLDR AI — GPT-5.1-Codex-Max / Sentry Seer / Grok 4.1 Agent Tools API; The Rundown AI — Codex-Max codes for 24 hours)
 - data/summaries/2025-11-22.json (AI Breakfast — Nano Banana Pro Sets New Standard [Grok 4.1 Fast API / Agent Tools API])
+- data/summaries/2025-12-10.json (The Rundown AI — Inside OpenAI's massive AI enterprise report [Claude Code in Slack]; LlamaIndex Newsletter 2025-12-09)
+- data/summaries/2025-12-11.json (TAAFT — First AGI Achieved [Agentic AI Foundation]; TLDR AI — OpenAI Image-2 / Devstral2; AlphaSignal — SGTM)
+- data/summaries/2025-12-12.json (TLDR AI — DeepMind's automated lab / Cursor Debug Mode; AlphaSignal — Microsoft 37.5M Copilot [Claude Code async])
+- data/summaries/2025-12-13.json (Google AI Studio — Gemini Deep Research agent in API)
+- data/summaries/2025-12-16.json (TLDR AI — OpenAI adopts Skills / Tinker GA / reverse engineering Claude)
+- data/summaries/2025-12-17.json (AlphaSignal — Nemotron 3; TLDR AI — Nvidia Nemotron 3 / Claude agentic tasks)
+- data/summaries/2025-12-18.json (AI Breakfast — OpenAI's Triple Strike [Claude Agentic Tasks Mode]; TLDR AI)
+- data/summaries/2025-12-19.json (AlphaSignal — Grok Voice Agent API)
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; The Rundown AI — OpenAI's superapp hiding inside Codex; TLDR AI — OpenAI Agents SDK; TAAFT — Claude Just Became a Designer [Cloudflare Agent Memory]; TLDR — Opus 4.7, Cloudflare Agents Week; World of AI — ANTHROPIC DROPS Claude Design!; Ollama Newsletter — 0.21 with Hermes Agent)

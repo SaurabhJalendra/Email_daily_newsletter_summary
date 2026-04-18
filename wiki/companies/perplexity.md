@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-03
-> **Last updated**: 2025-11-29
+> **Last updated**: 2025-12-09 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
 > **Related**: [[perplexity-comet]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[amazon]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,7 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 
 ## Timeline
 
+- **2025-12-09**: The New York Times sues Perplexity over content scraping/use ("The Times vs Perplexity") — adds to publisher-litigation pipeline — *source: TLDR cycle "The Times vs Perplexity"*
 - **2025-11-29**: Perplexity Shopping launches with virtual try-on and enhanced memory — research and buy directly in-app — *source: 2025-11-29 cycle*
 - **2025-11-28**: Personalization features added — assistant retains preferences/interests/context across conversations — *source: 2025-11-28 cycle*
 - **2025-11-23**: Perplexity AI Browser launches with free shopping agent and voice-driven browsing — positioned vs [[chatgpt-atlas]] — *source: 2025-11-23 cycle*
@@ -53,3 +54,4 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 - data/summaries/2025-11-23.json (Perplexity AI Browser launch — voice + shopping agent)
 - data/summaries/2025-11-28.json (Perplexity personalization features)
 - data/summaries/2025-11-29.json (Perplexity Shopping with virtual try-on)
+- data/summaries/2025-12-09.json (TLDR cycle — The Times vs Perplexity)

@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-16
-> **Last updated**: 2025-12-02
+> **Last updated**: 2025-12-16 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[qwen-3-vl]], [[openai]], [[deepseek]], [[ai-hardware]]
+> **Related**: [[qwen-3-vl]], [[openai]], [[meta]], [[deepseek]], [[ai-hardware]]
 
 ## Summary
 
@@ -18,6 +18,8 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 
 ## Timeline
 
+- **2025-12-17**: "China's ChatGPT" coverage cycles spotlight Alibaba/Qwen continued momentum — *source: TAAFT cycle*
+- **2025-12-16**: [[meta]] reportedly trains AI on Alibaba's Qwen — first major US-lab usage of Qwen weights for training framed as a milestone — *source: AI Breakfast "Meta Trains AI on China's Qwen"*
 - **2025-12-02**: Chinese open-AI economy share rises to 14.2% (DeepSeek + Alibaba/Qwen leading); true open-source share of overall AI models drops from 79.3% (2022) to 39% (2025) — *source: 2025-12-02 cycle*
 - **2025-11-29**: Qwen sigmoid-gated SDPA research — improves transformer scaling and stability with consistent performance gains and reduced activation spikes — *source: 2025-11-29 cycle*
 - **2025-11-29**: Quark S1 Smart Specs launched — Meta-Ray-Ban-Display-class features at lower price point — *source: 2025-11-29 cycle*
@@ -54,3 +56,5 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 - data/summaries/2025-11-27.json (Qwen app 10M downloads first week)
 - data/summaries/2025-11-29.json (Qwen sigmoid-gated SDPA; Quark S1 Smart Specs)
 - data/summaries/2025-12-02.json (China 14.2% open-AI economy)
+- data/summaries/2025-12-16.json (AI Breakfast — Meta Trains AI on China's Qwen)
+- data/summaries/2025-12-17.json (TAAFT cycle — China's ChatGPT)

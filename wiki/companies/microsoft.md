@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2025-11-20
+> **Last updated**: 2025-12-12 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]], [[github-agent-hq]], [[ai-funding-rounds]]
 
@@ -18,6 +18,8 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 
 ## Timeline
 
+- **2025-12-12**: Microsoft reveals 37.5M Copilot-use shifts by hour, day, month — usage-pattern data from enterprise telemetry — *source: AlphaSignal "Microsoft 37.5M Copilot"*
+- **2025-12-11**: Microsoft launches cancer-mapping AI for diagnostics research — *source: The Rundown AI "Microsoft's cancer-mapping AI"*
 - **2025-11-20**: Microsoft commits up to $5B to [[anthropic]] (alongside [[nvidia]]'s $10B) — Anthropic commits $30B Azure compute purchase; Claude Sonnet 4.5 / Haiku 4.5 / Opus 4.1 enter public preview in Microsoft Foundry and M365 Copilot; Azure ND GB300 v6 VMs hit 1.1M tokens/sec setting MLPerf Inference record — *source: TLDR AI "Anthropic $350B val"; TAAFT "Tech Titans Partnership"; The Rundown AI*
 - **2025-11-20**: Nadella op-ed/note on the gap between plugging documents into LLMs and building true organizational memory — *source: TAAFT "Gemini 3 Is Officially Here"*
 - **2025-11-18**: Plans to assess employees based on AI-driven impact starting next year — *source: TAAFT "Microsoft Ties Employee Performance to AI Impact"*
@@ -61,3 +63,5 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 - data/summaries/2025-11-16.json (TAAFT — Samsung Vision AI Companion)
 - data/summaries/2025-11-18.json (TAAFT — employee performance tied to AI impact)
 - data/summaries/2025-11-20.json (TLDR AI — Anthropic $350B val; TAAFT — Tech Titans Partnership; The Rundown AI — $15B deal; ND GB300 v6 MLPerf record)
+- data/summaries/2025-12-11.json (The Rundown AI — Microsoft's cancer-mapping AI)
+- data/summaries/2025-12-12.json (AlphaSignal — Microsoft 37.5M Copilot use shifts)

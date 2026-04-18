@@ -17,6 +17,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[character-ai]] — companion chatbot; ban on minors effective Nov 25 2025; ships Stories interactive fiction
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale
+- [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025
 - [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace, in-platform LLM hosting
 - [[extropic]] — TSU thermodynamic-sampling chip; ~10,000× energy-efficiency claim
 - [[figure]] — humanoid robots; Figure 03; sued by former product-safety head Nov 2025
@@ -69,12 +70,15 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-2-5-computer-use]] — Gemini variant for UI control *(stale)*
 - [[gemini-3]] — Google's next-generation model; 1M token context, Deep Think mode
 - [[gemini-3-1-flash-tts]] — Google's low-latency TTS (70+ languages, multi-speaker)
+- [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
 - [[github-agent-hq]] — GitHub's multi-agent control plane
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
 - [[gpt-5-1]] — OpenAI's mid-Nov 2025 ChatGPT upgrade; Instant/Thinking modes, 8 personalities
 - [[gpt-5-1-codex-max]] — OpenAI's coding model; 24+ hour sessions via compaction; 77.9% SWE-bench Verified
+- [[gpt-5-2]] — OpenAI's Dec 2025 ChatGPT upgrade; three-tier (Instant/Thinking/Pro), 400K context, 38% fewer errors
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding
+- [[gpt-image-1-5]] — OpenAI's Dec 2025 image-gen upgrade; 4× faster, sharper detail, Likeness Retention
 - [[grok-4-1]] — xAI's mid-Nov 2025 Grok upgrade; personality overhaul, EQ lead, top of LMArena
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours
@@ -88,6 +92,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot
 - [[nano-banana-pro]] — Google's Gemini 3 Pro Image; 4K, 14-input, 5-character consistency, SynthID+C2PA
 - [[nanochat]] — Karpathy's end-to-end ChatGPT clone repo *(stale)*
+- [[nemotron-3]] — NVIDIA's open-source agentic model line; Nano (30B/3B active MoE), 4× throughput claim
 - [[nvidia-cosmos]] — NVIDIA's physical-AI foundation models (Cosmos 2.5 GA, 3 inbound)
 - [[openai-codex]] — OpenAI's Codex-as-superapp (ChatGPT + Atlas + Codex)
 - [[opera-neon]] — Opera's AI browser *(stale)*
@@ -101,12 +106,14 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 
 ## Topics
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
+- [[agentic-ai-foundation]] — Linux Foundation project for open agentic-AI standards; OpenAI/Anthropic/Block + MCP
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser
 - [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
 - [[computer-use]] — models that drive GUIs directly *(stale)*
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
+- [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures
 - [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos
 

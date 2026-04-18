@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-11-24
+> **Last updated**: 2025-12-16 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
 > **Related**: [[gemini]], [[google]], [[chatgpt-atlas]], [[ai-browsers]], [[aardvark]], [[openai]], [[perplexity]]
 
@@ -18,6 +18,11 @@ Prompt injection is a security category where adversarial content embedded in mo
 
 ## Timeline
 
+- **2025-12-18**: AI Breakfast reports "8M+ AI Chats Secretly Harvested" — large-scale chat-data exfiltration coverage — *source: AI Breakfast "8M+ AI Chats Secretly Harvested"; TAAFT*
+- **2025-12-16**: Reverse-engineering of [[anthropic]]'s Claude memory system published — uses on-demand tools and selective retrieval; raises red-team-style transparency questions — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal*
+- **2025-12-12**: [[openai]] self-rates GPT-5 "high" cybersecurity threat under preparedness framework — zero-day discovery, enterprise intrusion potential — *source: TAAFT "GPT-5 Gets a Danger Label"*
+- **2025-12-11**: SGTM (selective unlearning) method published — surgically removes specific knowledge from models; "truth serum" research framing — *source: AlphaSignal "OpenAI 320× surge / SGTM"*
+- **2025-12-06**: 20M [[chatgpt]] cloud chats turned over to court via subpoena — illustrates that "private" chats are discoverable; "Confessions" diagnostic technique introduced for catching reward hacking — *source: TAAFT "20M ChatGPT Chats Exposed"; AI Breakfast*
 - **2025-11-24**: Anthropic discloses Chinese state-backed group used Claude AI to automate cyberattacks — first widely-reported nation-state automated cyberattack via a frontier model — *source: 2025-11-24 cycle*
 - **2025-10-31**: [[aardvark]] launches as GPT-5 code-security agent — vulnerability discovery and patch suggestions overlap with prompt-injection-class issues — *source: AlphaSignal; TLDR AI*
 - **2025-10-31**: "AI's Brain Got Hacked (It Knew)" — TAAFT cycle on prompt-injection awareness — *source: TAAFT*
@@ -45,3 +50,8 @@ Prompt injection is a security category where adversarial content embedded in mo
 - data/summaries/2025-10-27.json (TLDR AI — mitigating prompt injections)
 - data/summaries/2025-10-31.json (AlphaSignal — OpenAI launches Aardvark; TLDR AI — OpenAI security agent; TAAFT — AI's Brain Got Hacked)
 - data/summaries/2025-11-24.json (Anthropic — Chinese state-backed Claude cyber abuse)
+- data/summaries/2025-12-06.json (TAAFT — 20M ChatGPT Chats Exposed; AI Breakfast — Confessions technique)
+- data/summaries/2025-12-11.json (AlphaSignal — OpenAI 320× surge / SGTM unlearning)
+- data/summaries/2025-12-12.json (TAAFT — GPT-5 Gets a Danger Label)
+- data/summaries/2025-12-16.json (TLDR AI — OpenAI adopts Skills [Claude memory reverse-engineering]; AlphaSignal)
+- data/summaries/2025-12-18.json (AI Breakfast — 8M+ AI Chats Secretly Harvested; TAAFT)

@@ -4,6 +4,233 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2025-12-19
+**Ingested**: data/summaries/2025-12-19.json (17 newsletters)
+
+**Pages updated**:
+- [[google]] — [[gemini-3-flash]] launches (3× faster than Gemini 2.5 Pro at frontier-level); Meta + Google TPU PyTorch initiative
+- [[openai]] — ChatGPT Apps Store opens; preliminary $750B valuation funding talks
+- [[amazon]] — reportedly considering $10B+ investment in OpenAI at $500B+ val (Trainium usage)
+- [[xai]] — Grok Voice Agent API released
+- [[meta]] — joins Google on TPU PyTorch initiative
+- [[gemini-3]] — Flash sibling launches alongside Gemini 3 Pro
+- [[gpt-5-2]] — Free/Go default cemented after router removal
+- [[ai-funding-rounds]] — OpenAI $750B + Amazon $10B+ exposure
+- [[gpt-image-1-5]] — coverage continues
+- [[agent-frameworks]] — Grok Voice Agent API
+
+**Pages created**: [[gemini-3-flash]]
+
+**Notable**: Gemini 3 Flash drops six days after [[gpt-5-2]] — Google sustains the Dec back-and-forth and effectively makes frontier-tier intelligence the new default tier in both ChatGPT and the Gemini app within the same week. OpenAI's $750B figure (with Amazon-via-Trainium as a possible new mega-investor) puts the lab firmly on a $1T-private-valuation glide path while diversifying compute exposure away from Microsoft Azure.
+
+## 2025-12-18
+**Ingested**: data/summaries/2025-12-18.json (15 newsletters)
+
+**Pages updated**:
+- [[openai]] — [[gpt-image-1-5]] released (4× faster, sharper, Likeness Retention); ChatGPT removes GPT-5 model router for Free/Go (defaults to GPT-5.2 Instant); "Triple Strike" framing
+- [[google]] — Gmail launches CC (Gemini-powered productivity assistant); DeepMind CEO predicts AGI within 10 years; Gemini desktop adds interactive Gem mini-apps
+- [[anthropic]] — testing Agentic Tasks Mode for Claude
+- [[meta]] — SAM Audio shipped
+- [[gpt-5-2]] — router retirement / default cementing
+- [[agent-frameworks]] — Claude Agentic Tasks Mode
+- [[prompt-injection]] — "8M+ AI Chats Secretly Harvested" coverage
+
+**Pages created**: [[gpt-image-1-5]]
+
+**Notable**: OpenAI quietly killing the GPT-5 router and defaulting Free/Go to GPT-5.2 Instant is the cleanest signal yet that the GPT-5 series is being collapsed into 5.2 as the new floor. The "Triple Strike" framing (5.2 + Image-1.5 + Apps Store) is OpenAI's deliberate counter-cycle to Gemini 3's Nov launch wave.
+
+## 2025-12-17
+**Ingested**: data/summaries/2025-12-17.json (17 newsletters)
+
+**Pages updated**:
+- [[nvidia]] — [[nemotron-3]] open-source models drop (Nano 30B/3B active MoE; 4× throughput claim; Super/Ultra in 2026); "agentic bet" framing; "$3B collapse" headline alongside
+- [[google]] — Gemini Deep Research adds visual reports for AI Ultra; Code Wiki auto-update repository documentation system
+- [[apple]] — 2026 lineup leaks
+- [[alibaba]] — "China's ChatGPT" coverage continues
+- [[ai-bubble-concerns]] — "AI: bubble or not?" + $3B collapse framing
+- [[agent-frameworks]] — Nemotron 3 as agentic-tier model release
+
+**Pages created**: [[nemotron-3]]
+
+**Notable**: Nemotron 3 is NVIDIA's most direct "we are now also a model lab" move — open weights, agentic positioning, and a 4× throughput claim aimed at the multi-agent serving stack. Pairing the launch with the "$3B collapse" headline shows the market reading the same week as both bullish (model breadth) and bearish (capex risk).
+
+## 2025-12-16
+**Ingested**: data/summaries/2025-12-16.json (15 newsletters)
+
+**Pages updated**:
+- [[google]] — real-time translation through any headphones (Gemini-powered, 70+ languages); DeepMind opens automated science lab in UK; Maps in Gemini responses; Mixboard + Doppl revamps powered by [[gemini-3]]; Code Wiki rolled out
+- [[openai]] — adopts Skills (`/home/oai/skills` zip pattern) in ChatGPT and Codex CLI; sparse circuit models open-sourced; ChatGPT halts ads after backlash; Disney 1-year exclusivity confirmed; $115B burn / $1.4T compute through 2030 framing
+- [[anthropic]] — reverse-engineering of Claude memory system; FrontierScience announced
+- [[meta]] — "trains AI on China's Qwen" coverage
+- [[alibaba]] — Meta-uses-Qwen narrative
+- [[gemini-3]] — powers Mixboard + Doppl
+- [[ai-copyright]] — Disney exclusivity confirmed
+- [[ai-bubble-concerns]] — "design is search" reframing
+- [[agent-frameworks]] — OpenAI adopts Skills, Tinker GA
+- [[prompt-injection]] — Claude memory reverse-engineering
+- [[model-context-protocol]] — TAAFT MCP guide
+
+**Pages created**: (none)
+
+**Notable**: OpenAI adopting an Anthropic-style "Skills" pattern (down to the `/home/oai/skills` zip prompt) is the period's clearest convergence event between the two labs' agent abstractions. Meta training on Qwen is the first major US-lab usage of Chinese open weights at training scale.
+
+## 2025-12-15
+**Ingested**: data/summaries/2025-12-15.json (5 newsletters)
+
+**Pages updated**: (none — newsletters were primarily product-roundup, weekly digest, off-topic medical/lifestyle pieces)
+
+**Pages created**: (none)
+
+**Notable**: Light, off-cycle day — no AI/dev signal worth a wiki update. Logged for completeness.
+
+## 2025-12-14
+**Ingested**: data/summaries/2025-12-14.json (2 newsletters)
+
+**Pages updated**:
+- [[gpt-5-2]] — Matt from FutureTools "OpenAI Just Dropped GPT 5.2" coverage rolled into Dec 13 launch entry
+
+**Pages created**: (none)
+
+**Notable**: Tail-end coverage of the Dec 13 GPT-5.2 launch — no new product or company signal.
+
+## 2025-12-13
+**Ingested**: data/summaries/2025-12-13.json (17 newsletters)
+
+**Pages updated**:
+- [[openai]] — [[gpt-5-2]] launches (Instant/Thinking/Pro tiers, 400K context, 38% fewer errors); $1B [[disney]] partnership for Sora + ChatGPT Image with 200+ characters; ChatGPT becomes most-downloaded iPhone app of 2025
+- [[google]] — Gemini Deep Research agent in API via new Interactions API; Disney sues Google over AI IP usage; Disco AI browser launched in Google Labs (GenTabs powered by Gemini 3)
+- [[anthropic]] — [[broadcom]] mystery $10B customer revealed as Anthropic; "Anthropic vision advantage" framing
+- [[gemini-3]] — powers Disco AI browser GenTabs
+- [[ai-browsers]] — Disco AI browser launch
+- [[ai-copyright]] — Disney sues Google + chooses OpenAI
+- [[ai-funding-rounds]] — Disney $1B; Broadcom-Anthropic $10B
+- [[agent-frameworks]] — Gemini Deep Research API
+
+**Pages created**: [[gpt-5-2]], [[disney]]
+
+**Notable**: GPT-5.2 + Disney $1B + Broadcom-Anthropic $10B + Gemini Deep Research API + Disco browser landed on the same day — this is the densest AI news cycle in the entire backfill window. Disney simultaneously licensing OpenAI and suing Google is the first major rights-holder picking platform winners rather than blanket-banning generation.
+
+## 2025-12-12
+**Ingested**: data/summaries/2025-12-12.json (16 newsletters)
+
+**Pages updated**:
+- [[openai]] — GPT-5 self-rated "high" cybersecurity threat under preparedness framework; Slack CEO Denise Dresser hired as CRO
+- [[google]] — partners on Agentic AI Foundation framing; Gemini 2.5 TTS update; FACTS benchmark released; "AI winner" Wall Street framing
+- [[anthropic]] — Claude Code CLI updated (async subagents, faster compaction); Claude Code in Slack
+- [[microsoft]] — reveals 37.5M Copilot-use shifts by hour/day/month
+- [[amazon]] — launches new Coding Agent
+- [[cursor]] — adds Debug Mode
+- [[claude-code]] — async subagents + faster compaction
+- [[ai-bubble-concerns]] — "why AGI won't happen" framing
+- [[agent-frameworks]] — Cursor Debug Mode + Claude Code async
+- [[prompt-injection]] — GPT-5 cybersecurity threat self-rating
+
+**Pages created**: (none — Agentic AI Foundation page created on Dec 11)
+
+**Notable**: OpenAI publicly self-rating GPT-5 "high" cybersecurity threat is a notable preparedness-framework disclosure — first time a frontier lab has flagged its current production model at that level. Microsoft's 37.5M Copilot usage-shift dataset is the largest in-the-wild enterprise-AI telemetry release of the period.
+
+## 2025-12-11
+**Ingested**: data/summaries/2025-12-11.json (17 newsletters)
+
+**Pages updated**:
+- [[openai]] — co-founds Agentic AI Foundation with Anthropic + Block; Image-2 next-gen image models on eval boards; "truth serum" research; 320× enterprise reasoning surge
+- [[anthropic]] — donates [[model-context-protocol]] to Foundation; SGTM selective-knowledge-removal method
+- [[microsoft]] — launches cancer-mapping AI for diagnostics research
+- [[meta]] — internal AI confusion coverage; "next device" timeline pushed back
+- [[mistral]] — Devstral 2 surfaces
+- [[agent-frameworks]] — Foundation + MCP donation + SGTM
+- [[prompt-injection]] — SGTM unlearning research
+
+**Pages created**: [[agentic-ai-foundation]], [[model-context-protocol]]
+
+**Notable**: Linux Foundation hosting Agentic AI Foundation with OpenAI + Anthropic + Block as founders, plus Anthropic donating MCP, is the clearest cross-lab governance event of the year — the agent stack is now formally being standardized in a neutral body, not just via individual lab SDKs.
+
+## 2025-12-10
+**Ingested**: data/summaries/2025-12-10.json (12 newsletters)
+
+**Pages updated**:
+- [[openai]] — [[adobe]] (Photoshop/Express/Acrobat) integrated into ChatGPT for in-chat editing; Sam Altman pauses side projects 8 weeks for ChatGPT focus; ChatGPT message volume +8× since Nov 2024; ChatGPT + Instacart in-app shopping; first enterprise report — 75% productivity gain
+- [[anthropic]] — [[claude-code]] launches inside Slack
+- [[adobe]] — integrated into ChatGPT
+- [[google]] — 2026 AI-glasses launch with Samsung/Warby Parker/Gentle Monster; deepens Replit enterprise partnership
+- [[claude-code]] — Slack integration
+- [[ai-browsers]] — "Slop Evader" browser launches
+- [[nano-banana-pro]] — Lovart adds Touch Edit on top
+- [[agent-frameworks]] — Claude Code in Slack; LlamaIndex agentic-RAG patterns
+
+**Pages created**: (none)
+
+**Notable**: ChatGPT+Adobe and ChatGPT+Instacart both ship in-chat in the same cycle — "ChatGPT as the office default" framing crystallizes here. Claude Code in Slack closes a major distribution gap for Anthropic in enterprise dev workflows.
+
+## 2025-12-09
+**Ingested**: data/summaries/2025-12-09.json (18 newsletters)
+
+**Pages updated**:
+- [[openai]] — GPT-5.2 release imminent (prediction markets target Dec 9–11); enterprise reasoning workloads up 320×
+- [[meta]] — acquires Limitless (wearable AI startup); Limitless deal coverage
+- [[perplexity]] — New York Times sues Perplexity over content scraping
+- [[gpt-5-2]] — pre-launch coverage
+- [[nano-banana-pro]] — "Gemini Nano Banana 2 Flash" mention
+- [[ai-copyright]] — NYT sues Perplexity
+
+**Pages created**: (none)
+
+**Notable**: Enterprise reasoning workloads up 320× is the largest production-usage growth datapoint of the cycle and pre-stages the GPT-5.2 launch as a consumption-supply move, not just a capability move.
+
+## 2025-12-08
+**Ingested**: data/summaries/2025-12-08.json (6 newsletters)
+
+**Pages updated**:
+- [[xai]] — "Grok Saves a Life" viral medical-emergency case study
+- [[google]] — Google Research unveils Titans + MIRAS (real-time long-term memory updates without retraining)
+
+**Pages created**: (none)
+
+**Notable**: Titans + MIRAS is one of the more consequential research drops for the period — real-time memory updates without retraining moves directly toward the persistent-agent thesis without requiring the heavyweight RAG stacks most enterprise systems currently use.
+
+## 2025-12-07
+**Ingested**: data/summaries/2025-12-07.json (6 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Bun acquisition coverage continues; "ReactJs Mysterious Bug" content
+- [[google]] — "Gemini Surges 30%, ChatGPT Stalls" framing rolls into Gemini momentum narrative
+
+**Pages created**: (none)
+
+**Notable**: Quiet weekend day — coverage echoes earlier launches rather than introducing new entities.
+
+## 2025-12-06
+**Ingested**: data/summaries/2025-12-06.json (18 newsletters)
+
+**Pages updated**:
+- [[openai]] — 20M ChatGPT chats turned over to court in copyright lawsuit; "Confessions" reward-hacking diagnostic; AWS Factories vs NVIDIA framing
+- [[anthropic]] — Claude Interviewer launched (1,250 interviews on professional AI use); Opus 4.5 "soul" document leaked; Snowflake $200M multi-year AI partnership; preparing largest IPO ever
+- [[google]] — Workspace Studio launches (AI agents across Gmail/Drive/Chat without coding); Gemini 3 Deep Think available in app; Google + Replit enterprise vibe-coding partnership; Demis Hassabis warns of AI cyberattacks on energy/water systems
+- [[nvidia]] — AWS Factories + Trainium positioning vs NVIDIA
+- [[amazon]] — AWS Factories + Trainium vs NVIDIA framing
+- [[meta]] — "Metaverse reverse" Reality-Labs paring
+- [[claude-opus-4-5]] — "soul" document leak
+- [[gemini-3]] — Deep Think rolls into app
+- [[ai-funding-rounds]] — Snowflake $200M w/ Anthropic; Anthropic IPO talk
+- [[ai-bubble-concerns]] — $115B burn-rate framing
+- [[ai-copyright]] — 20M chats subpoenaed
+- [[prompt-injection]] — 20M chats discoverability + Confessions diagnostic
+
+**Pages created**: (none — Snowflake update lives on Anthropic page; Workspace Studio entry lives on Google page)
+
+**Notable**: 20M ChatGPT chats produced under court order is the period's cleanest signal that "private" cloud chat is legally discoverable — flips the privacy story OpenAI has been telling. Anthropic's Snowflake $200M + Claude Interviewer + IPO prep + Opus 4.5 soul leak in one cycle is the densest single-day Anthropic news of the backfill.
+
+## 2025-12-05
+**Ingested**: data/summaries/2025-12-05.json (4 newsletters)
+
+**Pages updated**:
+- [[google]] — [[gemini-3]] Deep Think reasoning mode released (multiple-path reasoning; gains on math/science/logic/visual puzzles)
+- [[gemini-3]] — Deep Think mode
+
+**Pages created**: (none)
+
+**Notable**: Sets up Dec 6 in-app rollout. Quiet day otherwise — newsletter mix was heavy on learning/marketing content, not product launches.
+
 ## 2025-12-04
 **Ingested**: data/summaries/2025-12-04.json (21 newsletters)
 

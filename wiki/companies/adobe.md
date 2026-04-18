@@ -7,10 +7,10 @@ type: company
 # Adobe
 
 > **Type**: company
-> **First mentioned**: 2026-04-16
-> **Last updated**: 2026-04-16
+> **First mentioned**: 2025-12-04
+> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[claude-design]], [[anthropic]]
+> **Related**: [[claude-design]], [[anthropic]], [[openai]], [[chatgpt]]
 
 ## Summary
 
@@ -19,6 +19,7 @@ Adobe is the creative-software incumbent (Photoshop, Premiere, Illustrator, Ligh
 ## Timeline
 
 - **2026-04-16**: Launches Firefly AI Assistant — a creative agent that runs across Photoshop, Premiere, Lightroom, Illustrator, Express, and Firefly, handling multi-step workflows from a single prompt with cross-session context — *source: TAAFT "Gemini Gets TTS and Mac App"; Mindstream "One prompt, multiple Adobe apps"; AI Breakfast "Claude Opus 4.7 gains native design tools that could challenge Figma"*
+- **2025-12-10**: Adobe (Photoshop, Express, Acrobat) integrated directly into [[chatgpt]] for in-chat editing — partnership announcement — *source: AI Breakfast "Adobe Launches Inside ChatGPT"; The Rundown AI; TLDR*
 
 ## Key Facts
 
@@ -36,3 +37,4 @@ Adobe is the creative-software incumbent (Photoshop, Premiere, Illustrator, Ligh
 ## Sources
 
 - data/summaries/2026-04-16.json (TAAFT — Gemini Gets TTS and Mac App; Mindstream — One prompt, multiple Adobe apps; AI Breakfast — Claude Opus 4.7 gains native design tools that could challenge Figma)
+- data/summaries/2025-12-10.json (AI Breakfast — Adobe Launches Inside ChatGPT; The Rundown AI; TLDR)

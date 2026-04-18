@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2025-11-25..2025-12-02)
+> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[reflection]], [[thinking-machines]], [[ai-bubble-concerns]]
 
@@ -21,6 +21,9 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - **2026-04-16**: [[anthropic]] reportedly in investor talks at $800B+ valuation, approaching OpenAI territory — *source: Superhuman "Gemini gets a Mac app"*
 - **2026-04-16**: Eli Lilly agrees to pay up to $2.75B to Insilico Medicine (AI drug discovery) — *source: The Batch "Meta Pivots From Open Weights, Big Pharma Bets On AI"*
 - **2026-04-16**: Allbirds/NewBird AI announces $50M financing to pivot from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code*
+- **2025-12-19**: [[openai]] in preliminary talks at $750B valuation; [[amazon]] reportedly considering $10B+ investment in [[openai]] at $500B+ valuation (would include Trainium chips usage) — *source: TLDR; The Rundown AI; Superhuman*
+- **2025-12-13**: [[broadcom]]'s mystery $10B AI customer revealed as [[anthropic]] — full server racks to ship; [[disney]] commits to multi-year ChatGPT/Sora deal worth $1B — *source: TLDR AI "Disney + OpenAI / GPT-5.2"; The Rundown AI "Disney chooses OpenAI"*
+- **2025-12-06**: [[snowflake]] $200M multi-year AI partnership with [[anthropic]] integrates Claude into the data platform; [[anthropic]] reportedly preparing for one of the largest IPOs ever — *source: AI Breakfast "Anthropic to Go Public"; Mindstream "Claude got the keys to the data vault"*
 - **2025-12-02**: Databricks reportedly in talks to raise $5B at $134B valuation — *source: 2025-12-02 cycle*
 - **2025-11-28**: [[harmonic]] (AI math/reasoning startup co-founded by Vlad Tenev) raises $120M at $1.45B valuation — *source: 2025-11-28 cycle*
 - **2025-11-25**: Lambda raises $1.5B (eyes IPO; backed by TWG Global); Luma AI raises $900M (multimodal; backed by Saudi Humain); Physical Intelligence raises $600M (AI robotics; backed by Alphabet's CapitalG); Genspark raises $275M (AI workplace agents); Berkshire Hathaway acquires $4.9B stake in Alphabet — *source: 2025-11-25 cycle*
@@ -114,4 +117,7 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - data/summaries/2025-11-25.json (Lambda $1.5B; Luma AI $900M; Physical Intelligence $600M; Genspark $275M; Berkshire-Alphabet $4.9B)
 - data/summaries/2025-11-28.json (Harmonic $120M @ $1.45B)
 - data/summaries/2025-12-02.json (Databricks $5B @ $134B)
+- data/summaries/2025-12-06.json (AI Breakfast — Anthropic to Go Public; Mindstream — Snowflake $200M w/ Anthropic)
+- data/summaries/2025-12-13.json (TLDR AI — Disney + OpenAI / Broadcom-Anthropic; The Rundown AI — Disney chooses OpenAI $1B)
+- data/summaries/2025-12-19.json (TLDR; The Rundown AI; Superhuman — OpenAI $750B / Amazon $10B+)
 - data/summaries/2026-04-16.json (Superhuman — Gemini gets a Mac app [Anthropic $800B]; The Batch — Meta Pivots From Open Weights, Big Pharma Bets On AI; The Rundown AI — Allbirds ditches sneakers; The Code — Shoemaker company pivots to AI)
