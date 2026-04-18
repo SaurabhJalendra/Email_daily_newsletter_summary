@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[nvidia]], [[nvidia-cosmos]], [[vera-rubin]], [[ironwood-tpu]], [[project-suncatcher]], [[amd]], [[broadcom]], [[oracle]], [[meta]], [[apple]], [[apple-m5]], [[xai]], [[openai]], [[amazon]], [[qualcomm]], [[extropic]], [[figure]]
 
@@ -24,6 +24,11 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - **2026-04-16**: [[nvidia-cosmos]] 2.5 GA; Cosmos 3 pre-announced for summer 2026 — *source: NVIDIA Newsletter*
 - **2026-04-16**: [[xai]] Terafab team sources chipmaking gear; xAI repurposes compute for external rental — *source: TLDR; Forward Future*
 - **2026-04-16**: Allbirds rebrands as "NewBird AI" with a $50M financing deal and pivots from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code; "Gemini on your desktop"*
+- **2026-03-06**: [[nvidia]] signals potential pullback from further investment in [[openai]] and [[anthropic]] ahead of possible IPOs — shifting from equity stakes toward selling the chips that power their systems — *source: 2026-03-06 cycle*
+- **2026-03-03**: [[meta]] + AMD partnership detailed — 6 GW / $100B multi-year compute agreement — *source: 2026-03-03 cycle*
+- **2026-02-26**: [[meta]] agrees to buy 6 GW of AI compute from AMD for $100B+ — *source: 2026-02-26 cycle*
+- **2026-02-24**: [[nvidia]] $30B [[openai]] tranche closes — *source: 2026-02-24 cycle*
+- **2026-02-20**: [[meta]] signs multi-billion-dollar [[nvidia]] deal for GPU/CPU deployment across its data centers; [[world-labs]] raises $1B to scale spatial-intelligence compute — *source: 2026-02-20 cycle*
 - **2026-02-17**: Global RAM shortage cited as a binding constraint on hyperscaler AI buildouts — *source: 2026-02-17 cycle*
 - **2026-02-13**: [[meta]] x [[nvidia]] mega-deal — multi-year capacity commitment underwriting Reality Labs / inference fleet — *source: 2026-02-13 cycle*
 - **2026-02-09**: [[gpt-5-3-codex-spark]] runs on [[cerebras]] hardware — 1000+ tokens/sec for coding agents — *source: 2026-02-09 cycle*
@@ -118,3 +123,8 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - data/summaries/2026-01-15.json (Meta "tens to hundreds of GW"; NVIDIA + Lilly $1B)
 - data/summaries/2026-01-17.json (NVIDIA H200 China export block)
 - data/summaries/2026-04-16.json (InstaByte — Snap cuts 1,000 jobs, blames AI [Meta CoreWeave]; The Tech Buzz — TSMC Earnings, Nvidia Quantum Chips; NVIDIA Newsletter — Cosmos; TLDR — Inside Elon's Terafab; Forward Future — Anthropic challenges OpenAI in London [xAI compute]; The Rundown AI — Allbirds ditches sneakers; The Code — Shoemaker company pivots to AI; "Gemini on your desktop")
+- data/summaries/2026-02-20.json (Meta-Nvidia GPU/CPU deal; World Labs $1B)
+- data/summaries/2026-02-24.json (Nvidia $30B OpenAI close)
+- data/summaries/2026-02-26.json (Meta-AMD $100B / 6 GW)
+- data/summaries/2026-03-03.json (Meta-AMD partnership details)
+- data/summaries/2026-03-06.json (Nvidia potential investment pullback)

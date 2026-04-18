@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2026-01-19 (backfill 2026-01-05..2026-01-19)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]], [[github-agent-hq]], [[ai-funding-rounds]]
 
@@ -18,6 +18,8 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 
 ## Timeline
 
+- **2026-03-02**: Microsoft reaffirms [[openai]] exclusivity deal — Azure will remain the exclusive cloud for OpenAI's APIs — *source: 2026-03-02 cycle*
+- **2026-02-22**: Microsoft AI bug leaks private emails — exposed sensitive messages for weeks; number of affected users undisclosed — *source: 2026-02-22 cycle*
 - **2026-01-19**: Microsoft debuts Copilot Checkout — conversational commerce tool enabling brands to build "shopping agents" directly into sites — *source: 2026-01-19 cycle*
 - **2026-01-18**: Copilot Studio extension released for VS Code — build/test/customize AI copilots in-editor — *source: 2026-01-18 cycle*
 - **2026-01-15**: Microsoft pledges to pay for its own data centers — cost not passed to residential customers, addressing community pushback — *source: 2026-01-15 cycle*
@@ -74,3 +76,5 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 - data/summaries/2025-11-20.json (TLDR AI — Anthropic $350B val; TAAFT — Tech Titans Partnership; The Rundown AI — $15B deal; ND GB300 v6 MLPerf record)
 - data/summaries/2025-12-11.json (The Rundown AI — Microsoft's cancer-mapping AI)
 - data/summaries/2025-12-12.json (AlphaSignal — Microsoft 37.5M Copilot use shifts)
+- data/summaries/2026-02-22.json (Microsoft AI private-email leak)
+- data/summaries/2026-03-02.json (Microsoft reaffirms OpenAI Azure exclusivity)

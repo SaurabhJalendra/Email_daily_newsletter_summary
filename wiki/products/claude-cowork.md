@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-01-14
-> **Last updated**: 2026-02-04
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[anthropic]], [[claude-code]], [[claude-opus-4-5]], [[agent-frameworks]], [[enterprise-ai]]
 
@@ -18,6 +18,8 @@ Claude Cowork is [[anthropic]]'s general-purpose AI agent for local-file work, l
 
 ## Timeline
 
+- **2026-02-27**: Scheduled tasks added — enables automated recurring Cowork workflows — *source: 2026-02-27 cycle*
+- **2026-02-26**: Plugins and connectors expanded for enterprise work — broadens Cowork's professional-workflow reach — *source: 2026-02-26 cycle*
 - **2026-02-04**: Plugins launch — turns Cowork into domain expert with pre-built skills for sales, legal, finance, marketing, data analysis, customer support, product management, and biology research; plugins can be installed, edited, and shared; video-clipping / editing skill showcased; NASA's Perseverance rover completes first-ever AI-planned Mars drive using Claude — *source: TAAFT "AI Agents Built Their Own Society"; The Rundown AI "social network where humans just watch"; AI Breakfast "Moltbook"; Mindstream*
 - **2026-01-27**: Cowork framed as part of Anthropic's "Claude CoWork effect" traffic surge narrative — *source: AI Breakfast "Clawdbot"*
 - **2026-01-19**: Continued positioning as enabling "flawless audio transcription and 3D camera control" for automating repetitive knowledge work — *source: 2026-01-19 cycle (TAAFT, Superhuman)*
@@ -45,3 +47,5 @@ Claude Cowork is [[anthropic]]'s general-purpose AI agent for local-file work, l
 - data/summaries/2026-01-17.json (multiple — Cowork positioning)
 - data/summaries/2026-01-18.json (multiple — bundled with Claude for Healthcare)
 - data/summaries/2026-01-19.json (TAAFT; Superhuman — transcription/3D control demos)
+- data/summaries/2026-02-26.json (Cowork plugins + connectors for enterprise)
+- data/summaries/2026-02-27.json (Cowork scheduled tasks)

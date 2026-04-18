@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-11-14
-> **Last updated**: 2025-11-18
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[marble]], [[world-models]], [[meta]]
 
@@ -18,6 +18,7 @@ World Labs is Dr. Fei-Fei Li's AI startup, organized around the thesis that "spa
 
 ## Timeline
 
+- **2026-02-20**: World Labs secures $1B funding to advance spatial intelligence with [[marble]]; validates world-models as venture category — *source: 2026-02-20 cycle*
 - **2025-11-18**: Fei-Fei Li's World Labs positioned as category-defining player alongside LeCun's upcoming lab — *source: TAAFT "AI Superpower Arrives in 2026"; The Rundown AI*
 - **2025-11-15**: Marble builds stable environments from prompts — rapid progress in world-model development — *source: TAAFT cycle*
 - **2025-11-14**: World Labs releases [[marble]] — commercial world model generating persistent 3D environments — *source: The Rundown AI; AlphaSignal*
@@ -42,3 +43,4 @@ World Labs is Dr. Fei-Fei Li's AI startup, organized around the thesis that "spa
 - data/summaries/2025-11-14.json (AlphaSignal / The Rundown AI — Marble launches)
 - data/summaries/2025-11-15.json (TAAFT cycle — Marble)
 - data/summaries/2025-11-18.json (TAAFT — AI Superpower Arrives in 2026)
+- data/summaries/2026-02-20.json (World Labs $1B funding round)

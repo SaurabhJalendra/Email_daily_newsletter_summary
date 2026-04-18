@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[meta]], [[google]], [[gemini]], [[anthropic]], [[claude-code]], [[openai]], [[ai-hardware]], [[apple-m5]]
 
@@ -18,6 +18,11 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2026-03-05**: iPhone 17e launches — budget iPhone with same A19 chip as standard iPhone 17; makes on-device AI features more accessible to broader consumer base — *source: 2026-03-05 cycle*
+- **2026-03-04**: Apple to replace Core ML with new "Core AI" framework at WWDC for iOS 27 — overhaul of on-device ML stack as Apple rebuilds around the Gemini-Siri pivot — *source: 2026-03-04 cycle*
+- **2026-03-02**: AI-enabled wearables in development jointly with [[openai]] — OpenAI building portable speaker with built-in camera; Apple testing three devices (AI-enabled AirPods, smart glasses, smart pendant necklace) — *source: 2026-03-02 cycle*
+- **2026-02-23**: On-device agent in development — can use apps on behalf of user; leverages AI without requiring cloud services — *source: 2026-02-23 cycle*
+- **2026-02-22**: 2027 AI wearables push — plans AI smart glasses, pendant, and camera-equipped AirPods as major move into wearable AI — *source: 2026-02-22 cycle*
 - **2026-02-19**: Apple goes all-in on AI wearables — three camera-equipped devices (smart glasses, pendant, new AirPods); designed to give Siri real-time visual awareness via the iPhone — *source: 2026-02-19 cycle*
 - **2026-02-13**: Siri revamp delayed again — major update postponed past prior expectations; underscores difficulty of shipping reliable conversational AI at scale — *source: 2026-02-13 cycle*
 - **2026-02-11**: New product wave reportedly imminent — iPhone 17e (A19 chip), new Siri, MacBook for Enterprise (budget) — *source: 2026-02-11 cycle*
@@ -92,3 +97,8 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 - data/summaries/2025-12-03.json (Apple AI chief — Subramanya replaces Giannandrea)
 - data/summaries/2025-12-04.json (Subramanya confirmed; Giannandrea steps down)
 - data/summaries/2025-12-17.json (TLDR — Apple lineup leaks)
+- data/summaries/2026-02-22.json (Apple 2027 AI wearables push)
+- data/summaries/2026-02-23.json (Apple on-device agent)
+- data/summaries/2026-03-02.json (OpenAI + Apple AI-enabled wearables)
+- data/summaries/2026-03-04.json (Core AI framework for iOS 27)
+- data/summaries/2026-03-05.json (iPhone 17e A19 chip)

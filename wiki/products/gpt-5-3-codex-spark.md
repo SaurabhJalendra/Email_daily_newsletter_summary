@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-02-14
-> **Last updated**: 2026-02-19
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[openai]], [[gpt-5-3-codex]], [[codex-app]], [[ai-hardware]]
 
@@ -18,6 +18,7 @@ GPT-5.3 Codex Spark is a smaller, ultra-fast Codex variant from OpenAI optimized
 
 ## Timeline
 
+- **2026-02-20**: Scores 72.2% on exploit tasks in OpenAI's [[evmbench]] — running on Cerebras hardware — *source: 2026-02-20 cycle*
 - **2026-02-14**: Released — smaller, ultra-fast coding model; runs on Cerebras hardware, 1,000+ tokens/sec; built for real-time Codex experience — *source: 2026-02-14 cycle (multiple)*
 
 ## Key Facts
@@ -36,3 +37,4 @@ GPT-5.3 Codex Spark is a smaller, ultra-fast Codex variant from OpenAI optimized
 ## Sources
 
 - data/summaries/2026-02-14.json (Codex-Spark launch — multiple newsletters)
+- data/summaries/2026-02-20.json (Spark 72.2% EVMbench exploit tasks)

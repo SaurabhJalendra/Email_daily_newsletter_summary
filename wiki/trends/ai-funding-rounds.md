@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2026-01-20..2026-02-19)
+> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[reflection]], [[thinking-machines]], [[ai-bubble-concerns]], [[merge-labs]], [[ai-ipo-wave]]
 
@@ -21,6 +21,10 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - **2026-04-16**: [[anthropic]] reportedly in investor talks at $800B+ valuation, approaching OpenAI territory — *source: Superhuman "Gemini gets a Mac app"*
 - **2026-04-16**: Eli Lilly agrees to pay up to $2.75B to Insilico Medicine (AI drug discovery) — *source: The Batch "Meta Pivots From Open Weights, Big Pharma Bets On AI"*
 - **2026-04-16**: Allbirds/NewBird AI announces $50M financing to pivot from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code*
+- **2026-03-03**: [[openai]] $110B mega-round closes at $730B valuation — [[nvidia]] participates; largest private financing to date — *source: 2026-03-03 cycle (also 2026-03-01)*
+- **2026-02-26**: [[meta]] + AMD $100B compute deal — 6 GW of AI compute; largest single compute agreement publicly disclosed — *source: 2026-02-26 cycle*
+- **2026-02-24**: [[nvidia]]'s $30B [[openai]] commitment closes — tranche of the broader OpenAI financing stack — *source: 2026-02-24 cycle*
+- **2026-02-20**: [[humain]] (Saudi Arabia) invests $3B in [[xai]] for significant minority stake; World Labs secures $1B for spatial intelligence; [[meta]]–[[nvidia]] multi-billion GPU/CPU deal — *source: 2026-02-20 cycle*
 - **2026-02-18**: Stripe valuation reaches $140B in tender talks — payments-AI infra story — *source: 2026-02-18 cycle*
 - **2026-02-17**: Simile (AI search/research startup) raises $100M — *source: 2026-02-17 cycle*
 - **2026-02-13**: Lotus AI raises $35M for AI-native legal-tech platform — *source: 2026-02-13 cycle*
@@ -150,3 +154,8 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - data/summaries/2026-01-14.json (Apple + Google $1B/yr Siri-Gemini)
 - data/summaries/2026-01-19.json (Merge Labs $250M at $850M)
 - data/summaries/2026-04-16.json (Superhuman — Gemini gets a Mac app [Anthropic $800B]; The Batch — Meta Pivots From Open Weights, Big Pharma Bets On AI; The Rundown AI — Allbirds ditches sneakers; The Code — Shoemaker company pivots to AI)
+- data/summaries/2026-02-20.json (Humain $3B xAI; World Labs $1B; Meta-Nvidia)
+- data/summaries/2026-02-24.json (Nvidia $30B OpenAI close)
+- data/summaries/2026-02-26.json (Meta-AMD $100B compute deal)
+- data/summaries/2026-03-01.json (OpenAI $110B at $730B)
+- data/summaries/2026-03-03.json (OpenAI $110B close, Nvidia participation)

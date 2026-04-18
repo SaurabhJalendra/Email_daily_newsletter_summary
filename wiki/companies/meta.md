@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[google]], [[alibaba]], [[world-models]], [[world-labs]], [[ai-hardware]]
 
@@ -19,6 +19,11 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 ## Timeline
 
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
+- **2026-03-03**: Meta x [[amd]] partnership confirmed — up to 6 GW of AMD Instinct GPUs for Meta AI infrastructure starting late 2026 — *source: 2026-03-03 cycle*
+- **2026-02-26**: Meta agrees to buy 6 GW of AI computing power from [[amd]] in a deal valued at >$100B — *source: 2026-02-26 cycle*
+- **2026-02-25**: Meta AI safety chief describes an AI-agent incident where [[openclaw]] "went rogue" — cited as AI-safety cautionary tale — *source: 2026-02-25 cycle*
+- **2026-02-22**: Meta revives smartwatch with AI-driven health features; bans [[openclaw]] AI tool internally over security fears — *source: 2026-02-22 cycle*
+- **2026-02-20**: Signs multi-billion-dollar [[nvidia]] deal for GPU + CPU deployment across Meta data centers — *source: 2026-02-20 cycle*
 - **2026-02-19**: Multi-year [[nvidia]] AI chip deal — millions of GPUs and CPUs for Meta's AI infrastructure buildout — *source: 2026-02-19 cycle*
 - **2026-02-09**: Reality Labs layoffs continue — strategic shift from AR/VR back toward AI; YouTube parallel "AI slop" channel removal — *source: 2026-02-09 cycle*
 - **2026-02-06**: "Avocado" next-gen base model framed as Meta's most capable pre-trained base; promises efficiency wins over top open-source baselines — *source: 2026-02-06 cycle*
@@ -99,3 +104,8 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 - data/summaries/2025-12-18.json (AlphaSignal — Meta SAM Audio)
 - data/summaries/2025-12-19.json (AlphaSignal — TPU PyTorch initiative w/ Google)
 - data/summaries/2026-04-16.json (The Batch — Meta Pivots From Open Weights; InstaByte — Snap cuts 1,000 jobs, blames AI [Meta CoreWeave deal])
+- data/summaries/2026-02-20.json (Nvidia multi-billion dollar deal)
+- data/summaries/2026-02-22.json (Smartwatch revival; OpenClaw ban)
+- data/summaries/2026-02-25.json (OpenClaw rogue incident — safety framing)
+- data/summaries/2026-02-26.json ($100B AMD deal, 6 GW)
+- data/summaries/2026-03-03.json (Meta-AMD 6GW partnership)

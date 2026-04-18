@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[openai-for-healthcare]], [[chatgpt-translate]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[gpt-5-2]], [[gpt-5-2-codex]], [[gpt-5-3-codex]], [[gpt-5-3-codex-spark]], [[gpt-image-1-5]], [[openai-frontier]], [[openclaw]], [[merge-labs]], [[anthropic]], [[google]], [[amazon]], [[disney]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]], [[agentic-ai-foundation]]
 
@@ -19,6 +19,16 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 ## Timeline
 
 - **2026-04-16**: [[openai-codex]] superapp — background computer use, parallel agents, in-app browser, image gen; expanded beyond code across ChatGPT, desktop, CLI, IDEs; rate limits doubled — *source: The Rundown AI "OpenAI's superapp hiding inside Codex"; multiple*
+- **2026-03-06**: [[gpt-5-4]] info leak — 2M-token context, "Stateful AI" that retains workflow and project environment across sessions, "extreme" thinking mode burning more compute; Codex App on Windows with native agent sandbox + PowerShell support; OpenAI revises Pentagon contract after employee backlash and user cancellations — bars intelligence agencies from domestic surveillance without formal modification — *source: 2026-03-06 cycle*
+- **2026-03-05**: [[gpt-5-3-instant]] released — default ChatGPT upgrade prioritizing conversational quality; reduces unnecessary refusals/safety preambles; hallucinations down 26.8% with web, 19.7% without — *source: 2026-03-05 cycle*
+- **2026-03-03**: $110B mega-round with Amazon/[[nvidia]]/SoftBank confirmed as largest private tech financing ever (surpassing Anthropic's $30B); ChatGPT hits 900M weekly users and 50M subscribers but faces "Cancel ChatGPT" movement over Pentagon tie-up — *source: 2026-03-03 cycle*
+- **2026-03-02**: Pentagon partnership — OpenAI deploys models on classified network (secures Anthropic-style red lines), filling the gap after Anthropic refused; [[microsoft]] reaffirms Azure cloud exclusivity for OpenAI APIs — *source: 2026-03-02 cycle*
+- **2026-03-01**: $110B funding round closes at $730B valuation led by [[amazon]] — OpenAI to use Amazon in-house AI chips + commits $100B AWS spend over 8 years; OpenAI connects [[openai-codex]] to Figma for two-way code-design workflow — *source: 2026-03-01 cycle*
+- **2026-02-28**: OpenAI daily US mobile user share drops from 69% → 45% (Jan 2025 → Jan 2026) as Gemini + Grok share rises — *source: 2026-02-28 cycle*
+- **2026-02-27**: OpenAI publishes two-year report on AI misuse patterns — documents abuse attempts and mitigations — *source: 2026-02-27 cycle*
+- **2026-02-25**: WebSocket mode launched for Responses API — 40% overhead reduction in long-running workflows; OpenAI partners with McKinsey, BCG, Accenture, Capgemini to accelerate enterprise AI rollouts — *source: 2026-02-25 cycle*
+- **2026-02-24**: [[nvidia]] close to finalizing $30B OpenAI investment (replaces stalled $100B pact); OpenAI AGI roadmap leak — projected $665B cash burn through 2030 — *source: 2026-02-24 cycle*
+- **2026-02-20**: OpenAI releases EVMbench — benchmark for AI agents detecting, patching, and exploiting high-severity smart-contract vulnerabilities; [[gpt-5-3-codex-spark]] on Cerebras hits 72.2% on exploit tasks — *source: 2026-02-20 cycle*
 - **2026-02-19**: Lockdown Mode introduced — opt-in higher-security mode adding "Elevated Risk" labels across ChatGPT/[[chatgpt-atlas]]/Codex; available for ChatGPT Enterprise / education / healthcare; clamps down on risky tool behavior — *source: 2026-02-19 cycle (TLDR AI; The Rundown AI)*
 - **2026-02-18**: Hires Peter Steinberger ([[openclaw]] creator) — joins OpenAI to build a personal-assistant agent product; OpenClaw to remain open source under a foundation — *source: 2026-02-18 cycle (Multiple — Mindstream; Superhuman; AI Breakfast; TLDR AI)*
 - **2026-02-17**: GPT-5.2 makes an original physics discovery — challenges a long-standing particle-physics result and writes a formal proof autonomously in ~12 hours — *source: 2026-02-17 cycle (The Rundown AI; AlphaSignal)*
@@ -212,3 +222,13 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - data/summaries/2026-02-17.json (GPT-5.2 physics discovery)
 - data/summaries/2026-02-18.json (OpenClaw acquihire — Peter Steinberger)
 - data/summaries/2026-02-19.json (Lockdown Mode)
+- data/summaries/2026-02-20.json (EVMbench; GPT-5.3-Codex-Spark on Cerebras)
+- data/summaries/2026-02-24.json (NVIDIA $30B investment close; AGI roadmap leak)
+- data/summaries/2026-02-25.json (WebSocket Responses API mode; consulting partnerships)
+- data/summaries/2026-02-27.json (Two-year AI misuse report)
+- data/summaries/2026-02-28.json (US mobile share 69% → 45%)
+- data/summaries/2026-03-01.json ($110B round at $730B valuation; Codex+Figma)
+- data/summaries/2026-03-02.json (Pentagon partnership; Microsoft Azure exclusivity)
+- data/summaries/2026-03-03.json ($110B mega-round; ChatGPT 900M WAU; Cancel ChatGPT movement)
+- data/summaries/2026-03-05.json (GPT-5.3 Instant release)
+- data/summaries/2026-03-06.json (GPT-5.4 leak; Codex Windows; Pentagon contract revision)

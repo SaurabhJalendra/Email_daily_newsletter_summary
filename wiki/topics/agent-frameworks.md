@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-02-19)
+> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-cowork]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]]
 
@@ -18,6 +18,10 @@ type: topic
 
 ## Timeline
 
+- **2026-03-02**: [[anthropic]] ships 7-part Agentic blitz for Claude — remote control, Figma connector, and other agent-workflow features — *source: 2026-03-02 cycle*
+- **2026-02-27**: [[perplexity-computer]] launches with 19-model orchestration; [[vercel]] open-sources Chat SDK for cross-platform bots; [[nous-research]] Hermes Agent goes open-source; [[claude-cowork]] adds scheduled tasks — *source: 2026-02-27 cycle*
+- **2026-02-26**: [[notion]] launches Custom Agents — autonomous AI teammates that automate tasks and answer questions proactively — *source: 2026-02-26 cycle*
+- **2026-02-23**: [[cisco]] deploys AI agents to absorb routine network-ops work; [[apple]] working on on-device agent that uses apps on behalf of users — *source: 2026-02-23 cycle*
 - **2026-02-19**: [[grok-4-20]] public beta lands with four-agent parallel research workflow — xAI's first explicit multi-agent surface; Grok Build adds Parallel Agents + Arena Mode (IDE-class) — *source: 2026-02-19 cycle*
 - **2026-02-17**: Manus debuts inside Telegram — agent surface extends into messaging — *source: 2026-02-17 cycle*
 - **2026-02-13**: Cursor Plugin Marketplace launches — third-party plugin distribution surface inside the Cursor IDE — *source: 2026-02-13 cycle*
@@ -123,3 +127,7 @@ type: topic
 - data/summaries/2026-01-14.json (Claude Cowork launch)
 - data/summaries/2026-01-17.json (AlphaSignal — OpenAI Open Responses API; Claude Code diff view; GitHub cross-agent memory)
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; The Rundown AI — OpenAI's superapp hiding inside Codex; TLDR AI — OpenAI Agents SDK; TAAFT — Claude Just Became a Designer [Cloudflare Agent Memory]; TLDR — Opus 4.7, Cloudflare Agents Week; World of AI — ANTHROPIC DROPS Claude Design!; Ollama Newsletter — 0.21 with Hermes Agent)
+- data/summaries/2026-02-23.json (Cisco AI agents; Apple on-device agent)
+- data/summaries/2026-02-26.json (Notion Custom Agents)
+- data/summaries/2026-02-27.json (Perplexity Computer; Vercel Chat SDK; Nous Hermes Agent; Claude Cowork scheduled tasks)
+- data/summaries/2026-03-02.json (Anthropic Agentic 7-part blitz)

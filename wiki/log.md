@@ -4,6 +4,255 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-03-06
+**Ingested**: data/summaries/2026-03-06.json
+
+**Pages updated**:
+- [[openai]] — GPT-5.4 leak; Codex App Windows w/ PowerShell; Pentagon contract revision
+- [[google]] — NotebookLM cinematic videos (Gemini + Veo); gws CLI for Workspace
+- [[nvidia]] — potential pullback on further investment in OpenAI and Anthropic
+- [[alibaba]] — Qwen team departures incl. lead researcher Junyang Lin
+- [[perplexity]] — [[perplexity-computer]] Skills
+- [[anthropic]] — revised Pentagon posture upstream context
+- [[codex-app]] — Windows release
+- [[perplexity-computer]] — Skills expansion
+- [[ai-regulation]] — OpenAI Pentagon contract revision after employee backlash
+- [[ai-hardware]] — Nvidia pullback narrative
+- [[ai-memory]] — GPT-5.4 Stateful AI leak reference
+
+**Pages created**: [[gpt-5-4]]
+
+**Notable**: GPT-5.4 leak reveals 2M-token context + "Stateful AI"; Nvidia signals transition from equity stakes to chip-sales-only posture toward OpenAI/Anthropic.
+
+## 2026-03-05
+**Ingested**: data/summaries/2026-03-05.json
+
+**Pages updated**:
+- [[openai]] — [[gpt-5-3-instant]] released (26.8% hallucination cut with web)
+- [[google]] — [[gemini-3-1-flash-lite]] launched
+- [[anthropic]] — Claude #1 on Apple US App Store post-Pentagon refusal narrative
+- [[apple]] — iPhone 17e with A19 chip
+- [[alibaba]] — Qwen 3.5 Small coverage continues
+- [[ai-regulation]] — SCOTUS declines AI-copyright case (continued coverage)
+- [[qwen-3-5]] — Small family coverage entry
+
+**Pages created**: [[gpt-5-3-instant]], [[gemini-3-1-flash-lite]], [[block]]
+
+**Notable**: Block cuts ~half of employees citing internal AI agent "Goose" despite best quarter ever — flagship labor-displacement data point.
+
+## 2026-03-04
+**Ingested**: data/summaries/2026-03-04.json
+
+**Pages updated**:
+- [[anthropic]] — Claude Memory ships; ChatGPT→Claude memory-migration tool
+- [[alibaba]] — [[qwen-3-5]] Small family released
+- [[apple]] — Core AI framework replacing Core ML for iOS 27 at WWDC
+- [[qwen-3-5]] — Small family release entry
+- [[ai-regulation]] — SCOTUS declines AI-copyright case (humans-only authorship upheld)
+- [[ai-memory]] — Claude Memory + ChatGPT migration
+
+**Pages created**: [[ai-memory]]
+
+**Notable**: Persistent memory becomes first-class competitive axis; Claude surge coincides with cross-vendor memory import tool.
+
+## 2026-03-03
+**Ingested**: data/summaries/2026-03-03.json
+
+**Pages updated**:
+- [[xai]] — set to replace [[anthropic]] in classified Pentagon systems
+- [[anthropic]] — supply-chain-risk framing around Pentagon substitution
+- [[meta]] — AMD partnership details (6 GW / $100B multi-year)
+- [[nvidia]] — participates in OpenAI $110B mega-round
+- [[openai]] — $110B close at $730B valuation
+- [[perplexity]] — multi-model OS framing (continues from Computer launch)
+- [[google]] — Merkle Tree Certs coverage
+- [[ai-regulation]] — Pentagon vendor switch-out as leverage
+- [[ai-funding-rounds]] — OpenAI $110B at $730B
+- [[ai-hardware]] — Meta-AMD $100B partnership detail
+- [[ai-military]] — Pentagon switches Anthropic → xAI
+
+**Pages created**: [[ai-military]]
+
+**Notable**: First explicit Pentagon vendor swap tied to a lab's safeguard policy; Meta-AMD establishes largest disclosed compute deal to date.
+
+## 2026-03-02
+**Ingested**: data/summaries/2026-03-02.json
+
+**Pages updated**:
+- [[google]] — [[gemini-3-1-pro]] released as new flagship
+- [[openai]] — Pentagon partnership on classified network (accepts where Anthropic refused)
+- [[microsoft]] — reaffirms Azure-exclusive cloud for OpenAI APIs
+- [[apple]] — joint AI-wearable work with OpenAI (AirPods/glasses/pendant)
+- [[anthropic]] — 7-part Agentic blitz for Claude (remote control, Figma connector)
+- [[gemini-3-1-pro]] — release entry
+- [[nano-banana-2]] — adoption in Antigravity/Claude Code workflows
+- [[agent-frameworks]] — Anthropic Agentic 7-part blitz
+- [[ai-military]] — OpenAI-Pentagon deployment
+
+**Pages created**: (none beyond those listed above as new in prior days)
+
+**Notable**: Microsoft's public reaffirmation of Azure-exclusive OpenAI hosting even as the broader OpenAI financing stack diversifies.
+
+## 2026-03-01
+**Ingested**: data/summaries/2026-03-01.json
+
+**Pages updated**:
+- [[anthropic]] — Auto-Memory launched; Claude automatically maintains memory across chats
+- [[google]] — Intrinsic absorbed into Alphabet/Google robotics stack
+- [[openai]] — $110B raise at $730B valuation advances
+- [[nano-banana-2]] — continued coverage
+- [[ai-memory]] — Anthropic Auto-Memory anchor entry
+- [[ai-funding-rounds]] — OpenAI $110B @ $730B
+- [[ai-regulation]] — Pentagon / Claude context continues
+
+**Pages created**: (none)
+
+**Notable**: Auto-Memory removes the user-opt-in step for persistent Claude memory — behavior change precedes product-launch press of 2026-03-04.
+
+## 2026-02-28
+**Ingested**: data/summaries/2026-02-28.json
+
+**Pages updated**:
+- [[anthropic]] — refuses Department of War partnership over reliability + ethics concerns
+- [[openai]] — mobile share drops 69% → 45% as Claude gains
+- [[google]] — Nano Banana 2 first surfaces in cycle coverage
+- [[xai]] — Co-founder Toby Pohlen departs (7th co-founder in under three years)
+- [[nano-banana-2]] — first surface
+- [[ai-regulation]] — Anthropic DoW refusal
+- [[ai-military]] — Anthropic DoW refusal as guardrail anchor
+
+**Pages created**: (none)
+
+**Notable**: Seventh xAI co-founder departure raises governance questions amid post-SpaceX-merger trajectory; Claude's consumer surge chips at ChatGPT's mobile share.
+
+## 2026-02-27
+**Ingested**: data/summaries/2026-02-27.json
+
+**Pages updated**:
+- [[perplexity]] — [[perplexity-computer]] launches (19-model orchestration)
+- [[anthropic]] — Infosys partnership for enterprise agents; Vercept acquisition
+- [[openai]] — two-year misuse report published
+- [[alibaba]] — [[qwen-3-5]] Medium open-sourced
+- [[google]] — Opal no-code mini-app builder + [[gemini-3-1-pro]] sunsetting Gemini 3 Pro Preview
+- [[qwen-3-5]] — Medium MoE entry
+- [[claude-cowork]] — scheduled tasks
+- [[agent-frameworks]] — Computer, Vercel Chat SDK, Hermes Agent, Cowork scheduled tasks
+- [[ai-regulation]] — OpenAI misuse report; Discord age-verification delay
+
+**Pages created**: [[perplexity-computer]], [[vercel]], [[nous-research]], [[ai2]]
+
+**Notable**: Perplexity shifts from search to task orchestration; first Ai2 benchmark release (PreScience + LACERScore) for scientific-forecasting AI.
+
+## 2026-02-26
+**Ingested**: data/summaries/2026-02-26.json
+
+**Pages updated**:
+- [[anthropic]] — Pentagon ultimatum to remove military safeguards; Claude Cowork plugins/connectors expanded
+- [[meta]] — $100B / 6 GW AMD deal
+- [[zhipu-ai]] — [[glm-5]] cited as leading open-weights model on GDPval-AA
+- [[claude-cowork]] — plugins and connectors for enterprise
+- [[agent-frameworks]] — Notion Custom Agents
+- [[ai-regulation]] — Pentagon ultimatum to Anthropic
+- [[ai-funding-rounds]] — Meta-AMD $100B
+- [[ai-hardware]] — Meta-AMD 6 GW
+- [[ai-military]] — Pentagon ultimatum anchor
+
+**Pages created**: [[notion]]
+
+**Notable**: Pentagon ultimatum crystallizes safeguard-vs-contract tradeoff for Anthropic; Meta-AMD deal becomes largest disclosed public compute agreement.
+
+## 2026-02-25
+**Ingested**: data/summaries/2026-02-25.json
+
+**Pages updated**:
+- [[anthropic]] — accuses Chinese labs of unauthorized data-use / model-output training
+- [[openai]] — first-party frontier-lab Chinese-data-theft allegation
+- [[meta]] — OpenClaw "rogue" framing in security discourse
+- [[ai-regulation]] — Chinese labs data-theft accusation anchor
+
+**Pages created**: (none)
+
+**Notable**: First major public frontier-lab accusation of Chinese competitors using model outputs as training data — opens a new class of cross-border AI-IP dispute.
+
+## 2026-02-24
+**Ingested**: data/summaries/2026-02-24.json
+
+**Pages updated**:
+- [[anthropic]] — Claude Code Security launched inside [[claude-code]]
+- [[openai]] — Nvidia $30B tranche closes
+- [[google]] — [[gemini-3-1-pro]] coverage in cycle
+- [[nvidia]] — $30B OpenAI tranche closes
+- [[gemini-3-1-pro]] — entry
+- [[claude-code]] — Security scanner reference
+- [[claude-code-security]] — launch coverage
+- [[ai-funding-rounds]] — Nvidia $30B close
+- [[ai-hardware]] — Nvidia-OpenAI tranche
+
+**Pages created**: [[claude-code-security]], [[gemini-3-1-pro]]
+
+**Notable**: Anthropic collapses appsec and dev-tool categories with Claude Code Security; Nvidia's $30B OpenAI tranche finalizes.
+
+## 2026-02-23
+**Ingested**: data/summaries/2026-02-23.json
+
+**Pages updated**:
+- [[apple]] — on-device agent in development
+- [[cisco]] — AI agents absorbing ~80% of routine network-ops work
+- [[anthropic]] — Claude Code Security Scanner framing
+- [[openai]] — ChatGPT Pro Lite $100/mo tier
+- [[agent-frameworks]] — Cisco + Apple on-device agents
+
+**Pages created**: [[cisco]]
+
+**Notable**: Cisco's 80%-pattern-incident claim is one of the strongest public enterprise signals for agentic-AI adoption inside core IT operations.
+
+## 2026-02-22
+**Ingested**: data/summaries/2026-02-22.json
+
+**Pages updated**:
+- [[anthropic]] — Claude Code full PR workflow (preview/review/merge); [[claude-code-security]] announcement
+- [[microsoft]] — AI bug leaks private user emails
+- [[apple]] — 2027 AI-wearables push (smart glasses + pendant + camera-equipped AirPods)
+- [[meta]] — smartwatch revival with health features; OpenClaw ban over security fears
+- [[claude-code]] — full PR workflow
+- [[claude-code-security]] — announcement entry
+- [[ai-regulation]] — Microsoft AI private-email leak
+
+**Pages created**: (none)
+
+**Notable**: Claude Code becomes end-to-end PR surface; Microsoft's email leak adds a first-party-tool data-breach to the regulatory pressure map.
+
+## 2026-02-21
+**Ingested**: data/summaries/2026-02-21.json
+
+**Pages updated**:
+- [[google]] — [[gemini-3-1-pro]] hits 77.1% ARC-AGI-2; NotebookLM Prompt-Based Revisions
+- [[gemini-3-1-pro]] — ARC-AGI-2 77.1% entry
+
+**Pages created**: (none)
+
+**Notable**: Gemini 3.1 Pro's ARC-AGI-2 score re-opens the "Google challenges Claude on reasoning" framing.
+
+## 2026-02-20
+**Ingested**: data/summaries/2026-02-20.json
+
+**Pages updated**:
+- [[google]] — [[lyria-3]] integrated into Gemini (30-sec tracks, 8 languages, SynthID)
+- [[openai]] — EVMbench + [[gpt-5-3-codex-spark]] 72.2% exploit tasks
+- [[meta]] — multi-billion Nvidia deal for GPU/CPU data-center deployment
+- [[nvidia]] — Meta multi-billion deal
+- [[xai]] — Humain $3B investment; significant minority stake
+- [[world-labs]] — $1B funding round for spatial-intelligence scaling
+- [[anthropic]] — Claude Sonnet 4.6 1M-token context default-free framing
+- [[gpt-5-3-codex-spark]] — EVMbench 72.2% entry
+- [[ai-funding-rounds]] — Humain $3B / World Labs $1B / Meta-Nvidia
+- [[ai-hardware]] — Meta-Nvidia multi-billion deal
+- [[ai-music-generation]] — Lyria 3 anchor entry
+
+**Pages created**: [[lyria-3]], [[humain]], [[ai-music-generation]]
+
+**Notable**: Spatial-intelligence hits institutional-scale with World Labs' $1B round; Humain entrenches Saudi capital in the xAI camp; Google integrates music generation into Gemini's main surface.
+
 ## 2026-02-19
 **Ingested**: data/summaries/2026-02-19.json
 

@@ -4,6 +4,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 
 ## Companies
 - [[adobe]] — creative-software giant; Firefly AI Assistant across 6 apps
+- [[ai2]] — Allen Institute for AI nonprofit; PreScience open scientific-forecasting benchmark + LACERScore Feb 2026
 - [[ai21-labs]] — Israeli foundation-model lab; Jamba family; NVIDIA reported $3B acquisition talks Jan 2026
 - [[alibaba]] — Qwen model family; Qwen3-Max-Thinking 100% AIME 2025; Quark S1 Smart Specs; 14.2% China open-AI share
 - [[ami-labs]] — Yann LeCun's world-models startup spun out of Meta FAIR; €3B raise target
@@ -14,10 +15,12 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[auth0]] — identity platform; Auth0 for AI Agents *(stale)*
 - [[baidu]] — Chinese search/cloud giant; ERNIE-4.5-VL-Thinking open-source multimodal reasoning
 - [[black-forest-labs]] — German image-gen lab; ships FLUX.2
+- [[block]] — Square/Cash App parent; cut ~half of employees citing internal AI agent "Goose" Mar 2026
 - [[broadcom]] — custom AI silicon partner for OpenAI *(stale)*
 - [[bytedance]] — Chinese tech giant; ships Seedance 2.0 / Seedream 5.0 on Jimeng AI video platform
 - [[canva]] — design platform; Video 2.0 and own foundation model
 - [[character-ai]] — companion chatbot; ban on minors effective Nov 25 2025; ships Stories interactive fiction
+- [[cisco]] — networking incumbent; AI agents absorbing ~80% of routine network-ops work Feb 2026
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025
@@ -27,6 +30,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
 - [[groq]] — LPU inference-silicon company; NVIDIA reported $20B acquisition Dec 2025
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124
+- [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment
 - [[liquid-ai]] — MIT-spinout efficient-model lab; LFM2 family; LFM2-2.6B-Exp Dec 2025
 - [[lovable]] — Swedish vibe-coding startup; $330M @ $6.6B Dec 2025
 - [[luma]] — AI video startup; Ray3 Modify video-model update
@@ -38,6 +42,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[minimax]] — Chinese frontier-model lab; M2.1 coding model
 - [[mistral]] — French frontier lab; Mistral Studio + Mistral 3 open-weights flagship; HSBC partnership
 - [[moonshot-ai]] — Chinese frontier lab; ships Kimi K2 Thinking open-source reasoning model
+- [[notion]] — workspace app; Custom Agents autonomous AI teammates Feb 2026
+- [[nous-research]] — open-source AI research collective; Hermes Agent self-improving AI agent Feb 2026
 - [[nvidia]] — AI GPUs; Cosmos physical AI; Ising quantum; Vera Rubin; $57B record quarter; Alpamayo-R1
 - [[openai]] — ChatGPT/Sora; Atlas browser; Aardvark; "Code Red" vs Gemini 3; first device w/ Jony Ive
 - [[oracle]] — enterprise cloud; AMD partnership *(stale)*
@@ -48,7 +54,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[runway]] — AI video; Gen-4.5 tops Veo 3 and Sora on Artificial Analysis
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[thinking-machines]] — Mira Murati's lab; Tinker API; co-founder to Meta *(stale)*
-- [[world-labs]] — Fei-Fei Li's "spatial intelligence" startup; ships Marble world model
+- [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
+- [[world-labs]] — Fei-Fei Li's "spatial intelligence" startup; ships Marble world model; $1B raise Feb 2026
 - [[xai]] — Elon Musk's AI lab; Grok 4.1 dialog modes; $15B @ $230B; Memphis solar farm
 - [[zhipu-ai]] — Chinese frontier lab; GLM family; GLM-4.7 tops open WebDev models Dec 2025
 
@@ -70,6 +77,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-go]] — OpenAI's $8/mo ChatGPT entry-paid tier; launched globally Jan 2026
 - [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages)
 - [[claude-code]] — Anthropic's CLI coding agent; plugins, Routines, Web variant; $1B ARR
+- [[claude-code-security]] — Anthropic's security scanner inside Claude Code (Feb 2026)
 - [[claude-code-web]] — browser/cloud Claude Code for dev work outside the terminal
 - [[claude-cowork]] — Anthropic's local-file agent for organizing digital work
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
@@ -92,7 +100,9 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini]] — Google's flagship model family
 - [[gemini-2-5-computer-use]] — Gemini variant for UI control *(stale)*
 - [[gemini-3]] — Google's next-generation model; 1M token context, Deep Think mode
+- [[gemini-3-1-flash-lite]] — Google's Mar 2026 budget/fast tier; 2.5× TTFT vs 2.5 Flash; configurable thinking level
 - [[gemini-3-1-flash-tts]] — Google's low-latency TTS (70+ languages, multi-speaker)
+- [[gemini-3-1-pro]] — Google's Mar 2026 flagship; 77.1% ARC-AGI-2; successor to Gemini 3 Pro
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
 - [[github-agent-hq]] — GitHub's multi-agent control plane
@@ -106,6 +116,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-5-2-codex]] — OpenAI's Dec 2025 Codex model; execution-focused Codex-tier of GPT-5.2
 - [[gpt-5-3-codex]] — OpenAI's Feb 2026 Codex model; 77.3% Terminal-Bench 2.0, 25% faster
 - [[gpt-5-3-codex-spark]] — OpenAI's Codex variant on Cerebras hardware; 1000+ tokens/sec
+- [[gpt-5-3-instant]] — OpenAI's Mar 2026 default ChatGPT update; 26.8% hallucination cut with web; fewer refusals
+- [[gpt-5-4]] — OpenAI's leaked next-gen model; 2M-token context and "Stateful AI" across sessions (Mar 2026)
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding
 - [[gpt-image-1-5]] — OpenAI's Dec 2025 image-gen upgrade; 4× faster, sharper detail, Likeness Retention
 - [[grok-4-1]] — xAI's mid-Nov 2025 Grok upgrade; personality overhaul, EQ lead, top of LMArena
@@ -119,6 +131,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026)
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark
+- [[lyria-3]] — Google's music-generation model in Gemini; 30-sec tracks, 8 languages, SynthID
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video
 - [[medgemma]] — Google open medical-imaging model family (Jan 2026)
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
@@ -128,6 +141,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mistral-ocr-3]] — Mistral's OCR model; ~97% accuracy, strong on European documents
 - [[mistral-studio]] — Mistral's production-AI platform
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot
+- [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026)
 - [[nano-banana-pro]] — Google's Gemini 3 Pro Image; 4K, 14-input, 5-character consistency, SynthID+C2PA
 - [[nanochat]] — Karpathy's end-to-end ChatGPT clone repo *(stale)*
 - [[nemotron-3]] — NVIDIA's open-source agentic model line; Nano (30B/3B active MoE), 4× throughput claim
@@ -140,9 +154,10 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openclaw]] — open-source persistent assistant; team (incl. Steinberger) acquihired into OpenAI
 - [[opera-neon]] — Opera's AI browser *(stale)*
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
+- [[perplexity-computer]] — Perplexity's 19-model orchestration platform for end-to-end workflows (Feb 2026)
 - [[project-genie]] — Google DeepMind's interactive 3D-world generator powered by Genie 3 model
 - [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO
-- [[qwen-3-5]] — Alibaba's Feb 2026 native vision-language MoE; 397B-A17B, hybrid linear+MoE, 201 languages
+- [[qwen-3-5]] — Alibaba's Feb 2026 vision-language MoE family; 397B-A17B Max, Medium MoE, Small tiny-model tier
 - [[qwen-3-vl]] — Alibaba's compact vision-language models *(stale)*
 - [[qwen-image]] — Alibaba open-source image model called "open-source king" Jan 2026 *(superseded)*
 - [[qwen-image-2]] — Alibaba's Feb 2026 unified image gen + editing model; #2/#3 AI Arena Elo
@@ -161,6 +176,9 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser
 - [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals
 - [[ai-healthcare]] — AI push into clinical, consumer-health, and pharma workflows; ChatGPT Health, OpenAI for Healthcare, Lilly-Insilico
+- [[ai-memory]] — persistent context across sessions; Claude Memory, ChatGPT→Claude migration, GPT-5.4 Stateful AI
+- [[ai-military]] — frontier-lab AI inside DoW/Pentagon systems; Pentagon-Anthropic ultimatum, xAI switch-out, OpenAI contract revision
+- [[ai-music-generation]] — generative music models; Google Lyria 3 in Gemini
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
 - [[computer-use]] — models that drive GUIs directly *(stale)*

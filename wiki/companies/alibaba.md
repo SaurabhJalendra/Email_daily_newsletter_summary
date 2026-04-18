@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-16
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[qwen-3-vl]], [[qwen-image]], [[qwen-image-2]], [[qwen-3-5]], [[qwen3-coder-next]], [[openai]], [[meta]], [[deepseek]], [[ai-hardware]]
 
@@ -18,6 +18,9 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 
 ## Timeline
 
+- **2026-03-06**: Significant departures from Qwen team — including lead researcher Junyang Lin — raising questions about continued Qwen development velocity — *source: 2026-03-06 cycle*
+- **2026-03-04**: [[qwen-3-5-small]] series released — tiny open-source Qwen 3.5 Small family that runs on laptops/phones and outperforms larger models in specific tasks — *source: 2026-03-04 cycle*
+- **2026-02-27**: [[qwen-3-5-medium]] open-source — outperforms its larger predecessor via smarter architecture + MoE — *source: 2026-02-27 cycle*
 - **2026-02-18**: [[qwen-3-5]] released — Qwen3.5-397B-A17B sparse-MoE with hybrid linear-attention architecture (up to 19× faster decoding than Qwen3-Max); native vision-language; 201 languages/dialects; near-frontier performance at lower cost — *source: 2026-02-18 cycle (TLDR; AlphaSignal; The Rundown AI)*
 - **2026-02-17**: RynnBrain open-source robotics foundation model released — *source: 2026-02-17 cycle (Mindstream)*
 - **2026-02-12**: [[qwen-image-2]] released — merges image generation and editing into a single model; #2 on AI Arena image-editing Elo, #3 on text-to-image — *source: 2026-02-12 cycle*
@@ -64,3 +67,6 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 - data/summaries/2025-12-02.json (China 14.2% open-AI economy)
 - data/summaries/2025-12-16.json (AI Breakfast — Meta Trains AI on China's Qwen)
 - data/summaries/2025-12-17.json (TAAFT cycle — China's ChatGPT)
+- data/summaries/2026-02-27.json (Qwen 3.5 Medium MoE)
+- data/summaries/2026-03-04.json (Qwen 3.5 Small family)
+- data/summaries/2026-03-06.json (Qwen team departures — Junyang Lin)

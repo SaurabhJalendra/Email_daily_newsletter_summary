@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-03
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
-> **Related**: [[perplexity-comet]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[amazon]], [[ai-copyright]], [[prompt-injection]]
+> **Related**: [[perplexity-comet]], [[perplexity-computer]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[amazon]], [[ai-copyright]], [[prompt-injection]]
 
 ## Summary
 
@@ -18,6 +18,8 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 
 ## Timeline
 
+- **2026-03-06**: [[perplexity-computer]] adds "Skills" — users integrate custom and generic markdown-based reusable workflow instructions — *source: 2026-03-06 cycle*
+- **2026-02-27**: [[perplexity-computer]] launches — 19-model AI system that runs full workflows end-to-end; dispatches tasks to 19 separate AI models; available on web for Max subscribers — *source: 2026-02-27 cycle*
 - **2026-02-09**: Perplexity framed as a verification surface — links claims to original sources (anti-fabrication framing) — *source: 2026-02-09 cycle*
 - **2026-02-07**: Launches Model Council — side-by-side multi-model answer comparison across [[claude-opus-4-5]], [[gpt-5-2]], [[gemini-3]] Pro and others — *source: 2026-02-07 cycle*
 - **2025-12-31**: Perplexity introduces automation for pre-meeting research — assistant compiles context ahead of scheduled meetings — *source: 2025-12-31 cycle*
@@ -58,3 +60,5 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 - data/summaries/2025-11-28.json (Perplexity personalization features)
 - data/summaries/2025-11-29.json (Perplexity Shopping with virtual try-on)
 - data/summaries/2025-12-09.json (TLDR cycle — The Times vs Perplexity)
+- data/summaries/2026-02-27.json (Perplexity Computer — 19-model orchestration launch)
+- data/summaries/2026-03-06.json (Perplexity Computer — Skills)

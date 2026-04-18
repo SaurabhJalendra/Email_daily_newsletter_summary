@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[translategemma]], [[medgemma]], [[project-genie]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[universal-commerce-protocol]], [[model-context-protocol]], [[prompt-injection]], [[computer-use]], [[ai-hardware]], [[ai-healthcare]]
 
@@ -19,6 +19,15 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 ## Timeline
 
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
+- **2026-03-06**: [[notebook-lm]] adds cinematic animated video generation via Gemini + Veo (turns research notes into videos); `gws` CLI for Google Workspace launches (humans + agents) — *source: 2026-03-06 cycle*
+- **2026-03-05**: [[gemini-3-1-flash-lite]] launches — budget tier with configurable thinking level, 2.5× faster time-to-first-token vs Gemini 2.5 Flash — *source: 2026-03-05 cycle*
+- **2026-03-03**: Merkle Tree Certificate system rolled out — quantum-resistant assurances for HTTPS certificates — *source: 2026-03-03 cycle*
+- **2026-03-01**: [[nano-banana-2]] available at Pro-level quality for ~half the Nano Banana Pro cost, 4K support; Google absorbs robotics startup Intrinsic (industrial automation push) — *source: 2026-03-01 cycle*
+- **2026-02-28**: [[nano-banana-2]] introduced — combines Nano Banana Pro reasoning/quality with significantly faster generation, tops text-to-image benchmarks — *source: 2026-02-28 cycle*
+- **2026-02-27**: Gemini update enables multi-step Android task completion; Opal no-code mini-app builder adds an "agent step" that analyzes goals and picks approaches; Google AI Studio announces Gemini 3 Pro Preview sunset for 2026-03-09 in favor of [[gemini-3-1-pro]] Preview — *source: 2026-02-27 cycle*
+- **2026-02-24**: [[gemini-3-1-pro]] positioned as smarter model for complex problem-solving — more than doubles Gemini 3 Pro's ARC-AGI-2 reasoning score; Demis Hassabis urges urgent AI safety research and smart regulation — *source: 2026-02-24 cycle*
+- **2026-02-21**: [[gemini-3-1-pro]] released — 77.1% ARC-AGI-2 abstract reasoning score, stronger structured output, cleaner UI layouts; [[notebook-lm]] adds "Prompt-Based Revisions" for slide edits via natural language — *source: 2026-02-21 cycle*
+- **2026-02-20**: [[lyria-3]] integrated into Gemini — 30-second music tracks from text or images, 8 languages, SynthID watermarking — *source: 2026-02-20 cycle*
 - **2026-04-16**: Gemini Mac app launches — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT "Gemini Gets TTS and Mac App"; Superhuman "Gemini gets a Mac app"; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome adds "Skills" — save Gemini prompts to reuse across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
 - **2026-02-19**: Meta-NVIDIA mega chip deal eclipses Google chip news; DeepMind formal framework for structured AI task delegation in multi-agent networks circulates — *source: 2026-02-19 cycle (AlphaSignal)*
@@ -191,3 +200,12 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - data/summaries/2025-12-18.json (TAAFT — 8M+ AI Chats; The Rundown AI; AI Breakfast; Superhuman — Gmail's new AI assistant; AlphaSignal)
 - data/summaries/2025-12-19.json (World of AI — Google Drops GEMINI 3 FLASH; The Rundown AI; TLDR; Superhuman; AlphaSignal; Google AI Studio — Try Gemini 3 Flash; TLDR AI — Gemini 3 Flash / TPU PyTorch / Grok Voice Agent API)
 - data/summaries/2026-04-16.json (AlphaSignal — Google Gemini 3.1 Flash TTS; World of AI — GOOGLE: Gemini 3.1 TTS DROPS!; TAAFT — Gemini Gets TTS and Mac App; TLDR AI — Gemini 3.1 Flash TTS; The Code — Shoemaker company pivots to AI; Superhuman — Gemini gets a Mac app; The Rundown AI — Allbirds ditches sneakers; "Gemini on your desktop"; Mindstream — AI just made Chrome even more useful)
+- data/summaries/2026-02-20.json (Lyria 3 in Gemini)
+- data/summaries/2026-02-21.json (Gemini 3.1 Pro 77.1% ARC-AGI-2; NotebookLM Prompt-Based Revisions)
+- data/summaries/2026-02-24.json (Gemini 3.1 Pro reasoning framing; Hassabis safety call)
+- data/summaries/2026-02-27.json (Gemini Android multi-step; Opal; Gemini 3 Pro Preview sunset)
+- data/summaries/2026-02-28.json (Nano Banana 2 announce)
+- data/summaries/2026-03-01.json (Nano Banana 2 half cost, 4K; Intrinsic absorption)
+- data/summaries/2026-03-03.json (Merkle Tree Certificate quantum HTTPS)
+- data/summaries/2026-03-05.json (Gemini 3.1 Flash-Lite)
+- data/summaries/2026-03-06.json (NotebookLM cinematic videos; gws CLI)

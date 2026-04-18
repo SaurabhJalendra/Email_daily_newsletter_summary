@@ -8,8 +8,8 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-02-04
-> **Last updated**: 2026-02-19
-> **Status**: active (macOS; ChatGPT Free/Go users get limited-time access)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Status**: active (macOS + Windows; ChatGPT Free/Go users get limited-time access)
 > **Related**: [[openai]], [[openai-codex]], [[gpt-5-2-codex]], [[gpt-5-3-codex]], [[chatgpt]], [[agent-frameworks]], [[claude-code]]
 
 ## Summary
@@ -18,6 +18,7 @@ Codex App is [[openai]]'s native macOS application for [[openai-codex]], positio
 
 ## Timeline
 
+- **2026-03-06**: Codex App on Windows — native agent sandbox + full PowerShell support; direct interaction with local filesystem and IDE — *source: 2026-03-06 cycle*
 - **2026-02-09**: Codex App reportedly 40% faster following backend optimization update — *source: 2026-02-09 cycle*
 - **2026-02-05**: Codex App ships with [[gpt-5-3-codex]] integration as the new default coding model — *source: 2026-02-05 cycle*
 - **2026-02-04**: Codex App for macOS released — parallel agents, asynchronous long-running tasks (survive tab close), Skills library (Figma, cloud deploy, image gen), scheduled Automations (run only when device awake); available to ChatGPT Free and Go users for a limited time with doubled rate limits for paid tiers; framed as the new "unit of work" moving from linear to non-blocking — *source: World of AI "OpenAI DROPS Codex Desktop"; The Rundown AI "social network / Codex command center"; TLDR "SpaceX buys xAI / OpenAI Codex app"; TLDR AI "Codex App"; Superhuman "SpaceX acquires xAI / Codex App"; AlphaSignal "OpenAI data agent"; TAAFT "$1T Empire"; The Code by Superhuman "Chinese lab dethroned DeepSeek"*
@@ -44,3 +45,4 @@ Codex App is [[openai]]'s native macOS application for [[openai-codex]], positio
 ## Sources
 
 - data/summaries/2026-02-04.json (World of AI — OpenAI DROPS Codex Desktop!; The Rundown AI — social network where humans just watch; TLDR — SpaceX buys xAI / OpenAI Codex app; TLDR AI — Claude Sonnet 5 leaks / OpenAI Codex app; Superhuman — SpaceX acquires xAI; AlphaSignal — OpenAI's internal data agent; TAAFT — SpaceX + xAI = $1T Empire; The Code by Superhuman — Chinese lab dethroned DeepSeek)
+- data/summaries/2026-03-06.json (Codex App on Windows with PowerShell support)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[claude-opus-4-7]], [[claude-opus-4-6]], [[claude-opus-4-5]], [[claude-sonnet-4-6]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-cowork]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-hardware]]
 
@@ -19,6 +19,19 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 ## Timeline
 
 - **2026-04-16**: [[claude-opus-4-7]] released across all major cloud platforms at $5/$25 per M tokens; includes xhigh effort, task budgets, 3.75 MP vision, file-based memory, desktop agent controls — *source: AlphaSignal, World of AI, TLDR, TLDR AI, Superhuman, Forward Future, AI Breakfast, The Code, TAAFT, Staying Ahead with AI, Hello World!*
+- **2026-03-05**: Claude surges to #1 in US App Store amid Pentagon refusal stance — material jump in signups + paid subscribers — *source: 2026-03-05 cycle*
+- **2026-03-04**: Claude Memory launches — remembers user preferences, writing style, context, past conversations; ChatGPT→Claude memory-import tool added — *source: 2026-03-04 cycle*
+- **2026-03-03**: US government labels Anthropic a "supply-chain risk" after Pentagon deal refusal; Elon Musk's [[xai]] set to replace Anthropic in classified Pentagon systems — *source: 2026-03-03 cycle*
+- **2026-03-02**: Anthropic's 7-part "Agentic" Claude update blitz — includes Remote Control for Claude and a Figma connector for seamless design integration; Xcode 26.3 adds built-in Claude Agent + [[openai-codex]] + MCP support — *source: 2026-03-02 cycle*
+- **2026-03-01**: Auto-Memory added to [[claude-code]] — stores project context across sessions — *source: 2026-03-01 cycle*
+- **2026-02-28**: Anthropic publicly refuses to remove Claude safeguards despite Department of War request — cites risk to democratic values — *source: 2026-02-28 cycle*
+- **2026-02-27**: Partners with Infosys to deploy enterprise AI agents across finance, manufacturing, telecommunications; acquires Vercept to boost Claude's live-app task performance; adds scheduled tasks to [[claude-cowork]] for recurring workflows — *source: 2026-02-27 cycle*
+- **2026-02-26**: Pentagon ultimatum — remove military safeguards from Claude or face contract termination and government blacklisting; [[claude-cowork]] update with new plugins and connectors for enterprise work — *source: 2026-02-26 cycle*
+- **2026-02-25**: Anthropic accuses [[deepseek]], [[moonshot-ai]], [[minimax]] of using 24,000 fake accounts to extract 16M+ Claude exchanges to train competing models — *source: 2026-02-25 cycle*
+- **2026-02-24**: [[claude-code-security]] launched — scans codebases for vulnerabilities and suggests patches for human review; triggers cybersecurity-stock sell-off — *source: 2026-02-24 cycle (AlphaSignal; TLDR AI; multiple)*
+- **2026-02-23**: Claude Code Security Scanner rollout coverage — vulnerability scans with patch suggestions framed as inflection for AI-native security — *source: 2026-02-23 cycle*
+- **2026-02-22**: Claude Code security-features announcement — embedding security directly into Claude Code; Claude Code full PR workflow (preview, review, merge) live — *source: 2026-02-22 cycle*
+- **2026-02-20**: [[claude-sonnet-4-6]] reframed in coverage — 1M-token context, improved coding + computer-use, default free plan — *source: 2026-02-20 cycle (AlphaSignal)*
 - **2026-02-19**: [[claude-sonnet-4-6]] released — mid-tier model delivering [[claude-opus-4-6]]-level performance at 40% lower cost; 1M-token context window; 79.6% SWE-Bench Verified; Figma "Code to Canvas" integration captures Claude Code interfaces directly into editable Figma design files — *source: 2026-02-19 cycle (AlphaSignal; The Rundown AI; TLDR AI)*
 - **2026-02-18**: Anthropic-Pentagon feud escalates — DoD reportedly weighing labeling Anthropic a "supply-chain risk" over restrictions on Claude military usage — *source: 2026-02-18 cycle (AI Breakfast; Mindstream)*
 - **2026-02-16**: [[claude-opus-4-6]] reportedly discovered 500+ serious zero-day security flaws in open-source software; "dynamic UI" Claude experience replacing chat with interactive maps/recipes/widgets — *source: 2026-02-16 cycle*
@@ -181,3 +194,16 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - data/summaries/2026-02-16.json (Opus 4.6 zero-day finds; dynamic UI experiment)
 - data/summaries/2026-02-18.json (Pentagon supply-chain-risk feud)
 - data/summaries/2026-02-19.json (Sonnet 4.6 release; Figma Code-to-Canvas)
+- data/summaries/2026-02-20.json (Sonnet 4.6 coverage)
+- data/summaries/2026-02-22.json (Claude Code Security announcement; Claude Code full PR workflow)
+- data/summaries/2026-02-23.json (Claude Code Security Scanner)
+- data/summaries/2026-02-24.json (Claude Code Security launch; cybersecurity stock drop)
+- data/summaries/2026-02-25.json (Anthropic accuses Chinese labs of Claude data extraction)
+- data/summaries/2026-02-26.json (Pentagon ultimatum; Claude Cowork plugins/connectors update)
+- data/summaries/2026-02-27.json (Infosys partnership; Vercept acquisition; Cowork scheduled tasks)
+- data/summaries/2026-02-28.json (Anthropic refuses DoW safeguard request)
+- data/summaries/2026-03-01.json (Claude Code Auto-Memory)
+- data/summaries/2026-03-02.json (7-part Agentic Claude update blitz; Figma connector; Xcode 26.3 Claude Agent)
+- data/summaries/2026-03-03.json (Supply-chain-risk label; xAI replaces Anthropic for Pentagon)
+- data/summaries/2026-03-04.json (Claude Memory; ChatGPT memory import tool)
+- data/summaries/2026-03-05.json (Claude #1 in US App Store)

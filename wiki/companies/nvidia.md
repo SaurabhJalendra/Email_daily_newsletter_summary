@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[vera-rubin]], [[alpamayo]], [[nitrogen]], [[xai]], [[openai]], [[anthropic]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-healthcare]], [[ai-bubble-concerns]]
 
@@ -22,6 +22,10 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2026-03-06**: NVIDIA reportedly may stop investing further in [[openai]] and [[anthropic]] ahead of their IPOs — pivots focus to selling chips that power their systems — *source: 2026-03-06 cycle*
+- **2026-03-03**: Participates in [[openai]] $110B mega-round alongside Amazon + SoftBank; [[broadcom]] separately targets 1M 3D-stacked chips by 2027, AI revenue $8.2B Q1 — *source: 2026-03-03 cycle*
+- **2026-02-24**: Close to finalizing $30B investment in [[openai]] — replaces the stalled $100B pact — *source: 2026-02-24 cycle*
+- **2026-02-20**: Multi-billion-dollar [[meta]] deal for GPU + CPU deployment across data centers — *source: 2026-02-20 cycle*
 - **2026-02-19**: Multi-year [[meta]]-NVIDIA AI chip deal — millions of GPUs and CPUs to power Meta's AI infrastructure buildout — *source: 2026-02-19 cycle*
 - **2026-02-14**: NVIDIA participates in [[anthropic]] $30B Series G; Cerebras competes for inference (powers OpenAI's [[gpt-5-3-codex-spark]]) — competitive context for inference silicon — *source: 2026-02-14 cycle*
 - **2026-02-09**: NVIDIA reportedly skipping new gaming GPUs due to memory shortages — prioritizing AI chips; AI now ~92% of revenue — *source: 2026-02-09 cycle*
@@ -106,3 +110,7 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - data/summaries/2025-12-06.json (TAAFT — AWS Factories + Trainium vs NVIDIA)
 - data/summaries/2025-12-17.json (TLDR AI — Nvidia Nemotron 3; AlphaSignal — Nemotron 3: 4x faster; The Rundown AI — Nvidia's powerful open AI model; Forward Future — NVIDIA's Agentic Bet; AI Breakfast — NVIDIA Drops NEMOTRON 3; TLDR — Nvidia drops open-source AI models)
 - data/summaries/2026-04-16.json (NVIDIA Newsletter — From SDG to physical AI; NVIDIA Developer News — GTC Taipei / DeepStream; The Tech Buzz — TSMC Earnings, Nvidia Quantum Chips; InstaByte — Snap cuts 1,000 jobs [Meta CoreWeave / Vera Rubin])
+- data/summaries/2026-02-20.json (Meta multi-billion dollar GPU deal)
+- data/summaries/2026-02-24.json ($30B OpenAI investment close)
+- data/summaries/2026-03-03.json ($110B OpenAI mega-round participation; Broadcom 3D stacked)
+- data/summaries/2026-03-06.json (Potential pullback from OpenAI/Anthropic pre-IPO)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[nvidia]], [[grok-4-1]], [[grok-4-20]], [[grokipedia]], [[grok-imagine]], [[ai-hardware]], [[ai-funding-rounds]]
 
@@ -20,6 +20,9 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 - **2026-04-16**: Terafab reaches out to chipmaking suppliers for price quotes and delivery timelines, requesting speedy estimates with minimal product disclosure — *source: TLDR "Inside Elon's Terafab"*
 - **2026-04-16**: xAI starts repurposing compute stockpile for external customers — *source: Forward Future "Anthropic challenges OpenAI in London"*
+- **2026-03-03**: xAI set to replace [[anthropic]] in classified Pentagon systems after Anthropic's refusal — *source: 2026-03-03 cycle*
+- **2026-02-28**: Co-founder Toby Pohlen departs — seventh co-founder to leave xAI in under three years — *source: 2026-02-28 cycle*
+- **2026-02-20**: Saudi Arabia's Humain invests $3B in xAI — acquires significant minority stake — *source: 2026-02-20 cycle*
 - **2026-02-19**: [[grok-4-20]] launches in public beta — new agent workflow with four agents working in parallel for research/task handling; Grok Build adds Parallel Agents and Arena Mode (full-IDE positioning) — *source: 2026-02-19 cycle (multiple)*
 - **2026-02-18**: SpaceX and xAI compete for Pentagon contract on voice-controlled autonomous drone-swarm tech — *source: 2026-02-18 cycle*
 - **2026-02-13**: First all-hands since SpaceX merger — Musk outlines moon-based factories and space data centers as xAI's next phase — *source: 2026-02-13 cycle*
@@ -90,3 +93,6 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 - data/summaries/2025-12-08.json (TAAFT — Musk's Grok Saves a Life)
 - data/summaries/2025-12-19.json (AlphaSignal — Grok Voice Agent API)
 - data/summaries/2026-04-16.json (TLDR — Inside Elon's Terafab; Forward Future — Anthropic challenges OpenAI in London [xAI compute repurposing])
+- data/summaries/2026-02-20.json (Humain $3B investment)
+- data/summaries/2026-02-28.json (Toby Pohlen departure)
+- data/summaries/2026-03-03.json (xAI replaces Anthropic on Pentagon systems)

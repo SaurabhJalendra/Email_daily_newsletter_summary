@@ -1,6 +1,6 @@
 ---
 name: Qwen 3.5
-description: Alibaba's Feb 2026 vision-language hybrid-attention MoE; 397B-A17B, 201 languages
+description: Alibaba's Feb 2026 vision-language hybrid-attention MoE family; 397B-A17B Max, Medium MoE, Small tiny-model tier
 type: product
 ---
 
@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-02-18
-> **Last updated**: 2026-02-19
+> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
 > **Related**: [[alibaba]], [[qwen-3-vl]], [[qwen-image-2]], [[qwen3-coder-next]], [[deepseek]]
 
@@ -18,6 +18,8 @@ Qwen 3.5 is Alibaba's February 2026 native vision-language model, headlined by Q
 
 ## Timeline
 
+- **2026-03-04**: Qwen 3.5 Small family released — tiny open-source models that run on laptops/phones and outperform larger models in specific tasks; "built to run AI directly on devices" — *source: 2026-03-04 cycle (also 2026-03-05 cycle)*
+- **2026-02-27**: Qwen 3.5 Medium open-sourced — outperforms its larger predecessor via smarter architecture + MoE — *source: 2026-02-27 cycle*
 - **2026-02-18**: Released — Qwen3.5-397B-A17B; hybrid linear-attention + sparse MoE; 201 languages/dialects; native multimodal (text/image/video); ~19× faster decoding than Qwen3-Max — *source: 2026-02-18 cycle (TLDR; AlphaSignal; The Rundown AI)*
 
 ## Key Facts
@@ -38,3 +40,6 @@ Qwen 3.5 is Alibaba's February 2026 native vision-language model, headlined by Q
 ## Sources
 
 - data/summaries/2026-02-18.json (Qwen 3.5 release — multiple)
+- data/summaries/2026-02-27.json (Qwen 3.5 Medium MoE)
+- data/summaries/2026-03-04.json (Qwen 3.5 Small family)
+- data/summaries/2026-03-05.json (Qwen 3.5 Small coverage)
