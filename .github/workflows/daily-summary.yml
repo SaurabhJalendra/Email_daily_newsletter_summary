@@ -109,6 +109,7 @@ jobs:
             echo "No wiki changes to commit"
           else
             git commit -m "wiki: ingest $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main || true
             git push
           fi
 

@@ -108,6 +108,7 @@ jobs:
             echo "No wiki changes to commit"
           else
             git commit -m "wiki: weekly lint + digest $(date -u +%Y-%V)"
+            git pull --rebase origin main || true
             git push
           fi
 

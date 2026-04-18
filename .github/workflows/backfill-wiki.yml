@@ -90,6 +90,8 @@ jobs:
           else
             COUNT=$(grep -c "^## 20" wiki/log.md 2>/dev/null || echo "0")
             git commit -m "wiki: backfill batch ($COUNT total dates ingested)"
+            # Pull (rebase) in case main moved forward during the long-running Claude Code step
+            git pull --rebase origin main || true
             git push
           fi
 
