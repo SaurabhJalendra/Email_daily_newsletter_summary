@@ -46,15 +46,66 @@ jobs:
           TZ: Asia/Kolkata
         run: npm start
 
-      - name: Commit and push summary data
+      - name: Commit summary data (pre-wiki)
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/summaries/
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No new summary to commit"
           else
             git commit -m "Add newsletter summary for $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Wiki ingestion via Claude Code
+        if: success()
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You are performing the INGEST operation for the LLM Wiki.
+
+            Step 1: Read `wiki/WIKI.md` completely. This is the schema — follow it exactly.
+
+            Step 2: Read `wiki/log.md` to find the last-ingested summary date. If log.md is empty (no entries yet), the wiki is fresh — ingest only TODAY's summary (the newest file in `data/summaries/`).
+
+            Step 3: Find any summary files in `data/summaries/YYYY-MM-DD.json` that are NEWER than the last-ingested date. Normally this is one file (today's). Ignore `data/summaries/index.json`.
+
+            Step 4: For each new summary, chronologically oldest first, perform the INGEST operation as defined in WIKI.md:
+            - Identify entities mentioned: companies, products, topics, trends
+            - For each entity: update the relevant page in wiki/companies/, wiki/products/, wiki/topics/, or wiki/trends/ (create new pages if needed, using kebab-case filenames)
+            - Follow the exact page template in WIKI.md (Summary, Timeline, Key Facts, Open Questions, Sources)
+            - Add cross-references between related pages using [[page-name]] syntax
+            - Aim for 3-8 page updates per newsletter; 10-15 total per daily ingest
+
+            Step 5: Update `wiki/index.md` — add any new pages you created to the appropriate section (Companies/Products/Topics/Trends). Sort alphabetically.
+
+            Step 6: Append an entry to `wiki/log.md` using the exact format in WIKI.md (list which pages were updated, which were created, any notable patterns observed).
+
+            Step 7: Do NOT commit — a subsequent step will handle committing the wiki changes.
+
+            Rules:
+            - Only touch files under `wiki/`. Never edit `data/summaries/` (immutable raw sources).
+            - Scope: AI/ML/developer tools only. Skip non-AI content (skincare, travel, generic business news, webinar spam).
+            - Don't page-ify ephemeral content (webinar invitations, course promos, price-change notifications).
+            - Be concise. Timeline entries are one line each. Summary sections are 1-2 paragraphs.
+            - If you encounter a contradiction between new info and existing page content, resolve it by checking the source JSON — the newer source wins unless clearly wrong.
+          claude_args: |
+            --max-turns 30
+            --model claude-opus-4-7
+            --allowedTools Read,Write,Edit,Glob,Grep
+
+      - name: Commit wiki changes
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add wiki/
+          if git diff --staged --quiet; then
+            echo "No wiki changes to commit"
+          else
+            git commit -m "wiki: ingest $(date -u +%Y-%m-%d)"
             git push
           fi
 
