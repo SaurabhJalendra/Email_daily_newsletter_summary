@@ -82,11 +82,13 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          # Re-embed auth token (Claude Code Action detaches default credential)
+          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           git add wiki/
           if git diff --staged --quiet; then
             echo "No wiki changes committed"
           else
-            COUNT=$(grep -c "^## 20" wiki/log.md 2>/dev/null || echo "unknown")
+            COUNT=$(grep -c "^## 20" wiki/log.md 2>/dev/null || echo "0")
             git commit -m "wiki: backfill batch ($COUNT total dates ingested)"
             git push
           fi
