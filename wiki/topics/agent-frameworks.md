@@ -24,6 +24,13 @@ type: topic
 - **2026-04-16**: Cloudflare launches Agent Memory — managed service that extracts facts / events / instructions from agent conversations and retrieves on demand (part of Cloudflare Agents Week) — *source: TAAFT "Claude Just Became a Designer"; TLDR "Opus 4.7, Cloudflare Agents Week"*
 - **2026-04-16**: Ollama 0.21 ships with Hermes Agent (Nous Research) integration for local self-improving agents — *source: Ollama Newsletter*
 - **2026-04-16**: [[claude-design]] ships as design-stage agent with hand-off to [[claude-code]] — *source: TAAFT; World of AI*
+- **2025-11-16**: AgentEvolver research — self-improving loop where AI agents generate tasks, judge performance, and evolve autonomously — *source: TAAFT cycle "AgentEvolver"*
+- **2025-11-13**: Scale's Agentex — enterprise-grade hosting/orchestration framework for deploying, managing, scaling AI agents — *source: AlphaSignal cycle*
+- **2025-11-13**: Replit launches AI Integrations — instant access to 300+ AI models from OpenAI, Anthropic, Meta, Google — *source: AlphaSignal "Replit AI Integrations"*
+- **2025-11-12**: Grok Code Remote — xAI feature to run code in remote environments directly from the web — *source: TAAFT cycle*
+- **2025-11-11**: GPT-5-Codex-Mini — cost-efficient variant with 4× more usage, CLI + IDE distribution — *source: AlphaSignal*
+- **2025-11-06**: Cognition launches Codemaps — structured maps of complex codebases — *source: AlphaSignal*
+- **2025-11-06**: [[elevenlabs]] hosts LLMs inside Agents Platform to cut latency and reasoning cost for voice agents — *source: AlphaSignal*
 - **2025-10-31**: [[cursor-composer]] launches as Cursor's first in-house coding model (~4× faster, sub-30-second tasks) alongside multi-agent UI — *source: AlphaSignal "Cursor unveils Composer"*
 - **2025-10-30**: [[cursor-composer]] / Cursor 2.0 multi-agent IDE; Cognition's SWE-1.5 ships on Windsurf — *source: TLDR AI "Cursor 2.0, Cognition's SWE-1.5"*
 - **2025-10-29**: [[github-agent-hq]] launches — multi-agent control plane in GitHub with Claude / Copilot / others as featured agents — *source: TLDR AI "GitHub Agent HQ"*
@@ -67,4 +74,9 @@ type: topic
 - data/summaries/2025-10-29.json (TLDR AI — GitHub Agent HQ)
 - data/summaries/2025-10-30.json (TLDR AI — Cursor 2.0, Cognition's SWE-1.5)
 - data/summaries/2025-10-31.json (AlphaSignal — Cursor unveils Composer)
+- data/summaries/2025-11-06.json (AlphaSignal — Cognition Codemaps; ElevenLabs hosts LLMs)
+- data/summaries/2025-11-11.json (AlphaSignal — GPT-5-Codex-Mini)
+- data/summaries/2025-11-12.json (TAAFT cycle — Grok Code Remote)
+- data/summaries/2025-11-13.json (AlphaSignal — Replit AI Integrations; Scale Agentex)
+- data/summaries/2025-11-16.json (TAAFT cycle — AgentEvolver)
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; The Rundown AI — OpenAI's superapp hiding inside Codex; TLDR AI — OpenAI Agents SDK; TAAFT — Claude Just Became a Designer [Cloudflare Agent Memory]; TLDR — Opus 4.7, Cloudflare Agents Week; World of AI — ANTHROPIC DROPS Claude Design!; Ollama Newsletter — 0.21 with Hermes Agent)

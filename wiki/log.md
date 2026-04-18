@@ -50,6 +50,176 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 **Notable**: Three themes dominated this day. (1) A Claude Opus 4.7 + Claude Design + Adobe Firefly AI Assistant cluster — design tooling is now a first-class lab battleground, and Anthropic shipping both a flagship model and a Figma-adjacent product on the same day is a major strategic move. (2) Meta's pivot from open weights (via Muse Spark) is a regime change for a lab that defined the open-model era. (3) The judicial-privilege ruling in *United States v. Heppner* is the first US federal precedent explicitly denying attorney-client privilege to AI-chatbot conversations — it immediately reshapes how regulated professionals should treat these tools. Also watching: xAI's Terafab move plus compute-rental pivot, and Allbirds rebranding to NewBird AI as a GPU landlord — a signal that "pivot to compute" is reaching public-company rebrand territory.
 
+## 2025-11-19
+**Ingested**: data/summaries/2025-11-19.json (11 newsletters)
+
+**Pages updated**:
+- [[xai]] — Grok 4.1 launch; personality overhaul + EQ lead + top of LMArena
+- [[andrej-karpathy]] — "verifiable work disappears first to AI" framing
+- [[perplexity]] — Snapchat $400M distribution deal
+- [[ai-funding-rounds]] — Snapchat-Perplexity $400M
+- [[chatgpt]] — medical/legal-advice posture clarification
+- [[anthropic]] — Iceland national-scale education partnership
+
+**Pages created**: [[grok-4-1]]
+
+**Notable**: Grok 4.1 is the personality-tuned follow-up to Grok 4 — lab EQ competition has joined the reasoning-benchmark race, with Grok explicitly leading on EQ while still topping LMArena. Karpathy's "verifiable-work-first" framing gave a crisp mental model for which jobs automate first (things with checkable outputs), and the Snapchat-Perplexity $400M deal shows Perplexity buying social-app distribution.
+
+## 2025-11-18
+**Ingested**: data/summaries/2025-11-18.json (9 newsletters)
+
+**Pages updated**:
+- [[ai-video-generation]] — Depth Anything 3 + "AI voice taking over tech interfaces" framing
+- [[ai-bubble-concerns]] — eBay AI-feature-driven stock surge 75% since 2020 (bull case)
+
+**Notable**: Quieter day — Depth Anything 3 (single/multi-view depth) slots into the broader spatial-video pipeline alongside Marble, and eBay's AI-retrofit-as-stock-surge gave the bull side a new exemplar as institutional bubble warnings continued. "AI voice interfaces" emerged as a recurring TAAFT framing.
+
+## 2025-11-17
+**Ingested**: data/summaries/2025-11-17.json (5 newsletters)
+
+**Pages updated**:
+- (no substantive new wiki-worthy entities; coverage was continuation of prior-day themes — GPT-5.1 adoption, Kimi K2, Gemini 3 anticipation)
+
+**Notable**: Light-volume day; most coverage was continuation/commentary on GPT-5.1, Kimi K2 Thinking, and Gemini-3 anticipation from earlier in the week. No new entities reached the page-creation threshold.
+
+## 2025-11-16
+**Ingested**: data/summaries/2025-11-16.json (6 newsletters)
+
+**Pages updated**:
+- [[agent-frameworks]] — AgentEvolver research (self-improving agents that generate tasks, judge performance, and evolve autonomously)
+
+**Notable**: AgentEvolver is the day's signal — a research framework where agents bootstrap their own training data. Fits the broader "agents that evolve" pattern alongside Hermes Agent (Nous/Ollama integration landed 2026-04-16) and Cloudflare Agent Memory.
+
+## 2025-11-15
+**Ingested**: data/summaries/2025-11-15.json (4 newsletters)
+
+**Pages updated**:
+- [[ai-browsers]] — Mozilla Firefox AI window (user-selectable AI model, privacy-preserving)
+
+**Notable**: Mozilla's entry is strategically distinct from Atlas/Comet — Firefox AI window is bring-your-own-model rather than a bundled-assistant browser, which positions privacy/choice as the differentiator vs the OpenAI/Perplexity models that come with tethered assistants.
+
+## 2025-11-14
+**Ingested**: data/summaries/2025-11-14.json (7 newsletters)
+
+**Pages updated**:
+- [[ai-video-generation]] — Marble launch coverage (adjacent to video-generation category)
+
+**Pages created**: [[world-labs]], [[marble]]
+
+**Notable**: Fei-Fei Li's World Labs shipped Marble — billed as the first commercial "world model," generating persistent 3D environments from text, images, or video. This is the first product page in a new topic category that will also absorb LeCun's post-Meta lab (see 2025-11-12/13 entries) and NVIDIA Cosmos (added 2026-04-16). The world-model category now has both research ([[world-models]] topic) and commercial ([[marble]]) anchors.
+
+## 2025-11-13
+**Ingested**: data/summaries/2025-11-13.json (14 newsletters)
+
+**Pages updated**:
+- [[agent-frameworks]] — Scale Agentex (enterprise orchestration), Replit AI Integrations (300+ models from OpenAI/Anthropic/Meta/Google)
+- [[alibaba]] — partially-trained Qwen 3 sighting
+- [[meta]] — LeCun departure confirmed (world-model lab)
+
+**Pages created**: [[baidu]], [[ernie-4-5-vl-thinking]]
+
+**Notable**: Two threads converged. (1) Baidu shipped ERNIE-4.5-VL-28B-A3B-Thinking as open-source, specifically framed as rivaling GPT-5 and Gemini 2.5 Pro — pushes the open-vs-closed dynamic further in China's favor. (2) Replit's AI Integrations pivots Replit into an aggregator rather than a single-model host; combined with Scale Agentex, the "managed agent infra" layer matured into a distinct category.
+
+## 2025-11-12
+**Ingested**: data/summaries/2025-11-12.json (10 newsletters)
+
+**Pages updated**:
+- [[nvidia]] — $4.5T valuation milestone
+- [[ai-bubble-concerns]] — NVIDIA $4.5T + "AI reached 1.2B users in under 3 years" framing (vs-bubble bull case)
+- [[xai]] — Grok Code Remote (run code in remote environments directly from the web)
+- [[agent-frameworks]] — Grok Code Remote
+- [[meta]] — LeCun's new world-model lab surfaces
+
+**Pages created**: [[world-models]]
+
+**Notable**: The day's creative push was the new "world models" topic — Meta's Yann LeCun publicly shifting focus to world-model research, aligning with World Labs' Marble (launching two days later) and NVIDIA Cosmos. World models are emerging as the post-LLM research frontier: spatial, physical, multi-step-consistent.
+
+## 2025-11-11
+**Ingested**: data/summaries/2025-11-11.json (14 newsletters)
+
+**Pages updated**:
+- [[openai]] — GPT-5-Codex-Mini release
+- [[agent-frameworks]] — GPT-5-Codex-Mini (CLI + IDE distribution, 4× more usage)
+- [[chatgpt]] — Sudoku-style reasoning puzzles referenced
+
+**Pages created**: [[gpt-5-codex-mini]]
+
+**Notable**: OpenAI continues the Codex-model fan-out — GPT-5-Codex-Mini offers 4× the usage allowance at near-parity coding performance, making the cost-optimized variant the default for volume coding work. Fits the "Codex as superapp" narrative that crystallized on 2026-04-16.
+
+## 2025-11-10
+**Ingested**: data/summaries/2025-11-10.json (4 newsletters)
+
+**Pages updated**:
+- [[ai-video-generation]] — Higgsfield Recast (AI video with full-body replacement + background transformation)
+- [[ai-browsers]] — Android Comet rollout to power users
+- [[perplexity-comet]] — Android rollout
+- [[perplexity]] — Android Comet rollout
+
+**Notable**: Low-volume but category-consolidating day. Higgsfield Recast is the first non-lab video model to reach consumer coverage since Sora/Veo, and Comet reaching Android broadens the "AI browser on mobile" category from Atlas-only.
+
+## 2025-11-09
+**Ingested**: data/summaries/2025-11-09.json (9 newsletters)
+
+**Pages updated**:
+- [[ai-bubble-concerns]] — Michael Burry ("Big Short") bets $1B against AI boom citing overvaluation
+
+**Notable**: Burry's $1B public short is the headline bear-case event — unlike BoE/IMF/JPM warnings, this is a named high-conviction investor putting capital behind the bubble thesis, which materially sharpened the narrative the market had been skirting.
+
+## 2025-11-08
+**Ingested**: data/summaries/2025-11-08.json (7 newsletters)
+
+**Pages updated**:
+- [[ai-browsers]] — ChatGPT Atlas macOS availability continues
+- [[chatgpt-atlas]] — macOS availability
+- [[apple]] — Digital Passports feature coverage
+
+**Notable**: Product-maintenance day: Atlas macOS rollout stays in the news cycle, and Apple's Digital Passports feature (mentioned alongside Digital ID from 2025-11-05) fills out the "Apple-as-credentialing-layer" beat. No new pages warranted.
+
+## 2025-11-07
+**Ingested**: data/summaries/2025-11-07.json (14 newsletters)
+
+**Pages updated**:
+- [[openai]] — GPT-5.1 launch (Instant/Thinking modes, 8 personality presets, prompting-guide drop)
+- [[chatgpt]] — GPT-5.1 modes + personalities
+- [[google]] — Ironwood TPU general availability (7th-gen)
+- [[perplexity]] — Comet Assistant rebuild (23% multitasking improvement; explicit-permission gating)
+- [[perplexity-comet]] — Comet Assistant rebuild
+- [[ai-browsers]] — Perplexity rebuilds Comet
+- [[ai-hardware]] — Ironwood TPU GA
+
+**Pages created**: [[moonshot-ai]], [[kimi-k2-thinking]], [[gpt-5-1]], [[ironwood-tpu]]
+
+**Notable**: Dense launch day. Three simultaneous launches: (1) GPT-5.1 with explicit Instant/Thinking modes and 8 personality presets — OpenAI's most visible product refresh since GPT-5; (2) Moonshot's Kimi K2 Thinking, an open-source reasoning model benchmarking above GPT-5 and Claude Sonnet 4.5 on several evals — the open-source side of the reasoning race; (3) Google's Ironwood TPU GA, the 7th-gen chip that makes Anthropic's 2026-04-16 $350B deal plausible. Perplexity's Comet rebuild adds explicit-permission gating — a category-wide safety signal in response to Atlas's hidden-text attacks.
+
+## 2025-11-06
+**Ingested**: data/summaries/2025-11-06.json (12 newsletters)
+
+**Pages updated**:
+- [[google]] — Project Suncatcher (solar-powered orbital TPU compute research)
+- [[ai-hardware]] — Project Suncatcher
+- [[cognition]] — Codemaps (structured maps of complex codebases)
+- [[agent-frameworks]] — Cognition Codemaps; ElevenLabs hosts LLMs in Agents Platform
+
+**Pages created**: [[elevenlabs]], [[project-suncatcher]]
+
+**Notable**: Two orthogonal novelties. (1) Project Suncatcher is Google's first publicly-discussed orbital-compute research — TPUs on solar-powered LEO satellites — a long-horizon response to the data-center power-cost problem. (2) ElevenLabs moving LLM hosting in-platform (to cut voice-agent latency) is the first meaningful sign that voice-first agents will vertically integrate the LLM layer rather than call hosted Claude/OpenAI APIs.
+
+## 2025-11-05
+**Ingested**: data/summaries/2025-11-05.json (15 newsletters)
+
+**Pages updated**:
+- [[openai]] — Sora Android launch
+- [[sora-2]] — Android availability; Ghibli trade-group formal request
+- [[ai-video-generation]] — Sora Android; Ghibli pushback
+- [[apple]] — humanoid moonshot ($133B coverage); Digital ID surfaces
+- [[ai-regulation]] — Ghibli trade-group pushback (Japan); Amazon-Perplexity legal posture
+- [[amazon]] — Perplexity legal notice continuation
+- [[perplexity]] — Amazon legal threat
+
+**Pages created**: [[ai-copyright]]
+
+**Notable**: The day's connective thread was copyright — Japan's Ghibli studio trade group formally asked OpenAI to stop using Studio Ghibli styles as training data, mirroring the national-level manga/anime complaint from October. This is the first page in a new [[ai-copyright]] topic that now also holds the Munich court ruling, EU publisher deals, and the Texas-Roblox privacy case. Separately, Apple's reported $133B humanoid-robot moonshot drops its solo-AI-strategy narrative firmly into the hardware category.
+
 ## LINT 2026-04-18 (week 2025-W42)
 
 **Lint actions**:

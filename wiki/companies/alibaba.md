@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-16
-> **Last updated**: 2025-11-04
+> **Last updated**: 2025-11-19
 > **Status**: active
 > **Related**: [[qwen-3-vl]], [[openai]], [[deepseek]], [[ai-hardware]]
 
@@ -18,6 +18,8 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 
 ## Timeline
 
+- **2025-11-19**: Qwen Code upgraded with free web search, fuzzy matching, cleaner responses — *source: AlphaSignal cycle*
+- **2025-11-06**: Partially trained Qwen 3 reportedly solves top reasoning tests mid-training — *source: AlphaSignal cycle "Alibaba releases partially trained Qwen 3"*
 - **2025-11-04**: Qwen3-Max-Thinking reportedly hits 100% AIME 2025 — *source: TLDR AI "Qwen3-Max-Thinking"*
 - **2025-10-31**: Quark AI Glasses surface in coverage — *source: TLDR cycle*
 - **2025-10-16**: Unveils [[qwen-3-vl]] compact models rivaling GPT-5 Nano — *source: AlphaSignal "Alibaba unveils compact Qwen3-VL models that rival GPT-5 Nano"*
@@ -41,3 +43,5 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 - data/summaries/2025-10-16.json (AlphaSignal — Alibaba unveils compact Qwen3-VL models that rival GPT-5 Nano)
 - data/summaries/2025-10-31.json (TLDR cycle — Quark AI Glasses)
 - data/summaries/2025-11-04.json (TLDR AI — Qwen3-Max-Thinking)
+- data/summaries/2025-11-06.json (AlphaSignal — partially trained Qwen 3 solves reasoning tests)
+- data/summaries/2025-11-19.json (AlphaSignal — Qwen Code upgraded)

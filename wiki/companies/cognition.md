@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-30
-> **Last updated**: 2025-10-31
+> **Last updated**: 2025-11-06
 > **Status**: active
 > **Related**: [[cursor]], [[claude-code]], [[jules]], [[agent-frameworks]]
 
@@ -18,6 +18,7 @@ Cognition is the lab behind the Devin coding agent and the Windsurf AI IDE (acqu
 
 ## Timeline
 
+- **2025-11-06**: Launches Codemaps — builds structured maps of complex codebases — *source: AlphaSignal "Cognition launches Codemaps"*
 - **2025-10-31**: AlphaSignal: Cognition releases a faster coding agent on Windsurf — *source: AlphaSignal "Cursor unveils Composer"*
 - **2025-10-30**: SWE-1.5 lands on Windsurf — *source: TLDR AI "Cursor 2.0, Cognition's SWE-1.5, agent labs"*
 
@@ -38,3 +39,4 @@ Cognition is the lab behind the Devin coding agent and the Windsurf AI IDE (acqu
 
 - data/summaries/2025-10-30.json (TLDR AI — Cursor 2.0, Cognition's SWE-1.5)
 - data/summaries/2025-10-31.json (AlphaSignal — Cursor unveils Composer)
+- data/summaries/2025-11-06.json (AlphaSignal — Cognition launches Codemaps)

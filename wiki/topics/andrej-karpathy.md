@@ -8,8 +8,8 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2025-10-20
-> **Status**: stale
+> **Last updated**: 2025-11-19
+> **Status**: active
 > **Related**: [[nanochat]], [[openai]], [[agent-frameworks]]
 
 ## Summary
@@ -18,6 +18,7 @@ Andrej Karpathy is a founding-era [[openai]] researcher and former Tesla Autopil
 
 ## Timeline
 
+- **2025-11-19**: Karpathy explains why "verifiable work disappears first to AI" — framing of which tasks are first to be automated — *source: OpenAI guide cycle; TAAFT Nov 19*
 - **2025-10-20**: "Karpathy's AI agent reality check" / "Karpathy on AGI" — *source: The Rundown AI; TLDR AI "Karpathy on AGI"*
 - **2025-10-14**: Releases end-to-end ChatGPT-clone repo ([[nanochat]]); NanoGPT coverage — *source: AlphaSignal "Karpathy unveils end-to-end ChatGPT clone repo"; TLDR "NanoGPT"*
 
@@ -34,3 +35,4 @@ Andrej Karpathy is a founding-era [[openai]] researcher and former Tesla Autopil
 
 - data/summaries/2025-10-14.json (AlphaSignal — Karpathy unveils end-to-end ChatGPT clone repo; TLDR — NanoGPT)
 - data/summaries/2025-10-20.json (The Rundown AI — Karpathy's AI agent reality check; TLDR AI — Karpathy on AGI)
+- data/summaries/2025-11-19.json (TAAFT cycle — Karpathy on verifiable-work-first automation)

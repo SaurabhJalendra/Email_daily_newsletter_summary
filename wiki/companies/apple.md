@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-11-03
+> **Last updated**: 2025-11-16
 > **Status**: active
 > **Related**: [[meta]], [[google]], [[gemini]], [[ai-hardware]], [[apple-m5]]
 
@@ -18,6 +18,14 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2025-11-16**: Satellite-powered iPhone features detailed — third-party-app API; offline navigation in Apple Maps via satellite — *source: TAAFT cycle "Apple Works on Satellite-Powered iPhone Features"*
+- **2025-11-15**: Digital ID in Apple Wallet — US passport storable for TSA checkpoints — *source: TAAFT cycle*
+- **2025-11-13**: Humanoid-robot moonshot — $133B investment in robotics and AI — *source: TAAFT cycle "Apple humanoid moonshot"*
+- **2025-11-12**: Next-gen iPhone Air launch delayed — poor sales and manufacturing cuts — *source: TAAFT "Apple delaying iPhone Air"*
+- **2025-11-08**: Digital passports on Apple Wallet previewed — *source: TAAFT cycle Nov 8*
+- **2025-11-07**: Near $1B/year deal with [[google]] for a 1.2T-param private [[gemini]] model to power next Siri — bridges gap from Apple's ~150B-param in-house model — *source: TAAFT "Apple nears $1B Siri-Gemini deal"*
+- **2025-11-06**: $1B/year Siri-Gemini licensing first reported — *source: AlphaSignal cycle*
+- **2025-11-05**: Low-cost MacBook in development — sub-$1,000, aimed at students/businesses/casual users — *source: Medium Daily Digest cycle*
 - **2025-11-03**: Apple licenses a private [[google]] [[gemini]] model to power the next Siri; framed as Apple "abandoning solo AI strategy" — *source: TAAFT "Apple Abandons Solo AI Strategy"; TLDR "Gemini Siri"; TLDR AI "Siri's private Gemini model"*
 - **2025-11-03**: Apple Q3 2025 revenue $102.5B — *source: TLDR cycle*
 - **2025-10-17**: Apple AI team reshuffle reported — *source: Mindstream "Apple's AI team gets another reshake"*
@@ -51,3 +59,11 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 - data/summaries/2025-10-16.json (TLDR — M5 MacBook Pro)
 - data/summaries/2025-10-17.json (Matt from FutureTools — Apple Unveils M5 Chip; Mindstream — Apple's AI team gets another reshake)
 - data/summaries/2025-11-03.json (TAAFT — Apple Abandons Solo AI Strategy; TLDR — Gemini Siri; TLDR AI — Siri's private Gemini model)
+- data/summaries/2025-11-05.json (Medium Daily Digest — Low-cost MacBook)
+- data/summaries/2025-11-06.json (AlphaSignal — Apple-Google $1B/yr Siri licensing)
+- data/summaries/2025-11-07.json (TAAFT — Apple nears $1B Siri-Gemini deal)
+- data/summaries/2025-11-08.json (TAAFT — USA Digital Passports on Apple Wallet)
+- data/summaries/2025-11-12.json (TAAFT — iPhone Air delay)
+- data/summaries/2025-11-13.json (TAAFT — humanoid moonshot / $133B robotics)
+- data/summaries/2025-11-15.json (TAAFT — Digital ID / passport in Apple Wallet)
+- data/summaries/2025-11-16.json (TAAFT — satellite-powered iPhone features)

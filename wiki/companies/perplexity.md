@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-03
-> **Last updated**: 2025-11-03
+> **Last updated**: 2025-11-16
 > **Status**: active
-> **Related**: [[perplexity-comet]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[prompt-injection]]
+> **Related**: [[perplexity-comet]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[amazon]], [[ai-copyright]], [[prompt-injection]]
 
 ## Summary
 
@@ -18,6 +18,12 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 
 ## Timeline
 
+- **2025-11-16**: Samsung Vision AI Companion integrates Microsoft Copilot and Perplexity for natural conversations — *source: TAAFT cycle*
+- **2025-11-10**: Android version of [[perplexity-comet]] rolls out to power users — *source: TAAFT cycle*
+- **2025-11-07**: [[amazon]] issues legal notice disputing Comet classification as UI vs bot — *source: TAAFT cycle*
+- **2025-11-06**: Publishes open-source inter-node kernels for multi-node MoE scaling on AWS — *source: AlphaSignal cycle*
+- **2025-11-06**: Snapchat + Perplexity $400M deal to integrate Perplexity search into Snapchat — *source: AlphaSignal "Snapchat Perplexity $400M deal"*
+- **2025-11-05**: Comet rebuild boosts multitasking/web-interaction by 23% with explicit-permission requirements (see also 2025-11-07) — *source: Medium Daily Digest cycle*
 - **2025-11-03**: "Perplexity just got legal permission" — favorable court / licensing ruling — *source: Mindstream*
 - **2025-10-31**: Defense-in-depth security write-up for [[perplexity-comet]] in the wake of [[chatgpt-atlas]] hidden-text disclosures — *source: TLDR AI cycle*
 - **2025-10-27**: Perplexity-Getty Images content-licensing coverage — *source: TLDR AI cycle*
@@ -36,3 +42,8 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 - data/summaries/2025-10-27.json (TLDR AI cycle — Perplexity-Getty)
 - data/summaries/2025-10-31.json (TLDR AI cycle — Comet defense-in-depth)
 - data/summaries/2025-11-03.json (Mindstream — Perplexity just got legal permission)
+- data/summaries/2025-11-05.json (Medium Daily Digest cycle — Comet rebuild)
+- data/summaries/2025-11-06.json (AlphaSignal — Snapchat Perplexity $400M; open-source MoE kernels)
+- data/summaries/2025-11-07.json (TAAFT — Amazon legal notice; Comet rebuild)
+- data/summaries/2025-11-10.json (TAAFT cycle — Android Comet rollout)
+- data/summaries/2025-11-16.json (TAAFT — Samsung Vision AI Companion)

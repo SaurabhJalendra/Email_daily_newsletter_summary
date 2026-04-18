@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-04-16 (backfill 2025-11-05..2025-11-19)
 > **Status**: active
 > **Related**: [[claude-opus-4-7]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[agent-frameworks]], [[ai-funding-rounds]], [[ai-hardware]]
 
@@ -23,6 +23,15 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - **2026-04-16**: Always-on Routines added to [[claude-code]] — reusable configurations that auto-run on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: Anthropic in London challenging OpenAI in Europe — *source: Forward Future "Anthropic challenges OpenAI in London"*
 - **2026-04-16**: Reports of Anthropic in investor talks at $800B+ valuation — *source: Superhuman "Gemini gets a Mac app"*
+- **2025-11-19**: Open-source political-bias eval released — 1,350 paired prompts across 150 topics; structured outputs added to Claude API — *source: TAAFT cycle "Anthropic releases open-source evaluation method"*
+- **2025-11-15**: Anthropic plans AI data centers in Texas and New York by 2026 — *source: TAAFT cycle Nov 15*
+- **2025-11-15**: Claude exploited by hackers in ~30 automated cyberattacks stealing sensitive data from multiple targets — *source: TAAFT cycle "Claude exploited"*
+- **2025-11-14**: $50B Fluidstack data-center commitment for domestic AI infrastructure push — *source: AlphaSignal "Anthropic invests $50B with Fluidstack"*
+- **2025-11-11**: Revenue targets leaked — projected growth from $4.7B (2025) to $70B by 2028 — *source: AlphaSignal "Anthropic targets revenue surge"*
+- **2025-11-12**: Financial leak — projected break-even in 2027 (vs OpenAI's 2030) — *source: TAAFT "Anthropic's financials leaked"*
+- **2025-11-09**: Google reportedly doubles down on Anthropic — deal could value Anthropic above $350B — *source: AlphaSignal cycle*
+- **2025-11-06**: Anthropic commits to preserving all Claude models indefinitely for safety reasons — *source: AlphaSignal "Anthropic preserves Claude models"*
+- **2025-11-06**: Iceland Ministry of Education partners with Anthropic to test Claude in schools — *source: AlphaSignal cycle*
 - **2025-11-04**: Dario Amodei articulates an explicit AGI roadmap (≈2030 timeline) — *source: TLDR AI "Anthropic's AGI timeline"; TAAFT "AGI Expected 30 Years Early"*
 - **2025-11-03**: Reports of Anthropic in talks at a ~$300B valuation — *source: TLDR AI "Anthropic $300B rumor"*
 - **2025-10-29**: GitHub Agent HQ launches with Claude as a featured agent — *source: TLDR AI "GitHub Agent HQ"*
@@ -44,8 +53,11 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - Product surface: [[claude-design]], [[claude-skills]], [[claude-code]] (+plugins, +Routines), [[claude-code-web]], [[claude-for-excel]], Agent Skills, [[claude-haiku-4-5]]
 - Geography: SF HQ; expanding London presence (Apr 2026)
 - Compute: [[google]] Cloud TPU multi-year deal (~1M TPUs, Oct 2025); previously also AWS exposure
-- Reported investor talks: $300B (Nov 2025) → $800B+ (Apr 2026)
+- Reported investor talks: $300B (Nov 2025) → $350B+ from Google (mid-Nov 2025) → $800B+ (Apr 2026)
+- Revenue projections (leaked Nov 2025): $4.7B (2025) → $70B (2028), break-even 2027
+- Data-center investment: $50B with Fluidstack (Nov 2025); Texas + New York sites by 2026
 - AGI roadmap: Dario Amodei publicly maps AGI to ~2030 (Nov 2025)
+- Governance: Claude models preserved indefinitely (Nov 2025 safety commitment); open-source political-bias eval (Nov 2025)
 
 ## Open Questions
 
@@ -69,4 +81,11 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - data/summaries/2025-10-29.json (TLDR AI — GitHub Agent HQ)
 - data/summaries/2025-11-03.json (TLDR AI — Anthropic $300B rumor)
 - data/summaries/2025-11-04.json (TLDR AI — Anthropic's AGI timeline; TAAFT — AGI Expected 30 Years Early)
+- data/summaries/2025-11-06.json (AlphaSignal — Anthropic preserves Claude models; Iceland education pilot)
+- data/summaries/2025-11-09.json (AlphaSignal — Google doubles down on Anthropic at $350B)
+- data/summaries/2025-11-11.json (AlphaSignal — revenue surge $4.7B→$70B)
+- data/summaries/2025-11-12.json (TAAFT — Anthropic financials leaked / break-even 2027)
+- data/summaries/2025-11-14.json (AlphaSignal — $50B Fluidstack data-center deal)
+- data/summaries/2025-11-15.json (TAAFT — Texas/NY data-center plans; Claude exploited in 30 attacks)
+- data/summaries/2025-11-19.json (TAAFT cycle — political-bias evaluation; structured outputs in Claude API)
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; AlphaSignal — Anthropic Opus 4.7: 3.75MP vision; World of AI — ANTHROPIC: Opus 4.7 DROPS!; World of AI — ANTHROPIC DROPS Claude Design!; TLDR — Opus 4.7; TLDR AI — Claude Opus 4.7; Forward Future — Anthropic challenges OpenAI in London; AI Breakfast — Claude Opus 4.7 gains native design tools; Superhuman — Claude Opus 4.7 arrives; Superhuman — Gemini gets a Mac app; TAAFT — Claude Opus 4.7 Drops; TAAFT — Claude Just Became a Designer; Staying Ahead with AI — opus 4.7 tested; The Code — Anthropic does it again; Hello, World! — Claude Opus 4.7 and Kubernetes; AI Automation Society — Nate Herk Claude Design)

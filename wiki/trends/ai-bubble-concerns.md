@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-10
-> **Last updated**: 2025-11-04
+> **Last updated**: 2025-11-18
 > **Status**: active
 > **Related**: [[ai-funding-rounds]], [[openai]], [[anthropic]], [[nvidia]]
 
@@ -18,6 +18,9 @@ In October 2025 multiple institutional voices — the Bank of England, the IMF, 
 
 ## Timeline
 
+- **2025-11-18**: eBay AI-feature comeback (stock surge 75% since 2020) offered as bull-case vs overvaluation narrative — *source: TAAFT cycle*
+- **2025-11-12**: [[nvidia]] at $4.5T; AI reach 1.2B users in under 3 years — framing of market-size leverage vs bubble risk — *source: TAAFT cycle*
+- **2025-11-09**: Michael Burry ("Big Short") bets $1B against AI boom citing excessive optimism / overvaluation — *source: TAAFT "Michael Burry bets against AI"*
 - **2025-11-04**: "Massive AI Deals Continue To Offset Bubble Concerns" — recurring framing as $38B AWS-OpenAI deal lands — *source: The Tech Buzz*
 - **2025-10-31**: "Vertical AI Eats SaaS" framing as the bull-case counter to bubble warnings — *source: The Tech Buzz "AI as a Service: Vertical AI Eats SaaS"*
 - **2025-10-30**: $1T [[openai]] IPO and $5T [[nvidia]] cap — both covered as bubble-watch milestones — *source: TLDR; Matt from FutureTools*
@@ -50,3 +53,6 @@ In October 2025 multiple institutional voices — the Bank of England, the IMF, 
 - data/summaries/2025-10-30.json (TLDR — OpenAI explores $1T IPO; TLDR — Nvidia hits $5T; Matt from FutureTools — $5T milestone)
 - data/summaries/2025-10-31.json (The Tech Buzz — Vertical AI Eats SaaS)
 - data/summaries/2025-11-04.json (The Tech Buzz — Massive AI Deals Continue To Offset Bubble Concerns)
+- data/summaries/2025-11-09.json (TAAFT — Michael Burry bets against AI)
+- data/summaries/2025-11-12.json (TAAFT cycle — NVIDIA $4.5T; 1.2B users in 3 years)
+- data/summaries/2025-11-18.json (TAAFT — eBay AI features drive stock surge)

@@ -10,7 +10,7 @@ type: trend
 > **First mentioned**: 2025-10-17
 > **Last updated**: 2026-04-16
 > **Status**: active
-> **Related**: [[openai]], [[anthropic]], [[sora-2]], [[character-ai]], [[google]], [[ai-video-generation]], [[prompt-injection]]
+> **Related**: [[openai]], [[anthropic]], [[sora-2]], [[character-ai]], [[google]], [[ai-video-generation]], [[ai-copyright]], [[prompt-injection]]
 
 ## Summary
 
@@ -19,6 +19,15 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 ## Timeline
 
 - **2026-04-16**: US federal court rules in *United States v. Heppner* that AI chatbot conversations (incl. Claude) are not protected by attorney-client privilege — the chatbot is not a lawyer and provider privacy policies permit collection of inputs/outputs — *source: Uncovering AI "Your AI chats can be used against you"*
+- **2025-11-17**: German court rules ChatGPT violated copyright by training on song lyrics (see [[ai-copyright]]) — *source: TAAFT cycle "German Court Ruling on ChatGPT"*
+- **2025-11-15**: Google faces EU anti-spam scrutiny — *source: TAAFT*
+- **2025-11-13**: [[openai]] loses Munich copyright case — ChatGPT ruled to have trained illegally on songs (see [[ai-copyright]]) — *source: AlphaSignal*
+- **2025-11-12**: Wikipedia asks AI companies to credit it and adopt paid Wikimedia Enterprise — *source: AlphaSignal*
+- **2025-11-11**: EU AI Act faces potential freeze amid Big Tech and US lobbying — *source: AlphaSignal cycle*
+- **2025-11-11**: Texas AG Paxton sues Roblox over child-safety failures — adjacent platform-safety enforcement — *source: AlphaSignal cycle*
+- **2025-11-07**: Amazon issues legal notice to [[perplexity]] over [[perplexity-comet]] classification — *source: TAAFT cycle*
+- **2025-11-05**: Japan Studio Ghibli trade-group + creative studios formally ask [[openai]] to stop using their styles as [[sora-2]] training data (see [[ai-copyright]]) — *source: Medium Daily Digest cycle*
+- **2025-11-05**: [[google]]'s Gemma pulled from public access after fabricating criminal accusation against a US senator — *source: Medium Daily Digest cycle*
 - **2025-11-04**: [[google]]'s [[gemma]] open model pulled following Senator Marsha Blackburn defamation incident — political-defamation pressure as a regulatory vector — *source: Mindstream "Google's Gemma is in trouble"*
 - **2025-10-29**: ChatGPT mental-health / suicide-prevention measures unpacked — OpenAI publishes new safeguarding posture — *source: AI Innovations Hub "ChatGPT's Hidden Role in Suicide Prevention"; Matt from FutureTools "OpenAI's mental health plan, unpacked"*
 - **2025-10-29**: [[character-ai]] announces ban on minors using its chatbots (effective Nov 25 2025) following teen-safety pressure — *source: TLDR cycle*
@@ -49,4 +58,11 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 - data/summaries/2025-10-23.json (The Rundown AI — Open letter demands ASI freeze; TAAFT — Hidden Text Hijacks AI Browsers)
 - data/summaries/2025-10-29.json (TLDR cycle — Character.AI minor ban; AI Innovations Hub — Suicide Prevention; Matt from FutureTools — mental health plan)
 - data/summaries/2025-11-04.json (Mindstream — Google's Gemma is in trouble)
+- data/summaries/2025-11-05.json (Medium Daily Digest — Ghibli-studio pushback; Gemma pulled)
+- data/summaries/2025-11-07.json (TAAFT — Amazon legal notice to Perplexity)
+- data/summaries/2025-11-11.json (AlphaSignal cycle — EU AI Act freeze; Texas AG Roblox suit)
+- data/summaries/2025-11-12.json (AlphaSignal — Wikipedia AI crediting demand)
+- data/summaries/2025-11-13.json (AlphaSignal — OpenAI Munich copyright case)
+- data/summaries/2025-11-15.json (TAAFT — Google EU anti-spam scrutiny)
+- data/summaries/2025-11-17.json (TAAFT — German court ChatGPT ruling)
 - data/summaries/2026-04-16.json (Uncovering AI — Your AI chats can be used against you)

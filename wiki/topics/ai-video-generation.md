@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-11-03
+> **Last updated**: 2025-11-18
 > **Status**: active
-> **Related**: [[sora-2]], [[veo-3]], [[openai]], [[google]], [[ai-regulation]]
+> **Related**: [[sora-2]], [[veo-3]], [[marble]], [[world-models]], [[openai]], [[google]], [[world-labs]], [[ai-regulation]], [[ai-copyright]]
 
 ## Summary
 
@@ -18,6 +18,10 @@ AI video generation in October 2025 was dominated initially by [[sora-2]] — [[
 
 ## Timeline
 
+- **2025-11-18**: "AI voice taking over tech interfaces" + Depth Anything 3 (single/multi-view depth) — broader spatial-video pipeline — *source: TAAFT cycle*
+- **2025-11-14**: [[world-labs]] launches [[marble]] — world-model 3D environments from text/images/video; adjacent to video-generation category — *source: AlphaSignal; The Rundown AI*
+- **2025-11-10**: Higgsfield Recast — AI video with full-body replacement, pro video generation, background transformation — *source: TAAFT cycle*
+- **2025-11-05**: Sora Android launch; Japan Ghibli trade-group formal request to stop using styles as training data (see [[ai-copyright]]) — *source: Medium Daily Digest cycle*
 - **2025-11-03**: Google demos a Veo-made ad — first studio-grade Veo creative reaches mainstream coverage — *source: AI Breakfast "Google Demos VEO-made Ad"*
 - **2025-11-01**: "Sora 2 vs Veo 3.1: Who Wins?" head-to-head framing in TAAFT — *source: TAAFT*
 - **2025-10-31**: [[sora-2]] monetization rolls out — creator earnings on cameos / character licensing — *source: AI Breakfast*
@@ -58,3 +62,7 @@ AI video generation in October 2025 was dominated initially by [[sora-2]] — [[
 - data/summaries/2025-10-31.json (AI Breakfast — Sora Monetization)
 - data/summaries/2025-11-01.json (TAAFT — Sora 2 vs Veo 3.1: Who Wins?)
 - data/summaries/2025-11-03.json (AI Breakfast — Google Demos VEO-made Ad)
+- data/summaries/2025-11-05.json (Medium Daily Digest — Sora Android; Ghibli trade-group pushback)
+- data/summaries/2025-11-10.json (TAAFT cycle — Higgsfield Recast)
+- data/summaries/2025-11-14.json (AlphaSignal; The Rundown AI — Marble launch)
+- data/summaries/2025-11-18.json (TAAFT cycle — Depth Anything 3; AI voice interfaces)

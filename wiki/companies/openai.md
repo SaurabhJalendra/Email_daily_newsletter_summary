@@ -1,6 +1,6 @@
 ---
 name: OpenAI
-description: OpenAI — ChatGPT/Sora maker; Codex superapp, GPT-Rosalind, $1T IPO, $38B AWS deal, Atlas browser, Aardvark security agent
+description: OpenAI — ChatGPT/Sora maker; GPT-5.1, Codex superapp, GPT-Rosalind, $1T IPO prep, $38B AWS deal, Atlas browser
 type: company
 ---
 
@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16
+> **Last updated**: 2025-11-19
 > **Status**: active
-> **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[aardvark]], [[anthropic]], [[google]], [[amazon]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-video-generation]], [[ai-regulation]], [[agent-frameworks]]
+> **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[aardvark]], [[gpt-5-1]], [[gpt-5-codex-mini]], [[anthropic]], [[google]], [[amazon]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]]
 
 ## Summary
 
@@ -22,6 +22,17 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - **2026-04-16**: GPT-Rosalind introduced — biology-tuned LLM for drug discovery / biological research — *source: TLDR "Opus 4.7, the clip economy, Cloudflare Agents Week"; TLDR AI "GPT Rosalind, Perplexity Personal Computer"*
 - **2026-04-16**: Agents SDK updated — native harness for cross-file / tool workflows, sandboxed execution — *source: TLDR AI "Gemini 3.1 Flash TTS, OpenAI Agents SDK"*
 - **2026-04-16**: Trusted Access program expands (mentions GPT-5 tiered-identity framing continuing) — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
+- **2025-11-19**: Prompting guidance rollout continues alongside [[gpt-5-1]]; Andrej Karpathy's "verifiable work disappears first" commentary in same cycle — *source: Mindstream; TAAFT*
+- **2025-11-18**: [[gpt-5-1]] prompting guide published — precise controls over tone/structure; IPO valuation talk pushes toward $1T — *source: The Rundown AI "OpenAI prompting guide"; Mindstream*
+- **2025-11-17**: German court rules ChatGPT violated copyright by training on song lyrics (see [[ai-copyright]]) — *source: TAAFT cycle*
+- **2025-11-14**: [[gpt-5-1]] rolls out — Instant/Thinking modes, 8 personality presets, "full reboot of ChatGPT experience"; inference spend with Microsoft Azure reported at $5.02B in H1 2025 — *source: AlphaSignal; The Rundown AI; TAAFT; Mindstream*
+- **2025-11-13**: OpenAI loses Munich copyright case — ChatGPT ruled to have illegally trained on song lyrics; potential European precedent (see [[ai-copyright]]) — *source: AlphaSignal "OpenAI loses Munich copyright case"*
+- **2025-11-11**: [[gpt-5-codex-mini]] released — cost-efficient Codex variant (4× more usage at near-parity coding); OpenAI reportedly commits to $1.15T hw/cloud spend 2025–2035 — *source: AlphaSignal "OpenAI launches GPT-5-Codex-Mini"; TAAFT cycle*
+- **2025-11-08**: [[chatgpt-atlas]] macOS availability continues; IndQA benchmark released — 2,278 questions across 12 Indian languages and 10 domains — *source: TAAFT "IndQA Benchmark"; Medium cycle*
+- **2025-11-07**: Annual revenue run-rate surpasses $20B; infrastructure commitments reportedly reach $1.4T; "GPT-5.1 Thinking" variant spotted pre-launch; deep-research interruption support added — *source: AlphaSignal "OpenAI surpasses $20B ARR"; TAAFT cycle*
+- **2025-11-07**: [[amazon]] serves [[perplexity]] with legal notice over [[perplexity-comet]] shopping agent (OpenAI framing: browser-war escalation) — *source: AlphaSignal*
+- **2025-11-06**: $38B [[amazon]] AWS compute deal continues to dominate coverage; CFO Sarah Friar signals no near-term IPO, prioritising R&D — *source: AlphaSignal; TAAFT*
+- **2025-11-05**: Japan's top creative studios (Studio Ghibli trade group) ask OpenAI to stop using their styles / content as [[sora-2]] training data; Sora Android app released — *source: Medium Daily Digest cycle*
 - **2025-11-04**: $38B multi-year [[amazon]] AWS compute deal — hundreds of thousands of NVIDIA GPUs; targeted late-2026 deployment — *source: The Rundown AI "OpenAI, Amazon, and $38B"; TLDR "OpenAI AWS $38B deal"; TLDR AI "AWS + OpenAI"*
 - **2025-11-04**: AGI-timeline / Anthropic-AGI commentary cycle — Sam Altman / OpenAI roadmap framing covered alongside Dario Amodei's projections — *source: TAAFT "AGI Expected 30 Years Early"; TLDR AI "Anthropic's AGI timeline"*
 - **2025-11-03**: Ilya Sutskever deposition coverage — new details on the November 2023 board ouster — *source: The Rundown AI "OpenAI co-founder reveals new details on board drama"; TLDR AI "Ilya's deposition"*

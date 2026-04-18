@@ -21,6 +21,21 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - **2026-04-16**: [[anthropic]] reportedly in investor talks at $800B+ valuation, approaching OpenAI territory — *source: Superhuman "Gemini gets a Mac app"*
 - **2026-04-16**: Eli Lilly agrees to pay up to $2.75B to Insilico Medicine (AI drug discovery) — *source: The Batch "Meta Pivots From Open Weights, Big Pharma Bets On AI"*
 - **2026-04-16**: Allbirds/NewBird AI announces $50M financing to pivot from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code*
+- **2025-11-19**: Bezos returns as CEO of new AI startup Project Prometheus with $6.2B in funding — AI for engineering/manufacturing — *source: TAAFT "Bezos Returns"*
+- **2025-11-19**: Lovart hits $30M ARR with Figma-like editing for AI designs — *source: AlphaSignal cycle*
+- **2025-11-18**: Sakana AI becomes Japan's most valuable unicorn — *source: TAAFT cycle*
+- **2025-11-18**: [[openai]] prepares for IPO valuing company up to $1T — *source: TAAFT cycle*
+- **2025-11-17**: Cursor raises $2.3B — *source: TAAFT cycle*
+- **2025-11-15**: [[xai]] raises $15B at $200B valuation to boost GPUs and AI capabilities — *source: TAAFT cycle*
+- **2025-11-14**: [[anthropic]] commits $50B to AI data centers with Fluidstack — *source: AlphaSignal*
+- **2025-11-13**: SoftBank sells $5.8B NVIDIA stake to invest $30B in OpenAI — *source: AlphaSignal "SoftBank reallocates to OpenAI"*
+- **2025-11-12**: Episteme — new Sam Altman-backed company to attract top scientists — *source: TAAFT cycle*
+- **2025-11-11**: [[openai]] commits $1.15T in hardware and cloud infrastructure spend between 2025 and 2035 — *source: AlphaSignal cycle*
+- **2025-11-11**: [[anthropic]] revenue projections leaked — $4.7B (2025) → $70B (2028) — *source: AlphaSignal*
+- **2025-11-09**: [[google]] doubles down on Anthropic — deal that could value Anthropic above $350B — *source: AlphaSignal cycle*
+- **2025-11-07**: [[openai]] annual revenue run-rate surpasses $20B; future infra commitments $1.4T — *source: TAAFT cycle*
+- **2025-11-06**: Snapchat + [[perplexity]] $400M deal to integrate AI search into Snapchat — *source: AlphaSignal*
+- **2025-11-06**: [[project-suncatcher]] announced — orbital TPU research — *source: AlphaSignal*
 - **2025-11-04**: [[openai]] + [[amazon]] sign $38B multi-year compute deal — *source: The Rundown AI "OpenAI, Amazon, and $38B"; TLDR; TLDR AI*
 - **2025-11-03**: [[anthropic]] reportedly in talks at ~$300B valuation — *source: TLDR AI "Anthropic $300B rumor"*
 - **2025-10-30**: [[openai]] explores ~$1T IPO — *source: TLDR "OpenAI explores $1T IPO"; AI Innovations Hub*
@@ -71,4 +86,15 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - data/summaries/2025-10-31.json (Mindstream — Meta borrows billions on Halloween)
 - data/summaries/2025-11-03.json (TLDR AI — Anthropic $300B rumor)
 - data/summaries/2025-11-04.json (The Rundown AI — OpenAI, Amazon, $38B; TLDR — AWS $38B; TLDR AI — AWS + OpenAI; The Tech Buzz — Massive AI Deals Continue To Offset Bubble Concerns)
+- data/summaries/2025-11-06.json (AlphaSignal — Snapchat Perplexity $400M; Project Suncatcher)
+- data/summaries/2025-11-07.json (TAAFT — OpenAI $20B ARR / $1.4T infra)
+- data/summaries/2025-11-09.json (AlphaSignal — Google/Anthropic $350B)
+- data/summaries/2025-11-11.json (AlphaSignal — OpenAI $1.15T infra; Anthropic revenue leak)
+- data/summaries/2025-11-12.json (TAAFT — Episteme / Altman)
+- data/summaries/2025-11-13.json (AlphaSignal — SoftBank $5.8B→$30B OpenAI reallocation)
+- data/summaries/2025-11-14.json (AlphaSignal — Anthropic $50B Fluidstack)
+- data/summaries/2025-11-15.json (TAAFT — xAI $15B at $200B)
+- data/summaries/2025-11-17.json (TAAFT — Cursor $2.3B)
+- data/summaries/2025-11-18.json (TAAFT — OpenAI IPO $1T; Sakana AI unicorn)
+- data/summaries/2025-11-19.json (TAAFT — Bezos Project Prometheus $6.2B; AlphaSignal — Lovart $30M ARR)
 - data/summaries/2026-04-16.json (Superhuman — Gemini gets a Mac app [Anthropic $800B]; The Batch — Meta Pivots From Open Weights, Big Pharma Bets On AI; The Rundown AI — Allbirds ditches sneakers; The Code — Shoemaker company pivots to AI)

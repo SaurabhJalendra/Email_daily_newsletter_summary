@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-11-03
+> **Last updated**: 2025-11-15
 > **Status**: active
 > **Related**: [[opera-neon]], [[perplexity-comet]], [[chatgpt-atlas]], [[perplexity]], [[openai]], [[computer-use]], [[prompt-injection]]
 
@@ -18,6 +18,10 @@ AI browsers are a product category where the browser itself acts as an AI runtim
 
 ## Timeline
 
+- **2025-11-15**: Mozilla adds AI window to Firefox — users pick preferred AI model while maintaining privacy controls — *source: TAAFT cycle "Mozilla AI window"*
+- **2025-11-10**: Android [[perplexity-comet]] rolls out to power users — *source: TAAFT cycle*
+- **2025-11-08**: [[chatgpt-atlas]] macOS availability continues — *source: TAAFT cycle*
+- **2025-11-07**: [[perplexity]] rebuilds Comet Assistant — 23% improvement in multitasking and web interaction with explicit-permission gating — *source: TAAFT cycle*
 - **2025-11-03**: [[chatgpt-atlas]] adds Agent Mode for autonomous task execution — *source: TLDR AI cycle*
 - **2025-10-24**: Microsoft AI browser surfaces — *source: TLDR AI "Microsoft AI browser"*
 - **2025-10-23**: Hidden-text [[prompt-injection]] vulnerability disclosed for AI browsers (Atlas-class hijack) — *source: TAAFT "Hidden Text Hijacks AI Browsers"*
@@ -48,3 +52,7 @@ AI browsers are a product category where the browser itself acts as an AI runtim
 - data/summaries/2025-10-23.json (TAAFT — Hidden Text Hijacks AI Browsers)
 - data/summaries/2025-10-24.json (TLDR AI — Microsoft AI browser)
 - data/summaries/2025-11-03.json (TLDR AI cycle — Atlas Agent Mode)
+- data/summaries/2025-11-07.json (TAAFT — Perplexity rebuilds Comet)
+- data/summaries/2025-11-08.json (TAAFT — ChatGPT Atlas macOS continues)
+- data/summaries/2025-11-10.json (TAAFT — Android Comet rollout)
+- data/summaries/2025-11-15.json (TAAFT — Mozilla Firefox AI window)

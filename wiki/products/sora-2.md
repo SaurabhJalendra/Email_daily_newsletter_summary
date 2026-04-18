@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-11-01
+> **Last updated**: 2025-11-07
 > **Status**: active
-> **Related**: [[openai]], [[chatgpt]], [[veo-3]], [[ai-video-generation]], [[ai-regulation]]
+> **Related**: [[openai]], [[chatgpt]], [[veo-3]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]]
 
 ## Summary
 
@@ -18,6 +18,8 @@ Sora 2 is [[openai]]'s second-generation AI video generation model, launched Oct
 
 ## Timeline
 
+- **2025-11-07**: Sora app now on Android — reaches millions more users for hyperrealistic video, remix, cameos — *source: TAAFT cycle*
+- **2025-11-05**: Sora Android launch; Japan's top creative studios (incl. Studio Ghibli trade group) formally ask OpenAI to stop using their styles / content as training data (see [[ai-copyright]]) — *source: Medium Daily Digest cycle*
 - **2025-11-01**: "Sora 2 vs Veo 3.1: Who Wins?" head-to-head comparison coverage — *source: TAAFT*
 - **2025-10-31**: Sora 2 monetization rolls out — creator earnings on cameos / character licensing — *source: AI Breakfast "OpenAI rolls out Sora Monetization"*
 - **2025-10-29**: "AI Video Creates Itself Live" coverage on live/agentic generation — *source: TAAFT*
@@ -52,3 +54,5 @@ Sora 2 is [[openai]]'s second-generation AI video generation model, launched Oct
 - data/summaries/2025-10-29.json (TAAFT — AI Video Creates Itself Live)
 - data/summaries/2025-10-31.json (AI Breakfast — OpenAI rolls out Sora Monetization)
 - data/summaries/2025-11-01.json (TAAFT — Sora 2 vs Veo 3.1: Who Wins?)
+- data/summaries/2025-11-05.json (Medium Daily Digest — Japan creative-studios pushback; Sora Android launch)
+- data/summaries/2025-11-07.json (TAAFT cycle — Sora app Android availability)

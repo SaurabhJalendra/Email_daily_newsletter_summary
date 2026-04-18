@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2025-11-04
+> **Last updated**: 2025-11-18
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]], [[github-agent-hq]]
 
@@ -18,6 +18,12 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 
 ## Timeline
 
+- **2025-11-18**: Plans to assess employees based on AI-driven impact starting next year — *source: TAAFT "Microsoft Ties Employee Performance to AI Impact"*
+- **2025-11-16**: Samsung Vision AI Companion integrates Microsoft Copilot alongside Perplexity — multi-AI-agent integration in consumer electronics — *source: TAAFT cycle*
+- **2025-11-15**: Anthropic plus NVIDIA partnership — ongoing collaboration on AI R&D — *source: TAAFT cycle Nov 15*
+- **2025-11-14**: Plans to double total data-center footprint over next two years; newest AI "super factory" in Atlanta — *source: AlphaSignal cycle*
+- **2025-11-14**: [[openai]] spent $5.02B on inference alone with Microsoft Azure in first half of 2025 — *source: AlphaSignal "OpenAI's Azure inference spend"*
+- **2025-11-07**: Microsoft signs AI-licensing deal with People Inc. via its pay-per-use marketplace — publisher-deal momentum — *source: AlphaSignal "Publishers scramble for AI deals"*
 - **2025-11-04**: Microsoft + IREN $9.7B compute deal coverage continues — *source: TLDR AI cycle*
 - **2025-10-30**: Copilot App Builder — turn Copilot into a no-code enterprise app surface — *source: AlphaSignal "Microsoft turns Copilot into AI app builder for enterprises"*
 - **2025-10-29**: Microsoft + [[openai]] partnership renewed (reported ~27% stake retained) — *source: The Rundown AI "OpenAI, Microsoft renew their vows"; AI Breakfast; TLDR AI*
@@ -47,3 +53,8 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 - data/summaries/2025-10-29.json (The Rundown AI — OpenAI, Microsoft renew their vows; AI Breakfast; TLDR AI — recapitalization)
 - data/summaries/2025-10-30.json (AlphaSignal — Microsoft turns Copilot into AI app builder)
 - data/summaries/2025-11-04.json (TLDR AI cycle — IREN $9.7B compute deal)
+- data/summaries/2025-11-07.json (AlphaSignal — Publishers scramble for AI deals / People Inc. licensing)
+- data/summaries/2025-11-14.json (AlphaSignal — OpenAI Azure inference $5.02B; Atlanta super factory)
+- data/summaries/2025-11-15.json (TAAFT cycle — Anthropic + NVIDIA partnership)
+- data/summaries/2025-11-16.json (TAAFT — Samsung Vision AI Companion)
+- data/summaries/2025-11-18.json (TAAFT — employee performance tied to AI impact)

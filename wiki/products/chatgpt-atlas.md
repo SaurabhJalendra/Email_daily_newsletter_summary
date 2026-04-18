@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-22
-> **Last updated**: 2025-11-03
+> **Last updated**: 2025-11-08
 > **Status**: active
 > **Related**: [[openai]], [[chatgpt]], [[ai-browsers]], [[opera-neon]], [[perplexity-comet]], [[prompt-injection]]
 
@@ -18,6 +18,7 @@ Atlas is [[openai]]'s first-party web browser, launched 2025-10-22 with ChatGPT 
 
 ## Timeline
 
+- **2025-11-08**: macOS availability continues as top-line product release — *source: TAAFT cycle "ChatGPT Atlas Browser Launches"*
 - **2025-11-03**: Atlas tests structured handling of blocked news sources — context without quoted material — *source: AI Breakfast "Google Demos VEO-made Ad"*
 - **2025-11-03**: ChatGPT [[agent-frameworks|Agent Mode]] ships — operates while browsing — *source: AlphaSignal "Google unveils SRL"*
 - **2025-10-31**: ChatGPT browser architecture deep-dive coverage — *source: TLDR AI "OpenAI security agent, ChatGPT browser architecture"*
@@ -46,3 +47,4 @@ Atlas is [[openai]]'s first-party web browser, launched 2025-10-22 with ChatGPT 
 - data/summaries/2025-10-23.json (TAAFT — Hidden Text Hijacks AI Browsers)
 - data/summaries/2025-10-31.json (TLDR AI — ChatGPT browser architecture)
 - data/summaries/2025-11-03.json (AI Breakfast — Google Demos VEO-made Ad [Atlas blocked-news handling]; AlphaSignal — OpenAI Agent Mode)
+- data/summaries/2025-11-08.json (TAAFT cycle — ChatGPT Atlas Browser Launches)

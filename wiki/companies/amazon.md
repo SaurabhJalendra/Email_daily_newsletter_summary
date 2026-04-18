@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-21
-> **Last updated**: 2025-11-04
+> **Last updated**: 2025-11-17
 > **Status**: active
-> **Related**: [[openai]], [[anthropic]], [[nvidia]], [[ai-hardware]], [[ai-funding-rounds]]
+> **Related**: [[openai]], [[anthropic]], [[nvidia]], [[perplexity]], [[perplexity-comet]], [[ai-hardware]], [[ai-funding-rounds]]
 
 ## Summary
 
@@ -18,6 +18,12 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 
 ## Timeline
 
+- **2025-11-17**: Kindle Translate launches — authors can instantly publish in new languages; supports English, Spanish, German in free beta — *source: TAAFT cycle "Kindle Translate Launch"*
+- **2025-11-13**: iRobot warns of possible bankruptcy — deteriorating finances and failed Amazon acquisition — *source: TAAFT cycle Nov 13*
+- **2025-11-09**: Amazon return-to-office mandates backfire — senior AWS talent exodus — *source: TAAFT cycle "Amazon's return to office mandates"*
+- **2025-11-07**: Amazon serves [[perplexity]] with legal notice — disputes classification of [[perplexity-comet]] as a user interface rather than a bot — *source: TAAFT cycle "Amazon issues legal notice"*
+- **2025-11-06**: $38B [[openai]] compute deal continues as headline — *source: AlphaSignal cycle*
+- **2025-11-05**: $38B compute deal coverage continues; Kindle Translate previewed for KDP authors — *source: Medium Daily Digest cycle*
 - **2025-11-04**: $38B multi-year compute deal with [[openai]] announced — hundreds of thousands of NVIDIA GPUs, deployment targeted late-2026 — *source: The Rundown AI "OpenAI, Amazon, and $38B"; TLDR "OpenAI AWS $38B deal"; TLDR AI "Anthropic's AGI timeline, AWS + OpenAI"*
 - **2025-10-28**: Amazon to lay off 30,000 corporate staff — *source: TLDR "Amazon 30k layoffs, Anthropic vs OpenAI"*
 - **2025-10-27**: AWS criticized as struggling on AI / internal bureaucracy — *source: TLDR "AWS struggles, Nvidia robotaxi"*
@@ -47,3 +53,9 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 - data/summaries/2025-10-27.json (TLDR — AWS struggles, Nvidia robotaxi)
 - data/summaries/2025-10-28.json (TLDR — Amazon 30k layoffs)
 - data/summaries/2025-11-04.json (The Rundown AI — OpenAI, Amazon, and $38B; TLDR — OpenAI AWS $38B deal; TLDR AI — Anthropic's AGI timeline, AWS + OpenAI)
+- data/summaries/2025-11-05.json (Medium Daily Digest — $38B deal continuation; Kindle Translate preview)
+- data/summaries/2025-11-06.json (AlphaSignal — $38B deal continuation)
+- data/summaries/2025-11-07.json (TAAFT — Amazon legal notice to Perplexity over Comet)
+- data/summaries/2025-11-09.json (TAAFT cycle — return-to-office exodus)
+- data/summaries/2025-11-13.json (TAAFT cycle — iRobot bankruptcy warning)
+- data/summaries/2025-11-17.json (TAAFT — Kindle Translate Launch)

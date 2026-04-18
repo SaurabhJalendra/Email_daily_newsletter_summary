@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-04
-> **Last updated**: 2025-11-01
+> **Last updated**: 2025-11-17
 > **Status**: active
 > **Related**: [[agent-frameworks]], [[jules]], [[claude-code]], [[replit]], [[cursor-composer]], [[cognition]]
 
@@ -18,6 +18,8 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 
 ## Timeline
 
+- **2025-11-17**: Cursor raises $2.3B — further underlining the AI coding IDE boom — *source: TAAFT cycle "Cursor raises $2.3 billion"*
+- **2025-11-06**: Reports 12.5% accuracy gain from semantic code retrieval; trains custom embedding model — *source: AlphaSignal "Cursor semantic code retrieval"*
 - **2025-11-01**: Cursor 2.0 / Composer continues to dominate post-launch coverage — *source: TAAFT "Sora 2 vs Veo 3.1: Who Wins?"*
 - **2025-10-31**: AlphaSignal: Composer described as 4× faster than models in the same intelligence tier; multi-agent IDE workflows — *source: AlphaSignal "Cursor unveils Composer: first in-house model, 4× faster coding"*
 - **2025-10-30**: Cursor 2.0 launches with [[cursor-composer]] (in-house model) plus multi-agent UI — *source: TLDR AI "Cursor 2.0, Cognition's SWE-1.5"; The Rundown AI "Extropic's 10,000x AI energy breakthrough"*
@@ -45,3 +47,5 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 - data/summaries/2025-10-30.json (TLDR AI — Cursor 2.0; The Rundown AI — Extropic's 10,000x AI energy breakthrough)
 - data/summaries/2025-10-31.json (AlphaSignal — Cursor unveils Composer)
 - data/summaries/2025-11-01.json (TAAFT — Sora 2 vs Veo 3.1)
+- data/summaries/2025-11-06.json (AlphaSignal — Cursor semantic code retrieval / custom embeddings)
+- data/summaries/2025-11-17.json (TAAFT — Cursor raises $2.3B)

@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-04-16
 > **Status**: active
-> **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[ai-hardware]]
+> **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[world-models]], [[world-labs]], [[ai-hardware]]
 
 ## Summary
 
@@ -20,6 +20,11 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: Introduces [[muse-spark]] — natively multimodal reasoning with tool use and multi-agent orchestration; framed as marking Meta's pivot from open-weights releases — *source: The Batch "Meta Pivots From Open Weights"*
+- **2025-11-17**: AI glasses taken offline from pop-up stores — possible reevaluation before wider release — *source: TAAFT cycle "Meta Takes AI Glasses Offline"*
+- **2025-11-15**: Yann LeCun's departure finalized as "significant shift in the industry" — framed alongside [[world-labs]] / [[world-models]] rise — *source: AI Innovations Hub; TAAFT*
+- **2025-11-13**: Chief AI Scientist Yann LeCun confirms plan to exit Meta to start a [[world-models]] startup — *source: AlphaSignal "Yann LeCun to leave Meta"; TLDR AI*
+- **2025-11-09**: AI Slop launches in Europe; Kindle-Translate-style features proliferate — *source: TAAFT cycle*
+- **2025-11-06**: Immersed hits 1.5M users on Meta Quest store — most popular productivity app — *source: AlphaSignal cycle*
 - **2025-10-31**: Meta raises $25B in bonds for AI infrastructure — *source: Mindstream "Meta borrows billions on Halloween"*
 - **2025-10-30**: $75B AI-infrastructure spend coverage continues — *source: TLDR; The Tech Buzz*
 - **2025-10-24**: Meta cuts AI staff (Vibes group / AI org reorg) — *source: Mindstream "Meta cuts AI staff"*
@@ -55,4 +60,9 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 - data/summaries/2025-10-23.json (TLDR AI — Meta AI layoffs)
 - data/summaries/2025-10-24.json (Mindstream — Meta cuts AI staff)
 - data/summaries/2025-10-31.json (Mindstream — Meta borrows billions on Halloween)
+- data/summaries/2025-11-06.json (AlphaSignal — Immersed on Meta Quest)
+- data/summaries/2025-11-09.json (TAAFT — AI Slop Europe launch)
+- data/summaries/2025-11-13.json (AlphaSignal — Yann LeCun to leave Meta; TLDR AI)
+- data/summaries/2025-11-15.json (AI Innovations Hub — LeCun departure; TAAFT cycle)
+- data/summaries/2025-11-17.json (TAAFT — Meta Takes AI Glasses Offline)
 - data/summaries/2026-04-16.json (The Batch — Meta Pivots From Open Weights; InstaByte — Snap cuts 1,000 jobs, blames AI [Meta CoreWeave deal])

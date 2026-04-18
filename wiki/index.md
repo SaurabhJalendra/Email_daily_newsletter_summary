@@ -10,11 +10,13 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[anthropic]] — Claude maker; Opus 4.7, Claude Design, Routines, Excel, Code Web, $300B/$800B valuation talks
 - [[apple]] — solo-AI strategy abandoned; Siri+Gemini deal; M5 chip; $102.5B Q3
 - [[auth0]] — identity platform; Auth0 for AI Agents *(stale)*
+- [[baidu]] — Chinese search/cloud giant; ERNIE-4.5-VL-Thinking open-source multimodal reasoning
 - [[broadcom]] — custom AI silicon partner for OpenAI *(stale)*
 - [[canva]] — design platform; Video 2.0 and own foundation model
 - [[character-ai]] — companion chatbot; ban on minors effective Nov 25 2025
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR with 10× token compression
+- [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace, in-platform LLM hosting
 - [[extropic]] — TSU thermodynamic-sampling chip; ~10,000× energy-efficiency claim
 - [[figure]] — humanoid robots; Figure 03 *(stale)*
 - [[google]] — Gemini family; 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, Anthropic TPU deal
@@ -22,6 +24,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[meta]] — Muse Spark + open-weights pivot; $21B CoreWeave; $25B AI bond; AI staff cuts
 - [[microsoft]] — Copilot ecosystem; Mico personality; Copilot App Builder; renewed OpenAI ~27% stake
 - [[mistral]] — French frontier lab; ships Mistral Studio production-AI platform
+- [[moonshot-ai]] — Chinese frontier lab; ships Kimi K2 Thinking open-source reasoning model
 - [[nvidia]] — AI GPUs; Cosmos physical AI; Ising quantum; Vera Rubin; $5T market cap; Uber 100k robotaxi
 - [[openai]] — ChatGPT/Sora; Atlas browser; Aardvark; PBC recapitalization; $1T IPO; $38B AWS deal
 - [[oracle]] — enterprise cloud; AMD partnership *(stale)*
@@ -31,6 +34,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[replit]] — browser IDE; non-coder pivot *(stale)*
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[thinking-machines]] — Mira Murati's lab; Tinker API; co-founder to Meta *(stale)*
+- [[world-labs]] — Fei-Fei Li's "spatial intelligence" startup; ships Marble world model
 - [[xai]] — Elon Musk's AI lab; NVIDIA deal, Terafab, external compute rental, Grokipedia
 
 ## Products
@@ -52,6 +56,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cursor]] — AI IDE; 1.7, Plan Mode, 2.0 with Composer and multi-agent UI
 - [[cursor-composer]] — Cursor's first in-house coding model; ~4× faster, sub-30-second tasks
 - [[deepseek-ocr]] — open-source OCR with 10× vision-token compression, 97% accuracy
+- [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro
 - [[gemini]] — Google's flagship model family
 - [[gemini-2-5-computer-use]] — Gemini variant for UI control *(stale)*
 - [[gemini-3]] — Google's next-generation model (confirmed Oct 2025) *(stale)*
@@ -59,8 +64,14 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
 - [[github-agent-hq]] — GitHub's multi-agent control plane
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
+- [[gpt-5-1]] — OpenAI's mid-Nov 2025 ChatGPT upgrade; Instant/Thinking modes, 8 personalities
+- [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding
+- [[grok-4-1]] — xAI's mid-Nov 2025 Grok upgrade; personality overhaul, EQ lead, top of LMArena
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch
+- [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
+- [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks
+- [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video
 - [[mistral-studio]] — Mistral's production-AI platform
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot
 - [[nanochat]] — Karpathy's end-to-end ChatGPT clone repo *(stale)*
@@ -68,6 +79,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-codex]] — OpenAI's Codex-as-superapp (ChatGPT + Atlas + Codex)
 - [[opera-neon]] — Opera's AI browser *(stale)*
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
+- [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO
 - [[qwen-3-vl]] — Alibaba's compact vision-language models *(stale)*
 - [[sora-2]] — OpenAI's video model; physics, audio, monetization, Hollywood pushback
 - [[tinker-api]] — Thinking Machines' LLM fine-tuning API *(stale)*
@@ -76,11 +88,13 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 ## Topics
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser
+- [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
 - [[computer-use]] — models that drive GUIs directly *(stale)*
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures
+- [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos
 
 ## Trends
 - [[ai-bubble-concerns]] — institutional warnings vs $1T/$5T deal flow

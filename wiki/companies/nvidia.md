@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-10-08
 > **Last updated**: 2026-04-16
 > **Status**: active
-> **Related**: [[nvidia-cosmos]], [[xai]], [[openai]], [[amd]], [[broadcom]], [[meta]], [[ai-hardware]]
+> **Related**: [[nvidia-cosmos]], [[xai]], [[openai]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-bubble-concerns]]
 
 ## Summary
 
@@ -22,6 +22,13 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2025-11-19**: Path to $6T valuation by 2026 projected; partnership with Japan's RIKEN (2,140 Blackwell GPUs across supercomputers); NVLink for Arm announced; Apollo AI physics models launched — *source: TAAFT "NVIDIA to $6T"; AlphaSignal*
+- **2025-11-12**: $4.5T valuation called out; dominant AI-chip supplier framing — *source: TAAFT cycle*
+- **2025-11-11**: CEO Jensen Huang warns China will win the AI race due to regulatory flexibility and energy subsidies — *source: TAAFT cycle*
+- **2025-11-10**: Huang reiterates China-AI-race warning — *source: TAAFT cycle*
+- **2025-11-09**: China bans American-made AI chips — directly hits NVIDIA and AMD — *source: TAAFT cycle "China bans American AI chips"*
+- **2025-11-07**: Tesla/Musk says needs "gigantic chip fab" for AI and robotics — framed against NVIDIA supply constraints — *source: TAAFT cycle*
+- **2025-11-06**: [[baidu]] ERNIE ecosystem tensions surface as Chinese foundation-labs pressure — *source: AlphaSignal cycle*
 - **2025-10-30**: NVIDIA market cap reportedly tops $5T — *source: TLDR "Nvidia hits $5T"; Matt from FutureTools "AI's $5T milestone"*
 - **2025-10-29**: Uber to deploy 100k NVIDIA-powered robotaxis — *source: TLDR "Uber's 100k robotaxis"*
 - **2025-10-27**: NVIDIA robotaxi coverage; AWS-vs-NVIDIA framing — *source: TLDR "Nvidia robotaxi"*
@@ -50,4 +57,10 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - data/summaries/2025-10-27.json (TLDR — Nvidia robotaxi)
 - data/summaries/2025-10-29.json (TLDR — Uber's 100k robotaxis)
 - data/summaries/2025-10-30.json (TLDR — Nvidia hits $5T; Matt from FutureTools — $5T milestone)
+- data/summaries/2025-11-07.json (TAAFT — Tesla gigantic chip fab needed)
+- data/summaries/2025-11-09.json (TAAFT — China bans American AI chips)
+- data/summaries/2025-11-10.json (TAAFT — Huang China-AI-race warning)
+- data/summaries/2025-11-11.json (TAAFT cycle — NVIDIA Jensen China warning)
+- data/summaries/2025-11-12.json (TAAFT cycle — $4.5T valuation)
+- data/summaries/2025-11-19.json (TAAFT — NVIDIA to $6T; AlphaSignal — RIKEN deployment, NVLink for Arm, Apollo AI)
 - data/summaries/2026-04-16.json (NVIDIA Newsletter — From SDG to physical AI; NVIDIA Developer News — GTC Taipei / DeepStream; The Tech Buzz — TSMC Earnings, Nvidia Quantum Chips; InstaByte — Snap cuts 1,000 jobs [Meta CoreWeave / Vera Rubin])
