@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-27
-> **Last updated**: 2025-12-11 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2025-12-20 (backfill 2025-12-20..2026-01-03)
 > **Status**: active
 > **Related**: [[mistral-studio]], [[mistral-3]], [[openai]], [[anthropic]], [[enterprise-ai]]
 
@@ -18,6 +18,7 @@ Mistral AI is the Paris-based frontier lab known for its open-weight model line 
 
 ## Timeline
 
+- **2025-12-20**: [[mistral-ocr-3]] released — faster, cheaper, higher-fidelity OCR for enterprise document pipelines; 97% accuracy on real-world documents — *source: AlphaSignal 2025-12-20 cycle*
 - **2025-12-11**: Devstral 2 surfaces — successor to Mistral's coding model — *source: TLDR AI "OpenAI Image-2 / Devstral2 / no data generating distribution"*
 - **2025-12-04**: [[mistral-3]] open-weight lineup launches — flagship Large 3 (41B active / 675B total parameters MoE) — *source: 2025-12-04 cycle*
 - **2025-12-02**: HSBC partners with Mistral AI — bank to use Mistral's models for generative AI tools across the bank; HSBC market cap $207B context — *source: 2025-12-02 cycle*

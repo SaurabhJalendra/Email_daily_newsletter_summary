@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-12-19 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
 > **Status**: active
 > **Related**: [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-hardware]]
 
@@ -23,6 +23,10 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - **2026-04-16**: Always-on Routines added to [[claude-code]] — reusable configurations that auto-run on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: Anthropic in London challenging OpenAI in Europe — *source: Forward Future "Anthropic challenges OpenAI in London"*
 - **2026-04-16**: Reports of Anthropic in investor talks at $800B+ valuation — *source: Superhuman "Gemini gets a Mac app"*
+- **2025-12-31**: Anthropic's [[claude-code]] and the wider vibe-coding wave framed as revolutionizing programming; Project Vend vending-machine test recirculates (Claude operates/is manipulated by users) — *source: 2025-12-31 / 2026-01-02 cycle*
+- **2025-12-25**: [[claude-code]] featured alongside [[lovable]] as leading vibe-coding tools (Karpathy framing) — *source: 2025-12-25 cycle*
+- **2025-12-21**: Claude browser extension goes GA — read console errors + DOM state directly; build-and-debug inline in the browser — *source: 2025-12-21 cycle*
+- **2025-12-20**: Anthropic [[agent-skills]] publishes as an open standard — reusable capabilities framework cross-lab; [[claude-code]] coverage continues into long-horizon workflows — *source: 2025-12-20 cycle*
 - **2025-12-18**: Anthropic testing Agentic Tasks Mode for Claude — reframes assistant as a system for getting work done — *source: AI Breakfast "OpenAI's Triple Strike"; TLDR AI*
 - **2025-12-16**: Reverse-engineering of Claude memory system — uses on-demand tools and selective retrieval; FrontierScience announced alongside other lab updates — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal*
 - **2025-12-13**: [[broadcom]]'s mystery $10B customer revealed as Anthropic — entire server racks to be delivered; "Anthropic's vision advantage" framed as comparable to early-2010s Apple — *source: TLDR AI "Disney + OpenAI / GPT-5.2"; TLDR*

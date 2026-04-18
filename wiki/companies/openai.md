@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-12-19 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
 > **Status**: active
 > **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[gpt-5-2]], [[gpt-image-1-5]], [[anthropic]], [[google]], [[amazon]], [[disney]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]], [[agentic-ai-foundation]]
 
@@ -22,6 +22,16 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - **2026-04-16**: GPT-Rosalind introduced — biology-tuned LLM for drug discovery / biological research — *source: TLDR "Opus 4.7, the clip economy, Cloudflare Agents Week"; TLDR AI "GPT Rosalind, Perplexity Personal Computer"*
 - **2026-04-16**: Agents SDK updated — native harness for cross-file / tool workflows, sandboxed execution — *source: TLDR AI "Gemini 3.1 Flash TTS, OpenAI Agents SDK"*
 - **2026-04-16**: Trusted Access program expands (mentions GPT-5 tiered-identity framing continuing) — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
+- **2026-01-03**: OpenAI overhauling its audio models; plans to launch an audio-first personal device in ~1 year (audio-centric product strategy) — *source: The Rundown AI "OpenAI's audio overhaul"; 2026-01-03 cycle*
+- **2026-01-02**: ChatGPT shopping upgrade — product cards with real images, prices, star ratings; [[chatgpt-atlas]] coverage continues — *source: 2026-01-02 cycle*
+- **2026-01-01**: SoftBank $40B OpenAI investment completed at $260B valuation (~10–11% stake), part of the Stargate joint venture with Oracle; OpenAI average stock-based compensation ~$1.5M/employee — inflates operating losses and dilutes shareholders — *source: The Rundown AI; TAAFT; TLDR cycle 2026-01-01*
+- **2025-12-30**: OpenAI hiring "Chief Worry Officer" — focused on AI safety and regulation — *source: 2025-12-30 cycle*
+- **2025-12-27**: OpenAI confirms monetization plans — embedded sponsored content and ads in ChatGPT while "maintaining user trust"; ChatGPT UI gains new formatting blocks (more task-tool look) and autopilot flows for grocery, opportunity hunting, bill management — *source: 2025-12-27 cycle*
+- **2025-12-26**: OpenAI exploring sponsored results / ads in ChatGPT based on user information — *source: 2025-12-26 cycle*
+- **2025-12-25**: GPT-5 solves a long-standing open problem in enumerative geometry — producing a novel inequality proof; broader signal that GPT-5 can contribute directly to research workflows — *source: Superhuman; 2025-12-25 cycle*
+- **2025-12-24**: "Your Year with ChatGPT" launches — personalized year-in-review analyzing user chats and surfacing insights; [[disney]] $1B equity investment in OpenAI confirmed, enabling Sora to use 200+ copyrighted characters — *source: TAAFT; The Rundown AI; 2025-12-24 cycle*
+- **2025-12-23**: SoftBank plans $22.5B additional tranche for OpenAI; Q1 2026 valuation targeting described in funding coverage alongside chip-shortage / investor-sentiment headwinds — *source: TAAFT; TLDR 2025-12-23 cycle*
+- **2025-12-20**: [[gpt-5-2-codex]] released — top scores on SWE-Bench and Terminal-Bench; built for long-running tasks, tool execution, long-horizon work; [[chatgpt]] App Directory opens for third-party submissions (approved apps appear in-directory); OpenAI in early-stage fundraising for up to $100B at reported $830B valuation; Amazon potential $10B+ investment discussed (would include Trainium chip usage); OpenAI participates in US Genesis Mission (24 leading AI companies + 17 national labs + 40K researchers on nuclear energy, quantum computing, manufacturing); GPT-5 demonstrates novel laboratory work — *source: AlphaSignal "GPT-5.2-Codex"; TLDR; The Rundown AI; TAAFT; 2025-12-20 cycle*
 - **2025-12-19**: ChatGPT Apps Store opens — third-party apps publishable to ChatGPT after review; OpenAI in preliminary funding talks at $750B valuation; Amazon reportedly considering $10B+ investment at $500B+ valuation (would include Trainium chips usage) — *source: 2025-12-19 cycle (TLDR; The Rundown AI; Superhuman)*
 - **2025-12-18**: [[gpt-image-1-5]] released — 4× faster, sharper detail, better text rendering, Likeness Retention; OpenAI quietly abandons GPT-5 model router for Free/Go tier (defaults to GPT-5.2 Instant) — *source: AlphaSignal "GPT-Image-1.5 4× faster"; The Rundown AI; TLDR AI; Uncovering AI; AI Breakfast "Triple Strike"*
 - **2025-12-17**: OpenAI ends new-hire equity vesting cliff — talent-war response — *source: Forward Future "NVIDIA Agentic Bet"*

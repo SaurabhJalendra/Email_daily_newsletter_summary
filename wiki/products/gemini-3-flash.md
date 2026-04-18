@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-12-19
-> **Last updated**: 2025-12-19
+> **Last updated**: 2025-12-20
 > **Status**: launched
 > **Related**: [[google]], [[gemini]], [[gemini-3]], [[gpt-5-2]], [[claude-opus-4-5]]
 
@@ -18,6 +18,7 @@ Gemini 3 Flash is the fast / cost-efficient tier of [[google]]'s [[gemini-3]] fa
 
 ## Timeline
 
+- **2025-12-20**: Gemini 3 Flash confirmed as default in Gemini app and Google Search AI Mode; multimodal-native behaviour emphasised; pricing nudges up but nets out as more cost-effective for many workloads — *source: 2025-12-20 cycle*
 - **2025-12-19**: Gemini 3 Flash launches — frontier-level intelligence at fraction of price; 3× faster than Gemini 2.5 Pro and outperforms it on PhD-level reasoning/knowledge benchmarks; default model in Gemini app and AI Search — *source: World of AI "Google Drops GEMINI 3 FLASH!"; The Rundown AI "OpenAI fires back at Gemini"; TLDR; Superhuman "Try Gemini 3 Flash"; AlphaSignal "Gemini 3 Flash / TPU PyTorch / Grok Voice"; Google "Try Gemini 3 Flash: Frontier-level intelligence with faster results"*
 
 ## Key Facts

@@ -20,6 +20,12 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: Introduces [[muse-spark]] — natively multimodal reasoning with tool use and multi-agent orchestration; framed as marking Meta's pivot from open-weights releases — *source: The Batch "Meta Pivots From Open Weights"*
+- **2026-01-03**: Meta researchers publish findings that agents using "self-play" (generating and fixing their own bugs) beat agents trained purely on human-labeled data — *source: TLDR AI 2026-01-03 cycle*
+- **2026-01-02**: Meta-[[manus]] acquisition reframed as push into "Personal Superintelligence" / general-purpose agents across Facebook, Instagram, WhatsApp — *source: 2026-01-02 cycle*
+- **2026-01-01**: Meta-[[manus]] $2B acquisition confirmed; agents to be integrated into Facebook, Instagram, WhatsApp — *source: The Rundown AI; TLDR 2026-01-01 cycle*
+- **2025-12-31**: Meta acquires [[manus]] (Singapore-based AI agent startup with Chinese roots) for $2B+ — cements Meta's position in AI agent products; one of the first US-tech acquisitions of a Chinese-origin startup — *source: The Rundown AI; 2025-12-31 cycle*
+- **2025-12-21**: Meta working on "Mango" for image/video understanding and "Avocado" for coding/reasoning despite leadership and researcher exits — *source: 2025-12-21 cycle*
+- **2025-12-20**: Meta PE-AV and Mango model coverage (multimodal vision and reasoning R&D continues) — *source: 2025-12-20 cycle*
 - **2025-12-19**: Meta and [[google]] team up on TPU PyTorch initiative — *source: AlphaSignal "Gemini 3 Flash / TPU PyTorch / Grok Voice"*
 - **2025-12-18**: SAM Audio shipped — companion to SAM 3 family for audio segmentation — *source: AlphaSignal "ChatGPT removes router / GPT-Image-1.5 / Meta SAM Audio"*
 - **2025-12-16**: Meta trains AI on Alibaba's Qwen — coverage frames Meta as falling back on China's open weights for training — *source: AI Breakfast "Meta Trains AI on China's Qwen"*

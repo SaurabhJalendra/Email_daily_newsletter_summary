@@ -21,6 +21,15 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - **2026-04-16**: [[anthropic]] reportedly in investor talks at $800B+ valuation, approaching OpenAI territory — *source: Superhuman "Gemini gets a Mac app"*
 - **2026-04-16**: Eli Lilly agrees to pay up to $2.75B to Insilico Medicine (AI drug discovery) — *source: The Batch "Meta Pivots From Open Weights, Big Pharma Bets On AI"*
 - **2026-04-16**: Allbirds/NewBird AI announces $50M financing to pivot from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code*
+- **2026-01-03**: SoftBank $40B OpenAI investment completed — gives SoftBank >10% stake in OpenAI; part of Stargate JV with Oracle — *source: 2026-01-03 cycle*
+- **2026-01-02**: SoftBank tranche reframed at $41B for an 11% stake — *source: 2026-01-02 cycle*
+- **2026-01-01**: SoftBank completes $40B OpenAI investment at $260B valuation; [[nvidia]] in advanced talks to acquire [[ai21-labs]] for up to $3B; [[meta]]-[[manus]] $2B acquisition confirmed; OpenAI average stock-based compensation ~$1.5M/employee — *source: The Rundown AI; TAAFT 2026-01-01 cycle*
+- **2025-12-31**: [[meta]] acquires [[manus]] for $2B+ (Singapore / Chinese-roots AI agent startup); [[nvidia]]'s $5B Intel investment yields $2.5B paper profit — *source: 2025-12-31 cycle*
+- **2025-12-26**: [[google]] acquires Intersect Power for $4.75B + debt (secures gigawatts of power capacity for AI data centers) — *source: 2025-12-26 cycle*
+- **2025-12-26**: [[nvidia]] acquires [[groq]] for $20B cash — largest NVIDIA acquisition ever — *source: 2025-12-26 cycle*
+- **2025-12-24**: [[disney]] $1B equity investment in [[openai]] confirmed (Sora 200+ characters) — *source: 2025-12-24 cycle*
+- **2025-12-23**: [[lovable]] raises $330M at $6.6B valuation; Radiant Nuclear raises $300M+ at $1.8B; Tebra raises $250M; Coursera acquires Udemy in $2.5B all-stock deal; [[nvidia]] acquires SchedMD; Yann LeCun's [[ami-labs]] targets €3B — *source: 2025-12-23 cycle*
+- **2025-12-20**: [[openai]] early-stage fundraising at $100B/$830B valuation framing; [[amazon]] $10B+ potential investment continues — *source: 2025-12-20 cycle*
 - **2025-12-19**: [[openai]] in preliminary talks at $750B valuation; [[amazon]] reportedly considering $10B+ investment in [[openai]] at $500B+ valuation (would include Trainium chips usage) — *source: TLDR; The Rundown AI; Superhuman*
 - **2025-12-13**: [[broadcom]]'s mystery $10B AI customer revealed as [[anthropic]] — full server racks to ship; [[disney]] commits to multi-year ChatGPT/Sora deal worth $1B — *source: TLDR AI "Disney + OpenAI / GPT-5.2"; The Rundown AI "Disney chooses OpenAI"*
 - **2025-12-06**: [[snowflake]] $200M multi-year AI partnership with [[anthropic]] integrates Claude into the data platform; [[anthropic]] reportedly preparing for one of the largest IPOs ever — *source: AI Breakfast "Anthropic to Go Public"; Mindstream "Claude got the keys to the data vault"*

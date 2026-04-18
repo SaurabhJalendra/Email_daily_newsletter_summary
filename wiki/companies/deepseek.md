@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-21
-> **Last updated**: 2025-12-04
+> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
 > **Status**: active
 > **Related**: [[deepseek-ocr]], [[deepseek-math-v2]], [[deepseek-v3-2]], [[alibaba]], [[long-context-scaling]]
 
@@ -18,6 +18,8 @@ DeepSeek is the Chinese frontier AI lab known for releasing competitive open-sou
 
 ## Timeline
 
+- **2026-01-03**: DeepSeek publishes new research paper proposing neural-network structure changes for breakthroughs in model cost and stability — *source: 2026-01-03 cycle*
+- **2026-01-02**: DeepSeek-R1 cited alongside Qwen3 as China's competitive Western-frontier-rival model family — *source: 2026-01-02 cycle*
 - **2025-12-04**: DeepSeek V3.2 framed as reasoning-focused open-source release performing on par with state-of-the-art — *source: 2025-12-04 cycle*
 - **2025-12-03**: [[deepseek-v3-2]] and V3.2-Speciale released — V3.2 matches GPT-5; Speciale rivals Gemini 3 Pro and earned IMO/IOI/ICPC 2025 gold medals; both open-source — *source: 2025-12-03 cycle*
 - **2025-11-29**: [[deepseek-math-v2]] open-source — gold-level IMO 2025 results rival Google Deep Think; two-part generator/verifier training system — *source: 2025-11-29 cycle*

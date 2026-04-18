@@ -24,6 +24,12 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - **2026-04-16**: [[nvidia-cosmos]] 2.5 GA; Cosmos 3 pre-announced for summer 2026 — *source: NVIDIA Newsletter*
 - **2026-04-16**: [[xai]] Terafab team sources chipmaking gear; xAI repurposes compute for external rental — *source: TLDR; Forward Future*
 - **2026-04-16**: Allbirds rebrands as "NewBird AI" with a $50M financing deal and pivots from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code; "Gemini on your desktop"*
+- **2026-01-03**: Nebius Token Factory launches Post-training — fine-tune DeepSeek V3 and GPT-OSS 20B/120B as a hosted service; [[nvidia]] [[nitrogen]] open-sources a gaming-agent foundation model — *source: 2026-01-03 cycle*
+- **2026-01-01**: [[nvidia]] Colossus supercomputer scaling to ~2 GW of training capacity; [[xai]] Memphis facility acquisition — *source: 2026-01-01 cycle*
+- **2025-12-31**: [[google]] [[ai-edge-gallery]] release — on-device AI for phones (offline inference) — *source: 2025-12-31 cycle*
+- **2025-12-28**: Cactus cross-platform AI framework — React Native / Flutter / Kotlin Multiplatform runtime with <50 ms latency for on-device LLMs and optional cloud fallback — *source: 2025-12-28 cycle*
+- **2025-12-26**: [[nvidia]] acquires [[groq]] for $20B — explicit inference-tier chip consolidation; [[google]] acquires Intersect Power for $4.75B + debt (gigawatts of power for AI data centers) — *source: 2025-12-26 cycle*
+- **2025-12-23**: [[nvidia]] acquires SchedMD (Slurm scheduling software) — *source: 2025-12-23 cycle*
 - **2025-11-21**: NVIDIA Q3 record $57B revenue (+62% YoY) and $65B forward guide soothes bubble fears; Saudi Arabia inks deals with NVIDIA, [[xai]], and others — 600K GPUs and a 500+ MW data center; Apple N1 Wi-Fi chip outperforms older Broadcom — *source: TLDR "Nvidia crushes earnings"; The Rundown AI*
 - **2025-11-19**: NVIDIA + Japan RIKEN — 2,140 Blackwell GPUs across supercomputers for AI and quantum research; NVLink for Arm and Apollo AI physics models announced — *source: TAAFT cycle; AlphaSignal*
 - **2025-11-14**: [[anthropic]] commits $50B to AI data centers with Fluidstack for domestic AI infra — *source: AlphaSignal*

@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2025-11-19
+> **Last updated**: 2025-12-25
 > **Status**: active
-> **Related**: [[nanochat]], [[openai]], [[agent-frameworks]]
+> **Related**: [[nanochat]], [[openai]], [[agent-frameworks]], [[vibe-coding]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Andrej Karpathy is a founding-era [[openai]] researcher and former Tesla Autopil
 
 ## Timeline
 
+- **2025-12-25**: Karpathy coins / popularizes "[[vibe-coding]]" framing — agent-assisted coding where the developer nudges intent and the agent produces code — widely picked up by Anthropic / Lovable coverage — *source: 2025-12-25 cycle*
 - **2025-11-19**: Karpathy explains why "verifiable work disappears first to AI" — framing of which tasks are first to be automated — *source: OpenAI guide cycle; TAAFT Nov 19*
 - **2025-10-20**: "Karpathy's AI agent reality check" / "Karpathy on AGI" — *source: The Rundown AI; TLDR AI "Karpathy on AGI"*
 - **2025-10-14**: Releases end-to-end ChatGPT-clone repo ([[nanochat]]); NanoGPT coverage — *source: AlphaSignal "Karpathy unveils end-to-end ChatGPT clone repo"; TLDR "NanoGPT"*

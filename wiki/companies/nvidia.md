@@ -22,6 +22,13 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2026-01-03**: [[nitrogen]] released — open-source foundation model for generalist gaming agents, trained on 40,000 hours of gameplay footage across 1,000+ games — *source: The Rundown AI; 2026-01-03 cycle*
+- **2026-01-01**: NVIDIA reportedly in advanced talks to acquire [[ai21-labs]] for up to $3B; Colossus supercomputer expansion targeting ~2 GW of training capacity — *source: TAAFT; AI Breakfast 2026-01-01 cycle*
+- **2025-12-31**: $5B Intel investment yields ~$2.5B profit after Intel share price surge — *source: 2025-12-31 cycle*
+- **2025-12-30**: NVIDIA holds >50% market share in tokenized US Treasury products (reframing); [[groq]] $20B acquisition reinforced as largest NVIDIA deal — *source: 2025-12-30 cycle*
+- **2025-12-27**: NVIDIA robotics director praises Tesla FSD as an AI-maturation milestone (empty-seat robotaxi test rides framing) — *source: 2025-12-27 cycle*
+- **2025-12-26**: NVIDIA acquires [[groq]] for $20B cash — largest acquisition to date; integrates Groq's inference chips into NVIDIA's "AI factory" training→inference stack — *source: The Rundown AI; TAAFT 2025-12-26 cycle*
+- **2025-12-23**: NVIDIA acquires SchedMD (Slurm workload scheduler) — strengthens HPC/AI cluster software stack — *source: 2025-12-23 cycle*
 - **2025-12-17**: [[nemotron-3]] open-source models drop — Nano (30B total / 3B active MoE), 4× faster throughput for multi-agent AI, Super and Ultra promised in 2026; framed as NVIDIA's "agentic" play; "$3B collapse" headlines surface alongside the launch — *source: TLDR AI "Nvidia Nemotron 3 / Claude agentic tasks"; AlphaSignal "NVIDIA Nemotron 3: 4x faster"; The Rundown AI "Nvidia's powerful open AI model play"; Forward Future "NVIDIA's Agentic Bet & A $3B Collapse"; AI Breakfast "NVIDIA Drops NEMOTRON 3"; TLDR "Nvidia drops open-source AI models"*
 - **2025-12-06**: AWS factories + Trainium narrative reframed as direct NVIDIA challenge; "AWS Factories + Trainium vs NVIDIA" coverage — *source: TAAFT "AWS Factories + Trainium vs NVIDIA"*
 - **2025-12-04**: NVIDIA unveils Alpamayo-R1 — human-like perception/reasoning for autonomous vehicles; part of open-source "digital and physical AI" stack — *source: 2025-12-04 cycle*

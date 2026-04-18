@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-04-16 (backfill 2025-12-20..2026-01-04)
 > **Status**: active
 > **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]]
 
@@ -18,6 +18,10 @@ type: topic
 
 ## Timeline
 
+- **2026-01-03**: LangChain reframes "agent engineering" as a discipline; workflow patterns and eval tooling converge — *source: 2026-01-03 cycle*
+- **2025-12-31**: [[meta]] acquires [[manus]] — Chinese-roots general-purpose agent startup brought into Superintelligence unit — *source: 2025-12-31 cycle*
+- **2025-12-21**: [[anthropic]] ships [[claude-code]] browser extension GA — injects Claude into any web page; plus ChatGPT Atlas-style agentic browsing direction — *source: 2025-12-21 cycle*
+- **2025-12-20**: [[agent-skills]] published as open standard — reusable capability packages shared across [[anthropic]] and [[openai]] agent stacks — *source: 2025-12-20 cycle*
 - **2026-04-16**: Always-on Routines land in [[claude-code]] — managed-cloud execution triggered by APIs, schedules, GitHub events — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: [[openai-codex]] repositioned as superapp — background computer use, parallel agents, in-app browser — *source: The Rundown AI "OpenAI's superapp hiding inside Codex"*
 - **2026-04-16**: OpenAI Agents SDK adds native harness for cross-file / tool workflows and sandboxed execution — *source: TLDR AI "Gemini 3.1 Flash TTS, Agent-to-Person marketplace, OpenAI Agents SDK"*

@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-07
-> **Last updated**: 2025-12-04
+> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
 > **Status**: active
 > **Related**: [[openai]], [[gpt-5-1]], [[agentkit]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[sora-2]], [[ai-regulation]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,11 @@ ChatGPT is [[openai]]'s flagship consumer AI assistant. At DevDay 2025 OpenAI re
 
 ## Timeline
 
+- **2026-01-02**: ChatGPT shopping upgrade — product cards with real images, prices, star ratings — *source: 2026-01-02 cycle*
+- **2025-12-27**: ChatGPT UI gains new formatting blocks (more task-tool look); autopilot flows for grocery, opportunity hunting, bill management; monetization confirmed via embedded sponsored content and ads — *source: 2025-12-27 cycle*
+- **2025-12-26**: OpenAI exploring sponsored results and ads in ChatGPT based on user information — *source: 2025-12-26 cycle*
+- **2025-12-24**: "Your Year with ChatGPT" launches — personalized year-in-review analyzing user chats and surfacing insights into interests and conversations — *source: TAAFT 2025-12-24 cycle*
+- **2025-12-20**: [[chatgpt]] App Directory opens — third-party apps can now submit for inclusion inside ChatGPT; approved apps appear in the new directory — *source: AlphaSignal; The Rundown AI 2025-12-20 cycle*
 - **2025-12-04**: OpenAI declares "code red" amid Gemini 3 pressure — focus on speed/reliability/personality of ChatGPT — *source: 2025-12-04 cycle*
 - **2025-12-02**: ChatGPT Android app surfaces "ads feature" / "search ads" / "bazaar content" references — ads in ChatGPT may ship soon — *source: 2025-12-02 cycle*
 - **2025-11-29**: OpenAI confirms third-party Mixpanel breach with limited exposure of basic profile information for some ChatGPT users — *source: 2025-11-29 cycle*

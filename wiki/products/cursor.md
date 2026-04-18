@@ -18,6 +18,7 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 
 ## Timeline
 
+- **2026-01-01**: Cursor launches a new editor for designing websites — pushes Cursor beyond pure code IDE into design/web-build workflow — *source: The Rundown AI 2026-01-01 cycle*
 - **2025-12-12**: Cursor adds Debug Mode — interactive debugger UX inside the agent loop — *source: TLDR AI "DeepMind's automated lab / reverse engineering ChatGPT / Cursor Debug Mode"*
 - **2025-11-17**: Cursor raises $2.3B — further underlining the AI coding IDE boom — *source: TAAFT cycle "Cursor raises $2.3 billion"*
 - **2025-11-06**: Reports 12.5% accuracy gain from semantic code retrieval; trains custom embedding model — *source: AlphaSignal "Cursor semantic code retrieval"*

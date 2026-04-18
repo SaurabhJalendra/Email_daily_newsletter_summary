@@ -21,6 +21,10 @@ Claude Code is [[anthropic]]'s official command-line coding agent, built around 
 - **2026-04-16**: Always-on Routines launched — reusable prompt/repo/connector bundles running on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: [[claude-design]] ships with direct hand-off into Claude Code for build stage — *source: TAAFT "Claude Just Became a Designer"; World of AI "ANTHROPIC DROPS Claude Design!"*
 - **2026-04-16**: Nate Herk demos a fully autonomous Claude Code 4.7 trading bot that researches, trades on Alpaca, manages stops, and self-reports on cron — illustrative of agentic Claude Code workflows in the community — *source: AI Automation Society*
+- **2026-01-02**: Claude Code cited as a leading example of agents "writing code autonomously" — core to the [[vibe-coding]] revolution framing — *source: 2026-01-02 cycle*
+- **2025-12-30**: Claude Code recurs alongside [[cursor]] as the default reference for AI-driven development — *source: 2025-12-30 cycle*
+- **2025-12-25**: Karpathy-vibe-coding future cites Claude Code + [[lovable]] as primary examples of agent-driven development — *source: 2025-12-25 cycle*
+- **2025-12-21**: Claude browser extension GA — reads console errors + DOM state inside the page, enabling in-browser Claude Code-style debug flows — *source: 2025-12-21 cycle*
 - **2025-12-12**: Async subagents and faster compaction added to Claude Code CLI — *source: AlphaSignal "Microsoft 37.5M Copilot"*
 - **2025-12-10**: Claude Code launches inside Slack — coding tasks delegable directly from threads ("Debuggers, REJOICE") — *source: The Rundown AI "Inside OpenAI's massive AI enterprise report"; TLDR AI; Mindstream*
 - **2025-10-31**: "Claude Code secrets" coverage — power-user features and patterns surface — *source: TLDR AI "Claude Code secrets"*

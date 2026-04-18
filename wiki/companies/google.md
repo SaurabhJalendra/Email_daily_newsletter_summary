@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-12-19 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
 > **Status**: active
 > **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[prompt-injection]], [[computer-use]], [[ai-hardware]]
 
@@ -21,6 +21,17 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-16**: Gemini Mac app launches — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT "Gemini Gets TTS and Mac App"; Superhuman "Gemini gets a Mac app"; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome adds "Skills" — save Gemini prompts to reuse across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
+- **2026-01-03**: NotebookLM + Gemini integration deepens — merge notebooks, create images, build apps inside [[notebook-lm]] using Gemini; Waymo testing Gemini as AI assistant inside vehicles continues — *source: The Rundown AI; 2026-01-03 cycle*
+- **2026-01-02**: [[notebook-lm]] launches video overviews — turn text and images into AI video summaries; Google tallies 60 AI announcements for 2025; open-source spotlight on [[ai-edge-gallery]] — *source: 2026-01-02 cycle*
+- **2026-01-01**: Waymo testing Gemini as in-car AI assistant (early pilot) — *source: Superhuman 2026-01-01 cycle*
+- **2025-12-31**: [[ai-edge-gallery]] released — offline, on-device AI for phones; users run models locally without sending data to the cloud — *source: The Rundown AI; 2025-12-31 cycle*
+- **2025-12-30**: Custom "Gems" in Gemini expanded — users build personalized assistants inside the Gemini app — *source: 2025-12-30 cycle*
+- **2025-12-27**: Gmail rolls out option to change usernames up to three times (without losing data or settings) — *source: 2025-12-27 cycle*
+- **2025-12-26**: Google acquires Intersect Power for $4.75B + debt — secures gigawatts of power capacity for AI data centers — *source: 2025-12-26 cycle*
+- **2025-12-25**: Google AI Pro 2 TB plan — 50% off annual subscriptions through New Year's Eve; perks include Nano Banana, 1M-token context, higher limits across Photos, NotebookLM, developer tools; NotebookLM launches Data Tables (structured extraction from sources) and begins testing 30-minute audio lectures — *source: TAAFT; 2025-12-25 cycle*
+- **2025-12-23**: Gemma Scope 2 released — DeepMind's open-source interpretability suite for Gemma 3 models (circuit-level analysis) — *source: 2025-12-23 cycle*
+- **2025-12-21**: A2UI open-source project launches — lets AI agents generate contextually relevant UIs at runtime (step towards AI-driven UI); NotebookLM connected to Gemini app as live context source for creation/research — *source: 2025-12-21 cycle*
+- **2025-12-20**: [[function-gemma]] released — 270M on-device model encoding function calling directly into weights (58% → 85% on Mobile Actions benchmark); T5Gemma 2 coverage continues; [[gemini-3-flash]] set as default in Gemini app and Google Search AI Mode; Opal-in-Gemini consumer-app builder coverage continues — *source: AlphaSignal; The Rundown AI; 2025-12-20 cycle*
 - **2025-12-19**: [[gemini-3-flash]] launches — frontier-level intelligence at fraction of price; 3× faster than Gemini 2.5 Pro and outperforms it on PhD-level reasoning/knowledge benchmarks; powers Gemini app and AI Search by default; Google + [[meta]] team up on TPU PyTorch initiative — *source: World of AI; The Rundown AI; TLDR; Superhuman; AlphaSignal*
 - **2025-12-18**: Gmail launches CC — Gemini-powered productivity assistant connecting Gmail/Calendar/Drive (curated email summaries replacing morning scrolling); DeepMind CEO predicts AGI within 10 years; Gemini desktop adds interactive Gem mini-apps that turn prompts into reusable, structured tools — *source: TAAFT "8M+ AI Chats"; The Rundown AI; AI Breakfast "OpenAI's Triple Strike"; Superhuman; AlphaSignal*
 - **2025-12-17**: Co-founder admits company was late to AI; Gemini Deep Research now produces visual reports for Google AI Ultra subscribers; Code Wiki — auto-update repository documentation system treating docs like code — *source: TAAFT; The Rundown AI; TLDR AI; AlphaSignal "Nemotron 3"*

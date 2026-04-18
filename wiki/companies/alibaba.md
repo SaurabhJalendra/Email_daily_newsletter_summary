@@ -18,6 +18,8 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 
 ## Timeline
 
+- **2026-01-03**: [[qwen-image]] ranked strongest open-source image generator on AI Arena after 10,000+ blind evaluations — "open-source image king" framing — *source: 2026-01-03 cycle*
+- **2026-01-02**: Qwen3 highlighted alongside [[deepseek]]-R1 as China AI-model wave rivaling Western frontier — *source: 2026-01-02 cycle*
 - **2025-12-17**: "China's ChatGPT" coverage cycles spotlight Alibaba/Qwen continued momentum — *source: TAAFT cycle*
 - **2025-12-16**: [[meta]] reportedly trains AI on Alibaba's Qwen — first major US-lab usage of Qwen weights for training framed as a milestone — *source: AI Breakfast "Meta Trains AI on China's Qwen"*
 - **2025-12-02**: Chinese open-AI economy share rises to 14.2% (DeepSeek + Alibaba/Qwen leading); true open-source share of overall AI models drops from 79.3% (2022) to 39% (2025) — *source: 2025-12-02 cycle*

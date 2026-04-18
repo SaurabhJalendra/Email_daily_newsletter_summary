@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2025-12-12 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]], [[github-agent-hq]], [[ai-funding-rounds]]
 
@@ -18,6 +18,10 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 
 ## Timeline
 
+- **2025-12-28**: Microsoft C/C++→Rust replacement plan reinforced with "over 1B lines of code" framing — security/reliability justification — *source: 2025-12-28 cycle*
+- **2025-12-26**: Microsoft plans to replace all C/C++ code with Rust by 2030 — AI-assisted refactoring is core to the plan — *source: 2025-12-26 cycle*
+- **2025-12-25**: Microsoft announces plan to replace its C and C++ codebase with Rust (target by 2030) to improve security and performance — *source: TLDR; 2025-12-25 cycle*
+- **2025-12-24**: CEO Satya Nadella issues ultimatum to Microsoft teams — fully commit to the "AI revolution" or leave; focus on AI-driven productivity — *source: 2025-12-24 cycle*
 - **2025-12-12**: Microsoft reveals 37.5M Copilot-use shifts by hour, day, month — usage-pattern data from enterprise telemetry — *source: AlphaSignal "Microsoft 37.5M Copilot"*
 - **2025-12-11**: Microsoft launches cancer-mapping AI for diagnostics research — *source: The Rundown AI "Microsoft's cancer-mapping AI"*
 - **2025-11-20**: Microsoft commits up to $5B to [[anthropic]] (alongside [[nvidia]]'s $10B) — Anthropic commits $30B Azure compute purchase; Claude Sonnet 4.5 / Haiku 4.5 / Opus 4.1 enter public preview in Microsoft Foundry and M365 Copilot; Azure ND GB300 v6 VMs hit 1.1M tokens/sec setting MLPerf Inference record — *source: TLDR AI "Anthropic $350B val"; TAAFT "Tech Titans Partnership"; The Rundown AI*

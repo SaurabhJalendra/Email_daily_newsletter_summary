@@ -4,6 +4,227 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-01-04
+**Ingested**: data/summaries/2026-01-04.json (low AI/dev-tool content — primarily real-estate webinar and off-topic material)
+
+**Pages updated**: (none — no qualifying AI/ML/dev-tool events in this day's newsletters)
+
+**Pages created**: (none)
+
+**Notable**: Filler day closing the Dec 20–Jan 4 backfill window. Nearly all content was off-topic (real-estate, lifestyle). Included here so the Timeline cadence record is complete.
+
+## 2026-01-03
+**Ingested**: data/summaries/2026-01-03.json
+
+**Pages updated**:
+- [[nvidia]] — releases [[nitrogen]], an open-source gaming-agent model
+- [[google]] — deeper NotebookLM ↔ [[gemini]] integration continues
+- [[alibaba]] — [[qwen-image]] framed as "the open-source king" of image generation
+- [[deepseek]] — network-structure paper surfaces
+- [[meta]] — self-play research coverage
+- [[openai]] — audio-device plans reported
+- [[agent-frameworks]] — LangChain reframes "agent engineering" as a discipline
+- [[ai-funding-rounds]] — coverage continues
+- [[ai-hardware]] — NVIDIA gaming-agent + infra continue
+
+**Pages created**: [[nitrogen]], [[qwen-image]]
+
+**Notable**: Alibaba's Qwen Image overtaking open-source image generation, combined with NVIDIA shipping a standalone open-source gaming-agent model, tightens the open-weights surface — image + agent categories are now both open-leader-led by Chinese and US labs respectively.
+
+## 2026-01-02
+**Ingested**: data/summaries/2026-01-02.json
+
+**Pages updated**:
+- [[openai]] — [[chatgpt]] shopping cards ship
+- [[google]] — NotebookLM video generation coverage
+- [[meta]] — "Personal Superintelligence" framing
+- [[alibaba]] — Qwen3 positioning update
+- [[deepseek]] — R1 retrospective framing
+- [[chatgpt]] — shopping cards product surface
+- [[claude-code]] — continued daily coverage
+- [[ai-browsers]] — [[chatgpt-atlas]] reappears in rollup context
+
+**Pages created**: (none)
+
+**Notable**: Meta's "Personal Superintelligence" tagline formalises the post-Manus positioning — a direct marketing answer to OpenAI's Pro tier and Google's Gemini app, aimed at consumer assistant framing rather than API.
+
+## 2026-01-01
+**Ingested**: data/summaries/2026-01-01.json
+
+**Pages updated**:
+- [[google]] — Waymo integrates [[gemini]] for passenger interactions
+- [[openai]] — SoftBank $40B funding round completes at ~$260B valuation
+- [[nvidia]] — reported $3B acquisition talks for [[ai21-labs]]; Colossus 2GW cluster framing
+- [[meta]] — [[manus]] acquisition at $2B referenced in New Year roundups
+- [[xai]] — Memphis facility coverage
+- [[cursor]] — new website-design editor launches
+- [[ai-funding-rounds]] — SoftBank $40B + AI21 $3B
+- [[ai-hardware]] — Colossus 2GW + NVIDIA acquisition rumours
+
+**Pages created**: [[ai21-labs]]
+
+**Notable**: SoftBank's $40B cash-in at $260B sets a new private-market ceiling for OpenAI and nets out with Dec 2025's $830B-talks story as compute-financing flow. [[nvidia]]'s AI21 Labs approach is the first "NVIDIA buys a model lab" rumour of the cycle and would materially change its posture from supplier to supplier-plus-lab.
+
+## 2025-12-31
+**Ingested**: data/summaries/2025-12-31.json
+
+**Pages updated**:
+- [[meta]] — acquires [[manus]] (Chinese-roots general-purpose agent startup) for ~$2B
+- [[nvidia]] — Intel stake quietly revalued from $5B cost basis to $2.5B unrealised profit
+- [[google]] — [[ai-edge-gallery]] ships as on-device AI runtime for Android
+- [[anthropic]] — [[claude-code]] tied into [[vibe-coding]] narrative
+- [[perplexity]] — pre-meeting research workflow coverage
+- [[claude-code]] — daily coverage tying into vibe-coding wave
+- [[agent-frameworks]] — Manus acquired
+
+**Pages created**: [[manus]], [[ai-edge-gallery]]
+
+**Notable**: Meta buying Manus is the year-end confirmation that frontier labs are treating general-purpose agent startups as strategic IP — not competitors to squeeze out, but teams to absorb. The $2B price sets a valuation floor for Chinese-roots agent teams for the next cycle.
+
+## 2025-12-30
+**Ingested**: data/summaries/2025-12-30.json
+
+**Pages updated**:
+- [[nvidia]] — reaches record share of US Treasury-tracked AI equity exposure
+- [[openai]] — hires "Chief Worry Officer" risk role (unusual exec framing)
+- [[ai-bubble-concerns]] — bubble-vs-boom year-end framing
+- [[claude-code]] — continues daily dev-tool coverage
+
+**Pages created**: (none)
+
+**Notable**: "Chief Worry Officer" is a pure positioning move — OpenAI is branding its own risk function at the same moment market commentary is split on bubble-vs-boom. The two signals reinforce each other.
+
+## 2025-12-28
+**Ingested**: data/summaries/2025-12-28.json
+
+**Pages updated**:
+- [[microsoft]] — "Rust has passed 1 billion lines of code" milestone reported
+- [[enterprise-ai]] — Atlassian 2025 State of Developer Experience — AI dev-tool adoption near-universal
+- [[ai-hardware]] — infrastructure coverage
+
+**Pages created**: (none)
+
+**Notable**: The Atlassian report closes 2025 with AI coding-tool adoption effectively at saturation inside dev teams. Microsoft's Rust 1B-LOC headline is the companion data point for the language-migration wave.
+
+## 2025-12-27
+**Ingested**: data/summaries/2025-12-27.json
+
+**Pages updated**:
+- [[openai]] — [[chatgpt]] ships formatting blocks and a reported "autopilot" mode; ads exploration continues
+- [[google]] — Gmail opens up username selection
+- [[nvidia]] — Tesla FSD endorsement (Jensen Huang praise cycle)
+- [[amazon]] — "leader's dilemma" framing + robotaxi coverage
+- [[chatgpt]] — formatting blocks + autopilot surface
+
+**Pages created**: (none)
+
+**Notable**: ChatGPT formatting blocks + autopilot mode is the clearest step toward "ChatGPT as a workspace" rather than a chat surface — edits, structured outputs, and automatic multi-step actions in one UI.
+
+## 2025-12-26
+**Ingested**: data/summaries/2025-12-26.json
+
+**Pages updated**:
+- [[nvidia]] — acquires [[groq]] for a reported $20B; [[intersect-power]] $4.75B deal (Google) for clean compute
+- [[google]] — [[intersect-power]] $4.75B power partnership
+- [[microsoft]] — "Rust by 2030" target reported
+- [[openai]] — ChatGPT ads exploration continues
+- [[ai-funding-rounds]] — $20B (Groq) + $4.75B (Intersect Power)
+- [[ai-hardware]] — Groq LPU inside NVIDIA; Intersect Power as clean-compute play
+
+**Pages created**: [[groq]]
+
+**Notable**: NVIDIA acquiring Groq at $20B is the period's biggest silicon-consolidation move: it converts the category's most-credible LPU alternative into in-house capacity and ends Groq's independence narrative. Google-plus-Intersect at $4.75B for clean power is the matching infra story on the demand side.
+
+## 2025-12-25
+**Ingested**: data/summaries/2025-12-25.json
+
+**Pages updated**:
+- [[openai]] — GPT-5 reportedly solves open problem in enumerative geometry
+- [[microsoft]] — Nadella push for C/C++ → [[rust]] migration continues
+- [[google]] — [[gemini]] AI Pro 50% off; NotebookLM Data Tables ship
+- [[xai]] — US Department of War selects Grok for internal use
+- [[anthropic]] — [[claude-code]] picks up vibe-coding tooling positioning
+- [[andrej-karpathy]] — coins/popularises [[vibe-coding]] framing
+- [[vibe-coding]] — trend page created around Karpathy framing
+
+**Pages created**: [[vibe-coding]]
+
+**Notable**: GPT-5 solving an enumerative-geometry problem is the first post-5.2 "frontier math" headline — and Karpathy's "vibe coding" framing becomes the labelled umbrella for the dev-tool wave of the preceding month ([[cursor]], [[lovable]], [[claude-code]]).
+
+## 2025-12-24
+**Ingested**: data/summaries/2025-12-24.json
+
+**Pages updated**:
+- [[openai]] — "Your Year with ChatGPT" wrap surfaces; [[disney]] $1B equity investment in OpenAI
+- [[disney]] — $1B equity stake + Sora/ChatGPT character-deal framing
+- [[microsoft]] — Nadella "AI revolution" ultimatum to teams (internal memo framing)
+- [[enterprise-ai]] — Nadella ultimatum; Copilot/agent adoption push
+- [[chatgpt]] — "Your Year" product surface
+- [[ai-funding-rounds]] — Disney $1B equity
+
+**Pages created**: (none — [[disney]] updated)
+
+**Notable**: Disney's $1B equity investment converts the Sora/ChatGPT partnership from licensing deal to strategic stake — one of the largest non-tech-industry equity moves into OpenAI in the cycle. Nadella's internal ultimatum timestamps the Microsoft-side push behind the same week.
+
+## 2025-12-23
+**Ingested**: data/summaries/2025-12-23.json
+
+**Pages updated**:
+- [[openai]] — reported $22.5B SoftBank tranche before the broader $40B round
+- [[google]] — Gemma Scope 2 interpretability tooling
+- [[nvidia]] — SchedMD acquisition for Slurm/HPC scheduling
+- [[ai-funding-rounds]] — SoftBank $22.5B
+- [[ai-hardware]] — NVIDIA + SchedMD HPC tooling
+
+**Pages created**: (none)
+
+**Notable**: The $22.5B SoftBank framing on 12-23 is the intermediate data point between the earlier $750B/$830B talks and 01-01's $40B close at $260B — the money rails here line up into one sequential story across the holiday window.
+
+## 2025-12-22
+**Ingested**: data/summaries/2025-12-22.json (low AI/dev-tool content — primarily an underwater-object-detection academic paper plus off-topic material)
+
+**Pages updated**: (none — no qualifying events)
+
+**Pages created**: (none)
+
+**Notable**: Holiday-window filler day. Logged for continuity.
+
+## 2025-12-21
+**Ingested**: data/summaries/2025-12-21.json
+
+**Pages updated**:
+- [[anthropic]] — [[claude-code]] browser extension GA; injects Claude into any web page
+- [[google]] — A2UI (agent-to-UI) protocol framing; NotebookLM ↔ Gemini integration deepens
+- [[meta]] — Mango / Avocado internal model codenames surface
+- [[claude-code]] — browser-extension GA
+- [[agent-frameworks]] — Claude browser extension + A2UI
+- [[ai-browsers]] — [[chatgpt-atlas]] + Firefox AI features positioning
+
+**Pages created**: (none)
+
+**Notable**: Claude Code as a browser extension is Anthropic's first "agent where you already work" surface — comparable in positioning to GitHub Agent HQ and Atlas, but distributed as a browser add-on rather than a whole browser or IDE fork.
+
+## 2025-12-20
+**Ingested**: data/summaries/2025-12-20.json
+
+**Pages updated**:
+- [[openai]] — [[gpt-5-2-codex]] lands; ChatGPT App Directory opens; $830B valuation at $100B raise talks; US Genesis Mission framing
+- [[mistral]] — [[mistral-ocr-3]] launches (~97% OCR accuracy)
+- [[google]] — [[function-gemma]] 270M on-device function-calling; T5Gemma 2 coverage
+- [[anthropic]] — [[agent-skills]] published as open standard
+- [[meta]] — PE-AV / Mango / Avocado internal-model codenames
+- [[amazon]] — reported $10B+ OpenAI investment continues
+- [[gpt-5-2]] — Codex sibling lands
+- [[chatgpt]] — App Directory surface
+- [[claude-code]] — Agent Skills open standard integration
+- [[ai-funding-rounds]] — OpenAI $830B @ $100B raise; Lovable $330M @ $6.6B
+- [[ai-hardware]] — Liquid AI LFM2-2.6B-Exp on-device coverage
+- [[enterprise-ai]] — [[agent-skills]] publication
+
+**Pages created**: [[gpt-5-2-codex]], [[mistral-ocr-3]], [[function-gemma]], [[agent-skills]], [[lovable]], [[luma]], [[ami-labs]], [[zhipu-ai]], [[glm-4-7]], [[liquid-ai]], [[minimax]]
+
+**Notable**: 12-20 is the single densest day of the backfill window — a full cross-lab product cycle (OpenAI Codex-5.2 + App Directory, Mistral OCR 3, Google FunctionGemma/T5Gemma 2, Anthropic Agent Skills as an open standard, Luma Ray3 Modify, Zhipu GLM-4.7) plus simultaneous funding signals ($830B OpenAI talks, Lovable $330M, AMI Labs €3B, Amazon $10B+). The "Agent Skills as open standard" beat is the most-lasting item: it reframes Skills from an Anthropic-specific primitive to a cross-lab interop layer.
+
 ## 2025-12-19
 **Ingested**: data/summaries/2025-12-19.json (17 newsletters)
 

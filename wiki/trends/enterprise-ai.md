@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-05
-> **Last updated**: 2025-11-04
+> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
 > **Status**: active
 > **Related**: [[gemini-enterprise]], [[agentforce]], [[salesforce]], [[microsoft]], [[google]], [[openai]], [[anthropic]], [[chatgpt-company-knowledge]], [[claude-for-excel]], [[github-agent-hq]], [[mistral-studio]], [[agent-frameworks]]
 
@@ -18,6 +18,9 @@ October 2025 was a sustained enterprise-AI product cycle. [[google]] shipped [[g
 
 ## Timeline
 
+- **2025-12-28**: Atlassian 2025 State of Developer Experience — enterprise AI dev-tool adoption near-universal — *source: TLDR AI 2025-12-28 cycle*
+- **2025-12-24**: [[microsoft]] Satya Nadella issues "AI revolution" ultimatum to teams — internal memo pushes Copilot/agent adoption across product lines — *source: 2025-12-24 cycle*
+- **2025-12-20**: [[anthropic]] publishes [[agent-skills]] as an open standard for reusable enterprise-agent capabilities — *source: 2025-12-20 cycle*
 - **2025-10-30**: [[microsoft]] Copilot App Builder turns Copilot into no-code enterprise app surface — *source: AlphaSignal*
 - **2025-10-29**: [[github-agent-hq]] launches as multi-agent control plane in GitHub — *source: TLDR AI*
 - **2025-10-28**: [[claude-for-excel]] launches as a Claude sidebar inside Excel with finance Agent Skills — *source: The Rundown AI; TLDR AI; Mindstream*

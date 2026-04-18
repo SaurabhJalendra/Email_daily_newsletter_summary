@@ -20,6 +20,8 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 - **2026-04-16**: Terafab reaches out to chipmaking suppliers for price quotes and delivery timelines, requesting speedy estimates with minimal product disclosure — *source: TLDR "Inside Elon's Terafab"*
 - **2026-04-16**: xAI starts repurposing compute stockpile for external customers — *source: Forward Future "Anthropic challenges OpenAI in London"*
+- **2026-01-01**: xAI scaling operations near Memphis — acquired a new facility to expand compute footprint — *source: AI Breakfast 2026-01-01 cycle*
+- **2025-12-25**: Department of War selects xAI Grok models for its GenAI program — millions of employees with highest-security-clearance AI access — *source: 2025-12-25 cycle*
 - **2025-12-19**: Grok Voice Agent API released — voice-first agent endpoint — *source: AlphaSignal "Gemini 3 Flash / TPU PyTorch / Grok Voice Agent API"*
 - **2025-12-08**: "Musk's Grok Saves a Life" — viral case study; Grok credited with medical-emergency assistance — *source: TAAFT "Musk's Grok Saves a Life!?"*
 - **2025-12-02**: xAI launches Grok 4.1 dialog model with Thinking and Standard modes — controlled, conversational; mode toggle balances depth vs speed — *source: 2025-12-02 cycle*

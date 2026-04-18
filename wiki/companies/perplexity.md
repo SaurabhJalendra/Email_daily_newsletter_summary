@@ -18,6 +18,7 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 
 ## Timeline
 
+- **2025-12-31**: Perplexity introduces automation for pre-meeting research — assistant compiles context ahead of scheduled meetings — *source: 2025-12-31 cycle*
 - **2025-12-09**: The New York Times sues Perplexity over content scraping/use ("The Times vs Perplexity") — adds to publisher-litigation pipeline — *source: TLDR cycle "The Times vs Perplexity"*
 - **2025-11-29**: Perplexity Shopping launches with virtual try-on and enhanced memory — research and buy directly in-app — *source: 2025-11-29 cycle*
 - **2025-11-28**: Personalization features added — assistant retains preferences/interests/context across conversations — *source: 2025-11-28 cycle*

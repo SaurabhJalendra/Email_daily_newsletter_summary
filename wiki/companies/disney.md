@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-13
-> **Last updated**: 2025-12-16
+> **Last updated**: 2025-12-24
 > **Status**: active
 > **Related**: [[openai]], [[google]], [[chatgpt]], [[sora-2]], [[ai-copyright]]
 
@@ -18,6 +18,7 @@ Disney enters newsletter coverage in mid-December 2025 as the year's most conseq
 
 ## Timeline
 
+- **2025-12-24**: Disney $1B equity investment in [[openai]] reported — reframes the character-license deal as a direct capital commitment; Sora can now use 200+ copyrighted characters — *source: 2025-12-24 cycle*
 - **2025-12-16**: Disney 1-year exclusivity for Sora characters confirmed — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal*
 - **2025-12-13**: $1B Disney–OpenAI deal announced — Sora and ChatGPT Image access to 200+ Disney/Pixar/Marvel/Star Wars characters; Disney also sues [[google]] over AI usage of its IP — *source: TAAFT "Google vs OpenAI Same-Day Showdown"; The Rundown AI "Disney chooses OpenAI"; TLDR; AI Breakfast; Superhuman; Mindstream*
 

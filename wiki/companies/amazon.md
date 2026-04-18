@@ -18,6 +18,8 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 
 ## Timeline
 
+- **2025-12-27**: Amazon faces "leader's dilemma" in dealing with AI shopping bots; relies on a secret army of humans to rescue stranded robotaxis — *source: 2025-12-27 cycle*
+- **2025-12-20**: Amazon–OpenAI potential $10B+ investment coverage continues; $830B OpenAI valuation framing — *source: 2025-12-20 cycle*
 - **2025-12-19**: Amazon reportedly considering $10B+ investment in [[openai]] at $500B+ valuation; deal would include OpenAI training/inference workloads on AWS Trainium — *source: TLDR; The Rundown AI*
 - **2025-12-12**: Amazon launches new Coding Agent — *source: TAAFT "Amazon launched a new Coding agent"*
 - **2025-12-06**: AWS Factories + Trainium positioned vs NVIDIA in coverage — *source: TAAFT "AWS Factories + Trainium vs NVIDIA"*

@@ -1,0 +1,41 @@
+---
+name: Vibe Coding
+description: Prompt-driven software development where agents write most of the code; Karpathy-popularized framing
+type: trend
+---
+
+# Vibe Coding
+
+> **Type**: trend
+> **First mentioned**: 2025-12-25
+> **Last updated**: 2026-01-02
+> **Status**: active
+> **Related**: [[andrej-karpathy]], [[claude-code]], [[cursor]], [[lovable]], [[cognition]], [[agent-frameworks]], [[enterprise-ai]]
+
+## Summary
+
+"Vibe coding" is the late-2025 / early-2026 framing — popularized by Andrej Karpathy — for a style of software development in which the human describes intent in natural language and an AI agent writes, runs, debugs, and iterates on most of the code. In Dec 2025 Karpathy elevates the term to discuss its likely reshaping of the software industry, emphasizing iteration speed and testing as the new bottleneck instead of typing code. By early 2026 newsletters frame [[claude-code]], [[cursor]], [[lovable]], and Replit as category leaders, while funding rounds (e.g. [[lovable]]'s $6.6B valuation) validate the segment as a venture investment thesis rather than a developer-tooling curiosity.
+
+## Timeline
+
+- **2026-01-02**: Framed as "revolutionizing the programming profession" — agents like [[claude-code]] writing code autonomously; [[lovable]] and Replit cited alongside as pillars of the category — *source: 2026-01-02 cycle*
+- **2025-12-25**: Karpathy discusses the future of "vibe coding" and its potential to transform software development — iteration speed and testing as central bottlenecks; [[claude-code]] and [[lovable]] cited as active examples — *source: 2025-12-25 cycle*
+- **2025-12-23**: [[lovable]] raises $330M at $6.6B valuation — validates the vibe-coding category as venture thesis — *source: 2025-12-23 cycle*
+
+## Key Facts
+
+- Term popularizer: [[andrej-karpathy]]
+- Category leaders (late 2025): [[claude-code]], [[cursor]], [[lovable]], Replit
+- Bottleneck shift: from code-writing speed to iteration + testing speed
+
+## Open Questions
+
+- What share of professional software work will be "vibe-coded" by end of 2026?
+- Which vibe-coding layer (CLI / IDE / browser / agent framework) captures the most durable distribution?
+- How do regulated sectors (finance, healthcare) adapt review/audit to vibe-coded artifacts?
+
+## Sources
+
+- data/summaries/2025-12-23.json (Lovable $330M raise)
+- data/summaries/2025-12-25.json (Karpathy on vibe coding future)
+- data/summaries/2026-01-02.json (vibe-coding revolution framing)

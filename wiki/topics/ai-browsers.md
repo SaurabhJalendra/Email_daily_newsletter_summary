@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-12-13 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-01-02 (backfill 2025-12-20..2026-01-04)
 > **Status**: active
 > **Related**: [[opera-neon]], [[perplexity-comet]], [[chatgpt-atlas]], [[perplexity]], [[openai]], [[google]], [[gemini-3]], [[computer-use]], [[prompt-injection]]
 
@@ -18,6 +18,8 @@ AI browsers are a product category where the browser itself acts as an AI runtim
 
 ## Timeline
 
+- **2026-01-02**: [[chatgpt-atlas]] continues surfacing in coverage alongside Firefox AI and other browser-embedded assistants — *source: 2026-01-02 cycle*
+- **2025-12-21**: Firefox AI features framed as privacy-preserving alternative to Atlas/Comet; [[anthropic]] [[claude-code]] browser-extension GA adds cross-site agent behavior — *source: 2025-12-21 cycle*
 - **2025-12-13**: Disco AI browser launched in Google Labs — GenTabs powered by [[gemini-3]] turn web pages into interactive web apps — *source: Superhuman "GPT-5.2 is here"*
 - **2025-12-10**: "Slop Evader" web browser launches — content-quality filter as a browser-level feature — *source: TLDR cycle*
 - **2025-11-15**: Mozilla adds AI window to Firefox — users pick preferred AI model while maintaining privacy controls — *source: TAAFT cycle "Mozilla AI window"*
