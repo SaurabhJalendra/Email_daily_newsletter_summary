@@ -18,6 +18,40 @@ function cleanUrl(url) {
   } catch { return null; }
 }
 
+// Senders/sender-domains to drop entirely (recurring promo, non-AI, webinar spam)
+// Match is substring-based on the FROM field (case-insensitive)
+const ALWAYS_SKIP_SENDERS = [
+  'thetechbuzz',           // Real Intent webinar spam — not AI content
+  'real intent',
+  'realintent.com'
+];
+
+// Subject patterns that flag a newsletter as low-priority promo (LOW before LLM sees it)
+const PROMO_SUBJECT_PATTERNS = [
+  /webinar/i,
+  /register now/i,
+  /register today/i,
+  /limited time/i,
+  /exclusive offer/i,
+  /save \$\d+/i,
+  /\d+% off/i,
+  /last chance/i,
+  /price increase/i,
+  /enroll now/i,
+  /seats? (?:are )?(?:filling|going)/i
+];
+
+export function isPromoSubject(subject) {
+  if (!subject) return false;
+  return PROMO_SUBJECT_PATTERNS.some(rx => rx.test(subject));
+}
+
+export function shouldSkipSender(fromField) {
+  if (!fromField) return false;
+  const lower = fromField.toLowerCase();
+  return ALWAYS_SKIP_SENDERS.some(s => lower.includes(s));
+}
+
 export class NewsletterParser {
   /**
    * Extract clean text content from newsletter email
@@ -147,9 +181,21 @@ export class NewsletterParser {
   }
 
   /**
-   * Parse multiple newsletters into structured format
+   * Parse multiple newsletters into structured format.
+   * Drops senders in ALWAYS_SKIP_SENDERS entirely (recurring promo / non-AI noise).
    */
   static parseNewsletters(emails) {
-    return emails.map(email => this.extractContent(email));
+    const parsed = emails.map(email => this.extractContent(email));
+    const filtered = parsed.filter(nl => {
+      if (shouldSkipSender(nl.from)) {
+        console.log(`  ⏭️  Skipping spam/non-AI sender: ${nl.from}`);
+        return false;
+      }
+      return true;
+    });
+    if (filtered.length < parsed.length) {
+      console.log(`  Filtered ${parsed.length - filtered.length} newsletters from skip list (kept ${filtered.length} of ${parsed.length})`);
+    }
+    return filtered;
   }
 }

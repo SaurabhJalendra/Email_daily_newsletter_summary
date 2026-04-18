@@ -1,5 +1,6 @@
 import OpenAI from 'openai';
 import { config } from '../utils/config.js';
+import { isPromoSubject } from '../email/parser.js';
 
 export class OpenRouterSummarizer {
   constructor() {
@@ -175,9 +176,17 @@ Be thorough - missing information is worse than being verbose.`;
       // Extract priority — permissive regex handles all common LLM variations:
       // **Priority: HIGH**, **Priority:** HIGH, **Priority**: HIGH, Priority: HIGH, etc.
       const priorityMatch = summary.match(/priority\*{0,2}\s*:?\s*\*{0,2}\s*(HIGH|MEDIUM|LOW)\b/i);
-      const priority = priorityMatch ? priorityMatch[1].toUpperCase() : 'MEDIUM';
+      let priority = priorityMatch ? priorityMatch[1].toUpperCase() : 'MEDIUM';
       if (!priorityMatch) {
         console.warn(`⚠️  Priority not detected for "${newsletter.subject}" — defaulting to MEDIUM`);
+      }
+      // Override: subject matches a known promo pattern → force LOW.
+      // Catches webinars, "register now", course promos that the LLM keeps rating MEDIUM.
+      if (isPromoSubject(newsletter.subject)) {
+        if (priority !== 'LOW') {
+          console.log(`  📉 Demoting to LOW (promo subject pattern): ${newsletter.subject}`);
+        }
+        priority = 'LOW';
       }
 
       return {
@@ -232,17 +241,19 @@ ${ns.summary}
 ${researchSection}
 
 Instructions:
-1. Create a "Top Stories" section with the 3-5 most important items across all newsletters
-2. For each top story, include a one-sentence "Why it matters" analysis
-3. Group related topics together under appropriate category headers
-4. Highlight any breaking news or major announcements
-5. Note emerging trends if multiple newsletters mention similar topics
-6. Keep it scannable but comprehensive
-7. DO NOT lose important details in the synthesis
-8. Focus ONLY on AI, machine learning, and directly related technology
-9. Exclude non-AI content (skincare, travel, generic productivity, etc.)
-10. Only include categories that have substantive content — do NOT create empty or filler sections
-${researchFindings?.missingStories?.length > 0 ? '11. Include a "Beyond the Newsletters" section for stories found by the research agent that were not in any newsletter' : ''}
+1. **DEDUPLICATE across newsletters.** When the same story (e.g., "Anthropic releases Claude X.Y") appears in 3+ newsletters, mention it ONCE — do not repeat it under different category headers or in multiple bullets. Newsletters cover the same news; the digest should not.
+2. Create a "Top Stories" section with the 3-5 most important UNIQUE items across all newsletters
+3. For each top story, include a one-sentence "Why it matters" analysis
+4. Group related topics together under appropriate category headers
+5. Highlight any breaking news or major announcements
+6. Note emerging trends if multiple newsletters mention similar topics
+7. Keep it scannable but comprehensive
+8. DO NOT lose important details in the synthesis
+9. Focus ONLY on AI, machine learning, and directly related technology
+10. Exclude non-AI content (skincare, travel, generic productivity, real estate webinars, course promos, etc.)
+11. Only include categories that have substantive content — do NOT create empty or filler sections
+12. Each fact should appear in EXACTLY ONE place in the digest. If "Claude Opus 4.7 launched" is in Top Stories, do not also put it under "AI Models & Research".
+${researchFindings?.missingStories?.length > 0 ? '13. Include a "Beyond the Newsletters" section for stories found by the research agent that were not in any newsletter' : ''}
 
 Format:
 # Daily AI Newsletter Digest - ${dateString}
