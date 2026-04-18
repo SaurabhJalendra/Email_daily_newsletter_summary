@@ -8,9 +8,9 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-05
-> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
+> **Last updated**: 2026-01-19 (backfill 2026-01-05..2026-01-19)
 > **Status**: active
-> **Related**: [[gemini-enterprise]], [[agentforce]], [[salesforce]], [[microsoft]], [[google]], [[openai]], [[anthropic]], [[chatgpt-company-knowledge]], [[claude-for-excel]], [[github-agent-hq]], [[mistral-studio]], [[agent-frameworks]]
+> **Related**: [[gemini-enterprise]], [[agentforce]], [[salesforce]], [[microsoft]], [[google]], [[openai]], [[anthropic]], [[chatgpt-company-knowledge]], [[claude-cowork]], [[claude-for-excel]], [[github-agent-hq]], [[mistral-studio]], [[universal-commerce-protocol]], [[agent-frameworks]]
 
 ## Summary
 
@@ -18,6 +18,14 @@ October 2025 was a sustained enterprise-AI product cycle. [[google]] shipped [[g
 
 ## Timeline
 
+- **2026-01-19**: [[microsoft]] Copilot Checkout — conversational commerce agent that brands can embed directly into sites — *source: 2026-01-19 cycle*
+- **2026-01-18**: Copilot Studio VS Code extension — build / test / customize AI copilots inside the editor — *source: 2026-01-18 cycle*
+- **2026-01-15**: Attio raises for AI-native CRM; Walmart + Google announce AI-shopping partnership (post-UCP) — *source: 2026-01-15 cycle*
+- **2026-01-14**: [[claude-cowork]] launches — Anthropic positions Claude as cross-workflow organizer for digital work — *source: 2026-01-14 cycle*
+- **2026-01-13**: [[universal-commerce-protocol]] unveiled — Shopify + Google agent-commerce standard — *source: 2026-01-13 cycle*
+- **2026-01-11**: [[gemini]] fully integrated into Gmail (summarize, draft, reason across the workspace) — *source: 2026-01-11 cycle*
+- **2026-01-10**: Gmail AI Overviews powered by Gemini — summarize threads + natural-language queries — *source: 2026-01-10 cycle*
+- **2026-01-05**: Nadella frames 2026 as the "AI maturity year" — shift from novelty to practical cognitive amplifier — *source: TAAFT 2026-01-05*
 - **2025-12-28**: Atlassian 2025 State of Developer Experience — enterprise AI dev-tool adoption near-universal — *source: TLDR AI 2025-12-28 cycle*
 - **2025-12-24**: [[microsoft]] Satya Nadella issues "AI revolution" ultimatum to teams — internal memo pushes Copilot/agent adoption across product lines — *source: 2025-12-24 cycle*
 - **2025-12-20**: [[anthropic]] publishes [[agent-skills]] as an open standard for reusable enterprise-agent capabilities — *source: 2025-12-20 cycle*
@@ -61,3 +69,11 @@ October 2025 was a sustained enterprise-AI product cycle. [[google]] shipped [[g
 - data/summaries/2025-10-28.json (AlphaSignal — ChatGPT workplace apps; TLDR AI — Company Knowledge / Claude for Excel; AI Breakfast — Company Knowledge; The Rundown AI — Excel; Mindstream — Excel)
 - data/summaries/2025-10-29.json (TLDR AI — GitHub Agent HQ)
 - data/summaries/2025-10-30.json (AlphaSignal — Microsoft turns Copilot into AI app builder)
+- data/summaries/2026-01-05.json (TAAFT — Nadella AI maturity year)
+- data/summaries/2026-01-10.json (Gmail AI Overviews)
+- data/summaries/2026-01-11.json (Gemini in Gmail)
+- data/summaries/2026-01-13.json (Universal Commerce Protocol)
+- data/summaries/2026-01-14.json (Claude Cowork launch)
+- data/summaries/2026-01-15.json (Attio; Walmart + Google)
+- data/summaries/2026-01-18.json (Copilot Studio VS Code extension)
+- data/summaries/2026-01-19.json (Microsoft Copilot Checkout)

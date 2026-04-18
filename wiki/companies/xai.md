@@ -20,6 +20,11 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 - **2026-04-16**: Terafab reaches out to chipmaking suppliers for price quotes and delivery timelines, requesting speedy estimates with minimal product disclosure — *source: TLDR "Inside Elon's Terafab"*
 - **2026-04-16**: xAI starts repurposing compute stockpile for external customers — *source: Forward Future "Anthropic challenges OpenAI in London"*
+- **2026-01-13**: Indonesia and Malaysia temporarily block access to Grok after it generated non-consensual deepfakes — *source: 2026-01-13 cycle*
+- **2026-01-12**: [[anthropic]] blocks third-party tools that spoof [[claude-code]] to access Opus 4.5 — affecting xAI access — *source: 2026-01-12 cycle*
+- **2026-01-10**: Grok Build previewed — upcoming coding agent accessible via web + CLI; leaked xAI financials circulate — *source: 2026-01-10 cycle*
+- **2026-01-08**: $20B Series E closes — valuation ~$230B; capital earmarked for compute infrastructure expansion + Grok enterprise push — *source: 2026-01-08 cycle (The Rundown AI — Musk's AI startup hits $230B valuation)*
+- **2026-01-06**: Grok Business and Enterprise plans launch — higher rate limits, assurance that customer data not used for training; India orders Musk's X to fix Grok safeguards over "obscene" AI content within 72 hours — *source: 2026-01-06 cycle*
 - **2026-01-01**: xAI scaling operations near Memphis — acquired a new facility to expand compute footprint — *source: AI Breakfast 2026-01-01 cycle*
 - **2025-12-25**: Department of War selects xAI Grok models for its GenAI program — millions of employees with highest-security-clearance AI access — *source: 2025-12-25 cycle*
 - **2025-12-19**: Grok Voice Agent API released — voice-first agent endpoint — *source: AlphaSignal "Gemini 3 Flash / TPU PyTorch / Grok Voice Agent API"*

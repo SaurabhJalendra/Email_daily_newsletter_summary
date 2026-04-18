@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
 > **Status**: active
-> **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[prompt-injection]], [[computer-use]], [[ai-hardware]]
+> **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[translategemma]], [[medgemma]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[universal-commerce-protocol]], [[prompt-injection]], [[computer-use]], [[ai-hardware]], [[ai-healthcare]]
 
 ## Summary
 
@@ -21,6 +21,17 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-16**: Gemini Mac app launches — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT "Gemini Gets TTS and Mac App"; Superhuman "Gemini gets a Mac app"; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome adds "Skills" — save Gemini prompts to reuse across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
+- **2026-01-18**: Walmart partners with Google to integrate Gemini into product discovery and purchase experience (continues [[universal-commerce-protocol]] rollout) — *source: 2026-01-18 cycle*
+- **2026-01-17**: [[translategemma]] released — open translation family on Gemma 3 (55 languages); [[medgemma]] updated to 1.5 (better high-dimensional medical imaging); Personal Intelligence expands; DeepMind CEO discusses current-AI limits (in parallel) — *source: 2026-01-17 cycle*
+- **2026-01-16**: Personal Intelligence launches — connects Gemini to Gmail/Photos/YouTube/Search for personalized answers (Google AI Pro/Ultra subscribers, off by default); [[apple]] replaces ChatGPT with Gemini as Siri's main AI layer in multi-year deal — *source: 2026-01-16 cycle*
+- **2026-01-15**: [[veo-3]] 3.1 update — 4K upscaling, vertical video support — *source: 2026-01-15 cycle*
+- **2026-01-14**: [[apple]] + Google form $1B/year partnership — Gemini powers Apple Intelligence / Siri; Gemini API upgraded (larger file uploads + external URLs) — *source: 2026-01-14 cycle*
+- **2026-01-13**: [[universal-commerce-protocol]] unveiled — lets AI find, pay, and deliver products for users; Walmart + Google Gemini partnership announced — *source: 2026-01-13 cycle*
+- **2026-01-12**: `=AI()` function in Google Sheets — bulk prompts executable directly in spreadsheet — *source: 2026-01-12 cycle*
+- **2026-01-11**: Gemini integration into Gmail confirmed — summarize, draft, and reason across the workspace — *source: 2026-01-11 cycle*
+- **2026-01-10**: Gmail AI Overviews powered by Gemini — summarize email threads + natural-language queries ("biggest Gmail AI upgrade yet") — *source: 2026-01-10 cycle (The Rundown AI; TLDR AI; Mindstream)*
+- **2026-01-09**: Willow quantum computer released — "major step toward practical quantum computing" — *source: 2026-01-09 cycle*
+- **2026-01-06**: Google Flight Deals tool launches (AI-guided cheaper flights); Nano Banana 2 Flash image model in testing — *source: 2026-01-06 cycle*
 - **2026-01-03**: NotebookLM + Gemini integration deepens — merge notebooks, create images, build apps inside [[notebook-lm]] using Gemini; Waymo testing Gemini as AI assistant inside vehicles continues — *source: The Rundown AI; 2026-01-03 cycle*
 - **2026-01-02**: [[notebook-lm]] launches video overviews — turn text and images into AI video summaries; Google tallies 60 AI announcements for 2025; open-source spotlight on [[ai-edge-gallery]] — *source: 2026-01-02 cycle*
 - **2026-01-01**: Waymo testing Gemini as in-car AI assistant (early pilot) — *source: Superhuman 2026-01-01 cycle*

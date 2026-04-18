@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
+> **Last updated**: 2026-01-19 (backfill 2026-01-05..2026-01-19)
 > **Status**: active
-> **Related**: [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-hardware]]
+> **Related**: [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-cowork]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-hardware]]
 
 ## Summary
 
@@ -23,6 +23,18 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - **2026-04-16**: Always-on Routines added to [[claude-code]] — reusable configurations that auto-run on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: Anthropic in London challenging OpenAI in Europe — *source: Forward Future "Anthropic challenges OpenAI in London"*
 - **2026-04-16**: Reports of Anthropic in investor talks at $800B+ valuation — *source: Superhuman "Gemini gets a Mac app"*
+- **2026-01-19**: [[claude-cowork]] coverage continues — positioned for flawless audio transcription, 3D camera control, and repetitive-knowledge-work automation — *source: 2026-01-19 cycle*
+- **2026-01-18**: [[claude-cowork]] + Claude for Healthcare bundled as Anthropic's enterprise agent surface — *source: 2026-01-18 cycle*
+- **2026-01-17**: [[claude-cowork]] headline coverage — general-purpose agent that reads, analyzes, organizes, and creates files on a user's computer; January 2026 Economic Index published (Claude usage across geographies/sectors) — *source: 2026-01-17 cycle*
+- **2026-01-16**: Reports of Anthropic and [[openai]] simultaneously preparing for public offerings (Anthropic est. $350B, OpenAI est. $500B); SpaceX joins framing — see [[ai-ipo-wave]] — *source: 2026-01-16 cycle*
+- **2026-01-15**: Anthropic Labs expansion — incubates experimental frontier products; Instagram co-founder joins the team — *source: 2026-01-15 cycle*
+- **2026-01-14**: [[claude-cowork]] launched — general-purpose AI agent that reads, edits, and creates files directly on a user's computer; Claude for Healthcare launched alongside — *source: 2026-01-14 cycle (TLDR; The Rundown AI; Superhuman)*
+- **2026-01-13**: Technical safeguards strengthened against unauthorized third-party use of Claude (continued response to the Claude Code spoofing issue) — *source: 2026-01-13 cycle*
+- **2026-01-12**: Anthropic blocks third-party tools that spoof [[claude-code]] to access Opus 4.5 — affects xAI access as part of the cat-and-mouse game — *source: 2026-01-12 cycle*
+- **2026-01-11**: Red-teaming results published — no universal jailbreak found across extensive testing; open-source tools LFM2.5, Falcon-H1R-7B, UI-TARS-desktop referenced in parallel — *source: 2026-01-11 cycle*
+- **2026-01-10**: Anthropic reportedly raising $10B at $350B valuation (nearly doubling its value in three months); [[claude-code]] 2.1.0 released with major agent upgrades (hooks, skills hot reload, move-session-to-claude.ai command) — *source: 2026-01-10 cycle (TLDR AI; Superhuman)*
+- **2026-01-09**: Anthropic plans $10B raise at $350B valuation; [[claude-code]] upgraded with stronger agent control and stability — *source: 2026-01-09 cycle*
+- **2026-01-05**: [[claude-code]] masterclass published (Boris, Claude Code creator); Claude Code successfully builds a working NES emulator end-to-end as demo — *source: 2026-01-05 cycle (TAAFT)*
 - **2025-12-31**: Anthropic's [[claude-code]] and the wider vibe-coding wave framed as revolutionizing programming; Project Vend vending-machine test recirculates (Claude operates/is manipulated by users) — *source: 2025-12-31 / 2026-01-02 cycle*
 - **2025-12-25**: [[claude-code]] featured alongside [[lovable]] as leading vibe-coding tools (Karpathy framing) — *source: 2025-12-25 cycle*
 - **2025-12-21**: Claude browser extension goes GA — read console errors + DOM state directly; build-and-debug inline in the browser — *source: 2025-12-21 cycle*
@@ -123,4 +135,16 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - data/summaries/2025-12-13.json (TLDR — GPT-5.2 / Anthropic vision; TLDR AI — Disney + OpenAI / Broadcom Anthropic)
 - data/summaries/2025-12-16.json (TLDR AI — OpenAI adopts Skills / reverse engineering Claude; AlphaSignal)
 - data/summaries/2025-12-18.json (AI Breakfast — OpenAI's Triple Strike; TLDR AI — ChatGPT removes router; AlphaSignal)
+- data/summaries/2026-01-05.json (TAAFT — Claude Code masterclass + NES emulator)
+- data/summaries/2026-01-09.json (TLDR AI — Anthropic $350B valuation; The Rundown AI — Claude Code upgrade)
+- data/summaries/2026-01-10.json (Claude Code 2.1.0 major upgrade; Anthropic IPO coverage)
+- data/summaries/2026-01-11.json (Red-teaming — no universal jailbreak; open-source tools)
+- data/summaries/2026-01-12.json (Anthropic blocks Claude Code spoofing)
+- data/summaries/2026-01-13.json (Technical safeguards strengthened)
+- data/summaries/2026-01-14.json (Claude Cowork launch; Claude for Healthcare)
+- data/summaries/2026-01-15.json (Anthropic Labs expansion; Instagram co-founder)
+- data/summaries/2026-01-16.json (IPO talks framing)
+- data/summaries/2026-01-17.json (Claude Cowork; Anthropic Economic Index Jan 2026)
+- data/summaries/2026-01-18.json (Cowork + Claude for Healthcare bundle)
+- data/summaries/2026-01-19.json (Cowork audio/3D demos)
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; AlphaSignal — Anthropic Opus 4.7: 3.75MP vision; World of AI — ANTHROPIC: Opus 4.7 DROPS!; World of AI — ANTHROPIC DROPS Claude Design!; TLDR — Opus 4.7; TLDR AI — Claude Opus 4.7; Forward Future — Anthropic challenges OpenAI in London; AI Breakfast — Claude Opus 4.7 gains native design tools; Superhuman — Claude Opus 4.7 arrives; Superhuman — Gemini gets a Mac app; TAAFT — Claude Opus 4.7 Drops; TAAFT — Claude Just Became a Designer; Staying Ahead with AI — opus 4.7 tested; The Code — Anthropic does it again; Hello, World! — Claude Opus 4.7 and Kubernetes; AI Automation Society — Nate Herk Claude Design)

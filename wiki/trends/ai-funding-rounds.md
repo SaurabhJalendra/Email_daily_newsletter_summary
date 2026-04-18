@@ -8,9 +8,9 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-01-19)
 > **Status**: active
-> **Related**: [[openai]], [[anthropic]], [[reflection]], [[thinking-machines]], [[ai-bubble-concerns]]
+> **Related**: [[openai]], [[anthropic]], [[reflection]], [[thinking-machines]], [[ai-bubble-concerns]], [[merge-labs]], [[ai-ipo-wave]]
 
 ## Summary
 
@@ -21,6 +21,11 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - **2026-04-16**: [[anthropic]] reportedly in investor talks at $800B+ valuation, approaching OpenAI territory — *source: Superhuman "Gemini gets a Mac app"*
 - **2026-04-16**: Eli Lilly agrees to pay up to $2.75B to Insilico Medicine (AI drug discovery) — *source: The Batch "Meta Pivots From Open Weights, Big Pharma Bets On AI"*
 - **2026-04-16**: Allbirds/NewBird AI announces $50M financing to pivot from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code*
+- **2026-01-19**: [[merge-labs]] (Sam Altman BCI startup) raises $250M at $850M valuation — *source: 2026-01-19 cycle*
+- **2026-01-14**: [[apple]] + [[google]] strike ~$1B/year partnership to power Siri with [[gemini]] — *source: 2026-01-14 cycle*
+- **2026-01-10**: [[anthropic]] raises $10B at $350B valuation; [[ai-ipo-wave]] framing accelerates — *source: 2026-01-10 cycle*
+- **2026-01-08**: [[xai]] $20B Series E closes at ~$230B valuation; capital earmarked for compute + Grok enterprise — *source: 2026-01-08 cycle (The Rundown AI)*
+- **2026-01-07**: Baidu files for Kunlunxin AI-chip IPO in Hong Kong — *source: 2026-01-07 cycle*
 - **2026-01-03**: SoftBank $40B OpenAI investment completed — gives SoftBank >10% stake in OpenAI; part of Stargate JV with Oracle — *source: 2026-01-03 cycle*
 - **2026-01-02**: SoftBank tranche reframed at $41B for an 11% stake — *source: 2026-01-02 cycle*
 - **2026-01-01**: SoftBank completes $40B OpenAI investment at $260B valuation; [[nvidia]] in advanced talks to acquire [[ai21-labs]] for up to $3B; [[meta]]-[[manus]] $2B acquisition confirmed; OpenAI average stock-based compensation ~$1.5M/employee — *source: The Rundown AI; TAAFT 2026-01-01 cycle*
@@ -129,4 +134,9 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - data/summaries/2025-12-06.json (AI Breakfast — Anthropic to Go Public; Mindstream — Snowflake $200M w/ Anthropic)
 - data/summaries/2025-12-13.json (TLDR AI — Disney + OpenAI / Broadcom-Anthropic; The Rundown AI — Disney chooses OpenAI $1B)
 - data/summaries/2025-12-19.json (TLDR; The Rundown AI; Superhuman — OpenAI $750B / Amazon $10B+)
+- data/summaries/2026-01-07.json (Baidu Kunlunxin HK IPO)
+- data/summaries/2026-01-08.json (xAI $20B Series E at ~$230B)
+- data/summaries/2026-01-10.json (Anthropic $10B at $350B)
+- data/summaries/2026-01-14.json (Apple + Google $1B/yr Siri-Gemini)
+- data/summaries/2026-01-19.json (Merge Labs $250M at $850M)
 - data/summaries/2026-04-16.json (Superhuman — Gemini gets a Mac app [Anthropic $800B]; The Batch — Meta Pivots From Open Weights, Big Pharma Bets On AI; The Rundown AI — Allbirds ditches sneakers; The Code — Shoemaker company pivots to AI)

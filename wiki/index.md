@@ -31,6 +31,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[luma]] — AI video startup; Ray3 Modify video-model update
 - [[manus]] — Chinese-roots general-purpose agent startup; acquired by Meta for $2B Dec 2025
 - [[mercor]] — talent-marketplace AI; $350M raise at $10B valuation
+- [[merge-labs]] — Sam Altman BCI startup; $250M raise at $850M valuation Jan 2026
 - [[meta]] — Muse Spark + open-weights pivot; $21B CoreWeave; SAM 3/3D; WorldGen
 - [[microsoft]] — Copilot ecosystem; Mico personality; Copilot App Builder; renewed OpenAI ~27% stake
 - [[minimax]] — Chinese frontier-model lab; M2.1 coding model
@@ -56,14 +57,18 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agentforce]] — Salesforce's enterprise agent platform *(stale)*
 - [[agentkit]] — OpenAI's DevDay 2025 agent toolkit *(stale)*
 - [[ai-edge-gallery]] — Google on-device AI runtime for Android
+- [[alpamayo]] — NVIDIA open 10B autonomous-driving model family (Jan 2026 CES)
 - [[antigravity]] — Google's free agent-first VSCode-forked IDE built for Gemini 3
 - [[apple-m5]] — Apple's M5 silicon with per-core Neural Accelerators *(stale)*
 - [[canva-design-model]] — Canva's in-house multimodal foundation model
 - [[chatgpt]] — OpenAI's assistant; Atlas browser, Company Knowledge, group chats, shopping, voice+text
 - [[chatgpt-atlas]] — OpenAI's Chromium-based AI browser; hidden-text hijack vulnerability
 - [[chatgpt-company-knowledge]] — workplace-RAG ChatGPT over Slack/Drive/SharePoint/GitHub/Gmail
+- [[chatgpt-health]] — OpenAI's consumer health assistant (symptom guidance, lab-report reading, clinician review)
+- [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages)
 - [[claude-code]] — Anthropic's CLI coding agent; plugins, Routines, Web variant; $1B ARR
 - [[claude-code-web]] — browser/cloud Claude Code for dev work outside the terminal
+- [[claude-cowork]] — Anthropic's local-file agent for organizing digital work
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills
 - [[claude-haiku-4-5]] — Anthropic's fast, low-cost coding model *(stale)*
@@ -99,8 +104,11 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks
+- [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026)
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video
+- [[medgemma]] — Google open medical-imaging model family (Jan 2026)
+- [[ministral-3]] — Mistral dense small-model line (3B/8B) for on-device inference
 - [[mistral-3]] — Mistral's open-weight lineup; flagship Large 3 (41B active / 675B total MoE)
 - [[mistral-ocr-3]] — Mistral's OCR model; ~97% accuracy, strong on European documents
 - [[mistral-studio]] — Mistral's production-AI platform
@@ -108,9 +116,11 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nano-banana-pro]] — Google's Gemini 3 Pro Image; 4K, 14-input, 5-character consistency, SynthID+C2PA
 - [[nanochat]] — Karpathy's end-to-end ChatGPT clone repo *(stale)*
 - [[nemotron-3]] — NVIDIA's open-source agentic model line; Nano (30B/3B active MoE), 4× throughput claim
+- [[niji-7]] — Midjourney's anime-style image model (Jan 2026)
 - [[nitrogen]] — NVIDIA open-source gaming-agent model
 - [[nvidia-cosmos]] — NVIDIA's physical-AI foundation models (Cosmos 2.5 GA, 3 inbound)
 - [[openai-codex]] — OpenAI's Codex-as-superapp (ChatGPT + Atlas + Codex)
+- [[openai-for-healthcare]] — OpenAI's HIPAA-compliant enterprise health offering
 - [[opera-neon]] — Opera's AI browser *(stale)*
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
 - [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO
@@ -119,6 +129,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[runway-gen-4-5]] — Runway's text-to-video; tops Veo 3 and Sora on Artificial Analysis benchmark
 - [[sora-2]] — OpenAI's video model; physics, audio, monetization, Hollywood pushback
 - [[tinker-api]] — Thinking Machines' LLM fine-tuning API *(stale)*
+- [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B)
+- [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell)
 - [[veo-3]] — Google's Veo 3 / 3.1 video-generation model *(stale)*
 
 ## Topics
@@ -126,18 +138,21 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agentic-ai-foundation]] — Linux Foundation project for open agentic-AI standards; OpenAI/Anthropic/Block + MCP
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser
 - [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals
+- [[ai-healthcare]] — AI push into clinical, consumer-health, and pharma workflows; ChatGPT Health, OpenAI for Healthcare, Lilly-Insilico
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
 - [[computer-use]] — models that drive GUIs directly *(stale)*
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures
+- [[universal-commerce-protocol]] — Shopify + Google open protocol for agent-commerce (Jan 2026)
 - [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos
 
 ## Trends
 - [[ai-bubble-concerns]] — institutional warnings vs $1T/$5T deal flow
 - [[ai-funding-rounds]] — major AI sector financings; SoftBank, AWS, Google-Anthropic, Mercor
 - [[ai-hardware]] — chips, form factors, robots, $38B AWS-OpenAI, Extropic TSU, Qualcomm AI200
+- [[ai-ipo-wave]] — OpenAI $500B / Anthropic $350B IPO prep and frontier-lab public-market path
 - [[ai-regulation]] — government / judicial / labor / safety pressure on AI labs
 - [[ai-slop]] — AI-content flood quality concerns; YouTube 20%+, Instagram Mosseri commentary
 - [[enterprise-ai]] — AI moving into workplace software; Company Knowledge, Excel, Agent HQ, Copilot

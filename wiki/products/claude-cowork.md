@@ -1,0 +1,45 @@
+---
+name: Claude Cowork
+description: Anthropic's general-purpose AI agent that reads, analyzes, organizes, and creates files directly on a user's computer
+type: product
+---
+
+# Claude Cowork
+
+> **Type**: product
+> **First mentioned**: 2026-01-14
+> **Last updated**: 2026-01-19
+> **Status**: active
+> **Related**: [[anthropic]], [[claude-code]], [[claude-opus-4-5]], [[agent-frameworks]], [[enterprise-ai]]
+
+## Summary
+
+Claude Cowork is [[anthropic]]'s general-purpose AI agent for local-file work, launched mid-January 2026. Unlike [[claude-code]] (which targets software development), Cowork is positioned as a productivity agent that can read, analyze, organize, and create files in any folder on a user's computer — covering spreadsheets, documents, meeting notes, and media. It is pitched alongside [[claude-for-excel]] as Anthropic's push into file-based knowledge work, and as a direct counter to agent products like OpenAI's upcoming superapp Codex surfaces and Microsoft Copilot's file integrations.
+
+## Timeline
+
+- **2026-01-19**: Continued positioning as enabling "flawless audio transcription and 3D camera control" for automating repetitive knowledge work — *source: 2026-01-19 cycle (TAAFT, Superhuman)*
+- **2026-01-18**: Grouped with Claude for Healthcare as Anthropic's enterprise agent push — *source: 2026-01-18 cycle*
+- **2026-01-17**: Highlighted as headline Anthropic product — general-purpose agent that can read, analyze, organize, and create files on a user's computer — *source: 2026-01-17 cycle*
+- **2026-01-14**: Claude Cowork launched — Anthropic's general-purpose AI agent that allows Claude to read, edit, and create files directly on a user's computer, autonomous file-based workflow execution — *source: 2026-01-14 cycle (TLDR, The Rundown AI, Superhuman)*
+
+## Key Facts
+
+- Vendor: [[anthropic]]
+- Form factor: desktop agent with local-filesystem access (reads/edits/creates files in any folder)
+- Positioning: general-purpose productivity agent, distinct from [[claude-code]] (coding-focused)
+- Complements [[claude-for-excel]] on the knowledge-work front
+
+## Open Questions
+
+- Platform support (macOS/Windows/Linux details)?
+- Permission/sandbox model for filesystem access?
+- Relationship to [[claude-skills]] — can Cowork invoke Skills?
+- Underlying model (Opus 4.5 presumed)?
+
+## Sources
+
+- data/summaries/2026-01-14.json (TLDR; The Rundown AI; Superhuman — Claude Cowork launches)
+- data/summaries/2026-01-17.json (multiple — Cowork positioning)
+- data/summaries/2026-01-18.json (multiple — bundled with Claude for Healthcare)
+- data/summaries/2026-01-19.json (TAAFT; Superhuman — transcription/3D control demos)

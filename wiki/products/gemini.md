@@ -21,6 +21,10 @@ Gemini is [[google]]'s flagship multimodal AI model family, spanning consumer (G
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency, 70+ languages, multi-speaker dialogue, scene direction, Elo 1,211 on Artificial Analysis TTS leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-16**: Gemini Mac app ships — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT; Superhuman; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome Skills — save / reuse Gemini prompts across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
+- **2026-01-16**: Gemini Personal Intelligence launches — pulls context from Gmail/Photos/YouTube/Search; Google AI Pro + Ultra subscribers, off by default; Gemini replaces ChatGPT as Siri's main AI layer ([[apple]]) — *source: 2026-01-16 cycle*
+- **2026-01-14**: [[apple]] + [[google]] $1B/year partnership announced — Gemini powers Apple Intelligence/Siri; Gemini API upgraded (larger file uploads + external URL support) — *source: 2026-01-14 cycle*
+- **2026-01-11**: Gemini integrated into Gmail — summarize, draft, reason across the workspace — *source: 2026-01-11 cycle*
+- **2026-01-10**: Gmail AI Overviews powered by Gemini — summarize email threads + natural-language queries — *source: 2026-01-10 cycle*
 - **2025-11-25**: Gemini 3 replaces Google Assistant in Android Auto — *source: 2025-11-25 cycle*
 - **2025-11-22**: [[nano-banana-pro]] (Gemini 3 Pro Image) ships as Gemini-family image model — 4K, 14 inputs, 5-character consistency, SynthID + C2PA — *source: AI Breakfast; Mindstream*
 - **2025-11-18**: [[gemini-3]] ships across Gemini app, Android AI Mode, Chrome, Search, AI Studio, Vertex AI; Gemini Agent for multi-step task execution; new generative interfaces — *source: TLDR AI; TAAFT; AI Breakfast; The Rundown AI*

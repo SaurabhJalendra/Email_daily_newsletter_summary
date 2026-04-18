@@ -4,6 +4,230 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-01-19
+**Ingested**: data/summaries/2026-01-19.json
+
+**Pages updated**:
+- [[openai]] — [[merge-labs]] (Sam Altman BCI) $250M raise at $850M valuation
+- [[microsoft]] — Copilot Checkout conversational-commerce launch
+- [[chatgpt]] — ChatGPT Translate standalone (47 languages)
+- [[ai-funding-rounds]] — Merge Labs entry
+- [[enterprise-ai]] — Copilot Checkout
+
+**Pages created**: [[merge-labs]]
+
+**Notable**: Altman BCI move materializes; Microsoft pushes Copilot into transactable commerce.
+
+## 2026-01-18
+**Ingested**: data/summaries/2026-01-18.json
+
+**Pages updated**:
+- [[microsoft]] — Copilot Studio extension for VS Code
+- [[apple]] — 2026 lineup leak cycle (AR glasses, foldable iPhone, new MacBooks, Studio Display)
+- [[enterprise-ai]] — Copilot Studio VS Code extension
+
+**Pages created**: (none)
+
+**Notable**: Microsoft ships enterprise agent-building into the editor surface; Apple hardware roadmap surfaces.
+
+## 2026-01-17
+**Ingested**: data/summaries/2026-01-17.json
+
+**Pages updated**:
+- [[google]] — [[translategemma]] (55-lang open translation) + [[medgemma]] (open medical imaging) launches
+- [[nvidia]] — H200 export block to China reasserted
+- [[flux-2]] — open-weights release (<0.5s, 13GB VRAM, consumer-GPU ready)
+- [[claude-code]] — diff view
+- [[chatgpt]] — App Store momentum
+- [[apple]] — AR glasses / foldable / new MacBook cycle coverage
+- [[agent-frameworks]] — OpenAI Open Responses API, GitHub cross-agent memory, OpenCode GH Copilot integration
+- [[ai-hardware]] — H200 China block
+- [[vibe-coding]] — Claude Code diff view + GitHub cross-agent memory + OpenCode
+
+**Pages created**: [[translategemma]], [[medgemma]]
+
+**Notable**: Dense enterprise + open-source day — Google ships two open Gemma variants, OpenAI standardizes on an open Agents event API, BFL ships FLUX.2 as open weights.
+
+## 2026-01-16
+**Ingested**: data/summaries/2026-01-16.json
+
+**Pages updated**:
+- [[apple]] — ChatGPT → Gemini as Siri's primary AI layer; Creator Studio subscription bundle
+- [[google]] — Gemini Personal Intelligence launch (Gmail/Photos/YouTube/Search context)
+- [[gemini]] — Personal Intelligence + Siri replacement
+- [[chatgpt]] — displaced as Siri's primary AI
+- [[meta]] — Reality Labs layoffs framing
+
+**Pages created**: (none)
+
+**Notable**: Apple cements Google as its LLM partner; OpenAI loses flagship consumer-device surface. Gemini assumes cross-service "personal memory" role.
+
+## 2026-01-15
+**Ingested**: data/summaries/2026-01-15.json
+
+**Pages updated**:
+- [[apple]] — Apple-Google partnership announced (Siri powered by Gemini, spring launch)
+- [[google]] — partnership with Apple to power Siri
+- [[nvidia]] — Eli Lilly $1B AI drug-discovery lab
+- [[meta]] — "tens to hundreds of GW" AI-data-center commitment
+- [[microsoft]] — pledges to self-fund its data centers (not pass cost to residential)
+- [[anthropic]] — Claude Labs expansion coverage
+- [[ai-hardware]] — Meta GW commitment + NVIDIA-Lilly $1B lab
+- [[enterprise-ai]] — Attio AI-CRM raise; Walmart + Google partnership
+
+**Pages created**: (none)
+
+**Notable**: Pharma-AI capex tier goes confirmed ($1B Lilly lab on NVIDIA); Meta telegraphs an order-of-magnitude-higher compute commitment.
+
+## 2026-01-14
+**Ingested**: data/summaries/2026-01-14.json
+
+**Pages updated**:
+- [[anthropic]] — [[claude-cowork]] launch (local-file agent for "organizing digital life")
+- [[claude-code]] — reframed as general-purpose file/work organizer alongside Cowork
+- [[apple]] — ~$1B/year partnership with Google confirmed
+- [[google]] — ~$1B/year Apple deal; Gemini API larger file uploads + external URL support
+- [[gemini]] — API upgrades (file size, external URLs)
+- [[microsoft]] — global AI adoption 16.3% (UAE 64%, US 24th)
+- [[ai-funding-rounds]] — Apple-Google $1B/yr
+- [[enterprise-ai]] — Claude Cowork launch
+- [[agent-frameworks]] — Claude Cowork launch
+
+**Pages created**: [[claude-cowork]]
+
+**Notable**: Anthropic ships its first explicitly-non-coding agent surface; Apple-Google deal formalized. Adoption data reframes AI-diffusion narrative.
+
+## 2026-01-13
+**Ingested**: data/summaries/2026-01-13.json
+
+**Pages updated**:
+- [[google]] — [[universal-commerce-protocol]] unveiled with Shopify
+- [[meta]] — 6.6 GW nuclear power agreement for AI compute
+- [[xai]] — Indonesia and Malaysia temporarily block Grok over non-consensual deepfakes
+- [[openai]] — Musk-OpenAI trial proceeds
+- [[ai-regulation]] — Indonesia/Malaysia Grok block; Musk-OpenAI trial
+- [[ai-hardware]] — Meta 6.6 GW nuclear deal
+- [[enterprise-ai]] — UCP unveil
+- [[chatgpt]] — UCP as rival commerce stack
+
+**Pages created**: [[universal-commerce-protocol]]
+
+**Notable**: First open agent-commerce protocol lands (rivaling Walmart-in-ChatGPT); Meta pins long-horizon AI compute to nuclear; two national Grok bans enter regulatory trendline.
+
+## 2026-01-12
+**Ingested**: data/summaries/2026-01-12.json
+
+**Pages updated**:
+- [[anthropic]] — blocks third-party tools spoofing Claude Code to reach Opus 4.5
+- [[claude-code]] — spoofing-block incident (affects xAI clients)
+- [[xai]] — impacted by Anthropic spoofing block
+- [[apple]] — "AI struggles" framing; many features delayed to 2026+
+- [[ai-regulation]] — Senate Defiance Act advances; Manus Slack integration
+- [[agent-frameworks]] — Manus Slack delegation
+
+**Pages created**: (none)
+
+**Notable**: Access-control skirmish between Anthropic and third-party Claude Code clones; Apple publicly trails Google/Samsung/OpenAI on AI execution.
+
+## 2026-01-11
+**Ingested**: data/summaries/2026-01-11.json
+
+**Pages updated**:
+- [[google]] — Gemini fully integrated across Gmail (summarize, draft, reason)
+- [[gemini]] — Gmail full integration
+- [[enterprise-ai]] — Gmail as AI workspace surface
+
+**Pages created**: (none)
+
+**Notable**: Gmail becomes the flagship consumer+prosumer AI workspace; Gemini generalizes across Workspace.
+
+## 2026-01-10
+**Ingested**: data/summaries/2026-01-10.json
+
+**Pages updated**:
+- [[anthropic]] — $10B raise at $350B valuation
+- [[claude-code]] — 2.1.0 release (hooks for agents + skills, hot reload, `/move`)
+- [[gemini]] — Gmail AI Overviews
+- [[google]] — Gmail AI Overviews
+- [[xai]] — Grok Build preview (web + CLI coding agent); leaked financials circulate
+- [[ai-funding-rounds]] — Anthropic $10B at $350B
+- [[ai-ipo-wave]] — Anthropic accelerates IPO prep framing
+- [[agent-frameworks]] — Claude Code 2.1.0 + Grok Build
+- [[vibe-coding]] — Claude Code 2.1.0 + Grok Build
+- [[enterprise-ai]] — Gmail AI Overviews
+- [[chatgpt]] — Ads rollout details
+
+**Pages created**: (none)
+
+**Notable**: Claude Code ships a meaningful 2.x-era upgrade; Anthropic's valuation paces OpenAI; Grok Build pre-announcement broadens coding-agent category.
+
+## 2026-01-09
+**Ingested**: data/summaries/2026-01-09.json
+
+**Pages updated**:
+- [[openai]] — [[chatgpt-health]] consumer launch; [[openai-for-healthcare]] HIPAA-compliant enterprise tier
+- [[chatgpt]] — ChatGPT Health surface
+- [[ai-healthcare]] — ChatGPT Health + OpenAI for Healthcare
+- [[ai-regulation]] — Utah first-in-US AI-prescription restriction
+
+**Pages created**: [[chatgpt-health]], [[openai-for-healthcare]], [[ai-healthcare]]
+
+**Notable**: OpenAI enters health as a first-class product line on both consumer and HIPAA-regulated tiers the same week Utah locks down AI prescriptions.
+
+## 2026-01-08
+**Ingested**: data/summaries/2026-01-08.json
+
+**Pages updated**:
+- [[xai]] — $20B Series E at ~$230B valuation (The Rundown AI)
+- [[openai]] — Torch acquisition (prompt-testing/evals tooling into ChatGPT dev surface)
+- [[chatgpt]] — Torch acquisition integration
+- [[ai-funding-rounds]] — xAI $20B Series E
+- [[vibe-coding]] — Tailwind Labs 75% layoff attributed to AI coding tools (first high-profile labor case)
+
+**Pages created**: (none)
+
+**Notable**: xAI capitalizes on the Grok 4.1 / Terafab story; Tailwind Labs becomes the first high-profile dev-tool company to publicly attribute large layoffs to AI coding tools.
+
+## 2026-01-07
+**Ingested**: data/summaries/2026-01-07.json
+
+**Pages updated**:
+- [[nvidia]] — CES keynote: [[vera-rubin]] pre-announced (5× inference, 3.5× training vs Blackwell) + [[alpamayo]] 10B autonomous-driving model family
+- [[ai-hardware]] — Vera Rubin pre-announce + Alpamayo
+- [[ai-funding-rounds]] — Baidu Kunlunxin AI-chip HK IPO filing
+
+**Pages created**: [[vera-rubin]], [[alpamayo]]
+
+**Notable**: NVIDIA uses CES to pre-stamp the next-gen hyperscaler chip; Baidu Kunlunxin IPO adds a Chinese AI-silicon public-market datapoint.
+
+## 2026-01-06
+**Ingested**: data/summaries/2026-01-06.json
+
+**Pages updated**:
+- [[xai]] — Grok Business and Enterprise plans launch (higher rate limits, no-training assurance)
+- [[xai]] — India orders X to fix Grok safeguards against "obscene" AI content in 72h
+- [[ai-regulation]] — India Grok order
+- [[meta]] — Yann LeCun departure cycle
+
+**Pages created**: (none)
+
+**Notable**: xAI opens a dedicated enterprise tier the same day an Indian regulator imposes a 72-hour compliance deadline — enterprise-push and regulatory-pressure arrive in the same news cycle.
+
+## 2026-01-05
+**Ingested**: data/summaries/2026-01-05.json
+
+**Pages updated**:
+- [[microsoft]] — Satya Nadella's "AI maturity year" framing (TAAFT)
+- [[openai]] — Gumdrop smart-pen tether to ChatGPT (handwriting capture/translate/summarize)
+- [[chatgpt]] — Gumdrop integration
+- [[claude-code]] — Boris masterclass / NES emulator end-to-end demo (TAAFT)
+- [[vibe-coding]] — Claude Code masterclass as canonical autonomous-developer demo
+- [[enterprise-ai]] — Nadella maturity-year framing
+
+**Pages created**: (none)
+
+**Notable**: Opens the Jan 5–19 backfill window. Two narrative beats: Nadella sets "AI maturity year" framing for the enterprise cycle, and Anthropic's own Claude Code creator publishes a canonical end-to-end build tutorial.
+
 ## 2026-01-04
 **Ingested**: data/summaries/2026-01-04.json (low AI/dev-tool content — primarily real-estate webinar and off-topic material)
 

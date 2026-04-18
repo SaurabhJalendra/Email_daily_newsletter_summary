@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-10-08
 > **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
 > **Status**: active
-> **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[xai]], [[openai]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-bubble-concerns]]
+> **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[vera-rubin]], [[alpamayo]], [[nitrogen]], [[xai]], [[openai]], [[anthropic]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-healthcare]], [[ai-bubble-concerns]]
 
 ## Summary
 
@@ -22,6 +22,13 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2026-01-17**: China blocks [[nvidia]]'s H200 AI chips — potentially hinders Chinese model development; TSMC posts record quarter (profit +35% on surging AI demand) — *source: 2026-01-17 cycle*
+- **2026-01-15**: Lilly + NVIDIA announce $1B AI drug-discovery lab partnership — see [[ai-healthcare]] — *source: 2026-01-15 cycle*
+- **2026-01-10**: H200 upfront-payment policy imposed on Chinese customers — no refunds or order changes; parallel to broader export-control pressure — *source: 2026-01-10 cycle*
+- **2026-01-09**: [[vera-rubin]] platform promises 5× inference performance over Blackwell; open-source VLM released to improve physical reasoning for robots — *source: 2026-01-09 cycle*
+- **2026-01-08**: [[vera-rubin]] Rubin architecture enters production at leading cloud providers; Nemotron Speech ASR released (open-source low-latency voice recognition, 24ms median TTFT, 560 concurrent streams) — *source: 2026-01-08 cycle*
+- **2026-01-07**: [[vera-rubin]] chip launches at CES 2026 — 5× faster inference, 3.5× faster training, ~10× cost reduction vs Blackwell; [[alpamayo]] open AV model family introduced; Boston Dynamics partners with NVIDIA + [[google]] DeepMind; production-ready Atlas robot unveiled — *source: 2026-01-07 cycle (TLDR — Nvidia's new chip; The Tech Buzz — Physical AI Era at CES 2026; AI Breakfast — DeepMind AI runs Boston Dynamics robots)*
+- **2026-01-06**: NVIDIA has backed dozens of AI startups with $100M+ rounds since 2023 (portfolio framing) — *source: 2026-01-06 cycle*
 - **2026-01-03**: [[nitrogen]] released — open-source foundation model for generalist gaming agents, trained on 40,000 hours of gameplay footage across 1,000+ games — *source: The Rundown AI; 2026-01-03 cycle*
 - **2026-01-01**: NVIDIA reportedly in advanced talks to acquire [[ai21-labs]] for up to $3B; Colossus supercomputer expansion targeting ~2 GW of training capacity — *source: TAAFT; AI Breakfast 2026-01-01 cycle*
 - **2025-12-31**: $5B Intel investment yields ~$2.5B profit after Intel share price surge — *source: 2025-12-31 cycle*

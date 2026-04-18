@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-12-17 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-01-18 (backfill 2026-01-05..2026-01-19)
 > **Status**: active
 > **Related**: [[meta]], [[google]], [[gemini]], [[ai-hardware]], [[apple-m5]]
 
@@ -18,6 +18,12 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2026-01-18**: 2026 lineup detailed in leak cycle — low-cost MacBook, new MacBook Pros, iPads, foldable iPhone, AR glasses, Studio Display with 120Hz ProMotion + mini-LED — *source: 2026-01-18 cycle*
+- **2026-01-17**: AR glasses + foldable iPhone + new MacBook roadmap coverage continues — *source: 2026-01-17 cycle*
+- **2026-01-16**: Apple replaces ChatGPT with Gemini as Siri's main AI layer — multi-year deal reshapes Apple's AI approach; Apple Creator Studio subscription launches (Final Cut Pro + Logic Pro + Pixelmator Pro bundle with intelligent features) — *source: 2026-01-16 cycle*
+- **2026-01-15**: Apple-[[google]] partnership announced — next-gen Siri powered by Gemini, launches this spring — *source: 2026-01-15 cycle*
+- **2026-01-14**: Apple-[[google]] partnership details — ~$1B/year to power Apple's AI features including Siri with Gemini; privacy pledges maintained — *source: 2026-01-14 cycle*
+- **2026-01-12**: Apple AI struggles in focus — many promised features delayed to 2026+; [[google]], Samsung, [[openai]] positioned as ahead of Apple — *source: 2026-01-12 cycle*
 - **2025-12-17**: 2026 Apple lineup leaks — early product roadmap details surface — *source: TLDR "Apple lineup leaks, PayPal bank, Cloudflare year in review"*
 - **2025-12-04**: Amar Subramanya confirmed as new VP of AI; John Giannandrea steps down — *source: 2025-12-04 cycle*
 - **2025-12-03**: Apple appoints Amar Subramanya as AI chief; John Giannandrea to retire spring 2026 — *source: 2025-12-03 cycle*

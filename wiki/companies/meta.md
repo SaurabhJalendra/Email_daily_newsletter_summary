@@ -20,6 +20,12 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: Introduces [[muse-spark]] — natively multimodal reasoning with tool use and multi-agent orchestration; framed as marking Meta's pivot from open-weights releases — *source: The Batch "Meta Pivots From Open Weights"*
+- **2026-01-16**: Reality Labs 10% layoff; multiple VR game studios shut down — *source: 2026-01-16 cycle*
+- **2026-01-15**: Meta unveils plan to build "tens of gigawatts" of new AI capacity this decade, expanding to "hundreds of gigawatts" over time — framed as no-bottleneck infrastructure bet — *source: 2026-01-15 cycle*
+- **2026-01-13**: Meta signs three deals totalling 6.6 GW of nuclear power for AI data centers — one of the largest corporate nuclear purchases in US history — *source: 2026-01-13 cycle*
+- **2026-01-12**: Meta acquires [[manus]] (coverage repeats agent-ecosystem framing from late December rollover) — *source: 2026-01-12 cycle*
+- **2026-01-08**: [[google]] DeepMind AI officially powers Boston Dynamics' next-gen robots (parallel, cross-industry framing vs Meta robotics work) — *source: 2026-01-08 cycle*
+- **2026-01-06**: Chief AI scientist Yann LeCun departs with parting shots at Meta AI leadership; admits to "fudging" Llama 4 benchmarks; DeepConf technique from Meta AI researchers (cuts LLM reasoning overhead by up to 84.7%) — *source: 2026-01-06 cycle (The Rundown AI — Meta's AI chief scientist leaves with parting shots)*
 - **2026-01-03**: Meta researchers publish findings that agents using "self-play" (generating and fixing their own bugs) beat agents trained purely on human-labeled data — *source: TLDR AI 2026-01-03 cycle*
 - **2026-01-02**: Meta-[[manus]] acquisition reframed as push into "Personal Superintelligence" / general-purpose agents across Facebook, Instagram, WhatsApp — *source: 2026-01-02 cycle*
 - **2026-01-01**: Meta-[[manus]] $2B acquisition confirmed; agents to be integrated into Facebook, Instagram, WhatsApp — *source: The Rundown AI; TLDR 2026-01-01 cycle*

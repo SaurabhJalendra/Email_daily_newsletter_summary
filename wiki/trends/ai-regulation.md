@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-17
-> **Last updated**: 2026-04-16 (backfill 2025-11-28..2025-12-02)
+> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-01-19)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[sora-2]], [[character-ai]], [[google]], [[ai-video-generation]], [[ai-copyright]], [[prompt-injection]]
 
@@ -19,6 +19,12 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 ## Timeline
 
 - **2026-04-16**: US federal court rules in *United States v. Heppner* that AI chatbot conversations (incl. Claude) are not protected by attorney-client privilege — the chatbot is not a lawyer and provider privacy policies permit collection of inputs/outputs — *source: Uncovering AI "Your AI chats can be used against you"*
+- **2026-01-13**: Indonesia and Malaysia temporarily block Grok access after non-consensual deepfake generation — *source: 2026-01-13 cycle*
+- **2026-01-13**: Musk–OpenAI trial proceeds; Musk's anti-conversion claims against OpenAI's for-profit shift head to court — *source: 2026-01-13 cycle*
+- **2026-01-12**: Senate advances Defiance Act — federal civil remedies for non-consensual AI deepfakes — *source: 2026-01-12 cycle*
+- **2026-01-12**: [[anthropic]] blocks third-party tools that spoof [[claude-code]] to access Opus 4.5 (affects xAI + others) — *source: 2026-01-12 cycle*
+- **2026-01-09**: Utah enacts first-in-the-US restriction on AI-generated medical prescriptions — requires licensed-clinician sign-off for any AI prescriptive output — *source: 2026-01-09 cycle*
+- **2026-01-06**: India orders [[xai]]'s X to fix Grok safeguards against "obscene" AI content within 72 hours — *source: 2026-01-06 cycle*
 - **2025-12-02**: Australia becomes first country to ban social media for all users under 16 — platforms must block new signups and remove existing minor accounts — *source: 2025-12-02 cycle*
 - **2025-11-30**: Tesla sued by Perrone Robotics for alleged Autopilot self-driving patent infringement; Figure AI sued by former head of product safety Robert Gruendel over wrongful termination after raising safety warnings — *source: 2025-11-30 cycle*
 - **2025-11-23**: Stability AI's Emad Mostaque: humanity has ~900 days before AI's economic and social impact becomes irreversible; IRS adopts AI agents to absorb 25% staff reduction — *source: TAAFT "900 Days to Decide AI's Future"*
@@ -75,4 +81,8 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 - data/summaries/2025-11-23.json (TAAFT — 900 Days to Decide AI's Future / IRS AI agents)
 - data/summaries/2025-11-30.json (Tesla–Perrone Robotics suit; Figure AI safety wrongful-termination suit)
 - data/summaries/2025-12-02.json (Australia under-16 social-media ban)
+- data/summaries/2026-01-06.json (India orders X to fix Grok)
+- data/summaries/2026-01-09.json (Utah first AI-prescription restriction)
+- data/summaries/2026-01-12.json (Senate Defiance Act; Anthropic spoof-blocking)
+- data/summaries/2026-01-13.json (Indonesia/Malaysia Grok block; Musk-OpenAI trial)
 - data/summaries/2026-04-16.json (Uncovering AI — Your AI chats can be used against you)

@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-13
-> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-01-19)
 > **Status**: active
-> **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-design]], [[claude-code-web]], [[agent-frameworks]], [[jules]], [[cursor]]
+> **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code-web]], [[claude-cowork]], [[agent-frameworks]], [[jules]], [[cursor]]
 
 ## Summary
 
@@ -21,6 +21,12 @@ Claude Code is [[anthropic]]'s official command-line coding agent, built around 
 - **2026-04-16**: Always-on Routines launched — reusable prompt/repo/connector bundles running on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: [[claude-design]] ships with direct hand-off into Claude Code for build stage — *source: TAAFT "Claude Just Became a Designer"; World of AI "ANTHROPIC DROPS Claude Design!"*
 - **2026-04-16**: Nate Herk demos a fully autonomous Claude Code 4.7 trading bot that researches, trades on Alpaca, manages stops, and self-reports on cron — illustrative of agentic Claude Code workflows in the community — *source: AI Automation Society*
+- **2026-01-17**: Coverage of Claude Code tutorials continues; bundled with [[claude-cowork]] positioning — *source: 2026-01-17 cycle*
+- **2026-01-14**: Claude Code framed as usable beyond coding — "organizing digital lives," file-based workflows — sits adjacent to [[claude-cowork]] launch — *source: 2026-01-14 cycle*
+- **2026-01-12**: [[anthropic]] blocks third-party tools that spoof Claude Code to access Opus 4.5 — affects xAI + other clients; cat-and-mouse framing — *source: 2026-01-12 cycle*
+- **2026-01-10**: Claude Code 2.1.0 released — hooks for agents + skills, hot reload for skills, `/move` command to continue sessions at claude.ai/code — *source: 2026-01-10 cycle (Superhuman — Big Claude Code update arrives; World of AI)*
+- **2026-01-09**: Claude Code upgraded for stronger agent control + stability; terminal upgrades for developer reliability — *source: 2026-01-09 cycle (World of AI — Claude Code Just Got BETTER)*
+- **2026-01-05**: Claude Code masterclass published by Boris (Claude Code creator); demo builds a full working NES emulator end-to-end — framing: Claude Code as "autonomous developer" that explores, plans, executes, verifies — *source: 2026-01-05 cycle (TAAFT — Claude Code masterclass)*
 - **2026-01-02**: Claude Code cited as a leading example of agents "writing code autonomously" — core to the [[vibe-coding]] revolution framing — *source: 2026-01-02 cycle*
 - **2025-12-30**: Claude Code recurs alongside [[cursor]] as the default reference for AI-driven development — *source: 2025-12-30 cycle*
 - **2025-12-25**: Karpathy-vibe-coding future cites Claude Code + [[lovable]] as primary examples of agent-driven development — *source: 2025-12-25 cycle*

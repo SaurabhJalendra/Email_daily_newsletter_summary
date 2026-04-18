@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2025-12-20..2026-01-04)
+> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-01-19)
 > **Status**: active
-> **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]]
+> **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-cowork]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]]
 
 ## Summary
 
@@ -18,6 +18,11 @@ type: topic
 
 ## Timeline
 
+- **2026-01-17**: OpenAI Open Responses API — open, event-based agent API standardizing reasoning + tool-call + result events; OpenCode adds GitHub Copilot subscription support; GitHub launches cross-agent memory for Copilot — *source: AlphaSignal 2026-01-17*
+- **2026-01-17**: [[claude-code]] diff view — inline review in-session without external tools — *source: AlphaSignal 2026-01-17*
+- **2026-01-14**: [[claude-cowork]] launches — Anthropic's local-file agent that "organizes digital life" across files and connectors — *source: 2026-01-14 cycle*
+- **2026-01-12**: Manus Slack integration — agent workflows delegable from Slack threads — *source: 2026-01-12 cycle*
+- **2026-01-10**: Grok Build previewed — [[xai]] upcoming coding agent (web + CLI); [[claude-code]] 2.1.0 ships with hooks for agents + skills, skills hot reload, `/move` — *source: 2026-01-10 cycle*
 - **2026-01-03**: LangChain reframes "agent engineering" as a discipline; workflow patterns and eval tooling converge — *source: 2026-01-03 cycle*
 - **2025-12-31**: [[meta]] acquires [[manus]] — Chinese-roots general-purpose agent startup brought into Superintelligence unit — *source: 2025-12-31 cycle*
 - **2025-12-21**: [[anthropic]] ships [[claude-code]] browser extension GA — injects Claude into any web page; plus ChatGPT Atlas-style agentic browsing direction — *source: 2025-12-21 cycle*
@@ -107,4 +112,8 @@ type: topic
 - data/summaries/2025-12-17.json (AlphaSignal — Nemotron 3; TLDR AI — Nvidia Nemotron 3 / Claude agentic tasks)
 - data/summaries/2025-12-18.json (AI Breakfast — OpenAI's Triple Strike [Claude Agentic Tasks Mode]; TLDR AI)
 - data/summaries/2025-12-19.json (AlphaSignal — Grok Voice Agent API)
+- data/summaries/2026-01-10.json (Claude Code 2.1.0; Grok Build preview)
+- data/summaries/2026-01-12.json (Manus Slack)
+- data/summaries/2026-01-14.json (Claude Cowork launch)
+- data/summaries/2026-01-17.json (AlphaSignal — OpenAI Open Responses API; Claude Code diff view; GitHub cross-agent memory)
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; The Rundown AI — OpenAI's superapp hiding inside Codex; TLDR AI — OpenAI Agents SDK; TAAFT — Claude Just Became a Designer [Cloudflare Agent Memory]; TLDR — Opus 4.7, Cloudflare Agents Week; World of AI — ANTHROPIC DROPS Claude Design!; Ollama Newsletter — 0.21 with Hermes Agent)

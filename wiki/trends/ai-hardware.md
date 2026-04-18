@@ -10,7 +10,7 @@ type: trend
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-04-16
 > **Status**: active
-> **Related**: [[nvidia]], [[nvidia-cosmos]], [[ironwood-tpu]], [[project-suncatcher]], [[amd]], [[broadcom]], [[oracle]], [[meta]], [[apple]], [[apple-m5]], [[xai]], [[openai]], [[amazon]], [[qualcomm]], [[extropic]], [[figure]]
+> **Related**: [[nvidia]], [[nvidia-cosmos]], [[vera-rubin]], [[ironwood-tpu]], [[project-suncatcher]], [[amd]], [[broadcom]], [[oracle]], [[meta]], [[apple]], [[apple-m5]], [[xai]], [[openai]], [[amazon]], [[qualcomm]], [[extropic]], [[figure]]
 
 ## Summary
 
@@ -24,6 +24,11 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - **2026-04-16**: [[nvidia-cosmos]] 2.5 GA; Cosmos 3 pre-announced for summer 2026 — *source: NVIDIA Newsletter*
 - **2026-04-16**: [[xai]] Terafab team sources chipmaking gear; xAI repurposes compute for external rental — *source: TLDR; Forward Future*
 - **2026-04-16**: Allbirds rebrands as "NewBird AI" with a $50M financing deal and pivots from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code; "Gemini on your desktop"*
+- **2026-01-17**: [[nvidia]] H200 export block to China reasserted — export-control tightening continues — *source: 2026-01-17 cycle*
+- **2026-01-15**: [[nvidia]] + Eli Lilly $1B AI drug-discovery lab — compute anchored to biomedical R&D — *source: 2026-01-15 cycle*
+- **2026-01-13**: [[meta]] strikes 6.6 GW nuclear power agreement to back long-term AI-compute expansion — *source: 2026-01-13 cycle*
+- **2026-01-15**: [[meta]] commits to "tens to hundreds of GW" of additional AI-data-center capacity — *source: 2026-01-15 cycle*
+- **2026-01-07**: [[nvidia]] CES keynote — [[vera-rubin]] pre-announced (5× inference, 3.5× training vs Blackwell); [[alpamayo]] 10B open autonomous-driving model family — *source: 2026-01-07 cycle*
 - **2026-01-03**: Nebius Token Factory launches Post-training — fine-tune DeepSeek V3 and GPT-OSS 20B/120B as a hosted service; [[nvidia]] [[nitrogen]] open-sources a gaming-agent foundation model — *source: 2026-01-03 cycle*
 - **2026-01-01**: [[nvidia]] Colossus supercomputer scaling to ~2 GW of training capacity; [[xai]] Memphis facility acquisition — *source: 2026-01-01 cycle*
 - **2025-12-31**: [[google]] [[ai-edge-gallery]] release — on-device AI for phones (offline inference) — *source: 2025-12-31 cycle*
@@ -104,4 +109,8 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - data/summaries/2025-11-14.json (AlphaSignal — Anthropic $50B Fluidstack; Microsoft Atlanta super factory)
 - data/summaries/2025-11-19.json (TAAFT; AlphaSignal — NVIDIA RIKEN + NVLink for Arm + Apollo physics)
 - data/summaries/2025-11-21.json (TLDR — Nvidia crushes earnings $57B / Apple N1; The Rundown AI — Saudi 600K GPUs)
+- data/summaries/2026-01-07.json (NVIDIA CES keynote — Vera Rubin, Alpamayo)
+- data/summaries/2026-01-13.json (Meta 6.6 GW nuclear deal)
+- data/summaries/2026-01-15.json (Meta "tens to hundreds of GW"; NVIDIA + Lilly $1B)
+- data/summaries/2026-01-17.json (NVIDIA H200 China export block)
 - data/summaries/2026-04-16.json (InstaByte — Snap cuts 1,000 jobs, blames AI [Meta CoreWeave]; The Tech Buzz — TSMC Earnings, Nvidia Quantum Chips; NVIDIA Newsletter — Cosmos; TLDR — Inside Elon's Terafab; Forward Future — Anthropic challenges OpenAI in London [xAI compute]; The Rundown AI — Allbirds ditches sneakers; The Code — Shoemaker company pivots to AI; "Gemini on your desktop")

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
+> **Last updated**: 2026-01-19 (backfill 2026-01-05..2026-01-19)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]], [[github-agent-hq]], [[ai-funding-rounds]]
 
@@ -18,6 +18,11 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 
 ## Timeline
 
+- **2026-01-19**: Microsoft debuts Copilot Checkout — conversational commerce tool enabling brands to build "shopping agents" directly into sites — *source: 2026-01-19 cycle*
+- **2026-01-18**: Copilot Studio extension released for VS Code — build/test/customize AI copilots in-editor — *source: 2026-01-18 cycle*
+- **2026-01-15**: Microsoft pledges to pay for its own data centers — cost not passed to residential customers, addressing community pushback — *source: 2026-01-15 cycle*
+- **2026-01-14**: Microsoft reports global AI adoption hits 16.3%; UAE leads at 64% working-age adoption; US drops to 24th — *source: 2026-01-14 cycle*
+- **2026-01-05**: Nadella's "AI maturity year" framing — 2026 marks shift from novelty to practical human-collaboration tool; AI as "cognitive amplifier" — *source: 2026-01-05 cycle (TAAFT)*
 - **2025-12-28**: Microsoft C/C++→Rust replacement plan reinforced with "over 1B lines of code" framing — security/reliability justification — *source: 2025-12-28 cycle*
 - **2025-12-26**: Microsoft plans to replace all C/C++ code with Rust by 2030 — AI-assisted refactoring is core to the plan — *source: 2025-12-26 cycle*
 - **2025-12-25**: Microsoft announces plan to replace its C and C++ codebase with Rust (target by 2030) to improve security and performance — *source: TLDR; 2025-12-25 cycle*

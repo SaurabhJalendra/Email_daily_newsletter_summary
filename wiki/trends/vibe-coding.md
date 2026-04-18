@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-12-25
-> **Last updated**: 2026-01-02
+> **Last updated**: 2026-01-17
 > **Status**: active
 > **Related**: [[andrej-karpathy]], [[claude-code]], [[cursor]], [[lovable]], [[cognition]], [[agent-frameworks]], [[enterprise-ai]]
 
@@ -18,6 +18,10 @@ type: trend
 
 ## Timeline
 
+- **2026-01-17**: [[claude-code]] diff view + GitHub cross-agent memory + OpenCode GitHub Copilot integration — three layers of the vibe-coding stack fill in — *source: AlphaSignal 2026-01-17*
+- **2026-01-10**: [[claude-code]] 2.1.0 lands with skills hot reload + hooks + `/move`; Grok Build previewed — *source: 2026-01-10 cycle*
+- **2026-01-08**: Tailwind Labs reports 75% layoff, explicitly attributed to AI-driven coding tools reducing staffing needs — first high-profile labor-impact case tied to vibe-coding adoption — *source: 2026-01-08 cycle*
+- **2026-01-05**: Claude Code masterclass (Boris, Claude Code creator) — end-to-end NES emulator build as canonical "autonomous developer" demo — *source: TAAFT 2026-01-05*
 - **2026-01-02**: Framed as "revolutionizing the programming profession" — agents like [[claude-code]] writing code autonomously; [[lovable]] and Replit cited alongside as pillars of the category — *source: 2026-01-02 cycle*
 - **2025-12-25**: Karpathy discusses the future of "vibe coding" and its potential to transform software development — iteration speed and testing as central bottlenecks; [[claude-code]] and [[lovable]] cited as active examples — *source: 2025-12-25 cycle*
 - **2025-12-23**: [[lovable]] raises $330M at $6.6B valuation — validates the vibe-coding category as venture thesis — *source: 2025-12-23 cycle*
@@ -39,3 +43,7 @@ type: trend
 - data/summaries/2025-12-23.json (Lovable $330M raise)
 - data/summaries/2025-12-25.json (Karpathy on vibe coding future)
 - data/summaries/2026-01-02.json (vibe-coding revolution framing)
+- data/summaries/2026-01-05.json (TAAFT — Claude Code masterclass / NES emulator)
+- data/summaries/2026-01-08.json (Tailwind Labs 75% layoff attributed to AI coding tools)
+- data/summaries/2026-01-10.json (Claude Code 2.1.0 / Grok Build)
+- data/summaries/2026-01-17.json (Claude Code diff view / GitHub cross-agent memory / OpenCode)

@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
+> **Last updated**: 2026-01-19 (backfill 2026-01-05..2026-01-19)
 > **Status**: active
-> **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[gpt-5-2]], [[gpt-image-1-5]], [[anthropic]], [[google]], [[amazon]], [[disney]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]], [[agentic-ai-foundation]]
+> **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[openai-for-healthcare]], [[chatgpt-translate]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[gpt-5-2]], [[gpt-5-2-codex]], [[gpt-image-1-5]], [[merge-labs]], [[anthropic]], [[google]], [[amazon]], [[disney]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]], [[agentic-ai-foundation]]
 
 ## Summary
 
@@ -22,6 +22,18 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - **2026-04-16**: GPT-Rosalind introduced — biology-tuned LLM for drug discovery / biological research — *source: TLDR "Opus 4.7, the clip economy, Cloudflare Agents Week"; TLDR AI "GPT Rosalind, Perplexity Personal Computer"*
 - **2026-04-16**: Agents SDK updated — native harness for cross-file / tool workflows, sandboxed execution — *source: TLDR AI "Gemini 3.1 Flash TTS, OpenAI Agents SDK"*
 - **2026-04-16**: Trusted Access program expands (mentions GPT-5 tiered-identity framing continuing) — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
+- **2026-01-19**: [[openai]] backs [[merge-labs]] (Sam Altman's BCI startup) with $250M seed at $850M valuation — *source: 2026-01-19 cycle*
+- **2026-01-18**: ChatGPT Ads roll out for Free and Go tiers in the US — promises not to influence answers or sell user data — *source: 2026-01-18 cycle*
+- **2026-01-17**: Invests in [[merge-labs]] (Altman's BCI startup); partners with Cerebras for 750MW inference (confirming Jan 16 $10B deal); [[chatgpt-translate]] launched (50+ languages); [[gpt-5-2-codex]] expanded with multimodal coding/reasoning/security analysis; [[anthropic]] Economic Index Jan 2026 published in parallel — *source: 2026-01-17 cycle*
+- **2026-01-16**: OpenAI + Cerebras $10B deal — 750 MW of compute through 2028 for inference speed-up; reports of potential public offering at ~$500B valuation (see [[ai-ipo-wave]]); [[gpt-5-2-codex]] upgraded for agentic coding (400K context, four reasoning-effort levels) — *source: 2026-01-16 cycle*
+- **2026-01-14**: Acquires Torch (health-records startup) to add persistent medical memory to [[chatgpt-health]] — *source: 2026-01-14 cycle*
+- **2026-01-12**: [[chatgpt-health]] health waitlist opens — secure sync of medical records with ChatGPT — *source: 2026-01-12 cycle*
+- **2026-01-11**: Testing ChatGPT Jobs feature — resume tips, role matching, career guidance — *source: 2026-01-11 cycle*
+- **2026-01-10**: [[openai-for-healthcare]] launched (HIPAA, GPT-5-class) alongside consumer [[chatgpt-health]]; reports of $50B equity-compensation pool; leaked xAI financials circulated — *source: 2026-01-10 cycle*
+- **2026-01-09**: [[chatgpt-health]] launched — dedicated space connecting medical records and wellness apps for personalized insights — *source: 2026-01-09 cycle (The Rundown AI; TLDR; AlphaSignal; Superhuman; World of AI)*
+- **2026-01-07**: OpenAI reportedly exploring acquisition of Pinterest to enhance commerce aspirations — *source: 2026-01-07 cycle*
+- **2026-01-06**: ChatGPT "App Store" feature rolls out with real plug-and-play third-party integrations; SoftBank invests $22.5B in OpenAI as part of the larger $40B round (raising stake to ~11%) + SoftBank acquires DigitalBridge for $4B for AI data-center infrastructure; OpenAI average pay reported at 7× Alphabet's — *source: 2026-01-06 cycle (Uncovering AI; The Rundown AI; AI Breakfast; TLDR)*
+- **2026-01-05**: OpenAI's first device (codenamed "Gumdrop") reportedly a pen with mic + camera + handwriting-to-ChatGPT transcription, designed by Jony Ive and manufactured by Foxconn; targeted for 2026–2027 launch — *source: 2026-01-05 cycle (TAAFT; AI Breakfast — Gumdrop)*
 - **2026-01-03**: OpenAI overhauling its audio models; plans to launch an audio-first personal device in ~1 year (audio-centric product strategy) — *source: The Rundown AI "OpenAI's audio overhaul"; 2026-01-03 cycle*
 - **2026-01-02**: ChatGPT shopping upgrade — product cards with real images, prices, star ratings; [[chatgpt-atlas]] coverage continues — *source: 2026-01-02 cycle*
 - **2026-01-01**: SoftBank $40B OpenAI investment completed at $260B valuation (~10–11% stake), part of the Stargate joint venture with Oracle; OpenAI average stock-based compensation ~$1.5M/employee — inflates operating losses and dilutes shareholders — *source: The Rundown AI; TAAFT; TLDR cycle 2026-01-01*
@@ -156,4 +168,16 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - data/summaries/2025-12-17.json (Forward Future — NVIDIA Agentic Bet; TAAFT — First 100% AI-Made Game; Mindstream — AI bubble or not)
 - data/summaries/2025-12-18.json (AlphaSignal — GPT-Image-1.5; The Rundown AI — OpenAI answers Google; TLDR AI — GPT-Image-1.5; Uncovering AI; AI Breakfast — Triple Strike; TLDR; Mindstream)
 - data/summaries/2025-12-19.json (TLDR — Gemini 3 Flash + ChatGPT app store; The Rundown AI — Google's Flash-y Gemini 3; Superhuman — Google strikes back; TAAFT — ChatGPT Gets an App Store; InstaByte)
+- data/summaries/2026-01-05.json (TAAFT — Gumdrop pen leak; AI Breakfast — Gumdrop)
+- data/summaries/2026-01-06.json (Uncovering AI — ChatGPT Apps; AI Breakfast — Gumdrop; TLDR — SoftBank tranche; The Rundown AI — ChatGPT App Store)
+- data/summaries/2026-01-07.json (TLDR — OpenAI Pinterest rumor; various CES 2026 coverage)
+- data/summaries/2026-01-09.json (The Rundown AI — ChatGPT gets personal with Health; TLDR; AlphaSignal — ChatGPT Health connects medical records + Apple Health; Superhuman; World of AI — CHATGPT DROPS AN AI DOCTOR)
+- data/summaries/2026-01-10.json (AI Breakfast — OpenAI: Coming to a hospital near you; TLDR — xAI leaked financials; Grok Build; Tim Cook successor)
+- data/summaries/2026-01-11.json (ChatGPT Jobs testing)
+- data/summaries/2026-01-12.json (Health waitlist opens)
+- data/summaries/2026-01-14.json (Apple + Google partnership; Torch acquisition for ChatGPT Health; OpenAI acquires Torch)
+- data/summaries/2026-01-16.json (OpenAI + Cerebras $10B / 750MW; GPT-5.2 Codex agentic upgrade; IPO talk $500B)
+- data/summaries/2026-01-17.json (Taiwan $250B chip deal; OpenAI invests in Merge Labs; Personal Intelligence; ChatGPT Translate; GPT-5.2 Codex; Cerebras partnership; Anthropic Economic Index)
+- data/summaries/2026-01-18.json (ChatGPT Ads for free and Go tier; MongoDB Mongot)
+- data/summaries/2026-01-19.json (OpenAI backs Merge Labs $250M seed/$850M valuation)
 - data/summaries/2026-04-16.json (The Rundown AI — OpenAI's superapp hiding inside Codex; AlphaSignal — Anthropic presents always-on Routines / Trusted Access GPT-5; TLDR — Opus 4.7, Cloudflare Agents Week, GPT-Rosalind; TLDR AI — OpenAI Agents SDK; TLDR AI — GPT Rosalind, Perplexity Personal Computer)

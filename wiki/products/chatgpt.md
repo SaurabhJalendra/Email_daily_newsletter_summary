@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-07
-> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
+> **Last updated**: 2026-01-19 (backfill 2026-01-05..2026-01-19)
 > **Status**: active
-> **Related**: [[openai]], [[gpt-5-1]], [[agentkit]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[sora-2]], [[ai-regulation]], [[ai-copyright]], [[prompt-injection]]
+> **Related**: [[openai]], [[gpt-5-1]], [[agentkit]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[chatgpt-translate]], [[sora-2]], [[ai-regulation]], [[ai-copyright]], [[prompt-injection]]
 
 ## Summary
 
@@ -18,6 +18,14 @@ ChatGPT is [[openai]]'s flagship consumer AI assistant. At DevDay 2025 OpenAI re
 
 ## Timeline
 
+- **2026-01-19**: ChatGPT Translate standalone feature — 47 languages, lightweight real-time translation surface — *source: 2026-01-19 cycle*
+- **2026-01-17**: ChatGPT App Store growth — third-party apps momentum; monetization + promoted-slot exploration — *source: 2026-01-17 cycle*
+- **2026-01-16**: ChatGPT displaced as Siri's primary AI — Apple licenses [[gemini]] instead ([[apple]] + [[google]] deal) — *source: 2026-01-16 cycle*
+- **2026-01-13**: Google [[universal-commerce-protocol]] positions Shopify+Google as an agent-commerce rival to ChatGPT/Walmart/PayPal — *source: 2026-01-13 cycle*
+- **2026-01-10**: ChatGPT Ads rollout details — sponsored product placements in shopping and search-like flows — *source: 2026-01-10 cycle*
+- **2026-01-09**: [[chatgpt-health]] launches — consumer health assistant with symptom guidance, lab-report reading, clinician-review mode — *source: 2026-01-09 cycle*
+- **2026-01-08**: OpenAI Torch acquisition — adds prompt-testing / evals tooling into ChatGPT developer surface — *source: 2026-01-08 cycle*
+- **2026-01-05**: OpenAI ships Gumdrop — smart-pen tethered to ChatGPT for handwriting capture/translation/summarization — *source: 2026-01-05 cycle*
 - **2026-01-02**: ChatGPT shopping upgrade — product cards with real images, prices, star ratings — *source: 2026-01-02 cycle*
 - **2025-12-27**: ChatGPT UI gains new formatting blocks (more task-tool look); autopilot flows for grocery, opportunity hunting, bill management; monetization confirmed via embedded sponsored content and ads — *source: 2025-12-27 cycle*
 - **2025-12-26**: OpenAI exploring sponsored results and ads in ChatGPT based on user information — *source: 2025-12-26 cycle*
@@ -90,3 +98,11 @@ ChatGPT is [[openai]]'s flagship consumer AI assistant. At DevDay 2025 OpenAI re
 - data/summaries/2025-11-29.json (TLDR — OpenAI Mixpanel breach)
 - data/summaries/2025-12-02.json (TLDR — OpenAI ads feature leak)
 - data/summaries/2025-12-04.json (TLDR — OpenAI Code Red)
+- data/summaries/2026-01-05.json (Gumdrop smart pen with ChatGPT)
+- data/summaries/2026-01-08.json (OpenAI Torch acquisition)
+- data/summaries/2026-01-09.json (ChatGPT Health consumer launch)
+- data/summaries/2026-01-10.json (ChatGPT Ads rollout)
+- data/summaries/2026-01-13.json (Universal Commerce Protocol backdrop)
+- data/summaries/2026-01-16.json (Apple replaces ChatGPT with Gemini in Siri)
+- data/summaries/2026-01-17.json (ChatGPT App Store momentum)
+- data/summaries/2026-01-19.json (ChatGPT Translate standalone)
