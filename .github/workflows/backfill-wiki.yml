@@ -1,0 +1,109 @@
+name: Backfill Wiki
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of summaries to ingest in this run (resumable — rerun until all done)'
+        default: '10'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330  # 5.5 hours max (GitHub Actions cap is 6h)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Show current ingest state
+        run: |
+          echo "Total summaries in data/summaries/:"
+          ls data/summaries/*.json 2>/dev/null | grep -v index.json | wc -l
+          echo ""
+          echo "Current wiki state:"
+          ls -la wiki/ 2>/dev/null
+          echo ""
+          echo "Last few log entries:"
+          head -40 wiki/log.md 2>/dev/null || echo "log.md is empty"
+          echo ""
+          echo "Batch size for this run: ${{ inputs.batch_size }}"
+
+      - name: Wiki backfill via Claude Code
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You are performing a BACKFILL of the LLM Wiki from historical newsletter summaries.
+
+            Step 1: Read `wiki/WIKI.md` completely. This is the schema — follow it exactly. The INGEST operation applies here, but repeated across many historical dates.
+
+            Step 2: Read `wiki/log.md` to determine which dates have already been ingested. Dates appear as `## YYYY-MM-DD` headers. Find the OLDEST un-ingested date.
+
+            Step 3: List all summary files in `data/summaries/` (ignore `index.json`). Each file is named `YYYY-MM-DD.json`. Identify the ${{ inputs.batch_size }} oldest files that have NOT yet been ingested (i.e., no matching log entry).
+
+            Step 4: Process them in CHRONOLOGICAL ORDER (oldest first) so timelines build correctly. For each file:
+            - Read the summary JSON
+            - Identify entities: companies, products, topics, trends
+            - Update (or create) relevant wiki pages under `wiki/companies/`, `wiki/products/`, `wiki/topics/`, `wiki/trends/`
+            - Follow the page template in WIKI.md exactly: Summary (1-2 paragraphs, evergreen), Timeline (newest at top, dated entries), Key Facts, Open Questions, Sources
+            - Add cross-references using [[page-name]] syntax
+            - Aim for 3-8 page updates per newsletter (so 10-30 page touches per summary)
+
+            Step 5: After processing the batch, update `wiki/index.md` with any new pages (alphabetical within each section: Companies, Products, Topics, Trends).
+
+            Step 6: For each summary processed, append an entry to `wiki/log.md` at the TOP (newest first) using the exact format in WIKI.md. Include which pages were updated and created.
+
+            Rules:
+            - ONLY touch files under `wiki/`. Never modify `data/summaries/`.
+            - Scope: AI/ML/developer tools only. Skip non-AI content.
+            - Don't page-ify ephemeral content (webinar promos, course ads).
+            - Be consistent: same entity should always map to the same page (e.g., "Claude Code" always goes in `wiki/products/claude-code.md`, never in `claude_code.md` or `ClaudeCode.md`).
+            - Keep Timeline entries concise: one line each.
+            - Keep Summary sections evergreen (updated, not appended) — 1-2 paragraphs max.
+            - If two summaries contradict, use the newer one unless clearly wrong.
+            - Do NOT commit — the workflow step after this will commit.
+            - Process EXACTLY ${{ inputs.batch_size }} summaries (or fewer if that exhausts the backlog). Don't try to do more.
+          claude_args: |
+            --max-turns 300
+            --model claude-opus-4-7
+            --allowedTools Read,Write,Edit,Glob,Grep
+
+      - name: Commit wiki changes
+        if: success()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add wiki/
+          if git diff --staged --quiet; then
+            echo "No wiki changes committed"
+          else
+            COUNT=$(grep -c "^## 20" wiki/log.md 2>/dev/null || echo "unknown")
+            git commit -m "wiki: backfill batch ($COUNT total dates ingested)"
+            git push
+          fi
+
+      - name: Report progress
+        if: always()
+        run: |
+          echo "=== Post-backfill state ==="
+          echo "Total log entries:"
+          grep -c "^## 20" wiki/log.md 2>/dev/null || echo "0"
+          echo ""
+          echo "Remaining summaries not yet ingested (approximate):"
+          TOTAL=$(ls data/summaries/*.json 2>/dev/null | grep -v index.json | wc -l)
+          INGESTED=$(grep -c "^## 20" wiki/log.md 2>/dev/null || echo "0")
+          echo "$((TOTAL - INGESTED))"
+          echo ""
+          echo "Wiki page counts:"
+          echo "  companies: $(ls wiki/companies/*.md 2>/dev/null | wc -l)"
+          echo "  products:  $(ls wiki/products/*.md 2>/dev/null | wc -l)"
+          echo "  topics:    $(ls wiki/topics/*.md 2>/dev/null | wc -l)"
+          echo "  trends:    $(ls wiki/trends/*.md 2>/dev/null | wc -l)"
