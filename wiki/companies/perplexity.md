@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-03
-> **Last updated**: 2026-03-14 (backfill 2026-02-20..2026-03-14)
+> **Last updated**: 2026-03-21 (backfill 2026-02-20..2026-03-21)
 > **Status**: active
 > **Related**: [[perplexity-comet]], [[perplexity-computer]], [[perplexity-personal-computer]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[amazon]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,7 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 
 ## Timeline
 
+- **2026-03-21**: Perplexity Health enters US market — customizable health hub with specialized AI agents leveraging real user data for personalized insights — *source: 2026-03-21 cycle*
 - **2026-03-14**: Perplexity API platform rebuilt as full-stack, model-agnostic API for building agents; replaces model providers, search layers, embeddings; curated presets + frontier-model swap — *source: 2026-03-14 cycle (TLDR — Perplexity Agent API)*
 - **2026-03-13**: [[perplexity-personal-computer]] launches — always-on Comet Assistant on a dedicated Mac mini; persistent local file/app access, remote control, kill-switch safeguards; positioned as secure, locally controlled rival to [[openclaw]] — *source: 2026-03-13 cycle (The Rundown AI; Superhuman; The Code; AlphaSignal 2026-03-14)*
 - **2026-03-12**: [[amazon]] wins court order blocking [[perplexity-comet]] AI shopping agent from accessing Amazon — first major agent-access injunction; regulatory signal for agentic commerce — *source: 2026-03-12 cycle (TLDR AI — Amazon vs Perplexity)*
@@ -68,3 +69,4 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 - data/summaries/2026-03-12.json (TLDR AI — Amazon vs Perplexity court order)
 - data/summaries/2026-03-13.json (The Rundown AI; Superhuman; The Code — Perplexity Personal Computer launch)
 - data/summaries/2026-03-14.json (TLDR — Perplexity Agent API; AlphaSignal — Personal Computer deep-dive)
+- data/summaries/2026-03-21.json (Perplexity Health US launch)

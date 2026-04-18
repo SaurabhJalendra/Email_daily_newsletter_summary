@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-16 (backfill 2026-02-20..2026-03-16)
+> **Last updated**: 2026-03-26 (backfill 2026-02-20..2026-03-26)
 > **Status**: active
 > **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[openai-for-healthcare]], [[chatgpt-translate]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[gpt-5-2]], [[gpt-5-2-codex]], [[gpt-5-3-codex]], [[gpt-5-3-codex-spark]], [[gpt-image-1-5]], [[openai-frontier]], [[openclaw]], [[merge-labs]], [[anthropic]], [[google]], [[amazon]], [[disney]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]], [[agentic-ai-foundation]]
 
@@ -19,6 +19,12 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 ## Timeline
 
 - **2026-04-16**: [[openai-codex]] superapp — background computer use, parallel agents, in-app browser, image gen; expanded beyond code across ChatGPT, desktop, CLI, IDEs; rate limits doubled — *source: The Rundown AI "OpenAI's superapp hiding inside Codex"; multiple*
+- **2026-03-26**: [[sora-2]] platform shut down to refocus on next major model (codename "Spud") + fusion power research; in-chat checkout experiment phased out in favor of product discovery and merchant-directed purchase flows; $120B funding round total framing confirmed — *source: 2026-03-26 cycle*
+- **2026-03-25**: Reports OpenAI merging ChatGPT, [[openai-codex]], and [[chatgpt-atlas]] into a single desktop app — earlier surfacing of the April superapp consolidation; also pursuing JV structures with buyout firms offering a 17.5% guaranteed minimum return to accelerate enterprise-AI adoption — *source: 2026-03-25 cycle*
+- **2026-03-24**: OpenAI plans fully autonomous agent-based AI researcher for complex problems; targets doubling workforce to 8,000 employees by end of 2026 — *source: 2026-03-24 cycle*
+- **2026-03-23**: Altman frames long-term OpenAI business model as "selling intelligence as a metered utility" — positions OpenAI as infrastructure provider competing against on-device models ([[apple]], [[qualcomm]]) — *source: 2026-03-23 cycle*
+- **2026-03-21**: OpenAI acquires Astral — Python tooling startup; folded into [[openai-codex]] to expand AI-assisted Python dev capabilities — *source: 2026-03-21 cycle*
+- **2026-03-20**: OpenAI-AWS deal extends OpenAI products to US government (classified + unclassified work); [[microsoft]] reportedly considering legal action against AWS + OpenAI over a $50B cloud arrangement as potential Azure-exclusivity violation — *source: 2026-03-20 cycle*
 - **2026-03-16**: ChatGPT-designed cancer vaccine shrinks dog's tumor by ~75% (Paul Conyngham + UNSW RNA Institute — ChatGPT sequenced tumor DNA, identified mutations; custom mRNA vaccine manufactured in <2 months) — first publicized consumer-LLM drug-design case-study — *source: 2026-03-16 cycle (TAAFT; Superhuman)*
 - **2026-03-14**: Sora added to main ChatGPT interface (video generation alongside text/image); Finance Project feature (sync bank accounts → track spending, flag fraud, auto-generate debt-repayment plans); Pro Lite $100/mo tier announced (5× standard Plus limits); Response API reframed as dedicated execution environment for autonomous agents — *source: 2026-03-14 cycle (AI Breakfast — agentic OS features)*
 - **2026-03-13**: Interactive math/science visualizations in ChatGPT — 70+ topics (compound interest, Pythagoras, Ohm's law etc) with live variable adjustment; CaitlinKalinowski (Head of Robotics & Hardware) resigns over Pentagon deal (domestic surveillance and lethal autonomy concerns) — *source: 2026-03-13 cycle (AlphaSignal; Vaibhav Sisinty; Superhuman)*
@@ -246,3 +252,10 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - data/summaries/2026-03-13.json (Interactive math/science; Kalinowski resignation)
 - data/summaries/2026-03-14.json (Sora in ChatGPT; Finance Project; Pro Lite tier)
 - data/summaries/2026-03-16.json (ChatGPT-designed cancer vaccine)
+- data/summaries/2026-03-19.json (Britannica + Merriam-Webster copyright suit; GPT-5.4 Mini/Nano coverage)
+- data/summaries/2026-03-20.json (OpenAI-AWS USG deal; Microsoft potential legal action over $50B deal)
+- data/summaries/2026-03-21.json (Astral acquisition — Python tooling)
+- data/summaries/2026-03-23.json (Altman — intelligence as metered utility framing)
+- data/summaries/2026-03-24.json (Autonomous agent-researcher plans; workforce doubling to 8,000 by EOY)
+- data/summaries/2026-03-25.json (ChatGPT/Codex/Atlas desktop-app merger; buyout-firm JV with 17.5% minimum return)
+- data/summaries/2026-03-26.json (Sora platform shutdown; "Spud" next model; in-chat checkout killed; $120B round total)

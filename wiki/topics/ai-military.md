@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-12-25
-> **Last updated**: 2026-03-07 (backfill 2026-02-20..2026-03-07)
+> **Last updated**: 2026-03-21 (backfill 2026-02-20..2026-03-21)
 > **Status**: active
 > **Related**: [[anthropic]], [[xai]], [[openai]], [[ai-regulation]], [[enterprise-ai]]
 
@@ -18,6 +18,8 @@ AI-military coverage tracks how the US Department of War / Department of Defense
 
 ## Timeline
 
+- **2026-03-23**: Palantir's Maven AI system designated a formal Pentagon "program of record" — secures long-term funding and institutionalizes Maven as reference defense-AI stack — *source: 2026-03-23 cycle*
+- **2026-03-21**: Pentagon escalates [[anthropic]] label from "supply-chain risk" to "unacceptable risk" — citing Anthropic's refusal to let Claude be used for mass surveillance or lethal-weapon targeting decisions — *source: 2026-03-21 cycle*
 - **2026-03-07**: [[anthropic]] sues the Department of War over "supply-chain risk" designation; Anthropic CEO apologizes for leaked internal memo questioning DoW's decision — lab explicitly argues the action "is not legally sound"; [[anduril]] meanwhile raises $4B at $60B valuation for autonomous warfare (separate thread; DoD customer) — *source: 2026-03-07 cycle (TLDR; TAAFT; Forward Future)*
 - **2026-03-06**: [[openai]] revises Pentagon contract after employee backlash + user cancellations — bars intel agencies from using AI for domestic surveillance absent formal contract mod — *source: 2026-03-06 cycle*
 - **2026-03-03**: Pentagon replaces [[anthropic]] with [[xai]] on classified systems — procurement continuity preserved by vendor switch — *source: 2026-03-03 cycle*
@@ -52,3 +54,5 @@ AI-military coverage tracks how the US Department of War / Department of Defense
 - data/summaries/2026-03-03.json (xAI replaces Anthropic on classified systems)
 - data/summaries/2026-03-06.json (OpenAI revises Pentagon contract)
 - data/summaries/2026-03-07.json (Anthropic files lawsuit vs DoW; leaked-memo apology; Anduril $60B round in parallel)
+- data/summaries/2026-03-21.json (Pentagon escalates Anthropic label to "unacceptable risk")
+- data/summaries/2026-03-23.json (Palantir Maven — formal Pentagon program of record)

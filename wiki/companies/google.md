@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-16 (backfill 2026-02-20..2026-03-16)
+> **Last updated**: 2026-03-26 (backfill 2026-02-20..2026-03-26)
 > **Status**: active
 > **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[translategemma]], [[medgemma]], [[project-genie]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[universal-commerce-protocol]], [[model-context-protocol]], [[prompt-injection]], [[computer-use]], [[ai-hardware]], [[ai-healthcare]]
 
@@ -19,6 +19,10 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 ## Timeline
 
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
+- **2026-03-26**: Google Research publishes TurboQuant — KV-cache compression technique yielding ≥6× smaller cache and up to 8× faster attention on H100 GPUs; Google DeepMind partners with Agile Robots on industrial-robotics intelligence — *source: 2026-03-26 cycle*
+- **2026-03-22**: Google AI Studio update — full-stack app generation with Firebase + APIs; Stitch extended to voice/text app-interface creation — *source: 2026-03-22 cycle*
+- **2026-03-20**: Google introduces Stitch — AI-native design platform with infinite canvas, voice controls, built-in design agent; direct competitor to [[canva]] + Figma/[[adobe]] on AI-native design — *source: 2026-03-20 cycle*
+- **2026-03-19**: DeepMind cognitive-taxonomy paper — three-stage evaluation protocol comparing AI performance to human benchmarks; scorecard decomposes AGI into 10 measurable cognitive abilities — *source: 2026-03-19 + 2026-03-20 cycles*
 - **2026-03-16**: Live photo-editing AI smart glasses demo — Gemini + [[nano-banana-pro]] snap and edit photos instantly; "vibe design" tool in early build — *source: 2026-03-16 cycle (TAAFT — ChatGPT Designs Cancer Vaccine)*
 - **2026-03-14**: Google Maps rebuilt on Gemini — "Ask Maps" (conversational query layer over 300M locations) + "Immersive Navigation" (3D rendering of buildings/overpasses/lanes/signs from Street View + aerial imagery); rollout targets 2B Maps users — *source: 2026-03-14 cycle (World of AI; The Rundown AI; Superhuman; AI Breakfast; The Code; TLDR — Google Maps redesign)*
 - **2026-03-13**: Expanded Gemini capabilities GA across Docs/Sheets/Slides/Drive for AI Ultra and Pro — Docs drafts from reference templates, Sheets auto-populates from web data, Slides generates editable theme-matched decks, Drive answers natural-language questions across files/email/calendar — *source: 2026-03-13 cycle (Superhuman — Google embeds Gemini into Workspace)*
@@ -219,3 +223,7 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - data/summaries/2026-03-13.json (Gemini in Docs/Sheets/Slides/Drive — Workspace overhaul)
 - data/summaries/2026-03-14.json (Google Maps Gemini overhaul — Ask Maps + Immersive Navigation)
 - data/summaries/2026-03-16.json (AI smart glasses demo)
+- data/summaries/2026-03-19.json (DeepMind AGI cognitive-taxonomy paper; 10 cognitive abilities scorecard)
+- data/summaries/2026-03-20.json (Google Stitch — AI-native design platform; DeepMind AGI scorecard continuation)
+- data/summaries/2026-03-22.json (AI Studio full-stack app generation with Firebase)
+- data/summaries/2026-03-26.json (Google Research TurboQuant KV-cache compression; DeepMind × Agile Robots partnership)

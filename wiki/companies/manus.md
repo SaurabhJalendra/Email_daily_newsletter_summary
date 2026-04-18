@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-31
-> **Last updated**: 2026-01-03
+> **Last updated**: 2026-03-24
 > **Status**: active
 > **Related**: [[meta]], [[agent-frameworks]], [[ai-funding-rounds]]
 
@@ -18,6 +18,7 @@ Manus is a Singapore-headquartered AI agent startup — with roots in Chinese AI
 
 ## Timeline
 
+- **2026-03-24**: Manus "My Computer" desktop app launches — agent works directly on user's local machine via terminal commands — *source: 2026-03-24 cycle*
 - **2026-01-02**: Meta–Manus deal reframed as shift toward "Personal Superintelligence" / general-purpose agents integrated into social platforms — *source: 2026-01-02 cycle*
 - **2026-01-01**: $2B Meta acquisition confirmed — agents to ship inside Facebook, Instagram, WhatsApp — *source: The Rundown AI; TLDR 2026-01-01 cycle*
 - **2025-12-31**: Meta acquires Manus for $2B+ — first major US tech acquisition of a startup with Chinese roots; Meta cements AI-agent product position — *source: The Rundown AI 2025-12-31 cycle*
@@ -41,3 +42,4 @@ Manus is a Singapore-headquartered AI agent startup — with roots in Chinese AI
 - data/summaries/2025-12-31.json (The Rundown AI — Meta acquires Manus $2B+)
 - data/summaries/2026-01-01.json (The Rundown AI; TLDR — acquisition confirmed)
 - data/summaries/2026-01-02.json (Personal Superintelligence framing)
+- data/summaries/2026-03-24.json (Manus "My Computer" desktop app — local-machine agent via terminal)

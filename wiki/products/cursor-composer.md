@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-30
-> **Last updated**: 2025-10-31
+> **Last updated**: 2026-03-21
 > **Status**: active
 > **Related**: [[cursor]], [[cognition]], [[claude-code]]
 
@@ -18,6 +18,8 @@ Composer is [[cursor]]'s first in-house coding model, launched 2025-10-30 as the
 
 ## Timeline
 
+- **2026-03-22**: Composer 2 framing sharpened — reduces coding costs ~50% with multi-file workflow support — *source: 2026-03-22 cycle*
+- **2026-03-21**: Composer 2 released — frontier-level coding performance "at a fraction of the cost" of flagship rivals; outperforms Composer 1 on coding tasks — *source: 2026-03-21 cycle*
 - **2025-10-31**: AlphaSignal headlines "Cursor unveils Composer: first in-house model, 4× faster coding" — *source: AlphaSignal*
 - **2025-10-30**: Composer ships in Cursor 2.0; multi-agent UI alongside — *source: TLDR AI "Cursor 2.0, Cognition's SWE-1.5"; The Rundown AI "Extropic's 10,000x AI energy breakthrough"*
 
@@ -39,3 +41,5 @@ Composer is [[cursor]]'s first in-house coding model, launched 2025-10-30 as the
 
 - data/summaries/2025-10-30.json (TLDR AI — Cursor 2.0; The Rundown AI — Extropic's 10,000x AI energy breakthrough)
 - data/summaries/2025-10-31.json (AlphaSignal — Cursor unveils Composer)
+- data/summaries/2026-03-21.json (Composer 2 release — frontier-level at fraction of cost)
+- data/summaries/2026-03-22.json (Composer 2 — 50% cost reduction; multi-file workflows)

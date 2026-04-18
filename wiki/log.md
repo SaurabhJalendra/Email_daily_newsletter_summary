@@ -4,6 +4,128 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-03-26
+**Ingested**: data/summaries/2026-03-26.json
+
+**Pages updated**:
+- [[openai]] — Sora shutdown; next model "Spud"; fusion research pivot; in-chat checkout phased out; $120B round total
+- [[sora-2]] — product shutdown entry
+- [[apple]] — standalone Siri app + chatbot for iOS 27 in testing
+- [[google]] — TurboQuant (KV-cache compression, ≥6× smaller, 8× faster attention on H100); DeepMind × Agile Robots partnership
+- [[luma]] — Uni-1 decoder-only autoregressive architecture detail
+
+**Notable**: OpenAI sunsets Sora platform to refocus on next-gen model "Spud" + fusion research; Apple finally builds a standalone conversational Siri app; Google Research TurboQuant paper ships major KV-cache efficiency gain.
+
+## 2026-03-25
+**Ingested**: data/summaries/2026-03-25.json
+
+**Pages updated**:
+- [[anthropic]] — Claude macOS desktop control without APIs; auto-dream memory consolidation for Claude Code
+- [[claude-code]] — auto-dream memory consolidation feature
+- [[openai]] — ChatGPT/Codex/Atlas desktop-app merger (earlier surfacing of April superapp consolidation); buyout-firm JV with 17.5% guaranteed min return
+- [[ami-labs]] — LeWorldModel trains stable JEPA in under 1 second on a single GPU
+- [[luma]] — Uni-1 framed as unified reasoning + image-generation pipeline
+- [[cursor]] — Instant Grep (~13 ms client-side code search across millions of files)
+
+**Notable**: Claude gains macOS desktop control without requiring APIs; Cursor ships client-side code indexing that's ~1000× faster than traditional code search; OpenAI reportedly consolidating ChatGPT/Codex/Atlas into a single desktop app.
+
+## 2026-03-24
+**Ingested**: data/summaries/2026-03-24.json
+
+**Pages updated**:
+- [[xai]] — $25B Terafab JV with Tesla + SpaceX for terawatt-scale chip fab
+- [[openai]] — autonomous agent-researcher plans; workforce doubling to 8,000 by end of 2026
+- [[manus]] — "My Computer" desktop app (local-machine agent via terminal)
+- [[claude-cowork]] — Projects feature (persistent workspaces linking local folders + tasks)
+- [[amazon]] — "Transformer" AI-centric smartphone project coverage
+- [[nemotron-3]] — positioned as agent-cost-reduction release
+- [[ai-jobs-displacement]] — Snowflake technical writing + docs layoffs (AI replacement)
+
+**Notable**: Musk announces $25B Terafab JV pulling Tesla/SpaceX/xAI together on terawatt-scale chip manufacturing; OpenAI tells staff it plans to double headcount to 8,000 employees and ship an autonomous research agent; Amazon rumored to be building an AI-centric "Transformer" smartphone.
+
+## 2026-03-23
+**Ingested**: data/summaries/2026-03-23.json
+
+**Pages updated**:
+- [[andrej-karpathy]] — agents replace most software UIs framing
+- [[ai-regulation]] — White House national AI framework
+- [[openai]] — Altman "intelligence as metered utility" framing
+- [[ai-military]] — Palantir Maven designated Pentagon program of record
+
+**Notable**: Palantir's Maven AI becomes a formal Pentagon "program of record," cementing the defense-AI reference stack; Altman frames OpenAI's long-term business as "selling intelligence as a metered utility"; Karpathy argues agents will replace most software UIs.
+
+## 2026-03-22
+**Ingested**: data/summaries/2026-03-22.json
+
+**Pages updated**:
+- [[microsoft]] — MAI-Image-2 release
+- [[amazon]] — Rivr quadruped-delivery-robot acquisition; mirrored AWS-OpenAI USG deal
+- [[cursor-composer]] — 50% cost reduction + multi-file workflow detail
+- [[google]] — AI Studio full-stack app generation with Firebase
+- [[anthropic]] — Claude Interviewer tool; qualitative AI study cross-refs; mirrored Pentagon entry
+
+**Notable**: Microsoft ships MAI-Image-2 as first in-house image model; Amazon acquires Swiss robotics startup Rivr for doorstep delivery; Google AI Studio gains full-stack app generation with Firebase + APIs.
+
+## 2026-03-21
+**Ingested**: data/summaries/2026-03-21.json
+
+**Pages updated**:
+- [[cursor-composer]] — Composer 2 release
+- [[claude-code]] — Channels (multi-platform message ingestion)
+- [[nvidia]] — $1T order backlog + OpenShell + DSX Air
+- [[openai]] — Astral Python tooling acquisition
+- [[perplexity]] — Perplexity Health US launch
+- [[ai-military]] — Pentagon escalates Anthropic label to "unacceptable risk"
+- [[mistral]] — Mistral Vibe terminal-native coding agent
+
+**Notable**: NVIDIA discloses $1T order backlog alongside OpenShell + DSX Air; Pentagon escalates Anthropic label from "supply-chain risk" to "unacceptable risk" over surveillance + lethal-targeting refusals; Mistral ships Vibe terminal-native coding agent.
+
+## 2026-03-20
+**Ingested**: data/summaries/2026-03-20.json
+
+**Pages updated**:
+- [[minimax]] — M2.7 self-evolving model (Ollama distribution)
+- [[google]] — Stitch AI-native design platform; DeepMind cognitive-taxonomy scorecard for AGI
+- [[openai]] — OpenAI-AWS US government deal; Microsoft $50B legal-action risk framing
+- [[meta]] — 20% layoffs (~16K jobs)
+- [[openclaw]] — Blink Claw managed-deployment platform
+
+**Notable**: Google launches Stitch as direct Canva/Figma/Adobe challenger on AI-native design; Meta cuts ~16,000 jobs (20%); OpenAI-AWS extend US-government coverage under scrutiny from Microsoft's Azure exclusivity clause.
+
+## 2026-03-19
+**Ingested**: data/summaries/2026-03-19.json
+
+**Pages updated**:
+- [[mistral]] — Mistral Forge + Mistral Small 4 MoE
+- [[meta]] — $27B Nebius infrastructure deal
+- [[ai-copyright]] — Britannica + Merriam-Webster suit vs OpenAI
+- [[harmonic-aristotle]] — Aristotle Agent availability (web, CLI, API)
+- [[claude-cowork]] — Mac-specific detail added to Dispatch entry
+
+**Notable**: Mistral ships Forge + Small 4 MoE cheap-inference tier; Meta signs $27B Nebius deal for additional infrastructure capacity; Britannica + Merriam-Webster sue OpenAI over training data.
+
+## 2026-03-18
+**Ingested**: data/summaries/2026-03-18.json
+
+**Pages updated**:
+- [[nvidia]] — GTC 2026 keynote (Vera CPU, Dynamo 1.0, DLSS 5, Space-1 Vera Rubin Module, Disney Olaf robot, agentic/physical/healthcare open models)
+- [[vera-rubin]] — GTC Space-1 Vera Rubin Module entry
+- [[gpt-5-4]] — GPT-5.4 Mini + Nano release entry; Availability update
+- [[claude-cowork]] — Dispatch research preview (phone → desktop task hand-off)
+- [[microsoft]] — Copilot reorg (commercial/consumer unification; AI chief freed for superintelligence)
+
+**Notable**: NVIDIA GTC 2026 keynote drops Vera CPU, Dynamo 1.0, DLSS 5, Space-1 Vera Rubin Module, Disney Olaf robot, and agentic/physical/healthcare open models in one keynote; OpenAI ships GPT-5.4 Mini + Nano optimized for coding and subagent workloads.
+
+## 2026-03-17
+**Ingested**: data/summaries/2026-03-17.json
+
+**Pages updated**:
+- [[ami-labs]] — JEPA architectural detail (concepts in abstract latent space, not pixels or tokens)
+- [[canva]] — Magic Layers launch; product-surface update
+- [[anthropic]] — 295% ChatGPT uninstall surge (weekly recap datapoint)
+
+**Notable**: LeCun's AMI Labs reframed as "kill autoregressive AI" via JEPA architecture operating in latent space; Canva ships Magic Layers with AI-aware segmentation; weekly recaps cite 295% ChatGPT uninstall surge following Anthropic's Pentagon refusal.
+
 ## 2026-03-16
 **Ingested**: data/summaries/2026-03-16.json
 

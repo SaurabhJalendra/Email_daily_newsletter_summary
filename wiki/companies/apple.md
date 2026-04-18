@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-14 (backfill 2026-03-07..2026-03-16)
+> **Last updated**: 2026-03-26 (backfill 2026-03-07..2026-03-26)
 > **Status**: active
 > **Related**: [[meta]], [[google]], [[gemini]], [[anthropic]], [[claude-code]], [[openai]], [[ai-hardware]], [[apple-m5]]
 
@@ -18,6 +18,7 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2026-03-26**: Standalone Siri app + chatbot for iOS 27 in testing — breaks Siri out of system-setting dependency into a conversational app surface; framed as WWDC (June) reveal target — *source: 2026-03-26 cycle*
 - **2026-03-14**: Apple Ultra lineup expansion beyond Watch/iPhone expected this year — several new premium products coming — *source: 2026-03-14 cycle*
 - **2026-03-13**: MacBook Neo launches at $599 — Apple's cheapest laptop ever; powered by iPhone A18 Pro chip — *source: 2026-03-13 cycle (MacBook Neo $599)*
 - **2026-03-13**: Foldable iPhone layout detailed — iPad-like side-by-side-apps interface when unfolded; interior display ~iPad mini size; Apple developing new iOS app layouts — *source: 2026-03-13 cycle (TLDR — iPhone Fold layout)*
@@ -113,3 +114,4 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 - data/summaries/2026-03-12.json (Apple's latest Siri delay — smart home display J490)
 - data/summaries/2026-03-13.json (MacBook Neo $599; TLDR — iPhone Fold layout)
 - data/summaries/2026-03-14.json (Apple Ultra lineup expansion coverage)
+- data/summaries/2026-03-26.json (Standalone Siri app + chatbot for iOS 27 in testing)

@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-12-02
-> **Last updated**: 2025-12-02
+> **Last updated**: 2026-03-19
 > **Status**: launched
 > **Related**: [[harmonic]], [[deepseek-math-v2]]
 
@@ -18,6 +18,7 @@ Aristotle is the math/reasoning AI built by [[harmonic]] (the Vlad Tenev-co-foun
 
 ## Timeline
 
+- **2026-03-19**: Aristotle Agent reframed as autonomous mathematician — can solve and formalize mathematical research problems; available on web, CLI, and API — *source: 2026-03-19 cycle*
 - **2025-12-02**: Aristotle solves a version of Erdős Problem #124 in six hours; Lean verification completes in under a minute — *source: 2025-12-02 cycle*
 
 ## Key Facts
@@ -25,6 +26,7 @@ Aristotle is the math/reasoning AI built by [[harmonic]] (the Vlad Tenev-co-foun
 - Developer: [[harmonic]]
 - Notable result: Erdős Problem #124 (six hours, Lean-verified)
 - Verification stack: Lean theorem prover
+- Availability: web, CLI, API (from 2026-03-19)
 
 ## Open Questions
 
@@ -35,3 +37,4 @@ Aristotle is the math/reasoning AI built by [[harmonic]] (the Vlad Tenev-co-foun
 ## Sources
 
 - data/summaries/2025-12-02.json (Aristotle AI solves 30-year-old math problem; AI model proves Erdos Problem #124)
+- data/summaries/2026-03-19.json (Aristotle Agent availability — web, CLI, API)

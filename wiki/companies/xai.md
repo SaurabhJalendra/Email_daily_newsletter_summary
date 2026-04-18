@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-03-16 (backfill 2026-02-20..2026-03-16)
+> **Last updated**: 2026-03-24 (backfill 2026-02-20..2026-03-24)
 > **Status**: active
 > **Related**: [[nvidia]], [[grok-4-1]], [[grok-4-20]], [[grokipedia]], [[grok-imagine]], [[ai-hardware]], [[ai-funding-rounds]]
 
@@ -20,6 +20,7 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 - **2026-04-16**: Terafab reaches out to chipmaking suppliers for price quotes and delivery timelines, requesting speedy estimates with minimal product disclosure — *source: TLDR "Inside Elon's Terafab"*
 - **2026-04-16**: xAI starts repurposing compute stockpile for external customers — *source: Forward Future "Anthropic challenges OpenAI in London"*
+- **2026-03-24**: Terafab framed as $25B Tesla/SpaceX/xAI joint venture — positioned to produce "over a terawatt of AI computing power annually" with custom AI + memory chips for Tesla and xAI — *source: 2026-03-24 cycle*
 - **2026-03-16**: Musk admits xAI needs a "full rebuild" — 9 of 11 original co-founders have left; xAI hires two senior engineers from [[cursor]] to rebuild — *source: 2026-03-16 cycle (TAAFT — ChatGPT Designs Cancer Vaccine)*
 - **2026-03-14**: [[xai]] poaches two [[cursor]] product leads to build an xAI coding product — entry into $5B+ AI-coding market — *source: 2026-03-14 cycle (TLDR AI — xAI poaches Cursor leads)*
 - **2026-03-13**: Macrohard revival announced as joint xAI-Tesla project — Grok + Tesla Digital Optimus agent, Tesla AI4 chip paired with xAI Nvidia server hardware, aiming to "emulate the function of entire companies"; follows reports of 20+ Macrohard engineer exits and a paused 600-person data center — *source: 2026-03-13 cycle (The Rundown AI — Mac minis; TLDR — xAI + Tesla)*
@@ -102,3 +103,4 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 - data/summaries/2026-03-13.json (Macrohard revival — xAI + Tesla joint project)
 - data/summaries/2026-03-14.json (xAI poaches Cursor leads)
 - data/summaries/2026-03-16.json (Musk: xAI needs full rebuild; 9 of 11 cofounders gone)
+- data/summaries/2026-03-24.json (Terafab — $25B Tesla/SpaceX/xAI JV for terawatt chip fab)

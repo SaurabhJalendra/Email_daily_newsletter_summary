@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-02-17
-> **Last updated**: 2026-03-07
+> **Last updated**: 2026-03-20
 > **Status**: active
 > **Related**: [[openai]], [[moonshot-ai]], [[moltbot]], [[agent-frameworks]]
 
@@ -18,6 +18,7 @@ OpenClaw is an open-source AI agent system created by Peter Steinberger that ope
 
 ## Timeline
 
+- **2026-03-20**: Blink Claw released — managed deployment platform for OpenClaw agents; positions itself as removing the barrier of running agent infrastructure — *source: 2026-03-20 cycle*
 - **2026-03-07**: Supply-chain prompt-injection attack — a GitHub issue title compromises ~4,000 developer machines by installing OpenClaw when pasted into AI tools that interpret prompts as instructions; highlights prompt-injection risk surface for agentic dev tools — *source: TLDR "GPT-5.4 + Anthropic's leaked memo"; see [[prompt-injection]]*
 - **2026-02-18**: Peter Steinberger joins OpenAI to build a personal-assistant agent; OpenClaw remains open-source under a foundation — *source: 2026-02-18 cycle (multiple — Mindstream, Superhuman, AI Breakfast, TLDR AI)*
 - **2026-02-17**: [[moonshot-ai]] launches Kimi Claw — OpenClaw in the browser via Kimi; access to 5,000+ ClawHub skills; 40GB cloud storage; "Bring Your Own Claw" option — *source: 2026-02-17 cycle (The Code; AlphaSignal)*
@@ -42,3 +43,4 @@ OpenClaw is an open-source AI agent system created by Peter Steinberger that ope
 - data/summaries/2026-02-17.json (Kimi Claw launch; AlphaSignal; The Code)
 - data/summaries/2026-02-18.json (Steinberger joins OpenAI — multiple)
 - data/summaries/2026-03-07.json (TLDR — GitHub issue title prompt-injection attack compromises 4K dev machines)
+- data/summaries/2026-03-20.json (Blink Claw — managed OpenClaw deployment platform)

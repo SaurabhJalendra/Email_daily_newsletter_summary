@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-01-14
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-03-24
 > **Status**: active
 > **Related**: [[anthropic]], [[claude-code]], [[claude-opus-4-5]], [[agent-frameworks]], [[enterprise-ai]]
 
@@ -18,6 +18,8 @@ Claude Cowork is [[anthropic]]'s general-purpose AI agent for local-file work, l
 
 ## Timeline
 
+- **2026-03-24**: Projects feature added — persistent workspaces linking local folders, instructions, and ongoing tasks; one-click imports for local task organization — *source: 2026-03-24 cycle*
+- **2026-03-18**: Dispatch launches (research preview) — users send tasks from their phone and have Cowork execute them on a Mac desktop asynchronously; enables remote-trigger workflows — *source: 2026-03-18 cycle (World of AI); 2026-03-19 cycle (Mac-specific detail)*
 - **2026-02-27**: Scheduled tasks added — enables automated recurring Cowork workflows — *source: 2026-02-27 cycle*
 - **2026-02-26**: Plugins and connectors expanded for enterprise work — broadens Cowork's professional-workflow reach — *source: 2026-02-26 cycle*
 - **2026-02-04**: Plugins launch — turns Cowork into domain expert with pre-built skills for sales, legal, finance, marketing, data analysis, customer support, product management, and biology research; plugins can be installed, edited, and shared; video-clipping / editing skill showcased; NASA's Perseverance rover completes first-ever AI-planned Mars drive using Claude — *source: TAAFT "AI Agents Built Their Own Society"; The Rundown AI "social network where humans just watch"; AI Breakfast "Moltbook"; Mindstream*
@@ -49,3 +51,5 @@ Claude Cowork is [[anthropic]]'s general-purpose AI agent for local-file work, l
 - data/summaries/2026-01-19.json (TAAFT; Superhuman — transcription/3D control demos)
 - data/summaries/2026-02-26.json (Cowork plugins + connectors for enterprise)
 - data/summaries/2026-02-27.json (Cowork scheduled tasks)
+- data/summaries/2026-03-18.json (Dispatch — phone-to-desktop task hand-off)
+- data/summaries/2026-03-24.json (Projects feature — persistent workspaces linking local folders + tasks)

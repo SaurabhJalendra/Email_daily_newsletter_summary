@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **Vendor**: [[openai]]
 > **First mentioned**: 2026-03-06
-> **Last updated**: 2026-03-07
+> **Last updated**: 2026-03-18
 > **Status**: shipped
 > **Related**: [[openai]], [[chatgpt]], [[codex-app]], [[gpt-5-3-instant]], [[claude-opus-4-7]], [[gemini-3-1-pro]]
 
@@ -19,6 +19,7 @@ GPT-5.4 is OpenAI's March 2026 flagship, launched 2026-03-07. Headline capabilit
 
 ## Timeline
 
+- **2026-03-18**: GPT-5.4 Mini and GPT-5.4 Nano released — smaller/faster/cheaper variants optimized for coding + subagent workloads; Mini runs >2× faster than prior GPT-5 Mini and nearly matches full GPT-5.4 on some benchmarks — *source: 2026-03-18 cycle*
 - **2026-03-07**: GPT-5.4 launches — 1M context, native computer use, Excel sidebar, x-high reasoning; 75% OSWorld-Verified (beats humans), 83% on job-specific evals; two modes (Thinking / Pro); available in ChatGPT, Codex CLI, API — *source: TAAFT "OpenAI Launches GPT-5.4"; The Rundown AI "GPT-5.4 passes the human bar on desktop work"; TLDR; The Code; Superhuman; AlphaSignal "75% desktop task success"*
 - **2026-03-06**: Leaked — 2M-token context window; "Stateful AI" across sessions; "extreme" thinking mode — *source: 2026-03-06 cycle*
 
@@ -30,7 +31,8 @@ GPT-5.4 is OpenAI's March 2026 flagship, launched 2026-03-07. Headline capabilit
 - Benchmarks: OSWorld-Verified 75.0% (beats humans); top of FrontierMath; beats humans on 83% of job-specific evals
 - Modes: Thinking (everyday) and Pro (complex); x-high reasoning effort
 - Capabilities: native computer use (click/type/navigate apps), ChatGPT for Excel beta, polished slides/docs, longer-horizon agent plans
-- Availability: ChatGPT (Thinking/Pro), Codex CLI, API (`gpt-5.4`, `gpt-5.4-pro`)
+- Availability: ChatGPT (Thinking/Pro), Codex CLI, API (`gpt-5.4`, `gpt-5.4-pro`, plus `gpt-5.4-mini` + `gpt-5.4-nano` from 2026-03-18)
+- Variants: Mini + Nano (coding/subagent-optimized, released 2026-03-18)
 - Noam Brown: "We see no wall"
 
 ## Open Questions
@@ -43,3 +45,4 @@ GPT-5.4 is OpenAI's March 2026 flagship, launched 2026-03-07. Headline capabilit
 
 - data/summaries/2026-03-06.json (OpenAI GPT-5.4 leak)
 - data/summaries/2026-03-07.json (TAAFT — OpenAI Launches GPT-5.4; The Rundown AI — GPT-5.4 passes the human bar on desktop work; TLDR — GPT-5.4 + Anthropic's leaked memo + Claude Code auto mode; The Code — OpenAI drops GPT-5.4; Forward Future — GPT-5.4 arrives + Anduril's $60B bet; Superhuman — ChatGPT 5.4 is here; AI Breakfast — NotebookLM cinematic video + GPT-5.4 details; TLDR AI — GPT-5.4 launch; Mindstream — GPT-5.4 is a big leap; AlphaSignal — GPT-5.4 75% desktop task success)
+- data/summaries/2026-03-18.json (GPT-5.4 Mini + Nano release — coding/subagent optimized)

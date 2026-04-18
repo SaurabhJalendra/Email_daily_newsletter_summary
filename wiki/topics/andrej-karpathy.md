@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2025-12-25
+> **Last updated**: 2026-03-23
 > **Status**: active
 > **Related**: [[nanochat]], [[openai]], [[agent-frameworks]], [[vibe-coding]]
 
@@ -18,6 +18,7 @@ Andrej Karpathy is a founding-era [[openai]] researcher and former Tesla Autopil
 
 ## Timeline
 
+- **2026-03-23**: Karpathy argues AI agents will replace most software UIs — framed as "skill issue" on users + devs to adapt; widely discussed in weekly recaps — *source: 2026-03-23 cycle*
 - **2025-12-25**: Karpathy coins / popularizes "[[vibe-coding]]" framing — agent-assisted coding where the developer nudges intent and the agent produces code — widely picked up by Anthropic / Lovable coverage — *source: 2025-12-25 cycle*
 - **2025-11-19**: Karpathy explains why "verifiable work disappears first to AI" — framing of which tasks are first to be automated — *source: OpenAI guide cycle; TAAFT Nov 19*
 - **2025-10-20**: "Karpathy's AI agent reality check" / "Karpathy on AGI" — *source: The Rundown AI; TLDR AI "Karpathy on AGI"*
@@ -37,3 +38,4 @@ Andrej Karpathy is a founding-era [[openai]] researcher and former Tesla Autopil
 - data/summaries/2025-10-14.json (AlphaSignal — Karpathy unveils end-to-end ChatGPT clone repo; TLDR — NanoGPT)
 - data/summaries/2025-10-20.json (The Rundown AI — Karpathy's AI agent reality check; TLDR AI — Karpathy on AGI)
 - data/summaries/2025-11-19.json (TAAFT cycle — Karpathy on verifiable-work-first automation)
+- data/summaries/2026-03-23.json (Karpathy — agents will replace most software UIs)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-03-15 (backfill 2026-02-20..2026-03-15)
+> **Last updated**: 2026-03-21 (backfill 2026-02-20..2026-03-21)
 > **Status**: active
 > **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[vera-rubin]], [[alpamayo]], [[nitrogen]], [[xai]], [[openai]], [[anthropic]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-healthcare]], [[ai-bubble-concerns]]
 
@@ -22,6 +22,8 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2026-03-21**: $1T order backlog disclosed; launches OpenShell (safer autonomous-agent execution environment) and DSX Air (design/simulate/scale AI factory infrastructure) — *source: 2026-03-21 cycle*
+- **2026-03-18**: GTC 2026 keynote (Jensen Huang) — physical AI, AI factories, agentic AI themes; announcements: NVIDIA Vera CPU (purpose-built for agentic AI), [[vera-rubin]] GPU deployments, NVIDIA Dynamo 1.0 inference serving stack, DLSS 5, new open models for agentic/physical/healthcare AI, Space Computing (Space-1 Vera Rubin Module — data-center-class AI in orbit), partnerships with global robotics leaders + industrial software giants; Disney Olaf robot trained using NVIDIA simulation stack + DeepMind Newton physics debuts at GTC — *source: 2026-03-18 cycle (NVIDIA Newsletter; TAAFT; Forward Future; The Rundown AI)*
 - **2026-03-15**: GTC 2026 set for the following week (expectations high for AI hardware announcements) — *source: 2026-03-15 cycle (World of AI)*
 - **2026-03-13**: [[nemotron-3]] Super released — 120B open-source reasoning model, hybrid Mamba-Transformer MoE, 1M-token native context, 4× memory efficiency over prior gen, dev-controlled reasoning budget; 5× throughput vs prior gen — *source: 2026-03-13 cycle (TAAFT — NVIDIA releases Nemotron 3 Super; World of AI — NVIDIA's NEW Open-Source Model; The Code; TLDR AI)*
 - **2026-03-13**: NVIDIA plans open-source [[openclaw]] competitor (per coverage) — *source: 2026-03-13 cycle (TLDR)*
@@ -121,3 +123,5 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - data/summaries/2026-03-12.json (NVIDIA invests in Thinking Machines — gigawatt compute deal)
 - data/summaries/2026-03-13.json (Nemotron 3 Super 120B; open-source OpenClaw competitor report)
 - data/summaries/2026-03-15.json (GTC 2026 preview)
+- data/summaries/2026-03-18.json (GTC 2026 keynote — Vera CPU, Dynamo 1.0, DLSS 5, Space Computing / Space-1, Disney Olaf robot)
+- data/summaries/2026-03-21.json ($1T order backlog; OpenShell + DSX Air launch)

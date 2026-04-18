@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-27
-> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
+> **Last updated**: 2026-03-19
 > **Status**: active
 > **Related**: [[mistral-studio]], [[mistral-3]], [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]]
 
@@ -18,6 +18,8 @@ Mistral AI is the Paris-based frontier lab known for its open-weight model line 
 
 ## Timeline
 
+- **2026-03-21**: Mistral Vibe released — terminal-native coding agent that refactors entire codebases; PRs, tests, docs "on autopilot" — *source: 2026-03-21 cycle*
+- **2026-03-19**: Mistral Forge debuts — full-cycle model development with internal training recipes and forward-deployed scientists; Mistral Small 4 MoE released for enterprise customers — *source: 2026-03-19 cycle*
 - **2026-02-19**: Acquires Koyeb — first Mistral acquisition; serverless deployment startup positioned as core component of Mistral Compute — *source: 2026-02-19 cycle*
 - **2025-12-20**: [[mistral-ocr-3]] released — faster, cheaper, higher-fidelity OCR for enterprise document pipelines; 97% accuracy on real-world documents — *source: AlphaSignal 2025-12-20 cycle*
 - **2025-12-11**: Devstral 2 surfaces — successor to Mistral's coding model — *source: TLDR AI "OpenAI Image-2 / Devstral2 / no data generating distribution"*
@@ -44,3 +46,5 @@ Mistral AI is the Paris-based frontier lab known for its open-weight model line 
 - data/summaries/2025-12-02.json (HSBC partners with Mistral AI)
 - data/summaries/2025-12-04.json (Mistral 3 open-weight launch)
 - data/summaries/2025-12-11.json (TLDR AI — Devstral 2)
+- data/summaries/2026-03-19.json (Mistral Forge — full-cycle dev; Mistral Small 4 MoE)
+- data/summaries/2026-03-21.json (Mistral Vibe — terminal-native coding agent)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-24
-> **Last updated**: 2025-12-26
+> **Last updated**: 2026-03-20
 > **Status**: active
 > **Related**: [[deepseek]], [[alibaba]], [[moonshot-ai]], [[agent-frameworks]]
 
@@ -18,6 +18,7 @@ MiniMax is one of the Chinese AI labs active in the December 2025 open-weights p
 
 ## Timeline
 
+- **2026-03-20**: MiniMax M2.7 launches — self-evolving AI model; rivals [[openai]] + [[anthropic]] on coding benchmarks; supports complex software-engineering/office/research workflows; distributed via [[ollama]] — *source: 2026-03-20 cycle*
 - **2025-12-26**: Enhanced MiniMax M2.1 coding model launched — improved Rust, Java, Golang, C++ support plus native Android/iOS development; positions MiniMax as a cross-platform coding-agent contender — *source: 2025-12-26 cycle*
 - **2025-12-24**: MiniMax M2.1 released — open model for coding, agents, multi-step reasoning, tool use — *source: 2025-12-24 cycle*
 
@@ -37,3 +38,4 @@ MiniMax is one of the Chinese AI labs active in the December 2025 open-weights p
 
 - data/summaries/2025-12-24.json (M2.1 release)
 - data/summaries/2025-12-26.json (enhanced M2.1 multi-language)
+- data/summaries/2026-03-20.json (MiniMax M2.7 — self-evolving; Ollama distribution)

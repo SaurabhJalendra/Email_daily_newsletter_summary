@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-13
-> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-14)
+> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-25)
 > **Status**: active
 > **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code-web]], [[claude-code-security]], [[claude-cowork]], [[agent-frameworks]], [[jules]], [[cursor]]
 
@@ -21,6 +21,8 @@ Claude Code is [[anthropic]]'s official command-line coding agent, built around 
 - **2026-04-16**: Always-on Routines launched — reusable prompt/repo/connector bundles running on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: [[claude-design]] ships with direct hand-off into Claude Code for build stage — *source: TAAFT "Claude Just Became a Designer"; World of AI "ANTHROPIC DROPS Claude Design!"*
 - **2026-04-16**: Nate Herk demos a fully autonomous Claude Code 4.7 trading bot that researches, trades on Alpaca, manages stops, and self-reports on cron — illustrative of agentic Claude Code workflows in the community — *source: AI Automation Society*
+- **2026-03-25**: "Auto dream" memory-consolidation feature — automatically prunes and merges conversation memory files for longer session efficiency — *source: 2026-03-25 cycle*
+- **2026-03-21**: Channels launches — Claude Code receives messages from multiple platforms (Slack, email, etc.) into a unified inbox, reinforcing always-on agent surface — *source: 2026-03-21 cycle*
 - **2026-03-14**: Claude Visuals ("Imagine with Claude") beta in Claude Chat — auto-picks format (chart, diagram, flowchart) and generates interactive visuals inline; free + paid plans; refinable via follow-up — *source: 2026-03-14 cycle (TLDR AI — Claude Visuals; Superhuman — interactive charts & diagrams; The Code — Anthropic adds visuals)*
 - **2026-03-13**: `/btw` contextual-question command added — ask questions without interrupting active Claude Code tasks; Claude Code referenced at $2.5B annualized revenue (TIME cover) — *source: 2026-03-13 cycle (AlphaSignal); TAAFT 2026-03-14*
 - **2026-03-11**: Claude Code Review ships (research preview, Team+Enterprise) — multi-agent PR reviewer, 7.5× more bugs on 1K+ line PRs, <1% false-positive rate, $15–$25/review; fork-mid-session adds branch-from-current-point without losing context — *source: 2026-03-11 cycle (AlphaSignal — 7.5x more bugs; The Code — Claude Code Review; TLDR — Code Review; World of AI)*
@@ -77,3 +79,5 @@ Claude Code is [[anthropic]]'s official command-line coding agent, built around 
 - data/summaries/2026-03-11.json (Claude Code Review multi-agent PR reviewer; fork-mid-session)
 - data/summaries/2026-03-13.json (/btw contextual command; $2.5B ARR)
 - data/summaries/2026-03-14.json (Claude Visuals beta)
+- data/summaries/2026-03-21.json (Channels multi-platform message ingestion)
+- data/summaries/2026-03-25.json (auto-dream memory consolidation)

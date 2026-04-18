@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2026-03-07
-> **Last updated**: 2026-03-13
+> **Last updated**: 2026-03-24
 > **Status**: active
 > **Related**: [[anthropic]], [[openai]], [[block]], [[enterprise-ai]], [[ai-regulation]]
 
@@ -18,6 +18,7 @@ AI jobs displacement collects hard-data points on how generative AI is reshaping
 
 ## Timeline
 
+- **2026-03-24**: Snowflake confirms "targeted workforce reductions" in technical writing + documentation teams — roles replaced by AI — *source: 2026-03-24 cycle*
 - **2026-03-13**: [[anthropic]] opens research institute to study AI's impact on jobs, economies, law, and governance — direct access to frontier-model data; commits to share learnings publicly and engage workers/industries facing displacement — *source: 2026-03-13 cycle (The Rundown AI — AI research institute)*
 - **2026-03-07**: [[anthropic]] publishes AI-jobs study — 44% of jobs at high risk, programmers most exposed (74.5% task coverage, real-world usage sits at 33%, leaving a 61-point gap); hiring into exposed fields for 22–25-year-olds down 14% since ChatGPT launch; framed as "early-warning system for AI job loss" — *source: 2026-03-07 cycle (The Rundown AI; The Code)*
 - **2026-03-05**: [[block]] cuts ~half of employees citing internal AI agent "Goose" despite best quarter ever — flagship labor-displacement data point — *source: 2026-03-05 cycle*
@@ -40,3 +41,4 @@ AI jobs displacement collects hard-data points on how generative AI is reshaping
 - data/summaries/2026-03-05.json (Block workforce cut)
 - data/summaries/2026-03-07.json (Anthropic Economic Index / AI-jobs study — The Rundown AI, The Code, Forward Future)
 - data/summaries/2026-03-13.json (The Rundown AI — Anthropic research institute on jobs/economy/law/governance)
+- data/summaries/2026-03-24.json (Snowflake technical writing + docs layoffs — AI replacement)

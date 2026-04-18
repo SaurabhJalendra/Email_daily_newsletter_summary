@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-11-07
+> **Last updated**: 2026-03-26
 > **Status**: active
 > **Related**: [[openai]], [[chatgpt]], [[veo-3]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]]
 
@@ -18,6 +18,7 @@ Sora 2 is [[openai]]'s second-generation AI video generation model, launched Oct
 
 ## Timeline
 
+- **2026-03-26**: [[openai]] shuts down Sora video platform to focus on next major model (codename "Spud") + fusion power research — Sora wind-down marks end of standalone Sora product run — *source: 2026-03-26 cycle*
 - **2025-11-07**: Sora app now on Android — reaches millions more users for hyperrealistic video, remix, cameos — *source: TAAFT cycle*
 - **2025-11-05**: Sora Android launch; Japan's top creative studios (incl. Studio Ghibli trade group) formally ask OpenAI to stop using their styles / content as training data (see [[ai-copyright]]) — *source: Medium Daily Digest cycle*
 - **2025-11-01**: "Sora 2 vs Veo 3.1: Who Wins?" head-to-head comparison coverage — *source: TAAFT*
@@ -56,3 +57,4 @@ Sora 2 is [[openai]]'s second-generation AI video generation model, launched Oct
 - data/summaries/2025-11-01.json (TAAFT — Sora 2 vs Veo 3.1: Who Wins?)
 - data/summaries/2025-11-05.json (Medium Daily Digest — Japan creative-studios pushback; Sora Android launch)
 - data/summaries/2025-11-07.json (TAAFT cycle — Sora app Android availability)
+- data/summaries/2026-03-26.json (Sora platform shutdown — OpenAI refocuses on "Spud" + fusion)

@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-11-20
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-04-16 (+ 2026-03-18 GTC backfill)
 > **Status**: active
 > **Related**: [[nvidia]], [[anthropic]], [[meta]], [[ai-hardware]]
 
@@ -19,6 +19,7 @@ Vera Rubin is [[nvidia]]'s next-generation AI chip/system architecture, succeedi
 ## Timeline
 
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
+- **2026-03-18**: GTC 2026 centers Vera Rubin as NVIDIA's production flagship; Space-1 Vera Rubin Module announced (data-center-class AI in orbit) and new Vera CPU launched alongside for agentic-AI workloads — *source: 2026-03-18 cycle (NVIDIA Newsletter; GTC keynote coverage)*
 - **2026-01-12**: Rubin unveiled as "next-gen AI computing platform" — NVIDIA continues to push hardware frontier — *source: 2026-01-12 cycle*
 - **2026-01-09**: Vera Rubin platform promises "up to 5x inference performance over Blackwell" — open-source VLM for physical reasoning released alongside — *source: 2026-01-09 cycle*
 - **2026-01-08**: Rubin architecture launches in production — scheduled for leading cloud providers; "clear gains in performance" framing — *source: 2026-01-08 cycle*
@@ -47,4 +48,5 @@ Vera Rubin is [[nvidia]]'s next-generation AI chip/system architecture, succeedi
 - data/summaries/2026-01-08.json (TLDR AI; Mindstream — Rubin production launch)
 - data/summaries/2026-01-09.json (Vera Rubin + open-source VLM)
 - data/summaries/2026-01-12.json (Rubin framing)
+- data/summaries/2026-03-18.json (GTC 2026 — Vera Rubin + Space-1 Module; Vera CPU)
 - data/summaries/2026-04-16.json (InstaByte — CoreWeave deployment)

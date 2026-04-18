@@ -198,6 +198,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-funding-rounds]] — major AI sector financings; SoftBank, AWS, Google-Anthropic, Mercor
 - [[ai-hardware]] — chips, form factors, robots, $38B AWS-OpenAI, Extropic TSU, Qualcomm AI200
 - [[ai-ipo-wave]] — OpenAI $500B / Anthropic $350B IPO prep and frontier-lab public-market path
+- [[ai-jobs-displacement]] — labor-market impact studies + flagship AI-driven layoffs (Anthropic Economic Index, Block, Snowflake)
 - [[ai-regulation]] — government / judicial / labor / safety pressure on AI labs
 - [[ai-slop]] — AI-content flood quality concerns; YouTube 20%+, Instagram Mosseri commentary
 - [[enterprise-ai]] — AI moving into workplace software; Company Knowledge, Excel, Agent HQ, Copilot

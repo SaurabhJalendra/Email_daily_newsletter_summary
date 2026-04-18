@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-14 (backfill 2026-02-20..2026-03-14)
+> **Last updated**: 2026-03-19 (backfill 2026-02-20..2026-03-19)
 > **Status**: active
 > **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[google]], [[alibaba]], [[world-models]], [[world-labs]], [[ai-hardware]]
 
@@ -19,6 +19,8 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 ## Timeline
 
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
+- **2026-03-20**: Meta plans layoffs of up to 20% of workforce (~16K jobs) to offset massive AI infrastructure spending — framed as AI-capex-funded restructure — *source: 2026-03-20 cycle*
+- **2026-03-19**: $27B infrastructure deal with Nebius — five-year AI computing commitment; stacks with CoreWeave + AMD deals as triangulated capacity buildout — *source: 2026-03-19 cycle*
 - **2026-03-14**: Avocado base-model launch delayed (at least to May) after failing internal reasoning, coding, and writing tests — flagship efficiency pitch under pressure — *source: 2026-03-14 cycle (TLDR — Meta's AI flop)*
 - **2026-03-13**: Meta announces four new homegrown AI chips — diversification from outside chipmakers; cost-reduction + throughput focus — *source: 2026-03-13 cycle (TLDR AI — Meta AI chips)*
 - **2026-03-12**: Meta acquires [[moltbook]] — AI-agent social network; co-founders Matt Schlicht and Ben Parr join Meta Superintelligence Labs — *source: 2026-03-12 cycle (TLDR; TAAFT; Superhuman; Matt from FutureTools; TLDR AI; The Rundown AI)*
@@ -119,3 +121,5 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 - data/summaries/2026-03-12.json (Meta acquires Moltbook)
 - data/summaries/2026-03-13.json (Four new homegrown Meta AI chips)
 - data/summaries/2026-03-14.json (Avocado model delayed)
+- data/summaries/2026-03-19.json ($27B Nebius infrastructure deal)
+- data/summaries/2026-03-20.json (20% workforce layoffs / ~16K jobs)

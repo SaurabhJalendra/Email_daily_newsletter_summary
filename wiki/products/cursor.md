@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-04
-> **Last updated**: 2026-03-14 (backfill 2026-03-07..2026-03-14)
+> **Last updated**: 2026-03-25 (backfill 2026-03-07..2026-03-25)
 > **Status**: active
 > **Related**: [[agent-frameworks]], [[jules]], [[claude-code]], [[replit]], [[cursor-composer]], [[cognition]]
 
@@ -18,6 +18,7 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 
 ## Timeline
 
+- **2026-03-25**: Cursor Instant Grep launched — client-side code indexing system scans millions of files in ~13 ms (~1000× faster than traditional code search) — *source: 2026-03-25 cycle*
 - **2026-03-14**: CursorBench introduced — internal eval suite for measuring agent performance; [[xai]] poaches two Cursor product leads to build a coding product, signaling xAI entry into the AI-coding market — *source: 2026-03-14 cycle (TLDR AI — CursorBench; xAI poaches Cursor leads)*
 - **2026-03-13**: Cursor in talks for funding round at $50B valuation (~2× vs fall 2025); hits $2B ARR; Anduril adjacent: ExoAnalytic acquisition noted same day for context on defense-tech VC momentum — *source: 2026-03-13 cycle (TLDR AI — Cursor eyes $50B valuation)*
 - **2026-03-10**: Cursor building research powerhouse to outmaneuver Anthropic and OpenAI in AI coding market; prioritizing enterprise contracts as Claude Code revenue surpasses Cursor; Cursor ARR at $2B — *source: 2026-03-10 cycle (TLDR — Cursor War Time; The Tech Buzz)*
@@ -60,3 +61,4 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 - data/summaries/2026-03-10.json (Cursor War Time research push; $2B ARR)
 - data/summaries/2026-03-13.json (Cursor $50B valuation talks)
 - data/summaries/2026-03-14.json (CursorBench; xAI poaches Cursor leads)
+- data/summaries/2026-03-25.json (Instant Grep — 13 ms client-side code search)

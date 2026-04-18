@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-11-05
-> **Last updated**: 2025-12-16 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-03-19
 > **Status**: active
 > **Related**: [[openai]], [[ai-regulation]], [[sora-2]], [[perplexity]], [[google]], [[disney]], [[chatgpt]], [[ai-video-generation]]
 
@@ -18,6 +18,7 @@ AI copyright moved from background concern to concrete case law through November
 
 ## Timeline
 
+- **2026-03-19**: Encyclopedia Britannica + Merriam-Webster sue [[openai]] alleging massive copyright infringement for training on their reference content without permission — extends publisher-vs-lab litigation pattern to reference-work publishers — *source: 2026-03-19 cycle*
 - **2025-12-16**: Disney granted 1-year exclusivity for Sora characters (clarification of OpenAI deal); coverage continues — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal*
 - **2025-12-13**: [[disney]] sues [[google]] over AI usage of its IP — counterpart to the same-day [[disney]]–[[openai]] $1B partnership — *source: The Rundown AI "Disney chooses OpenAI"*
 - **2025-12-09**: New York Times sues [[perplexity]] over content scraping — *source: TLDR cycle "The Times vs Perplexity"*
@@ -62,3 +63,4 @@ AI copyright moved from background concern to concrete case law through November
 - data/summaries/2025-12-09.json (TLDR cycle — The Times vs Perplexity)
 - data/summaries/2025-12-13.json (The Rundown AI — Disney chooses OpenAI / sues Google)
 - data/summaries/2025-12-16.json (TLDR AI — OpenAI adopts Skills [Disney exclusivity]; AlphaSignal)
+- data/summaries/2026-03-19.json (Britannica + Merriam-Webster sue OpenAI)
