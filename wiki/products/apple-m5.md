@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-16
 > **Last updated**: 2025-10-17
-> **Status**: active
+> **Status**: stale
 > **Related**: [[apple]], [[ai-hardware]], [[nvidia]], [[amd]]
 
 ## Summary

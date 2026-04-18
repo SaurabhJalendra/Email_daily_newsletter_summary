@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-10
 > **Last updated**: 2025-10-10
-> **Status**: active
+> **Status**: stale
 > **Related**: [[gemini]], [[google]], [[enterprise-ai]]
 
 ## Summary

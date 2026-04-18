@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-10-02
 > **Last updated**: 2025-10-05
-> **Status**: active
+> **Status**: stale
 > **Related**: [[tinker-api]], [[thinking-machines]]
 
 ## Summary

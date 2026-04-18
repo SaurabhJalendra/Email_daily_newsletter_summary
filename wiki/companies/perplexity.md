@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-03
 > **Last updated**: 2025-10-11
-> **Status**: active
+> **Status**: stale
 > **Related**: [[perplexity-comet]], [[ai-browsers]], [[opera-neon]], [[chatgpt]]
 
 ## Summary

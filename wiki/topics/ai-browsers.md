@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2025-10-03
-> **Status**: active
+> **Status**: stale
 > **Related**: [[opera-neon]], [[perplexity-comet]], [[perplexity]], [[computer-use]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-02
 > **Last updated**: 2025-10-17
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[claude-code]], [[agent-frameworks]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2025-10-01
-> **Status**: active
+> **Status**: stale
 > **Related**: [[gemini]], [[google]]
 
 ## Summary

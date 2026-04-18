@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2025-10-02
-> **Status**: active
+> **Status**: stale
 > **Related**: [[perplexity-comet]], [[ai-browsers]]
 
 ## Summary

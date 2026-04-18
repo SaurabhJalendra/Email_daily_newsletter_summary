@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-14
 > **Last updated**: 2025-10-14
-> **Status**: active
+> **Status**: stale
 > **Related**: [[agentforce]], [[enterprise-ai]], [[agent-frameworks]]
 
 ## Summary

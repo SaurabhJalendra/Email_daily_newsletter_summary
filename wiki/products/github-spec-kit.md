@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-15
 > **Last updated**: 2025-10-15
-> **Status**: active
+> **Status**: stale
 > **Related**: [[agent-frameworks]], [[claude-code]], [[jules]], [[cursor]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-07
 > **Last updated**: 2025-10-17
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[agentkit]], [[sora-2]], [[ai-regulation]]
 
 ## Summary

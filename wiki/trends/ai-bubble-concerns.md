@@ -9,7 +9,7 @@ type: trend
 > **Type**: trend
 > **First mentioned**: 2025-10-10
 > **Last updated**: 2025-10-20
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-funding-rounds]], [[openai]]
 
 ## Summary

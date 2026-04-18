@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-07
 > **Last updated**: 2025-10-15
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[oracle]], [[nvidia]], [[ai-hardware]]
 
 ## Summary

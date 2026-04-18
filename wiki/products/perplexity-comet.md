@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-03
 > **Last updated**: 2025-10-03
-> **Status**: active
+> **Status**: stale
 > **Related**: [[perplexity]], [[opera-neon]], [[ai-browsers]]
 
 ## Summary

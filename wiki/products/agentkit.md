@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-07
 > **Last updated**: 2025-10-08
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[agent-frameworks]]
 
 ## Summary

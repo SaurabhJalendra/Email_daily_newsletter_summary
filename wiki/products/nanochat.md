@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-14
 > **Last updated**: 2025-10-14
-> **Status**: active
+> **Status**: stale
 > **Related**: [[andrej-karpathy]], [[openai]]
 
 ## Summary

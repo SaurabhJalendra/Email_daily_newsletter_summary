@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-02
 > **Last updated**: 2025-10-13
-> **Status**: active
+> **Status**: stale
 > **Related**: [[tinker-api]], [[openai]], [[meta]], [[ai-funding-rounds]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-10-14
 > **Last updated**: 2025-10-20
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nanochat]], [[openai]], [[agent-frameworks]]
 
 ## Summary

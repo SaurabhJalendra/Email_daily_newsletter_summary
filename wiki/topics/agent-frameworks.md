@@ -45,7 +45,7 @@ type: topic
 ## Open Questions
 
 - Will frameworks converge on a common tool / skill packaging format, or fragment?
-- How does [[model-context-protocol]] (MCP) relate to Routines / Skills / Agents SDK?
+- How does Model Context Protocol (MCP) relate to Routines / Skills / Agents SDK? (no dedicated wiki page yet — create when MCP coverage accumulates)
 - Pricing model for managed-cloud agent execution (Routines, Codex background compute)?
 
 ## Sources

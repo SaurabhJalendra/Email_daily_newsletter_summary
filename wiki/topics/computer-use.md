@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-10-08
 > **Last updated**: 2025-10-12
-> **Status**: active
+> **Status**: stale
 > **Related**: [[gemini-2-5-computer-use]], [[google]], [[agent-frameworks]]
 
 ## Summary

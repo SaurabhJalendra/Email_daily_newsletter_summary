@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-06
 > **Last updated**: 2025-10-06
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[agent-frameworks]], [[cursor]]
 
 ## Summary

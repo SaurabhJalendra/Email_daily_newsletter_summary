@@ -9,7 +9,7 @@ type: trend
 > **Type**: trend
 > **First mentioned**: 2025-10-05
 > **Last updated**: 2025-10-17
-> **Status**: active
+> **Status**: stale
 > **Related**: [[gemini-enterprise]], [[agentforce]], [[salesforce]], [[microsoft]], [[google]], [[openai]], [[agent-frameworks]]
 
 ## Summary

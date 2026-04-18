@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-16
 > **Last updated**: 2025-10-16
-> **Status**: active
+> **Status**: stale
 > **Related**: [[qwen-3-vl]], [[openai]]
 
 ## Summary

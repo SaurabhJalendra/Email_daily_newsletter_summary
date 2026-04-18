@@ -9,8 +9,8 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-02
 > **Last updated**: 2025-10-05
-> **Status**: active
-> **Related**: [[thinking-machines]], [[openai]]
+> **Status**: stale
+> **Related**: [[thinking-machines]], [[openai]], [[fine-tuning]]
 
 ## Summary
 

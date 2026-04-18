@@ -4,6 +4,18 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## LINT 2026-04-18 (week 2026-W16)
+
+**Lint actions**:
+- Fixed contradictions: none spotted in this pass (the prior lint's note about the 2025-10-16 log entry listing [[veo-3]] as newly created when it was first created on 2025-10-13 remains intact because log.md is append-only).
+- Resolved orphans: 1 ([[fine-tuning]] — added to [[tinker-api]]'s Related line; fine-tuning is [[thinking-machines]]' category and Tinker is its flagship fine-tuning product).
+- Fixed broken links: 1 — [[model-context-protocol]] reference in [[agent-frameworks]] Open Questions unwrapped to plain text with a "create when coverage accumulates" note, since no dedicated MCP page exists yet.
+- Merged duplicates: none (no near-duplicate pages detected).
+- Stale pages marked: 39 — every page with a "Last updated" date earlier than 2026-02-17 (the 60-day threshold from today 2026-04-18) was marked `> **Status**: stale`. This covers essentially the entire Oct-2025 backfill that did not receive a fresh entry during the 2026-04-16 ingest. Affected sections: companies (13), products (19), topics (6), trends (2). This is expected behavior because the wiki jumped from 2025-10-20 to 2026-04-16 with a multi-month gap; as new daily ingests land on a regular cadence, pages with current relevance will accumulate fresh timeline entries and drop back to `active`.
+- Regenerated [[index.md]] from directory listing, annotating stale pages with `*(stale)*` tags inline so users can see freshness at a glance.
+
+**Digest generated**: wiki/digests/2026-W16.md (~4100 words; covers the single 2026-04-16 ingest — Opus 4.7 + Claude Design + Adobe Firefly convergence; Meta open-weights pivot; OpenAI Codex superapp; Heppner ruling; Gemini TTS/Mac/Chrome stack; $21B Meta–CoreWeave; Anthropic $800B talks). Note: only one ingest falls in ISO week 2026-W16 because the pipeline re-started after the Oct-2025 → Apr-2026 backfill gap.
+
 ## 2026-04-16
 **Ingested**: data/summaries/2026-04-16.json (46 newsletters; first daily ingest after the Oct-2025 backfill — date gap spans ~6 months)
 
