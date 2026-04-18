@@ -158,9 +158,11 @@ jobs:
           echo "basename=$BASENAME" >> $GITHUB_OUTPUT
           echo "Found digest: $LATEST → $DOCX_PATH"
 
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
       - name: Convert digest markdown to DOCX (pandoc)
         run: |
-          # Pandoc is pre-installed on ubuntu-latest runners
           pandoc "${{ steps.digest.outputs.md_path }}" \
             -o "${{ steps.digest.outputs.docx_path }}" \
             --from gfm \
