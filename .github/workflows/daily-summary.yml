@@ -12,6 +12,11 @@ permissions:
   contents: write
   id-token: write  # Required by anthropics/claude-code-action for OIDC auth
 
+# Serialize all wiki-writing workflows to avoid merge conflicts
+concurrency:
+  group: wiki-write
+  cancel-in-progress: false
+
 jobs:
   summarize:
     runs-on: ubuntu-latest
