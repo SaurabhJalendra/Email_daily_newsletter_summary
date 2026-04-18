@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-10-31
+> **Last updated**: 2025-11-24
 > **Status**: active
 > **Related**: [[gemini]], [[google]], [[chatgpt-atlas]], [[ai-browsers]], [[aardvark]], [[openai]], [[perplexity]]
 
@@ -18,6 +18,7 @@ Prompt injection is a security category where adversarial content embedded in mo
 
 ## Timeline
 
+- **2025-11-24**: Anthropic discloses Chinese state-backed group used Claude AI to automate cyberattacks — first widely-reported nation-state automated cyberattack via a frontier model — *source: 2025-11-24 cycle*
 - **2025-10-31**: [[aardvark]] launches as GPT-5 code-security agent — vulnerability discovery and patch suggestions overlap with prompt-injection-class issues — *source: AlphaSignal; TLDR AI*
 - **2025-10-31**: "AI's Brain Got Hacked (It Knew)" — TAAFT cycle on prompt-injection awareness — *source: TAAFT*
 - **2025-10-27**: OpenAI publishes mitigation guidance for prompt injections in ChatGPT — *source: TLDR AI "mitigating prompt injections"*
@@ -43,3 +44,4 @@ Prompt injection is a security category where adversarial content embedded in mo
 - data/summaries/2025-10-23.json (TAAFT — Hidden Text Hijacks AI Browsers)
 - data/summaries/2025-10-27.json (TLDR AI — mitigating prompt injections)
 - data/summaries/2025-10-31.json (AlphaSignal — OpenAI launches Aardvark; TLDR AI — OpenAI security agent; TAAFT — AI's Brain Got Hacked)
+- data/summaries/2025-11-24.json (Anthropic — Chinese state-backed Claude cyber abuse)

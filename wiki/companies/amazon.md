@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-21
-> **Last updated**: 2025-11-17
+> **Last updated**: 2025-12-04
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[nvidia]], [[perplexity]], [[perplexity-comet]], [[ai-hardware]], [[ai-funding-rounds]]
 
@@ -18,6 +18,12 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 
 ## Timeline
 
+- **2025-12-04**: Amazon Nova 2 + Trainium 3 + Nova Forge + Kiro + AWS AI Factories announced — Trainium 3 claims up to 50% lower training/operating cost vs NVIDIA; Nova Forge service for building frontier models — *source: 2025-12-04 cycle*
+- **2025-12-04**: Rufus (AI shopping assistant) drives spike in purchase-converting sessions; Adobe Analytics reports 805% YoY surge in AI-driven traffic to US retail Black Friday — *source: 2025-12-04 cycle*
+- **2025-11-30**: AWS introduces flat-rate pricing plans bundling CDN, security, DNS, logging, edge compute, storage — predictable-cost positioning vs usage-based hyperscaler pricing — *source: 2025-11-30 cycle*
+- **2025-11-27**: Amazon to invest up to $50B to expand AWS US-government AI/HPC capacity — *source: 2025-11-27 cycle*
+- **2025-11-24**: Amazon open-sources "Agent SOPs" — internal pattern library to democratize AI expertise and automate tasks — *source: 2025-11-24 cycle*
+- **2025-11-22**: Uber Eats deploys Starship delivery robots in UK (Europe 2026, US 2027) — adjacent ecosystem — *source: 2025-11-22 cycle*
 - **2025-11-17**: Kindle Translate launches — authors can instantly publish in new languages; supports English, Spanish, German in free beta — *source: TAAFT cycle "Kindle Translate Launch"*
 - **2025-11-13**: iRobot warns of possible bankruptcy — deteriorating finances and failed Amazon acquisition — *source: TAAFT cycle Nov 13*
 - **2025-11-09**: Amazon return-to-office mandates backfire — senior AWS talent exodus — *source: TAAFT cycle "Amazon's return to office mandates"*
@@ -59,3 +65,8 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 - data/summaries/2025-11-09.json (TAAFT cycle — return-to-office exodus)
 - data/summaries/2025-11-13.json (TAAFT cycle — iRobot bankruptcy warning)
 - data/summaries/2025-11-17.json (TAAFT — Kindle Translate Launch)
+- data/summaries/2025-11-22.json (Uber Eats Starship delivery robots)
+- data/summaries/2025-11-24.json (Amazon open-sources Agent SOPs)
+- data/summaries/2025-11-27.json (Amazon $50B AWS US-government AI investment)
+- data/summaries/2025-11-30.json (AWS flat-rate pricing plans)
+- data/summaries/2025-12-04.json (Nova 2; Trainium 3; Nova Forge; Kiro; AWS AI Factories; Rufus shopping; Adobe Analytics 805% YoY)

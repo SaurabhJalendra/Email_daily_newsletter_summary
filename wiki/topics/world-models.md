@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-11-12
-> **Last updated**: 2025-11-18
+> **Last updated**: 2025-11-25
 > **Status**: active
 > **Related**: [[marble]], [[world-labs]], [[meta]], [[nvidia]], [[nvidia-cosmos]], [[ai-video-generation]]
 
@@ -18,6 +18,7 @@ type: topic
 
 ## Timeline
 
+- **2025-11-25**: Meta releases WorldGen — text prompt → walkable game-ready 3D world via procedural reasoning + diffusion-based 3D generation + object-aware scene decomposition — *source: 2025-11-25 cycle*
 - **2025-11-18**: Marble + LeCun's new lab jointly framed as the "AI Superpower Arrives in 2026" narrative — *source: TAAFT "AI Superpower Arrives in 2026"; The Rundown AI*
 - **2025-11-15**: Yann LeCun's departure from Meta to start a world-model startup marks a "significant shift in the industry" — *source: AI Innovations Hub; TAAFT cycle*
 - **2025-11-14**: [[world-labs]] launches [[marble]] — commercial world model from text/images/video/3D layouts; Elf Labs launches Marble separately with persistent 3D environments — *source: AlphaSignal; The Rundown AI; TAAFT*

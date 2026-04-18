@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-11-19
+> **Last updated**: 2025-12-04
 > **Status**: active
-> **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[aardvark]], [[gpt-5-1]], [[gpt-5-codex-mini]], [[anthropic]], [[google]], [[amazon]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]]
+> **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[anthropic]], [[google]], [[amazon]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]]
 
 ## Summary
 
@@ -22,6 +22,20 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - **2026-04-16**: GPT-Rosalind introduced — biology-tuned LLM for drug discovery / biological research — *source: TLDR "Opus 4.7, the clip economy, Cloudflare Agents Week"; TLDR AI "GPT Rosalind, Perplexity Personal Computer"*
 - **2026-04-16**: Agents SDK updated — native harness for cross-file / tool workflows, sandboxed execution — *source: TLDR AI "Gemini 3.1 Flash TTS, OpenAI Agents SDK"*
 - **2026-04-16**: Trusted Access program expands (mentions GPT-5 tiered-identity framing continuing) — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
+- **2025-12-04**: OpenAI declares "Code Red" amid Gemini 3 competitive pressure — focus shifts to ChatGPT speed, reliability, personality — *source: 2025-12-04 cycle*
+- **2025-12-02**: ChatGPT Android app surfaces references to ads ("ads feature", "search ads", "bazaar content") — ads in ChatGPT may ship soon — *source: TLDR 2025-12-02*
+- **2025-11-30**: Mixpanel breach reconfirmed — analytics-provider exposure of profile/analytics data; chat content and credentials reportedly safe — *source: 2025-11-30 cycle*
+- **2025-11-29**: OpenAI confirms third-party Mixpanel breach with limited exposure of basic profile information — *source: 2025-11-29 cycle*
+- **2025-11-27**: ChatGPT integrates voice + text in unified flow; reports of OpenAI device residency and Genesis-related compute push — *source: 2025-11-27 cycle*
+- **2025-11-26**: OpenAI announces first device — screen-free, smartphone-sized, Jony Ive + Sam Altman led; targeted within two years; ChatGPT shopping launches with conversational product recommendations — *source: 2025-11-26 cycle*
+- **2025-11-25**: Sam Altman warns of "rough vibes" and "economic headwinds" from Google's progress — rare instance of OpenAI playing catch-up; ChatGPT group chats GA — *source: TLDR; The Rundown AI 2025-11-25*
+- **2025-11-25**: Internal struggle between user engagement and safety — leadership reportedly overruled Model Behavior team's warnings — *source: 2025-11-25 cycle*
+- **2025-11-24**: Leaked documents reveal OpenAI made billions but spent nearly as much on compute; ChatGPT 800M weekly active users (7× Europe, 9× global growth) — *source: 2025-11-24 cycle*
+- **2025-11-22**: ChatGPT group chats roll out globally — up to 20 users per shared conversation; ChatGPT joins when @-mentioned or when conversation flow invites; rate limits attach to triggering user — *source: TLDR; TLDR AI; The Rundown AI; AI Breakfast*
+- **2025-11-22**: [[gpt-5-1-codex-max]] becomes default across Codex environments — *source: AI Breakfast "Nano Banana Pro Sets New Standard"*
+- **2025-11-21**: [[gpt-5-1-codex-max]] released — compaction across context windows, 24+ hour sessions, 77.9% SWE-bench Verified (30% fewer thinking tokens), Windows CLI support, 27–42% faster task completion — *source: The Rundown AI "OpenAI's Codex-Max codes for 24 hours straight"; TLDR; TLDR AI*
+- **2025-11-21**: [[gpt-5-1]] Pro begins rollout to ChatGPT Pro users; ChatGPT for Teachers launches (free GPT-5.1 Auto for verified US K–12 educators with admin controls); Larry Summers resigns from board following Epstein-communications revelations — *source: TLDR AI; The Rundown AI; FutureTools cycle*
+- **2025-11-21**: NVIDIA "no assurance" of final agreement with OpenAI despite reported $100B pact — *source: TLDR cycle*
 - **2025-11-19**: Prompting guidance rollout continues alongside [[gpt-5-1]]; Andrej Karpathy's "verifiable work disappears first" commentary in same cycle — *source: Mindstream; TAAFT*
 - **2025-11-18**: [[gpt-5-1]] prompting guide published — precise controls over tone/structure; IPO valuation talk pushes toward $1T — *source: The Rundown AI "OpenAI prompting guide"; Mindstream*
 - **2025-11-17**: German court rules ChatGPT violated copyright by training on song lyrics (see [[ai-copyright]]) — *source: TAAFT cycle*
@@ -101,4 +115,14 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - data/summaries/2025-10-31.json (AlphaSignal — OpenAI launches Aardvark; TLDR AI — OpenAI security agent; AI Breakfast — Sora Monetization)
 - data/summaries/2025-11-03.json (The Rundown AI — board drama details; TLDR AI — Ilya's deposition)
 - data/summaries/2025-11-04.json (The Rundown AI — OpenAI, Amazon $38B; TLDR — AWS $38B; TLDR AI — AWS + OpenAI; TAAFT — AGI Expected 30 Years Early)
+- data/summaries/2025-11-21.json (The Rundown AI — Codex-Max codes for 24 hours straight; TLDR — Nvidia crushes earnings / GPT-5.1-Codex-Max; TLDR AI — GPT-5.1-Codex-Max / Larry Summers resignation / ChatGPT for Teachers)
+- data/summaries/2025-11-22.json (TLDR — Nano Banana Pro [group chats]; TLDR AI — group chats; The Rundown AI — Google's bananas AI image upgrade; AI Breakfast — Nano Banana Pro Sets New Standard [Codex-Max default])
+- data/summaries/2025-11-24.json (Leaked compute spend; ChatGPT 800M WAU)
+- data/summaries/2025-11-25.json (TLDR — Altman rough vibes; ChatGPT group chats GA; safety/engagement struggle)
+- data/summaries/2025-11-26.json (OpenAI device announcement Jony Ive; ChatGPT shopping)
+- data/summaries/2025-11-27.json (ChatGPT voice + text integration; Genesis Mission)
+- data/summaries/2025-11-29.json (OpenAI Mixpanel breach)
+- data/summaries/2025-11-30.json (Mixpanel breach reconfirmation)
+- data/summaries/2025-12-02.json (TLDR — OpenAI ads feature leak)
+- data/summaries/2025-12-04.json (OpenAI declares Code Red)
 - data/summaries/2026-04-16.json (The Rundown AI — OpenAI's superapp hiding inside Codex; AlphaSignal — Anthropic presents always-on Routines / Trusted Access GPT-5; TLDR — Opus 4.7, Cloudflare Agents Week, GPT-Rosalind; TLDR AI — OpenAI Agents SDK; TLDR AI — GPT Rosalind, Perplexity Personal Computer)

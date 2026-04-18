@@ -24,6 +24,7 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - **2026-04-16**: [[nvidia-cosmos]] 2.5 GA; Cosmos 3 pre-announced for summer 2026 — *source: NVIDIA Newsletter*
 - **2026-04-16**: [[xai]] Terafab team sources chipmaking gear; xAI repurposes compute for external rental — *source: TLDR; Forward Future*
 - **2026-04-16**: Allbirds rebrands as "NewBird AI" with a $50M financing deal and pivots from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code; "Gemini on your desktop"*
+- **2025-11-21**: NVIDIA Q3 record $57B revenue (+62% YoY) and $65B forward guide soothes bubble fears; Saudi Arabia inks deals with NVIDIA, [[xai]], and others — 600K GPUs and a 500+ MW data center; Apple N1 Wi-Fi chip outperforms older Broadcom — *source: TLDR "Nvidia crushes earnings"; The Rundown AI*
 - **2025-11-19**: NVIDIA + Japan RIKEN — 2,140 Blackwell GPUs across supercomputers for AI and quantum research; NVLink for Arm and Apollo AI physics models announced — *source: TAAFT cycle; AlphaSignal*
 - **2025-11-14**: [[anthropic]] commits $50B to AI data centers with Fluidstack for domestic AI infra — *source: AlphaSignal*
 - **2025-11-14**: Microsoft to double data-center footprint; Atlanta AI "super factory" — *source: AlphaSignal cycle*
@@ -96,4 +97,5 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - data/summaries/2025-11-11.json (TAAFT cycle — Huang China-AI warning)
 - data/summaries/2025-11-14.json (AlphaSignal — Anthropic $50B Fluidstack; Microsoft Atlanta super factory)
 - data/summaries/2025-11-19.json (TAAFT; AlphaSignal — NVIDIA RIKEN + NVLink for Arm + Apollo physics)
+- data/summaries/2025-11-21.json (TLDR — Nvidia crushes earnings $57B / Apple N1; The Rundown AI — Saudi 600K GPUs)
 - data/summaries/2026-04-16.json (InstaByte — Snap cuts 1,000 jobs, blames AI [Meta CoreWeave]; The Tech Buzz — TSMC Earnings, Nvidia Quantum Chips; NVIDIA Newsletter — Cosmos; TLDR — Inside Elon's Terafab; Forward Future — Anthropic challenges OpenAI in London [xAI compute]; The Rundown AI — Allbirds ditches sneakers; The Code — Shoemaker company pivots to AI; "Gemini on your desktop")

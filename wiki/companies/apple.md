@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-11-16
+> **Last updated**: 2025-12-04
 > **Status**: active
 > **Related**: [[meta]], [[google]], [[gemini]], [[ai-hardware]], [[apple-m5]]
 
@@ -18,6 +18,10 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2025-12-04**: Amar Subramanya confirmed as new VP of AI; John Giannandrea steps down — *source: 2025-12-04 cycle*
+- **2025-12-03**: Apple appoints Amar Subramanya as AI chief; John Giannandrea to retire spring 2026 — *source: 2025-12-03 cycle*
+- **2025-11-28**: iPhone 17 sees double-digit YoY sales growth in US and China; Apple positioned to overtake Samsung as world's top phone maker — *source: 2025-11-28 cycle*
+- **2025-11-21**: Apple N1 Wi-Fi chip outperforms older Broadcom in testing — supports Wi-Fi 7, Bluetooth 6, Thread; higher download/upload than iPhone 16; first major in-house wireless silicon in iPhones — *source: TLDR "Nvidia crushes earnings, Apple's WiFi chip"*
 - **2025-11-16**: Satellite-powered iPhone features detailed — third-party-app API; offline navigation in Apple Maps via satellite — *source: TAAFT cycle "Apple Works on Satellite-Powered iPhone Features"*
 - **2025-11-15**: Digital ID in Apple Wallet — US passport storable for TSA checkpoints — *source: TAAFT cycle*
 - **2025-11-13**: Humanoid-robot moonshot — $133B investment in robotics and AI — *source: TAAFT cycle "Apple humanoid moonshot"*
@@ -67,3 +71,7 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 - data/summaries/2025-11-13.json (TAAFT — humanoid moonshot / $133B robotics)
 - data/summaries/2025-11-15.json (TAAFT — Digital ID / passport in Apple Wallet)
 - data/summaries/2025-11-16.json (TAAFT — satellite-powered iPhone features)
+- data/summaries/2025-11-21.json (TLDR — Nvidia crushes earnings, Apple's WiFi chip [N1 chip])
+- data/summaries/2025-11-28.json (Apple iPhone 17 growth, top-phone-maker position)
+- data/summaries/2025-12-03.json (Apple AI chief — Subramanya replaces Giannandrea)
+- data/summaries/2025-12-04.json (Subramanya confirmed; Giannandrea steps down)

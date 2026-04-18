@@ -20,6 +20,9 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: Introduces [[muse-spark]] — natively multimodal reasoning with tool use and multi-agent orchestration; framed as marking Meta's pivot from open-weights releases — *source: The Batch "Meta Pivots From Open Weights"*
+- **2025-11-25**: WorldGen released — turns text prompts into walkable, game-ready worlds via procedural reasoning, diffusion-based 3D generation, and object-aware scene decomposition — *source: 2025-11-25 cycle*
+- **2025-11-22**: SAM 3D coverage continues — system creates 3D models from a single image; companion to SAM 3 — *source: The Rundown AI "Google's bananas AI image upgrade"; AI Breakfast*
+- **2025-11-21**: Meta open-sources SAM 3 (Segment Anything 3) and SAM 3D — text + visual prompts, video segmentation/tracking, photo-to-3D model rebuild for objects/people; uses span robotics, gaming, education — *source: TLDR AI "Segment Anything 3"; The Rundown AI "Codex-Max codes for 24 hours" [SAM 3 / SAM 3D]; AI Breakfast*
 - **2025-11-17**: AI glasses taken offline from pop-up stores — possible reevaluation before wider release — *source: TAAFT cycle "Meta Takes AI Glasses Offline"*
 - **2025-11-15**: Yann LeCun's departure finalized as "significant shift in the industry" — framed alongside [[world-labs]] / [[world-models]] rise — *source: AI Innovations Hub; TAAFT*
 - **2025-11-13**: Chief AI Scientist Yann LeCun confirms plan to exit Meta to start a [[world-models]] startup — *source: AlphaSignal "Yann LeCun to leave Meta"; TLDR AI*
@@ -65,4 +68,7 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 - data/summaries/2025-11-13.json (AlphaSignal — Yann LeCun to leave Meta; TLDR AI)
 - data/summaries/2025-11-15.json (AI Innovations Hub — LeCun departure; TAAFT cycle)
 - data/summaries/2025-11-17.json (TAAFT — Meta Takes AI Glasses Offline)
+- data/summaries/2025-11-21.json (TLDR AI — Segment Anything 3; The Rundown AI — SAM 3 / SAM 3D; AI Breakfast)
+- data/summaries/2025-11-22.json (The Rundown AI — Google's bananas AI image upgrade [SAM 3D]; AI Breakfast — Nano Banana Pro Sets New Standard)
+- data/summaries/2025-11-25.json (Meta WorldGen text-to-3D-world)
 - data/summaries/2026-04-16.json (The Batch — Meta Pivots From Open Weights; InstaByte — Snap cuts 1,000 jobs, blames AI [Meta CoreWeave deal])

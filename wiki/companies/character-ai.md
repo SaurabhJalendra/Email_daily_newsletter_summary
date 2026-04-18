@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-30
-> **Last updated**: 2025-10-31
+> **Last updated**: 2025-11-27
 > **Status**: active
 > **Related**: [[ai-mental-health-safety]], [[ai-regulation]]
 
@@ -18,6 +18,7 @@ Character.AI is the companion-chatbot platform that lets users converse with per
 
 ## Timeline
 
+- **2025-11-27**: Stories launches — visual + replayable interactive-fiction format; pick character + genre, branch narrative — repositioning from open-ended chat to creator-content surface post minor-ban — *source: 2025-11-27 cycle*
 - **2025-10-31**: Coverage continues — Character.AI removes open-ended companion chats for minors, citing emotional-attachment / dependency / mental-health risks — *source: Matt from FutureTools "AI's $5T milestone"; Mindstream "Meta borrows billions"*
 - **2025-10-30**: Announces minor restrictions — under-18s lose direct chat 2025-11-25; can still generate content like videos — *source: The Rundown AI "Extropic's 10,000x AI energy breakthrough"*
 
@@ -39,3 +40,4 @@ Character.AI is the companion-chatbot platform that lets users converse with per
 
 - data/summaries/2025-10-30.json (The Rundown AI — Extropic's 10,000x AI energy breakthrough [Character AI minors])
 - data/summaries/2025-10-31.json (Matt from FutureTools — AI's $5T milestone; Mindstream — Meta borrows billions on Halloween)
+- data/summaries/2025-11-27.json (Stories interactive-fiction launch)

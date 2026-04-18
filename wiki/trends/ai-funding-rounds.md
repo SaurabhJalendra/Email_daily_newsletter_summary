@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-04-16 (backfill 2025-11-25..2025-12-02)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[reflection]], [[thinking-machines]], [[ai-bubble-concerns]]
 
@@ -21,6 +21,13 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - **2026-04-16**: [[anthropic]] reportedly in investor talks at $800B+ valuation, approaching OpenAI territory — *source: Superhuman "Gemini gets a Mac app"*
 - **2026-04-16**: Eli Lilly agrees to pay up to $2.75B to Insilico Medicine (AI drug discovery) — *source: The Batch "Meta Pivots From Open Weights, Big Pharma Bets On AI"*
 - **2026-04-16**: Allbirds/NewBird AI announces $50M financing to pivot from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code*
+- **2025-12-02**: Databricks reportedly in talks to raise $5B at $134B valuation — *source: 2025-12-02 cycle*
+- **2025-11-28**: [[harmonic]] (AI math/reasoning startup co-founded by Vlad Tenev) raises $120M at $1.45B valuation — *source: 2025-11-28 cycle*
+- **2025-11-25**: Lambda raises $1.5B (eyes IPO; backed by TWG Global); Luma AI raises $900M (multimodal; backed by Saudi Humain); Physical Intelligence raises $600M (AI robotics; backed by Alphabet's CapitalG); Genspark raises $275M (AI workplace agents); Berkshire Hathaway acquires $4.9B stake in Alphabet — *source: 2025-11-25 cycle*
+- **2025-11-22**: NVIDIA's $57B record quarter rallies semiconductor equities (BESI, ASMI, ASML +2%) — *source: Mindstream*
+- **2025-11-21**: [[xai]] in advanced talks for $15B raise at $230B valuation; alphaXiv raises $7M seed to become "GitHub of AI research"; Adobe acquires SEO platform Semrush for $1.9B — *source: TLDR AI "GPT-5.1-Codex-Max / xAI funding / alphaXiv"; The Rundown AI*
+- **2025-11-20**: Microsoft + NVIDIA commit combined $15B to [[anthropic]] ($5B + $10B); Anthropic valuation reaches ~$350B; Anthropic pledges $30B Azure compute + up to 1 GW NVIDIA Grace Blackwell / Vera Rubin capacity — *source: TLDR; TLDR AI; TAAFT; The Rundown AI; FutureTools*
+- **2025-11-20**: Replit raises $1.5B; Lambda raises for AI datacenter solutions; Intuit signs $100M+ deal with [[openai]] (TurboTax/QuickBooks/Mailchimp) — *source: The Rundown AI; FutureTools*
 - **2025-11-19**: Bezos returns as CEO of new AI startup Project Prometheus with $6.2B in funding — AI for engineering/manufacturing — *source: TAAFT "Bezos Returns"*
 - **2025-11-19**: Lovart hits $30M ARR with Figma-like editing for AI designs — *source: AlphaSignal cycle*
 - **2025-11-18**: Sakana AI becomes Japan's most valuable unicorn — *source: TAAFT cycle*
@@ -62,6 +69,10 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - $21B: Meta–CoreWeave AI cloud deal (Apr 2026) — see [[ai-hardware]]
 - $10B: [[mercor]] valuation on $350M raise (Oct 29 2025)
 - $5T: NVIDIA market cap milestone (Oct 30 2025)
+- $134B: Databricks valuation talk on $5B raise (Dec 2 2025)
+- $1.45B: [[harmonic]] valuation on $120M raise (Nov 28 2025)
+- $1.5B / $900M / $600M / $275M: Lambda / Luma / Physical Intelligence / Genspark cluster (Nov 25 2025)
+- $4.9B: Berkshire Hathaway stake in Alphabet (Nov 25 2025)
 - $9.7B: [[microsoft]]–IREN compute deal (Nov 2025)
 - $2.75B: Eli Lilly–Insilico Medicine (Apr 2026)
 - $2B: Reflection round (Oct 2025)
@@ -97,4 +108,10 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - data/summaries/2025-11-17.json (TAAFT — Cursor $2.3B)
 - data/summaries/2025-11-18.json (TAAFT — OpenAI IPO $1T; Sakana AI unicorn)
 - data/summaries/2025-11-19.json (TAAFT — Bezos Project Prometheus $6.2B; AlphaSignal — Lovart $30M ARR)
+- data/summaries/2025-11-20.json (TLDR — Anthropic $350B; TLDR AI — Anthropic $350B val; TAAFT — Tech Titans Partnership; The Rundown AI — $15B deal / Replit $1.5B / Lambda; FutureTools — Intuit $100M+; Microsoft + Nvidia + Anthropic)
+- data/summaries/2025-11-21.json (TLDR AI — xAI funding $15B at $230B / alphaXiv $7M; The Rundown AI — Adobe Semrush $1.9B)
+- data/summaries/2025-11-22.json (Mindstream — semiconductor rally on NVIDIA earnings)
+- data/summaries/2025-11-25.json (Lambda $1.5B; Luma AI $900M; Physical Intelligence $600M; Genspark $275M; Berkshire-Alphabet $4.9B)
+- data/summaries/2025-11-28.json (Harmonic $120M @ $1.45B)
+- data/summaries/2025-12-02.json (Databricks $5B @ $134B)
 - data/summaries/2026-04-16.json (Superhuman — Gemini gets a Mac app [Anthropic $800B]; The Batch — Meta Pivots From Open Weights, Big Pharma Bets On AI; The Rundown AI — Allbirds ditches sneakers; The Code — Shoemaker company pivots to AI)

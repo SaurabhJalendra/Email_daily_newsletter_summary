@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-07
-> **Last updated**: 2025-11-19
+> **Last updated**: 2025-12-04
 > **Status**: active
 > **Related**: [[openai]], [[gpt-5-1]], [[agentkit]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[sora-2]], [[ai-regulation]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,13 @@ ChatGPT is [[openai]]'s flagship consumer AI assistant. At DevDay 2025 OpenAI re
 
 ## Timeline
 
+- **2025-12-04**: OpenAI declares "code red" amid Gemini 3 pressure — focus on speed/reliability/personality of ChatGPT — *source: 2025-12-04 cycle*
+- **2025-12-02**: ChatGPT Android app surfaces "ads feature" / "search ads" / "bazaar content" references — ads in ChatGPT may ship soon — *source: 2025-12-02 cycle*
+- **2025-11-29**: OpenAI confirms third-party Mixpanel breach with limited exposure of basic profile information for some ChatGPT users — *source: 2025-11-29 cycle*
+- **2025-11-27**: ChatGPT integrates voice + text — seamless conversations with conversation history and visuals in-window — *source: 2025-11-27 cycle*
+- **2025-11-26**: ChatGPT shopping launches — conversational product search with personalized recommendations — *source: 2025-11-26 cycle*
+- **2025-11-25**: Group chats in ChatGPT roll out globally — up to 20 users in a shared conversation with the assistant — *source: TLDR; The Rundown AI 2025-11-25*
+- **2025-11-22**: ChatGPT group chats launch — up to 20 users join a shared conversation with the AI — *source: AI Breakfast 2025-11-22; OpenAI*
 - **2025-11-19**: New feature to record and summarize meetings directly in the ChatGPT app — *source: TAAFT "ChatGPT meeting recording"*
 - **2025-11-18**: [[gpt-5-1]] rollout continues; OpenAI publishes prompting guide — *source: TAAFT cycle*
 - **2025-11-17**: Japanese woman marries her ChatGPT-created character Klaus in AR ceremony — cultural story — *source: TAAFT cycle*
@@ -71,3 +78,10 @@ ChatGPT is [[openai]]'s flagship consumer AI assistant. At DevDay 2025 OpenAI re
 - data/summaries/2025-11-17.json (TAAFT cycle — ChatGPT Klaus AR ceremony)
 - data/summaries/2025-11-18.json (TAAFT — GPT-5.1 prompting guide)
 - data/summaries/2025-11-19.json (TAAFT — meeting recording feature)
+- data/summaries/2025-11-22.json (AI Breakfast — ChatGPT group chats)
+- data/summaries/2025-11-25.json (TLDR — group chats global; OpenAI launches group chats)
+- data/summaries/2025-11-26.json (TLDR — ChatGPT shopping)
+- data/summaries/2025-11-27.json (Mindstream — ChatGPT voice + text integration)
+- data/summaries/2025-11-29.json (TLDR — OpenAI Mixpanel breach)
+- data/summaries/2025-12-02.json (TLDR — OpenAI ads feature leak)
+- data/summaries/2025-12-04.json (TLDR — OpenAI Code Red)

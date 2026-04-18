@@ -22,6 +22,14 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2025-12-04**: NVIDIA unveils Alpamayo-R1 — human-like perception/reasoning for autonomous vehicles; part of open-source "digital and physical AI" stack — *source: 2025-12-04 cycle*
+- **2025-12-03**: Open-source DRIVE Alpamayo-R1 released as part of digital/physical AI stack — *source: 2025-12-03 cycle*
+- **2025-11-29**: NVIDIA ToolOrchestra research; Michael Burry $1.1B short positions vs NVIDIA + Palantir over alleged AI bubble and depreciation practices; China economic-planning-agency robotics-bubble warning — *source: 2025-11-29 cycle*
+- **2025-11-27**: NVIDIA says GPUs are "a generation ahead" of Google's AI chips; shares fall 3% on reports Meta may use Google TPUs — *source: 2025-11-27 cycle*
+- **2025-11-25**: NVIDIA reports record earnings; launches Apollo open-source AI physics model for enterprise — *source: 2025-11-25 cycle*
+- **2025-11-22**: NVIDIA Q3 record $57B revenue continues to anchor sector framing; semiconductor equities rally (BESI, ASMI, ASML) — *source: AI Breakfast "Nano Banana Pro Sets New Standard"; Mindstream cycle*
+- **2025-11-21**: Q3 (Oct-quarter) revenue hits $57B (+62% YoY); guides $65B for current quarter — soothes AI-bubble fears; Saudi Arabia inks deals with NVIDIA, [[xai]], and others including 600K GPUs and a 500+ MW data center; "no assurance" of final $100B [[openai]] pact — *source: TLDR "Nvidia crushes earnings"; The Rundown AI "Codex-Max codes for 24 hours" [Saudi]*
+- **2025-11-20**: NVIDIA commits up to $10B in [[anthropic]] alongside [[microsoft]]'s $5B; Anthropic contracts up to 1 GW of compute on Grace Blackwell / Vera Rubin systems and forms a deep engineering partnership with NVIDIA — *source: TLDR AI "Anthropic $350B val"; TAAFT "Tech Titans Partnership"; The Rundown AI "$15B deal"*
 - **2025-11-19**: Path to $6T valuation by 2026 projected; partnership with Japan's RIKEN (2,140 Blackwell GPUs across supercomputers); NVLink for Arm announced; Apollo AI physics models launched — *source: TAAFT "NVIDIA to $6T"; AlphaSignal*
 - **2025-11-12**: $4.5T valuation called out; dominant AI-chip supplier framing — *source: TAAFT cycle*
 - **2025-11-11**: CEO Jensen Huang warns China will win the AI race due to regulatory flexibility and energy subsidies — *source: TAAFT cycle*
@@ -63,4 +71,12 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - data/summaries/2025-11-11.json (TAAFT cycle — NVIDIA Jensen China warning)
 - data/summaries/2025-11-12.json (TAAFT cycle — $4.5T valuation)
 - data/summaries/2025-11-19.json (TAAFT — NVIDIA to $6T; AlphaSignal — RIKEN deployment, NVLink for Arm, Apollo AI)
+- data/summaries/2025-11-20.json (TLDR AI — Anthropic $350B val; TAAFT — Tech Titans Partnership; The Rundown AI — $15B deal)
+- data/summaries/2025-11-21.json (TLDR — Nvidia crushes earnings $57B; The Rundown AI — Codex-Max codes for 24 hours [Saudi 600K GPUs])
+- data/summaries/2025-11-22.json (AI Breakfast — Nano Banana Pro Sets New Standard [$57B quarter])
+- data/summaries/2025-11-25.json (NVIDIA earnings; Apollo physics model)
+- data/summaries/2025-11-27.json (NVIDIA "generation ahead" of Google chips)
+- data/summaries/2025-11-29.json (NVIDIA ToolOrchestra; Burry shorts; China robotics-bubble warning)
+- data/summaries/2025-12-03.json (NVIDIA DRIVE Alpamayo-R1)
+- data/summaries/2025-12-04.json (Alpamayo-R1 autonomous-vehicle perception/reasoning)
 - data/summaries/2026-04-16.json (NVIDIA Newsletter — From SDG to physical AI; NVIDIA Developer News — GTC Taipei / DeepStream; The Tech Buzz — TSMC Earnings, Nvidia Quantum Chips; InstaByte — Snap cuts 1,000 jobs [Meta CoreWeave / Vera Rubin])

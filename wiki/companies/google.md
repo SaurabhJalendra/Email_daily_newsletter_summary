@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-04-16 (backfill 2025-11-27..2025-12-04)
 > **Status**: active
-> **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[anthropic]], [[apple]], [[openai]], [[prompt-injection]], [[computer-use]], [[ai-hardware]]
+> **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[anthropic]], [[apple]], [[openai]], [[prompt-injection]], [[computer-use]], [[ai-hardware]]
 
 ## Summary
 
@@ -21,6 +21,19 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-16**: Gemini Mac app launches — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT "Gemini Gets TTS and Mac App"; Superhuman "Gemini gets a Mac app"; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome adds "Skills" — save Gemini prompts to reuse across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
+- **2025-12-04**: [[gemini-3]] Pro and [[nano-banana-pro]] expanded across additional countries in Search — *source: 2025-12-04 cycle*
+- **2025-12-03**: Google Gemini "Projects" feature in development — organize files and chats around topics — *source: 2025-12-03 cycle*
+- **2025-12-02**: [[gemini-3]] reframed as integrated shared-intelligence layer across Google products with improved multimodal reasoning + stable long-context — *source: 2025-12-02 cycle*
+- **2025-11-28**: NATO partners with Google Cloud for defense — air-gapped servers to secure NATO sensitive information — *source: 2025-11-28 cycle*
+- **2025-11-27**: Aluminium OS unveiled alongside [[gemini-3]] + TPUs as part of Google's full-stack push to challenge [[nvidia]] and [[openai]] — *source: 2025-11-27 cycle*
+- **2025-11-25**: Google states it aims to double AI serving capacity every 6 months — targets 1000× more capability/compute/storage at the same cost/power within 5 years — *source: TAAFT 2025-11-25 cycle*
+- **2025-11-25**: Gemini 3 replaces Google Assistant in Android Auto; Nested Learning + HOPE architecture detailed — *source: 2025-11-25 cycle*
+- **2025-11-23**: [[antigravity]] deep-dive coverage continues (multi-agent IDE; plan/write/debug/test autonomously); Code Wiki documentation system powered by Gemini — *source: 2025-11-23 cycle*
+- **2025-11-22**: [[nano-banana-pro]] launches — Gemini 3 Pro Image, 4K, 14-input, 5-character consistency, SynthID + C2PA, integrated into Canva/Figma/Adobe Firefly/Photoshop/Antigravity/Search/Workspace/Ads — *source: AI Breakfast "Nano Banana Pro Sets New Standard"; Mindstream*
+- **2025-11-20**: CEO Sundar Pichai warns the trillion-dollar AI investment boom has "elements of irrationality" and could lead to a bubble burst; cautions users not to fully rely on AI for accurate information (Gemini/ChatGPT/Copilot/Perplexity misrepresent news ~45% of the time) — *source: Mindstream "Alphabet CEO has an AI warning"; TLDR "Gemini 3"*
+- **2025-11-20**: AI travel planning rolls into Google Search — single-prompt itinerary with flights/hotels/activities/reviews and follow-up refinement — *source: FutureTools "Bezos is BACK"*
+- **2025-11-20**: Scholar Labs launches — generative AI for advanced research problems — *source: FutureTools cycle*
+- **2025-11-18**: [[gemini-3]] ships — 1.5M tokens, Deep Think, top of LMArena (1501 Elo) / HLE (45.8%) / AIME (95%) / GPQA Diamond (91.9%) / ScreenSpot-Pro (72.7%); [[antigravity]] free agent-first IDE launches in parallel — *source: TLDR; TLDR AI; TAAFT; AI Breakfast; World of AI; The Rundown AI*
 - **2025-11-19**: AI flights launch — Google extends AI into travel/flight search; ChatGPT also adds meeting-summary feature same day — *source: TAAFT cycle "Bezos Returns" ; AlphaSignal*
 - **2025-11-18**: [[gemini-3]] and Nano-Banana Pro prepped for near-term launch across Google's platform ecosystem — *source: TAAFT "Gemini 3 and Nano Banana Pro Launch"*
 - **2025-11-17**: [[gemini-3]] anticipated release — positioned to rival OpenAI on coding and multimedia — *source: TAAFT cycle "Gemini 3.0 upcoming release"*
@@ -67,7 +80,7 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - Agent/dev stack: [[jules]], Opal (160+ countries Nov 2025), [[gemini-2-5-computer-use]]
 - Enterprise SKU: [[gemini-enterprise]]
 - Video model: [[veo-3]] 3.1
-- Image model: Nano-Banana (2 leaked Nov 2025)
+- Image model: Nano-Banana (2 leaked Nov 2025); [[nano-banana-pro]] (Gemini 3 Pro Image, Nov 22 2025)
 - API features: File Search RAG (Nov 2025); Google Maps location data (Oct 2025)
 - Hardware: [[ironwood-tpu]] 7th-gen TPU, Axion VMs (Nov 2025); [[project-suncatcher]] orbital TPU research (Nov 2025)
 - Privacy: Private AI Compute (Nov 2025 — Apple-parallel private cloud)
@@ -108,4 +121,13 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - data/summaries/2025-11-17.json (TAAFT cycle — Gemini 3.0 release)
 - data/summaries/2025-11-18.json (TAAFT — Gemini 3 and Nano Banana Pro Launch)
 - data/summaries/2025-11-19.json (TAAFT — Google launches AI flights; AlphaSignal)
+- data/summaries/2025-11-20.json (TLDR — Gemini 3; TLDR AI — Gemini 3 / Antigravity; TAAFT — Gemini 3 Is Officially Here; AI Breakfast — Google Stakes AI leadership with Gemini 3; World of AI — Google DROPS Gemini 3; The Rundown AI — Demis Hassabis interview; Mindstream — Alphabet CEO has an AI warning; FutureTools — Bezos is BACK)
+- data/summaries/2025-11-22.json (AI Breakfast — Nano Banana Pro Sets New Standard; Mindstream — Nano Banana Pro)
+- data/summaries/2025-11-23.json (TAAFT cycle — Antigravity; Code Wiki)
+- data/summaries/2025-11-25.json (TAAFT cycle — Google 1000x compute; Gemini 3 Android Auto; Nested Learning HOPE)
+- data/summaries/2025-11-27.json (Aluminium OS; Gemini 3 + TPUs vs NVIDIA/OpenAI)
+- data/summaries/2025-11-28.json (NATO–Google Cloud air-gapped defense partnership)
+- data/summaries/2025-12-02.json (Gemini 3 shared-intelligence layer)
+- data/summaries/2025-12-03.json (Gemini Projects in development)
+- data/summaries/2025-12-04.json (Gemini 3 Pro + Nano Banana Pro country expansion in Search)
 - data/summaries/2026-04-16.json (AlphaSignal — Google Gemini 3.1 Flash TTS; World of AI — GOOGLE: Gemini 3.1 TTS DROPS!; TAAFT — Gemini Gets TTS and Mac App; TLDR AI — Gemini 3.1 Flash TTS; The Code — Shoemaker company pivots to AI; Superhuman — Gemini gets a Mac app; The Rundown AI — Allbirds ditches sneakers; "Gemini on your desktop"; Mindstream — AI just made Chrome even more useful)

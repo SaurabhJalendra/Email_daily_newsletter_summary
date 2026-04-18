@@ -8,9 +8,9 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-10
-> **Last updated**: 2025-11-18
+> **Last updated**: 2025-11-30
 > **Status**: active
-> **Related**: [[ai-funding-rounds]], [[openai]], [[anthropic]], [[nvidia]]
+> **Related**: [[ai-funding-rounds]], [[openai]], [[anthropic]], [[nvidia]], [[google]]
 
 ## Summary
 
@@ -18,6 +18,9 @@ In October 2025 multiple institutional voices — the Bank of England, the IMF, 
 
 ## Timeline
 
+- **2025-11-30**: China warns of a "humanoid robot bubble" — excessive investment despite few proven use cases; over 150 companies in the space — *source: 2025-11-30 cycle*
+- **2025-11-29**: Michael Burry places $1.1B short positions vs [[nvidia]] + Palantir over alleged AI bubble and depreciation practices; China economic-planning agency robotics-bubble warning includes 10–20% AI human-extinction probability framing — *source: 2025-11-29 cycle*
+- **2025-11-20**: Sundar Pichai (Google CEO) warns the trillion-dollar AI investment boom has "elements of irrationality" and could lead to a bubble burst; cautions users not to fully rely on AI given ~45% news-misrepresentation rate across major chatbots — *source: TLDR "Gemini 3"; Mindstream "Alphabet CEO has an AI warning"*
 - **2025-11-18**: eBay AI-feature comeback (stock surge 75% since 2020) offered as bull-case vs overvaluation narrative — *source: TAAFT cycle*
 - **2025-11-12**: [[nvidia]] at $4.5T; AI reach 1.2B users in under 3 years — framing of market-size leverage vs bubble risk — *source: TAAFT cycle*
 - **2025-11-09**: Michael Burry ("Big Short") bets $1B against AI boom citing excessive optimism / overvaluation — *source: TAAFT "Michael Burry bets against AI"*
@@ -56,3 +59,6 @@ In October 2025 multiple institutional voices — the Bank of England, the IMF, 
 - data/summaries/2025-11-09.json (TAAFT — Michael Burry bets against AI)
 - data/summaries/2025-11-12.json (TAAFT cycle — NVIDIA $4.5T; 1.2B users in 3 years)
 - data/summaries/2025-11-18.json (TAAFT — eBay AI features drive stock surge)
+- data/summaries/2025-11-20.json (TLDR — Gemini 3 [Pichai irrationality warning]; Mindstream — Alphabet CEO has an AI warning)
+- data/summaries/2025-11-29.json (Michael Burry $1.1B shorts; China robotics-bubble warning)
+- data/summaries/2025-11-30.json (China humanoid-robot-bubble warning)

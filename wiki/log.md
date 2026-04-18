@@ -4,6 +4,221 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2025-12-04
+**Ingested**: data/summaries/2025-12-04.json (21 newsletters)
+
+**Pages updated**:
+- [[openai]] — declares "Code Red" amid Gemini 3 competitive pressure; ChatGPT speed/reliability/personality refocus
+- [[anthropic]] — preparing one of the largest IPOs ever; acquires Bun JS toolkit for Claude Code; Claude Code reportedly hits $1B ARR
+- [[mistral]] — launches [[mistral-3]] open-weight lineup
+- [[amazon]] — Nova 2, Trainium 3 (~50% lower training/op cost vs NVIDIA), Nova Forge, Kiro, AWS AI Factories; Rufus + 805% YoY AI traffic on Black Friday
+- [[apple]] — Subramanya confirmed as new VP of AI; Giannandrea steps down
+- [[nvidia]] — Alpamayo-R1 unveiled (human-like AV perception/reasoning)
+- [[google]] — Gemini 3 Pro + Nano Banana Pro country expansion in Search
+- [[deepseek]] — V3.2 reasoning-focused open-source model coverage continues
+- [[runway]] — Gen-4.5 coverage continues
+
+**Pages created**: [[mistral-3]]
+
+**Notable**: OpenAI's "Code Red" is the explicit framing of Gemini 3 as the first competitor that has *moved* OpenAI's roadmap. Anthropic's IPO talk + Bun acquisition + Claude Code $1B ARR is a triple signal that Anthropic is consolidating into a true OpenAI peer. Amazon's Trainium 3 50%-cost-cut claim vs NVIDIA reframes the silicon-vs-Nvidia race; Mistral 3's 41B-active/675B-total MoE under open-weights is the European answer to closed flagships.
+
+## 2025-12-03
+**Ingested**: data/summaries/2025-12-03.json (8 newsletters)
+
+**Pages updated**:
+- [[deepseek]] — V3.2 (matches GPT-5) and V3.2-Speciale (rivals Gemini 3 Pro; IMO/IOI/ICPC 2025 gold)
+- [[runway]] — Gen-4.5 text-to-video tops Veo 3 + Sora on Artificial Analysis
+- [[anthropic]] — AI agents exploit blockchain smart contracts (extracted $4.6M from contracts deployed after March 2025); SCONE-bench security research
+- [[apple]] — Subramanya appointed AI chief; Giannandrea retiring spring 2026
+- [[nvidia]] — DRIVE Alpamayo-R1 open-sourced as part of digital + physical AI stack
+- [[google]] — Gemini "Projects" feature in development
+- [[lux]] — computer-use agent at 83.6% on OpenAI Operator (outperforming Operator + Claude)
+
+**Pages created**: [[deepseek-v3-2]], [[runway]], [[runway-gen-4-5]], [[lux]]
+
+**Notable**: Three frontier-class open-source releases in one day (DeepSeek V3.2 + V3.2-Speciale, Runway Gen-4.5) reset the closed-vs-open narrative. Anthropic's blockchain-exploit research is the first widely-covered case of frontier-class AI agents systematically extracting funds from on-chain contracts — a major safety/regulatory inflection point.
+
+## 2025-12-02
+**Ingested**: data/summaries/2025-12-02.json (14 newsletters)
+
+**Pages updated**:
+- [[google]] — [[gemini-3]] reframed as integrated shared-intelligence layer across Google products
+- [[openai]] — GPT-5.1 Codex Max + ChatGPT Android app surfaces "ads feature" / "search ads" references
+- [[xai]] — Grok 4.1 with Thinking + Standard dialog modes
+- [[harmonic]] / [[harmonic-aristotle]] — Aristotle solves Erdős Problem #124 in 6 hours, Lean-verified in a minute
+- [[alibaba]] — China captures 14.2% of open-AI economy; true open-source share drops 79.3% (2022) → 39% (2025)
+- [[mistral]] — HSBC partners with Mistral AI for generative AI tools across the bank
+- [[ai-funding-rounds]] — Databricks $5B at $134B valuation
+- [[ai-regulation]] — Australia bans social media for under-16s (first country to do so)
+
+**Pages created**: [[harmonic]], [[harmonic-aristotle]]
+
+**Notable**: Aristotle's Erdős proof + Lean verification is the most concrete "AI does novel mathematics" milestone of the cycle — directly inside [[harmonic]]'s thesis. Australia's under-16 ban is the first national-scale platform-age restriction; expect copycats and pressure on AI companion apps. China's 14.2% open-AI share quantifies the shift the open vs closed split has been signaling all quarter.
+
+## 2025-12-01
+**Ingested**: data/summaries/2025-12-01.json (2 newsletters)
+
+**Pages updated**:
+- (no substantive new wiki-worthy entities — coverage was n8n / link-prediction research / community digests)
+
+**Notable**: Light volume day — content was a CNCIE link-prediction paper from Wuhan University and n8n community/automation updates. Nothing reached the page-creation threshold.
+
+## 2025-11-30
+**Ingested**: data/summaries/2025-11-30.json (9 newsletters)
+
+**Pages updated**:
+- [[openai]] — Mixpanel breach reconfirmed (analytics-only exposure; chat content + credentials safe)
+- [[anthropic]] / [[claude-opus-4-5]] — Opus 4.5 reframed as "most advanced model yet" for complex reasoning + long-running agents
+- [[nvidia]] — ToolOrchestra coverage continues (smaller models beating GPT-5 by 2.5×); Gemini 3 Pro sets new high score
+- [[ai-bubble-concerns]] — China warns of humanoid robot bubble (>150 companies, few proven use cases)
+- [[ai-regulation]] — Tesla sued by Perrone Robotics over Autopilot patents; Figure AI sued by ex–product safety head over wrongful termination
+- [[figure]] — wrongful-termination suit pulls Figure back into the news cycle
+- [[amazon]] — AWS introduces flat-rate pricing plans (CDN + security + DNS + logging + edge compute + storage bundle)
+
+**Notable**: Two safety-driven legal actions land the same day: Figure AI is sued by its former head of product safety, and Tesla faces a Perrone-Robotics patent suit on Autopilot. Together with China's humanoid-bubble warning, the day forms a coherent "robotics safety + investment frothiness" cluster.
+
+## 2025-11-29
+**Ingested**: data/summaries/2025-11-29.json (14 newsletters)
+
+**Pages updated**:
+- [[deepseek]] / [[deepseek-math-v2]] — DeepSeekMath-V2 unveiled; gold-level IMO 2025 results via generator + verifier; rivals Google Deep Think
+- [[xai]] — 88-acre solar farm next to Memphis Colossus data center (~30 MW, ~10% of demand)
+- [[openai]] — Mixpanel breach confirmed (basic profile info; chat + credentials safe)
+- [[alibaba]] — Qwen sigmoid-gated SDPA research; Quark S1 Smart Specs launched (Meta-Ray-Ban-Display class at lower price)
+- [[anthropic]] — Claude context-limit prevention + feature-driven workflow update
+- [[perplexity]] — AI shopping with virtual try-on + enhanced memory
+- [[nvidia]] — ToolOrchestra research; Michael Burry $1.1B shorts vs NVIDIA + Palantir over depreciation; China economic-planning agency robotics-bubble warning
+- [[ai-bubble-concerns]] — Burry shorts + China robotics-bubble framing
+
+**Pages created**: [[deepseek-math-v2]]
+
+**Notable**: DeepSeekMath-V2 is the first open-source model to credibly claim IMO 2025 gold via an interpretable two-stage generator + verifier pipeline — important for evaluation methodology, not just leaderboards. Burry's Palantir + NVIDIA shorts are the loudest single bear bet on the AI capex cycle so far.
+
+## 2025-11-28
+**Ingested**: data/summaries/2025-11-28.json (7 newsletters)
+
+**Pages updated**:
+- [[google]] — NATO partners with Google Cloud for defense (air-gapped servers); Gemini 3 reframed as a comeback that re-anchors Search/YouTube/Cloud/Waymo
+- [[apple]] — iPhone 17 double-digit YoY US + China; Apple poised to overtake Samsung as world's top phone maker
+- [[harmonic]] / [[ai-funding-rounds]] — Harmonic raises $120M at $1.45B valuation
+- [[perplexity]] — personalization features (cross-conversation preferences, interests, context)
+- [[ai-copyright]] — Warner Music settles with Suno via strategic partnership
+- [[andrej-karpathy]] — Karpathy advises educators to abandon AI-detection efforts
+- [[anthropic]] — leaked OpenAI memo on Google "rough vibes" / economic headwinds (sector-adjacent)
+
+**Pages created**: [[harmonic]]
+
+**Notable**: NATO running on Google Cloud air-gapped infrastructure is a major sovereign-AI procurement signal. Warner-Suno, after the Warner-Udio thaw a week earlier, suggests the music-industry-vs-AI litigation phase is over — settlements + licensing are now the path.
+
+## 2025-11-27
+**Ingested**: data/summaries/2025-11-27.json (10 newsletters)
+
+**Pages updated**:
+- [[openai]] — ChatGPT integrates voice + text in unified flow; reports of OpenAI device residency push
+- [[google]] — Aluminium OS unveiled alongside Gemini 3 + TPUs; Genesis Mission narrative thread
+- [[xai]] — closes $15B funding round at $230B pre-money valuation in December
+- [[amazon]] — investing up to $50B in AWS US-government AI/HPC capacity
+- [[nvidia]] — "GPUs a generation ahead of Google chips"; shares fall 3% on reports Meta may use Google TPUs
+- [[alibaba]] — Qwen app passes 10M downloads in first week
+- [[black-forest-labs]] / [[flux-2]] — FLUX.2 launches (better realism, text writing, character consistency)
+- [[character-ai]] — launches Stories interactive-fiction surface
+- [[anthropic]] — Claude 4.5 outperforms human engineers on certain tasks (80.9% SWE-bench)
+
+**Pages created**: [[black-forest-labs]], [[flux-2]]
+
+**Notable**: Google's "Aluminium OS + Gemini 3 + TPUs" framing is the first time Google has been positioned (in newsletter coverage) as challenging both NVIDIA and OpenAI on the same day. xAI closing $15B at $230B is the firm price tag on Musk's compute thesis.
+
+## 2025-11-26
+**Ingested**: data/summaries/2025-11-26.json (2 newsletters)
+
+**Pages updated**:
+- [[anthropic]] / [[claude-opus-4-5]] — Opus 4.5 launches: 80.9% SWE-bench Verified (record); 88.9% T2 Retail / 98.2% T2 Telecom; major gains in graduate-level reasoning, visual reasoning, computer use, multilingual Q&A
+- [[openai]] — first device announced (screen-free, smartphone-sized, Jony Ive + Altman led; targeted within two years); ChatGPT shopping launches
+- [[chatgpt]] — shopping feature with conversational product recommendations
+
+**Pages created**: [[claude-opus-4-5]]
+
+**Notable**: Opus 4.5 is the model that unseats GPT-5.1-Codex-Max at the SWE-bench Verified high-water mark and first crosses 98% on a T2 tool-use benchmark (Telecom 98.2%). OpenAI's "first device" framing — Jony Ive + Altman, screen-free — places the post-phone-as-AI-surface battle on the road map.
+
+## 2025-11-25
+**Ingested**: data/summaries/2025-11-25.json (12 newsletters)
+
+**Pages updated**:
+- [[openai]] — Sam Altman warns of "rough vibes" + "economic headwinds" from Google's progress; ChatGPT group chats GA; Model Behavior team reportedly overruled by leadership on safety vs engagement
+- [[google]] — targets doubling AI serving capacity every 6 months; 1000× more capability/compute/storage in 5 years; Gemini 3 replaces Assistant in Android Auto; Nested Learning HOPE architecture
+- [[meta]] / [[world-models]] — Meta releases WorldGen (text → walkable game-ready 3D world via procedural reasoning + diffusion-based 3D generation + object-aware scene decomposition)
+- [[nvidia]] — record earnings; Apollo open AI physics model for enterprise
+- [[ai-funding-rounds]] — Lambda $1.5B, Luma AI $900M, Physical Intelligence $600M, Genspark $275M, Berkshire-Alphabet $4.9B stake
+
+**Notable**: A leaked Altman "rough vibes" memo on the same day Google publicly commits to 1000× compute scaling makes the Google-OpenAI competitive pivot explicit at the leadership level. WorldGen plus Apollo plus Marble triangulate the world-models category as the year-end successor frontier to LLMs.
+
+## 2025-11-24
+**Ingested**: data/summaries/2025-11-24.json (5 newsletters)
+
+**Pages updated**:
+- [[anthropic]] / [[prompt-injection]] — discloses Chinese state-backed group used Claude to automate cyberattacks (one of first frontier-lab admissions of nation-state misuse)
+- [[openai]] — leaked compute-spend documents (revenue ≈ compute spend); ChatGPT 800M weekly active users (7× Europe, 9× global growth)
+- [[amazon]] — open-sources "Agent SOPs" (internal pattern library to democratize AI expertise)
+- [[ai-funding-rounds]] — Bezos returns as CEO of Project Prometheus AI ($6.2B startup)
+
+**Notable**: Anthropic's nation-state Claude-cyber-abuse disclosure is a first-of-its-kind frontier-lab admission and a significant signal in the prompt-injection / agentic-AI risk story. ChatGPT 800M WAU at 9× global growth quantifies the consumer-AI penetration story behind the "Code Red" narrative that surfaces a week later.
+
+## 2025-11-23
+**Ingested**: data/summaries/2025-11-23.json (4 newsletters)
+
+**Pages updated**:
+- [[google]] / [[antigravity]] — Antigravity deep-dive coverage continues (multi-agent IDE that plans, writes, debugs, tests autonomously); Code Wiki documentation system powered by Gemini
+- [[perplexity]] — AI Browser launches with free shopping agent + voice-driven browsing (rivals Atlas)
+- [[alibaba]] — Qwen chatbot enhances Taobao shopping to rival ChatGPT + Google
+- [[ai-regulation]] — Stability AI's Mostaque: "900 days to decide AI's future"; IRS deploys AI agents
+- [[ai-copyright]] — Klay Vision becomes first AI music co. to sign licensing deals with major labels
+
+**Notable**: Cloudflare suffered a major network outage the same day, but the cause was internal configuration error — not AI-relevant enough to page-ify. The day's actual signal is the "AI shopping browser" cluster: Perplexity AI Browser + Alibaba Qwen-on-Taobao squarely target the same surface ChatGPT/Atlas shipped a few weeks earlier.
+
+## 2025-11-22
+**Ingested**: data/summaries/2025-11-22.json (multiple newsletters; AI Breakfast / Mindstream / The Rundown AI / TLDR / TLDR AI)
+
+**Pages updated**:
+- [[google]] / [[gemini]] / [[nano-banana-pro]] — Nano Banana Pro launches: Gemini 3 Pro Image, 4K, 14-input, 5-character consistency, SynthID + C2PA, integrated into Canva + Figma + Adobe Firefly + Photoshop + Antigravity + Search + Workspace + Ads
+- [[chatgpt]] — group chats roll out globally (up to 20 users; ChatGPT joins on @-mention)
+- [[openai]] — GPT-5.1 Codex Max becomes default across Codex environments
+- [[meta]] — SAM 3D coverage continues
+- [[amazon]] — Uber Eats deploys Starship robots (UK; Europe 2026, US 2027)
+- [[ai-funding-rounds]] — NVIDIA's $57B record quarter rallies semiconductor equities
+- [[ai-regulation]] — EU AI Act criticized for unclear details / delays
+- [[ai-copyright]] — Warner Music + Udio licensing deal (post-lawsuit drop)
+
+**Pages created**: [[nano-banana-pro]]
+
+**Notable**: Nano Banana Pro is Google's first image model that ships into the Adobe + Figma + Canva creative stack on day one — a much wider distribution surface than any prior frontier image model. ChatGPT group chats are OpenAI's first move into multi-user real-time AI collaboration.
+
+## 2025-11-21
+**Ingested**: data/summaries/2025-11-21.json (multiple newsletters; TLDR / TLDR AI / The Rundown AI)
+
+**Pages updated**:
+- [[openai]] / [[gpt-5-1-codex-max]] — released: compaction across context windows, 24+ hour sessions, 77.9% SWE-bench Verified (30% fewer thinking tokens), Windows CLI, 27–42% faster task completion
+- [[openai]] — GPT-5.1 Pro rollout to ChatGPT Pro; ChatGPT for Teachers (free GPT-5.1 Auto for verified US K-12 educators); Larry Summers resigns from board (Epstein-communications fallout)
+- [[nvidia]] — Q3 (Oct-quarter) revenue $57B (+62% YoY); guides $65B current quarter; Saudi Arabia deals (600K GPUs + 500+ MW data center); "no assurance" on $100B OpenAI pact
+- [[apple]] — N1 in-house Wi-Fi chip outperforms Broadcom (Wi-Fi 7, Bluetooth 6, Thread; first major in-house wireless silicon in iPhones)
+- [[ai-copyright]] — Warner Music drops Udio lawsuit (sets up Nov 22 licensing deal)
+- [[ai-regulation]] — Larry Summers OpenAI-board resignation
+- [[ai-funding-rounds]] — xAI advanced talks for $15B at $230B; alphaXiv $7M seed; Adobe acquires Semrush for $1.9B
+
+**Pages created**: [[gpt-5-1-codex-max]]
+
+**Notable**: Codex-Max "codes for 24 hours straight" via context-compaction is the practical demonstration that long-horizon agentic coding is now a sustained-execution problem, not a context-window problem. NVIDIA Saudi-Arabia 600K-GPU deal is the largest single-country sovereign-AI compute commitment to date.
+
+## 2025-11-20
+**Ingested**: data/summaries/2025-11-20.json (multiple newsletters; TLDR / TLDR AI / TAAFT / The Rundown AI / AI Breakfast / World of AI / Mindstream / FutureTools)
+
+**Pages updated**:
+- [[google]] / [[gemini-3]] / [[antigravity]] — Gemini 3 ships (1.5M token, Deep Think; LMArena 1501 Elo, HLE 45.8%, AIME 95%, GPQA Diamond 91.9%, ScreenSpot-Pro 72.7%); Antigravity free agent-first IDE launches in parallel; AI travel planning into Search; Scholar Labs launches
+- [[anthropic]] — valuation reaches ~$350B as Microsoft (up to $5B) + NVIDIA (up to $10B) commit combined $15B; Anthropic commits $30B Azure compute + up to 1 GW NVIDIA Grace Blackwell / Vera Rubin; Sonnet 4.5 / Haiku 4.5 / Opus 4.1 enter public preview in Microsoft Foundry + M365 Copilot; Dario Amodei on 60 Minutes (half of entry-level white-collar jobs replaced in 5 years)
+- [[ai-funding-rounds]] — Replit $1.5B; Lambda raises for AI datacenters; Intuit $100M+ deal with OpenAI
+- [[ai-bubble-concerns]] — Sundar Pichai warns of "irrationality" in trillion-dollar AI investment boom
+
+**Notable**: Gemini 3's launch + Antigravity is Google's clearest "we have caught up" moment of the cycle and triggers the OpenAI "rough vibes" / "Code Red" narrative arc that runs through to Dec 4. Microsoft + NVIDIA's $15B combined Anthropic commitment + Anthropic's $30B Azure-compute pledge is the largest cross-hyperscaler AI compute bundle yet.
+
 ## LINT 2026-04-18 (week 2026-W16) — re-run
 
 **Lint actions**:

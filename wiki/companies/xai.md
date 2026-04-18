@@ -20,6 +20,12 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 - **2026-04-16**: Terafab reaches out to chipmaking suppliers for price quotes and delivery timelines, requesting speedy estimates with minimal product disclosure — *source: TLDR "Inside Elon's Terafab"*
 - **2026-04-16**: xAI starts repurposing compute stockpile for external customers — *source: Forward Future "Anthropic challenges OpenAI in London"*
+- **2025-12-02**: xAI launches Grok 4.1 dialog model with Thinking and Standard modes — controlled, conversational; mode toggle balances depth vs speed — *source: 2025-12-02 cycle*
+- **2025-11-29**: xAI to build 88-acre solar farm next to Memphis Colossus data center — projected 30 MW (~10% of facility's needs) — *source: 2025-11-29 cycle*
+- **2025-11-27**: $15B raise at $230B pre-money confirmed for December close — *source: 2025-11-27 cycle*
+- **2025-11-22**: Grok 4.1 Fast API launches with two variants (Fast Reasoning / Fast Non-Reasoning) plus an Agent Tools API — autonomous web/X search, document retrieval, Python execution, MCP-server integration, parallel tool execution — *source: AI Breakfast "Nano Banana Pro Sets New Standard"*
+- **2025-11-21**: $15B raise at $230B valuation reaches advanced talks; Saudi Arabia deploys 600K GPUs + 500 MW data center; Grok rolls out nationwide via HUMAIN agent platform — *source: TLDR AI "GPT-5.1-Codex-Max / Grok 4.1 Agent Tools API / SAM 3"; The Rundown AI "Codex-Max codes for 24 hours" [Saudi]*
+- **2025-11-20**: [[grok-4-1]] coverage expands — emotional intelligence + creativity + collaboration upgrade; wins 65% of head-to-head blind tests vs predecessor — *source: TAAFT "Tech Titans Partnership"; AI Breakfast "Google Stakes AI leadership"; The Rundown AI; FutureTools*
 - **2025-11-19**: [[grok-4-1]] releases — personality overhaul, highest emotional-intelligence score, reduced hallucination rates; now top model on LMArena — *source: TAAFT cycle*
 - **2025-11-18**: Grok 5 launch delayed to 2026 — targets doubled parameter count for human-level intelligence — *source: TAAFT "Grok 5 Delay"*
 - **2025-11-15**: $15B funding round at $200B valuation to boost GPUs and AI capabilities — *source: TAAFT "xAI raises $15B"*
@@ -58,4 +64,10 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 - data/summaries/2025-11-15.json (TAAFT — $15B funding at $200B valuation)
 - data/summaries/2025-11-18.json (TAAFT — Grok 5 delayed to 2026)
 - data/summaries/2025-11-19.json (TAAFT cycle — Grok 4.1 release)
+- data/summaries/2025-11-20.json (TAAFT — Grok 4.1 Release / 65% blind-test win; AI Breakfast; The Rundown AI; FutureTools)
+- data/summaries/2025-11-21.json (TLDR AI — Grok 4.1 Agent Tools API / xAI $15B at $230B; The Rundown AI — Saudi 600K GPUs/HUMAIN)
+- data/summaries/2025-11-22.json (AI Breakfast — Nano Banana Pro Sets New Standard [Grok 4.1 Fast API + Agent Tools API])
+- data/summaries/2025-11-27.json (xAI $15B at $230B confirmed)
+- data/summaries/2025-11-29.json (xAI Memphis solar farm)
+- data/summaries/2025-12-02.json (Grok 4.1 dialog model — Thinking/Standard modes)
 - data/summaries/2026-04-16.json (TLDR — Inside Elon's Terafab; Forward Future — Anthropic challenges OpenAI in London [xAI compute repurposing])

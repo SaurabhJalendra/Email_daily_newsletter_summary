@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2025-11-18
+> **Last updated**: 2025-11-20
 > **Status**: active
-> **Related**: [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]], [[github-agent-hq]]
+> **Related**: [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]], [[github-agent-hq]], [[ai-funding-rounds]]
 
 ## Summary
 
@@ -18,6 +18,8 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 
 ## Timeline
 
+- **2025-11-20**: Microsoft commits up to $5B to [[anthropic]] (alongside [[nvidia]]'s $10B) — Anthropic commits $30B Azure compute purchase; Claude Sonnet 4.5 / Haiku 4.5 / Opus 4.1 enter public preview in Microsoft Foundry and M365 Copilot; Azure ND GB300 v6 VMs hit 1.1M tokens/sec setting MLPerf Inference record — *source: TLDR AI "Anthropic $350B val"; TAAFT "Tech Titans Partnership"; The Rundown AI*
+- **2025-11-20**: Nadella op-ed/note on the gap between plugging documents into LLMs and building true organizational memory — *source: TAAFT "Gemini 3 Is Officially Here"*
 - **2025-11-18**: Plans to assess employees based on AI-driven impact starting next year — *source: TAAFT "Microsoft Ties Employee Performance to AI Impact"*
 - **2025-11-16**: Samsung Vision AI Companion integrates Microsoft Copilot alongside Perplexity — multi-AI-agent integration in consumer electronics — *source: TAAFT cycle*
 - **2025-11-15**: Anthropic plus NVIDIA partnership — ongoing collaboration on AI R&D — *source: TAAFT cycle Nov 15*
@@ -58,3 +60,4 @@ Microsoft anchors enterprise AI distribution through the Copilot surface (Window
 - data/summaries/2025-11-15.json (TAAFT cycle — Anthropic + NVIDIA partnership)
 - data/summaries/2025-11-16.json (TAAFT — Samsung Vision AI Companion)
 - data/summaries/2025-11-18.json (TAAFT — employee performance tied to AI impact)
+- data/summaries/2025-11-20.json (TLDR AI — Anthropic $350B val; TAAFT — Tech Titans Partnership; The Rundown AI — $15B deal; ND GB300 v6 MLPerf record)

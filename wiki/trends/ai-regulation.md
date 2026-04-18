@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-17
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-04-16 (backfill 2025-11-28..2025-12-02)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[sora-2]], [[character-ai]], [[google]], [[ai-video-generation]], [[ai-copyright]], [[prompt-injection]]
 
@@ -19,6 +19,11 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 ## Timeline
 
 - **2026-04-16**: US federal court rules in *United States v. Heppner* that AI chatbot conversations (incl. Claude) are not protected by attorney-client privilege — the chatbot is not a lawyer and provider privacy policies permit collection of inputs/outputs — *source: Uncovering AI "Your AI chats can be used against you"*
+- **2025-12-02**: Australia becomes first country to ban social media for all users under 16 — platforms must block new signups and remove existing minor accounts — *source: 2025-12-02 cycle*
+- **2025-11-30**: Tesla sued by Perrone Robotics for alleged Autopilot self-driving patent infringement; Figure AI sued by former head of product safety Robert Gruendel over wrongful termination after raising safety warnings — *source: 2025-11-30 cycle*
+- **2025-11-23**: Stability AI's Emad Mostaque: humanity has ~900 days before AI's economic and social impact becomes irreversible; IRS adopts AI agents to absorb 25% staff reduction — *source: TAAFT "900 Days to Decide AI's Future"*
+- **2025-11-22**: EU AI Act experiences delays and unclear-detail criticism; Mindstream framing: "world's first AI law isn't working" — *source: Mindstream "That big EU AI regulation? It's not working"*
+- **2025-11-21**: Larry Summers resigns from [[openai]] board following revelations about communications with Jeffrey Epstein — first board departure post-Epstein-tied review — *source: TLDR AI "GPT-5.1-Codex-Max / Larry Summers"; The Rundown AI*
 - **2025-11-17**: German court rules ChatGPT violated copyright by training on song lyrics (see [[ai-copyright]]) — *source: TAAFT cycle "German Court Ruling on ChatGPT"*
 - **2025-11-15**: Google faces EU anti-spam scrutiny — *source: TAAFT*
 - **2025-11-13**: [[openai]] loses Munich copyright case — ChatGPT ruled to have trained illegally on songs (see [[ai-copyright]]) — *source: AlphaSignal*
@@ -65,4 +70,9 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 - data/summaries/2025-11-13.json (AlphaSignal — OpenAI Munich copyright case)
 - data/summaries/2025-11-15.json (TAAFT — Google EU anti-spam scrutiny)
 - data/summaries/2025-11-17.json (TAAFT — German court ChatGPT ruling)
+- data/summaries/2025-11-21.json (TLDR AI — Larry Summers resignation; The Rundown AI)
+- data/summaries/2025-11-22.json (Mindstream — EU AI Act delays)
+- data/summaries/2025-11-23.json (TAAFT — 900 Days to Decide AI's Future / IRS AI agents)
+- data/summaries/2025-11-30.json (Tesla–Perrone Robotics suit; Figure AI safety wrongful-termination suit)
+- data/summaries/2025-12-02.json (Australia under-16 social-media ban)
 - data/summaries/2026-04-16.json (Uncovering AI — Your AI chats can be used against you)

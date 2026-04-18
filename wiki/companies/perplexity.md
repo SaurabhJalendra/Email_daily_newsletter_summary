@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-03
-> **Last updated**: 2025-11-16
+> **Last updated**: 2025-11-29
 > **Status**: active
 > **Related**: [[perplexity-comet]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[amazon]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,9 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 
 ## Timeline
 
+- **2025-11-29**: Perplexity Shopping launches with virtual try-on and enhanced memory — research and buy directly in-app — *source: 2025-11-29 cycle*
+- **2025-11-28**: Personalization features added — assistant retains preferences/interests/context across conversations — *source: 2025-11-28 cycle*
+- **2025-11-23**: Perplexity AI Browser launches with free shopping agent and voice-driven browsing — positioned vs [[chatgpt-atlas]] — *source: 2025-11-23 cycle*
 - **2025-11-16**: Samsung Vision AI Companion integrates Microsoft Copilot and Perplexity for natural conversations — *source: TAAFT cycle*
 - **2025-11-10**: Android version of [[perplexity-comet]] rolls out to power users — *source: TAAFT cycle*
 - **2025-11-07**: [[amazon]] issues legal notice disputing Comet classification as UI vs bot — *source: TAAFT cycle*
@@ -47,3 +50,6 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 - data/summaries/2025-11-07.json (TAAFT — Amazon legal notice; Comet rebuild)
 - data/summaries/2025-11-10.json (TAAFT cycle — Android Comet rollout)
 - data/summaries/2025-11-16.json (TAAFT — Samsung Vision AI Companion)
+- data/summaries/2025-11-23.json (Perplexity AI Browser launch — voice + shopping agent)
+- data/summaries/2025-11-28.json (Perplexity personalization features)
+- data/summaries/2025-11-29.json (Perplexity Shopping with virtual try-on)

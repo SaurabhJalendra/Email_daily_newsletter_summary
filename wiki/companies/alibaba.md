@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-16
-> **Last updated**: 2025-11-19
+> **Last updated**: 2025-12-02
 > **Status**: active
 > **Related**: [[qwen-3-vl]], [[openai]], [[deepseek]], [[ai-hardware]]
 
@@ -18,6 +18,11 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 
 ## Timeline
 
+- **2025-12-02**: Chinese open-AI economy share rises to 14.2% (DeepSeek + Alibaba/Qwen leading); true open-source share of overall AI models drops from 79.3% (2022) to 39% (2025) — *source: 2025-12-02 cycle*
+- **2025-11-29**: Qwen sigmoid-gated SDPA research — improves transformer scaling and stability with consistent performance gains and reduced activation spikes — *source: 2025-11-29 cycle*
+- **2025-11-29**: Quark S1 Smart Specs launched — Meta-Ray-Ban-Display-class features at lower price point — *source: 2025-11-29 cycle*
+- **2025-11-27**: Qwen app exceeds 10M downloads in first week; lifestyle/productivity service integration planned; Taobao integration narrative continues — *source: 2025-11-27 cycle*
+- **2025-11-23**: Qwen chatbot enhances shopping on Taobao to rival ChatGPT and Google — *source: 2025-11-23 cycle*
 - **2025-11-19**: Qwen Code upgraded with free web search, fuzzy matching, cleaner responses — *source: AlphaSignal cycle*
 - **2025-11-06**: Partially trained Qwen 3 reportedly solves top reasoning tests mid-training — *source: AlphaSignal cycle "Alibaba releases partially trained Qwen 3"*
 - **2025-11-04**: Qwen3-Max-Thinking reportedly hits 100% AIME 2025 — *source: TLDR AI "Qwen3-Max-Thinking"*
@@ -45,3 +50,7 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 - data/summaries/2025-11-04.json (TLDR AI — Qwen3-Max-Thinking)
 - data/summaries/2025-11-06.json (AlphaSignal — partially trained Qwen 3 solves reasoning tests)
 - data/summaries/2025-11-19.json (AlphaSignal — Qwen Code upgraded)
+- data/summaries/2025-11-23.json (Qwen chatbot Taobao shopping)
+- data/summaries/2025-11-27.json (Qwen app 10M downloads first week)
+- data/summaries/2025-11-29.json (Qwen sigmoid-gated SDPA; Quark S1 Smart Specs)
+- data/summaries/2025-12-02.json (China 14.2% open-AI economy)

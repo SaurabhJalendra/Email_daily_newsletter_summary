@@ -21,6 +21,9 @@ Gemini is [[google]]'s flagship multimodal AI model family, spanning consumer (G
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency, 70+ languages, multi-speaker dialogue, scene direction, Elo 1,211 on Artificial Analysis TTS leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-16**: Gemini Mac app ships — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT; Superhuman; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome Skills — save / reuse Gemini prompts across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
+- **2025-11-25**: Gemini 3 replaces Google Assistant in Android Auto — *source: 2025-11-25 cycle*
+- **2025-11-22**: [[nano-banana-pro]] (Gemini 3 Pro Image) ships as Gemini-family image model — 4K, 14 inputs, 5-character consistency, SynthID + C2PA — *source: AI Breakfast; Mindstream*
+- **2025-11-18**: [[gemini-3]] ships across Gemini app, Android AI Mode, Chrome, Search, AI Studio, Vertex AI; Gemini Agent for multi-step task execution; new generative interfaces — *source: TLDR AI; TAAFT; AI Breakfast; The Rundown AI*
 - **2025-10-20**: [[gemini-3]] confirmed by Google; Maps data added to Gemini API for location-aware responses — *source: AI Breakfast; AlphaSignal; TLDR AI*
 - **2025-10-15**: Gemini-powered real-time AI ships in Google Meet — *source: AI Breakfast*
 - **2025-10-13**: [[gemini-3]] leak coverage — *source: AI Breakfast*
@@ -56,4 +59,5 @@ Gemini is [[google]]'s flagship multimodal AI model family, spanning consumer (G
 - data/summaries/2025-10-13.json (AI Breakfast — Gemini 3 Leak?)
 - data/summaries/2025-10-15.json (AI Breakfast — Google Ships Real-Time AI in Meet)
 - data/summaries/2025-10-20.json (AI Breakfast — Gemini 3.0 Confirmed; AlphaSignal — Google adds Maps data to Gemini API; TLDR AI — Google Maps Gemini API)
+- data/summaries/2025-11-20.json (TLDR AI — Gemini 3; TAAFT — Gemini 3 Is Officially Here; AI Breakfast — Google Stakes AI leadership with Gemini 3; The Rundown AI — Demis Hassabis interview)
 - data/summaries/2026-04-16.json (AlphaSignal — Google Gemini 3.1 Flash TTS: multi-speaker + scene direction control; World of AI — GOOGLE: Gemini 3.1 TTS DROPS!; TAAFT — Gemini Gets TTS and Mac App; TLDR AI — Gemini 3.1 Flash TTS; The Code — Shoemaker company pivots to AI; Superhuman — Gemini gets a Mac app; The Rundown AI — Allbirds ditches sneakers; "Gemini on your desktop"; Mindstream — AI just made Chrome even more useful)

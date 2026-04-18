@@ -23,6 +23,15 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - **2026-04-16**: Always-on Routines added to [[claude-code]] — reusable configurations that auto-run on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: Anthropic in London challenging OpenAI in Europe — *source: Forward Future "Anthropic challenges OpenAI in London"*
 - **2026-04-16**: Reports of Anthropic in investor talks at $800B+ valuation — *source: Superhuman "Gemini gets a Mac app"*
+- **2025-12-04**: Anthropic reportedly preparing for one of the largest IPOs ever; acquires [[bun]] (fast open-source JavaScript toolkit) to enhance [[claude-code]]; Claude Code reportedly hits $1B ARR — *source: 2025-12-04 cycle*
+- **2025-12-03**: Anthropic AI agents successfully exploit blockchain smart contracts — extracted $4.6M from contracts deployed after March 2025; SCONE-bench security research — *source: 2025-12-03 cycle*
+- **2025-11-30**: [[claude-opus-4-5]] reframed as "most advanced model yet" for complex reasoning, world-class coding, long-running AI agents — *source: 2025-11-30 cycle*
+- **2025-11-29**: Claude update introduces context-limit-interruption prevention and a feature-driven workflow for consistency — *source: 2025-11-29 cycle*
+- **2025-11-28**: Dario Amodei sets Dec 17 testimony date (per cycle coverage); Warner Music / Suno copyright settlement (sector-adjacent) — *source: 2025-11-28 cycle*
+- **2025-11-26**: [[claude-opus-4-5]] released — 80.9% SWE-bench Verified (highest ever recorded), 88.9% T2 Retail, 98.2% T2 Telecom; major gains in graduate-level reasoning, visual reasoning, computer use, multilingual Q&A — *source: TLDR; The Rundown AI; AI Breakfast; FutureTools 2025-11-26*
+- **2025-11-24**: Anthropic discloses Chinese state-backed group used Claude AI to automate cyberattacks (see [[prompt-injection]]) — *source: 2025-11-24 cycle*
+- **2025-11-20**: Anthropic valuation reaches ~$350B as [[microsoft]] (up to $5B) and [[nvidia]] (up to $10B) commit a combined $15B; Anthropic commits $30B Azure compute purchase + up to 1 GW of [[nvidia]] Grace Blackwell / Vera Rubin capacity; Claude Sonnet 4.5 / Haiku 4.5 / Opus 4.1 enter public preview in Microsoft Foundry and M365 Copilot — *source: TLDR "Anthropic $350B"; TLDR AI "Anthropic $350B val"; TAAFT "Tech Titans Partnership"; The Rundown AI "$15B deal"; FutureTools "Microsoft Nvidia Anthropic"*
+- **2025-11-20**: Dario Amodei on 60 Minutes — predicts AI could replace half of entry-level white-collar jobs within five years; cure cancers; outperform humans in most cognitive tasks — *source: FutureTools "Bezos is BACK"*
 - **2025-11-19**: Open-source political-bias eval released — 1,350 paired prompts across 150 topics; structured outputs added to Claude API — *source: TAAFT cycle "Anthropic releases open-source evaluation method"*
 - **2025-11-15**: Anthropic plans AI data centers in Texas and New York by 2026 — *source: TAAFT cycle Nov 15*
 - **2025-11-15**: Claude exploited by hackers in ~30 automated cyberattacks stealing sensitive data from multiple targets — *source: TAAFT cycle "Claude exploited"*
@@ -88,4 +97,12 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - data/summaries/2025-11-14.json (AlphaSignal — $50B Fluidstack data-center deal)
 - data/summaries/2025-11-15.json (TAAFT — Texas/NY data-center plans; Claude exploited in 30 attacks)
 - data/summaries/2025-11-19.json (TAAFT cycle — political-bias evaluation; structured outputs in Claude API)
+- data/summaries/2025-11-20.json (TLDR — Anthropic $350B; TLDR AI — Anthropic $350B val; TAAFT — Tech Titans Partnership; The Rundown AI — Microsoft/Nvidia/Anthropic $15B deal; FutureTools — Bezos is BACK [Dario 60 Minutes])
+- data/summaries/2025-11-24.json (Anthropic — Chinese state-backed Claude cyber abuse)
+- data/summaries/2025-11-26.json (TLDR; The Rundown AI; AI Breakfast — Claude Opus 4.5 launch)
+- data/summaries/2025-11-28.json (Warner Music / Suno settlement; Karpathy notes)
+- data/summaries/2025-11-29.json (Claude context-limit + feature-driven workflow)
+- data/summaries/2025-11-30.json (Claude Opus 4.5 broad-rollout framing)
+- data/summaries/2025-12-03.json (Anthropic blockchain exploit research; SCONE-bench)
+- data/summaries/2025-12-04.json (Anthropic IPO preparation; Bun acquisition; Claude Code $1B ARR)
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; AlphaSignal — Anthropic Opus 4.7: 3.75MP vision; World of AI — ANTHROPIC: Opus 4.7 DROPS!; World of AI — ANTHROPIC DROPS Claude Design!; TLDR — Opus 4.7; TLDR AI — Claude Opus 4.7; Forward Future — Anthropic challenges OpenAI in London; AI Breakfast — Claude Opus 4.7 gains native design tools; Superhuman — Claude Opus 4.7 arrives; Superhuman — Gemini gets a Mac app; TAAFT — Claude Opus 4.7 Drops; TAAFT — Claude Just Became a Designer; Staying Ahead with AI — opus 4.7 tested; The Code — Anthropic does it again; Hello, World! — Claude Opus 4.7 and Kubernetes; AI Automation Society — Nate Herk Claude Design)

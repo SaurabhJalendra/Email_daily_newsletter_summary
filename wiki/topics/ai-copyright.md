@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-11-05
-> **Last updated**: 2025-11-17
+> **Last updated**: 2025-11-28
 > **Status**: active
 > **Related**: [[openai]], [[ai-regulation]], [[sora-2]], [[perplexity]], [[chatgpt]], [[ai-video-generation]]
 
@@ -18,6 +18,10 @@ AI copyright moved from background concern to concrete case law through November
 
 ## Timeline
 
+- **2025-11-28**: Warner Music settles its copyright case with AI music startup Suno via strategic partnership — second major Warner-AI-music thaw within a week (after Udio Nov 21–22) — *source: 2025-11-28 cycle*
+- **2025-11-23**: Klay Vision becomes the first AI music company to sign licensing deals with major record labels for Large Music Model training — *source: TAAFT "900 Days to Decide AI's Future"*
+- **2025-11-22**: Warner Music signs licensing deal with AI music startup Udio to power a new song-creation platform — Warner had earlier dropped its lawsuit against Udio — *source: Mindstream "That big EU AI regulation? It's not working"; The Rundown AI cycle*
+- **2025-11-21**: Warner Music Group drops its lawsuit against AI music platform Udio — clears path for the Nov 22 licensing deal — *source: The Rundown AI "Codex-Max codes for 24 hours straight"*
 - **2025-11-17**: German court rules ChatGPT violated copyright by training on song lyrics (echoes Munich ruling) — *source: TAAFT cycle "German Court Ruling on ChatGPT"*
 - **2025-11-13**: OpenAI loses Munich copyright case — court rules ChatGPT illegally trained on songs — potential precedent for AI companies using copyrighted material — *source: AlphaSignal "OpenAI loses Munich copyright case"*
 - **2025-11-12**: Wikipedia seeks new deal with AI companies — asks for proper crediting and adoption of paid Wikimedia Enterprise — *source: AlphaSignal*
@@ -46,3 +50,7 @@ AI copyright moved from background concern to concrete case law through November
 - data/summaries/2025-11-12.json (AlphaSignal — Wikipedia seeks new deal)
 - data/summaries/2025-11-13.json (AlphaSignal — OpenAI loses Munich copyright case)
 - data/summaries/2025-11-17.json (TAAFT cycle — German court ruling)
+- data/summaries/2025-11-21.json (The Rundown AI — Warner drops Udio suit)
+- data/summaries/2025-11-22.json (Mindstream — Warner-Udio licensing deal)
+- data/summaries/2025-11-23.json (TAAFT — Klay Vision licensing major labels)
+- data/summaries/2025-11-28.json (Warner Music–Suno settlement / strategic partnership)

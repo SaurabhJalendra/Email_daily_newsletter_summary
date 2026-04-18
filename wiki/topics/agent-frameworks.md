@@ -24,6 +24,11 @@ type: topic
 - **2026-04-16**: Cloudflare launches Agent Memory — managed service that extracts facts / events / instructions from agent conversations and retrieves on demand (part of Cloudflare Agents Week) — *source: TAAFT "Claude Just Became a Designer"; TLDR "Opus 4.7, Cloudflare Agents Week"*
 - **2026-04-16**: Ollama 0.21 ships with Hermes Agent (Nous Research) integration for local self-improving agents — *source: Ollama Newsletter*
 - **2026-04-16**: [[claude-design]] ships as design-stage agent with hand-off to [[claude-code]] — *source: TAAFT; World of AI*
+- **2025-11-22**: xAI Grok 4.1 Fast API + Agent Tools API — autonomous web/X search, document retrieval, Python execution, MCP-server integration, parallel tool execution — *source: AI Breakfast*
+- **2025-11-21**: [[gpt-5-1-codex-max]] released — compaction across context windows enables 24+ hour development sessions; 77.9% SWE-bench Verified, 30% fewer thinking tokens; default in Codex CLI / IDE — *source: TLDR AI; The Rundown AI; AI Breakfast*
+- **2025-11-21**: Sentry's Seer AI code reviewer — uses production-error data and commit history to predict regressions; auto-generates unit tests for PRs — *source: TLDR AI*
+- **2025-11-20**: [[antigravity]] launches — Google's free, agent-first VS Code-forked IDE for [[gemini-3]] with multi-agent execution and Artifacts (task lists, screenshots, browser recordings) — *source: TLDR AI "Anthropic $350B / Antigravity"; The Rundown AI; TAAFT*
+- **2025-11-20**: Manus releases a browser extension that automates workflows across CRMs and logged-in platforms — *source: FutureTools "Bezos is BACK"*
 - **2025-11-16**: AgentEvolver research — self-improving loop where AI agents generate tasks, judge performance, and evolve autonomously — *source: TAAFT cycle "AgentEvolver"*
 - **2025-11-13**: Scale's Agentex — enterprise-grade hosting/orchestration framework for deploying, managing, scaling AI agents — *source: AlphaSignal cycle*
 - **2025-11-13**: Replit launches AI Integrations — instant access to 300+ AI models from OpenAI, Anthropic, Meta, Google — *source: AlphaSignal "Replit AI Integrations"*
@@ -79,4 +84,7 @@ type: topic
 - data/summaries/2025-11-12.json (TAAFT cycle — Grok Code Remote)
 - data/summaries/2025-11-13.json (AlphaSignal — Replit AI Integrations; Scale Agentex)
 - data/summaries/2025-11-16.json (TAAFT cycle — AgentEvolver)
+- data/summaries/2025-11-20.json (TLDR AI — Antigravity; The Rundown AI; TAAFT — Gemini 3 Is Officially Here; FutureTools — Manus extension)
+- data/summaries/2025-11-21.json (TLDR AI — GPT-5.1-Codex-Max / Sentry Seer / Grok 4.1 Agent Tools API; The Rundown AI — Codex-Max codes for 24 hours)
+- data/summaries/2025-11-22.json (AI Breakfast — Nano Banana Pro Sets New Standard [Grok 4.1 Fast API / Agent Tools API])
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; The Rundown AI — OpenAI's superapp hiding inside Codex; TLDR AI — OpenAI Agents SDK; TAAFT — Claude Just Became a Designer [Cloudflare Agent Memory]; TLDR — Opus 4.7, Cloudflare Agents Week; World of AI — ANTHROPIC DROPS Claude Design!; Ollama Newsletter — 0.21 with Hermes Agent)
