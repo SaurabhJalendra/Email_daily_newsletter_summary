@@ -1,0 +1,39 @@
+---
+name: Thinking Machines
+description: Thinking Machines — Mira Murati's AI lab; launches Tinker API for LLM fine-tuning
+type: company
+---
+
+# Thinking Machines
+
+> **Type**: company
+> **First mentioned**: 2025-10-02
+> **Last updated**: 2025-10-05
+> **Status**: active
+> **Related**: [[tinker-api]], [[openai]], [[ai-funding-rounds]]
+
+## Summary
+
+Thinking Machines is the AI lab founded by former [[openai]] CTO Mira Murati. In early October 2025 it shipped its first public product — [[tinker-api]], an LLM fine-tuning platform — marking the lab's transition from stealth to product company.
+
+## Timeline
+
+- **2025-10-05**: Continued coverage of Tinker launch — *source: The Rundown AI "Ex-OpenAI CTO Just Launched a New AI Platform"*
+- **2025-10-03**: Ex-OpenAI CTO's lab launches first product for LLM fine-tuning — *source: AlphaSignal*
+- **2025-10-02**: Tinker API announced/covered — *source: TLDR AI "Thinking Machines' Tinker API"*
+
+## Key Facts
+
+- Founder/CEO: Mira Murati (ex-OpenAI CTO)
+- First product: [[tinker-api]] (LLM fine-tuning, Oct 2025)
+
+## Open Questions
+
+- Fine-tuning differentiation vs OpenAI, Together, Fireworks, etc.?
+- Which base models are supported in Tinker at launch?
+
+## Sources
+
+- data/summaries/2025-10-02.json (TLDR AI — Thinking Machines' Tinker API)
+- data/summaries/2025-10-03.json (AlphaSignal — Ex-OpenAI CTO's lab launches first product for LLM fine-tuning)
+- data/summaries/2025-10-05.json (The Rundown AI — Ex-OpenAI CTO Just Launched a New AI Platform)
