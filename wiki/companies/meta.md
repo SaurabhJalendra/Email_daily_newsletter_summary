@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
 > **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[google]], [[alibaba]], [[world-models]], [[world-labs]], [[ai-hardware]]
 
@@ -19,6 +19,9 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 ## Timeline
 
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
+- **2026-02-19**: Multi-year [[nvidia]] AI chip deal — millions of GPUs and CPUs for Meta's AI infrastructure buildout — *source: 2026-02-19 cycle*
+- **2026-02-09**: Reality Labs layoffs continue — strategic shift from AR/VR back toward AI; YouTube parallel "AI slop" channel removal — *source: 2026-02-09 cycle*
+- **2026-02-06**: "Avocado" next-gen base model framed as Meta's most capable pre-trained base; promises efficiency wins over top open-source baselines — *source: 2026-02-06 cycle*
 - **2026-04-16**: Introduces [[muse-spark]] — natively multimodal reasoning with tool use and multi-agent orchestration; framed as marking Meta's pivot from open-weights releases — *source: The Batch "Meta Pivots From Open Weights"*
 - **2026-01-16**: Reality Labs 10% layoff; multiple VR game studios shut down — *source: 2026-01-16 cycle*
 - **2026-01-15**: Meta unveils plan to build "tens of gigawatts" of new AI capacity this decade, expanding to "hundreds of gigawatts" over time — framed as no-bottleneck infrastructure bet — *source: 2026-01-15 cycle*

@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-02-01
-> **Last updated**: 2026-02-04
+> **Last updated**: 2026-02-09
 > **Status**: limited early access (Google AI Ultra subscribers, US 18+)
 > **Related**: [[google]], [[gemini]], [[world-models]], [[marble]], [[veo-3]]
 
@@ -18,6 +18,7 @@ Project Genie is a Google DeepMind prototype that turns text and image prompts i
 
 ## Timeline
 
+- **2026-02-09**: Project Genie continues coverage as world-models category headliner alongside Gemini 3 Deep Think — *source: 2026-02-09 cycle*
 - **2026-02-04**: Framed as a headline week-recap item among "AI leaving the ChatBox" trends — alongside [[claude-cowork]], [[moltbot]], [[kimi-k2-5]], and Chrome/Gemini browser agents — signaling the emergence of interactive world models as a product category — *source: World of AI "AI Is Leaving the ChatBox: Weekly Recap"*
 - **2026-02-01**: Project Genie launches via Google AI Ultra — powered by DeepMind's Genie 3 world model; users generate, explore, and remix real-time interactive worlds via text or image prompts; worlds rendered frame-by-frame respond dynamically to user action; initially US-only, 18+ subscribers — *source: World of AI "Google DROPPED PROJECT GENIE"*
 

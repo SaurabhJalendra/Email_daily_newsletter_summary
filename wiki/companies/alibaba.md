@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-16
-> **Last updated**: 2025-12-16 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
-> **Related**: [[qwen-3-vl]], [[openai]], [[meta]], [[deepseek]], [[ai-hardware]]
+> **Related**: [[qwen-3-vl]], [[qwen-image]], [[qwen-image-2]], [[qwen-3-5]], [[qwen3-coder-next]], [[openai]], [[meta]], [[deepseek]], [[ai-hardware]]
 
 ## Summary
 
@@ -18,6 +18,10 @@ Alibaba is the Chinese technology company behind the open-weights Qwen model fam
 
 ## Timeline
 
+- **2026-02-18**: [[qwen-3-5]] released — Qwen3.5-397B-A17B sparse-MoE with hybrid linear-attention architecture (up to 19× faster decoding than Qwen3-Max); native vision-language; 201 languages/dialects; near-frontier performance at lower cost — *source: 2026-02-18 cycle (TLDR; AlphaSignal; The Rundown AI)*
+- **2026-02-17**: RynnBrain open-source robotics foundation model released — *source: 2026-02-17 cycle (Mindstream)*
+- **2026-02-12**: [[qwen-image-2]] released — merges image generation and editing into a single model; #2 on AI Arena image-editing Elo, #3 on text-to-image — *source: 2026-02-12 cycle*
+- **2026-02-05**: [[qwen3-coder-next]] released — open-weights 80B-parameter MoE coding agent trained on 800K executable coding tasks — *source: 2026-02-05 cycle*
 - **2026-01-03**: [[qwen-image]] ranked strongest open-source image generator on AI Arena after 10,000+ blind evaluations — "open-source image king" framing — *source: 2026-01-03 cycle*
 - **2026-01-02**: Qwen3 highlighted alongside [[deepseek]]-R1 as China AI-model wave rivaling Western frontier — *source: 2026-01-02 cycle*
 - **2025-12-17**: "China's ChatGPT" coverage cycles spotlight Alibaba/Qwen continued momentum — *source: TAAFT cycle*

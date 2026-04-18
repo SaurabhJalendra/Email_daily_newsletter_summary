@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-02-04 (backfill 2026-01-20..2026-02-04)
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
-> **Related**: [[meta]], [[google]], [[gemini]], [[ai-hardware]], [[apple-m5]]
+> **Related**: [[meta]], [[google]], [[gemini]], [[anthropic]], [[claude-code]], [[openai]], [[ai-hardware]], [[apple-m5]]
 
 ## Summary
 
@@ -18,6 +18,12 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2026-02-19**: Apple goes all-in on AI wearables — three camera-equipped devices (smart glasses, pendant, new AirPods); designed to give Siri real-time visual awareness via the iPhone — *source: 2026-02-19 cycle*
+- **2026-02-13**: Siri revamp delayed again — major update postponed past prior expectations; underscores difficulty of shipping reliable conversational AI at scale — *source: 2026-02-13 cycle*
+- **2026-02-11**: New product wave reportedly imminent — iPhone 17e (A19 chip), new Siri, MacBook for Enterprise (budget) — *source: 2026-02-11 cycle*
+- **2026-02-08**: AirTag 2 ships with enhanced tracking; Xcode 26.3 also lands as a packaged update — *source: 2026-02-08 cycle*
+- **2026-02-07**: Xcode 26.3 brings native Codex (OpenAI) support alongside Claude Agent SDK — agentic coding inside the IDE — *source: 2026-02-07 cycle*
+- **2026-02-05**: Xcode 26.3 ships native [[claude-code]] Agent SDK integration — autonomous coding agents that plan work, edit projects, run builds, and visually verify results inside Xcode — *source: 2026-02-05 cycle (TAAFT; AlphaSignal; The Rundown AI)*
 - **2026-01-27**: Apple's Gemini-powered Siri set for February announcement — internal Campos chatbot / conversational Siri rival to ChatGPT; full rollout targeted for WWDC June 2026; considered OpenAI and Anthropic but chose Google for improved tech + reasonable financial structure — *source: TLDR "Inside Apple AI"; TLDR AI "Apple's Gemini Siri"*
 - **2026-01-25**: Apple Q.ai $2B acquisition reported; AI wearable pin targeted for 2027 — *source: 2026-01-25 cycle*
 - **2026-01-20**: Apple Campos Siri chatbot details circulate — positioning as full ChatGPT competitor — *source: 2026-01-20 cycle*

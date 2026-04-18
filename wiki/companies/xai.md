@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19; 2026-01-20..2026-02-04)
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
-> **Related**: [[nvidia]], [[grok-4-1]], [[grokipedia]], [[ai-hardware]], [[ai-funding-rounds]]
+> **Related**: [[nvidia]], [[grok-4-1]], [[grok-4-20]], [[grokipedia]], [[grok-imagine]], [[ai-hardware]], [[ai-funding-rounds]]
 
 ## Summary
 
@@ -20,6 +20,10 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 - **2026-04-16**: Terafab reaches out to chipmaking suppliers for price quotes and delivery timelines, requesting speedy estimates with minimal product disclosure — *source: TLDR "Inside Elon's Terafab"*
 - **2026-04-16**: xAI starts repurposing compute stockpile for external customers — *source: Forward Future "Anthropic challenges OpenAI in London"*
+- **2026-02-19**: [[grok-4-20]] launches in public beta — new agent workflow with four agents working in parallel for research/task handling; Grok Build adds Parallel Agents and Arena Mode (full-IDE positioning) — *source: 2026-02-19 cycle (multiple)*
+- **2026-02-18**: SpaceX and xAI compete for Pentagon contract on voice-controlled autonomous drone-swarm tech — *source: 2026-02-18 cycle*
+- **2026-02-13**: First all-hands since SpaceX merger — Musk outlines moon-based factories and space data centers as xAI's next phase — *source: 2026-02-13 cycle*
+- **2026-02-12**: Multiple co-founders depart xAI — raises questions about post-merger trajectory; SpaceX Starship V3 prepping first test flight in same cycle — *source: 2026-02-12 cycle*
 - **2026-02-04**: SpaceX acquires xAI in $1.25T stock-swap mega-merger — xAI valued ~$250B; shares convert at 0.1433 SpaceX per xAI; xAI operates as division within SpaceX; Musk plans space-based AI data centers powered by Starlink solar; pushes SpaceX to $1T+ valuation ahead of planned June IPO — *source: TAAFT "$1T Empire"; TLDR; The Tech Buzz "$1.25T"; The Rundown AI "$1.25T super-entity"; Superhuman; TLDR AI "xAI joins SpaceX"*
 - **2026-02-04**: [[grok-imagine]] 1.0 released — enhanced video and audio generation capabilities — *source: AlphaSignal "OpenAI data agent"; The Code by Superhuman*
 - **2026-01-25**: Colossus 2 gigawatt-scale data center reports progress toward operational status — *source: 2026-01-25 cycle*

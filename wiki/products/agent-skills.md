@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-12-20
-> **Last updated**: 2025-12-20
+> **Last updated**: 2026-02-19
 > **Status**: active
-> **Related**: [[anthropic]], [[claude-skills]], [[claude-code]], [[claude-for-excel]], [[agent-frameworks]], [[model-context-protocol]], [[agentic-ai-foundation]]
+> **Related**: [[anthropic]], [[openai]], [[claude-skills]], [[claude-code]], [[claude-for-excel]], [[chatgpt]], [[agent-frameworks]], [[model-context-protocol]], [[agentic-ai-foundation]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Agent Skills is an [[anthropic]]-led open standard for packaging reusable agent 
 
 ## Timeline
 
+- **2026-02-09**: [[openai]] launches its own ChatGPT Skills system — packaged, reusable agent capabilities inside ChatGPT, with explicit framing as a competitor to Anthropic Agent Skills — *source: 2026-02-09 cycle*
 - **2025-12-20**: Agent Skills publishes as open standard for reusable agent capabilities (cross-lab usable) — *source: 2025-12-20 cycle*
 
 ## Key Facts

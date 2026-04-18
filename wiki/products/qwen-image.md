@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-01-03
-> **Last updated**: 2026-01-03
-> **Status**: active
-> **Related**: [[alibaba]], [[qwen-3-vl]], [[flux-2]], [[nano-banana-pro]]
+> **Last updated**: 2026-02-19
+> **Status**: superseded by [[qwen-image-2]] (2026-02-12)
+> **Related**: [[alibaba]], [[qwen-3-vl]], [[qwen-image-2]], [[flux-2]], [[nano-banana-pro]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Qwen Image is [[alibaba]]'s open-source image-generation model. In early January
 
 ## Timeline
 
+- **2026-02-12**: Succeeded by [[qwen-image-2]] — unified gen+editing model, replaces this version as Alibaba's frontier image surface — *source: 2026-02-12 cycle*
 - **2026-01-03**: Qwen Image ranked strongest open-source image generator after 10,000+ blind evaluations on AI Arena — *source: 2026-01-03 cycle*
 
 ## Key Facts

@@ -24,6 +24,10 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - **2026-04-16**: [[nvidia-cosmos]] 2.5 GA; Cosmos 3 pre-announced for summer 2026 — *source: NVIDIA Newsletter*
 - **2026-04-16**: [[xai]] Terafab team sources chipmaking gear; xAI repurposes compute for external rental — *source: TLDR; Forward Future*
 - **2026-04-16**: Allbirds rebrands as "NewBird AI" with a $50M financing deal and pivots from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code; "Gemini on your desktop"*
+- **2026-02-17**: Global RAM shortage cited as a binding constraint on hyperscaler AI buildouts — *source: 2026-02-17 cycle*
+- **2026-02-13**: [[meta]] x [[nvidia]] mega-deal — multi-year capacity commitment underwriting Reality Labs / inference fleet — *source: 2026-02-13 cycle*
+- **2026-02-09**: [[gpt-5-3-codex-spark]] runs on [[cerebras]] hardware — 1000+ tokens/sec for coding agents — *source: 2026-02-09 cycle*
+- **2026-02-06**: [[nvidia]] pushes hard into discrete-gaming-GPU mindshare while [[intel]] frames GPU re-entry as strategic; [[meta]] internal Avocado chip referenced for inference — *source: 2026-02-06 cycle*
 - **2026-01-17**: [[nvidia]] H200 export block to China reasserted — export-control tightening continues — *source: 2026-01-17 cycle*
 - **2026-01-15**: [[nvidia]] + Eli Lilly $1B AI drug-discovery lab — compute anchored to biomedical R&D — *source: 2026-01-15 cycle*
 - **2026-01-13**: [[meta]] strikes 6.6 GW nuclear power agreement to back long-term AI-compute expansion — *source: 2026-01-13 cycle*

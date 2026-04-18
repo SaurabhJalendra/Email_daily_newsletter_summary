@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-11-18
+> **Last updated**: 2026-02-19
 > **Status**: active
-> **Related**: [[sora-2]], [[veo-3]], [[marble]], [[world-models]], [[openai]], [[google]], [[world-labs]], [[ai-regulation]], [[ai-copyright]]
+> **Related**: [[sora-2]], [[veo-3]], [[seedance-2]], [[marble]], [[world-models]], [[openai]], [[google]], [[bytedance]], [[world-labs]], [[ai-regulation]], [[ai-copyright]]
 
 ## Summary
 
@@ -18,6 +18,11 @@ AI video generation in October 2025 was dominated initially by [[sora-2]] — [[
 
 ## Timeline
 
+- **2026-02-19**: [[disney]] threatens legal action against [[bytedance]] over [[seedance-2]] — first major Western IP friction for the model — *source: 2026-02-19 cycle*
+- **2026-02-17**: [[seedance-2]] family (Seed 2.0) extended — coherent storyline, realistic voice-overs, complex character actions — *source: 2026-02-17 cycle*
+- **2026-02-14**: [[seedance-2]] "anchor" system enables sophisticated multi-shot consistency — *source: 2026-02-14 cycle*
+- **2026-02-11**: [[seedance-2]] details: 2K resolution, 15s outputs, native audio; Seedream 5.0 image companion previewed — *source: 2026-02-11 cycle*
+- **2026-02-10**: [[bytedance]] launches [[seedance-2]] — multimodal video model on Jimeng — *source: 2026-02-10 cycle*
 - **2025-11-18**: "AI voice taking over tech interfaces" + Depth Anything 3 (single/multi-view depth) — broader spatial-video pipeline — *source: TAAFT cycle*
 - **2025-11-14**: [[world-labs]] launches [[marble]] — world-model 3D environments from text/images/video; adjacent to video-generation category — *source: AlphaSignal; The Rundown AI*
 - **2025-11-10**: Higgsfield Recast — AI video with full-body replacement, pro video generation, background transformation — *source: TAAFT cycle*

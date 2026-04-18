@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-11-06
-> **Last updated**: 2025-11-16
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
-> **Related**: [[openai]], [[agent-frameworks]]
+> **Related**: [[openai]], [[agent-frameworks]], [[ai-funding-rounds]]
 
 ## Summary
 
@@ -18,6 +18,9 @@ ElevenLabs is the voice-AI platform widely used for TTS, voice cloning, and voic
 
 ## Timeline
 
+- **2026-02-13**: Expressive Mode — real-time tone shifts and emotional range for voice agents (more human-like conversation) — *source: 2026-02-13 cycle*
+- **2026-02-11**: Scribe v2 launches — long-form transcription with two variants (Batch + Realtime); language switching, filler-word handling, late-recording accuracy — *source: 2026-02-11 cycle*
+- **2026-02-07**: Closes $500M from Sequoia Capital at $11B valuation; introduces Collaborative Notes (AI-written context + community feedback/ratings) — *source: 2026-02-07 cycle*
 - **2025-11-16**: ElevenLabs Music — AI-powered custom music tracks and sound effects — *source: TAAFT cycle "Start v1"*
 - **2025-11-14**: Iconic Voice Marketplace lets brands license celebrity voices — permissioning and compensation included — *source: The Rundown AI "AI marketplace for famous voices"*
 - **2025-11-13**: Iconic Voice Marketplace debuts with 28 licensed celebrity options — *source: AlphaSignal "ElevenLabs debuts Iconic Voice Marketplace"*

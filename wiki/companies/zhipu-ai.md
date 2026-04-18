@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-24
-> **Last updated**: 2025-12-24
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
-> **Related**: [[glm-4-7]], [[deepseek]], [[alibaba]], [[moonshot-ai]]
+> **Related**: [[glm-4-7]], [[glm-5]], [[deepseek]], [[alibaba]], [[moonshot-ai]]
 
 ## Summary
 
@@ -18,6 +18,8 @@ Zhipu AI is one of the principal Chinese frontier labs, developer of the open-we
 
 ## Timeline
 
+- **2026-02-19**: [[glm-5]] technical report published — sparse attention + asynchronous RL architecture for coding-focused foundation models — *source: 2026-02-19 cycle*
+- **2026-02-13**: [[glm-5]] released — 754B-parameter MIT-licensed model on Hugging Face/ModelScope; designed for complex systems engineering and long-horizon agentic tasks; gives proprietary rivals (Google/OpenAI/Anthropic) a run on multiple benchmarks — *source: 2026-02-13 cycle*
 - **2025-12-24**: [[glm-4-7]] ranks #1 open model on WebDev and #6 overall — surpasses multiple GPT-5 variants and other closed models — *source: 2025-12-24 cycle*
 
 ## Key Facts

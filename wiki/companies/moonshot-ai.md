@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-11-07
-> **Last updated**: 2026-01-27
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
-> **Related**: [[kimi-k2-thinking]], [[baidu]], [[alibaba]], [[deepseek]]
+> **Related**: [[kimi-k2-thinking]], [[kimi-k2-5]], [[openclaw]], [[baidu]], [[alibaba]], [[deepseek]]
 
 ## Summary
 
@@ -18,6 +18,8 @@ Moonshot AI (the company behind the "Kimi" assistant) is a Chinese frontier-lab 
 
 ## Timeline
 
+- **2026-02-17**: Launches Kimi Claw — brings [[openclaw]] directly into the browser; access to 5,000+ community-built skills via ClawHub; 40GB cloud storage; "Bring Your Own Claw" option; Moonshot also rolls out persistent OpenClaw assistant integrated into Kimi with cloud deployment — *source: 2026-02-17 cycle (The Code; AlphaSignal)*
+- **2026-02-06**: Kimi AI slides — text-prompt-to-stunning-slides positioning continues — *source: 2026-02-06 cycle*
 - **2026-02-04**: [[kimi-k2-5]] framing continues — advances toward "execution" capabilities with multimodal and agentic systems — *source: World of AI "AI Is Leaving the ChatBox"*
 - **2026-01-30**: [[kimi-k2-5]] details circulate — 1T MoE + 400M MoonViT, Agent Swarm of 100 sub-agents — *source: 2026-01-30 cycle*
 - **2026-01-27**: Moonshot AI valued at $4.8B (up from $4.3B) following latest funding round with Alibaba backing — *source: SignalPulse "Wikipedia paid AI deals"*

@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-13
-> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-02-04)
+> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-02-19)
 > **Status**: active
 > **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code-web]], [[claude-cowork]], [[agent-frameworks]], [[jules]], [[cursor]]
 
@@ -21,6 +21,8 @@ Claude Code is [[anthropic]]'s official command-line coding agent, built around 
 - **2026-04-16**: Always-on Routines launched — reusable prompt/repo/connector bundles running on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: [[claude-design]] ships with direct hand-off into Claude Code for build stage — *source: TAAFT "Claude Just Became a Designer"; World of AI "ANTHROPIC DROPS Claude Design!"*
 - **2026-04-16**: Nate Herk demos a fully autonomous Claude Code 4.7 trading bot that researches, trades on Alpaca, manages stops, and self-reports on cron — illustrative of agentic Claude Code workflows in the community — *source: AI Automation Society*
+- **2026-02-19**: Claude Code referenced as design-to-implementation downstream surface in Figma's Code-to-Canvas integration — *source: 2026-02-19 cycle*
+- **2026-02-09**: Anthropic Claude SDK lands in Apple Xcode 26.3 alongside [[openai-codex]] — first-party Mac IDE integration for Claude — *source: 2026-02-09 cycle*
 - **2026-02-04**: Creator of Claude Code shares 10 power-user hacks; community comparisons with [[codex-app]] highlight diverging agent-UX approaches — *source: The Code by Superhuman "Chinese lab dethroned DeepSeek"*
 - **2026-02-01**: Nate Herk video "I Tested Clawdbot Against Claude Code: What You Need to Know" circulates; community comparisons — *source: AI Automation Society Weekly Digest*
 - **2026-01-27**: Anthropic Security Center for Claude Code announced — simplifies security workflows for developers amid "Claude CoWork effect" traffic surge — *source: AI Breakfast "Clawdbot"*

@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-17
-> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-01-19)
+> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-02-19)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[sora-2]], [[character-ai]], [[google]], [[ai-video-generation]], [[ai-copyright]], [[prompt-injection]]
 
@@ -19,6 +19,10 @@ External pressure on AI labs has widened along multiple independent axes. In mid
 ## Timeline
 
 - **2026-04-16**: US federal court rules in *United States v. Heppner* that AI chatbot conversations (incl. Claude) are not protected by attorney-client privilege — the chatbot is not a lawyer and provider privacy policies permit collection of inputs/outputs — *source: Uncovering AI "Your AI chats can be used against you"*
+- **2026-02-19**: [[disney]] threatens legal action against [[bytedance]] over [[seedance-2]] — apparent character/style reproductions trigger first major Western IP friction for the model — *source: 2026-02-19 cycle*
+- **2026-02-18**: [[chatgpt]] Lockdown Mode launches — restricted high-security session mode for sensitive enterprise/government workflows; framed as safer-default response to data-leakage concerns — *source: 2026-02-18 cycle*
+- **2026-02-12**: Pentagon flags supply-chain risk in [[anthropic]] Claude — internal review surfaces concerns about Chinese-component dependence — *source: 2026-02-12 cycle*
+- **2026-02-05**: Mozilla adds Firefox AI toggle that exposes provider choice (incl. opt-out) — UA-level user control as a regulatory-friendly default — *source: 2026-02-05 cycle*
 - **2026-01-13**: Indonesia and Malaysia temporarily block Grok access after non-consensual deepfake generation — *source: 2026-01-13 cycle*
 - **2026-01-13**: Musk–OpenAI trial proceeds; Musk's anti-conversion claims against OpenAI's for-profit shift head to court — *source: 2026-01-13 cycle*
 - **2026-01-12**: Senate advances Defiance Act — federal civil remedies for non-consensual AI deepfakes — *source: 2026-01-12 cycle*

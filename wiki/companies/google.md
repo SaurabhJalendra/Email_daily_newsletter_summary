@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-02-04 (backfill 2026-01-20..2026-02-04)
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
-> **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[translategemma]], [[medgemma]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[universal-commerce-protocol]], [[prompt-injection]], [[computer-use]], [[ai-hardware]], [[ai-healthcare]]
+> **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[translategemma]], [[medgemma]], [[project-genie]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[universal-commerce-protocol]], [[model-context-protocol]], [[prompt-injection]], [[computer-use]], [[ai-hardware]], [[ai-healthcare]]
 
 ## Summary
 
@@ -21,6 +21,16 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-16**: Gemini Mac app launches — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT "Gemini Gets TTS and Mac App"; Superhuman "Gemini gets a Mac app"; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome adds "Skills" — save Gemini prompts to reuse across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
+- **2026-02-19**: Meta-NVIDIA mega chip deal eclipses Google chip news; DeepMind formal framework for structured AI task delegation in multi-agent networks circulates — *source: 2026-02-19 cycle (AlphaSignal)*
+- **2026-02-17**: WebMCP unveiled — Google's web standard to make websites agent-ready (structured-database surface for AI agents); brings [[model-context-protocol]] thinking to the web — *source: 2026-02-17 cycle (AI Breakfast; The Code; AlphaSignal)*
+- **2026-02-14**: [[gemini-3]] Deep Think upgrade — gold-medal results on 2025 IPhO and IChO; significant ARC-AGI-2 jump; targets open-ended scientific/engineering problems with messy data — *source: 2026-02-14 cycle (multiple)*
+- **2026-02-13**: Gemini 3 GA expectations continue to circulate; Google rolls additional Gemini 3 surfaces — *source: 2026-02-13 cycle*
+- **2026-02-11**: Gemini 3 GA launch reportedly imminent (alongside OpenAI GPT-5.3 leak) — *source: 2026-02-11 cycle*
+- **2026-02-09**: [[project-genie]] — text-to-world Genie model for interactive 2D/3D environments; exclusive to Google AI Ultra subscribers in the US — *source: 2026-02-09 cycle*
+- **2026-02-08**: Gemini Live launches — real-time chat that lets users talk, share screen, work problems out on the spot; GoogleSQL rebrand of open-source ZetaSQL unifies SQL across Google's cloud services — *source: 2026-02-08 cycle*
+- **2026-02-07**: Alphabet earnings — services division at $350B annual revenue, Cloud at $70B, Gemini framed as core growth engine — *source: 2026-02-07 cycle*
+- **2026-02-06**: Gemini app crosses 750M monthly active users — *source: 2026-02-06 cycle*
+- **2026-02-05**: Mozilla Firefox adds AI off-toggle (counter-context); Gemini coverage continues — *source: 2026-02-05 cycle*
 - **2026-02-04**: [[universal-commerce-protocol]] formally announced (Jan 11 2026 retrospective) — co-developed with Shopify to solve N×N agent-commerce integration problem; standardizes checkout, discounts, loyalty across AI platforms; Gemini conversation import from other platforms launched — *source: BUILD AI commerce developer tools; TLDR AI "AI job market"*
 - **2026-02-04**: Former Google engineer convicted of economic espionage / theft of AI trade secrets — *source: TAAFT "AI Agents Built Their Own Society"*
 - **2026-02-01**: [[project-genie]] launches — experimental prototype generating interactive AI worlds via text/image prompts; powered by DeepMind's Genie 3 world model; real-time frame generation responding to user input; Google AI Ultra subscribers in US (18+) — *source: World of AI "Google DROPPED PROJECT GENIE"; World of AI "AI Is Leaving the ChatBox"*

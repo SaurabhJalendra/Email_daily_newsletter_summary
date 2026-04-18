@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-27
-> **Last updated**: 2025-12-20 (backfill 2025-12-20..2026-01-03)
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
-> **Related**: [[mistral-studio]], [[mistral-3]], [[openai]], [[anthropic]], [[enterprise-ai]]
+> **Related**: [[mistral-studio]], [[mistral-3]], [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Mistral AI is the Paris-based frontier lab known for its open-weight model line 
 
 ## Timeline
 
+- **2026-02-19**: Acquires Koyeb — first Mistral acquisition; serverless deployment startup positioned as core component of Mistral Compute — *source: 2026-02-19 cycle*
 - **2025-12-20**: [[mistral-ocr-3]] released — faster, cheaper, higher-fidelity OCR for enterprise document pipelines; 97% accuracy on real-world documents — *source: AlphaSignal 2025-12-20 cycle*
 - **2025-12-11**: Devstral 2 surfaces — successor to Mistral's coding model — *source: TLDR AI "OpenAI Image-2 / Devstral2 / no data generating distribution"*
 - **2025-12-04**: [[mistral-3]] open-weight lineup launches — flagship Large 3 (41B active / 675B total parameters MoE) — *source: 2025-12-04 cycle*

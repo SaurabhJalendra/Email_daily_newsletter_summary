@@ -1,6 +1,6 @@
 ---
 name: OpenAI
-description: OpenAI — ChatGPT/Sora maker; GPT-5.1, Codex superapp, GPT-Rosalind, $1T IPO prep, $38B AWS deal, Atlas browser
+description: OpenAI — ChatGPT/Sora maker; Codex superapp, GPT-5.3 Codex, Frontier, OpenClaw acquihire, Lockdown Mode
 type: company
 ---
 
@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-02-04 (backfill 2026-01-20..2026-02-04)
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
-> **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[openai-for-healthcare]], [[chatgpt-translate]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[gpt-5-2]], [[gpt-5-2-codex]], [[gpt-image-1-5]], [[merge-labs]], [[anthropic]], [[google]], [[amazon]], [[disney]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]], [[agentic-ai-foundation]]
+> **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[openai-for-healthcare]], [[chatgpt-translate]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[gpt-5-2]], [[gpt-5-2-codex]], [[gpt-5-3-codex]], [[gpt-5-3-codex-spark]], [[gpt-image-1-5]], [[openai-frontier]], [[openclaw]], [[merge-labs]], [[anthropic]], [[google]], [[amazon]], [[disney]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]], [[agentic-ai-foundation]]
 
 ## Summary
 
@@ -19,6 +19,18 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 ## Timeline
 
 - **2026-04-16**: [[openai-codex]] superapp — background computer use, parallel agents, in-app browser, image gen; expanded beyond code across ChatGPT, desktop, CLI, IDEs; rate limits doubled — *source: The Rundown AI "OpenAI's superapp hiding inside Codex"; multiple*
+- **2026-02-19**: Lockdown Mode introduced — opt-in higher-security mode adding "Elevated Risk" labels across ChatGPT/[[chatgpt-atlas]]/Codex; available for ChatGPT Enterprise / education / healthcare; clamps down on risky tool behavior — *source: 2026-02-19 cycle (TLDR AI; The Rundown AI)*
+- **2026-02-18**: Hires Peter Steinberger ([[openclaw]] creator) — joins OpenAI to build a personal-assistant agent product; OpenClaw to remain open source under a foundation — *source: 2026-02-18 cycle (Multiple — Mindstream; Superhuman; AI Breakfast; TLDR AI)*
+- **2026-02-17**: GPT-5.2 makes an original physics discovery — challenges a long-standing particle-physics result and writes a formal proof autonomously in ~12 hours — *source: 2026-02-17 cycle (The Rundown AI; AlphaSignal)*
+- **2026-02-16**: ChatGPT ad rollout begins in the US for free and Go users — clearly labeled as ads, no answer influence, partners include Target, Adobe, Audible — *source: 2026-02-16 cycle*
+- **2026-02-14**: [[gpt-5-3-codex-spark]] released — ultra-fast smaller Codex variant for real-time use; runs on Cerebras inference (1000+ tokens/sec) — *source: 2026-02-14 cycle (multiple)*
+- **2026-02-13**: ChatGPT Skills feature in development — reusable bundles of files describing repeatable workflows; Deep Research upgrade adds interactive sessions and per-site/app context constraints; ChatGPT ads test expanded — *source: 2026-02-13 cycle*
+- **2026-02-12**: OpenAI Agent Skills system formalized — packaging reusable instructions/assets, conditional workflows, code execution, reproducibility — *source: 2026-02-12 cycle*
+- **2026-02-11**: GPT-5.3 leak — focus on longer memory, faster agents, workflow stability; positioned as infra upgrade rather than raw-intelligence leap — *source: 2026-02-11 cycle*
+- **2026-02-10**: [[openai-frontier]] platform highlighted alongside [[gpt-5-3-codex]]; Anthropic and OpenAI duel via Super Bowl ads (mass-market shift) — *source: 2026-02-10 cycle*
+- **2026-02-09**: [[openai-frontier]] launched — enterprise platform for running custom high-functioning agents with system integration, persistent context, action-oriented capabilities; "AI Employee" framing — *source: 2026-02-09 cycle*
+- **2026-02-07**: [[gpt-5-3-codex]] released — agentic coding model; 77.3% Terminal-Bench 2.0; 25% inference/infra speed-up; GitHub adds Codex agent (alongside Claude) in public preview — *source: 2026-02-07 cycle (multiple)*
+- **2026-02-05**: [[codex-app]] follow-up — GPT-5.2 / GPT-5.2-Codex 40% faster via inference optimizations (no architecture/weight changes); Apple Xcode 26.3 native Codex integration alongside Claude — *source: 2026-02-05 cycle (TLDR AI; AlphaSignal; The Rundown AI)*
 - **2026-04-16**: GPT-Rosalind introduced — biology-tuned LLM for drug discovery / biological research — *source: TLDR "Opus 4.7, the clip economy, Cloudflare Agents Week"; TLDR AI "GPT Rosalind, Perplexity Personal Computer"*
 - **2026-04-16**: Agents SDK updated — native harness for cross-file / tool workflows, sandboxed execution — *source: TLDR AI "Gemini 3.1 Flash TTS, OpenAI Agents SDK"*
 - **2026-04-16**: Trusted Access program expands (mentions GPT-5 tiered-identity framing continuing) — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
@@ -188,3 +200,15 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - data/summaries/2026-01-18.json (ChatGPT Ads for free and Go tier; MongoDB Mongot)
 - data/summaries/2026-01-19.json (OpenAI backs Merge Labs $250M seed/$850M valuation)
 - data/summaries/2026-04-16.json (The Rundown AI — OpenAI's superapp hiding inside Codex; AlphaSignal — Anthropic presents always-on Routines / Trusted Access GPT-5; TLDR — Opus 4.7, Cloudflare Agents Week, GPT-Rosalind; TLDR AI — OpenAI Agents SDK; TLDR AI — GPT Rosalind, Perplexity Personal Computer)
+- data/summaries/2026-02-05.json (Codex App + GPT-5.2 40% faster; Xcode 26.3 Codex integration)
+- data/summaries/2026-02-07.json (GPT-5.3-Codex; GitHub Codex agent preview)
+- data/summaries/2026-02-09.json (OpenAI Frontier launch)
+- data/summaries/2026-02-10.json (Frontier + Super Bowl ads)
+- data/summaries/2026-02-11.json (GPT-5.3 leak)
+- data/summaries/2026-02-12.json (Agent Skills system)
+- data/summaries/2026-02-13.json (ChatGPT Skills + Deep Research upgrade + ad expansion)
+- data/summaries/2026-02-14.json (GPT-5.3-Codex-Spark on Cerebras)
+- data/summaries/2026-02-16.json (Ad rollout to US free/Go users)
+- data/summaries/2026-02-17.json (GPT-5.2 physics discovery)
+- data/summaries/2026-02-18.json (OpenClaw acquihire — Peter Steinberger)
+- data/summaries/2026-02-19.json (Lockdown Mode)

@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2026-01-20..2026-02-04)
+> **Last updated**: 2026-04-16 (backfill 2026-01-20..2026-02-19)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[reflection]], [[thinking-machines]], [[ai-bubble-concerns]], [[merge-labs]], [[ai-ipo-wave]]
 
@@ -21,6 +21,12 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - **2026-04-16**: [[anthropic]] reportedly in investor talks at $800B+ valuation, approaching OpenAI territory — *source: Superhuman "Gemini gets a Mac app"*
 - **2026-04-16**: Eli Lilly agrees to pay up to $2.75B to Insilico Medicine (AI drug discovery) — *source: The Batch "Meta Pivots From Open Weights, Big Pharma Bets On AI"*
 - **2026-04-16**: Allbirds/NewBird AI announces $50M financing to pivot from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code*
+- **2026-02-18**: Stripe valuation reaches $140B in tender talks — payments-AI infra story — *source: 2026-02-18 cycle*
+- **2026-02-17**: Simile (AI search/research startup) raises $100M — *source: 2026-02-17 cycle*
+- **2026-02-13**: Lotus AI raises $35M for AI-native legal-tech platform — *source: 2026-02-13 cycle*
+- **2026-02-12**: [[elevenlabs]] closes $500M at $11B valuation led by Sequoia — *source: 2026-02-12 cycle*
+- **2026-02-11**: Waymo raises $16B at top-tier autonomy valuation — *source: 2026-02-11 cycle*
+- **2026-02-10**: [[anthropic]] confirms $30B Series G at $380B valuation — round catalyzed by enterprise pull-through — *source: 2026-02-10 cycle*
 - **2026-02-04**: [[xai]] acquired by SpaceX in $1.25T stock-swap (xAI valued ~$250B); Waymo raises $16B at $110–126B valuation (20M+ trips, $350M ARR); [[anthropic]] targets $20B at $350B (IPO possible after $13B raise); Amazon in talks for $50B in [[openai]] (potentially $830B valuation); Day AI raises $20M for AI-powered CRM; Nvidia's $100B OpenAI commitment reportedly scaled back — *source: TAAFT "$1T Empire"; TLDR "SpaceX buys xAI"; TLDR AI; Superhuman "SpaceX acquires xAI"; The Tech Buzz SignalPulse; Mindstream "Nvidia lowers investment"*
 - **2026-01-27**: OpenEvidence raises $250M Series D at $12B valuation (co-led Thrive Capital + DST Global); Moonshot AI valued at $4.8B (up from $4.3B, Alibaba-backed); Wikipedia enters paid AI data deals with Meta, Microsoft, Perplexity — *source: SignalPulse "Your Weekly Signals"*
 - **2026-01-25**: Humans& raises $480M seed (consumer AI-companion / social play); Synthesia $200M Series E; Apple Q.ai $2B acquisition reports — *source: 2026-01-25 cycle*

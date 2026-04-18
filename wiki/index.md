@@ -15,6 +15,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[baidu]] — Chinese search/cloud giant; ERNIE-4.5-VL-Thinking open-source multimodal reasoning
 - [[black-forest-labs]] — German image-gen lab; ships FLUX.2
 - [[broadcom]] — custom AI silicon partner for OpenAI *(stale)*
+- [[bytedance]] — Chinese tech giant; ships Seedance 2.0 / Seedream 5.0 on Jimeng AI video platform
 - [[canva]] — design platform; Video 2.0 and own foundation model
 - [[character-ai]] — companion chatbot; ban on minors effective Nov 25 2025; ships Stories interactive fiction
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf
@@ -75,8 +76,10 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills
 - [[claude-haiku-4-5]] — Anthropic's fast, low-cost coding model *(stale)*
 - [[claude-opus-4-5]] — Anthropic's Nov 2025 flagship; 80.9% SWE-bench Verified; T2 Retail 88.9% / Telecom 98.2%
+- [[claude-opus-4-6]] — Anthropic's Feb 2026 flagship; 1M context, agent teams, fast mode 2.5×
 - [[claude-opus-4-7]] — Anthropic's Apr 2026 flagship; 3.75 MP vision, xhigh effort, file memory
 - [[claude-skills]] — Anthropic's reusable capabilities + Agent Skills *(stale)*
+- [[claude-sonnet-4-6]] — Anthropic's Feb 2026 mid-tier; Opus-class perf at 40% lower cost; 79.6% SWE-Bench
 - [[codex-app]] — OpenAI's native macOS app for Codex; parallel agents, Skills library, Automations
 - [[cursor]] — AI IDE; 1.7, Plan Mode, 2.0 with Composer and multi-agent UI
 - [[cursor-composer]] — Cursor's first in-house coding model; ~4× faster, sub-30-second tasks
@@ -95,14 +98,18 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[github-agent-hq]] — GitHub's multi-agent control plane
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
 - [[glm-4-7]] — Zhipu AI open-source WebDev model topping open leaderboards Dec 2025
+- [[glm-5]] — Zhipu AI's Feb 2026 open-source 754B MIT-licensed flagship; sparse attention + async RL
 - [[glm-ocr]] — Zhipu AI's open-source SOTA OCR model; #1 OmniDocBench, handwriting/tables/code layouts
 - [[gpt-5-1]] — OpenAI's mid-Nov 2025 ChatGPT upgrade; Instant/Thinking modes, 8 personalities
 - [[gpt-5-1-codex-max]] — OpenAI's coding model; 24+ hour sessions via compaction; 77.9% SWE-bench Verified
 - [[gpt-5-2]] — OpenAI's Dec 2025 ChatGPT upgrade; three-tier (Instant/Thinking/Pro), 400K context, 38% fewer errors
 - [[gpt-5-2-codex]] — OpenAI's Dec 2025 Codex model; execution-focused Codex-tier of GPT-5.2
+- [[gpt-5-3-codex]] — OpenAI's Feb 2026 Codex model; 77.3% Terminal-Bench 2.0, 25% faster
+- [[gpt-5-3-codex-spark]] — OpenAI's Codex variant on Cerebras hardware; 1000+ tokens/sec
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding
 - [[gpt-image-1-5]] — OpenAI's Dec 2025 image-gen upgrade; 4× faster, sharper detail, Likeness Retention
 - [[grok-4-1]] — xAI's mid-Nov 2025 Grok upgrade; personality overhaul, EQ lead, top of LMArena
+- [[grok-4-20]] — xAI's Feb 2026 Grok upgrade; four-agent parallel research workflow, public beta
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours
@@ -129,13 +136,19 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nvidia-cosmos]] — NVIDIA's physical-AI foundation models (Cosmos 2.5 GA, 3 inbound)
 - [[openai-codex]] — OpenAI's Codex-as-superapp (ChatGPT + Atlas + Codex)
 - [[openai-for-healthcare]] — OpenAI's HIPAA-compliant enterprise health offering
+- [[openai-frontier]] — OpenAI's Feb 2026 enterprise AI-Employee platform (personas + skills + memory)
+- [[openclaw]] — open-source persistent assistant; team (incl. Steinberger) acquihired into OpenAI
 - [[opera-neon]] — Opera's AI browser *(stale)*
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
 - [[project-genie]] — Google DeepMind's interactive 3D-world generator powered by Genie 3 model
 - [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO
+- [[qwen-3-5]] — Alibaba's Feb 2026 native vision-language MoE; 397B-A17B, hybrid linear+MoE, 201 languages
 - [[qwen-3-vl]] — Alibaba's compact vision-language models *(stale)*
-- [[qwen-image]] — Alibaba open-source image model called "open-source king" Jan 2026
+- [[qwen-image]] — Alibaba open-source image model called "open-source king" Jan 2026 *(superseded)*
+- [[qwen-image-2]] — Alibaba's Feb 2026 unified image gen + editing model; #2/#3 AI Arena Elo
+- [[qwen3-coder-next]] — Alibaba's Feb 2026 open-weights 80B MoE coding-agent model (800K coding tasks)
 - [[runway-gen-4-5]] — Runway's text-to-video; tops Veo 3 and Sora on Artificial Analysis benchmark
+- [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2K, 15s, native audio, anchor system
 - [[sora-2]] — OpenAI's video model; physics, audio, monetization, Hollywood pushback
 - [[tinker-api]] — Thinking Machines' LLM fine-tuning API *(stale)*
 - [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B)

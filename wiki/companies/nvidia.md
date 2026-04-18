@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-04-16 (backfill 2025-12-05..2025-12-19; 2026-01-20..2026-02-04)
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
 > **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[vera-rubin]], [[alpamayo]], [[nitrogen]], [[xai]], [[openai]], [[anthropic]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-healthcare]], [[ai-bubble-concerns]]
 
@@ -22,6 +22,12 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2026-02-19**: Multi-year [[meta]]-NVIDIA AI chip deal — millions of GPUs and CPUs to power Meta's AI infrastructure buildout — *source: 2026-02-19 cycle*
+- **2026-02-14**: NVIDIA participates in [[anthropic]] $30B Series G; Cerebras competes for inference (powers OpenAI's [[gpt-5-3-codex-spark]]) — competitive context for inference silicon — *source: 2026-02-14 cycle*
+- **2026-02-09**: NVIDIA reportedly skipping new gaming GPUs due to memory shortages — prioritizing AI chips; AI now ~92% of revenue — *source: 2026-02-09 cycle*
+- **2026-02-07**: VibeTensor — AI-generated deep-learning runtime built by NVIDIA's coding agents; framed as evidence of agentic infra creation — *source: 2026-02-07 cycle*
+- **2026-02-06**: Open-model push continues — [[nemotron-3]] Nano coverage emphasized as part of Nvidia's open-models strategy — *source: 2026-02-06 cycle*
+- **2026-02-05**: Intel hires new GPU chief architect (CEO Lip-Bu Tan) to enter discrete GPU market — context for AI-driven GPU demand; potential future competitor to NVIDIA — *source: 2026-02-05 cycle*
 - **2026-02-04**: Jensen Huang dismisses reports of "stalled" $100B OpenAI investment as "nonsense"; confirms Nvidia remains committed to participating in OpenAI's funding round though final figure reportedly lower than $100B; Nvidia Earth-2 and DeepMind AlphaGenome framing continues — *source: TAAFT "AI Agents Built Their Own Society"; The Tech Buzz SignalPulse; AI Breakfast; Mindstream "Nvidia lowers investment in OpenAI"*
 - **2026-01-25**: Earth-2 digital twin planet model referenced; AI21 Labs acquisition talks circulate — *source: 2026-01-25 cycle*
 - **2026-01-17**: China blocks [[nvidia]]'s H200 AI chips — potentially hinders Chinese model development; TSMC posts record quarter (profit +35% on surging AI demand) — *source: 2026-01-17 cycle*

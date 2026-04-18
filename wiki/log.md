@@ -4,6 +4,221 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-02-19
+**Ingested**: data/summaries/2026-02-19.json
+
+**Pages updated**:
+- [[xai]] — [[grok-4-20]] public beta with four-agent parallel research workflow; Grok Build adds Parallel Agents + Arena Mode
+- [[bytedance]] — [[disney]] threatens legal action over [[seedance-2]] character/style reproductions
+- [[anthropic]] — Figma Code-to-Canvas integrates [[claude-code]] as hand-off target
+- [[claude-code]] — Figma Code-to-Canvas hand-off integration
+- [[agent-frameworks]] — Grok 4.20 four-agent surface; Grok Build IDE positioning
+- [[ai-regulation]] — Disney vs ByteDance IP friction
+- [[ai-video-generation]] — Disney IP threats vs Seedance 2.0
+
+**Pages created**: [[grok-4-20]]
+
+**Notable**: First explicit multi-agent surface from xAI; Disney's first major Western IP escalation against a non-Western frontier video model.
+
+## 2026-02-18
+**Ingested**: data/summaries/2026-02-18.json
+
+**Pages updated**:
+- [[alibaba]] — [[qwen-3-5]] released — 397B-A17B hybrid linear+MoE, 201 languages, native multimodal
+- [[openai]] — [[chatgpt]] Lockdown Mode rolls out
+- [[chatgpt]] — Lockdown Mode for high-security sessions
+- [[ai-funding-rounds]] — Stripe valuation hits $140B
+- [[ai-regulation]] — ChatGPT Lockdown Mode as enterprise/government safer-default
+- [[enterprise-ai]] — Lockdown Mode framing
+
+**Pages created**: [[qwen-3-5]]
+
+**Notable**: Qwen 3.5's hybrid linear-attention + sparse MoE delivers ~19× faster decoding than Qwen3-Max — strongest open multilingual frontier from Alibaba to date.
+
+## 2026-02-17
+**Ingested**: data/summaries/2026-02-17.json
+
+**Pages updated**:
+- [[bytedance]] — Seed 2.0 family extended (coherent storyline, voice-overs, complex actions)
+- [[seedance-2]] — Seed 2.0 family expansion timeline entry
+- [[ai-video-generation]] — Seedance Seed 2.0 expansion
+- [[agent-frameworks]] — Manus debuts inside Telegram
+- [[ai-funding-rounds]] — Simile $100M raise
+- [[ai-hardware]] — global RAM shortage flagged as binding compute constraint
+
+**Pages created**: (none)
+
+**Notable**: Manus expands its agent surface from web/Slack into Telegram messaging; RAM supply emerges as a hyperscaler bottleneck.
+
+## 2026-02-16
+**Ingested**: data/summaries/2026-02-16.json
+
+**Pages updated**:
+- (No new wiki-scope items — weekend-recap content)
+
+**Pages created**: (none)
+
+**Notable**: Quiet day; carry-over coverage of Seedance and Anthropic Series G.
+
+## 2026-02-15
+**Ingested**: data/summaries/2026-02-15.json
+
+**Pages updated**:
+- (No new wiki-scope items — weekend-recap content)
+
+**Pages created**: (none)
+
+**Notable**: Quiet day; weekly-recap framing of the Anthropic / Seedance / OpenAI Frontier cycle.
+
+## 2026-02-14
+**Ingested**: data/summaries/2026-02-14.json
+
+**Pages updated**:
+- [[bytedance]] — Seedance "anchor" system enables sophisticated multi-shot video
+- [[seedance-2]] — anchor system for multi-shot consistency
+- [[ai-video-generation]] — Seedance anchor system
+
+**Pages created**: (none)
+
+**Notable**: Multi-shot consistency via persistent "anchors" is becoming a category-defining feature for AI video.
+
+## 2026-02-13
+**Ingested**: data/summaries/2026-02-13.json
+
+**Pages updated**:
+- [[meta]] — multi-year Meta×NVIDIA mega-deal underwriting Reality Labs / inference fleet
+- [[nvidia]] — Meta mega-deal participation
+- [[openai]] — [[chatgpt]] ads beta expands to wider US rollout in Free + Go tiers
+- [[chatgpt]] — ads expand from beta
+- [[microsoft]] — Copilot Tasks expands
+- [[ai-funding-rounds]] — Lotus AI raises $35M (legal-tech)
+- [[ai-hardware]] — Meta×NVIDIA capacity commitment
+- [[enterprise-ai]] — Microsoft Copilot Tasks
+- [[agent-frameworks]] — Cursor Plugin Marketplace launches
+
+**Pages created**: (none)
+
+**Notable**: Meta×NVIDIA deal reframes Reality Labs spending as inference infrastructure; Cursor plugin marketplace opens up a third-party distribution surface in IDE-class agents.
+
+## 2026-02-12
+**Ingested**: data/summaries/2026-02-12.json
+
+**Pages updated**:
+- [[alibaba]] — [[qwen-image-2]] released — unified gen + editing; #2 editing / #3 text-to-image AI Arena Elo
+- [[qwen-image]] — superseded by qwen-image-2
+- [[anthropic]] — Pentagon flags supply-chain risk in Claude
+- [[elevenlabs]] — closes $500M at $11B led by Sequoia
+- [[ai-regulation]] — Pentagon supply-chain concerns vs Anthropic
+- [[ai-funding-rounds]] — ElevenLabs $500M @ $11B
+- [[agent-frameworks]] — Warp ships Oz long-running coding agent
+
+**Pages created**: [[qwen-image-2]]
+
+**Notable**: Qwen-Image 2.0 fuses gen + editing into one architecture and immediately ranks top-3 on AI Arena — bridging the gap toward Nano Banana Pro and FLUX.2.
+
+## 2026-02-11
+**Ingested**: data/summaries/2026-02-11.json
+
+**Pages updated**:
+- [[anthropic]] — WordPress connector ships
+- [[bytedance]] — [[seedance-2]] details: 2K resolution, 15s outputs, native audio; Seedream 5.0 image companion previewed
+- [[seedance-2]] — 2K/15s/native audio detail; Seedream 5.0 companion
+- [[ai-funding-rounds]] — Waymo $16B raise
+- [[ai-video-generation]] — Seedance specs detailed
+- [[enterprise-ai]] — Anthropic WordPress connector
+
+**Pages created**: (none)
+
+**Notable**: Native audio in a 2K/15s open-distribution video model lands as the first credible non-Western challenger to Sora 2 / Veo 3.
+
+## 2026-02-10
+**Ingested**: data/summaries/2026-02-10.json
+
+**Pages updated**:
+- [[anthropic]] — $30B Series G at $380B valuation; Cowork Windows beta opens
+- [[bytedance]] — [[seedance-2]] released on Jimeng AI video platform
+- [[claude-cowork]] — Windows beta opens
+- [[ai-funding-rounds]] — Anthropic $30B at $380B
+- [[ai-video-generation]] — Seedance 2.0 launch
+- [[enterprise-ai]] — Cowork Windows beta
+
+**Pages created**: [[bytedance]], [[seedance-2]]
+
+**Notable**: Anthropic's $380B mark approaches OpenAI valuation territory; ByteDance enters the wiki as a frontier-model vendor.
+
+## 2026-02-09
+**Ingested**: data/summaries/2026-02-09.json
+
+**Pages updated**:
+- [[openai]] — [[openai-frontier]] launches enterprise AI-Employee platform; [[chatgpt]] Skills released; Deep Research updated; [[gpt-5-3-codex-spark]] on Cerebras hits 1000+ tokens/sec
+- [[chatgpt]] — Skills system; Deep Research update
+- [[apple]] — Xcode 26.3 ships with Anthropic Claude SDK + OpenAI Codex integration
+- [[claude-code]] — Xcode 26.3 first-party Mac IDE integration
+- [[codex-app]] — 40% faster after backend optimization
+- [[google]] — Gemini 3 GA push across Workspace + Vertex AI; Deep Think profiled
+- [[gemini-3]] — Workspace + Vertex GA
+- [[project-genie]] — continues as world-models category headliner alongside Gemini 3 Deep Think
+- [[agent-skills]] — OpenAI ChatGPT Skills as parallel/competitor system
+- [[agent-frameworks]] — ChatGPT Skills; Codex-Spark on Cerebras; OpenAI Frontier
+- [[ai-hardware]] — GPT-5.3-Codex-Spark on Cerebras
+- [[enterprise-ai]] — OpenAI Frontier launch
+
+**Pages created**: [[openai-frontier]], [[gpt-5-3-codex-spark]]
+
+**Notable**: OpenAI splits its enterprise stack with Frontier (AI Employees) vs ChatGPT Skills (capability packaging) — clear answer to Anthropic Agent Skills + Cowork.
+
+## 2026-02-08
+**Ingested**: data/summaries/2026-02-08.json
+
+**Pages updated**:
+- (No new wiki-scope items — primarily marketing/community content)
+
+**Pages created**: (none)
+
+**Notable**: Quiet day; no high-relevance AI-tooling launches.
+
+## 2026-02-07
+**Ingested**: data/summaries/2026-02-07.json
+
+**Pages updated**:
+- (No new wiki-scope items beyond carry-over coverage)
+
+**Pages created**: (none)
+
+**Notable**: Quiet day; mostly carry-over coverage of GPT-5.3 Codex and ongoing funding-round commentary.
+
+## 2026-02-06
+**Ingested**: data/summaries/2026-02-06.json
+
+**Pages updated**:
+- [[google]] — Gemini app surpasses 750M MAU; Alphabet earnings highlight Gemini-driven growth
+- [[gemini-3]] — 750M MAU milestone
+- [[nvidia]] — gaming-GPU mindshare push; Intel positions GPU re-entry; Meta internal Avocado chip referenced
+- [[meta]] — Avocado inference chip + Reality Labs reorganization
+- [[nemotron-3]] — Nano/Super/Ultra emphasis in dev outreach
+- [[ai-hardware]] — Avocado / Intel GPU push / NVIDIA gaming push
+
+**Pages created**: (none)
+
+**Notable**: Gemini's 750M MAU is a meaningful step-change in consumer-AI competitive pressure on ChatGPT.
+
+## 2026-02-05
+**Ingested**: data/summaries/2026-02-05.json
+
+**Pages updated**:
+- [[openai]] — [[gpt-5-3-codex]] released — 77.3% Terminal-Bench 2.0, 25% faster than GPT-5.2-Codex
+- [[codex-app]] — ships with GPT-5.3-Codex as new default coding model
+- [[alibaba]] — [[qwen3-coder-next]] released — 80B MoE, 800K coding tasks, open weights
+- [[google]] — Mozilla Firefox adds Gemini toggle
+- [[gemini-3]] — Firefox AI toggle exposure
+- [[anthropic]] — Sonnet 5 leak references continue circulating
+- [[ai-regulation]] — Mozilla AI toggle as user-control regulatory-friendly default
+- [[agent-frameworks]] — GPT-5.3-Codex; Qwen3-Coder-Next
+
+**Pages created**: [[gpt-5-3-codex]], [[qwen3-coder-next]]
+
+**Notable**: Qwen3-Coder-Next becomes the strongest open-weights challenger in the agentic-coding tier; GPT-5.3-Codex resets the closed-model coding benchmark.
+
 ## 2026-02-04
 **Ingested**: data/summaries/2026-02-04.json
 

@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-12-17
-> **Last updated**: 2025-12-17
+> **Last updated**: 2026-02-19
 > **Status**: launched
 > **Related**: [[nvidia]], [[nvidia-cosmos]], [[agent-frameworks]], [[deepseek]], [[mistral-3]]
 
@@ -18,6 +18,7 @@ Nemotron 3 is [[nvidia]]'s open-source large-language-model family, launched on 
 
 ## Timeline
 
+- **2026-02-06**: Nemotron 3 push extended — NVIDIA emphasizes Nemotron Nano/Super/Ultra as core open-weights agentic line in dev outreach — *source: 2026-02-06 cycle*
 - **2025-12-17**: Nemotron 3 launches — Nano variant at 30B total / 3B active MoE; 4× throughput claimed for multi-agent AI; Super and Ultra previewed for 2026; framed as NVIDIA's "agentic bet" — *source: AlphaSignal "Nemotron 3"; AI Breakfast "NVIDIA Drops NEMOTRON 3!"; The Rundown AI "Nvidia's powerful open AI model play"; Forward Future "NVIDIA's Agentic Bet & A $3B Collapse"; TLDR AI "Nvidia Nemotron 3 / Claude agentic tasks / OLMo 3 deep dive"; TLDR "Nvidia drops open-source AI models"*
 
 ## Key Facts

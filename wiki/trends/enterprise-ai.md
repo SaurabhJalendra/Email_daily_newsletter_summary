@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-05
-> **Last updated**: 2026-01-19 (backfill 2026-01-05..2026-01-19)
+> **Last updated**: 2026-02-19 (backfill 2026-01-05..2026-02-19)
 > **Status**: active
 > **Related**: [[gemini-enterprise]], [[agentforce]], [[salesforce]], [[microsoft]], [[google]], [[openai]], [[anthropic]], [[chatgpt-company-knowledge]], [[claude-cowork]], [[claude-for-excel]], [[github-agent-hq]], [[mistral-studio]], [[universal-commerce-protocol]], [[agent-frameworks]]
 
@@ -18,6 +18,12 @@ October 2025 was a sustained enterprise-AI product cycle. [[google]] shipped [[g
 
 ## Timeline
 
+- **2026-02-19**: Figma Code-to-Canvas integrates [[claude-code]] as a hand-off target — design-stage to build-stage continuity inside enterprise design tooling — *source: 2026-02-19 cycle*
+- **2026-02-18**: [[chatgpt]] Lockdown Mode launches — restricted high-security session mode for enterprise/government workflows — *source: 2026-02-18 cycle*
+- **2026-02-13**: [[microsoft]] Copilot Tasks expands — task graph for end-to-end enterprise workflows — *source: 2026-02-13 cycle*
+- **2026-02-11**: [[anthropic]] WordPress connector — bring Claude into CMS workflows — *source: 2026-02-11 cycle*
+- **2026-02-10**: [[anthropic]] Cowork Windows beta opens — desktop-resident agent with persistent file context — *source: 2026-02-10 cycle*
+- **2026-02-09**: [[openai-frontier]] launches as enterprise AI-Employee platform — packaged personas + skills + persistent memory — *source: 2026-02-09 cycle*
 - **2026-01-19**: [[microsoft]] Copilot Checkout — conversational commerce agent that brands can embed directly into sites — *source: 2026-01-19 cycle*
 - **2026-01-18**: Copilot Studio VS Code extension — build / test / customize AI copilots inside the editor — *source: 2026-01-18 cycle*
 - **2026-01-15**: Attio raises for AI-native CRM; Walmart + Google announce AI-shopping partnership (post-UCP) — *source: 2026-01-15 cycle*

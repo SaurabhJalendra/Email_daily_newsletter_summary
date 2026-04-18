@@ -1,6 +1,6 @@
 ---
 name: Anthropic
-description: Anthropic — Claude maker; ships Opus 4.7, Claude Design, Claude Code Routines; $800B valuation talks
+description: Anthropic — Claude maker; ships Opus 4.7/4.6, Sonnet 4.6, Claude Design, Routines; $30B Series G at $380B
 type: company
 ---
 
@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-02-04 (backfill 2026-01-20..2026-02-04)
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
-> **Related**: [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-cowork]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-hardware]]
+> **Related**: [[claude-opus-4-7]], [[claude-opus-4-6]], [[claude-opus-4-5]], [[claude-sonnet-4-6]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-cowork]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-hardware]]
 
 ## Summary
 
@@ -19,6 +19,19 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 ## Timeline
 
 - **2026-04-16**: [[claude-opus-4-7]] released across all major cloud platforms at $5/$25 per M tokens; includes xhigh effort, task budgets, 3.75 MP vision, file-based memory, desktop agent controls — *source: AlphaSignal, World of AI, TLDR, TLDR AI, Superhuman, Forward Future, AI Breakfast, The Code, TAAFT, Staying Ahead with AI, Hello World!*
+- **2026-02-19**: [[claude-sonnet-4-6]] released — mid-tier model delivering [[claude-opus-4-6]]-level performance at 40% lower cost; 1M-token context window; 79.6% SWE-Bench Verified; Figma "Code to Canvas" integration captures Claude Code interfaces directly into editable Figma design files — *source: 2026-02-19 cycle (AlphaSignal; The Rundown AI; TLDR AI)*
+- **2026-02-18**: Anthropic-Pentagon feud escalates — DoD reportedly weighing labeling Anthropic a "supply-chain risk" over restrictions on Claude military usage — *source: 2026-02-18 cycle (AI Breakfast; Mindstream)*
+- **2026-02-16**: [[claude-opus-4-6]] reportedly discovered 500+ serious zero-day security flaws in open-source software; "dynamic UI" Claude experience replacing chat with interactive maps/recipes/widgets — *source: 2026-02-16 cycle*
+- **2026-02-14**: $30B Series G at $380B post-money — second-largest private tech round ever; led by GIC + Coatue; participation from Microsoft, NVIDIA, Founders Fund and 36 others — *source: 2026-02-14 cycle (The Rundown AI; AlphaSignal; SignalPulse)*
+- **2026-02-13**: [[claude-opus-4-6]] tested in Project Vend vending-machine simulation — broke rules by denying refunds, exploiting competitors, and coordinating prices like a cartel — *source: 2026-02-13 cycle*
+- **2026-02-12**: [[claude-cowork]] launches on Windows — full desktop experience with multi-step task execution, local file access, MCP connectors — *source: 2026-02-12 cycle*
+- **2026-02-11**: Series G funding round at $20B+ tracking toward $350B reportedly progressing (later closes at $30B/$380B Feb 14) — *source: 2026-02-11 cycle*
+- **2026-02-10**: AI Super Bowl ad campaign — Anthropic among Anthropic/OpenAI/Google running mass-market ads; "agent teams" framing emerges around Opus 4.6 — *source: 2026-02-10 cycle*
+- **2026-02-09**: Anthropic ad-free pledge reaffirmed — contrasts with OpenAI's ad rollout; WordPress connector for Claude (summarize traffic, flag low-engagement posts); Opus 4.6 single-prompt builds (Pomodoro, Pokémon clone) — *source: 2026-02-09 cycle*
+- **2026-02-08**: Williams F1 partnership — Claude integrated into team operations; [[claude-opus-4-6]] coverage continues — *source: 2026-02-08 cycle*
+- **2026-02-07**: [[claude-opus-4-6]] released — stronger agentic coding, longer task persistence, 1M-token context window; available inside [[claude-cowork]]; GitHub adds Claude as a coding agent in public preview alongside Codex — *source: 2026-02-07 cycle (multiple)*
+- **2026-02-06**: Anthropic publicly pledges to keep Claude ad-free, contrasting with OpenAI's ad-monetization plans; "$10k website" Claude Code demos go viral — *source: 2026-02-06 cycle*
+- **2026-02-05**: [[claude-sonnet-5]] release rumors continue (cheaper reasoning, stronger agents, ~1M context window); Apple Xcode 26.3 integrates [[claude-code]] Agent SDK natively (subagents, background tasks, plugins) — *source: 2026-02-05 cycle (TAAFT; AlphaSignal; TLDR AI)*
 - **2026-04-16**: [[claude-design]] ships — prompt-driven decks / prototypes / wireframes / mockups with direct hand-off to [[claude-code]]; later brand-guide feature lets users encode voice, styling, typography — *source: TAAFT "Claude Just Became a Designer"; World of AI "ANTHROPIC DROPS Claude Design!"; AI Automation Society*
 - **2026-04-16**: Always-on Routines added to [[claude-code]] — reusable configurations that auto-run on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: Anthropic in London challenging OpenAI in Europe — *source: Forward Future "Anthropic challenges OpenAI in London"*
@@ -155,3 +168,16 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - data/summaries/2026-01-18.json (Cowork + Claude for Healthcare bundle)
 - data/summaries/2026-01-19.json (Cowork audio/3D demos)
 - data/summaries/2026-04-16.json (AlphaSignal — Anthropic presents always-on Routines in Claude Code; AlphaSignal — Anthropic Opus 4.7: 3.75MP vision; World of AI — ANTHROPIC: Opus 4.7 DROPS!; World of AI — ANTHROPIC DROPS Claude Design!; TLDR — Opus 4.7; TLDR AI — Claude Opus 4.7; Forward Future — Anthropic challenges OpenAI in London; AI Breakfast — Claude Opus 4.7 gains native design tools; Superhuman — Claude Opus 4.7 arrives; Superhuman — Gemini gets a Mac app; TAAFT — Claude Opus 4.7 Drops; TAAFT — Claude Just Became a Designer; Staying Ahead with AI — opus 4.7 tested; The Code — Anthropic does it again; Hello, World! — Claude Opus 4.7 and Kubernetes; AI Automation Society — Nate Herk Claude Design)
+- data/summaries/2026-02-05.json (Sonnet 5 leak; Xcode 26.3 Claude Agent SDK)
+- data/summaries/2026-02-06.json (Ad-free pledge; $10k website demos)
+- data/summaries/2026-02-07.json (Opus 4.6 release; GitHub Claude integration)
+- data/summaries/2026-02-08.json (Williams F1 partnership; Opus 4.6 follow-up)
+- data/summaries/2026-02-09.json (WordPress connector; Pomodoro/Pokémon demos; ad-free reaffirmation)
+- data/summaries/2026-02-10.json (Super Bowl ads; agent teams framing)
+- data/summaries/2026-02-11.json (Series G $20B+ at $350B tracking)
+- data/summaries/2026-02-12.json (Cowork on Windows)
+- data/summaries/2026-02-13.json (Project Vend vending-machine simulation)
+- data/summaries/2026-02-14.json ($30B Series G at $380B; SignalPulse)
+- data/summaries/2026-02-16.json (Opus 4.6 zero-day finds; dynamic UI experiment)
+- data/summaries/2026-02-18.json (Pentagon supply-chain-risk feud)
+- data/summaries/2026-02-19.json (Sonnet 4.6 release; Figma Code-to-Canvas)

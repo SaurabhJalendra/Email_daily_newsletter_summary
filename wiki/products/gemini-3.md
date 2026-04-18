@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-13
-> **Last updated**: 2025-12-19 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-02-19 (backfill 2025-12-05..2026-02-19)
 > **Status**: active
 > **Related**: [[gemini]], [[gemini-3-flash]], [[google]], [[openai]], [[gpt-5-1]], [[gpt-5-2]], [[antigravity]], [[claude-opus-4-5]], [[ironwood-tpu]]
 
@@ -18,6 +18,9 @@ Gemini 3 is [[google]]'s flagship next-generation [[gemini]] model. It leaked on
 
 ## Timeline
 
+- **2026-02-09**: Gemini 3 GA push expands across Google Workspace + Vertex AI; Deep Think profiled as flagship reasoning surface — *source: 2026-02-09 cycle*
+- **2026-02-06**: Gemini app surpasses 750M monthly active users — Gemini 3 cited as the catalyst — *source: 2026-02-06 cycle*
+- **2026-02-05**: Mozilla Firefox adds a Gemini toggle as part of multi-model AI picker — *source: 2026-02-05 cycle*
 - **2025-12-19**: [[gemini-3-flash]] launches — frontier-level intelligence at fraction of price; 3× faster than Gemini 2.5 Pro and outperforms it on PhD-level reasoning; powers Gemini app and AI Search by default — *source: World of AI; The Rundown AI; TLDR; Superhuman; AlphaSignal*
 - **2025-12-16**: Mixboard + Doppl revamps powered by Gemini 3 — Google Labs design tools refreshed — *source: Mindstream "Google is on a roll"*
 - **2025-12-13**: Disco AI browser launched in Google Labs — GenTabs powered by Gemini 3 turn web pages into interactive web apps — *source: Superhuman "GPT-5.2 is here"*

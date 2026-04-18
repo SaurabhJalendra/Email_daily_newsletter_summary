@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-01-19)
+> **Last updated**: 2026-04-16 (backfill 2026-01-05..2026-02-19)
 > **Status**: active
 > **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-cowork]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]]
 
@@ -18,6 +18,12 @@ type: topic
 
 ## Timeline
 
+- **2026-02-19**: [[grok-4-20]] public beta lands with four-agent parallel research workflow — xAI's first explicit multi-agent surface; Grok Build adds Parallel Agents + Arena Mode (IDE-class) — *source: 2026-02-19 cycle*
+- **2026-02-17**: Manus debuts inside Telegram — agent surface extends into messaging — *source: 2026-02-17 cycle*
+- **2026-02-13**: Cursor Plugin Marketplace launches — third-party plugin distribution surface inside the Cursor IDE — *source: 2026-02-13 cycle*
+- **2026-02-12**: Warp ships Oz — long-running coding agent with autonomous task delegation in the terminal — *source: 2026-02-12 cycle*
+- **2026-02-09**: [[openai]] adds ChatGPT Skills — packaged reusable agent capabilities (sibling to [[agent-skills]]); GPT-5.3-Codex-Spark on [[cerebras]] hits 1000+ tokens/sec; [[openai-frontier]] launches as enterprise AI-Employee platform — *source: 2026-02-09 cycle*
+- **2026-02-05**: [[gpt-5-3-codex]] released — 77.3% Terminal-Bench 2.0, 25% faster than GPT-5.2-Codex; [[qwen3-coder-next]] open-weights 80B MoE coding model — *source: 2026-02-05 cycle*
 - **2026-01-17**: OpenAI Open Responses API — open, event-based agent API standardizing reasoning + tool-call + result events; OpenCode adds GitHub Copilot subscription support; GitHub launches cross-agent memory for Copilot — *source: AlphaSignal 2026-01-17*
 - **2026-01-17**: [[claude-code]] diff view — inline review in-session without external tools — *source: AlphaSignal 2026-01-17*
 - **2026-01-14**: [[claude-cowork]] launches — Anthropic's local-file agent that "organizes digital life" across files and connectors — *source: 2026-01-14 cycle*

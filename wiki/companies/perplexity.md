@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-03
-> **Last updated**: 2025-12-09 (backfill 2025-12-05..2025-12-19)
+> **Last updated**: 2026-02-19 (backfill 2026-02-05..2026-02-19)
 > **Status**: active
 > **Related**: [[perplexity-comet]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[amazon]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,8 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 
 ## Timeline
 
+- **2026-02-09**: Perplexity framed as a verification surface — links claims to original sources (anti-fabrication framing) — *source: 2026-02-09 cycle*
+- **2026-02-07**: Launches Model Council — side-by-side multi-model answer comparison across [[claude-opus-4-5]], [[gpt-5-2]], [[gemini-3]] Pro and others — *source: 2026-02-07 cycle*
 - **2025-12-31**: Perplexity introduces automation for pre-meeting research — assistant compiles context ahead of scheduled meetings — *source: 2025-12-31 cycle*
 - **2025-12-09**: The New York Times sues Perplexity over content scraping/use ("The Times vs Perplexity") — adds to publisher-litigation pipeline — *source: TLDR cycle "The Times vs Perplexity"*
 - **2025-11-29**: Perplexity Shopping launches with virtual try-on and enhanced memory — research and buy directly in-app — *source: 2025-11-29 cycle*
