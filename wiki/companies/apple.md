@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-01-18 (backfill 2026-01-05..2026-01-19)
+> **Last updated**: 2026-02-04 (backfill 2026-01-20..2026-02-04)
 > **Status**: active
 > **Related**: [[meta]], [[google]], [[gemini]], [[ai-hardware]], [[apple-m5]]
 
@@ -18,6 +18,9 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2026-01-27**: Apple's Gemini-powered Siri set for February announcement — internal Campos chatbot / conversational Siri rival to ChatGPT; full rollout targeted for WWDC June 2026; considered OpenAI and Anthropic but chose Google for improved tech + reasonable financial structure — *source: TLDR "Inside Apple AI"; TLDR AI "Apple's Gemini Siri"*
+- **2026-01-25**: Apple Q.ai $2B acquisition reported; AI wearable pin targeted for 2027 — *source: 2026-01-25 cycle*
+- **2026-01-20**: Apple Campos Siri chatbot details circulate — positioning as full ChatGPT competitor — *source: 2026-01-20 cycle*
 - **2026-01-18**: 2026 lineup detailed in leak cycle — low-cost MacBook, new MacBook Pros, iPads, foldable iPhone, AR glasses, Studio Display with 120Hz ProMotion + mini-LED — *source: 2026-01-18 cycle*
 - **2026-01-17**: AR glasses + foldable iPhone + new MacBook roadmap coverage continues — *source: 2026-01-17 cycle*
 - **2026-01-16**: Apple replaces ChatGPT with Gemini as Siri's main AI layer — multi-year deal reshapes Apple's AI approach; Apple Creator Studio subscription launches (Final Cut Pro + Logic Pro + Pixelmator Pro bundle with intelligent features) — *source: 2026-01-16 cycle*

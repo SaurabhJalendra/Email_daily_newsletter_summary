@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-11-07
-> **Last updated**: 2025-11-14
+> **Last updated**: 2026-01-27
 > **Status**: active
 > **Related**: [[kimi-k2-thinking]], [[baidu]], [[alibaba]], [[deepseek]]
 
@@ -18,6 +18,9 @@ Moonshot AI (the company behind the "Kimi" assistant) is a Chinese frontier-lab 
 
 ## Timeline
 
+- **2026-02-04**: [[kimi-k2-5]] framing continues — advances toward "execution" capabilities with multimodal and agentic systems — *source: World of AI "AI Is Leaving the ChatBox"*
+- **2026-01-30**: [[kimi-k2-5]] details circulate — 1T MoE + 400M MoonViT, Agent Swarm of 100 sub-agents — *source: 2026-01-30 cycle*
+- **2026-01-27**: Moonshot AI valued at $4.8B (up from $4.3B) following latest funding round with Alibaba backing — *source: SignalPulse "Wikipedia paid AI deals"*
 - **2025-11-14**: Kimi K2 Thinking production API available — high uptime, scalability, performance-stability claims — *source: TLDR AI cycle*
 - **2025-11-12**: Kimi K2 Thinking claims SOTA, open-sourced — *source: TLDR "Kimi K2 Thinking open-sourced"*
 - **2025-11-11**: Kimi K2 Thinking outperforms GPT-5 and Claude Sonnet 4.5 on several benchmarks — *source: AlphaSignal*

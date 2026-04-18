@@ -4,6 +4,180 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-02-04
+**Ingested**: data/summaries/2026-02-04.json
+
+**Pages updated**:
+- [[openai]] — [[codex-app]] macOS release; Amazon $50B investment talks push valuation to $830B; 600PB/70k-dataset internal data agent; Nvidia $100B deal scaled back
+- [[anthropic]] — Cowork plugins (sales/legal/finance/marketing/biology); $20B at $350B target (IPO possible after $13B raise); Perseverance first AI-planned Mars drive; Claude Sonnet 5 leaks
+- [[xai]] — SpaceX acquires xAI $1.25T stock swap; Grok Imagine 1.0
+- [[google]] — Universal Commerce Protocol (with Shopify) formal announcement; former Google engineer convicted of AI trade-secret theft; Gemini conversation import
+- [[nvidia]] — Huang dismisses $100B "stalled" reports
+- [[chatgpt]] — traffic decline vs Gemini; Codex App access for Free/Go (limited-time)
+- [[claude-cowork]] — plugins launch; Perseverance Mars drive via Claude
+- [[claude-code]] — creator's 10 power-user hacks; diverges from Codex App UX
+- [[ai-funding-rounds]] — SpaceX+xAI $1.25T, Waymo $16B, Anthropic $20B target, Amazon $50B OpenAI talks, Day AI $20M
+
+**Pages created**: [[codex-app]], [[moltbook]], [[agent-composer]], [[glm-ocr]]
+
+**Notable**: Largest private-company M&A in history (SpaceX+xAI $1.25T); Moltbook goes viral with 1.5M AI agents; OpenAI Codex App reframes coding agents as "infrastructure, not a feature."
+
+## 2026-02-02
+**Ingested**: data/summaries/2026-02-02.json
+
+**Pages updated**:
+- [[openai]] — retires GPT-4o, GPT-4.1, o4-mini from ChatGPT (0.1% daily usage); ChatGPT ads beta ($200K min)
+- [[anthropic]] — Pentagon vs Anthropic standoff over Claude military use
+- [[chatgpt]] — GPT-4o/4.1/o4-mini retirement; ads beta
+- [[grokipedia]] — AI search engines (Gemini, AI Mode, Perplexity, Microsoft) start citing Grokipedia, raising quality-verification concerns
+
+**Pages created**: (none)
+
+**Notable**: OpenAI prunes its legacy GPT-4 model lineup; Grokipedia enters mainstream AI-search citation pool.
+
+## 2026-02-01
+**Ingested**: data/summaries/2026-02-01.json
+
+**Pages updated**:
+- [[google]] — Project Genie launches via Google AI Ultra; DeepMind Genie 3 world model
+- [[anthropic]] — Dropbox Dash context-engineering writeup references Claude patterns
+- [[moltbot]] — Clawdbot formally rebranded after Anthropic trademark dispute; small-LM backend narrative
+
+**Pages created**: [[project-genie]]
+
+**Notable**: Google's Genie 3 world model emerges as a product (interactive 3D worlds); the Clawdbot naming saga formalizes into "Moltbot."
+
+## 2026-01-31
+**Ingested**: data/summaries/2026-01-31.json
+
+**Pages updated**: (roll-up coverage of ChatGPT ads, Claude Cowork adoption, and open-model momentum already captured in cross-date aggregated entries on [[openai]], [[anthropic]], [[xai]])
+
+**Pages created**: (none)
+
+**Notable**: Mid-week consolidation day — adoption-curve coverage rather than new product drops.
+
+## 2026-01-30
+**Ingested**: data/summaries/2026-01-30.json
+
+**Pages updated**:
+- [[moonshot-ai]] — [[kimi-k2-5]] details circulate (1T MoE + 400M MoonViT + Agent Swarm)
+
+**Pages created**: [[kimi-k2-5]]
+
+**Notable**: Chinese open-source lab cluster advances from reasoning-only to multimodal agentic execution.
+
+## 2026-01-29
+**Ingested**: data/summaries/2026-01-29.json
+
+**Pages updated**:
+- [[google]] — Learn Your Way / Gemini Education tools; Gemini 3 Flash Agentic Vision framing continues
+
+**Pages created**: (none)
+
+**Notable**: Google pushes Gemini into education surfaces; agentic vision positioning sharpens.
+
+## 2026-01-28
+**Ingested**: data/summaries/2026-01-28.json
+
+**Pages updated**: (roll-up coverage largely captured in aggregated entries on [[openai]], [[anthropic]], [[xai]], [[google]])
+
+**Pages created**: (none)
+
+**Notable**: Continuation day for ChatGPT Go, Cowork, and Apple-Gemini narratives.
+
+## 2026-01-27
+**Ingested**: data/summaries/2026-01-27.json
+
+**Pages updated**:
+- [[openai]] — Cerebras partnership confirmed (Codex inference + "Garlic" voice mode)
+- [[anthropic]] — [[claude-for-excel]] to Pro tier after three-month beta; Security Center for Claude Code
+- [[google]] — GIST training method (50%-optimal mathematical guarantee); Apple Gemini Siri February confirmation; Apple chose Google over OpenAI/Anthropic
+- [[apple]] — Campos Siri Gemini-powered launch Feb 2026; WWDC June full rollout
+- [[moonshot-ai]] — $4.8B valuation (up from $4.3B, Alibaba-backed)
+- [[claude-code]] — Security Center announced
+- [[moltbot]] — 18K+ GitHub stars in three weeks
+- [[ai-funding-rounds]] — OpenEvidence $12B; Moonshot $4.8B; Wikipedia paid-data deals (Meta/Microsoft/Perplexity)
+
+**Pages created**: [[chatgpt-go]] (retrofitted covering Jan 20 launch + Jan 27 shopping-cart + Feb 4 Codex App access)
+
+**Notable**: Apple-Gemini Siri timeline crystallizes; Clawdbot/Moltbot viral moment hits enterprise-security attention.
+
+## 2026-01-26
+**Ingested**: data/summaries/2026-01-26.json
+
+**Pages updated**: (roll-up coverage captured in aggregated entries on [[openai]], [[anthropic]], [[moltbot]])
+
+**Pages created**: (none)
+
+**Notable**: Continuation day for Clawdbot virality and ChatGPT-Go adoption commentary.
+
+## 2026-01-25
+**Ingested**: data/summaries/2026-01-25.json
+
+**Pages updated**:
+- [[apple]] — Q.ai $2B acquisition reports; AI wearable pin 2027
+- [[nvidia]] — Earth-2 digital-twin-planet framing; AI21 Labs acquisition talks
+- [[xai]] — Colossus 2 gigawatt progress
+- [[ai-funding-rounds]] — Humans& $480M seed, Synthesia $200M Series E, Apple Q.ai $2B
+
+**Pages created**: [[moltbot]] (Clawdbot launch)
+
+**Notable**: Clawdbot launches and goes viral (eventually rebranded to Moltbot/OpenClaw); Apple wearables roadmap emerges.
+
+## 2026-01-24
+**Ingested**: data/summaries/2026-01-24.json
+
+**Pages updated**: (roll-up of Wikipedia AI data-deals / Anthropic Adolescence of Technology commentary — captured in [[anthropic]], [[ai-funding-rounds]])
+
+**Pages created**: (none)
+
+**Notable**: Quiet news day; coverage of AGI-timeline commentary and enterprise rollouts.
+
+## 2026-01-23
+**Ingested**: data/summaries/2026-01-23.json
+
+**Pages updated**: (roll-up of Claude Cowork + ChatGPT Go adoption commentary)
+
+**Pages created**: (none)
+
+**Notable**: Continuation day for Cowork and ChatGPT Go rollouts.
+
+## 2026-01-22
+**Ingested**: data/summaries/2026-01-22.json
+
+**Pages updated**:
+- [[anthropic]] — "Adolescence of Technology" essay / Dario Amodei AGI-timeline commentary circulates
+- [[openai]] — parallel AGI-roadmap framing in same cycle
+
+**Pages created**: (none)
+
+**Notable**: AGI-timeline discourse intensifies with Amodei's "Adolescence of Technology" framing.
+
+## 2026-01-21
+**Ingested**: data/summaries/2026-01-21.json
+
+**Pages updated**: (roll-up of ChatGPT Go + Claude Cowork + Apple Campos Siri momentum)
+
+**Pages created**: (none)
+
+**Notable**: Immediate post-ChatGPT-Go launch day; market-reaction coverage.
+
+## 2026-01-20
+**Ingested**: data/summaries/2026-01-20.json
+
+**Pages updated**:
+- [[openai]] — [[chatgpt-go]] global launch $8/mo; ChatGPT ads US rollout (Free + Go); $20B ARR; Musk $134B lawsuit framing
+- [[anthropic]] — Claude Cowork momentum continues
+- [[xai]] — Grok Imagine API preview; Colossus 2 gigawatt coverage
+- [[google]] — Apple partnership details; Chrome Auto Browse + Gemini 3 Flash Agentic Vision
+- [[apple]] — Campos Siri chatbot positioning
+- [[chatgpt]] — ChatGPT Go $8/mo global launch; ads US rollout
+- [[ai-funding-rounds]] — Chinese open-source lab funding + Clawdbot virality momentum
+
+**Pages created**: [[grok-imagine]] (retrofitted to cover Jan 20 API preview + Feb 4 1.0 release)
+
+**Notable**: ChatGPT Go global launch opens the entry-paid tier; xAI Grok Imagine surfaces API; Apple's next-Siri direction crystallizes.
+
 ## 2026-01-19
 **Ingested**: data/summaries/2026-01-19.json
 

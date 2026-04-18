@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-07
-> **Last updated**: 2026-01-19 (backfill 2026-01-05..2026-01-19)
+> **Last updated**: 2026-02-04 (backfill 2026-01-20..2026-02-04)
 > **Status**: active
 > **Related**: [[openai]], [[gpt-5-1]], [[agentkit]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[chatgpt-translate]], [[sora-2]], [[ai-regulation]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,10 @@ ChatGPT is [[openai]]'s flagship consumer AI assistant. At DevDay 2025 OpenAI re
 
 ## Timeline
 
+- **2026-02-04**: ChatGPT worldwide traffic declined in January amid Gemini surge — marks acceleration of competitive pressure; ChatGPT Free and Go users gain limited-time access to [[codex-app]] with doubled rate limits for paid tiers — *source: TLDR "Inside Apple AI / ChatGPT lead shrinks"; TLDR AI "Claude Sonnet 5 leaks"*
+- **2026-02-02**: Retires GPT-4o, GPT-4.1, and o4-mini from ChatGPT citing low usage (only 0.1% of users choose GPT-4o daily); ChatGPT ads beta launches with $200K minimum commitment; personal responses feature added to temporary chat sessions — *source: TAAFT "Finally, AI Glasses"; AI Breakfast "Moltbook"; TLDR AI "Apple's Gemini Siri"*
+- **2026-01-27**: [[chatgpt-go]] momentum continues; shopping cart / merchant tools expansion — centralized shopping cart section added to review items and finalize purchases — *source: TLDR AI "Apple's Gemini Siri"*
+- **2026-01-20**: [[chatgpt-go]] launches globally at $8/mo (entry tier below Plus); ChatGPT ads US rollout for Free and Go tiers advances; $20B ARR milestone — *source: 2026-01-20 cycle*
 - **2026-01-19**: ChatGPT Translate standalone feature — 47 languages, lightweight real-time translation surface — *source: 2026-01-19 cycle*
 - **2026-01-17**: ChatGPT App Store growth — third-party apps momentum; monetization + promoted-slot exploration — *source: 2026-01-17 cycle*
 - **2026-01-16**: ChatGPT displaced as Siri's primary AI — Apple licenses [[gemini]] instead ([[apple]] + [[google]] deal) — *source: 2026-01-16 cycle*

@@ -53,6 +53,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 
 ## Products
 - [[aardvark]] — OpenAI's GPT-5 code-security agent (92% vulnerability identification, 10 CVEs)
+- [[agent-composer]] — Contextual AI's agent framework for expert engineering workflows (Feb 2026)
 - [[agent-skills]] — Anthropic open standard for reusable agent capabilities
 - [[agentforce]] — Salesforce's enterprise agent platform *(stale)*
 - [[agentkit]] — OpenAI's DevDay 2025 agent toolkit *(stale)*
@@ -65,6 +66,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-atlas]] — OpenAI's Chromium-based AI browser; hidden-text hijack vulnerability
 - [[chatgpt-company-knowledge]] — workplace-RAG ChatGPT over Slack/Drive/SharePoint/GitHub/Gmail
 - [[chatgpt-health]] — OpenAI's consumer health assistant (symptom guidance, lab-report reading, clinician review)
+- [[chatgpt-go]] — OpenAI's $8/mo ChatGPT entry-paid tier; launched globally Jan 2026
 - [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages)
 - [[claude-code]] — Anthropic's CLI coding agent; plugins, Routines, Web variant; $1B ARR
 - [[claude-code-web]] — browser/cloud Claude Code for dev work outside the terminal
@@ -75,6 +77,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-opus-4-5]] — Anthropic's Nov 2025 flagship; 80.9% SWE-bench Verified; T2 Retail 88.9% / Telecom 98.2%
 - [[claude-opus-4-7]] — Anthropic's Apr 2026 flagship; 3.75 MP vision, xhigh effort, file memory
 - [[claude-skills]] — Anthropic's reusable capabilities + Agent Skills *(stale)*
+- [[codex-app]] — OpenAI's native macOS app for Codex; parallel agents, Skills library, Automations
 - [[cursor]] — AI IDE; 1.7, Plan Mode, 2.0 with Composer and multi-agent UI
 - [[cursor-composer]] — Cursor's first in-house coding model; ~4× faster, sub-30-second tasks
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier
@@ -92,6 +95,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[github-agent-hq]] — GitHub's multi-agent control plane
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
 - [[glm-4-7]] — Zhipu AI open-source WebDev model topping open leaderboards Dec 2025
+- [[glm-ocr]] — Zhipu AI's open-source SOTA OCR model; #1 OmniDocBench, handwriting/tables/code layouts
 - [[gpt-5-1]] — OpenAI's mid-Nov 2025 ChatGPT upgrade; Instant/Thinking modes, 8 personalities
 - [[gpt-5-1-codex-max]] — OpenAI's coding model; 24+ hour sessions via compaction; 77.9% SWE-bench Verified
 - [[gpt-5-2]] — OpenAI's Dec 2025 ChatGPT upgrade; three-tier (Instant/Thinking/Pro), 400K context, 38% fewer errors
@@ -99,15 +103,19 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding
 - [[gpt-image-1-5]] — OpenAI's Dec 2025 image-gen upgrade; 4× faster, sharper detail, Likeness Retention
 - [[grok-4-1]] — xAI's mid-Nov 2025 Grok upgrade; personality overhaul, EQ lead, top of LMArena
+- [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
+- [[kimi-k2-5]] — Moonshot AI's 1T MoE + 400M MoonViT multimodal agentic model with Agent Swarm (Jan 2026)
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026)
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video
 - [[medgemma]] — Google open medical-imaging model family (Jan 2026)
+- [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
+- [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent
 - [[ministral-3]] — Mistral dense small-model line (3B/8B) for on-device inference
 - [[mistral-3]] — Mistral's open-weight lineup; flagship Large 3 (41B active / 675B total MoE)
 - [[mistral-ocr-3]] — Mistral's OCR model; ~97% accuracy, strong on European documents
@@ -123,6 +131,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-for-healthcare]] — OpenAI's HIPAA-compliant enterprise health offering
 - [[opera-neon]] — Opera's AI browser *(stale)*
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
+- [[project-genie]] — Google DeepMind's interactive 3D-world generator powered by Genie 3 model
 - [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO
 - [[qwen-3-vl]] — Alibaba's compact vision-language models *(stale)*
 - [[qwen-image]] — Alibaba open-source image model called "open-source king" Jan 2026

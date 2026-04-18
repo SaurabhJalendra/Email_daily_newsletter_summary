@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
+> **Last updated**: 2026-02-04 (backfill 2026-01-20..2026-02-04)
 > **Status**: active
 > **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[translategemma]], [[medgemma]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[universal-commerce-protocol]], [[prompt-injection]], [[computer-use]], [[ai-hardware]], [[ai-healthcare]]
 
@@ -21,6 +21,14 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-16**: Gemini Mac app launches — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT "Gemini Gets TTS and Mac App"; Superhuman "Gemini gets a Mac app"; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome adds "Skills" — save Gemini prompts to reuse across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
+- **2026-02-04**: [[universal-commerce-protocol]] formally announced (Jan 11 2026 retrospective) — co-developed with Shopify to solve N×N agent-commerce integration problem; standardizes checkout, discounts, loyalty across AI platforms; Gemini conversation import from other platforms launched — *source: BUILD AI commerce developer tools; TLDR AI "AI job market"*
+- **2026-02-04**: Former Google engineer convicted of economic espionage / theft of AI trade secrets — *source: TAAFT "AI Agents Built Their Own Society"*
+- **2026-02-01**: [[project-genie]] launches — experimental prototype generating interactive AI worlds via text/image prompts; powered by DeepMind's Genie 3 world model; real-time frame generation responding to user input; Google AI Ultra subscribers in US (18+) — *source: World of AI "Google DROPPED PROJECT GENIE"; World of AI "AI Is Leaving the ChatBox"*
+- **2026-01-29**: Learn Your Way and other Gemini Education tools circulate; Gemini 3 Flash Agentic Vision framing — *source: 2026-01-29 cycle*
+- **2026-01-27**: Google introduces GIST — new AI training method with mathematical guarantees that selections hit at least 50% of optimal value; "safety net" for ML teams training on billions of data points — *source: TAAFT "$70M AI Jackpot"*
+- **2026-01-27**: Apple commits to Gemini-powered Siri for Feb announcement — conversational capabilities akin to ChatGPT; full rollout at WWDC June 2026 (chose Google over OpenAI/Anthropic due to improved tech + reasonable financials) — *source: TLDR "Inside Apple AI"; TLDR AI "Apple's Gemini Siri"*
+- **2026-01-25**: Hume AI acqui-hire reported — voice/emotion AI joins Google — *source: 2026-01-25 cycle*
+- **2026-01-20**: Apple partnership finalization details; Chrome Auto Browse and Gemini 3 Flash Agentic Vision circulates — *source: 2026-01-20 cycle*
 - **2026-01-18**: Walmart partners with Google to integrate Gemini into product discovery and purchase experience (continues [[universal-commerce-protocol]] rollout) — *source: 2026-01-18 cycle*
 - **2026-01-17**: [[translategemma]] released — open translation family on Gemma 3 (55 languages); [[medgemma]] updated to 1.5 (better high-dimensional medical imaging); Personal Intelligence expands; DeepMind CEO discusses current-AI limits (in parallel) — *source: 2026-01-17 cycle*
 - **2026-01-16**: Personal Intelligence launches — connects Gemini to Gmail/Photos/YouTube/Search for personalized answers (Google AI Pro/Ultra subscribers, off by default); [[apple]] replaces ChatGPT with Gemini as Siri's main AI layer in multi-year deal — *source: 2026-01-16 cycle*

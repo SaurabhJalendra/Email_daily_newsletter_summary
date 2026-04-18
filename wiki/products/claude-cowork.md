@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-01-14
-> **Last updated**: 2026-01-19
+> **Last updated**: 2026-02-04
 > **Status**: active
 > **Related**: [[anthropic]], [[claude-code]], [[claude-opus-4-5]], [[agent-frameworks]], [[enterprise-ai]]
 
@@ -18,6 +18,8 @@ Claude Cowork is [[anthropic]]'s general-purpose AI agent for local-file work, l
 
 ## Timeline
 
+- **2026-02-04**: Plugins launch — turns Cowork into domain expert with pre-built skills for sales, legal, finance, marketing, data analysis, customer support, product management, and biology research; plugins can be installed, edited, and shared; video-clipping / editing skill showcased; NASA's Perseverance rover completes first-ever AI-planned Mars drive using Claude — *source: TAAFT "AI Agents Built Their Own Society"; The Rundown AI "social network where humans just watch"; AI Breakfast "Moltbook"; Mindstream*
+- **2026-01-27**: Cowork framed as part of Anthropic's "Claude CoWork effect" traffic surge narrative — *source: AI Breakfast "Clawdbot"*
 - **2026-01-19**: Continued positioning as enabling "flawless audio transcription and 3D camera control" for automating repetitive knowledge work — *source: 2026-01-19 cycle (TAAFT, Superhuman)*
 - **2026-01-18**: Grouped with Claude for Healthcare as Anthropic's enterprise agent push — *source: 2026-01-18 cycle*
 - **2026-01-17**: Highlighted as headline Anthropic product — general-purpose agent that can read, analyze, organize, and create files on a user's computer — *source: 2026-01-17 cycle*

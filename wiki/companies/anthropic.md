@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-01-19 (backfill 2026-01-05..2026-01-19)
+> **Last updated**: 2026-02-04 (backfill 2026-01-20..2026-02-04)
 > **Status**: active
 > **Related**: [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-cowork]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-hardware]]
 
@@ -23,6 +23,13 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - **2026-04-16**: Always-on Routines added to [[claude-code]] — reusable configurations that auto-run on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: Anthropic in London challenging OpenAI in Europe — *source: Forward Future "Anthropic challenges OpenAI in London"*
 - **2026-04-16**: Reports of Anthropic in investor talks at $800B+ valuation — *source: Superhuman "Gemini gets a Mac app"*
+- **2026-02-04**: [[claude-cowork]] plugins launch — turns Claude into a domain expert with pre-packaged skills for sales, legal, finance, marketing, data analysis, customer support, product management, biology research; targets $20B raise at $350B valuation (potential IPO after $13B raise); NASA Perseverance rover completes first AI-planned Mars drive using Claude — *source: TAAFT "AI Agents Built Their Own Society"; The Rundown AI "social network where humans just watch"; The Tech Buzz SignalPulse; AI Breakfast "Moltbook"; Mindstream*
+- **2026-02-04**: [[claude-sonnet-5]] leaks — early testing shows strong math/coding, potentially outperforming [[claude-opus-4-5]], targeted at cost-effective tier with 128K context — *source: TLDR AI "Claude Sonnet 5 leaks"*
+- **2026-02-02**: Pentagon vs Anthropic standoff over acceptable use of Claude in military applications — *source: TAAFT "Finally, AI Glasses That Look Normal"*
+- **2026-02-01**: Dropbox Dash context-engineering writeup references Claude for agentic retrieval patterns (unified retrieval, aggressive context filtering, specialized agents) — *source: Hello, World! "How Dropbox Dash Uses Context Engineering"*
+- **2026-01-27**: [[claude-for-excel]] expands access — now available to Pro-tier customers after three-month beta; Remotion ad-creation tool and Gallup "50% never use AI" report framing in same cycle — *source: The Rundown AI "Anthropic expands its Excel AI push"; Superhuman "Clawdbot, Claude in Excel"*
+- **2026-01-22**: "Adolescence of Technology" essay / framing — Dario Amodei predictions on AI timelines continue to circulate — *source: 2026-01-22 cycle*
+- **2026-01-20**: [[claude-cowork]] momentum continues; ChatGPT-to-Claude migration narrative in community — *source: 2026-01-20 cycle*
 - **2026-01-19**: [[claude-cowork]] coverage continues — positioned for flawless audio transcription, 3D camera control, and repetitive-knowledge-work automation — *source: 2026-01-19 cycle*
 - **2026-01-18**: [[claude-cowork]] + Claude for Healthcare bundled as Anthropic's enterprise agent surface — *source: 2026-01-18 cycle*
 - **2026-01-17**: [[claude-cowork]] headline coverage — general-purpose agent that reads, analyzes, organizes, and creates files on a user's computer; January 2026 Economic Index published (Claude usage across geographies/sectors) — *source: 2026-01-17 cycle*

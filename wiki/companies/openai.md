@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-01-19 (backfill 2026-01-05..2026-01-19)
+> **Last updated**: 2026-02-04 (backfill 2026-01-20..2026-02-04)
 > **Status**: active
 > **Related**: [[sora-2]], [[agentkit]], [[openai-codex]], [[chatgpt]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[openai-for-healthcare]], [[chatgpt-translate]], [[aardvark]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gpt-5-codex-mini]], [[gpt-5-2]], [[gpt-5-2-codex]], [[gpt-image-1-5]], [[merge-labs]], [[anthropic]], [[google]], [[amazon]], [[disney]], [[thinking-machines]], [[broadcom]], [[amd]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]], [[agent-frameworks]], [[agentic-ai-foundation]]
 
@@ -22,6 +22,13 @@ OpenAI is the San Francisco AI lab behind ChatGPT, the GPT model series, and a f
 - **2026-04-16**: GPT-Rosalind introduced — biology-tuned LLM for drug discovery / biological research — *source: TLDR "Opus 4.7, the clip economy, Cloudflare Agents Week"; TLDR AI "GPT Rosalind, Perplexity Personal Computer"*
 - **2026-04-16**: Agents SDK updated — native harness for cross-file / tool workflows, sandboxed execution — *source: TLDR AI "Gemini 3.1 Flash TTS, OpenAI Agents SDK"*
 - **2026-04-16**: Trusted Access program expands (mentions GPT-5 tiered-identity framing continuing) — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
+- **2026-02-04**: [[codex-app]] released — native Codex macOS app; parallel coding agents, Skills library, scheduled Automations, asynchronous background execution; available to ChatGPT Free and Go users with doubled rate limits for paid tiers — *source: TLDR "SpaceX buys xAI"; The Rundown AI "$1.25T super-entity"; World of AI "OpenAI DROPS Codex Desktop"; TLDR AI; The Code by Superhuman*
+- **2026-02-04**: Reports of Amazon in talks for up to $50B investment in OpenAI — would push valuation to ~$830B; Nvidia $100B investment scaled back ("on ice") though Huang denies friction — *source: The Rundown AI; AI Breakfast "Moltbook"; Superhuman; Mindstream; The Tech Buzz*
+- **2026-02-04**: OpenAI internal data agent analyzes 600+ PB across 70,000 datasets — closed-loop reasoning, code-aware table understanding — *source: AlphaSignal "OpenAI's internal data agent"*
+- **2026-02-02**: OpenAI retires GPT-4o, GPT-4.1, and o4-mini from ChatGPT due to low usage (only 0.1% of users choose GPT-4o daily); launches ChatGPT ads beta with $200K minimum commitment — *source: TAAFT "Finally, AI Glasses That Look Normal"; AI Breakfast "Moltbook"*
+- **2026-01-27**: [[openai]] + [[cerebras]] partnership confirmed — Cerebras chips for Codex inference and new voice mode "Garlic"; HubSpot AI income ideas guide — *source: TAAFT "$70M AI Jackpot"; SignalPulse*
+- **2026-01-22**: "Adolescence of Technology" framing spreads via Dario Amodei commentary (cross-company context for OpenAI's parallel AGI roadmap) — *source: 2026-01-22 cycle*
+- **2026-01-20**: ChatGPT Go launches globally at $8/mo; [[chatgpt]] ads US rollout for Free and Go tiers advances; Musk $134B lawsuit framing continues — *source: 2026-01-20 cycle*
 - **2026-01-19**: [[openai]] backs [[merge-labs]] (Sam Altman's BCI startup) with $250M seed at $850M valuation — *source: 2026-01-19 cycle*
 - **2026-01-18**: ChatGPT Ads roll out for Free and Go tiers in the US — promises not to influence answers or sell user data — *source: 2026-01-18 cycle*
 - **2026-01-17**: Invests in [[merge-labs]] (Altman's BCI startup); partners with Cerebras for 750MW inference (confirming Jan 16 $10B deal); [[chatgpt-translate]] launched (50+ languages); [[gpt-5-2-codex]] expanded with multimodal coding/reasoning/security analysis; [[anthropic]] Economic Index Jan 2026 published in parallel — *source: 2026-01-17 cycle*
