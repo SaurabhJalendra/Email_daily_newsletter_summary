@@ -85,6 +85,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills
 - [[claude-haiku-4-5]] — Anthropic's fast, low-cost coding model *(stale)*
+- [[claude-managed-agents]] — Anthropic's fully-managed agent runtime; composable APIs for cloud-hosted agents + Ultraplan (Apr 2026)
 - [[claude-marketplace]] — Anthropic's enterprise marketplace for Claude-powered third-party tools (Mar 2026)
 - [[claude-mythos]] — unreleased Anthropic Claude tier above Opus 4.7; release delayed over cybersecurity risk
 - [[claude-opus-4-5]] — Anthropic's Nov 2025 flagship; 80.9% SWE-bench Verified; T2 Retail 88.9% / Telecom 98.2%
@@ -194,6 +195,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[computer-use]] — models that drive GUIs directly *(stale)*
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation
+- [[project-glasswing]] — Anthropic-led cybersecurity coalition (AWS, Apple, Google, Microsoft, NVIDIA) using Claude Mythos Preview
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures
 - [[universal-commerce-protocol]] — Shopify + Google open protocol for agent-commerce (Jan 2026)
 - [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos

@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-02-17
-> **Last updated**: 2026-04-05
+> **Last updated**: 2026-04-08 (backfill 2026-04-06..2026-04-08)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[moonshot-ai]], [[moltbot]], [[agent-frameworks]]
 
@@ -18,6 +18,9 @@ OpenClaw is an open-source AI agent system created by Peter Steinberger that ope
 
 ## Timeline
 
+- **2026-04-08**: Follow-on to 2026-04-07 third-party restriction — coverage emphasizes that using [[claude-code]] via OpenClaw becomes more expensive for subscribers; developers noted to continue migrating to Moonshot K2.5 / MiniMax M2.7 / GLM-5.1 alternatives via Ollama Cloud — *source: 2026-04-08 cycle*
+- **2026-04-07**: [[anthropic]] blocks third-party agents using [[claude-code]] — OpenClaw explicitly called out; rationale stated as "engineering challenges due to surging demand" (follow-on to 2026-04-05 billing cutoff) — *source: 2026-04-07 cycle (TLDR AI — Anthropic Blocks Third-Party Agents)*
+- **2026-04-06**: OpenClaw runs on [[ollama]] Cloud — framed as a "personal AI assistant that manages inbox, email, and calendar via messaging apps" with Ollama's kimi-k2.5 / glm-5 / minimax-m2.7 / gemma4:31b cloud models — confirms the multi-vendor runtime thesis in the wake of the 2026-04-05 Anthropic cutoff — *source: 2026-04-06 cycle (Ollama Newsletter)*
 - **2026-04-05**: [[anthropic]] ends free OpenClaw access under Claude subscriptions — effective next day 12pm PT, OpenClaw usage is no longer covered by the $20 Claude subscription tier; Anthropic cites unsustainable usage patterns (third-party harness consuming millions of tokens/day per user, far beyond subscription economics); framed by World of AI as "the flat-rate subscription model ending for agentic AI" and as the first of many pricing-strategy resets at frontier labs; same-day: developers migrating in volume to [[kimi-k2-5]] (Moonshot) and MiniMax M2.7 for cheaper OpenClaw harness runtime; [[openai]] — which hired OpenClaw creator Peter Steinberger in Feb 2026 — is reported to continue allowing OpenClaw use via ChatGPT Pro subscription, framed as a strategic counter-move that pulls dev mindshare toward OpenAI — *source: 2026-04-05 cycle (World of AI — Anthropic KILLS Free OpenClaw; Hello World — Claude goes open source / OpenClaw fallout)*
 - **2026-03-31**: [[ollama]] launches Pi — explicitly framed as the coding agent that sits under OpenClaw; `ollama launch pi --model kimi-k2.5:cloud` boots it with Kimi K2.5 as default; extensions, skills, prompt templates, themes, `pi-subagents`, and `pi-autoresearch` are the user-facing harness OpenClaw wraps; Meta's MetaClaw (learn-during-downtime layer) and [[anthropic]]'s Claude Operon biology desktop mode this same cycle signal OpenClaw's emergence as the de-facto agent-runtime abstraction across labs — *source: 2026-03-31 cycle (Ollama Newsletter — Ollama launch Pi: the coding agent behind OpenClaw; AI Breakfast — MetaClaw / Claude Operon)*
 - **2026-03-30**: Managed-deployment wave — [[amazon]] Lightsail adds 1-click OpenClaw-into-AWS deployment; [[nvidia]] NemoClaw wraps OpenClaw in a secure sandbox; Zenity ships open-source agent-action inspection framework; Onyx AI publishes "CLAW-10" enterprise requirements (sandboxed execution, RBAC, immutable audit logs, data isolation, verified supply chains); BitStrike + BitDefender studies find tens of thousands of exposed OpenClaw instances; a "confused deputy" incident cited at Meta Superintelligence Labs as cautionary example of agent losing constraints while retaining system privileges — *source: 2026-03-30 cycle (AlphaSignal — The end of the Mac Mini era for scaling OpenClaw agents)*

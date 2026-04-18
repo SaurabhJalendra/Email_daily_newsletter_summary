@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-03-31 (backfill 2026-02-20..2026-03-31)
+> **Last updated**: 2026-04-14 (backfill 2026-04-14)
 > **Status**: active
 > **Related**: [[nvidia]], [[grok-4-1]], [[grok-4-20]], [[grokipedia]], [[grok-imagine]], [[ai-hardware]], [[ai-funding-rounds]]
 
@@ -18,6 +18,7 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 ## Timeline
 
+- **2026-04-14**: Grok Build credits system in development for upcoming launch — local CLI + remote web interfaces; credits-based pricing model (departure from flat-subscription model that's breaking down at [[anthropic]]); tracks the xAI-entering-AI-coding thesis from 2026-03-14 Cursor-lead poaching — *source: 2026-04-14 cycle*
 - **2026-04-16**: Terafab reaches out to chipmaking suppliers for price quotes and delivery timelines, requesting speedy estimates with minimal product disclosure — *source: TLDR "Inside Elon's Terafab"*
 - **2026-04-16**: xAI starts repurposing compute stockpile for external customers — *source: Forward Future "Anthropic challenges OpenAI in London"*
 - **2026-03-31**: Last remaining co-founder exits — completes the departure of xAI's original founding team (2026-03-16 coverage had cited 9 of 11; this exit closes the set); reinforces Musk's earlier "full rebuild" framing and ongoing poaching from [[cursor]] — *source: 2026-03-31 cycle (TLDR AI — last xAI cofounder exits)*

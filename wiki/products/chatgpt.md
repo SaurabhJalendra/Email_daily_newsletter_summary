@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-07
-> **Last updated**: 2026-02-19 (backfill 2026-01-20..2026-02-19)
+> **Last updated**: 2026-04-14 (backfill 2026-04-06..2026-04-14)
 > **Status**: active
 > **Related**: [[openai]], [[gpt-5-1]], [[agentkit]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[chatgpt-translate]], [[sora-2]], [[ai-regulation]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,9 @@ ChatGPT is [[openai]]'s flagship consumer AI assistant. At DevDay 2025 OpenAI re
 
 ## Timeline
 
+- **2026-04-14**: Tubi launches a native app inside ChatGPT — users find and stream content with a single prompt; extends the ChatGPT-as-app-platform thesis into free ad-supported TV — *source: 2026-04-14 cycle*
+- **2026-04-11**: ChatGPT Pro $100/mo tier introduced — higher Codex usage limits for longer, high-effort coding sessions; targeted at power developer users — *source: 2026-04-11 cycle*
+- **2026-04-06**: ChatGPT rolls out on Apple CarPlay — voice-mode interaction without on-screen text; first in-car ChatGPT surface — *source: 2026-04-06 cycle*
 - **2026-02-18**: ChatGPT Lockdown Mode rolls out — restricted high-security session mode for sensitive enterprise/government workflows — *source: 2026-02-18 cycle*
 - **2026-02-13**: ChatGPT ads expand from beta to wider US rollout in Free and Go tiers — sponsored placements alongside organic responses — *source: 2026-02-13 cycle*
 - **2026-02-09**: ChatGPT Skills launches — packaged, reusable agent capabilities inside ChatGPT (parallel/competitor to Anthropic [[agent-skills]]); Deep Research updated with longer horizon and richer report structure — *source: 2026-02-09 cycle*

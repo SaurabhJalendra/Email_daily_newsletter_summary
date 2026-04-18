@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-03
-> **Last updated**: 2026-04-04 (backfill 2026-04-04)
+> **Last updated**: 2026-04-15 (backfill 2026-04-06..2026-04-12)
 > **Status**: active
 > **Related**: [[perplexity-comet]], [[perplexity-computer]], [[perplexity-personal-computer]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[amazon]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,10 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 
 ## Timeline
 
+- **2026-04-12**: [[perplexity-computer]] adds bank/credit-card/loan account integration — analyzes spending, builds custom budget trackers; also ships "notebooks" feature for organizing chats, files, and custom instructions — *source: 2026-04-12 cycle*
+- **2026-04-11**: [[perplexity-computer]] adds Plaid integration for unified financial tracking — deeper financial analysis tooling — *source: 2026-04-11 cycle*
+- **2026-04-10**: Revenue up 50% month-over-month; annual recurring revenue estimated past $450M; tax agent shipped for [[perplexity-computer]] using updated IRS materials — *source: 2026-04-10 cycle*
+- **2026-04-06**: Tax automation reframed prominently — [[perplexity-computer]] drafts federal returns on official IRS forms, reviews professionally prepared filings, and flags missed deductions in real time — *source: 2026-04-06 cycle (TAAFT — Perplexity Does Your Taxes)*
 - **2026-04-04**: Tax-filing automation ships in Perplexity — uploads user tax documents, answers a Q&A flow, and applies up-to-date tax code to prepare + file federal returns; framed as a consumer-facing agentic task that sidesteps traditional tax-prep software (TurboTax/H&R Block category) — *source: 2026-04-04 cycle (The Rundown AI — Perplexity files your taxes)*
 - **2026-04-02**: Secure Intelligence Institute launches — Perplexity-backed research institute focused on AI security, privacy, and trust; framed as industry counter-posture to the Claude Code source-code leak cycle (same day) and to broader agent-access legal fights (follow-on to the 2026-03-12 [[amazon]] injunction) — *source: 2026-04-02 cycle (FutureTools — Apple pivots AI strategy / Perplexity Secure Intelligence Institute)*
 - **2026-03-21**: Perplexity Health enters US market — customizable health hub with specialized AI agents leveraging real user data for personalized insights — *source: 2026-03-21 cycle*
@@ -74,3 +78,7 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 - data/summaries/2026-03-21.json (Perplexity Health US launch)
 - data/summaries/2026-04-02.json (FutureTools — Perplexity Secure Intelligence Institute)
 - data/summaries/2026-04-04.json (The Rundown AI — Perplexity files your taxes)
+- data/summaries/2026-04-06.json (TAAFT — Perplexity Does Your Taxes; IRS-form drafting)
+- data/summaries/2026-04-10.json (Revenue 50% MoM growth / $450M ARR; tax agent ship)
+- data/summaries/2026-04-11.json (Plaid integration for Perplexity Computer)
+- data/summaries/2026-04-12.json (bank/credit/loan integrations; notebooks feature)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-03-31
-> **Last updated**: 2026-04-01
+> **Last updated**: 2026-04-13 (backfill 2026-04-06..2026-04-13)
 > **Status**: active
 > **Related**: [[openclaw]], [[moonshot-ai]], [[agent-frameworks]]
 
@@ -18,6 +18,9 @@ Ollama is the company behind the widely-used local-model runtime of the same nam
 
 ## Timeline
 
+- **2026-04-13**: GLM-5.1 (ZAI) lands on Ollama Cloud — flagship open-weight coding agent; significantly stronger coding capabilities framing — *source: 2026-04-13 cycle*
+- **2026-04-08**: Gemma 4 available on Ollama — frontier-level performance framing for reasoning / agentic workflows / coding / multimodal; four sizes (2B, 4B, 26B, 31B) deployable locally — *source: 2026-04-08 cycle*
+- **2026-04-06**: Ollama Cloud powers [[openclaw]] — OpenClaw framed as "personal AI assistant that manages inbox, email, calendar via messaging apps" running on Ollama's cloud models (kimi-k2.5 / glm-5 / minimax-m2.7 / gemma4:31b cloud variants) — *source: 2026-04-06 cycle*
 - **2026-04-01**: Ollama rebuilt on [[apple]] MLX for Apple-silicon speedups — unified-memory architecture leveraged for large time-to-first-token and tokens/sec gains on M5 / M5 Pro / M5 Max GPU Neural Accelerators; added support for NVIDIA NVFP4 (production-parity low-precision inference); cache overhaul cuts memory use, adds intelligent checkpoints and smarter eviction of shared prefixes — positioned as the runtime for macOS-first agents like [[openclaw]], [[claude-code]], OpenCode, and [[openai-codex]]; bench model used is [[alibaba]]'s Qwen3.5-35B-A3B quantized to NVFP4; int4 path coming in Ollama 0.19 — *source: 2026-04-01 cycle (Ollama Newsletter — fastest on Apple silicon / MLX + NVFP4)*
 - **2026-03-31**: Pi launched — minimal coding agent positioned as the harness behind [[openclaw]]; bootstrapped via `ollama launch pi --model kimi-k2.5:cloud` (uses [[moonshot-ai]] Kimi K2.5 as default cloud model); infinitely customizable with pi-packages, subagents (`pi-subagents` for deep research / large-codebase refactors), prompt templates, themes, and `pi-autoresearch` (Karpathy-inspired autonomous optimization loops); works with both local models and Ollama's Pro/Max cloud tier — *source: 2026-03-31 cycle (Ollama Newsletter — Ollama launch Pi: the coding agent behind OpenClaw)*
 

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-05 (backfill 2026-04-05)
+> **Last updated**: 2026-04-15 (backfill 2026-04-06..2026-04-15)
 > **Status**: active
 > **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[google]], [[alibaba]], [[world-models]], [[world-labs]], [[ai-hardware]]
 
@@ -18,6 +18,12 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 
 ## Timeline
 
+- **2026-04-15**: Meta reportedly building a photorealistic AI clone of Mark Zuckerberg — trained on his mannerisms, tone, and publicly available statements — to advise employees when the real CEO is unavailable; framed as a novel "CEO digital twin" use case — *source: 2026-04-15 cycle*
+- **2026-04-12**: Coverage recirculates [[muse-spark]] framing as "first model from Meta Superintelligence Labs, built to power a more advanced and personal AI assistant" with native multimodal reasoning — *source: 2026-04-12 cycle*
+- **2026-04-11**: [[muse-spark]] described as first model from Meta Superintelligence Labs — handles text and images, runs multiple AI sub-agents, toggles "Instant" vs "Thinking" modes for speed/reasoning trade-off; separately, Meta AI proposes "Neural Computer" shift — models *acting as* computers, training on screen recordings, reproducing desktop/terminal workflows end-to-end — *source: 2026-04-11 cycle*
+- **2026-04-10**: [[muse-spark]] launched — multimodal AI model with "Contemplating mode" that runs multiple agents in parallel to solve complex problems without increasing latency; covers coding, visual analysis, health insights — part of Meta's push toward personal and capable AI systems — *source: 2026-04-10 cycle*
+- **2026-04-08**: Meta framed as planning to release some new AI models with an open-source license focused on consumers rather than enterprise — hints at a selective reversal of the open-weights-pivot narrative around Muse — *source: 2026-04-08 cycle*
+- **2026-04-06**: Hyperion AI data center backing 10 natural gas plants (reconfirming 04-04 reporting) — projected ~50% increase in Meta's CO2 footprint; sharpens the ai-energy-footprint trend — *source: 2026-04-06 cycle (Mindstream)*
 - **2026-04-05**: Ray-Ban Meta Rx smart glasses launch for prescription users — brings AI assistant + cameras + on-frame display to corrective eyewear, expanding beyond clear-lens Ray-Ban frames and pulling the 2026-03-07 Sama-annotator privacy story into a larger deployed user base; positioning: first mass-market AI-enabled prescription frames ahead of [[apple]]'s competing AR pipeline — *source: 2026-04-05 cycle (The Tech Buzz — Meta Prescription Glasses)*
 - **2026-04-04**: Hyperion AI data center details surface — Louisiana build projected at $27B and 7.5 GW (roughly the power draw of the entire state of South Dakota); plan includes ~10 new natural-gas plants and is projected to add ~12.4M metric tons of CO2/year (a ~50% increase over Meta's 2024 footprint); framed as the emblematic case for Big-Tech AI buildouts blowing through prior climate commitments; same cycle: Intel puts ~$15M into SambaNova for a ~9% stake — the Intel angle is framed as a hedge toward non-NVIDIA silicon — *source: 2026-04-04 cycle (TLDR — Meta Hyperion data center; Superhuman — South-Dakota-equivalent power draw; The Tech Buzz — 10 natural gas plants + emissions; Forward Future — Intel SambaNova stake)*
 - **2026-04-16**: Signs $21B deal with CoreWeave for AI cloud infrastructure — early Vera Rubin GPU deployments included ([[nvidia]]) — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
@@ -130,3 +136,9 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 - data/summaries/2026-03-28.json (The Rundown AI — open-source brain AI TRIBE v2; Superhuman — TRIBE v2 fMRI data; AI Breakfast — tri-modal TRIBE v2; FutureTools — Meta AI pivot layoffs / $600B data-center plan)
 - data/summaries/2026-04-04.json (TLDR — Hyperion data center; Superhuman — South-Dakota-equivalent power draw; The Tech Buzz — 10 natural gas plants + 12.4M t/yr CO2; Forward Future — Intel $15M SambaNova stake)
 - data/summaries/2026-04-05.json (The Tech Buzz — Meta Prescription Ray-Ban smart glasses)
+- data/summaries/2026-04-06.json (Mindstream — Hyperion data center + 10 gas plants + CO2)
+- data/summaries/2026-04-08.json (selective open-source consumer-model plans)
+- data/summaries/2026-04-10.json (Muse Spark launch — Contemplating mode / parallel agents)
+- data/summaries/2026-04-11.json (Muse Spark "Instant/Thinking" modes; Neural Computer paradigm)
+- data/summaries/2026-04-12.json (Muse Spark recirc — Meta Superintelligence Labs framing)
+- data/summaries/2026-04-15.json (AI clone of Mark Zuckerberg trained to advise employees)

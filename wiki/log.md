@@ -4,6 +4,199 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-04-15
+**Ingested**: data/summaries/2026-04-15.json (backfill)
+
+**Pages updated**:
+- [[anthropic]] — Revenue surges past $30B in three years (aggregate framing); regulators warn major banks about cybersecurity risks linked to [[claude-mythos]] Preview
+- [[meta]] — Photorealistic AI clone of Mark Zuckerberg built to advise employees when the real CEO is unavailable
+- [[google]] — [[gemini-enterprise]] desktop Agent updated (task-execution workspace shift); new AI coding feature for managing a *fleet* of coding agents; Google DeepMind publishes "8 tips for better agent skills" thread
+- [[cursor]] — Cursor 3.1 releases fleet-of-agents management surface
+- [[vercel]] — Open Agents open-sourced — cloud coding-agent platform for hundreds of agents simultaneously
+- [[lovable]] — Lovable Payments ships (sell products directly from Lovable sites via chat)
+- [[microsoft]] — Gamepad Cursor testing for Windows handheld gaming (controller joystick as virtual mouse)
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-04-15 is the day multi-agent *fleet* management becomes a cross-vendor industry default. In a single news cycle, [[cursor]] 3.1, [[vercel]] Open Agents, and [[google]] all ship or announce features that let users run *fleets* of coding agents in parallel — individual IDE pair-programming retreats in favor of the dev-as-agent-orchestrator model. Anthropic's $30B revenue framing is repeated from 2026-04-10 but now paired with "regulators warn banks about Mythos cybersecurity risks" — the first regulatory-posture signal against [[claude-mythos]] Preview usage in financial services, reinforcing the 2026-04-09/13 "Mythos is too dangerous to release" thesis from the opposite direction (Mythos is already *being used* at scale enough to worry regulators). Meta's Zuckerberg AI clone lands as the most concrete "AI executive clone" headline yet — a second-mention of the leadership-clone pattern (TuringOS Oct 2025 precedents).
+
+---
+
+## 2026-04-14
+**Ingested**: data/summaries/2026-04-14.json (backfill)
+
+**Pages updated**:
+- [[anthropic]] — [[claude-managed-agents]] formally launches as fully-managed runtime for building + deploying AI agents; Ultraplan ships as cloud-based collaborative task-planning companion tool; [[claude-code]] desktop experience being overhauled; Coordinator Mode in development (Claude as orchestrator delegating implementation to parallel sub-agents)
+- [[openai]] — Unified Codex app + Scratchpad feature (parallel Codex tasks from a new UI); Tubi launches native app inside ChatGPT; Sam Altman Molotov-cocktail attack on his home; publishes policy document on AI societal reshaping
+- [[xai]] — Grok Build credits system in development for upcoming launch; local CLI + remote web interfaces; credits-based pricing
+- [[minimax]] — M2.7 released as open-weight on Hugging Face (230B params, runnable on 128GB RAM)
+- [[google]] — PaperOrchestra multi-agent LaTeX research-paper workflow; Demis Hassabis predicts AGI within five years
+- [[apple]] — Display-free smart glasses for 2027 release — multiple frame styles; integrated cameras/microphones/speakers
+- [[claude-managed-agents]] — Ultraplan added
+- [[claude-code]] — Coordinator Mode + desktop overhaul entries
+- [[chatgpt]] — Tubi native app inside ChatGPT
+
+**Pages created**: *(none — Ultraplan captured inside [[claude-managed-agents]] rather than its own page)*
+
+**Notable**: 2026-04-14 crystallizes the *agent orchestrator* pattern across four labs in one cycle. [[anthropic]] ships [[claude-managed-agents]] + Ultraplan + [[claude-code]] Coordinator Mode; [[openai]] ships unified Codex app + Scratchpad for parallel Codex tasks; [[xai]] prepares Grok Build credits for a local-CLI + remote-web coding surface; [[google]] ships PaperOrchestra multi-agent LaTeX. Orchestration-as-default is now the industry frame for developer AI tools. The Sam Altman Molotov attack + "AI could reshape society faster than anyone has prepared for" policy doc lands the same day — this is the first cycle where the anti-AI-sentiment threat against a frontier-lab CEO is physical, not just narrative. Apple's display-free smart glasses for 2027 add a third 2027-wearable-push timeline alongside Meta Ray-Ban Rx.
+
+---
+
+## 2026-04-13
+**Ingested**: data/summaries/2026-04-13.json (backfill)
+
+**Pages updated**:
+- [[anthropic]] — "Mythos Breach" framing — TAAFT reports hackers identified as "Project Glasswing" breached Anthropic's secret Mythos project exposing critical vulnerabilities *(contradicts the Apr 9/11 coalition framing — flagged as open question)*; [[claude-code]] 512K-line leak re-circulates; Managed Agents launch continues recirculating
+- [[claude-mythos]] — Mythos-breach framing added to timeline; contradiction flagged
+- [[project-glasswing]] — 2026-04-13 "hackers" framing documented as conflicting interpretation
+- [[claude-code]] — Leak recirculation entry; "harness engineering" framing
+- [[ollama]] — GLM-5.1 lands on Ollama Cloud
+- [[openai]] — OpenAI suggests employers consider 4-day work week / better pensions / childcare support as AI reshapes the workforce
+- [[ai-jobs-displacement]] — 4-day work week suggestion folded in
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-04-13 introduces a newsletter-level *contradiction* in the [[project-glasswing]] framing: earlier cycles (04-09 / 04-11) frame it as a cybersecurity coalition led by Anthropic with AWS/Apple/Google/Microsoft/NVIDIA partners, but today's TAAFT headline frames it as a *hacker group* that breached Anthropic's Mythos. The wiki resolves this by documenting both interpretations on the [[project-glasswing]] and [[claude-mythos]] pages and flagging it as an open question pending a third-mention resolution. OpenAI's 4-day work week proposal — paired with pensions and childcare — lands as the most explicit labor-policy recommendation yet from a frontier lab, extending [[ai-jobs-displacement]] beyond diagnostics into proactive-policy territory.
+
+---
+
+## 2026-04-12
+**Ingested**: data/summaries/2026-04-12.json (backfill)
+
+**Pages updated**:
+- [[anthropic]] — [[claude-code]] Word integration (Word, Excel, PowerPoint, PDF files handled directly); recirculates Managed Agents framing
+- [[perplexity]] — [[perplexity-computer]] bank/credit card/loan integration + Notebooks feature for organizing chats/files/custom instructions
+- [[perplexity-computer]] — Bank/credit/loan integration + Notebooks feature
+- [[meta]] — [[muse-spark]] recirculates as first model from Meta Superintelligence Labs
+- [[muse-spark]] — Superintelligence Labs first-model framing
+- [[elevenlabs]] — On-device AI models for on-premise/edge deployment *(light touch — not a primary update)*
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-04-12 is a relatively light AI-industry cycle — most headlines are cross-domain (Waymo Nashville launch, FDA peptide ruling, hydrogen-powered cargo planes) rather than AI-native. Two coherent AI threads advance: (1) Perplexity Computer shifts from tax-agent story into full personal-finance territory with bank/credit/loan connections + Notebooks organization, sharpening its "general agentic-work layer" positioning vs ChatGPT; (2) Anthropic's Claude-in-Word framing gives it its first fully embedded consumer-office surface beyond Excel — pulls the Claude-in-Office thread into a mass-market venue (Word has ~1B users vs Excel's tighter finance base).
+
+---
+
+## 2026-04-11
+**Ingested**: data/summaries/2026-04-11.json (backfill)
+
+**Pages updated**:
+- [[meta]] — [[muse-spark]] positioned as competitive with OpenAI and Anthropic; handles text + images; parallel sub-agents; toggles between "Instant" and "Thinking" modes; Neural Computer paradigm (models *as* computers, training on screen recordings)
+- [[muse-spark]] — Instant/Thinking toggle; OpenAI/Anthropic-competitive positioning
+- [[anthropic]] — [[project-glasswing]] coalition framing (secure critical software using unreleased Claude Mythos Preview)
+- [[project-glasswing]] — Coalition framing confirmed (pre-2026-04-13 contradiction)
+- [[openai]] — ChatGPT Pro $100/mo tier with higher Codex usage limits; Stargate UK paused (high energy costs + unclear regulation)
+- [[chatgpt]] — ChatGPT Pro $100/mo tier
+- [[perplexity]] — [[perplexity-computer]] adds Plaid integration for unified financial tracking
+- [[perplexity-computer]] — Plaid integration
+- [[google]] — Gemini app generates interactive simulations directly in chat; Google Finance goes global in 100+ countries with Gemini chatbot
+- [[cursor]] — Agents can attach demos/screenshots to PRs
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-04-11 completes the [[muse-spark]] launch arc — positioning is now explicitly OpenAI/Anthropic-competitive, with the "Neural Computer" paradigm (models training on screen recordings, acting *as* computers rather than using them) added as Meta's architectural differentiator. OpenAI pausing Stargate UK due to high energy costs + unclear regulation is the first concrete AI-infrastructure project to be paused for policy/energy reasons — complements the Meta Hyperion CO2 framing from 2026-04-04. ChatGPT Pro at $100/mo with higher Codex limits re-fragments the OpenAI price curve ($20 Plus / $100 Pro / $200 Pro old tier / $44B projected loss tension).
+
+---
+
+## 2026-04-10
+**Ingested**: data/summaries/2026-04-10.json (backfill)
+
+**Pages updated**:
+- [[meta]] — [[muse-spark]] launches — multimodal model supporting coding, visual analysis, health insights; headline "Contemplating mode" runs multiple agents in parallel without added latency
+- [[muse-spark]] — Launch entry — multimodal support + Contemplating mode
+- [[anthropic]] — [[claude-managed-agents]] launches — composable APIs for cloud-hosted agents at scale; annualized revenue surges to $30B with 1,000+ enterprise customers spending >$1M/year
+- [[claude-managed-agents]] — Launch entry
+- [[claude-mythos]] — Explicitly framed as "will not be released publicly due to concerns over accelerating cyberattacks" — Mythos-too-dangerous-to-release thesis crystallized
+- [[perplexity]] — Revenue +50% MoM, ARR past $450M; [[perplexity-computer]] tax agent ships using updated IRS materials
+- [[perplexity-computer]] — Tax agent ship entry
+- [[openai]] — $122B funding pushes valuation to $852B; eyes IPO later this year
+- [[broadcom]] — Expands Google + Anthropic deals (gigawatt TPU follow-on)
+- [[cursor]] — Bugbot (code reviewer) upgraded to learn on the job and track developer interactions
+- [[google]] — Colab Gemini Custom Instructions + Learn Mode
+
+**Pages created**:
+- [[claude-managed-agents]] — Fully-managed agent runtime (Anthropic, Apr 2026)
+
+**Notable**: 2026-04-10 is the day the Anthropic-vs-OpenAI financial gap narrows into comparable-scale territory — Anthropic $30B annualized revenue with 1,000+ enterprise customers spending $1M+/year lands the same day OpenAI raises $122B at $852B valuation. Both labs are now genuinely contesting the same enterprise wallet. [[muse-spark]]'s Contemplating-mode (parallel sub-agents without added latency) is Meta's first credible architectural differentiator since Llama 3 — the parallel-reasoning-without-latency bet contrasts sharply with frontier serial reasoners like [[gpt-5-3-codex]] and [[claude-opus-4-7]]. [[claude-managed-agents]] formalizes Anthropic's platform play: the shift from model provider to agent-runtime provider, following OpenAI's AgentKit trajectory but with a managed-compute angle that slots into the gigawatt TPU deal from 2026-04-08.
+
+---
+
+## 2026-04-09
+**Ingested**: data/summaries/2026-04-09.json (backfill)
+
+**Pages updated**:
+- [[anthropic]] — Announces [[project-glasswing]] cybersecurity coalition — led by Anthropic, partners include AWS, Apple, Google, Microsoft, NVIDIA; uses [[claude-mythos]] Preview to detect + fix vulnerabilities at scale; [[claude-mythos]] framed as discovering thousands of zero-day vulnerabilities but being held back from public release due to safety concerns
+- [[claude-mythos]] — Benchmark numbers surface — 93.9% SWE-bench Verified, 77.8% SWE-bench Pro
+- [[project-glasswing]] — Coalition partners documented (AWS, Apple, Google, Microsoft, NVIDIA)
+- [[apple]] — [[project-glasswing]] partner disclosure
+- [[microsoft]] — [[project-glasswing]] partner disclosure
+- [[nvidia]] — [[project-glasswing]] partner disclosure
+- [[google]] — Google AI Edge Eloquent — free offline dictation app using Gemma-based speech recognition
+- [[openai]] — Publishes "Industrial Policy for the Intelligence Age" — proposes recommendations for AI's impact on work and the economy
+
+**Pages created**:
+- [[project-glasswing]] — Anthropic-led cybersecurity coalition using Claude Mythos Preview (topic)
+
+**Notable**: 2026-04-09 is the day Anthropic frames [[claude-mythos]] not just as a capability but as a *cybersecurity governance* vehicle — [[project-glasswing]] turns the too-dangerous-to-release framing from 2026-04-08 into a coordinated industry posture (AWS/Apple/Google/Microsoft/NVIDIA as cybersecurity partners). SWE-bench numbers finally leak — 93.9% Verified, 77.8% Pro — placing Mythos well above [[claude-opus-4-7]]. OpenAI's "Industrial Policy for the Intelligence Age" is the policy-counterpart to Anthropic's Glasswing play: if Anthropic gets cybersecurity governance, OpenAI pitches economic governance. Both labs are now openly lobbying for how AI should be governed, not just regulated.
+
+---
+
+## 2026-04-08
+**Ingested**: data/summaries/2026-04-08.json (backfill)
+
+**Pages updated**:
+- [[openai]] — Proposes AI tax policy linking AI systems to economic infrastructure (taxation, access, shared capital); addresses gaps in current systems that rely on labor as main source of value
+- [[anthropic]] — Confirms third-party blockage of [[claude-code]] via [[openclaw]]-style harnesses makes Claude Code more expensive for subscribers; partners with Google + Broadcom for gigawatt-scale TPU capacity to power Claude models
+- [[broadcom]] — Anthropic + Google + Broadcom gigawatt TPU partnership
+- [[google]] — TurboQuant 3-bit precision KV-cache compression with zero accuracy loss; [[ai-edge-gallery]] continues
+- [[ollama]] — Gemma 4 available on Ollama (2B/4B/26B/31B sizes, local deployment)
+- [[openclaw]] — Third-party harness blockage follow-on — Claude Code via OpenClaw more expensive for subscribers
+- [[meta]] — Plans to release some new AI models with an open-source license (consumer focus rather than enterprise)
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-04-08 is the day the frontier labs start publishing policy proposals as competitive positioning. OpenAI's proposed AI-tax-policy (taxation, access, shared capital) is framed as addressing gaps in systems that rely on labor — complements the Industrial Policy document that will land on 2026-04-09. Anthropic's gigawatt-scale TPU partnership with Google + Broadcom is the infrastructure follow-through to the 2026-04-02 Secure Intelligence Institute launch — Anthropic is now the first major Claude competitor to Google-native TPU compute at gigawatt scale (sharing Google's silicon economics). TurboQuant claims 3-bit precision compression at zero accuracy loss, extending the 2026-04-03 6× framing but with a tighter numerical claim.
+
+---
+
+## 2026-04-07
+**Ingested**: data/summaries/2026-04-07.json (backfill)
+
+**Pages updated**:
+- [[anthropic]] — Restricts use of [[claude-code]] for third-party platforms like [[openclaw]] citing "engineering challenges due to surging demand"; Coefficient Bio $400M acquisition recirculates
+- [[openclaw]] — Third-party blockage against [[claude-code]] explicitly called out
+- [[claude-code]] — Third-party restriction entry
+- [[microsoft]] — Azure launches Copilot Migration Agent — simplifies migration data analysis + automates landing-zone requirements
+- [[google]] — DeepMind AlphaEvolve rewrites its own game-theory strategies, producing new strategies that outclass human-designed ones in games with hidden information
+- [[openai]] — IPO-plans tension — concerns over aggressive spending and push to go public this year
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-04-07 is the day Anthropic formalizes the third-party harness blockage that was previewed on 2026-04-05 as a billing cutoff. The rationale shifts from "unsustainable usage" (business framing) to "engineering challenges due to surging demand" (technical framing) — this is the first explicit *technical* reason given, signaling load-shedding rather than revenue protection. Same cycle: OpenAI's IPO-plans tension gets aired publicly for the first time (vs the Dec 2025 "Anthropic to Go Public" framing), extending the [[ai-ipo-wave]] narrative from a go-public question to a how-public question.
+
+---
+
+## 2026-04-06
+**Ingested**: data/summaries/2026-04-06.json (backfill)
+
+**Pages updated**:
+- [[anthropic]] — [[claude-mythos]] introduced as "a tier above Opus, reportedly powerful enough to brief governments on cybersecurity risks"; study on what people want from AI (professional excellence / personal transformation / life management rather than just time-saving); [[claude-code]] virtual pets ship
+- [[claude-mythos]] — "Brief governments on cybersecurity risks" framing entry
+- [[claude-code]] — Virtual-pets-in-terminals feature
+- [[perplexity]] — Tax workflow broadly covered — [[perplexity-computer]] drafts federal returns directly on official IRS forms, reviews professionally prepared filings, flags missed deductions in real time
+- [[perplexity-computer]] — IRS-form drafting tax workflow
+- [[apple]] — Rebuilding Siri as a standalone AI agent app with personal data access and systemwide voice control
+- [[chatgpt]] — Rolls out on Apple CarPlay (voice mode without on-screen text)
+- [[google]] — Gap embeds direct-checkout AI chatbot turning Gemini into part stylist / part salesperson
+- [[ollama]] — Ollama Cloud powers OpenClaw (personal AI assistant managing inbox/email/calendar via messaging apps)
+- [[openclaw]] — Runs on Ollama Cloud models (kimi-k2.5 / glm-5 / minimax-m2.7 / gemma4:31b)
+
+**Pages created**: *(none — [[claude-mythos]] already existed from earlier cycles)*
+
+**Notable**: 2026-04-06 is the day [[claude-mythos]] starts its *governance* framing — "powerful enough to brief governments on cybersecurity risks" plants the seed for the 2026-04-09 [[project-glasswing]] coalition announcement. Perplexity's tax workflow drops onto IRS forms directly — the first consumer-facing AI product to generate regulatory-grade tax returns on real government paperwork rather than a TurboTax-style wrapper. The Apple/Google/Ollama cycle is cross-vendor convergence on *agent-as-system-surface*: Apple rebuilds Siri as a standalone agent app, Google embeds Gemini into Gap's retail checkout as a retail agent, Ollama Cloud becomes a multi-model runtime for OpenClaw. Claude Code's "virtual pets in the terminal" is a whimsical but real product signal — Anthropic is now comfortable adding personality/play surfaces to a coding tool.
+
+---
+
 ## 2026-04-05
 **Ingested**: data/summaries/2026-04-05.json (11 newsletters — 1 Real Intent webinar ping, 2 Skool notification stubs, 1 Chase AI Community digest, and 1 JournalClub Smart Airport Radar paper filtered out as non-AI-industry or promotional)
 

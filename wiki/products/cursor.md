@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-04
-> **Last updated**: 2026-04-05 (backfill 2026-03-07..2026-04-05)
+> **Last updated**: 2026-04-15 (backfill 2026-04-06..2026-04-15)
 > **Status**: active
 > **Related**: [[agent-frameworks]], [[jules]], [[claude-code]], [[replit]], [[cursor-composer]], [[cognition]]
 
@@ -18,6 +18,9 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 
 ## Timeline
 
+- **2026-04-15**: Cursor 3.1 released — lets users manage a *fleet* of coding agents at once; doubles down on the parallel-agent thesis; parallels Google's same-day "manage a fleet of coding agents" feature and [[vercel]]'s Open Agents open-sourcing — multi-agent-management becomes an industry-default surface in a single week — *source: 2026-04-15 cycle*
+- **2026-04-11**: Cursor lets agents attach demos and screenshots to pull requests for easier review — PR-review surface for agent output — *source: 2026-04-11 cycle*
+- **2026-04-10**: Bugbot (code reviewer) upgraded to learn on the job and track developer interactions — agent-self-tuning from real review feedback — *source: 2026-04-10 cycle*
 - **2026-04-05**: Agents Window ships — dedicated surface for running coding agents in parallel across multiple repositories, worktrees, and cloud VMs; covered in TAAFT as "Cursor ditches the IDE" framing (agent-first workflow replacing in-editor pairing); reinforces the Cursor 3 multi-repo thesis and makes parallel-agent work the default rather than opt-in — *source: 2026-04-05 cycle (TAAFT — Cursor launches Agents Window for parallel coding / Cursor Ditches the IDE)*
 - **2026-04-04**: Cursor 3 released — major interface overhaul built explicitly for agent-driven development: multi-repo workspace (agents coordinate across multiple repositories without context switching), clearer abstraction over agent work (shows what each agent is doing at a higher level), and seamless hand-off between local and cloud agents (start in local IDE, continue in cloud, return to local); new Design Mode — a visual editing layer where developers click-to-edit, drag-to-draw, and feed selections straight into the agent chat; framed as positioning Cursor for a future where agents handle the bulk of software development and developers operate at a higher level of abstraction; Moonshot AI's Kimi K2.5 is reportedly the underlying model used to build Cursor 3 (Moonshot also quadruples its valuation to $18B the same cycle) — *source: 2026-04-04 cycle (TLDR — Cursor 3; The Code — IDE built for agents; TLDR AI — Cursor 3 multi-repo + clearer abstraction; Forward Future — Cursor introduces Cursor 3; Superhuman — Cursor 3)*
 - **2026-03-28**: Real-time RL training detailed for [[cursor-composer]] — Composer learns from real inference tokens by observing user responses (accept / reject / edit), closing the online-learning loop that other in-house coding models haven't exposed — *source: 2026-03-28 cycle (AlphaSignal — Cursor Real-time RL)*

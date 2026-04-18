@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-04-04 (backfill 2026-04-04)
+> **Last updated**: 2026-04-09 (backfill 2026-04-09)
 > **Status**: active
 > **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[vera-rubin]], [[alpamayo]], [[nitrogen]], [[xai]], [[openai]], [[anthropic]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-healthcare]], [[ai-bubble-concerns]]
 
@@ -22,6 +22,7 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-04-16**: GTC Taipei at COMPUTEX 2026 registration opens; DeepStream Coding Agents tutorial published — *source: NVIDIA Developer News*
+- **2026-04-09**: NVIDIA disclosed as partner in [[project-glasswing]] cybersecurity coalition led by [[anthropic]] (alongside AWS, Apple, Google, Microsoft) — detection + remediation of vulnerabilities at scale via Claude Mythos Preview — *source: 2026-04-09 cycle*
 - **2026-04-04**: NVIDIA optimizes Google's new [[gemma-4]] family for local agentic AI — optimization path spans phones, workstations, and IoT devices; framed as NVIDIA continuing to be the de-facto local-AI stack vendor even for non-NVIDIA foundation models; same cycle: new MLPerf inference records via "Extreme Co-Design" (hardware + compiler + model co-tuning), $2B investment in Marvell to co-develop custom AI chips, IGX Thor / CloudXR 6.0 / CloudXR.js availability updates, and single-digit-microsecond-latency capital-markets pitch (HFT/market-making vertical) — *source: 2026-04-04 cycle (NVIDIA Newsletter — Gemma 4 on NVIDIA; The Tech Buzz — MLPerf Extreme Co-Design + $2B Marvell; Forward Future — CloudXR 6.0 / IGX Thor / capital-markets latency)*
 - **2026-04-01**: NVIDIA IGX Thor lineup available — Blackwell-powered industrial-edge platform targeting autonomous robots, surgical systems, and high-performance industrial automation; unifies functional safety and AI on a single integrated system; IGX software stack pitched as time-to-market accelerator for factory/medical/robotics workloads; NVFP4 (NVIDIA's low-precision format) gains adoption via [[ollama]]'s new Apple-silicon MLX build with NVFP4 support + production-parity framing — *source: 2026-04-01 cycle (NVIDIA Newsletter — Unlock real-time physical AI for the industrial edge with NVIDIA IGX; Ollama Newsletter — NVFP4 support)*
 - **2026-03-21**: $1T order backlog disclosed; launches OpenShell (safer autonomous-agent execution environment) and DSX Air (design/simulate/scale AI factory infrastructure) — *source: 2026-03-21 cycle*
