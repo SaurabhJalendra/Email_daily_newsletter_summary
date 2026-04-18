@@ -14,7 +14,7 @@ type: company
 
 ## Summary
 
-OpenAI is the San Francisco AI lab behind ChatGPT, GPT-series models, and a fast-expanding product surface (Sora for video, AgentKit for agents, a rapidly scaling ChatGPT app ecosystem). Through October 2025 it became the most valuable private company at a reported $500B valuation, hosted DevDay (AgentKit launch), and built out a multi-silicon compute strategy: [[amd]] for GPUs and [[broadcom]] for custom chips ("OpenAI's AI chip era begins"). Its Sora 2 release simultaneously drove record growth and real-world pushback — Japan formally complained, and the 18+ content policy change triggered coverage — while [[walmart]]-style commerce integration pointed the ChatGPT ecosystem toward transactional use cases.
+OpenAI is the San Francisco AI lab behind ChatGPT, GPT-series models, and a fast-expanding product surface (Sora for video, AgentKit for agents, a rapidly scaling ChatGPT app ecosystem). Through October 2025 it became the most valuable private company at a reported $500B valuation, hosted DevDay (AgentKit launch), and built out a multi-silicon compute strategy: [[amd]] for GPUs and [[broadcom]] for custom chips ("OpenAI's AI chip era begins"). Its Sora 2 release simultaneously drove record growth and real-world pushback — Japan formally complained, and the 18+ content policy change triggered coverage — while Walmart-style commerce integration pointed the ChatGPT ecosystem toward transactional use cases.
 
 ## Timeline
 

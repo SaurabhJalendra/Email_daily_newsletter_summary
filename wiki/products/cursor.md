@@ -10,11 +10,11 @@ type: product
 > **First mentioned**: 2025-10-04
 > **Last updated**: 2025-10-08
 > **Status**: active
-> **Related**: [[agent-frameworks]], [[jules]]
+> **Related**: [[agent-frameworks]], [[jules]], [[claude-code]], [[replit]]
 
 ## Summary
 
-Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference product for agentic software development. In early October 2025 it shipped version 1.7 and introduced Plan Mode, a workflow where the agent drafts a plan before executing.
+Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference product for agentic software development — sitting alongside [[claude-code]] and [[jules]] on the pro-developer axis of AI coding tools, with [[replit]] anchoring the non-coder end of the same market. In early October 2025 it shipped version 1.7 and introduced Plan Mode, a workflow where the agent drafts a plan before executing.
 
 ## Timeline
 

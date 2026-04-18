@@ -66,4 +66,4 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 *(empty — populated when you ask questions)*
 
 ## Digests
-*(empty — weekly lint adds entries here)*
+- [[digests/2025-W42]] — Week of 2025-10-13: silicon-diversification crescendo, Apple M5, Gemini 3 confirmed, regulatory pressure arrives

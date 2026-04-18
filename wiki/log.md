@@ -4,6 +4,17 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## LINT 2026-04-18 (week 2025-W42)
+
+**Lint actions**:
+- Fixed contradictions: removed broken `[[walmart]]` wiki-link in [[openai]] summary (Walmart has no page and doesn't warrant one — kept as plain text)
+- Resolved orphans: 2 ([[microsoft]] — added incoming link from [[enterprise-ai]] Related + timeline; [[replit]] — added incoming link from [[cursor]] Related + summary, positioning Replit as the non-coder anchor alongside pro-dev IDEs)
+- Merged duplicates: none (no near-duplicate pages detected)
+- Stale pages marked: 0 (wiki is a historical backfill of Oct 2025; all pages last-updated within 60 days of the most-recent ingest 2025-10-20, so the stale rule does not fire against the backfill's own timeline)
+- Noted but not auto-fixed: log entry for 2025-10-16 lists [[veo-3]] as newly created, but [[veo-3]] was actually first created on 2025-10-13 (leak entry) — left intact because log.md is append-only.
+
+**Digest generated**: wiki/digests/2025-W42.md (covers 2025-10-13 → 2025-10-19, 7 ingests)
+
 ## 2025-10-20
 **Ingested**: data/summaries/2025-10-20.json (13 newsletters; most had failed LLM summarization — worked from subject lines)
 

@@ -10,7 +10,7 @@ type: trend
 > **First mentioned**: 2025-10-05
 > **Last updated**: 2025-10-17
 > **Status**: active
-> **Related**: [[gemini-enterprise]], [[agentforce]], [[salesforce]], [[google]], [[openai]], [[agent-frameworks]]
+> **Related**: [[gemini-enterprise]], [[agentforce]], [[salesforce]], [[microsoft]], [[google]], [[openai]], [[agent-frameworks]]
 
 ## Summary
 
@@ -20,7 +20,7 @@ October 2025 was a sustained enterprise-AI product cycle. [[google]] shipped [[g
 
 - **2025-10-17**: "AI Pivot To Data Infrastructure Hard Assets" framing — *source: The Tech Buzz*
 - **2025-10-15**: Walmart integrates with ChatGPT for checkout; Google Meet ships real-time Gemini AI — *source: TLDR; TLDR AI; AI Breakfast*
-- **2025-10-14**: [[salesforce]] launches [[agentforce]] 360; Microsoft ships new AI image-gen tool — *source: TLDR AI; Mindstream*
+- **2025-10-14**: [[salesforce]] launches [[agentforce]] 360; [[microsoft]] ships new AI image-gen tool — *source: TLDR AI; Mindstream*
 - **2025-10-10**: [[google]] launches [[gemini-enterprise]] — *source: The Rundown AI; AlphaSignal; TLDR AI*
 - **2025-10-08**: Google Opal goes global — *source: Mindstream*
 - **2025-10-05**: "Enterprise AI playbook" exclusive — *source: TAAFT*
