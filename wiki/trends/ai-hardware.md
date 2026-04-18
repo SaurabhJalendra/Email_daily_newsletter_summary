@@ -1,6 +1,6 @@
 ---
 name: AI Hardware
-description: Silicon, form factors, and supply chains for AI — from chips to glasses to humanoid robots
+description: Silicon, form factors, supply chains, and unusual corporate pivots into AI compute
 type: trend
 ---
 
@@ -8,20 +8,26 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-10-17
+> **Last updated**: 2026-04-16
 > **Status**: active
-> **Related**: [[nvidia]], [[amd]], [[broadcom]], [[oracle]], [[meta]], [[apple]], [[apple-m5]], [[xai]], [[openai]], [[figure]]
+> **Related**: [[nvidia]], [[nvidia-cosmos]], [[amd]], [[broadcom]], [[oracle]], [[meta]], [[apple]], [[apple-m5]], [[xai]], [[openai]], [[figure]]
 
 ## Summary
 
-October 2025 showed hardware moving from background to foreground for AI. On silicon: [[meta]] acquired Rivos, [[openai]] announced an [[amd]] partnership and then a [[broadcom]] custom-chip deal ("OpenAI's AI chip era begins"), [[oracle]] partnered with AMD, and [[nvidia]] struck a deal with [[xai]] — a compressed sequence of deals that made multi-supplier silicon the default for frontier buyers. On devices: [[apple]] shipped [[apple-m5]] with per-GPU-core Neural Accelerators, [[meta]] held its AI-glasses lead, and [[figure]] revealed its Figure 03 humanoid. Jony Ive's secretive AI hardware project continued to feed speculation.
+October 2025 showed hardware moving from background to foreground for AI. On silicon: [[meta]] acquired Rivos, [[openai]] announced partnerships with [[amd]] and [[broadcom]] ("OpenAI's AI chip era begins"), [[oracle]] partnered with AMD, and [[nvidia]] struck a deal with [[xai]]. On devices: [[apple]] shipped [[apple-m5]] and [[meta]] held its AI-glasses lead. By April 2026 the pattern had intensified: Meta signed a $21B CoreWeave deal anchoring early Vera Rubin GPU deployments, [[xai]]'s "Terafab" team began sourcing chipmaking gear while also renting its compute stockpile externally, [[nvidia]] launched the Ising quantum-chip family and shipped the [[nvidia-cosmos]] physical-AI foundation-model stack, and TSMC reported Q1 revenue up 40.6% with capacity "very tight." Separately, sneaker maker Allbirds announced it was pivoting to "NewBird AI," a GPU-rental business — a signal that compute rental is attracting public-company rebrands.
 
 ## Timeline
 
-- **2025-10-17**: [[apple-m5]] launches for MacBook Pro / iPad Pro / Vision Pro with 4× AI GPU boost, per-core Neural Accelerators, 153 GB/s memory bandwidth — *source: Matt from FutureTools "Apple Unveils M5 Chip"*
+- **2026-04-16**: [[meta]] signs $21B CoreWeave deal; early Vera Rubin GPU deployments included — *source: InstaByte*
+- **2026-04-16**: [[nvidia]] launches Ising quantum chip family — *source: The Tech Buzz*
+- **2026-04-16**: TSMC Q1 revenue up 40.6% YoY; CEO C.C. Wei says capacity "very tight" — *source: The Tech Buzz*
+- **2026-04-16**: [[nvidia-cosmos]] 2.5 GA; Cosmos 3 pre-announced for summer 2026 — *source: NVIDIA Newsletter*
+- **2026-04-16**: [[xai]] Terafab team sources chipmaking gear; xAI repurposes compute for external rental — *source: TLDR; Forward Future*
+- **2026-04-16**: Allbirds rebrands as "NewBird AI" with a $50M financing deal and pivots from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code; "Gemini on your desktop"*
+- **2025-10-17**: [[apple-m5]] launches for MacBook Pro / iPad Pro / Vision Pro with 4× AI GPU boost, per-core Neural Accelerators, 153 GB/s bandwidth — *source: Matt from FutureTools*
 - **2025-10-16**: M5 MacBook Pro coverage; "Nvidia isn't done yet" — *source: TLDR; Mindstream*
-- **2025-10-15**: [[oracle]]–[[amd]] partnership — *source: TLDR AI "Oracle and AMD partnership"*
-- **2025-10-14**: [[openai]]–[[broadcom]] custom-chip partnership; "OpenAI custom chips" — *source: The Rundown AI; TLDR; TLDR AI*
+- **2025-10-15**: [[oracle]]–[[amd]] partnership — *source: TLDR AI*
+- **2025-10-14**: [[openai]]–[[broadcom]] custom-chip partnership — *source: The Rundown AI; TLDR; TLDR AI*
 - **2025-10-10**: [[figure]] 03 humanoid revealed; Intel "make-or-break chip" coverage — *source: TLDR; AI Breakfast*
 - **2025-10-09**: Jony Ive's "peaceful" AI hardware vision covered — *source: Matt from FutureTools*
 - **2025-10-08**: [[nvidia]]–[[xai]] deal; Qualcomm acquires Arduino — *source: TLDR*
@@ -32,28 +38,32 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 
 ## Key Facts
 
-- Frontier-lab chip diversification in play: Meta→Rivos, OpenAI↔AMD, OpenAI↔Broadcom (custom), Oracle↔AMD, xAI↔NVIDIA
-- AI glasses: Meta ahead, Apple catching up
-- On-device AI silicon: [[apple-m5]] with per-core Neural Accelerators (2025-10-17)
-- Humanoid robots re-entering mainstream coverage (Figure 03)
+- Frontier-lab chip diversification: Meta→Rivos, OpenAI↔AMD+Broadcom, Oracle↔AMD, xAI↔NVIDIA + Terafab
+- Current-gen NVIDIA GPU deploying into hyperscaler capacity: Vera Rubin (via Meta/CoreWeave)
+- On-device AI silicon: [[apple-m5]] with per-core Neural Accelerators
+- Physical-AI foundation models: [[nvidia-cosmos]] 2.5 GA (Apr 2026), Cosmos 3 summer 2026
+- Quantum: NVIDIA Ising family (Apr 2026)
+- TSMC capacity "very tight"; Q1 revenue +40.6% YoY — public signal of AI-driven chip demand
+- Rebrand-as-compute-provider phenomenon: Allbirds → NewBird AI (Apr 2026)
 
 ## Open Questions
 
-- When will Rivos-designed silicon hit Meta data centers?
-- When does Broadcom's OpenAI chip reach production, and at what class?
-- Does Intel's "make-or-break chip" ship competitively against NVIDIA/AMD?
-- What is Jony Ive/OpenAI actually building in hardware?
+- What will Rivos-designed silicon produce for Meta, and on what timeline?
+- Broadcom OpenAI chip production class and timeline?
+- Will Terafab actually produce silicon, or remain a signaling exercise?
+- Does Allbirds' GPU-rental pivot signal a trend or remain a one-off?
 
 ## Sources
 
 - data/summaries/2025-10-01.json (TLDR AI — Meta acquires Rivos)
 - data/summaries/2025-10-02.json (TLDR — Apple's VR pivot; AlphaSignal — Apple chases Meta's AI glasses lead)
-- data/summaries/2025-10-06.json (Matt from FutureTools — Jony Ive's secret AI hardware revealed!)
+- data/summaries/2025-10-06.json (Matt from FutureTools — Jony Ive's secret AI hardware)
 - data/summaries/2025-10-07.json (TLDR AI — AMD & OpenAI partnership)
 - data/summaries/2025-10-08.json (TLDR — Nvidia xAI deal, Qualcomm acquires Arduino)
-- data/summaries/2025-10-09.json (Matt from FutureTools — Jony Ive's 'peaceful' AI hardware vision)
-- data/summaries/2025-10-10.json (TLDR — Figure 03, Intel's make-or-break chip; AI Breakfast — Meet The Next Wave of Humanoid Robots)
-- data/summaries/2025-10-14.json (The Rundown AI — OpenAI's AI chip era begins; TLDR — OpenAI custom chips; TLDR AI — OpenAI & Broadcom partnership)
+- data/summaries/2025-10-09.json (Matt from FutureTools — Jony Ive's peaceful AI hardware vision)
+- data/summaries/2025-10-10.json (TLDR — Figure 03, Intel's make-or-break chip; AI Breakfast — Humanoid Robots)
+- data/summaries/2025-10-14.json (The Rundown AI — OpenAI's AI chip era begins; TLDR — OpenAI custom chips; TLDR AI — OpenAI & Broadcom)
 - data/summaries/2025-10-15.json (TLDR AI — Oracle and AMD partnership)
 - data/summaries/2025-10-16.json (TLDR — M5 MacBook Pro; Mindstream — Nvidia isn't done yet)
 - data/summaries/2025-10-17.json (Matt from FutureTools — Apple Unveils M5 Chip)
+- data/summaries/2026-04-16.json (InstaByte — Snap cuts 1,000 jobs, blames AI [Meta CoreWeave]; The Tech Buzz — TSMC Earnings, Nvidia Quantum Chips; NVIDIA Newsletter — Cosmos; TLDR — Inside Elon's Terafab; Forward Future — Anthropic challenges OpenAI in London [xAI compute]; The Rundown AI — Allbirds ditches sneakers; The Code — Shoemaker company pivots to AI; "Gemini on your desktop")

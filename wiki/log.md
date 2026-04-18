@@ -4,6 +4,27 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-04-16
+**Ingested**: data/summaries/2026-04-16.json (46 newsletters; first daily ingest after the Oct-2025 backfill — date gap spans ~6 months)
+
+**Pages updated**:
+- [[anthropic]] — Opus 4.7 launch, Claude Design, Claude Code Routines, $800B valuation talks, London expansion
+- [[google]] — Gemini 3.1 Flash TTS, Gemini Mac app, Chrome Skills
+- [[openai]] — Codex superapp repositioning, GPT-Rosalind, Agents SDK, Trusted Access expansion
+- [[meta]] — Muse Spark + open-weights pivot, $21B CoreWeave deal
+- [[nvidia]] — Cosmos 2.5 GA / Cosmos 3 pre-announce, Ising quantum chips, Vera Rubin deployments, TSMC capacity "very tight"
+- [[xai]] — Terafab chipmaking effort, external compute rental
+- [[claude-code]] — always-on Routines; Claude Design hand-off
+- [[gemini]] — 3.1 Flash TTS variant, Mac app, Chrome Skills
+- [[agent-frameworks]] — Routines, Claude Design, Cloudflare Agent Memory, OpenAI Agents SDK, Ollama+Hermes
+- [[ai-hardware]] — Meta-CoreWeave $21B / Vera Rubin, NVIDIA Ising, TSMC +40.6%, Terafab, Allbirds→NewBird AI pivot
+- [[ai-funding-rounds]] — Anthropic $800B talks, Eli Lilly-Insilico $2.75B, Allbirds $50M
+- [[ai-regulation]] — United States v. Heppner ruling (AI chats not attorney-client privileged)
+
+**Pages created**: [[claude-opus-4-7]], [[claude-design]], [[gemini-3-1-flash-tts]], [[openai-codex]], [[muse-spark]], [[nvidia-cosmos]], [[adobe]]
+
+**Notable**: Three themes dominated this day. (1) A Claude Opus 4.7 + Claude Design + Adobe Firefly AI Assistant cluster — design tooling is now a first-class lab battleground, and Anthropic shipping both a flagship model and a Figma-adjacent product on the same day is a major strategic move. (2) Meta's pivot from open weights (via Muse Spark) is a regime change for a lab that defined the open-model era. (3) The judicial-privilege ruling in *United States v. Heppner* is the first US federal precedent explicitly denying attorney-client privilege to AI-chatbot conversations — it immediately reshapes how regulated professionals should treat these tools. Also watching: xAI's Terafab move plus compute-rental pivot, and Allbirds rebranding to NewBird AI as a GPU landlord — a signal that "pivot to compute" is reaching public-company rebrand territory.
+
 ## LINT 2026-04-18 (week 2025-W42)
 
 **Lint actions**:
