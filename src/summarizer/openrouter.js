@@ -72,23 +72,15 @@ export class OpenRouterSummarizer {
   }
 
   /**
-   * Derive the logical IST calendar date from newsletter dates.
-   * Uses the EARLIEST newsletter's IST date to avoid the midnight boundary bug
-   * (pipeline runs at 00:05 IST, fetches yesterday's newsletters, but a newsletter
-   * received at 00:02 IST today shouldn't drag the digest into today's filename).
+   * Derive the logical IST calendar date for the digest.
+   * Uses the pipeline RUN date in IST — the day the digest is being produced.
+   * (Earlier "earliest newsletter date" approach was wrong: newsletters often
+   * have send-dates from previous UTC day which becomes "yesterday" in IST,
+   * causing the same date to repeat across multiple daily runs.)
    */
-  deriveDateFromNewsletters(newsletters) {
-    const dates = newsletters
-      .map(nl => nl.date ? new Date(nl.date) : null)
-      .filter(d => d && !isNaN(d.getTime()));
-
-    if (dates.length === 0) return new Date();
-
-    dates.sort((a, b) => a - b); // earliest first
-    const earliest = dates[0];
-
-    // Pin to IST calendar day start (prevents cross-day drift from timestamp-based selection)
-    const istDateString = earliest.toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
+  deriveDateFromNewsletters(_newsletters) {
+    const now = new Date();
+    const istDateString = now.toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
     return new Date(`${istDateString}T00:00:00+05:30`);
   }
 

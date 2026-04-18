@@ -31,49 +31,79 @@ jobs:
 
             Step 1: Read `wiki/WIKI.md` completely. Follow its conventions.
 
-            Step 2: Determine the current ISO week: find the most recent Monday (or the Monday of this week if today is Sunday) and compute YYYY-WW format. Use `date` command via Read on today's date — but since we can't run shell, use the most recent dated log entry in `wiki/log.md` and compute the week that contains that date. Default to the most recent 7 dates in log.md if week math is hard.
+            Step 2: Determine the week to digest. Read `wiki/log.md` and find the most recent dated ingests. Use the most recent 7 ingest dates. Compute ISO week (YYYY-WW) for the latest of those dates.
 
             Step 3: LINT the wiki:
-            - Scan all wiki pages for obvious contradictions (e.g., the same event dated differently on two pages). Resolve by preferring the more detailed entry and flag with a note.
-            - Detect orphan pages (pages with no `[[cross-refs]]` pointing TO them from any other page) — add at least one cross-reference from a logically-related page.
-            - Detect near-duplicate pages (e.g., `gpt-5.md` and `chatgpt-5.md`). Merge and leave a redirect note on the loser page.
-            - For pages untouched in the last 60 days based on "Last updated" frontmatter, mark `> **Status**: stale` if not already marked.
-            - Regenerate `wiki/index.md` from the actual directory listing (alphabetical within each section).
+            - Scan all wiki pages for obvious contradictions (same event dated differently). Resolve by preferring the more detailed entry.
+            - Detect orphan pages (no `[[cross-refs]]` from any other page) — add at least one cross-reference.
+            - Detect near-duplicate pages — merge and leave a redirect note on the loser.
+            - For pages untouched in 60+ days based on "Last updated" frontmatter, mark `> **Status**: stale`.
+            - Regenerate `wiki/index.md` from the actual directory listing.
 
-            Step 4: Generate the weekly digest at `wiki/digests/YYYY-WW.md` using this template:
+            Step 4: Generate the weekly digest at `wiki/digests/YYYY-WW.md`. **THIS DIGEST MUST BE SUBSTANTIAL — aim for 3000-5000 words of real synthesis. Be detailed and prose-heavy, not bullet-only.** Use this template:
 
             ```
             # Weekly Digest — YYYY-WW (Week of YYYY-MM-DD)
 
             > **Ingest range**: YYYY-MM-DD → YYYY-MM-DD
-            > **Summaries covered**: N (number of daily ingests this week)
-            > **Wiki pages touched**: M (count from log.md entries this week)
+            > **Summaries covered**: N daily ingests
+            > **Wiki pages touched**: M total (from log.md entries this week)
+            > **New pages**: K
+            > **Most active pages**: <top 3 with update counts>
 
-            ## 🔥 This Week's Top Stories
-            - **[Story]** — *Why it matters* — [[related-page]]
-            (3-5 bullets — the highest-impact stories across the week)
+            ## 📌 If You Only Read One Thing
 
-            ## 🆕 New Pages Created
-            - [[page-name]] — *one-line context*
-            (grouped under Companies / Products / Topics / Trends)
+            <Single most important story of the week — 2-3 paragraphs of prose, not bullets. Include WHAT happened, WHY it matters, WHO it affects, and WHAT to watch next. Reference the source pages with [[link]].>
+
+            ## 🔥 Top 10 Stories This Week
+
+            For EACH of the 10 stories, write a full paragraph (3-5 sentences) covering:
+            - The headline event
+            - Specific names, products, dollar amounts, dates
+            - Why it matters strategically
+            - Cross-references to wiki pages
+            Number them 1-10. Order by impact (most impactful first).
+
+            ## 📊 By the Numbers
+
+            A bullet list of concrete numbers from the week — e.g.,
+            - $X billion in AI funding announced (companies: A, B, C)
+            - N new model releases (list them)
+            - N% performance improvement claims
+            - N regulatory actions
+            (Pull real numbers from wiki pages — be specific.)
+
+            ## 🆕 New Pages Created This Week
+
+            Group under Companies / Products / Topics / Trends. For each, give a one-sentence description AND why it earned a page (what threshold of significance was crossed).
 
             ## 📈 Pages with Biggest Updates
-            (pages that got 3+ timeline entries this week — the ones that moved the most)
 
-            ## 🔗 Cross-Cutting Patterns
-            - <Patterns that appear across multiple pages — e.g., "three compute deals this week">
-            (capture emerging trends the individual daily ingests might miss)
+            For each page that absorbed 3+ events this week, write a paragraph summarizing the week's activity on that page. Don't just count — describe the arc.
 
-            ## 📌 Stories Worth Watching
-            - <Things mentioned briefly that may grow — speculation on what to track next week>
+            ## 🔗 Cross-Cutting Patterns & Themes
+
+            Identify 5-7 patterns where multiple stories share a theme. For each pattern, write 2-3 sentences describing the pattern and which pages embody it. These should be insights the daily ingests would miss in isolation.
+
+            ## 💡 Featured Page Deep-Dive
+
+            Pick the SINGLE most updated/interesting page from this week and reproduce its full Summary section verbatim, plus its 5 most recent Timeline entries. This gives the reader a deep read on one thing without leaving the digest.
+
+            ## 📌 Stories Worth Watching Next Week
+
+            5-7 forward-looking items: things that are nascent but could grow. For each, write 1-2 sentences on what to watch for and why it might matter.
+
+            ## 🎤 Notable Quotes & Claims
+
+            If any wiki page Timeline entry contains a direct quote or specific claim worth highlighting (executive statement, benchmark number, controversial assertion), pull 3-5 of these out with attribution. These are the "memorable lines" of the week.
 
             ---
-            *Generated by weekly wiki lint.*
+            *Generated by weekly wiki lint. Built from N daily ingests covering Y wiki pages.*
             ```
 
             Step 5: Update `wiki/index.md` — add this week's digest under the "Digests" section.
 
-            Step 6: Append a LINT entry to `wiki/log.md` at the top (newest first) in this format:
+            Step 6: Append a LINT entry to `wiki/log.md` at the top:
 
             ```
             ## LINT YYYY-MM-DD (week YYYY-WW)
@@ -84,16 +114,17 @@ jobs:
             - Merged duplicates: <list if any>
             - Stale pages marked: <count>
 
-            **Digest generated**: wiki/digests/YYYY-WW.md
+            **Digest generated**: wiki/digests/YYYY-WW.md (~N words)
             ```
 
             Rules:
             - Only touch files under `wiki/`. Never modify `data/summaries/`.
-            - If the wiki is very new (< 7 days of ingests), still generate a digest covering what exists.
-            - Keep the digest focused on SYNTHESIS across pages — don't just restate individual page timelines.
+            - If the wiki has < 7 days of ingests, still generate a digest covering what exists, but note this in the header.
+            - PROSE-HEAVY: every section except "By the Numbers" and "New Pages" should be paragraph-style, not bullet-only. The user complained the previous digest was too short — this must be a substantial read (3000+ words).
+            - Be specific: names, dollar amounts, dates, version numbers. No vague summaries.
             - Do NOT commit — the next workflow step handles commits.
           claude_args: |
-            --max-turns 60
+            --max-turns 80
             --model claude-opus-4-7
             --allowedTools Read,Write,Edit,Glob,Grep
 
@@ -120,8 +151,22 @@ jobs:
             echo "No digest found — Claude Code did not generate one"
             exit 1
           fi
-          echo "path=$LATEST" >> $GITHUB_OUTPUT
-          echo "Found digest: $LATEST"
+          echo "md_path=$LATEST" >> $GITHUB_OUTPUT
+          BASENAME=$(basename "$LATEST" .md)
+          DOCX_PATH="/tmp/weekly-digest-${BASENAME}.docx"
+          echo "docx_path=$DOCX_PATH" >> $GITHUB_OUTPUT
+          echo "basename=$BASENAME" >> $GITHUB_OUTPUT
+          echo "Found digest: $LATEST → $DOCX_PATH"
+
+      - name: Convert digest markdown to DOCX (pandoc)
+        run: |
+          # Pandoc is pre-installed on ubuntu-latest runners
+          pandoc "${{ steps.digest.outputs.md_path }}" \
+            -o "${{ steps.digest.outputs.docx_path }}" \
+            --from gfm \
+            --to docx \
+            --metadata "title=Weekly AI Wiki Digest — ${{ steps.digest.outputs.basename }}"
+          ls -la "${{ steps.digest.outputs.docx_path }}"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -137,6 +182,7 @@ jobs:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
-          DIGEST_PATH: ${{ steps.digest.outputs.path }}
+          DIGEST_PATH: ${{ steps.digest.outputs.md_path }}
+          DIGEST_DOCX_PATH: ${{ steps.digest.outputs.docx_path }}
           TZ: Asia/Kolkata
         run: node src/weekly-digest-email.js

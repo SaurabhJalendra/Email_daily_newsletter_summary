@@ -85,19 +85,38 @@ ${bodyHtml}
 
   const transporter = nodemailer.createTransport(config.email.smtp);
 
+  // Build attachments list — prefer DOCX if available, also keep markdown as fallback
+  const attachments = [];
+  const docxPath = process.env.DIGEST_DOCX_PATH;
+  if (docxPath) {
+    try {
+      const docxStat = await fs.stat(docxPath);
+      if (docxStat.isFile() && docxStat.size > 0) {
+        attachments.push({
+          filename: `weekly-digest-${basename}.docx`,
+          path: docxPath,
+          contentType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+        });
+        console.log(`📎 Attaching DOCX: ${docxPath} (${(docxStat.size / 1024).toFixed(1)} KB)`);
+      }
+    } catch (err) {
+      console.warn(`⚠️  DOCX not available at ${docxPath}: ${err.message}`);
+    }
+  }
+  // Always include markdown as a secondary attachment for archival/portability
+  attachments.push({
+    filename: `weekly-digest-${basename}.md`,
+    content: markdown,
+    contentType: 'text/markdown'
+  });
+
   const mailOptions = {
     from: `Newsletter Digest <${config.email.address}>`,
     to: config.notification.recipientEmail,
     subject: `🗓️ Weekly AI Digest — ${title.replace(/^.*Week(ly)?\s*Digest\s*[—-]?\s*/, '')}`,
     text,
     html,
-    attachments: [
-      {
-        filename: `weekly-digest-${basename}.md`,
-        content: markdown,
-        contentType: 'text/markdown'
-      }
-    ]
+    attachments
   };
 
   console.log(`📬 Sending weekly digest email to ${config.notification.recipientEmail}...`);
