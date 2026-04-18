@@ -8,16 +8,17 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-02
-> **Last updated**: 2025-10-05
+> **Last updated**: 2025-10-13
 > **Status**: active
-> **Related**: [[tinker-api]], [[openai]], [[ai-funding-rounds]]
+> **Related**: [[tinker-api]], [[openai]], [[meta]], [[ai-funding-rounds]]
 
 ## Summary
 
-Thinking Machines is the AI lab founded by former [[openai]] CTO Mira Murati. In early October 2025 it shipped its first public product — [[tinker-api]], an LLM fine-tuning platform — marking the lab's transition from stealth to product company.
+Thinking Machines is the AI lab founded by former [[openai]] CTO Mira Murati. In early October 2025 it shipped its first public product — [[tinker-api]], an LLM fine-tuning platform — marking the lab's transition from stealth to product company. Shortly after launch, a co-founder reportedly departed for [[meta]], an early signal that the lab's talent is already a poaching target in the frontier-lab labor market.
 
 ## Timeline
 
+- **2025-10-13**: Thinking Machines co-founder reportedly heads to [[meta]] — *source: The Rundown AI "Thinking Machines co-founder heads to Meta"; TLDR AI "Meta poaches TML cofounder"*
 - **2025-10-05**: Continued coverage of Tinker launch — *source: The Rundown AI "Ex-OpenAI CTO Just Launched a New AI Platform"*
 - **2025-10-03**: Ex-OpenAI CTO's lab launches first product for LLM fine-tuning — *source: AlphaSignal*
 - **2025-10-02**: Tinker API announced/covered — *source: TLDR AI "Thinking Machines' Tinker API"*
@@ -29,6 +30,7 @@ Thinking Machines is the AI lab founded by former [[openai]] CTO Mira Murati. In
 
 ## Open Questions
 
+- Which co-founder left for Meta and what role do they take on there?
 - Fine-tuning differentiation vs OpenAI, Together, Fireworks, etc.?
 - Which base models are supported in Tinker at launch?
 
@@ -37,3 +39,4 @@ Thinking Machines is the AI lab founded by former [[openai]] CTO Mira Murati. In
 - data/summaries/2025-10-02.json (TLDR AI — Thinking Machines' Tinker API)
 - data/summaries/2025-10-03.json (AlphaSignal — Ex-OpenAI CTO's lab launches first product for LLM fine-tuning)
 - data/summaries/2025-10-05.json (The Rundown AI — Ex-OpenAI CTO Just Launched a New AI Platform)
+- data/summaries/2025-10-13.json (The Rundown AI — Thinking Machines co-founder heads to Meta; TLDR AI — Meta poaches TML cofounder)

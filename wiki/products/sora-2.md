@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-10-10
+> **Last updated**: 2025-10-17
 > **Status**: active
-> **Related**: [[openai]], [[chatgpt]], [[ai-video-generation]]
+> **Related**: [[openai]], [[chatgpt]], [[veo-3]], [[ai-video-generation]], [[ai-regulation]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Sora 2 is [[openai]]'s second-generation AI video generation model, launched Oct
 
 ## Timeline
 
+- **2025-10-17**: Japan formally requests OpenAI stop generating manga/anime lookalikes via Sora 2; Sora 2 upgrades land alongside ChatGPT memory cull — *source: Matt from FutureTools "Japan Challenges OpenAI on Copyright"; AI Breakfast "ChatGPT's golden hour memory cull lands alongside Sora 2 upgrades"*
 - **2025-10-10**: Sora user growth reportedly exceeds early ChatGPT trajectory — *source: AI Breakfast "Sora grew faster than ChatGPT!"; Mindstream "Sora > ChatGPT?"*
 - **2025-10-06**: Tighter copyright/rights controls introduced — *source: The Rundown AI "Sora's copyright Wild West ends"*
 - **2025-10-02**: Launch coverage continues — *source: AlphaSignal "OpenAI launches Sora 2: physics-aware video with audio"*
@@ -42,3 +43,4 @@ Sora 2 is [[openai]]'s second-generation AI video generation model, launched Oct
 - data/summaries/2025-10-02.json (AlphaSignal — OpenAI launches Sora 2)
 - data/summaries/2025-10-06.json (The Rundown AI — Sora's copyright Wild West ends)
 - data/summaries/2025-10-10.json (AI Breakfast — Sora grew faster than ChatGPT; Mindstream — Sora > ChatGPT?)
+- data/summaries/2025-10-17.json (Matt from FutureTools — Japan Challenges OpenAI on Copyright; AI Breakfast — ChatGPT golden hour memory cull alongside Sora 2 upgrades)

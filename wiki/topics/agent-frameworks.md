@@ -8,16 +8,20 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-10-08
+> **Last updated**: 2025-10-17
 > **Status**: active
-> **Related**: [[agentkit]], [[claude-skills]], [[jules]], [[cursor]], [[openai]], [[google]], [[anthropic]], [[auth0]]
+> **Related**: [[agentkit]], [[claude-skills]], [[claude-code]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]]
 
 ## Summary
 
-"Agent frameworks" refers to the scaffolding — SDKs, runtime features, tools, and managed services — that lets developers compose LLM-powered agents. In early October 2025 every major lab shipped first-party scaffolding: [[openai]] launched [[agentkit]] at DevDay 2025 plus an earlier Agent Builder; [[anthropic]] shipped [[claude-skills]]; [[google]] released [[jules]] Tools (CLI) and the Jules API. [[auth0]] separately shipped the first dedicated authentication layer for agents. Third-party IDEs like [[cursor]] added agent-planning UX with Plan Mode.
+"Agent frameworks" refers to the scaffolding — SDKs, runtime features, tools, and managed services — that lets developers compose LLM-powered agents. In early October 2025 every major lab shipped first-party scaffolding: [[openai]] launched [[agentkit]] at DevDay 2025 plus an earlier Agent Builder; [[anthropic]] shipped [[claude-skills]] (later extended with Agent Skills) and added plugins to [[claude-code]]; [[google]] released [[jules]] Tools (CLI) and the Jules API. Enterprise SaaS entered with [[salesforce]] [[agentforce]] 360 and [[github-spec-kit]] for spec-driven coding. [[auth0]] separately shipped the first dedicated authentication layer for agents. Third-party IDEs like [[cursor]] added agent-planning UX with Plan Mode.
 
 ## Timeline
 
+- **2025-10-17**: [[anthropic]] unveils Claude Agent Skills for modular task automation — *source: AlphaSignal; The Rundown AI; TLDR AI*
+- **2025-10-15**: [[github-spec-kit]] coverage — spec-driven coding for agents — *source: TLDR*
+- **2025-10-14**: [[salesforce]] launches [[agentforce]] 360 — *source: TLDR AI*
+- **2025-10-13**: Plugins ship for [[claude-code]] — *source: TLDR AI*
 - **2025-10-08**: [[cursor]] Plan Mode surfaces — *source: TLDR AI*
 - **2025-10-07**: [[openai]] launches [[agentkit]] at DevDay 2025 — *source: The Rundown AI; TLDR AI; AlphaSignal; Matt from FutureTools*
 - **2025-10-06**: OpenAI Agent Builder surfaces; [[google]] ships [[jules]] Tools and API — *source: Mindstream; The Rundown AI; TLDR AI*
@@ -42,3 +46,7 @@ type: topic
 - data/summaries/2025-10-06.json (Mindstream — OpenAI's Agent Builder; The Rundown AI — Jules Tools; TLDR AI — Jules API)
 - data/summaries/2025-10-07.json (The Rundown AI — OpenAI launches AgentKit; TLDR AI — AgentKit; Matt from FutureTools — Altman just made building agents easy)
 - data/summaries/2025-10-08.json (TLDR AI — Cursor Plan Mode; AlphaSignal — Inside OpenAI's AgentKit)
+- data/summaries/2025-10-13.json (TLDR AI — Claude Code plugins)
+- data/summaries/2025-10-14.json (TLDR AI — Salesforce Agentforce 360)
+- data/summaries/2025-10-15.json (TLDR — GitHub Spec Kit)
+- data/summaries/2025-10-17.json (AlphaSignal — Anthropic unveils Claude Agent Skills; The Rundown AI — Claude gains new Skills; TLDR AI — Claude Skills)

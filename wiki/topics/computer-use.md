@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2025-10-09
+> **Last updated**: 2025-10-12
 > **Status**: active
 > **Related**: [[gemini-2-5-computer-use]], [[google]], [[agent-frameworks]]
 
@@ -18,6 +18,7 @@ type: topic
 
 ## Timeline
 
+- **2025-10-12**: AI Innovations Hub runs "Google Taught AI to Use the Web" follow-up coverage — *source: AI Innovations Hub Newsletter*
 - **2025-10-09**: [[google]] launches [[gemini-2-5-computer-use]] — *source: AlphaSignal*
 - **2025-10-08**: Gemini Computer Use covered alongside Agentic Retrieval — *source: TLDR AI*
 
@@ -35,3 +36,4 @@ type: topic
 
 - data/summaries/2025-10-08.json (TLDR AI — Gemini Computer Use, Cursor Plan Mode, Agentic Retrieval)
 - data/summaries/2025-10-09.json (AlphaSignal — Google launches Gemini 2.5 Computer Use)
+- data/summaries/2025-10-12.json (AI Innovations Hub — Google Taught AI to Use the Web)

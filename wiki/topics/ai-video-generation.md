@@ -8,16 +8,20 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2025-10-10
+> **Last updated**: 2025-10-17
 > **Status**: active
-> **Related**: [[sora-2]], [[openai]]
+> **Related**: [[sora-2]], [[veo-3]], [[openai]], [[google]]
 
 ## Summary
 
-AI video generation in early October 2025 was dominated by [[sora-2]] — [[openai]]'s second-generation video model with improved physics, consistent multi-shot worlds, face/voice embedding, and synced audio. The release came with an iOS consumer app; within days, coverage shifted from capability awe to rights and copyright concerns, and user-growth comparisons began placing Sora above early ChatGPT trajectories.
+AI video generation in October 2025 was dominated initially by [[sora-2]] — [[openai]]'s second-generation video model with improved physics, consistent multi-shot worlds, face/voice embedding, and synced audio. By mid-month the category became two-horse: [[google]] launched [[veo-3]] 3.1, the [[sora-2]] camp picked up iterative upgrades, and Japan publicly pushed back on OpenAI over manga/anime likenesses — turning copyright and licensing into the dominant second-order story.
 
 ## Timeline
 
+- **2025-10-17**: Japan formally asks OpenAI to stop generating manga/anime lookalikes via Sora — *source: Matt from FutureTools "Japan Challenges OpenAI on Copyright"*
+- **2025-10-17**: Sora 2 upgrades alongside ChatGPT "golden hour" memory cull — *source: AI Breakfast*
+- **2025-10-16**: [[google]] launches [[veo-3]] 3.1 — *source: World of AI Newsletter; The Rundown AI; TLDR AI*
+- **2025-10-13**: Veo 3.1 leaks ahead of launch — *source: TLDR AI*
 - **2025-10-10**: Sora outpacing early ChatGPT growth — *source: AI Breakfast; Mindstream*
 - **2025-10-06**: Copyright / rights guardrails tightening on Sora — *source: The Rundown AI "Sora's copyright Wild West ends"*
 - **2025-10-02**: Physics + audio launch analysis — *source: AlphaSignal*
@@ -25,13 +29,15 @@ AI video generation in early October 2025 was dominated by [[sora-2]] — [[open
 
 ## Key Facts
 
-- Dominant model (Oct 2025): [[sora-2]]
+- Dominant models (Oct 2025): [[sora-2]] (OpenAI), [[veo-3]] 3.1 (Google)
 - Category features: physics, consistent worlds, style transfer, synced audio, user-as-character
+- Emerging pressure: national-level copyright complaints (Japan vs OpenAI, Oct 2025)
 
 ## Open Questions
 
 - Competitive response from Runway, Pika, Luma, Kling on these capabilities?
 - How will copyright licensing evolve for training data and output likenesses?
+- Will Japan's formal complaint set a precedent other jurisdictions follow?
 
 ## Sources
 
@@ -39,3 +45,6 @@ AI video generation in early October 2025 was dominated by [[sora-2]] — [[open
 - data/summaries/2025-10-02.json (AlphaSignal — Sora 2 physics-aware video with audio)
 - data/summaries/2025-10-06.json (The Rundown AI — Sora's copyright Wild West ends)
 - data/summaries/2025-10-10.json (AI Breakfast — Sora grew faster than ChatGPT)
+- data/summaries/2025-10-13.json (TLDR AI — Veo 3.1 leaks)
+- data/summaries/2025-10-16.json (World of AI Newsletter — Google DROPS Veo 3.1; The Rundown AI — Google's new AI video upgrade; TLDR AI — Google Veo 3.1)
+- data/summaries/2025-10-17.json (Matt from FutureTools — Japan Challenges OpenAI on Copyright; AI Breakfast — ChatGPT golden hour memory cull alongside Sora 2 upgrades)
