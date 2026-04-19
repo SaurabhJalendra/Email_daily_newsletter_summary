@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-01-01
 > **Last updated**: 2026-01-01
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nvidia]], [[ai-funding-rounds]]
 
 ## Summary

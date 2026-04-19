@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-01-30
 > **Last updated**: 2026-02-04
-> **Status**: active (open-source)
+> **Status**: stale
 > **Related**: [[moonshot-ai]], [[kimi-k2-thinking]], [[deepseek]], [[alibaba]], [[agent-frameworks]]
 
 ## Summary

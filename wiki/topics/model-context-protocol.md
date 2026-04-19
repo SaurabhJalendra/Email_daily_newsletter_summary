@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-11-22
 > **Last updated**: 2025-12-16
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[openai]], [[xai]], [[grok-4-1]], [[agentic-ai-foundation]], [[agent-frameworks]]
 
 ## Summary

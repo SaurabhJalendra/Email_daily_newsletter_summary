@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-20
 > **Last updated**: 2025-12-20
-> **Status**: active
+> **Status**: stale
 > **Related**: [[mistral]], [[mistral-3]], [[deepseek-ocr]], [[enterprise-ai]]
 
 ## Summary

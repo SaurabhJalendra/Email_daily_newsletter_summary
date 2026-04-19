@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-20
 > **Last updated**: 2025-11-20
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[gemini-3]], [[cursor]], [[claude-code]], [[github-agent-hq]], [[agent-frameworks]]
 
 ## Summary

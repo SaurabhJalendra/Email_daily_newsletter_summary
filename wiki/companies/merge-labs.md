@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-01-17
 > **Last updated**: 2026-01-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[ai-hardware]], [[ai-funding-rounds]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-09
 > **Last updated**: 2025-12-19
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[gpt-5-1]], [[gpt-5-1-codex-max]], [[gemini-3]], [[gemini-3-flash]], [[claude-opus-4-5]]
 
 ## Summary

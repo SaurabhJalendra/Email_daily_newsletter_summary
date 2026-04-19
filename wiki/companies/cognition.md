@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-30
 > **Last updated**: 2025-11-06
-> **Status**: active
+> **Status**: stale
 > **Related**: [[cursor]], [[claude-code]], [[jules]], [[agent-frameworks]]
 
 ## Summary

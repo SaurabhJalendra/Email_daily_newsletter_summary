@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-07
 > **Last updated**: 2025-11-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[gpt-5-codex-mini]]
 
 ## Summary

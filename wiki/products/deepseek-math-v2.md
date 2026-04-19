@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-29
 > **Last updated**: 2025-11-29
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[deepseek]], [[deepseek-v3-2]], [[harmonic-aristotle]]
 
 ## Summary

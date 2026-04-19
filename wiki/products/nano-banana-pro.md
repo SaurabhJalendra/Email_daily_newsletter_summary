@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-22
 > **Last updated**: 2025-12-10 (backfill 2025-12-05..2025-12-19)
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[google]], [[gemini-3]], [[gemini]], [[ai-video-generation]], [[veo-3]], [[adobe]], [[canva]]
 
 ## Summary

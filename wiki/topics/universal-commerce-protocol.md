@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2026-01-13
 > **Last updated**: 2026-01-16
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[agent-frameworks]], [[enterprise-ai]], [[chatgpt]]
 
 ## Summary

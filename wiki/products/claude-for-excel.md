@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-28
 > **Last updated**: 2025-10-31
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[claude-skills]], [[chatgpt-company-knowledge]], [[enterprise-ai]]
 
 ## Summary

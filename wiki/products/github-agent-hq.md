@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-29
 > **Last updated**: 2025-11-03
-> **Status**: active
+> **Status**: stale
 > **Related**: [[claude-code]], [[jules]], [[openai-codex]], [[cursor]], [[agent-frameworks]]
 
 ## Summary

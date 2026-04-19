@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-04
 > **Last updated**: 2025-12-04
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[mistral]], [[mistral-studio]], [[gemini-3]], [[deepseek-v3-2]]
 
 ## Summary

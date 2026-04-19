@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-04-15 (backfill 2026-04-06..2026-04-15)
 > **Status**: active
-> **Related**: [[claude-opus-4-7]], [[claude-opus-4-6]], [[claude-opus-4-5]], [[claude-sonnet-4-6]], [[claude-mythos]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-cowork]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[claude-managed-agents]], [[project-glasswing]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-hardware]]
+> **Related**: [[claude-opus-4-7]], [[claude-opus-4-6]], [[claude-opus-4-5]], [[claude-sonnet-4-6]], [[claude-mythos]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-cowork]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[claude-managed-agents]], [[project-glasswing]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-hardware]], [[ai-memory]], [[ai-jobs-displacement]]
 
 ## Summary
 

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-01
 > **Last updated**: 2026-02-09
-> **Status**: limited early access (Google AI Ultra subscribers, US 18+)
+> **Status**: stale
 > **Related**: [[google]], [[gemini]], [[world-models]], [[marble]], [[veo-3]]
 
 ## Summary

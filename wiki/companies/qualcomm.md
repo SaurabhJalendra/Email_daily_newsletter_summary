@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-08
 > **Last updated**: 2025-10-28
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nvidia]], [[amd]], [[ai-hardware]]
 
 ## Summary

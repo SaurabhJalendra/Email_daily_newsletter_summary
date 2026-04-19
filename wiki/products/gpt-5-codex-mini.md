@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-11
 > **Last updated**: 2025-11-11
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[openai-codex]], [[chatgpt]], [[claude-code]], [[cursor]]
 
 ## Summary

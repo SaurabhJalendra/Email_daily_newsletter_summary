@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-11-12
 > **Last updated**: 2025-11-25
-> **Status**: active
+> **Status**: stale
 > **Related**: [[marble]], [[world-labs]], [[meta]], [[nvidia]], [[nvidia-cosmos]], [[ai-video-generation]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-18
 > **Last updated**: 2025-12-19
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[nano-banana-pro]], [[gpt-5-2]], [[flux-2]]
 
 ## Summary

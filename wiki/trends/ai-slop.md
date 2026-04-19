@@ -9,7 +9,7 @@ type: trend
 > **Type**: trend
 > **First mentioned**: 2025-12-31
 > **Last updated**: 2026-01-03
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-video-generation]], [[sora-2]], [[nano-banana-pro]], [[ai-copyright]]
 
 ## Summary

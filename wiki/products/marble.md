@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-14
 > **Last updated**: 2025-11-18
-> **Status**: active
+> **Status**: stale
 > **Related**: [[world-labs]], [[world-models]], [[ai-video-generation]]
 
 ## Summary

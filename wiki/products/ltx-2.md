@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-01-09
 > **Last updated**: 2026-01-09
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-video-generation]], [[runway-gen-4-5]], [[sora-2]], [[veo-3]]
 
 ## Summary

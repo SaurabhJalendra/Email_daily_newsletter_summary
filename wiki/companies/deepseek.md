@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-21
 > **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[deepseek-ocr]], [[deepseek-math-v2]], [[deepseek-v3-2]], [[alibaba]], [[long-context-scaling]]
 
 ## Summary

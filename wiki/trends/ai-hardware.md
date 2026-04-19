@@ -10,7 +10,7 @@ type: trend
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
-> **Related**: [[nvidia]], [[nvidia-cosmos]], [[vera-rubin]], [[ironwood-tpu]], [[project-suncatcher]], [[amd]], [[broadcom]], [[oracle]], [[meta]], [[apple]], [[apple-m5]], [[xai]], [[openai]], [[amazon]], [[qualcomm]], [[extropic]], [[figure]]
+> **Related**: [[nvidia]], [[nvidia-cosmos]], [[vera-rubin]], [[ironwood-tpu]], [[project-suncatcher]], [[amd]], [[broadcom]], [[oracle]], [[meta]], [[apple]], [[apple-m5]], [[xai]], [[openai]], [[amazon]], [[qualcomm]], [[extropic]], [[figure]], [[liquid-ai]]
 
 ## Summary
 

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-04
 > **Last updated**: 2026-02-04
-> **Status**: active (early adopters)
+> **Status**: stale
 > **Related**: [[agent-frameworks]], [[enterprise-ai]]
 
 ## Summary

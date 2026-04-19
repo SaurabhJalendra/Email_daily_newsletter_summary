@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-24
 > **Last updated**: 2025-10-28
-> **Status**: active
+> **Status**: stale
 > **Related**: [[chatgpt]], [[openai]], [[claude-for-excel]], [[enterprise-ai]], [[agent-frameworks]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-11-13
 > **Last updated**: 2025-11-14
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ernie-4-5-vl-thinking]], [[alibaba]], [[deepseek]], [[moonshot-ai]]
 
 ## Summary

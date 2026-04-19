@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-31
 > **Last updated**: 2026-01-02
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[gemini]], [[function-gemma]], [[agent-frameworks]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-28
 > **Last updated**: 2025-10-29
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-funding-rounds]], [[enterprise-ai]]
 
 ## Summary

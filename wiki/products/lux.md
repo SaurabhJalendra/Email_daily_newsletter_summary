@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-03
 > **Last updated**: 2025-12-03
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[computer-use]], [[chatgpt-atlas]], [[gemini-2-5-computer-use]], [[claude-code]]
 
 ## Summary

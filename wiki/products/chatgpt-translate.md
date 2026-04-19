@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-01-17
 > **Last updated**: 2026-01-17
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[translategemma]]
 
 ## Summary

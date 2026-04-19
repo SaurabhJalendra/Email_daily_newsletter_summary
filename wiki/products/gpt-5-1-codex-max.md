@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-21
 > **Last updated**: 2025-11-22
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[openai-codex]], [[gpt-5-codex-mini]], [[gpt-5-1]], [[gemini-3]], [[claude-code]], [[agent-frameworks]]
 
 ## Summary

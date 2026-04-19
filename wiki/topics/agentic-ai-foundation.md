@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-12-11
 > **Last updated**: 2025-12-12
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[anthropic]], [[google]], [[model-context-protocol]], [[agent-frameworks]]
 
 ## Summary

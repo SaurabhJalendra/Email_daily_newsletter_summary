@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-04
 > **Last updated**: 2026-02-04
-> **Status**: active (open-source)
+> **Status**: stale
 > **Related**: [[zhipu-ai]], [[deepseek-ocr]], [[mistral-ocr-3]], [[glm-4-7]]
 
 ## Summary

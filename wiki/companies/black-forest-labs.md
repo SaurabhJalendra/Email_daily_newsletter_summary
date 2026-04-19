@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-11-27
 > **Last updated**: 2025-11-27
-> **Status**: active
+> **Status**: stale
 > **Related**: [[flux-2]], [[nano-banana-pro]], [[ai-video-generation]]
 
 ## Summary

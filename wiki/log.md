@@ -4,6 +4,19 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## LINT 2026-04-19 (week 2026-W16)
+
+**Lint actions**:
+- Fixed contradictions: none spotted in this pass. The previously-flagged 2026-04-13 [[project-glasswing]] "hackers" vs 2026-04-09 / 2026-04-11 "coalition" framing remains documented as an open question on both [[project-glasswing]] and [[claude-mythos]]; per wiki policy, conflicting-interpretation contradictions are preserved as open questions rather than resolved by LINT.
+- Resolved orphans: 11 — added backlinks for [[liquid-ai]] (via [[ai-hardware]]), [[luma]] / [[ltx-2]] / [[runway]] / [[runway-gen-4-5]] (via [[ai-video-generation]]), [[agent-composer]] / [[lux]] / [[claude-managed-agents]] (via [[agent-frameworks]]), [[glm-ocr]] (via [[zhipu-ai]]), [[ministral-3]] / [[mistral-ocr-3]] (via [[mistral]]), [[niji-7]] / [[gpt-image-1-5]] / [[qwen-image-2]] (via [[flux-2]]), [[ai-memory]] / [[ai-jobs-displacement]] (via [[anthropic]]), and [[ai-slop]] (via [[ai-copyright]]). Eight Related-line extensions across eight pages.
+- Merged duplicates: none (no near-duplicate pages detected in this pass).
+- Stale pages marked: 76 additional pages now carry `> **Status**: stale`, bringing the total to 94 pages whose "Last updated" predates 2026-02-18 (the 60-day threshold from today 2026-04-19). The prior lint's count of 39 undercounted the true stale surface by roughly half; this pass corrects it. Expected behavior given the Oct-2025 → Apr-2026 backfill gap; these pages will drop back to `active` as new daily ingests land and timeline entries accumulate.
+- Index: regenerated [[index.md]] — added missing [[anduril]] entry in the Companies section, refreshed all `*(stale)*` inline tags from the current stale set, and updated the Digests section entry for 2026-W16 to describe the 7-day backfill window (2026-04-09 → 2026-04-15) rather than the earlier single-day 2026-04-16 coverage.
+
+**Digest generated**: wiki/digests/2026-W16.md regenerated (~3,800 words) covering the seven-day backfill window 2026-04-09 → 2026-04-15. Overwrites the earlier W16 digest that covered only 2026-04-16, because the current 7-most-recent ingest dates fall entirely within the backfill batch and latest (2026-04-15) falls in ISO week W16. Digest theme clusters: agent-orchestration as industry default (fleet-of-agents across 6 vendors in 5 days), the [[claude-mythos]] "too dangerous to release" playbook with 5 new timeline entries, [[anthropic]] $30B + 1,000+ enterprise customers vs [[openai]] $122B at $852B valuation financial parity, [[meta]]'s four-day [[muse-spark]] launch arc culminating in the Zuckerberg AI clone, [[perplexity-computer]]'s expansion from tax agent to full personal-finance platform, the OpenAI policy-document trio (Industrial Policy / 4-day work week / "faster than anyone prepared for"), Stargate UK pause, and the Apple-Meta-Microsoft 2026-2027 wearables timeline convergence. Featured page deep-dive: [[claude-mythos]].
+
+---
+
 ## 2026-04-15
 **Ingested**: data/summaries/2026-04-15.json (backfill)
 

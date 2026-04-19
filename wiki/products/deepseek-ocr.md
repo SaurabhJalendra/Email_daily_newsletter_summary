@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-21
 > **Last updated**: 2025-11-04
-> **Status**: active
+> **Status**: stale
 > **Related**: [[deepseek]], [[long-context-scaling]]
 
 ## Summary

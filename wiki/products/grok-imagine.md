@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-01-20
 > **Last updated**: 2026-02-04
-> **Status**: active (1.0 GA Feb 2026)
+> **Status**: stale
 > **Related**: [[xai]], [[grok-4-1]], [[ai-video-generation]]
 
 ## Summary

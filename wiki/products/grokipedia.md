@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-28
 > **Last updated**: 2025-11-01
-> **Status**: active
+> **Status**: stale
 > **Related**: [[xai]], [[ai-regulation]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-07
 > **Last updated**: 2025-11-14
-> **Status**: active
+> **Status**: stale
 > **Related**: [[moonshot-ai]], [[openai]], [[anthropic]], [[deepseek]], [[alibaba]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-03
 > **Last updated**: 2026-01-11
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nvidia]], [[nvidia-cosmos]], [[ai-hardware]], [[world-models]]
 
 ## Summary

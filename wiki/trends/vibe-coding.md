@@ -9,7 +9,7 @@ type: trend
 > **Type**: trend
 > **First mentioned**: 2025-12-25
 > **Last updated**: 2026-01-17
-> **Status**: active
+> **Status**: stale
 > **Related**: [[andrej-karpathy]], [[claude-code]], [[cursor]], [[lovable]], [[cognition]], [[agent-frameworks]], [[enterprise-ai]]
 
 ## Summary

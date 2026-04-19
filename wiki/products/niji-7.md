@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-01-11
 > **Last updated**: 2026-01-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-video-generation]]
 
 ## Summary

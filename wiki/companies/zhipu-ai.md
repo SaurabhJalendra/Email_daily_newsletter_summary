@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-12-24
 > **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
-> **Related**: [[glm-4-7]], [[glm-5]], [[deepseek]], [[alibaba]], [[moonshot-ai]]
+> **Related**: [[glm-4-7]], [[glm-5]], [[glm-ocr]], [[deepseek]], [[alibaba]], [[moonshot-ai]]
 
 ## Summary
 

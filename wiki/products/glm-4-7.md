@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-24
 > **Last updated**: 2025-12-24
-> **Status**: active
+> **Status**: stale
 > **Related**: [[zhipu-ai]], [[kimi-k2-thinking]], [[deepseek-v3-2]]
 
 ## Summary

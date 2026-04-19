@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-11-28
 > **Last updated**: 2025-12-02
-> **Status**: active
+> **Status**: stale
 > **Related**: [[harmonic-aristotle]], [[ai-funding-rounds]], [[deepseek-math-v2]]
 
 ## Summary

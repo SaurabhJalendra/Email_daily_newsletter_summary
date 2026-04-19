@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-01-20
 > **Last updated**: 2026-02-04
-> **Status**: active (global)
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[codex-app]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-26
 > **Last updated**: 2025-12-06 (backfill 2025-12-05..2025-12-19)
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[anthropic]], [[claude-code]], [[claude-opus-4-7]], [[claude-haiku-4-5]], [[gemini-3]], [[gpt-5-1-codex-max]], [[agent-frameworks]]
 
 ## Summary

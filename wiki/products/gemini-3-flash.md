@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-19
 > **Last updated**: 2025-12-20
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[google]], [[gemini]], [[gemini-3]], [[gpt-5-2]], [[claude-opus-4-5]]
 
 ## Summary

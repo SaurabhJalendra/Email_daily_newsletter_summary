@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-03
 > **Last updated**: 2025-12-04
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[deepseek]], [[deepseek-math-v2]], [[gemini-3]], [[gpt-5-1]]
 
 ## Summary

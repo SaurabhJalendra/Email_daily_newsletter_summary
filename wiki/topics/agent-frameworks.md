@@ -10,7 +10,7 @@ type: topic
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-06)
 > **Status**: active
-> **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-cowork]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]]
+> **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-cowork]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]], [[agent-composer]], [[lux]], [[claude-managed-agents]]
 
 ## Summary
 

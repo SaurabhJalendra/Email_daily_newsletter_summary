@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-01-25
 > **Last updated**: 2026-02-04
-> **Status**: active (renamed from Clawdbot following Anthropic trademark dispute; also referenced as OpenClaw)
+> **Status**: stale
 > **Related**: [[anthropic]], [[claude-opus-4-5]], [[claude-cowork]], [[moltbook]], [[agent-frameworks]]
 
 ## Summary

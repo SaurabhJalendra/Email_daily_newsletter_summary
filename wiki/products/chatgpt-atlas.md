@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-22
 > **Last updated**: 2025-11-08
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[ai-browsers]], [[opera-neon]], [[perplexity-comet]], [[prompt-injection]]
 
 ## Summary

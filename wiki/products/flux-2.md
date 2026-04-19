@@ -9,8 +9,8 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-27
 > **Last updated**: 2026-01-17
-> **Status**: launched
-> **Related**: [[black-forest-labs]], [[nano-banana-pro]], [[ai-video-generation]]
+> **Status**: stale
+> **Related**: [[black-forest-labs]], [[nano-banana-pro]], [[ai-video-generation]], [[niji-7]], [[gpt-image-1-5]], [[qwen-image-2]]
 
 ## Summary
 

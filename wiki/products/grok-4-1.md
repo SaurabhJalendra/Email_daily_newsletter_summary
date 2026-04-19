@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-19
 > **Last updated**: 2025-11-20
-> **Status**: active
+> **Status**: stale
 > **Related**: [[xai]], [[grokipedia]], [[gemini-3]]
 
 ## Summary

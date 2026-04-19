@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-01-16
 > **Last updated**: 2026-01-16
-> **Status**: active
+> **Status**: stale
 > **Related**: [[mistral]], [[mistral-3]]
 
 ## Summary

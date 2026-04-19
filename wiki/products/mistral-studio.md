@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-27
 > **Last updated**: 2025-10-27
-> **Status**: active
+> **Status**: stale
 > **Related**: [[mistral]], [[enterprise-ai]], [[agent-frameworks]]
 
 ## Summary

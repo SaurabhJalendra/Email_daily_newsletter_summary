@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-12-27
 > **Last updated**: 2025-12-27
-> **Status**: active
+> **Status**: stale
 > **Related**: [[agent-frameworks]]
 
 ## Summary

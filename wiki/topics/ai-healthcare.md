@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2026-01-08
 > **Last updated**: 2026-01-18
-> **Status**: active
+> **Status**: stale
 > **Related**: [[chatgpt-health]], [[openai-for-healthcare]], [[openai]], [[anthropic]], [[google]], [[nvidia]], [[enterprise-ai]]
 
 ## Summary

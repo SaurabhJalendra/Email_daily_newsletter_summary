@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-01-03
 > **Last updated**: 2026-01-03
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nvidia]], [[nvidia-cosmos]], [[nemotron-3]], [[world-models]], [[agent-frameworks]]
 
 ## Summary
