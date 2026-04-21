@@ -118,6 +118,141 @@ jobs:
             git push
           fi
 
+      # ======================================================================
+      # Post-send audit QA — reads the latest summary JSON, re-renders the
+      # email HTML locally, and asks Claude Code to spot issues. Audit-mode
+      # only: doesn't block anything (email already sent), but opens a
+      # GitHub issue if problems are found so they can be fixed for the
+      # next day. This closes the feedback loop on daily email quality.
+      # ======================================================================
+
+      - name: Re-render today's email HTML for QA
+        id: qa_prep
+        if: always()
+        run: |
+          mkdir -p /tmp/qa
+          LATEST=$(ls -1t data/summaries/*.json 2>/dev/null | grep -v index.json | head -1)
+          if [ -z "$LATEST" ]; then
+            echo "No summary JSON to QA"
+            echo "skip=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          node --experimental-vm-modules -e "
+          import('./src/notifier/email.js').then(async mod => {
+            const fs = await import('fs/promises');
+            const data = JSON.parse(await fs.readFile('$LATEST', 'utf-8'));
+            const { EmailNotifier } = mod;
+            const n = Object.create(EmailNotifier.prototype);
+            const ds = new Date(data.date).toLocaleDateString('en-IN', { timeZone: 'Asia/Kolkata', weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+            const dp = new Date(data.date).toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
+            const html = n.generateHtmlEmail(data.summary, data.newsletters, data.totalNewsletters, ds, dp, data.tldr, data.researchFindings);
+            await fs.writeFile('/tmp/qa/email.html', html, 'utf-8');
+            await fs.writeFile('/tmp/qa/summary.json', JSON.stringify(data, null, 2), 'utf-8');
+            console.log('HTML size:', html.length, 'bytes');
+          });
+          "
+          echo "json_path=$LATEST" >> $GITHUB_OUTPUT
+          echo "skip=false" >> $GITHUB_OUTPUT
+
+      - name: Post-send QA via Claude Code
+        if: always() && steps.qa_prep.outputs.skip != 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You are performing POST-SEND AUDIT QA on today's daily newsletter email.
+            The email has ALREADY been sent — this is audit mode. You cannot block it.
+            Your job: identify issues so they can be fixed for future runs.
+
+            Artifacts to inspect:
+            - Rendered HTML email: /tmp/qa/email.html
+            - Source summary JSON: /tmp/qa/summary.json
+
+            Checks to perform:
+
+            **Critical** (log as critical severity)
+            1. Wrong date — the subject/body date should match today's IST calendar day
+            2. HTML > 102 KB (Gmail clipping threshold)
+            3. Known spam senders present in newsletters array (look for: thetechbuzz, Real Intent, michaeljburry, realintent.com)
+            4. Literal `[[wiki-link]]` text visible in rendered body (should be rare/none for daily)
+
+            **Warning** (log as warning severity)
+            5. Priority distribution skewed — if 0 LOW or >70% HIGH, the priority filter isn't working
+            6. Tracking URLs still in summary bodies (beehiiv/tldrnewsletter/skool/alphasignal tracking domains)
+            7. A single story (like "Claude Opus X.Y") mentioned >5 times across summaries — dedup isn't working
+            8. TLDR missing or has < 3 bullets
+            9. totalNewsletters > 30 — suggests pipeline fetched multiple days in one run
+
+            **Info** (log as info severity)
+            10. Research findings section empty when RESEARCH_AGENT_ENABLED is true
+            11. Any newsletter summary under 50 words (likely an error or empty newsletter)
+
+            Write your report to `/tmp/qa/qa-report.json`:
+            ```json
+            {
+              "overall": "PASS" | "PASS_WITH_WARNINGS" | "FAIL",
+              "issues": [
+                {"severity":"critical|warning|info","category":"content|formatting","description":"...","recommendation":"..."}
+              ],
+              "summary": "one sentence",
+              "metrics": {
+                "html_size_kb": <number>,
+                "total_newsletters": <number>,
+                "priority_distribution": {"HIGH":N,"MEDIUM":N,"LOW":N},
+                "subject_date": "..."
+              }
+            }
+            ```
+
+            Rules:
+            - Do NOT edit source files. Only write /tmp/qa/qa-report.json.
+            - Be specific: cite newsletter subjects, byte counts, etc.
+            - If all checks pass, report PASS with empty issues array.
+          claude_args: |
+            --max-turns 25
+            --model claude-opus-4-7
+            --allowedTools Read,Write,Glob,Grep
+
+      - name: File issue on QA findings
+        if: always() && steps.qa_prep.outputs.skip != 'true'
+        run: |
+          if [ ! -f /tmp/qa/qa-report.json ]; then
+            echo "No QA report written — skipping issue filing"
+            exit 0
+          fi
+          echo "--- Daily QA Report ---"
+          cat /tmp/qa/qa-report.json
+          echo "-----------------------"
+          OVERALL=$(jq -r '.overall' /tmp/qa/qa-report.json 2>/dev/null || echo "UNKNOWN")
+          ISSUE_COUNT=$(jq -r '.issues | length' /tmp/qa/qa-report.json 2>/dev/null || echo "0")
+          if [ "$OVERALL" = "PASS" ] || [ "$ISSUE_COUNT" = "0" ]; then
+            echo "✅ QA passed — no issue to file"
+            exit 0
+          fi
+          DATE=$(date -u +%Y-%m-%d)
+          SUMMARY=$(jq -r '.summary // "Daily digest QA found issues"' /tmp/qa/qa-report.json)
+          BODY=$(jq -r '.issues[] | "**[" + .severity + "][" + .category + "]** " + .description + "\n_Recommendation:_ " + .recommendation + "\n"' /tmp/qa/qa-report.json)
+          METRICS=$(jq -r '.metrics | to_entries | map("- **\(.key)**: \(.value | tostring)") | .[]' /tmp/qa/qa-report.json)
+          gh issue create \
+            --title "Daily QA ($DATE): $OVERALL" \
+            --body "$(cat <<EOF
+          $SUMMARY
+
+          ## Metrics
+          $METRICS
+
+          ## Issues found
+          $BODY
+
+          ---
+          Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          EOF
+          )"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # End of post-send audit QA
+
       - name: Upload summary artifacts
         if: always()
         uses: actions/upload-artifact@v4
