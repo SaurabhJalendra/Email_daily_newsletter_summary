@@ -185,6 +185,147 @@ jobs:
             --metadata "title=Weekly AI Wiki Digest — ${{ steps.digest.outputs.basename }}"
           ls -la "${{ steps.digest.outputs.docx_path }}"
 
+      # ======================================================================
+      # Pre-send Visual QA — Claude Code with vision checks the DOCX output
+      # before we email it. Converts DOCX → PDF → PNG images so Claude can
+      # actually see the rendered document, not just the markdown source.
+      # ======================================================================
+
+      - name: Install LibreOffice + poppler-utils (for visual rendering)
+        run: sudo apt-get install -y libreoffice poppler-utils
+
+      - name: Convert DOCX → PDF → PNG images for visual inspection
+        id: render
+        run: |
+          # DOCX → PDF via LibreOffice headless
+          libreoffice --headless --convert-to pdf --outdir /tmp "${{ steps.digest.outputs.docx_path }}"
+          PDF=$(ls /tmp/weekly-digest-*.pdf 2>/dev/null | head -1)
+          if [ -z "$PDF" ]; then
+            echo "PDF conversion failed — skipping visual QA"
+            echo "images_dir=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          # PDF → PNG (first 6 pages at 120 DPI — enough for visual QA)
+          pdftoppm -png -r 120 -f 1 -l 6 "$PDF" /tmp/digest-page
+          ls /tmp/digest-page-*.png
+          echo "images_dir=/tmp" >> $GITHUB_OUTPUT
+          echo "pdf_path=$PDF" >> $GITHUB_OUTPUT
+
+      - name: Pre-send QA via Claude Code (with vision)
+        if: steps.render.outputs.images_dir != ''
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You are performing PRE-SEND QA on the weekly digest before it emails out.
+            Your job: detect issues, NOT fix code. Write a report; human reviews.
+
+            Artifacts to inspect:
+            - Markdown source: ${{ steps.digest.outputs.md_path }}
+            - Pre-processed markdown (what was sent to pandoc): ${{ steps.preprocess.outputs.path }}
+            - Rendered DOCX pages as PNG images: /tmp/digest-page-*.png (read each)
+            - The email HTML is NOT available here — it's generated at send time.
+
+            Check for the following — report each issue found:
+
+            **Content issues (read the markdown)**
+            1. Literal `[[wiki-link]]` text — should have been stripped by preprocessing
+            2. Wrong/missing date — subject and body should reflect correct IST week
+            3. Missing sections — template requires: If You Only Read One Thing, Top 10 Stories, By the Numbers, New Pages Created, Pages with Biggest Updates, Cross-Cutting Patterns, Featured Page Deep-Dive, Stories Worth Watching Next Week, Notable Quotes & Claims
+            4. Empty/stub sections (e.g., "(none)" or fewer than 3 items)
+            5. Fewer than 2500 words total (too terse)
+
+            **Visual issues (read each PNG image)**
+            6. Broken markdown formatting (literal asterisks, unclosed bold, messy tables)
+            7. Awkward page breaks mid-sentence
+            8. Huge whitespace gaps
+            9. Weird heading hierarchy (H1 appearing mid-document, missing H2 for sections)
+            10. Misaligned bullets / nested list formatting broken
+            11. Text overflow or truncation at page edges
+            12. Low-quality font rendering
+
+            Write your report to `/tmp/qa-report.json` in this format:
+            ```json
+            {
+              "overall": "PASS" | "PASS_WITH_WARNINGS" | "FAIL",
+              "issues": [
+                {
+                  "severity": "critical" | "warning" | "info",
+                  "category": "content" | "visual" | "formatting",
+                  "description": "...",
+                  "recommendation": "..."
+                }
+              ],
+              "summary": "one-sentence overall assessment"
+            }
+            ```
+
+            Rules:
+            - Do NOT edit any files except `/tmp/qa-report.json`.
+            - If everything looks good, report PASS with an empty issues array.
+            - `critical` = send should be blocked, `warning` = ok but notable, `info` = nit.
+            - Be specific: cite page numbers for visual issues, line numbers for content issues.
+          claude_args: |
+            --max-turns 40
+            --model claude-opus-4-7
+            --allowedTools Read,Write,Glob,Grep
+
+      - name: Parse QA report and decide send/block
+        id: qa
+        run: |
+          if [ ! -f /tmp/qa-report.json ]; then
+            echo "No QA report written — skipping QA gate (not blocking send)"
+            echo "overall=UNKNOWN" >> $GITHUB_OUTPUT
+            echo "block=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "--- QA Report ---"
+          cat /tmp/qa-report.json
+          echo "-----------------"
+          OVERALL=$(jq -r '.overall' /tmp/qa-report.json 2>/dev/null || echo "UNKNOWN")
+          CRITICAL=$(jq -r '[.issues[] | select(.severity=="critical")] | length' /tmp/qa-report.json 2>/dev/null || echo "0")
+          echo "overall=$OVERALL" >> $GITHUB_OUTPUT
+          echo "critical_count=$CRITICAL" >> $GITHUB_OUTPUT
+          # Block send only if there are critical issues
+          if [ "$CRITICAL" -gt 0 ]; then
+            echo "block=true" >> $GITHUB_OUTPUT
+          else
+            echo "block=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Open GitHub issue if problems found
+        if: steps.qa.outputs.overall != 'PASS' && steps.qa.outputs.overall != 'UNKNOWN'
+        run: |
+          SUMMARY=$(jq -r '.summary // "Weekly digest QA found issues"' /tmp/qa-report.json)
+          BODY=$(jq -r '.issues[] | "**[" + .severity + "][" + .category + "]** " + .description + "\n_Recommendation:_ " + .recommendation + "\n"' /tmp/qa-report.json)
+          gh issue create \
+            --title "Weekly digest QA (${{ steps.digest.outputs.basename }}): ${{ steps.qa.outputs.overall }}" \
+            --body "$(cat <<EOF
+          $SUMMARY
+
+          ## Issues found
+          $BODY
+
+          ---
+          Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          QA report: full JSON is in the run's logs for "Parse QA report and decide send/block".
+          EOF
+          )"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Block send if critical issues found
+        if: steps.qa.outputs.block == 'true'
+        run: |
+          echo "❌ Critical QA issues detected — blocking email send."
+          echo "Review the GitHub issue opened in the previous step."
+          exit 1
+
+      # ======================================================================
+      # End of Pre-send QA — email send proceeds only if QA passed (or
+      # only non-critical issues were found).
+      # ======================================================================
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
