@@ -166,9 +166,19 @@ jobs:
       - name: Install pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
+      - name: Preprocess markdown for DOCX (strip [[wiki-link]] syntax)
+        id: preprocess
+        run: |
+          PROCESSED="/tmp/preprocessed-${{ steps.digest.outputs.basename }}.md"
+          # Convert [[page-name]] → **Page Name** (title-cased, space-separated) so pandoc renders cleanly
+          perl -pe 's/\[\[([^\]]+)\]\]/"**" . join(" ", map { ucfirst } split(\/-\/, $1)) . "**"/ge' \
+            "${{ steps.digest.outputs.md_path }}" > "$PROCESSED"
+          echo "path=$PROCESSED" >> $GITHUB_OUTPUT
+          echo "Preprocessed digest written to $PROCESSED"
+
       - name: Convert digest markdown to DOCX (pandoc)
         run: |
-          pandoc "${{ steps.digest.outputs.md_path }}" \
+          pandoc "${{ steps.preprocess.outputs.path }}" \
             -o "${{ steps.digest.outputs.docx_path }}" \
             --from gfm \
             --to docx \

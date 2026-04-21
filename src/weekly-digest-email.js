@@ -17,8 +17,15 @@ async function sendWeeklyDigest() {
   }
 
   console.log(`📖 Reading digest: ${digestPath}`);
-  const markdown = await fs.readFile(digestPath, 'utf-8');
+  const rawMarkdown = await fs.readFile(digestPath, 'utf-8');
   const basename = path.basename(digestPath, '.md'); // e.g. "2026-15"
+
+  // Convert [[wiki-page]] syntax to readable bold (pandoc/marked don't parse it)
+  // e.g. [[claude-opus-4-7]] → **Claude Opus 4 7**
+  const markdown = rawMarkdown.replace(/\[\[([^\]]+)\]\]/g, (_, name) => {
+    const readable = name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    return `**${readable}**`;
+  });
 
   // Extract title from the first H1
   const titleMatch = markdown.match(/^#\s+(.+)$/m);

@@ -23,7 +23,12 @@ function cleanUrl(url) {
 const ALWAYS_SKIP_SENDERS = [
   'thetechbuzz',           // Real Intent webinar spam — not AI content
   'real intent',
-  'realintent.com'
+  'realintent.com',
+  // Non-AI Substack senders that came through the broad @substack.com filter
+  'post+someone-on-film',  // culture/film content
+  'post+the-weekender',    // Substack editorial mix, non-AI
+  'michaeljburry',         // trading / finance, non-AI
+  'no-reply@substack.com'  // Substack admin/promo (weekly stack recommendations)
 ];
 
 // Subject patterns that flag a newsletter as low-priority promo (LOW before LLM sees it)
