@@ -33,17 +33,34 @@ const ALWAYS_SKIP_SENDERS = [
 
 // Subject patterns that flag a newsletter as low-priority promo (LOW before LLM sees it)
 const PROMO_SUBJECT_PATTERNS = [
-  /webinar/i,
-  /register now/i,
-  /register today/i,
-  /limited time/i,
+  // Events & webinars
+  /\bwebinar\b/i,
+  /register (?:now|today|here)/i,
+  /join us (?:tomorrow|today|live)/i,
+  /\blive session\b/i,
+  /\blast chance\b/i,
+  /seats? (?:are )?(?:filling|going|limited)/i,
+  /\bwaitlist\b/i,
+  // Pricing / discounts
+  /limited (?:time|offer)/i,
   /exclusive offer/i,
   /save \$\d+/i,
-  /\d+% off/i,
-  /last chance/i,
+  /\$\d+ off/i,
+  /\d+% (?:off|discount)/i,
   /price increase/i,
-  /enroll now/i,
-  /seats? (?:are )?(?:filling|going)/i
+  /going up in/i,
+  // Course & enrollment promos
+  /enroll(?:l|) (?:now|today)/i,
+  /last (?:\d+ )?(?:hours?|days?) (?:to|left)/i,
+  /early bird/i,
+  /cohort (?:starts|begins|opens)/i,
+  // Generic marketing signals
+  /🚀 (?:launch|upgrade)/i,
+  /\bpre[-\s]?order/i,
+  /\bsubscribe (?:now|today)\b/i,
+  /\btrial\b.*\bends?\b/i,
+  /\bdon['\u2019]t miss\b/i,
+  /\bfree\s+(?:consultation|strategy|audit)\b/i
 ];
 
 export function isPromoSubject(subject) {

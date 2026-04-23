@@ -51,6 +51,10 @@ export class OpenRouterSummarizer {
       // Derive date from newsletters (IST-aware), not from execution time
       const derivedDate = this.deriveDateFromNewsletters(newsletters);
 
+      // Enforce priority distribution — LLMs tend to over-rate HIGH.
+      // Cap HIGH to at most 30% of the total; demote overflow to MEDIUM.
+      this.enforcePriorityCap(individualSummaries);
+
       // Generate overall daily summary
       const overallSummary = await this.generateOverallSummary(individualSummaries, researchFindings, derivedDate);
 
@@ -70,6 +74,35 @@ export class OpenRouterSummarizer {
       console.error('Error during summarization:', error);
       throw error;
     }
+  }
+
+  /**
+   * Cap the number of HIGH-priority newsletters to a maximum ratio.
+   * LLMs tend to rate everything HIGH, which defeats the whole priority
+   * sorting. Hard rule: no more than 30% of newsletters can be HIGH.
+   * When over the cap, demote the excess to MEDIUM, keeping those with
+   * the longest summary (crude proxy for "most substantive").
+   *
+   * Side effect: mutates the `priority` field on each summary in place.
+   */
+  enforcePriorityCap(summaries) {
+    if (!Array.isArray(summaries) || summaries.length === 0) return;
+    const HIGH_RATIO_CAP = 0.30;
+    const maxHigh = Math.max(1, Math.floor(summaries.length * HIGH_RATIO_CAP));
+    const highIndices = summaries
+      .map((s, i) => ({ i, priority: s.priority, length: (s.summary || '').length }))
+      .filter(x => x.priority === 'HIGH');
+
+    if (highIndices.length <= maxHigh) return;
+
+    // Keep the top N by summary length; demote the rest.
+    highIndices.sort((a, b) => b.length - a.length);
+    const toDemote = highIndices.slice(maxHigh);
+
+    for (const item of toDemote) {
+      summaries[item.i].priority = 'MEDIUM';
+    }
+    console.log(`  📊 Priority cap: demoted ${toDemote.length} HIGH→MEDIUM to enforce ≤${maxHigh}/${summaries.length} HIGH limit`);
   }
 
   /**

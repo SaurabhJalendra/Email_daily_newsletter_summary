@@ -173,7 +173,15 @@ export class EmailNotifier {
   }
 
   /**
-   * Send daily summary notification email
+   * Send daily summary notification email.
+   *
+   * Body = short scannable version (TL;DR + overview + note about attachment).
+   * Attached HTML file = full digest with all newsletter summaries.
+   *
+   * Rationale: Gmail clips emails > 102KB. On heavy days (30+ newsletters)
+   * the full email body blew past the limit and content was silently lost.
+   * Moving full content to an attachment guarantees zero content loss
+   * regardless of how many newsletters come in.
    */
   async sendSummaryNotification(summaryData) {
     const { summary, totalNewsletters, newsletters, date, tldr, researchFindings } = summaryData;
@@ -188,7 +196,10 @@ export class EmailNotifier {
 
     const dateParam = new Date(date).toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
 
-    const htmlContent = this.generateHtmlEmail(summary, newsletters, totalNewsletters, dateString, dateParam, tldr, researchFindings);
+    // Short body for the email itself (never clipped)
+    const bodyHtml = this.generateEmailBody(summary, totalNewsletters, dateString, tldr, researchFindings, dateParam);
+    // Full content for the attachment (unlimited size)
+    const fullDigestHtml = this.generateHtmlEmail(summary, newsletters, totalNewsletters, dateString, dateParam, tldr, researchFindings);
     const textContent = this.generateTextEmail(summary, newsletters, totalNewsletters, dateString, tldr, researchFindings);
 
     const mailOptions = {
@@ -196,17 +207,92 @@ export class EmailNotifier {
       to: config.notification.recipientEmail,
       subject: `📰 Your AI Newsletter Digest - ${dateString}`,
       text: textContent,
-      html: htmlContent
+      html: bodyHtml,
+      attachments: [
+        {
+          filename: `digest-${dateParam}.html`,
+          content: fullDigestHtml,
+          contentType: 'text/html; charset=utf-8'
+        }
+      ]
     };
 
     try {
       const info = await this.transporter.sendMail(mailOptions);
       console.log(`✓ Summary email sent: ${info.messageId}`);
+      console.log(`   Body: ${(bodyHtml.length/1024).toFixed(1)} KB (Gmail threshold: 102 KB)`);
+      console.log(`   Attachment: ${(fullDigestHtml.length/1024).toFixed(1)} KB full digest`);
       return info;
     } catch (error) {
       console.error('Error sending email notification:', error);
       throw error;
     }
+  }
+
+  /**
+   * Short scannable email body — TL;DR + daily overview + note about attachment.
+   * NEVER includes individual newsletter cards; those live in the attached HTML.
+   * Typical size: 10-20 KB regardless of newsletter count.
+   */
+  generateEmailBody(summary, totalNewsletters, dateString, tldr, researchFindings, dateParam) {
+    const tldrHtml = tldr && tldr.length > 0 ? `
+      <div class="tldr">
+        <h2 class="tldr-h">⚡ TL;DR</h2>
+        <ul class="tldr-ul">${tldr.map(b => `<li class="tldr-li">${escapeHtml(b)}</li>`).join('')}</ul>
+      </div>` : '';
+
+    const researchHtml = researchFindings?.missingStories?.length > 0 ? `
+      <div class="research">
+        <h2 class="research-h">🔍 Beyond the Newsletters</h2>
+        <p class="research-sub">Stories our research agent found that weren't in today's newsletters:</p>
+        ${researchFindings.missingStories.map(story => `
+          <div class="research-item">
+            <span class="research-head">${escapeHtml(story.headline)}</span>
+            <p class="research-sum">${escapeHtml(story.summary)}</p>
+            <p class="research-why">Why it matters: ${escapeHtml(story.whyItMatters)}</p>
+          </div>`).join('')}
+      </div>` : '';
+
+    return `<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>${EMAIL_STYLES}
+.attach-cta { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center; }
+.attach-cta-h { color: #0369a1; margin: 0 0 8px 0; font-size: 16px; }
+.attach-cta-p { color: #075985; margin: 0; font-size: 14px; line-height: 1.5; }
+.attach-cta-file { display: inline-block; background: #fff; border: 1px dashed #7dd3fc; padding: 6px 12px; border-radius: 4px; font-family: monospace; font-size: 13px; color: #0c4a6e; margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="main">
+<div class="hdr">
+<h1 class="hdr-h1">📰 AI Newsletter Digest</h1>
+<p class="hdr-date">${dateString}</p>
+<p class="hdr-count">${totalNewsletters} Newsletter${totalNewsletters !== 1 ? 's' : ''} Summarized</p>
+</div>
+<div class="content">
+${tldrHtml}
+<div class="overview">
+<h2 class="overview-h">📊 Daily Overview</h2>
+<div>${markdownToEmailHtml(summary)}</div>
+</div>
+${researchHtml}
+<div class="attach-cta">
+<h2 class="attach-cta-h">📎 Full digest attached</h2>
+<p class="attach-cta-p">All ${totalNewsletters} newsletter summaries with priority colors and full content are in the attached HTML file. Open in any browser.</p>
+<div class="attach-cta-file">digest-${dateParam}.html</div>
+</div>
+</div>
+<div class="footer">
+<p class="footer-sub">Generated with AI • Delivered at midnight IST</p>
+</div>
+</div>
+</div>
+</body>
+</html>`;
   }
 
   /**
