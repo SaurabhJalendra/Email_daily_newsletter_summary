@@ -9,7 +9,7 @@ type: trend
 > **Type**: trend
 > **First mentioned**: 2025-10-05
 > **Last updated**: 2026-02-19 (backfill 2026-01-05..2026-02-19)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[gemini-enterprise]], [[agentforce]], [[salesforce]], [[microsoft]], [[google]], [[openai]], [[anthropic]], [[chatgpt-company-knowledge]], [[claude-cowork]], [[claude-for-excel]], [[github-agent-hq]], [[mistral-studio]], [[universal-commerce-protocol]], [[agent-frameworks]]
 
 ## Summary

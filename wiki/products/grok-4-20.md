@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-19
 > **Last updated**: 2026-02-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[xai]], [[grok-4-1]], [[agent-frameworks]]
 
 ## Summary

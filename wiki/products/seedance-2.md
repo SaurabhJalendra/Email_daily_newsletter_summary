@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-10
 > **Last updated**: 2026-02-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[bytedance]], [[ai-video-generation]], [[sora-2]], [[veo-3]], [[runway-gen-4-5]], [[disney]]
 
 ## Summary

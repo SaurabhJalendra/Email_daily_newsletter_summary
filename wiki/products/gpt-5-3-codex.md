@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-07
 > **Last updated**: 2026-02-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[gpt-5-2-codex]], [[gpt-5-3-codex-spark]], [[codex-app]], [[openai-codex]], [[claude-opus-4-6]]
 
 ## Summary

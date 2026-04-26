@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-13
 > **Last updated**: 2026-02-19 (backfill 2025-12-05..2026-02-19)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[gemini]], [[gemini-3-flash]], [[google]], [[openai]], [[gpt-5-1]], [[gpt-5-2]], [[antigravity]], [[claude-opus-4-5]], [[ironwood-tpu]]
 
 ## Summary

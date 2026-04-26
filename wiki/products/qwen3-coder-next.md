@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-05
 > **Last updated**: 2026-02-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[alibaba]], [[gpt-5-3-codex]], [[claude-opus-4-6]], [[deepseek-v3-2]]
 
 ## Summary

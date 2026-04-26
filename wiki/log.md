@@ -4,6 +4,19 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## LINT 2026-04-26 (week 2026-W16)
+
+**Lint actions**:
+- Fixed contradictions: none new this pass. The 2026-04-13 [[project-glasswing]] "hackers" vs 2026-04-09 / 2026-04-11 "coalition" framing remains an open question on both [[project-glasswing]] and [[claude-mythos]] pages; per wiki policy conflicting interpretations are preserved as open questions until a third-mention resolution. No new contradictions introduced by ingests this week (none have landed since the 2026-04-19 LINT — log.md still terminates at 2026-04-15 ingest).
+- Resolved orphans: 0 — orphan check across all 202 wiki pages (companies + products + topics + trends) returned zero true orphans (every page is referenced from at least one other page after the prior LINT's backlink cleanup). No new pages were created since the prior LINT.
+- Merged duplicates: none (no near-duplicate pages detected this pass).
+- Stale pages marked: 13 additional product/topic/trend pages crossed the 60-day threshold this week — all previously-active pages whose "Last updated" frontmatter is 2026-02-19, which moved past the new 2026-02-26 cutoff (60 days back from today 2026-04-26). Marked stale: [[agent-skills]], [[claude-opus-4-6]], [[claude-sonnet-4-6]], [[gemini-3]], [[glm-5]], [[gpt-5-3-codex]], [[grok-4-20]], [[openai-frontier]], [[qwen-image-2]], [[qwen3-coder-next]], [[seedance-2]], [[ai-video-generation]], [[enterprise-ai]]. Total stale-page count is now 107 (94 from prior LINT + 13 newly stale this week). Index.md updated to reflect the new `*(stale)*` tags on each. Expected behavior: many of these pages cover Feb 2026 product releases (Sonnet 4.6, Opus 4.6, GPT-5.3 Codex, Qwen Image 2, etc.) that have since been superseded by newer cycles; the "stale" tag reflects time-since-last-update, not loss of historical relevance.
+- Index: regenerated [[index.md]] in place — no missing entries vs the actual directory listing (202 wiki pages = 58 companies + 118 products + 17 topics + 9 trends, all present in the index). 13 `*(stale)*` tags added inline. Digests-section entry for [[digests/2026-W16]] updated to reflect the regenerated digest content (mention of fleet-of-agents-as-industry-default, $30B vs $122B financial parity, Muse Spark Neural-Computer arc, Perplexity-Computer personal-finance pivot, OpenAI-as-policy-actor, Stargate UK pause, and the [[claude-mythos]] / [[project-glasswing]] cybersecurity-governance pattern).
+
+**Digest generated**: wiki/digests/2026-W16.md regenerated (~6,200 words / ~38K characters) covering the same 2026-04-09 → 2026-04-15 backfill window as the 2026-04-19 LINT. The 7-most-recent-ingest selection in [[log]] has not advanced since the prior LINT (no new ingests have landed in log.md since 2026-04-15), so the source dates are unchanged. This regeneration adds fresh synthesis: tightened framing on the cybersecurity-governance playbook, the agent-orchestration-as-default-frame inflection (6 vendors with public fleet/coordinator surfaces by 2026-04-15), the frontier-lab-as-policy-actor pattern (3 OpenAI policy publications in 6 days), the open-weights-supply-rebalancing pattern (Meta's pivot away vs Google's Gemma 4 + MiniMax M2.7), and the Stargate UK pause as the first recorded infrastructure-policy constraint on a frontier-lab spend. Featured page deep-dive: [[claude-mythos]] (5 framings layered across 7 days). Cross-cutting patterns: 7 named themes; "Stories Worth Watching" extended to 7 forward threads (Glasswing contradiction resolution, OpenAI IPO timing, Meta open-weights permanence, third-party-harness restriction generalization, fleet-of-agents naming wars, post-Altman-attack threat environment, Hassabis 5-year AGI prediction calibration).
+
+---
+
 ## LINT 2026-04-19 (week 2026-W16)
 
 **Lint actions**:

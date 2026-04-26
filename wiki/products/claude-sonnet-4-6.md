@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-19
 > **Last updated**: 2026-02-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[claude-opus-4-6]], [[claude-opus-4-5]], [[claude-code]], [[claude-cowork]]
 
 ## Summary

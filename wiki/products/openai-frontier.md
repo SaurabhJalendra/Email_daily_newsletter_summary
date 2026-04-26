@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-09
 > **Last updated**: 2026-02-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt-company-knowledge]], [[agentkit]], [[openai-codex]], [[enterprise-ai]], [[agent-frameworks]]
 
 ## Summary

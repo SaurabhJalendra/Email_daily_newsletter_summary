@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-20
 > **Last updated**: 2026-02-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[openai]], [[claude-skills]], [[claude-code]], [[claude-for-excel]], [[chatgpt]], [[agent-frameworks]], [[model-context-protocol]], [[agentic-ai-foundation]]
 
 ## Summary
