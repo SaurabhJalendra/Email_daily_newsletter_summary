@@ -204,7 +204,20 @@ Format your response as:
 Be thorough - missing information is worse than being verbose.`;
 
     try {
-      const summary = await this.generateContent(prompt);
+      const rawSummary = await this.generateContent(prompt);
+
+      // Post-process: scrub tracking URLs the LLM included despite prompt instructions.
+      // These appear inline in summary text (Notable Links sections) and bloat plain-text
+      // emails. Strip the URL portion of `[text](url)` markdown links pointing to known
+      // tracking domains, leaving the descriptive text behind.
+      const TRACKING_DOMAINS = /link\.mail\.beehiiv\.com|tracking\.tldrnewsletter\.com|app\.alphasignal\.ai\/c|substack\.com\/redirect|link\.skool\.com|journalclub\.io\/track/;
+      const summary = rawSummary
+        // Markdown links to tracking URLs → keep just the text
+        .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, (m, text, url) =>
+          TRACKING_DOMAINS.test(url) ? text : m
+        )
+        // Bare tracking URLs that aren't markdown-wrapped (often after "URL:" or in lists)
+        .replace(/https?:\/\/(?:[a-z0-9.-]*\.)?(?:beehiiv\.com\/(?:ss\/)?c\/|tracking\.tldrnewsletter\.com|app\.alphasignal\.ai\/c|substack\.com\/redirect\/|link\.skool\.com|journalclub\.io\/track\/)[^\s)]+/g, '[link]');
 
       // Extract priority — permissive regex handles all common LLM variations:
       // **Priority: HIGH**, **Priority:** HIGH, **Priority**: HIGH, Priority: HIGH, etc.
@@ -286,7 +299,7 @@ Instructions:
 10. Exclude non-AI content (skincare, travel, generic productivity, real estate webinars, course promos, etc.)
 11. Only include categories that have substantive content — do NOT create empty or filler sections
 12. Each fact should appear in EXACTLY ONE place in the digest. If "Claude Opus 4.7 launched" is in Top Stories, do not also put it under "AI Models & Research".
-${researchFindings?.missingStories?.length > 0 ? '13. Include a "Beyond the Newsletters" section for stories found by the research agent that were not in any newsletter' : ''}
+13. DO NOT include any "Beyond the Newsletters" / "Research Findings" / "Missing Stories" section in your overall summary. Those stories are rendered separately by the email template — including them here causes duplicate content in the email.
 
 Format:
 # Daily AI Newsletter Digest - ${dateString}
@@ -303,10 +316,6 @@ Format:
 
 ## 📰 Industry News
 - ...
-${researchFindings?.missingStories?.length > 0 ? `
-## 🔍 Beyond the Newsletters
-- [Stories discovered by research agent]
-` : ''}
 
 Total Newsletters: ${individualSummaries.length}`;
 
