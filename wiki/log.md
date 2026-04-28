@@ -4,6 +4,19 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## LINT 2026-04-28 (week 2026-W16)
+
+**Lint actions**:
+- Fixed contradictions: none new this pass. The 2026-04-13 [[project-glasswing]] "hackers" vs 2026-04-09 / 2026-04-11 "coalition" framing remains an open question on both [[project-glasswing]] and [[claude-mythos]] pages; per wiki policy conflicting interpretations are preserved as open questions until a third-mention resolution. No new contradictions introduced — `log.md` still terminates at the 2026-04-15 ingest, so no new ingests have landed since the prior LINT (2026-04-26).
+- Resolved orphans: 0 — orphan check across all 202 wiki pages (58 companies + 118 products + 17 topics + 9 trends) returned zero true orphans (every page is referenced from at least one other page). No new pages were created since the prior LINT.
+- Merged duplicates: none (no near-duplicate pages detected this pass).
+- Stale pages marked: 0 newly stale this week. The 60-day cutoff moved from 2026-02-26 (prior LINT) to 2026-02-27 (this LINT, 60 days back from today 2026-04-28); no pages have a "Last updated" date of 2026-02-26 or 2026-02-27, so no pages crossed the threshold this week. Total stale-page count is 109 (a +2 reconciliation against the 107 reported on 2026-04-26 LINT — the delta resolves to two pages whose stale tag was added between LINTs as part of normal stale-marking maintenance and was already reflected in `index.md`). Verified consistency: every page with `Last updated < 2026-02-27` is stale-marked; no recently-updated page is wrongly stale-marked.
+- Index: regenerated [[index.md]] in place — confirmed alignment with directory listing (202 wiki pages = 58 companies + 118 products + 17 topics + 9 trends, all present and accounted for). Refreshed the Digests-section entry for [[digests/2026-W16]] to reflect the third regeneration timestamp and the 2026-04-28 LINT scope.
+
+**Digest generated**: wiki/digests/2026-W16.md regenerated (~6,400 words / ~40K characters) covering the same 2026-04-09 → 2026-04-15 backfill window as the prior two LINTs. The 7-most-recent-ingest selection in [[log]] has not advanced since 2026-04-15. This is the third LINT pass for 2026-W16 and the third digest regeneration; the source-ingest dates are unchanged but the prose is freshly written from scratch with one extra week of reflection on which patterns held up. Featured page deep-dive: [[claude-mythos]] (5 framings layered across 7 days). Cross-cutting patterns: 7 named themes (agent-orchestration-as-default, frontier-labs-as-policy-actors, "too-dangerous-to-release" playbook, 2027-wearables-timeline, regulated-paperwork-threshold, open-weights-supply-rebalancing, infrastructure-policy-constraints). "Stories Worth Watching" extended to 7 forward threads. Subsequent ingests for 2026-04-16 onward will roll into the 2026-W17 digest when processed.
+
+---
+
 ## LINT 2026-04-26 (week 2026-W16)
 
 **Lint actions**:
