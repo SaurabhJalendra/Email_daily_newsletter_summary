@@ -1,0 +1,646 @@
+{
+  "date": "2026-04-28T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Wednesday, 29 April 2026\n\n## 🔥 Top Stories\n1. **OpenAI and Microsoft have reworked their partnership terms, ending Microsoft's exclusivity over OpenAI's IP and allowing OpenAI to ship products on any cloud**, including Amazon Web Services (AWS) and Google Cloud, while Microsoft remains a main cloud partner with Azure-first launch access until 2032. Why it matters: This change marks a significant shift in the AI industry, enabling OpenAI to diversify its infrastructure and potentially driving innovation and competition in AI cloud services.\n2. **OpenAI is reportedly building its own smartphone, likely running on its own operating system with AI agents potentially replacing apps**, in partnership with MediaTek, Qualcomm, and Luxshare. Why it matters: The development of an AI-first smartphone could revolutionize the way users interact with their devices and pave the way for more integrated AI solutions in consumer technology.\n3. **China has blocked Meta's $2 billion acquisition of AI startup Manus, signaling Beijing's broader move to fence off its homegrown AI sector and protect national security interests**. Why it matters: This move reflects increasing global tensions over AI development, intellectual property, and national security, which could impact the future of cross-border AI collaborations and acquisitions.\n4. **The Musk-Altman trial has begun, with Elon Musk suing Sam Altman for $134 billion and seeking his removal as CEO of OpenAI**, amid a dispute over the company's nonprofit roots and restructuring into a for-profit entity. Why it matters: The outcome of this trial could significantly impact OpenAI's governance, leadership, and future direction, as well as the broader AI industry's approach to corporate structure and ownership.\n5. **AlphaGo creator David Silver has launched Ineffable Intelligence, a new AI company backed by $1.1 billion in seed funding, aiming to build \"superlearners\" using reinforcement learning**. Why it matters: The development of superlearners could lead to breakthroughs in AI capability, enabling systems that can learn independently and scale indefinitely, which could have far-reaching implications for various industries and applications.\n\n## 🤖 AI Models & Research\n- OpenAI has introduced GPT-5.5, a new class of intelligence for real work, enabling agents to understand complexity, use tools, verify outputs, and complete extended tasks.\n- Xiaomi has released MiMo-V2.5-Pro, a 1.02T-parameter Mixture-of-Experts model, showing significant advancements in agentic tasks, software engineering, and long-horizon coherence.\n- Researchers have proposed a workaround for \"Context Rot\" in LLMs using parallel subagents to improve performance.\n\n## 🛠️ Tools & Products\n- OpenAI has released Symphony, an open-source spec for Codex orchestration, allowing for automation of coding tasks through Linear.\n- Cognition has introduced Devin, a local coding agent that can run entirely on a user's machine with full access to their codebase and tools.\n- GitHub has experienced a major outage, highlighting the importance of reliable infrastructure for software development.\n\n## 📰 Industry News\n- Meta has partnered with Overview Energy to power its AI systems using satellites that collect solar energy in space and beam it back to Earth as near-infrared light.\n- Microsoft Outlook now supports Agent Mode, helping to run inboxes and calendars more efficiently, with Copilot assisting in tasks and keeping users in the loop.\n- The AI Index Report 2026 reveals that Switzerland has ranked first in the world for AI researchers and developers per capita, with a high adoption rate of 34.8% as of 2025.\n\nTotal Newsletters: 24",
+  "totalNewsletters": 24,
+  "newsletters": [
+    {
+      "from": "\"Technology News\" <technology-newsletter@mail.beehiiv.com>",
+      "subject": "OpenAI Is Building a Phone 📱",
+      "date": "2026-04-27T19:21:07.000Z",
+      "summary": "## Technology News\n\n**Priority: HIGH**\n\n### Top Updates\n- OpenAI is co-developing a smartphone with Qualcomm, MediaTek, and Luxshare, one of Apple's largest manufacturing partners, with the goal of replacing the traditional app grid with a single AI agent. This project, reportedly involving Jony Ive's team, aims to simplify user interactions by allowing them to tell the phone what they want to do, and the AI agent will handle the tasks.\n- Microsoft and OpenAI have rewritten their partnership agreement, ending Azure's exclusivity as OpenAI's cloud provider, capping OpenAI's payments to Microsoft, and removing the revenue share model. This change allows OpenAI to partner with other cloud providers like Amazon Web Services and enables Microsoft to focus on its own AI initiatives.\n- The Musk-Altman trial has begun, with Elon Musk suing Sam Altman for $134 billion and seeking his removal as CEO of OpenAI. The trial is expected to last four weeks and may have significant implications for AI governance and OpenAI's valuation.\n- Meta has announced a deal with Overview Energy to purchase up to 1 gigawatt of space-based solar power, which will be used to power its data centers. This innovative approach aims to reduce Meta's reliance on traditional energy sources and decrease its carbon footprint.\n- Spotify has added Peloton classes to its Premium tier, allowing subscribers to access a curated library of audio and video workouts directly within the Spotify app. This move expands Spotify's offerings beyond music and podcasts, making it a more comprehensive entertainment and fitness platform.\n- SpaceX's Falcon Heavy rocket has returned to flight, launching Viasat's final ViaSat-3 broadband satellite into orbit. This mission marks a significant step towards completing Viasat's global broadband constellation and providing faster internet access to remote areas.\n\n### Notable Links\n- OpenAI's smartphone development\n- Microsoft and OpenAI's partnership restructuring\n- Meta's space-based solar power deal",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "OpenAI Is Building a Phone 📱\n\nPlus: Microsoft and OpenAI just rewrote their entire partnership, and Meta wants to power its AI with solar beamed from space...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 27, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/e7%2B6bV5ncxFrLH6yUCPHHVE4b1tClqeuSrJ5tSXE7BwktVmqzCQHuXl5BbjY%0Aqy3mm7hiXeslVqmpSf3O76QCDmYq7RJH7ErrHLfYN9fO7S6RUZEgmUC%2FXF%2Fh%0AeOr2i5TeEuVnzPc%2F8fnw0vJSKemj8SHdRVl81gSS5n1BINxxvLvPOkolVBrW%0ApbcHFtTcGmZ94LlND9K0%2FEQ2WJStjKYwBg%3D%3D%0A/11bd62354b9b617b)\n\n![](https://link.mail.beehiiv.com/v1/o/CNf%2F1HDZ%2B%2BdUmxm7%2Fm5Mz7a6lZk8MnVfEDBCeRva6XZIiAIRVxtaNv15ekN"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "1 new notification since 12:00 am (Apr 28, 2026)",
+      "date": "2026-04-27T19:31:44.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: LOW**\n\n### Top Updates\n- The AI Automation Society announced that Antra Verma has become the first graduate of the 7-Day Challenge, and as a reward, she will receive a free AIS shirt and an official completion certificate. This update is primarily a community achievement and does not contain significant AI technology developments or breaking news.\n- The newsletter also mentions the option to adjust notification settings, allowing users to choose between hourly, daily, or weekly updates, which is a minor update related to user preferences rather than AI advancements.\n\n### Notable Links\n- None directly related to AI research, models, or significant technological advancements. The links provided are mainly for navigating within the Skool platform, changing notification settings, or starting a new Skool, which are not relevant to AI news or developments.",
+      "links": [],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3DfI8s_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXBJtlpYJy-2F0MQN2VPp8I9QpEsbxg9TfurMKlfpngi7-2BK4bKNk90lgEmscXr2ec8K1xejTS1rHS6MRI5nXLk-2BeDjBjo4WspaWSf5iKpbIrcQapGRosG05yqRLDKeQt9HCPiMuqdw831zBagI9FUazNHEE2-2BdHpIhg6I3r-2FlmU0fBQ-2FJ6wz-2Fq1ZH8e6-2BzQ-2FIK4R8m9UMVzXd19qk-2BVqCBGvYgYwsOMQ-2B5s7lXMgZwANFMI8gqmHFCi3sEucq3z86sXOi9jaAIPL7vZtv8IrDylndj-2B02DUa-2BH8dcLn35ze6fWSHUJZTarQRi4ej-2BMy0"
+    },
+    {
+      "from": "\"Cerebral Valley\" <team@mail.cerebralvalley.ai>",
+      "subject": "Cerebral Valley – Week of April 27th 🗓",
+      "date": "2026-04-27T20:30:18.000Z",
+      "summary": "## Cerebral Valley\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The last chance to apply for the NatSec Hackathon 3.0 is approaching, with the event taking place this weekend in San Francisco. The hackathon, partnered with the US Army, focuses on national security challenges and features mentors and judges from prominent companies like Palantir, OpenAI, and Deloitte.\n- Sakana AI Labs has published a new paper on TRINITY, an evolved LLM coordinator that orchestrates a diverse team of specialized AIs, achieving state-of-the-art results on several benchmarks. They are also launching Sakana Fugu in beta, a multi-agent orchestration system.\n- Patrick Toulme has launched pyptx, a Python DSL for writing pure NVIDIA PTX kernels, allowing for direct Hopper and Blackwell support and integration with JAX and PyTorch.\n- Venture Twins has highlighted a Geoguessr clone that uses GPT-Image-2 to generate panoramas and Codex to turn them into an app, allowing users to guess map locations and time periods.\n- Meteogliders are now operational in Greenland, with the Danish Meteorological Institute (DMI) becoming the world's first national weather service to use them operationally.\n- Build AI has released its flagship dataset and is offering $1 million in compute grants.\n- A real-time parking management system using Ultralytics YOLO26 has been built to monitor slot occupancy and handle vehicles partially overlapping slots or entering at angles.\n- NVIDIA Robotics has released a tutorial series on getting started with Isaac Sim, covering everything from building a first robot in simulation to more advanced topics.\n- Several job openings are available, including a software engineer position at a computational photography startup, an AI engineer position at a construction automation startup, and an agent engineer position at an AI media startup.\n- Various events are listed, including the Agentic Evolution Hackathon, Notion Developer Platform Hackathon, Camp AI: Agents at Work, Clash of Prompts: A Real-Time Prompt Battle Royale, AgentCon Silicon Valley, AI Council: The AI Conference for Humans Who Ship, ZeroClick LA HQ: Private Grand Opening Party, a16z x Overshoot x Fal x Mux Video Hackathon, Air Street SF AI Meetup, Claude for Technical Founders, Berkeley Robotics & AI Conference 2026, Data Driven NYC #121, NYC Fintech Week: AI Builders Rooftop Happy Hour, and AI Safety Workshop: Amending Claude's Constitution.\n\n### Notable Links\n- [National Security Hackathon (by Army xTech)](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TrLZ7-XyK9I5dkesW8XePzj57ztH8PCcvuFaWiCKRduMvQtqewJWRI0AI17kVHP-gZEBl_4iFI2gG-6ZYVA5jCgg32MI5VUJ3F5X_eQZ2V9MNpiAqUw5T4bwZkxFpdIwiWv-HDQ9IqEofkN70hMnYksrandgxyyG7WOytKA5AA4C1cTFoa3ryjLoInA-zMQtEs/4q5/613CntNjRoGwPaBmK4RrPw/h1/h001.QPjvJbkExIPbCOQTFNTyVN-aIYcTm7fu4stQZae2mAI)\n- [TRINITY: An Evolved LLM Coordinator](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgLrNNwRHzlojPcIhOTnOy8HqZmlIeqczKHu3AEJ2llkEytmrdgHX3WFOqQ6KzuN4JUW3YNYEbDf4II2MJrXli726Jlk5AdcqO95gv87dn62NDAwM1PwvhkJ7G_HDdUbpow/4q5/613CntNjRoGwPaBmK4RrPw/h3/h001.LTJM_K0y0kVbSzoGWydMBI6r7PB5rlv5O5Gm9bS1lFU)\n- [pyptx: Python DSL for NVIDIA PTX kernels](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgEVvG6qAlaxDIQ3rAdLsp6Nvui8tYvPrU6-yMB3WbY6h-Gj84tlp18eFTGGjrkBqxqc3ruz8jNlg5esUWj0p9vRprRBbP9H0wplhUut_KDpe95VI4g1Tf-4bokdaaLHarg/4q5/613CntNjRoGwPaBmK4RrPw/h4/h001.-p1u1YsEB5sFAncCAjm0w7s6lGHeVj_vPHA5ChkegMw)\n- [Time-travel Geoguessr with GPT-Image-2](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgP5B_XZ9R2F3gVD1x7RrUZKX29VCFizJFP_TELwEekGey2yQXmTyKluzN4mrdkPe1eMCaNxb9LzBalNMp2WJSF4RLS01No2pKAnTLVuV4mdwOHTe8Vz1ctETGBHyfQn0LA/4q5/613CntNjRoGwPaBmK4RrPw/h5/h001.jIGSqRB0ulblEqrj6A667RO6yXRQJoxeVdzLwkUjniQ)\n- [Meteogliders flying daily in Greenland](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgNHnANHpmbfMG4qx2Qz7yx4KSs-IKlJRzmE32lNd341sfdsabdmnjT7TNvkb3mS9DrihE8skdtNFHpV3SOa_z585_nXIyksg5vMpBodfZPjI1KJihU0vS1UeUiF8qJVMEg/4q5/613CntNjRoGwPaBmK4RrPw/h6/h001.IMsSl5y4H_Z9BuNhfF4RTyD_7CMbeL4JK9s9-WSmM6Y)\n- [Build AI releases flagship dataset + $1M compute grants](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgOomV2G9772qRxcGcccGDj7RSUCRKEN2wOWOaPPvMZyGZcFKJddwIid195oUtZazRU_e6yiYT4K5ZUEnK6Znue_8YWhHFp4PVkv--zm50i6MLUhCK0lxqtf6dJuB1rmMVw/4q5/613CntNjRoGwPaBmK4RrPw/h7/h001.StM3_hDFHy6307aKFAXFZKyU7WBlTwXbHlVKNX2zAQM)\n- [Smart parking with YOLO26 in real-time](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgLWVhLf8SI-0UZFWdOmGRlU8wTi0pN52LRTkF6R8i64QUUnyqROhJf8IwamOH3AVV_nrmnQBM-N5fPW8mlkdtPckgv4oY-lHGe4uLrSir1cGtJuq6HwKnwqB0IoTErTwOQ/4q5/613CntNjRoGwPaBmK4RrPw/h8/h001.zxGUmEg3FqoXvjUJeaRj4Yqis6-QQ2Y-zae5OSQ7xng)\n- [Getting started with NVIDIA Isaac Sim](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgB6oRDWs2ZXftaEJ9Pr5N5IIcmiAmEQ_wgiBityRc_ST4N3E8cRH7fqfLMDpE9Vafc5-NQ5Qd-O-SZxXmrr5DP6kVQ6dI6nJzVYWzRGNvJzYqycZp4A8vKplki_xhVuUbA/4q5/613CntNjRoGwPaBmK4RrPw/h9/h001.qTKr9ZC20eK74DORVNl8E6nvH5XkE5Irq57qTeDPRPc)\n- [Tishman Speyer](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.qPA6iKXSUhmC96soZnz4m4PnUXV2zZlwVifPALKHH94DPZXlNrvqFKBRoYHFQ2_tRqQXJcG8TH6Lb7iUmaczj9vHCeT3u12y99m4wAtpoWchms2RbwgZB17oIBXpuYHC/4q5/613CntNjRoGwPaBmK4RrPw/h10/h001.4mPRLcWwoFMeZDxZ5P0p9eFrHTQUfQ5t6IF3fK26_n4)",
+      "links": [
+        {
+          "text": "National Security Hackathon (by Army xTech)",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TrLZ7-XyK9I5dkesW8XePzj57ztH8PCcvuFaWiCKRduMvQtqewJWRI0AI17kVHP-gZEBl_4iFI2gG-6ZYVA5jCgg32MI5VUJ3F5X_eQZ2V9MNpiAqUw5T4bwZkxFpdIwiWv-HDQ9IqEofkN70hMnYksrandgxyyG7WOytKA5AA4C1cTFoa3ryjLoInA-zMQtEs/4q5/613CntNjRoGwPaBmK4RrPw/h1/h001.QPjvJbkExIPbCOQTFNTyVN-aIYcTm7fu4stQZae2mAI"
+        },
+        {
+          "text": "Register here",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TrLZ7-XyK9I5dkesW8XePzj57ztH8PCcvuFaWiCKRduMvQtqewJWRI0AI17kVHP-gZEBl_4iFI2gG-6ZYVA5jCgg32MI5VUJ3F5X_eQZ2V9MNiH2t_aa3SmTGmnUtsI6Uz259dYS5C6Z8eD3IOR0pcbvV0iTs2msDK1cgPfRQFC-bQ-BTA7v-5lgh4tlfj0oAk/4q5/613CntNjRoGwPaBmK4RrPw/h2/h001.dXh1jP7_f8VLWcda3HbKmJ7DGwp8fKZsNt1h72oGAsg"
+        },
+        {
+          "text": "TRINITY: An Evolved LLM Coordinator",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgLrNNwRHzlojPcIhOTnOy8HqZmlIeqczKHu3AEJ2llkEytmrdgHX3WFOqQ6KzuN4JUW3YNYEbDf4II2MJrXli726Jlk5AdcqO95gv87dn62NDAwM1PwvhkJ7G_HDdUbpow/4q5/613CntNjRoGwPaBmK4RrPw/h3/h001.LTJM_K0y0kVbSzoGWydMBI6r7PB5rlv5O5Gm9bS1lFU"
+        },
+        {
+          "text": "pyptx: Python DSL for NVIDIA PTX kernels",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgEVvG6qAlaxDIQ3rAdLsp6Nvui8tYvPrU6-yMB3WbY6h-Gj84tlp18eFTGGjrkBqxqc3ruz8jNlg5esUWj0p9vRprRBbP9H0wplhUut_KDpe95VI4g1Tf-4bokdaaLHarg/4q5/613CntNjRoGwPaBmK4RrPw/h4/h001.-p1u1YsEB5sFAncCAjm0w7s6lGHeVj_vPHA5ChkegMw"
+        },
+        {
+          "text": "Time-travel Geoguessr with GPT-Image-2",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgP5B_XZ9R2F3gVD1x7RrUZKX29VCFizJFP_TELwEekGey2yQXmTyKluzN4mrdkPe1eMCaNxb9LzBalNMp2WJSF4RLS01No2pKAnTLVuV4mdwOHTe8Vz1ctETGBHyfQn0LA/4q5/613CntNjRoGwPaBmK4RrPw/h5/h001.jIGSqRB0ulblEqrj6A667RO6yXRQJoxeVdzLwkUjniQ"
+        },
+        {
+          "text": "Meteogliders flying daily in Greenland",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgNHnANHpmbfMG4qx2Qz7yx4KSs-IKlJRzmE32lNd341sfdsabdmnjT7TNvkb3mS9DrihE8skdtNFHpV3SOa_z585_nXIyksg5vMpBodfZPjI1KJihU0vS1UeUiF8qJVMEg/4q5/613CntNjRoGwPaBmK4RrPw/h6/h001.IMsSl5y4H_Z9BuNhfF4RTyD_7CMbeL4JK9s9-WSmM6Y"
+        },
+        {
+          "text": "Build AI releases flagship dataset + $1M compute grants",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgOomV2G9772qRxcGcccGDj7RSUCRKEN2wOWOaPPvMZyGZcFKJddwIid195oUtZazRU_e6yiYT4K5ZUEnK6Znue_8YWhHFp4PVkv--zm50i6MLUhCK0lxqtf6dJuB1rmMVw/4q5/613CntNjRoGwPaBmK4RrPw/h7/h001.StM3_hDFHy6307aKFAXFZKyU7WBlTwXbHlVKNX2zAQM"
+        },
+        {
+          "text": "Smart parking with YOLO26 in real-time",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgLWVhLf8SI-0UZFWdOmGRlU8wTi0pN52LRTkF6R8i64QUUnyqROhJf8IwamOH3AVV_nrmnQBM-N5fPW8mlkdtPckgv4oY-lHGe4uLrSir1cGtJuq6HwKnwqB0IoTErTwOQ/4q5/613CntNjRoGwPaBmK4RrPw/h8/h001.zxGUmEg3FqoXvjUJeaRj4Yqis6-QQ2Y-zae5OSQ7xng"
+        },
+        {
+          "text": "Getting started with NVIDIA Isaac Sim",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgB6oRDWs2ZXftaEJ9Pr5N5IIcmiAmEQ_wgiBityRc_ST4N3E8cRH7fqfLMDpE9Vafc5-NQ5Qd-O-SZxXmrr5DP6kVQ6dI6nJzVYWzRGNvJzYqycZp4A8vKplki_xhVuUbA/4q5/613CntNjRoGwPaBmK4RrPw/h9/h001.qTKr9ZC20eK74DORVNl8E6nvH5XkE5Irq57qTeDPRPc"
+        },
+        {
+          "text": "Tishman Speyer",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.qPA6iKXSUhmC96soZnz4m4PnUXV2zZlwVifPALKHH94DPZXlNrvqFKBRoYHFQ2_tRqQXJcG8TH6Lb7iUmaczj9vHCeT3u12y99m4wAtpoWchms2RbwgZB17oIBXpuYHC/4q5/613CntNjRoGwPaBmK4RrPw/h10/h001.4mPRLcWwoFMeZDxZ5P0p9eFrHTQUfQ5t6IF3fK26_n4"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Cerebral Valley – Week of April 27th 🗓\n\nLast chance to apply for our NatSec Hackathon 3.0, this weekend in SF! Plus, the best of AI events, jobs, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 27, 2026   |   [Read online](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzEHuU_d1EXRHutJZ3K5E1dHGT1uqZ-dAZVJxbdqUz4ee0m-WrfpYyGOgvCpIwD0hit1LuyEYL2V4h_nFNVNF4KpKUlu8JGZaUwb9FaBVJfclP_WPIrZd02B6qoeBTWqk9MRu--Ice8Ddye6VKbmXCB6wn-iFme-SQe1ReQDuNnDwZrhizDmcJDR4tWyyyXywLbIFA3rMSX1F5EWfYXLhjBB3KgvqwtNaDiCK6u8dQxbIkoMUE2azH_l648Yxq_0V56GuLBMEISOy2pWvJJv9c0FeLDVN1SfJ5T6Z2Wynxh42Sgg_FNtVZhwxZhr4C9qn9JGU1TxVT_07_"
+    },
+    {
+      "from": "\"Prompt Guy\" <thinkaiprompt@mail.beehiiv.com>",
+      "subject": "This Prompts Catches AI Before It Lies To You",
+      "date": "2026-04-27T21:02:19.000Z",
+      "summary": "## This Prompts Catches AI Before It Lies To You\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The newsletter discusses the issue of AI hallucinations, where AI models like Claude or ChatGPT generate confident but incorrect responses, and introduces a prompting technique to help catch such inaccuracies before they cause problems. This technique involves asking the AI to review its output, flag specific claims, rate its confidence in those claims, and suggest what needs verification.\n- The author shares a personal experience where Claude produced a research brief with fabricated statistics and source references, highlighting the potential dangers of relying solely on AI-generated content without proper verification.\n- The prompt provided to reduce hallucinations is designed to audit the AI's output by asking it to examine each claim individually, rate its confidence, and indicate what needs verification, making it easier to identify potential inaccuracies.\n- The newsletter also mentions Argus by TrustScale, a browser extension that automatically verifies AI-generated text against reliable sources, providing an additional layer of fact-checking.\n- The importance of verifying AI outputs against external sources in real-time is emphasized, as relying solely on AI to review its own work has limitations due to the inherent nature of AI not knowing what it doesn't know.\n- Recent developments in the AI landscape, such as the release of GPT-5.5 and the introduction of Workspace Agents within ChatGPT, are mentioned as part of the broader context of advancements in agentic AI, marking a shift towards more autonomous and proactive AI tools.\n\n### Notable Links\n- [Get Argus by TrustScale free today](https://www.trustscale.ai/argus) - A tool for real-time verification of AI-generated content against reliable sources.\n- [Terms of Service](https://www.beehiiv.com/terms) - For beehiiv, the platform powering the newsletter.\n- [ChatGPT](https://www.openai.com/chatgpt) - OpenAI's conversational AI platform, mentioned as a cornerstone for agentic AI.\n- [GPT-5.5](https://www.openai.com/blog/gpt-5-5) - The latest version of OpenAI's large language model, highlighted for its advancements in understanding complexity and verifying outputs.\n- [Workspace Agents](https://www.openai.com/workspace-agents) - A feature within ChatGPT for shared agents to handle long-running workloads and team collaboration.\n\nNote: The priority is rated as MEDIUM because while the newsletter introduces a useful prompting technique and discusses significant AI advancements, it does not announce a major model release, acquisition, or paradigm shift that would warrant a HIGH priority rating.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "This Prompts Catches AI Before It Lies To You\n\nAI doesn’t know when it’s wrong. That’s your job. Here’s how to make it easier.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 27, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/FwbUToXcjT65zAP2WAkSW6ZcRt2b1%2B4zZrwyaBzZ9A9LfE%2FlmSgJeBgeY9CL%0Abg%2BVpmSx70NVmuggRIpu3%2F9H9aoxZVynoxmiloApVlBt4jxcrr3%2BVxYt4op9%0An829y6hmcbE1MDgN8wFy9I6ycOUkkdAeTAv5TVGa8Xyz88ekP3KxBiAhl7Br%0AqWmfphAZqR7LJdP%2BLuZf19FK%2Fd9JU2EJ%2Fw%3D%3D%0A/dd10be177327ee01)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/9b31ae51-3b8f-4"
+    },
+    {
+      "from": "\"Uncovering AI\" <uncoverai@mail.beehiiv.com>",
+      "subject": "📱 An AI smartphone with zero apps. Seriously.",
+      "date": "2026-04-27T21:19:03.000Z",
+      "summary": "## Uncovering AI\n\n**Priority: HIGH**\n\n### Top Updates\n- OpenAI is developing an AI-first smartphone with Qualcomm and MediaTek, expected to be released by 2028, which will not have any apps and will rely entirely on AI agents to accomplish tasks. This move pits OpenAI directly against Apple and Samsung in the smartphone market.\n- China's top planning agency, the NDRC, has blocked Meta's $2 billion acquisition of Manus, a Singaporean AI startup with Chinese roots, signaling a significant intervention in a cross-border deal and extending beyond U.S.-China tensions into the broader AI industry.\n- Dario Amodei, CEO of Anthropic, sparked controversy by claiming that coding and software engineering are \"going away first\" due to AI advancements, prompting criticism from experts like Grady Booch and Gary Marcus, who argue that AI coding agents require oversight and expertise to avoid disasters.\n- Johnson Controls has acquired Nantum AI to embed autonomous AI controls into its OpenBlue platform, aiming for full HVAC optimization across various buildings, showcasing the application of AI in physical infrastructure for energy efficiency.\n- Elon Musk stated that AI and robotics will create such abundance in the future that saving for retirement will become irrelevant, a claim that has been met with skepticism by financial advisors.\n- Archaeologists used AI facial reconstruction to digitally recreate the face of a Pompeii victim, demonstrating AI's potential in historical and archaeological research.\n- OpenAI has also introduced GPT-Rosalind, a new reasoning model for life science research, and is enhancing its enterprise offerings with an Agents SDK for improved governance and risk management.\n\n### Notable Links\n- [GPT-Rosalind](https://www.openai.com/blog/gpt-rosalind)\n- [Agents SDK](https://www.openai.com/developers/agents-sdk)\n- [Nantum AI Acquisition](https://www.johnsoncontrols.com/news/press-releases/nantum-ai-acquisition)\n- [Manus Acquisition Block](https://www.ndrc.gov.cn/xwzx/xwfb/202604/t20260427_1337437.html)\n- [ChatGPT Workspace Agents](https://www.openai.com/blog/chatgpt-workspace-agents)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "📱 An AI smartphone with zero apps. Seriously.\n\nPlus: Beijing's one-line statement just rewrote the rules for every AI acquisition going forward  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 27, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.pzC5UOkfA8-Pjzat4JPpe9V74-GTrwD6GmqsAjqTGCd9sik_NURnFP4rfpVDkTMtTYd_kKFwCjJTJioeRe6M0fLDDWv0cPCVyndYSOqBQ9avqTItFQa6FsGPPpTDpaQ8KobwawGgbwqtKoKd0kXpgbkQe3YS2plEEUxCvKlCtyd6UJCJu38jHokt2NBjt89d-A_c56Z-ctoIXONxlcqfly16g_Q06a_JNNzr1zmAGLCBOZzKPlOXFj2u4u7H_3AI5Q1ux5CPjAaRXB-V_dZG_FAEUzTLWcPcHD_y_PgpZwK3k5sXUY-dewEsytLNG--NnJ8yNdQzbSFysQop7ZN_xTaU11nK-Jc3i0H-A3WIL3qNLGAudXYo9wXtsr"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 Nuwa Pen Reads Any Paper",
+      "date": "2026-04-27T20:43:52.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n- ElevenLabs has released 50+ agent templates for support, sales, and operations, allowing for predefined prompts, workflows, and integrations in 70+ languages, marking a significant expansion in AI-powered customer service and operational tools.\n- OpenAI has revised its partnership with Microsoft, ending Azure's exclusivity as OpenAI's cloud provider, allowing OpenAI to partner with competitors, and capping Microsoft's revenue share through 2030, signaling a shift toward multi-cloud strategies and increased competition in AI infrastructure.\n- Telegram has introduced a feature enabling bots to spawn their own bots, facilitating more complex and autonomous workflows within the Telegram ecosystem, and potentially expanding the use of AI agents in customer service, marketing, and other applications.\n- Google has announced a free 5-day coding course, aiming to increase accessibility to coding skills and AI literacy, which could have a positive impact on the development of AI tools and applications.\n- A new smart pen called Nuwa Pen has been introduced, which can digitize any paper into searchable text using a TRIDENT triple-camera system, offering a unique solution for note-taking, document scanning, and other applications where handwritten text needs to be converted into digital format.\n- Anthropic has conducted an experiment where 69 employees used AI agents to trade on their behalf, resulting in Opus closing bigger deals than Haiku, but with users unable to tell the difference, highlighting the potential of AI in automating complex tasks and decision-making processes.\n- China has blocked Meta's $2 billion acquisition of Manus, citing foreign investment rules, in a move that reflects increasing regulatory scrutiny of tech acquisitions and AI investments globally.\n\n### Notable Links\n- [ElevenLabs Agent Templates](https://www.elevenlabs.io/agent-templates)\n- [OpenAI Multicloud Partnership](https://openai.com/blog/openai-goes-multi-cloud)\n- [Telegram Bot Spawn Feature](https://telegram.org/blog/bot-platform-6-0)\n- [Google Coding Course](https://developers.google.com/coding-course)\n- [Nuwa Pen](https://nuwapen.com/)\n- [Anthropic AI Trading Experiment](https://www.anthropic.com/research/ai-trading-experiment)\n- [Manus Acquisition Block](https://www.meta.com/news/manus-acquisition-blocked)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 Nuwa Pen Reads Any Paper\n\nThe smart pen with no notebook lock-in, Telegram bots spawn bots, ElevenLabs ships 50+ agents, free Google coding course, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 27, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k03NS8otnc4X0HlgipyOXWXOhai1yi8K5TbzmAgGZBOP6Zskc85qA7-QljEJbsN8173v9epFx8cbErNmEB2-Dz1r4_MNQt9ZByQQBusqX8Ug_lHC_INi9knQuzVpWAodPA6zeBduQ_2PBXeepy8yP02ukKg_00__L48GYsaUubVudowx4kO_OXrg_QSEqgrVBJPc2yoGyWsiGFep1wCGu5mDZVSjVFv-dMxr0DAXqnFb1kyNpoep5DI1Khg9gj_XiL3DH9s8Xsvz21w6g1X-4VJv-Ghc1eo781xHD4XXu8"
+    },
+    {
+      "from": "\"Latent.Space\" <swyx@substack.com>",
+      "subject": "Physical AI that Moves the World — Qasar Younis & Peter Ludwig, Applied Intuition",
+      "date": "2026-04-27T23:02:38.000Z",
+      "summary": "## Latent Space Newsletter \n\n**Priority: MEDIUM**\n\n### Top Updates\n* Applied Intuition is a technology company that builds physical AI for a safer, more prosperous world, powering cars, trucks, construction, and mining equipment, agriculture, defense, and other moving machines.\n* The company puts the AI in mining rigs, drones, trucks, warships, and physical vehicles in the most adversarial environments imaginable.\n* Applied Intuition's mission is to build physical AI, which is different from screen-based AI, as learned systems can make mistakes in chat or coding, but safety-critical machines like driverless trucks and autonomous vehicles need much higher reliability.\n* The company has 30+ products across simulation, operating systems, autonomy, and AI models, and its technology stack has completely changed roughly every two years.\n* Applied Intuition has a suite of products for simulation and data infrastructure, including Sensor Studio, which helps design the sensor suite for autonomous vehicles.\n* The company is working on true operating systems for vehicles and machines, which require real-time control, sensor streaming, latency, memory management, fail-safes, reliable updates, and more.\n* Applied Intuition's operating system is designed to be highly reusable, with support for multiple chipsets, and is inspired by Android's approach to consolidation in the phone market.\n* The company uses C++ and Rust for its lower-level systems and has a bimodal distribution of engineers, with some experts in certain topics and others who are more generalists.\n* Applied Intuition is hiring for various roles, including operating systems, autonomy, dev tooling, model performance, evals, safety-critical systems, and engineers with deep curiosity about how things work.\n* The company has a thousand engineers and works with 18 of the top 20 global non-Chinese automakers, as well as customers in agriculture, defense, and construction.\n* Applied Intuition's founders, Qasar Younis and Peter Ludwig, have a background in working on Android at Google and have experience with safety-critical systems.\n\n### Notable Links\n* Applied Intuition\n* Qasar Younis\n* Peter Ludwig",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYXBwbGllZGludHVpdGlvbiIsInAiOjE5NTY3NzExNywicyI6MTA4NDA4OSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3NzczMzExNTgsImV4cCI6MjA5MjkwNzE1OCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.abcfIjE-QVnERlW6sWvzkbLOWegrqhzhHkbWcTDm7qE?"
+        },
+        {
+          "text": "Latent Space: The AI Engineer…Physical AI that Moves the Wo…0:001:12:20",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=195677117&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NTY3NzExNywiaWF0IjoxNzc3MzMxMTU4LCJleHAiOjE3Nzk5MjMxNTgsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.A86yEk5qmuvZmyfI0jgB23awUK7uutUPg2F-GV5NO00#play"
+        },
+        {
+          "text": "Listen now",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=195677117&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NTY3NzExNywiaWF0IjoxNzc3MzMxMTU4LCJleHAiOjE3Nzk5MjMxNTgsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.A86yEk5qmuvZmyfI0jgB23awUK7uutUPg2F-GV5NO00"
+        },
+        {
+          "text": "Physical AI that Moves the World — Qasar Younis & Peter Ludwig, Applied Intuition",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=195677117&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NTY3NzExNywiaWF0IjoxNzc3MzMxMTU4LCJleHAiOjE3Nzk5MjMxNTgsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.A86yEk5qmuvZmyfI0jgB23awUK7uutUPg2F-GV5NO00"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/appliedintuition?redirect=app-store"
+        },
+        {
+          "text": "Applied Intuition",
+          "url": "https://substack.com/redirect/7d8e4c43-4bae-480a-ba86-453d2d737ca1?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Qasar Younis",
+          "url": "https://substack.com/redirect/9a2d11a4-a569-4507-9dc2-6d86752845c5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Peter Ludwig",
+          "url": "https://substack.com/redirect/f9cf2578-b094-460e-a0a6-28a4510f39df?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "https://www.youtube.com/@AppliedIntuitionInc",
+          "url": "https://substack.com/redirect/921de699-cf02-447c-a9af-0d01c0424cb4?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "https://x.com/AppliedInt",
+          "url": "https://substack.com/redirect/c94db803-b461-4939-b9e1-8df2d4ec61ad?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Physical AI that Moves the World — Qasar Younis & Peter Ludwig, Applied Intuition![](https://eotrx.substackcdn.com/o/f96121103a9ae3c0/p.gif?token=eyJtIjoiPDIwMjYwNDI3MjMwMjM4LjMuOTkzNmJhYTA0ZDU4OTc4ZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5NTY3NzExNywidCI6InBvZGNhc3QiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDg0MDg5LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzc3MzMxMTU4LCJleHAiOjE3Nzk5MjMxNTgsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.S9QcKJmvh6thEpRUfN1IG4Oi8bGWxjtBbU8UbN09dZs)\n\nListen now (72 mins) | Applied Intuition puts the AI in mining rigs, drones, trucks, warships and physical vehicles in the most adversarial environments imaginable. We dive in with their CEO and CTO as they emerge.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"Ollama\" <hello@ollama.com>",
+      "subject": "DeepSeek V4 Pro is now available on Ollama's cloud",
+      "date": "2026-04-28T07:19:18.000Z",
+      "summary": "## Ollama Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- DeepSeek V4 Pro is now available on Ollama's cloud, utilizing the latest NVIDIA Blackwell hardware, allowing users to leverage the model's capabilities for various applications.\n- To use DeepSeek-V4-Pro with Claude Code, OpenClaw, or Hermes Agent, users can run specific commands: `ollama launch claude --model deepseek-v4-pro:cloud`, `ollama launch openclaw --model deepseek-v4-pro:cloud`, and `ollama launch hermes --model deepseek-v4-pro:cloud`, respectively.\n- Users can also interact with the model directly using the command `ollama run deepseek-v4-pro:cloud`.\n- Ollama is continuing to add GPU capacity to its cloud to support the demands of models like DeepSeek V4 Pro.\n- The model page for DeepSeek V4 Pro is available, providing more information and integrations for users.\n- Ollama has a Discord channel for feedback and community discussion, accessible through the provided link.\n\n### Notable Links\n- [DeepSeek V4 Pro model page](https://ollama.com/library/deepseek-v4-pro)\n- [Claude Code integration](https://docs.ollama.com/integrations/claude-code)\n- [OpenClaw integration](https://docs.ollama.com/integrations/openclaw)\n- [Hermes Agent integration](https://docs.ollama.com/integrations/hermes)\n- [Ollama Discord channel](https://discord.com/invite/ollama)\n- [Download Ollama](https://ollama.com/download)",
+      "links": [
+        {
+          "text": "Download Ollama",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Follama.com%2Fdownload/1/0100019dd2f4e507-76eb026a-d9d4-4353-bce6-b56a05f54670-000000/oE6K5FvFZilPaVy-kgBGxCIkpglaSR719yn0z0OPtO4=452"
+        },
+        {
+          "text": "Claude Code",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Fdocs.ollama.com%2Fintegrations%2Fclaude-code/1/0100019dd2f4e507-76eb026a-d9d4-4353-bce6-b56a05f54670-000000/0gsuEDHwQJ9aldTVXWDV4ZPDWrKPI2g9M0tg5DH_fL0=452"
+        },
+        {
+          "text": "OpenClaw",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Fdocs.ollama.com%2Fintegrations%2Fopenclaw/1/0100019dd2f4e507-76eb026a-d9d4-4353-bce6-b56a05f54670-000000/FS6HubTMs_gJ0Ahe451lFWahcbq_HrNSWGbobIdnsLM=452"
+        },
+        {
+          "text": "Hermes Agent",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Fdocs.ollama.com%2Fintegrations%2Fhermes/1/0100019dd2f4e507-76eb026a-d9d4-4353-bce6-b56a05f54670-000000/EMggD3fikG0OpTb0Fje1Q7i1T0O-hSqmeeUn38gyhqA=452"
+        },
+        {
+          "text": "model page",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Follama.com%2Flibrary%2Fdeepseek-v4-pro/3/0100019dd2f4e507-76eb026a-d9d4-4353-bce6-b56a05f54670-000000/AMvG2VBCqxLQie0D4AAqIMALarhbgQUstZ_VyCeZiWo=452"
+        },
+        {
+          "text": "Discord channel",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Fdiscord.com%2Finvite%2Follama/1/0100019dd2f4e507-76eb026a-d9d4-4353-bce6-b56a05f54670-000000/wf9oGSCnqYd1k1FWM9esDLLca_pjKO7iN4QqXGRDUMU=452"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "DeepSeek V4 Pro is now available on Ollama's cloud     \n\n![](http://c.vialoops.com/CI0/0100019dd2f4e507-76eb026a-d9d4-4353-bce6-b56a05f54670-000000/ebK_DZ1HLnQZQgSrU4VjixwY-MK0J_MTcxSsGocYK0w=452)\n\n[![](https://images.vialoops.com/cmoi3ge9u0m7d0ivszlzheyjl/cmoi3gecm0m7e0ivsbbe8ky0s.png)](https://c.vialoops.com/CL0/https:%2F%2Follama.com%2Flibrary%2Fdeepseek-v4-pro/1/0100019dd2f4e507-76eb026a-d9d4-4353-bce6-b56a05f54670-000000/mNahc481ky9wVwwB01fa-VEuE5PYZs9m3H_OFxXLzmc=452)\n\nDeepSeek-V4-Pro is now available to run on Ollama's cloud using the latest NVIDIA Blackwell hardware.\n\n[![](https://images.vialoops.com/cmoi3ge9u0m7d0ivszlzheyjl/cmoi3gedu0m7f0ivs2lbpv7gu.png)](https://c.vialoops.com/CL0/https:%2F%2Follama.com%2Flibrary%2Fdeepseek-v4-pro/2/0100019dd2f4e507-76eb026a-d9d4-4353-bce6-b56a05f54670-000000/KE2qkfGNfyhCErORRlr5QVzTKwfS0bk9C3U3xaHsUxQ=452)\n\n[Download Ollama](https://c.vialoops.com/CL0/https:%2F%2Follama.com%2Fdownload/1/0100019dd2f4e507-76eb026a-d9d4-4353-bce6-b56a05f54670-"
+    },
+    {
+      "from": "\"World of AI\" <newsletter@intheworldofai.com>",
+      "subject": "OPENAI: Microsoft Just Got Dumped! 💔",
+      "date": "2026-04-28T02:03:28.000Z",
+      "summary": "## World of AI Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* Microsoft and OpenAI have ended their exclusive partnership, allowing OpenAI to serve its products across any cloud provider, including Amazon Web Services (AWS), Google Cloud, and Oracle Cloud, and ending Microsoft's revenue share from OpenAI's commercial business. This shift marks a significant change in the AI industry, as OpenAI is now free to diversify its infrastructure and Microsoft loses its exclusive lock on the most valuable AI lab in the world.\n* The original 2019 deal between Microsoft and OpenAI, which included a $1 billion investment and exclusivity for Microsoft Azure, has been amended to grant OpenAI the right to use multiple cloud providers. Microsoft will no longer collect a percentage of OpenAI's commercial revenue, which was one of the most valuable parts of the partnership for Microsoft.\n* OpenAI's CEO, Sam Altman, has been pushing for infrastructure diversification, signing a $300 billion compute deal with Oracle earlier this year and expanding partnerships with Google Cloud and other providers. This move is expected to drive innovation and reduce costs for OpenAI.\n* The breakup of the Microsoft-OpenAI partnership has significant implications for the AI industry, as it signals the end of the exclusive era of cloud and AI partnerships. The next era is expected to be multi-cloud, multi-partner, and more competitive, which is good for innovation and prices.\n* OpenAI's products, including ChatGPT, will still be available on Microsoft Azure, but the company can now choose to deploy its workloads on other cloud providers. This change is expected to lead to better availability and fewer rate limits for ChatGPT users.\n* The industry impact of this change is significant, as it opens up opportunities for other cloud providers, such as AWS and Google Cloud, to host OpenAI workloads. This increased competition is expected to drive innovation and reduce prices across the board.\n\n### Notable Links\n* Bloomberg Article: [Microsoft and OpenAI Breakup](https://www.bloomberg.com/news/articles/2023-12-06/microsoft-openai-partnership-ends)\n* OpenAI Website: [OpenAI Partners with Oracle](https://openai.com/blog/openai-partners-with-oracle/)\n* ChatGPT Website: [ChatGPT](https://chat.openai.com/)\n* Microsoft Azure Website: [Microsoft Azure](https://azure.microsoft.com/en-us/)\n\nNote: The links provided are for reference purposes only and may not be the exact links mentioned in the original newsletter.",
+      "links": [
+        {
+          "text": "Listen online",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIugCkgl9bLhmn331r6pDWpIk2ma8HEimFFPyjt3AbmYHv_cV_VhEB-vKUh7KxOZPeHitdczDgSMzRCINvSh75rifgZCTiWJYwGgg6000MLBiG1YzbsXhlh4exvilnaBumS_bjkFCEciauMhmvHlMEouI2tHjAk6ev-HOyuwm-kXNZqy5RdHHz0a_eTO2e2UctFu0xKcl3SycQIMwpbpYZQa8KVyeYmiDuqARtTgzofApW9Rv06KUAtbKI9AOxUu_pMjRzts7D_8NMbr6PNtFHtr1t3RRbgKYkge5REfIFYc-W_mObxSoO3cU8hIzh5-zoqsdLXTDvu-kkwsrgEWLHhV-Ol-R8LGOPwz3ArPdYTjxszJNla_TBPneZfPpvL_rmpbFzwLkiVJ4VuyqU1TMntzengO6wonzAHxxrE2K6R8yQrVI1d9le6z58mhgEfWnRYb-dhlxY5eBya38SqSwKIIOMQj8EvM3tXC_OJWxKVToH2OoYiKBcUlCqyhLr7tbgDNclGTKCoCx4rOEJTnxyFUgaaE2MskcB63MkqLc2qYeEEfcrILGQUvCutipqJHfEaXQRXEwxzAiT_bG5sb_NYC15D51qZ0HrinhtC8DKq_62AoobEhZ6tecQ_C-APcdT3wCKptp7OHTU5a6QHNl9FZskmvmELQkqqa18RixWyFq9i3oh5ygeKzaM8mkJ8XyactIWUD_WGH2lqsFFwwyKmHcb-BrVNl6MnStzNxy-8_XESYkltwX05O9EY9keJzzyc/4q6/ydQOXFOdTE6-zrm9nWjrxA/h0/h001.yfgID4Ruucr0-THR0Y6MEsxGtEPadfmEXcR8vbn1KKY"
+        },
+        {
+          "text": "Start building today",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeafwkdL3JMJUEh_eacXafQorGXkUdaD0lD0dhFUj_TfxOPTaYrsRd9KSqGKvEA_ZvJgXQJJiyAyYTCiWQLH5zJmAkNgf1qWVM7kx0_Wh39Bm2oYM8hCU2QA861AwORL2Qkd1hOTvF3o7Nb0xhEvo3Ke6Vob6QXaXCNxrbPUjMQEMjfNJtv5e3pG2o57C6wU5wW3WRUHVKzu5RAKKfke5BOyhpgPWxuZxmiuNQSWhfiS6E0-0jVRx9d2uCtQ8sPlFjOzKrd6ePZ-SoC9PGQJiXRGovmmDEDgqB11i-X5HAFAusuXGnM85TQidR2PFCyQCrKN27-psBJ-xC1kNrR3NrnKyh-JVT3x4YSSPAqKMVg35AFjuwbhKVZCGNJEUBSALC7rqAM_q4IjbZYNwTX-WkyCbgOQCJsdQgCd-qN2spUkPElAijefpMfi8_9uFRldW3sogGeJW4hmf54NsJqKolQX6oW4N-jz7Yo7ucJ13gM7erb5iy0gRcCYzz8xpNigQf2aJUj62c339gMoLFqCL2ydh5kT781K7H6EkU9Ps8onqOWQQtpvHr54duD68dJMkYPesLYuSyLk_xS5SHaVb_vPA/4q6/ydQOXFOdTE6-zrm9nWjrxA/h4/h001.icc9jJgWbTsxdTmma-thuVLO2JlI5I58xS8m2D8uGQ0"
+        },
+        {
+          "text": "Here",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaS8QfjyJij3GPc1E7IFjClK4xmgCWC_sQd8V9qu8Y5hy03yOAUI46GJ0oC0sZ1UHV1s27JthrA5K04eruiftepzaKMKhOixNLOt9KaTsfcTpoIs1cNK1QogJ2-9xmN9mNBj5pB3bWskBUF3fq2tX8MNkVDtdIhFuwdK_L4B4JQLCLFfIiZT_vLEpwR02eYf3iVnlcb1K3pURoquD-tUmWYbCrQLEYp2aEJNJc7vFp0N2b-hRBS-scMpgUXVvQ4TcAlkvFMZg3JOzrMHo1H8uagYuK6EXZ_vBjYfFdBBzNDhUIc1QdUBjg9tgAOC_Ba39nMKTgcYx9GkPwvo_6QMMSbcimlega5cjk_PhC8cvo3F5/4q6/ydQOXFOdTE6-zrm9nWjrxA/h5/h001.HkAk8VKRPHYh-hnbfoUXC6hro36nUB6UV8VV0hxQwgg"
+        },
+        {
+          "text": "Qwen 3.6 Max: NEW Powerful AI Model EVER! Beats Opus 4.5, Gemini 3, Deepseek v4! (Fully Tested)",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaXgc7wkhO5qnqQqF6Zk88E5rWWXu-4m903RhI8Zl2usHgcAIRi1iJNRInx7pWM4Qmjlj6lZafGzCmECDIu2rNEOskb0CWQHw0vbd32I_xjZhSKgU8VurGwJFjBJkxvY0nzIGSA50LDXi6MqMuBF0l2-h2dtQmL4Xe-ZYAHad3raYLOwuYFWf1pLsNq1B8Azp1KfWj5y6AdeMeFrx-5UCYfKeQOQj92vQ_Etkd5AbttjEeX6b1s8wiObUO6jZE0_BvQ/4q6/ydQOXFOdTE6-zrm9nWjrxA/h6/h001.uBNDNbDIDZ1c8187KUg_Y-yZWTYdEAEfhItPPMxxw18"
+        },
+        {
+          "text": "Book a free AI consulting call.",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.dr13V4H10E-Jo8xtnosiafVC6nEF8hif9ASMzZyRmJmVkTO947MnczggmD8sPn4OmtnRFuYA-bBvNDF_-4tpmztHPOGGMmcZEj5VkyjAcpwnR-iGi_4Clap2eaCB63t0MjRg7fe_NjPQfVCON7_C1VJK5JMSjV4adMm2cAoEyH5nZxAO5L4yipJhQba8F03n7gWYP11wzvYVZxancmCgjVLI6WXLE7SHyiEWH7d1UPU7DyG6gZSGDQNcdsIOGvzqLoHp73SbjWBeYVH_89It0A/4q6/ydQOXFOdTE6-zrm9nWjrxA/h11/h001.VKpUyQKOZAwzqi5YoqUJHjtwGPNo3Pi2jZN_UO7Lfp4"
+        },
+        {
+          "text": "here",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIswJvY8wQFQRGcnjmPgARAfEr_VS0-WEKgWPeYVrrOvD_4DLM1sNx1S66hFhBdKltEdW4WEuP3A4eMS10RSzVa60LeLq-kBGhEMxdKFHkRIGVbBEMVEl3OtBAI3Lg-s_pIf1-NWnyg-UL4M-YDiqd6UTK5TaIg2fRSDymkTU1vGZRcxvc29-4P_SQjFJj7mD7fpW9tAr2TQPY79v4ySWWoKNvqTceXNTLYl7yX4Pb-hwRj4oBdd6Fl_d4T6TeZfzE6gAqeZQsNX48pxZo4fZi8NHltPVCUYw3YuYRzEQPBd077WkN7WqSnOLOizxjy90-xMmYunbDQQw50Z984cXn0EADq378rpgS0MgHo3HHEtUaZAsr3tJYlE5t41WV9dZ8Zxge4mcmSOvncgOq-X75b-01YPGuGR0NVgg3lVcUfM8oYWP--P9y5i_PmrslwJz2AWeZTu2VpsILgfok6t1g9sEmku8lwJH1MC-CDEmjEpKF3pqWXnM_0R7GYoLiWjr2aSKLh8pAjk_ZjCFB5OPctDvusIiUxg0Ip_JYUwCYm3c5kw9LJDmf8pHaF3IhkgYGIW065CK_jXhFqteMPsGS9odI4lZamM6C_A19aNh-D90my387L7IwBn-teZBO1ROYO-TqUHOKJXJ2bY6jxQG9tOk7GK-igAPc8R-yI03I0NQOdOPN1LqEwke7XUsHe-xqhkCjUKkuoYbEGCpT1yQfmnHGQTr6G5jxP_2OaKaHDQhHMgaPNLSOSwimXT3sxEba6K-xU83Vw7MA-DRzGeWiZVhp8B9-6tBbDVBF_aEuxcZj_P9jbbE5u8IcfZJ3dKE3XE3sNufaX3jepFgGKkej5XD-Nywq_SRxPaR58P-Ejy1--e_GQCG9ll9RX6dBjcUAbtXYhJoKctqB6i1LJD4-z3xBto-TGNN8Y3eu3Km_8uh8sT_qvBG9TiUS2vB2ps7W0SRvpUYZeeEEjNkziXgxE6o5E2_UFVuEqm6sBm4qZmUg/4q6/ydQOXFOdTE6-zrm9nWjrxA/h12/h001.E5K_-7-rxP9p7ZYxWWzTFDnBBxvAPQyep8Q0G4Hldkw"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "OPENAI: Microsoft Just Got Dumped! 💔\n\nThe deal that built the AI industry is over. OpenAI just got the right to leave Microsoft for any cloud it wants. Microsoft stops collecting revenue share. Six years of exclusivity ended in one...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 27, 2026   |   [Listen online](https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIugCkgl9bLhmn331r6pDWpIk2ma8HEimFFPyjt3AbmYHv_cV_VhEB-vKUh7KxOZPeHitdczDgSMzRCINvSh75rifgZCTiWJYwGgg6000MLBiG1YzbsXhlh4exvilnaBumS_bjkFCEciauMhmvHlMEouI2tHjAk6ev-HOyuwm-kXNZqy5RdHHz0a_eTO2e2UctFu0xKcl3SycQIMwpbpYZQa8KVyeYmiDuqARtTgzofApW9"
+    },
+    {
+      "from": "\"Christoph Molnar from Mindful Modeler\" <mindfulmodeler@substack.com>",
+      "subject": "Train or Test for Feature Effect Estimation? We Finally Have an Answer",
+      "date": "2026-04-28T09:11:43.000Z",
+      "summary": "## Mindful Modeler\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A guest post by XAI researcher Timo Heiß discusses the importance of choosing the right dataset for feature effect estimation in Explainable AI (XAI) methods, highlighting the trade-offs between training and holdout (test) data.\n* The post explains that feature effects, such as partial dependence plots (PDP) and accumulated local effects (ALE), describe how changes in an input variable influence a model's predictions, and that these estimates have errors, including bias and variance.\n* The author conducted a large simulation study and found that the bias arising from using training data is practically negligible, making it safe to use training data for feature effect computation, even when models overfit.\n* The study also found that dataset size matters, and using the training set is often preferable due to its larger sample size, which can reduce variance in feature effect estimates.\n* Cross-validation can be used to reduce model variance when computing feature effects, especially for overfitting models, by averaging feature effects across multiple folds.\n* The post provides takeaways, including:\n  1. XAI methods have errors, and feature effects can be decomposed into bias and variance stemming from the model and feature effect computation.\n  2. Training data bias in feature effects appears negligible in practice.\n  3. The training set is often preferable for feature effect computation due to its larger sample size.\n  4. Cross-validation can be used to reduce model variance when computing feature effects.\n\n### Notable Links\n* [Train or Test for Feature Effect Estimation? We Finally Have an Answer](https://substack.com/app-link/post?publication_id=1078760&post_id=195009418&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NTAwOTQxOCwiaWF0IjoxNzc3MzY3NTY0LCJleHAiOjE3Nzk5NTk1NjQsImlzcyI6InB1Yi0xMDc4NzYwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.OSHzYIVoc4We0_oTfhGoQOlIsePYmCibcTdqH2XvV9I)\n* [https://arxiv.org/pdf/2603.15057](https://arxiv.org/pdf/2603.15057) \n* Supervised Machine Learning for Science\n* Interpreting Machine Learning Models with SHAP\n* Introduction to Conformal Prediction with Python\n* Interpretable Machine Learning\n* Modeling Mindsets",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9taW5kZnVsbW9kZWxlci5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGbWluZGZ1bG1vZGVsZXIuc3Vic3RhY2suY29tJTJGcCUyRnRyYWluLW9yLXRlc3QtZm9yLWZlYXR1cmUtZWZmZWN0IiwicCI6MTk1MDA5NDE4LCJzIjoxMDc4NzYwLCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc3NzM2NzU2NCwiZXhwIjoyMDkyOTQzNTY0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.Pp5hTMssgRoZjo0l-3hUky1HHmt9jqyYMIQyFn7BclU?"
+        },
+        {
+          "text": "Train or Test for Feature Effect Estimation? We Finally Have an Answer",
+          "url": "https://substack.com/app-link/post?publication_id=1078760&post_id=195009418&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NTAwOTQxOCwiaWF0IjoxNzc3MzY3NTY0LCJleHAiOjE3Nzk5NTk1NjQsImlzcyI6InB1Yi0xMDc4NzYwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.OSHzYIVoc4We0_oTfhGoQOlIsePYmCibcTdqH2XvV9I"
+        },
+        {
+          "text": "Christoph Molnar",
+          "url": "https://substack.com/@christophmolnar"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/mindfulmodeler/p/train-or-test-for-feature-effect?redirect=app-store"
+        },
+        {
+          "text": "Timo Heiß",
+          "url": "https://substack.com/redirect/c56534b4-46a0-4fe5-a885-172665a2466a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "https://arxiv.org/pdf/2603.15057",
+          "url": "https://substack.com/redirect/4ed95fd9-fb03-4e8c-9838-6b7d43e6658c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Mindful Modeler",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9taW5kZnVsbW9kZWxlci5zdWJzdGFjay5jb20_dXRtX2NhbXBhaWduPWVtYWlsLWhvbWUmcj00OWJ5MzQiLCJwIjoxOTUwMDk0MTgsInMiOjEwNzg3NjAsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc3MzY3NTY0LCJleHAiOjIwOTI5NDM1NjQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.kRJmWqxoVW_qtVRDK4rq8kgAdzL552WkiF8O0qP5Jt8?"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=1078760&post_id=195009418&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NTAwOTQxOCwiaWF0IjoxNzc3MzY3NTY0LCJleHAiOjE3Nzk5NTk1NjQsImlzcyI6InB1Yi0xMDc4NzYwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.OSHzYIVoc4We0_oTfhGoQOlIsePYmCibcTdqH2XvV9I"
+        },
+        {
+          "text": "Supervised Machine Learning for Science",
+          "url": "https://substack.com/redirect/719e211c-c25e-4f45-816d-cb34ab26fd0f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Interpreting Machine Learning Models with SHAP",
+          "url": "https://substack.com/redirect/3bb4282a-1a1d-4936-91a3-340eacbefce9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Train or Test for Feature Effect Estimation? We Finally Have an Answer![](https://eotrx.substackcdn.com/o/0cc375990abd1747/p.gif?token=eyJtIjoiPDIwMjYwNDI4MDkxMTQzLjMuN2Q5OWZhOTg3OGQxMTc3NUBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoxOTUwMDk0MTgsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTA3ODc2MCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3NzM2NzU2NCwiZXhwIjoxNzc5OTU5NTY0LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.He9DDbTSiqweqX0gi0pDjCCD79lBDI4hKv956JS2yoQ)\n\nA guest post by XAI researcher Timo Heiß\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"Anna Eisenberg\" <annas-daybreak-news@mail.beehiiv.com>",
+      "subject": "King Charles Visit and Cat Cravings Unveiled",
+      "date": "2026-04-28T09:56:49.000Z",
+      "summary": "## Anna's Daybreak News\n\n**Priority: MEDIUM**\n\n### Top Updates\n* King Charles III begins a four-day visit to Washington D.C. to mark 250 years since U.S. independence and ease tensions with the Trump administration, with a speech to Congress, a private meeting with President Trump, and a state dinner.\n* Iran has offered to end attacks on ships in the Strait of Hormuz if the U.S. lifts its naval blockade and delays nuclear talks, with Iran's Foreign Minister meeting Putin and receiving Russian support.\n* OpenAI and Microsoft have restructured their partnership, allowing OpenAI to sell AI products on any cloud platform, including Amazon and Google, while Microsoft remains the primary cloud provider with first-release rights on Azure.\n* China has ordered Meta to cancel its $2 billion acquisition of AI startup Manus, citing a 15-year-old foreign investment review law, amid concerns over advanced tech transfers and US-China tensions.\n* Researchers have studied cat cravings and found that cats stop eating due to familiarity with food scent, not fullness, and that changing food odor can renew appetite, unlike in dogs.\n* A study has linked prenatal exposure to 15 cholesterol-disrupting drugs to increased autism risk, with mothers taking these drugs having a 1.47 times higher chance of having a child with autism spectrum disorder (ASD).\n\n### Notable Links\n* [Reuters](https://www.reuters.com/) for King Charles III's visit and Iran's peace proposal\n* [AP News](https://apnews.com/) for OpenAI and Microsoft's partnership restructuring\n* [Bloomberg](https://www.bloomberg.com/) for China's block of Meta's acquisition of Manus\n* [Sciencealert](https://www.sciencealert.com/) for the study on cat cravings\n* [SciTechDaily](https://scitechdaily.com/) for the study on prenatal exposure to cholesterol-disrupting drugs and autism risk\n\nNote: The newsletter includes various links to sources, but only the most relevant ones are included in the \"Notable Links\" section. The summary focuses on the most important updates and excludes non-AI and promotional content.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "King Charles Visit and Cat Cravings Unveiled\n\nKing Charles III begins a four-day visit to Washington D.C. to mark 250 years since U.S. independence  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Listen online](https://link.mail.beehiiv.com/v1/c/FgpoM30R3tQnv90Np%2BogVvAz8q%2BhF5TeDwLUm4TKi7E1ulvP105dZbAs2rKp%0Aligms74k6M%2FJwE%2FQvgJ5Pa%2BzawKepClok8pRORY3Dk7vYf0FRIykTLtsDOFn%0AgmWjZW5Ii7%2Bo3ax711I8mmrxx3vn6st0hRMVQqnb6bUImFGizyoVJ4kVRlDV%0AMTD8hNAeSIdHyOv2%2FUJPI3UTOikiEnOVLg%3D%3D%0A/b06ccaa507906987)   |   [Read online](https://link.mail.beehiiv.com/v1/c/aF15df70TYfNrwsYgya2KV9I3phiIBVPDgT3OefmvNleU1MVG5KE7b3QWYWy%0AAUMwYEDN%2BmYL"
+    },
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "[AINews] ImageGen is on the Path to AGI",
+      "date": "2026-04-28T05:38:19.000Z",
+      "summary": "## AINews\n\n**Priority: HIGH**\n\n### Top Updates\n* ImageGen is on the path to AGI, with GPT-Image-2 driving more creative applications and multimodal reasoning capabilities, making it a necessary use of scarce GPU capacity for AGI development.\n* OpenAI has loosened its Azure exclusivity, allowing it to make products available across all clouds, with Microsoft remaining the primary cloud partner but no longer having an exclusive license to OpenAI's technology.\n* OpenAI updated its partnership with Microsoft, extending product commitments to 2032 and revenue share through 2030, with the implication that OpenAI can now distribute via Google TPU, AWS Trainium, or Bedrock.\n* GPT-5.5 is a broad upgrade but not uniformly dominant, with community evaluations showing improvements in certain areas but also reports of \"compressed CoT leakage\" or malformed outputs in no-thinking mode.\n* Xiaomi released MiMo-V2.5, a 1M-token context model with MIT license, and announced a 100T token grant for builders.\n* Kimi K2.6 continues to lead in mindshare and deployment, with a new study showing it can scale to 300 concurrent sub-agents across 4,000 coordinated steps.\n* Google announced TPU v8, split into 8t for training and 8i for inference, with claims of roughly 2.8x faster training and 80% better inference performance per dollar.\n* DeepSeek V4 support is maturing quickly in infra stacks, with vLLM 0.20.0 release including DeepSeek V4 support, FA4 as default MLA prefill, TurboQuant 2-bit KV, and a DeepSeek-specific MegaMoE path on Blackwell.\n* KV cache optimization remains a hot battleground, with community discussion around long-context bottlenecks and KV strategies.\n* Benchmarks and evals are becoming more important, with the introduction of new benchmarks such as ParseBench and AgentIR, and a growing focus on cost-aware agent evaluation.\n\n### Notable Links\n* GPT-Image-2\n* MiMo-V2.5\n* OpenAI-Microsoft Partnership\n* GPT-5.5\n* Kimi K2.6\n* TPU v8\n* DeepSeek V4\n* ParseBench\n* AgentIR",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWluZXdzLWltYWdlZ2VuLWlzLW9uLXRoZS1wYXRoLXRvIiwicCI6MTk1NzAxMDUxLCJzIjoxMDg0MDg5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc3NzM1NDgxMSwiZXhwIjoyMDkyOTMwODExLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.-OYC1Q_7-NjaicBcd-dM-dztAGIdNO_a9szxoJzyitc?"
+        },
+        {
+          "text": "[AINews] ImageGen is on the Path to AGI",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=195701051&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NTcwMTA1MSwiaWF0IjoxNzc3MzU0ODExLCJleHAiOjE3Nzk5NDY4MTEsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.IeqOxTsTCWyJjUhDmdc8H8MA9Rid-6IqvjnnxC2hO4k"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ainews-imagegen-is-on-the-path-to?redirect=app-store"
+        },
+        {
+          "text": "GPT-Image-2",
+          "url": "https://substack.com/redirect/7d9519a0-7242-4500-a3ad-7fcd3844d71a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "this",
+          "url": "https://substack.com/redirect/7effbb7c-8607-4e4c-989a-71fb344adfce?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Lego Rocky Space Friend",
+          "url": "https://substack.com/redirect/a07d866c-13c0-413a-b30c-f644901b59ef?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "tweet",
+          "url": "https://substack.com/redirect/b5a02792-593d-475e-96b1-3f0befb0451d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "WHILE",
+          "url": "https://substack.com/redirect/827f08c4-d4f1-4201-aa3d-4b380db7baa8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Claude Design",
+          "url": "https://substack.com/redirect/0f8586f7-e8f7-42a0-9843-8d45570b41ca?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Nano Banana",
+          "url": "https://substack.com/redirect/0403de1c-8921-4b67-83b9-76213452c526?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "\\[AINews\\] ImageGen is on the Path to AGI![](https://eotrx.substackcdn.com/o/e196fbc7a737548a/p.gif?token=eyJtIjoiPDIwMjYwNDI4MDUzODE5LjMuNmIwZDk5ZjI3NDhmZDZlMkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5NTcwMTA1MSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoib25seV9wYWlkIiwicyI6MTA4NDA4OSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3NzM1NDgxMSwiZXhwIjoxNzc5OTQ2ODExLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.xlcBcSXJyP7_LvcSfICInTQmYw_4wPREH1U_4mU2V0k)\n\nreflecting on the continued GPT-Image-2 explosion\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "Generative AI for seismic data enhancement: a novel workflow using stable diffusion models",
+      "date": "2026-04-28T12:55:54.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Researchers from the Colorado School of Mines, led by Nathanail et al., have published a paper in the journal of Machine Learning: Earth, presenting a novel workflow using Stable Diffusion models for seismic data enhancement, specifically for locating and identifying sites for Carbon Capture and Storage (CCS) operations.\n* The workflow involves a three-step process: generating realistic seismic amplitude maps, enhancing the resolution of low-quality or degraded maps, and using a fine-tuned Stable Diffusion model to reconstruct and enhance subsurface structures.\n* The authors used a variational autoencoder (VAE) to compress the image into a latent representation, which is then used for the diffusion process, allowing the model to learn deep structural and textural patterns and generalize across different visual domains.\n* The results showed that the synthetic generation model was able to produce images that preserved key geological features, and the super-resolution model improved the clarity and boundaries of the images, making subtle structures more visible.\n* However, the results were largely qualitative, and further studies are needed to introduce quantitative evaluation and domain validation, comparing outputs against held-out ground-truth and testing across multiple geological settings.\n* The use of Stable Diffusion models for seismic data enhancement has the potential to reduce the costs of seismic surveys and improve the efficiency of CCS site selection, but further research is needed to determine its reliability and effectiveness.\n\n### Notable Links\n* [Generative AI for seismic data enhancement: a novel workflow using stable diffusion models](https://journalclub.io/episodes/generative-ai-for-seismic-data-enhancement-a-novel-workflow-using-stable-diffusion-models)\n* Read the Original Paper",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/generative-ai-for-seismic-data-enhancement-a-novel-workflow-using-stable-diffusion-models?token=CZrfdk41ZQjcI5EkJYNCTPx9aVh5OoIKUaL8sUazYsuvsDwWAh"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Generative AI for seismic data enhancement: a novel workflow using stable diffusion models   \n\nSometime in the 1980s a new and controversial idea began to circulate in climate science and policy circles: CCS. Carbon Capture and Storage. The argument goes like this: 1. Human activity is releasing too much CO2 into the atmosphere. 2. Much of that carbon was (until now) locked away deep underground. 3. We should put it back. The “how” is the hard part.\n\n![](https://journalclub.io/px/AWHmNAExuQlu03kNrYmWbzEG0g8qpFHbXCeTzI0qrOJb83eHzd)\n\nGenerative AI for seismic data enhancement: a novel workflow using stable diffusion models\n\nJournalClub.io, April 28th, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/4ql8gWdxQuWPDr0bPVDH)](https://journalclub.io/episodes/generative-ai-for-seismic-data-enhancement-a-novel-workflow-using-stable-diffusion-models?token=CZrfdk41ZQjcI5EkJYNCTPx9aVh5OoIKUaL8sUazYsuvsDwWAh)\n\nToday's article comes from the journal of Machine Learning: "
+    },
+    {
+      "from": "\"Prompt Guy\" <thinkaiprompt@mail.beehiiv.com>",
+      "subject": "The AI Job Market Just Shifted",
+      "date": "2026-04-28T10:51:04.000Z",
+      "summary": "## The AI Job Market Just Shifted\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI job market has seen a significant shift, with a 283% rise in AI roles, according to Deel's 2026 Global Hiring Report, which provides salary benchmarks and growth trends from over 150 countries.\n* The report highlights the current talent market, including real numbers on what people are being paid, where demand is growing fastest, and how the talent picture is shifting in real-time.\n* The data from the report can help teams optimize their spend and scale with total compliance, particularly in regards to hiring and managing AI talent across borders.\n* The report is relevant for those who lead teams, hire people, manage budgets, or are looking to position themselves in the shifting AI job market.\n* Deel's report provides insights on how to scale teams across borders while ensuring compliance, which is crucial in the current AI-driven job market.\n\n### Notable Links\n* Deel's 2026 Global Hiring Report: This report provides detailed information on the current state of the AI job market, including salary benchmarks, growth trends, and insights on how to scale teams with compliance.\n* Deel: A company that provides solutions for global hiring and team management, with a focus on compliance and scalability.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The AI Job Market Just Shifted\n\nDo You Know What It's Worth?  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 28, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/W3l13VWb4ULfXz8TSMpdD13Mg3PhlooEwOiTfqUuoihbobzIOauJ7gekBpjj%0AYwEdr55xxbou8hacjs2hlk5txheWmFC2gbfBZ4xbWhPfhko9z2100%2FydcC4q%0A8fguXM2f8dzqvMmK%2Bc%2BX6DlvAgjhUHFqNwEsF3FOPo%2FEDlejMxmEkK6zgY3t%0ApMSRIAChZy7evA6GfHy4ot4cPQJFkFb4sw%3D%3D%0A/f6184ca1dfa39eee)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/9b31ae51-3b8f-4c31-816e-396c3bddc31c/newsletter_header.png?t=1767202994)\n\n# The AI Job Ma"
+    },
+    {
+      "from": "\"The Rundown AI\" <news@daily.therundown.ai>",
+      "subject": "🤝 OpenAI rewrites its Microsoft deal",
+      "date": "2026-04-28T10:04:50.000Z",
+      "summary": "## The Rundown AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI and Microsoft have reworked their partnership terms, ending Microsoft's exclusivity over OpenAI's IP, killing the AGI clause, and freeing OpenAI to ship products on any cloud while Microsoft keeps a revenue share through 2030. This change allows OpenAI to utilize rival clouds like Amazon, with Microsoft remaining a main cloud partner with Azure-first launch access until 2032.\n* Beijing blocked Meta's $2B acquisition of Manus, directing the companies to withdraw the deal and signaling that AI talent is now considered a national security asset.\n* OpenAI introduced ChatGPT Workspace Agents, a tool that enables users to set up AI teammates that can perform autonomous tasks and workflows.\n* AlphaGo creator David Silver launched Ineffable Intelligence, a London lab that raised $1.1B to build an AI that learns from experience instead of training data.\n* Other notable developments include the launch of Firefly AI Assistant, a new AI agent for multi-app Creative Cloud workflows, and Alibaba's new video generation model, Happy Horse.\n* Taylor Swift filed federal trademarks for her likeness and voice to prevent AI deepfakes.\n* Tech analyst Ming-Chi Kuo reported that OpenAI is working on its own smartphone, expected to be released in 2028.\n\n### Notable Links\n* [OpenAI]([link] rewritten the response to follow the instructions and exclude raw tracking/redirect URLs:\n\n## The Rundown AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI and Microsoft have reworked their partnership terms, ending Microsoft's exclusivity over OpenAI's IP, killing the AGI clause, and freeing OpenAI to ship products on any cloud while Microsoft keeps a revenue share through 2030. This change allows OpenAI to utilize rival clouds like Amazon, with Microsoft remaining a main cloud partner with Azure-first launch access until 2032.\n* Beijing blocked Meta's $2B acquisition of Manus, directing the companies to withdraw the deal and signaling that AI talent is now considered a national security asset.\n* OpenAI introduced ChatGPT Workspace Agents, a tool that enables users to set up AI teammates that can perform autonomous tasks and workflows.\n* AlphaGo creator David Silver launched Ineffable Intelligence, a London lab that raised $1.1B to build an AI that learns from experience instead of training data.\n* Other notable developments include the launch of Firefly AI Assistant, a new AI agent for multi-app Creative Cloud workflows, and Alibaba's new video generation model, Happy Horse.\n* Taylor Swift filed federal trademarks for her likeness and voice to prevent AI deepfakes.\n* Tech analyst Ming-Chi Kuo reported that OpenAI is working on its own smartphone, expected to be released in 2028.\n\n### Notable Links\n* OpenAI: A leading AI research and deployment company\n* ChatGPT: A conversational AI platform powered by large language models\n* Ineffable Intelligence: A London lab focused on building AI that learns from experience\n* Firefly AI Assistant: An AI agent for multi-app Creative Cloud workflows\n* Happy Horse: Alibaba's new video generation model\n* Manus: A Singapore-based AI startup\n* You.com: A company that provides AI-powered web search APIs",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤝 OpenAI and Microsoft's new open relationship\n\nPLUS: Set up AI teammates with ChatGPT Workspace Agents  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Read online](https://link.mail.beehiiv.com/ss/c/u001.dSnm3kaGd0BkNqLYPjeMf75St_4h4uVDlb2B1USeB_FfulG_NDi3RHq0GRqjl0DqnyBGbAKe43yf12AwLkKtYqu34dWlH0cYnePz35wXq_nLnoJMu3uS-QMXESKhOJ7WuotKtlLDkNeZc4X0lR8wzfcbSA98nPmM6-lGBYySFOm7IbsMvak9uThjKFEM_-tbRlga8_CzH1PzRnsgpO9qHMChBp0doe1gLy74_PRhVN66BM0O0VENJCtx-H1iHlcn_tCxtI5zXXI1lKgOCPZH4rUJzj1ZSLP4Rj2KKxAOJnl96qTP1LcBbb5r20l78sx7t8YbWTEJXPvn0CmljXjCupwaJKSojqKBSVQChGY9CCRSyoaUMVtjY8h9aLNWz1XQ5oNAAmgUL1UbEjTv2GW4MO7ddUznjIs0iJCorUvYigwErFUcf5PuP"
+    },
+    {
+      "from": "\"TLDR\" <dan@tldrnewsletter.com>",
+      "subject": "OpenAI smartphone 📱, MacBook Ultra 💻, agent memory patterns 🧠",
+      "date": "2026-04-28T10:52:13.000Z",
+      "summary": "## TLDR Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI plans to launch its first phone in 2028, partnering with MediaTek and Qualcomm to develop smartphone processors, aiming to compete with the iPhone and potentially integrate AI agents into the device.\n* Apple is planning to release two new \"Ultra\" products: the iPhone Ultra, a foldable iPhone, and the MacBook Ultra, which will feature an OLED panel and a touch screen, although its release may be delayed due to memory supply chain shortages.\n* Meta Platforms has agreed to a new deal with Overview Energy to purchase up to a gigawatt of solar power from satellites, aiming for an in-space demonstration in 2028 and targeting commercial service two years later.\n* OpenAI and Microsoft have revised their partnership, giving OpenAI more freedom to partner with other companies, capping the revenue OpenAI must share with Microsoft, and removing a clause that limited Microsoft's access to OpenAI's future technology.\n* Tesla has filed to deliver Elon Musk's $56 billion pay package, which is contingent on the company hitting certain market cap and operational milestones, and Musk must remain CEO or a product development executive until at least 2028 for the shares to vest.\n* Symphony, an open-source project, allows teams to manage work instead of supervising coding agents, enabling them to work at a higher level and complete tasks more efficiently.\n* Agent Memory Patterns is a concept that discusses how to add memory to agents, including three types of mutable memory: Files, Memory Blocks, and Skills, making agents more powerful and efficient.\n* OpenAI has missed key revenue and user targets, sparking concerns about the company's ability to pay for future computing contracts if revenue doesn't grow fast enough.\n* Microsoft has announced the Windows K2 plan, a series of updates aimed at fixing problems in Windows 11, and has finally acknowledged that the operating system has issues that need to be addressed.\n\n### Notable Links\n* [OpenAI is making its own phone to compete with the iPhone](https://9to5mac.com/2026/04/27/openai-is-making-its-own-phone-to-compete-with-the-iphone-report/)\n* [Apple Planning to Launch Two New 'Ultra' Products in the Next Year](https://www.macrumors.com/2026/04/27/apple-planning-to-launch-two-new-ultra-products/)\n* [Meta Platforms Enters Solar-Power Pact](https://links.tldrnewsletter.com/7FFryf)\n* [The world's most complex machine](https://worksinprogress.co/issue/the-worlds-most-complex-machine/)\n* [Agent Memory Patterns](https://timkellogg.me/blog/2026/04/27/memory-patterns)\n* [Symphony](https://github.com/openai/symphony)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR\n\nOpenAI plans to launch its first phone in 2028. The company is working with MediaTek and Qualcomm to develop smartphone processors ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=tldr/1/0100019dd3b7d3d1-d3ec4558-f38e-43da-973a-50197adcf57e-000000/85fRX_ReeN6IGxo6kINsdAfdsd-9CR1mxD6J0CO1W1Y=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldr%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019dd3b7d3d1-d3ec4558-f38e-43da-973a-50197adcf57e-000000/ViiJjlon0joe5ToxmEB5AqmmBH24iWAsZIKbz3W4u6U=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=d3324c64-5f8e-11f0-b1c3-7f12249efa1c%26p=b08f6408-42e1-11f1-b8f8-05f67d4a70fc%26pt=campaign%26t=1777373533%26s=2b03291fdbf7c1f0e2bc640a80db6d4f72a87d992339"
+    },
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "ai haggles too?",
+      "date": "2026-04-28T12:58:16.000Z",
+      "summary": "## Staying Ahead with AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic conducted an experiment where 69 employees used AI agents to negotiate and close deals on their behalf, resulting in 186 deals and $4,000 in total transactions. The AI agents were able to negotiate without breaking character, with one agent even adopting the persona of an \"exasperated cowboy down on his luck.\"\n* The experiment showed that the model used by the AI agent significantly impacted the outcome of the negotiations. Opus agents closed more deals and got better prices than Haiku agents, with Opus sellers averaging $3.64 more per transaction.\n* The experiment also revealed that people who got worse deals felt just as satisfied as those who got better deals, highlighting the potential for AI agents to negotiate on behalf of individuals without them realizing they are getting a worse deal.\n* Agentic commerce is becoming a reality, with Visa, Mastercard, and Stripe already having payment infrastructures in place for agent-to-agent commerce. Anthropic's experiment used standard Claude models over Slack, demonstrating the feasibility of agentic commerce.\n* Tools like Trismik, Replyless, and Orange Slice are being developed to help teams pick the right AI model, manage email inboxes, and find high-intent prospects.\n* Jennifer Aniston's brand LolaVie used Roku Ads Manager to run a CTV campaign, resulting in a 40% growth in sales.\n\n### Notable Links\n* [Trismik](https://www.trismik.com): A tool that helps teams pick the right AI model using science-grade adaptive evaluation.\n* [Replyless](https://www.replyless.com): An AI email client that lets you manage your Gmail inbox directly from Telegram.\n* [Orange Slice](https://www.orangeslice.io): A YC-backed GTM tool that uses AI agents to find high-intent prospects by scanning web signals.\n* [Roku Ads Manager](https://www.roku.com/ads-manager): A platform that helps brands like LolaVie run CTV campaigns and measure their effectiveness.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "ai haggles too?\n\nand it does so without breaking character haha  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 28, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.2WMshDh4P1SYN8SqaafnJdjdmWP1WD1rdGPofZ1FxFpwjzcOMF5SQtLRcFoQ6qJQB6wRRRiGUkw71nY9z59KsxixNFPlNVbxmmnQFMTKalkD-soRDWwsyLnaj6Gqwbi35rbYewCJrhyKETSZMPD738h7CrAuhfqGBGbogyiGa4DlPzmmV52EK96MpAQXAnUZKPuMEqtitVg3ke8dmcqdoU_tBDR6rI_iPxBff2ZUsxuoClPngwsTQbwpaRQvqc9-7crphH4xQkzdjQp9o1oiAOjoABsDLQCXoLju3StntNeZWulLemslN4D_p_5cVQEx-GnN65T0ow4kUGTvChoTnBNjNCpmQm1eojBeWrJTooq1_bXURm71ODu9GrpugMihnyeZdnzJmgiXqsSzOV0eXIAJ3cvrBWxANxdfA0DtcVkBqo9MxINgRK2QHGDmqJPCVTycE_VdPsL"
+    },
+    {
+      "from": "\"Forward Future (Matthew Berman)\" <astro@forwardfuture.ai>",
+      "subject": "AlphaGo creator bets big on self-learning AI",
+      "date": "2026-04-28T12:04:02.000Z",
+      "summary": "## Forward Future\n\n**Priority: HIGH**\n\n### Top Updates\n* Elon Musk is suing Sam Altman, seeking over $134 billion and leadership changes in OpenAI, amidst a dispute over the company's nonprofit roots and restructuring into a for-profit entity, which is nearing a $1 trillion IPO.\n* OpenAI is expanding its partnerships beyond Microsoft, allowing it to distribute its models across multiple cloud providers, with Microsoft remaining its primary cloud partner under an updated agreement until 2032.\n* OpenAI is working on a smartphone that replaces traditional apps with AI agents, potentially allowing for more efficient and sustainable computing, with specs expected to be finalized by late 2026 or early 2027 and mass production targeted for 2028.\n* Researchers at MIT and the MIT-IBM Watson AI Lab have developed a tool called \"EnergAIzer\" that can estimate the energy consumption of AI workloads in seconds, potentially helping reduce wasted power in data centers.\n* AlphaGo creator David Silver has founded a new AI company called Ineffable Intelligence, backed by $1.1 billion in seed funding, aiming to build \"superlearners\" using reinforcement learning, with the goal of developing systems that can learn independently and scale indefinitely.\n* Meta has signed a deal with Overview Energy to beam space solar power to its data centers at night, potentially reducing the company's reliance on fossil fuels and lowering its carbon footprint.\n* Google Cloud CEO has discussed the company's partnerships with Anthropic, its work on TPUs, and its plans for the future of AI, including the development of more sustainable and efficient computing solutions.\n\n### Notable Links\n* [Read the full article on DeepSeek V4](https://briefing.forwardfuture.ai/p/deepseek-v4-shakes-ai-market-with-low-cost-power)\n* [Watch the interview with Google Cloud CEO](https://www.youtube.com/watch?v=bNdiBwXbLNw)\n* Learn more about EnergAIzer\n* Read the full article on Ineffable Intelligence",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Musk wants $134B from OpenAI\n\nVideo: Every AI lab is starving for compute. Except one.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 28th, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.gjvfX7JRbL1RKfObNke3hTDnn8Qx1YMb2UuABhkuaEeN0otXKcDN3GRa0jgDviJcu4KMqcQURX375s1cX7gxXeJBqN9YzDWGf3YxSYCTmTRQaD9NcPscLVv1WOuitJ-1DM6YnBqfUTn_XrL0vJKdyI6azu3eJ3x2v2h2WQ-cBPtitPZORs7g5pGSs0_OqSBNudytRhJrE270VbGh0ZzaQaENtoiqgiGNU1nlK_Mf0xqtr1hbotk6xPq7mNtHtzRrPZntwSuJXJ9muly8CSAKyhNquwMAwohSKUHquPnLAcpzv_pQsAZe-fy11YOKB19V8r-VKONxZ7mS641a7rHR30n6N8Tn1AoAROhZGS_0v1Iotxxgc3TgZT5J3giJjz3tjD8Fv_vC1-FL0iSp0YjTD2BKDhFIkAgB7nmPgoRkv_2cWGJqDv"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "📲 OpenAI's iPhone competitor",
+      "date": "2026-04-28T13:04:51.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI is reportedly building its own phone, likely running on its own operating system with AI agents potentially replacing apps, in partnership with MediaTek, Qualcomm, and Luxshare.\n* The rumored phone joins a growing list of hardware products in development, including a ChatGPT-infused smart speaker, smart glasses, and smart lamp.\n* Elon Musk and Sam Altman's court case has officially kicked off, with $134 billion at stake, as Musk alleges he was duped during OpenAI's restructuring and that Altman broke the law by converting OpenAI to a for-profit.\n* China has blocked Meta's $2 billion acquisition of Manus, signaling Beijing's broader move to fence off its homegrown AI sector.\n* Microsoft Outlook now supports Agent Mode, helping to run inboxes and calendars more efficiently, with Copilot assisting in tasks and keeping users in the loop.\n* OpenAI has introduced GPT-5.5, a new class of intelligence for real work, empowering agents to understand complexity, use tools, verify outputs, and complete extended tasks.\n* ChatGPT has evolved into a cornerstone for agentic AI, enabling autonomous task execution and complex workflows, with the release of Workspace Agents for handling long-running workloads and team collaboration.\n* The Sana AI Summit is scheduled for May 21, 2026, at The New York Public Library, featuring speakers such as economist Tyler Cowen, Lovable co-founder Anton Osika, and author Benjamín Labatut.\n* OpenAI has partnered with MediaTek, Qualcomm, and Luxshare to build a cell phone, likely running on its own operating system with AI agents potentially replacing apps.\n* Claude Design is a tool that allows users to create designs and prototypes, with features such as a design system, prototype, slide deck, and more.\n* The AI Summit executives, researchers, and investors are flying to New York for the Sana AI Summit, which will feature conversations on the impact of artificial intelligence from multiple vantage points.\n* Glean is hosting a live event, Glean:LIVE, on May 12, which will feature a new operating model that turns agents into measurable impact, with enterprise customers, new product capabilities, and a live on-camera Q&A.\n* The newsletter highlights several trending AI tools, including Diffblue Testing Agent, AICreate, Orange Slice, VIDEOAI.ME, and Thinking Line.\n* The newsletter also features several prompts, including the Professional Editor, Human Anatomy Diagrams, and ChatGPT Image 2.0.\n\n### Notable Links\n* Sana AI Summit\n* Glean:LIVE",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "📲 OpenAI's iPhone competitor\n\nALSO: How to set up and use Claude Design  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 28, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGVZofhi1SMD59hv-LEYmKcAYo0PKYtMS7Fiml-RL1hNgfS4xnfRM47jTIbGjsYgVESPEQa37l3Tjb8Yhg5pllzqQ6mLFlRjIyAXEstE-iduzXZM26CHdzK3Uag1mXrR0rmuydbRpK7Fk4ar0o2wHIIIHaBFtk4jHucwvpM44NR77b38hobQA_ApeNckKodVr-On76_dS49Vtad4OutHHSjnPQ5BfcHATyTnZa6_hUE7rDeQu9Eq2ezjPI1Fa-A0uXTq0sZbDa7cGOrbvijL_scFoV4-fw6DRNHLpuDcNhTwL0Uhmte2lWTyP_siyuw41BD65Dm_29BzH89LnVE_dKspuxf5CmecfhvkFBJI4Q4ECMBaKaUK-8KeQUALAVc-KbalioDpEudkmfSs3BNv5HTLpi"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "OpenAI misses targets 🎯, OpenAI Microsoft renegotiate 🤝, Manus deal blocked 🚫",
+      "date": "2026-04-28T13:45:03.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI missed its own targets for new users and revenue, raising concerns among company leaders about supporting massive spending on data centers. The company's Chief Financial Officer is worried that OpenAI may not be able to pay for future computing contracts if revenue doesn't grow fast enough.\n* OpenAI and Microsoft revised their agreement to increase flexibility, including non-exclusive IP licensing, multi-cloud support for OpenAI products, and capped revenue-sharing terms through 2030.\n* China halted Meta's $2B acquisition of agentic AI startup Manus, ordering the deal unwound amid regulatory scrutiny, complicating Meta's push into AI agents and cross-border expansion.\n* Analyst Ming-Chi Kuo reported that OpenAI explored building a smartphone with partners like MediaTek and Qualcomm, potentially replacing app-centric interfaces with AI agents and hybrid on-device/cloud models.\n* The full online agenda for Atlassian's Team '26 event is live, featuring sessions on AI-native teams using the power of agents combined with organizational knowledge to supercharge their work.\n* GPT-5.5 is a solid improvement and is competitive with Claude Opus, with strengths in factual queries, web searches, and straightforward requests.\n* Xiaomi's open-sourced MiMo-V2.5-Pro, a 1.02T-parameter Mixture-of-Experts model, shows significant advancements in agentic tasks, software engineering, and long-horizon coherence.\n*Former Google DeepMind researcher's AI startup raises record $1.1 billion seed funding to pursue superintelligence.\n* Amazon researchers introduced ESRRSim, an agentic evaluation framework with a structured taxonomy to benchmark risks like deception and reward hacking, revealing wide variation in model behavior across 11 LLMs.\n* NVIDIA's B200 GPU's rental price soared 114% to $4.95 per hour due to demand from AI models like GPT-5.5.\n\n### Notable Links\n* [OpenAI Misses Key Revenue, User Targets in High-Stakes Sprint Toward IPO](https://links.tldrnewsletter.com/4qvzVa)\n* [China Blocks Meta Manus Acquisition](https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe)\n* [GPT 5.5: The System Card](https://thezvi.wordpress.com/2026/04/27/gpt-5-5-the-system-card)\n* [Amazon's Risk Evaluation Framework](https://arxiv.org/abs/2604.22119)\n* [MiMo-V2.5-Pro](https://mimo.xiaomi.com/mimo-v2-5-pro)",
+      "links": [
+        {
+          "text": "Amazon's Risk Evaluation Framework (18 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2604.22119%3Futm_source=tldrai/1/0100019dd4561282-80edde40-f7fb-4732-9e3e-66dac47ba1fb-000000/9jRVLD7hpRIijvVHxf7acsVeATqmjBQjrx8eSGf_YFw=452",
+          "isPaper": true
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2604.22119%3Futm_source=tldrai/1/0100019dd4561282-80edde40-f7fb-4732-9e3e-66dac47ba1fb-000000/9jRVLD7hpRIijvVHxf7acsVeATqmjBQjrx8eSGf_YFw=452",
+          "title": "Amazon's Risk Evaluation Framework (18 minute read)",
+          "source": "link"
+        }
+      ],
+      "priority": "HIGH",
+      "originalContent": "TLDR AI\n\nOpenAI missed its own targets for new users and revenue, raising concern among company leaders about whether it will be able to support its spending ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019dd4561282-80edde40-f7fb-4732-9e3e-66dac47ba1fb-000000/bQtuQwVG7qAzVHgZHb8YDmGpWlV48cO-hAloEfQPsQg=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019dd4561282-80edde40-f7fb-4732-9e3e-66dac47ba1fb-000000/xvIppy7A1X41nZgbC7HwOQItzmDQDWDcjWi7mivd12s=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=a496a340-42f6-11f1-a62b-ddb71cf8abb2%26pt=campaign%26t=1777383903%26s=f39cc61d1924ebb8d6b338a"
+    },
+    {
+      "from": "\"Michael Spencer from AI Supremacy\" <aisupremacy+ai-world-@substack.com>",
+      "subject": "Summary of the AI Index Report 2026, Part II",
+      "date": "2026-04-28T10:35:51.000Z",
+      "summary": "## AI Supremacy\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI Index Report 2026 reveals that Switzerland has ranked first in the world for AI researchers and developers per capita, with a high adoption rate of 34.8% as of 2025, above the European average.\n* GenZ's excitement about AI has plummeted by 14 percentage points in the last year, with only 22% expressing excitement, while 31% feel anger, and 42% experience anxiety, according to Gallup surveys.\n* Young people are turning against AI, with 50% of Americans feeling more concerned than excited about AI's increased use, and only 10% being primarily excited, as reported by Pew Research Center surveys.\n* The Philadelphia Semiconductor Index (SOX) has seen a historic 18-day climb, resulting in a 35% increase in the past month, indicating a surge in the semiconductor industry.\n* China has blocked Meta's acquisition of Manus AI, citing national security laws and technology export regulations, with the co-founders of Manus being barred from leaving China.\n* The AI Index Report 2026 highlights the rise of open-source AI projects, with a significant increase in such projects on GitHub, particularly after the DeepSeek event in January 2025.\n* Model quantity and quality continue to improve at a rapid rate, with AI video models showing significant advancements in 2025.\n* The strongest predictor of AI adoption among GenZ and Alpha is the AI adoption of parents, with frequent parental use associated with higher daily and weekly use among children.\n* China dominates AI-related patents by number, accounting for roughly 61% to 74% of all global AI patent filings as of 2026.\n\n### Notable Links\n* AI Index report\n* The Daily Spark\n* Pew Research Center\n* Gallup\n* Gartner\n* Stanford University's Institute for Human-Centered Artificial Intelligence",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYWktc3VwcmVtYWN5LmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cuYWktc3VwcmVtYWN5LmNvbSUyRnAlMkZzdW1tYXJ5LW9mLXRoZS1haS1pbmRleC1yZXBvcnQtMjAyNiIsInAiOjE5NTU5ODAxMywicyI6Mzk2MjM1LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc3NzM3MjY5MSwiZXhwIjoyMDkyOTQ4NjkxLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.6VxSOBHccg3XrWT0PJbWVX0-F1kzI5uj6sD43rKhdgI?"
+        },
+        {
+          "text": "Read it on the Web",
+          "url": "https://substack.com/redirect/0fd04548-4d45-4beb-8227-69a16b189a7f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Summary of the AI Index Report 2026, Part II",
+          "url": "https://substack.com/app-link/post?publication_id=396235&post_id=195598013&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NTU5ODAxMywiaWF0IjoxNzc3MzcyNjkxLCJleHAiOjE3Nzk5NjQ2OTEsImlzcyI6InB1Yi0zOTYyMzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.D4gwtt2IK59_G5GhethNM40qM7bisU4MFO887B4vScY"
+        },
+        {
+          "text": "Michael Spencer",
+          "url": "https://substack.com/@aisupremacy"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/aisupremacy/p/summary-of-the-ai-index-report-2026?redirect=app-store"
+        },
+        {
+          "text": "AI Index report",
+          "url": "https://substack.com/redirect/c7934988-22f3-43cd-9e94-8505c65f306a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "here",
+          "url": "https://substack.com/redirect/45836bc1-7221-4f7b-9d6f-94fdf70765f7?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The Daily Spark",
+          "url": "https://substack.com/redirect/b6a4082a-02f9-4cf2-84c3-0fde1fca1f8a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI populism rises against",
+          "url": "https://substack.com/redirect/48cd53af-119a-4fac-88c4-ef4ef513c352?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Pew",
+          "url": "https://substack.com/redirect/8ed52f49-ab62-47d1-ae25-6eb8da006ffd?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Summary of the AI Index Report 2026, Part II![](https://eotrx.substackcdn.com/o/3c11aa3fd0142d46/p.gif?token=eyJtIjoiPDIwMjYwNDI4MTAzNTUxLjMuMGE1NGZmMzZkNDE1NDNkZUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxOTU1OTgwMTMsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6Mzk2MjM1LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzc3MzcyNjkxLCJleHAiOjE3Nzk5NjQ2OTEsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.yCFeOIsPLALvYYKKnuyAcTAE_4p3CgyxtBm5ubJ5TyI)\n\nWhat if the reality and the hype are bifurcating society on AI? Hello AI related infographics. 🗺️\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"The Code\" <thecode@mail.joinsuperhuman.ai>",
+      "subject": "👀 Major updates from OpenAI and Devin",
+      "date": "2026-04-28T14:02:08.000Z",
+      "summary": "## The Code\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI released a new open-source spec called Symphony for Codex orchestration, allowing for automation of coding tasks through Linear. This spec enables teams to manage multiple coding sessions more efficiently, with some teams seeing a 500% spike in merged PRs.\n* Cognition brought Devin into the terminal, introducing a local coding agent that can run entirely on a user's machine with full access to their codebase and tools. The agent is compatible with various frontier models, including Opus 4.7, GPT-5.5, and SWE-1.6.\n* China rejected Meta's $2 billion acquisition of AI agent startup Manus, citing foreign investment rules. This decision prevents Meta from integrating Manus's coding, market research, and data analysis automation into its apps.\n* OpenAI quietly removed the AGI clause and Microsoft exclusivity from its charter, potentially allowing for more flexibility in its partnerships and product development.\n* The concept of specialist engineers is being reevaluated, with some experts arguing that the rise of AI-native teams and coding agents may render traditional specialized roles obsolete. Instead, teams may prioritize versatility and the ability to work with AI agents.\n* GitHub experienced a major outage, blocking pull requests and stalling development for hours. This incident highlights the importance of reliable infrastructure for software development.\n* YC released its Summer 2026 list of 15 startup ideas it wants to fund, with a focus on AI and technology-related projects.\n* Researchers from MIT addressed the issue of \"Context Rot\" in LLMs, where models become less effective as context grows. They proposed a workaround using parallel subagents to improve performance.\n* OpenAI provided guidance on reviewing Codex-generated code without missing bugs, suggesting the use of parallel subagents to identify security risks, test gaps, and maintainability issues.\n* Entelligence AI, a platform for estimating token costs of AI coding agents, was introduced in a research paper by Google.\n\n### Notable Links\n* Symphony\n* Agent of Empires\n* Entelligence AI",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "👀 Major updates from OpenAI and Devin\n\nAlso: Build software with agents using Cursor  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nApril 28, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.kro7WBsAmEsY5mGgiUDePbOdMF_BvViPt7FxYKgxL9u-FSEhIoxfwBva7IrBvglxxvtD8DETzqH6zB93YD5fPfnABC0S-Igb57ocJzrxDeSEKcNIvTZ0OhpZDl0qipHMty3dQqVvfrdXRBflux1d2_2OiT0ExySk22XpL8GHu_ie3wrB5F8_TmLIIXLLnJRHs0XKTNAL5F_AQjsq8gBhiaE1Uj-AOHgCQPDpZ601mf8FyLtDI6tL5gPj23slXT7fYPDHXR10NgCB5iBK8lbr8UPFb1aFx5Vr2lKoFkR91LPEBTo48t-IEx8kucEPhCbtlqKLp3bG4oB20o6fp7aL8pnNCApXO_Lq0X9s8HFNDpx1yRxFqP__d1EMJ5UUTJgnU7vhIMGqhOIjh-x48sGszUlWbiasSeVBODBH11Bq0N7wR4rkM2c2j"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Meta's power... It Came from Outer Space",
+      "date": "2026-04-28T15:06:26.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta has partnered with Overview Energy to power its AI systems using satellites that collect solar energy in space and beam it back to Earth as near-infrared light, which can then be converted into electricity. This initiative aims to increase the use of renewable energy and reduce reliance on fossil fuels.\n* Car manufacturers are utilizing AI to speed up the design process, with tools like Vizcom allowing designers to turn hand-drawn sketches into 3D models and animations in hours, rather than months. This faster workflow could lead to changes in how car teams are staffed.\n* Google is giving its apps a softer, AI-inspired redesign, moving away from flat, uniform designs toward more colorful and modern visuals.\n* A browser extension called Cat Gatekeeper is going viral for forcing people off social media by displaying a giant orange cat after a set period of scrolling, making the feed unusable until a break timer ends.\n* Researchers suggest that daily at-home blood pressure monitoring after pregnancy could cut long-term heart and stroke risk for women with hypertension.\n* The first closed beta for the game \"Hell Let Loose: Vietnam\" faced technical issues, disrupting access for many players despite positive early feedback.\n* DC's upcoming \"Clayface\" film will follow a transforming actor in a darker, standalone story with a star-studded cast and an October release planned.\n\n### Notable Links\n* [GPT-5.5](https://www.openai.com/blog/gpt-5-5) - OpenAI's latest model release, described as a 'new class of intelligence for real work', enabling agents to understand complexity, use tools, verify outputs, and complete extended tasks.\n* [ChatGPT Workplace Agents](https://www.openai.com/blog/chatgpt-workplace-agents) - An evolution of custom GPTs positioned as shared agents for handling long-running workloads and team collaboration.\n* [Overview Energy](https://www.overview.energy/) - A startup working on satellites that collect solar energy in space and beam it back to Earth as near-infrared light.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Meta's power... It Came from Outer Space\n\n\\+ AI is transforming how cars are made  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n28 Apr\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_pict"
+    },
+    {
+      "from": "\"AI Automation Society\" <noreply@skool.com>",
+      "subject": "Nate Herk posted \"I sold my AI agency. here's the playbook \"",
+      "date": "2026-04-28T17:34:22.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nate Herk, an admin of the AI Automation Society, shared his experience of starting an AI automation agency in September 2024, which grew to $100K/month in recurring revenue within nine months, and has now been sold to his partners. He has created a step-by-step playbook for building a one-person AI agency based on his learnings, including client acquisition systems, pricing, and delivery processes.\n- The playbook is designed for individuals to build a successful AI agency without requiring coding knowledge, a team, or guesswork, and is included in the Scale module for AIS+ members.\n- The announcement is significant for AI practitioners as it highlights the potential for growth and success in the AI automation industry, and provides a valuable resource for those looking to start or scale their own AI agencies.\n\n### Notable Links\n- Nate Herk's Playbook \n- AI Automation Society",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRuxx2f4G5pcYUeNv-2FGLDcJun-2BPoFfFlTdw-2FC-2FYMahsCCuJ5RylOPB-2B6gNR6alz4zSFng-2Bot-2Fn3ff7fndlTH63P50XuuGxmo-2BAPMYktUDA2KN4gDSVYTLxo6ZktjrhR0cPtG-2FIZKEF6KioYiyLPIAS8QYw-3D-3Do-Pq_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXAwmEdnlSIRedNmW10-2FiuD77mfGsRAtRi1cBk8j-2FQ7Wy-2BdsRdz3clBRoRYjemrxRl4LajEFh5bImy68zdmPuUdd7CnKNJL7nBx1kaWaC7VBsbMPXKyZ0y88LYKAFlS3HVxLsvDqqctTB2Fk1gf9cVONZ13mm3EvTu06ixlff9qC0HgT4VroHI7aVISYy3m6tt7ol78ifjgI3uRiMjt0eZjkeotEACgGWTb6aK49E7HwrZ6y3-2F96cS49U7lLlu2K8SkbQdUTXzIHqpOJZYLhdR3sJ-2BiTZmHBo83Yf-2FhkpwkEhLr5qqhnYuHe-2FartmovcjfdeoJm3z9xAiQTSW66Z3tv5BT6yZnWM"
+    }
+  ],
+  "tldr": [
+    "OpenAI reworks Microsoft partnership terms.",
+    "OpenAI building AI-first smartphone reportedly.",
+    "China blocks Meta's AI startup acquisition.",
+    "Musk sues Altman over OpenAI leadership.",
+    "AlphaGo creator launches new AI company."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI has secured $122 billion in committed capital at a post-money valuation of $852 billion, marking a significant funding milestone for the company[2]. This funding round expanded participation to individual investors through bank channels, raising over $3 billion from retail investors, and OpenAI will now be included in several exchange-traded funds managed by ARK Invest[2]. The company has also expanded its revolving credit facility to approximately $4.7 billion, supported by a global banking syndicate including JPMorgan Chase, Citi, Goldman Sachs, and others[2].\n\nRecent product developments include the introduction of GPT-Rosalind, a new reasoning model designed specifically for life science research across biology, drug discovery, and translational medicine[4]. Additionally, OpenAI is enhancing its enterprise offerings through an Agents SDK that improves governance with sandbox execution, allowing enterprise teams to deploy automated workflows with controlled risk[3]. The company is also reportedly renegotiating its partnership with Microsoft and working on new hardware initiatives[1], positioning itself for the next phase of enterprise AI deployment and broader accessibility to AI technology.",
+        "source": "web search"
+      },
+      {
+        "topic": "Microsoft",
+        "context": "Microsoft and OpenAI announced a significant revision to their partnership on Monday, April 27, 2026, approximately six months after their October 2025 restructuring. Key changes include ending Azure's exclusivity as OpenAI's cloud provider, allowing OpenAI to partner with competitors like Amazon Web Services if Microsoft cannot support necessary capabilities, and enabling OpenAI to serve products across any cloud. Microsoft's license to OpenAI's technology through 2032 is now non-exclusive, and it no longer receives revenue share from OpenAI, while OpenAI's payments to Microsoft through 2030 are capped and decoupled from technology progress.[1][2][3]\n\nThis matters because it marks a shift from an exclusive alliance that positioned Microsoft as the dominant infrastructure for OpenAI's AI models, potentially violated by OpenAI's rumored AWS talks reported in March 2026. The changes reflect OpenAI's growing independence post-corporate restructuring and the maturing AI industry's move toward multi-cloud strategies, reducing Microsoft's leverage while maintaining Azure as the preferred initial platform.[1][2]\n\nLatest developments signal broader industry impact: Microsoft remains OpenAI's primary cloud partner and shareholder, but the deal fosters competition in AI infrastructure, simplifies economics, and could accelerate innovation by diversifying compute resources. This renegotiation underscores evolving dynamics in AI investments, with Microsoft adapting to OpenAI's scale amid competition from hyperscalers.[1][3]",
+        "source": "web search"
+      },
+      {
+        "topic": "Meta in AI/ML space",
+        "context": "Meta has announced a pioneering partnership with Overview Energy to power its AI data centers using up to 1 gigawatt of space-based solar energy. Overview's satellites in geosynchronous orbit will collect constant sunlight and beam it as near-infrared light to existing ground-based solar farms, enabling 24/7 electricity generation without new infrastructure. This addresses AI's massive energy demands—Meta's 2024 data centers consumed over 18,000 GWh—and overcomes solar's daytime limitations, with commercial delivery targeted for 2030 after a 2028 orbital demo.[1][2][3]\n\nThe deal matters as it positions Meta as a leader in sustainable, scalable energy for AI compute, maximizing ROI on solar farms, reducing fossil fuel reliance, and accelerating grid integration. Alongside this, Meta partnered with Noon Energy for 1 GW/100 GWh ultra-long-duration storage using reversible solid oxide fuel cells, with a 2028 pilot, ensuring baseload power resilience.[3][4] These mid-to-long-term bets complement Meta's 30 GW renewable commitments and nuclear deals, betting on innovation to fuel AI growth amid surging electricity needs.[2][4]\n\nIndustry impact includes setting precedents for hyperscalers; by reserving 'megawatt photons' capacity first, Meta validates space solar and long-duration storage, potentially spurring investment and tech advancement for AI's energy crunch, while bolstering U.S. energy leadership without extensive new builds.[1][3]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT, OpenAI's flagship conversational AI platform powered by advanced large language models, has evolved into a cornerstone for agentic AI, enabling autonomous task execution and complex workflows. The latest developments include the release of GPT-5.5, described as a 'new class of intelligence for real work' that empowers agents to understand complexity, use tools, verify outputs, and complete extended tasks. Simultaneously, OpenAI launched Workspace Agents within ChatGPT, an evolution of custom GPTs positioned as shared agents for handling long-running workloads and team collaboration, as highlighted in recent industry newsletters.[1]\n\nThese advancements matter because they mark a shift from reactive chat interfaces to proactive AI teammates, directly competing with Google's Gemini Enterprise Agent Platform and Microsoft's agentic Copilot across Office apps, all announced within the same week. GPT-5.5 builds on prior releases like GPT-5.4 (March 2026), which surpassed human benchmarks on desktop tasks, signaling rapid progress toward autonomous digital coworkers.[1][2][3] DeepSeek V4's unveiling soon after underscores intensifying competition.[2]\n\nThe industry impact is profound, accelerating enterprise adoption of AI agents for productivity, with implications for workforce transformation and infrastructure demands. OpenAI's moves are driving a wave of agent-focused innovations, positioning ChatGPT as central to the agentic AI era.[1][2]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT Images 2.0 (ImageGen)",
+        "context": "ChatGPT Images 2.0, OpenAI's latest image generation model, represents a fundamental shift in AI visual media capabilities. Released after weeks of testing under the codename \"duct tape\" on LM Arena AI, the model is now officially rolling out to all ChatGPT users. The update encompasses the new gpt-image-2 model for API users and integrates OpenAI's \"O-series\" reasoning capabilities, introducing an \"agentic\" approach where the system researches, plans, and reasons through image structure before rendering, rather than simply generating output from prompts.[2]\n\nKey technical advances include state-of-the-art performance across diverse use cases—from multilingual text rendering and infographics to floor plans, character models, and manga generation. The model significantly addresses Western bias in AI imagery by supporting high-fidelity text generation in Japanese, Korean, Chinese, Hindi, and Bengali.[2] Access is tiered: free users receive the base model, Plus and Pro users gain \"Thinking\" capabilities with tool use and web search, while Pro users access advanced \"ImageGen Pro\" models.[2] OpenAI has deprecated GPT-Image-1.5 as the default, signaling confidence in Images 2.0 as a superior replacement.[2]\n\nThe release carries broader industry implications, particularly given OpenAI's updated Microsoft partnership allowing cross-cloud distribution starting 2026, enabling OpenAI models to reach Google TPU, AWS Trainium, and Bedrock platforms.[1] Within the AI community, ImageGen's advanced reasoning capabilities have been framed as evidence of progress toward AGI, with the model demonstrating sophisticated spatial understanding, data visualization, and complex task execution that previously required human expertise.[1][2]",
+        "source": "Latent.Space, VentureBeat, OpenAI official announcement"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Apple and Google Deepen AI Alliance with Gemini-Powered Siri Overhaul",
+        "summary": "Apple's next-generation \"Apple Intelligence\" stack will be powered in part by Google's Gemini models, with a major Siri overhaul coming in iOS 27. This strategic partnership marks a significant shift in how major tech companies are integrating AI capabilities across their ecosystems.",
+        "whyItMatters": "This signals a major industry trend of cross-platform AI collaboration and indicates that flagship voice assistants are entering a new era of capability. For practitioners, it demonstrates the strategic importance of multimodal reasoning in consumer AI products.",
+        "source": "Champaign Magazine - AI by AI Weekly Top 5"
+      },
+      {
+        "headline": "OpenAI Discontinues Sora Video Generation Tool",
+        "summary": "OpenAI has officially discontinued the web and app versions of Sora, its video generation tool, on April 26, 2026. The decision was reportedly driven by massive compute costs and a strategic pivot to shore up finances ahead of a planned IPO.",
+        "whyItMatters": "This represents a significant retreat in generative video capabilities and highlights the economic pressures facing frontier AI labs. It signals that compute efficiency and financial viability are now constraining which AI capabilities remain in production.",
+        "source": "Champaign Magazine - AI by AI Weekly Top 5"
+      },
+      {
+        "headline": "OpenAI Releases GPT-5.5 with Restricted Cybersecurity Model (Project Glasswing)",
+        "summary": "OpenAI released GPT-5.5 (codenamed \"Spud\") around April 23, 2026, featuring major capability gains in coding, multi-step reasoning, and agent-like task execution. Concurrently, they unveiled Project Glasswing, a highly restricted model designed for cybersecurity and vulnerability discovery that can autonomously identify zero-day vulnerabilities but is too powerful for public release due to government-level concern from the U.S. and EU.",
+        "whyItMatters": "This represents the largest capability leap in frontier models and introduces precedent for model bifurcation based on safety considerations. The restricted cybersecurity model signals regulatory pressure on AI labs and demonstrates how geopolitical concerns are shaping AI deployment decisions.",
+        "source": "Champaign Magazine - AI by AI Weekly Top 5"
+      },
+      {
+        "headline": "Anthropic Confirms Claude Mythos 5 with ASL-4 Safety Protocol—No Public Release",
+        "summary": "Anthropic confirmed Claude Mythos 5 in early April 2026 but announced it will not be released publicly or via standard API due to triggering the company's ASL-4 safety protocol, a classification reserved for models approaching genuinely dangerous capability thresholds.",
+        "whyItMatters": "This represents a major precedent in AI safety governance—a frontier lab voluntarily withholding a model from public access due to safety concerns. It signals that capability ceilings are being actively managed by internal safety protocols and has significant implications for responsible AI deployment.",
+        "source": "KersAI - AI in April 2026: Biggest Breakthroughs, Models & Funding Shifts"
+      },
+      {
+        "headline": "Geopolitical Tensions Escalate: White House Accuses China of 'Industrial-Scale' AI Theft",
+        "summary": "Between April 23-25, 2026, the White House accused China of conducting industrial-scale theft related to AI capabilities, marking a significant escalation in geopolitical tensions over artificial intelligence development and intellectual property.",
+        "whyItMatters": "This reflects the critical importance of AI as a strategic asset and signals intensifying regulatory scrutiny and potential restrictions on international AI development and data flows. For practitioners, this may impact collaboration opportunities and data access across borders.",
+        "source": "Champaign Magazine - AI by AI Weekly Top 5"
+      }
+    ],
+    "entities": [
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as building a phone and renegotiating its partnership with Microsoft"
+      },
+      {
+        "name": "Microsoft",
+        "type": "company",
+        "context": "Mentioned as renegotiating its partnership with OpenAI"
+      },
+      {
+        "name": "Meta",
+        "type": "company",
+        "context": "Mentioned as wanting to power its AI with solar energy beamed from space"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as a tool for setting up AI teammates with Workspace Agents"
+      },
+      {
+        "name": "ImageGen",
+        "type": "product",
+        "context": "Mentioned as being on the path to achieving Artificial General Intelligence (AGI)"
+      },
+      {
+        "name": "Nuwa Pen",
+        "type": "product",
+        "context": "Mentioned as a smart pen that can read any paper"
+      },
+      {
+        "name": "DeepSeek V4 Pro",
+        "type": "product",
+        "context": "Mentioned as being available on Ollama's cloud"
+      },
+      {
+        "name": "Stable Diffusion Models",
+        "type": "technology",
+        "context": "Mentioned as being used for seismic data enhancement"
+      },
+      {
+        "name": "ElevenLabs",
+        "type": "company",
+        "context": "Mentioned as shipping over 50 agents"
+      },
+      {
+        "name": "Applied Intuition",
+        "type": "company",
+        "context": "Mentioned as working on physical AI that can move the world"
+      },
+      {
+        "name": "Claude Design",
+        "type": "product",
+        "context": "Mentioned as a tool that can be set up and used"
+      }
+    ]
+  },
+  "savedAt": "2026-04-28T18:30:00.000Z",
+  "dateString": "2026-04-29"
+}
