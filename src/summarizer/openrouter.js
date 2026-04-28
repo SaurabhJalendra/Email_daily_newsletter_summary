@@ -1,6 +1,7 @@
 import OpenAI from 'openai';
 import { config } from '../utils/config.js';
 import { isPromoSubject } from '../email/parser.js';
+import { collectPapers, fetchArxivTitle } from '../utils/papers.js';
 
 export class OpenRouterSummarizer {
   constructor() {
@@ -182,6 +183,7 @@ Instructions:
 9. DO NOT create separate "Key Highlights" and "Detailed Points" sections that repeat the same information
 10. DO NOT include raw tracking/redirect URLs in your summary (URLs containing beehiiv.com, tldrnewsletter.com, skool.com/ls/click, alphasignal.ai/c). Only reference links by descriptive name.
 11. If the newsletter is primarily a webinar invitation, product ad, or promotional content with no AI news, mark it as LOW priority
+12. PAPERS: If the newsletter references an academic paper (arXiv preprint, NeurIPS/ICML/ICLR proceedings, journal article, etc.), include the paper title and arXiv ID/DOI in your summary. Use markdown links of the form [Paper Title](https://arxiv.org/abs/XXXX.XXXXX). Preserve arXiv URLs and arxiv.org/openreview.net/aclanthology.org links — these are NOT tracking URLs.
 
 Rate this newsletter's impact for AI practitioners:
 - HIGH: ONLY for breaking news, major model releases (GPT-5, Claude 4, Gemini 2), significant acquisitions/funding >$100M, or paradigm shifts. Most newsletters should NOT be HIGH.
@@ -235,12 +237,23 @@ Be thorough - missing information is worse than being verbose.`;
         priority = 'LOW';
       }
 
+      // Collect academic paper references (arXiv IDs in text + paper-domain links)
+      const papers = collectPapers({ ...newsletter, links });
+      // For arXiv IDs without a known title, try to fetch from arXiv API.
+      // Best-effort, capped at 3 lookups per newsletter to stay polite.
+      const arxivWithoutTitle = papers.filter(p => p.source === 'arxiv-id' && !p.title).slice(0, 3);
+      for (const ref of arxivWithoutTitle) {
+        const title = await fetchArxivTitle(ref.arxivId);
+        if (title) ref.title = title;
+      }
+
       return {
         from: newsletter.from,
         subject: newsletter.subject,
         date: newsletter.date,
         summary: summary,
         links,
+        papers,
         priority,
         originalContent: textContent.substring(0, 1000) // Keep snippet for reference
       };

@@ -155,6 +155,15 @@ export class NewsletterParser {
       'track.', 'click.'
     ];
 
+    // Research paper sources — always preserved (highest value links)
+    const paperDomains = [
+      'arxiv.org', 'openreview.net', 'aclanthology.org',
+      'proceedings.neurips.cc', 'papers.ssrn.com', 'papers.nips.cc',
+      'icml.cc', 'iclr.cc', 'aaai.org/proceedings', 'papers.cool',
+      'huggingface.co/papers', 'distill.pub', 'arxiv-sanity.com',
+      'doi.org', 'semanticscholar.org'
+    ];
+
     const textBlocklist = [
       'privacy policy', 'terms of service', 'terms of use', 'email preferences',
       'manage preferences', 'update preferences', 'become a sponsor', 'submit your',
@@ -178,8 +187,11 @@ export class NewsletterParser {
       // Skip blocked URLs (social media, unsubscribe)
       if (urlBlocklist.some(pattern => urlLower.includes(pattern))) return;
 
-      // Skip tracking redirect URLs
-      if (trackingDomains.some(domain => urlLower.includes(domain))) return;
+      // Detect paper links — always preserve, never filter as tracking
+      const isPaper = paperDomains.some(domain => urlLower.includes(domain));
+
+      // Skip tracking redirect URLs (unless it's a paper link)
+      if (!isPaper && trackingDomains.some(domain => urlLower.includes(domain))) return;
 
       // Skip blocked link text
       if (textBlocklist.some(pattern => textLower.includes(pattern))) return;
@@ -196,7 +208,7 @@ export class NewsletterParser {
       if (seen.has(cleaned)) return;
       seen.add(cleaned);
 
-      links.push({ text, url: cleaned });
+      links.push(isPaper ? { text, url: cleaned, isPaper: true } : { text, url: cleaned });
     });
 
     return links.slice(0, 10); // Limit to top 10 links
