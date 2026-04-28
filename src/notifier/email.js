@@ -1,6 +1,7 @@
 import nodemailer from 'nodemailer';
 import { marked } from 'marked';
 import { config } from '../utils/config.js';
+import { htmlToPdf } from '../utils/html-to-pdf.js';
 
 // Marked renderer using CSS classes instead of inline styles (huge size savings)
 const emailRenderer = {
@@ -105,6 +106,38 @@ const EMAIL_STYLES = `
   .md-code { background: #f1f5f9; padding: 2px 6px; border-radius: 3px; font-size: 14px; }
   .md-pre { background: #1f2937; color: #e5e7eb; padding: 12px; border-radius: 6px; overflow-x: auto; font-size: 13px; }
   .md-blockquote { border-left: 4px solid #667eea; margin: 15px 0; padding: 10px 20px; background: #f8f9ff; font-style: italic; }
+
+  /* Print-specific styles for high-quality PDF rendering */
+  @media print {
+    @page { size: A4; margin: 15mm 12mm; }
+    body { background: #fff; font-size: 11pt; }
+    .wrap { background: #fff; }
+    .main { max-width: none; width: 100%; box-shadow: none; }
+    .hdr { padding: 24pt 18pt; -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-after: avoid; }
+    .hdr-h1 { font-size: 22pt; }
+    .hdr-date { color: #e8ebff !important; font-size: 12pt; }
+    .hdr-count { font-size: 13pt; }
+    .content { padding: 18pt; }
+    .tldr, .overview, .research, .card { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; box-shadow: none; }
+    .tldr-h, .overview-h, .research-h, .sec-h { font-size: 14pt; page-break-after: avoid; }
+    .card { margin-bottom: 14pt; page-break-inside: avoid; }
+    .card-title { font-size: 13pt; page-break-after: avoid; }
+    .card-from { font-size: 9pt; }
+    .card-body { font-size: 10.5pt; line-height: 1.5; }
+    .card-prio { font-size: 9pt; }
+    .tldr-li, .md-li { line-height: 1.5; }
+    .md-h1 { font-size: 16pt; page-break-after: avoid; }
+    .md-h2 { font-size: 14pt; page-break-after: avoid; }
+    .md-h3 { font-size: 13pt; page-break-after: avoid; }
+    .md-h4 { font-size: 12pt; page-break-after: avoid; }
+    .md-p, .md-li { font-size: 10.5pt; }
+    .links-sec { page-break-inside: avoid; }
+    .link-pill { padding: 2pt 6pt; font-size: 9pt; }
+    .footer { display: none; }
+    a { color: #0050a0 !important; text-decoration: none; }
+    /* Avoid orphan headings at bottom of page */
+    h1, h2, h3, h4 { page-break-after: avoid; }
+  }
 `;
 
 /**
@@ -202,26 +235,40 @@ export class EmailNotifier {
     const fullDigestHtml = this.generateHtmlEmail(summary, newsletters, totalNewsletters, dateString, dateParam, tldr, researchFindings);
     const textContent = this.generateTextEmail(summary, newsletters, totalNewsletters, dateString, tldr, researchFindings);
 
+    // Convert the full digest HTML to PDF (renders properly on every device,
+    // unlike .html attachments which some email clients display as source code)
+    let pdfBuffer = null;
+    try {
+      console.log('   📄 Rendering digest as PDF…');
+      pdfBuffer = await htmlToPdf(fullDigestHtml);
+      console.log(`   ✓ PDF rendered (${(pdfBuffer.length/1024).toFixed(1)} KB)`);
+    } catch (pdfErr) {
+      console.error('   ⚠️  PDF render failed, sending without attachment:', pdfErr.message);
+    }
+
+    const attachments = [];
+    if (pdfBuffer) {
+      attachments.push({
+        filename: `digest-${dateParam}.pdf`,
+        content: pdfBuffer,
+        contentType: 'application/pdf'
+      });
+    }
+
     const mailOptions = {
       from: `Newsletter Digest <${config.email.address}>`,
       to: config.notification.recipientEmail,
       subject: `📰 Your AI Newsletter Digest - ${dateString}`,
       text: textContent,
       html: bodyHtml,
-      attachments: [
-        {
-          filename: `digest-${dateParam}.html`,
-          content: fullDigestHtml,
-          contentType: 'text/html; charset=utf-8'
-        }
-      ]
+      attachments
     };
 
     try {
       const info = await this.transporter.sendMail(mailOptions);
       console.log(`✓ Summary email sent: ${info.messageId}`);
       console.log(`   Body: ${(bodyHtml.length/1024).toFixed(1)} KB (Gmail threshold: 102 KB)`);
-      console.log(`   Attachment: ${(fullDigestHtml.length/1024).toFixed(1)} KB full digest`);
+      if (pdfBuffer) console.log(`   Attached PDF: ${(pdfBuffer.length/1024).toFixed(1)} KB`);
       return info;
     } catch (error) {
       console.error('Error sending email notification:', error);
@@ -281,9 +328,9 @@ ${tldrHtml}
 </div>
 ${researchHtml}
 <div class="attach-cta">
-<h2 class="attach-cta-h">📎 Full digest attached</h2>
-<p class="attach-cta-p">All ${totalNewsletters} newsletter summaries with priority colors and full content are in the attached HTML file. Open in any browser.</p>
-<div class="attach-cta-file">digest-${dateParam}.html</div>
+<h2 class="attach-cta-h">📎 Full digest attached as PDF</h2>
+<p class="attach-cta-p">All ${totalNewsletters} newsletter summaries with priority colors and full content are in the attached PDF. Opens in any PDF viewer.</p>
+<div class="attach-cta-file">digest-${dateParam}.pdf</div>
 </div>
 </div>
 <div class="footer">

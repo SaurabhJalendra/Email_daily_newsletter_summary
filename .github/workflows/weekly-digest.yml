@@ -159,61 +159,16 @@ jobs:
           fi
           echo "md_path=$LATEST" >> $GITHUB_OUTPUT
           BASENAME=$(basename "$LATEST" .md)
-          DOCX_PATH="/tmp/weekly-digest-${BASENAME}.docx"
-          echo "docx_path=$DOCX_PATH" >> $GITHUB_OUTPUT
           echo "basename=$BASENAME" >> $GITHUB_OUTPUT
-          echo "Found digest: $LATEST → $DOCX_PATH"
-
-      - name: Install pandoc
-        run: sudo apt-get update && sudo apt-get install -y pandoc
-
-      - name: Preprocess markdown for DOCX (strip [[wiki-link]] syntax)
-        id: preprocess
-        run: |
-          PROCESSED="/tmp/preprocessed-${{ steps.digest.outputs.basename }}.md"
-          # Convert [[page-name]] → **Page Name** (title-cased, space-separated) so pandoc renders cleanly
-          perl -pe 's/\[\[([^\]]+)\]\]/"**" . join(" ", map { ucfirst } split(\/-\/, $1)) . "**"/ge' \
-            "${{ steps.digest.outputs.md_path }}" > "$PROCESSED"
-          echo "path=$PROCESSED" >> $GITHUB_OUTPUT
-          echo "Preprocessed digest written to $PROCESSED"
-
-      - name: Convert digest markdown to DOCX (pandoc)
-        run: |
-          pandoc "${{ steps.preprocess.outputs.path }}" \
-            -o "${{ steps.digest.outputs.docx_path }}" \
-            --from gfm \
-            --to docx \
-            --metadata "title=Weekly AI Wiki Digest — ${{ steps.digest.outputs.basename }}"
-          ls -la "${{ steps.digest.outputs.docx_path }}"
+          echo "Found digest: $LATEST"
 
       # ======================================================================
-      # Pre-send Visual QA — Claude Code with vision checks the DOCX output
-      # before we email it. Converts DOCX → PDF → PNG images so Claude can
-      # actually see the rendered document, not just the markdown source.
+      # Pre-send Content QA — Claude Code reads the markdown digest and
+      # checks for content issues before email goes out. Visual rendering
+      # happens at send time via puppeteer; we no longer pre-render here.
       # ======================================================================
 
-      - name: Install LibreOffice + poppler-utils (for visual rendering)
-        run: sudo apt-get install -y libreoffice poppler-utils
-
-      - name: Convert DOCX → PDF → PNG images for visual inspection
-        id: render
-        run: |
-          # DOCX → PDF via LibreOffice headless
-          libreoffice --headless --convert-to pdf --outdir /tmp "${{ steps.digest.outputs.docx_path }}"
-          PDF=$(ls /tmp/weekly-digest-*.pdf 2>/dev/null | head -1)
-          if [ -z "$PDF" ]; then
-            echo "PDF conversion failed — skipping visual QA"
-            echo "images_dir=" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-          # PDF → PNG (first 6 pages at 120 DPI — enough for visual QA)
-          pdftoppm -png -r 120 -f 1 -l 6 "$PDF" /tmp/digest-page
-          ls /tmp/digest-page-*.png
-          echo "images_dir=/tmp" >> $GITHUB_OUTPUT
-          echo "pdf_path=$PDF" >> $GITHUB_OUTPUT
-
-      - name: Pre-send QA via Claude Code (with vision)
-        if: steps.render.outputs.images_dir != ''
+      - name: Pre-send QA via Claude Code
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
@@ -223,27 +178,22 @@ jobs:
 
             Artifacts to inspect:
             - Markdown source: ${{ steps.digest.outputs.md_path }}
-            - Pre-processed markdown (what was sent to pandoc): ${{ steps.preprocess.outputs.path }}
-            - Rendered DOCX pages as PNG images: /tmp/digest-page-*.png (read each)
-            - The email HTML is NOT available here — it's generated at send time.
+            - The email HTML and PDF are generated at send time (after this step).
 
             Check for the following — report each issue found:
 
             **Content issues (read the markdown)**
-            1. Literal `[[wiki-link]]` text — should have been stripped by preprocessing
-            2. Wrong/missing date — subject and body should reflect correct IST week
-            3. Missing sections — template requires: If You Only Read One Thing, Top 10 Stories, By the Numbers, New Pages Created, Pages with Biggest Updates, Cross-Cutting Patterns, Featured Page Deep-Dive, Stories Worth Watching Next Week, Notable Quotes & Claims
-            4. Empty/stub sections (e.g., "(none)" or fewer than 3 items)
-            5. Fewer than 2500 words total (too terse)
+            1. Wrong/missing date — subject and body should reflect correct IST week
+            2. Missing sections — template requires: If You Only Read One Thing, Top 10 Stories, By the Numbers, New Pages Created, Pages with Biggest Updates, Cross-Cutting Patterns, Featured Page Deep-Dive, Stories Worth Watching Next Week, Notable Quotes & Claims
+            3. Empty/stub sections (e.g., "(none)" or fewer than 3 items)
+            4. Fewer than 2500 words total (too terse)
+            5. Literal `[[wiki-link]]` text — preprocessing in weekly-digest-email.js converts these to bold readable names; flag if any leak through
 
-            **Visual issues (read each PNG image)**
-            6. Broken markdown formatting (literal asterisks, unclosed bold, messy tables)
-            7. Awkward page breaks mid-sentence
-            8. Huge whitespace gaps
-            9. Weird heading hierarchy (H1 appearing mid-document, missing H2 for sections)
-            10. Misaligned bullets / nested list formatting broken
-            11. Text overflow or truncation at page edges
-            12. Low-quality font rendering
+            **Formatting issues**
+            6. Broken markdown (literal asterisks, unclosed bold, messy tables)
+            7. Weird heading hierarchy (H1 appearing mid-document, missing H2)
+            8. Misaligned/nested list formatting issues
+            9. Stray HTML tags in the markdown source
 
             Write your report to `/tmp/qa-report.json` in this format:
             ```json
@@ -337,12 +287,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Send weekly digest email
+      - name: Send weekly digest email (with PDF attachment)
         env:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
           DIGEST_PATH: ${{ steps.digest.outputs.md_path }}
-          DIGEST_DOCX_PATH: ${{ steps.digest.outputs.docx_path }}
           TZ: Asia/Kolkata
         run: node src/weekly-digest-email.js

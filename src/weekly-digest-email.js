@@ -5,6 +5,7 @@ import path from 'path';
 import nodemailer from 'nodemailer';
 import { marked } from 'marked';
 import { config } from './utils/config.js';
+import { htmlToPdf } from './utils/html-to-pdf.js';
 
 /**
  * Send the weekly digest email with the latest digest markdown as HTML.
@@ -67,6 +68,31 @@ async function sendWeeklyDigest() {
   .content code { background: #f1f5f9; padding: 2px 6px; border-radius: 3px; font-size: 14px; }
   .footer { padding: 20px 28px; background: #f9fafb; text-align: center; border-top: 1px solid #e5e7eb; }
   .footer p { margin: 0; color: #999; font-size: 12px; }
+
+  /* Print-specific styles for high-quality PDF rendering */
+  @media print {
+    @page { size: A4; margin: 15mm 14mm; }
+    body { background: #fff; font-size: 11pt; }
+    .wrap { background: #fff; padding: 0; }
+    .main { max-width: none; width: 100%; box-shadow: none; }
+    .hdr { -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 24pt 22pt; page-break-after: avoid; }
+    .hdr h1 { font-size: 22pt; }
+    .hdr p { font-size: 12pt; color: #e8ebff !important; }
+    .content { padding: 22pt; }
+    .content h1 { display: block; font-size: 18pt; color: #222; margin: 12pt 0 8pt 0; page-break-after: avoid; }
+    .content h2 { font-size: 15pt; margin: 18pt 0 8pt 0; padding-bottom: 4pt; page-break-after: avoid; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .content h3 { font-size: 13pt; margin: 14pt 0 6pt 0; page-break-after: avoid; }
+    .content p { font-size: 10.5pt; line-height: 1.55; margin: 8pt 0; }
+    .content ul, .content ol { margin: 8pt 0; padding-left: 20pt; }
+    .content li { font-size: 10.5pt; line-height: 1.5; margin: 4pt 0; }
+    .content blockquote { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; }
+    .content code { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .content a { color: #2050a0 !important; text-decoration: none; }
+    .footer { display: none; }
+    /* Avoid orphan headings at bottom of page */
+    h1, h2, h3, h4 { page-break-after: avoid; }
+    blockquote, pre { page-break-inside: avoid; }
+  }
 </style>
 </head>
 <body>
@@ -92,23 +118,21 @@ ${bodyHtml}
 
   const transporter = nodemailer.createTransport(config.email.smtp);
 
-  // Build attachments list — prefer DOCX if available, also keep markdown as fallback
+  // Render the email HTML as a PDF for the attachment.
+  // PDF is universal and renders properly on all email clients (HTML
+  // attachments often display as raw source code on mobile).
   const attachments = [];
-  const docxPath = process.env.DIGEST_DOCX_PATH;
-  if (docxPath) {
-    try {
-      const docxStat = await fs.stat(docxPath);
-      if (docxStat.isFile() && docxStat.size > 0) {
-        attachments.push({
-          filename: `weekly-digest-${basename}.docx`,
-          path: docxPath,
-          contentType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-        });
-        console.log(`📎 Attaching DOCX: ${docxPath} (${(docxStat.size / 1024).toFixed(1)} KB)`);
-      }
-    } catch (err) {
-      console.warn(`⚠️  DOCX not available at ${docxPath}: ${err.message}`);
-    }
+  try {
+    console.log('📄 Rendering weekly digest as PDF…');
+    const pdfBuffer = await htmlToPdf(html);
+    attachments.push({
+      filename: `weekly-digest-${basename}.pdf`,
+      content: pdfBuffer,
+      contentType: 'application/pdf'
+    });
+    console.log(`📎 Attaching PDF: ${(pdfBuffer.length / 1024).toFixed(1)} KB`);
+  } catch (err) {
+    console.warn(`⚠️  PDF render failed, sending without attachment: ${err.message}`);
   }
   // Always include markdown as a secondary attachment for archival/portability
   attachments.push({
