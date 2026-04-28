@@ -107,35 +107,100 @@ const EMAIL_STYLES = `
   .md-pre { background: #1f2937; color: #e5e7eb; padding: 12px; border-radius: 6px; overflow-x: auto; font-size: 13px; }
   .md-blockquote { border-left: 4px solid #667eea; margin: 15px 0; padding: 10px 20px; background: #f8f9ff; font-style: italic; }
 
+  /* Cover page (PDF first page) */
+  .cover { display: none; }
+
+  /* Table of contents (PDF) */
+  .toc { display: none; }
+
+  /* Papers section (full) */
+  .papers-full { background: #faf5ff; border: 1px solid #ddd6fe; border-radius: 8px; padding: 22px 24px; margin: 0 0 20px 0; }
+  .papers-full-h { color: #5b21b6; margin: 0 0 6px 0; font-size: 19px; }
+  .papers-full-sub { color: #6b21a8; font-size: 13px; margin: 0 0 14px 0; }
+  .papers-full-list { margin: 0; padding-left: 24px; }
+  .papers-full-li { margin: 10px 0; line-height: 1.5; }
+  .papers-full-link { color: #5b21b6; font-weight: 600; text-decoration: none; }
+  .papers-full-meta { color: #888; font-size: 11px; font-family: monospace; margin-top: 2px; word-break: break-all; }
+
   /* Print-specific styles for high-quality PDF rendering */
   @media print {
-    @page { size: A4; margin: 15mm 12mm; }
-    body { background: #fff; font-size: 11pt; }
-    .wrap { background: #fff; }
+    @page { size: A4; margin: 20mm 14mm; }
+    @page :first { margin: 0; }  /* Cover page is full-bleed */
+    body {
+      background: #fff;
+      font-size: 11pt;
+      font-family: Georgia, 'Times New Roman', serif;
+      color: #1f2937;
+    }
+    .wrap { background: #fff; padding: 0; }
     .main { max-width: none; width: 100%; box-shadow: none; }
-    .hdr { padding: 24pt 18pt; -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-after: avoid; }
-    .hdr-h1 { font-size: 22pt; }
-    .hdr-date { color: #e8ebff !important; font-size: 12pt; }
-    .hdr-count { font-size: 13pt; }
-    .content { padding: 18pt; }
-    .tldr, .overview, .research, .card { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; box-shadow: none; }
-    .tldr-h, .overview-h, .research-h, .sec-h { font-size: 14pt; page-break-after: avoid; }
-    .card { margin-bottom: 14pt; page-break-inside: avoid; }
-    .card-title { font-size: 13pt; page-break-after: avoid; }
-    .card-from { font-size: 9pt; }
-    .card-body { font-size: 10.5pt; line-height: 1.5; }
-    .card-prio { font-size: 9pt; }
-    .tldr-li, .md-li { line-height: 1.5; }
-    .md-h1 { font-size: 16pt; page-break-after: avoid; }
-    .md-h2 { font-size: 14pt; page-break-after: avoid; }
-    .md-h3 { font-size: 13pt; page-break-after: avoid; }
-    .md-h4 { font-size: 12pt; page-break-after: avoid; }
+
+    /* Hide the email header on PDF — cover page replaces it */
+    .hdr { display: none; }
+
+    /* Cover page: full-bleed first page */
+    .cover {
+      display: block;
+      page-break-after: always;
+      height: 247mm;
+      padding: 28mm 22mm 22mm 22mm;
+      background: linear-gradient(135deg, #667eea 0%, #5b21b6 100%);
+      color: #fff;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      box-sizing: border-box;
+    }
+    .cover-tag { font-size: 9pt; letter-spacing: 3pt; opacity: 0.8; text-transform: uppercase; margin-bottom: 18pt; font-family: Helvetica, Arial, sans-serif; }
+    .cover-title { font-size: 36pt; margin: 0 0 10pt 0; line-height: 1.1; color: #fff; font-family: Georgia, serif; }
+    .cover-date { font-size: 16pt; opacity: 0.9; margin-bottom: 32pt; font-style: italic; }
+    .cover-stats { display: flex; gap: 14pt; flex-wrap: wrap; margin-bottom: 38pt; }
+    .stat { background: rgba(255,255,255,0.12); border-radius: 8pt; padding: 12pt 16pt; min-width: 24mm; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .stat-num { display: block; font-size: 28pt; font-weight: bold; line-height: 1; font-family: Georgia, serif; }
+    .stat-num.stat-high { color: #fecaca; }
+    .stat-label { display: block; font-size: 9pt; opacity: 0.85; margin-top: 4pt; font-family: Helvetica, Arial, sans-serif; letter-spacing: 0.5pt; }
+    .cover-tldr { background: rgba(0,0,0,0.18); border-radius: 8pt; padding: 16pt 20pt; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .cover-tldr-h { font-size: 11pt; letter-spacing: 2pt; opacity: 0.85; margin-bottom: 10pt; font-family: Helvetica, Arial, sans-serif; }
+    .cover-tldr-list { margin: 0; padding-left: 18pt; font-family: Georgia, serif; }
+    .cover-tldr-list li { font-size: 12pt; line-height: 1.5; margin: 6pt 0; }
+
+    /* Table of contents */
+    .toc {
+      display: block;
+      page-break-after: always;
+      padding: 20mm 16mm;
+      font-family: Georgia, serif;
+    }
+    .toc-h { font-size: 22pt; margin: 0 0 18pt 0; color: #1f2937; border-bottom: 1pt solid #e5e7eb; padding-bottom: 8pt; }
+    .toc-list { margin: 0; padding-left: 22pt; font-size: 12pt; line-height: 2; }
+    .toc-list > li { margin: 6pt 0; }
+    .toc-list a { color: #1f2937 !important; text-decoration: none; }
+    .toc-sub { padding-left: 22pt; font-size: 10.5pt; color: #6b7280; line-height: 1.7; list-style: none; margin-top: 4pt; }
+
+    .content { padding: 0; }
+    .tldr, .overview, .research, .papers-full, .card { -webkit-print-color-adjust: exact; print-color-adjust: exact; page-break-inside: avoid; box-shadow: none; }
+    .tldr { background: #fffbeb; }
+    .tldr-h, .overview-h, .research-h, .papers-full-h, .sec-h { font-size: 16pt; page-break-after: avoid; font-family: Georgia, serif; margin-top: 14pt; }
+    .overview, .research, .papers-full { margin-bottom: 16pt; }
+    .card { margin-bottom: 12pt; page-break-inside: avoid; padding: 12pt 14pt; }
+    .card-title { font-size: 13pt; page-break-after: avoid; font-family: Georgia, serif; }
+    .card-from { font-size: 9pt; font-family: Helvetica, Arial, sans-serif; }
+    .card-body { font-size: 10.5pt; line-height: 1.55; }
+    .card-prio { font-size: 8pt; font-family: Helvetica, Arial, sans-serif; }
+    .tldr-li, .md-li { line-height: 1.55; }
+    .md-h1 { font-size: 16pt; page-break-after: avoid; font-family: Georgia, serif; }
+    .md-h2 { font-size: 14pt; page-break-after: avoid; font-family: Georgia, serif; }
+    .md-h3 { font-size: 13pt; page-break-after: avoid; font-family: Georgia, serif; }
+    .md-h4 { font-size: 12pt; page-break-after: avoid; font-family: Georgia, serif; }
     .md-p, .md-li { font-size: 10.5pt; }
     .links-sec { page-break-inside: avoid; }
-    .link-pill { padding: 2pt 6pt; font-size: 9pt; }
+    .link-pill { padding: 1pt 5pt; font-size: 8.5pt; font-family: Helvetica, Arial, sans-serif; }
     .footer { display: none; }
-    a { color: #0050a0 !important; text-decoration: none; }
-    /* Avoid orphan headings at bottom of page */
+    .papers-full-list { padding-left: 22pt; }
+    .papers-full-li { margin: 8pt 0; }
+    .papers-full-meta { font-size: 9pt; }
+    a { color: #2050a0 !important; text-decoration: none; }
+    /* Each major section starts on a new page */
+    section#beyond, section#papers, section#summaries { page-break-before: always; }
     h1, h2, h3, h4 { page-break-after: avoid; }
   }
 `;
@@ -189,6 +254,56 @@ function escapeHtml(text) {
 }
 
 /**
+ * Aggregate paper references across all newsletters.
+ * Deduplicates by URL, preserves attribution back to source newsletter.
+ */
+function aggregatePapers(newsletters) {
+  const seen = new Map(); // url → { url, title, sourceFroms: [..] }
+  for (const nl of newsletters || []) {
+    for (const p of nl?.papers || []) {
+      if (!p?.url) continue;
+      const existing = seen.get(p.url);
+      if (existing) {
+        // Prefer entries that have a title
+        if (!existing.title && p.title) existing.title = p.title;
+        if (!existing.sourceFroms.includes(nl.from)) existing.sourceFroms.push(nl.from);
+      } else {
+        seen.set(p.url, {
+          url: p.url,
+          title: p.title || null,
+          source: p.source,
+          sourceFroms: [nl.from]
+        });
+      }
+    }
+  }
+  return [...seen.values()];
+}
+
+/**
+ * Extract a list of "top stories" from the daily-overview markdown
+ * for the short email body. Looks for the "Top Stories" section and
+ * picks the first N bullets. Falls back to first N non-empty lines.
+ */
+function extractTopStories(overviewMarkdown, limit = 5) {
+  if (!overviewMarkdown) return [];
+  const lines = overviewMarkdown.split('\n');
+  const stories = [];
+  let inTop = false;
+  for (const line of lines) {
+    if (/^##\s*🔥?\s*Top Stories/i.test(line)) { inTop = true; continue; }
+    if (inTop && /^##\s/.test(line)) break; // Next section
+    if (inTop) {
+      const trimmed = line.trim();
+      const bullet = trimmed.match(/^(?:\d+\.|[-*])\s+(.+)$/);
+      if (bullet) stories.push(bullet[1].trim());
+      if (stories.length >= limit) break;
+    }
+  }
+  return stories;
+}
+
+/**
  * Get priority color for visual indicator
  */
 function getPriorityStyle(priority) {
@@ -208,13 +323,12 @@ export class EmailNotifier {
   /**
    * Send daily summary notification email.
    *
-   * Body = short scannable version (TL;DR + overview + note about attachment).
-   * Attached HTML file = full digest with all newsletter summaries.
+   * Email body = short scannable version (TL;DR + Top 5 stories + Beyond the
+   * Newsletters + Papers This Cycle + attachment callout). Always ~10-15 KB.
    *
-   * Rationale: Gmail clips emails > 102KB. On heavy days (30+ newsletters)
-   * the full email body blew past the limit and content was silently lost.
-   * Moving full content to an attachment guarantees zero content loss
-   * regardless of how many newsletters come in.
+   * PDF attachment = full polished document with cover page, table of
+   * contents, all newsletter cards grouped by priority, papers section,
+   * page numbers, and serif typography.
    */
   async sendSummaryNotification(summaryData) {
     const { summary, totalNewsletters, newsletters, date, tldr, researchFindings } = summaryData;
@@ -229,18 +343,27 @@ export class EmailNotifier {
 
     const dateParam = new Date(date).toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
 
+    // Aggregate papers across all newsletters (deduped by URL)
+    const allPapers = aggregatePapers(newsletters);
+
     // Short body for the email itself (never clipped)
-    const bodyHtml = this.generateEmailBody(summary, totalNewsletters, dateString, tldr, researchFindings, dateParam);
-    // Full content for the attachment (unlimited size)
-    const fullDigestHtml = this.generateHtmlEmail(summary, newsletters, totalNewsletters, dateString, dateParam, tldr, researchFindings);
+    const bodyHtml = this.generateEmailBody(
+      summary, newsletters, totalNewsletters, dateString, tldr, researchFindings, dateParam, allPapers
+    );
+    // Full content for the PDF attachment
+    const fullDigestHtml = this.generateHtmlEmail(
+      summary, newsletters, totalNewsletters, dateString, dateParam, tldr, researchFindings, allPapers
+    );
     const textContent = this.generateTextEmail(summary, newsletters, totalNewsletters, dateString, tldr, researchFindings);
 
-    // Convert the full digest HTML to PDF (renders properly on every device,
-    // unlike .html attachments which some email clients display as source code)
+    // Convert the full digest HTML to PDF
     let pdfBuffer = null;
     try {
       console.log('   📄 Rendering digest as PDF…');
-      pdfBuffer = await htmlToPdf(fullDigestHtml);
+      pdfBuffer = await htmlToPdf(fullDigestHtml, {
+        documentTitle: `AI Newsletter Digest — ${dateString}`,
+        dateLabel: dateString
+      });
       console.log(`   ✓ PDF rendered (${(pdfBuffer.length/1024).toFixed(1)} KB)`);
     } catch (pdfErr) {
       console.error('   ⚠️  PDF render failed, sending without attachment:', pdfErr.message);
@@ -277,27 +400,42 @@ export class EmailNotifier {
   }
 
   /**
-   * Short scannable email body — TL;DR + daily overview + note about attachment.
-   * NEVER includes individual newsletter cards; those live in the attached HTML.
-   * Typical size: 10-20 KB regardless of newsletter count.
+   * Short scannable email body — TL;DR + Top 5 stories + Beyond the Newsletters
+   * + Papers This Cycle + attachment callout. Always under 20KB regardless of
+   * newsletter count. Goal: 30-second inbox scan.
    */
-  generateEmailBody(summary, totalNewsletters, dateString, tldr, researchFindings, dateParam) {
+  generateEmailBody(summary, newsletters, totalNewsletters, dateString, tldr, researchFindings, dateParam, allPapers = []) {
     const tldrHtml = tldr && tldr.length > 0 ? `
       <div class="tldr">
         <h2 class="tldr-h">⚡ TL;DR</h2>
         <ul class="tldr-ul">${tldr.map(b => `<li class="tldr-li">${escapeHtml(b)}</li>`).join('')}</ul>
       </div>` : '';
 
+    // Extract top 5 stories from the daily-overview markdown
+    const topStories = extractTopStories(summary, 5);
+    const topStoriesHtml = topStories.length > 0 ? `
+      <div class="top5">
+        <h2 class="top5-h">🔥 Top 5 Stories</h2>
+        <ol class="top5-list">${topStories.map(s => `<li class="top5-li">${markdownToEmailHtml(s).replace(/^<p[^>]*>/, '').replace(/<\/p>$/, '')}</li>`).join('')}</ol>
+      </div>` : '';
+
     const researchHtml = researchFindings?.missingStories?.length > 0 ? `
       <div class="research">
         <h2 class="research-h">🔍 Beyond the Newsletters</h2>
         <p class="research-sub">Stories our research agent found that weren't in today's newsletters:</p>
-        ${researchFindings.missingStories.map(story => `
+        ${researchFindings.missingStories.slice(0, 3).map(story => `
           <div class="research-item">
             <span class="research-head">${escapeHtml(story.headline)}</span>
             <p class="research-sum">${escapeHtml(story.summary)}</p>
             <p class="research-why">Why it matters: ${escapeHtml(story.whyItMatters)}</p>
           </div>`).join('')}
+      </div>` : '';
+
+    const papersHtml = allPapers.length > 0 ? `
+      <div class="papers">
+        <h2 class="papers-h">📄 Papers This Cycle</h2>
+        <ul class="papers-list">${allPapers.slice(0, 8).map(p => `
+          <li class="papers-li"><a href="${escapeHtml(p.url)}" class="papers-link">${escapeHtml(p.title || p.url)}</a></li>`).join('')}</ul>
       </div>` : '';
 
     return `<!DOCTYPE html>
@@ -306,6 +444,15 @@ export class EmailNotifier {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>${EMAIL_STYLES}
+.top5 { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 18px 20px; margin-bottom: 20px; }
+.top5-h { color: #b91c1c; margin: 0 0 12px 0; font-size: 18px; }
+.top5-list { margin: 0; padding-left: 24px; }
+.top5-li { margin: 8px 0; line-height: 1.5; color: #333; }
+.papers { background: #f5f3ff; border: 1px solid #ddd6fe; border-radius: 8px; padding: 18px 20px; margin-bottom: 20px; }
+.papers-h { color: #5b21b6; margin: 0 0 10px 0; font-size: 17px; }
+.papers-list { margin: 0; padding-left: 18px; }
+.papers-li { margin: 5px 0; line-height: 1.4; }
+.papers-link { color: #5b21b6; text-decoration: none; font-size: 13px; }
 .attach-cta { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center; }
 .attach-cta-h { color: #0369a1; margin: 0 0 8px 0; font-size: 16px; }
 .attach-cta-p { color: #075985; margin: 0; font-size: 14px; line-height: 1.5; }
@@ -322,14 +469,12 @@ export class EmailNotifier {
 </div>
 <div class="content">
 ${tldrHtml}
-<div class="overview">
-<h2 class="overview-h">📊 Daily Overview</h2>
-<div>${markdownToEmailHtml(summary)}</div>
-</div>
+${topStoriesHtml}
 ${researchHtml}
+${papersHtml}
 <div class="attach-cta">
 <h2 class="attach-cta-h">📎 Full digest attached as PDF</h2>
-<p class="attach-cta-p">All ${totalNewsletters} newsletter summaries with priority colors and full content are in the attached PDF. Opens in any PDF viewer.</p>
+<p class="attach-cta-p">All ${totalNewsletters} newsletter summaries, daily overview by category, and complete papers list are in the attached PDF. Includes cover page, table of contents, page numbers.</p>
 <div class="attach-cta-file">digest-${dateParam}.pdf</div>
 </div>
 </div>
@@ -343,13 +488,20 @@ ${researchHtml}
   }
 
   /**
-   * Generate HTML email — class-based, compact, full content (no truncation)
+   * Generate the FULL digest HTML — used as the source for the PDF attachment.
+   * Includes a cover page, table of contents, daily overview, research
+   * findings, ALL newsletter cards (priority-grouped), and a complete
+   * Papers section. Designed to look polished as a saved/printed PDF.
    */
-  generateHtmlEmail(summary, newsletters, totalNewsletters, dateString, dateParam, tldr, researchFindings) {
+  generateHtmlEmail(summary, newsletters, totalNewsletters, dateString, dateParam, tldr, researchFindings, allPapers = []) {
     const priorityOrder = { HIGH: 0, MEDIUM: 1, LOW: 2 };
     const sorted = [...newsletters].sort((a, b) =>
       (priorityOrder[a.priority] ?? 1) - (priorityOrder[b.priority] ?? 1)
     );
+
+    // Counts for cover page stats
+    const counts = { HIGH: 0, MEDIUM: 0, LOW: 0 };
+    for (const nl of newsletters) counts[nl.priority || 'MEDIUM']++;
 
     const priorityClass = { HIGH: 'card-high', MEDIUM: 'card-med', LOW: 'card-low' };
     const priorityLabel = { HIGH: '🔴 HIGH', MEDIUM: '🟡 MED', LOW: '⚪ LOW' };
@@ -360,10 +512,11 @@ ${researchHtml}
         <ul class="tldr-ul">${tldr.map(b => `<li class="tldr-li">${escapeHtml(b)}</li>`).join('')}</ul>
       </div>` : '';
 
-    const newsletterCards = sorted.map(nl => {
+    const newsletterCards = sorted.map((nl, i) => {
       const cls = priorityClass[nl.priority] || 'card-med';
       const label = priorityLabel[nl.priority] || '🟡 MED';
       const summaryHtml = markdownToEmailHtml(nl.summary);
+      const cardId = `nl-${i}`;
 
       const linksHtml = nl.links && nl.links.length > 0 ? `
         <div class="links-sec">
@@ -376,7 +529,7 @@ ${researchHtml}
         </div>` : '';
 
       return `
-        <div class="card ${cls}">
+        <div class="card ${cls}" id="${cardId}">
           <span class="card-prio">${label}</span>
           <h3 class="card-title">${escapeHtml(nl.subject)}</h3>
           <p class="card-from">From: ${escapeHtml(nl.from)}</p>
@@ -386,7 +539,7 @@ ${researchHtml}
     }).join('');
 
     const researchHtml = researchFindings?.missingStories?.length > 0 ? `
-      <div class="research">
+      <section id="beyond" class="research">
         <h2 class="research-h">🔍 Beyond the Newsletters</h2>
         <p class="research-sub">Stories our research agent found that weren't in today's newsletters:</p>
         ${researchFindings.missingStories.map(story => `
@@ -395,7 +548,58 @@ ${researchHtml}
             <p class="research-sum">${escapeHtml(story.summary)}</p>
             <p class="research-why">Why it matters: ${escapeHtml(story.whyItMatters)}</p>
           </div>`).join('')}
-      </div>` : '';
+      </section>` : '';
+
+    const papersSectionHtml = allPapers.length > 0 ? `
+      <section id="papers" class="papers-full">
+        <h2 class="papers-full-h">📄 Papers Referenced Today</h2>
+        <p class="papers-full-sub">${allPapers.length} unique paper${allPapers.length !== 1 ? 's' : ''} cited across today's newsletters.</p>
+        <ol class="papers-full-list">${allPapers.map(p => `
+          <li class="papers-full-li">
+            <a href="${escapeHtml(p.url)}" class="papers-full-link">${escapeHtml(p.title || p.url)}</a>
+            <div class="papers-full-meta">${escapeHtml(p.url)}</div>
+          </li>`).join('')}</ol>
+      </section>` : '';
+
+    // Cover page (PDF only — hidden in email body via CSS, but email uses
+    // generateEmailBody for the inline body so it's fine to include here)
+    const coverHtml = `
+      <section class="cover">
+        <div class="cover-tag">DAILY DIGEST</div>
+        <h1 class="cover-title">📰 AI Newsletter Digest</h1>
+        <div class="cover-date">${dateString}</div>
+        <div class="cover-stats">
+          <div class="stat"><span class="stat-num">${totalNewsletters}</span><span class="stat-label">Newsletters</span></div>
+          <div class="stat"><span class="stat-num stat-high">${counts.HIGH}</span><span class="stat-label">High Priority</span></div>
+          <div class="stat"><span class="stat-num">${allPapers.length}</span><span class="stat-label">Papers</span></div>
+          <div class="stat"><span class="stat-num">${researchFindings?.missingStories?.length || 0}</span><span class="stat-label">Beyond</span></div>
+        </div>
+        ${tldr && tldr.length > 0 ? `
+          <div class="cover-tldr">
+            <div class="cover-tldr-h">TL;DR</div>
+            <ul class="cover-tldr-list">${tldr.map(b => `<li>${escapeHtml(b)}</li>`).join('')}</ul>
+          </div>` : ''}
+      </section>`;
+
+    // Table of contents
+    const tocItems = [
+      `<li><a href="#overview">📊 Daily Overview</a></li>`,
+      researchFindings?.missingStories?.length > 0 ? `<li><a href="#beyond">🔍 Beyond the Newsletters</a></li>` : '',
+      allPapers.length > 0 ? `<li><a href="#papers">📄 Papers Referenced Today</a></li>` : '',
+      `<li><a href="#summaries">📧 Individual Summaries (${totalNewsletters})</a>
+        <ul class="toc-sub">
+          ${counts.HIGH > 0 ? `<li>🔴 HIGH (${counts.HIGH})</li>` : ''}
+          ${counts.MEDIUM > 0 ? `<li>🟡 MED (${counts.MEDIUM})</li>` : ''}
+          ${counts.LOW > 0 ? `<li>⚪ LOW (${counts.LOW})</li>` : ''}
+        </ul>
+      </li>`
+    ].filter(Boolean).join('\n');
+
+    const tocHtml = `
+      <section class="toc">
+        <h2 class="toc-h">Contents</h2>
+        <ol class="toc-list">${tocItems}</ol>
+      </section>`;
 
     return `<!DOCTYPE html>
 <html>
@@ -407,20 +611,19 @@ ${researchHtml}
 <body>
 <div class="wrap">
 <div class="main">
-<div class="hdr">
-<h1 class="hdr-h1">📰 AI Newsletter Digest</h1>
-<p class="hdr-date">${dateString}</p>
-<p class="hdr-count">${totalNewsletters} Newsletter${totalNewsletters !== 1 ? 's' : ''} Summarized</p>
-</div>
+${coverHtml}
+${tocHtml}
 <div class="content">
-${tldrHtml}
-<div class="overview">
+<section id="overview" class="overview">
 <h2 class="overview-h">📊 Daily Overview</h2>
 <div>${markdownToEmailHtml(summary)}</div>
-</div>
+</section>
 ${researchHtml}
+${papersSectionHtml}
+<section id="summaries">
 <h2 class="sec-h">📧 Individual Summaries</h2>
 ${newsletterCards}
+</section>
 </div>
 <div class="footer">
 <p class="footer-sub">Generated with AI • Delivered at midnight IST</p>
