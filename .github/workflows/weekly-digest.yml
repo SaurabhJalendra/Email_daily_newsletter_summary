@@ -9,6 +9,7 @@ on:
 permissions:
   contents: write
   id-token: write  # Required by anthropics/claude-code-action for OIDC auth
+  issues: write    # Required for QA agent to file issues on findings
 
 # Serialize all wiki-writing workflows to avoid merge conflicts
 concurrency:
@@ -295,6 +296,7 @@ jobs:
 
       - name: Open GitHub issue if problems found
         if: steps.qa.outputs.overall != 'PASS' && steps.qa.outputs.overall != 'UNKNOWN'
+        continue-on-error: true   # Don't let issue-filing failure block email send
         run: |
           SUMMARY=$(jq -r '.summary // "Weekly digest QA found issues"' /tmp/qa-report.json)
           BODY=$(jq -r '.issues[] | "**[" + .severity + "][" + .category + "]** " + .description + "\n_Recommendation:_ " + .recommendation + "\n"' /tmp/qa-report.json)

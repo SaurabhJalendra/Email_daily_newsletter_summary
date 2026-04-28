@@ -11,6 +11,7 @@ on:
 permissions:
   contents: write
   id-token: write  # Required by anthropics/claude-code-action for OIDC auth
+  issues: write    # Required for QA agent to file issues on findings
 
 # Serialize all wiki-writing workflows to avoid merge conflicts
 concurrency:
@@ -215,6 +216,7 @@ jobs:
 
       - name: File issue on QA findings
         if: always() && steps.qa_prep.outputs.skip != 'true'
+        continue-on-error: true   # Don't let issue-filing failure cascade
         run: |
           if [ ! -f /tmp/qa/qa-report.json ]; then
             echo "No QA report written — skipping issue filing"
