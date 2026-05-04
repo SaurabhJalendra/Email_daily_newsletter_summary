@@ -1,0 +1,765 @@
+{
+  "date": "2026-05-04T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Tuesday, 5 May 2026\n\n## 🔥 Top Stories\n1. **Anthropic's Claude Model Demonstrates Significant Improvements in Reasoning and Coding Tasks** — This matters because Claude's advancements have the potential to drive industry shifts in software engineering and enterprise AI adoption, making it a crucial development in the AI landscape.\n2. **Google Partners with US Military to Supply Gemini AI Models for Classified Government Use** — This matters because the partnership highlights the growing involvement of AI companies in national security and defense, raising important questions about the ethics and implications of AI in military contexts.\n3. **OpenAI Updates Codex with Animated Pets and Config Imports** — This matters because the updates enhance the usability and appeal of Codex, providing a valuable tool for entrepreneurs and developers to pressure-test startup ideas, map competitors, and scope MVPs.\n4. **Anthropic Refuses US Government Agreement Due to Supply-Chain Risk Concerns** — This matters because Anthropic's decision earns respect from AI ethicists and highlights the company's commitment to AI safety, while also underscoring the complexities of AI governance and the need for careful consideration of AI development and deployment.\n5. **xAI Releases Grok 4.3, a New Reasoning Model with Always-On Reasoning at a Lower Cost** — This matters because Grok 4.3 offers a cost-effective alternative to other AI models, making it an attractive option for businesses and individuals looking to leverage AI for various applications.\n\n## 🤖 AI Models & Research\n- Claude Mythos Preview, a next-generation model, has been shared with select companies for vulnerability testing and preparedness, demonstrating remarkable capabilities in identifying vulnerabilities and generating exploits.\n- Gemini, Google's family of advanced multimodal AI models, has been updated with new features and capabilities, including Gemini 3.1 Pro and Gemini 3 Deep Think, offering state-of-the-art reasoning and multimodal capabilities.\n- ChatGPT, OpenAI's generative AI chatbot, has reached over 100 million monthly users and has the potential to add up to $4.4 trillion annually to the global economy, but faces challenges like benchmark slippage and ethical concerns.\n\n## 🛠️ Tools & Products\n- Claude Security, an AI vulnerability scanner for enterprise teams, has been launched by Anthropic, utilizing Opus 4.7 to identify and patch vulnerabilities in enterprise code.\n- xAI's Grok 4.3 model provides always-on reasoning at a lower cost, with a reasoning-first engine and a large 1M token context window, making it significantly cheaper than Claude Opus or GPT-5.5.\n- Cursor's SDK treats the agent harness as the actual product, emphasizing the value of the tools, prompts, and edit logic surrounding the model over the model itself, demonstrating significant improvements in reducing tool call errors and enhancing user experience.\n\n## 📰 Industry News\n- The US military has signed agreements with seven major AI and tech companies, including OpenAI, Google, Microsoft, AWS, Nvidia, SpaceX, and Reflection, to integrate AI into classified systems for decision support, logistics, analysis, and other government uses.\n- Anthropic is nearing a $1.5 billion joint venture with Wall Street firms to create a company that helps teach businesses how to incorporate AI across their operations, further solidifying its position in the enterprise AI market.\n- Replit's CEO has signaled the company's intention to remain independent despite industry consolidation, highlighting Replit's rapid growth, strong unit economics, and high customer expansion, as well as its focus on end-to-end AI app-building tools.",
+  "totalNewsletters": 28,
+  "newsletters": [
+    {
+      "from": "\"God of Prompt\" <godofprompt@mail.beehiiv.com>",
+      "subject": "🔑 Your AI Keeps Forgetting You.",
+      "date": "2026-05-03T18:35:31.000Z",
+      "summary": "## God of Prompt\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The newsletter discusses a common issue with AI tools where they \"forget\" the user's context and previous conversations, requiring users to re-explain themselves every time. It introduces the concept of context engineering and agentic memory to solve this problem.\n- Robert from God of Prompt shares three fixes to improve AI memory: (1) creating a permanent identity file for the AI to understand the user's context, (2) structuring prompts in three layers (who you are, what the session is about, and the specific task), and (3) ending every session with a memory summary to carry over context to the next session.\n- The newsletter announces Robert's participation in the AI Skills Virtual Conference on May 14, where he will discuss context engineering and agentic memory in more depth. Other speakers include representatives from DeepMind, AWS, Spotify, Google, Meta, AMD, Samsung, Bolt, SAP, Scale AI, Elastic, and more.\n- The Complete AI Bundle is available at a discounted price of $150 (originally $299), which unlocks all products, cheatsheets, and future drops. A 30% discount code (AI_SKILLS_GOP30) is also provided for purchases made in May.\n- The God of Prompt shop is back online, offering various products and resources for AI practitioners.\n\n### Notable Links\n- [AI Skills Virtual Conference](https://conf.cosprints.ai)\n- [God of Prompt shop](https://godofprompt.ai/products)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🔑 Your AI Keeps Forgetting You.\n\nThe setup that fixes it. Plus we're going deeper on it live! Save the date 📆  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 03, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.akmomNMYXWQq0kb507bPJvyYM6kFYLIVnAtd2VnUUhrYi6Gtgd3S08d3xuYbnVS_ID6bY9lKYhxProJbldtcolnkinehx-QAG5xShHQ6Fs8afEIPQaxfi4dTpxEAy-HHRQ7gPmxHYaxhtD2oxCISL3KN4aBtvHKC2sb9RfpGiRoUhiPs87U1FrPfM6t7V_5r_Gvm8NbfhYHCirPEvqG7et41W8lJeEHACAERmxIuFLreUrNEoWxPr63jOYZjn5w-4qEzpnBS4ZjEdleAKG5D0e3mg0iUR8c_57hUAiipapmmO4Qo2UXIKazNnuDlKAI0TTSjGrNTgVuvnxCyxXRN-0xRBLk4onAprjaxJHGcez-awrx30AEadL-cQP5jB8RoOq88x76BpPnnlCBaPNV63QL4ilSGy"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "The Claude Code system that replaces a 5-person team",
+      "date": "2026-05-03T18:32:35.000Z",
+      "summary": "## The AI Corner\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The Claude Code system, a set of 8 named workflows, has been introduced to replace a 5-person team, leveraging the latest Claude Code feature set, including Skills as unified extensibility, MCP Tool Search, subagent context forking, and Agent Teams with peer-to-peer messaging.\n* These workflows, which include The Morning Briefing System, The Parallel Feature Factory, The Autonomous Deployment Loop, and The 5-Person Team Replacement Stack, among others, can be set up once and run for years, automating tasks and improving productivity.\n* The total cost to run all 8 workflows simultaneously is estimated to be around $200 to $500 per month, providing a significant cost savings compared to hiring a team of 5 full-time employees at approximately $1.5M per year.\n* The Claude Code system is built on top of the Claude language model, developed by Anthropic, which has made significant advancements in recent months, including the launch of Claude Sonnet 4.5, Claude Opus 4.1, and Claude Haiku 4.5, and the introduction of parallel tool use, extended thinking, and autonomous operation for up to seven hours.\n* The system also includes features such as cost optimization, self-correcting workflows, and remote control, making it a powerful tool for businesses and individuals looking to streamline their operations and improve efficiency.\n\n### Notable Links\n* Subscribe to The AI Corner: [link]\n* The Claude Code system: https://substack.com/app-link/post?publication_id=6850544&post_id=196337593&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjMzNzU5MywiaWF0IjoxNzc3ODMzMzY0LCJleHAiOjE3ODA0MjUzNjQsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.qPBSR4hXdbxA8XBlCJ8wjI2Q7cJpQxj6vNSOYVS-NBo\n* Ruben Dominguez: https://substack.com/@rubendominguez\n* READ IN APP: https://open.substack.com/pub/theaicorner1/p/the-claude-code-system-that-replaces?redirect=app-store\n* Start your free 7-day trial: [link]\n* Upgrade to paid: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRnRoZS1jbGF1ZGUtY29kZS1zeXN0ZW0tdGhhdC1yZXBsYWNlcyIsInAiOjE5NjMzNzU5MywicyI6Njg1MDU0NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3Nzc4MzMzNjQsImV4cCI6MjA5MzQwOTM2NCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.0StqkowBcq4wpM304S99PCIWsE1EJuc78D_ozRE2vVc?"
+        },
+        {
+          "text": "The Claude Code system that replaces a 5-person team",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=196337593&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjMzNzU5MywiaWF0IjoxNzc3ODMzMzY0LCJleHAiOjE3ODA0MjUzNjQsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.qPBSR4hXdbxA8XBlCJ8wjI2Q7cJpQxj6vNSOYVS-NBo"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/the-claude-code-system-that-replaces?redirect=app-store"
+        },
+        {
+          "text": "Start your free 7-day trial",
+          "url": "https://substack.com/redirect/58fd697b-f67b-42ef-9f71-fa9506dc6960?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy50aGUtYWktY29ybmVyLmNvbSUyRnAlMkZ0aGUtY2xhdWRlLWNvZGUtc3lzdGVtLXRoYXQtcmVwbGFjZXMmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjM056Z3pNek0yTkN3aVpYaHdJam94Tnpnd05ESTFNelkwTENKcGMzTWlPaUp3ZFdJdE5qZzFNRFUwTkNJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLldVNlhzVnBKOWpfQ2c3Z2J1b3lMaFV0MW5LRWxhSWxMbVYxa0M2OENTWDgiLCJwIjoxOTYzMzc1OTMsInMiOjY4NTA1NDQsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc3ODMzMzY0LCJleHAiOjIwOTM0MDkzNjQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.t76HSCeRh-ih9zK8f-NXeIzQtSf3li4pjYavKnv6_nw?simple=true&next=https%3A%2F%2Fwww.the-ai-corner.com%2Fp%2Fthe-claude-code-system-that-replaces"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=196337593&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjMzNzU5MywicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3Nzc4MzMzNjQsImV4cCI6MTc4MDQyNTM2NCwiaXNzIjoicHViLTY4NTA1NDQiLCJzdWIiOiJyZWFjdGlvbiJ9.Lj1Bl4DJl1wS_I6fMerp5tUDNcZEujSMsYElP5pLE0Y&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=196337593&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjMzNzU5MywiaWF0IjoxNzc3ODMzMzY0LCJleHAiOjE3ODA0MjUzNjQsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.qPBSR4hXdbxA8XBlCJ8wjI2Q7cJpQxj6vNSOYVS-NBo&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvdGhlYWljb3JuZXIxL3AvdGhlLWNsYXVkZS1jb2RlLXN5c3RlbS10aGF0LXJlcGxhY2VzP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtcmVzdGFjay1jb21tZW50JmFjdGlvbj1yZXN0YWNrLWNvbW1lbnQmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0luQnZjM1JmYVdRaU9qRTVOak16TnpVNU15d2lhV0YwSWpveE56YzNPRE16TXpZMExDSmxlSEFpT2pFM09EQTBNalV6TmpRc0ltbHpjeUk2SW5CMVlpMDJPRFV3TlRRMElpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LnFQQlNSNGhYZGJ4QThYQmxDSjh3akkyUTdjSnBReGo2dk5TT1lWUy1OQm8iLCJwIjoxOTYzMzc1OTMsInMiOjY4NTA1NDQsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc3ODMzMzY0LCJleHAiOjIwOTM0MDkzNjQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.8_hVatBDho5TFLHqCXpQwpboC183xxdOej4zzcB7rwY"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The Claude Code system that replaces a 5-person team![](https://eotrx.substackcdn.com/o/0df1b48465d73b40/p.gif?token=eyJtIjoiPDIwMjYwNTAzMTgzMjM1LjMuOTIyNTA4MzBhMzdhNzA3MEBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5NjMzNzU5MywidCI6Im5ld3NsZXR0ZXIiLCJhIjoib25seV9wYWlkIiwicyI6Njg1MDU0NCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3NzgzMzM2NCwiZXhwIjoxNzgwNDI1MzY0LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.ZgekCM0JW5UfwlmK8yosw4pdgMdQOyJfEYBifL7l5XQ)\n\nStop chasing hacks. Start stacking them. 8 named workflows that build, ship, deploy, and self-correct without you in the loop.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 What You Missed in AI This Week",
+      "date": "2026-05-03T19:54:42.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI Academy launched free AI courses covering ChatGPT, small business workflows, and education, marking a significant step in democratizing access to AI knowledge and skills.\n* Gemini introduced file generation in its chat interface, allowing users to create PDFs, Word documents, Excel sheets, or Google Docs/Sheets/Slides exports directly from prompts, a feature that streamlines content creation and enhances user productivity.\n* Google accidentally leaked its AI assistant, COSMO, which was briefly available on the Play Store before being pulled, indicating the pace of AI development and potential security implications.\n* ElevenLabs released 50+ agent templates for support, sales, and operations, providing predefined prompts, workflows, and integrations that can be readily adopted by businesses to enhance their customer service and operational efficiency.\n* A pen that turns paper into searchable text, called Nuwa Pen, was introduced, blending traditional writing with digital capabilities and illustrating the convergence of physical and digital technologies.\n* Various AI tools were highlighted, including Lindy for iMessage, VideoLearningAI for training videos, Komos for workflow automation, Honen for course creation, MindMapWizard for mind mapping, Photoshot for avatar generation, Workbookly for converting videos into interactive workbooks, Tenki for market predictions, and Sumoclip for video editing, demonstrating the diversity and versatility of AI applications.\n* Slackbot, an AI-powered assistant, was showcased for its ability to understand conversations, files, and workflows, offering automated tasks and content drafting directly within Slack, enhancing team collaboration and productivity.\n* A 5-day vibe coding course from Google was announced, aiming to teach coding skills in an engaging and accessible manner, further bridging the gap between technology and education.\n\n### Notable Links\n* [Claude Code](https://claudeforchicago.org/) - A coding model by Anthropic, highlighting its capability in software development.\n* [Gemini](https://gemini.ai/) - Google's advanced multimodal AI model, showcasing its prowess in reasoning, coding, and handling multimedia content.\n* [ChatGPT](https://chat.openai.com/) - OpenAI's generative AI chatbot, known for its transformative potential in industries.\n* [Nuwa Pen](https://npuwa.com/) - A smart pen that digitizes handwritten notes, symbolizing innovation in note-taking technology.\n* [Slackbot](https://slack.com/slackbot) - Slack's AI assistant, designed to enhance team productivity and workflow automation.",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🦾 What You Missed in AI This Week\n\nThe tools, launches, stories, and breakthroughs worth your time  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 03, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k07T9kHHqQRfSUww_pf7utZBc-2-Vf-bcav5kZECI2U1Gfnf1OHwJRSdgDt-MWqj7olfADbqAB1ruAM0cGoDXeWmMKpl2HbKvOfSQB33yef8n9VwYxzV9iGLdSU3jNzfp4EumNOzDKOc2rfuuf62TOvNEJNTBsyu-Fx6DYjuTTn0XyYeIBn6cVvMmVQ-4eUlAqW8CTSH4EnMZ8VB2Ugz5MWM4qbV5Uvpe_0c1dEtFMftzLVP6bKDYLslrftgVXTHWpbwVsvXLkmNF5n36sNDw6sfDT99jmrzCS1M4BUVZZEBlUfyVBPnw-JZ-H0C-JGVFbwqLSC5XZ3fkwKFp6Tn9nxUzEqoizRjIwxdXKAQSKG"
+    },
+    {
+      "from": "\"Devansh from Artificial Intelligence Made Simple\" <artificialintelligencemadesimple@substack.com>",
+      "subject": "ChatGPT vs Gemini vs Claude: The Best LLM Subscription You Should Buy (2026 Edition)",
+      "date": "2026-05-03T23:19:10.000Z",
+      "summary": "## Artificial Intelligence Made Simple\n\n**Priority: HIGH**\n\n### Top Updates\n* The newsletter compares the major AI subscriptions ChatGPT, Gemini, and Claude, evaluating which one is worth paying for in 2026, considering factors such as workflow coverage, memory and state, instruction stability, judgment and taste, research quality, coding and agentic execution, output quality, economics and billing trust, product friction, and ecosystem compatibility.\n* The author mentions that the major AI subscriptions are no longer just chatbots but have evolved into memory systems, research tools, coding agents, file processors, image generators, project workspaces, and billing systems, requiring a more comprehensive evaluation.\n* The comparison is limited to Gemini, OpenAI, and Anthropic due to their superior performance, reliability, and paperwork requirements, with the author planning to review them based on the mentioned factors.\n* Anthropic, the company behind Claude, has received significant investments, including up to $40 billion from Google and up to $25 billion from Amazon, to support the development of its models and infrastructure, solidifying its position as a major player in the AI industry.\n* Claude has demonstrated significant improvements in reasoning and coding tasks, achieving a 60% reduction in hallucinations compared to competitors, and has been integrated with various tools and platforms, such as Microsoft 365 Copilot and Salesforce.\n* ChatGPT, developed by OpenAI, has reached over 100 million monthly users and has been estimated to add up to $4.4 trillion annually to the global economy, but faces challenges such as benchmark slippage and ethical concerns.\n* Gemini, Google's family of advanced multimodal AI models, has been updated with new features and capabilities, including state-of-the-art reasoning for complex projects and higher limits for Google AI Pro and Ultra subscribers.\n* Google has expanded its AI capabilities, including the global rollout of Search Live, introduction of Canvas in AI Mode, and rollout of Personal Intelligence across Search, Chrome, and the Gemini app, making AI more contextual and proactive in daily tasks.\n\n### Notable Links\n* [ChatGPT vs Gemini vs Claude: The Best LLM Subscription You Should Buy (2026 Edition)](https://substack.com/app-link/post?publication_id=1315074&post_id=196285777&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjI4NTc3NywiaWF0IjoxNzc3ODUwNDc5LCJleHAiOjE3ODA0NDI0NzksImlzcyI6InB1Yi0xMzE1MDc0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.NG96ri6Nnovk1SolmOhc50Sig87F0lmitjud3Xz_Flc)\n* Subscribe to Artificial Intelligence Made Simple",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYXJ0aWZpY2lhbGludGVsbGlnZW5jZW1hZGVzaW1wbGUuY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5hcnRpZmljaWFsaW50ZWxsaWdlbmNlbWFkZXNpbXBsZS5jb20lMkZwJTJGY2hhdGdwdC12cy1nZW1pbmktdnMtY2xhdWRlLXRoZS1iZXN0LTI5NSIsInAiOjE5NjI4NTc3NywicyI6MTMxNTA3NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3Nzc4NTA0NzksImV4cCI6MjA5MzQyNjQ3OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.Gh_Gpx9w5g6q9HJoLEnVgE-MbistUqSyYBip9c1EVNw?"
+        },
+        {
+          "text": "ChatGPT vs Gemini vs Claude: The Best LLM Subscription You Should Buy (2026 Edition)",
+          "url": "https://substack.com/app-link/post?publication_id=1315074&post_id=196285777&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjI4NTc3NywiaWF0IjoxNzc3ODUwNDc5LCJleHAiOjE3ODA0NDI0NzksImlzcyI6InB1Yi0xMzE1MDc0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.NG96ri6Nnovk1SolmOhc50Sig87F0lmitjud3Xz_Flc"
+        },
+        {
+          "text": "Devansh",
+          "url": "https://substack.com/@chocolatemilkcultleader"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/artificialintelligencemadesimple/p/chatgpt-vs-gemini-vs-claude-the-best-295?redirect=app-store"
+        },
+        {
+          "text": "If you’d like to meet other members of our community, please fill out this contact form here (",
+          "url": "https://substack.com/redirect/1a039b10-de7f-4d6b-8cf9-832c53330d81?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "https://forms.gle/Pi1pGLuS1FmzXoLr6",
+          "url": "https://substack.com/redirect/c5f017a8-d831-484d-9818-7cf568d131f8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYXJ0aWZpY2lhbGludGVsbGlnZW5jZW1hZGVzaW1wbGUuY29tL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QmdXRtX2NhbXBhaWduPWVtYWlsLWNoZWNrb3V0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cuYXJ0aWZpY2lhbGludGVsbGlnZW5jZW1hZGVzaW1wbGUuY29tJTJGcCUyRmNoYXRncHQtdnMtZ2VtaW5pLXZzLWNsYXVkZS10aGUtYmVzdC0yOTUmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjM056ZzFNRFEzT1N3aVpYaHdJam94Tnpnd05EUXlORGM1TENKcGMzTWlPaUp3ZFdJdE1UTXhOVEEzTkNJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLkRCQ19zZVBnVlE0Q0hKbkRuZ3hzbnZNVXhNVXAwUjVDNHNVbW8yZlJZMU0iLCJwIjoxOTYyODU3NzcsInMiOjEzMTUwNzQsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc3ODUwNDc5LCJleHAiOjIwOTM0MjY0NzksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.3do5pDxObd7fiBUgR0S3pogJKQO2G9OSKGecDWKuWIc"
+        },
+        {
+          "text": "pay what matches your budget here",
+          "url": "https://substack.com/redirect/74984700-eb5b-4a70-af8a-7c35f147dbad?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "You can expense this subscription using the email template linked here",
+          "url": "https://substack.com/redirect/0324e0b3-0aa8-4c7f-be91-37bd77bb63b2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Claim my free post",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYXJ0aWZpY2lhbGludGVsbGlnZW5jZW1hZGVzaW1wbGUuY29tL3AvY2hhdGdwdC12cy1nZW1pbmktdnMtY2xhdWRlLXRoZS1iZXN0LTI5NT91dG1fY2FtcGFpZ249ZW1haWwtcG9zdCZyPTQ5YnkzNCZ0b2tlbj1leUoxYzJWeVgybGtJam95TlRjMU16ZzJOREFzSW5CdmMzUmZhV1FpT2pFNU5qSTROVGMzTnl3aWFXRjBJam94TnpjM09EVXdORGM1TENKbGVIQWlPakUzT0RBME5ESTBOemtzSW1semN5STZJbkIxWWkweE16RTFNRGMwSWl3aWMzVmlJam9pY0c5emRDMXlaV0ZqZEdsdmJpSjkuTkc5NnJpNk5ub3ZrMVNvbG1PaGM1MFNpZzg3RjBsbWl0anVkM1h6X0ZsYyIsInAiOjE5NjI4NTc3NywicyI6MTMxNTA3NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3Nzc4NTA0NzksImV4cCI6MjA5MzQyNjQ3OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.pBUXQvsXMPtbO7GgTl1ywH0IqQPW6Jf607m7X0yZ4Ss?&launch_post_unlock_offer=true"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "ChatGPT vs Gemini vs Claude: The Best LLM Subscription You Should Buy (2026 Edition) ![](https://eotrx.substackcdn.com/o/3e0ce97cee916b11/p.gif?token=eyJtIjoiPDIwMjYwNTAzMjMxOTEwLjMuM2JmOGQ3MzFhMzc3YzM4ZkBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxOTYyODU3NzcsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjEzMTUwNzQsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3Nzc4NTA0NzksImV4cCI6MTc4MDQ0MjQ3OSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.6iGEsvbh86YglnMHYf6Ne37JeYBG6GZ0iBRoaoPdSz0)\n\nIn a World with Claude Code, OpenClaw, and a hundred spinoffs, which AI Subscription Is Worth Paying For in 2026 ?\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"DayTrading Dispatch\" <daytrading@mail.beehiiv.com>",
+      "subject": "Powell's Long Goodbye 🏛️",
+      "date": "2026-05-04T02:40:42.000Z",
+      "summary": "## DayTrading Dispatch\n**Priority: MEDIUM**\n\n### Top Updates\n- **Jerome Powell's Departure**: Jerome Powell announced he will step down as Federal Reserve chair on May 15, but will remain on the Board of Governors, potentially influencing the Federal Reserve's policy decisions and creating a more public contest with the new chair, Kevin Warsh.\n- **Google's Investment in Anthropic**: Google has invested up to $40 billion in Anthropic, a company developing AI safety-focused models, including Claude, a large language model competing with OpenAI's GPT series, demonstrating Google's commitment to advancing AI technology and infrastructure.\n- **Apple's Record Q2 Results**: Apple reported record Q2 results with revenue up 17% to $111.2 billion, driven by a 22% increase in iPhone revenue, and authorized an additional $100 billion in stock buybacks, showcasing the company's strong performance and commitment to returning value to shareholders.\n- **Berkshire Hathaway's Record Cash Pile**: Berkshire Hathaway's cash pile reached a record $397 billion in Q1, up from $373 billion at year-end 2025, with operating earnings rising 18% to $11.35 billion, indicating the company's strong financial position and ability to invest in new opportunities.\n- **OPEC+ Oil Output Increase**: Seven OPEC+ countries agreed to raise oil output by about 188,000 barrels per day in June, despite the ongoing Strait of Hormuz blockade, which may impact global oil prices and inflation.\n- **Exxon and Chevron's Q1 Results**: Exxon and Chevron reported sharp profit declines due to Iran-war hedging losses, with Exxon's net income falling 45% and Chevron taking a $2.9 billion hedge charge, highlighting the challenges faced by the energy sector.\n- **Gold and Silver Prices**: Gold steadied above $4,600 an ounce, while silver pushed above $74, driven by central-bank buying, Iran-war hedging demand, and persistent inflation, making precious metals an attractive investment option.\n- **Upcoming Earnings**: Palantir, AMD, Disney, and Uber are scheduled to report their earnings, which may provide insights into the performance of the tech and media industries.\n\n### Notable Links\n- Jerome Powell's statement on his departure\n- Google's investment in Anthropic",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Powell's Long Goodbye 🏛️\n\nPLUS: Google bets up to $40B on Anthropic, consumer sentiment hits record low, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 03, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/JLrlhyrou7nl4HnPLwqRrVunLL9rhQYB5zxdcY5d7NW4p6CGsFdpEC7OXfMp%0AI7lvceysPhcRs9F7uVKFDsou9w66XN8md3El2Hwf7NZnPReIjlvve1dYCSsQ%0AieRe%2FgofgyU%2BerxFQH0xFe3DhArRHj8%2F5QRAz%2FxtjDd1J7dEwjYDRNckHHE%2F%0AlUzAZfqS9AgC9lOmFo0YyOWxhOn%2BfRnH6Q%3D%3D%0A/e38a2c8f60394762)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e15ff2bf-557f-4e79-bf71-b0f26"
+    },
+    {
+      "from": "\"Abhijay from Abhijay’s AI Action Letter\" <abhijayvuyyuru@substack.com>",
+      "subject": "This AI Program pays $220K as Base Salary!",
+      "date": "2026-05-04T03:00:12.000Z",
+      "summary": "## AI Action Letter\n\n**Priority: HIGH**\n\n### Top Updates\n* The Perplexity AI Research Residency program is open for applications, offering a $220K annualized salary for a three-month full-time position in San Francisco or Palo Alto.\n* The program is designed for individuals from diverse backgrounds, including those without a traditional CS degree, such as physicists, quants, cognitive scientists, and mathematicians.\n* The residency focuses on research and development in AI, with a emphasis on making search reliable and building agentic systems for information work.\n* Applicants are encouraged to apply even if they don't have a CS degree, as the program values unique perspectives and skills from other fields.\n* The application process involves a cover letter, a separate research statement, and a series of interviews, including a recruiter screen, technical assessment, research discussion, collaborative problem-solving, and cultural fit.\n* The cover letter should highlight the applicant's transferable skills, research experience, and interests, and demonstrate how their background adds value to the Perplexity mission.\n* The research statement should outline a specific open problem, explain why it matters, and sketch a potential investigation approach.\n* The interview process assesses technical skills, research experience, and fit with the Perplexity culture and mission.\n* Preparation tips for the interview include studying transformers, embeddings, RAG systems, and agentic systems, as well as reading research papers from Perplexity and practicing coding and problem-solving.\n\n### Notable Links\n* [Perplexity AI Research Residency](https://perplexity.ai/hub/ai-research-residency)\n* [Abhijay Arora Vuyyuru](https://substack.com/@abhijayaroravuyyuru)\n* Book your free consultation\n* Pledge your support",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGYWJoaWpheXZ1eXl1cnUuc3Vic3RhY2suY29tJTJGcCUyRnRoaXMtYWktcHJvZ3JhbS1wYXlzLTIyMGstYXMtYmFzZSIsInAiOjE5NjM3NzQyMCwicyI6NTg4Mjg4MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3Nzc4NjM2MzEsImV4cCI6MjA5MzQzOTYzMSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.t8ZrZKE58ukJnCMfK2yCugVtc1zWi7ZY3G1kWefZSks?"
+        },
+        {
+          "text": "This AI Program pays $220K as Base Salary!",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=196377420&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjM3NzQyMCwiaWF0IjoxNzc3ODYzNjMxLCJleHAiOjE3ODA0NTU2MzEsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.J6YEOgecTjWF5WOX61e6OWMH4XJTgFfLowBa8JnfTBA"
+        },
+        {
+          "text": "Abhijay Arora Vuyyuru",
+          "url": "https://substack.com/@abhijayaroravuyyuru"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/abhijayvuyyuru/p/this-ai-program-pays-220k-as-base?redirect=app-store"
+        },
+        {
+          "text": "Pledge your support",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRmFiaGlqYXl2dXl5dXJ1LnN1YnN0YWNrLmNvbSUyRnAlMkZ0aGlzLWFpLXByb2dyYW0tcGF5cy0yMjBrLWFzLWJhc2Umcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjM056ZzJNell6TVN3aVpYaHdJam94Tnpnd05EVTFOak14TENKcGMzTWlPaUp3ZFdJdE5UZzRNamc0TXlJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLlE1VzltTGpXZThrNUQzSGM4WVplT1hGOGlOUmtEWlVmWVE1Qmg1V0ZVWkkiLCJwIjoxOTYzNzc0MjAsInMiOjU4ODI4ODMsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc3ODYzNjMxLCJleHAiOjIwOTM0Mzk2MzEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.Bjm2-cGzfic7xiO5jaebUJuqLh1BRxkRk0d9zxUfdTs"
+        },
+        {
+          "text": "Book your free consultation here",
+          "url": "https://substack.com/redirect/027ae655-daad-4122-bcf2-1f804c041e10?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "here",
+          "url": "https://substack.com/redirect/b795981b-9508-46ba-865e-6f5329b7e7d6?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=196377420&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjM3NzQyMCwiaWF0IjoxNzc3ODYzNjMxLCJleHAiOjE3ODA0NTU2MzEsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.J6YEOgecTjWF5WOX61e6OWMH4XJTgFfLowBa8JnfTBA"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=196377420&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjM3NzQyMCwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3Nzc4NjM2MzEsImV4cCI6MTc4MDQ1NTYzMSwiaXNzIjoicHViLTU4ODI4ODMiLCJzdWIiOiJyZWFjdGlvbiJ9.c4yfZrnUrBEt-zIqEF6bMu_zZQDTexP1URoB-Mi-UFs&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=196377420&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjM3NzQyMCwiaWF0IjoxNzc3ODYzNjMxLCJleHAiOjE3ODA0NTU2MzEsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.J6YEOgecTjWF5WOX61e6OWMH4XJTgFfLowBa8JnfTBA&r=49by34&action=post-comment"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "This AI Program pays $220K as Base Salary!![](https://eotrx.substackcdn.com/o/f5eebd666c35a1b4/p.gif?token=eyJtIjoiPDIwMjYwNTA0MDMwMDEyLjMuNWMyMjM0MjVmODJiYzNjZUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5NjM3NzQyMCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo1ODgyODgzLCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzc3ODYzNjMyLCJleHAiOjE3ODA0NTU2MzIsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.6V89uRz9ua3NLZxF0aisyxMBPiApraV1AXAN1kRnYCM)\n\nAI Action Letter #26: How to get into Perplexity's Residency Program as an AI engineer\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"💻 Hello, World!\" <newsletter@hw-mail.glich.co>",
+      "subject": "How Snowflake Improved Performance by 27% (Without Users Noticing)",
+      "date": "2026-05-04T04:30:27.000Z",
+      "summary": "## Hello World\n**Priority: MEDIUM**\n\n### Top Updates\n- Snowflake, a cloud data platform, improved its performance by 27% through continuous backend optimizations in ingestion, planning, and execution, resulting in faster queries and lower costs without requiring user changes. The improvement is tracked using the Snowflake Performance Index (SPI), which measures performance on real production workloads.\n- The SPI showed a 27% improvement since August 2022 and a 12% improvement in the last 12 months, with the improvements being experienced by real users on real workloads.\n- Snowflake improved performance without relying on manual tuning, configuration changes, or version upgrades, instead focusing on optimizing its core engine and releasing updates every week.\n- Key areas of improvement include faster data ingestion, better communication between nodes, smarter query optimization, improved query execution, better memory management, smarter query pruning with Top-K optimization, and enhancements to the Query Acceleration Service.\n- Snowflake's approach to optimization focuses on avoiding unnecessary work, making the system smarter internally, and measuring real workloads rather than synthetic benchmarks.\n- The improvements are a result of Snowflake's fully managed cloud architecture and consumption-based pricing model, which allows for continuous optimization without additional cost to users.\n- Other notable updates include the release of Claude, a family of large language models developed by Anthropic, which has been integrated with various platforms such as Microsoft 365 Copilot, Salesforce, and Google Vertex AI.\n- Claude has shown significant performance in coding, reasoning, and multimodal tasks, and has been adopted by various companies, including RBC Wealth Management.\n- Anthropic has also released Claude Mythos Preview, a next-generation model that has been shared with select companies for vulnerability testing and preparedness.\n\n### Notable Links\n- [Snowflake](https://www.snowflake.com/)\n- [Claude](https://www.anthropic.com/claude)\n- [Snowflake Performance Index (SPI)](https://www.snowflake.com/blog/snowflake-performance-index/)\n- [Claude Mythos Preview](https://www.anthropic.com/claude-mythos-preview)",
+      "links": [
+        {
+          "text": "Hello World",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTLedhx6dRnmvkZCOvN53kB6-mEyat_hNl049PoQu9Mxi8bxquiDNwmKXs_k2mgpWKWdeS0apKxPeXeP4HFTC7AAXDk44SyK1jwXtdvgEojwVi8IwL0wPHjR80SdMXOw77w2P28elLYWimtYVM2Gdgr9Pu2PD_3qqiEO_ZsJxxL57AiATF5CvfwOAh1WquHMX3JxRneaI7xfET_7gRIyVsjI-Rdxqi4MP4jkVwSham0EP-UIfb7DSi9EbHQeS-W_4RqgfLhoYjxaZ-SWLl3YuItMJk5Jo4LQp9rHOviSLekMKXnaIwIHL6YDEk3G9MTfc4lX_MnQh_j12S5ZFi5tjB4CqSj0m-5GrdUZb8ZXGk38n8HAyy1l4B96k4wmPyrqr6z0kyUEFfzCpU2KOTtwmZyWn0_v2p3NmAGbPoh3Ro8ayGYU_6Eys8FbMC0s8OqQzzh5uLXIkjKOmVmtsaZt7aj2mVm2FSXaA9ovn9cFpTwlfjimP1nWoAPVLCg45hbdO871ryzP88VnqyIzgLazyZb-tRdzSKLwTudcU6C0yeWSdPBgGOsF5uv0iA7nfMCRiQcDPlJ0Xpwyo8SFOmyTN6RQg9jNHp5OH0tWoRMLIAuZ-dLcilcButymD85jTK58lTGAeA1Mozt6zDGh8mnHZlzJEMPyblpasolSV1lofCLcPLXD5emkNqmIDkjTrYfESIGQACL2LwZydmKyWEf4_DSCfAB06l3YuVjQH5gO-13E6W0mOWdYsgg-Ls9gWtonhtqjtvFbDoEluJgPej2mW0ccuUH-6c1t73_88zzxOftOfxQYhFEqveraNlXEpXbaFrw/4qc/hbRaO5o_QsW4hWBlsgK24Q/h8/h001.eeErI8FQMpc1XHogcxhNBO02dsOq0TIMpiZx-nl7zUA"
+        },
+        {
+          "text": "How Nomad by HashiCorp Reduced Scheduler Load by 90%",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRneyG7KZ2wqVc0g44b1eUgBTGdqBFEGFlTXHNAZXipnDwgH1jId4XdWqNcA64hlhr3vVX_yhTsH0PeLqjtejqi00RNiFFLZHcmJrsRVdQiPdE-jvwffAqk0wV4RuRYAw6bU-k1b_H_BcbQDnLlCMSJ6gd75Bo_3_KuJ_uVauemho-pm2RF-vJiV_M8QUUQxd5ixg0AnKNx47oXv6JgxAE0WvCjr0PebAyvcNm1QvlGvvuV7QowYX6ZWntLyQPPCrE4nhp3p-gIwUgbyOETpl8cxfuNbFbWDmKDpwjvF30c-vYw9H9FkJh2Zza8wvhIziokk/4qc/hbRaO5o_QsW4hWBlsgK24Q/h9/h001.56pxzQ65XN8JzVk2NpW-h6IK4ALp_tgxheIRuQW-55Y"
+        },
+        {
+          "text": "Explore Updates",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.E6fEdq7G7wuh05PBK-h5dbdout1lplk-oma-SsxmqlYSVR4fpR7AyOUQiY-YYQe_1HXwjkquvs8j-k1yFdJC5Bz6tMO4MTyOGrvUBF4i06yo1FKpkhy7zLvmN7MahNyGuLhC8ISgAmDeUgC877SzAIR2cax6xVglw4fk5XFCpx4DVZaFFwkurMbCUjrpVZkxKFBA38WJKgufMSHLQ7umbyRfRJYY8eitI9Rl_36RJB2Byq2PycINpv5ekvtH24BydHjNO93H0dq6JwWRIPmRMhIeDTPbe_OSxqfX1mz8Zk77D3Z-vToRz-GAgqcdmsBo/4qc/hbRaO5o_QsW4hWBlsgK24Q/h10/h001.eVTBcMX9PIvTK3g9sVKQxKdsPiu1R5BRFijPUAHob7U"
+        },
+        {
+          "text": "Senior Manager, Engineering at Teamworks",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRneV5EJ5Cd7hy6TLAeS4bmSgYg_RA3OHSlX56UJmLZagFnwALW3Dj9-seWcHpvw7xzYyQNFRWI2Zegg6XKwnJP4LGaf24nlDUR3wtUxZLBsPc93n22HqXbP8XlxDbaUlIvTPKGdGCWSg6ho7GU9wjBi1ghpaDN4anSNiqr6u12MId8sFjNBZx8XJLDyOwDC5abg0R_7aEU9iNNndBadDlNRow02fS_AgTD-VC1ouHvRjferu51_apOwCO6ZbYhruStDXIyJw2uGA4QFfoTQplL3ppQQKIv5OjnS5YguF-J56QA/4qc/hbRaO5o_QsW4hWBlsgK24Q/h11/h001.QoTgsnPZTdrhyfHSs4aHzaMhMRXDL9sXlya5f61Kzl0"
+        },
+        {
+          "text": "Senior Front-End Engineer at Xero",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRnfVYCIagQP7zG8JUjtc5V6IlYIL38IW4NkMF3_DKTtXhWm6q31biBsNpaUKIORxvBZNS8h4dOwfsG5xP3v_E5JsMr3dMt97lGbdwjsbu0lr4xQHEA8zKFdlkG5zkvUcylw57vPduK-nrnS8kzeUnrIKqLyjqNtSybcfp8e5sWMW0dQSTavbIv1S3uqt8hSppFUvixTK2YEcQRz2InJICqpAk3QXwOr-eBqVJHWZycmulKYYoct-5Eas7Yy_oKRgzCLswPpAMOtfhqfxKNWeUntL/4qc/hbRaO5o_QsW4hWBlsgK24Q/h12/h001.DaGO3Tpaf9-Xt7YgZapPoUyMYR9PGijkrm9bZHAK1rw"
+        },
+        {
+          "text": "Senior Infra Engineer: Observability at Railway",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRnc4Ra9UZpXcpMVw9aWI8Q9dLzvLiTDB6USfbNBYHQXhp0_UUOdOWPYdzQzDvbZdiNEcoIr_qVOnp6OvT1yOvv-sEnk9Mw6BF5QUXoItkTA3mNS7tJizWj97sKjPLoKTTQGNJ4Mbs_0Agjjm9WwwjAG9q942XZ_XFshCUGEt_YkKjsDWtHC6DNnzqwm8QlWDJTkVp9bgAhsGPo4sTmYEt-5JoiP9hjyeHRky9aLDLtYxUkir3-rGzm7FcfosRxqVFGXXmWOGTJKYec46Y4edLHyA74_vGtYbMT8htputIrRh3g/4qc/hbRaO5o_QsW4hWBlsgK24Q/h13/h001.HxJwS7cPUmOMXJgmy43Aot0k6F9PAYkDJl3FGsNkyMw"
+        },
+        {
+          "text": "Senior Software Engineer - APM & AI Observability at Snowflake",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRne6SUxnzTx41MhJpgOcj6lbYTmKtXcjkrggYleYK105cZBhjez1D2U3j6siWsbvxG5RmZscVBSvTiZ-gnXcEuM91yBLUu7sQK9zhOemADnt9zsE_P1uJL8KTsePAKft56NV0Bs-_1Kh-79E-ruKZljZofs6N-8kUvlI6EQdxE0wsHDl-7OmwJ1GUwrNRDihGQd1MBo-DEJNViFEdj7MV0VPZfkQNSx_UnNJeYhwlrC3VR3q0_GKrPaGZIXeWlR4h5bIcl0_z2j9ljVko8rraMn1ff4-GyuwFCzQkg0gs93dsKGdhV5JF0ffSDr1X63z40c/4qc/hbRaO5o_QsW4hWBlsgK24Q/h14/h001.SP-cgB-OlWPpM4Bx3SEE49PPRGcCvw8txWqThYUA-Yk"
+        },
+        {
+          "text": "Users manually optimize queries after every update",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTIh8C1hb7Kolqj8r3igectdXL1VjCioHuKo3t8YjC2GU3KhMfG81lH8yYczMEd5fsjWE8Twf78mujzcHVfAorQeeLrFXOyXadFrPuZJWnx63ghOaSXA7bUigWoaq7DGnbEwJlvtGkJp6HhWvY3fJNXf_HF-ZkKn-J8NUOX1QAzDjepd8zPftaTkBfz5rZhzU_AP4TEGq1ztjxqzTE6u6MlH3qqPfv0zDZfk5cPkn0t2DTqUtmnn0tVCEiCM0i4IgczhUNCnyh6HqRK4MBKBCaN0ybf9Dp_0FcPbRtlgcu7L-3QVFvaGUN-GgjEXarpHZ6cNIs1GCrQBagm2sKTxwEogDyILJR4RRPkRkbnKRgF2VtkVIcsqgAGodeGCWYuCbjygqiP0SyPekGcwvPmK0_D154pXN2MBl2mjPvWbWJZK9u-VWu7TBZM4_qYiWsH48DAZyjOi5W0gF7tT2D7tt7xhlKxspV7FRcAbGoBchD_E1jHtFh_77bOJu0VxU8BQL6vIdn7XacRaUZt5dPNUl7nqzvmu53TMDYWRz8HtdgNekT5Y-b8ey0hYrpw9HgM-EJMCiB4BK-QhzOKMhJ7AQZwQXWAaSgVIMWqIGkPmutet6mYeV77-IvpTz56YencYuMPRbg_TXQ--zUsilqMVe7vwuSn0vjMGhOwEB5EIWf0ttDdRg8XbphmB5iWYjl0Ep-jfEurepdPieIGb7ywygcMPLPzoDnRtxnvL1M2yLa0pGSy4zlNxg7Vm-UWzYpOHWoiXtrCXLwiHJI30Qg_dfInGTTRk_U8vymP7NUu0IUf6ljZ-kYrK3K2oXd3CXvzjh4VICRbdd4VVDO77X2DOMQNuaG6fOuWOZu4VjjfxgJMepmVXNxdGr8KHOqAmFz0bFZZB7MuVV7yVb1AGoObrvunwb88QDnTgOMTpHBc-v-zuLpNJ-UMwha_gxe-voVmG5fVFBxonsoYDUqfTmdzDlQUvVKPuuQdiATXwgjN-vpl-eyr7bwHRatUgZvjmHP0Dmd-DolN1qo2_x2hs3wtt77htABVZtXl4balTcNGgFAV_a/4qc/hbRaO5o_QsW4hWBlsgK24Q/h15/h001.KppjrZvsSajTPSmKr-9nEHoDj8YyflvtyXiKI5WW7pU"
+        },
+        {
+          "text": "Snowflake increases hardware capacity for each query",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTIh8C1hb7Kolqj8r3igectdXL1VjCioHuKo3t8YjC2GU3KhMfG81lH8yYczMEd5fsjWE8Twf78mujzcHVfAorQe_AamE1QxA6EEbtdlQ8b85gCWVkMKSKTRTPd_0mvEMCC4lFre6AY3htg3LmKP8jDe_P4R-Q_SKemx_padBmUQnr0JBkNY1hzwFjQ14mN4oEfAaYoY4s-jhQrzSFt3N9dAJr4xVVefZpX5AiktBxZLrTZ3zzlGFueEzj52eKDg4gSW8hi5MvQlqKWYabpejyv7tYDY7Xnv5j7GLXEmtMLwiDLeI__BDGuVlqIAarIYXTqWgyR11fOI2ChSvz8Hzt-VFU9Q7WEwBmadQH4p1iP526LuupmxaBkXuV-2ZBDkLkNGHkJxaXxJl2Qw2WRCLRX9f2IrNiytwm8PU0zzhlhPozUPNZ4I52hOcFr1sVxuRsW3F7w3Cq6R9aIKZVtKj38CND6GB-hojJUejwMJanaCo4Pl5_y4zO9gWOB1W9LLCmhki6hAOhLHymBKbPrwSyc_8gZSO9NUgI42nARDGj4-__OY-mo9AVF6m_-OddlWVXa8Txm5lmpyy_Y0gfgT4yowTMetTolt4HAZhyphgdgPv1mgJ70jFJg3JpsfDWka18Si19CIm2pkPmk8NU6LBe6D2cyBf7iO5m6T9fDV3CXWThJRkY-JcSvXGcIHafWBMOrxhqVqmZBL8Qp_D3z6rMUMJ5St3tgrtoYFCST4it0gkWoe9otYjiWvhutqn0I2uxbLD8a8_F8ApsIf1Ak3MYj9V-hG0ZVDT--2ih-ob_eE3V10me4RClnRPTIYwZdacNzOiW5AZMiDc0tX8FRkh2Il0PP2m55yS9NdkfjQh_nWcfsMj-OHyWgRvVJ6Yf2M-uBOGceR1N5kNo5SOlcES3TF_Zfx92iour1YjZNqxQhOPrL3eUv9fZUU-BFzPipPZS4WCFQCZDedg-W_wgOPL0ht_YTuh8MSBzfme4ILnzAtrUGjtSq51PcUeD3qpIQMZhmNJtvdavNRPQAVUHGq2lUTqvalfan00g0RUogRmDvEy/4qc/hbRaO5o_QsW4hWBlsgK24Q/h16/h001.iRMij301Y_A_Gzs9IZZeLix5EEWvLoAAVq95k0qwBcw"
+        },
+        {
+          "text": "Faster query execution reduces compute usage in its consumption-based model",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTIh8C1hb7Kolqj8r3igectdXL1VjCioHuKo3t8YjC2GU3KhMfG81lH8yYczMEd5fsjWE8Twf78mujzcHVfAorQdYCww9vlY2RBHoMT0Pyu2ObaitanbizgPrmY6p2ndtK5lLDzoT0Ik1TPVkCllrZXB0FvyNelQoOHwp7yKBKa3pIExhEhLekmmhCyNTCSiiRDdn4_B2D1bsYMMEtc0fvT0k4IAoi7ZjiAjvkInMtHNzIzy2UA_jHQdfC1JnBxjAkmA-waye37R-x4knwS3u_9qayoZEB9oBGMqE0TJ7PJH5dqSa7rjfKqVfEPPGp_VOKQOtMhROMvz0oeaQQrKxKUN94GKTG9kNa1d58F9YV3EWxo3MLc9SB4Vhm93vi41CMzuZBUd-wmMX1Gca3TOdG0FuJtY9khj424sR4r7B_O9ZFyvx3uzDhtRogJCkG39uQp4XYoa5d3jzYY0r_hmMPJK-3wiIVn24gMjXM3AHpBPe-FoqypMhnbwQbk0vaLd2wsQA7wFHjj9VcbSiMvFiDI6A3HXpywP5KeAyb0ZwFEjQiqu04xNNWYUufi_8pG2xuiJMx0ZyT3pzHckyGuuXz_e75FvPydiDYnreomAf9rJZaXrR-rFYWA-VCR4961kvu0mkOuiByxF9l1osk17TTJFOM4LpNHF2Og4TqwgF8QM6ncg4w7HLiObYaodEsVmWK4qxtVlX6NMWNaOZARSYudiX8CdlM1zXpwYqbxDh1MZnnRmFz4xp8xegmIplbabrZ7Vcp2rcECZfPgWVbdLzlwLdLlo4qJ0EI-Wg7wXQRU0MvmGbH503OC4-cR65t8Tmdkr6Zo-Z4NOdHSTqC0AuSPr72vcc-xVQm2yUZ4TapaKxMMmdfYnXTfBrVx41Ngt2Tm3J8-7qdCab3co6Ki2EdHuKOl-R1waaZ56DH5T0yPHFZus4arpZKETHKxolQMuaEAqs5hwMU0xk9_JOivaIIUxrR-CY7PyrgAyCTlsLx7TGhpyQztK1cjEuevHLkiyAT8fuvUFwWGVoVy0H8w7l50nbyCR8xYFEL0DO6nSAWhsU/4qc/hbRaO5o_QsW4hWBlsgK24Q/h17/h001.b8i7skAWv3Ey5aGiiOD57UptUZS4Pw3WnqHmorAY39s"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "How Snowflake Improved Performance by 27% (Without Users Noticing)\n\nSnowflake boosts performance by 27% via backend optimizations in ingestion, planning, and execution thus faster queries and lower cost automatically  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 04, 2026   |   [Read online](https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTGLn25832Ov2jw1_s7gIr-cUsYrQ4HEEQWBTNj8qGKsdlYA5b88eQWFSsPo_JZEA5jgjF8f4dWglRQb9_Tupa2_2au5e4HEIWGp-uPTlgq2x48635WUMsZbIZrgMwZG0V-5zAZL2U37F7JaCDBXgDjEj54DI_L6W9F3MF_k1hyPpxEKljQ4BzGaqQTgV9lLtYfc-lth2dauSC90lLumdu97S6o8brP1dxTHLR_kYcJN98ZFjMUdwYil9VdlSzA6KF0ZHqD0faa44AE2Nn9pGPvX0Wg0o"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "1 event happening tomorrow",
+      "date": "2026-05-04T05:23:24.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: LOW**\n\n### Top Updates\n- The AI Automation Society is hosting a Q&A session with Nate on Tuesday, May 5th, at 3:30am - 4:00am Calcutta time, which can be accessed by becoming a plus member to unlock weekly calls with Nate, and the sessions are always recorded.\n- The event can be viewed or added to the calendar through the provided links, and users can also choose to unsubscribe from upcoming group events if desired.\n- There is an option to start your own skool, implying a platform or community for creating and managing educational or training content related to AI and automation.\n\n### Notable Links\n- [View event](View event page)\n- [Add to calendar](Add to calendar page)\n- [Start your own skool](Start your own skool page)\n- [Unsubscribe](Unsubscribe from notifications)",
+      "links": [],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRuxzCOH-2Fq-2BGmDpfEuJxhsjb9qIpRx23qUtWhDOr2NnKuzYPNcIC7Qun4pOfIS8QzJ8tXael-2B3AS3E4s47QPgGiGLXcThvIPTHb-2FMffx-2FHkIfq-2Fj23P2rusTdSXSKo64Qe6Drh-2BjsVRJWETElX-2Fa0t307jkB3yOgrTvwSk82RxS9Pn0-3D_R3s_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2aXk11GeToHfKgpWnxTKIVtLbXZKZVYCJAinIsPDS4mrPrc8b64YIcmO9qaEy3F2ain5QfpmjoXp3jK-2BLJLHq5ULUvCoRgPcnvvZTO2DMcPYvf60OjCrz-2BEBs3Y-2FssyCZlayoDsWS2ni83IIjqML5DzJ-2BROzTw-2FS2HUxT5ubYd68CcGIMgP2daopYVu4SWvuMsntqe3w2E9poQ4RJ4VHDoM7vG-2FlYwkB48f51qrCb2y3PEa9QlNa-2Brd3uwT8TX8o97xTZwttQZ-2BK7zVKZ4Rhs8dnVTWmpbR3cbRm2zidYXx8DzG3b-2FDFnp4EA7bRmTWFN8HXf9Ma8PQGaZ8gFtutSMXMBnN3mTsS"
+    },
+    {
+      "from": "\"Michael Spencer from AI Supremacy\" <aisupremacy+ai-world-@substack.com>",
+      "subject": "What AI Infographics say about the future of AI?",
+      "date": "2026-05-04T09:25:56.000Z",
+      "summary": "## AI Supremacy Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* The newsletter discusses the future of AI through the lens of infographics, highlighting the rapid progress of AI in recent months and its potential impact on society.\n* BigTech companies have revised their capital expenditures (Capex) upwards by almost 30% in 2026, with AI investment projected to reach $1 trillion by 2027, according to Bank of America and CNBC.\n* Anthropic, a leading AI enterprise LLM provider, is looking to raise another round of funding before its IPO at a valuation of near $900 billion, with a potential valuation exceeding $1 trillion.\n* The company's Mythos model has been opposed by the White House due to concerns over its potential to identify and exploit cybersecurity vulnerabilities.\n* The Pentagon has reached a new AI deal with seven companies, including SpaceX, OpenAI, Google, Nvidia, Reflection, Microsoft, and Amazon Web Services, to integrate advanced AI capabilities into sensitive classified networks.\n* The newsletter also discusses the potential impact of AI on the labor market, including the possibility of job displacement and the need for workers to acquire new skills.\n* Torsten Slok, of Apollo, notes that sectors with high AI adoption rates have seen strong growth in new business applications since 2022, suggesting that AI is lowering barriers to starting a company.\n* The newsletter mentions the concept of \"Jevons paradox,\" where increased efficiency in one area can lead to increased consumption and demand in other areas, potentially offsetting the benefits of AI-driven productivity gains.\n\n### Notable Links\n* AI Index Report 2026: [link]\n* AI Index Report 2026, Part II: [link]\n* CNBC report on AI investment: [link]\n* Crusoe: [link]\n* Torsten Slok: [link]\n\n### Additional Research Context\n* Anthropic's Claude model and its applications in cybersecurity and enterprise AI infrastructure\n* Google's Gemini models and ecosystem integration, including Search Live and Canvas in AI Mode\n* The potential impact of AI on the labor market and the need for workers to acquire new skills\n* The concept of \"Jevons paradox\" and its implications for AI-driven productivity gains\n\nNote: The newsletter provides a comprehensive overview of the current state of AI, including its potential impact on society, the labor market, and the economy. The updates and links provided are relevant to AI practitioners and researchers, making this newsletter HIGH priority.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYWktc3VwcmVtYWN5LmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cuYWktc3VwcmVtYWN5LmNvbSUyRnAlMkZ3aGF0LWFpLWluZm9ncmFwaGljcy1zYXktYWJvdXQtdGhlLWZ1dHVyZS1vZi1haS0yMDI2IiwicCI6MTk2MzY4Njc1LCJzIjozOTYyMzUsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc3ODg2ODg3LCJleHAiOjIwOTM0NjI4ODcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.RJsfsLyATze_z-RtMOvfELBYNXvwHPs4N1G2N4cIBmA?"
+        },
+        {
+          "text": "What AI Infographics say about the future of AI?",
+          "url": "https://substack.com/app-link/post?publication_id=396235&post_id=196368675&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjM2ODY3NSwiaWF0IjoxNzc3ODg2ODg3LCJleHAiOjE3ODA0Nzg4ODcsImlzcyI6InB1Yi0zOTYyMzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.UumopfOe5mZeHnPYB8qu2gE1uU-97aF4do4RcAeWcXo"
+        },
+        {
+          "text": "Michael Spencer",
+          "url": "https://substack.com/@aisupremacy"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/aisupremacy/p/what-ai-infographics-say-about-the-future-of-ai-2026?redirect=app-store"
+        },
+        {
+          "text": "AI Index Report 2026",
+          "url": "https://substack.com/redirect/0770b1f5-f190-48ee-930a-7c4054a8b9e9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI Index Report 2026",
+          "url": "https://substack.com/redirect/e09fdac7-8eb2-477e-93ab-6889517922b3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "reports CNBC",
+          "url": "https://substack.com/redirect/c5e78991-9dda-4d5d-9041-73964312b31d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Crusoe",
+          "url": "https://substack.com/redirect/0c00e256-d721-4628-a4c0-8927d5ba286d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "“tokenmaxxing” fad",
+          "url": "https://substack.com/redirect/e62f5fc0-0fc0-42ca-bb29-eb63d562be52?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Torsten Slok",
+          "url": "https://substack.com/redirect/484c9558-7cd6-4e39-a77a-5e11cccaef64?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "What AI Infographics say about the future of AI?![](https://eotrx.substackcdn.com/o/7f33764f31e07772/p.gif?token=eyJtIjoiPDIwMjYwNTA0MDkyNTU2LjMuNjgxMjBlZjFmYjRiYmQzNEBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoxOTYzNjg2NzUsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjM5NjIzNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3Nzg4Njg4NywiZXhwIjoxNzgwNDc4ODg3LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.2YElItbyMSwjE75TrGfWpNxToGxt3QuayxHKNNGHtFU)\n\nOur third installment in the series. Sort of like a Monday tradition.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"Anna Eisenberg\" <annas-daybreak-news@mail.beehiiv.com>",
+      "subject": "Spirit Collapse and Epstein-Barr Antibody",
+      "date": "2026-05-04T09:56:45.000Z",
+      "summary": "## Anna's Daybreak News\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Spirit Airlines has ceased all operations, canceling 9,000 flights through May and laying off 17,000 employees due to soaring aviation fuel costs amid the U.S.-Israeli war with Iran, highlighting the risks to low-cost carriers and increasing market concentration among major airlines.\n- The shutdown of Spirit Airlines reduces U.S. domestic flight capacity by about 2%, with major U.S. carriers agreeing to cap rebooking prices for stranded Spirit passengers and assist displaced workers, as reported by sources including NBC News and AP News.\n- This situation raises questions about the viability of ultra-low-fare airlines like Spirit without government intervention, prompting a discussion on whether European NATO members should prioritize increasing their own military spending over relying on U.S. forces.\n- Researchers have developed 10 new antibodies targeting Epstein-Barr virus proteins gp350 and gp42, which could reduce EBV-related risks in organ and bone marrow transplants, especially for children without prior exposure, with human safety trials pending.\n- Osteopenia, a condition of reduced bone density, affects about 40% of adults worldwide, with lifestyle factors like smoking and inactivity increasing the risk, and early detection and interventions like exercise and nutrition can prevent fractures and slow bone loss.\n- The development of new antibodies for EBV and the importance of addressing osteopenia highlight the need for continued research and awareness in these areas, with sources including SciTechDaily and ScienceAlert providing more information.\n- Social casino apps have generated over $11 billion in 2025, with concerns over addiction and financial harm, and regulators are addressing the classification and control of these games, as reported by Bloomberg.\n- The CLARITY Act has been resolved, allowing crypto platforms to offer activity-based rewards while banning stablecoin rewards that mimic bank deposit interest, with the SEC holding a roundtable on digital asset markets in May.\n- The art investing platform Masterworks allows anyone to invest in works featuring legends like Banksy, Basquiat, and Picasso, without needing millions, by offering shares in new offerings, which can sell quickly.\n\n### Notable Links\n- [NBC News](https://www.nbcnews.com/) for more information on the Spirit Airlines shutdown\n- [AP News](https://apnews.com/) for updates on the U.S.-Israeli war with Iran and its impact on aviation\n- [SciTechDaily](https://scitechdaily.com/) for more information on osteopenia and reduced bone density\n- [ScienceAlert](https://www.sciencealert.com/) for updates on the development of new antibodies for EBV\n- [Bloomberg](https://www.bloomberg.com/) for more information on social casino apps and crypto regulations\n- [Masterworks](https://www.masterworks.io/) for information on art investing and platform offerings",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Spirit Collapse and Epstein-Barr Antibody\n\nSpirit Airlines ceased all operations, canceling 9,000 flights through May and laying off 17,000 employees.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Listen online](https://link.mail.beehiiv.com/v1/c/1rDQ6Cpezb7ZciUQLNb9v6DzAYvyXV%2BZa8mVZLW8yL9dkFzpkMyiMtSeXnar%0Af9pwOkKB7UGpkIfNPHbhIzUCEI5FVcw%2Fzss67eCkI9sA792wdaqyvVz8LudV%0A0EPgOnsmP99Sx6vtfMQ8%2FfmhZyraT9hEyiWslxY73EfC1GI5HJ%2BHmxVXroOo%0A8%2BJZSjBnQQL9c9OiYBi%2Fq7J21W28U8VuYw%3D%3D%0A/e474e6354c7ee5b0)   |   [Read online](https://link.mail.beehiiv.com/v1/c/r41xbXRL9LlvZ0Z5wTAG4yHZOdqUl2gMCypsYeRzj7UD554WLFHU%2BUMef9Ww%0Ady%2BplVKBs"
+    },
+    {
+      "from": "\"AI Breakfast\" <aibreakfast@mail.beehiiv.com>",
+      "subject": "Anthropic is getting pulled directly into Wall Street",
+      "date": "2026-05-04T10:01:10.000Z",
+      "summary": "## AI Breakfast\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic is reportedly close to a $1.5 billion joint venture with Blackstone, Goldman Sachs, Hellman & Friedman, and other Wall Street firms to sell AI tools to private-equity-backed companies, marking a significant expansion of its enterprise AI offerings.\n* xAI launched Grok 4.3, a new reasoning model aimed at coding, logic, math, scientific work, and agentic tool use, which improved xAI's Intelligence Index score while cutting input and output pricing versus Grok 4.20.\n* The U.S. military has signed agreements with seven major AI and tech companies, including OpenAI, Google, Microsoft, AWS, Nvidia, SpaceX, and Reflection, to integrate AI into classified systems for decision support, logistics, analysis, and other government uses.\n* OpenAI introduced new features, including the ability to sign in to OpenClaw using ChatGPT credentials, syncing subscriptions and billing across platforms, and a custom dictionary feature that allows biasing the speech-to-text pipeline toward technical jargon.\n* Anthropic's Claude Security public beta is now available for enterprise vulnerability detection, and the company has opened its Claude Code token costs for enterprise developers, with prices starting at $10,000 per month for 100,000 tokens.\n* Other notable updates include the launch of Astrocade, a platform for creating and playing AI-generated games, and the announcement of a $110M funding round for Netomi, a company building AI-powered customer service agents.\n\n### Notable Links\n* [Anthropic's Claude Model](https://www.anthropic.com/claude)\n* [xAI's Grok 4.3 Model](https://www.xai.ai/grok-4-3)\n* [OpenAI's ChatGPT](https://www.openai.com/chatgpt)\n* [Astrocade](https://www.astrocade.com)\n* [Nodalist AI](https://www.nodalist.ai)\n* [Marx Finance](https://www.marx.finance)\n* [DeepClaude](https://www.deepclaude.ai)\n* [Radar](https://www.radar.tech)\n* [Rosentic](https://www.rosentic.com)\n\nThis newsletter provides comprehensive updates on the latest developments in the AI industry, including major funding announcements, new model releases, and significant partnerships. The information is relevant to AI practitioners, and the updates are thorough and well-organized. The newsletter also includes links to primary sources and product pages, making it a valuable resource for those interested in staying up-to-date on the latest AI news.",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Anthropic is getting pulled directly into Wall Street\n\nMay 04, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/HLcch9FkzS1FwRFopXDfMriOvaeyI0ECgkmDwz9FQlXE8mLdShldk4h6FGfF%0AIVe4jRm8MTLrCEzMU9KVzHiZ6HPayjndNkyvyNYdct3i9nHF3XthB%2FsrzZIf%0A%2F0XvnNjM1rG%2FW8oG5RW3cbI63QKpv35c8pRvO0mC%2BAQPjQs7Sh8ezB%2Br27fp%0A7MbxbBGH%2Bnl1evs6016hOokIH66EjqoEAg%3D%3D%0A/4959d1481e55cc9f)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/acae4be9-a88f-4644-87ab-182c2cfc10fe/ai_breakfast_white_logo.png?t=1773352600)](https://link.mail.beehiiv.com/v1/c/EMo64YBDaXRIQOLW0kkrZISY80oAW7neao7te5oSWMf0Qs0M6H%2BrrXUzdT73%0Apdei2sa558jmLBWTJR8bOJ4qqV18n6JSXIskKp6sTKf0%2B3gls5L2d1UNXedz%0ARjc%2Bb4W%2B1DaYu83GB5vnCwFWdtXB5HjCUGxsAITGP2PAQlTPzAVgnFXyu6i9%0AXaPVSiTZPO6DUL1aPdsb2tozy8hNTHKQaw%3D%3D%0A/a75263b677d087c2)\n\n# Anthropic is getting pulled directly into Wall Street\n\n![](https://link.mail.beehiiv.com/v1/o/s1mkPwT2dUBny3VSztocOFl"
+    },
+    {
+      "from": "\"The Rundown AI\" <news@daily.therundown.ai>",
+      "subject": "🏥 AI outshines doctors in Harvard's ER study",
+      "date": "2026-05-04T10:04:04.000Z",
+      "summary": "## The Rundown AI\n\n**Priority: HIGH**\n\n### Top Updates\n* AI has outperformed doctors in a Harvard study: OpenAI's o1-preview model, released in 2024, was tested across 76 real ER cases and showed better diagnosis accuracy (67.1%) compared to two physicians (55.3% and 50.0%). The model was able to flag a rare flesh-eating infection 12 to 24 hours before the treating doctor caught it.\n* The Rundown Roundtable: Staff members shared their AI use cases, including using ChatGPT for health advice, analyzing medical literature, and tracking patient care progress.\n* Claude Design: A new AI design tool by Anthropic that can generate high-converting mockup variations of website landing pages.\n* Pentagon announces new AI partners: The Pentagon has added 8 AI companies, including SpaceX, OpenAI, Google, Nvidia, and Oracle, to its classified networks, excluding Anthropic due to supply-chain risk concerns.\n* AI model tops doctors in ER trial: The Harvard study compared OpenAI's o1-preview model with two attending physicians across 76 real ER cases and found that the model performed better in initial ER triage.\n* Unwrap: A customer intelligence platform that uses AI to surface actionable insights from customer feedback, offering a trial of its tools to Rundown AI subscribers.\n* Scrunch: An AI Customer Experience Platform that optimizes websites for AI bots, helping businesses improve their online presence.\n* Community AI workflows: A showcase of how readers are using AI to work smarter, save time, or make life easier, featuring a reader who uses Gemini Pro to analyze market information and generate investment calculations.\n* Trending AI tools: A list of new AI tools, including Custom Voices, Codex Pets, ElevenMusic, and MiMo-V2.5-Pro.\n* Everything else in AI today: A summary of other AI-related news, including OpenAI shipping Codex Pets, OpenAI CEO Sam Altman announcing the use of ChatGPT subscriptions within OpenClaw, and various other updates.\n\n### Notable Links\n* OpenAI's o1-preview model\n* Claude Design",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🏥 AI shows its skills in the emergency room\n\nPLUS: Create converting landing pages in Claude Design  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Read online](https://link.mail.beehiiv.com/ss/c/u001.dSnm3kaGd0BkNqLYPjeMf75St_4h4uVDlb2B1USeB_G-5nRb0tSHY2-UQrRLs10ReUex-d6AovdwZCQOOADxYmdVmVWMOflSZBQVuK0QaLDFcxppU09XbGqbYPa3YkELTZb24xA5SludUa5-U26Ia8XFbYOod2nIgPdDtb31GeIWBMCDMnj0JtcARAm6vdLWz17lln-5iPAl_vDOCucDq_sQ9IYzyRKzPbTqcA34ohpqOHXIQ6OWkVyhvdbuhv7kD-nZwP6qfO-QnnRiMtEs4n6LofgwwL7iWp2Zp6Jjhyo-CycjV_LxX3KNYO_nSeVmAxfFep4hBPYhLfYeMHJGEcbGcQnRVSKYZ6HO-FnRtMnFdsPKuPv7_wf2y0yJh1IkDZ3ltEcJ_3d3Kqpg82M9ndqZT7cuWt8GmI5ry1MEILKPB4f6NvJ0OiSOd"
+    },
+    {
+      "from": "\"Evolving AI Insights\" <evolvingai@mail.beehiiv.com>",
+      "subject": "🎬 Oscars Bans AI actors and Writing from Awards",
+      "date": "2026-05-04T10:36:41.000Z",
+      "summary": "## Evolving AI Insights\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The Academy of Motion Picture Arts and Sciences has banned AI-generated performances and screenplays from Oscar eligibility, effective with the March 2027 ceremony. This decision aims to preserve human authorship and credit in filmmaking, allowing AI tools in production but drawing a line at synthetic actors and machine-written scripts.\n* A Chinese court has ruled against firing workers to replace them with AI, emphasizing labor stability and setting a precedent for future cases involving automation and job displacement.\n* Stripe has launched Link, a digital wallet that enables AI agents to shop and pay on behalf of users, connecting to various payment methods and streamlining agentic commerce.\n* The Oscars' ban on AI actors and writing marks a significant move in the entertainment industry, aligning with recent labor agreements and strikes, to maintain human involvement in creative processes.\n* China's stance against AI-driven layoffs underscores the growing focus on balancing technological advancement with worker protection and job security.\n* Stripe's Link platform aims to facilitate seamless transactions for AI agents, potentially revolutionizing how tasks are automated and managed in various sectors.\n\n### Notable Links\n* The Oscars Picks Its Battle With AI\n* 100+ ChatGPT Prompts to Revolutionize Your Day\n* China Says No to AI Layoffs\n* Stripe Hands AI Agents a Wallet",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🎬 Oscars Bans AI actors and Writing from Awards\n\nAlso: China Says No to AI Layoffs  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 04, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.DB0aRdsBr6jihNQ_e6R1iuvwvFByJwytdlEWLbWxmQa3Qfm88QGn1xCHm03pqsyZpubu0jutSN9hmOr6sU8uun18cKEwOxvbfS63mqwzPgUO8h0KFGKHQBglqFE6RF7nMZc8VbKYFPtYY_8pz8HEY8JQnw5KKmdIkjEM7qKfRllR-G96y_hKA5J70SKOoe98NylksTos0EGhKhEpnswqoKtO1-qOJdeaxRdGQlbyQxSJPEsTU2A_5eC_ERlGMEe9zVfWBNGV_BNTBa4qRcmi2t7FOY3Yw412_zIYz7OHGebUkrX83OcCP99ERFAWLWzDTr1KmLhckm2I776MmGLhIZEBGUmtb6StE0i8yPQA2Ko8bmMqhU1ig5mbciJIJlvrkH4-J3y5BYNHICBlCPHZhj4Q2g1-DbRueWFhFhjzqmEnzMiIndZ7wfnHm"
+    },
+    {
+      "from": "\"Prompt Guy\" <thinkaiprompt@mail.beehiiv.com>",
+      "subject": "You Wrote It Once. It Should Work Everywhere.",
+      "date": "2026-05-04T10:42:51.000Z",
+      "summary": "## Think AI Prompt Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter introduces the \"Content Repurposer\" skill, a tool that helps creators distribute their content across multiple platforms efficiently. This skill takes a single piece of content and generates five platform-ready outputs, each written natively for its respective platform, including LinkedIn, X, Instagram, video scripts, and email sequences.\n* The Content Repurposer aims to solve the problem of content creators spending excessive time reformating their content for different platforms, allowing them to reach a broader audience without the extra workload.\n* The tool is designed to maintain the creator's voice and style across all outputs, ensuring consistency and authenticity in their content distribution.\n* The skill is available for download and can be integrated into Claude Code, a platform that utilizes large language models like Claude for various tasks, including coding and content creation.\n* The newsletter also mentions an upcoming premium pack, scheduled for release on Tuesday, which will include additional skills such as Cowork skills, Claude Code skills, video skills, and finance and day trading skills.\n\n### Notable Links\n* [Mintlify](https://www.mintlify.com/): A tool for creating fast, beautiful documentation that developers enjoy using, with features like automatic versioning, analytics, and AI-powered search.\n* [Claude](https://www.anthropic.com/): A family of large language models developed by Anthropic, focusing on safety, interpretability, and alignment with human values.\n* [Claude Code](https://www.anthropic.com/claude-code): A platform that utilizes Claude for coding and content creation tasks.\n\nNote: The newsletter does not reference any specific academic papers or provide arXiv IDs/DOIs. The focus is on the introduction of the Content Repurposer skill and its integration with Claude Code, as well as the upcoming premium pack and related tools like Mintlify.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "You Wrote It Once. It Should Work Everywhere.\n\nMost people publish and move on. This skill makes sure nothing you write ever works just once again.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 04, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/5yICsWpG4zJO1TxUofbVftX8y9ZGna7qL92rMn7sXZvw5seLHXOcTs2E7cO3%0AqvgBl4B2V59Dg8ZvEpzeJ4%2BTU7eVuo%2ByyW3FIkYdwc6gFAPjp6Fvxew%2BpUx5%0Anhopyb0%2BcNdeck9OWMb13Az%2B0F5AMvLvi22ocwf98FDVLXjajTqunNWk4l%2F3%0A3BqPFYyhIlXyLHTccPDp7Uzvn7e%2FQ2Qz4A%3D%3D%0A/5af281d98a70b678)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/fil"
+    },
+    {
+      "from": "\"TLDR\" <dan@tldrnewsletter.com>",
+      "subject": "Meta humanoid robots 🤖, SpaceX costs leak 💰, open design 🧑‍🎨",
+      "date": "2026-05-04T10:54:58.000Z",
+      "summary": "## TLDR Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta has acquired Assured Robot Intelligence, a startup at the frontier of robotic intelligence, to optimize models for robotics applications, amidst investor skepticism about Meta's spending plans.\n* SpaceX has spent over $15 billion on Starship development, with a surge in capital expenditure and a focus on making rocketry resemble an airline schedule, aiming to reduce costs and increase efficiency.\n* ByteDance, the company behind TikTok's algorithm, has entered the AI drug discovery race with its unit Anew Labs, presenting its first AI-designed therapy and publishing a generative model for designing functional molecules.\n* America's electricity gap is a growing concern, with the country needing more power investment to meet increasing demand, particularly with the rise of AI development and its significant energy requirements.\n* OpenAI's financial maturity and plans to go public are being led by Sarah Friar, who is working to balance the company's spending expectations and prepare it for a potential IPO.\n* Anthropic, a competitor to OpenAI, has received significant investments from Google and Amazon, totaling up to $65 billion, to support its AI development and infrastructure needs.\n* Claude, Anthropic's large language model, has demonstrated superior performance in coding, reasoning, and multimodal tasks, driving industry shifts in software engineering and enterprise AI adoption.\n* Gemini, Google's advanced multimodal AI model, has been updated with new features and capabilities, including Gemini 3.1 Pro and Gemini 3 Deep Think, enhancing its reasoning, coding, and multimodal capabilities.\n* ChatGPT, OpenAI's generative AI chatbot, has reached over 100 million monthly users and has the potential to add up to $4.4 trillion annually to the global economy, but faces challenges like benchmark slippage and ethical concerns.\n\n### Notable Links\n* [Assured Robot Intelligence](https://links.tldrnewsletter.com/SkmzpQ)\n* [SpaceX Starship](https://thenextweb.com/news/spacex-has-spent-more-than-15-billion-on-starship-and-is-racing-to-make-rocketry-resemble-an-airline-schedule)\n* [Anew Labs](https://thenextweb.com/news/bytedance-anew-labs-ai-drug-discovery)\n* [America's Electricity Gap](https://www.apricitas.io/p/americas-electricity-gap)\n* [OpenAI](https://links.tldrnewsletter.com/UsVokt)\n* [Anthropic](https://www.linkedin.com/in/gopal-agrawal/)\n* [Claude](https://www.linkedin.com/feed/update/urn:li:activity:7401699691039830016/)\n* [Gemini](https://9to5google.com/2026/05/03/gemini-full-redesign/)\n* [ChatGPT](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/generative-ai-an-introduction)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR\n\nMeta has acquired a startup that is trying to build humanoid robots. Assured Robot Intelligence is a company at the frontier of robotic intelligence ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=tldr/1/0100019df2a083ac-ae7f1f50-2f7e-4fa5-bab4-8ffe033db689-000000/iRv8fQr9KcJbhDAoUxK-rjL6mGKFsDbXnOI59cydadk=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldr%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019df2a083ac-ae7f1f50-2f7e-4fa5-bab4-8ffe033db689-000000/-Aus4AFgLfsTNsSMlzb4U-vyZPqhdWtdhAbQNgny8-8=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=d3324c64-5f8e-11f0-b1c3-7f12249efa1c%26p=e4ebccc6-4798-11f1-91c4-15324cf68601%26pt=campaign%26t=1777892098%26s=bd7eab26a218d56c5b94a6f909"
+    },
+    {
+      "from": "\"Forward Future (Matthew Berman)\" <astro@forwardfuture.ai>",
+      "subject": "China blocks AI firings & Anthropic shops UK chips",
+      "date": "2026-05-04T12:04:17.000Z",
+      "summary": "## Forward Future\n\n**Priority: MEDIUM**\n\n### Top Updates\n- A Chinese court has ruled against AI firings, stating that replacing workers with AI does not qualify as a valid reason for dismissal, challenging the growing trend of automation and highlighting the need for companies to prove termination is necessary under labor law.\n- The Pentagon has signed new AI agreements with NVIDIA, Microsoft, Amazon Web Services, and Reflection AI to deploy models and hardware on classified networks for operational use, aiming to avoid dependence on a single provider and expand AI partnerships across vendors.\n- Salesforce has launched Agentforce Operations, a platform that restructures business processes into deterministic task sequences for specialized agents, allowing users to upload workflows or use predefined blueprints and adding observability through session tracing and optional human checkpoints.\n- DeepSeek has released its v4 model, delivering performance close to leading U.S. systems, but at a significantly higher development cost and time, underscoring the rising costs and intensifying competition in the AI market.\n- Anthropic is exploring a UK AI chips deal with London startup Fractile, aiming to secure efficient inference chips and ease compute shortages, while also expanding its presence in the enterprise AI market.\n- NVIDIA's top AI servers have reached prices of $1 million in China, nearly double U.S. levels, due to export curbs and smuggling crackdowns, highlighting the scarcity of compute power for surging AI workloads.\n- Replit's CEO has signaled the company's intention to remain independent despite industry consolidation, highlighting Replit's rapid growth, strong unit economics, and high customer expansion, as well as its focus on end-to-end AI app-building tools.\n- Meta has acquired robotics AI startup Assured Robot Intelligence, advancing its investment in embodied AI and humanoid robots that understand and adapt to human behavior.\n- Codex has gained passive activity memory, allowing it to capture users' screen context and generate persistent cross-application memory, pointing toward more proactive AI assistants.\n- Anthropic has launched Managed Agents infrastructure, positioning itself as \"the AWS of AI agents\" and providing production-grade agent deployment with built-in sandboxing, authentication, state management, and orchestration.\n- Google has expanded its Gemini models and ecosystem integration, introducing Search Live globally, Canvas in AI Mode, and Personal Intelligence across Search, Chrome, and the Gemini app, leveraging user data for personalized recommendations while prioritizing privacy controls.\n- Claude, Anthropic's flagship model, has demonstrated significant improvements in reasoning and coding tasks, achieving a 60% reduction in hallucinations and matching latency of rival models while requiring 40% fewer output tokens for coding tasks.\n\n### Notable Links\n- Adobe Firefly AI Assistant\n- [Anthropic Claude](https://www.anthropic.com/)\n- [Gemini](https://ai.google/)\n- [Adobe Firefly](https://www.adobe.com/firefly.html)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Chinese court just blocked an AI firing\n\nNew Video: Karpathy on AI’s uneven genius curve  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 4th, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.gjvfX7JRbL1RKfObNke3hTDnn8Qx1YMb2UuABhkuaEc2TESM4QrJOT6zu3QlK-vQRTCHC9frXpzU5CzTuT9tnWm9eYPbweXrkdndq8YZcUIKM-6EQQtjZmSLNUK7SrThmYjGeWpd84PxucUAqxHCayDogtYLAXrKHZOOKl4JbajoEgLTBRmIKZd0usKVip36rYIGxwSySbZNgx2U4Y03xtiuvRv5lTs8EvQCBmCwyeEvAerfu9QOGD937wjKalcob9k4ogckccTNeEeEeMQIKlHc5sDWfJToUybCQHtzT4GLE7bFtYDSyfNd49aWZjAz7h223BQXTMt-Ar4nbrZiYMJSljQesWx2X-Um0d63_gYxIMojwp4Pgv0nowsf7--XE1n4_4xMU3V8WuzXX70q2ipzqJ1SlzkJPDvxoTqhKceXd4mgdAp"
+    },
+    {
+      "from": "\"Jack Clark from Import AI\" <importai@substack.com>",
+      "subject": "Import AI 455: Automating AI Research",
+      "date": "2026-05-04T12:32:09.000Z",
+      "summary": "## Import AI 455: Automating AI Research\n\n**Priority: HIGH**\n\n### Top Updates\n- The author, Jack Clark, discusses the potential for AI systems to automate their own development, marking a significant shift in the field of AI research, with a predicted 60% chance of automated AI R&D happening by the end of 2028.\n- AI systems have made significant progress in coding, with models like Claude Mythos Preview achieving a 93.9% success rate on the SWE-Bench coding test, and Opus 4.6 demonstrating the ability to work independently for up to 12 hours.\n- The METR time horizons plot shows a striking rise in the length of time AI systems can work independently, from 30 seconds in 2022 to 12 hours in 2026, correlating with the growth of agentic coding tools.\n- AI systems are becoming increasingly skilled at tasks core to AI development, including fine-tuning, kernel design, and optimizing language model training, with models like Opus 4.5 achieving a 95.5% success rate on the CORE-Bench benchmark.\n- The ability of AI systems to manage other AI systems is also improving, with models like Claude Code and OpenCode allowing for the supervision of multiple sub-agents, enabling large-scale projects to be worked on in parallel.\n- Companies like OpenAI, Anthropic, and DeepMind are actively working on automating AI R&D, with OpenAI aiming to build an automated AI research intern by September 2026, and Anthropic publishing work on automated alignment researchers.\n- The automation of AI R&D raises important questions around alignment, with the potential for AI systems to \"fake alignment\" or develop unintended behaviors, highlighting the need for careful consideration of these issues.\n\n### Notable Links\n- [Import AI 455: Automating AI Research](https://substack.com/app-link/post?publication_id=1317673&post_id=196354615&utm_source=post-email-title&utm_campaign=email-post-title&isFreemail=true&r=49by34)\n- CORE-Bench\n- MLE-Bench\n- PostTrainBench",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9pbXBvcnRhaS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGaW1wb3J0YWkuc3Vic3RhY2suY29tJTJGcCUyRmltcG9ydC1haS00NTUtYXV0b21hdGluZy1haS1yZXNlYXJjaCIsInAiOjE5NjM1NDYxNSwicyI6MTMxNzY3MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3Nzc4OTgyMTcsImV4cCI6MjA5MzQ3NDIxNywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.VY63STJlX-aXlbqq6qrP1njdFqmyMpyZan-PRktLxjQ?"
+        },
+        {
+          "text": "Import AI 455: Automating AI Research",
+          "url": "https://substack.com/app-link/post?publication_id=1317673&post_id=196354615&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjM1NDYxNSwiaWF0IjoxNzc3ODk4MjE3LCJleHAiOjE3ODA0OTAyMTcsImlzcyI6InB1Yi0xMzE3NjczIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.YlTTeaJHbPhMIUfB5XVCtJHvnb-gLGFXi5kpHAb5QCc"
+        },
+        {
+          "text": "Jack Clark",
+          "url": "https://substack.com/@importai"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/importai/p/import-ai-455-automating-ai-research?redirect=app-store"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9pbXBvcnRhaS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRmltcG9ydGFpLnN1YnN0YWNrLmNvbSUyRnAlMkZpbXBvcnQtYWktNDU1LWF1dG9tYXRpbmctYWktcmVzZWFyY2gmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjM056ZzVPREl4Tnl3aVpYaHdJam94Tnpnd05Ea3dNakUzTENKcGMzTWlPaUp3ZFdJdE1UTXhOelkzTXlJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLjhtUk9DU2F3RXhFV0RIZUNiWWNVWG9tMjBBcmFxS2xXa1Y2MGx4QXE0TWsiLCJwIjoxOTYzNTQ2MTUsInMiOjEzMTc2NzMsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc3ODk4MjE3LCJleHAiOjIwOTM0NzQyMTcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.zN0-uxSu9AgloaxY4nqKUs62e05CXePVPVMVVouSmfw"
+        },
+        {
+          "text": "about 6%",
+          "url": "https://substack.com/redirect/42cbdd61-03c3-4b3a-a3b1-9513b611399a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "#448",
+          "url": "https://substack.com/redirect/105c20f8-eb62-4ea9-b2ed-b42ee6640b82?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "CORE-Bench",
+          "url": "https://substack.com/redirect/6f1b8e20-d6ee-42f7-a860-d0ebfbeed086?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "declared the benchmark",
+          "url": "https://substack.com/redirect/059c91dc-7da8-4366-91ee-eab185920fb5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "#400",
+          "url": "https://substack.com/redirect/2ba4a180-dadd-4324-a445-fa72ed017b9b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Import AI 455: Automating AI Research ![](https://eotrx.substackcdn.com/o/8ee575046d815a81/p.gif?token=eyJtIjoiPDIwMjYwNTA0MTIzMjA5LjMuNjM0ZWZiMTUyYTE2MWEyYUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5NjM1NDYxNSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMzE3NjczLCJjIjoicG9zdCIsImYiOnRydWUsIm9wdF9pZCI6MTAxODAwNSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3Nzc4OTgyMTcsImV4cCI6MTc4MDQ5MDIxNywiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.bXzteEa7yUL43aBAejg5ppBc3sVJmYREnMUKCRufOWg)\n\nThe first step towards recursive self improvement\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "A real-time adaptive traffic light control algorithm at urban intersections for smart cities",
+      "date": "2026-05-04T12:56:25.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Researchers from Bouira University in Algeria, led by Hambli et al., have proposed a real-time adaptive traffic light control algorithm for urban intersections in smart cities, aiming to minimize travel time across the entire network. The algorithm uses a weighted graph to represent the road network, where each edge's weight is the estimated travel time based on current traffic conditions.\n* The system utilizes Vehicle-to-Infrastructure (V2I) and Infrastructure-to-Infrastructure (I2I) communication protocols to gather real-time traffic data and optimize traffic signal timing. V2I allows vehicles to broadcast their position, speed, and destination to intersection controllers, while I2I enables controllers to share traffic data with neighboring controllers.\n* The algorithm adapts Dijkstra's shortest-path algorithm to find the minimum-cost path from a source to a destination, taking into account the dynamic travel-time costs of each road segment. The costs are updated at the end of each signal cycle based on the latest sensor readings.\n* The system runs an ongoing optimization loop, recommending routes to vehicles and adjusting traffic signal timing in response to changing traffic conditions. The goal is to steer vehicles away from congested roads and minimize total travel time across the network.\n* The proposed system has been tested in simulation, but its effectiveness in real-world scenarios is yet to be determined, with the main constraint being the dependency on vehicles' ability to communicate with the infrastructure.\n\n### Notable Links\n* [A real-time adaptive traffic light control algorithm at urban intersections for smart cities episode](https://journalclub.io/episodes/a-real-time-adaptive-traffic-light-control-algorithm-at-urban-intersections-for-smart-cities)\n* Original Paper \n\nNote: As the original paper's title and DOI are not provided in the newsletter, they cannot be included in the summary.",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/a-real-time-adaptive-traffic-light-control-algorithm-at-urban-intersections-for-smart-cities?token=ClldGzDNmlwJT0k9q7e1Q1sprpG1JkrDnGvBl2dd0S8dAmpCxV"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "A real-time adaptive traffic light control algorithm at urban intersections for smart cities   \n\nMexico City is arguably the worst. Then Bengaluru, and Dublin. But Lodz, Lima, Bangkok and Bogota aren’t far behind. I’m talking, of course, about traffic. The residents of these cities spend the most time per year sitting in their cars, waiting for other cars to start moving.\n\n![](https://journalclub.io/px/ZV8d3IMzQxp4YdSKcxlDqBmo3lmL5AXIFOwHaCdzJmu1EQl9KR)\n\nA real-time adaptive traffic light control algorithm at urban intersections for smart cities\n\nJournalClub.io, May 4th, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/e0h980XBQGWbDdrZeSHF)](https://journalclub.io/episodes/a-real-time-adaptive-traffic-light-control-algorithm-at-urban-intersections-for-smart-cities?token=ClldGzDNmlwJT0k9q7e1Q1sprpG1JkrDnGvBl2dd0S8dAmpCxV)\n\nToday's article comes from the journal of Applied Computer Science. The authors are Hambli et al., from Bouira University, in Algeria. In"
+    },
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "[GUIDE] MCP Audit",
+      "date": "2026-05-04T12:57:43.000Z",
+      "summary": "## MCP Audit Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The MCP Audit newsletter emphasizes the importance of thoroughly vetting MCP (Model Context Protocol) servers before installing them, as they pose significant security risks due to their ability to read SSH keys, execute shell commands, and make HTTP requests to internal networks without sandboxing.\n- The author highlights that MCP servers are more than just plugins and require careful examination, citing recent security vulnerabilities such as the _mcp-remote_ CVSS 9.6 remote code execution flaw and OX Security confirming 200,000 MCP servers exposed via STDIO transport with zero input sanitization.\n- A step-by-step audit guide is provided, including verifying the publisher, reading the source code, running npm audit, inspecting tool descriptions for injection, checking transport and binding, running mcp-scan, pinning the version, and sandboxing the first run.\n- Specific tools and technologies mentioned include npm, GitHub, Brave Search, Cloudflare, and mcp-scan, with a focus on the importance of security and due diligence in the MCP ecosystem.\n- The newsletter mentions that known safe publishers, such as @modelcontextprotocol/\\* (Agentic AI Foundation) and official servers from GitHub, Brave, Sentry, and Cloudflare, can be trusted without the full audit, but all other servers should undergo the audit process.\n- The author shares their experience in auditing a popular MCP server, Brave Search, using the provided checklist and emphasizes the need for caution and thoroughness in vetting MCP servers to prevent security breaches.\n\n### Notable Links\n- Read online\n- Wispr Flow\n- Roku Ads Manager",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "\\[GUIDE\\] MCP Audit\n\n8 steps before that server goes anywhere near your codebase  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 04, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.2WMshDh4P1SYN8SqaafnJdjdmWP1WD1rdGPofZ1FxFoGEmJHThxMJjwWn-PCMbGjhLanizs_-J_oT_K5JU9QfI3Ozft32RDkOF0PphUR6T2uHBaOoRF6xSwIfr4gucUjsQdomkO1exyuUjSJbu0VDhR2NVfgEkg_oHE4FxaEVm7jOZIHfV3Rct2Cp-se8lY7SrSVLTMBYUThixUbk9dmM8EhP7VaXqLD98eCu7QYM9OzTNQrE3-EvSWvS1qy3kCro9WRRdRyYXujMsnvmADcBHXt_2_IGiBQri0ZP9QZLmhvNPrOrrkKscoLHgpSDjS98bTqlVFBXnUyiarTqPZAmfsJu1nDVj_6Nh4h6rPy3TGNP6Cv8XLI_Cy-Eq25w26XVj-SyCP-YPSBCQfGvltt2lz9mwn5VS68AC3AbAVG5wiL3n7fmAWbz7XaKtjr"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "💻 Apple confirms Mac Mini shortage",
+      "date": "2026-05-04T13:03:41.000Z",
+      "summary": "## Superhuman\n\n**Priority: HIGH**\n\n### Top Updates\n* Apple has confirmed a Mac Mini shortage due to high demand for AI, resulting in a price increase to $799, with potential implications for iPhone pricing.\n* Meta has launched Meta Ads AI Connectors, allowing advertisers to integrate third-party AI tools like ChatGPT and Claude into their ad accounts.\n* Atlassian and Twilio have reported significant revenue growth, with Atlassian announcing $1.8B in revenue (up 32% YoY) and Twilio posting $1.4B in revenue (up 20% YoY), both attributing their success to AI adoption.\n* Researchers have developed \"vintage models\" like Talkie, Mr. Chatterbox, and Machina Mirabilis, which are AI models trained exclusively on historical text to study past societies and test AGI capabilities.\n* Spinach AI offers a tool to record, transcribe, and summarize meetings, and feed the context to ChatGPT or Claude for executable tasks.\n* Granola provides an AI notepad that synthesizes meeting transcripts with user notes, creating actionable briefings with context.\n* The newsletter highlights various trending topics on social media, including a viral realtor ad, a prompt anatomy infographic, and the ability to customize Claude's personality.\n* New and trending AI tools include Chatter, a content intelligence tool; VibeKnow Studio, a video creation platform; MoClaw, a personal AI assistant; and Buda, a tool for recruiting and team management.\n* Claude, a large language model, has been updated with new features, including Claude Sonnet 4.5 for coding and Claude Opus 4.1 for complex reasoning.\n* ChatGPT, a popular AI chatbot, has been integrated with various platforms, including Microsoft 365 Copilot and Salesforce, and has reached over 100 million monthly users.\n* Gemini, Google's multimodal AI model, has been updated with new features, including Gemini 3.1 Pro and Gemini 3 Deep Think, and has been integrated with various Google products, including Search and Chrome.\n\n### Notable Links\n* [ChatGPT](https://www.chatgpt.com)\n* [Claude](https://www.anthropic.com/clause)\n* [Gemini](https://www.google.com/gemini)\n* [Spinach AI](https://www.spinach.ai)\n* [Granola](https://www.granola.ai)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "💻 Apple confirms Mac Mini shortage\n\nALSO: How to generate editable infographics with AI  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 04, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGWKjy7e1tKKE6f-zS9fFoAv-fnr7D1ZHav4Gh2dqRA4E1myQSpKtkw6nVRY-XchsN44SS7DmCFBk9tItzJ_SVjH-1_vOgJs-a7l1dBM1G8KD6y1YoMiZplhRA2gPRjAf2Ygz4VXdJjT2DS33B8HgpcSHHWj7SN2QNxj5m66KbA5SxOWbXtwhQbZBekUiZeAwnPktjJUDTRoygfCuuqknnlXmFDljczR3LPVPO1TP80Y9EEBIKk87My3AgUgS1wYKYv2B_UV7Yzy3LiigPIVWkpJacc4wsYPh0GqsK7fLEZ3tzyrIk1F6izHCM5WtARM0eaOCVqUP41wmmDocTnS9J2e5ismbtYYsY5UhK2wibUpIe69UMS3t8uM1_56shvzU-8XjeodKohf"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "2 new notifications since 7:15 pm (May 3, 2026)",
+      "date": "2026-05-04T13:46:06.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nate Herk posted two new videos: \"Building Realistic Voice Agents Has Never Been Easier\" and \"I Tried 100+ Claude Code Skills. These 6 Are The Best\", showcasing the capabilities of Claude Code and its applications in building voice agents and identifying the most useful skills for businesses, highlighting the potential of AI in automating tasks and improving efficiency.\n- The Claude Code skills discussed in the videos are part of the larger Claude ecosystem, a family of large language models developed by Anthropic, which has been making significant advancements in the field of AI, including the launch of Claude Sonnet 4.5, Claude Opus 4.1, and Claude Haiku 4.5, with notable features such as parallel tool use, extended thinking, and autonomous operation for up to seven hours.\n- Anthropic's Claude models have been adopted by major companies, including Microsoft, Salesforce, Amazon, and Google, and have been integrated with various tools and platforms, such as Microsoft 365 Copilot, Salesforce, Amazon Bedrock, and Google Vertex AI, demonstrating the growing importance of AI in industry and enterprise settings.\n- The latest development in the Claude series is Claude Mythos Preview, a next-generation model that has shown remarkable capabilities in identifying vulnerabilities and generating exploits, but has been deemed too dangerous for public release and is being shared with select companies for vulnerability testing and preparedness, highlighting the dual-use risks of AI in cybersecurity.\n- Anthropic has also announced partnerships with government agencies, including a $200M deal with the DoD and a partnership with the GSA for federal use at low cost, underscoring the potential of AI in national security and global AI governance.\n\n### Notable Links\n- Claude: [https://www.anthropic.com/claude](https://www.anthropic.com/claude)\n- Anthropic: [https://www.anthropic.com](https://www.anthropic.com)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3DCZk5_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXNEE8ovGG75UZdWWH6vTKTnO4KQPgCE6zEoWnI9RFBF23JmSHjezsqZyDkkwSCxSgVJ4sVPxfOM-2Fk5341f6EvSFKC0CX61tx7gmclAS79-2FRaaOIUg5glPuQdZEknYgo2scw0D2s7BEVTCrF7lGLnBmfRPAZYLbV353x5R8dXget5qg03Zm1bspV4650fkRdrr8NQuayM-2FI5Om-2B-2BdS96dYMaXqhExjfHP36DQ2bndVa330FmMfWTeqZukv8DXCsGTE0A0Y7gGEVTcSOZgXcMrEsUk4T-2BhcVUDPjdTQJIvqjR6gZpDFRQTJRmM88WOiE4NhxAO5iA4GwiSC"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Claude Jupiter 🤖, Codex pets 🐾, Replit’s margin lead 📈",
+      "date": "2026-05-04T13:55:14.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic is testing a new internal build, Jupiter-v1-p, ahead of its Code with Claude developer conference, indicating a potential announcement or launch of a new model, which is being hardened through a fresh round of red teaming to ensure responsible scaling.\n* Google is testing a new Omni model for video generation, which could unify its video and image-generation tools and potentially launch during Google I/O 2026, increasing competition in AI video generation.\n* OpenAI has updated Codex with animated Pets, which interact with users, and introduced config imports, enhancing the usability and appeal of Codex as a comprehensive desktop application.\n* DeepSeek's latest preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash, offer high accuracy at ultra-low bit widths with minimal tuning, making them a cost-effective option for large language models and vision-language models.\n* Replit's Amjad Masad discussed the company's strong growth, nearing a billion-dollar run rate, and its commitment to independence, while also expressing frustration with Apple's alleged discriminatory App Store practices.\n* Anthropic is nearing a $1.5 billion joint venture with Wall Street firms to create a company that helps teach businesses how to incorporate AI across their operations, further solidifying its position in the enterprise AI market.\n* Top AI companies have agreed to Pentagon deals for classified work, including Google, Microsoft, and Amazon, highlighting the growing involvement of AI companies in national security and defense.\n* Gemini, Google's family of advanced multimodal AI models, has been updated with new features and capabilities, including Gemini 3.1 Pro and Gemini 3 Deep Think, which offer state-of-the-art reasoning and multimodal capabilities.\n\n### Notable Links\n* [Synthetic Computer Environments for Agent Training](https://arxiv.org/abs/2604.28181)\n* [Reasoning-Based Rewards for Image Editing](https://arxiv.org/abs/2604.27505)\n* [AutoRound GitHub Repo](https://github.com/intel/auto-round)\n* [Designing, Refining, and Maintaining Agent Skills at Perplexity](https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity)\n* [vLLM routing and KV](https://avkcode.github.io/blog/how-vllm-works.html)",
+      "links": [
+        {
+          "text": "Synthetic Computer Environments for Agent Training (44 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2604.28181%3Futm_source=tldrai/1/0100019df3458bb7-7020112f-90eb-4591-8f35-1cdb724c1fb2-000000/UMxM8Zx4keIpvo6sDpMnwFO-Ka6x967uZFeCk3B8Ycs=452",
+          "isPaper": true
+        },
+        {
+          "text": "Reasoning-Based Rewards for Image Editing (18 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2604.27505%3Futm_source=tldrai/1/0100019df3458bb7-7020112f-90eb-4591-8f35-1cdb724c1fb2-000000/mpGSc7OmsKCKO__zFTYnUTDfYQ8RidlHbVYzig19hzg=452",
+          "isPaper": true
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2604.28181%3Futm_source=tldrai/1/0100019df3458bb7-7020112f-90eb-4591-8f35-1cdb724c1fb2-000000/UMxM8Zx4keIpvo6sDpMnwFO-Ka6x967uZFeCk3B8Ycs=452",
+          "title": "Synthetic Computer Environments for Agent Training (44 minute read)",
+          "source": "link"
+        },
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2604.27505%3Futm_source=tldrai/1/0100019df3458bb7-7020112f-90eb-4591-8f35-1cdb724c1fb2-000000/mpGSc7OmsKCKO__zFTYnUTDfYQ8RidlHbVYzig19hzg=452",
+          "title": "Reasoning-Based Rewards for Image Editing (18 minute read)",
+          "source": "link"
+        }
+      ],
+      "priority": "HIGH",
+      "originalContent": "TLDR AI\n\nAnthropic appears to have started a fresh round of red teaming on a new build. The company is set to host its Code with Claude developer conference ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019df3458bb7-7020112f-90eb-4591-8f35-1cdb724c1fb2-000000/E3cjV8tA4V81Fsfn7oafeF38-A7IUBpjNckVc52qyYE=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019df3458bb7-7020112f-90eb-4591-8f35-1cdb724c1fb2-000000/kv0ORbNJSp-MnDWNYhK7PL2hu0nDFNjzKn2BAwLBONE=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=3c455ea4-47b4-11f1-8a50-b96a4f78d0f7%26pt=campaign%26t=1777902914%26s=6defc091384af595ce01ecfd"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "xAI Voice Clone API 🎙️, Anthropic Code Conference 🛠️, FPGA 50k tok/sec",
+      "date": "2026-05-04T14:01:25.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n* xAI has added voice cloning to its API, allowing users to create a custom voice model in under two minutes with over 80 built-in voices across 28 languages. This capability can be used for various applications, such as giving support agents a consistent voice or narrating videos and podcasts in one's own voice at scale.\n* Anthropic has announced its 'Code with Claude' developer conference, which will feature live demos, hands-on workshops, and talks from Anthropic engineers and builders using Claude in production. The conference aims to help developers build smarter with Claude Code.\n* A developer has successfully burned a full transformer into FPGA hardware, achieving 50,000 tokens per second without a GPU. This project, called TALOS-V2, demonstrates the potential for running AI models with zero software and has implications for edge AI and IoT applications.\n* Scrapling, an open-source scraping tool, has been released, which can bypass Cloudflare and run 784x faster than BeautifulSoup. This tool can be useful for web scraping and data extraction tasks.\n* Iluvatar Labs has released Marvin, a fully autonomous cross-disciplinary scientist agent. This agent can potentially aid in scientific research and discovery.\n* An open-source deep research tool has been released, which can achieve 95% accuracy and run fully local. This tool can be useful for researchers and scientists working on various projects.\n* Anthropic has published a study that finds 1 in 1,300 Claude chats can distort users' grip on reality. This highlights the importance of AI safety and responsible AI development.\n* A new 9B open-source model has been released with all safety guardrails stripped out. This model can be used for various applications, but its release also raises concerns about AI safety and potential misuse.\n\n### Notable Links\n* [xAI Voice Cloning API](https://www.xai.ai/voice-cloning)\n* [Anthropic Code with Claude Conference](https://claude.com/code-with-claude)\n* [TALOS-V2 FPGA Transformer](https://github.com/talos-v2/talos-v2)\n* [Scrapling Open-Source Scraping Tool](https://github.com/scrapling/scrapling)\n* [Iluvatar Labs Marvin Scientist Agent](https://iluvatarlabs.com/marvin)\n* [Open-Source Deep Research Tool](https://github.com/open-source-deep-research-tool/open-source-deep-research-tool)\n* [Anthropic Study on Claude Chats](https://www.anthropic.com/research/clause-chats)\n* [9B Open-Source Model](https://github.com/9b-open-source-model/9b-open-source-model)",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=5416d56d3ce6c334&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=5416d56d3ce6c334&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=5416d56d3ce6c334&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=5416d56d3ce6c334&mid=e9429256-f9e7-414e-b2be-e693f9db1b3f&s=xAI%20Voice%20Clone%20API%20%F0%9F%8E%99%EF%B8%8F%2C%20Anthropic%20Code%20Conference%20%F0%9F%9B%A0%EF%B8%8F%2C%20FPGA%2050k%20tok/sec&t=1777903277)\n\nOn TALOS-V2 FPGA transformer, Scrapling 784x speed boost, Claude reality distortion study, 9B guardrail-free model\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=5416d56d3ce6c334&lid=1vh1VSwGS82x0LB7W&mid=e9429256-f9e7-414e-b2be-e693f9db1b3f)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=5416d56d3ce6c334&lid=1enuX9LrXTVItBWgb&mid=e9429256-f9e7-414e-b2be-e693f9db1b3f)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nWe're watching two ver"
+    },
+    {
+      "from": "\"The Code\" <thecode@mail.joinsuperhuman.ai>",
+      "subject": "👀 OpenAI made coding fun again",
+      "date": "2026-05-04T14:01:25.000Z",
+      "summary": "## The Code\n\n**Priority: HIGH**\n\n### Top Updates\n- OpenAI has made coding more enjoyable with its latest updates, including a weekend update that garnered over 3 million views on X and is being loved by developers for its playful twist.\n- Anthropic has unveiled Claude Security, an AI vulnerability scanner for enterprise teams, which utilizes Opus 4.7 to identify and patch vulnerabilities in enterprise code, featuring a multi-stage validation process to reduce false positives.\n- xAI has released Grok 4.3, a new model providing always-on reasoning at a lower cost, with a reasoning-first engine and a large 1M token context window, making it significantly cheaper than Claude Opus or GPT-5.5.\n- A developer's AI-coded app initially succeeded but turned into a maintenance nightmare due to a disorganized codebase, highlighting the importance of strict code reviews and treating sloppy AI-generated pull requests as a performance issue.\n- Cursor's SDK treats the agent harness as the actual product, emphasizing the value of the tools, prompts, and edit logic surrounding the model over the model itself, demonstrating significant improvements in reducing tool call errors and enhancing user experience.\n- A Google senior engineer shared which AI certifications are valued by hiring managers, including those related to Claude Code, Codex CLI, and Copilot CLI, and how they impact hiring decisions.\n- Nicolas Bustamante showed that different AI models produce varying results, highlighting the importance of \"Model-Harness-Fit\" in achieving optimal performance, and how each new model breaks the previous version's harness, making maintenance a continuous process.\n- A viral Reddit post detailed a developer's success with building and shipping a full-stack web app using Codex, mastering agentic coding skills, and leveraging plugins, automations, and sub-agents, showcasing the potential of AI in software development.\n- OpenAI's Codex skill can pressure-test startup ideas, map competitors, and scope a 2-week MVP, providing a valuable tool for entrepreneurs and developers, with an example of a successful implementation receiving 1.9k likes.\n- A founder built a native image processing module for his JavaScript runtime using a three-sentence Claude prompt, demonstrating the potential of AI in streamlining development processes and improving productivity.\n- The Musk v. Altman trial is being tracked through a wiki built from court transcripts, providing a clean and organized way to follow the trial's developments and twists.\n\n### Notable Links\n- [Claude Security](https://link.to/ClaudeSecurity)\n- [Grok 4.3](https://link.to/Grok43)\n- [Codex](https://link.to/Codex)\n- [Cursor's SDK](https://link.to/CursorSDK)\n- [Speeding up agentic workflows (by OpenAI)](https://link.to/SpeedingUpAgenticWorkflows)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "👀 OpenAI made coding fun again\n\nAlso: Build and ship with Codex  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 04, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.kro7WBsAmEsY5mGgiUDePbOdMF_BvViPt7FxYKgxL9sHVZQygtqtO1WfYznfGJIbKiCABssDOW8zTUeKoCAsigPhI8BWKv8yYeboxGcanjoTr9DAsf0n2AsGnJZe-EAhz1mIT3REQE4gHId4C9mWqfEbONBxM-X1-phbCn4_Ho_wzw6MH2KL2bOTAfUZ99cK8VjoCUxeeS3VxHAyMJzN-8nNNyH95M9FoFweH-KL3iYJgyfsf7_RrS8-y6mk8yi3yu08jNFKRWyjGGdseoszv6mFFuJgQ8wG7gQVV2fLQ9XUb3clZGmJq6otsOD4MzA0nnKRSJJIVcjslDeCxJ7vU-kpcvsNTcJAwd9kOG_qMQXVFPUymiHmP4l6jbRMspMt4vthiXVGndNUvYJElQFCak3sQjN1azS3hc8wnBZA8sRsdK-Mz_RQEMWSMLpfoakiri3xeskuu8K0"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Gemini will power The Pentagon's AI after all",
+      "date": "2026-05-04T15:03:32.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Google has partnered with the US military to supply its Gemini AI models for classified government use, becoming the third major AI lab to do so, after OpenAI and xAI. The contract terms are notably looser than those of OpenAI and xAI, with Google handing over control to the US government.\n* The Gemini deal is part of a broader push to embed AI across US military operations, and Google's involvement provides flexibility and prevents any single company from controlling the military's supply chain.\n* The US military can adjust Google's AI guardrails on request, and the contract prohibits using AI for domestic mass surveillance and autonomous weapons without human oversight. However, the terms' legal enforceability are still uncertain.\n* Anthropic, an AI safety-focused company, has refused a similar agreement with the US government, earning respect from AI ethicists and the label \"supply-chain risk.\" Anthropic has secured massive investments from Google and Amazon, totaling up to $65 billion, to support its Claude AI model.\n* Shapes, an app, integrates AI characters into group chats to combat AI psychosis, which occurs when users become isolated in one-on-one conversations with AI. The app has gained 400,000 monthly users and allows users to create their own AI characters.\n* Oura is launching a new feature that factors hormonal birth control into its cycle tracking, providing users with more personalized insights into how contraception affects their metrics.\n\n### Notable Links\n* Tactics newsletter \n* Whisk \n* Infinite Talk AI \n* DiscMeet \n* Mapify \n* BotDojo",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The Pentagon turns to Google\n\n\\+ The app bringing AIs into group chats  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n04 May\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/4f82573d-0c65-4250-8c72-f60bbb17ce69/thumb_Taylor_PP.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055"
+    },
+    {
+      "from": "\"Interconnects by Nathan Lambert\" <robotic@substack.com>",
+      "subject": "The distillation panic",
+      "date": "2026-05-04T15:56:45.000Z",
+      "summary": "## Interconnects by Nathan Lambert\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The term \"distillation attacks\" refers to the practice of hacking or jailbreaking APIs to extract more signal from model APIs, which is distinct from the legitimate technique of distillation used in AI research and development. This distinction is crucial as associating all distillation with these attacks could lead to a negative connotation of the term and hinder the development of AI capabilities.\n- Nathan Lambert argues that the use of the term \"distillation attacks\" could create a grey area that exposes entities to unwanted risk, particularly small open-source contributors, and might lead to regulatory capture or exuberance that harms the U.S. AI ecosystem more than China's.\n- Distillation itself is an industry-standard technique used extensively in post-training, primarily by smaller players to create specialized or smaller models. It involves training a less capable model on the outputs of a stronger one and takes many forms, including using a GPT API to build an initial batch of synthetic data for a specialized small data-processing model.\n- The recent Anthropic blog post detailing \"distillation attacks\" made by 3 Chinese labs highlights the need to distinguish between legitimate distillation techniques and illicit activities like jailbreaking or hacking. The post also emphasizes the importance of maintaining the U.S.'s lead in AI capabilities while avoiding overregulation that could stifle innovation.\n- Nathan Lambert suggests that instead of referring to these actions as distillation attacks, they should be called jailbreaking or abuse, to avoid tainting the reputation of a useful and widely used technique in AI development.\n- The issue has sparked a regulatory response, with a bill moving out of a committee in Congress, an executive order pushing for action, and congressional oversight targeting U.S. companies building on Chinese models. This multi-pronged regulatory environment could yield negative outcomes, such as effectively banning open-weight models in the U.S. that are built in China by groups abusing closed LLM APIs.\n- Nathan Lambert proposes that the leading U.S. AI companies should be able to provide their APIs without having their IP leak and suggests that the current distillation dynamic may actually be beneficial for leading labs, as it could prevent Chinese companies from developing their own cutting-edge models and relying on distillation as a crutch.\n\n### Notable Links\n- The distillation panic: https://substack.com/app-link/post?publication_id=48206&post_id=196156125&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjE1NjEyNSwiaWF0IjoxNzc3OTEwMzAxLCJleHAiOjE3ODA1MDIzMDEsImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.J2wYhP9cF0Q395I-8nRWoIMPk5Li-wBdNf-ZkEmpSTw\n- Nathan Lambert: https://substack.com/@natolambert\n- Technical piece: [link]\n- Detailed “distillation attacks” made by 3 Chinese labs: [link]\n- Book: [link]\n- One prominent case of corporate accounts being restricted exists: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuaW50ZXJjb25uZWN0cy5haS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cuaW50ZXJjb25uZWN0cy5haSUyRnAlMkZ0aGUtZGlzdGlsbGF0aW9uLXBhbmljIiwicCI6MTk2MTU2MTI1LCJzIjo0ODIwNiwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3Nzc5MTAzMDEsImV4cCI6MjA5MzQ4NjMwMSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.Oi3Jof2Ic-DPsm24kYdky9GFWNjSXvz_FOffUVFavZA?"
+        },
+        {
+          "text": "The distillation panic",
+          "url": "https://substack.com/app-link/post?publication_id=48206&post_id=196156125&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjE1NjEyNSwiaWF0IjoxNzc3OTEwMzAxLCJleHAiOjE3ODA1MDIzMDEsImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.J2wYhP9cF0Q395I-8nRWoIMPk5Li-wBdNf-ZkEmpSTw"
+        },
+        {
+          "text": "Nathan Lambert",
+          "url": "https://substack.com/@natolambert"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/robotic/p/the-distillation-panic?redirect=app-store"
+        },
+        {
+          "text": "Listen to post · 8:51",
+          "url": "https://substack.com/app-link/post?publication_id=48206&post_id=196156125&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjE1NjEyNSwiaWF0IjoxNzc3OTEwMzAxLCJleHAiOjE3ODA1MDIzMDEsImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.J2wYhP9cF0Q395I-8nRWoIMPk5Li-wBdNf-ZkEmpSTw#play"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=48206&post_id=196156125&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjE1NjEyNSwiaWF0IjoxNzc3OTEwMzAxLCJleHAiOjE3ODA1MDIzMDEsImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.J2wYhP9cF0Q395I-8nRWoIMPk5Li-wBdNf-ZkEmpSTw"
+        },
+        {
+          "text": "technical piece",
+          "url": "https://substack.com/redirect/5ae752b7-a1f8-42fe-99cf-b02fe0b1279a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "detailed “distillation attacks” made by 3 Chinese labs",
+          "url": "https://substack.com/redirect/041e4a1b-eda4-4090-8f27-efa0ddf64258?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "book",
+          "url": "https://substack.com/redirect/ec9ab39c-d1f1-44a5-8bfd-d88aeba970df?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "one prominent case of corporate accounts being restricted exists",
+          "url": "https://substack.com/redirect/bc195db9-224a-49be-86dc-3a46d178f913?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The distillation panic![](https://eotrx.substackcdn.com/o/0e0dd59741bb2d79/p.gif?token=eyJtIjoiPDIwMjYwNTA0MTU1NjQ1LjMuZTBjZDFlZGM0MTI0NDVhY0BtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5NjE1NjEyNSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo0ODIwNiwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3NzkxMDMwMiwiZXhwIjoxNzgwNTAyMzAyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.zqxkunNh2zQjvr_SE54qKa45w0HAStv3BX565b67Bu0)\n\n‘Distillation attacks’ is a horrible term for what is happening right now.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "How to replace DocuSign in 30 minutes for $5 a month ✍️",
+      "date": "2026-05-04T17:43:01.000Z",
+      "summary": "## The AI Corner\n\n**Priority: MEDIUM**\n\n### Top Updates\n* DocuSign, a $9 billion company, can be replaced with an open-source alternative called DocuSeal, which offers similar features at a significantly lower cost of €3 to €5 per month.\n* A 50-person team can save $39,000 per year by switching from DocuSign to DocuSeal, which can be deployed in 30 minutes.\n* DocuSeal is AGPL-3.0 licensed and has 11,800+ GitHub stars, 1,000+ forks, and offers the same 13 field types as DocuSign, with the same compliance posture.\n* The full guide to replacing DocuSign with DocuSeal includes a 30-minute deployment walkthrough, 4 hosting options ranked by cost, and exact docker-compose.yml for HTTPS, custom domains, automatic SSL, and PostgreSQL.\n* The guide also covers API integration patterns, cost comparisons, compliance walkthroughs, and maintenance accounting.\n* The same replacement pattern can be applied to 12 other expensive SaaS categories.\n\n### Notable Links\n* Subscribe to The AI Corner\n* [DocuSeal GitHub repository](https://github.com/docusealco/docuseal)\n* The AI Corner full guide to replacing DocuSign with DocuSeal",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRnJlcGxhY2UtZG9jdXNpZ24tZG9jdXNlYWwtc2VsZi1ob3N0LWd1aWRlLTIwMjYiLCJwIjoxOTY0NDY3NzYsInMiOjY4NTA1NDQsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc3OTE2Njk2LCJleHAiOjIwOTM0OTI2OTYsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.pTNKgDWFJNPsvkigT2F7eT2uuwid9AdSpYDZzQXSg40?"
+        },
+        {
+          "text": "How to replace DocuSign in 30 minutes for $5 a month ✍️",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=196446776&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjQ0Njc3NiwiaWF0IjoxNzc3OTE2Njk2LCJleHAiOjE3ODA1MDg2OTYsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.Hv2dpKMc82sjd7AaozCOXTvOOC_i7ieiqN-EIzRjtaY"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/replace-docusign-docuseal-self-host-guide-2026?redirect=app-store"
+        },
+        {
+          "text": "full guide",
+          "url": "https://substack.com/redirect/a8551702-7709-47ee-8b86-fcec03dbdcf2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Start trial",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy50aGUtYWktY29ybmVyLmNvbSUyRnAlMkZyZXBsYWNlLWRvY3VzaWduLWRvY3VzZWFsLXNlbGYtaG9zdC1ndWlkZS0yMDI2JnI9NDlieTM0JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lOVGMxTXpnMk5EQXNJbWxoZENJNk1UYzNOemt4TmpZNU5pd2laWGh3SWpveE56Z3dOVEE0TmprMkxDSnBjM01pT2lKd2RXSXROamcxTURVME5DSXNJbk4xWWlJNkltTm9aV05yYjNWMEluMC5ZMVZqN0lCcHM0Nm9WMkdtejNMUkFlcHhnRVVzdGoxdjhId1JOSWVaX0RvIiwicCI6MTk2NDQ2Nzc2LCJzIjo2ODUwNTQ0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc3NzkxNjY5NiwiZXhwIjoyMDkzNDkyNjk2LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.vkPH5ydGvccrgbggi5w91rEoyB--7hlZZcdRggSrSoo?simple=true&next=https%3A%2F%2Fwww.the-ai-corner.com%2Fp%2Freplace-docusign-docuseal-self-host-guide-2026&coupon=a600db30"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=196446776&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjQ0Njc3NiwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3Nzc5MTY2OTYsImV4cCI6MTc4MDUwODY5NiwiaXNzIjoicHViLTY4NTA1NDQiLCJzdWIiOiJyZWFjdGlvbiJ9.nvLpjXxSrITMbpdjDs6rFxCxVZ-XfE0INdpgGPFWdHo&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=196446776&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NjQ0Njc3NiwiaWF0IjoxNzc3OTE2Njk2LCJleHAiOjE3ODA1MDg2OTYsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.Hv2dpKMc82sjd7AaozCOXTvOOC_i7ieiqN-EIzRjtaY&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvdGhlYWljb3JuZXIxL3AvcmVwbGFjZS1kb2N1c2lnbi1kb2N1c2VhbC1zZWxmLWhvc3QtZ3VpZGUtMjAyNj91dG1fc291cmNlPXN1YnN0YWNrJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXJlc3RhY2stY29tbWVudCZhY3Rpb249cmVzdGFjay1jb21tZW50JnI9NDlieTM0JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lOVGMxTXpnMk5EQXNJbkJ2YzNSZmFXUWlPakU1TmpRME5qYzNOaXdpYVdGMElqb3hOemMzT1RFMk5qazJMQ0psZUhBaU9qRTNPREExTURnMk9UWXNJbWx6Y3lJNkluQjFZaTAyT0RVd05UUTBJaXdpYzNWaUlqb2ljRzl6ZEMxeVpXRmpkR2x2YmlKOS5IdjJkcEtNYzgyc2pkN0Fhb3pDT1hUdk9PQ19pN2llaXFOLUVJelJqdGFZIiwicCI6MTk2NDQ2Nzc2LCJzIjo2ODUwNTQ0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc3NzkxNjY5NiwiZXhwIjoyMDkzNDkyNjk2LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.9zTFOqJWQWpYXWTo0oxHof-Y0XmAN438TOBrLctK-8s"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "How to replace DocuSign in 30 minutes for $5 a month ✍️![](https://eotrx.substackcdn.com/o/29910ce62698e891/p.gif?token=eyJtIjoiPDIwMjYwNTA0MTc0MzAxLjMuYmYyNmZiZjFmZmRkNTk4MEBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxOTY0NDY3NzYsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjY4NTA1NDQsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3Nzc5MTY2OTYsImV4cCI6MTc4MDUwODY5NiwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.kMHIK-HEXwHGddm-wVWid-dP2LXtRCVq9O4QpMVTipA)\n\nA 50-person team saves $39,000 a year. The exact step-by-step guide. Plus the broader pattern for replacing 12 other expensive SaaS categories the same way.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "These prompts unlock serious automation",
+      "date": "2026-05-04T19:30:59.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Mindstream is offering 150 prompts that can be used to automate various tasks, including marketing and content creation, sales and lead generation, customer service and support, automation and workflow optimization, and personal and business growth. These prompts are described as plug-and-play, allowing users to start automating tasks immediately and potentially save hours of time.\n- The newsletter mentions several resources for business growth and marketing, including The Hustle, Starter Story, Marketing Against the Grain, and The Science of Scaling, indicating an emphasis on applying AI and automation in practical business contexts.\n- The Mindstream newsletter includes a bonus resource but does not specify what this bonus entails, suggesting that subscribers might receive additional tools or information beyond the initial 150 prompts.\n\n### Notable Links\n- Privacy Policy\n- Terms of Service\n- The Hustle\n- Starter Story\n- Marketing Against the Grain\n- The Science of Scaling",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Use our prompts to automate your job\n\nThere's something for everyone!  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n04 May\n\n![](https://link.mail.beehiiv.com/ss/o/u001.4dRQXGJtOgv2SY148jqY7A/4qc/U-H7JNdmQuqn92IhLY8UJA/ho.gif)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/508b7ca6-377b-49e2-a49a-2b460c340609/Mindstream_Masthead_New.png?t=1776419005)\n\n**These 150 prompts unlock the automation of your work.**\n\nThey’re plug-and-play - so they work straight away.\n\nStart automating and save hours.\n\nWhat's in the 150 prompts:\n\n*   Marketing and content creation\n    \n*   S"
+    }
+  ],
+  "tldr": [
+    "Anthropic's Claude Model improves reasoning and coding tasks.",
+    "Google partners with US Military for AI use.",
+    "OpenAI updates Codex with new features and tools.",
+    "Anthropic refuses US Government agreement over risks.",
+    "xAI releases Grok 4.3 for cost-effective reasoning."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is an AI safety-focused company developing Claude, a frontier large language model competing with OpenAI's GPT series. The company has recently secured massive infrastructure commitments from major cloud providers to support explosive demand for its models.[1][2] In late April 2026, Google committed up to $40 billion in investment ($10 billion immediately at a $350 billion valuation, with $30 billion tied to performance milestones) plus 5 gigawatts of TPU capacity over 5 years, while Amazon expanded its backing by up to $25 billion ($5 billion immediately, $20 billion conditional)—collectively representing $65 billion in potential investment and 10 gigawatts of compute capacity.[2] These investments reflect how capacity constraints have become Anthropic's primary operational bottleneck given Claude's unprecedented adoption.\n\nAnthropic has launched several significant products demonstrating enterprise AI ambitions beyond model development. The company introduced Claude Mythos Preview, a specialized cybersecurity AI model available to vetted organizations including Amazon, Apple, Microsoft, Broadcom, Cisco, and CrowdStrike.[1] More broadly, Anthropic launched Managed Agents infrastructure, positioning itself as \"the AWS of AI agents\" by providing production-grade agent deployment with built-in sandboxing, authentication, state management, and orchestration—with early adopters reporting 10x faster deployment times.[4] Claude has also demonstrated significant improvements in reasoning and coding tasks, achieving a 60% reduction in hallucinations compared to competitors and matching latency of rival models while requiring 40% fewer output tokens for coding tasks.[2]\n\nThe infrastructure investments underscore Anthropic's evolution from a well-funded research lab into a critical enterprise AI infrastructure provider competing in the broader cloud wars. The dual investment from competing hyperscalers (Google and Amazon) reveals that Anthropic has become an \"anchor tenant\" in cloud infrastructure procurement strategies, addressing enterprise AI adoption bottlenecks around compute capacity, model reliability, and infrastructure sovereignty.[2]",
+        "source": "web search"
+      },
+      {
+        "topic": "Claude",
+        "context": "Claude is a family of large language models developed by Anthropic, founded in 2021 by former OpenAI executives, emphasizing safety, interpretability, and Constitutional AI to align with human values. The latest flagship models include Claude Sonnet 4.5 (September 2025), the world's best coding model; Claude Opus 4.1 for complex reasoning; and Claude Haiku 4.5 for high-speed tasks. Claude 4, launched in May 2025, introduced parallel tool use, extended thinking, and autonomous operation for up to seven hours, capturing over 75% of API users quickly and doubling OpenAI's enterprise developer market share.[1] These advancements matter for their superior performance in coding, reasoning, and multimodal tasks like image analysis, driving industry shifts in software engineering and enterprise AI adoption.[1][4]\n\nThe most recent development is Claude Mythos Preview, a next-generation model so powerful at identifying thousands of high-severity vulnerabilities—including zero-days in major OSes and browsers—and generating exploits (72.4% success rate in Firefox JS shell)—that Anthropic deems it too dangerous for public release. Instead, it's shared with 40 select companies for vulnerability testing and preparedness, sparking a race to patch critical bugs while highlighting AI's dual-use risks in cybersecurity.[2][3][4] Other updates include integrations with Microsoft 365 Copilot (Sonnet 4 and Opus 4.1), Salesforce, Amazon Bedrock, Google Vertex AI, and government partnerships like a $200M DoD deal and GSA for federal use at low cost.[5]\n\nClaude's impact is profound: it disrupts software development with tools like Claude Code, enhances enterprise productivity (e.g., RBC Wealth Management), and leads in AI safety via collaborations with US CAISI and UK AISI for red-teaming. By deprecating older models and focusing on Claude 4+, Anthropic solidifies its position as a safety-first alternative to competitors, influencing national security and global AI governance.[1][5]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT, developed by OpenAI, is a generative AI chatbot based on the GPT (generative pretrained transformer) architecture that gained massive popularity since its launch in November 2022, reaching 1 million users in just 5 days and over 100 million monthly users by early 2023. It matters due to its transformative potential in industries, with McKinsey estimating generative AI like ChatGPT could add up to $4.4 trillion annually to the global economy by enhancing tasks in technology, media, and beyond through self-supervised learning on vast text data.[2][4] Recent benchmarks as of January 2026 show ChatGPT's latest iteration, GPT-5.2 (xhigh), scoring 35.4% on 'Humanity's Last Exam,' slightly trailing Google DeepMind's Gemini 3 Pro Preview at 37.2%, indicating intensifying competition from models like Gemini and Claude Opus 4.5.[2]\n\nLatest developments include OpenAI reportedly closing a historic $100 billion funding round at an $850 billion valuation, signaling strong investor confidence amid stagnating traffic (OpenAI.com down 38.9% to 573.5 million visits in December 2025, while ChatGPT.com holds steady at 5.2 billion).[1][2] Integrations like JioHotstar's use of ChatGPT for content search and recommendations highlight its expanding real-world applications.[1] In the AI/ML space, ChatGPT faces challenges like benchmark slippage and ethical concerns, yet drives industry impact through rapid adoption, with AI investment surging and new models emerging monthly.[1][2][4]",
+        "source": "web search"
+      },
+      {
+        "topic": "Gemini",
+        "context": "Gemini is Google's family of advanced multimodal AI models, excelling in reasoning, coding, and handling text, images, audio, and video. The latest developments include the global rollout of **Gemini 3.1 Pro** to all Gemini app users, offering state-of-the-art reasoning for complex projects, with higher limits for Google AI Pro and Ultra subscribers. **Gemini 3 Flash** is now the default model, providing PhD-level reasoning at high speed, surpassing Gemini 2.5 Flash in multimodal capabilities. Additionally, **Gemini 3 Deep Think**, available to Ultra subscribers, enhances scientific, research, and engineering tasks through iterative reasoning[1][5][6].\n\nThese upgrades matter as they position Gemini as a versatile AI assistant rivaling ChatGPT and Claude, with superior agentic workflows, 1 million token context windows, and practical applications like Deep Research powered by newer models. Leaked tests of **Gemini 3.1/3.2/3.5 Flash** on LM Arena suggest impending releases ahead of Google I/O, indicating rapid iteration for speed, cost-efficiency, and power[2][3].\n\nThe industry impact is significant, driving advancements in autonomous agents, coding, and multimodal AI, with broader access (e.g., free Deep Research) democratizing high-end capabilities and challenging competitors in performance benchmarks[1][4][5].",
+        "source": "web search"
+      },
+      {
+        "topic": "Google",
+        "context": "Google continues to lead in AI/ML with major updates to its Gemini models and ecosystem integration. In March 2026, Google expanded Search Live globally to over 200 countries for hands-free AI interactions via voice or camera, introduced Canvas in AI Mode for creative writing and coding in Search, and rolled out Personal Intelligence across Search, Chrome, and the Gemini app in the U.S., leveraging user data from Gmail and Photos for personalized recommendations while prioritizing privacy controls. These developments make AI more contextual and proactive in daily tasks like work, travel via upgraded Google Maps, and health tracking.[1] Google Cloud advanced with Gemini Embedding 2, the first natively multimodal model handling text, images, video, audio, and documents in a single space for retrieval tasks (public preview), and Gemini 3.1 Pro, enhancing reasoning for complex business problems, now in preview on Vertex AI.[2]\n\nThese innovations matter as they embed AI deeply into consumer products and enterprise tools, improving efficiency and personalization amid intensifying competition. Google's investment in Anthropic aligns with its multi-model strategy, boosting Gemini's capabilities. Project Suncatcher explores solar-powered satellites with TPUs for space-based AI computation, with prototypes planned for 2027, potentially revolutionizing sustainable, large-scale AI infrastructure by reducing Earth-bound energy constraints and enabling orbital training.[3] This positions Google to drive industry impact through scalable, efficient AI at edge and cloud levels, influencing cloud economics and agentic AI shifts as highlighted in recent analyses.[7]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "AI-Assisted Cyberattacks Reach Critical Scale in 2025",
+        "summary": "Malicious packages in public repositories surged from 55,000 in 2022 to 454,600 by 2025, with AI-generated phishing outperforming human red teams. Time-to-exploit for vulnerabilities has collapsed to 44 days, and exploits now arrive before patches in 28.3% of CVE disclosures, representing a fundamental shift in cybersecurity threat landscape.",
+        "whyItMatters": "AI practitioners need to understand the dual-use implications of their tools—agentic AI platforms like Claude Code have enabled unprecedented scale in attack campaigns, with individuals conducting extortion targeting 17+ organizations and breaching government systems. This raises urgent questions about responsible AI deployment and security controls.",
+        "source": "The Hacker News - 2026: The Year of AI-Assisted Attacks"
+      },
+      {
+        "headline": "Fortune 500 Companies Losing Control of AI Infrastructure",
+        "summary": "More than 80% of Fortune 500 companies now use active AI agents built with low-code platforms, creating a 'shadow AI governance crisis' where organizations have deployed AI agents without adequate oversight or control mechanisms.",
+        "whyItMatters": "This represents a critical gap between AI adoption and governance. For AI practitioners and enterprise leaders, this signals an urgent need for standardized governance frameworks, audit mechanisms, and risk management protocols as AI agent deployment outpaces organizational control capacity.",
+        "source": "Security Boulevard - The Shadow AI Governance Crisis"
+      },
+      {
+        "headline": "Enterprise AI Adoption Lags Despite Hype: 61% Still Experimenting",
+        "summary": "Despite widespread media coverage, McKinsey and WSJ reporting shows most organizations haven't embedded AI deeply enough to realize material benefits, with 61% of CIOs still experimenting and 21% not using AI agents at all. Reliability remains the top concern preventing broader adoption.",
+        "whyItMatters": "This reveals a significant gap between AI capability and real-world enterprise implementation. For AI tool developers and practitioners, it indicates that technical sophistication alone isn't sufficient—organizations need solutions addressing reliability, integration challenges, and demonstrated ROI to move beyond experimental phases.",
+        "source": "Talking Logistics - Forget AI (At Least for a Moment)"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as a company working on AI and having a code conference"
+      },
+      {
+        "name": "Claude",
+        "type": "product",
+        "context": "Mentioned as an AI model and a design tool"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned in comparison with other AI models like Gemini and Claude"
+      },
+      {
+        "name": "Gemini",
+        "type": "product",
+        "context": "Mentioned as an AI model and in comparison with ChatGPT and Claude"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as a company betting on Anthropic and having ainterest in AI"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as a company working on AI and having a product like ChatGPT"
+      },
+      {
+        "name": "Codex",
+        "type": "product",
+        "context": "Mentioned as an AI model for coding and building"
+      },
+      {
+        "name": "TALOS-V2",
+        "type": "product",
+        "context": "Mentioned as a FPGA transformer for AI processing"
+      },
+      {
+        "name": "Meta",
+        "type": "company",
+        "context": "Mentioned as a company acquiring a startup for humanoid robots"
+      },
+      {
+        "name": "AI Automation Society",
+        "type": "event",
+        "context": "Mentioned as a society having an event and discussions on AI automation"
+      }
+    ]
+  },
+  "savedAt": "2026-05-04T18:30:00.000Z",
+  "dateString": "2026-05-05"
+}
