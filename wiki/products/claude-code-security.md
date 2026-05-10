@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[anthropic]]
 > **First mentioned**: 2026-02-22
 > **Last updated**: 2026-03-10 (backfill 2026-02-20..2026-03-10)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[claude-code]], [[anthropic]]
 
 ## Summary

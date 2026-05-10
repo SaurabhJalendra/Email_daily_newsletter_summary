@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-03-07
-> **Status**: active
+> **Status**: stale
 > **Related**: [[gemini]], [[google]], [[chatgpt-atlas]], [[ai-browsers]], [[aardvark]], [[openai]], [[perplexity]]
 
 ## Summary

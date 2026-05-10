@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-11-14
 > **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[marble]], [[world-models]], [[meta]]
 
 ## Summary

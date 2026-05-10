@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-04
 > **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
-> **Status**: active (macOS + Windows; ChatGPT Free/Go users get limited-time access)
+> **Status**: stale (macOS + Windows; ChatGPT Free/Go users get limited-time access)
 > **Related**: [[openai]], [[openai-codex]], [[gpt-5-2-codex]], [[gpt-5-3-codex]], [[chatgpt]], [[agent-frameworks]], [[claude-code]]
 
 ## Summary

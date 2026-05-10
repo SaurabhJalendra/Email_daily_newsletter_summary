@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[google]]
 > **First mentioned**: 2026-02-28
 > **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[nano-banana-pro]], [[gemini-3-1-pro]]
 
 ## Summary

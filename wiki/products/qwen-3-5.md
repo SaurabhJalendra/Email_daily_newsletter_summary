@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-18
 > **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[alibaba]], [[qwen-3-vl]], [[qwen-image-2]], [[qwen3-coder-next]], [[deepseek]]
 
 ## Summary
