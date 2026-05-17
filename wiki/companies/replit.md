@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-03-13
-> **Status**: active
+> **Status**: stale
 > **Related**: [[cursor]], [[claude-marketplace]]
 
 ## Summary

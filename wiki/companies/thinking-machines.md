@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-02
 > **Last updated**: 2026-03-12 (backfill 2026-03-12)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[tinker-api]], [[openai]], [[meta]], [[nvidia]], [[ai-funding-rounds]], [[ai-hardware]]
 
 ## Summary

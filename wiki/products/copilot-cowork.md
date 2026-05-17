@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[microsoft]] (built on [[anthropic]] Claude)
 > **First mentioned**: 2026-03-11
 > **Last updated**: 2026-03-11
-> **Status**: active
+> **Status**: stale
 > **Related**: [[microsoft]], [[anthropic]], [[claude-cowork]], [[enterprise-ai]]
 
 ## Summary

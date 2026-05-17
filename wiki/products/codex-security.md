@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[openai]]
 > **First mentioned**: 2026-03-10
 > **Last updated**: 2026-03-11
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[openai-codex]], [[openai-frontier]], [[aardvark]], [[claude-code-security]], [[prompt-injection]]
 
 ## Summary

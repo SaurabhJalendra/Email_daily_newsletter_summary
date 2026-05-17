@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[google]]
 > **First mentioned**: 2026-03-12
 > **Last updated**: 2026-03-13
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[gemini]], [[gemini-3-1-pro]]
 
 ## Summary

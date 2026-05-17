@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-31
 > **Last updated**: 2026-03-17
-> **Status**: active
+> **Status**: stale
 > **Related**: [[canva-design-model]], [[adobe]], [[claude-design]]
 
 ## Summary

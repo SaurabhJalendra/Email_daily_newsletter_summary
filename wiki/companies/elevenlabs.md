@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-11-06
 > **Last updated**: 2026-03-13 (backfill 2026-03-07..2026-03-16)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[agent-frameworks]], [[ai-funding-rounds]]
 
 ## Summary

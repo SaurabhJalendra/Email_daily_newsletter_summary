@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-03-07
 > **Last updated**: 2026-03-13 (backfill 2026-03-10..2026-03-14)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-military]], [[ai-funding-rounds]], [[ai-hardware]], [[xai]]
 
 ## Summary

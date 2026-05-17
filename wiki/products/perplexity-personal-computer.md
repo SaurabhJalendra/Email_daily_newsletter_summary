@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[perplexity]]
 > **First mentioned**: 2026-03-13
 > **Last updated**: 2026-03-14
-> **Status**: active
+> **Status**: stale
 > **Related**: [[perplexity]], [[perplexity-comet]], [[perplexity-computer]], [[openclaw]], [[computer-use]], [[apple]]
 
 ## Summary
