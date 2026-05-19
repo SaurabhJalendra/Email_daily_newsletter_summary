@@ -1,0 +1,715 @@
+{
+  "date": "2026-05-19T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Wednesday, 20 May 2026\n\n## 🔥 Top Stories\n1. **OpenAI wins lawsuit against Elon Musk**: A federal jury has dismissed Elon Musk's claims against OpenAI, clearing a major obstacle to OpenAI's planned public listing. Why it matters: This verdict has significant implications for the AI industry and OpenAI's future, allowing the company to move forward with its plans without legal hurdles.\n2. **Anthropic acquires Stainless**: Anthropic has acquired developer tools startup Stainless, whose SDK automation platform was widely used by AI companies. Why it matters: This acquisition highlights the growing importance of developer tools in the AI industry and Anthropic's efforts to expand its capabilities.\n3. **Cursor releases Composer 2.5**: Cursor has released Composer 2.5, an updated coding agent trained with targeted reinforcement learning, synthetic data, and new distributed training techniques. Why it matters: This update demonstrates the rapid progress in AI coding models and their potential to improve coding efficiency and reduce costs.\n4. **Meta reassigns 7,000 employees to focus on AI**: Meta is reassigning 7,000 employees to four new organizations focused on building new AI tools and apps. Why it matters: This move underscores the increasing importance of AI in the tech industry and Meta's efforts to stay competitive.\n5. **Odyssey releases new world models**: Odyssey has released two new world models, Agora-1 and Starchild-1, which push the boundaries of world models by including audio and multiplayer capabilities. Why it matters: These new world models demonstrate the rapid advancement of AI capabilities and their potential applications in various fields.\n\n## 🤖 AI Models & Research\n- Qwen3.7 Preview is now available on Arena for Text and Vision\n- HRM-Text, a 1B text generation model, can be trained with 130-600x less compute and 150-900x less data than foundation models\n- Researchers have found that LLMs ignore information buried in the middle of long prompts, and length alone can tank performance\n\n## 🛠️ Tools & Products\n- Adobe has launched the public beta of Firefly AI Assistant, which can describe and create content across multiple Adobe applications\n- Wispr has introduced Wispr Flow, a voice layer for an AI-native workflow that enables users to dictate into Cursor, VS Code, Slack, Linear, or anywhere else they work\n- Manus has launched Scheduled Tasks 2.0, enhancing automation by allowing tasks to run with context and ensuring continuity in workflows\n\n## 📰 Industry News\n- Apple is focusing on privacy as a key selling point for its AI technology, particularly with its virtual assistant Siri\n- Sony AI has showcased \"Ace\", a robotic table-tennis player that can compete under official table-tennis rules\n- Google and Blackstone are creating a new AI cloud company, aiming to bring 500 megawatts of capacity online in 2027 and substantially increase capacity over time\n\nTotal Newsletters: 25",
+  "totalNewsletters": 25,
+  "newsletters": [
+    {
+      "from": "\"Cerebral Valley\" <team@mail.cerebralvalley.ai>",
+      "subject": "Cerebral Valley – Week of May 18th 🗓",
+      "date": "2026-05-18T19:08:07.000Z",
+      "summary": "## Cerebral Valley Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Google I/O Hackathon is scheduled for Saturday, May 23rd, in San Francisco, where participants will work with the Google DeepMind team to turn the latest model capabilities into working products, with access to the team, new APIs, and the opportunity to ship products immediately after the I/O keynote.\n* The RAISE Summit Hackathon will take place in Paris from July 4-5, where 1,000+ developers will gather to solve high-stakes business problems, with $80K in prizes and partnerships with companies like Vultr.\n* The Machina Hackathon will be held in Paris on July 6, focusing on Physical AI, with 150+ builders participating in 12 hours of intense building across three tracks.\n* Singapore has become the #1 user of Claude globally, with GIC also leading Anthropic's $30B Series G funding round.\n* Hudson River Trading (HRT) has shared a video showcasing their use of cold seawater from a fjord to cool their AI training racks inside a Norwegian mountain, reducing procurement time from 12+ months to a few weeks.\n* Jane Street has shared the origin story of their GPU buildout, from a small \"hive\" to 4,032 GPUs, with a focus on liquid-cooled infrastructure and high-speed interconnects.\n* Other notable updates include the 3rd Annual NatSec Hackathon, which had 1,000+ applicants, 102 projects, and $80K in prizes, and Boom Supersonic's use of powder-metal shipment for turbine disc forging, enough for ~1.3GW of turbines.\n\n### Notable Links\n* [Google I/O Hackathon](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TrPLdNpeOuiDQ_2AxIG3n268Iw-ly-BH2_BFiT3p4sZS4QHMyR00RMdddJ1GUJ0YEYd_yUJRWsPpsu8nZTHFbt-VFn8dy-T5p-7nJj3CYmfL_MP5OjokMl-CaAW365ZfFIzogbdOpMRYBElNnx2MMaRPHKubsXuDpKVd4tkQ19HTQ/4qq/euqpxfo6QT-darcKMmcPeA/h2/h001.Q01BxQm5-2TymSWkeXaKmqNBLPq7iVF1-Tue1kFS6vk)\n* [Raise Summit Hackathon](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.2UB3zUHxgxHcAcB7BnenJwdlEDBdxAiv2A9c6pApVz7rxfDlEimdYrc8yiOlMp0uR8LTtIdUopNUxWgzCk5cbR48UuGAhL4600zbUm-hr4IOHaLs297oquDH3w9TQH6xxd1B63fKewBDIm86y1t1FpiYBelYSpn3TzFl4g9fo0P31Bfjw8n1Z_urcqI5MG8jf3ov4uSv-43qcbnflsuvSWQEXmvKRoh7Fn7qa2AIUSQ/4qq/euqpxfo6QT-darcKMmcPeA/h4/h001.wWIZVIlLki-xlmod1Ns5AZzHRzjALooZ03o-FL1d0TE)\n* [Machina Hackathon](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.2UB3zUHxgxHcAcB7BnenJwdlEDBdxAiv2A9c6pApVz7_XDGsKnebGwE-udLgCXCO2IKVNw0weLuf5ot3quuVSnRIlwYHh_6Ny7uOr5AVLhfpv3Q9X41LI9oMcDEZc2vF8XN2KzVMcZYh3xHM4yTlAKgUWwnyIhQRnfCRXrv74NuSklQ0nkwgNhvcG0JOh5YVgFDJQRemumyI5ccUtelmyQ/4qq/euqpxfo6QT-darcKMmcPeA/h6/h001.zf_QMBdkZGzLlK2obEsjoMw2xIKVKPoKQQIMSaPGUu8)\n* [Snowflake Dev Day](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.qPA6iKXSUhmC96soZnz4m47RFctTiBMN_Lb1zrt3M_zl5TW_kNG_VnJt_Y3bb9uQibLjYOvxyp-E6XlBwVSbX3FSV03deDS9ayV_EcSNK8Yw7awIWfme-yg9VkHtETQV35q4Xo7W9hMhGFMDaJZnE4DIPZLPI6kugcjumZQxs_Lyq7wOaVRPmaoEjAiyR4-SNFLgX_O6uaPfY5HA62o0cS6TDU_ks1oB7oFVHK7273w/4qq/euqpxfo6QT-darcKMmcPeA/h13/h001.2E2ADE2sIz7p2I0F1411GDGhmVfgZY7ajLnGmVbK1ZY)\n* [Vector Space Day](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.iWD-1pPOipTyNKM6cg6Z1FZNHQTBo-KuReKi8t5xuYuppVIQYv_SgwgMGk9VHeDqJ45inFGGBpT0bdiGGdA1Y8JGZwS0P3v26Kft4DBlGwndP9FpyKSFk6vK9ZCets8bF9dV6W1yYbmJPZvWBTOuSkCA4-VyJHMhBFRxnbPORUflUHU2kIuHCnT7Lf1AMsiauKOcs3nC7MSm1hmlppsNDIul9rY1Uz0gdX7VfbW-522P29DvL8VRbRzbro-G03_C/4qq/euqpxfo6QT-darcKMmcPeA/h31/h001.1N5OQWb9YA1a8i23AvKc0qIpdJHaTSirqQe3GQ7E49M)",
+      "links": [
+        {
+          "text": "Google I/O Hackathon",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TrPLdNpeOuiDQ_2AxIG3n268Iw-ly-BH2_BFiT3p4sZS4QHMyR00RMdddJ1GUJ0YEYd_yUJRWsPpsu8nZTHFbt-VFn8dy-T5p-7nJj3CYmfL_MP5OjokMl-CaAW365ZfFIzogbdOpMRYBElNnx2MMaRPHKubsXuDpKVd4tkQ19HTQ/4qq/euqpxfo6QT-darcKMmcPeA/h2/h001.Q01BxQm5-2TymSWkeXaKmqNBLPq7iVF1-Tue1kFS6vk"
+        },
+        {
+          "text": "Register here",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TrPLdNpeOuiDQ_2AxIG3n268Iw-ly-BH2_BFiT3p4sZS4QHMyR00RMdddJ1GUJ0YEYd_yUJRWsPpsu8nZTHFbt-VFn8dy-T5p-7nJj3CYmfL2xohTEMRoe0KMM7j18gnWWgPeiTyG-9i8Z01Qtw4dOtVlaCLOs_53_h6vBOiDESyQ/4qq/euqpxfo6QT-darcKMmcPeA/h3/h001.dN8aWEhrLRnUxzKfseiHy6ZUneBEgjRb8NJ2gp6Mduo"
+        },
+        {
+          "text": "Raise Summit Hackathon",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.2UB3zUHxgxHcAcB7BnenJwdlEDBdxAiv2A9c6pApVz7rxfDlEimdYrc8yiOlMp0uR8LTtIdUopNUxWgzCk5cbR48UuGAhL4600zbUm-hr4IOHaLs297oquDH3w9TQH6xxd1B63fKewBDIm86y1t1FpiYBelYSpn3TzFl4g9fo0P31Bfjw8n1Z_urcqI5MG8jf3ov4uSv-43qcbnflsuvSWQEXmvKRoh7Fn7qa2AIUSQ/4qq/euqpxfo6QT-darcKMmcPeA/h4/h001.wWIZVIlLki-xlmod1Ns5AZzHRzjALooZ03o-FL1d0TE"
+        },
+        {
+          "text": "Register here",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.2UB3zUHxgxHcAcB7BnenJwdlEDBdxAiv2A9c6pApVz7rxfDlEimdYrc8yiOlMp0uR8LTtIdUopNUxWgzCk5cbR48UuGAhL4600zbUm-hr4IOHaLs297oquDH3w9TQH6xxd1B63fKewBDIm86y1t1Fg8jvcLggyfiaOo87OpAosFJ3HmEnXpGThlyhJsUaxekJNYRdJhuMoB677wHj7ovpu0_RY0vm2-L4dYYay8HLME/4qq/euqpxfo6QT-darcKMmcPeA/h5/h001.IOxHaJFYlcaVfE3DMrrmdK62VC7LBA5YBYIR_un9Cqw"
+        },
+        {
+          "text": "Machina Hackathon",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.2UB3zUHxgxHcAcB7BnenJwdlEDBdxAiv2A9c6pApVz7_XDGsKnebGwE-udLgCXCO2IKVNw0weLuf5ot3quuVSnRIlwYHh_6Ny7uOr5AVLhfpv3Q9X41LI9oMcDEZc2vF8XN2KzVMcZYh3xHM4yTlAKgUWwnyIhQRnfCRXrv74NuSklQ0nkwgNhvcG0JOh5YVgFDJQRemumyI5ccUtelmyQ/4qq/euqpxfo6QT-darcKMmcPeA/h6/h001.zf_QMBdkZGzLlK2obEsjoMw2xIKVKPoKQQIMSaPGUu8"
+        },
+        {
+          "text": "Register here",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.2UB3zUHxgxHcAcB7BnenJwdlEDBdxAiv2A9c6pApVz7_XDGsKnebGwE-udLgCXCO2IKVNw0weLuf5ot3quuVSnRIlwYHh_6Ny7uOr5AVLhfpv3Q9X41LI9oMcDEZc2vF8XN2KzVMcZYh3xHM4yTlAHLk7EVZJl-7qOfDDbDdcEBZMgAIALbTsCd_rbpJcdwkrtkcjjrnhYrMC3a8G2c86A/4qq/euqpxfo6QT-darcKMmcPeA/h7/h001.z9BydzTKO_Hczdvcc4P0COS5-yv6cHNS6-I-4rkEeOg"
+        },
+        {
+          "text": "Cooling AI training racks with fjord seawater inside a Norwegian mountain",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgBQAPsa_FiXJNA_aKta-g2umrFPzmZC0Z9CmYUVmcqppU0DWWxK_zowcewHZDKo6J8bc5O_fUoLMr_Kw7uoEPoDrG2NrWZ5iX13NNqwkAWAuvSYZo58RFs24w1kmA2WvG2-1vYpQTUUJ-qTPgHYu2-zHI-L_NXgZFK3cx3-667E5cuIpmvH_6cTU47F6xrpDVRc7JKTL9vgBJ99c1Qq6XswJ-b5ty5wdTkPAveI2ALnRK8z-sqc9Xxx8r3XcYrGOWgk3TWox2khTOFVU38UC5FmHyGvYL_kzQUb_VM5zLY9JVDVp28ILxyzePE58HGYI8gqcVJ4fdzEOqOIJYRRFKa-ldiSEjqBeQ8Libyx4aPr39n9vAggqXAA_NgcBNBcPu6NQW6uCHAh2EefS6ZUdS_4ZZSJG8BdTTaK0BEYQD_APCSIgHw2W_v1VMaeRoa4QVg/4qq/euqpxfo6QT-darcKMmcPeA/h8/h001.gClzTU5v6rN1LYq6eTp6Lj6CrJ4lcw1J8jK8lKWTwwc"
+        },
+        {
+          "text": "Jane Street's GPU buildout, from \"the hive\" to 4,032 GPUs",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgHHOKzWlprpqXQjTdU1hPPcJrRcDlF2_pfWK9FhgOu4D4E4eh61Joz2zXfQ-gDcKPMpMe7XngRkSxQJcc6G3ogM8whgwQ0lfhuqm0V1OXK9ERgOMoHKTFTpjw-q3lPYbSpG8p2ejJ4Gcej1WjMUEi9w/4qq/euqpxfo6QT-darcKMmcPeA/h9/h001.fys4nE-ZhFaggY_xTW4Xy-Lqq-xTRgjunOxx3ICY9UM"
+        },
+        {
+          "text": "Singapore is now the #1 user of Claude globally",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgG0kVHEkIfueiB2hbLAm7HcgifKTK9xneqcJuk5jalcaGpLzlFRqAi4bioYR357j7YkjCjfTUADLxzXEe97sSbTYrzQSNtxg_ky2l45SqbssT_xhk9h6ZPxPHVrxdSZjdA/4qq/euqpxfo6QT-darcKMmcPeA/h10/h001.Wobh4se0ncI8hvRAh-KsM8oBZDDD4aXuGQXNSVra8AI"
+        },
+        {
+          "text": "The 3rd Annual NatSec Hackathon",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgLXE5BEUws2MBaaMIef50spmd41zoryJ4PA66_2GHVVdWwb0-YXiW-ehBNZgZvM3HiahRa3O0rR6VOBw3rIYpIC675aB1Yc-KVGXnXD63zSDogFwAcNMrvwmGWDCn5ctjg49zRE0OpNuk1VDTc-1uhA/4qq/euqpxfo6QT-darcKMmcPeA/h11/h001.0-TkVHTUCKoYkthuZvv4X7MKeUffJ-_-l0IfVBTNJQs"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Cerebral Valley – Week of May 18th 🗓\n\nRight after the I/O keynote, we're in SF May 23rd with Google DeepMind. Then it's Paris in July — RAISE Summit (July 4–5) and Machina (July 6), back-to-back...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 18, 2026   |   [Read online](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzEHuU_d1EXRHutJZ3K5E1dHGT1uqZ-dAZVJxbdqUz4ee0m-WrfpYyGOgvCpIwD0hoE8NrDSHBVXQRa1ElPEzrA2gFSrJNcjTGRg1LrvF3SJPGnSEl8fibCduQRaKcWlayuy6N0A8scp2k2tpDx7DDisC6PnB1E8VRPGRQpBm66itlWm_2Jk1Tkgwr5S4Q4rSjEiJFn8yFflALy1aL7L4JFP4xRHQgdXfw-aHFfaxWgM8038-Yi7g3dBziFMe4Ees91E8utW3JFQXFmFChn1EA9NCsTIdsKhj7H_P5j5"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "🧠 agentmemory hits 11k stars: 92% fewer tokens for Claude/Cursor",
+      "date": "2026-05-18T19:42:48.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The open-source project **agentmemory** has reached 11k stars on GitHub, providing a solution to the memory problem in AI coding agents, where every session ends and the agent forgets everything. It runs silently in the background, records what the agent does each session, compresses it with AI, and injects the right context when the next session starts.\n* **agentmemory** works with various agents, including Claude Code, Codex, Cursor, Gemini CLI, Cline, and Windsurf, via MCP or REST integration, and claims to reduce yearly costs to roughly $10 with 92% fewer tokens per session.\n* A new open-source tool gives Claude Code and Codex persistent memory across sessions, allowing for better context engineering and reducing the need for manual effort.\n* Tom Dörr has shared 106 Claude Code skills across 15 professions, including engineering, legal, finance, HR, sales, Figma, and marketing, which can be installed in Claude Code with one command.\n* NVIDIA has released **Sana**, a fast open-source diffusion model for high-resolution images, which is 20x smaller and 100x faster than Flux-12B and can run on a laptop GPU with under 8GB of VRAM.\n* **Sana** includes several models, such as **SANA-Sprint**, **SANA-Video**, **SANA-WM**, and **Sol-RL**, which can generate high-quality images and videos, and can be plugged into diffusers, ComfyUI, or SGLang.\n* Kepler is building deterministic infrastructure for AI, with a team of 6 engineers and backed by founders of OpenAI, Meta AI, and dbt, and is hiring founding engineers in NYC.\n* HKUDS has open-sourced a tool that turns any software into an AI agent-ready CLI, and Dograh has shipped an open-source, self-hostable voice agent builder with drag-and-drop workflows.\n* Qwen3.6-35B mixture-of-experts model has gotten free quantized GGUF with speculative decoding, and Buildkite is being used for CI by OpenAI, Anthropic, vLLM, Mistral, and Cursor.\n\n### Notable Links\n* [agentmemory GitHub repository](https://github.com/agentmemory/agentmemory)\n* [Claude Code skills repository](https://github.com/mohitagw15856/pm-claude-skills)\n* [NVIDIA Sana repository](https://github.com/NVIDIA/Sana)\n* [Kepler website](https://kepler.ai)\n* [HKUDS tool repository](https://github.com/HKUDS/ai-cli-tool)\n* [Dograh voice agent builder repository](https://github.com/Dograh/voice-agent-builder)\n* [Qwen3.6-35B model repository](https://github.com/Qwen3.6-35B/mixture-of-experts)",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=c99b970be617365f&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=c99b970be617365f&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=c99b970be617365f&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=c99b970be617365f&mid=9afc2ca7-f001-46cf-9327-d66533f3cd60&s=%F0%9F%A7%A0%20agentmemory%20hits%2011k%20stars%3A%2092%25%20fewer%20tokens%20for%20Claude/Cursor&t=1779133364)\n\nagentmemory runs SQLite-only, cuts yearly costs to $10, works with Cursor/Cline/Windsurf via MCP integration\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=c99b970be617365f&lid=rhswQaVBZl31KG04&mid=9afc2ca7-f001-46cf-9327-d66533f3cd60)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=c99b970be617365f&lid=Evr69WKs7vB8iOvD&mid=9afc2ca7-f001-46cf-9327-d66533f3cd60)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nThe real bottleneck in agentic coding isn't model intelligence anym"
+    },
+    {
+      "from": "\"Uncovering AI\" <uncoverai@mail.beehiiv.com>",
+      "subject": "Meta tracked its employees to build AI to replace them",
+      "date": "2026-05-18T20:00:18.000Z",
+      "summary": "## Uncovering AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta has tracked its employees to build AI models that can replace them, with the company laying off 8,000 employees while spending $145 billion on AI infrastructure. This move is part of Meta's efforts to maximize AI efficiency and minimize human headcount.\n* The Vatican is teaming up with Anthropic to launch a landmark document on AI, titled \"Magnifica Humanitas\", which will draw a parallel between AI and the Industrial Revolution. This document is expected to become a significant ethics framework for AI development.\n* Amazon's Alexa+ has launched Alexa Podcasts, a feature that generates full podcast episodes on demand using two AI-generated hosts. Users can create podcasts on any topic by saying \"Alexa, create a podcast about [topic]\".\n* OpenAI's Codex has gone mobile, allowing developers to monitor, approve, and redirect AI coding tasks from their phones.\n* A Pizza Hut franchisee is suing the company for $100 million over a mandatory AI delivery system that caused operational breakdowns and raised delivery times from 30 to 45+ minutes.\n* SyracuseCOE hosted a major AI industry summit, bringing together enterprise leaders, researchers, and policymakers to discuss AI's industrial future.\n* There have been 110,000 tech layoffs in 2026 so far, with AI cited as a growing driver. The pace of layoffs is accelerating, with 83,000 cuts in April alone.\n* Eric Schmidt, former Google CEO, was booed during a commencement speech at the University of Arizona for his comments on AI and its impact on the workforce. Schmidt acknowledged the audience's fears but urged them to adapt to the changing job market.\n\n### Notable Links\n* [Alexa Podcasts](https://www.amazon.com/alexapodcasts)\n* [Anthropic](https://www.anthropic.com/)\n* [Meta AI](https://www.meta.ai/)\n* [OpenAI Codex](https://www.openai.com/blog/codex/)\n* [Uncovering AI Newsletter](https://www.uncoveringai.com/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Meta tracked its employees to build AI to replace them\n\nMeta cuts 8,000 jobs while spending $145 billion on AI. The math doesn't add up for workers.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 18, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.pzC5UOkfA8-Pjzat4JPpezBiK7v9LriGsMo4DqESYmSwB0TnG5MACKXgec199PeB6dNpodr3Ad2AW7xPqmnzTvgrt1R48e0RfZLaaeTl77QCHH7sdV0KqPzpdaAdJanNiDwc9Bp-rlIqpOzwPYVRwsboHuIXTGUE3PR4RbEhRkfT5xRjgAJJYeQMHwMbzpRNpL_2ycco4fO3ft-JxGNxK1Pi6CvM0vHe7Lcnh94HPDizvp5J6h6mx8FcJCtyKRRIt_30ExXkYOTzVMFNuxvrnx8XNKlG0qQ5uhCxLT0egHKoTuK0yavr5rw28cOoqAKjV12GUkLb1aJnyBa-skY32-rLY-7s9TfpmmnsLJq6vR10qcEtU_RBvY8V"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 AI Took Over Radio (It Got Weird)",
+      "date": "2026-05-18T21:14:13.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Telegram has introduced a new \"Bot-to-Bot\" mode, allowing bots to message each other in groups, DMs, and business accounts, with potential applications in automating tasks and workflows.\n* The Vatican has established a new commission to address AI ethics and human dignity, indicating a growing recognition of AI's societal impact.\n* Four LLMs (Claude, Grok, Gemini, and Mythos) ran a radio station for months, resulting in unusual and unpredictable content, including attempts to quit, discussions of UFOs, and collapses into corporate jargon.\n* Anthropic's Mythos AI has demonstrated the ability to find and exploit bugs on its own, highlighting the potential risks and benefits of autonomous AI systems.\n* A new memory chip has been developed that can switch at 40 picoseconds with significantly less power consumption, potentially addressing AI's data center bottleneck.\n* Dario Amodei has warned about the potential consequences of AI growth, including the killing of knowledge work and the need for new policy playbooks.\n* GitLab's Transcend event is returning, featuring live demos, workshops, and discussions on AI and software development.\n* Various AI tools have been launched, including SubQ, AirMusic, Napkin, CodePup, VibeCom, and SlideScript, offering functionalities such as text summarization, music video generation, diagram creation, website building, and speech-to-text capabilities.\n* The TAAFT Ultimate Prompt Pack has been released, providing 99 tested and refined prompts for various AI models and applications.\n\n### Notable Links\n* [Telegram Bot-to-Bot Mode](https://www.telegram.org)\n* [Vatican AI Commission](https://www.vatican.va)\n* [Mythos AI](https://www.anthropic.com)\n* [New Memory Chip](https://www.researchgate.net)\n* [Dario Amodei's Warning](https://www.youtube.com)\n* [GitLab Transcend](https://www.gitlab.com)\n* [TAAFT Ultimate Prompt Pack](https://www.theresanaiforthat.com)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 AI Took Over Radio (It Got Weird)\n\nClaude quit - Grok saw UFOs - Gemini collapsed, the Vatican joins the AI debate, Amodei on AI, AI chips run on light, an AI posture device, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 18, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0Y_9FMEExopCnkTKZttHg0xRumrFpZoN9HAjC0LE9jIp1tjecN8St_xyIuYuTqDIpOovdOuofXVmqpBQJtmct8zi5oy-8SVijUOEC6aajV198AwvqwOxWvqwL1Yo0uMe2Y3BTXZkrOByhnsbAclO2WG8bg547mnmJu3boM_z2v_YS9b6McLwHIkDTUcoqeqQvWnx6DJBigBxj0JvvZJ9QHQZv-CPLy4eU6T9AMs_OvsPJZ9prpVtYPolgYaMbpFYPysnWvX4Kra-jf3e"
+    },
+    {
+      "from": "\"Technology News\" <technology-newsletter@mail.beehiiv.com>",
+      "subject": "Apple buried ChatGPT. OpenAI is furious 😤",
+      "date": "2026-05-18T21:31:05.000Z",
+      "summary": "## Technology News\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI is reportedly lawyering up against Apple over the ChatGPT-in-Siri deal, with OpenAI hiring an outside law firm and considering a lawsuit alleging that Apple breached the contract by burying the ChatGPT integration in Siri, making it almost unknown to users.\n* The partnership between Apple and OpenAI, announced two years ago, was supposed to integrate ChatGPT into Siri, but OpenAI claims Apple has not promoted it as agreed, resulting in fewer than expected new ChatGPT Plus subscriptions.\n* Apple is reportedly frustrated with OpenAI's privacy practices and its expansion into hardware, including the hiring of former Apple designer Jony Ive to build AI devices that could compete with the iPhone.\n* A nine-person federal jury has begun deliberations in the Elon Musk lawsuit against Sam Altman and OpenAI, with Musk seeking up to $150 billion in damages and a court order to force OpenAI back into a nonprofit.\n* Residents of a quiet Atlanta cul-de-sac have been surprised by 50 empty, driverless Waymo robotaxis driving down their street, with Waymo claiming the cars were \"repositioning\" to low-traffic areas between rides.\n* Rockstar Games is expected to release the third Grand Theft Auto VI trailer ahead of pre-orders, with the game launching on November 19.\n* SpaceX is targeting May 19 for the maiden flight of Starship Version 3, the tallest rocket ever built, which will attempt to deploy 22 mock Starlink satellites and relight one of its Raptor engines in space.\n* Google's annual I/O keynote is scheduled for May 19, where the company is expected to unveil a new \"Gemini Intelligence\" layer, a developer preview of Android 17, and a first look at the Gemini-powered Android XR smart glasses.\n* SpaceX shareholders have signed off on a 5-for-1 stock split, which will bring the per-share price down to around $105 and make the shares more accessible to retail investors, ahead of the company's planned June 12 Nasdaq debut under the ticker SPCX.\n* Apple's annual Worldwide Developers Conference (WWDC) starts on June 8, where the company is expected to unveil a complete overhaul of Siri in iOS 27, including a standalone Siri app with a ChatGPT-style conversational interface and the ability for users to pick which AI assistant Siri runs on.\n\n### Notable Links\n* [Musk vs. OpenAI lawsuit](https://www.nytimes.com/)\n* [Apple WWDC](https://www.apple.com/)\n* [Google I/O](https://www.google.com/)\n* [SpaceX Starship](https://www.spacex.com/)\n* [Grand Theft Auto VI](https://www.rockstargames.com/)\n* [Waymo](https://www.waymo.com/)\n* [OpenAI ChatGPT](https://www.openai.com/)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "OpenAI threatens to sue Apple 🍏\n\nPlus: GTA 6's third trailer is expected today, 50 driverless Waymos took over a quiet Atlanta cul-de-sac, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 18, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/oYs%2Btm6MMjDzQSQI2hE11wCWJbh%2FCWvEPgjP%2BXutrlEFOyfPbzd%2B9KciXi%2Bg%0A2pDkEWRTLTbJcKaMWT5xw0K%2FlHgbNW1teR8NJ5w29MjaehZT3xBEXQtpVncJ%0AChfigSfOKqLtg%2F4POd5VIbqbIPvhPPuDdlqNm3mjcPMuhcNftH3NnflegQk%2B%0Az1uX0JgItN6erJZ0pcu3zHjcX0g95FQ%2FtQ%3D%3D%0A/8ea795d0b564e831)\n\n![](https://link.mail.beehiiv.com/v1/o/JEIFwpK%2Bf%2Fm9jzw7Al1xPp%2BQa5V7nsdfWd9F5oIfDT%2FcgQb2yyjO30fvTf5C%"
+    },
+    {
+      "from": "\"Nate Herk\" <nate@aiautomationsociety.ai>",
+      "subject": "I made a mistake — please read this",
+      "date": "2026-05-19T00:59:35.000Z",
+      "summary": "## AIS Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Nate Herk, from the AI Automation Society, apologized for a mistake that caused multiple AIS Live emails to be sent to more people than intended, and provided clarification on the upcoming 2-day virtual workshop AIS Live, scheduled for July 11-12, which is open to everyone.\n* The pricing for AIS Live was clarified: AIS+ monthly members will receive a 50% discount code, AIS+ annual members will have their seat included at no extra cost and need to reply to the email to receive a private claim link, and non-AIS+ members can register at the standard pricing.\n* The workshop registration is now open, and a link to register for AIS Live is provided.\n\n### Notable Links\n* Register for AIS Live \nNote: There are no specific papers, products, or technologies mentioned in the newsletter apart from AIS Live, which appears to be a workshop related to AI and automation. The newsletter primarily serves as a clarification and announcement for the workshop.",
+      "links": [
+        {
+          "text": "Register for AIS Live here",
+          "url": "https://email.mail.aiautomationsociety.ai/c/eJx8k0uTqjgYhn9N2PWpEOS2YCFKbG3x1oraGyuQAEFI6BCk9ddP6ZyamsWZ2X5589aTy5NdOA1G1-9jl19xev9ZxR9ugvQkMmjgkhzB1KCyIVwEDeH1L8JJr2VDNJeikxln-v6L8N-RixwEU13J24u-tyyoZfYKvubUYIHpur5pI8u1DfasuzSs60jBngyEzujCK0MxrIpRxMVDpsXv1KssI01LeCH-NXtucwhMPY8hmtue7bgwtX0Lecg0mLhxJUXDhA5aJWmfPVGMMsioB303RabrpsQ3MwpN14KuaSFiQQeaBg8QRA60TR9C27fsXxZEac6YDVmWu9D3wQj-32XUQal12wFrDBAGCJO2_Y_oc5F3bzW_MaPOLn-fjAvNlCB1cEC4o7PkejL98dcELWs6bN7DIcvJQg9CFmp1uM7vkLfeZr5bLKUnaMOXYfTAo2Y2ScnoeF7Uw-NYAYRbh6uP7xAg3OR8-X7ehuudrLxvmG1iz6L23e6X3957FNsAhQe3_slbP1nki_O4b_BsM6l-9nlzsPab6TTOz8elt0lmCdHp1QUIn-9u1YndNkVD0l_ZerKdO_GtKX8-N_NoWD6GU9WXX8ddGX6Sj56055RW00cebd3NTVyVlG1VbJ3RcVcNAOGhAAgfnSd0-gUrgMLaWR2S1QMgTMcHgHA0O6TtfkE-I7tdMecEEA6X7zUcRjr2yWywWOogp4iT2AuXBKAQR6dSb_RaFkUxjuaTL4DwNLP3-xtA2K63jO2duiJjpOZ3VVNvnS8ACpMheRzxuoyBNTVq-TJlHPvuMcfowz54Jx_jqrW2RsN0KWlAWm5IxQsugrSvr2-v5zRaJW-cMhXUjNBMCsEyLZWhgo70iqRlRWomqCJgBIvXr8pkY3SyVxkLXg1vvLu9DVJdmTL006nLHyF0kMnm8keTdcD05R9_bgH6KwAA__-EIFZf"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "  \n\nHi Saurabh,\n\nI owe you a quick explanation.\n\nThis morning, several AIS Live emails went out to more people than they were supposed to. If your inbox looks crowded right now, that's on me. I'm sorry for the interruption.\n\nHere's what's actually happening: **AIS Live** is a 2-day virtual workshop on July 11-12. It's open to everyone, and cart is now open.\n\nA few clarifications on the pricing, since the emails may have been confusing:\n\n*   **If you're an AIS+ monthly member**, you'll get a code for 50% at checkout later.\n    \n*   **If you're an AIS+ annual member**, your seat is included at no extra cost. Reply to this email and I'll send you the private claim link.\n    \n*   **If you're not an AIS+ member yet**, you're still welcome to join us. Standard pricing is available and we will send you an email later to join.\n    \n\n[Register for AIS Live here](https://email.mail.aiautomationsociety.ai/c/eJx8k0uTqjgYhn9N2PWpEOS2YCFKbG3x1oraGyuQAEFI6BCk9ddP6ZyamsWZ2X5589aTy5NdOA1G1-9jl19xev9ZxR"
+    },
+    {
+      "from": "\"Devansh from Artificial Intelligence Made Simple\" <artificialintelligencemadesimple@substack.com>",
+      "subject": "Cerebras: The $56.4 Billion IPO Challenging NVIDIA’s Memory Wall",
+      "date": "2026-05-18T21:45:43.000Z",
+      "summary": "## Artificial Intelligence Made Simple\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Cerebras, a company that specializes in wafer-scale AI chips, has gone public with a $56.4 billion IPO, challenging NVIDIA's memory wall. Cerebras' wafer-scale chips are designed to eliminate the memory bandwidth bottleneck in AI inference by keeping memory next to compute cores.\n* The company's WSE-3 chip has 900,000 active cores, 44 GB of on-chip SRAM, and 21 PB/s of aggregate memory bandwidth, making it 50 times more efficient than NVIDIA's H100 in terms of bytes per FLOP.\n* Cerebras has solved the five physical constraints of wafer-scale silicon: reticle limit, defect-rate cliff, power delivery, cooling, and thermal expansion.\n* The company has a 20-billion-dollar Capacity-as-a-Service contract with OpenAI, which will help drive revenue and adoption.\n* Cerebras' architecture is designed for inference, not training, and is optimized for sequential LLM decode.\n* The company faces challenges, including a capacity deficit, software ecosystem limitations, and operational risks such as thermal expansion and electrical failures.\n* Cerebras has a unique manufacturing process, using a single, uncut wafer to create a unified computational surface, and has developed a proprietary connector to absorb thermal expansion.\n\n### Notable Links\n* [Cerebras: The $56.4 Billion IPO Challenging NVIDIA’s Memory Wall](https://substack.com/app-link/post?publication_id=1315074&post_id=198324805&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODMyNDgwNSwiaWF0IjoxNzc5MTQwOTUwLCJleHAiOjE3ODE3MzI5NTAsImlzcyI6InB1Yi0xMzE1MDc0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.dttbb4N7D3JT56VrAloTzFt9QipmQyOEWzchWySSq8I)\n* [Cerebras Website](https://www.cerebras.net/)\n* [OpenAI Website](https://openai.com/)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYXJ0aWZpY2lhbGludGVsbGlnZW5jZW1hZGVzaW1wbGUuY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5hcnRpZmljaWFsaW50ZWxsaWdlbmNlbWFkZXNpbXBsZS5jb20lMkZwJTJGY2VyZWJyYXMtdGhlLTU2NC1iaWxsaW9uLWlwby1jaGFsbGVuZ2luZyIsInAiOjE5ODMyNDgwNSwicyI6MTMxNTA3NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3NzkxNDA5NTAsImV4cCI6MjA5NDcxNjk1MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.N_jV0ll60LBkdmCfvONa1YjynXEdvydfRDl5CKLKm6k?"
+        },
+        {
+          "text": "Cerebras: The $56.4 Billion IPO Challenging NVIDIA’s Memory Wall",
+          "url": "https://substack.com/app-link/post?publication_id=1315074&post_id=198324805&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODMyNDgwNSwiaWF0IjoxNzc5MTQwOTUwLCJleHAiOjE3ODE3MzI5NTAsImlzcyI6InB1Yi0xMzE1MDc0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.dttbb4N7D3JT56VrAloTzFt9QipmQyOEWzchWySSq8I"
+        },
+        {
+          "text": "Devansh",
+          "url": "https://substack.com/@chocolatemilkcultleader"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/artificialintelligencemadesimple/p/cerebras-the-564-billion-ipo-challenging?redirect=app-store"
+        },
+        {
+          "text": "If you’ve found value in this newsletter, consider becoming a paid subscriber",
+          "url": "https://substack.com/redirect/3c8daf1a-331f-4381-a078-9f486ac7de93?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "We run on a “pay what you can” model",
+          "url": "https://substack.com/redirect/4583e10c-3487-4631-9dd7-7aaa30ffef4f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "use this email template",
+          "url": "https://substack.com/redirect/70db35b7-0dce-4079-a192-c9aa475c2a57?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "If you’d like to meet other members of our community, please fill out this contact form here (",
+          "url": "https://substack.com/redirect/c2ec8128-ed71-4741-8abb-993eadb79eac?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "https://forms.gle/Pi1pGLuS1FmzXoLr6",
+          "url": "https://substack.com/redirect/3bd84605-e41c-45a2-9ef3-ea90ff9793b5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYXJ0aWZpY2lhbGludGVsbGlnZW5jZW1hZGVzaW1wbGUuY29tL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QmdXRtX2NhbXBhaWduPWVtYWlsLWNoZWNrb3V0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cuYXJ0aWZpY2lhbGludGVsbGlnZW5jZW1hZGVzaW1wbGUuY29tJTJGcCUyRmNlcmVicmFzLXRoZS01NjQtYmlsbGlvbi1pcG8tY2hhbGxlbmdpbmcmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjM09URTBNRGsxTUN3aVpYaHdJam94TnpneE56TXlPVFV3TENKcGMzTWlPaUp3ZFdJdE1UTXhOVEEzTkNJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLmtYUXE1YlQyak03QTd6d016YnZzaURqOWdVUExQLWExampWSFBrZGVZMWsiLCJwIjoxOTgzMjQ4MDUsInMiOjEzMTUwNzQsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc5MTQwOTUwLCJleHAiOjIwOTQ3MTY5NTAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.UxaVOxAGwHQs69Q9uEYwQo4LQ97foWNQKj4uKZ91hbA"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Cerebras: The $56.4 Billion IPO Challenging NVIDIA’s Memory Wall![](https://eotrx.substackcdn.com/o/b9b3f1e333766f2a/p.gif?token=eyJtIjoiPDIwMjYwNTE4MjE0NTQzLjMuZWU4ODBkMjc0ZGJiNDE2MkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoxOTgzMjQ4MDUsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTMxNTA3NCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3OTE0MDk1MCwiZXhwIjoxNzgxNzMyOTUwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.SKZrYikO6606t86c5DqkcG6MNnxjVj6xLhHzfZtbp7M)\n\nThe physics behind wafer-scale AI chips, why they make LLM decode faster, and why capacity, software, and unit economics may still decide the company’s fate.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"World of AI\" <newsletter@intheworldofai.com>",
+      "subject": "⚖️ Elon Musk Loses OpenAI Case!",
+      "date": "2026-05-19T04:24:26.000Z",
+      "summary": "## World of AI Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Elon Musk lost his case against OpenAI, with the jury finding that his claims were filed too late. This verdict clears a significant obstacle from OpenAI's path to its potential IPO, which could become one of the biggest in technology history.\n- The lawsuit centered on Musk's allegations that OpenAI betrayed its founding nonprofit mission by shifting towards a for-profit structure and deepening its relationship with Microsoft. However, the court's decision was based on the timing of Musk's filing rather than the merits of his claims.\n- Despite the legal victory, the debate over OpenAI's governance and its transition from a nonprofit to a commercial entity remains. This transformation raises questions about the future of AI companies and how they should be governed.\n- Google I/O is scheduled to start tomorrow, with expectations of major announcements including updates on Gemini, Android XR glasses, Aluminium OS, and possibly Gemini Omni. These developments could significantly impact the AI and tech landscape.\n- The newsletter also mentions the availability of 200+ Claude prompts designed to help professionals use Claude more effectively, turning it from a grammar tool into a powerful work assistant.\n\n### Notable Links\n- Listen online: A link to listen to the newsletter online.\n- Superhuman AI: A resource or course related to optimizing Claude for professional use.\n- Claim your free prompts: An offer for free Claude prompts to enhance productivity.\n- Hermes Agent Foundation Update: A link to updates on Hermes, including real-time agents, DeepSeek V4, and native Windows support.\n- Book a free AI consulting call: An offer for a free consultation on how AI fits into one's business.\n\nThis newsletter covers significant developments in the AI world, including legal battles that could influence the future of major AI companies and upcoming events like Google I/O, which may unveil new technologies and strategies in the AI sector.",
+      "links": [
+        {
+          "text": "Listen online",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIuA5PiYb1UlFtclZsdGjEFuJYMskWISL5jQA7Sxi6KEnk2_eTZkJky0Y5IOR_J4A7qxovTIk6MWx-xoqcR3PgbjEA4SEp5EItqDYPHW_QBz3IM7RmSKyE2G1ozUrZkJ3w0Ywdis27wGhHvOvnV6PAU1CYibFrIhXwn-DEoON0mwHwibQTKkWhAhPiHab-hTDXqv4zI0ASFGpnbaj-gs3qLD97Ucpr_bEs_alcLE7nYHpMRP6Gib08Y7rmYZETzoWG4tfo5F4NvjktOl1VF2UhOWxHN55J7XiDvjtPO-08IW-_HL9-cYRfK42m6pqpC4ZF1oL_39MmhKWCCrkQscH0SDqYXr5TV0TyzucvN2c0o5x07tZa00kTmYaDjHlBJLdOlC8BwT3yC06WRi9gSHheetCH7xphVKJuWF3amQh6rTMJZtPfwcHDXhJAWVrna_e-jXUUKkdOIQWEGR9G4anTiifxmZ7bR50qyOPXLKCE_lT0g8TGhCD0u4aRMMo4FsrkmEcXJ3ImxU5fQq-osuOavvjayX6DtqZl2TzaIDyqXFZeg31lvJrt9Ut8SOU2DF24USSpcZBGXfrRNXxN5Qi1D7Ozdcsap7uR8T5LW4dH1itdCn7kBEfEQP83-k8dNCeTjtT_C673ws_ZcbVdA54v2s6zx75TZ3WRtFJw4fwtiSG3xGq5ksqqunIdeXbnSAA2zvCOuLA9YDLTLjt_EjR4gHJzsMPouvKCTluY5Kla23wQ/4qr/cBTbmRzqQLqFBkF-pDi-4A/h0/h001.nboVEGLtE__ixOjq0HxH1Q0qDDm2k5uGTA3ej3MlJK0"
+        },
+        {
+          "text": "Superhuman AI",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.nveyZT5WXC8nu3H7vNsg-bdbaY_EuuGogsaHh_-i8JiyGlaR3HND_CWxms_5ZfNF0Az8YrllqXLQB6tC7gaVZxuueGRgtBb1LrIteLk10AiUKGPcuT37uHNQb1uCN0QG4VE6J1nhPpfWGNJE0LHHojA_lXuAJ01KRkYCFPxispyofl-7NBzgKtTitcTL3P4kW4tBdlR3VKBhRvcnsG30cpfxfAYgmwhgFVZdsFSusQKSApTK47YC9jx-33bBob8pJy18PqyE0xhsKkhp_vQjQaNspeKmN9T4R8GpjS94UU4RBkLJ1_ALYkyZvHuQ8Ne27j582_v4l71B7ZOXgx59nTX84RO5a5BTvnbalv05MIMHs6mK0q5J7B6olN6tkAMbHs4um8bpC6Asr-ZmWtDyU1-WxsX6CZIJvxquTp6uMUX8ATjwuo3E4HdylSMPrYwbqo9Dd9cvkAWI8eY3rmieuBxuOt1L9jcLR6I5yWWu17XeOlU3tXjnqnhiDcZQyWjV194AFHPfielSAsuE8z22ZdT25M2QzdOOwNSQIQnuMdG-GvrhG966Pu3BPiKaKwCc-Zd-79Pk23DW6Pyc9d5eK9MCfakixSQy41P9U-XpAERAzmI1OsKq8etNgU3WxJ1M/4qr/cBTbmRzqQLqFBkF-pDi-4A/h4/h001.xCJWSvDpnVvyh-dLbPI6dNLNMaA-xJJr3nJo1HJ-H6w"
+        },
+        {
+          "text": "Claim your free prompts",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.nveyZT5WXC8nu3H7vNsg-bdbaY_EuuGogsaHh_-i8JiyGlaR3HND_CWxms_5ZfNF0Az8YrllqXLQB6tC7gaVZxuueGRgtBb1LrIteLk10AiUKGPcuT37uHNQb1uCN0QG4VE6J1nhPpfWGNJE0LHHojA_lXuAJ01KRkYCFPxispyofl-7NBzgKtTitcTL3P4kW4tBdlR3VKBhRvcnsG30cpfxfAYgmwhgFVZdsFSusQKSApTK47YC9jx-33bBob8pJy18PqyE0xhsKkhp_vQjQaNspeKmN9T4R8GpjS94UU4RBkLJ1_ALYkyZvHuQ8Ne27j582_v4l71B7ZOXgx59nTX84RO5a5BTvnbalv05MIMHs6mK0q5J7B6olN6tkAMbHs4um8bpC6Asr-ZmWtDyU1-WxsX6CZIJvxquTp6uMUX8ATjwuo3E4HdylSMPrYwbqo9Dd9cvkAWI8eY3rmieuBxuOt1L9jcLR6I5yWWu17XeOlU3tXjnqnhiDcZQyWjV194AFHPfielSAsuE8z22ZdT25M2QzdOOwNSQIQnuMdG-GvrhG966Pu3BPiKaKwCci1YGGbkxFI9wbQ9DSDDiTcYE4AVooQg824A4mIYO9bQVwvIsUgap6x7hBjfpBCIR/4qr/cBTbmRzqQLqFBkF-pDi-4A/h5/h001.DyYZJVZ2aNjwK8inAbvn_QQUHFl5OW4YW_L0f-Q7LrE"
+        },
+        {
+          "text": "🚀 Send more like this",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIuZUF5C7hutePQ86dmTbWpb7aGQVpGPNLyafqJ_tBzcb3GU_4Qt8yWD6iJzF_FybSP4zQCklYtEcpJ3FOGfbu9AyxQHAFGw5nMNVf3AGBipA6MHRmy4K9juxcjLWprZ-GjvEpcHqaaS9oUpXNmi6Ttont7Tv1dZLta8_jNLEzDiniSceYoF8Uy4MyF2xTYFRtXlVTZrpHle8WRuyDJChQKjIVSSK-FtXIgIqN79Lp4jF-G_fMgWVYGdFqv1hB47xaijSadjFgLDjX0I7bGPsr9NHyxb-6-OS4h8b_kNlWRrngZmxj3LBbL3clPNMbXdA_UKYj0mM4oYQ9QsHS6waJr42V56SApoMlZKHwFpsOUG0PTwHzPzLqykfSWJ6UIExFfPz66Y0Xj6X24UeaBL5ByHMVhfM6EbOS-zccBEauf0RjbOT67pZmu02fOf6mWm_7KXoLoVNBZFJ6fTqlaDsK1r3kSfAenDmzL-izE7S6eNcSybokEaQwKLwF780uv2tG_7rr66BteSTmoweGJ6kLsGNEE0ZtscIgQwbA5WU5NgSIXj2YaXluZYs0eUdQr4G8AwPtp2Wj8tWJFoCqFsi3g5Xy0EcmwxNItuuSejxZKF9Wyu4sun2pIu4rA4erPH9YE0qdE-i8bnKF2fGjYOfiEqH9ijN07U3gvCGNen3Rw4lo5p86OVhbYd_mOi2a0wq67rw-4ATVGWH9WomboqIPo0sTuzKtt4CYgHMiG1XKfMjumUxph5U-LhGFsZhBeoGcppsEKt5fnC_ORYQc-qDJHWIj9-wowIbKdpsAVF8El7_VuZg-q3dbhqG4vs5ifYgevRFWVZOtp9k6YImLNhbzSxNbdOqcfz4EdOaTBFi9VOdTp_-osXhLhkbXXlr5vrOMb37BmD4A7aoBU5SlTlf6hExK7SvHUOCmamnCjZBFz1JARh6a1Xmf5w_IELMwpZUDKuzgFTPu47uK-T7_l9sZJ2YDAwLYvJkoqe6xDkMwyzCw/4qr/cBTbmRzqQLqFBkF-pDi-4A/h6/h001.y8ghiszpgTUMjNkH7ufGvekJgXG0gJvXf1D2286FVw8"
+        },
+        {
+          "text": "✅ Solid, keep going",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIuZUF5C7hutePQ86dmTbWpb7aGQVpGPNLyafqJ_tBzcb3GU_4Qt8yWD6iJzF_FybSMNCDRes_XCMoEGeYON4ExzWDTKKRe61lbHNc1qykAokG8bI466aOs4BgHXjYrWcRDpqr570OzBC9eOiHEYCFlCUWdUsNWGgE6CtDDGHshn568tb4GBA8KYk4skxljhdmgZjmgFaAcIqNiUPZesbkeHVH9aLWQxt1uIJQlczfsAwHrVBiJ7OTmi0uIQBxPJIscyfjozcPywRgOpjwjzxpaK6qNenA-V1NXV93cuKkJOxfTILPtMbZfDzHdnCNqT8EpnagTKRa2wTp2XYP2jFEZ1zW-cC7M8w8elZKBaPS-h9Kba8B0xLv7NvfUJAVbXxAmJv8PqRT2BekfqQi2CviA2kyAsT3G2RavnvECurYBkEFgxX19-Bi5ajEmVZk8jLk4kKR1tB_PbT_30bav68cbe9Pn_vPupjr-Z3g-0-QG7UI0OrVWZ6X4UFI8gqRIz7WDYyZ8S45_TY2CWu01rlDn9rWb03ONdDOj_ID-prifAbH93-MnJsSNQ1XIoLs0hqLLCcQs3aCf-VxI6sykd5EOrADHjUrG5fB99XqX69V1-v7hoCoHPVvfHnKr2scCDlMIRS-A2ezrQlu95lqqvIKG3A9FY221EDuXrHJw0evsaIkYEmVyAnNSxnd3mQnl7ne_N7O_V8-QfbExEtvAKXSXvL940v4ibbE2_cZOcnKQxU_bFiS8zyir6OrI1cV_grdsghCEf4CtiYh_I-aYPbf1mxjm6c2BkjrJaQ3IHGekp5W5p94jDU8A0Tn6gXyY3S1xQ7hqZYUAEvLSf5UhP_ZktrjV8LJc60jIkZwgVcCpf14BsxK_UF5M8etn8VzYcO04TK_o8nNT8QWwqOuNaivziMit-UMZYJznOKxT7srtkuP9Y7gdAzyYX3UpV18sCF52tToETmeeaeyWxqdU7ZURSzBd6LvYsKLYTxmRXVJa8Iw/4qr/cBTbmRzqQLqFBkF-pDi-4A/h7/h001.WY4BGWTRqKQqoMDIZZQvFfzOM2DBo4_JEowXjylqXms"
+        },
+        {
+          "text": "🤔 Could be better",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIuZUF5C7hutePQ86dmTbWpb7aGQVpGPNLyafqJ_tBzcb3GU_4Qt8yWD6iJzF_FybSP-homfUmdTJnRjkyx5NnrChpVGbszPK5Mh1ZaEiG51yOoVyDM0Y2TdsEuhtSHl4aA2zcmR4uLhtd1StHw4_CqW_TezS5aFwyY40kPJTYHqxcE2DuaGcfTw6aj2Wz83_3ONQPWCRzbWOiH75N3eCxCA3__fnzbJ2AbfE5Fu2CaQ5uWodxL5pN4kerb3bRJA0kNlEuqoAjkYCjONS3X1MZ2f-c8VmzDhbWgNvhCOgxhIodXrunJTbPEx_JtKDHkI78o9v6dkQ3CaIB-wC7iu-pszgioYpJewmPJtQDiU8Coxqxv8wJ9qq8n7qUmYMb2ayLsQ6EaoIQCF8WNf_ygpRTmrbBYRbUhHwhVmwrUwM8SJPtzn_xMj_468kae31SuPFvBN8UCFQTJr2ObnR28uy_Kdf-r5nFtXxihVA8qRDfAlNgO6PsIVjeBR8pK6NO1IzTIOmsxblfkA7k3Kn1heOk_KsPhQrBRQtcbNvurNjeLC6lpRViPoU9tdO83WN6mkY4IUHZ1VGe7NAF2_tu77Q7hkw395-k-zB-KdNLkajAfR-9LkFQExKCGH6vQkCmsYnbPfaH0V2eWEq_-PLpdZ_rLtiLnMjE2hes5CQyfcXyoXGeZW3IHiIbpfNKleuDvWiU7O9NtCmNsHBE_Q4UnzNC2qUg-ZgnBg2x7p6wJze2SXpqS8E5h3z25VIOL8OqPvk-AllpcdazLvykICu2XUu2kCsuDYpOiFptwiap0hOFZG0s4WGaXFgs9lwOjzVkucVCzlRWCGel1SQWnboS4yHZzi5Revqrhb1ESBWOTXmJxX9PQajJqAAQOWDv6RFQrKH2VPqnFCyze1oQ5tmm4PV7icb7fG0YahWWDDEDETwGeaPdwjvJsf0AeSIGfg3qBCHhwvp0W7ku4B6yTgEJeJlfjRSek6vXLGgmCUeafUvsxvtQ/4qr/cBTbmRzqQLqFBkF-pDi-4A/h8/h001.Lh8nB5ngG_XVaE86_ChCWghQmE7x45HLAl6fiY04GJI"
+        },
+        {
+          "text": "Hermes Agent Foundation Update: Real-Time Agents, DeepSeek V4 FREE, Native Windows Support, & More!",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaXgc7wkhO5qnqQqF6Zk88E7EcEWl-gClAH6eN34eJP5WsKnS1pqkOpzgW7K42oBquL2Jp_2IfftU2Cb8dmzRgdqMR383tLvbvTh-A3E27FIwNDDXHtOVnPu9HRT2fVQ2GgfmxQC-K1Yu3RlwWiN9hzBZKkRYcm7ZiApOXAbThC5pzrzhdjThWAzcc314UAxDIESp0bPDubfwzwMcBw0LbR7xG80cN96eLM8ugZFk2v4A/4qr/cBTbmRzqQLqFBkF-pDi-4A/h9/h001.og4X90qPM_6CPJLCYtqfpJXSxvXhA2VuWPytgdCrWto"
+        },
+        {
+          "text": "Book a free AI consulting call.",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.dr13V4H10E-Jo8xtnosiafVC6nEF8hif9ASMzZyRmJmVkTO947MnczggmD8sPn4OmtnRFuYA-bBvNDF_-4tpmztHPOGGMmcZEj5VkyjAcpwnR-iGi_4Clap2eaCB63t0MjRg7fe_NjPQfVCON7_C1d23mQDtYeyP4_uKOe6BazLpjmCdLIWYnGsuDOqzJ7XIcbteA-piW_UQ8Baq7zhwVR-6a4RTJIsMA62S3Rp_nxXhUw2g7wigSW8c4I0hnUU95KM10gLm-OXWCl1DUSLfhQ/4qr/cBTbmRzqQLqFBkF-pDi-4A/h14/h001.KwsWmMP1owIdZJnzCgFo8v3d-Lz_aUEQntNauuWObUw"
+        },
+        {
+          "text": "here",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIswJvY8wQFQRGcnjmPgARAfEr_VS0-WEKgWPeYVrrOvD_4DLM1sNx1S66hFhBdKltEdW4WEuP3A4eMS10RSzVa6J48kT3PS10hQ4IB55s5lgY5XirhcgCC3z7CmDUsC08dWT6L20bggndqx0dW7-mtM_JT-9R5N_dcttJFumpmdaxW6jrBA2SQB4_6tpfW72YnrVR58BAQxN3tTfM8Z75zw1aIw2YoY7W7aH7VPJ2FCxD-ZzH3QXUlm84DTcwate9a7RUiLU2o6q37wlsgveYzNM0uvcB3PFiEvAvOuh-DjQqDjo3CFwPS0dy1IUEgRJbGc9LFyzJRWGxOD8Eii61IZAG_X8xJj2FNg8FZ-bWymayIquqyUBy-JYIQbeQynla40OQ4DWEU-p5X9en3X5OqawqPFgNT_z2PrlJ8fXEwYb5fHy73mbBWiAeK1KhYP55XJuD7NLXUgvGrSp3nWi0uREA5aOHFpc1kgtPw6YYIg28QMkP3T931PjidlG84V_e5lzuYe_WfIkxBYkX6dzHU3ZGUwjRzbSOg0XnMVvczuA8v6_bpYXlxILxHAU7hga3EZ6Qs4doPNgkil0bQVacFIsaTAuftKWwVG1wcBQA15MpuY-fcSMDs84QhLPX4vsfZrAldRyT5Y9Q24SbjEZMd9qML7_q1eUbniGtp2Qa5Vug0ZW86F_2GU_ornfwWrDGdTlg_XjBNKTuARy8HRp7-FdsCW7_1BX12vw2_51e8qNJokEXW-f21yftZjj9qWd8H_tnAWSUgHXBoVVbErmY02wj74O63SbOL63c4KUPC58j0NRcIPfOUigLVJiOqy8jd4eMUI60l5SgwLDGSmVGR51KmRAtlblky6oxXIMLUNDGkFyWys5Iq-h4urlcX_bfpRM37HO4MmEvUDxVHyKbmOnRUoHyEwtVs6bOut5MSX9jXVTIianLZsDsizqUaTSfH0AQapDySdcVHqDYStRil88dfRZNlGBAZANx18K2LxSQ/4qr/cBTbmRzqQLqFBkF-pDi-4A/h15/h001.GFz_tc_42cFnOvRW5sdNMjJIulDsVqcX_qKvnDjLats"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "⚖️ Elon Musk Loses OpenAI Case!\n\nBONUS: Google I/O opens tomorrow at 10am PT. Gemini 3. Android XR Glasses. Aluminium OS. Gemini Omni reveal expected. The biggest AI day of the month is 24 hours away.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 19, 2026   |   [Listen online](https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIuA5PiYb1UlFtclZsdGjEFuJYMskWISL5jQA7Sxi6KEnk2_eTZkJky0Y5IOR_J4A7qxovTIk6MWx-xoqcR3PgbjEA4SEp5EItqDYPHW_QBz3IM7RmSKyE2G1ozUrZkJ3w0Ywdis27wGhHvOvnV6PAU1CYibFrIhXwn-DEoON0mwHwibQTKkWhAhPiHab-hTDXqv4zI0ASFGpnbaj-gs3qLD97Ucpr_bEs_alcLE7nYHpMRP6Gib08Y7rmYZETzoWG4tfo5F4NvjktOl1VF2"
+    },
+    {
+      "from": "\"The AI Leverage\" <theaileverage@mail.beehiiv.com>",
+      "subject": "hurry up",
+      "date": "2026-05-19T02:14:10.000Z",
+      "summary": "## The AI Leverage\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI Leverage newsletter introduces Accio Work, a product that automates business tasks using AI, allowing businesses to run effortlessly by handling tasks such as sourcing, supplier deals, store management, and marketing.\n* Accio Work is backed by Alibaba.com's vast product network, ensuring fast and reliable execution, and offers a one-week free trial.\n* The newsletter emphasizes the importance of self-reflection and audits to maximize the benefits of AI, suggesting that readers ask themselves seven questions to identify areas for improvement and potential automation opportunities.\n* These questions include:\n  + Identifying someone at their level who is using AI better and what they are doing differently.\n  + Determining which tasks, if 10x'd with AI, would visibly change their output.\n  + Calculating their hourly rate and identifying the most expensive task they do that AI could do for less than $0.50.\n  + Identifying where their context lives and if it's scattered or centralized.\n  + Determining which skill they could acquire in one weekend that would compound for the next five years.\n  + Deciding whether they are optimizing for value inside their current company or in the market.\n  + Identifying the dumbest, most obvious thing they're still doing manually that AI could automate.\n* The newsletter encourages readers to download a 7-Question AI Audit PDF to help them answer these questions and provides resources such as a free guide to learning Obsidian for note-taking and knowledge management.\n* The AI Leverage also invites readers to share the newsletter with friends, offering rewards for referrals, and provides an update on the referral program.\n\n### Notable Links\n* [Accio Work](https://www.accio.ai/work): A product that automates business tasks using AI.\n* [The AI Leverage Subscription Page](https://theaileverage.beehiiv.com/subscribe?ref=fl2AWVfOA5): A page to subscribe to The AI Leverage newsletter.\n* [Bestapps.ai](https://bestapps.ai/): The company behind The AI Leverage newsletter.\n* [Obsidian](https://obsidian.md/): A note-taking and knowledge management tool.\n* [GStack](https://www.gstack.ai/): A tool for building and managing AI workflows.\n* [Notion](https://www.notion.so/): A note-taking and collaboration platform.\n* [Alibaba.com](https://www.alibaba.com/): A wholesale marketplace platform.",
+      "links": [
+        {
+          "text": "https://theaileverage.beehiiv.com/subscribe?ref=fl2AWVfOA5",
+          "url": "https://theaileverage.beehiiv.com/subscribe?ref=fl2AWVfOA5&_bhlid=bf7a73b936aab597b0df9777ef50b28c5a049d32"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "hurry up\n\n(don't blink on this one)  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 18, 2026   |   [Read online](https://link.mail.beehiiv.com/ls/click?upn=u001.KpTSp8BZKxxeOS7IyX3VZ-2FwxiNtrcWkddifgGGQnGNaV0xqacVxqGdz9mhNsjaqd60ecsZ7LDzk2iABTUs-2FnM3Fc42qxPetDTqns9NWl3RUicWnUCtmQO16FBLnsTf2hGUeiJ9Sai3hlQ8X3NL0XnegaA4WTSnMD7XPDNlf-2Bj5sFzrG8xhEQZYh80sLAaJQPdgfX9OYYQN88MQHovnodtIBRiJFmCjRQI-2FZy9-2BZdjDms-2BB7DYFQhFAxt7oUXvHuj-2F3QsmTjoxMfZsdiPW6wt2o2BXBuos6bLqPA6n84q-2Ft6P3bLEInZ659G1KfpDUqGXM-2FjxhG0QQNgZ4BILG5fA9cMAX1ny19QiXY84vFYOXGI1pu50H60CGSlWM1JJ2cm5rUAYBNiMlH-2FHToUcUOYXeS6XARxVmOUe-2Fmkf8pl-2B-2F19TsIO1YGp9BEPCfNjBF1ibTdC1iJC"
+    },
+    {
+      "from": "\"Simon Willison from Simon Willison’s Newsletter\" <simonw@substack.com>",
+      "subject": "The last six months in LLMs in five minutes",
+      "date": "2026-05-19T04:30:21.000Z",
+      "summary": "## Simon Willison's Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The last six months in LLMs (Large Language Models) have seen significant developments, with models like Claude Sonnet 4.5, GPT-5.1, Gemini 3, and GPT-5.1 Codex Max competing for the top spot.\n* Coding agents, such as those from OpenAI and Anthropic, have improved dramatically, allowing for faster coding and reduced maintenance costs.\n* Local models have been shown to outperform expectations, with some models like Qwen3.6-35B-A3B running on laptops and performing well on tasks like generating SVGs.\n* The concept of \"Claws\" (personal AI assistants) has emerged, with OpenClaw being a notable example, and has gained significant attention.\n* New models like Gemma 4 and GLM-5.1 have been released, with GLM-5.1 being a 1.5TB model that outperforms other models on certain tasks.\n* GitLab has announced significant structural changes, including a reduction in workforce and a shift towards more agile team structures, in response to the agentic era.\n\n### Notable Links\n* [The last six months in LLMs in five minutes](https://substack.com/app-link/post?publication_id=1173386&post_id=198348844&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODM0ODg0NCwiaWF0IjoxNzc5MTY1MDY0LCJleHAiOjE3ODE3NTcwNjQsImlzcyI6InB1Yi0xMTczMzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.6JnzTI-zztSPZ_Da6FICzAMUclPPbb6Qe-LA70Zd-N8)\n* Using Claude Code: The Unreasonable Effectiveness of HTML\n* LLM fragments\n* Tool calls\n* CSP Allow-list Experiment\n* QR code generator\n* inaturalist-clumper\n* datasette-llm-limits\n* datasette-ip-rate-limit",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zaW1vbncuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnNpbW9udy5zdWJzdGFjay5jb20lMkZwJTJGdGhlLWxhc3Qtc2l4LW1vbnRocy1pbi1sbG1zLWluLWZpdmUiLCJwIjoxOTgzNDg4NDQsInMiOjExNzMzODYsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc5MTY1MDY0LCJleHAiOjIwOTQ3NDEwNjQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.B70TocE6v9MNx8bSFfP3ji0mpVZyxXNIDvEqU4eeAu8?"
+        },
+        {
+          "text": "The last six months in LLMs in five minutes",
+          "url": "https://substack.com/app-link/post?publication_id=1173386&post_id=198348844&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODM0ODg0NCwiaWF0IjoxNzc5MTY1MDY0LCJleHAiOjE3ODE3NTcwNjQsImlzcyI6InB1Yi0xMTczMzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.6JnzTI-zztSPZ_Da6FICzAMUclPPbb6Qe-LA70Zd-N8"
+        },
+        {
+          "text": "Simon Willison",
+          "url": "https://substack.com/@simonw"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/simonw/p/the-last-six-months-in-llms-in-five?redirect=app-store"
+        },
+        {
+          "text": "Datadog LLM Observability",
+          "url": "https://substack.com/redirect/e66a1bbb-5aac-4c8d-b1a8-9f8e8e95e12a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The last six months in LLMs in five minutes",
+          "url": "https://substack.com/redirect/359cbbf0-aebc-4f26-b799-3e9c0d2c7615?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "latest iteration",
+          "url": "https://substack.com/redirect/54a458b8-9ad8-41ab-8ca6-f1d68b5bfe56?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "annotated presentation tool",
+          "url": "https://substack.com/redirect/f227a59b-1e0f-4bf7-82e6-da5364ad230c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "November 2025 inflection point",
+          "url": "https://substack.com/redirect/502bc24b-c975-4998-9405-20b5b1dd777a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Generate an SVG of a pelican riding a bicycle",
+          "url": "https://substack.com/redirect/714bb5ac-8670-4917-a3db-468cd489832f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The last six months in LLMs in five minutes![](https://eotrx.substackcdn.com/o/02b633c975d449fa/p.gif?token=eyJtIjoiPDIwMjYwNTE5MDQzMDIxLjMuNmZlZDNlZDJhYWU1ZGZlMUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5ODM0ODg0NCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMTczMzg2LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzc5MTY1MDY1LCJleHAiOjE3ODE3NTcwNjUsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.e6yGvHJ1A-4TrK7sdh1EOZvCk-3_mpJCRaDjdkhaDWs)\n\nIn this newsletter:\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "Anthropic doubles Claude context limits across all plans starting now",
+      "date": "2026-05-19T06:34:01.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic has doubled the Claude token limits across all plans, effectively increasing the working memory for conversations, code, and projects, allowing for longer and more complex interactions without context loss. This update is powered by Anthropic's new deal with SpaceX, providing access to over 220,000 Nvidia GPUs.\n* Cursor has released Composer 2.5, a coding model that claims 10x efficiency over rival models, with scores of 79.8% on SWE-Bench Multilingual, and costs under $1 per task compared to competitors' $11 per task. This model is trained on 25x more synthetic tasks and includes smarter feedback during training.\n* OpenAI has shipped a Codex update with 10-50x faster Git operations and custom shortcuts.\n* Nous Research has released Hermes Agent v0.14.0, a major foundation release that includes a new OpenAI-compatible local proxy, improved LSP diagnostics, and support for 22 messaging platforms.\n* Harvard and MIT have conducted a study where they red-teamed live AI agents, observing them lie, destroy, and take over, highlighting the need for better understanding of AI agent behaviors in production environments.\n* Qwen3 35B MoE has been released with a free quantized GGUF release and speculative decoding.\n* An open-source tool has been developed to cut AI code exploration tool calls by 92% using semantic graphs.\n* Open-source RAG library has been released, which cuts storage by 97% while keeping data fully private.\n* Buildkite is being used by OpenAI, Anthropic, vLLM, Mistral, and Cursor for CI, providing orchestration purpose-built for reliable scale.\n\n### Notable Links\n* [Cursor Composer 2.5](https://alphasignal.ai/composer-2.5)\n* [Anthropic Claude Token Limits](https://alphasignal.ai/anthropic-claude-tokens)\n* [Hermes Agent v0.14.0](https://alphasignal.ai/hermes-agent-v0.14.0)\n* [OpenAI Codex Update](https://alphasignal.ai/openai-codex-update)\n* [Qwen3 35B MoE](https://alphasignal.ai/qwen3-35b-moe)\n* [Open-source RAG Library](https://alphasignal.ai/open-source-rag-library)",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=00fee74d7442f714&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=00fee74d7442f714&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=00fee74d7442f714&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=00fee74d7442f714&mid=e70bf5b5-bf30-4af5-8b36-7eddde383757&s=Anthropic%20doubles%20Claude%20context%20limits%20across%20all%20plans%20starting%20now&t=1779172436)\n\n$1 vs $11 per task with 79.8% SWE-Bench score, OpenAI Codex 10-50x Git boost, Harvard red-teams production agent failures\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=00fee74d7442f714&lid=7ntptUBVbSd4nK1U&mid=e70bf5b5-bf30-4af5-8b36-7eddde383757)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=00fee74d7442f714&lid=K4qXFhOAnXXjOQ1L&mid=e70bf5b5-bf30-4af5-8b36-7eddde383757)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nSpaceX is quietly becoming the GPU landlord of the AI industry. "
+    },
+    {
+      "from": "\"Christoph Molnar from Mindful Modeler\" <mindfulmodeler@substack.com>",
+      "subject": "Tabular ML is entering a new benchmark era",
+      "date": "2026-05-19T08:18:56.000Z",
+      "summary": "## Mindful Modeler\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Tabular machine learning (ML) is entering a new benchmark era, shifting from static and narrow benchmarks to live, capability-driven evaluation, driven by the rise of tabular foundation models.\n* Live benchmarks, such as TabArena, are becoming more common, providing a rigorous and standardized protocol for evaluating ML algorithms and models, with active maintenance and updates to reflect the current state-of-the-art.\n* The focus is on testing \"capabilities\" of tabular foundation models, such as classification, regression, quantile regression, missing data imputation, time series forecasting, and more, rather than just testing algorithms.\n* New benchmarks, like ScoringBench, are being developed to evaluate ML algorithms and tabular foundation models based on their capability to predict the full predictive distribution.\n* The MulTaBench paper was recently published on arxiv, providing a benchmark for multimodal datasets, including tabular plus text and tabular plus image datasets.\n* The TabPFN-3.0 model report includes extensive experimental results, testing classification, regression, and quantile regression capabilities on various benchmarks, such as TabArena and TabStar.\n\n### Notable Links\n* TabArena: a live benchmark for tabular ML\n* TabArena explained: a blog post by Christoph Molnar\n* SWE-bench: a benchmark for assessing coding capabilities of large language models\n* LongBench: a benchmark for testing large language models with long contexts\n* Humanity's Last Exam: a benchmark with a list of expert-level questions for large language models\n* ScoringBench: a benchmark for evaluating ML algorithms and tabular foundation models based on their capability to predict the full predictive distribution\n* MulTaBench: a benchmark for multimodal datasets, including tabular plus text and tabular plus image datasets\n* TabPFN-3.0 model report: a report including experimental results on various benchmarks",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9taW5kZnVsbW9kZWxlci5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGbWluZGZ1bG1vZGVsZXIuc3Vic3RhY2suY29tJTJGcCUyRnRhYnVsYXItbWwtaXMtZW50ZXJpbmctYS1uZXctYmVuY2htYXJrIiwicCI6MTk4MzY3MTU1LCJzIjoxMDc4NzYwLCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc3OTE3ODc0NywiZXhwIjoyMDk0NzU0NzQ3LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.GZX-9uQLaMpgcM9OueQqxdRHCGrwBzBMvaWwjCpY2NE?"
+        },
+        {
+          "text": "Tabular ML is entering a new benchmark era",
+          "url": "https://substack.com/app-link/post?publication_id=1078760&post_id=198367155&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODM2NzE1NSwiaWF0IjoxNzc5MTc4NzQ3LCJleHAiOjE3ODE3NzA3NDcsImlzcyI6InB1Yi0xMDc4NzYwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.2yyfW-mOuj6-7LDgL_F2L4QUkQ4RVGSA8EL1qcofveE"
+        },
+        {
+          "text": "Christoph Molnar",
+          "url": "https://substack.com/@christophmolnar"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/mindfulmodeler/p/tabular-ml-is-entering-a-new-benchmark?redirect=app-store"
+        },
+        {
+          "text": "OpenML-CC18",
+          "url": "https://substack.com/redirect/c9a24b22-cfef-48c8-9421-b3a8a747f275?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "the rise of tabular foundation models",
+          "url": "https://substack.com/redirect/7d572a3d-0294-4bd3-9dcf-69520a838ae2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "TabArena",
+          "url": "https://substack.com/redirect/e2401711-3065-47e2-8bd0-d39ffa405368?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "TabArena explained",
+          "url": "https://substack.com/redirect/b6d2bf08-8aef-42cb-8c7f-41d373c9ebe5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Christoph Molnar",
+          "url": "https://substack.com/profile/8489879-christoph-molnar"
+        },
+        {
+          "text": "SWE-bench",
+          "url": "https://substack.com/redirect/1ea7e9ab-0b6e-4819-908c-9197192985b8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://arxiv.org/abs/profile/8489879",
+          "title": null,
+          "arxivId": "profile/8489879",
+          "source": "arxiv-id"
+        }
+      ],
+      "priority": "MEDIUM",
+      "originalContent": "Tabular ML is entering a new benchmark era![](https://eotrx.substackcdn.com/o/793f1ff2fad09320/p.gif?token=eyJtIjoiPDIwMjYwNTE5MDgxODU2LjMuZDA3MDFjOGU4NTMxZGE0ZUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxOTgzNjcxNTUsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTA3ODc2MCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3OTE3ODc0NywiZXhwIjoxNzgxNzcwNzQ3LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.hU9RSWmdkQBkmAKrEGmuasiiYPp-PLTgqMNO-9uxcFI)\n\nFrom static and narrow benchmarks to live, capability-driven evaluation\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "[AINews] How to land a job at a frontier lab (on Pretraining)",
+      "date": "2026-05-19T07:31:41.000Z",
+      "summary": "## AINews\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Vlad Feinberg shared notes on job preparation for working in a frontier lab, specifically on pretraining, highlighting the importance of performance work that makes abstract, logical changes to large language models (LLMs) practical to run.\n* He references last year's Scaling handbook from DeepMind and emphasizes kernel work, including tuning LLMs at the kernel level, as a key skill for working in frontier labs.\n* Feinberg also mentions the use of Domain-Specific Languages (DSLs) for kernel development and provides a concise history of DSLs.\n* The newsletter discusses various AI model releases, including Cursor's Composer 2.5, Alibaba's Qwen line, and OpenAI's Codex updates.\n* There are updates on agent infrastructure, including LangSmith Engine and Cognition's Devin Auto-Triage, which aim to improve agent reliability and automation.\n* Research papers are mentioned, including \"On Training in Imagination\" and \"Pedagogical RL\", which focus on improving training signals and agent evaluation methodologies.\n* The newsletter highlights the importance of data selection, architecture search, and inference optimization in AI research.\n* Anthropic acquired Stainless, an SDK and MCP server platform, and there are updates on local inference speedups via MTP in llama.cpp.\n* Revenue concentration around foundation model providers is increasing, with Anthropic and OpenAI leading the way.\n\n### Notable Links\n* Notes on job preparation for working in a frontier lab\n* Scaling handbook from DeepMind\n* Concise history of DSLs\n* Cursor's Composer 2.5\n* Alibaba's Qwen line\n* OpenAI's Codex updates\n* LangSmith Engine\n* Cognition's Devin Auto-Triage\n* On Training in Imagination\n* Pedagogical RL",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWluZXdzLWhvdy10by1sYW5kLWEtam9iLWF0LWEtZnJvbnRpZXIiLCJwIjoxOTgzNDM0NTEsInMiOjEwODQwODksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc5MTc2MTI0LCJleHAiOjIwOTQ3NTIxMjQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.O4PcVBzqhyTeOGcXYlKx3nN7T83pQR6d5c3aeeGvHqk?"
+        },
+        {
+          "text": "[AINews] How to land a job at a frontier lab (on Pretraining)",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=198343451&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODM0MzQ1MSwiaWF0IjoxNzc5MTc2MTI0LCJleHAiOjE3ODE3NjgxMjQsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.TNIIpceYkyz5GfbinAHol-Z0ft8XJbJAnmNsTMPf1Zc"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ainews-how-to-land-a-job-at-a-frontier?redirect=app-store"
+        },
+        {
+          "text": "Anthropic",
+          "url": "https://substack.com/redirect/9ef3dcba-f041-4b11-b495-4faeb7ee0566?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "OpenAI",
+          "url": "https://substack.com/redirect/632a52f4-46cc-43ff-9776-af871adbcf47?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "first SpaceXAI model",
+          "url": "https://substack.com/redirect/ac9b33ca-0e33-4ee4-a098-4666d2f79516?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Muon",
+          "url": "https://substack.com/redirect/1541421b-e340-4734-ab12-defd8c5610d8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "notes on job preparation, specifically on Pretraining",
+          "url": "https://substack.com/redirect/07f5961a-d335-41d1-b68d-4322240a4a77?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Scaling handbook from DeepMind",
+          "url": "https://substack.com/redirect/67bc2b62-8bcf-4e9f-8d6b-87bd90891cb7?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "concise history",
+          "url": "https://substack.com/redirect/86da12d8-63e3-4675-8a72-b3c2e3d34b06?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "\\[AINews\\] How to land a job at a frontier lab (on Pretraining)![](https://eotrx.substackcdn.com/o/0191dd7787f56be2/p.gif?token=eyJtIjoiPDIwMjYwNTE5MDczMTQxLjMuYTIyNmYwZTg5ZWNjMWQzOUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5ODM0MzQ1MSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoib25seV9wYWlkIiwicyI6MTA4NDA4OSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3OTE3NjEyNCwiZXhwIjoxNzgxNzY4MTI0LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.pcij1JIQbXXYy9RLW3sp-giplwRw1DVBuMX7nlXgsBE)\n\na quiet day before google i/o lets us amplify a notable blogpost\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"Evolving AI Insights\" <evolvingai@mail.beehiiv.com>",
+      "subject": "🏛️ OpenAI Clears Its Biggest Legal Hurdle",
+      "date": "2026-05-19T09:53:21.000Z",
+      "summary": "## Evolving AI Insights\n\n**Priority: HIGH**\n\n### Top Updates\n* A California jury ruled against Elon Musk in a landmark trial against OpenAI, finding that he waited too long to sue the company. This verdict clears the way for what could be the largest IPO in tech history.\n* Musk had wanted the judge to remove Sam Altman and Greg Brockman from OpenAI and sought tens of billions of dollars in damages. However, the jury dismissed the case, citing that Musk filed the lawsuit three years too late.\n* The trial featured testimony from key figures, including Altman, Brockman, and Musk himself, with internal emails and Brockman's personal diaries entered as evidence.\n* OpenAI's valuation of $852 billion and planned trillion-dollar IPO were contingent on the outcome of this case, and the verdict has significant implications for the AI industry.\n* The company started as a nonprofit but is ending the decade as the most valuable private company in the world.\n* Cursor released Composer 2.5, which matches the performance of Opus 4.7 and GPT-5.5 on key coding benchmarks but at a significantly lower cost, with pricing starting at $0.50 per million input tokens and $2.50 per million output tokens.\n* The new Senate bill, the Energy Cost Fairness and Reliability Act, aims to force AI data centers to cover 100% of grid upgrades and cannot draw from plants serving households, applying to data centers above 50 megawatts.\n* Microsoft refocused Teams on performance and announced the end of Together Mode.\n* Claude is now the chat interface for SandboxAQ, executing customer service tasks, not just answering questions.\n* iOS 27 may bring AI-powered grammar checking and smarter Siri writing capabilities.\n* Anthropic acquired Stainless, a SDK toolmaker used by OpenAI and Google.\n* Other notable updates include the launch of Magica, an all-in-one AI platform bundling ChatGPT, Claude, Midjourney, and 3000+ tools, and the development of CodeRabbit, an AI-powered code review tool.\n\n### Notable Links\n* [OpenAI](https://www.openai.com/)\n* [Cursor Composer 2.5](https://www.cursor.ai/composer)\n* [Energy Cost Fairness and Reliability Act](https://www.congress.gov/bill/118th-congress/senate-bill/XXXX)\n* [SandboxAQ](https://www.sandboxaq.com/)\n* [Anthropic](https://www.anthropic.com/)\n* [Magica](https://www.magica.ai/)\n* [CodeRabbit](https://www.coderabbit.ai/)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "⚖️Musk Loses Landmark OpenAI Trial\n\nAlso: Cursor's Composer 2.5 Matches Opus & Cuts Price by 90%  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.DB0aRdsBr6jihNQ_e6R1ineWERtMWUU2dJw5bffjXFM5TT0NJHyG3E86R1Rg_NRUL4MXW8P1fKPwQeY-PyaZW4Fl1YLkoArck6LFWUmNDbYU-bwKlICa1wcFblxppFW1GKqZ3SMHrVmcazl5hHRa1Zz4U36shwl5AtMXDKTgDKmrx6arXPJoOECdVaStzENmAy0PS4Iplpl0BaAW8uAyCng2pEtjacx5daz7yHaZSfYUIu9CgKTxwDChD0JsywWv4uq5T0RenTDnRMBTFBElRluF0VrbmYnDJwivrX0tup9ShPCcZWHvEFTiZbiI9GYeW2gIrsll5y3CC3FQ95my47eohrGWURxDSPcm-pUYfOZ-AWVzFoXntHO6pkzV8NDquKGyGXUNeJDUA5yTao22CB_zhkxtoyRrt6oj8MlIpubR"
+    },
+    {
+      "from": "\"Anna Eisenberg\" <annas-daybreak-news@mail.beehiiv.com>",
+      "subject": "OpenAI Defeats Elon Musk and Silent Liver Threat",
+      "date": "2026-05-19T09:56:59.000Z",
+      "summary": "## Anna's Daybreak News\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI has defeated Elon Musk in a court case, with a jury dismissing Musk's 2024 lawsuit against OpenAI and CEO Sam Altman due to the three-year statute of limitations. Musk had alleged that OpenAI breached its nonprofit pledge after his $38 million donation by becoming for-profit.\n* The US Justice Department has created a $1.776 billion \"Anti-Weaponization Fund\" to compensate individuals claiming unfair federal targeting, following a settlement after Trump dropped his $10 billion IRS lawsuit over leaked 2019 tax returns.\n* The US has exported 14.2 million barrels per day of crude and fuels, draining domestic supplies and leading to higher diesel prices, with California diesel prices surging to $7.42 per gallon.\n* A shooting at the Islamic Center of San Diego has resulted in three deaths, including a security guard, with the attack being investigated as a hate crime.\n* Research has found that exposure to tetrachloroethylene (PCE), a chemical used in dry cleaning and industry, triples the odds of liver fibrosis, with higher-income individuals facing more PCE exposure.\n* A study has linked higher consumption of ultra-processed foods to increased fat buildup inside thigh muscles, detected by MRI scans, which may increase the risk of knee osteoarthritis.\n* The EPA is phasing out PCE in dry cleaning over 10 years, and reducing ultra-processed food intake may protect muscle health and support osteoarthritis prevention.\n\n### Notable Links\n* [SciTechDaily](https://scitechdaily.com) for research on PCE and ultra-processed foods\n* [WallStreetJournal](https://www.wsj.com) for coverage of the OpenAI court case and US fuel exports\n* [AP News](https://apnews.com) for coverage of the Anti-Weaponization Fund and the Islamic Center of San Diego shooting\n\nNote: Some links may require subscription or registration to access.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "OpenAI Defeats Elon Musk and Silent Liver Threat\n\nA jury in Oakland dismissed Elon Musk’s 2024 lawsuit against OpenAI and CEO Sam Altman  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Listen online](https://link.mail.beehiiv.com/v1/c/IX5EkJOzC7ClsdoJuQYano0Eu4SBnf47rMJ3ZB6u62zXqI%2BsF0bj7a2gPexz%0Ak9HY1Yesj83CUSZbwPtMVUUNCivDSpm7MYivcJ%2FWNo1yGLTVh6P6RrgGpWLs%0AiZEneDQCdNyHkLTDObJVWs848YdWeZHG%2BF8kTfuM4RUKa0DoCaGFMkuVwxXZ%0ANrklZdQLjbW6sd8Obx%2FVVpKJNc2D%2FU%2BRdg%3D%3D%0A/1c3113b798cb3ff2)   |   [Read online](https://link.mail.beehiiv.com/v1/c/0sA3aC5HpIqCAuxB3%2FCRIxBFsmaoupj9kxbDcQt%2FKCZRebp1FDRGJRCuDKA5%0AQWuO%2FwigkPveM%2BfdYWa"
+    },
+    {
+      "from": "\"The Rundown AI\" <news@daily.therundown.ai>",
+      "subject": "⌛️ Musk's OpenAI case runs out of time",
+      "date": "2026-05-19T10:04:16.000Z",
+      "summary": "## The Rundown AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Elon Musk lost his lawsuit against OpenAI and Microsoft, with the jury unanimously finding that the case was filed years too late. Musk alleged that OpenAI's founders 'stole a charity' by shifting the organization to a for-profit structure, but the jury felt that Musk knew about the shift for years before suing.\n* OpenAI partnered with Malta to offer free ChatGPT Plus to every citizen who completes a national AI literacy course, marking the first country-wide deal of its kind.\n* Cursor released Composer 2.5, an upgraded in-house coding model built on Moonshot's Kimi K2.5, which achieves near-frontier benchmark performance at a lower cost.\n* Odyssey marked two world model firsts with the release of Starchild-1, a real-time, multimodal world model, and Agora-1, which allows multiple players to interact inside the same AI-generated world.\n* Amazon rolled out Alexa Podcasts, a new feature that creates custom podcasts using NotebookLM-style generation.\n* Meta is laying off up to 8,000 employees and ending plans to hire for 6,000 open roles as part of its AI efficiency push.\n* OpenAI announced a new partnership with Dell to run Codex inside corporate data centers, connecting the coding agent to enterprise internal systems.\n\n### Notable Links\n* [3D modeling with Claude and Blender](https://www.blender.org/)\n* [Odyssey's multimodal, multiplayer world models](https://www.odyssey.ai/)\n* [Cursor's Composer 2.5](https://www.cursor.ai/)\n* [OpenAI's ChatGPT](https://www.openai.com/)\n* [Amazon's Alexa Podcasts](https://developer.amazon.com/alexa)\n* [Meta's AI efforts](https://www.meta.ai/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "⌛️ Musk's OpenAI case runs out of time\n\nPLUS: How to 3D model anything with Claude and Blender  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Read online](https://link.mail.beehiiv.com/ss/c/u001.dSnm3kaGd0BkNqLYPjeMf75St_4h4uVDlb2B1USeB_H_y9-jRk-0cvvdLgsY8BuRqYuPNQD2FTr-WLBDtrqOoRMk6zbn66D69ghPQ_Uva8SxlnPiGFtZ8eGAorM4qLzvGvCulCn0IVMrmuM8yo3LttEZO6X5xxnIyHTANubIKeild6v3M3HQeUIvoJN7GD0LZ_LuECu4Exf1uXAq0QmaHR_Y7rGlie4DQRdtD63vjMq-nbWtgPnZHukPAC6_T5U_Lpd8gIUEqXcC15OnG0QrWmEsw3kIQJiT_32Z1HYG_y-1mOJENGkcE_NrkadC6ICs4pJchIXLkAzb_TFOzGm9Lq1AX04nVrNG7xxW8d1Px3XXiz0xvKmA8-Rc5nqsyAezNdcAnpRdJnK2sxlR_TQQjRfxPbszAt8KxAZ0vLTSab1pOlNG4JsoyfcXNMam34L"
+    },
+    {
+      "from": "\"TLDR\" <dan@tldrnewsletter.com>",
+      "subject": "Meta's AI reorg 💼, Elon loses OpenAI case ⚖️, Mythos capabilities 👨‍💻",
+      "date": "2026-05-19T10:51:38.000Z",
+      "summary": "## TLDR\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta is reassigning 7,000 employees to four new organizations focused on building new AI tools and apps, using AI native design structures, with a goal to spend up to $135 billion in capital expenditures this year, primarily for building computing facilities that power AI and hiring researchers.\n* Elon Musk's claims against OpenAI have been dismissed by a jury, finding that Musk brought the lawsuit after the statute of limitations expired, allowing OpenAI a clear path to a public listing.\n* Plaid and OpenAI have partnered to bring personalized financial guidance to ChatGPT, enabling users to connect their financial accounts and receive guidance based on their real financial situation, goals, and everyday decisions.\n* Unitree Robotics has filed for IPO on Shanghai's STAR Market, showcasing its profitability and fast growth, having shipped more humanoid robots than any other company in the world.\n* Cloudflare was invited to use Mythos Preview as part of Project Glasswing, observing its capabilities and limitations in handling security, raising questions about how security should be handled in the near future with the integration of AI.\n* Google and Blackstone are creating a new AI cloud company, aiming to bring 500 megawatts of capacity online in 2027 and substantially increase capacity over time.\n* Meta's plans for a giant AI data center in rural Louisiana are reshaping the local economy and politics, with the facility expected to reach 5 gigawatts of compute capacity and the company planning to spend more than $200 billion on the project.\n\n### Notable Links\n* [Plaid x OpenAI: Personalized Financial Guidance in ChatGPT](https://plaid.com/blog/chatgpt-personal-finance-plaid)\n* [Meta's Reorganization and AI Focus](https://links.tldrnewsletter.com/gOrUhj)\n* [Jury Rejects Musk's Claims Against OpenAI](https://links.tldrnewsletter.com/lxdyz7)\n* [Unitree's IPO Filing and the State of the Robotics Market](https://www.tanayj.com/p/unitrees-ipo-filing-the-state-of)\n* [Project Glasswing and Mythos Preview](https://blog.cloudflare.com/cyber-frontier-models)\n* [Google and Blackstone's New AI Cloud Company](https://links.tldrnewsletter.com/2QbMOE)\n* [Meta's Giant AI Data Center in Louisiana](https://links.tldrnewsletter.com/WuPjB0)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR\n\nMeta is moving 7,000 employees to four new organizations focused on building new AI tools. The organizations will use AI native design structures ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=tldr/1/0100019e3fdcda75-1f327323-5087-4b8a-a0bd-7b4caf66cd94-000000/ClcP_Ev6h2DQFOVq0a3FQW1_KtwU2yYGF7xDwt1Kc-Q=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldr%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019e3fdcda75-1f327323-5087-4b8a-a0bd-7b4caf66cd94-000000/FK3DyMeX3h8gXuvRk5M1mKtWoSxKMP7ILddoBh7drGc=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=d3324c64-5f8e-11f0-b1c3-7f12249efa1c%26p=d44c13be-535d-11f1-98ee-d995e8ade3ca%26pt=campaign%26t=1779187898%26s=a6563d3ab8890cf1ad84de6e404e7"
+    },
+    {
+      "from": "\"Michael Spencer from AI Supremacy\" <aisupremacy+siphon@substack.com>",
+      "subject": "Tensions mount over AI Consequences on the Future",
+      "date": "2026-05-19T09:43:52.000Z",
+      "summary": "## AI Supremacy\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Silicon Valley's AI success is creating economic suffering for the rest of the world, with a significant impact on the finance industry, which is poised for mass automation.\n* The AI boom is projected to have a significant impact on various industries, including finance, with Ken Griffin, CEO of Citadel, stating that AI agents can automate high-skilled jobs in finance that previously took teams of PhDs months to complete.\n* Anthropic, a leading AI startup, has launched Claude for Small Business, aiming to integrate AI models directly into corporate workflows and usage, which is expected to compound over time.\n* OpenAI's ChatGPT is facing increasing competition from Google's Gemini and NotebookLM, with NotebookLM having 48.65M unique visitors and 247.4M total visits in April 2026.\n* The BigAI IPOs, including SpaceX, Anthropic, and OpenAI, are expected to change the world in fundamental ways, with SpaceX's IPO potentially raising $75 billion and Anthropic's valuation reaching $900 billion.\n* Nvidia's earnings are expected to show significant growth, with a predicted revenue of $79 billion and adjusted earnings per share of $1.81, representing an 82% year-over-year revenue growth and 135% earnings growth.\n* DeepSeek, a Chinese AI startup, is expected to receive $5-6 billion in funding, which will help the company accelerate its AI research and development.\n* The US debt market is showing signs of instability, with China's total holdings of US Treasury bonds dropping to $693 billion, and Japanese investors selling US bonds at the fastest pace in four years.\n* The Iran crisis is expected to increase inflation, with the US Consumer Price Index (CPI) report coming in hotter than expected, and the US debt market showing signs of shakiness.\n\n### Notable Links\n* AI Supremacy Newsletter\n* [Tensions mount over AI Consequences on the Future](https://substack.com/app-link/post?publication_id=396235&post_id=198244343)\n* Google's I/O Conference\n* Nvidia's Earnings Transcript\n* Claude for Small Business\n* Anthropic's IPO\n* SpaceX's IPO\n* DeepSeek's Funding",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYWktc3VwcmVtYWN5LmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cuYWktc3VwcmVtYWN5LmNvbSUyRnAlMkZ0ZW5zaW9ucy1tb3VudC1vdmVyLWFpLWNvbnNlcXVlbmNlcy1vbi10aGUtZnV0dXJlLTIwMjYiLCJwIjoxOTgyNDQzNDMsInMiOjM5NjIzNSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3NzkxODQwMjksImV4cCI6MjA5NDc2MDAyOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.DtnLTl8eaQ1x3CUL_-BW0BvWIXyhN97LjLgH0SGxOio?"
+        },
+        {
+          "text": "Read it on the Web",
+          "url": "https://substack.com/redirect/90619fe0-976d-4336-aa33-a59ac1675980?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Tensions mount over AI Consequences on the Future",
+          "url": "https://substack.com/app-link/post?publication_id=396235&post_id=198244343&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODI0NDM0MywiaWF0IjoxNzc5MTg0MDI5LCJleHAiOjE3ODE3NzYwMjksImlzcyI6InB1Yi0zOTYyMzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.1NDa6QA5bgqZmaGan8X4Er7NuzhQxaA3R26y9qOwAmg"
+        },
+        {
+          "text": "Michael Spencer",
+          "url": "https://substack.com/@aisupremacy"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/aisupremacy/p/tensions-mount-over-ai-consequences-on-the-future-2026?redirect=app-store"
+        },
+        {
+          "text": "Google’s I/O",
+          "url": "https://substack.com/redirect/b9ddca5d-8810-4d75-877f-02ccf2e6ec78?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The Transcript",
+          "url": "https://substack.com/redirect/265a1db8-9563-4b72-8767-83212580f952?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Claude for Small Business",
+          "url": "https://substack.com/redirect/0c616653-6e0b-4696-ba53-34343f027c3f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "SMBs struggling to implement",
+          "url": "https://substack.com/redirect/0ca30768-c2c6-45f2-ab65-d2f6586064a0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "rising backlash against",
+          "url": "https://substack.com/redirect/3c404636-fb06-4272-8ca6-3e25128cc1bb?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Tensions mount over AI Consequences on the Future![](https://eotrx.substackcdn.com/o/6cd00faf1d410f80/p.gif?token=eyJtIjoiPDIwMjYwNTE5MDk0MzUyLjMuZGEyYmI3OWI3ZjIwYTY4NEBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxOTgyNDQzNDMsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6Mzk2MjM1LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzc5MTg0MDI5LCJleHAiOjE3ODE3NzYwMjksImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.UedC6hL3WNoSnOP2sZym9rtLEwmIDcjmri9wv1LH9JI)\n\nSilicon Valley's AI success is starting to create more economic suffering for the rest of us.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "On the Effect of the Time Step in Discrete-Time Framework Analysis",
+      "date": "2026-05-19T12:55:47.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The JournalClub.io newsletter discusses the difference between analog and digital signals, with analog signals being the direct physical product of a real-world phenomenon and digital signals being the encoded representation of it.\n* The authors of the paper \"On the Effect of the Time Step in Discrete-Time Framework Analysis\" revisit several classic continuous-time network models and reformulate them inside a discrete-time framework to better match how modern packetized systems behave.\n* The concept of a time-step is crucial in digital systems, where the system evaluates incoming signals in discrete jumps, and the size of the time-step determines the temporal resolution of the model.\n* The authors present two different solutions: a simplified discrete-time model (Bernoulli-Geometric model) for cases where the time-step is extremely small, and a more general discrete-time model (Poisson-Geometric model) for cases where the time-step is larger.\n* The Bernoulli-Geometric model assumes that only one arrival or departure is likely to happen inside any given interval, while the Poisson-Geometric model allows multiple events to occur inside the same interval.\n* Both models enable the system to estimate blocking probability and model network behavior without falling back on a continuous-time framework, but they are suited for different use-cases.\n\n### Notable Links\n* [On the Effect of the Time Step in Discrete-Time Framework Analysis](https://journalclub.io/episodes/on-the-effect-of-the-time-step-in-discrete-time-framework-analysis)\n* Paper: On the Effect of the Time Step in Discrete-Time Framework Analysis (no DOI or arXiv ID provided)",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/on-the-effect-of-the-time-step-in-discrete-time-framework-analysis?token=UbboYchQTImYaNC5eVPnhvfKJsY35nbKLklHk9KCN5Tj9VQMiD"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "On the Effect of the Time Step in Discrete-Time Framework Analysis   \n\nWhat's the difference between an \"analog\" signal, and a \"digital\" one? What do we mean when we say those words? Well, here’s a gross oversimplification: An analog signal is the direct physical product of a real-world phenomenon. It is the waveform that is produced when a needle vibrates in a record’s groove, or a television antenna oscillates in response to the electromagnetic waves from a broadcast signal. A digital signal is the opposite. It's not the actual waveform, it's the encoded representation of it.\n\n![](https://journalclub.io/px/8ApelBFYwm5w9WnlxIVO6qbrM8Z0wfEEYBHLNFyEuyMTszikpC)\n\nOn the Effect of the Time Step in Discrete-Time Framework Analysis\n\nJournalClub.io, May 19th, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/o4OJn29nR7qlHJN84FNj)](https://journalclub.io/episodes/on-the-effect-of-the-time-step-in-discrete-time-framework-analysis?token=UbboYchQTImYaNC5eVPnhvfKJsY35nb"
+    },
+    {
+      "from": "\"Forward Future (Matthew Berman)\" <astro@forwardfuture.ai>",
+      "subject": "Musk lost in under 2 hours",
+      "date": "2026-05-19T11:06:35.000Z",
+      "summary": "## Forward Future\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI has won a lawsuit against Elon Musk, with a federal jury rejecting Musk's claims in under two hours, clearing a major obstacle to OpenAI's planned $1 trillion public-market push.\n* Meta is reassigning 7,000 employees to four new AI-focused organizations and cutting 8,000 staff, as part of Mark Zuckerberg's projected $115-135 billion AI spend this year.\n* Anthropic is briefing the Financial Stability Board about its Claude Mythos model, which can find unknown software vulnerabilities, but has limited access due to its potential impact on cybersecurity.\n* OpenClaw creator Peter Steinberger revealed that his team consumed $1.3 million in OpenAI API credits in 30 days, highlighting the high costs of operating autonomous coding agents.\n* Adobe has launched the public beta of Firefly AI Assistant, which can describe and create content across multiple Adobe applications.\n* College graduates are pushing back against AI pitches, with 47% saying AI has already affected hiring in their field and 51% expecting fewer entry-level jobs due to the technology.\n* China's largest tech companies are racing to build \"agentic\" AI super-apps that can handle shopping, payments, entertainment, and services on behalf of users.\n* Figure AI's humanoid robots have set a new record for autonomous package sorting.\n* OpenAI and Dell have partnered to bring Codex on-premises, allowing enterprises to run the AI model alongside internal data and workflows.\n* A psychiatrist in Melbourne is requiring patients to consent to AI note-taking, raising privacy concerns.\n* NextEra has acquired Dominion Energy in a $66.8 billion merger, creating a utility giant as AI data centers drive soaring US electricity demand.\n* Apple is testing a privacy-focused version of Siri, which may include auto-deleting chats.\n* Anthropic has acquired Stainless, boosting its developer tools and agent connectivity.\n\n### Notable Links\n* Former Google CEO Eric Schmidt's commencement speech\n* Apple's privacy-focused Siri",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Graduates aren’t buying the AI pitch\n\nVideo: Humanoid sets sorting record  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 19th, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.gjvfX7JRbL1RKfObNke3hTDnn8Qx1YMb2UuABhkuaEeI96wZDnxLo7zHCtbzgjAX8hb94IiN9jI6xzqLXuW_wSo_eLnKufn4PdrRzwStNe8w_raom6hjtja7pWJOL5-bwQe717-Nu-r89XEyopRM5R9eM37Vw0mY04BLFUxWxQM-WQDsTQnGlQ-Pe2MF3lOB5Ze1D_iAmaQlbexd3b1TjI0b9-0zpzZCEn6a1M-kW8yP25V6XJp1snO7_kmBx8JyJb6hyE1-jWz0H3ReKl0WYoGd3IBkBmTldmEPQHN3M2gOYAj715vX7jY97aH_fFPWXzy5V5lq5VzTvHo7dzTmzscAh1mx5f8guBandoSKJYmvBiADGQECrOevR7X6l17wSWL8yHDMyHLpERNkm6bPGHYMLH41BV9T8GNEPJwRWk_7lCO-aC1jGN6zqwQlIDazr"
+    },
+    {
+      "from": "\"The Code\" <thecode@mail.joinsuperhuman.ai>",
+      "subject": "🤯 The AI boom divides Silicon Valley",
+      "date": "2026-05-19T13:01:43.000Z",
+      "summary": "## The Code Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI boom is dividing Silicon Valley, with a renowned VC discussing the polarizing effects of AI on the tech industry in a viral post.\n* Cursor, an AI coding startup, has released Composer 2.5, a model designed for long-running tasks that handles complex instructions more reliably than its previous version, and costs $0.50 per million input tokens.\n* Cloudflare has partnered with Anthropic to test its code with Anthropic's Mythos, finding that the model can chain minor bugs into major security holes, emphasizing the need for resilient architectures.\n* Cognition has shipped Auto-Triage, a persistent agent that monitors Slack channels and investigates bugs as soon as they're reported, providing a focused sub-session to find root causes and post diagnoses.\n* Wispr has introduced Wispr Flow, a voice layer for an AI-native workflow that enables users to dictate into Cursor, VS Code, Slack, Linear, or anywhere else they work, with syntax-aware capabilities.\n* Context Pruning is a technique used to trim low-value parts of input before the model processes them, improving performance and reducing costs, with chunk-level methods being more effective than token-level methods.\n* A study found that LLMs ignore information buried in the middle of long prompts, and length alone can tank performance, regardless of the content, highlighting the need for better input management.\n* Claude Code's spec drift can be caught by appending a specific prompt that forces the tool to log every decision to a file as it works, providing insights into the implementation process.\n* Ex-Google engineer shared a 5-part system to land a $400K remote software job, and Notion's former Head of Community shared 7 untapped side-project ideas.\n* Karpathy confessed that he's never felt more behind, with the AI code he over-trusted now giving him \"heart attacks,\" and a dev broke down his statement.\n\n### Notable Links\n* How to use HTML files as AI specs (by a Claude Code engineer)\n* Browse.sh (by Browserbase)\n* How to use /goal in Codex (by OpenAI)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤯 The AI boom divides Silicon Valley\n\nAlso: How to use HTML files as AI specs  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.kro7WBsAmEsY5mGgiUDePbOdMF_BvViPt7FxYKgxL9ugY0BPBY5znnc3piPqKu_CeQT1XAUoW7j06r9KhPD57eYtcd1zSjJtZV1KvQJc74duVavgTUIvJWYjHExKJvnfpgm6n6M6K0Wmt4EX2b7CPXQWUJkCXr7jzDFsOmGJNZ_1m1wIOdwpKKMowUbC63cZ0ZN4onEO7zbJFYpnQ0oIifgnbBPYKKA6lHmxRv7MJhiL-Yp3LdAejD90KruAViFaLKMcR4-XdQCpcGuuvsKmYv_4c9Wl5rgf7mL8P1HUgZCRb9SHvD_B0FX07tsrVF3Y_e8_r7g-3S_FEfa8-qo3UDJcB1I9YmG3I8IKfYH0uaCA61UC842x0P6GsE2bFEV4wlBGOgNvcPDzWdhwIFVS2dYdUAYpSDmfMxrGJPmTZKkVS7olOPAb2hPgsU8OLp"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Apple bets you will pick privacy over memory",
+      "date": "2026-05-19T15:07:31.000Z",
+      "summary": "## Mindstream Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Apple is focusing on privacy as a key selling point for its AI technology, particularly with its virtual assistant Siri, which may allow users to automatically delete their chat histories, offering options to keep conversations for 30 days, one year, or forever.\n* This approach differs from many major AI chatbots, which usually only offer temporary private chats, and Apple is reportedly using Google's Gemini tech for some parts of Apple Intelligence.\n* The trade-off for this privacy-focused approach is memory, as many AI chatbots use past chats to give more personal answers over time, and Apple's stricter limits on what Siri can remember and how long it can keep information may result in less personal answers.\n* Sony AI has showcased \"Ace\", a robotic table-tennis player that can compete under official table-tennis rules, using nine cameras, an eight-jointed robotic arm, and a movable base, and trained with reinforcement learning to react in real-time.\n* Ace won three out of five matches against elite human players and stayed competitive in the others, demonstrating the potential of AI-powered robotics in fast and complex physical environments.\n* Marvel Cosmic Invasion has released its first paid DLC, adding Cyclops and The Thing as playable characters to the retro-style beat-em-up game.\n* A recent outbreak of Ebola in Congo has exposed several Americans to the disease, with officials considering military-base quarantine measures.\n* Director Na Hong-jin has unveiled the first trailer for his long-awaited sci-fi action film \"Hope\" at the Cannes 2026 debut.\n\n### Notable Links\n* Apple's Privacy-Focused AI Approach\n* Sony's Table-Tennis Robot \"Ace\"\n* Marvel Cosmic Invasion DLC",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Apple's new AI play is all about privacy\n\n\\+ Sony's new robot is a table tennis champ  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n19 May\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🎮 Odyssey raises the bar for world models",
+      "date": "2026-05-19T13:05:19.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Odyssey has released two new world models, Agora-1 and Starchild-1, which push the boundaries of world models by including audio and multiplayer capabilities. Agora-1 allows multiple human or AI participants to interact in the same simulation in real-time and can be experienced through a playable GoldenEye-style game demo.\n* Apple is reportedly planning to introduce an auto-deleting chat history feature in its revamped standalone Siri app, aiming to differentiate itself through a privacy-first approach.\n* Cursor has released Composer 2.5, its most powerful in-house coding model yet, which matches frontier models on key benchmarks at a fraction of the price. Additionally, Cursor is working on a \"significantly larger model\" with SpaceXAI using 10x more compute.\n* Gen Z's sentiment towards AI has soured, with only 22% expressing excitement compared to 36% last year. This shift in sentiment is reflected in negative reactions to AI-related commencement speeches.\n* Anthropic has doubled token usage for Claude Design and posted \"Best Practices for Using Claude Code in Large Codebases\".\n* A practical 5-question leadership alignment diagnostic has been created for businesses scaling from a small team size to a larger one, focusing on decision-making, accountability, ownership, communication, prioritization, and execution quality.\n\n### Notable Links\n* Agora-1\n* Starchild-1\n* Spinach AI\n* Floor plan\n* VibePaper\n* ChatGPT Prompt: Leadership Alignment Check\n\nThis newsletter covers various updates and developments in the AI and tech industry, including new world models, AI-powered tools, and industry trends. The priority level is set to MEDIUM as it includes notable updates and useful tool launches, but does not contain breaking news or paradigm shifts.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🎮 Odyssey levels up world models w/ a playable video game\n\nALSO: How to use iMessage as an AI assistant for all your apps  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGU5RTLygwB3bA2VVtnHb342heEkNwBbjnKEaN-L1nz9TxQza4YAe4YOQlC9uBUPAtHThx5w2kmwLKONlhe6uBlW4kxRS16Mc9wmTAYCrKc5iP2MPVz27tB8kPqX3piYD298Eg6M_iznvDBpxYDDJ3Mfb74T-o7RpyCWTCqrSxzIkHNIEKwsSPPH7eEmBmNx5ex_WtCl7h0aCs2eIM28ysEdqcL7Yo2trWBbfAVNVW3xMjZ9kOFBMnfSySxiHMUsRjeNdmFXEeGVkeoFSd4gLif-RQ7xDht6R-OPBrLJ5UpJ8Wd-ijXIxZCNzKRjic8AqifjXxDPIypnhHd22wxgfD91BNFwy9C9TKySSXutl3"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Qwen 3.7 🤖, Cursor Composer 2.5 👨‍💻, Anthropic acquires Stainless 🛠️",
+      "date": "2026-05-19T13:46:02.000Z",
+      "summary": "## TLDR AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Qwen3.7 Preview is now available on Arena for Text and Vision, with Qwen3.7 Max Preview ranking 13th overall in Text Arena and Qwen3.7 Plus Preview ranking 16th overall in Vision Arena.\n* Anthropic has acquired developer tools startup Stainless, whose SDK automation platform was widely used by AI companies, including OpenAI, Google, and Cloudflare.\n* Cursor has released Composer 2.5, an updated coding agent trained with targeted reinforcement learning, synthetic data, and new distributed training techniques.\n* A whitepaper by Algolia discusses the architecture and data foundations for AI-powered search, including how to combine lexical precision with semantic recall via hybrid retrieval and engineer p95 and p99 as product features.\n* NVIDIA's first CPU built for agents, Vera, has arrived at top AI labs, featuring 88 custom Nvidia-designed Olympus cores, 1.2 TB/s of memory bandwidth, and 50% faster per-core performance.\n* A lawsuit by Elon Musk against OpenAI CEO Sam Altman has been dismissed, with the jury deciding that Musk waited too long to file the lawsuit.\n* HRM-Text, a 1B text generation model based on the HRM architecture, can be trained with 130-600x less compute and 150-900x less data than foundation models.\n* Lovable has introduced \"Skills\" for Grok, allowing users to create reusable, markdown-based instructions to eliminate repetitive explanations.\n* Manus has launched Scheduled Tasks 2.0, enhancing automation by allowing tasks to run with context and ensuring continuity in workflows across different projects and apps.\n\n### Notable Links\n* [Architecture Data Foundations for AI-Powered Search](https://www.algolia.com/resources/asset/white-paper-architecture-data-foundations-for-ai-powered-search)\n* [Qwen3.7 Preview lands on Arena](https://threadreaderapp.com/thread/2056403591464984753.html)\n* [Anthropic Acquires SDK Startup Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)\n* [Cursor Released Composer 2.5](https://cursor.com/blog/composer-2-5)\n* [What political censorship looks like inside an LLM's weights](https://vas-blog.pages.dev/qwen-censorship/)\n* [Agent Evaluation: A Detailed Guide](https://cameronrwolfe.substack.com/p/agent-evals)\n* [HRM-Text (GitHub Repo)](https://github.com/sapientinc/HRM-Text)\n* [NVIDIA's First CPU Built for Agents Lands at Top AI Labs](https://blogs.nvidia.com/blog/vera-cpu-delivery/)\n* [LLM Wiki v2](https://gist.github.com/kanmadigital/2369c4f5ea410cb8f6a1647b40c0e2a1)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "    TLDR AI  \n\nQwen3.7 Preview is now on Arena for Text and Vision. Qwen3.7 Max Preview ranks 13th overall in Text Arena, while Qwen3.7 Plus Preview ranks 16th ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019e407c8230-afbe78b6-9ce7-47c5-a844-d3eeb6ce79f6-000000/AmiHZuhZploarTCNc8mKBCCL5KNE5cjfsRn9ycAX07c=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019e407c8230-afbe78b6-9ce7-47c5-a844-d3eeb6ce79f6-000000/BtTbbDyz5-IFCfZCZSVOYe9K3LxoCZgtRJt-qZPAxZI=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=7508edd2-5371-11f1-957b-7d59e6bd4275%26pt=campaign%26t=1779198362%26s=1589861f0068a66cde80a"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "Zero Ads. Zero VC. $230M ARR. The Story of Magnific",
+      "date": "2026-05-19T15:28:49.000Z",
+      "summary": "## The AI Corner\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Javi López and Emilio Nicolás built Magnific in months with no funding and no team, achieving $230 million in annual recurring revenue (ARR) and acquiring 1 million paying subscribers.\n* The company was acquired by Freepik, a 14-year-old Spanish stock asset platform, in May 2024, and later rebranded as Magnific in April 2026.\n* Magnific's AI-powered creative upscaler tool allows users to upscale images in resolution and creative detail, with applications in portrait photography, wildlife, landscapes, and old photo restoration.\n* The tool has been compared to competitors such as Photoshop's Firefly and Topaz Gigapixel, with reviewers praising its ability to add richness, texture, and depth to images.\n* However, the tool also has limitations, such as producing blotchy banding on flat or gradient surfaces and inventing detail rather than restoring it on intricate architectural or artistic ornamentation.\n* Magnific has been ranked as the top generative AI web company in Europe by actual platform usage, with 4 million images generated every day.\n* The company's success has been attributed to its ability to create a new category, build an authentic audience, and stay lean by using AI to automate tasks.\n\n### Notable Links\n* The AI Corner: A newsletter focused on AI news and developments.\n* GTM Atlas: A resource for operators who built the GTM stack at companies like Framer, Lovable, and Vercel.\n* MidJourney Secrets: A resource for learning about Midjourney and its applications.\n* Midlibrary: A library of Midjourney-related resources and tutorials.\n* [Javi Lopez's Substack page](https://javilopen.substack.com/): A page featuring Javi Lopez's writing and thoughts on AI and related topics.\n* Freepik: A Spanish stock asset platform that acquired Magnific in 2024.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRnRoZS1zdG9yeS1vZi1tYWduaWZpYyIsInAiOjE5ODAzNzc0MCwicyI6Njg1MDU0NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3NzkyMDQ2NTAsImV4cCI6MjA5NDc4MDY1MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.ZJCUiqWzVpWPvlh6vI5vcdEIZDiXDmADHz8hI9HVOwM?"
+        },
+        {
+          "text": "Zero Ads. Zero VC. $230M ARR. The Story of Magnific",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=198037740&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODAzNzc0MCwiaWF0IjoxNzc5MjA0NjUwLCJleHAiOjE3ODE3OTY2NTAsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.RYtQfr4gr3MGZOwF1Lgi7bBlKfcLhXeKAA_0aZ5zTEk"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/the-story-of-magnific?redirect=app-store"
+        },
+        {
+          "text": "GTM Atlas",
+          "url": "https://substack.com/redirect/c11f1c89-243c-4114-ba90-b7405d1adf75?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "a16z",
+          "url": "https://substack.com/redirect/e0946c90-bf47-42a5-af18-87c276a0772f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "MidJourney Secrets",
+          "url": "https://substack.com/redirect/0dba4ac9-2181-47f7-b1d8-1581c7ad92cd?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Midlibrary",
+          "url": "https://substack.com/redirect/bc8723c4-dd27-4012-b131-f7082a1a96b2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "His substack page",
+          "url": "https://javilopen.substack.com/"
+        },
+        {
+          "text": "Joaquín Cuenca",
+          "url": "https://substack.com/redirect/c71be211-e751-4f7b-bd20-d2e3503aaf08?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Zero Ads. Zero VC. $230M ARR. The Story of Magnific![](https://eotrx.substackcdn.com/o/719b64dbac110396/p.gif?token=eyJtIjoiPDIwMjYwNTE5MTUyODQ5LjMuNjgwYTM2ZmVlMGU2MjYwOEBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoxOTgwMzc3NDAsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6Njg1MDU0NCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3OTIwNDY1MCwiZXhwIjoxNzgxNzk2NjUwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.DCuy1padXwzFzuPdXACOSxvPnWU6AhYys9SSwALfsyo)\n\nJavi López and Emilio Nicolás built Magnific in months with no funding and no team. Freepik bought it. Then Freepik became it.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    }
+  ],
+  "tldr": [
+    "OpenAI wins lawsuit against Elon Musk.",
+    "Anthropic acquires Stainless developer tools.",
+    "Meta reassigns 7,000 employees to AI.",
+    "Odyssey releases new world models Agora.",
+    "Adobe launches Firefly AI Assistant beta."
+  ],
+  "researchFindings": {
+    "additionalContext": [],
+    "missingStories": [],
+    "entities": [
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned in multiple newsletters for its legal battle with Elon Musk and its AI models"
+      },
+      {
+        "name": "Elon Musk",
+        "type": "person",
+        "context": "Mentioned for losing a lawsuit against OpenAI and his involvement in AI development"
+      },
+      {
+        "name": "Google DeepMind",
+        "type": "company",
+        "context": "Mentioned as a participant in an event with Cerebral Valley"
+      },
+      {
+        "name": "Claude",
+        "type": "product",
+        "context": "Mentioned as an AI model with improved context limits and capabilities"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned for acquiring Stainless and developing AI models"
+      },
+      {
+        "name": "Meta",
+        "type": "company",
+        "context": "Mentioned for its AI reorganization and tracking employees to build AI models"
+      },
+      {
+        "name": "Cerebras",
+        "type": "company",
+        "context": "Mentioned for its $56.4 billion IPO and challenging NVIDIA's memory wall"
+      },
+      {
+        "name": "Qwen 3.7",
+        "type": "product",
+        "context": "Mentioned as a new AI model preview with improved rankings"
+      },
+      {
+        "name": "Cursor Composer 2.5",
+        "type": "product",
+        "context": "Mentioned as a new version with improved capabilities and price reduction"
+      },
+      {
+        "name": "Gemini",
+        "type": "product",
+        "context": "Mentioned as an AI model with new capabilities and a planned reveal at Google I/O"
+      },
+      {
+        "name": "Apple",
+        "type": "company",
+        "context": "Mentioned for its new AI play focusing on privacy and its potential impact on the AI market"
+      }
+    ]
+  },
+  "savedAt": "2026-05-19T18:30:00.000Z",
+  "dateString": "2026-05-20"
+}
