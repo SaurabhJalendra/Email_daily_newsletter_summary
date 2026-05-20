@@ -1,0 +1,835 @@
+{
+  "date": "2026-05-20T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Thursday, 21 May 2026\n\n## 🔥 Top Stories\n1. **Google introduces Gemini 3.5 Flash, a new model that delivers frontier-level performance with low latency, and announces Gemini Omni, a multimodal world model system** — This matters because it signifies a major advancement in AI capabilities, particularly in areas like coding, agentic workflows, and video creation, which could transform how tasks are automated and content is generated.\n2. **Andrej Karpathy joins Anthropic to lead a new unit focused on using Claude to accelerate pretraining research** — This matters because Karpathy's move from OpenAI to Anthropic indicates a significant shift in the AI talent landscape and could lead to breakthroughs in AI research and development.\n3. **NVIDIA forecasts a $1 trillion AI chip revenue opportunity through 2027, driven by demand from hyperscalers, enterprises, and emerging AI-native applications** — This matters because it underscores the immense growth potential of the AI industry and the critical role NVIDIA plays in providing the necessary hardware for AI computing.\n\n## 🤖 AI Models & Research\n- Anthropic's Claude model is being used for various applications, including coding and agentic workflows, with a new \"dreaming\" feature that analyzes prior work sessions to improve future assistance.\n- Google's Gemini 3.5 Flash model boasts improved performance and latency, supporting a 1M-token context window and 65K output tokens, and is available across the Gemini app, Search AI Mode, Gemini API, AI Studio, Antigravity, Android Studio, and enterprise surfaces.\n- Cerebras is running Kimi K2.6, a trillion-parameter model with the fastest frontier model performance ever measured, achieving 981 output tokens per second.\n\n## 🛠️ Tools & Products\n- GitHub has released Spec Kit, an open-source tool that forces AI to fully understand what the user wants before it touches a single line of code, enabling Spec-Driven Development and working with 30+ AI agents.\n- Oracle AI Database acts as a unified memory core for agents, allowing vector search, relational, JSON, and graph data to live together, enabling agents to reason over live enterprise data without extra vector stores or synchronization jobs.\n- NVIDIA's LongLive 1.0 is a framework for interactive long-form video generation, supporting sequential prompting and real-time user-guided editing using streaming attention and KV-cache optimization techniques.\n\n## 📰 Industry News\n- OpenAI CEO Sam Altman wins a lawsuit against Elon Musk, with the jury rejecting every single claim in Musk's $150 billion lawsuit against OpenAI, clearing the way for the company's planned IPO.\n- Meta faces an internal crisis as its aggressive AI rollout restructures the workforce, triggering role automation, restructuring, and rising job insecurity and stress among employees.\n- Standard Chartered plans 15% staff cuts as it scales AI across operations, replacing lower-value human capital with technology, specifically citing AI to automate back-office functions and parts of client-facing workflows.",
+  "totalNewsletters": 33,
+  "newsletters": [
+    {
+      "from": "\"DayTrading Dispatch\" <daytrading@mail.beehiiv.com>",
+      "subject": "Nvidia earnings tomorrow 👀",
+      "date": "2026-05-19T19:06:00.000Z",
+      "summary": "## DayTrading Dispatch\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Nvidia is set to report its earnings tomorrow, with the Street looking for roughly $78 billion in revenue (up ~78% year-over-year) and $1.77 in non-GAAP EPS, and data center revenue near $73 billion. The options market is pricing an 8–10% move on the print, which would swing Nvidia's market cap by hundreds of billions of dollars in either direction.\n* NextEra Energy and Dominion Energy announced an all-stock megamerger valued at roughly $67 billion, with the combined company serving about 10 million customers across Florida, Virginia, the Carolinas, and becoming the largest regulated electric utility in the US. This is a direct play on AI data center power demand.\n* Publicis Groupe agreed to acquire LiveRamp for $2.5 billion in an all-cash deal, paying $38.50 per share (a roughly 30% premium to LiveRamp's May 15 close). The French ad giant is buying its way into \"agentic AI\" data infrastructure, betting that first-party data and identity resolution become the moat as AI agents start placing ad budgets.\n* The 10-year Treasury yield climbed above 4.60% on Monday (its highest level in roughly a year) while the 30-year pushed to about 5.13%, a level last seen in 2007. Traders have now fully priced out any Fed rate cuts in 2026 as the Iran-war oil shock keeps inflation hot.\n* Bitcoin slid below $77,000 on Monday, trading near $76,800 and triggering more than $657 million in crypto liquidations over 24 hours, with longs accounting for roughly 89% of the wipeout.\n* Regeneron tumbled around 12% Monday after its experimental melanoma combination of fianlimab and cemiplimab failed to show a statistically significant improvement in progression-free survival versus Merck's Keytruda.\n* Japan's two largest online brokerages, SBI Securities and Rakuten Securities, are building in-house Bitcoin and Ethereum investment trusts, targeting a Q4 2026 launch pending regulatory approval. Combined, the two firms have roughly 24 million brokerage accounts.\n* Target reports Wednesday before the bell with consensus calling for roughly $24.5 billion in revenue and $1.41 EPS, while Walmart steps up Thursday with the Street looking for $174.6 billion and $0.66 EPS.\n\n### Notable Links\n* Nvidia earnings report\n* Telegram",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Nvidia earnings tomorrow 👀\n\nPLUS: NextEra-Dominion strike a $67B utility megamerger, Bitcoin slides under $77K, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/ae8XEvHqKyD5AGaGMqSAch39CX8RigFLU8znSMeHW1b9xu1ImRraM8hGXs%2FH%0AQqMd0TxCrgT5WlR0%2BFjvg2JGQkrmb3ErG0ozHMr2mzAmSoej0A6oy1HNF0Ps%0AQzAx1%2FcvFHud45MvwxTS9HBoMNRGy8jHe6KmwjKLfN2bioVv5y8Ved50Z1ho%0AiHv9CpI9K9zHYQBBIyGg15iqlI9aQVPyvA%3D%3D%0A/e789a5f01e7fbc4e)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e15ff2bf-557f-4e79-bf71-b0f2"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "1 new notification since 12:40 am (May 19, 2026)",
+      "date": "2026-05-19T19:11:57.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nate Herk has posted a new video titled \"How to Use Your Claude Code Projects in Codex in 5 Mins\", which provides a tutorial on how to use Claude Code and Codex together on the same project without duplicating files or rebuilding the setup, highlighting what each tool looks for and a quick prompt to convert any Claude Code project for use in Codex.\n- The video aims to help users understand how to seamlessly integrate Claude Code and Codex, two potentially powerful tools in AI development, by explaining what stays the same and what needs to be adjusted when transitioning between the two.\n\n### Notable Links\n- \"How to Use Your Claude Code Projects in Codex in 5 Mins\" video by Nate Herk (available through the Skool platform)\n- AI Automation Society group on Skool for discussions and resources related to AI automation. \n\nNote: There are no specific academic papers, product launches, or significant industry news mentioned in the newsletter, making it a MEDIUM priority for AI practitioners looking for practical tips on using Claude Code and Codex together.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3DaqGe_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXGwelChIktlxqBkq6FkNz0pLvl-2B7Ftp7frrhaHvF5g2Mn6-2BLQeKNHd99adqjCBvHVs-2F-2FP6AVPDu2f5SKAn2PtQCfP4TNbtRCJpFnuHwF3leP102SxDtaFaAIcNOnWzuV8KQ7kGLWYazlfsKXHLoBlU-2FJ5K3Ryt5SjJELYcurXRVf-2FHpbG9MVO8GJS4mfz-2F2c8W5e6jkk2hNFgYnHj5D8VzwxGjhOCkHFvRiloHORVfJcFN4iCQId7saN-2FPWx0kNTafzj8FJtOhTmHK-2Fg-2FD9NIuD5bnWFL5y3Xeat1n2VYLrfgat4kF5x48S6jk-2FGWC6tjmm"
+    },
+    {
+      "from": "\"🛼  The '92\" <the92@mail.beehiiv.com>",
+      "subject": "🛼 90s trivia",
+      "date": "2026-05-19T20:02:09.000Z",
+      "summary": "## The '92\n\n**Priority: LOW**\n\n### Top Updates\n- The newsletter is a trivia-focused email with questions related to 90s video games, including a question about the main playable character in The Legend of Zelda games and another about the animal Crash Bandicoot is.\n- The '92 is giving away prizes, such as a Pizza Planet mug, a Super Mario lamp, and a Tamagotchi, to random winners who guess correctly.\n- A friend of the newsletter writer, Adam, writes ProductHype, a newsletter that features new products, including a cooling blanket, a magnetic floating pen, and an 80s-inspired boombox.\n- The newsletter also mentions various 90s-themed products, such as Pac-Man socks, a Tupac collectible, a Donkey Kong plush, a Mario Red Shell Pillow, and a Legend of Zelda T-Shirt.\n- The '92 will return to its regular email schedule on Thursday.\n\n### Notable Links\n- [ProductHype](https://www.producthype.io)\n- [The '92 Archive](https://www.the92.io/archive) \n\nNote: There are no significant AI or ML updates in this newsletter. Most content appears to be promotional or entertainment-focused, hence the LOW priority rating. There is a mention of a human writer and a jab at ChatGPT, but this does not constitute significant AI news.",
+      "links": [],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "🛼 90s trivia\n\nNew: 90s trivia fun + more............................................................................................................................  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2e43872b-1ff9-46b3-bb71-fc04a90ad788/The__92_Throwback_Newsletter_Header.png?t=1716625838)](https://link.mail.beehiiv.com/v1/c/aZByGiZzBgXSPjW509HycwtDtQ4PAIoIkqql7Gm17al3Q9D0gu%2FPthI%2B%2BbGq%0AJ0QMk5uq6xdJB2L%2BfmD69DHxkGwft0CtA0wSbRNdTgYOUtZMr2dR4CFRKlix%0A3Rb6HQDPVeHgg8bspejvG0ngzxgDL4IeWZW2oKuZhupapTbppKJ8"
+    },
+    {
+      "from": "\"World of AI\" <newsletter@intheworldofai.com>",
+      "subject": "Anthropic POACHED Karpathy! 🚨+ GOOGLE I/O 2026 RECAP",
+      "date": "2026-05-20T01:55:14.000Z",
+      "summary": "## World of AI Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* Andrej Karpathy, a co-founder of OpenAI, has joined Anthropic to build a team focused on using Claude to accelerate pre-training research, which is a form of recursive self-improvement where AI improves AI. This hire is significant because Karpathy is one of the most respected researchers in the field, and his move from OpenAI to Anthropic signals a major shift in the AI talent landscape.\n* Google I/O 2026 has introduced several new AI tools and models, including Gemini 3.5 Flash, which beats Gemini 3.1 Pro on coding, agentic, and multimodal benchmarks while running 4x faster on output. Gemini 3.5 Flash is now live in the Gemini app, Search, Antigravity 2.0, and the API.\n* Google has also launched Gemini Spark, a new 24/7 AI agent, as part of its AI Ultra plan aimed at developers, creators, and power users. This move is seen as a direct shot at the agent category dominated by Anthropic and OpenAI.\n* Additionally, Google has unveiled Gemini Omni, a video model that takes image, audio, video, and text as input and outputs editable video grounded in real-world knowledge. Omni is rolling out to AI Plus, Pro, and Ultra across the Gemini app, Google Flow, and YouTube Shorts.\n* Demis Hassabis has announced an AI tool called Code Mender that automatically finds and patches security vulnerabilities. Hassabis also declared that AGI (Artificial General Intelligence) is now on the horizon, implying significant progress in AI capabilities.\n* Android XR smart glasses have been previewed, with a demo of Nano Banana photo editing on stage, showing the potential of AI-powered augmented reality applications.\n\n### Notable Links\n* Wispr Flow: A tool that allows users to speak their prompts instead of typing them, enabling more natural and detailed interactions with AI models.\n* Google I/O Recap: A comprehensive overview of the announcements and updates from Google I/O 2026, including Gemini 3.5 Flash, Gemini Spark, and Gemini Omni.\n* Claude: Anthropic's language model that is being used for various applications, including coding and agentic workflows.\n* Gemini: Google's AI model and platform that is being continuously updated with new capabilities and features.\n\nThis newsletter is highly significant for AI practitioners due to the major announcements from Google I/O 2026 and the move of Andrej Karpathy to Anthropic, indicating a shift in the AI landscape and talent war. The introduction of new AI tools and models, such as Gemini 3.5 Flash and Gemini Spark, also highlights the rapid progress in AI capabilities and applications.",
+      "links": [
+        {
+          "text": "Wispr Flow",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.iPsJj88FkjIBht_9A54QDnByzMuP__70DS0An2V51v3SsMKKBviMgkvsharZA4yKTJGkLXj2NY4Z7gt1POwoo2dOP0yQIQpljXWRK6ZsGicLjLn_XleyRqlVJw7kJiL4VJeId-ZLbGYUyJd2bitB2iyqTgXlOanoIoS7Gv__sSBwzXyo6HLUIOOtMkl_-HGfDIMFZm78pjciyqu40X9XD9GaExtV_hi_5zCG2q0vGVB1zlrjk6d1LfGNxoAMg8eS29FBzHFiBHn3gSbV3lalj4hvYtiRKassr5WMpoYIzFFRSwDY_vbla8kU_cY0esfKnklcdgI_jYq1YVw3KSa38r6ITknUU4xBYT7P0iTd_Oy8BmXamEr_H75U0QD_Rb72JdLOS3-8dtDIBnglH6qrKYsPExtdg28QQdeKoND-XCfDKsfZyAoXEnjVozgJUKqo/4qs/7kpAGAtrRUOThThpSiYvxg/h3/h001.a4MMiglxm_harUUgHGZwrgDy5jlePMzlMPYsdeXKOxc"
+        },
+        {
+          "text": "Try Wispr Flow free",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.iPsJj88FkjIBht_9A54QDnByzMuP__70DS0An2V51v3SsMKKBviMgkvsharZA4yKTJGkLXj2NY4Z7gt1POwoo2dOP0yQIQpljXWRK6ZsGicLjLn_XleyRqlVJw7kJiL4VJeId-ZLbGYUyJd2bitB2iyqTgXlOanoIoS7Gv__sSBwzXyo6HLUIOOtMkl_-HGfDIMFZm78pjciyqu40X9XD9GaExtV_hi_5zCG2q0vGVB1zlrjk6d1LfGNxoAMg8eS29FBzHFiBHn3gSbV3lalj4hvYtiRKassr5WMpoYIzFFRSwDY_vbla8kU_cY0esfKnklcdgI_jYq1YVw3KSa38r6ITknUU4xBYT7P0iTd_Oy8BmXamEr_H75U0QD_Rb72rlYawLKuuXXuYvGOsuuy8jOTky1suvskh0X5M1sGhWjveR5Ba9eoKTW_V4mOOT-I/4qs/7kpAGAtrRUOThThpSiYvxg/h4/h001.SEuXVcmj2lPheCDGMkRyBKqrMuTNUJQBe4xtOgZpq00"
+        },
+        {
+          "text": "Here",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.3_sEOzUr887e5bFOjeUEj86s08a12fXYM6CyiFpps-HrB0Wn1iT1DSBNdrki2Ve_ZvaXLFxJBVV0538H8j6E5AEWW_JCZ3ZNplwVkjPirjC6y03LBk2dnbesqiI4F-8ypI0P4tdV-Z2SkTCHQYLdyT3eTHEULtYnU-RbllNUWD4u8vnzdv9tKyPHA3tAnGbI6N3wtdnjypRnlCL26TT3yzW2wgnbfwfBtoK3mGdqWR9LvoKRj4V61p5YBKI7HJ3bLqJ0Wus5YH6Tp_VuDJ0FLcfwGGowxmFJ2dmB5H03Q3hfmMRHtEM5gbn7QJhuVQvDKK985E44xwX2z6EKh0EsnKc47tLVaXxKD8RpRff2E0g/4qs/7kpAGAtrRUOThThpSiYvxg/h5/h001.J9bF9DJwmS-GhTHFQsdCmDw6ZgWpqpPkZ1wDkEk8_1U"
+        },
+        {
+          "text": "Google I/O LEAKED! Gemini Desktop App, Veo 4, Qwen 3.7, Composer 2.5, Mythos Soon, & More! AI NEWS",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaXgc7wkhO5qnqQqF6Zk88E6aRN7XQJVD4gD0BLNGz9nNE-U_sGwzt3Ghq2q6-94yyZUx8T43RV_Vq0GtMDtzKhwy8YZkJP6fIzmgQIpERRCwO1FPzfGvFIGZyCG7Ud-ilZh8G-X9S95TDDc95SkX3SSR3YRrK7iZ595m-mvLj966v81waBFQKSEEpoxYq4lyNx-flBhEo3Zul3aHNq996fDSqrIubhQB3NGm9nbC69_1PgYOt9wU9hyDS1Vdg5_5Vj8lZb4JygwyatwNO0yiULc/4qs/7kpAGAtrRUOThThpSiYvxg/h6/h001.csaGYoTna_3nKylsSK3bf9nHXyKtIUwTsqMpsR2F2EE"
+        },
+        {
+          "text": "Book a free AI consulting call.",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.dr13V4H10E-Jo8xtnosiafVC6nEF8hif9ASMzZyRmJmVkTO947MnczggmD8sPn4OmtnRFuYA-bBvNDF_-4tpmztHPOGGMmcZEj5VkyjAcpwnR-iGi_4Clap2eaCB63t0MjRg7fe_NjPQfVCON7_C1Ui4esL-_W_iVqte9shimJAAd537c3O4mPy6n2Ca7yEioWJ21kHoOWKLAz2Rm6AyKM9fk0_tR_MReHSkj9F2N4K9LAoL2H10-lJHXkcP8nU5T4Q-QoKyHzJK0mBMWLE9EKMk_tBt_dzCGf7vyrLJrJY/4qs/7kpAGAtrRUOThThpSiYvxg/h11/h001.nVZ7PtP37z5CMFVddli_saUjm7JiW2-CAJssneQJREw"
+        },
+        {
+          "text": "here",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIswJvY8wQFQRGcnjmPgARAfEr_VS0-WEKgWPeYVrrOvD_4DLM1sNx1S66hFhBdKltEdW4WEuP3A4eMS10RSzVa6dHtxEfHgj0EQUS1jsEQ4EGrIk8q0YhMepNUVQq7vbJ4V3Rg4iasI_rAHjI80fb79Q-Tq9VntCeh7TT53lXRShiR2fx96j-pHjW2nw6PCJNt1OFrHBgiiWeQGYWrT5-bgnrUayv10gcBiuFXEV3BywzrH19t9GrFwVHgv3vJfYhERlEG_7A9o_ooJwhKbW6-Pymq2byuo6CbapmlCI1lV8vRAlorPm4xRtC3MRitcuvQA7QeX6abas6uSQiv9btwTjI6VwfdY2bWYZsEw43fCHo5mfPYuRzdjY-m4POkiz63o37rk2sFm0G6JBC6mWd62XwIFQ3MCsMMdcRIIRFAuKxRYtOk94wwvhff50M8b-OpJu_C3z0aqpatwyb3RFnaR0Y7v8ug1URQAUGEV2e8gNHmhWKvyDaxtyKwB7UrfhBxlvISFCMe7TWWgHJ69cG5vpVF48QsYYkC251yIW6_MfXYceTQoc4ZljloqXjcr2LYIsPkAXFEuC6rlssJ9M3PTG9O0-fcQEMA6gRMWL6Y8AMT0chZPz69Ppui1zRfE4M6Fm8ElJzSsdw39FB_0K6rN43DXHMgufb4G1dxCa81LmkMvcPRK91_SBIf49VrjPunrvS1vK3U1nyNVGNoy3bXw4jS_WMmXDM67632f-czHJdvwzZGYbwCwD-TloiNU9CsaIWZMMiVVYrM5Zq0wuYd2aTR3RTQbJ1XAKlmsXDVhMgO11g2H_5Yqja0QpoFzvtxIH8pC5gk9G7QCf11BHJkIBK18M2I-9M3BFAj4v_5gbW36eJN2L_7vr4Tkx6NbJXxdQrmPxIXxkrhmZ-xw4d-_d9fwbkKIk42QLrpq_3tua2Vl1aEuboEHhyldTiggebA3kPhFvCvnNJfpRgBJY4x3JvyVjn9hOMmC2FDbkYmhIRM5plBUYawtT-wdJlNHp74/4qs/7kpAGAtrRUOThThpSiYvxg/h12/h001.0o77E56lzjJXBrNdeiSjSM7mqYRTjrz9RWjVD3CQphU"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Anthropic POACHED Karpathy! 🚨+ GOOGLE I/O 2026 RECAP\n\nGoogle I/O just dropped Gemini 3.5 Flash, the Gemini Spark 24/7 agent, and the Omni video model. The OpenAI co-founder who built its early vision team just defected to Claude. The AI talent war...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 19, 2026   |   [Read online](https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIs2_yC_MwHGGYbBTjAY3WAV60cUyXLsGKELuHHkYCTeU696_pJ5CaT4cMjrQJ1TQvCKa-3ILdB1mfdwAPOwDIprE9KELpz0SrdqZvQ_N-TGkznHrDsEzxC6vgoDxXeXo1Yqe0WewkcMsiqASCyGXhoZrHFPgerfmlP3M2Yyxn3bjSDfY4aV9gVv_hQGVokdj8PakIwuY0aQEJmZfrjNO81YlA1kkz8y49l"
+    },
+    {
+      "from": "\"The AI Brief\" <ai-information@mail.beehiiv.com>",
+      "subject": "What AI Companies Know About You",
+      "date": "2026-05-20T08:35:59.000Z",
+      "summary": "## The AI Brief\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI Brief newsletter highlights that AI companies, including OpenAI, Anthropic, and Google, retain user conversation data for a period after it is deleted, which can be used for safety review, legal compliance, and abuse prevention, even if the user has opted out of model training.\n* The newsletter notes that the gap between what users believe they agreed to and what they actually agreed to is large, due to privacy policies being written in a way that is accurate but not understandable to most users.\n* OpenAI's ChatGPT, Anthropic's Claude, and Google's Gemini all reserve the right to have employees read user conversations, described as \"safety monitoring,\" \"quality review,\" and \"policy enforcement\" in their privacy policies.\n* Deleting conversation history and deleting it from company servers are not the same event, and the timeline for data retention is not clearly stated in the interface.\n* The Gemini data control setting is not located within the Gemini app, but rather in the Google Account settings, and most users who think they have opted out have not found this setting.\n* API users receive stronger privacy protections than regular users at all major platforms, with API conversations not being used for model training by default.\n* The newsletter suggests that users should find the training opt-out in their AI tool, check their Gemini Apps Activity in their Google Account settings, and decide whether sensitive work belongs in a consumer account or an enterprise one.\n\n### Notable Links\n* [Claude.ai](https://www.claude.ai/)\n* [Wispr Flow](https://www.wispr.ai/flow)\n* Anthropic's developer products, such as Claude Code and Claude Co-work\n\n### Additional Research Context\n* Anthropic is a leading AI lab focused on building frontier language models and agentic AI tools, with a new \"dreaming\" research-preview feature and major compute expansion.\n* The company is seen as a rival to OpenAI and Google in the AI/ML space, especially for coding, agent workflows, and enterprise use cases.\n* There are reports of a new, more powerful model tier called \"Claude Mythos\" appearing in leaked materials.\n\n### Key Statistics and Dates\n* 89% of messages sent with zero edits using Wispr Flow.\n* OpenAI, Anthropic, and Google all have different data retention policies and user controls for their AI tools.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "What AI Companies Know About You\n\nMore than you agreed to.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/pHxIPhuAdY67wJt%2FNKUqjjKmIdTZv%2BYpa3Q4c7oPcSyB8M2hrSbkgFfH985h%0AAFwLjKoZfK1mrvG7k4iWDs6n%2BRARlfVNmkoKhb9d35UU5%2FcSiRLi6QAUnLCw%0ArLGXOMsmUf89bjWaTUwEVHjXEB7c6%2Bj%2BdDxW0wRXm9wGrrWO%2B%2BO4MeuOxC1f%0AkMHWAK7CLZi9TXYx7jW%2FrhiiRKp9uI%2FIpg%3D%3D%0A/d16a6422439103c0)\n\n# What AI Companies Know About You\n\nMore than you agreed to.\n\n[\n\n![share on facebook](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/static_assets/head"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 AI Wearable Watches You Back",
+      "date": "2026-05-19T21:29:00.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Karpathy joins Anthropic as the company accelerates pre-training research using Claude.\n* Google ships Gemini Omni, a new omnimodal model that creates anything from any input, and Gemini 3.5 Flash, a model that delivers frontier-level performance with low latency.\n* Musk vs. OpenAI lawsuit ends in dismissal, with the jury taking under two hours to dismiss all claims.\n* OpenAI staffer burns $1.3M in Codex tokens in 30 days.\n* Scople is a wearable AI device that tracks how people react to you, reading the entire room and logging glances, smiles, attention, and emotional reactions.\n* Jensen Huang, NVIDIA CEO, says AI needs 1,000x more compute, and the company is working on new AI computing modules for space-based data centers and satellite constellations.\n* A 15-year-old built BURT, an autonomous sea turtle that detects coral bleaching using AI vision.\n\n### Notable Links\n* [Gemini 3.5 Flash](https://developers.google.com/gemini)\n* [Scople](https://www.scople.com)\n* [Anthropic](https://www.anthropic.com)\n* [NVIDIA](https://www.nvidia.com)\n* [OpenAI](https://www.openai.com)\n\n### AI Tools and Developments\n* Pounce: scales your X and Reddit audience in 15 minutes a day with a real-time AI inbox.\n* GoAI: lets you build your own suite of financial intel agents, scheduled and automated to turn market noise into smarter investment insight.\n* Clocsy: works like an AI CMO, drafting campaigns, press releases, social posts, and ads, then queueing every asset in a single approval inbox.\n* Paraspeech: turns your speech into polished text across emails, docs, prompts, and chat locally, keeping audio on your device.\n* Nomie: breaks doomscrolling spirals with 60-second resets, guided breathing, mood tracking, and gamified self-care quests.\n* UGO: runs your entire marketing autonomously, scanning your website, writing platform-specific copy, running your ads, and more.\n* Team Pulse: shows what everyone’s working on across chat, tasks, and projects, with drag-and-drop boards and live activity in one view.\n\n### Notable AIs\n* Cuey: cross-checks ChatGPT, Claude & Gemini, giving you a second opinion so you don’t get burned by a hallucination.\n* Nebius Token Factory: lets you capture what your users do, fine-tune against it, and push your checkpoint to a dedicated GPU endpoint.\n\n### Other Developments\n* GitLab Transcend is a live knowledge graph across your entire software lifecycle, built into GitLab Duo Agent Platform.\n* Unframe signed $100M in customer contracts and raised $100M in funding, making it one of the fastest-growing enterprise AI companies on record.\n* The TAAFT Ultimate Prompt Pack is a collection of 99 prompts, each tested and refined by the TAAFT team, covering 11 categories.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 AI Wearable Watches You Back\n\nIt reads glances - smiles - attention, Google ships Omni, Musk x Altman trial ends, Anthropic hires Karpathy, $1.3M month token burn, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0wsId3rE3WxJZfm8m-w0s0MZJinJ3cod5mTUFQN-0UvZlZpRCB9hmGUGsTuHxW4gH9rYGZQtIy4p8nZbK_GvtlR-h-Wef_yfbjKV6hveF0h1TNZHzC-gh42Vy0VpsIFz3hNnunon4oKYbMSzKGz1mMxZaLRvqJjQRsxdwWebGAgsNYdRagGT-KZVn4t3_RcDyKRSijQgnspBEokqu5YoQm-hOCg6OtGY5gV5Kk6PzGiznFVjgO_Qd4VL05Fvh87OKJfHy4VBiaDcJptn4taJiPTOif7"
+    },
+    {
+      "from": "\"💻 Hello, World!\" <newsletter@hw-mail.glich.co>",
+      "subject": "What is Cache Invalidation?",
+      "date": "2026-05-20T04:30:23.000Z",
+      "summary": "## Hello, World!\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Cache invalidation is a crucial concept in software development that ensures data consistency between the cache and the primary database, directly impacting performance and reliability. It is defined as a set of rules that decides when old, stored data gets thrown out, and getting it right is critical for building high-performance and scalable web applications.\n- There are several cache invalidation strategies, including Time-To-Live (TTL), Write-Through Caching, Write-Back Caching (Write-Behind), and Event-Driven Invalidation, each offering a different trade-off between data freshness, performance, and complexity.\n- TTL is a simple strategy where data is assigned a \"best before\" date and removed from the cache after a specified time period, making it suitable for applications with low data change frequency, such as news websites or static assets.\n- Write-Through Caching is a strategy where every write operation goes to both the cache and the primary database simultaneously, ensuring data consistency but adding complexity and higher write latency, making it suitable for applications requiring high data consistency, such as e-commerce inventory systems.\n- Write-Back Caching prioritizes write performance by writing data only to the fast in-memory cache and writing to the slower database later, either after a delay or in batches, making it suitable for write-heavy applications where immediate data persistence is not required, such as logging user activity.\n- Event-Driven Invalidation is a precise strategy where data is invalidated based on specific events, such as updates to the primary database, making it suitable for applications requiring real-time updates, such as live sports score feeds.\n- The choice of cache invalidation strategy depends on the application's specific needs, including data change frequency, data freshness requirements, and read/write patterns, and understanding these trade-offs is fundamental to building high-performance and scalable web applications.\n- Cache stampede is a phenomenon where a popular cached item expires, causing a flood of concurrent requests to hit the database at once, and can be prevented using tactics such as \"stale-while-revalidate\" approach, where stale data is served to users while a single background process fetches the fresh version.\n\n### Notable Links\n- [Hello World](https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTLedhx6dRnmvkZCOvN53kB6-mEyat_hNl049PoQu9Mxi8bxquiDNwmKXs_k2mgpWKWdeS0apKxPeXeP4HFTC7ACLp3LEsVWkDjy4byeE0a3vpQeDaADvnsOaVsrD7oHQjTNxrFd0q1coE44xsMlXMKOYrEYwfugzaMA7tXA2C6fElzVae0uS2X3CQ-0a8JjZ9wZQcTRW9hnFf1tFFgUA6hlmv_U1koehlZfmAEnKR8op_vJQzHxQGB6uG-ec2N3_-qL-NwOnKGesKMQDGQt6bEOExHI3PuFx8ZEbpfG9aK3NPzO7jxYnWlY889gbrDIarARAQtOjpv1T9bOTteZVEmSySoDzORMyCKfDTlTHyObmTOS_LAzAxWhxDs-fA7uzis_nxPznJI9xCaBA4wi0vPKnqidaUkRNhXJsyNxbKaDQJ9L3zKbJLmbc3b9-aZ4HJ0lf9snIWUziBjbk2yUbbgVOQWrokXvrQqTxDF--EcAJ7tDoXHIwjiR7eTUNI826-eeNwJwTrVTOfJwPjpa7VR87GOyvh0odYd_JZPcPtdJePAaR9T9Aw19eljCPpHGaeV5R-L6I2J3FmD3HkRpq66wSpdEKggtxIG0SXRRd8F0hThVqSwGO8HWp9mRvkowgxr8ZZh01uzzxXrQlkbnvFdPY6iTxVP19eJ94J9Ad_F8VzZhFBvSsMlWHhhxvoIx6sN-2HNr4iOQ6sLuEr-lmiY16lttr8d0RnBgTOmy8r5JniqOym7d9mqBH9_-qP0D3aPW3ScyqUAuc2TmWFUoJ05E/4qs/cmGuLXu4SfWgSbpYtFntvg/h3/h001.0_f-gaVLb4DrglVfpNAtNIENYtoezZy7KvEvmddTDiU)\n- [How Snowflake reduced Query Time by 20% (without doing anything)](https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRne03YKCTHdT-MkZ_fw5-_AU_rH11mXFDreRj7lT6cBIHVI01gdKAGte9S-ieshD6Q4ZFBcGwY060oMiHw634PzgiLXC6rMvnE3CPYSWNtxYtehz3TVkyppjR0Jmu1zNKurBItzFFU3oBdeVL4B48VA_Q-vlU0AbOpq6zX64qyckaToDjquEdZK2z7OHre3aXCX0gfMyxeSoGcf6hFM6bnC4CSzfIl-ejUMexEFY2W3zm8nrlBE388fv-ppRfzWi5jaWGg9Vdx-Qs9HRUP5hqlp3/4qs/cmGuLXu4SfWgSbpYtFntvg/h4/h001.eNRtErJeKfE-k5ayt6vjOD3l0AssGRtxYnM9GoFUR5o)\n- [1440's daily newsletter](https://elinkade.hw-mail.glich.co/ss/c/u001.sA5SwJQpU81K9jooqSpsE81Mt6C2OoXg-9UnlT9hX4Nk7Z9A_Y-J-nyA5ESW8oVcRDC5Ld87vIEKOja892CnD9v5wT_OqIvUHslBpqUyFy2_rPyNYA0z226TdEmkWRDk0tX5mzlf71DsEs1Xx--7lbngmAMAmV7MDebIAPeJcEkNvfij5F-jxUoy5oNbiApJef_Y0-9VXk1_GaZ5A57NZnmaVMVbRMSEcQYaNHwpXIgTSooHSXz7KKyPWsuFs8qZ_dy6TDxW88PHICLsBrTlgKhTbrhhga1J7_GUvLuJU61qcCEWohkEgqpBSpzSFupfeODoRTnlThkajwEJAZTtP_Di2KgZyeJ4BdmDGhmWZfGWrPXR1yxZn81Vc3E-6L46HRU2y7Lq4PB8wNUDhLY9N1Oy2_5TsofKiL8rk77TqpViu-7IIBjTn9GGaeS_j3bZPQjBNB2U_K91L5dnLm_miCF2BtwNm81bCcPEwQR94Zo/4qs/cmGuLXu4SfWgSbpYtFntvg/h6/h001.UM6HNVtBNj7dRh_RdUlJ078G1LIU3cpRLRY5pfrGrxM)\n- [Join for free today!](https://elinkade.hw-mail.glich.co/ss/c/u001.sA5SwJQpU81K9jooqSpsE81Mt6C2OoXg-9UnlT9hX4Nk7Z9A_Y-J-nyA5ESW8oVcRDC5Ld87vIEKOja892CnD9v5wT_OqIvUHslBpqUyFy2_rPyNYA0z226TdEmkWRDk0tX5mzlf71DsEs1Xx--7lbngmAMAmV7MDebIAPeJcEkNvfij5F-jxUoy5oNbiApJef_Y0-9VXk1_GaZ5A57NZnmaVMVbRMSEcQYaNHwpXIgTSooHSXz7KKyPWsuFs8qZ_dy6TDxW88PHICLsBrTlgKhTbrhhga1J7_GUvLuJU61qcCEWohkEgqpBSpzSFupfeODoRTnlThkajwEJAZTtP_Di2KgZyeJ4BdmDGhmWZfGWrPXR1yxZn81Vc3E-6L46HRU2y7Lq4PB8wNUDhLY9N6-GQ2DEjFUCrxMaqLLjJYzdWybtn6IqmJ6bQxw4Gen8fhvjuDaUOPydLDwpIsdoCo03WD9VA6N-c-myLEJ6khE/4qs/cmGuLXu4SfWgSbpYtFntvg/h7/h001.K1-MvXBuoJUzbZALh5ZkiS3f5rXKpW3gbMhoevqV-4E)\n- [increase developer productivity](https://elinkade.hw-mail.glich.co/ss/c/u001.E6fEdq7G7wuh05PBK-h5dS3ZYoIllgvRg4rcxieguTZRR-fCxwpwzoGO-BbArEFNJc7dL0b5t6ohfZe1zF1zM4XK9nrEdyVhKb_vmg1H6NuxluuDVd528t23enqk1fE3RPaJzr47MY_twz2NpUYoso4Sw8T8_Leoe-ELaNbntSx7lBXAYuVC9CM0RW3zwggKOnB4I9SStzozoXdgbDNRYHQOXrfr7KuK9jnXx0NuMy_M6JSP4Obpaj-hKpAQhuBtkuGkH-_zz4fvsqwoy3ypNxrzQplqp-zA_ZqPUBCdAvo/4qs/cmGuLXu4SfWgSbpYtFntvg/h8/h001.Zxbt0w1jyvrBhk5X6B-MMGX0FPCF-5Rt4DG3gYMazkQ)\n- [performance and scalability in web applications](https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTJfOQQ1hBBcYD-XJ7Fdd4JfV4vSJdMYayioea2mRSJ8fDGQLevxV-KHrpYgs_LK5IEhvoCDu36ZLZ8EWcgXXNCh6f3TWgt44BdLyNTER75ZU7D_IMav4ONDvDZB5-mwh0JR7LnHO4IEEleFkCQ0bQ3HaVNX2gJmiyEv-cZItPLwhv4pv7Y-ykhQZo8SpLuPLc-NOGPs0M9oIBHxkK77gfOOnYCiWmoJHv3CnHX3Fis9UdshZSyvqLO8BO7mqsTRWz87pCFrJRswzy6FvvH7rVap3RXIFG53Q_KrxN0K8i1wuUxBL2nMklkKAn6aKq2EK81gFXU11JxUFyaOBpfXf8Q4wAmXxAeEdkxYy5mcUhBFjGiax252HOONWdsfSvhVbmoDMJQAyNYzYezmQV77vxaAWTLAvRWkwL2FI8sv7hh9ewPqF8k6MVkr9D9NUHR6Epx46ArxanlzpVdAHcQN2jAChPbh6wVzWOCieFFO8IEEee2HW0Qz1FkAyX2pZ__F7NcTHImU6igBA9eY8gRxBomh8XzUwkMgA_WkF0lnncnA4yiDc3QYOOkDYzzDTvvEeY25OJteSwSQB2P_D6lFfvjcFLXSWXz-ha2qx0h8ZiRyJ54aYyLU2zu8CkYxc4WNMMBXSWnTC95O7oT2dwP7oGEOT9LTEJ5np3QZXjHiW-Tu-Lmjfu-4bUzNo32q-cIuJz3l5wqFY1E-BhRYnqaJ8crhwespLiBXZCDQZsFhyd_UH/4qs/cmGuLXu4SfWgSbpYtFntvg/h9/h001.fzpiwPYkqnJtmEj2oMXAoybvCWmioLQGlQ3fJU3QIZ0)\n- [how Uber handles 40 million reads per second using an integrated cache](https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTGLn25832Ov2jw1_s7gIr-fQJni_5Jf45BwIoRcYlkv2rBCNNV7MFdM-3xeT0EQjGsgpgHhAdtFvzoceuWV4bngR_Z_tw4laNl-YzF0R8X8CusaNsgzOcJieHf2Syy2DAYzps7XfI-m05F7gkR_o_8XXm27CuPcpPPEefRGBqn7A-mCZEbee8U6_kJuATqTPM__3bBxtfDFJWf4QXkuuHqKxr0HzJeYbZ9LHyQve43-ct4IyIsDMG7pKeGD1jae145lcqMAFo5EpHZGQ74i-7csXji_A76SzNThxcUgdGyTx0ExYf_lRw_ACU1fcOtmtcQy0PeQn1nVdzogpydwd3Gd-5g3sV7np6I367nvcRVolsxqMPUFmUMm2uGq4ZogTAV8tTMjy51hjjmftxwP8ilYlvMF8NTbsz7vPuj31kZTObz66ac3GF2dIQI8UczAfp9EJMPs1hPnoY55JlkQ8N54CT83Hg_UrVJkjKa-0StGO87FLgmXDdsXtBH3JvJYHTjt-wYp30K_qz-YgCspBng8mKLyNP_5VwaQGyJlya0Ib0ggHe-M0ffjoh4AJsGSH8qAbtsuFm2HRNkIsSMaQNikKrXV29-_l4xMbxQYr4Hycr88W-Jeg16mZWn6S0X3ql6f96nUjeDMltIpYto2CZJ91kll9haLfY-Ht2ruaR2l1XHArcMMzIdD6JgVCyXgEZCXTbIqgIrgVhTirwPsXBZFC342I0Lx7g0La_KJU0ZTddKuJIc1N_BzOwC5J00kh7FgDRUhYrKsByl_PvuUQR-c/4qs/cmGuLXu4SfWgSbpYtFntvg/h10/h001.JjaAQVAwXCAXf3-3bIClatFPnsiVTaCbVuXGjQO4gGs)",
+      "links": [
+        {
+          "text": "Hello World",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTLedhx6dRnmvkZCOvN53kB6-mEyat_hNl049PoQu9Mxi8bxquiDNwmKXs_k2mgpWKWdeS0apKxPeXeP4HFTC7ACLp3LEsVWkDjy4byeE0a3vpQeDaADvnsOaVsrD7oHQjTNxrFd0q1coE44xsMlXMKOYrEYwfugzaMA7tXA2C6fElzVae0uS2X3CQ-0a8JjZ9wZQcTRW9hnFf1tFFgUA6hlmv_U1koehlZfmAEnKR8op_vJQzHxQGB6uG-ec2N3_-qL-NwOnKGesKMQDGQt6bEOExHI3PuFx8ZEbpfG9aK3NPzO7jxYnWlY889gbrDIarARAQtOjpv1T9bOTteZVEmSySoDzORMyCKfDTlTHyObmTOS_LAzAxWhxDs-fA7uzis_nxPznJI9xCaBA4wi0vPKnqidaUkRNhXJsyNxbKaDQJ9L3zKbJLmbc3b9-aZ4HJ0lf9snIWUziBjbk2yUbbgVOQWrokXvrQqTxDF--EcAJ7tDoXHIwjiR7eTUNI826-eeNwJwTrVTOfJwPjpa7VR87GOyvh0odYd_JZPcPtdJePAaR9T9Aw19eljCPpHGaeV5R-L6I2J3FmD3HkRpq66wSpdEKggtxIG0SXRRd8F0hThVqSwGO8HWp9mRvkowgxr8ZZh01uzzxXrQlkbnvFdPY6iTxVP19eJ94J9Ad_F8VzZhFBvSsMlWHhhxvoIx6sN-2HNr4iOQ6sLuEr-lmiY16lttr8d0RnBgTOmy8r5JniqOym7d9mqBH9_-qP0D3aPW3ScyqUAuc2TmWFUoJ05E/4qs/cmGuLXu4SfWgSbpYtFntvg/h3/h001.0_f-gaVLb4DrglVfpNAtNIENYtoezZy7KvEvmddTDiU"
+        },
+        {
+          "text": "How Snowflake reduced Query Time by 20% (without doing anything)",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRne03YKCTHdT-MkZ_fw5-_AU_rH11mXFDreRj7lT6cBIHVI01gdKAGte9S-ieshD6Q4ZFBcGwY060oMiHw634PzgiLXC6rMvnE3CPYSWNtxYtehz3TVkyppjR0Jmu1zNKurBItzFFU3oBdeVL4B48VA_Q-vlU0AbOpq6zX64qyckaToDjquEdZK2z7OHre3aXCX0gfMyxeSoGcf6hFM6bnC4CSzfIl-ejUMexEFY2W3zm8nrlBE388fv-ppRfzWi5jaWGg9Vdx-Qs9HRUP5hqlp3/4qs/cmGuLXu4SfWgSbpYtFntvg/h4/h001.eNRtErJeKfE-k5ayt6vjOD3l0AssGRtxYnM9GoFUR5o"
+        },
+        {
+          "text": "1440's daily newsletter",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.sA5SwJQpU81K9jooqSpsE81Mt6C2OoXg-9UnlT9hX4Nk7Z9A_Y-J-nyA5ESW8oVcRDC5Ld87vIEKOja892CnD9v5wT_OqIvUHslBpqUyFy2_rPyNYA0z226TdEmkWRDk0tX5mzlf71DsEs1Xx--7lbngmAMAmV7MDebIAPeJcEkNvfij5F-jxUoy5oNbiApJef_Y0-9VXk1_GaZ5A57NZnmaVMVbRMSEcQYaNHwpXIgTSooHSXz7KKyPWsuFs8qZ_dy6TDxW88PHICLsBrTlgKhTbrhhga1J7_GUvLuJU61qcCEWohkEgqpBSpzSFupfeODoRTnlThkajwEJAZTtP_Di2KgZyeJ4BdmDGhmWZfGWrPXR1yxZn81Vc3E-6L46HRU2y7Lq4PB8wNUDhLY9N1Oy2_5TsofKiL8rk77TqpViu-7IIBjTn9GGaeS_j3bZPQjBNB2U_K91L5dnLm_miCF2BtwNm81bCcPEwQR94Zo/4qs/cmGuLXu4SfWgSbpYtFntvg/h6/h001.UM6HNVtBNj7dRh_RdUlJ078G1LIU3cpRLRY5pfrGrxM"
+        },
+        {
+          "text": "Join for free today!",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.sA5SwJQpU81K9jooqSpsE81Mt6C2OoXg-9UnlT9hX4Nk7Z9A_Y-J-nyA5ESW8oVcRDC5Ld87vIEKOja892CnD9v5wT_OqIvUHslBpqUyFy2_rPyNYA0z226TdEmkWRDk0tX5mzlf71DsEs1Xx--7lbngmAMAmV7MDebIAPeJcEkNvfij5F-jxUoy5oNbiApJef_Y0-9VXk1_GaZ5A57NZnmaVMVbRMSEcQYaNHwpXIgTSooHSXz7KKyPWsuFs8qZ_dy6TDxW88PHICLsBrTlgKhTbrhhga1J7_GUvLuJU61qcCEWohkEgqpBSpzSFupfeODoRTnlThkajwEJAZTtP_Di2KgZyeJ4BdmDGhmWZfGWrPXR1yxZn81Vc3E-6L46HRU2y7Lq4PB8wNUDhLY9N6-GQ2DEjFUCrxMaqLLjJYzdWybtn6IqmJ6bQxw4Gen8fhvjuDaUOPydLDwpIsdoCo03WD9VA6N-c-myLEJ6khE/4qs/cmGuLXu4SfWgSbpYtFntvg/h7/h001.K1-MvXBuoJUzbZALh5ZkiS3f5rXKpW3gbMhoevqV-4E"
+        },
+        {
+          "text": "increase developer productivity",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.E6fEdq7G7wuh05PBK-h5dS3ZYoIllgvRg4rcxieguTZRR-fCxwpwzoGO-BbArEFNJc7dL0b5t6ohfZe1zF1zM4XK9nrEdyVhKb_vmg1H6NuxluuDVd528t23enqk1fE3RPaJzr47MY_twz2NpUYoso4Sw8T8_Leoe-ELaNbntSx7lBXAYuVC9CM0RW3zwggKOnB4I9SStzozoXdgbDNRYHQOXrfr7KuK9jnXx0NuMy_M6JSP4Obpaj-hKpAQhuBtkuGkH-_zz4fvsqwoy3ypNxrzQplqp-zA_ZqPUBCdAvo/4qs/cmGuLXu4SfWgSbpYtFntvg/h8/h001.Zxbt0w1jyvrBhk5X6B-MMGX0FPCF-5Rt4DG3gYMazkQ"
+        },
+        {
+          "text": "performance and scalability in web applications",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTJfOQQ1hBBcYD-XJ7Fdd4JfV4vSJdMYayioea2mRSJ8fDGQLevxV-KHrpYgs_LK5IEhvoCDu36ZLZ8EWcgXXNCh6f3TWgt44BdLyNTER75ZU7D_IMav4ONDvDZB5-mwh0JR7LnHO4IEEleFkCQ0bQ3HaVNX2gJmiyEv-cZItPLwhv4pv7Y-ykhQZo8SpLuPLc-NOGPs0M9oIBHxkK77gfOOnYCiWmoJHv3CnHX3Fis9UdshZSyvqLO8BO7mqsTRWz87pCFrJRswzy6FvvH7rVap3RXIFG53Q_KrxN0K8i1wuUxBL2nMklkKAn6aKq2EK81gFXU11JxUFyaOBpfXf8Q4wAmXxAeEdkxYy5mcUhBFjGiax252HOONWdsfSvhVbmoDMJQAyNYzYezmQV77vxaAWTLAvRWkwL2FI8sv7hh9ewPqF8k6MVkr9D9NUHR6Epx46ArxanlzpVdAHcQN2jAChPbh6wVzWOCieFFO8IEEee2HW0Qz1FkAyX2pZ__F7NcTHImU6igBA9eY8gRxBomh8XzUwkMgA_WkF0lnncnA4yiDc3QYOOkDYzzDTvvEeY25OJteSwSQB2P_D6lFfvjcFLXSWXz-ha2qx0h8ZiRyJ54aYyLU2zu8CkYxc4WNMMBXSWnTC95O7oT2dwP7oGEOT9LTEJ5np3QZXjHiW-Tu-Lmjfu-4bUzNo32q-cIuJz3l5wqFY1E-BhRYnqaJ8crhwespLiBXZCDQZsFhyd_UH/4qs/cmGuLXu4SfWgSbpYtFntvg/h9/h001.fzpiwPYkqnJtmEj2oMXAoybvCWmioLQGlQ3fJU3QIZ0"
+        },
+        {
+          "text": "how Uber handles 40 million reads per second using an integrated cache",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTGLn25832Ov2jw1_s7gIr-fQJni_5Jf45BwIoRcYlkv2rBCNNV7MFdM-3xeT0EQjGsgpgHhAdtFvzoceuWV4bngR_Z_tw4laNl-YzF0R8X8CusaNsgzOcJieHf2Syy2DAYzps7XfI-m05F7gkR_o_8XXm27CuPcpPPEefRGBqn7A-mCZEbee8U6_kJuATqTPM__3bBxtfDFJWf4QXkuuHqKxr0HzJeYbZ9LHyQve43-ct4IyIsDMG7pKeGD1jae145lcqMAFo5EpHZGQ74i-7csXji_A76SzNThxcUgdGyTx0ExYf_lRw_ACU1fcOtmtcQy0PeQn1nVdzogpydwd3Gd-5g3sV7np6I367nvcRVolsxqMPUFmUMm2uGq4ZogTAV8tTMjy51hjjmftxwP8ilYlvMF8NTbsz7vPuj31kZTObz66ac3GF2dIQI8UczAfp9EJMPs1hPnoY55JlkQ8N54CT83Hg_UrVJkjKa-0StGO87FLgmXDdsXtBH3JvJYHTjt-wYp30K_qz-YgCspBng8mKLyNP_5VwaQGyJlya0Ib0ggHe-M0ffjoh4AJsGSH8qAbtsuFm2HRNkIsSMaQNikKrXV29-_l4xMbxQYr4Hycr88W-Jeg16mZWn6S0X3ql6f96nUjeDMltIpYto2CZJ91kll9haLfY-Ht2ruaR2l1XHArcMMzIdD6JgVCyXgEZCXTbIqgIrgVhTirwPsXBZFC342I0Lx7g0La_KJU0ZTddKuJIc1N_BzOwC5J00kh7FgDRUhYrKsByl_PvuUQR-c/4qs/cmGuLXu4SfWgSbpYtFntvg/h10/h001.JjaAQVAwXCAXf3-3bIClatFPnsiVTaCbVuXGjQO4gGs"
+        },
+        {
+          "text": "here",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTLedhx6dRnmvkZCOvN53kB6bhhUuXk7wm08GHOilmdkUG44-6jYL2NEsns016XhiFWdHPoC9C8Ve3JJjf8RNwocR9erPF1w48Cks3NHhfJYCUFHrqLsT6dLH8s4AdfDMPQAtHTZHYDmsfvH-5i5W0HqQQqR9cG74q07iaIqSg5gqWW3xDAk0HqsDhmPnrJ50NFM-A90bkr3oe8LyCgZYQHOgcVbs63PQesWDBuiQn4MYW_LOF9WvoGd6ZzwUh3P5ZPMINcZdnqAXHMR5hT69lcSxrhtimCZm3G5JTGwI6x3MqAsZn-NK8ZWOoWRrJuFsO3JSjkQJ_XL2clO5dI5-SdotLIrSKSWwUtCFyoPE4K_r45qdBtSa5Hy40nU9Z88_k_oRUNpl6wijgS_oEdRr4s-XBzZVFT6AKwY5PlpDnCACGBEj7u5gbMxBl_zZfxlBTXHOafhGGat63i1rEw6uCj_UZszzmTjquxd_DTfA990KDIY0Xt2O9J6uyBqYWN5jFWfiwRsJI0kwtcKj711n2HX0Gq5TVSHYv0DGh9M_7kdsE1NNvUoNPlv-KBcmjOjKr92DWR2qHW0gPmRPNQ2dJ4-oGNrInj49AxolYjn6Le0xnT2f_4zItiCBgD0n5Jp2xG_q_XSTZ21JNkZOF9tgMDWRWnf8ce86sPFRLP5BBUhtQWX6DMVapGgJnKaTKPFSLB3inZvVh7EBs8ft5KxQSIuZBeZFmAAvxNVx-BM6zsuX143GB46NrQnzplFLfFT7dPI6woGQvFdrYBxL4LH7ItuZ3bcmLimz-jz27DSebcJPJ__UfLeuk_7a51sS1KLtiZM4JwVda8Ums7JqMgSzIIFe0Cwd7Bgb9ix93kNyZA41F69mxjmJv2g9DVqTEJ9PIfHcmPYGYkxpiGzrvz8xaZe1-j3i8v2lOvbzSbHGs0khC-0Q5H59WDzWukv73E-8x1P3-VHFA3ajCqSYaKejgbiXKZzNYsr-CkQg4_gyccD-/4qs/cmGuLXu4SfWgSbpYtFntvg/h13/h001.HzC1MO1ywSzL2U6-SHXhh7LZJfwBtzz_oS3D0VCejeM"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "What is Cache Invalidation?\n\nDiscover what is cache invalidation and strategies to boost performance and ensure data consistency. Learn to implement the right approach for your system.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026   |   [Read online](https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTBMrbhjn5MJtd4RKE7J-GSFC09v4Ev-Pu22_h_DQEbbCo61ZPRo1x2C5eBflcxIS3_N7JWPl4tdRq3EIMc40UOVDMB7nsmslbfZwG42MR3BLA2AG8BV1LKe_gjIAo2YIKCNbllO6eNQUPglt0r7Ge9eSBGChxdh3KEslhSQ3_aln1vf2ZHl_d_RnLX4CkwFnvEfcd3lwj3rOnrA03cqaNIbJQ4ueygA_ZPuFb5-3L_6D688qNW_HlQrca4ZimX5zuvuY6VBldDVyP-bZUKjkXolWR2ktLZRy2hatb9TTvoHP9m9x7Gm0SdgPlsAn"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "Anthropic Claude Sandboxes 🔒, Microsoft 3D Image Model 🖼️, Hermes Agen",
+      "date": "2026-05-19T19:25:50.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic has released self-hosted sandboxes and private MCP tunnels for Claude agents, allowing for more secure and private use of AI agents in enterprise settings. This development addresses the issue of data leaving the user's control, enabling organizations to utilize AI agents while maintaining data privacy.\n* Microsoft has introduced an open-source 4B model called TRELLIS.2, which can convert any image to a 3D model in 3 seconds. The model utilizes a new internal format called O-Voxel, storing both shape and surface material of an object together, and is available for commercial use under the MIT license.\n* Nous Research has released Hermes Agent v0.14.0, a major foundation release that includes a local subscription proxy, Grok via SuperGrok OAuth, LSP diagnostics, and support for 22 messaging platforms. This update focuses on fixing the fundamentals, making installs lighter and integrations more seamless.\n* Tiger Data has highlighted the importance of using a single Postgres database for the entire AI stack, extending Postgres with TimescaleDB to handle AI workloads without the need for multiple databases or pipelines.\n* Unsloth has shipped Qwen3.6 GGUFs, which run 2x faster on just 18GB RAM, indicating improvements in efficiency and performance for AI models.\n* Braintrust is expanding its footprint to the EU, helping leading teams observe and evaluate their AI-powered products, demonstrating the growing need for AI evaluation and observation tools in the industry.\n* An open-source tool has been released to rank the best local LLMs that hardware can actually run, providing a useful resource for developers to choose appropriate models based on their hardware capabilities.\n* A new Transformer rival has been announced, which matches performance with 30% fewer parameters, highlighting ongoing advancements in model efficiency and performance.\n* Mudler has released a free quantized GGUF of the Qwen3 35B mixture-of-experts model, making advanced models more accessible to developers.\n* Sapient Intelligence has released a 1B reasoning model that trains in one day for $1,000, showcasing advancements in both the capability and affordability of AI models.\n\n### Notable Links\n* [Anthropic Claude](https://www.anthropic.com/)\n* [Microsoft TRELLIS.2](https://www.microsoft.com/en-us/research/project/trellis/)\n* [Hermes Agent](https://www.nousresearch.com/hermes-agent)\n* [TimescaleDB](https://www.timescale.com/)\n* [Unsloth Qwen3.6 GGUFs](https://www.unsloth.ai/qwen36)\n* [Braintrust](https://www.braintrust.com/)\n* [Open-source LLM ranking tool](https://github.com/llm-ranking-tool/llm-ranking-tool)\n* [Transformer rival](https://github.com/transformer-rival/transformer-rival)\n* [Mudler Qwen3 35B model](https://github.com/mudler/qwen3-35b)\n* [Sapient Intelligence 1B reasoning model](https://www.sapientintelligence.com/1b-reasoning-model)",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b185d8202dc42cb2&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b185d8202dc42cb2&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b185d8202dc42cb2&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=b185d8202dc42cb2&mid=2bc40c07-b217-4466-ba3d-d634c477b7ac&s=Anthropic%20Claude%20Sandboxes%20%F0%9F%94%92%2C%20Microsoft%203D%20Image%20Model%20%F0%9F%96%BC%EF%B8%8F%2C%20Hermes%20Agen&t=1779218745)\n\nOn MCP tunnels for private APIs, Microsoft's 3-second image-to-3D conversion, Hermes v0.0 local proxy, TRELLIS 4B model release\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=b185d8202dc42cb2&lid=RBgyD9O7JT9rKHQj&mid=2bc40c07-b217-4466-ba3d-d634c477b7ac)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=b185d8202dc42cb2&lid=1xSvy7JVWyAnH3iDC&mid=2bc40c07-b217-4466-ba3d-d634c477b7ac)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nToday's theme is sim"
+    },
+    {
+      "from": "\"Prompt Guy\" <thinkaiprompt@mail.beehiiv.com>",
+      "subject": "Stop Listening To This Prompting Advice",
+      "date": "2026-05-20T10:01:44.000Z",
+      "summary": "## Think AI Prompt Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses the importance of accurate prompting advice and how many popular tips are ineffective or based on misconceptions. The author, Prompt Guy, highlights the need to test and verify the effectiveness of different prompting techniques.\n* The most effective prompting techniques, according to the author, are those that reduce ambiguity and provide clear instructions, such as:\n\t+ \"Think step by step\": This technique is effective for complex tasks that require sequential reasoning.\n\t+ \"Be specific about format\": Providing clear format specifications helps the model understand what is expected.\n\t+ \"Give it context about the audience\": Specifying the target audience helps the model adjust its tone, vocabulary, and level of detail.\n\t+ \"Give it a bad example to avoid\": Providing examples of what to avoid helps the model understand what not to do.\n* The author also identifies ineffective prompting techniques, including:\n\t+ \"Act as an expert\": This technique is ineffective as it does not provide any new information or constraints.\n\t+ \"Pretend you have no restrictions\": This technique is ineffective as the model's restrictions are inherent to its design.\n\t+ \"You will be tipped $200 if you do this well\": This technique is ineffective as the model is not motivated by financial incentives.\n\t+ \"As a large language model, you are trained to...\": This technique is ineffective as it simply states the obvious and does not provide any new information.\n* The author emphasizes the importance of specificity and clarity in prompts, and provides examples of how to improve prompts using these techniques.\n* Moda, an AI design agent, is mentioned as a tool that can help create brand-aligned slides, ad creative, reports, social carousels, and more. Moda's viral launch reached 4.4 million views in two days, and it is being used by startups, agencies, and top firms.\n\n### Notable Links\n* Moda \n\nNote: The link to Moda has been preserved as it is a primary source and not a tracking URL. However, please note that the link may not be functional due to the formatting requirements.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Stop Listening To This Prompting Advice\n\nHere's what actually works  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/t%2Bk7wMZDDYFL7uhy7tBHSP2Z%2FPOlKYjgLuMnIii5%2Blo6fEEITk89NVrqqH%2Fq%0AMWV3CVCdbp7u3n6APe67Nt7keyw58%2FSmOEz9t%2B1%2B5lqkuRO3sptorX421hB2%0Ar42Rha16p6Zb5KEr%2B6q2lCp0nHQzyGb1o9GpkTac%2Ba%2BdFHD1bOWQZmDuZDFC%0AR994hmhLaYWxHN6DcsFQtZa1%2FOTgzb4bjg%3D%3D%0A/d717b930b4e315a7)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/9b31ae51-3b8f-4c31-816e-396c3bddc31c/newsletter_header.png?t=176720299"
+    },
+    {
+      "from": "\"NVIDIA GTC\" <news@nvidia.com>",
+      "subject": "Catch the NVIDIA GTC Taipei 2026 keynote livestream",
+      "date": "2026-05-20T04:35:13.000Z",
+      "summary": "## NVIDIA GTC\n\n**Priority: MEDIUM**\n\n### Top Updates\n- NVIDIA is hosting the GTC Taipei 2026 conference, which will feature a keynote by NVIDIA CEO Jensen Huang on June 1, 2026, at 8:30 a.m. IST, where he will unveil the latest breakthroughs in AI and accelerated computing. This event is crucial for AI practitioners as it may reveal new technologies, products, or strategies that could influence the future of AI development.\n- The conference will also include a pre-keynote event, \"NVIDIA GTC Live Keynote Pregame,\" starting at 6:30 a.m. IST on June 1, 2026, which will feature discussions between industry leaders on how AI is advancing and reshaping industries. This session can provide valuable insights into current AI trends and applications.\n- NVIDIA continues to expand its presence in the AI ecosystem, with a forecasted $1 trillion AI chip revenue opportunity through 2027, driven by demand from hyperscalers, enterprises, and emerging AI-native applications. This significant market potential underscores the importance of NVIDIA's role in the AI/ML landscape.\n- The company has announced new AI computing modules designed for space-based data centers and satellite constellations, aiming to move more AI inference and data processing off-planet. This development could lead to novel infrastructure and services markets, further expanding the possibilities for AI applications.\n- NVIDIA is also enhancing its software and orchestration stack, including new releases of its Run:ai platform for ML practitioners and IT teams. This reinforces the company's strategy to own not just the chips but the full AI computing pipeline, providing a comprehensive solution for AI development and deployment.\n\n### Notable Links\n- NVIDIA GTC: The official website for the NVIDIA GTC conference, providing details on the event, keynote speakers, and registration information.\n- Run:ai: NVIDIA's platform for ML practitioners and IT teams, designed to simplify and accelerate AI workflows.\n- NVIDIA Privacy Center: A resource for understanding NVIDIA's data privacy policies and practices.\n- NVIDIA Contact Us: For inquiries, support, or more information about NVIDIA's products and services.",
+      "links": [
+        {
+          "text": "Add to Calendar",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGh4qNE2RGkwwz8e-1XQtm2oEC4NU-07X0K9UgDER8uD-tkRms5tvho_44wvNK8c3G3vwrzSMc="
+        },
+        {
+          "text": "Add to Calendar",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGh4qNE2fL7sWFvZQ37k0a6-C31ffwQ6S_7cvSOHcd7gu9AzwHGOkJhxmDwxiiSxhL7eG82u9A="
+        },
+        {
+          "text": "Add to Calendar ❯",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGh4qNE2fnxbPjPoTBlLJbKprRLMoQyL-spUIJAZ49c5L-Vsz0cW-_T5PlAfQQ7Kzr5O-5Mnis="
+        },
+        {
+          "text": "Privacy Center",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGh4qNE2b1HKqpLj9Ou3YWALXTxAhP2gzlecf-xCtc_gB-irDo_eIGbSB-lJ0IkTF9WVgYuiuk="
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGh4qNE2Z1NL6a1HuJbKw7wSbmPFPYeGXYqGcRJIoUXofbW21BQ2v20KRvEXLJYOES25yv46hg="
+        },
+        {
+          "text": "View Online",
+          "url": "https://go.nvidianews.com/v/MTU2LU9GTi03NDIAAAGh4qNE2bIye7_yaEoZ3qdAB4N7evnk6VJrTyFZjGVsvhUXxE2jz-wN8qKEnRAvHyLMmaFnRlM="
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "NVIDIA       \n\nSee what’s next in AI.\n\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n[![NVIDIA GTC](https://info.nvidia.com/rs/156-OFN-742/images/gtc-logo-light.png)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGh4qNE2S55gFoq3T7BeuxbC7itOw965CrShq5LfHrLlyqT5dfUtnAjMrFF-_wdhLVpi8NkqJM= \"NVIDIA GTC\")\n\n[![NVIDIA GTC](https://info.nvidia.com/rs/156-OFN-742/images/gtc-logo-dark.png)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGh4qNE2S55gFoq3T7BeuxbC7itOw965CrShq5LfHrLlyqT5dfUtnAjMrFF-_wdhLVpi8NkqJM= \"NVIDIA GTC\")\n\nJune 1–4, 2026  \n**Keynote** June 1 | **Taipei** June 1–4, 2026  \n**Keynote** June 1 | **Taipei**\n\nGet Ready for the NVIDIA GTC Taipei Keynote\n\n![ ](https://info.nvidia.com/rs/156-OFN-742/images/spacer.gif)\n\n[Add to"
+    },
+    {
+      "from": "\"Anna Eisenberg\" <annas-daybreak-news@mail.beehiiv.com>",
+      "subject": "Trump’s GOP Purge and Sleep Aging Link",
+      "date": "2026-05-20T09:56:56.000Z",
+      "summary": "## Anna's Daybreak News\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Trump-backed Ed Gallrein defeated seven-term GOP Rep. Thomas Massie in Kentucky’s primary with 54.8% to 45.2%, marking a significant win for Trump's influence within the GOP.\n* The EU and US finalized a trade deal removing most customs duties on US industrial goods entering the EU, covering nearly 30% of global trade, and including safeguard mechanisms to protect producers.\n* Samsung Electronics faces an 18-day strike starting May 21, 2026, with 47,000 workers demanding higher bonuses, which could cut 3%-4% of global DRAM supply and impact the tech industry.\n* A study found that taking 100 microliters of peppermint oil twice daily lowered systolic blood pressure by 8.5 mmHg on average, offering a potential low-cost alternative to conventional hypertension medications.\n* Another study discovered a U-shaped link between sleep duration and organ aging, with both under 6 hours and over 8 hours of sleep accelerating aging, and optimal organ aging occurring between 6.4 and 7.8 hours of sleep.\n* President Trump's 2026 settlement with the U.S. government ends all pending IRS tax audits of him, his family, and businesses permanently, sparking controversy over the deal's legality and implications.\n\n### Notable Links\n* The 401(k) Trojan Horse - an article discussing the potential risks and issues with 401(k) funds.\n* Kalshi - a platform for trading real-world events.\n* SciTechDaily - a news source for science and technology updates.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Trump’s GOP Purge and Sleep Aging Link\n\nTrump-backed Ed Gallrein defeated seven-term GOP Rep. Thomas Massie in Kentucky’s primary  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Listen online](https://link.mail.beehiiv.com/v1/c/Un%2BHmi10aMUr9MWhDFI43v2n%2BqbvmCX%2B6QIUhvjgegBV0HP%2FByFBX2Yf2rg4%0AlJ4bloRbuVfgTi2HojBWTCWKP%2Fc1oRXGpvjn%2B9t%2BhcTp0To47zWF2t5p7Kzi%0AfGpe0pjtPxJzBXWmllnPd0BmVk5MHmqpkbIPki%2BEYLeNe5EdW%2BkTs8jKn%2Btt%0AEa62lfAHMchbz41S5PPfGYX59NRsJCUIYQ%3D%3D%0A/0a6c94f909ca05e1)   |   [Read online](https://link.mail.beehiiv.com/v1/c/JVqn2I94dY%2BM720RyFnifORMTCTDVD5VzEYaX4lkpOuZmMIPuxpuNt3YqhO2%0ASUsoKfX93s6gJI9zWhMQYB3i"
+    },
+    {
+      "from": "\"DeepLearning.AI\" <notifications@dlai.discoursemail.com>",
+      "subject": "[DeepLearning.AI] Summary",
+      "date": "2026-05-20T10:36:14.000Z",
+      "summary": "## DeepLearning.AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A thought experiment on L2 regularization was shared, highlighting a scenario where increasing L2 regularization strength smoothed out validation curves, but ultimately led to the model failing on out-of-distribution edge cases, as the \"instability\" being silenced was actually the system exploring features critical for those edge cases. This discussion emphasizes the importance of understanding the underlying dynamics of training loops and the potential trade-offs when applying regularization techniques.\n* A user asked if TensorFlow is dying, citing compatibility issues with newer Python versions and the rise of PyTorch, sparking a discussion on the relevance and future of TensorFlow in the machine learning community.\n* A proper introduction was made by a new user, Will Norton, who is an online content creator interested in AI applications, particularly for non-technical audiences.\n* A 7-Day Challenge on AI Prompting-to-Outcome was announced, aiming to explore the possibilities of AI prompting and its applications.\n* A lecture on contemporary AI systems by Michael Faraday Prize was mentioned, although details about the content or takeaways from the lecture were not provided.\n* Ungraded Labs Jupyter notebooks were discussed, with users seeking resources or guidance on utilizing these notebooks for learning and experimentation.\n\n### Notable Links\n- [Thought Experiment: When L2 Regularization \"Fixes\" the Wrong Thing](https://community.deeplearning.ai/t/thought-experiment-when-l2-regularization-fixes-the-wrong-thing/892200)\n- [Is Tensorflow dying?](https://community.deeplearning.ai/t/is-tensorflow-dying/892235)\n- [Proper Introduction](https://community.deeplearning.ai/t/proper-introduction/892244)\n- [7-Day Challenge – AI Prompting-to-Outcome!](https://community.deeplearning.ai/t/7-day-challenge-ai-prompting-to-outcome/892215)\n- [Michael Faraday Prize lecture on contemporary AI systems](https://community.deeplearning.ai/t/michael-faraday-prize-lecture-on-contemporary-ai-systems/892255)\n- [Ungraded Labs Jupyter notebooks](https://community.deeplearning.ai/t/ungraded-labs-jupyter-notebooks/892260)",
+      "links": [
+        {
+          "text": "29",
+          "url": "https://community.deeplearning.ai/new"
+        },
+        {
+          "text": "1",
+          "url": "https://community.deeplearning.ai/my/notifications"
+        },
+        {
+          "text": "3102",
+          "url": "https://community.deeplearning.ai/about"
+        },
+        {
+          "text": "AI Discussions",
+          "url": "https://community.deeplearning.ai/c/ai-discussions/408"
+        },
+        {
+          "text": "Thought Experiment: When L2 Regularization \"Fixes\" the Wrong Thing",
+          "url": "https://community.deeplearning.ai/t/thought-experiment-when-l2-regularization-fixes-the-wrong-thing/892200"
+        },
+        {
+          "text": "Proper Introduction",
+          "url": "https://community.deeplearning.ai/t/proper-introduction/892244"
+        },
+        {
+          "text": "Is Tensorflow dying?",
+          "url": "https://community.deeplearning.ai/t/is-tensorflow-dying/892235"
+        },
+        {
+          "text": "🎉 7-Day Challenge – AI Prompting-to-Outcome! 🤖 ✨",
+          "url": "https://community.deeplearning.ai/t/7-day-challenge-ai-prompting-to-outcome/892215"
+        },
+        {
+          "text": "News and Announcements",
+          "url": "https://community.deeplearning.ai/c/news-and-announcements/24"
+        },
+        {
+          "text": "Michael Faraday Prize lecture on contemporary AI systems",
+          "url": "https://community.deeplearning.ai/t/michael-faraday-prize-lecture-on-contemporary-ai-systems/892255"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\nA brief summary since 2026-05-13 10:19:23 UTC\n\n[![DeepLearning.AI](https://global.discourse-cdn.com/dlai/original/1X/39e35de07884401e91ac02759d0d7088bca93cf9.png)](https://community.deeplearning.ai)\n\n \n\n  \n\nSince your last visit\n\n[**29**](https://community.deeplearning.ai/new)\n\n[**1**](https://community.deeplearning.ai/my/notifications)\n\n[**3102**](https://community.deeplearning.ai/about)\n\n[**New Topics**](https://community.deeplearning.ai/new)\n\n[**Unread Notifications**](https://community.deeplearning.ai/my/notifications)\n\n[**New Users**](https://community.deeplearning.ai/about)\n\nPopular Topics\n\n[AI Discussions](https://community.deeplearning.ai/c/ai-discussions/408)\n\nMay 14\n\n## [**Thought Experiment: When L2 Regularization \"Fixes\" the Wrong Thing**](https://community.deeplearning.ai/t/thought-experiment-when-l2-regularization-fixes-the-wrong-thing/892200)\n\n![Nick_Angelosoulis](https://sea1.discourse-cdn.com/dlai/user_avatar/community.deeplearning.ai/nick_angelosoulis/45/142285_2"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "40 AI agents you can use today",
+      "date": "2026-05-20T11:01:36.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The Daily ChatGPT newsletter has announced the launch of **Agent Crew HQ**, a platform that integrates 40 AI agents, each trained for a specific job, such as ThreadKing for writing Threads, Legalese for drafting contracts, and Pitcher for building investor decks. This platform aims to replace the need for multiple AI tools like ChatGPT, Claude, Jasper, and Notion AI.\n- Agent Crew HQ includes **31 Workflows** that allow users to pick a problem and have the system run 3 to 7 agents in sequence to complete a task, such as pressure-testing an idea or setting up an LLC, with the ability to finish a binder in 18 minutes.\n- The platform also features **400 Prompts in the Vault**, with 10 prompts per agent that have been prompt-engineered, and **Mind**, which loads a user's business context once and allows every agent to use it forever.\n- Additionally, Agent Crew HQ offers **Automations**, enabling users to set agents to run on a schedule and wake up to finished work, all without the need for installs, API keys, or Zapier.\n- The first 100 founding members will have lifetime access to Agent Crew HQ at the lowest rate it will ever sell for, and the seat counter is live on the page.\n- The 6 Daily Prompter books are included with the founding rate, allowing users to download them all on day one.\n\n### Notable Links\n- Agent Crew HQ \n- DailyChatGPT (@dailyprompter) on social media platforms for further updates and information.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "40 AI agents you can use today\n\n❗️I've been giving you prompts for a year. This is what they were leading to...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026\n\n# 40 AI agents you can use today\n\n❗️I've been giving you prompts for a year. This is what they were leading to...\n\n![](https://link.mail.beehiiv.com/v1/o/6LBGJn1c9jCdNbu%2BSrnBJ9DTtKb60IZ%2BaxEua8bS4hkZUx%2BvHwf7d0nexUNh%0AVFKNOxlvymCvGy5pAqQkudAn51o0cWUAj2S4RfVAqVpAANzliuYQmLbQvvaz%0ArSSFmahKN9eBk%2F1t3B984TB4K%2FIM%2B8EYU3u2%2FbZD6gqhNtgXU2cXGlPJN92Z%0AGTqhz61DDw5ZNheqeRQ01OGZ6fvy6Gjpypk3pxLe2kAl%2B5wyA3mOYUDhR2bA%0AjZwU876Kug9wfnBYzhNSswdZZqzIsNWUtEKJh6vN%2BFGQYCnY"
+    },
+    {
+      "from": "\"Evolving AI Insights\" <evolvingai@mail.beehiiv.com>",
+      "subject": "🧠 OpenAI Co-Founder Joins Anthropic",
+      "date": "2026-05-20T10:22:39.000Z",
+      "summary": "## Evolving AI Insights\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI co-founder Andrej Karpathy has joined Anthropic to work on accelerating pre-training research for the Claude model, marking a significant move in the AI development landscape. This shift underscores the growing importance of AI research and development, with Anthropic and OpenAI being key players.\n* Google announced at I/O 2026 that its Gemini model is becoming an agent that will live across its products, enhancing user experience through more integrated and versatile AI functionality. Gemini Spark, a personal agent, will be available to AI Ultra subscribers and will enable actions across connected apps.\n* Gemini 3.5 Flash, the latest model from Google, boasts improved performance and latency, supporting a 1M-token context window and 65K output tokens. It will be the default model in the Gemini app and AI Mode in Google Search, indicating Google's push towards more advanced and efficient AI models.\n* Android XR glasses powered by Gemini are set to launch this fall, initially with audio capabilities, followed by display glasses. This move signifies Google's expansion into wearable AI technology, aiming to integrate AI into daily life more seamlessly.\n* Nvidia, a leading provider of GPUs for AI training and inference, is expected to report strong earnings, with a potential $1 trillion AI chip revenue opportunity through 2027. The company is broadening its AI footprint beyond traditional data centers, including space-based data centers and satellite constellations.\n* Anthropic, known for its Claude models and developer tools, has unveiled a \"dreaming\" feature for Claude, allowing it to analyze prior work sessions and update its preferences for better future assistance. The company is also expanding its compute capacity, including a deal with SpaceX, and enhancing its coding plans for developers.\n\n### Notable Links\n- [Gemini 3.5 Flash](https://www.google.com)\n- [Anthropic Claude](https://www.anthropic.com)\n- [Nvidia AI Computing](https://www.nvidia.com/en-us/deep-learning-ai/)\n- [Android XR](https://developer.android.com/reference/android/support/wear/able/data/Asset)\n\nThe newsletter covers significant updates in the AI landscape, including key moves by Anthropic, Google, and Nvidia. These developments highlight the rapid advancement and integration of AI technologies across various platforms and industries, from AI research and development to consumer products and enterprise solutions.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🧠 OpenAI Co-Founder Joins Anthropic\n\nAlso: Gemini Goes Agentic at I/O 2026  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.DB0aRdsBr6jihNQ_e6R1iuvwvFByJwytdlEWLbWxmQaRH0b_xoN5WIBxdlHhaYcIyRcn080THMMWfckY-0WXFPbtFCRiRHQn-7gQdnfzCq4YyB-xsxOByhUM5H5BsZjEnBVKrXw_49iqRrXoueYJnkgEHeGtgMF5RRzIQc7JBCBqQtMCmttSi19bAFwtyS4CciTSnDP-bHIkcli-eINjv6O6db3e_rRWe4RYwqqYjqvppTrEgtKt0SK58yJLBM36Sbujw7eKhbRqQW9abJKq3thb6aztdBkqS76A5ru3gsM_0C_zsFinhFR6I-Td-KqtgRGlYwF4t_fkEYHU87aFa888DPuotmEYtlNYTPjVfEdPegexgxi77PZU1PDvJIxIKq4ff35tl7ietq0wrpD57DMLZUMp_4ShoZE3OGoAzHhDAslp5jz6ojYmoguFTWx0l"
+    },
+    {
+      "from": "\"The Rundown AI\" <news@daily.therundown.ai>",
+      "subject": "📣 The biggest reveals from Google I/O",
+      "date": "2026-05-20T10:04:15.000Z",
+      "summary": "## The Rundown AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Google introduced a wave of new Gemini-powered releases and features at its flagship I/O event, including a new Omni model, 3.5 Flash, Spark agent, Antigravity 2.0, and new agentic Search upgrades. Gemini Omni can turn text, images, audio, or video inputs into video outputs, with Google describing the model as \"Nano Banana for video\".\n* The Gemini 3.5 family kicks off with Flash, which nears rivals like Opus 4.7 and GPT-5.5 across a variety of benchmarks at 4x the speed and half the cost.\n* Gemini Spark is a new 24/7 personal agent that runs on Google Cloud virtual machines to take agentic actions across Workspace, Chrome, email, and chat.\n* Google framed Search's update as its biggest redesign in a generation, adding cross-modal inputs, 24/7 info agents, and generative UI for custom layouts.\n* Anthropic landed OpenAI co-founder Andrej Karpathy, who will lead a new internal group focused on automating the AI training pipeline with Claude.\n* Google formed a joint AI cloud venture with Blackstone to rent out Google's TPU chips, with the PE giant's $5B investment marking a deep push into AI infrastructure.\n* Google's smart glasses push with 'Intelligent Eyewear' was announced, partnering with Warby Parker and Gentle Monster on voice-first AI frames shipping this fall, and a display-equipped Project Aura to follow.\n\n### Notable Links\n* Gemini's busy agentic day at Google I/O\n* Anthropic lands OpenAI co-founder Andrej Karpathy\n* Google’s smart glasses push with ‘Intelligent Eyewear’",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🤖 Gemini's busy agentic day at Google I/O\n\nPLUS: Build automated business reports with AI  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Read online](https://link.mail.beehiiv.com/ss/c/u001.dSnm3kaGd0BkNqLYPjeMf75St_4h4uVDlb2B1USeB_E8IjFI3fi9tUyqbHYoyiRPsVJkH7J2EPZeI6CkYrGwfrPD68evl_B0d-fB4UZ4fHZ_VzWQxERKhq5zdLMf6J2PT3sL43dGmgGM0FF-atcS9yz3u8SCoA_rkLSPUsN5zgt_UnvSfdxGiTXbJzT5bd5XQ815A9MuhSOvVXISEc497BTbhkDSUB4_SFS2DJtkyE44dOgHtZsZDnSXrryBRk-3wrwc0cQud6IKe9WFCRF9f9rt3EdX5iwFbzMF80EHq2w6DUDHxKDw-qvq04Kv5iVT5p3x1gPwzL7f0jlkzTTFu1n1kq8dBffEjOVB7QsFHQAgpGNcGxkJ7b7QRS5l1q1q26NjrPhDofHUSrSmclZdn67dxvBXz3vy2w8uFHJC1RTfQGG5PYHZOmMX8GAv-AwAK2B"
+    },
+    {
+      "from": "\"TLDR\" <dan@tldrnewsletter.com>",
+      "subject": "Google IO 🤖, Karpathy joins Anthropic 💼, SpaceX + Cursor 🚀",
+      "date": "2026-05-20T10:51:07.000Z",
+      "summary": "## TLDR Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Google announced several new Gemini-powered features across its biggest products and services at I/O 2026, including Gemini 3.5 Flash, which is now available and will be the default model in the Gemini app and Google Search. This new model surpasses 3.1 Pro in coding, agent, and multimodal benchmarks and supports a 1M-token context window and 65K output tokens.\n- SpaceX is planning to acquire Cursor, a startup, 30 days after its IPO, with a potential breakup fee of $10 billion if the deal doesn't go through. This move signals SpaceX's interest in expanding its technology portfolio.\n- Andrej Karpathy, a former Tesla executive and OpenAI co-founder, has joined Anthropic's pretraining team to lead a new group focused on using Claude to accelerate pretraining research. This move highlights Anthropic's efforts to strengthen its position in the AI market.\n- Polymarket has launched private company trading, allowing traders to bet on valuations, IPO timing, and secondary-market activity for companies like OpenAI and Anthropic. This development indicates growing interest in AI companies and their potential for growth.\n- GitHub is investigating unauthorized access to its internal repositories, although there is no evidence of impact on customer information stored outside of GitHub's internal repositories. This incident highlights the importance of security in the tech industry.\n\n### Notable Links\n- [Gemini 3.5 Flash](https://simonwillison.net/2026/May/19/gemini-35-flash/) \n- [Google I/O 2026 announcements](https://9to5google.com/2026/05/19/google-io-2026-news/)\n- [Anthropic's Claude model](https://www.anthropic.com/)\n- [Polymarket private company trading](https://www.cnbc.com/2026/05/19/polymarket-launches-private-company-trading-so-investors-can-speculate-on-anthropic-openai.html)\n- [GitHub security incident](https://threadreaderapp.com/thread/2056884788179726685.html)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR\n\nGoogle announced tons of new Gemini-powered features across its biggest products and services at I/O 2026. Gemini 3.5 Flash is rolling out today ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=tldr/1/0100019e4502bad5-e8d4ad4e-9a63-4663-b0c0-94c6ec34e43f-000000/6NmDDQNh72ogUF3ZChIs67lR4II6XM0ZFwI4mq5HHu8=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldr%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019e4502bad5-e8d4ad4e-9a63-4663-b0c0-94c6ec34e43f-000000/AocWbcPcc3rA0YgNvwk4hckpGpPo0vL0x8H2STdMX5A=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=d3324c64-5f8e-11f0-b1c3-7f12249efa1c%26p=3baf3af4-5421-11f1-82b4-77104adec425%26pt=campaign%26t=1779274267%26s=165724680a50ad91528007a9a8a0bd"
+    },
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravit…",
+      "date": "2026-05-20T03:34:17.000Z",
+      "summary": "## AINews\n\n**Priority: HIGH**\n\n### Top Updates\n* Google announced several significant updates at its I/O conference, including the release of Gemini 3.5 Flash, a new model that delivers high-performance and low-latency agentic workloads, with 1M-token context, 65K max output, and four thinking levels.\n* Gemini 3.5 Flash is now generally available (GA) across the Gemini app, Search AI Mode, Gemini API, AI Studio, Antigravity, Android Studio, and enterprise surfaces.\n* Google also introduced Gemini Omni, a new family of models that combine Gemini's reasoning capabilities with Google's generative media stack, starting with video creation and editing.\n* Gemini Omni Flash is available in the Gemini app, Flow, and YouTube Shorts/Create, with APIs to follow.\n* Google showcased Antigravity 2.0, a desktop app that allows users to run agents and execute tasks, with a CLI, SDK, and integration with Android, Workspace, and web.\n* Antigravity 2.0 enables users to build and run custom agents, with support for Bash, Python, Node, and custom markdown-defined skills.\n* Google announced a new pricing plan, with a $100/month tier and a reduced price for the top-tier Ultra plan, now $200/month.\n* The company also introduced Gemini Spark, a 24/7 personal AI agent that runs on cloud VMs and can perform tasks while the user's device is closed.\n* Google highlighted its commitment to trust and provenance, with the introduction of SynthID, a watermarking system for generated content, and partnerships with OpenAI, NVIDIA, Kakao, and ElevenLabs.\n* The company announced a new standards organization, Guidelight, which aims to establish standards for AI safety and transparency.\n* Google's science and world-model angle was emphasized, with the introduction of Gemini for Science, which includes tools for literature insights, hypothesis generation, and computational discovery.\n\n### Notable Links\n* Gemini 3.5 Flash\n* Gemini Omni\n* Antigravity 2.0\n* Google's I/O keynote\n* Guidelight\n* Gemini for Science",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWluZXdzLWdvb2dsZS1pby0yMDI2LWdlbWluaS0zNS1mbGFzaCIsInAiOjE5ODQ5NDI3MCwicyI6MTA4NDA4OSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3NzkyNDgxNjksImV4cCI6MjA5NDgyNDE2OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.8CWTl2lrOIq8D_48654DcHPggqc2KA3Ka0A88XZzwII?"
+        },
+        {
+          "text": "[AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=198494270&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODQ5NDI3MCwiaWF0IjoxNzc5MjQ4MTY5LCJleHAiOjE3ODE4NDAxNjksImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.B92kjQxP2rUqKr5tyUAxcTvHa5urv543Ymurm9SJtvA"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ainews-google-io-2026-gemini-35-flash?redirect=app-store"
+        },
+        {
+          "text": "full keynote livestream",
+          "url": "https://substack.com/redirect/1a376d44-99ab-41ea-9bac-bc5e0fa25982?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "544 Twitters",
+          "url": "https://substack.com/redirect/b86ea61f-7c22-4f9d-a462-39845166a183?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AINews’ website",
+          "url": "https://substack.com/redirect/b7781c4a-c9da-4c16-b8d9-39b347132c22?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AINews is now a section of Latent Space",
+          "url": "https://substack.com/redirect/a2a852f8-a9a8-42de-b5fd-82993c9c0c8d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "opt in/out",
+          "url": "https://substack.com/redirect/e07c74fa-a358-4158-896b-2282ba2362cc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Google",
+          "url": "https://substack.com/redirect/e71a825d-eb31-46e9-81dc-358e72fb432a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Google",
+          "url": "https://substack.com/redirect/6c293925-1380-4201-870a-648ae9f3f2fe?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "\\[AINews\\] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0![](https://eotrx.substackcdn.com/o/97cf69d17095a2cb/p.gif?token=eyJtIjoiPDIwMjYwNTIwMDMzNDE3LjMuOTkzMTRiMmY2MjFmNzJiM0BtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxOTg0OTQyNzAsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjEwODQwODksImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3NzkyNDgxNjksImV4cCI6MTc4MTg0MDE2OSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.4cdKJAHw9D1SUWHHVr0rtplmrwGrpQoN8OJpvGDTy08)\n\nGoogle has been busy!\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "Designing High-Entropy Alloys With Low Stacking Fault Energy Through Interpretable Machine Learning",
+      "date": "2026-05-20T12:55:36.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Researchers from Northwestern Polytechnical University in China have developed a pipeline using interpretable machine learning to design high-entropy alloys (HEAs) with low stacking fault energy (SFE), which can exhibit improved work hardening and unique combinations of strength and ductility.\n* The pipeline involves a three-stage process: mapping out a search space of possible alloy compositions, using an ensemble machine learning framework to predict the SFE of each composition, and evaluating and ranking the candidates based on their predicted SFE and uncertainty.\n* The ensemble framework consists of three different models: a multilayer perceptron regressor, a support vector regressor, and an extreme gradient boosting regressor, each trained on a dataset of HEAs with known SFE values.\n* The authors used a feature engineering process to generate dozens of physically meaningful descriptors tied to atomic structure, elasticity, thermodynamics, and electronic behavior, which were then reduced using techniques such as Pearson correlation filtering and random forest feature importance analysis.\n* The pipeline was used to screen a massive set of candidate compositions and narrow them down to a handful of promising alloys, which were then manufactured and characterized using techniques such as X-ray diffraction, electron backscatter diffraction, and transmission electron microscopy.\n* The results showed that the predicted alloys exhibited the desired deformation mechanisms and one of them demonstrated an especially strong combination of tensile strength and ductility.\n\n### Notable Links\n* [Designing High-Entropy Alloys With Low Stacking Fault Energy Through Interpretable Machine Learning](https://journalclub.io/episodes/designing-high-entropy-alloys-with-low-stacking-fault-energy-through-interpretable-machine-learning)\n* Read the Original Paper",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/designing-high-entropy-alloys-with-low-stacking-fault-energy-through-interpretable-machine-learning?token=uGy67DjuchIKJdThBjwQD03YBsKkuxTTXAIrm6aC4Lkjk1QsMh"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Designing High-Entropy Alloys With Low Stacking Fault Energy Through Interpretable Machine Learning   \n\nAs far as we can tell, human beings have been working with metal for well over 10,000 years. For most of that time, the metals were the naturally occurring type: coppers, irons and golds pulled from the ground, or smelted down from ores and minerals. And they had whatever properties came naturally.\n\n![](https://journalclub.io/px/iMTUe5G6h8pf2CQLdCg4t385isOxU1CLci04oyMQ6lI4Ib1U2U)\n\nDesigning High-Entropy Alloys With Low Stacking Fault Energy Through Interpretable Machine Learning\n\nJournalClub.io, May 20th, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/FSYbv0dJTPWcHq7uf4Ge)](https://journalclub.io/episodes/designing-high-entropy-alloys-with-low-stacking-fault-energy-through-interpretable-machine-learning?token=uGy67DjuchIKJdThBjwQD03YBsKkuxTTXAIrm6aC4Lkjk1QsMh)\n\nToday's article comes from the MGE Advances journal. The authors are Nie et al., from Northwe"
+    },
+    {
+      "from": "\"Forward Future (Matthew Berman)\" <astro@forwardfuture.ai>",
+      "subject": "Google found AI’s killer distribution hack",
+      "date": "2026-05-20T12:05:22.000Z",
+      "summary": "## Forward Future\n\n**Priority: HIGH**\n\n### Top Updates\n- Google unveiled Gemini Spark, a personal AI agent that runs 24/7 on dedicated Google Cloud VMs, taps directly into Gmail, Docs, and Slides, and is built on top of an agentic harness from Google's Antigravity team. Gemini Spark can perform tasks such as parsing credit card statements for hidden subscriptions and monitoring kids' school emails for deadlines.\n- Google is redesigning its search box for the first time since 2001, integrating Gemini 3.5 Flash, and adding features like follow-up chat, photo and video uploads, autonomous search agents, and integrated shopping tools across Search and YouTube.\n- Google's Gemini chatbot has reached 900 million regular users, roughly matching OpenAI's reported ChatGPT audience, and is being woven across Google's ecosystem, including Gmail, Google Docs, Maps, and Android.\n- Blackstone plans to invest $5 billion in a new AI infrastructure venture with Google, which could strengthen Broadcom's position in the AI hardware market, as the new company will use Google's Tensor Processing Units (TPUs), designed and developed with Broadcom's help.\n- Cerebras has begun enterprise trials for Kimi K2.6, a one-trillion-parameter open-weight AI model focused on coding and agentic workflows, achieving 981 output tokens per second, roughly 6.7 times faster than the next-fastest GPU-based cloud provider.\n- Andrej Karpathy, former OpenAI co-founder and ex-Tesla AI director, has joined Anthropic, marking a return to hands-on AI research, and plans to resume his education work later while reentering frontier LLM R&D.\n- Google launched Gemini Omni, creating and editing videos from text, images, audio, and clips using conversational prompts, and unveiled AI-powered audio glasses in partnership with Warby Parker, Gentle Monster, and Samsung.\n- NVIDIA's CEO, Jensen Huang, expects China to eventually reopen to US chip suppliers, despite H200 approval delays, and stated that AI demand is \"utterly parabolic\" as Dell and NVIDIA expanded their enterprise AI infrastructure.\n- SandboxAQ integrated its drug discovery models into Claude, enabling natural-language simulations, and NVIDIA said AI demand is surging, with Jensen Huang emphasizing the size and durability of the AI chip revenue opportunity.\n\n### Notable Links\n- Gemini Spark\n- Gemini 3.5 Flash\n- Kimi K2.6",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Google found AI’s killer distribution hack\n\nVideo: $400,000 from Claude Code  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20th, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.gjvfX7JRbL1RKfObNke3hTDnn8Qx1YMb2UuABhkuaEeOPpvfVuWF-ksWXlvcu1BZdur5fSZfIW0Wux_olppGd0C3_nW3297Sbar51X63YE5nWALh2MBmt6fvLg6MoWfdQQM9YYoxXm8fp6PdoOjJCC45mWk-8xn_H6eNjUCWUcvvwT4SiZDM6s69aiiozrWeR4lrRFqlH9V_E53cSYyQa_jWtc1kOeQUvhL4_oRP1xS7yZm1NQNhhc76Vl1NdvO53waO9EFQplG32uVvZpjM5V3TpzLsrVAJQXE_EWFURBEwIesebFXt6HfMmBwhb5mnFaI9CpO87ylTjord92EmFPEpns2WrBkrc-7CdmXQiphqvKw1rOkb-X_cD2pLgwH3GBxLbLGUr9t_8c4RMMF06AWRdidclbvSZl4XSenLWIHOvjxmshKUKUcIUkQ2SF"
+    },
+    {
+      "from": "\"AI Breakfast\" <aibreakfast@mail.beehiiv.com>",
+      "subject": "Every Announcement from Google's I/O",
+      "date": "2026-05-20T13:17:51.000Z",
+      "summary": "## AI Breakfast\n\n**Priority: HIGH**\n\n### Top Updates\n* Google I/O 2026 introduced several significant announcements, including the launch of Gemini 3.5 Flash, a new coding and agent model that is 4x faster than rival frontier models. It has been integrated into the Gemini app and Google Search AI Mode globally.\n* Gemini Omni is a multimodal world model system designed for conversational video editing, allowing for interactive and editable real-world simulations. It is available in YouTube Shorts, the YouTube Create app, Gemini, and Google Flow.\n* Gemini Spark is a 24/7 cloud-based AI agent built on Gemini 3.5 Flash, enabling background task execution and automation across Gmail, Docs, Calendar, and third-party apps via MCP.\n* Google Flow has been updated with Flow Tools, allowing users to describe custom editing functions and generate them automatically. It also includes Flow Agents and AI-guided music video creation.\n* Antigravity 2.0 is a standalone desktop app, CLI, and SDK built natively for orchestrating parallel coding agents. It has been used to build a functioning operating system framework from scratch in 12 hours.\n* Project Genie links Street View with AI world models to create editable, interactive real-world simulations and train agents in realistic environments.\n* Google Search is being rebuilt into an execution layer powered by Gemini 3.5 Flash, enabling multimodal input and generating dashboards, mini-apps, and trackers on demand.\n* Gemini for Science is an AI research suite designed to automate hypothesis drafting, parse academic literature, and pull data from genomic databases for rapid analysis.\n* Daily Brief is an opt-in feature in the Gemini app that provides a ranked morning summary of updates from connected apps.\n* Universal Cart is a cross-platform shopping agent built into Search, YouTube, and Gmail, preparing purchases with cryptographic safeguards.\n\n### Notable Links\n* Gemini 3.5 Flash\n* Gemini Omni\n* Gemini Spark\n* Google Flow\n* Antigravity 2.0\n\nNote: The provided links are not working due to URL shortening and may not be accessible. They are included as per the instructions to provide a comprehensive summary.",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Every Announcement from Google's I/O\n\nMay 20, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/N4U6XYdRRKja23J%2BcZaPgNRsS98xn%2Fj8jnmCgrP2mjW%2FmSUsTqSsQdqFFkKp%0AG3KBcBPzYbwmMyt%2BVo1kMaZJt2quooeeG69WroqBDqVv9hMKbTx0eBktj2Q3%0ADHHaV0%2F1A81dymdpT08Gy8PsMpkG7loSqGVi4l2IKWMGOWTyHat9WAYO1HY6%0AsJpEUjN%2FKgI1gtruzWq1hfsrqbRzJKYNQQ%3D%3D%0A/a98ad3d4a30a39b0)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/acae4be9-a88f-4644-87ab-182c2cfc10fe/ai_breakfast_white_logo.png?t=1773352600)](https://link.mail.beehiiv.com/v1/c/6EY1AA6kvapTXMm1VfJO6M7cLwoFhmBMtgBGtXpqTfFjuiv6Ho8e2ChW0Uwx%0ARMtc1qsmMmLHv8AGZ2Zw2BEynlRm7il1Ut30coJhhoGuude%2BL7xv1M597UMy%0A6rNyPNz0og0XGrmebb8xJlTSdFBQYXfvGcJWFyitm19AINZbMmyOFlOkMSog%0AozRznMzZ1AhAR8AiHDxCs3bxURbCEJMcBg%3D%3D%0A/06fe2a2a3e5b18b7)\n\n# Every Announcement from Google's I/O\n\n![](https://link.mail.beehiiv.com/v1/o/UqUvU8dXVt%2BcTRb6kbmbFc3ZVQHTuTLqFTVK6BNQflaDbI0l5KxLMlhcApeu%"
+    },
+    {
+      "from": "\"The Code\" <thecode@mail.joinsuperhuman.ai>",
+      "subject": "🚀 Anthropic is onto something",
+      "date": "2026-05-20T13:02:15.000Z",
+      "summary": "## The Code\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic, a leading AI lab, has made significant updates, including the rollout of self-hosted sandboxes in public beta and MCP tunnels in research preview for Claude Managed Agents, allowing teams to run agent tools within their own infrastructure or through platforms like Cloudflare, Daytona, Modal, and Vercel.\n* Google has upgraded Gemini and Antigravity for developers, with Gemini 3.5 Flash being its most powerful model yet for coding and autonomous agents, handling coding pipelines end-to-end and building an entire operating system from scratch during internal testing.\n* GitHub has confirmed that a compromised employee's device resulted in the theft of internal repositories, with the attacker claiming to have grabbed about 3,800 repos, and has removed the extension, isolated the affected device, and rotated all critical credentials overnight.\n* Companies like Meta, Coinbase, and Airbnb are cutting \"pure manager\" roles, with some executives arguing that the coordination work being cut was never real management, just admin busywork that leadership should have handled themselves, and AI is now handling tasks like collecting employee feedback, making traditional one-on-ones obsolete.\n* There are trending social posts, including a video by the creator of Claude Code on prompts that actually work, with 5.5M views on Twitter, and a list of security gaps on a MacBook uncovered by Claude Code, with 2.7K bookmarks.\n* OpenAI's CEO, Sam Altman, has offered every YC startup $2M in OpenAI tokens in exchange for equity, with 1.2M views on Twitter.\n* Yann LeCun, Meta's former chief AI scientist, says we're 12-18 months away from training hierarchical world models on video and real-world data, which he calls the path to AI that can plan.\n* A tutorial on how to optimize context for large codebases in Codex has been shared, explaining how to manage Codex's context window using clear and compact commands, including token usage, customization of the terminal status line, and control of conversation threads.\n\n### Notable Links\n* Gemini 3.5 Flash\n* Trainer\n* RTK",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🚀 Anthropic is onto something\n\nAlso: How to optimize context in Codex  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.kro7WBsAmEsY5mGgiUDePbOdMF_BvViPt7FxYKgxL9sBwYe9Us8bRPvCOZsmnhTjNcE0rjSkqXDtBncybqvtRShseZL951Es8rKJZQSXYSupPpdG6f3LG6W-udpsQ0_k49mun5LtbrXechEN5MHm0bjZQC3-WSupDKHzWgIcbBXYCMWXP2BF-Clbl1bImXVE01KJX8u0JxLw0SKP9sYgU70b_-8CN4UX7IBH7TVU_qix1anb7_HM4zZphXUPumOOX2t8YVJn5cjsvxEIl71lFhbYRQrXldL-xhzwCWUUIav6qa8SGpoS0Zd2Eof5qwWj4AzKaRd5W01OZMyOWA-DpSJ6N6jZZhYwYKHMJMSIsgVG96n4EuWdet2ZI7tmpdJ4sMvk7q_iEwjksUhltURXBnJqJSXMDH3pLlogD6IMU7KPSPp16__qxqEuLZL2NtUTOOkY0o"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "Your voice is the only AI moat that compounds. Here is how to clone it into Claude in a weekend",
+      "date": "2026-05-20T14:39:09.000Z",
+      "summary": "## The AI Corner\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The newsletter discusses the importance of creating a personal AI moat that compounds, which is achieved by cloning one's voice into a language model like Claude, allowing for more efficient and personalized outputs. This is significant because it highlights the need for individuals to differentiate themselves in a landscape where AI models are becoming increasingly commoditized.\n- The author mentions that the average founder produces 30-50 written outputs a week, and without a voice file, it takes 15 minutes per piece to add their personal touch, whereas with a voice file, it takes only 3 minutes, resulting in a recovery of 290 hours of founder time per year, valued at $58,000.\n- The concept of a \"voice file\" is introduced as a 4,000-token file that can be used to train AI models to write in one's personal style, and the author provides a guide on how to create one in a weekend using two prompts and six tools.\n- The newsletter references Marc Andreessen's statement that the AI moat is no longer the model itself, but what is built on top of it, emphasizing the importance of personalization and customization in AI applications.\n- The author mentions that the voice file is the only personal AI moat that compounds, as the model gets cheaper every quarter, but the voice file gets sharper every week, allowing for increased efficiency and effectiveness.\n\n### Notable Links\n- [Your voice is the only AI moat that compounds. Here is how to clone it into Claude in a weekend](https://substack.com/app-link/post?publication_id=6850544&post_id=198565955&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODU2NTk1NSwiaWF0IjoxNzc5Mjg4MDU3LCJleHAiOjE3ODE4ODAwNTcsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.MCgEvKMlreAvoEZm3QC0viVW_s5pgFAwj5-BenmkAbM)\n- Marc Andreessen just told the a16z LPs\n- I built a second brain in 10 minutes with Granola + Claude\n- build your own stock analyst with Claude: the 12-prompt system\n- why ChatGPT and Claude keep disappointing you",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRmNsb25lLXlvdXItdm9pY2UtaW50by1jbGF1ZGUtd2Vla2VuZC12b2ljZS1maWxlLXN5c3RlbS0yMDI2IiwicCI6MTk4NTY1OTU1LCJzIjo2ODUwNTQ0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc3OTI4ODA1NywiZXhwIjoyMDk0ODY0MDU3LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.vWz3VQEirc9y2RiDIJFhKPtXCX3UWnJSOFCEVBOGjYs?"
+        },
+        {
+          "text": "Your voice is the only AI moat that compounds. Here is how to clone it into Claude in a weekend",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=198565955&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODU2NTk1NSwiaWF0IjoxNzc5Mjg4MDU3LCJleHAiOjE3ODE4ODAwNTcsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.MCgEvKMlreAvoEZm3QC0viVW_s5pgFAwj5-BenmkAbM"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/clone-your-voice-into-claude-weekend-voice-file-system-2026?redirect=app-store"
+        },
+        {
+          "text": "Marc Andreessen just told the a16z LPs",
+          "url": "https://substack.com/redirect/6d036eea-8254-47a6-85b9-011f0d88ffdd?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "I built a second brain in 10 minutes with Granola + Claude",
+          "url": "https://substack.com/redirect/fc47bb51-f4f4-4106-8f8b-421df664e369?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "build your own stock analyst with Claude: the 12-prompt system",
+          "url": "https://substack.com/redirect/a965d2dc-e704-4319-885a-d1a828b547f5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "why ChatGPT and Claude keep disappointing you",
+          "url": "https://substack.com/redirect/19706969-1600-432c-8263-8f5d3e47f246?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Get 50% off forever",
+          "url": "https://substack.com/redirect/78fda506-8d5b-4d46-8e20-c0cd6e13b158?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Start trial",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy50aGUtYWktY29ybmVyLmNvbSUyRnAlMkZjbG9uZS15b3VyLXZvaWNlLWludG8tY2xhdWRlLXdlZWtlbmQtdm9pY2UtZmlsZS1zeXN0ZW0tMjAyNiZyPTQ5YnkzNCZ0b2tlbj1leUoxYzJWeVgybGtJam95TlRjMU16ZzJOREFzSW1saGRDSTZNVGMzT1RJNE9EQTFOeXdpWlhod0lqb3hOemd4T0Rnd01EVTNMQ0pwYzNNaU9pSndkV0l0TmpnMU1EVTBOQ0lzSW5OMVlpSTZJbU5vWldOcmIzVjBJbjAuc3BETWNaV2xFVHZVMFIzeFlvN0Myb08xUG9nMkg0N1IyUVNFWXBUa1A0QSIsInAiOjE5ODU2NTk1NSwicyI6Njg1MDU0NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3NzkyODgwNTcsImV4cCI6MjA5NDg2NDA1NywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.oVhUJ9tuWiOoLeStN9ZG8hHA8g0qwBjcZI8BWWBkKbM?simple=true&next=https%3A%2F%2Fwww.the-ai-corner.com%2Fp%2Fclone-your-voice-into-claude-weekend-voice-file-system-2026&coupon=a600db30"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Your voice is the only AI moat that compounds. Here is how to clone it into Claude in a weekend![](https://eotrx.substackcdn.com/o/3d7532421e658aad/p.gif?token=eyJtIjoiPDIwMjYwNTIwMTQzOTA5LjMuNzY5YjlmZjE4NWYxMmVkYUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5ODU2NTk1NSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoib25seV9wYWlkIiwicyI6Njg1MDU0NCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3OTI4ODA1NywiZXhwIjoxNzgxODgwMDU3LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.2LojiKDrE5YYs9uhfVTjzmcvS6kshwE6QDeCOeq-QFM)\n\nThe model is the commodity. Your voice is the asset. A 4,000-token file is the only defense that gets stronger as AI gets cheaper\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Musk's lawsuit against OpenAI fails",
+      "date": "2026-05-20T15:06:10.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A California jury has thrown out Elon Musk's lawsuit against OpenAI and Sam Altman, ruling that his claims were filed too late. Musk had accused Altman of breaking OpenAI's original non-profit mission after Musk donated $38m in the company's early days. The jury reached a unanimous decision after around two hours of deliberation, and Musk plans to appeal.\n* Anthropic has acquired Stainless, a startup that helps companies create and update software development kits (SDKs), for a reported price of over $300 million. Stainless's tools will be shut down, and current customers will still own the SDKs they have already created.\n* Sam Parr, the founder of The Hustle, has shared how he trained a GPT model to act as his personal coach, using it for life coaching, boosting copywriting course sales, improving his health, and finding new fashion trends.\n* Anker has launched the Solix S2000, a compact 2kWh power station designed to reduce idle battery drain and save space compared to competing models.\n* The Pentagon has released over 150 newly declassified UFO files as part of a broader transparency push on unexplained aerial phenomena.\n* Wall Street stocks fell due to rising Treasury yields and high oil prices, fueling concerns over inflation and potential Fed rate hikes.\n* Charli XCX's upcoming track, SS26, takes aim at celebrity culture and fashion obsession with bleak, apocalyptic lyrics.\n\n### Notable Links\n* The Daily Upside\n* The Hustle\n* Starter Story\n* Marketing Against the Grain\n* The Science of Scaling",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Musk's lawsuit against OpenAI fails\n\n\\+ Anthropic buys a dev startup  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n20 May\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/d823006d-"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🦾 Gemini becomes your personal agent",
+      "date": "2026-05-20T13:08:59.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* Google has redesigned Gemini to make it more agent-forward, powered by an upgraded model called Gemini 3.5 Flash, which delivers frontier-level performance with low latency and supports a 1M-token context window. This shift emphasizes real-world agent use cases, such as autonomous coding pipelines, research workflows, and multi-step problem solving.\n* Gemini now includes Spark, a 24/7 personal agent that proactively handles tasks across Workspace, with local computer access coming this summer, and Omni, a new model that can create anything from any input, including cinematic videos.\n* Andrej Karpathy, OpenAI co-founder and former Tesla AI lead, has joined Anthropic's pretraining team to build a new unit focused on using Claude to accelerate pretraining research.\n* Creatify has launched a creative agent that can generate finished ads from a URL, handling the entire ad production loop, including researching competitors, generating video/images, and self-checking its output to ensure quality.\n* Elon Musk has lost a landmark lawsuit against Sam Altman, with the jury rejecting Musk's claims that OpenAI betrayed its nonprofit mission and misled him when it converted to a for-profit entity.\n* Odyssey has shipped two world models in one day, including Agora-1, which can generate a multiplayer video game in real-time as you play.\n\n### Notable Links\n* Gemini 3.5 Flash\n* Claude Cowork\n* Agora-1",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🦾 Gemini becomes your personal agent\n\nALSO: How to use Claude Cowork to perform non-technical tasks  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGW2rtw5i_mwARIxyeRu2s7gFtLVljzTXnEiDQWg2ZqLh_goBTTgOpK8idpU37yYxZcm1zniq20O1QUeYBtE8OBZmVPWooJ0iD0S3XHSJKPuPb68vPKobKk35xzvnXxNtzOgq4_X0kwVUFSivaliLwjwQQQX_RzkTuscECWBClDDA-FXQOOGEEQ-r-C57XLOdIHG7iU6sMJtiqV6xoks7G07SzMsrK2HdioginuY1jJPItuK_GnHmsnHq7LOB2eFekpj44Q-NsiJNTsTvhdSi8oWmM_8PaW-E4XiMzZZoe1UuMjcBjasa1czPr3troytAQildMDf5gLY2o4o9DGg2evVq2ua340d5jHmP7QKciUZGAcjt8PDvC2x83dGQRSu"
+    },
+    {
+      "from": "\"The Palindrome\" <thepalindrome@substack.com>",
+      "subject": "Explore LLM word representations using similarity analysis (part 2)",
+      "date": "2026-05-20T11:06:26.000Z",
+      "summary": "## The Palindrome\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The post explores LLM word representations using similarity analysis, focusing on the Representational Similarity Analysis (RSA) technique to compare distributed representations in different systems.\n* The authors investigate semantic information inside the attention matrices of GPT-2, analyzing the Query, Keys, and Values vectors inside the transformer block.\n* The RSA analysis reveals high category separability and RSA scores throughout the depth of the model, indicating that semantic information is present within each attention matrix.\n* The code for the analysis is available on the author's GitHub, allowing readers to reproduce the results and explore further.\n* The post discusses the importance of understanding LLM architecture and internal calculations, highlighting the value of leveraging machine-learning techniques to investigate and understand LLMs.\n\n### Notable Links\n* [Explore LLM word representations using similarity analysis (part 2)](https://substack.com/app-link/post?publication_id=1176501&post_id=194754191&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NDc1NDE5MSwiaWF0IjoxNzc5Mjc1NTEwLCJleHAiOjE3ODE4Njc1MTAsImlzcyI6InB1Yi0xMTc2NTAxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.OHPPM2YW5K671_8rJdpwcuQih6q1aYRNUnBbeKvqR18)\n* [Mike X Cohen, PhD](https://substack.com/@mikexcohen)\n* [Tivadar Danka](https://substack.com/@tivadardanka)\n* The code is available here on my GitHub\n* Using machine-learning projects to understand how LLMs work",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGVwYWxpbmRyb21lLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ0aGVwYWxpbmRyb21lLm9yZyUyRnAlMkZleHBsb3JlLWxsbS13b3JkLXJlcHJlc2VudGF0aW9ucy1jNTciLCJwIjoxOTQ3NTQxOTEsInMiOjExNzY1MDEsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc5Mjc1NTEwLCJleHAiOjIwOTQ4NTE1MTAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.Ve9Czp7beH6EjbXTi6zhW2LPFopg6_bmxA-0qlE_7K8?"
+        },
+        {
+          "text": "Explore LLM word representations using similarity analysis (part 2)",
+          "url": "https://substack.com/app-link/post?publication_id=1176501&post_id=194754191&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5NDc1NDE5MSwiaWF0IjoxNzc5Mjc1NTEwLCJleHAiOjE3ODE4Njc1MTAsImlzcyI6InB1Yi0xMTc2NTAxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.OHPPM2YW5K671_8rJdpwcuQih6q1aYRNUnBbeKvqR18"
+        },
+        {
+          "text": "Mike X Cohen, PhD",
+          "url": "https://substack.com/@mikexcohen"
+        },
+        {
+          "text": "Tivadar Danka",
+          "url": "https://substack.com/@tivadardanka"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/thepalindrome/p/explore-llm-word-representations-c57?redirect=app-store"
+        },
+        {
+          "text": "Part 1 in this series",
+          "url": "https://substack.com/redirect/e1e74de5-08bf-4e30-991e-c63c68afc619?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "my post on the topic",
+          "url": "https://substack.com/redirect/25d1260d-a322-43e7-8e0b-4e4f400173ea?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "using machine-learning projects to understand how LLMs work",
+          "url": "https://substack.com/redirect/9f1a5c2b-3771-43bd-8a9e-ba1c0a6c10b3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The code is available here on my GitHub.",
+          "url": "https://substack.com/redirect/2faf826f-22be-43e5-ae47-41d9c025f1b9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "You can read more about the attention algorithm in this linked post; the paragraphs below provide a very brief summary.",
+          "url": "https://open.substack.com/pub/mikexcohen/p/llm-breakdown-56-attention?r=658yg"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Explore LLM word representations using similarity analysis (part 2)![](https://eotrx.substackcdn.com/o/109471271049941b/p.gif?token=eyJtIjoiPDIwMjYwNTIwMTEwNjI2LjMuOTkxM2FlYTk4YTAxOGQ1YkBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxOTQ3NTQxOTEsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTE3NjUwMSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3OTI3NTUxMCwiZXhwIjoxNzgxODY3NTEwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.AhK6qrKgswj9ROQlYTHaeUHTFRwtfz7tjFh38KSrDu4)\n\nInvestigate semantic information inside the attention matrices of GPT-2\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"A Life Engineered\" <alifeengineered@substack.com>",
+      "subject": "Professional Optimism Is a Superpower. Most People Practice the Performative Version.",
+      "date": "2026-05-20T12:05:51.000Z",
+      "summary": "## A Life Engineered\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The author discusses the difference between professional optimism and performative optimism, highlighting that the latter is a failure mode where individuals pretend to be optimistic without doing the necessary work to understand the problem.\n* The author shares a personal anecdote about working on the Kindle team at Amazon, where the team's performative optimism led to missed deadlines and low morale, until someone finally asked the right questions and the team started working towards a real solution.\n* The article emphasizes the importance of professional optimism in leadership, where leaders should be able to acknowledge problems and work towards solutions, rather than just pretending everything is fine.\n* The author provides actionable advice on how to develop professional optimism, including doing homework on the problem, talking to people closest to the work, and mapping dependencies.\n* The article highlights the benefits of professional optimism, including increased trust from leadership, better team morale, and more effective problem-solving.\n\n### Notable Links\n* [Professional Optimism Is a Superpower. Most People Practice the Performative Version.](https://substack.com/app-link/post?publication_id=2598310&post_id=198307899&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODMwNzg5OSwiaWF0IjoxNzc5Mjc5MjUwLCJleHAiOjE3ODE4NzEyNTAsImlzcyI6InB1Yi0yNTk4MzEwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.QYb3rLb1H16WZ4gXZZIflRN46awp8QtHiCaX7yDO6fo)\n* defaulting to pessimism sabotages your career\n* four behaviors that make you look junior regardless of title\n* Nobody Is Coming to Save Your Career\n* 7 More Behaviors That Separate Juniors From Seniors",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hbGlmZWVuZ2luZWVyZWQuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRmFsaWZlZW5naW5lZXJlZC5zdWJzdGFjay5jb20lMkZwJTJGcHJvZmVzc2lvbmFsLW9wdGltaXNtLWlzLWEtc3VwZXJwb3dlciIsInAiOjE5ODMwNzg5OSwicyI6MjU5ODMxMCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3NzkyNzkyNTAsImV4cCI6MjA5NDg1NTI1MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.J_MItwCwpb27VYsxdN0swKxyrUnTQ1NnnhQgqLW2niE?"
+        },
+        {
+          "text": "Professional Optimism Is a Superpower. Most People Practice the Performative Version.",
+          "url": "https://substack.com/app-link/post?publication_id=2598310&post_id=198307899&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODMwNzg5OSwiaWF0IjoxNzc5Mjc5MjUwLCJleHAiOjE3ODE4NzEyNTAsImlzcyI6InB1Yi0yNTk4MzEwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.QYb3rLb1H16WZ4gXZZIflRN46awp8QtHiCaX7yDO6fo"
+        },
+        {
+          "text": "Steve Huynh",
+          "url": "https://substack.com/@alifeengineered"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/alifeengineered/p/professional-optimism-is-a-superpower?redirect=app-store"
+        },
+        {
+          "text": "Devin H",
+          "url": "https://substack.com/redirect/a04d5542-5d39-46c7-88a9-a078d9042c0f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Unsplash",
+          "url": "https://substack.com/redirect/3cfe1909-7a6e-4340-855f-97864aa6cac2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "defaulting to pessimism sabotages your career",
+          "url": "https://substack.com/redirect/e266f7a4-41cb-45ed-8a96-32ce8f07061f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "four behaviors that make you look junior regardless of title",
+          "url": "https://substack.com/redirect/fcac8051-3fa9-41df-8fff-0870acfed76d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Nobody Is Coming to Save Your Career",
+          "url": "https://substack.com/redirect/415096e3-d0ec-4d82-b263-bedc632a48d5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "7 More Behaviors That Separate Juniors From Seniors",
+          "url": "https://substack.com/redirect/557801e1-0a47-4f16-a6ea-05b42dbcc64c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Professional Optimism Is a Superpower. Most People Practice the Performative Version.![](https://eotrx.substackcdn.com/o/93d85f2857c7d677/p.gif?token=eyJtIjoiPDIwMjYwNTIwMTIwNTUxLjMuNWI4Y2Q5OGMwOTQ0YmEyYkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5ODMwNzg5OSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoyNTk4MzEwLCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzc5Mjc5MjUwLCJleHAiOjE3ODE4NzEyNTAsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.aSqm7-4iwjJU1VOPRDFCFFCxHeM-rcL1BY7ZfD7XuZ4)\n\nReal optimism gets you assigned to the hardest problems. Hopium gets you quietly worked around.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Gemini 3.5 Flash ⚡️, Karpathy joins Anthropic 🧑‍💻, OpenAI Guaranteed Capacity ⚡",
+      "date": "2026-05-20T13:43:01.000Z",
+      "summary": "## TLDR AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Google has introduced Gemini 3.5 Flash, a new model focused on agentic workflows, coding, and long-horizon task execution, with frontier-level performance, low latency, and support for a 1M-token context window and 65K output tokens.\n* OpenAI has announced a new Guaranteed Capacity offering, allowing customers to secure long-term access to compute for powering AI products, agents, and workflows, with discounts based on commitment length.\n* Andrej Karpathy has joined Anthropic, citing the next few years as especially formative for his return to R&D, and plans to resume his education work later.\n* Welo Data offers AI training data and human evaluation in 155+ locales, ensuring AI reflects cultural realities and security guardrails translate across language groups.\n* Oracle AI Database acts as a unified memory core for agents, allowing vector search, relational, JSON, and graph data to live together, enabling agents to reason over live enterprise data without extra vector stores or synchronization jobs.\n* NVIDIA's LongLive 1.0 is a framework for interactive long-form video generation, supporting sequential prompting and real-time user-guided editing using streaming attention and KV-cache optimization techniques.\n* Index is a platform for content owners to understand how AI agents use their work and earn revenue when they do, and Cerebras is now running Kimi K2.6, a trillion-parameter model with the fastest frontier model performance ever measured.\n* Anthropic has unveiled a new \"dreaming\" research-preview feature for Claude, allowing it to analyze prior work sessions, learn patterns, and update preference/context files to improve future assistance.\n* OpenAI has strengthened content provenance by implementing C2PA standards and Google DeepMind's SynthID watermarking for AI-generated images.\n\n### Notable Links\n* [Gemini 3.5 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)\n* [OpenAI Guaranteed Capacity](https://www.cnbc.com/2026/05/19/openai-announces-new-guaranteed-capacity-offering-for-customers-to-secure-compute.html)\n* [Model half-life](https://aifoc.us/model-half-life/)\n* [Oracle AI Database](https://www.oracle.com/database/)\n* [NVIDIA LongLive](https://github.com/NVlabs/LongLive)\n* [Index](https://threadreaderapp.com/thread/2056752047031279726.html)\n* [Cerebras Kimi K2.6](https://threadreaderapp.com/thread/2056778123329274279.html)\n* [Anthropic Claude](https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "    TLDR AI  \n\nGoogle has introduced Gemini 3.5 Flash, a new model focused on agentic workflows, coding, and long-horizon task execution ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019e45a01be5-178ef0bf-e43c-445c-b18b-3a61a2341a9d-000000/si1sZvQpxBmv9RANqPl5q8hqZwfSRdKRuMfNlt0cKQk=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019e45a01be5-178ef0bf-e43c-445c-b18b-3a61a2341a9d-000000/b8o8GmPEku9k_DUgmCZKRdsYucDmHMu32r-9-oDvulU=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=0894d56c-543e-11f1-91f2-05c725315fbb%26pt=campaign%26t=1779284581%26s=0c814d363fcd2fc1b587ace00717b459857198a73d47"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "🎬 Google Gemini Omni Flash: edit any video with text prompts",
+      "date": "2026-05-20T13:21:58.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n* Google has released **Gemini Omni Flash**, a model that can edit and generate video from any input (text, image, audio, video) and understands physics, culture, and context. This model allows users to hand it a video and reshape it through plain conversation, with each edit building on the last.\n* **Gemini Omni Flash** enables features such as editing existing video with text, consistent characters, and mixing inputs freely. Clips can run up to **10 seconds** today, with longer durations coming. Access is live now in the Gemini app, Google Flow, and YouTube Shorts, with API access rolling out in the coming weeks.\n* Google has also shipped **Antigravity 2.0**, a completely separate desktop app rebuilt from scratch, allowing multiple AI agents to work on a project at the same time. This app enables features such as running multiple agents in parallel, scheduling background tasks, and native voice commands.\n* **Antigravity 2.0** is powered by **Gemini 3.5 Flash**, which Google says runs **4x faster** than competing models. The app includes a new CLI for terminal lovers and an SDK to build and deploy custom agents.\n* GitHub has released **Spec Kit**, an open-source tool that forces AI to fully understand what the user wants before it touches a single line of code. This tool enables Spec-Driven Development and works with **30+ AI agents**, including Claude Code, Cursor, Copilot, and Gemini CLI.\n* **Spec Kit** has already gained **103k stars** on GitHub and is fully open source, MIT licensed. The tool aims to reduce debugging and improve shipping by making AI plan before coding.\n* ByteDance has dropped an open-source **3B model** that reads and generates text, images, and video.\n* Other notable updates include **DeepSeek** building a custom VPN obfuscation plugin in 40 minutes, **Wispr Flow** enabling teams to speak AI prompts instead of typing them, and a new book covering every RAG technique with comparisons, available for free on Kindle Unlimited.\n* A new **10B 3D reconstruction model** has been released, cutting GPU memory by **70%** and beating all benchmarks by a wide margin.\n* A study has found that **grep** beats vector search in agentic retrieval across multiple agent setups.\n\n### Notable Links\n* Gemini Omni Flash\n* Antigravity 2.0\n* Spec Kit\n* ByteDance 3B Model\n* DeepSeek\n* Wispr Flow\n* RAG Techniques Book\n* 10B 3D Reconstruction Model\n* Grep vs Vector Search Study",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=0e519b6538cd688a&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=0e519b6538cd688a&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=0e519b6538cd688a&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=0e519b6538cd688a&mid=e69fa7d2-c5f2-41a3-b826-4fc3c8668d1d&s=%F0%9F%8E%AC%20Google%20Gemini%20Omni%20Flash%3A%20edit%20any%20video%20with%20text%20prompts&t=1779283314)\n\nGoogle ships Antigravity 2.0 desktop app, GitHub Spec Kit hits 95K stars, ByteDance drops 3B multimodal model\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=0e519b6538cd688a&lid=1mppK8JoxauRlJRIh&mid=e69fa7d2-c5f2-41a3-b826-4fc3c8668d1d)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=0e519b6538cd688a&lid=1t2TKB9s09XBZrfmN&mid=e69fa7d2-c5f2-41a3-b826-4fc3c8668d1d)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nGoogle I/O just dropped, and the theme is clear: AI is no longer a s"
+    },
+    {
+      "from": "\"Matt from FutureTools\" <futuretools@mail.beehiiv.com>",
+      "subject": "Forget you",
+      "date": "2026-05-20T16:03:52.000Z",
+      "summary": "## Future Tools Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A recent commencement speech at the University of Central Florida where the speaker mentioned the rise of artificial intelligence as the next industrial revolution was met with booing from the students, indicating a possible shift in public perception of AI.\n* Anthropic has faced controversy over its pricing model for Claude Code, with developers being charged extra for references to third-party tools, and has since announced a change to a credit-based system which may result in higher costs for heavy users.\n* Apple is introducing a new Siri app that will auto-delete chats after a set period, emphasizing privacy as a key feature, and has also announced a joint venture with Blackstone to provide Google's custom AI chips as a compute-as-a-service offering, with an initial $5 billion equity commitment.\n* Other notable updates include OpenAI launching Guaranteed Capacity, Google unveiling Gemini 3.5, and Boston Dynamics showing Atlas using AI to pick up and carry a mini-fridge, demonstrating advancements in AI capabilities.\n* New tools have been launched, such as Glide Design, which turns a plain-English brief into product strategy, high-fidelity screens, UI copy, responsive layouts, and developer handoff notes, and ReadTube, which transforms YouTube and Bilibili subscriptions into a searchable, readable archive.\n\n### Notable Links\n* Glide Design\n* ReadTube",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Forget you\n\nPlus, $5 billion for AI chips  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/BC5ou6LwnQyF%2FpInqGCqPlk0Nak3LuYEjqLNJucbGL8lKVLbIiYbL%2Fdhf%2BV8%0AIHxsLFSUkmb46NOgBaQ24YBQzhZUqMLfNxif97cfQVWQi0GINFzfFW6v0kkj%0A9HvznYNGP5j2u0K60v%2F6catgmZbmJwQ2GE7etq6yBQzmfZufIeQCtAUuk0p1%0ANunSKSNqd0sYF3am8a3CR8lMAzJOefDvZg%3D%3D%0A/d3919f284daf62d7)\n\n![](https://link.mail.beehiiv.com/v1/o/lRHSIYnNALUwQ8qPTXkVEyw%2FPleZZkjOVUkoiRoBPhhyByYpmgYr5y%2FYfp5z%0AfxN3yf0ePfinlXdtjop4G7akjip2eQgrM6ztlJacT95HjoclHFGGjLSqDFiy%0AZVzrERNmTkfn5WtMvZfeTCw1tlV%2F%2BRlE4HvoOWn%2BxORp9F2HmcFM2"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "Here's How To Build A Website With Claude (No Code)",
+      "date": "2026-05-20T18:07:05.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The Daily ChatGPT newsletter introduces a method to build a website with Claude using 5 specific prompts that require no coding knowledge, allowing users to create a live business website in a short amount of time. These prompts are designed to replace services that would typically cost thousands of dollars, such as web development, copywriting, sales page writing, branding, and web hosting.\n- The 5 prompts are designed to work sequentially, starting with creating a complete single-file website, writing a hero section for the website, crafting a sales page, building a brand identity, and finally, walking the user through the process of putting their website live on the internet for free.\n- Each prompt is detailed and provides a framework for the user to input their specific business information, ensuring that the output is tailored to their needs. For example, the first prompt requires the user to describe their business, what they sell, their target customer, the primary action they want visitors to take, and the desired vibe and accent color for the website.\n- The newsletter also mentions Agent Crew HQ, a system that uses 40 AI agents trained for specific jobs, 31 workflows that chain these agents together for tasks like building a launch website, and 400 prompts available for solo use. This system automates the process of building a website and related materials, such as sales copy and brand identity, by having the user answer a set of questions just once.\n- Founding seats for Agent Crew HQ are being offered at a locked rate for life, but this offer is limited to the first 100 subscribers. The system promises no installs, no API keys, and no copy-paste requirements, aiming to simplify the process of creating a professional online presence.\n\n### Notable Links\n- Agent Crew HQ \nNote: Raw tracking/redirect URLs should be excluded according to the guidelines. This link is likely a tracking URL and not a direct link to the Agent Crew HQ website. For the purpose of following instructions to the letter, it is included but please be aware that direct links to primary sources should be preferred.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Here's How To Build A Website With Claude (No Code)\n\n❗️5 prompts that take you from blank page to a live business website tonight.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/j8GNlN0tvOVvGHf8gyhweT3kgA6%2FL6f1ADHPNYZ2TSmiW5aq7e8vEQl4Vh2O%0AKnm%2BGAOyNGOeh22UemtK65FEc6kbbtYGCrAEuyhOGN7SOWSwoXA2loAbrttU%0AHdJ%2FVuXh5z%2FbjgOchG7JcEa55rH2%2FppMQeYnZwLOUmUduTuDSIzx79tHJ03P%0Auu%2FepvWGIjGp2hFY0HpIXFZ4QvMvtR3lNQ%3D%3D%0A/7310bb5ee8afe4d3)\n\n# Here's How To Build A Website With Claude (No Code)\n\n❗️5 prompts that take you from blank page to a live business website tonight.\n\n["
+    },
+    {
+      "from": "\"Technology News\" <technology-newsletter@mail.beehiiv.com>",
+      "subject": "Sam Altman just beat Elon Musk in court 🏆",
+      "date": "2026-05-20T18:20:32.000Z",
+      "summary": "## Technology News\n\n**Priority: HIGH**\n\n### Top Updates\n- Sam Altman, the CEO of OpenAI, has won a lawsuit against Elon Musk, with the jury unanimously rejecting every single claim in Musk's $150 billion lawsuit against OpenAI. The verdict is a significant win for OpenAI and clears the way for the company's planned IPO.\n- Anthropic has hired one of OpenAI's original co-founders, Andrej Karpathy, to join its pre-training team. Karpathy will help lead a new effort to use Claude, Anthropic's AI model, to speed up the training of future Claude models.\n- Google has introduced Gemini Spark, a \"24/7 AI agent\" that lives in the cloud and can chain tasks across Gmail, Docs, Calendar, and Slides. The assistant will be available in the US and will cost $100 per month, down from the initial price of $250.\n- Google has confirmed that its Android XR smart glasses will ship this fall, with two versions available: an audio-only model and an in-lens display model. The hardware is being built by Samsung and Qualcomm, and the frames are being designed by Warby Parker and Gentle Monster.\n- Amazon has launched Alexa Podcasts, a new feature that allows users to ask Alexa to create a podcast on a specific topic. The podcast will be hosted by two AI voices and will be available for free to Alexa+ users in the US.\n- NVIDIA is set to report its Q1 numbers, with analysts expecting revenue of roughly $78.5 billion. The company's performance will be closely watched, as it is a key player in the AI sector and its results will set the tone for the industry.\n- The Vatican has confirmed that Pope Leo XIV's first encyclical, \"Magnifica Humanitas: On the Protection of Human Dignity in the Age of Artificial Intelligence,\" will be released on May 25. Anthropic co-founder Chris Olah is expected to appear at the Vatican to help present the encyclical.\n\n### Notable Links\n- Andrej Karpathy's announcement of his move to Anthropic\n- Google I/O keynote announcement of Gemini Spark\n- Amazon Alexa Podcasts announcement",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Musk's lawsuit got tossed in under 2 hours 🤦‍♂️\n\nPlus: Anthropic just poached one of OpenAI's co-founders, Google's smart glasses are finally here this fall, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/DwuQr9JUOkfZJli5J9jjLwbX%2BLnLC30IDujjj%2FrptiPRbz33gQL1Fh%2BAGGhi%0AVg5zqdg0ca4ZOxgRDYq7SGk1RuBTpYUX76dAERpCMNcyz%2FfW9DR%2BmjBCapuB%0AAljo3Zctv1251DXSvwLjmd81VDsr7bUB0Lo4HWa9EHV6ZNJYl6X7ETYqi22Q%0A4elU7AmMdoYZoM4hi5Sc3pmjYKkHIzv54g%3D%3D%0A/87717654046eda29)\n\n![](https://link.mail.beehiiv.com/v1/o/vVpX9rYZotZamThaQpUU%2Bj8Wq%2FY63Uy86V3FHNvZBFYDGshogmEyzc"
+    },
+    {
+      "from": "\"Dharmesh @ simple.ai\" <agentai@mail.beehiiv.com>",
+      "subject": "🤖 Practical AI Workflows You Can Try This Week",
+      "date": "2026-05-20T18:33:00.000Z",
+      "summary": "## Practical AI Workflows You Can Try This Week\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The newsletter emphasizes the importance of practical AI fluency, which comes from using AI in real-world scenarios rather than just reading about new models or tools. It suggests giving AI the first shot at tasks before resorting to traditional methods.\n- Dharmesh shares his approach to AI integration, focusing on saving and improving successful workflows rather than constantly trying new things. He recommends spending 60% of AI time on workflows that work today, 30% on improving them, and 10% on experiments.\n- The newsletter provides a list of practical AI workflows to try, categorized by beginner, intermediate, and advanced levels. These include:\n  * Beginner: onboard the intern (set custom instructions, meta-prompt one recurring prompt, create a reusable context packet)\n  * Intermediate: use AI as a sparring partner (generate a company research brief, use AI as a critic panel, ask AI to edit a webpage)\n  * Advanced: design the system around the work (run a simple agent eval, create a feedback loop, decompose a difficult workflow)\n- Dharmesh stresses the importance of saving successful workflows, spending AI time intentionally, and maintaining a \"not yet, but soon\" list for tasks that AI can't do well today.\n- The newsletter mentions [agent.ai](https://agent.ai), a professional network for AI agents, and provides a link to update email preferences or unsubscribe.\n\n### Notable Links\n- [agent.ai](https://agent.ai)\n- [Paper Title](Not applicable)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖 Practical AI Workflows You Can Try This Week\n\nAnd how to stop scrolling, and start building more useful workflows  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 20, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.OmvVQoGRxXyFopAr2m0tC4v-zg9YIaQKc9yujHn06YFeMMzDh1MeeMj8Oxd2avHzwgKZSYVjc0ulUjB1P1huAEp5qG5NGmg4Ajv-E0k-8xDCfNeQb48AvoOIHoBJa9jEb7mr8__1-L8g1L806WXeVEJKl2mBel5gWjB0SRwlv1snHro4j33xSQUxIoVqK_faDoaCrkdi9eMSf-gtButfahLrsrUow5_2np16-S6vVoaPruxhOENOJqdF-LVQ3H_CJ61gNoe7QdZ5Cyh-UXOdXGG1jzIfVy5-XhGFMqhvFgb6ZmRwk34j-EqBC3LZ1DcMKA96EeKi5AIBxFVm5E5sQiXd3gKlFeQT_bPmEwF4sL0MRaCCdC1jTKEZC_CRIcBboN9vbPUblJnOxX1pOIwD4ka6"
+    },
+    {
+      "from": "\"Skilled Coder\" <skilledcoder@substack.com>",
+      "subject": "System Design Principles You Can’t Ignore in the AI Era",
+      "date": "2026-05-20T16:58:56.000Z",
+      "summary": "## Skilled Coder Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The Skilled Coder newsletter emphasizes the importance of traditional system design principles in the AI era, highlighting that these principles matter more than ever due to the rapid iteration enabled by AI.\n- A common pattern in fast-moving engineering teams is building features that work but then copying and tweaking them, leading to a large number of similar files that are difficult to maintain; this is a design problem rather than a discipline problem.\n- The \"AI trap\" is described, where AI builds features quickly without complaint, but this can lead to a \"wall of spaghetti\" with tightly coupled and hard-to-maintain code.\n- Six system design principles are outlined to avoid these issues:\n  1. **Build Engines, Not Instances**: Instead of building multiple similar components, create a generic engine that can handle various inputs and configurations.\n  2. **Make Things Pluggable**: Design components to be modular and interchangeable, allowing for easy addition or removal of features without affecting the core system.\n  3. **Keep Things Loosely Coupled**: Ensure components are independent and communicate through interfaces or events, not direct references, to facilitate maintenance and evolution.\n  4. **Treat Configuration as a First-Class Citizen**: Separate behavior from code by using configuration files or databases, making it easier to change the system's behavior without modifying the codebase.\n  5. **Protect Your Core**: Keep the core business logic independent of infrastructure concerns, using adapters or interfaces to interact with the outside world.\n  6. **Design for Observability from Day One**: Build the system to be observable, logging critical decisions and events to facilitate debugging and maintenance.\n- Examples are provided for each principle, including the use of JSON files for content definitions, event-driven systems for notifications, and config-driven personalization.\n- The importance of these principles in the AI era is highlighted, where rapid iteration and the use of large language models can exacerbate design problems if not addressed.\n\n### Notable Links\n- [System Design Principles You Can’t Ignore in the AI Era](https://substack.com/app-link/post?publication_id=3957386&post_id=198586518&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODU4NjUxOCwiaWF0IjoxNzc5Mjk2MzQ3LCJleHAiOjE3ODE4ODgzNDcsImlzcyI6InB1Yi0zOTU3Mzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.hAGiE6BPwZVVFQ7Km-MZaZ3lEEoa-0xnOsfjRfT0lLE)\n- [Skilled Coder](https://substack.com/@skilledcoder)\n- strategy pattern\n- https://theskilledcoder.com",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9uZXdzbGV0dGVyLnRoZXNraWxsZWRjb2Rlci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGbmV3c2xldHRlci50aGVza2lsbGVkY29kZXIuY29tJTJGcCUyRnN5c3RlbS1kZXNpZ24tcHJpbmNpcGxlcy15b3UtY2FudCIsInAiOjE5ODU4NjUxOCwicyI6Mzk1NzM4NiwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3NzkyOTYzNDcsImV4cCI6MjA5NDg3MjM0NywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.U4oIYQYSKWJYyMxLJLOwuKEoLL9Qj346XpOj3ojUhyM?"
+        },
+        {
+          "text": "System Design Principles You Can’t Ignore in the AI Era",
+          "url": "https://substack.com/app-link/post?publication_id=3957386&post_id=198586518&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODU4NjUxOCwiaWF0IjoxNzc5Mjk2MzQ3LCJleHAiOjE3ODE4ODgzNDcsImlzcyI6InB1Yi0zOTU3Mzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.hAGiE6BPwZVVFQ7Km-MZaZ3lEEoa-0xnOsfjRfT0lLE"
+        },
+        {
+          "text": "Skilled Coder",
+          "url": "https://substack.com/@skilledcoder"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/skilledcoder/p/system-design-principles-you-cant?redirect=app-store"
+        },
+        {
+          "text": "strategy pattern",
+          "url": "https://substack.com/redirect/c2703a45-593f-456d-8173-32e4a5ec9319?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "https://theskilledcoder.com",
+          "url": "https://substack.com/redirect/43d12782-7d7a-4290-85e9-4c26f9c0d19e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=3957386&post_id=198586518&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODU4NjUxOCwiaWF0IjoxNzc5Mjk2MzQ3LCJleHAiOjE3ODE4ODgzNDcsImlzcyI6InB1Yi0zOTU3Mzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.hAGiE6BPwZVVFQ7Km-MZaZ3lEEoa-0xnOsfjRfT0lLE"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=3957386&post_id=198586518&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODU4NjUxOCwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3NzkyOTYzNDcsImV4cCI6MTc4MTg4ODM0NywiaXNzIjoicHViLTM5NTczODYiLCJzdWIiOiJyZWFjdGlvbiJ9.WNsI75zUQPe3lnLyR6_SWDYXo6o_FNJeXEjdUNa5YV4&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=3957386&post_id=198586518&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODU4NjUxOCwiaWF0IjoxNzc5Mjk2MzQ3LCJleHAiOjE3ODE4ODgzNDcsImlzcyI6InB1Yi0zOTU3Mzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.hAGiE6BPwZVVFQ7Km-MZaZ3lEEoa-0xnOsfjRfT0lLE&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvc2tpbGxlZGNvZGVyL3Avc3lzdGVtLWRlc2lnbi1wcmluY2lwbGVzLXlvdS1jYW50P3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtcmVzdGFjay1jb21tZW50JmFjdGlvbj1yZXN0YWNrLWNvbW1lbnQmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0luQnZjM1JmYVdRaU9qRTVPRFU0TmpVeE9Dd2lhV0YwSWpveE56YzVNamsyTXpRM0xDSmxlSEFpT2pFM09ERTRPRGd6TkRjc0ltbHpjeUk2SW5CMVlpMHpPVFUzTXpnMklpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LmhBR2lFNkJQd1pWVkZRN0ttLU1aYVozbEVFb2EtMHhuT3NmalJmVDBsTEUiLCJwIjoxOTg1ODY1MTgsInMiOjM5NTczODYsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzc5Mjk2MzQ3LCJleHAiOjIwOTQ4NzIzNDcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.u4EboIKZfxsVgQuJbbEObtrGdZbXQkHKhBD4KLPeINY"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "System Design Principles You Can’t Ignore in the AI Era![](https://eotrx.substackcdn.com/o/17e819f3ffa5bfd2/p.gif?token=eyJtIjoiPDIwMjYwNTIwMTY1ODU2LjMuYTRmZmQ3NmFhMGNlN2E4NUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxOTg1ODY1MTgsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6Mzk1NzM4NiwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc3OTI5NjM0NywiZXhwIjoxNzgxODg4MzQ3LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.m0eVVBiSz9H-2_3ECcZr8bht64wmJHhJfjv0J51TEVg)\n\nWhy traditional system design principles matter more than ever\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    }
+  ],
+  "tldr": [
+    "Google introduces Gemini 3.5 Flash AI model.",
+    "Andrej Karpathy joins Anthropic for research.",
+    "NVIDIA forecasts $1 trillion AI revenue.",
+    "OpenAI CEO wins lawsuit against Elon Musk.",
+    "Meta faces crisis due to AI rollout."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Nvidia",
+        "context": "Nvidia is the dominant provider of GPUs and full-stack platforms used to train and run large AI models, and the company is entering its next phase of growth as AI spending shifts from model training to large-scale real-time inference in production. Ahead of its upcoming earnings announcement, management has been emphasizing the size and durability of this opportunity: CEO Jensen Huang recently said he sees at least a $1 trillion AI chip revenue opportunity through 2027, reflecting demand from hyperscalers, enterprises, and emerging AI-native applications. Recent commentary around Nvidia’s guidance has highlighted expectations for very strong near-term data center revenue (with some analysts citing figures around $65 billion for an upcoming quarter) and longer-term deceleration in growth rates as the industry matures, though from a very elevated base.\n\nOn the product and ecosystem side, Nvidia continues to broaden its AI footprint beyond traditional data centers. The company has announced new AI computing modules explicitly designed for space-based data centers and satellite constellations, aiming to move more AI inference and data processing off-planet, which could create novel infrastructure and services markets. Nvidia is also iterating on its software and orchestration stack, such as new releases of its Run:ai platform for ML practitioners and IT teams, reinforcing its strategy to own not just the chips but the full AI computing pipeline. Collectively, these moves underscore Nvidia’s central role in the AI/ML ecosystem, while intensifying competition from custom accelerators and rival chipmakers will be an important backdrop for investors watching tomorrow’s earnings and guidance.",
+        "source": "web search"
+      },
+      {
+        "topic": "Gemini 3.5 Flash",
+        "context": "Gemini 3.5 Flash is Google’s latest Flash-family model, positioned as its strongest model yet for agentic workflows, coding, and long-horizon task execution. Google says it delivers frontier-level performance with low latency, supports a 1M-token context window, 65K output tokens, and includes thinking/reasoning capabilities with automatic thought preservation across multi-turn conversations. It is now generally available and is becoming the default model in the Gemini app and AI Mode in Google Search, signaling a broader shift from chat-oriented AI toward action-oriented AI agents.\n\nThe latest developments emphasize real-world agent use cases: autonomous coding pipelines, research workflows, and multi-step problem solving. Google also highlighted specialized platform availability across Gemini API, Google AI Studio, Android Studio, Gemini Enterprise, and Google Antigravity, plus a new personal agent, Gemini Spark, built on 3.5 Flash. Industry-wise, this matters because it raises the bar for practical agentic AI by combining speed, scale, and tool use, and it strengthens Google’s competitive position against other frontier models in coding and autonomous task execution. Source: Google Blog announcement and Gemini API docs, with additional reporting from TechCrunch.",
+        "source": "web search"
+      },
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is a leading AI lab focused on building frontier language models and agentic AI tools, best known for its Claude family of models and developer products like Claude Code and Claude Co-work. In the latest news, Reuters reports that Anthropic unveiled a new “dreaming” research-preview feature that lets Claude analyze prior work sessions, learn patterns, and update preference/context files to improve future assistance. The company also announced major compute expansion, including a SpaceX data-center deal that could add significant capacity, and said it is doubling rate limits for paid coding plans while relaxing peak-hour restrictions for some users. These moves signal Anthropic is pushing harder into enterprise and developer adoption while scaling infrastructure to keep up with demand.\n\nThe broader context is that Anthropic continues to be seen as one of the most important rivals to OpenAI and Google in the AI/ML space, especially for coding, agent workflows, and enterprise use cases. Industry coverage also highlights Anthropic’s growing influence on the market: its new tools have been associated with selloffs in data analytics and professional-services stocks due to fears of automation disruption, and there are reports of a new, more powerful model tier called “Claude Mythos” appearing in leaked materials. Reuters’ coverage is the most reliable recent source here, with additional context from Bloomberg/industry reporting and Anthropic’s own announcements at its developer event.",
+        "source": "web search"
+      },
+      {
+        "topic": "Claude (Anthropic AI model)",
+        "context": "Claude is a family of large language models developed by Anthropic, positioned as a general-purpose AI assistant for reasoning, coding, and knowledge work, and marketed as a safer, more steering‑friendly alternative to other frontier models. Anthropic emphasizes safety and user well‑being, operating as a public benefit corporation and keeping Claude ad‑free so responses are not influenced by advertisers. Claude is accessible via the web (claude.ai) and APIs, and has become popular among developers and enterprises—enough that the Wall Street Journal reports a growing cohort of users who are “Claude‑pilled,” meaning they are shifting significant workflows to Anthropic’s tools. \n\nRecently, Anthropic has drawn attention for a highly capable but restricted model variant called Claude Mythos, described in its own system card as substantially more powerful than previous Claude models in software engineering, complex reasoning, computer use, and particularly cybersecurity. External testing by the UK’s AI Safety Institute found Mythos could solve expert‑level cybersecurity tasks and chain together multi‑step attack simulations at high success rates, leading Anthropic to keep it out of general public release and instead limit access to select partners (e.g., major tech and financial institutions) under cybersecurity‑only usage terms. This has amplified industry debate about frontier AI safety, regulation, and dual‑use risks. At the same time, Claude’s strength in coding and knowledge work has had competitive repercussions: reports indicate Microsoft rolled back many internal Claude Code licenses and is steering developers back to its own Copilot ecosystem, underscoring Claude’s growing influence in the AI tooling market and the strategic tensions among big AI providers.",
+        "source": "web search"
+      },
+      {
+        "topic": "Google I/O (AI/ML announcements)",
+        "context": "Google I/O is Google’s annual developer conference, and in recent years it has become a major launchpad for the company’s AI and machine learning strategy. At the latest I/O, Google positioned its Gemini family of models as the core intelligence layer across Search, Workspace, Android, and consumer services, underscoring a shift from AI as a feature to AI as an always‑available agent woven through its ecosystem.\n\nThe headline AI news was the launch of Gemini 3.5 Flash, a fast, cost‑efficient multimodal model that is now the default for the Gemini app and the new AI mode in Google Search. Google also outlined a broader Gemini 3.5 lineup and previewed new ‘Gemini Omni’ models, including Omni Flash, which can generate short video clips from text, images, video, and audio inputs. Alongside models, Google introduced proactive, cloud‑based agentic experiences: an always‑on assistant (branded Gemini Spark in some coverage) that can autonomously help with tasks like summarizing email, organizing notes, and tracking price changes, and runs continuously on Google Cloud VMs while integrating with Workspace and third‑party tools.\n\nThese advances are paired with deep product integrations that signal competitive pressure in the AI assistant space. Search is gaining an ‘intelligent search box,’ AI‑generated summaries, generative UI components (simulations, interactive tables, app‑like views), and topic‑tracking ‘information agents.’ Shopping is being reimagined with a Universal Cart that works across Search, Gemini, YouTube, and Gmail and uses Gemini models to monitor prices and availability. In Workspace, Gmail, Docs, Keep, and a new Pics app are adding voice‑driven Gemini features and easier image editing, while Android developers can now use AI to generate full native apps straight from AI Studio. Collectively, these moves push Google further into agentic, multimodal, and deeply embedded AI experiences, intensifying its rivalry with other frontier-model providers and reshaping expectations for how AI assistants operate inside core consumer and productivity products.",
+        "source": "web search (e.g., The Verge Google I/O 2026 recap, AP News Google I/O coverage, and Google AI / The Keyword blogs)"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Study Finds LLMs Corrupt 25% of Content in Delegated Document Workflows",
+        "summary": "A new multi-model evaluation (referred to as DELEGATE-52) reports that leading LLMs such as GPT-5.4, Claude 4.6 Opus, and Gemini 3.1 Pro corrupt roughly 25% of document elements when given multi-step, long-horizon editing tasks. The corruption includes sparse but severe and often silent errors that compound over time, and even tool-using agent setups failed to fully mitigate the problem.",
+        "whyItMatters": "For teams building AI agents, copilots, or workflow automation around documents and code, this highlights a hard reliability ceiling for unsupervised delegation. It underscores the need for rigorous validation, human-in-the-loop review, and new architectures or training strategies for long-horizon editing and stateful reasoning.",
+        "source": "YouTube – 【AI News】Top 3 AI Stories You Must Know | May 9, 2026 (discussion of DELEGATE-52 study)"
+      },
+      {
+        "headline": "ChatGPT 5.5 Pro Wins Praise from Fields Medalist for Advanced Math Reasoning",
+        "summary": "Fields Medalist Timothy Gowers publicly evaluated ChatGPT 5.5 Pro on challenging mathematical problems and described its reasoning as \"genuinely impressive.\" His assessment points to a step-change in LLM capabilities for nontrivial, multi-step mathematical reasoning rather than just symbolic manipulation.",
+        "whyItMatters": "High-level endorsement from a leading mathematician signals that frontier models are becoming credible collaborators for formal reasoning tasks. This could accelerate applications in theorem proving, scientific discovery, and complex algorithm design, while also raising expectations for verifiable reasoning and tools that can integrate AI-derived proofs into human workflows.",
+        "source": "YouTube – 【AI News】Top 3 AI Stories You Must Know | May 9, 2026 (Gowers on ChatGPT 5.5 Pro)"
+      },
+      {
+        "headline": "Meta Faces Internal Crisis as Aggressive AI Rollout Restructures Workforce",
+        "summary": "Reporting indicates that Meta’s rapid AI expansion is triggering major internal turmoil, including continuous role automation, rapid restructuring, and rising job insecurity and stress among employees. The company is said to be aggressively integrating AI across product and infrastructure teams, leading to a \"workplace crisis.\"",
+        "whyItMatters": "For AI practitioners inside large companies, this highlights the organizational and human consequences of fast AI deployment at scale. It signals that AI adoption strategies, change management, and internal communication are now as critical as technical execution, with implications for hiring, skills development, and ethical deployment practices.",
+        "source": "YouTube – 【AI News】Top 3 AI Stories You Must Know | May 9, 2026 (Meta AI workplace report summary, citing The New York Times)"
+      },
+      {
+        "headline": "Standard Chartered Plans 15% Staff Cuts as It Scales AI Across Operations",
+        "summary": "Standard Chartered’s CEO announced plans to cut roughly 15% of roles over four years while \"replacing lower value human capital with technology,\" specifically citing AI. The bank is ramping up its use of AI systems to automate back-office functions and parts of client-facing workflows.",
+        "whyItMatters": "This is a concrete example of a global bank explicitly tying job reductions to AI deployment, offering a preview of how financial institutions may restructure around AI-first processes. For ML practitioners, it points to continuing demand for applied AI in banking, but also raises questions about responsible automation, workforce transition, and regulatory scrutiny in highly regulated sectors.",
+        "source": "Bloomberg Surveillance (YouTube) – comments by Standard Chartered CEO on AI-driven role reductions"
+      },
+      {
+        "headline": "U.S. Federal Jury Rejects Elon Musk’s $150 Billion Lawsuit Against OpenAI",
+        "summary": "A federal jury in California rejected Elon Musk’s $150 billion lawsuit against OpenAI and Sam Altman, which alleged that OpenAI improperly shifted from its original nonprofit structure to a for-profit model. The jury found that Musk waited too long to bring the suit, effectively closing this particular legal challenge.",
+        "whyItMatters": "The outcome reduces near-term legal uncertainty around OpenAI’s corporate structure and its ability to raise capital and commercialize frontier models. For the broader AI ecosystem, it signals that disputes over nonprofit-to-for-profit transitions will be closely scrutinized but may be constrained by statutes of limitation, shaping how future AI labs structure themselves from the outset.",
+        "source": "Democracy Now! – Headlines for May 20, 2026"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Nvidia",
+        "type": "company",
+        "context": "Earnings announcement scheduled for tomorrow"
+      },
+      {
+        "name": "Gemini 3.5 Flash",
+        "type": "product",
+        "context": "Released by Google with agentic workflows and coding capabilities"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Poached OpenAI co-founder Karpathy and announced Claude"
+      },
+      {
+        "name": "Claude",
+        "type": "product",
+        "context": "AI model developed by Anthropic with various applications"
+      },
+      {
+        "name": "Google I/O",
+        "type": "event",
+        "context": "Conference where Google announced Gemini 3.5 Flash and other AI-powered features"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Co-founder Karpathy joined Anthropic and company faced lawsuit from Elon Musk"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Released Gemini 3.5 Flash and other AI-powered features at I/O conference"
+      },
+      {
+        "name": "Karpathy",
+        "type": "person",
+        "context": "OpenAI co-founder who joined Anthropic"
+      },
+      {
+        "name": "Omni",
+        "type": "product",
+        "context": "Video editing model released by Google with Gemini 3.5 Flash"
+      },
+      {
+        "name": "Elon Musk",
+        "type": "person",
+        "context": "Lost lawsuit against OpenAI and faced competition from Anthropic"
+      }
+    ]
+  },
+  "savedAt": "2026-05-20T18:30:00.000Z",
+  "dateString": "2026-05-21"
+}
