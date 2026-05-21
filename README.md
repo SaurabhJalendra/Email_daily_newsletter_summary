@@ -55,11 +55,11 @@ An automated system that fetches your newsletters daily, generates comprehensive
 3. Add the following secrets:
 
 ```
-EMAIL_ADDRESS: saurabhjalendra@gmail.com
-EMAIL_APP_PASSWORD: vepe yman hhnv xpzv
-NEWSLETTER_SENDERS: hi@mail.theresanaiforthat.com,noreply@medium.com,noreply@skool.com,hello@mindstream.news,noreply@newsletter.journalclub.io,thetechbuzz@mail.beehiiv.com,newsletter@hw-mail.glich.co,dan@tldrnewsletter.com,aibreakfast@mail.beehiiv.com,news@daily.therundown.ai,stayingahead@mail.beehiiv.com,newsletter@intheworldofai.com,news@alphasignal.ai,futuretools@mail.beehiiv.com,drjustinsung@icanstudy.com,aiinnovationshub@mail.beehiiv.com,alifeengineered@substack.com,skilledcoder@substack.com,news@llamaindex.ai,boringbot@substack.com
-GEMINI_API_KEY: AIzaSyCBU0yeyvbZ8ETBdo7GcqtlXS5VIvSKKD8
-NOTIFICATION_EMAIL: saurabhjalendra@gmail.com
+EMAIL_ADDRESS: your-email@gmail.com
+EMAIL_APP_PASSWORD: your-16-char-gmail-app-password
+NEWSLETTER_SENDERS: sender1@example.com,sender2@example.com,...
+GEMINI_API_KEY: your-gemini-api-key
+NOTIFICATION_EMAIL: your-email@gmail.com
 ```
 
 ### 2. Dashboard Deployment on Vercel
