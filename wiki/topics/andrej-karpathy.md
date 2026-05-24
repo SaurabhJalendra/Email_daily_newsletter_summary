@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-10-14
 > **Last updated**: 2026-03-23
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nanochat]], [[openai]], [[agent-frameworks]], [[vibe-coding]]
 
 ## Summary

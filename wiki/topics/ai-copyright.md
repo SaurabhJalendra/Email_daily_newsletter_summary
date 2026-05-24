@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-11-05
 > **Last updated**: 2026-03-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[ai-regulation]], [[sora-2]], [[perplexity]], [[google]], [[disney]], [[chatgpt]], [[ai-video-generation]], [[ai-slop]]
 
 ## Summary

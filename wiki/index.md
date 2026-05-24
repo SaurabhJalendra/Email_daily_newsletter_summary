@@ -82,7 +82,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-code]] — Anthropic's CLI coding agent; plugins, Routines, Web variant; $1B ARR
 - [[claude-code-security]] — Anthropic's security scanner inside Claude Code (Feb 2026) *(stale)*
 - [[claude-code-web]] — browser/cloud Claude Code for dev work outside the terminal *(stale)*
-- [[claude-cowork]] — Anthropic's local-file agent for organizing digital work
+- [[claude-cowork]] — Anthropic's local-file agent for organizing digital work *(stale)*
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills *(stale)*
 - [[claude-haiku-4-5]] — Anthropic's fast, low-cost coding model *(stale)*
@@ -128,14 +128,14 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-5-3-codex]] — OpenAI's Feb 2026 Codex model; 77.3% Terminal-Bench 2.0, 25% faster *(stale)*
 - [[gpt-5-3-codex-spark]] — OpenAI's Codex variant on Cerebras hardware; 1000+ tokens/sec *(stale)*
 - [[gpt-5-3-instant]] — OpenAI's Mar 2026 default ChatGPT update; 26.8% hallucination cut with web; fewer refusals *(stale)*
-- [[gpt-5-4]] — OpenAI's leaked next-gen model; 2M-token context and "Stateful AI" across sessions (Mar 2026)
+- [[gpt-5-4]] — OpenAI's leaked next-gen model; 2M-token context and "Stateful AI" across sessions (Mar 2026) *(stale)*
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding *(stale)*
 - [[gpt-image-1-5]] — OpenAI's Dec 2025 image-gen upgrade; 4× faster, sharper detail, Likeness Retention *(stale)*
 - [[grok-4-1]] — xAI's mid-Nov 2025 Grok upgrade; personality overhaul, EQ lead, top of LMArena *(stale)*
 - [[grok-4-20]] — xAI's Feb 2026 Grok upgrade; four-agent parallel research workflow, public beta *(stale)*
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
-- [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours
+- [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours *(stale)*
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference *(stale)*
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
 - [[kimi-k2-5]] — Moonshot AI's 1T MoE + 400M MoonViT multimodal agentic model with Agent Swarm (Jan 2026) *(stale)*
@@ -155,7 +155,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*
 - [[nano-banana-pro]] — Google's Gemini 3 Pro Image; 4K, 14-input, 5-character consistency, SynthID+C2PA *(stale)*
 - [[nanochat]] — Karpathy's end-to-end ChatGPT clone repo *(stale)*
-- [[nemotron-3]] — NVIDIA's open-source agentic model line; Nano (30B/3B active MoE), 4× throughput claim
+- [[nemotron-3]] — NVIDIA's open-source agentic model line; Nano (30B/3B active MoE), 4× throughput claim *(stale)*
 - [[niji-7]] — Midjourney's anime-style image model (Jan 2026) *(stale)*
 - [[nitrogen]] — NVIDIA open-source gaming-agent model *(stale)*
 - [[nvidia-cosmos]] — NVIDIA's physical-AI foundation models (Cosmos 2.5 GA, 3 inbound)
@@ -186,13 +186,13 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
 - [[agentic-ai-foundation]] — Linux Foundation project for open agentic-AI standards; OpenAI/Anthropic/Block + MCP *(stale)*
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser *(stale)*
-- [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals
+- [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals *(stale)*
 - [[ai-healthcare]] — AI push into clinical, consumer-health, and pharma workflows; ChatGPT Health, OpenAI for Healthcare, Lilly-Insilico *(stale)*
 - [[ai-memory]] — persistent context across sessions; Claude Memory, ChatGPT→Claude migration, GPT-5.4 Stateful AI *(stale)*
 - [[ai-military]] — frontier-lab AI inside DoW/Pentagon systems; Pentagon-Anthropic ultimatum, xAI switch-out, OpenAI contract revision
 - [[ai-music-generation]] — generative music models; Google Lyria 3 in Gemini *(stale)*
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad *(stale)*
-- [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author
+- [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
 - [[computer-use]] — models that drive GUIs directly *(stale)*
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
@@ -206,7 +206,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-funding-rounds]] — major AI sector financings; SoftBank, AWS, Google-Anthropic, Mercor
 - [[ai-hardware]] — chips, form factors, robots, $38B AWS-OpenAI, Extropic TSU, Qualcomm AI200
 - [[ai-ipo-wave]] — OpenAI $500B / Anthropic $350B IPO prep and frontier-lab public-market path
-- [[ai-jobs-displacement]] — labor-market impact studies + flagship AI-driven layoffs (Anthropic Economic Index, Block, Snowflake)
+- [[ai-jobs-displacement]] — labor-market impact studies + flagship AI-driven layoffs (Anthropic Economic Index, Block, Snowflake) *(stale)*
 - [[ai-regulation]] — government / judicial / labor / safety pressure on AI labs
 - [[ai-slop]] — AI-content flood quality concerns; YouTube 20%+, Instagram Mosseri commentary *(stale)*
 - [[enterprise-ai]] — AI moving into workplace software; Company Knowledge, Excel, Agent HQ, Copilot *(stale)*
@@ -217,4 +217,4 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 
 ## Digests
 - [[digests/2025-W42]] — Week of 2025-10-13: silicon-diversification crescendo, Apple M5, Gemini 3 confirmed, regulatory pressure arrives
-- [[digests/2026-W16]] — Week of 2026-04-13: sixth regeneration on 2026-05-17 covering the 2026-04-09→2026-04-15 window (no new ingest has landed in `log.md` since 2026-04-15, even though `data/summaries/` now extends to 2026-05-17; the source-ingest selection is unchanged from the prior five LINTs) — fleet-of-agents becomes industry default across 6 vendors ([[anthropic]] / [[openai]] / [[google]] / [[xai]] / [[cursor]] / [[vercel]]), [[claude-mythos]] gains 5 framings without shipping, [[project-glasswing]] coalition vs hacker-group contradiction preserved as open question (now thirty-two days unresolved), [[anthropic]] $30B + 1,000+ enterprise customers vs [[openai]] $122B at $852B financial parity, [[muse-spark]] four-day Neural-Computer launch arc culminates in Zuckerberg AI clone, [[perplexity-computer]] becomes personal-finance platform, OpenAI's 4-day-work-week proposal + Sam Altman home attack mark frontier-lab-as-policy-actor turn, Stargate UK paused on energy/regulation
+- [[digests/2026-W16]] — Week of 2026-04-13: seventh regeneration on 2026-05-24 covering the 2026-04-09→2026-04-15 window (no new ingest has landed in `log.md` since 2026-04-15, even though `data/summaries/` now extends to 2026-05-24; the source-ingest selection is unchanged from the prior six LINTs) — fleet-of-agents becomes industry default across 6 vendors ([[anthropic]] / [[openai]] / [[google]] / [[xai]] / [[cursor]] / [[vercel]]), [[claude-mythos]] gains 5 framings without shipping, [[project-glasswing]] coalition vs hacker-group contradiction preserved as open question (now thirty-nine days unresolved — month-plus editorial silence is itself a data point), [[anthropic]] $30B + 1,000+ enterprise customers vs [[openai]] $122B at $852B financial parity, [[muse-spark]] four-day Neural-Computer launch arc culminates in Zuckerberg AI clone, [[perplexity-computer]] becomes personal-finance platform, OpenAI's 4-day-work-week proposal + Sam Altman home attack mark frontier-lab-as-policy-actor turn, Stargate UK paused on energy/regulation

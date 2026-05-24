@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-02
 > **Last updated**: 2026-03-19
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[harmonic]], [[deepseek-math-v2]]
 
 ## Summary

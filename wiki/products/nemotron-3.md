@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-12-17
 > **Last updated**: 2026-03-24
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[nvidia]], [[nvidia-cosmos]], [[agent-frameworks]], [[deepseek]], [[mistral-3]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: trend
 > **Type**: trend
 > **First mentioned**: 2026-03-07
 > **Last updated**: 2026-03-24
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[openai]], [[block]], [[enterprise-ai]], [[ai-regulation]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-01-14
 > **Last updated**: 2026-03-24
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[claude-code]], [[claude-opus-4-5]], [[agent-frameworks]], [[enterprise-ai]]
 
 ## Summary
