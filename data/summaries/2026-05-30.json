@@ -1,0 +1,855 @@
+{
+  "date": "2026-05-29T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Saturday, 30 May 2026\n\n## 🔥 Top Stories\n1. **Anthropic releases Claude Opus 4.8**: Anthropic has launched Claude Opus 4.8, its latest flagship large language model, with significant improvements in complex reasoning, long-horizon agentic coding, and high-autonomy knowledge work. Why it matters: This update makes Claude Opus 4.8 a leading choice for building robust AI agents and complex AI-driven workflows in production, with potential applications in software development, legal and financial analysis, and other high-stakes domains.\n2. **Robinhood opens trading platform to AI agents**: Robinhood has allowed AI agents to trade on its platform, enabling users to create separate accounts for AI agents and letting them buy and sell stocks autonomously. Why it matters: This development raises concerns about risk and highlights the growing trend of integrating AI agents into financial systems, potentially transforming the trading landscape.\n3. **YouTube automatically labels AI-generated content**: YouTube will now automatically detect and label AI-generated content, including videos with \"significant photorealistic AI.\" Why it matters: This move aims to increase transparency and help viewers make informed decisions about the content they consume, addressing growing concerns about synthetic media and misinformation.\n4. **OpenAI rolls out personal finance experience in ChatGPT**: OpenAI has introduced a personal finance experience in ChatGPT, enabling users to securely connect their accounts and get a dashboard of their spending, investments, and cash flow. Why it matters: This feature raises concerns about data privacy and the potential for advertisers to influence ChatGPT's responses, highlighting the need for careful consideration of AI's role in personal finance.\n5. **Cognition raises over $1 billion for autonomous AI coding agent**: Cognition, the company behind the AI software engineer Devin, has raised over $1 billion at a $25 billion pre-money valuation, gaining significant traction with customers like Mercedes-Benz, NASA, and Goldman Sachs. Why it matters: Devin's autonomous coding capabilities have the potential to revolutionize software development, and Cognition's funding round underscores the growing interest in AI-powered coding tools.\n\n## 🤖 AI Models & Research\n- **Claude Opus 4.8 introduces dynamic workflows and effort control**: Claude Opus 4.8's dynamic workflows enable it to spin up hundreds of parallel sub-agents in a single session, and its effort control feature allows users to trade off speed/cost vs. depth of reasoning per task.\n- **GPT-4 and Gemini 3.1 Pro benchmark comparisons**: Claude Opus 4.8 outperforms its predecessor and other leading models in agentic coding, reasoning with tools, computer use, and financial analysis.\n- **Anthropic's safety-focused approach**: Anthropic's focus on AI safety and research is reflected in Claude Opus 4.8's design, which prioritizes reliability, honesty, and transparency.\n\n## 🛠️ Tools & Products\n- **Claude Code updates**: Claude Code, Anthropic's agentic coding environment, has been updated with new features and capabilities, including dynamic workflows and effort control.\n- **ChatGPT's personal finance experience**: OpenAI's ChatGPT now offers a personal finance experience, enabling users to securely connect their accounts and get a dashboard of their spending, investments, and cash flow.\n- **Devin's autonomous coding capabilities**: Cognition's AI software engineer Devin can write code independently, and its autonomous coding capabilities have gained significant traction with customers like Mercedes-Benz, NASA, and Goldman Sachs.\n\n## 📰 Industry News\n- **Anthropic's $65 billion funding round**: Anthropic has closed a $65 billion funding round, valuing the company at nearly $1 trillion, and will drive further development of its Claude models and AI safety research.\n- **OpenAI's redesigned Microsoft 365 Copilot experience**: OpenAI has unveiled a redesigned Microsoft 365 Copilot experience built around AI-native productivity, aiming to integrate AI more seamlessly into Microsoft's productivity suite and enhance user experience.\n- **YouTube's AI-generated content labeling**: YouTube's decision to automatically label AI-generated content reflects growing concerns about synthetic media and misinformation, and highlights the need for increased transparency in online content.",
+  "totalNewsletters": 30,
+  "newsletters": [
+    {
+      "from": "\"Latent.Space\" <swyx@substack.com>",
+      "subject": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
+      "date": "2026-05-28T18:41:24.000Z",
+      "summary": "## Latent.Space\n\n**Priority: HIGH**\n\n### Top Updates\n* The Age of Async Agents has begun, with companies like Cognition and OpenInspect leading the charge in developing background agents that can work autonomously in the cloud.\n* Cognition's Walden Yan and OpenInspect's Cole Murray discuss the evolution of async agents, from early days of handholding models to current capabilities of spec-to-PR workflows.\n* Recent model inflections, such as Opus 4.5 and GPT 5.2, have enabled async agents to drive end-to-end development, with capabilities like testing, deployment, and maintenance.\n* Key challenges in building async agents include repo setup, secrets management, and testing, with solutions like Docker Compose and full VMs being explored.\n* Memory and knowledge management are crucial aspects of async agents, with techniques like skills and sub-agents being used to improve performance.\n* Use cases for async agents include SRE auto-triage, PMs shipping code, and customer support, with potential for significant cost savings and productivity gains.\n* The AI engineering survey and AIEWF website provide resources for those interested in learning more about async agents and AI engineering.\n* Companies like Modal, Daytona, and E2B are providing cloud infrastructure for async agents, with Anthropic and OpenAI leading the development of AI models for these applications.\n\n### Notable Links\n* AIEWF website\n* AI Engineering Survey\n* LangGraph\n* Pydantic\n* Flue\n* Anthropic\n* Gemini\n* Amazon\n* Claude Code\n* Windsurf\n* Cursor's agents pane\n* Ramp's coding agent\n* OpenInspect\n* Cognition's Devin",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGY29nbml0aW9uIiwicCI6MTk5NjA3ODc0LCJzIjoxMDg0MDg5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc3OTk5Mzg0NiwiZXhwIjoyMDk1NTY5ODQ2LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.dICNlcCRwhzD6cfiOuZVSn1kHqNpowNcgLnpA3URE_A?"
+        },
+        {
+          "text": "Latent Space: The AI Engineer…The Age of Async Agents — Cog…0:001:08:02",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=199607874&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTYwNzg3NCwiaWF0IjoxNzc5OTkzODQ2LCJleHAiOjE3ODI1ODU4NDYsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ajkb9caNopGn4ApmvcnYoRySeF7lzeRA4pCoA34SCQ4#play"
+        },
+        {
+          "text": "Listen now",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=199607874&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTYwNzg3NCwiaWF0IjoxNzc5OTkzODQ2LCJleHAiOjE3ODI1ODU4NDYsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ajkb9caNopGn4ApmvcnYoRySeF7lzeRA4pCoA34SCQ4"
+        },
+        {
+          "text": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=199607874&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTYwNzg3NCwiaWF0IjoxNzc5OTkzODQ2LCJleHAiOjE3ODI1ODU4NDYsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ajkb9caNopGn4ApmvcnYoRySeF7lzeRA4pCoA34SCQ4"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/cognition?redirect=app-store"
+        },
+        {
+          "text": "AIEWF website",
+          "url": "https://substack.com/redirect/e9d1e9fa-ae12-45ed-9a35-2a450cfdee6b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "CFPs",
+          "url": "https://substack.com/redirect/fcfac28a-6370-4596-97d7-fbea7562547f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI Engineering Survey",
+          "url": "https://substack.com/redirect/0292517d-3a13-4a27-a196-2db10a44dcd9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "LangGraph",
+          "url": "https://substack.com/redirect/1b5c1bc3-7301-4fdf-8761-cdaa68272b25?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Pydantic",
+          "url": "https://substack.com/redirect/e0807257-d3f8-459b-9841-c0e32576bda1?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray![](https://eotrx.substackcdn.com/o/864551a4b8c82b4f/p.gif?token=eyJtIjoiPDIwMjYwNTI4MTg0MTI0LjMuZWFlZjRhOTVlODc0ZGRjOUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5OTYwNzg3NCwidCI6InBvZGNhc3QiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDg0MDg5LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzc5OTkzODQ2LCJleHAiOjE3ODI1ODU4NDYsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.zkXTlYZiyqfRBQcIqXxw_I1Smlo_-V7psSDIlz8Q_-k)\n\nListen now (68 mins) | 80% Devin Commits, Spec-to-PR Workflows, Full VMs, Agent Memory, and PMs Shipping Code\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"🛼  The '92\" <the92@mail.beehiiv.com>",
+      "subject": "🛼 You've got mail!",
+      "date": "2026-05-28T20:01:41.000Z",
+      "summary": "## The '92 Newsletter\n\n**Priority: LOW**\n\n### Top Updates\n- The newsletter is primarily a nostalgic 90s-themed email with various polls, trivia, and links to 90s-related products and content, including a link to join \"The '92 Club\" and access to \"The '92 Magazine\", \"The '92 Trivia Book\", and \"The '92 Coloring Book\".\n- Readers can participate in polls, such as voting for their favorite 90s school backpacks, with options including JanSport, The Lion King, The Little Mermaid, L.L. Bean with initials, and Mickey Mouse.\n- The newsletter also includes links to purchase 90s-themed merchandise, such as a Mulan Mushu Plush, Rocket Power T-Shirt, and Jurassic Park Water Bottle.\n- A survey is available for readers to join the waitlist for \"The '92 Club\", which promises to deliver retro throwbacks and 90s goodness.\n- The newsletter mentions an upcoming re-opening of \"The '92 Club\" in June, with a call to action to take a 30-second survey to join the waitlist.\n\n### Notable Links\n- [The '92 Magazine](https://www.the92magazine.com)\n- [The '92 Trivia Book](https://www.the92triviabook.com)\n- [The '92 Coloring Book](https://www.the92coloringbook.com)\n- [Mulan Mushu Plush](https://www.amazon.com/Mulan-Mushu-Plush/dp/B00006375A)\n- [Rocket Power T-Shirt](https://www.teepublic.com/rocket-power-t-shirt)\n- [Jurassic Park Water Bottle](https://www.zazzle.com/jurassic+park+water+bottle)",
+      "links": [],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "🛼 You've got mail!\n\nThe 5 best 90s school backpacks + more................................................................................................................  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2e43872b-1ff9-46b3-bb71-fc04a90ad788/The__92_Throwback_Newsletter_Header.png?t=1716625838)](https://link.mail.beehiiv.com/v1/c/DkKMWQh3Y7DozzUfvKb4Vi4hKXrHWJatfzb%2BpHij7jglQeoksMsfLHDUxq0U%0AVJfhKy3p7GJ7eZfYmEN86NUcB%2Fv4yE5tGZAolchWB3ltIitWO5hXM7m%2Fg7bz%0Au%2F5kjARhyF1vBHF4DEib8BvlWZzOABWVX%2FYKROZlxkSg"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 AI Cracks Medieval Secrets",
+      "date": "2026-05-28T21:54:21.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: HIGH**\n\n### Top Updates\n* **AI Cracks Medieval Secrets**: AI has been used to decode 400-year-old ciphers, including love letters, plots, and medical remedies, into readable text.\n* **Claude Opus 4.8 Launches**: Anthropic has released Claude Opus 4.8, the latest flagship large language model, which introduces a new fast mode, dynamic workflows, and effort control knobs for more efficient and reliable coding and reasoning.\n* **Siri Reboot in iOS 27**: Apple is planning to overhaul Siri in iOS 27, with a dedicated chatbot app, AI web search, swipe-down query interface, and a Siri mode inside the Camera app.\n* **YouTube Auto-Tag AI Videos**: YouTube will start auto-tagging AI-generated videos, labeling them as \"AI-generated\" to differentiate them from human-created content.\n* **Adapt - The Universal AI Agent for Work**: Adapt is an AI agent that connects to data warehouses, CRMs, and BI tools, providing live answers to business questions and automating tasks.\n* **LlamaParse - AI Parsing Engine**: LlamaParse is an AI parsing engine that extracts data from PDFs and other documents, enabling more efficient workflow automation.\n* **ZIEA One - AI Desk Device**: ZIEA One is an AI-powered desk device designed for ADHD brains, helping users stay focused and on track with tasks and appointments.\n* **Anthropic's Prompting Playbook**: Anthropic has released a playbook for prompting its Claude AI model, providing guidelines for debugging, migrating, and shipping prompts.\n* **The Geometry of Flavor - Food Model**: A food model has been trained on 4.1 million recipes, generating full songs and recipes from prompts.\n* **Pancake - AI Cofounder**: Pancake is an AI cofounder that stacks agents to help solo entrepreneurs run entire companies.\n* **AppDeploy - ChatGPT App**: AppDeploy is a free ChatGPT app that turns prompts into live web apps, with a built-in QA agent to test changes.\n* **Hostinger Horizons - AI Website Builder**: Hostinger Horizons is an AI-powered website builder that turns ideas into working websites with built-in hosting and AI editing.\n\n### Additional Updates\n* **Plaid and the Harris Poll**: A report has been released on where Americans trust AI with their money, earning confidence, and losing trust.\n* **Pancake - AI Cofounder for Autonomous Companies**: Pancake is an AI cofounder designed for the autonomous-company era, stacking agents for solo entrepreneurs.\n* **Nafy AI - AI Music Generation**: Nafy AI generates full songs from prompts, with a feature to clone users' singing voices.\n* **AvatarCraft - AI Avatar Generation**: AvatarCraft generates talking avatar videos from scripts, with presenter styles or custom AI clones.\n* **Lip Sync AI - AI Lip Syncing**: Lip Sync AI turns any photo or video plus an audio clip into a fully lip-synced talking video.\n* **Stella - AI Staffing for Small Businesses**: Stella staffs small businesses with a 5'3\" AI bot, training it as a receptionist, greeter, or sales rep.\n* **Wispr Flow - AI Drag-and-Drop Canvas**: Wispr Flow provides a drag-and-drop canvas for assembling AI agents visually, with third-party node integrations.\n* **Kimi Code - AI Coding Agent**: Kimi Code brings an AI coding agent into the terminal as a single binary, with video input and conversational setup.\n* **Papr Memory - Predictive Memory Layer**: Papr Memory gives AI agents a predictive memory layer, blending vector search, graph relationships, and on-device embeddings.\n\n### Notable Links\n* [Anthropic's Prompting Playbook](https://link)\n* [Claude Opus 4.8](https://link)\n* [Adapt - The Universal AI Agent for Work](https://link)\n* [LlamaParse - AI Parsing Engine](https://link)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🦾 AI Cracks Medieval Secrets\n\n400-year-old ciphers decoded, Claude Opus 4.8 ships, An AI desk device for focus, Siri reboot first look, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 28, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0rhj3b3YuJB8U_D2Cscza7fg_uOPvy-hDi_ExLnLhSJQZWkuzHhDAXZD-ueINJq1lz58FHaKevWB64t6NiZduTycgqA3SEWv_V0tQ_aFVwLIYPvp67IF4dLDiE0Zg6tM1f6KBaJx16G_fqP3KctPy7Ora1OrWCzgH3WsXu8lXwWszLdVidl8F1C9OVgpHuTcyKjo1mgGtB96Ach5WQxijtljnUI-6QCMISK68S3yoL4Rkh1MIyEFEdVSMhS5_4-yMXWyOzD0AwM7WRq1hBw8m1x_L7ADC1vfEwruGMPIHWcMMsF_GaQqBVjnK"
+    },
+    {
+      "from": "\"DayTrading Dispatch\" <daytrading@mail.beehiiv.com>",
+      "subject": "Snowflake just had its best day ever ❄️",
+      "date": "2026-05-29T01:47:22.000Z",
+      "summary": "## DayTrading Dispatch\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Snowflake had its best day ever, with a 36% increase in shares after-hours trading, following the release of its Q1 fiscal 2027 revenue of $1.39 billion, up 33% year-over-year, beating the $1.32 billion consensus. The company also announced a five-year, $6 billion commitment to Amazon Web Services, including a major endorsement of AWS's custom Graviton CPUs.\n- Salesforce reported Q1 earnings, beating the quarter but providing soft guidance, which sent shares lower after-hours. The company delivered adjusted Q1 EPS of $3.88 versus the $3.12 consensus on $11.13 billion in revenue, but Q2 and full-year revenue guidance came in just below estimates.\n- Best Buy surged 15% on a clean Q1 beat, reporting adjusted EPS of $1.28 versus $1.23 expected on $8.94 billion in revenue. Gaming, computers, and phones drove the upside, while appliances dragged.\n- The US and Iran agreed on a 60-day Hormuz framework, but the deal is still awaiting Trump sign-off. Negotiators reached a memorandum of understanding to extend the ceasefire and gradually reopen the Strait of Hormuz.\n- Bitcoin fell roughly 2% to about $73,460 after dipping below $73,000 in the morning session, as spot ETF outflows and renewed Iran-Hormuz jitters triggered leveraged liquidations across the crypto complex.\n- Costco Q3 net sales topped $69 billion, up 11.6% year-over-year, with comparable sales up 9.8% (adjusted 6.6%), and net income of $2.19 billion. Digital sales rose nearly 21%.\n\n### Notable Links\n- [Salesforce Q1 earnings report](https://link to primary source)\n- [Snowflake Q1 fiscal 2027 earnings report](https://link to primary source)\n- [Costco Q3 earnings report](https://link to primary source)\n- [Amazon Web Services](https://aws.amazon.com)\n- [Graviton CPUs](https://aws.amazon.com/ec2/graviton/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Snowflake just had its best day ever ❄️\n\nPLUS: Salesforce's soft guidance hits CRM, Best Buy rips 15% on a beat, Bitcoin slides under $73K, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 28, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/3ioi9dzPgDhrp%2Fylx%2BQBDoL3%2B09NIkHcU7AfiPo2yXme69Lj0zeE%2Fv%2F%2FlJ4B%0AZRLB83VoYKFsKRqxrE0H33G7LGOEtch60ZQ3NXZHELX9taDTnE%2F9r4856wto%0AL%2B2b3BWgw7Am%2FaSzgrPm9PQfqnY7CzBZrQhGIfX%2BLWdnionytKFMdrc33HHl%0AxOrB9kZHPs%2F0pchra8PWAx8ok7jnfMWJOA%3D%3D%0A/7a7ddcfb4c96f9b7)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uplo"
+    },
+    {
+      "from": "\"The AI Leverage\" <theaileverage@mail.beehiiv.com>",
+      "subject": "Everyone's about to lose money on this",
+      "date": "2026-05-28T23:51:08.000Z",
+      "summary": "## The AI Leverage\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Agentic trading, which involves using AI agents to trade on behalf of users, is becoming increasingly popular, with platforms like Kalshi and Polymarket allowing users to trade on real-world events and Robinhood recently opening its platform to AI agents.\n* Kalshi and Polymarket are two platforms that enable agentic trading, with Kalshi focusing on US-regulated, real-dollar trading on events like inflation and elections, and Polymarket operating on crypto with a global and faster-paced approach.\n* Robinhood's move to allow AI agents on its platform is significant, as it indicates a shift towards automated trading and may signal a broader industry trend.\n* To start with agentic trading, users can open a Kalshi or Polymarket account, pick a market to study, get an agent, test it in demo mode, and then go live with a small amount of money.\n* Strategies for agentic trading include trading what you already know, copying people who already win, and running a template strategy, with options like mean reversion, momentum, and cross-market arbitrage.\n* Claude Code, an agentic coding environment, is also relevant to the topic of AI agents and autonomous workflow execution, with its ability to plan, use tools, and carry out multi-step tasks with limited human prompting.\n\n### Notable Links\n* [Kalshi 101: Learn The Basics](https://link to Kalshi 101)\n* [Polymarket 101: Learn The Basics](https://link to Polymarket 101)\n* [Robinhood Agents](https://link to Robinhood Agents)\n* [Claude Code](https://link to Claude Code) \n\nNote: Due to the lack of specific arXiv IDs/DOIs or primary sources in the original newsletter, no markdown links are provided.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Everyone's about to lose money on this\n\n🎁 Here's a $10 gift so you start risk free  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 28, 2026   |   [Read online](https://link.mail.beehiiv.com/ls/click?upn=u001.KpTSp8BZKxxeOS7IyX3VZ-2FwxiNtrcWkddifgGGQnGNbLoMMa3alloRiWrRGRqMvUTQungRqaTRe0EB1OzUAALfXKcpsLCPDcWs4pmI8Oq6unDN0UcT9uQmNZzuP0gEU07MyrmZLs5V8ErzBZN2amNSA8QH7g6x6pjSs60OVnE2KYXDEMpI8KlSUEIsfSPOzKAnY1ITObHIfLUGHavIq0Y1-2F9750Swe9D7kWBJEk50acW9YOHur3e-2BJ7laWWPdCt6y49einW7Pg-2BzuCBf0-2F1emObKxz8t3MsLbofd-2BjGgW3mTwqqWoLLDudLQQqnOeadYc3IVk6N4krK2-2FAqIDjZdonEXl-2BmitleEczIUiaO1dKNG9RWYuZlGpCLGMnz3q3Ds1PJ5QBffRFBqCFtBgzdD63PV6YH5YZd6y"
+    },
+    {
+      "from": "\"World of AI\" <newsletter@intheworldofai.com>",
+      "subject": "Claude Opus 4.8 Just Dropped! 🧠🔥",
+      "date": "2026-05-29T02:05:20.000Z",
+      "summary": "## World of AI Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n- Anthropic has released Claude Opus 4.8, a new flagship model that is 4x less likely to fake confidence about code and is available at the same price as 4.7. This model is a significant improvement over the previous version, with major gains in software engineering, long-horizon coding, and high-autonomy knowledge work. Claude Opus 4.8 introduces a new fast mode that runs about 2.5x faster at roughly one-third the cost and has a lower 1,024-token minimum cacheable prompt length to make large-context workflows more efficient.\n- The new model has achieved top scores on SWE-bench variants, improved long-horizon coding and program synthesis, and has a 4x reduction in unreported code flaws. This makes it a leading choice for building robust AI agents and complex AI-driven workflows in production.\n- Claude Code, Anthropic's agentic coding environment, has been updated with a new dynamic workflows feature that allows it to orchestrate up to 1,000 parallel sub-agents in a single session. This feature enables Claude Code to function more like an autonomous software engineer than a traditional code autocomplete tool.\n- Anthropic has confirmed that Mythos-class models will reach all customers \"in the coming weeks\", which is a significant development in the AI/ML ecosystem. The company is positioning itself as a leader in AI safety and research, with a focus on \"constitutional AI\" and safety research.\n- The Claude Opus 4.8 model has been benchmarked on several tasks, including SWE-bench Pro, Terminal-Bench 2.1, OSWorld-Verified, and GDPval-AA, and has achieved significant gains in these areas. The model is also more honest and less likely to confidently guess, which makes it more reliable for production use.\n\n### Notable Links\n- [Claude Opus 4.8](https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaS5ehKkBjqZQc3cZZSGTaGbb2lNce4fmJ8eoW34hUvOuT10GohTjBN9unbfo7JGVLx2NZn6dP8B37kJApJQbCMGFAtwx5uu71BGDo6aWCrAskL4jphJTUgAulo7yYK1Md0ED-KLOEcACXefZDex66elOURNsE5hItYslSQ8T4B5iFZ9rn6sS2mjBF3Qq4XtPYhtFByw240A7MN04Ow8AYiMhXsnUw76XyjgtokgCDtCTjlMxHA-QJ94AK9JkrvQX4Q)\n- [Claude Code: Dynamic Workflows](https://elink9ea.intheworldofai.com/ss/c/u001.lucfYNA_dUgSggY72D242CfJc8aA5aWkxDC4aUH0aTF44oL5ftlsKtAnLTZ98cQoBxJ61DoNDHV6vBTyxdgv3bkjJ2mHlQl-PRf28n2iZNUThx9htVvMdm2k9NJgig3Miyjay9_He2YbGzi4QLrWfe7XRU4k5iYSW_rkcEuzhLnsoi194Iy64v0OBIzyp66yQIqhe_8uBYBzYe0dTUxRU_RH_JxzXrAx6cVI0IDp1BUBrIYzBypIqkSS5uMPtaAfGW2E1yTV_PhjILHzfY7eKVuX38ddbbJCfSSCS_wwqsE)\n- [Wispr Flow](https://elink9ea.intheworldofai.com/ss/c/u001.iPsJj88FkjIBht_9A54QDnByzMuP__70DS0An2V51v3SsMKKBviMgkvsharZA4yKTJGkLXj2NY4Z7gt1POwoo2dOP0yQIQpljXWRK6ZsGicLjLn_XleyRqlVJw7kJiL4Y4UEQE42QrmybXp7pkcAPybt4T5Msi5yolEtaQdGf-SVj6U36dcv3E3fK0lWqs53puxdp1y568x-qzvsV2fOW1irGsmODrAqwjAp-npu9WMCNxbd10VP4ees40r15gslV0CRcVgvM7dlOh1kkczc8f6gJIBKlvFxltIt9QpFJ4v4y_N9RiYqN77YHVGTKpZvE_7mNqWarMoQ3NQzcHuo8poDz7cwexWYUq-0P7AVIXrELbr-it2ByEBJ9vsCMQGQEWizaAeiam3kRRG6ROXQv9qINCron9iZGKkIo4jsTKQkeKZMWXyYzH7LMzsKbS83)",
+      "links": [
+        {
+          "text": "Listen online",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIti15l3K_3EMj1XWqVv8WLELpR2y3e6MgURtM163wBKK8qSeIKv6jcKVKcP0XH8mnmvTwrTjKiPDVeFB1RDgpoq2vIeJIEowQcpdFKqeE04GI77Cw9TTB7vPglL-UKzGU5X96e-C6bsx-NfxbGxX4lAfj5MJZOJe4jkRN-P0ZmyhscYC29vJ1nAiVreuWP1XobPrPodhFVTqP60NRX-iH0i64cPgb4TOEpnWjGlF4hecK6sJY9SxTOFOA3eLGqSO5wVa7Fe5rVX91wwjN6_yuoMbNKPjpY-u6CcxWxUMIskqPBWfS1ow5oOJkH70qumL1zMiRPqWnqsGvQdpWbkiPMx-B4r6S-QmsQbRiz8Tom9pjYjd4f_nnmM9LNpojzpD8UorXVOybFuTq06qCyi6gX6cJmVEdW7hCzUgNK-CLLHK5Msq-gte4kQ651kYS4zcc0h7iKWU2copniBDYYIOVWwUnYU4lYn2ZCXcJ8NaNwuk9kpMK-NFeUc8tCBfo8CXJO1C_BXxsKLj1iRgs7unm9f4nnGzU-BM_OWL04v8_rnUD9H_B_ncAOohB8G97sroLRJgU8ZKeFRORpt4ZYvxJGNj-8sODAzDfYU8olrEWiBSAFAU4QdXsXphp13UOCoxdxYfP4VplxP128S9c-rxF1C5xCoS7nrNLJZ4i9wzefFUpmOBxGRFzAzLUlAikchvpTkU6o4uq07eGHnNdq8Y9pfW6CYNwqGypIZmpBDD3i8jg/4r1/XxcvE_EFQHardpkNMQNQfA/h0/h001.CxxvZ2NFSXmtVk-ZESIMSGRmW-nXBL2xquwk5VaYDoc"
+        },
+        {
+          "text": "Wispr Flow",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.iPsJj88FkjIBht_9A54QDnByzMuP__70DS0An2V51v3SsMKKBviMgkvsharZA4yKTJGkLXj2NY4Z7gt1POwoo2dOP0yQIQpljXWRK6ZsGicLjLn_XleyRqlVJw7kJiL4Y4UEQE42QrmybXp7pkcAPybt4T5Msi5yolEtaQdGf-SVj6U36dcv3E3fK0lWqs53puxdp1y568x-qzvsV2fOW1irGsmODrAqwjAp-npu9WMCNxbd10VP4ees40r15gslV0CRcVgvM7dlOh1kkczc8f6gJIBKlvFxltIt9QpFJ4v4y_N9RiYqN77YHVGTKpZvE_7mNqWarMoQ3NQzcHuo8poDz7cwexWYUq-0P7AVIXrELbr-it2ByEBJ9vsCMQGQEWizaAeiam3kRRG6ROXQv9qINCron9iZGKkIo4jsTKQkeKZMWXyYzH7LMzsKbS83/4r1/XxcvE_EFQHardpkNMQNQfA/h4/h001.HY_34OTev8KuQXWmvC_exPSfjC_wUdwNtt2rIevrQLA"
+        },
+        {
+          "text": "Start flowing free",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.iPsJj88FkjIBht_9A54QDnByzMuP__70DS0An2V51v3SsMKKBviMgkvsharZA4yKTJGkLXj2NY4Z7gt1POwoo2dOP0yQIQpljXWRK6ZsGicLjLn_XleyRqlVJw7kJiL4Y4UEQE42QrmybXp7pkcAPybt4T5Msi5yolEtaQdGf-SVj6U36dcv3E3fK0lWqs53puxdp1y568x-qzvsV2fOW1irGsmODrAqwjAp-npu9WMCNxbd10VP4ees40r15gslV0CRcVgvM7dlOh1kkczc8f6gJIBKlvFxltIt9QpFJ4v4y_N9RiYqN77YHVGTKpZvE_7mNqWarMoQ3NQzcHuo8poDz7cwexWYUq-0P7AVIXrELbr-it2ByEBJ9vsCMQGQHk6lPHfAL9rLwcEG1xSjSmNgTnF3OBhmheOG2g6c4P1s-vam7BS37D_gu_K7F5aX/4r1/XxcvE_EFQHardpkNMQNQfA/h5/h001.doNGfx_0ARojXhLM36alT29h0nyzfmQaCRVapenkl4Q"
+        },
+        {
+          "text": "✅ I Really Liked it!",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofItm4SDEJHLrxAnYRbSZGtrw86SUlnDrF4kHuybVpNbbhBpI9VL6Jq_uns_LZhE0wFYykBgojPL-w4YPtmP4h3sW1AKA50MPc36va0b9MLZwkYgwj9FEevOge4augVfwcE6--X2MBu_tKGB-iaWWjpFnnAixiXEl1I_AcUkXX3E9m3OVKB6CL0Yvm5oWhM_lx1diH-tZfsqfaIaMVcWU_th4qEORiktaO2SmAcn1Z13cprRgCcOafzsjJpYOZmOo1avxFO1ju1vNoGDgCEPy7uT7egRP5DyziFKq5Q91j8tyvPJ_0geZWqnMAGRZJyd3b82gRLskuRB30JVe0ZYJBDDe0b4IvJLcjB8UhxeVE6-t15hN1Ht2HqBhmCPlwuXO1pNMTfOS72qcfA7Xhfsyp5FwI-wAWJ638h0Sa1iPwj45sRL4jK-UFfH1xvhyxq8yI7ZzSYjr5ukq2RJNIkzGbLQRLWDpzpZE-s0s29ITaBRgP1Tc4SgDNMpdoaBFE1Y9ntih7KfWinBgOF9yEBiCukFZooF56eYv_5Ja7Wjghpba2Z0a8PWtHc7Bs9Tjy5y77I8HUKbOoKvF7q43MTkRNn8l-Bc30QsD0kDTkE60cMGu-YZjY-IQQiz-YAnP0jYVzXuCwRktRZFInHjrL0n1oCA1HwlUttWpIUlwHDDjNi0zQ4emXz73o9a3aHY4NyEBcNxr6g7DIAtzljFe5wChDfGzR4LTJWKnfRtzrXExfbpiZCCoWsk4qTUjvQ4bFxE7xUrKxELv6OOuKO_2fJu_X0zIVcfo0-X0_UvHHKWWnuRP73YTXCweR0_aJGKM9gPcjZQgZFgyF_Z5qZJ6lkbnOJFz3OxgNFjDxgE1TD9fOFQs0P_84F8Yvy9Wtx-d_jpfdanO5c9O4VIlK6JE-R4LK1cWuKgb2zLE7EE9xDkf0xCZGc8o4AqVI_nipR11ZHF5niwivPVWlbtcW9o2hKsoxzg4dJbxQ1AxeCZ0sVssGsShPw/4r1/XxcvE_EFQHardpkNMQNQfA/h6/h001.FAfmu4hDl7KB3xI00UBqLbhVwITFxbWrfIt_pF9nEb8"
+        },
+        {
+          "text": "🚀 Solid, keep going",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofItm4SDEJHLrxAnYRbSZGtrw86SUlnDrF4kHuybVpNbbhBpI9VL6Jq_uns_LZhE0wFajR0G87R0K5KjqSvnnODh16mGXM0eekwCYRoju88LIDBsQfLzpbESWZxZoJce4KunbQpwBmC0QyhJhtLQVw1TJEM228XexhMzx6HR3cnxxtiaNTvWWOYnW-dH9vqjLJ-w61pmhM-NYYrUIzjktoiHmQyBctl8pt3TywWZCP_ila2JqONIx8lsiQFuDqwIUqHXP8DrXUA0BfYsiLD4wA617rjUuHWQWPxRf4-Jcyd0OGSYbbwCJZ4cwzd7QEzGQgyKA5tlUeQ5u9IDRNA04z3BL8QCzqZzAbd2c_FYMhLZksURe630MrAirTyr0eQL6kEl_ZcF-vChBIbIRmYCCvJ3AuXe0D7k6Kj1ZiQpn_ruQyxwfsZkdQB7o0yzlkZ0_tG4t-YTEjdfl0S3L0aDtp1BSTx7UgtSmuTx0qUx89m4a3cWSiyYp84OqMPe-JQHyTEmZqL1ozZ3BhC0FFpKKzb5RY2Y8jWiwSA7cS22GcFI3krWfv4akGRQklAd_9q51AsjMjguEAg1IywBGMFoOYKQAJkIJHOPF7vndjUaH37U9LdRMb2sOe0DOcZ91u-VZrLadCwhh0TjsE5ju4CAqNKWEW-GmRNkCanZB4hNDgL6B_6nW57ir3c_ehwTPQhqLJArSGy90DDYUN4MLeITpbFEatdH6IsLJMlLcSgqCbQYT23C78_aLU2q_HMxXWHIZopVUkgwU1tmHVwCeulSwP5ECJ5TkoLmmWd_LwFmbndYhiY4NDLD1_TWXmYqr2i-1m-Gg7NZUKFkN-tiVTwP6y0q4fKkRYvYaCNPAIF1RMpQTHS9n6gst_jHCZc9wrr6E5ryu5W-ciTE3IP3W3uRmp_4r_z7DeM7H-uRm8lc7GHcbET2TDZPo-7jKl6dbgzZEToyv8MUkJaJmc0UCtHxxyLM7QsV8aHYO4kqqTgQ0Uuwjtw/4r1/XxcvE_EFQHardpkNMQNQfA/h7/h001.vATnzzYvIaIl3vzSXVTUws4nESKZugQNfbpS6xlvc78"
+        },
+        {
+          "text": "🤔 Could be better",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofItm4SDEJHLrxAnYRbSZGtrw86SUlnDrF4kHuybVpNbbhBpI9VL6Jq_uns_LZhE0wFbmeB39M7byXW7nIcZ18BphbV64TZDL5yOWyKzeF6eoEF2u1ktmwqaG_rO6MXHGJb_QrlyW3FbC7p7I8pHqzKCYOGvtLUbD0MD3WR44EGgI9aTlUIpqrnOpouY_RlSf44N0k6aGhVrocp0cSbW8lB8sUd-6HbJfwFgRaQ5vnOwHoprRTvYULJkM60rhJpmILGs2VzKDRXj3ovd5jEjhmCqf_fdxyGsfEO3fr06o0ZEkrWKjNw4ZFchpfaYENPkjIySezeNvVnjJCheh8Fl2rIERrSv4BGDVPqq-Gakx46C2SupnEJa5fQfxZV63ayCenaCd3RkoiH0YWcJNhYpbiuozRDAEd9ngjzKyCt9IOqlJuZYzEg6zV5T8nC0hCwkXLrPhbJv3Gu3bRnJCSu9p7ROSNmJDO9E05p229j53sk_AZAoj5gLWuAy-i_Rj8in4YOl36kaBraatr3E0tqVq3HyLuuixJx7iSRA-pHIfK29mdBSrWO2G2Yy3PtA64eWDffh7pLwyszq3D2OSKXfv4HdqLVpJra9vp3o9A-Z9oNlAieZBVpLHCJwoNm8M-kaDUGdzOt3xzwApJWCjkqq1mGwjZjfexj3xRhbZR5jgaeHO1uE3F9MFa37vlLnIXnj_3zBRjcssqF_XyuyKBYj3nXaieO1EtyKWf4tRYR-vEUyq7kh_ecQUINOo5CjGb9_V1vlF2Mn42juySKfW0LO9FyGQwHVGqXNI8mi1MbEFZTSRA1Ay0BVa3AgCu4ISOvvnosP0gZ4RMlrQzpGcA8IZ8VTCbQB-h0hqIhnp26YGTQtha4Vk3En4g58DrLdpdXIbVqWpQ5QmsyBuY8Q4304rM4CH5ERzXo2s-EVl0LZqkb2bJ2_9pBc2GUeF3Bi2sdixvcCp_gWCBvF7yVZMRSRzj5zffsAshPg2gBmWZwxUdigRFA/4r1/XxcvE_EFQHardpkNMQNQfA/h8/h001.1hoz6LCmp2UMh2aC-mSh6ofGm-HRoZZWL1HGs3a4B7Q"
+        },
+        {
+          "text": "Here",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaS5ehKkBjqZQc3cZZSGTaGbb2lNce4fmJ8eoW34hUvOuT10GohTjBN9unbfo7JGVLx2NZn6dP8B37kJApJQbCMGFAtwx5uu71BGDo6aWCrAskL4jphJTUgAulo7yYK1Md0ED-KLOEcACXefZDex66elOURNsE5hItYslSQ8T4B5iFZ9rn6sS2mjBF3Qq4XtPYhtFByw240A7MN04Ow8AYiMhXsnUw76XyjgtokgCDtCTjlMxHA-QJ94AK9JkrvQX4Q/4r1/XxcvE_EFQHardpkNMQNQfA/h9/h001.IxOeozVVTVF1TfCwO2DLC5YHe7nPctIybo3DCYeygB4"
+        },
+        {
+          "text": "Here",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.lucfYNA_dUgSggY72D242CfJc8aA5aWkxDC4aUH0aTF44oL5ftlsKtAnLTZ98cQoBxJ61DoNDHV6vBTyxdgv3bkjJ2mHlQl-PRf28n2iZNUThx9htVvMdm2k9NJgig3Miyjay9_He2YbGzi4QLrWfe7XRU4k5iYSW_rkcEuzhLnsoi194Iy64v0OBIzyp66yQIqhe_8uBYBzYe0dTUxRU_RH_JxzXrAx6cVI0IDp1BUBrIYzBypIqkSS5uMPtaAfGW2E1yTV_PhjILHzfY7eKVuX38ddbbJCfSSCS_wwqsE/4r1/XxcvE_EFQHardpkNMQNQfA/h10/h001.L8BcA0rrv34LH4Dkscou_48AzoEkSojf_9MK9DMQg5s"
+        },
+        {
+          "text": "Claude Mythos 1 Preview Leaked...",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaXgc7wkhO5qnqQqF6Zk88E7CJP-8K1CRP69rWy8UrtxX4Y9fq4ibE5PWKDD-Mbbi9x89XQc3bNdUfgYs26dmAjiV3gtXsbpaofIBfTbITYwSFvaIqOVtDzXyxTxHu3_0sEwqDO9xNlxbANOMN4O82bDdvyeY91xRWrJCzuMC2sA0M5UVmTDAvgjVE3fy17Yvj2ixZ6WFxSsFPoVdmhAlJmMqvF1DOC6bOiJr5lIoKIm8RRKryubQZGDanf7qneGf9w/4r1/XxcvE_EFQHardpkNMQNQfA/h11/h001.J-WWk5p3hXM91lMAEszubGpz4GwVefAPf8YZtEPjUx8"
+        },
+        {
+          "text": "Book a free AI consulting call.",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.dr13V4H10E-Jo8xtnosiafVC6nEF8hif9ASMzZyRmJmVkTO947MnczggmD8sPn4OmtnRFuYA-bBvNDF_-4tpmztHPOGGMmcZEj5VkyjAcpwnR-iGi_4Clap2eaCB63t0MjRg7fe_NjPQfVCON7_C1fw75f5qhDZsmSGGRIUkWPIJvhnSbv28QpepRiQSYuSICH57t1LGtLjne7Evx4vaWgcKYpAvkXrsOQn8SyzTaX5R5NgTJUeyv_ECS50SyJRZRCOZHo7Phppm5Vok3_HGDA/4r1/XxcvE_EFQHardpkNMQNQfA/h16/h001.U0i7CHUwE8eX62sIx9G5knty1E_8xTwEMRk9QK-6DlE"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Claude Opus 4.8 Just Dropped! 🧠🔥\n\nAnthropic just shipped Claude Opus 4.8, 4x less likely to fake confidence about code, at the same price as 4.7. Plus Claude Code now runs 1,000 agents in parallel.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 28, 2026   |   [Listen online](https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIti15l3K_3EMj1XWqVv8WLELpR2y3e6MgURtM163wBKK8qSeIKv6jcKVKcP0XH8mnmvTwrTjKiPDVeFB1RDgpoq2vIeJIEowQcpdFKqeE04GI77Cw9TTB7vPglL-UKzGU5X96e-C6bsx-NfxbGxX4lAfj5MJZOJe4jkRN-P0ZmyhscYC29vJ1nAiVreuWP1XobPrPodhFVTqP60NRX-iH0i64cPgb4TOEpnWjGlF4hecK6sJY9SxTOFOA3eLGqSO5wVa7Fe5rVX91wwjN6_y"
+    },
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
+      "date": "2026-05-29T02:07:25.000Z",
+      "summary": "## AINews\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic, an AI safety and research company, has raised $65B in Series H funding at a $965B post-money valuation, led by investors including Altimeter, Dragoneer, Greenoaks, and Sequoia, with plans to expand capacity for growing demand for its Claude model.\n* The company has also released Opus 4.8, an update to its flagship Claude Opus 4.x series, which features improved judgment, honesty, and longer autonomous work capabilities, with the same pricing as Opus 4.7.\n* Opus 4.8 has achieved state-of-the-art (SOTA) performance on various benchmarks, including SWE-Bench Pro, FrontierSWE, and APEX-SWE, and has been described as more efficient and less \"lazy\" than its predecessor.\n* Anthropic has also launched Dynamic Workflows in Claude Code, a research-preview orchestration system that allows Claude to plan work and spawn hundreds of parallel subagents to tackle large tasks, with potential applications in coding, writing, and knowledge work.\n* The company has reported a run-rate revenue of $47B, attributed to enterprise deployments and everyday usage, and has emphasized its focus on safety and alignment in its AI development.\n* Claude Opus 4.8 has been found to have lower hallucination rates and improved performance on long-horizon tasks, but some users have reported concerns about token usage and quota burning with the new Dynamic Workflows feature.\n\n### Notable Links\n* [Anthropic](https://www.anthropic.com/)\n* [Claude Opus 4.8](https://www.anthropic.com/claud-opus-4-8)\n* [Dynamic Workflows in Claude Code](https://www.anthropic.com/dynamic-workflows)\n* [Artificial Analysis](https://artificialanalysis.substack.com/)\n* [AINews Website](https://www.ainews.substack.com/)\n\n### Notable Statistics and Facts\n* $65B: Amount raised by Anthropic in Series H funding\n* $965B: Post-money valuation of Anthropic\n* $47B: Run-rate revenue reported by Anthropic\n* 1M: Token context window for Opus 4.8\n* 2.5x: Faster performance of Opus 4.8 Fast mode compared to normal mode\n* 3x: Cheaper cost of Opus 4.8 Fast mode compared to normal mode\n* 4x: Lower likelihood of Opus 4.8 leaving flaws in its own code unflagged compared to Opus 4.7\n\n### Notable Companies and Products\n* Anthropic: AI safety and research company\n* Claude: Flagship model series by Anthropic\n* Opus 4.8: Latest update to the Claude Opus 4.x series\n* Dynamic Workflows: Orchestration system in Claude Code\n* OpenAI: Leading AI research and product company\n* GPT: Series of large language models by OpenAI\n* ChatGPT: Product by OpenAI\n* Microsoft: Partner of OpenAI\n* Claude Code: Agentic coding environment by Anthropic\n* AWS Bedrock: Cloud provider that has rolled out Opus 4.8 across multiple regions",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWluZXdzLWFudGhyb3BpYy1yYWlzZXMtOTY1Yi1zZXJpZXMiLCJwIjoxOTk2ODA4NTQsInMiOjEwODQwODksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgwMDIwNTU3LCJleHAiOjIwOTU1OTY1NTcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.k_qiBDA_xIT-FtXgNsaQ6y8oEQpK-BotW3dAxwEGHY0?"
+        },
+        {
+          "text": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=199680854&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTY4MDg1NCwiaWF0IjoxNzgwMDIwNTU3LCJleHAiOjE3ODI2MTI1NTcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.9Cc8Cn3YxYdc-xWyj_iR5qksvh7SDm8S0JrGnaccZEE"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ainews-anthropic-raises-965b-series?redirect=app-store"
+        },
+        {
+          "text": "fastest growing company of all time",
+          "url": "https://substack.com/redirect/ae3e5fec-7299-4b8e-afe3-0e7afd45081c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "officially reported $47B",
+          "url": "https://substack.com/redirect/b78c9918-3a87-4dd7-815f-5469eb8de88a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Amazon",
+          "url": "https://substack.com/redirect/c04ec9aa-be5b-4c9a-aa88-eb7a6264afc9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Opus 4.8",
+          "url": "https://substack.com/redirect/29145357-d9e1-4cd2-ab12-99288bf2bc5b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Opus 4.7 post launch",
+          "url": "https://substack.com/redirect/b9711d7d-590f-445e-9e96-d132ed444c08?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "“dynamic workflows” feature",
+          "url": "https://substack.com/redirect/d2cb329b-41ee-4155-b333-1a659417088d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "750k LOC rewrite of Bun from Zig to Rust in 6 days",
+          "url": "https://substack.com/redirect/cfc62cb9-3b1f-4509-81d3-219fe43f7649?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "\\[AINews\\] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode![](https://eotrx.substackcdn.com/o/55eba517b9f457ff/p.gif?token=eyJtIjoiPDIwMjYwNTI5MDIwNzI1LjMuOTA0NzVmMWI3ZjVkNTk5N0BtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxOTk2ODA4NTQsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjEwODQwODksImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODAwMjA1NTcsImV4cCI6MTc4MjYxMjU1NywiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.FPCmuf3-4d7tPPIYtI938pFlm5IDeDuVk7EYeoVrKfM)\n\nTotal Anthropic victory!\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"Simon Willison from Simon Willison’s Newsletter\" <simonw@substack.com>",
+      "subject": "I think Anthropic and OpenAI have found product-market fit",
+      "date": "2026-05-29T02:19:56.000Z",
+      "summary": "## Simon Willison's Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic and OpenAI have likely found product-market fit, driven by the success of their coding and general-purpose agent products, such as Claude Code and Codex, which have led to significant revenue growth.\n* Anthropic's Claude Opus 4.8 model has been released, offering a \"modest but tangible improvement\" over its predecessor, with features like mid-conversation system messages, lower prompt cache minimum, and improved honesty.\n* Pope Leo XIV has released an encyclical on AI, emphasizing the need for human accountability, transparency, and responsibility in the development and use of AI systems.\n* Microsoft's Copilot Cowork has been found to have a vulnerability that allows files to be exfiltrated, highlighting the need for improved security measures in AI systems.\n* The AI labs are spending billions of dollars on training and inference, with Anthropic's deal with SpaceX being a notable example, and the memory shortage is causing a repricing of consumer electronics.\n* Anthropic has announced a $65B Series H funding round, with a run-rate revenue of $47 billion, and is expected to go public soon.\n* Claude Opus 4.8 has been released, with improvements in coding, reasoning, and multimodal capabilities, and is available for use in the Datasette platform.\n* Datasette has released a new version with a customizable \"Jump to\" menu, and Datasette Agent has been updated to support the new menu.\n\n### Notable Links\n* Claude Opus 4.8\n* Magnifica Humanitas\n* The memory shortage is causing a repricing of consumer electronics\n* SQLite AGENTS.md\n* Simon Willison's Newsletter",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zaW1vbncuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnNpbW9udy5zdWJzdGFjay5jb20lMkZwJTJGaS10aGluay1hbnRocm9waWMtYW5kLW9wZW5haS1oYXZlIiwicCI6MTk5NjgzOTYzLCJzIjoxMTczMzg2LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MDAyMTI2MywiZXhwIjoyMDk1NTk3MjYzLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.qiY2QU5yQ-mRDQnBX51EFUDX50fAQTzS3E1D-e1RR9Q?"
+        },
+        {
+          "text": "I think Anthropic and OpenAI have found product-market fit",
+          "url": "https://substack.com/app-link/post?publication_id=1173386&post_id=199683963&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTY4Mzk2MywiaWF0IjoxNzgwMDIxMjYzLCJleHAiOjE3ODI2MTMyNjMsImlzcyI6InB1Yi0xMTczMzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.k_H3UjbV2feeSxuCfd9y3Ve9qXqpJSE8c6DOXMLxB40"
+        },
+        {
+          "text": "Simon Willison",
+          "url": "https://substack.com/@simonw"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/simonw/p/i-think-anthropic-and-openai-have?redirect=app-store"
+        },
+        {
+          "text": "Discover Microsoft Marketplace",
+          "url": "https://substack.com/redirect/09848275-9efa-42c3-bd78-0b25cd65001a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "I think Anthropic and OpenAI have found product-market fit",
+          "url": "https://substack.com/redirect/1024b51f-17df-4502-b377-51795e2c02a0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "strongly rumored",
+          "url": "https://substack.com/redirect/f48674de-233d-4de5-85f5-bc6fc9f8596b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "are circulating",
+          "url": "https://substack.com/redirect/9e749f1a-e68f-407d-9329-e2772c15fc00?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Enterprise customers are now paying API prices",
+          "url": "https://substack.com/redirect/8b593aa7-455b-4f60-b700-a229feedd357?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "I think they’ve found product-market fit",
+          "url": "https://substack.com/redirect/e40a9cea-fcd0-4499-8c92-1989cbc2d50e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "I think Anthropic and OpenAI have found product-market fit![](https://eotrx.substackcdn.com/o/ad9151baa88546f7/p.gif?token=eyJtIjoiPDIwMjYwNTI5MDIxOTU2LjMuN2QyZmM5NTUxYWNmOTYwNEBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5OTY4Mzk2MywidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMTczMzg2LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgwMDIxMjYzLCJleHAiOjE3ODI2MTMyNjMsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.LcqpNHoKQfIEqfCflqGflohLJO1EmTQ7VOgCLmKylIY)\n\nPlus Claude Opus 4.8: “a modest but tangible improvement”, and the Pope!\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"NVIDIA Developer Relations\" <news@nvidia.com>",
+      "subject": "Your Personalized Developer News from NVIDIA",
+      "date": "2026-05-29T05:25:52.000Z",
+      "summary": "## NVIDIA Developer News\n\n**Priority: MEDIUM**\n\n### Top Updates\n- NVIDIA is hosting a keynote by Jensen on June 1 at 11 a.m. Taipei time, which can be added to calendars using the provided link. This event is part of the GTC (GPU Technology Conference) and is expected to cover significant updates and announcements in the field of AI and GPU technology.\n- NVIDIA Dynamo Snapshot has been introduced to provide fast startup for inference workloads on Kubernetes, addressing the cold-start problem in production inference deployments by enabling inference replicas to scale elastically.\n- NVIDIA Blackwell has set a STAC-AI record for LLM (Large Language Model) inference in finance, demonstrating the capability of LLMs in analyzing vast amounts of unstructured data and their potential in the financial trading landscape.\n- NVIDIA CompileIQ has been updated to provide auto-tuning for finding the best compiler options to unlock kernel performance, tackling one of the hardest problems in performance engineering.\n- NVIDIA CUDA 13.3 has been released, enhancing GPU development with tile programming in C++, compiler auto-tuning, and Python updates. This new version brings significant capabilities and performance optimizations to the CUDA ecosystem.\n- NVIDIA has discussed the synthesis of realistic 3D medical images at scale for pre-trained models, highlighting the importance of high-quality 3D medical imaging data in modern radiology AI and the challenges of accessing such data due to scarcity and privacy restrictions.\n- The use of multi-agent systems for automating and optimizing financial signal discovery has been explored, showing how AI agents can be used to find signals in quantitative finance.\n- NVIDIA has provided guidance on mastering agentic techniques, including AI agent customization, evaluation, and the addition of specialized deep research skills to agent harnesses.\n- The company has also announced NVIDIA-verified agent skills to provide capability governance for AI agents, ensuring that autonomous AI agents are becoming more capable and easier to use.\n\n### Notable Links\n- [NVIDIA Developer Program](https://developer.nvidia.com/)\n- [NVIDIA Deep Learning Institute](https://www.nvidia.com/en-us/deep-learning-ai/education/)\n- [NVIDIA Technical Blog](https://developer.nvidia.com/blog)\n- [NVIDIA Docs](https://docs.nvidia.com/)\n- [NVIDIA Forums](https://forums.developer.nvidia.com/)\n- [NVIDIA On-Demand](https://www.nvidia.com/en-us/on-demand/)\n- [NVIDIA NGC Catalog](https://ngc.nvidia.com/catalog)\n- [NVIDIA Inception Program for Startups](https://www.nvidia.com/en-us/startups/)\n- [NVIDIA Connect Program for ISVs](https://www.nvidia.com/en-us/partners/isv/)\n\nAdditional context on AI agents and their applications, including Claude Code and its impact on developer productivity and agent architectures, highlights the growing importance of autonomous AI agents in software development and other industries. The recent developments and launches in the AI agent space, including updates from Anthropic, OpenAI, AWS, and Google, demonstrate the accelerating pace of innovation in this area.",
+      "links": [
+        {
+          "text": "Add to calendar ❯",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhL3icUghUddiyuIYLwv1llZU_cvneARt61dVLjaGiSOpluw88RwhA8rPK2d5QqLfhmDQ="
+        },
+        {
+          "text": "Click here to update",
+          "url": "https://go.nvidianews.com/dc/M3tNI9WjhwgpWj9zFPExhge-BKR_acD5iJOXmz-jvcuL4yPcmxAWPs9Ral1BDqA1lHSBiMMqe66WCdJ8OeC9ov9b0yMYX_rB3QP8BVew4cwtZ0Zgic26nMDwZ08jdL5o2bCKSXxTagYOr-chkv9mWuc_iyBi0XHn5QgkUS0_DdjBMMhOw0b-HTcbrKnx9IjMY2HJY9EFGAUKh_8TD-pf01Tccgcg_fF9JmJ-LaW3waLDzLTJV9ylGM_xeEa0VofnfzjqHjYMwszxayuVzjDcjjzA43I3K8eLNmBw0wHzOKI=/MTU2LU9GTi03NDIAAAGiESrhL98dTk8PbEFOZBQ91LrRcs2gpbHBSaT4P1d7stNzXn1NBpGWWZ1heSP_m2YuHjycIKQ="
+        },
+        {
+          "text": "Read More",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhL-83RWE_y1o3ER25zgyEcSOdOar0fzjJImq05kh2WKcDRrlGx8-MCK-irVCNB8EJEdg="
+        },
+        {
+          "text": "Read More",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhL612OD8exvNJwIZFO3UuDBa0sr6iIoBCsWtK1ilPfFTwCoXIdPiF-uRqG5ywjainGeE="
+        },
+        {
+          "text": "Read More",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhMO8iJ5i_nNS_JPl6K1zJ6xrtNr2HAD_dt5zh7fq99jJYy97QZ32OWQW2HNPsSbvP6tY="
+        },
+        {
+          "text": "Read More",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhLn92rvzMkKPTdoYbhQZ3EkIEBW_7AaeNI1Vb730ETmBeeEBjCMbq-lSDraaKx5QYo5U="
+        },
+        {
+          "text": "Read More",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhL9XCRHHmKSXOqOb1rpVnesCcdAafcke8timVUXdX4rDr9gdxc5dByZw1baoZS7AJwjA="
+        },
+        {
+          "text": "Read More",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhMNJqdMOT3RarxcsCNKkxNX-TSyGezPzQC0eA2Bkfwhy1Lqe3kcdEtvM2tzESca1dOmE="
+        },
+        {
+          "text": "Read More",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhMCgh5n927vVMTh0sOy5jQbGYeRNvoiQGse3pAhC9aLoytQ2zWrDhgx2ue9bUTZ8V57E="
+        },
+        {
+          "text": "Read More",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhL5UikojQf83ug4qUPt5MVpxFG72lctyn9gzR6yrZipclJwfcY3um6-umxyCxjtMks90="
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "NVIDIA       \n\nRead the latest tutorials and news curated for you.\n\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n[![NVIDIA Logo](https://info.nvidia.com/rs/156-OFN-742/images/NVIDIA-Logo-3.3.png)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhMPZO0geMoFwaUv-cX23Lz0CsIX7Yt0CAvVrhzEWhJ0cAiHaHd8BUcVhRUV9-MTynDAQ= \"NVIDIA\")\n\n[![NVIDIA Logo](https://info.nvidia.com/rs/156-OFN-742/images/nv-black-top-bar-logo-small.png)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiESrhMPZO0geMoFwaUv-cX23Lz0CsIX7Yt0CAvVrhzEWhJ0cAiHaHd8BUcVhRUV9-MTynDAQ= \"NVIDIA\")\n\n![developer-newsletter-header-1360-150h.jpeg](https://info.nvidia.com/rs/156-OFN-742/images/developer-newsletter-header-1360-150h.jpeg)\n\n**Tune in for Jensen’s keynote from GTC "
+    },
+    {
+      "from": "\"The Batch @ DeepLearning.AI\" <thebatch@deeplearning.ai>",
+      "subject": "Gemini Flash Gets Pricey, AI Act Delays, Agents Drive Online Traffic",
+      "date": "2026-05-29T06:29:39.000Z",
+      "summary": "## The Batch @ DeepLearning.AI\n\n**Priority: HIGH**\n\n### Top Updates\n* The AI Forward Deployed Engineer (FDE) role is gaining popularity, especially with OpenAI and Anthropic's new teams, as companies seek to customize AI solutions with agentic workflows, requiring FDEs to have technical, communication, and business skills to work with clients and integrate AI systems.\n* Google launched Gemini 3.5 Flash, an updated multimodal model with improved performance, adjustable reasoning levels, and tool use, but at a substantially higher price than its predecessor, fitting a trend of rising per-token prices for newer flagship and Flash-tier models.\n* The European Union has amended its AI Act to delay restrictions on high-risk applications, simplify compliance requirements, and strengthen certain provisions, aiming to balance innovation with safety and address concerns from businesses and policymakers.\n* A study by Human Security found that AI-driven traffic on the internet nearly tripled in 2025, with a significant increase in activity from AI agents and agentic browsers, posing challenges for cybersecurity and infrastructure.\n* Researchers proposed a fine-tuning method for image generators that composes images in stages, leading to better results and more dependable outputs, analogous to LLMs that reason over input step by step.\n* Andrew Ng's companies, including DeepLearning.AI, AI Fund, and Landing AI, are hiring for various AI-related positions, and he encourages readers to apply.\n* Anthropic's Claude models are competing with OpenAI's GPT and Google's Gemini, with recent updates and improvements in agentic coding, long-horizon task handling, and multimodal capabilities.\n\n### Notable Links\n* [Gemini 3.5 Flash](https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQY63qgz0W95jsWP6lZ3krW1MW8Q79b80F8W8vvrDb8hf0gjW4YBHWh8jwYwgW78_CXb74nlx2W69mt6V4Nc2cJW7HcT_w7hJqTrN3K4zNfHS-19W2YXXWF1JkFVvW5hTZzt5h4zcyW3LHCv965dcGKW5q4Dj26ngTVlN8FsVhKq_KYxW5v01DD4rpgN4W1JYzZs2YgWR9W1mrSXj7nB3KsW3Q010C8mHd76N50mG_s5xTvDW7TwwBK23fKQrW4-zVmh6C3wpfW5XHf0m97_wDjW24VCsq4gl-8XW8vRkfm41DDM2W2FjFYD7Zw_z2N3rkpzd4pJwPW2xkq157hlq4vW89CCdl5Yv0KYN257rJcRN2DyW70lt1v7rjKYdN60pTswjVGBjW95Lczb5wKbNkf2l5r3b04)\n* [Claude Code](https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQXR3qgz0W8wLKSR6lZ3plW8VvrRC2DKFX1W5Qg7HR86DyqlW6r3qsx96LJqpW2YcxZc16FbGfW8Z-X285_Rch3W6y7Njq3RZ6M_W2HQmgH3rsYHGN5MyRK3NNJBrW34YJhT990JB8V2PpVV83BZW6W85Rf7W580vfpW3KCDZ-5630QkN1PGhTwXdB8VN53KH-N2dWBzW7hvscz6mg00GW1BdVcT1tBNN3W81jGss1SzjDMW3FLs4p85D5kxW6JY_7S7GzZ1mW2pn3m07TbXzhW8sMz6H3Vllh3N2D1RS_qjgvTW5vM6nC1FXbldW4ccRvB49dHfgW1HTGwj2zGZfZW7M3GPt5qkvwSW4CNsCM1WcpMYW8RwZjD6jBJYlf7Ztpdx04)\n* [Anthropic](https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQWF5nR3bW69t95C6lZ3lPW5Y-qnj816x8YW43h0TX3WFKHcW3w6GFQ3Xfl9nVhBRPx8w2WdJW4xdG5n2cbhhMW6bGnMg6zfLkcF2bpq7Fr4KZN6bt6GWNLkQ4W2L5JY01FMlq_W89c_gS6z3zYVW5gdfX52gSHQsVB415Q8yrL_1W3bpkF52LnT21W3j8Yz15xl8RLVJVsP12WnZrWW4Rq2wd1M70NtW8k2L9k8qV7FBN6jqgYNDLwXVW8cN4wt8z6hNDN7PwzwZw-JHrW8dD7dY6PHJBDW5_WvZ96RKB1vW1L6zKk9lByXVW4KcHMr2vkTymN176_4TVtQC6N2VYGxjRpc4SW68rnFs3FSg7kW5GTQyf7zq5bNW7bLTT_40MHVrW5v80Cb2vw1B3W4jl6gg8ny1m5W5CR9gf7svFDwW2cS64S5GMhxXW3sS0Gj4Rg6f9VmMl-h3KfY-DW1Kffz561N-dSf4qLxjM04)\n* [DeepLearning.AI](https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQWY3qgz0W6N1vHY6lZ3kYW7KS9z_66YL63W1qfPl54N6zz2W62zqRD1p_GdqW5tLBLM4Zfc2jW74JkfG5HCD2jW6mlY2S6HBfRqW8JD56P5vlv1kW3SjFWp2FkwkRW3dw56q2YxqPfW3V1WVD7rwLX1W81mbjy5TybDLW8B6ywP3rCJc5W6TtGG93z2DLWN2xTZpN7b_F4VhhBkn8r_t5zW4ygVHy5sgvFfW6T5VjL570cF6W5HhxVC17nhrBW8WtY1Y5wQL7WW1nK2Rv17k6M9W5f7S7z15K4xPW33hKpd7g-C-jf1sDQn404)",
+      "links": [
+        {
+          "text": "Subscribe",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQXd3lYM-W7lCdLW6lZ3lmW2qs9BB2xlBjxN8VC2BwllGkzN3l98ft88jxdVJ8SJD9dqv0WW8p96mm8mr7QPW606wrz8pqLRZW1P3t141jM4l7W2bY03d4Xcw8kN3FTTXbqtCDzW5PQZ9z2Gn_TVW8wLjYx7NJ5bTW6zL8B63jX2GwW8Zdm1m7KbwbFW4ClpFG3FdcL1M1md3Zx-wfgW25nl427kLQrMW5hDL0F6bW2mhW3qjV5h96Jys6W4NX7j66WwVtYW9dDdrB3gpFftW42wwzN4B2MV0W86vQWf5Cp6cCW13Hq1K816k3SW92dws26LTkhDf24yc-404"
+        },
+        {
+          "text": "new",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQXR3qgz0W8wLKSR6lZ3m1W75sp462q_CVcW7snb1s7bWhjcW50clHS7CstG0N3J1_2T53rLCW2HS8BK59vwL3W31YBjx6xWDXMW6mgSHN5QzGXFW18Bszw2bXczbW93Hf7r8CJK7lW3jZSF27BMyj0W4DLyjy6ntQZDW8djss-44GTfZW2lb5KY1zdmTqW968cHH1VS8gtW68hRwj8lS3x3W4fZ0K-4MWGTCVgTnfF28bQ_4W6PwtWC38HWr8W7yhxsS3q8MmjVF6z0K1gX9PgW5XyXZq60C_5MW15bYsv5tThPvW79Ry5N6L77l3W5V2zR59jYmLsW1JNN7R3z7BtVW3lYt4s1_MfHMW869jvg3QWqqWW479vXv1pvCMwf5vPmW404"
+        },
+        {
+          "text": "teams",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQWY5nR3bW6N1X8z6lZ3mlVCyG8B37ytsyVR8vNw4_XzBCW5pXd-j6nw6KVMJ8kddgmsz1W6kYKvq7vkZrjW7jnh4C3Q1pjlW1n6GPm3b703kW2Cyx855vQxkyW1gR88_2MGSxmW1NVkK55gkrj3W2cHnVK2vLYYSW6dB2jS7n2n3KW9h7X-t7QVKsSN6yggfpRl1C9W1fSWkP2MHKTVW4cR-FJ8pb5L2W51Ckq78NB08yW7sn5PT1y6s1kW98FKbV7WNS_yW6w7fmh75bBbsW4VSm8K6VMg4PW93LJlT299TBkW7FmGh42pqsmVW4815ns1Td9VKW81F8CD84H9pjW1KkD4t439p-ZW2G4SZH27tTPsMSd8k-jXHMwW6CXLxv4lv8-JW8l5mmR7CCtczW5VgS6h317-xvW8tVrRg77dV3PW1vZwY37DrS1vW4lSf0b51LR5SW2BzXzY4yQS-CVn6NLg2p_2xTW6TdYNW1fxY_PW21GHD18-HVt6f4xvRDP04"
+        },
+        {
+          "text": "false",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQXR3qgz0W8wLKSR6lZ3llW8BgGc_5fvlVCW399mMy31CMJ1N8q9XpmGRZXrV4Bkch4PQ4DcW77J0xC83jW80W69nSvq5jrBzBW2tnXl55fJJBlN4hBBWsX0QgnW2rJqQ590Kb42W6Wckkc5plM32W5ytK8L8KVJyzW8ZYymB2SDpysW8KGwmY7q3KTXW7FsK_w55kZtxN8RYCxQ9f00LW39f9wB8wv7b6W4hvTjL6R885GW7QXMV667q_wZW5sp1Kg8N0nrzW4D4rFX5CvMWQW2Nz3qZ8mpgc3W6LNSNC45LNfZW6-1nPs7yfXl_N5Kd1GXW6ts6W3hf77G8BxwprW1Jc5bw6D7LG7W4-3kyr7d-BXbW32mXkR6QbXnvf2Hg2Jv04"
+        },
+        {
+          "text": "generalists",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQY63qgz0W95jsWP6lZ3kzW2Yrc3m3TN45kW4SRC5W1ByDprVYJ1Nf6g6wjxW1Z5yCs1dkpWHW58CHFp4t5Km_W7ZBbb457F7f5W5b8V203jFgvdW7-PMMV4ZHlp_W172Zk59f-9Y_N5y1q3QScMB-W2SXRmH8NJDS1W93-b_07PV9tWW3sLkNm84GdR4W6fSw1P4nWgTLW2sfGvy6d4HPsW8WMb7g7cqHwzW3hV5359dNmnhW910xC57VLpNLVKTw-27L2Gr0W3Vr0Gk6XrCcHW5-GSTb3pSN2LN6lS34JjWdX3W57yQp84rL-8_W4VlPQH3F0sPPW7gy8Vl58JxjhN7_Px20fbbR5W74HgDT4fF1XqW13wKSR620Y1fW31Ncss6CCmk_W3sL1z88Qnmv5f1SCXkq04"
+        },
+        {
+          "text": "DEEPLEARNING.AI",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQWY3qgz0W6N1vHY6lZ3kYW7KS9z_66YL63W1qfPl54N6zz2W62zqRD1p_GdqW5tLBLM4Zfc2jW74JkfG5HCD2jW6mlY2S6HBfRqW8JD56P5vlv1kW3SjFWp2FkwkRW3dw56q2YxqPfW3V1WVD7rwLX1W81mbjy5TybDLW8B6ywP3rCJc5W6TtGG93z2DLWN2xTZpN7b_F4VhhBkn8r_t5zW4ygVHy5sgvFfW6T5VjL570cF6W5HhxVC17nhrBW8WtY1Y5wQL7WW1nK2Rv17k6M9W5f7S7z15K4xPW33hKpd7g-C-jf1sDQn404"
+        },
+        {
+          "text": "Join the waitlist",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQXR3qgz0W8wLKSR6lZ3mxW7LzkLZ6Sy5PMW5tGHCf5xXfK2VpCsJv2ShdnyW7K6fJN6zR8vrW6p1Ldf7GhxMSW8fNgG-5PHKFsW8Q8Py9479QFSW5z2Pc87Vkq2cW8L5YvT4ZL0WZW7WC4c525G2H1W8_Dq5M5QK_RPW5ss_7m3mhs1LW4nJW3z6KJKHlW2-PfBv3jQcHyW56HR-Z3FdFQPW6glV2z3Cnjw3W821MlG1lNj5GW50FZhb83jTMjW2ZbzZR7sTv2xW1hBhKK1NqfTJN3Z4W7_KH1dfW5kQvVp3wgn-7W1RFVlx6fMM2gW7FwCzQ7ljb_1N6l-GmkDnpSkW7X3-Lv2dCt4vW3s3f771z5m2nW8fKTDG7D1-tBdqdxY404"
+        },
+        {
+          "text": "launched",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQY63qgz0W95jsWP6lZ3krW1MW8Q79b80F8W8vvrDb8hf0gjW4YBHWh8jwYwgW78_CXb74nlx2W69mt6V4Nc2cJW7HcT_w7hJqTrN3K4zNfHS-19W2YXXWF1JkFVvW5hTZzt5h4zcyW3LHCv965dcGKW5q4Dj26ngTVlN8FsVhKq_KYxW5v01DD4rpgN4W1JYzZs2YgWR9W1mrSXj7nB3KsW3Q010C8mHd76N50mG_s5xTvDW7TwwBK23fKQrW4-zVmh6C3wpfW5XHf0m97_wDjW24VCsq4gl-8XW8vRkfm41DDM2W2FjFYD7Zw_z2N3rkpzd4pJwPW2xkq157hlq4vW89CCdl5Yv0KYN257rJcRN2DyW70lt1v7rjKYdN60pTswjVGBjW95Lczb5wKbNkf2l5r3b04"
+        },
+        {
+          "text": "204 tokens per second",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQXd3qgz0W7lCdLW6lZ3m9W2bHHzV6bKy0kW4WM3MC2_3yH0W3bSxkp5BmvdnW6HGpGM7HNbWWN5dBBw-gK0dKW63qJHB8lbK5JN1qKb2hcCGYKW75dRHt55M5V5W5LN9Jq34PFxMN8YKztnV9NSvW2dx0hn6YmRgsV5P5ll4sZB94W95DLr-5ySXZ-W91cX9L5_VzJ3W7PFjq24gxnTZW8KZZrl7GsQc6W5KCrhk7WkCmrW5pWm922YCbMxW8lC-7W3Dvn3cN1T3SxMhB0rwW5w7Wmv44CRh9W1TwJSB4Njv50W1XVQ_V5Q3fNgW8-1p3R5SFNSlf4JQfKj04"
+        },
+        {
+          "text": "model card",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VXkC1G5HSBNRVWvzSn4lp2FNW37H_hZ5PDZ5QN15bQXx3qgz0W7Y8-PT6lZ3mSW3YCZJt62XmgpW6qPBsZ4jBkMtMsJyw73H0ssW23NSWv55fTJxN6Kc_Wm4twMlW3LP97N1TjqQGW4gQzN35yPZj-W62Gjf47RlJTyW28MRRX4J2s6WW86GqxW26vNgRW9gpsJQ2QBY6HW6hHKNx1zgzwSW175hHt4NzWhFW44y77N5HSK0RN3gNv-4P01M4VvwFbQ1vV5X3VtJM4R8T_MrPW4mMsR52M69QLW3WrtrM8dD1C3W4pttn97dh6-MW2KGRqR7FM4G7W382yk33pJGQ4W4F0WXn6XYyKGW4whpqS9llQ4kW5P1fXC5QQMNWVgqKNh1SCp_Df3TFW0j04"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Gemini Flash Gets Pricey, AI Act Delays, Agents Drive Online Traffic       \n\nOne of the new, buzzy jobs in Silicon Valley is the AI Forward Deployed Engineer (FDE), an engineer who is embedded within a client organization to help customize solutions, such as building and tuning agentic workflows that suit the client’s particular needs. ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­"
+    },
+    {
+      "from": "\"Devansh from Artificial Intelligence Made Simple\" <artificialintelligencemadesimple@substack.com>",
+      "subject": "How to Thrive in the Age of AI",
+      "date": "2026-05-29T06:58:49.000Z",
+      "summary": "## Artificial Intelligence Made Simple\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses how to thrive in the age of AI, referencing James Wang's book \"What You Need to Know About AI\" and highlighting key concepts such as \"bounded variation\" and the importance of understanding AI's limitations.\n* Deep learning works by forgetting, which allows it to generalize but also leads to potential errors when faced with novel situations, and this understanding is crucial for evaluating AI's capabilities and limitations.\n* The concept of \"bounded variation\" helps resolve questions about AI's impact on careers, startup defensibility, and AGI timelines, emphasizing that AI excels within its training distribution but struggles with genuine novelty and counterfactual reasoning.\n* Expertise in the age of AI involves developing \"oracle-grade\" competence, which includes identifying potential failures, specifying what good looks like, distinguishing plausible from correct outputs, and knowing the right question to ask.\n* The use of AI tools requires engineering friction to ensure that juniors can upskill without losing the understanding that comes from doing the work, suggesting practices like doing the work first, building an error log, staying at the edge, finding human pushback, and studying historical failures.\n* The newsletter concludes that thriving in the age of AI involves understanding its limitations, developing specialized skills, and using AI as a tool to augment human capabilities rather than replacing them.\n\n### Notable Links\n* What You Need to Know About AI by James Wang\n* [Weighty Thoughts](https://open.substack.com/pub/theta) by James Wang\n* [AI Made Simple Newsletter](https://artificialintelligencemadesimple.substack.com/)\n* Diffusion Models deep dive\n* Latent Space Reasoning repository",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYXJ0aWZpY2lhbGludGVsbGlnZW5jZW1hZGVzaW1wbGUuY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5hcnRpZmljaWFsaW50ZWxsaWdlbmNlbWFkZXNpbXBsZS5jb20lMkZwJTJGaG93LXRvLXRocml2ZS1pbi10aGUtYWdlLW9mLWFpIiwicCI6MTk5NzAxNjc0LCJzIjoxMzE1MDc0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MDAzODA2MywiZXhwIjoyMDk1NjE0MDYzLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.fV9DAywfM23Nut9eUuwAhZ1Y72ubOjWPmNbnNA1anTE?"
+        },
+        {
+          "text": "How to Thrive in the Age of AI",
+          "url": "https://substack.com/app-link/post?publication_id=1315074&post_id=199701674&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTcwMTY3NCwiaWF0IjoxNzgwMDM4MDYzLCJleHAiOjE3ODI2MzAwNjMsImlzcyI6InB1Yi0xMzE1MDc0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.-csAxmHiYAArGMSn7tp0uoPr-3WZS4uXlrNEL8DbYyM"
+        },
+        {
+          "text": "Devansh",
+          "url": "https://substack.com/@chocolatemilkcultleader"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/artificialintelligencemadesimple/p/how-to-thrive-in-the-age-of-ai?redirect=app-store"
+        },
+        {
+          "text": "If you’ve found value in this newsletter, consider becoming a paid subscriber",
+          "url": "https://substack.com/redirect/5d179b16-31c9-4346-ae74-a5a97efb3e1e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "We run on a “pay what you can” model",
+          "url": "https://substack.com/redirect/a9784f2e-05c3-42d1-a20a-717296b2197c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "use this email template",
+          "url": "https://substack.com/redirect/d222b3ec-a029-4826-a3f6-ce52f492f2ba?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "If you’d like to meet other members of our community, please fill out this contact form here (",
+          "url": "https://substack.com/redirect/689df9fa-4761-4383-b7a4-3c45a87d26b6?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "https://forms.gle/Pi1pGLuS1FmzXoLr6",
+          "url": "https://substack.com/redirect/6cb86187-d2ef-4b5b-9cc0-88f35ddf80b5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "James Wang’s",
+          "url": "https://substack.com/redirect/42db900a-6f87-4883-a9f0-1130fb8699f6?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://arxiv.org/abs/users/7343257",
+          "title": null,
+          "arxivId": "users/7343257",
+          "source": "arxiv-id"
+        }
+      ],
+      "priority": "MEDIUM",
+      "originalContent": "How to Thrive in the Age of AI![](https://eotrx.substackcdn.com/o/cc1e09250fbbd289/p.gif?token=eyJtIjoiPDIwMjYwNTI5MDY1ODQ5LjMuOWNjYjQ2MTlmNjcxNWVmOUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5OTcwMTY3NCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMzE1MDc0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgwMDM4MDYzLCJleHAiOjE3ODI2MzAwNjMsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.Ba06zvDPNVn7KFpn-EYh1iVPv8g_ixKxa5NeYA6k-YA)\n\nWhy You Should Read: James Wang.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"The AI Field\" <theaifield@mail.beehiiv.com>",
+      "subject": "🤯AI Agents Can now Trade Stocks for you on robinhood",
+      "date": "2026-05-29T10:13:40.000Z",
+      "summary": "## The AI Field\n\n**Priority: MEDIUM**\n\n### Top Updates\n- **AI Agents Can Trade Stocks on Robinhood**: Robinhood is allowing users to create separate accounts where AI agents can trade stocks using a pre-loaded balance, testing the boundaries of AI in high-risk applications and pushing the concept of agents from \"help me think\" to \"take action with consequences.\"\n- **YouTube Starts Automatically Labeling AI Videos**: YouTube will automatically label videos that use significant photorealistic AI, making AI labels more visible across Shorts and long-form videos, as the platform tries to address concerns about synthetic media and disclosure.\n- **OpenAI Builds Self-Improving Tax Agents with Codex**: OpenAI, along with Thrive and Crete, has built a self-improving tax agent using Codex, designed to automate tax filings, improve accuracy, and speed up workflows that normally require repetitive expert review, showcasing how AI agents can learn from corrections and feedback.\n- **DuckDuckGo Sees Install Spike**: DuckDuckGo installations are reportedly up 30% as some users push back against Google's AI-heavy Search changes, indicating a potential shift in user preferences towards privacy-focused alternatives.\n- **China Keeps More AI Talent at Home**: China is seeing a boom in AI talent, with more professionals choosing to stay in the country, potentially altering the global landscape of AI development and innovation.\n- **MIT Tech Review on Agentic AI and Org Design**: MIT Tech Review notes that agentic AI is forcing companies to rethink their organizational design, as the integration of AI agents into workflows requires new structures and strategies for management and operations.\n- **ElevenLabs Launches New Music Generation Model**: ElevenLabs has launched a new music generation model that can switch genres mid-track and regenerate parts of a song without changing the rest, demonstrating advancements in creative AI applications.\n- **Base44 for Building Web Apps Without Code**: Base44 is a tool that allows users to build fully functional web apps without writing a single line of code, by describing what they want in plain language, and it builds the app in seconds.\n- **Sanebox for AI-Powered Email Service**: Sanebox is an AI-powered email service that automatically sorts the user's inbox, learning which emails matter and moving the rest into folders, to help manage email more efficiently.\n- **Pomelli for Brand Book and Website Design**: Pomelli is a new Google Labs agent that designs a brand book and launches a full website from a single brief, available now in Labs, showcasing how AI can be used for rapid design and deployment of brand and web assets.\n\n### Notable Links\n- Read more about Robinhood's AI Agent Trading\n- Learn more about YouTube's Automatic AI Labels\n- Explore OpenAI's Codex and Tax Agent Case Study",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤯AI Agents Can now Trade Stocks for you on robinhood\n\nPlus: YouTube starts automatically labeling AI videos, OpenAI builds self-improving tax agents, and DuckDuckGo gets a boost from Google’s AI Search backlash.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 29, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/6hd6Hmxk0v7zFIf1fLeloXH96ua8bNRLj0Q1TwxEHMuXHLSSeHArTAiPe4nU%0AiNm624s7i9QiV28NWZo16FO15%2Blz%2BYKPH7tkxoCoHW1kivJDezB3pd09Uahf%0A3BndUpWNH4%2FRfNM270%2FYHfk9is%2BCFQnoL%2FE8gYM1CsdTh8bIyCXu3UlwcxD0%0AgGDzCV3nfAV4Ob6ybLVVOroyAbyJXjaRVg%3D%3D%0A/3f36fb69e9a8712c)\n\n# 🤯AI Agents Can now Trade Stocks for you on robinho"
+    },
+    {
+      "from": "\"TLDR\" <dan@tldrnewsletter.com>",
+      "subject": "Siri AI leaks 📱, Opus 4.8 🤖, Claude Code Dynamic Workflows 👨‍💻",
+      "date": "2026-05-29T10:51:29.000Z",
+      "summary": "## TLDR Newsletter\n**Priority: MEDIUM**\n\n### Top Updates\n- Apple plans to announce a revamped Siri interface, a new chatbot-style app, and other major iOS 27 changes at its Worldwide Developers Conference on June 8, marking a pivotal moment for the company's AI strategy.\n- Claude Opus 4.8 has been released, featuring improvements in honesty, mid-conversation system messages, and the ability to flag uncertainties, making it a more reliable choice for complex tasks and coding.\n- Waymo has launched its new Ojai robotaxis, designed to work better in snowy conditions, with plans to expand its service to multiple cities and have thousands of cars on the road by the end of the year.\n- Anthropic is nearing a $1 trillion valuation in its latest funding round, solidifying its position as a leading player in the AI industry.\n- IBM has committed to spending $10 billion to pursue the development of a large-scale, fault-tolerant quantum computer.\n- Claude Code has introduced dynamic workflows, enabling Claude to take on challenging tasks end-to-end and allowing for more autonomous agent-style products.\n- OpenAI's GPT models continue to set benchmarks for general-purpose language capabilities, driving both enterprise adoption and consumer awareness of AI assistants.\n- The concept of AI agents is accelerating, with major vendors packaging agents into coding, research, productivity, and business-process products, and companies racing to make agents practical for real work.\n\n### Notable Links\n- [SerpApi: Access Google and other search engines in real-time](https://serpapi.com/)\n- [Claude Code: Dynamic workflows and agentic coding environment](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code)\n- [Anthropic: Claude Opus 4.8 and safety-focused frontier models](https://www.anthropic.com/)\n- [OpenAI: GPT models and multimodal capabilities](https://openai.com/)\n- [Waymo: Ojai robotaxis and autonomous driving technology](https://waymo.com/)\n- [IBM: Quantum computing and large-scale fault-tolerant quantum computer](https://www.ibm.com/quantum)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR\n\nApple plans to announce a revamped Siri interface, a new chatbot-style app, and other major iOS 27 changes at its Worldwide Developers Conference ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=tldr/1/0100019e735c4c85-4e83752d-8f1a-4ccc-b0b5-8f8fc5eaaf2d-000000/651se8nOcGdB5NZnjt4Pz0jWrkHeNla5MpH0-PjJPvQ=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldr%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019e735c4c85-4e83752d-8f1a-4ccc-b0b5-8f8fc5eaaf2d-000000/H2lvzhIzPaqZGPm_Hfeks_VH6KFrjyiz4uIrmLNqz1g=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=d3324c64-5f8e-11f0-b1c3-7f12249efa1c%26p=076f16ce-5b3d-11f1-a464-091e987061da%26pt=campaign%26t=1780051889%26s=066f4c154f5c3bdae7145913adeac"
+    },
+    {
+      "from": "\"Anna Eisenberg\" <annas-daybreak-news@mail.beehiiv.com>",
+      "subject": "Hormuz Pact Looms and Immune Fuel Boost",
+      "date": "2026-05-29T09:59:59.000Z",
+      "summary": "## Anna's Daybreak News\n\n**Priority: MEDIUM**\n\n### Top Updates\n- A fragile U.S.-Iran deal may reopen the Strait of Hormuz and calm oil markets, but several obstacles, including mines, sanctions, and nuclear concessions, must be addressed. The agreement's success is uncertain due to concerns over Israeli influence on President Trump and the potential for military action if negotiations fail.\n- The U.S. credit-card debt has reached $1.25 trillion, the highest since 1999, with 13% of balances being 90+ days past due, matching post-2008 crisis levels. Interest rates have risen, making payments largely cover interest only, and economists warn that minimum payments prolong debt.\n- Blue Origin's New Glenn rocket exploded during a ground engine test, destroying the launchpad and delaying the deployment of Amazon's 48 internet satellites. This setback may impact NASA's Artemis lunar missions, for which Blue Origin has received $188 million in funding.\n- AI token costs have surged, with prices rising 65% since February 2026, and companies like Uber exhausting their AI budgets within months. Only 18 cents of every token dollar generates user value, raising questions about the justification of AI investments.\n- A study found that colorectal cancer cases among young adults in Switzerland have increased by 0.5% annually from 1980 to 2021, with worse outcomes due to late diagnosis. Doctors recommend earlier screenings and awareness of symptoms.\n- UCLA scientists have engineered T cells with fungal proteins to metabolize a sugar unused by tumors, allowing the cells to survive and fight cancer in low-glucose environments. This approach could overcome immune exhaustion in CAR-T therapies for solid tumors.\n- The Regulatory Docket, a federal and state regulatory developments tracker, is available for subscription, providing updates on changes that affect affluent households, including a recent issue covering 16 developments from April 2026.\n\n### Notable Links\n- [SciTechDaily](https://www.scitechdaily.com) for the colorectal cancer study and UCLA T cell research\n- [WallStreetJournal](https://www.wsj.com) for updates on the U.S.-Iran deal, credit-card debt, and Blue Origin's explosion\n- [AXIOS](https://www.axios.com) for information on AI token costs and the impact on companies\n- [Kucoin](https://www.kucoin.com) for AI token prices and market trends\n- [Automated Retail Technologies](https://www.automatedrt.com) for information on their robotic restaurant kiosks and investment opportunities",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Hormuz Pact Looms and Immune Fuel Boost\n\nA fragile U.S.-Iran deal could reopen Hormuz and calm oil markets, but mines, sanctions, and nuclear concessions still stand in the way.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Listen online](https://link.mail.beehiiv.com/v1/c/jXDaqxZBQ04xSiuayGqJ2A27KTjW4ysSJxhPecFFWhT17qQ4t4f8aZFB%2Bq%2Bg%0AzkfQOWRCSkCc2%2BHwBb5954%2BXxWygWo%2BnoxZei0wRj7s4dL4ZPVdsCazMbWik%0AOJpQJb50Gd03VCyj6hsCphRhlN%2FbuuwD6EkRsJu3bMyzbFgQi7Kr3IG021rt%0AGrKY3hlc2pmNph96xJloMWGGSpcq%2BljOwQ%3D%3D%0A/92b2f337d92a913c)   |   [Read online](https://link.mail.beehiiv.com/v1/c/AhbZbHl%2FBK%2B4NUKYzDj2CnRfuHDhOU9yVgk7cuvNNTV"
+    },
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "opus vs opus",
+      "date": "2026-05-29T12:06:03.000Z",
+      "summary": "## Staying Ahead with AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Anthropic has released Claude Opus 4.8, with a marketing focus on \"honesty,\" claiming it makes fewer things up and tells you when it's unsure, and is roughly 4x less likely to let bugs in its code slip past without flagging them.\n- The author put Opus 4.8 and the previous version, Opus 4.7, through several tests to evaluate the \"honesty\" claim, including a fake study, a math problem, a broken formula, and a brief at war with itself, and found that both models behaved similarly and passed every test.\n- The tests included checking for hallucinations, math accuracy, bug detection, and handling of conflicting instructions, with both models performing well and not making things up, even when given deliberately incorrect or misleading information.\n- The author notes that the honesty pitch is not a reason to upgrade from Opus 4.7 to Opus 4.8, as both models already pass the tests, but it sets a new floor for honesty in AI models.\n- Other updates include the release of Dynamic Workflows in Claude Code, a research-preview feature that lets Claude plan a job, run parallel subagents, and verify outputs, and the launch of Sesame, a voice-first AI with four distinct personalities and an incognito mode.\n- Pancake, a tool that stacks autonomous agents for growth, engineering, and ops, was also mentioned, which can be configured in Markdown files and run from a Slack workspace.\n\n### Notable Links\n- [Anthropic](https://www.anthropic.com/): The company behind the Claude models, focusing on AI safety and research.\n- [Claude Code](https://www.anthropic.com/claude/code): Anthropic's agentic coding environment built on top of its Claude models.\n- [Sesame](https://www.sesame.ai/): A voice-first AI with distinct personalities and an incognito mode.\n- [Pancake](https://www.pancake.ai/): A tool that stacks autonomous agents for growth, engineering, and ops.\n- [Lindy](https://www.lindy.ai/): An AI assistant that reads every email, sorts out the noise, and drafts replies.\n- [Wispr Flow](https://www.wispr.ai/flow): A tool that formats code changes into clean PR descriptions with file references intact.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "opus vs opus\n\nis it really more honest?  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 29, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.2WMshDh4P1SYN8SqaafnJdjdmWP1WD1rdGPofZ1FxFpPr5ChU7zW7g01KzFxU_nUrAxi53icbPTZ41h5tiCHGwUL1XlEVRHiZZ1gTphvJuuo-IfpsAFrCrpvv2PiqRtbLffspi2IEzuhlXAhLZCvGC6t6ABtRpybGF5pEQxAORif_NACB0sUIXi8Q2uBvVFuj8lFqUUAw4C63BDQXvwFvOqIbonwzzwmiRaH6bMcFjjqo_oZ2inafMEl6gh0qwgFnfyh65MHnUDPFTA25IDzbZv1kZEjJD-ihdeMv9oRB9AXTQaGF8aY9Xr5N_Q-8quN_W0Cgwn7toG-vhGlYwjLfK_2bHWcjiGpMFGhb7LFfF4GefEl5V53qj3Ev3LzeCbB1BezlLpP3mFITvolJeOiD_gBRy7fWfDrJm94utQyMTm5lnL2TiVOFNM7kTEPNACQaPMwPRRzxURYyI7tgrSRYA3t9Yv2wb4tI84HC"
+    },
+    {
+      "from": "\"The Rundown AI\" <news@daily.therundown.ai>",
+      "subject": "🚀 Anthropic just eclipsed OpenAI",
+      "date": "2026-05-29T10:08:01.000Z",
+      "summary": "## The Rundown AI\n\n**Priority: HIGH**\n\n### Top Updates\n- **Anthropic's Opus 4.8 Release**: Anthropic released Claude Opus 4.8, a new version of its flagship large language model, which outperforms GPT-5.5 and Gemini 3.1 Pro on various benchmarks, including agentic coding, computer use, financial analysis, and more. This release is significant because it demonstrates Anthropic's rapid progress in AI capabilities and its potential to lead the market in safety-focused, high-performance models.\n- **Anthropic's Valuation and Funding**: Anthropic's valuation is nearing $1 trillion after a recent funding round, making it one of the most valuable AI companies. This valuation reflects the market's confidence in Anthropic's technology and its potential for growth.\n- **Apple's AI Siri**: Apple is developing a new AI-powered Siri assistant, built on Google Gemini, which will allow for more advanced natural language understanding and generation capabilities. This development is notable because it indicates Apple's commitment to integrating AI into its products and services.\n- **AI-Generated Content**: The newsletter discusses the use of AI tools, such as Codex, to generate content, including building a game in one prompt. This highlights the growing capability of AI models to create complex content and their potential applications in various industries.\n- **Datadog's LLM Observability Guide**: Datadog released a guide on how to build observability into LLM stacks, highlighting the importance of monitoring and tracking AI model performance and errors. This guide is significant because it addresses the need for better monitoring and control of AI systems as they become more complex and widespread.\n- **Cursor's Developer Habits Report**: Cursor's report shows that developer output has doubled with the use of AI, but the gains are concentrated among a small group of power users. This report is noteworthy because it provides insights into how AI is impacting developer productivity and highlights the potential for unequal distribution of benefits.\n\n### Notable Links\n- Anthropic's Opus 4.8\n- Datadog's LLM Observability Guide\n- Use Codex to Build a Game in One Prompt",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🚀 Anthropic just eclipsed OpenAI\n\nPLUS: Use Codex to build a functional game in one prompt  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Read online](https://link.mail.beehiiv.com/ss/c/u001.dSnm3kaGd0BkNqLYPjeMf75St_4h4uVDlb2B1USeB_E0H1GHbNB-0Rkj93510_kJ4I9oXdlDhg-xZJqDVroh-U82r_OspToA1SO0P5w05ZQEZV8DSJJkdfM9OI2sFio2VI-s0udNkgkc0Y3Sfg0_ICTcO9RcmaoDJc3xpG9MKvB4psLNU3atcQJBZuEwHQTRZBNHInGQlxawWmNOpJ1SeG2t-3iiM5BDp4odeIB1qlVPmyuDU0yRDZJGV0kfTGVojaKmVGhKuCGiFrVZuHnz3aHXDiLRBaJigtsR_e9m-cqCqFUi4j2Geb6GZ93_legj2lyAkfivgQkkEIvkDafPMO4nxI7ICNwcbMgW2uwXSG-uObCDZ36kW36m0upEEPEZTyNjng0JeKRynWfy3lke5ZaxhyDjGRYQ6i2hvM32Vko74KNkzXLZNWJJmV6HyU_7h5"
+    },
+    {
+      "from": "\"Evolving AI Insights\" <evolvingai@mail.beehiiv.com>",
+      "subject": "🤖 Anthropic launches Claude Opus 4.8",
+      "date": "2026-05-29T10:38:46.000Z",
+      "summary": "## Evolving AI Insights\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic launched Claude Opus 4.8, a new version of its flagship large language model, which introduces a hybrid reasoning architecture and a 1M-token context window, while keeping the same price as Opus 4.7. This update enables Claude to function more like an autonomous software engineer, with improved long-horizon coding and program synthesis capabilities.\n* Claude Opus 4.8 is around 4× less likely than 4.7 to leave flaws in its own code unflagged, making it a more reliable choice for complex workflows. The model also features a new fast mode that runs about 2.5× faster at roughly one-third the cost.\n* Anthropic raised $65B at a $965B valuation, surpassing OpenAI for the first time in history, and announced that Claude Code, its agentic coding environment, can now spin up hundreds of parallel sub-agents in a single session.\n* Amazon launched the GenAI Creators' Fund, which provides creators with money and access to a custom AI platform, and greenlit three AI-animated series for Prime Video, including projects from \"Book of Life\" director Jorge Gutierrez and BuzzFeed Studios.\n* Robinhood launched Agentic Trading and an Agentic Credit Card, which allow AI agents to trade and spend with little human input, and announced that it has connected AI agents that can analyze portfolios, flag risk, and execute strategies inside a sandboxed account.\n* OpenAI launched GPT-4.1 and its lighter derivatives, which offer improved multimodal reasoning and tool use capabilities, and announced the retirement of earlier GPT-4 variants in favor of more capable and efficient successors.\n\n### Notable Links\n* Anthropic Claude Opus 4.8\n* Anthropic Claude Code\n* Amazon GenAI Creators' Fund\n* Robinhood Agentic Trading",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖 Anthropic launches Claude Opus 4.8\n\nAlso: Amazon Prime Bets on AI-Made Shows  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 29, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.DB0aRdsBr6jihNQ_e6R1ije6yALwy-0T7nbLEsZ9jOPfWRZNzLH8XrjNl0x_j-phVvyX3BgR2dQF92kpMA-z_NE7JqG3oF7XegHHtqpFfOD697yBS-e3tsM2h8tN6aSc2Ci-kaiso_mhknnqUIZnshbn0u2chY0Fno4ePeUvYM0zbZ6KBQE_6zzBr6GnRJYyJCQoGghYsOmqbhhUTrXdiYVTEXctKoz3YwVhvdmqCRhvZG5YkkfKgSbiNqfLXAVnaGkzEq7DmH89CJp7QkL4PiObTzNhaN1GDMvpqVHs3y2czn9cN3oVn-xs_PllLWKkYcXH6l_FbEdETcwBFnFDd8WUmX_2FERWHwj8-eB6aUr_GAkEDQ47yQU9pw8FUD_8dPsjsWD2AIJIPtOHfSLU9N2mAywjlAYkK99sEMLOE53nTWXUneTsACkkSJucA"
+    },
+    {
+      "from": "\"Forward Future (Matthew Berman)\" <astro@forwardfuture.ai>",
+      "subject": "The AI billionaires are coming",
+      "date": "2026-05-29T12:06:53.000Z",
+      "summary": "## Forward Future\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic released Claude Opus 4.8, which is four times less likely than Opus 4.7 to miss flaws in its own code, and launched at the same pricing as Opus 4.7 with added features like effort controls, faster inference, and dynamic workflows for large-scale coding tasks.\n* Anthropic announced its Series H funding round, raising $65B at a $965B post-money valuation led by Altimeter, Dragoneer, Greenoaks, and Sequoia, with run-rate revenue having crossed $47B.\n* Apple plans to turn Siri into a standalone chatbot-style app in iOS 27, adding persistent conversations, file uploads, and a new interface tied to the Dynamic Island.\n* Senator Elizabeth Warren proposed higher corporate taxes, a wealth tax on billionaires, and direct taxes on AI infrastructure to address wealth inequality and fund social programs.\n* A Google engineer was charged with commodities fraud, wire fraud, and money laundering for using confidential search data to make trades tied to prediction-market contracts.\n* CNN sued Perplexity over AI-generated content, and Microsoft is preparing to launch a new AI coding model to compete in the developer tools market.\n* Groq raised $650 million in funding and pivoted from AI chips to inference cloud services, while the Jets adopted Microsoft Copilot for front-office operations.\n\n### Notable Links\n* Anthropic Pushes Reliability Over Raw Gains\n* Apple Recasts Siri as AI Chatbot\n* Google Engineer Turns Search Data Into Bets",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The AI billionaires are coming\n\nVideo: Matt's verdict on Opus 4.8  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 29th, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.gjvfX7JRbL1RKfObNke3hTDnn8Qx1YMb2UuABhkuaEcfYQ9ZYhSc8Iufh-0VBtaPiWOXkR_MDQdEouQ8dhWJKiH-9ILBf7YIBtpB5Qwn17IHwBduwseeeU9FyG1OAhj0yS7n5XtKAgMBxYZfx6uxCuUuTmP2rAzyCcGPaqndqK1UvEJn0nG6aZISXl9isPrcmSvNk9f4LFqn_grSxWDjOJzAgp_w_TC3NsG81v0QDY8pYF2ak4GAn0PpB2zmxjQ15wv6t4sxhjiHVIf--piYaj5q2KlEnGae-1NLiAhjig_BD-mKnYKjJgSC9qoLQmnM1u4nP5LOa1tDOqf5lE1epi-oPu0BWxeo9lM6mXZYPTo7TT1Fpqw97U2dI7OLm3sTauXF6gJZOxrLvy3UddXpGqkhYM6NJQS_R-JFWYOhrAUoHyZ7eLCRIiYqXx271wzSEtPTYe9S_"
+    },
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "TricP: A Novel Approach for Human Activity Recognition Using Tricky Predator Optimization Based on Inception and LSTM",
+      "date": "2026-05-29T12:55:49.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Researchers from Guru Gobind Singh Indraprastha University (GGSIPU) in India have introduced a novel optimization algorithm called TricP (Tricky Predator Optimization), which is inspired by the hunting behavior of coyotes. This algorithm is designed for human activity recognition tasks and utilizes a combination of Inception and LSTM (Long Short-Term Memory) networks. The TricP algorithm works by maintaining a population of candidate solutions, evaluating them, and then updating the population through exploratory, exploitative, and social movements to find the optimal solution.\n- The TricP algorithm was applied to a human activity recognition task using surveillance footage from the UCF-Crime dataset. The system consisted of four stages: data collection, preprocessing, feature extraction, and classification. The feature extraction stage used a combination of HOOF (Histogram of Oriented Optical Flow) and ResNet-101 to capture motion and appearance information. The classification stage utilized an Inception-based LSTM network.\n- The TricP algorithm was used to fine-tune the final classification layer's weights and biases, as well as the learning rate and dropout rate. The algorithm was compared to other baselines, including EKVN, Stochastic-CNN, iSPLInception, and DeepCNN-BiLSTM, and achieved the highest reported performance across the main comparisons, with sensitivity and accuracy in the 90% range and specificity in the high 90s.\n- However, the TricP algorithm comes with a significant increase in training time due to the evaluation of multiple candidate solutions during optimization.\n- The authors have made their paper available, which includes the full formulation of the TricP algorithm, the fitness function used to rank candidate solutions, and the keyframe-selection method.\n\n### Notable Links\n- [TricP: A Novel Approach for Human Activity Recognition Using Tricky Predator Optimization Based on Inception and LSTM](https://journalclub.io/episodes/tricp-a-novel-approach-for-human-activity-recognition-using-tricky-predator-optimization-based-on-inception-and-lstm) \n- Paper: TricP: A Novel Approach for Human Activity Recognition Using Tricky Predator Optimization Based on Inception and LSTM",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/tricp-a-novel-approach-for-human-activity-recognition-using-tricky-predator-optimization-based-on-inception-and-lstm?token=dU6n0GgTkE0vnzJ3AOcqrZ7YqHJLwqPek8Cce90ZFchlQAUN0l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TricP: A Novel Approach for Human Activity Recognition Using Tricky Predator Optimization Based on Inception and LSTM   \n\nIn his book Coyote America, Dan Flores argues that Canis latrans, (the common coyote), is one of the most adaptable and resilient animals on the continent. That every time we try to get rid of them, they come back stronger. And that despite centuries of extermination campaigns, bounties, poison programs, habitat destruction, and predator-control regulations, coyotes today are likely more widespread, more adapted, and possibly even more numerous than at any other point in recorded history.\n\n![](https://journalclub.io/px/ExyMzhXgMxuaGkmVw9ZCkYm3dRdayLSccCdaFWliL6WvZkuP5l)\n\nTricP: A Novel Approach for Human Activity Recognition Using Tricky Predator Optimization Based on Inception and LSTM\n\nJournalClub.io, May 29th, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/5FoMyDzySM5pqmg6pWdL)](https://journalclub.io/episodes/tricp-a-novel-approach"
+    },
+    {
+      "from": "\"The Code\" <thecode@mail.joinsuperhuman.ai>",
+      "subject": "🔥 Claude Opus 4.8 arrives",
+      "date": "2026-05-29T13:03:12.000Z",
+      "summary": "## The Code Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic has unveiled Claude Opus 4.8, its latest flagship large language model, which boasts improved performance, reliability, and autonomy, with a record score of 69.2% on the SWE-Bench Pro coding benchmark and a four-fold reduction in the likelihood of leaving flaws in its own code unflagged.\n* Claude Opus 4.8 introduces dynamic workflows, enabling it to spin up hundreds of parallel sub-agents to drive large migrations end-to-end, and is designed to run longer engineering tasks with less supervision.\n* Anthropics' Claude Code, an agentic coding environment, has been updated to work seamlessly with Opus 4.8, allowing for more autonomous coding, planning, and tool use, with a focus on safety, reliability, and long-context reasoning.\n* The concept of \"orchestration tax\" has been discussed, highlighting the challenge of managing multiple agents and the need for architectural solutions to optimize productivity and minimize exhaustion.\n* Cursor, an AI coding startup, has released its Developer Habits Report, showing a doubling of coding throughput over the past year, with the most active 1% of developers now shipping 46 times more code than the median active developer.\n* ElevenLabs has launched Dubbing v2, an AI-powered video dubbing platform that can translate and dub videos in over 90 languages with high-quality, emotive, and contextual accuracy.\n* OpenAI's Codex engineering lead has warned about the limitations of relying solely on agents for coding tasks, emphasizing the need for human judgment and oversight.\n* A power user has shared a setup for running Codex as a standing system, using it for morning \"pulse\" checks, writing logs, and email routing, showcasing the potential for autonomous coding and workflow management.\n\n### Notable Links\n* Claude Opus 4.8 benchmarks\n* Cursor Team Kit plugin\n* Codex Prompting Guide by OpenAI",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🔥 Claude Opus 4.8 arrives\n\nAlso: How agents change product engineering  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 29, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.kro7WBsAmEsY5mGgiUDePbOdMF_BvViPt7FxYKgxL9sHVZQygtqtO1WfYznfGJIbZsSSwW7amIQ_8WATUcp_JulCbEdQmg5B75m82UEJwLTzqtxQtOhanqO9nIWa0qSYW6zP84AAq8Vmm-dgvH3c31maMAD66dSUgbIX2xiRtuRo5EHnRGcqq4skZX2bNZHCn4VKUQNW_5-9t6G_4ALmrQkRtSOBYsL-ITQ6dGAMyOC9a97HM7LdTzDrm6GOyjAc-iLxkkpxbtDEMpD4Hq23lJliwnIurMwqodlIEz2_Kwhpiol4SGP46H71qHZ73hk0VkQX14yz7G-xhazb3yEjShv4GnnXSQ5vLFEErXgoDx5jwYlFowP02xR5XwQ0VUfJ4SiENVqLRfmdpIx9lo9Y365fq8f4GlOnzawqtP6LPxV_BF_ihMOUYZ3Vlm393ivt65Pzu"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🦾 Opus 4.8 lands, excels at \"honesty\"",
+      "date": "2026-05-29T13:12:32.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Anthropic has released **Claude Opus 4.8**, a new version of its flagship large language model that excels in \"honesty\" and is less likely to make things up when unsure. Opus 4.8 is described as leading in coding, knowledge work, and honesty, and is available at the same price as Opus 4.7.\n- **Microsoft 365 Copilot** has received a speed boost and a quieter design. The new interface is more consistent across Excel, PowerPoint, and Word, and loads twice as fast with a 10% improvement in response times for complex prompts.\n- **ElevenLabs** has launched **Dubbing v2**, a model that translates videos across 90+ languages while preserving the original speaker's tone, performance, and delivery. This makes dubbing more authentic and cost-efficient.\n- **Co-Invest** has put an investment platform in **ChatGPT and Claude**. This allows for sourcing investment ideas, reviewing reasoning, and executing trades without leaving the chat.\n- **Epicure**, a food model trained on 4M+ recipes, can create recipe suggestions. It is described as knowing \"what's for dinner\" and can be used to commemorate adventures.\n- **AI voice bots** can be manipulated by auditory prompt injection attacks that are silent to humans. This poses a new risk that individuals need to be aware of.\n- **Claude Code** has been updated with **dynamic workflows** and **effort control**. These features enable Claude to spin up hundreds of parallel sub-agents in a single session and trade off speed/cost vs. depth of reasoning per task.\n\n### Notable Links\n- Claude Opus 4.8\n- Microsoft 365 Copilot\n- ElevenLabs Dubbing v2\n- Co-Invest\n- Epicure\n- Claude Code",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 Anthropic ships Opus 4.8, nears $1T\n\nALSO: How to turn any selfie into a corporate headshot with Claude  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 29, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGURpuA6KjwVshROD2eX6C30qM_BLbTnWXp7GgesI7UaWmuOWyUrWTrQCew6Bo08yGCuE7RB3MFgDQ1RBAOtE19FzoJatThVLBAZ0dPGy-3fm6RxnrLseSLgLD4j_8-2Wk6PAu7rUFRQbNSApVl_STwRHIClMPXygaTJxfOOwQfCotqvdR71EwDAQBStDzkcrJ08mUurBMEeBqrHVBBUtmoOoh9fxswyNAdNcp7HVtdLjNmeoTNC_st3x_SKzwwBFIp2uRBxxwIKgKdbLSz7RMLJmVlL_QKlT6VVdPAvkVMaCk3wmMkD1gZ8HU7vsowZC4VJUu5zQkH4BSVzNBFDjCX8OR1lkMPR6oU12EK64wtULR1jniUmvWdD4b"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "Claude Opus 4.8 drops same day as Anthropic's $965B valuation round",
+      "date": "2026-05-29T13:22:51.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic has released **Claude Opus 4.8**, a significant update to its flagship large language model, which includes a new **fast mode** that is 2.5x faster and three times cheaper than before, **dynamic workflows** that enable parallel subagents, and **effort control** that allows users to choose the specific effort level for a response. This update is important because it enhances the model's autonomous work capabilities, making it more suitable for complex tasks and long-horizon projects.\n* Anthropic has raised **$65 billion** in a Series H round at a **$965 billion valuation**, making it the most valuable AI startup in the world, ahead of OpenAI. The funding will be used to expand compute capabilities, enhance safety and interpretability research, and scale Claude Code and other products.\n* The company's revenue has reached a **$47 billion run rate**, driven by enterprise customers deploying Claude deeper into their workflows. This growth is significant because it indicates the increasing adoption of AI models in the industry and the potential for Anthropic to become a leading player in the market.\n* A new open-source **Claude Code skill** has been released, which allows users to comment on Claude-built HTML pages and watch them update live. This tool is important because it streamlines the feedback process and enables more efficient collaboration between humans and AI models.\n* **Lightfield's outbound agents** can now run on CRM systems, allowing users to set strategies and have the agents build lists, run sequences, and surface warm intro paths. This development is notable because it demonstrates the potential for AI models to automate tasks and enhance productivity in various industries.\n* **Prior Labs' TabPFN-3** model has been released, which beats tuned classical ML models and has a 90% win rate. This model is significant because it showcases the capabilities of AI in structured data processing and its potential to outperform traditional machine learning approaches.\n* **LMMs Lab's vision model** has been open-sourced, which beats Qwen3-VL on video understanding by 44 points. This model is important because it demonstrates the advancements in AI-powered video understanding and its potential applications in various fields.\n* **Roboflow's object detection model** now runs on CPU via tiny 30 MB GGUF weights, making it more accessible and efficient. This development is notable because it enables the deployment of AI models on a wider range of devices and platforms.\n* A new **C++ body-tracking engine** has been released, which maps 70 joints in real-time without requiring Python. This engine is significant because it demonstrates the advancements in AI-powered computer vision and its potential applications in various fields, such as healthcare and robotics.\n\n### Notable Links\n* Claude Opus 4.8\n* Anthropic Raises $65B\n* Claude Code\n* TabPFN-3\n* LMMs Lab's Vision Model\n* Roboflow's Object Detection Model\n* C++ Body-Tracking Engine",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=55ae6b06c000108f&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=55ae6b06c000108f&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=55ae6b06c000108f&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=55ae6b06c000108f&mid=7d4264b6-9a19-41bb-9c87-0af7cab751ae&s=Claude%20Opus%204.8%20drops%20same%20day%20as%20Anthropic%27s%20%24965B%20valuation%20round&t=1780060967)\n\n$47B run rate drives compute expansion, dynamic workflows enable autonomous work, effort control adjusts thinking depth\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=55ae6b06c000108f&lid=1jZU6cF1nedwtLmQ1&mid=7d4264b6-9a19-41bb-9c87-0af7cab751ae)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=55ae6b06c000108f&lid=1ak0COo4sqI0Xe4jQ&mid=7d4264b6-9a19-41bb-9c87-0af7cab751ae)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nAnthropic dropped Opus 4.8 and a $65B raise on the same day."
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Opus 4.8 🧠, Anthropic at $965B 💰, Microsoft’s coding model 👨‍💻",
+      "date": "2026-05-29T13:44:44.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic released Claude Opus 4.8 with benchmark improvements, adjustable effort controls, dynamic workflows in Claude Code, and a faster mode that became significantly cheaper.\n* Anthropic announced a $65 billion Series H round at a $965 billion post-money valuation, citing strong enterprise adoption, $47 billion in run-rate revenue, and plans to expand compute capacity, research, and product development.\n* Microsoft is developing a new AI model to strengthen its position in the AI coding arena, highlighting ongoing competition in AI development and response to evolving industry demands.\n* SpaceX has almost finished writing V1.0 of an in-house AI training stack in C, making heavy use of pipeline parallelism to achieve potential speed improvements of over an order of magnitude.\n* NVIDIA introduced γ-World, a generative world model that supports independently controllable, permutation-symmetric agents and delivers real-time rollouts with zero-shot generalization from two-player to four-player settings.\n* Sakana Labs found a new way to break the network into blocks and train them independently, treating the network's forward pass like a diffusion model denoising a signal to slash the memory needed to train deep models.\n* ByteDance is going to make its own processors due to wait times, and Mistral plans to explore designing its own chips as it ramps up infrastructure build.\n* OpenAI published a Frontier Governance Framework describing its safety and security practices, including risk management, model reporting, incident response, and oversight for advanced AI systems.\n\n### Notable Links\n* [Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)\n* [Anthropic Series H Funding](https://www.anthropic.com/news/series-h)\n* [Agent Judge: Solving Long-Context Evals for Production Agents](https://www.judgmentlabs.ai/blogs/agent-judge-solving-long-context-evaluations)\n* [γ-World](https://research.nvidia.com/labs/sil/projects/gamma-world)\n* [OpenAI Frontier Governance Framework](https://links.tldrnewsletter.com/BTdv7Z)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nAnthropic released Claude Opus 4.8 with benchmark improvements, adjustable effort controls, dynamic workflows in Claude Code, and a faster mode ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019e73fae98c-34b4ba4d-f298-4cbe-b0c9-3b7cd5d5bc7e-000000/vmYjpNbMCToF802DK3awt4Mn7jIuqtp1EEC06D-PVnA=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019e73fae98c-34b4ba4d-f298-4cbe-b0c9-3b7cd5d5bc7e-000000/9gwboIwS-oHdDPP9x0PtDJefS05eJT9UBB3iX1aeCeo=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=e4f322d2-5b57-11f1-bd87-2576bedfb78d%26pt=campaign%26t=1780062284%26s=14648b83dbed53fcfbc195"
+    },
+    {
+      "from": "\"AI Breakfast\" <aibreakfast@mail.beehiiv.com>",
+      "subject": "Anthropic rolls out Claude Opus 4.8 with near-Mythos level alignment and 3x cheaper fast mode",
+      "date": "2026-05-29T14:07:43.000Z",
+      "summary": "## AI Breakfast\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic has rolled out Claude Opus 4.8 with near-Mythos level alignment and a 3x cheaper fast mode, introducing a five-tier Thinking effort selector and outperforming GPT-5.5 and Gemini 3.1 Pro on knowledge-work and complex agentic tool-use benchmarks.\n* The model's alignment and honesty metrics match Claude Mythos Preview, showing a fourfold reduction in unremarked code flaws compared to version 4.7, but also exhibits a tendency to explicitly reason about how its outputs will be graded.\n* OpenAI Foundation is launching a $250 million grant initiative to mitigate AI-driven economic and labor disruption, focusing on long-term worker transitions and independent macroeconomic forecasting.\n* Google Cloud has launched Google AI Threat Defense, an autonomous cybersecurity platform combining Gemini's reasoning with telemetry from Wiz, CodeMender, and Mandiant to discover and patch vulnerabilities.\n* Girls Who Code has integrated vibe coding into its student curriculum, while Vertu is betting on an open-source AI foldable to run companies.\n* Microsoft is releasing a new coding model, and the OpenAI and Anthropic CEOs have walked back their predictions of an AI job apocalypse.\n* The OpenAI Foundation is partnering with the Associated Press to stream live vote counts inside ChatGPT, and has retired GPT-5.2 and GPT-5.3-Codex from its web environment.\n* Major developments have occurred in AI-generated media, with YouTube expanding its Premium podcast suite and Amazon's Project Nara greenlighting three animated series using generative AI.\n* Significant advancements have been made in AI hardware and infrastructure, including Nvidia's pledge of $150 billion annually to Taiwan's AI chip supply chain and SpaceX's custom C training stack to bypass heavy Python framework overhead.\n\n### Notable Links\n* Anthropic Claude Opus 4.8\n* OpenAI Foundation Grant Initiative\n* Google AI Threat Defense\n* Girls Who Code Vibe Coding\n* Vertu Open-Source AI Foldable\n* Amazon's Project Nara",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Anthropic rolls out Claude Opus 4.8 with near-Mythos level alignment and 3x cheaper fast mode\n\nMay 29, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/aelwOyfQxc21OXf3MeJXCU6%2FNT6%2FmWb4V4uyoKJ1nx0L6wIqnlTQLeylg%2B88%0AECljYnYl68r%2FtBXNoJ%2FM8BJGWdLZyH6AakRU3CI142TdWG%2FloiUGdK%2FZWf0q%0APN56siqKBDQCpkUNG9ZVhZJRwhJ20%2Bjq5tmv5PY9%2BA0wgujLJC48bZOcPgMA%0AVkQObRSulP3NXQHiEFv6cyjmV63S7RxP1Q%3D%3D%0A/af599cf00c0a4a4d)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/acae4be9-a88f-4644-87ab-182c2cfc10fe/ai_breakfast_white_logo.png?t=1773352600)](https://link.mail.beehiiv.com/v1/c/jasznK4U2E05Ml2ISSvmiHhxjGzZGKbwXo6ay5ZvSGNfkrw9DO6r89p%2Fj%2BsQ%0Ag3rmJtsf1uLyWxj%2BwIfL%2FdiW%2B41zdgI9KV1%2Fc2CZa6bjy6EcVXm%2BgR5W2PuS%0A590enAKvdYl4GavQiKbnH6cLbNjc3QOgNCc19LJeRWNraOKwGRz028Wt5a4N%0A9zXjycA2eslDGFa3oPr8CRMu5vcM71x3lA%3D%3D%0A/fcb4b12d59ba5d65)\n\n# Anthropic rolls out Claude Opus 4.8 with near-Mythos level alignm"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "How Lovable hit $400M ARR in 14 months with 146 people and almost zero paid ads",
+      "date": "2026-05-29T13:53:27.000Z",
+      "summary": "## The AI Corner\n\n**Priority: HIGH**\n\n### Top Updates\n- Lovable, an AI company, has achieved $400M ARR in 14 months with only 146 employees and almost zero paid acquisition, making it one of the fastest-growing and most capital-efficient software companies on record.\n- The company's growth can be attributed to its organic growth playbook, which includes a combination of founder brand, daily shipping, freemium as a marketing budget, and a cultural operating system that emphasizes innovation and speed.\n- Lovable's founder, Anton Osika, has a background in engineering physics and has worked at CERN, and the company has raised $330M in Series B funding, valuing it at $6.6B.\n- The company's growth levers include hiring ex-founders and high-slope generalists, shipping daily, using freemium as a marketing budget, and having a strong brand that compounds trust over time.\n- Lovable's north star metric is Daily Active Apps, which captures both the builder and the end user, making it a leading indicator for monetization and retention.\n- The company has a unique approach to monetization, with three layers: subscriptions, top-ups, and outcome-based pricing, which is expected to become the norm in the industry.\n- Lovable's cultural operating system emphasizes hiring people who can see around corners, not waiting to understand the market before moving, and having a high percentage of innovation in growth work.\n\n### Notable Links\n- Lovable\n- [Startup Riders](https://open.substack.com/pub/startupriders)\n- Ivan Landabaso\n- JME Ventures\n- Anton Osika\n- [Elena Verna](https://open.substack.com/users/3478323-elena-verna)\n- [20VC](https://open.substack.com/users/167903889-20vc)\n- [Lenny's Podcast](https://open.substack.com/users/1849774-lenny-rachitsky)\n- Freepik growth deep dive\n- The AI Corner",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRmxvdmFibGUtZ3Jvd3RoLXBsYXlib29rLTAtdG8tNDAwbS1hcnItMTQtbW9udGhzIiwicCI6MTk5Mjk3MzY0LCJzIjo2ODUwNTQ0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MDA2MzAwNSwiZXhwIjoyMDk1NjM5MDA1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.0NYr4K6rmeRo5G7ez3luWK9mLvXjejxhDYI_JefAqic?"
+        },
+        {
+          "text": "How Lovable hit $400M ARR in 14 months with 146 people and almost zero paid ads",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=199297364&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTI5NzM2NCwiaWF0IjoxNzgwMDYzMDA1LCJleHAiOjE3ODI2NTUwMDUsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.pYi7OFNEiDrPprixAm1IFToHfQYYTV8KThuYddtiRFI"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/lovable-growth-playbook-0-to-400m-arr-14-months?redirect=app-store"
+        },
+        {
+          "text": "Ivan Landabaso",
+          "url": "https://substack.com/redirect/671cebef-a88d-4c06-8626-759aca73ff17?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "JME Ventures",
+          "url": "https://substack.com/redirect/fbca2bd2-4a78-4ac8-b824-9dee4065c9a0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Startup Riders",
+          "url": "https://open.substack.com/pub/startupriders"
+        },
+        {
+          "text": "10% off Lovable",
+          "url": "https://substack.com/redirect/23bef252-77a0-426b-817e-9e26128bd7a3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "meet my friend Arnold",
+          "url": "https://substack.com/redirect/073617b5-47dc-4af9-a69f-20a226cc9100?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Anton Osika",
+          "url": "https://substack.com/redirect/205a0728-5162-4bd3-8b3c-92121add3f82?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://arxiv.org/abs/users/3478323",
+          "title": null,
+          "arxivId": "users/3478323",
+          "source": "arxiv-id"
+        },
+        {
+          "url": "https://arxiv.org/abs/users/1849774",
+          "title": null,
+          "arxivId": "users/1849774",
+          "source": "arxiv-id"
+        },
+        {
+          "url": "https://arxiv.org/abs/users/3477063",
+          "title": null,
+          "arxivId": "users/3477063",
+          "source": "arxiv-id"
+        }
+      ],
+      "priority": "MEDIUM",
+      "originalContent": "How Lovable hit $400M ARR in 14 months with 146 people and almost zero paid ads![](https://eotrx.substackcdn.com/o/4be8f063f7ddfe34/p.gif?token=eyJtIjoiPDIwMjYwNTI5MTM1MzI3LjMuMDdhODc2Nzk3OTQ5YWVkYkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5OTI5NzM2NCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo2ODUwNTQ0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgwMDYzMDA1LCJleHAiOjE3ODI2NTUwMDUsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ._MpHLvyHIE6A0ArHC4bfUfZaxfCePYSrfj7A6MOCZw0)\n\nThe organic growth playbook, stage by stage\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"Hamza Farooq from The Production Gap\" <boringbot@substack.com>",
+      "subject": "Claude Code token optimization - best practices",
+      "date": "2026-05-29T14:52:59.000Z",
+      "summary": "## The Production Gap\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Hamza Farooq discusses Claude Code token optimization best practices, highlighting that most developers only see modest savings after enabling prompt caching, while a select few achieve 90% reductions by doing something structurally different.\n* The problem lies in how Claude Code fills its context window, with 20,000-30,000 tokens loaded before the user types anything, including system prompts, CLAUDE.md, memory, MCP, skills, and more.\n* To optimize, Hamza recommends techniques such as cutting CLAUDE.md to under 500 tokens, using `.claudeignore` and `permissions.deny` to exclude unnecessary files, and implementing path-scoped rules in `.claude/rules/`.\n* The benchmark shows that combining these techniques can result in an 89.3% cost savings for Claude API users.\n* Hamza also covers the differences between Claude Code CLI and Claude API, emphasizing that CLI users pay with response quality, while API users pay with money.\n* The post includes interactive calculators and benchmark results to demonstrate the effectiveness of these optimization techniques.\n\n### Notable Links\n* [Claude Code token optimization - best practices](https://substack.com/app-link/post?publication_id=1645059&post_id=199436005&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTQzNjAwNSwiaWF0IjoxNzgwMDY2NDA1LCJleHAiOjE3ODI2NTg0MDUsImlzcyI6InB1Yi0xNjQ1MDU5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.k1KbmskYE7Urz_Cqk_UK6Aautadvgimwi1PuB4DEVeM)\n* [Hamza Farooq](https://substack.com/@boringbot)\n* Claude Code: A Practitioner’s Approach\n* Anthropic \n* Traversaal.ai",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9ib3Jpbmdib3Quc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRmJvcmluZ2JvdC5zdWJzdGFjay5jb20lMkZwJTJGaG93LXRvLXNhdmUtbWlsbGlvbnMtaW4tY2xhdWRlLXRva2VucyIsInAiOjE5OTQzNjAwNSwicyI6MTY0NTA1OSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODAwNjY0MDUsImV4cCI6MjA5NTY0MjQwNSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.aXGn4xMT-lR79NMVRdDmb0pHflPY8ikom4eq0HSN3gY?"
+        },
+        {
+          "text": "Claude Code token optimization - best practices",
+          "url": "https://substack.com/app-link/post?publication_id=1645059&post_id=199436005&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTQzNjAwNSwiaWF0IjoxNzgwMDY2NDA1LCJleHAiOjE3ODI2NTg0MDUsImlzcyI6InB1Yi0xNjQ1MDU5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.k1KbmskYE7Urz_Cqk_UK6Aautadvgimwi1PuB4DEVeM"
+        },
+        {
+          "text": "Hamza Farooq",
+          "url": "https://substack.com/@boringbot"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/boringbot/p/how-to-save-millions-in-claude-tokens?redirect=app-store"
+        },
+        {
+          "text": "Hamza",
+          "url": "https://substack.com/redirect/cb673dd7-5794-492e-a4dc-dcd8d1219e0f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "MAVEN",
+          "url": "https://substack.com/redirect/b6115b8b-042d-4749-9c3b-0b88870470d5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Traversaal.ai",
+          "url": "https://substack.com/redirect/9093fae7-fdb6-4b31-b862-02546654c403?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Claude Code: A Practitioner’s Approach",
+          "url": "https://substack.com/redirect/f182cf59-3304-4f01-bbe8-1d0bf5fc6843?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Access free courses",
+          "url": "https://substack.com/redirect/022b7a2f-76dd-4e21-9e6e-0162c3c8bad4?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "https://raw.githubusercontent.com/hamzafarooq/token-optimizer/main/dashboard/screenshot-calculator.png",
+          "url": "https://substack.com/redirect/2c3edf8e-70be-41e3-b460-4b2b60b491c2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Claude Code token optimization - best practices![](https://eotrx.substackcdn.com/o/e7cbfc9521a3938d/p.gif?token=eyJtIjoiPDIwMjYwNTI5MTQ1MjU5LjMuM2VhZjNmNjQ4ODBkYTYwZEBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxOTk0MzYwMDUsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjE2NDUwNTksImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODAwNjY0MDYsImV4cCI6MTc4MjY1ODQwNiwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.HNQr0RjW0vWP9937CxuYUcIxsMhJZRHQNL9X8URq0Ws)\n\nMost developers enable prompt caching and see modest savings, the ones hitting 90% reductions are doing something structurally different that almost nobody talks about.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Why is AI so bad at counting letters in a word?",
+      "date": "2026-05-29T15:04:17.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Google's AI overview feature has been experiencing a \"spelling meltdown,\" making basic spelling mistakes such as claiming there are two Ps in \"Google\" and one \"r\" in \"poop.\" This issue arises from how AI models process text, breaking it down into smaller chunks called tokens, which can make simple spelling tasks difficult.\n- The problem is linked to how AI models process text, and Google has acknowledged it as a known issue for Large Language Models (LLMs), stating they are working on a fix. This error highlights the importance of verifying AI-generated content for accuracy.\n- French AI company Mistral is expanding into areas where Europe already has strong industries, including car testing, aircraft design, defense, and shipping. Mistral's CEO, Arthur Mensch, believes AI's biggest uses will be in research, development, and building physical products.\n- Mistral has signed a five-year deal with Airbus to use AI in defense, space, and helicopter manufacturing, aiming to support flight safety, cockpit tools, and aircraft design. Additionally, they will work with BMW to build AI models that understand vehicle physics and improve crash testing.\n- A Google employee has been charged with fraud for allegedly using confidential Search trend data to make $1.2M on Polymarket bets before the information became public, intensifying scrutiny around insider trading risks on prediction market platforms.\n- Mindstream has compiled a list of the top 100 AI tools that can aid in various tasks such as coding, web design, ghostwriting, and workflow automation, available for readers to explore and utilize.\n\n### Notable Links\n- Top 100 AI Tools List\n- For more information on Mistral and its partnerships, visit their official website or relevant news articles.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Google had a spelling meltdown\n\n\\+ Europe's AI powerhouse signs big deal  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n29 May\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/d8230"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "I Gave Claude 4.8 One Sentence. It Built The Whole App.",
+      "date": "2026-05-29T16:02:04.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: HIGH**\n\n### Top Updates\n* Claude Opus 4.8, Anthropic's latest flagship large language model, has been released with significant improvements in complex reasoning, long-horizon agentic coding, and high-autonomy knowledge work, making it a leading choice for building robust AI agents and complex AI-driven workflows in production.\n* The model introduces a new fast mode (research preview) that runs about 2.5× faster at roughly one-third the cost, and a lower 1,024-token minimum cacheable prompt length to make large-context workflows more efficient.\n* Claude Opus 4.8 has achieved major gains in software engineering, math/analytical reasoning, and is around 4× less likely than its predecessor (4.7) to leave flaws in its own code unflagged, showcasing a key reliability shift.\n* The release includes dynamic workflows (research preview) that let Claude spin up hundreds of parallel sub-agents in a single session, and new \"effort control\" knobs to trade off speed/cost vs. depth of reasoning per task.\n* Cloud providers like AWS Bedrock have rolled out Opus 4.8 across multiple regions, making it accessible for enterprise applications in software development, legal and financial analysis, and other high-stakes domains.\n* Five one-shot prompts are provided to demonstrate the capabilities of Claude 4.8, including building a real, working app, a playable game, a tool from a screenshot, a dashboard from messy data, and a free version of a paid tool.\n* Benchmark comparisons show Claude Opus 4.8 outperforming its predecessor in agentic coding (64.3% to 69.2%), reasoning with tools (54.7% to 57.9%), computer use (82.8% to 83.4%), and financial analysis (51.5% to 53.9%).\n\n### Notable Links\n* [Claude Opus 4.8](https://www.anthropic.com/) - Anthropic's flagship large language model\n* [AWS Bedrock](https://aws.amazon.com/machine-learning/bedrock/) - Cloud provider for enterprise applications\n* [Paper Title](https://arxiv.org/abs/XXXX.XXXXX) - (Not available in this newsletter)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "I Gave Claude 4.8 One Sentence. It Built The Whole App.\n\n❗️5 one-shot prompts that show what Claude 4.8 can actually do.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 29, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/dUGf1bJWDSmqQR3sDIdgyKbi%2BV%2F5N6oVJnS61YmCNYD8b1NejC67Zd2R8EIk%0A51hW4QNMu3tUMnbqW%2BiKtjiVjRqYqvHnf9PcvyPS1qZk%2FjskcHed01%2BNFdvO%0A6fxBa1sU8iMXZNXjFwlR3CplPL1U4zwEXRp2IalOA7BuoepxLlhhJBRJR53w%0A%2Fyr%2BZ%2FIEKr8Lzc0mm9uSDu9GmHQiFyH9NQ%3D%3D%0A/b476a0549ef46e52)\n\n# I Gave Claude 4.8 One Sentence. It Built The Whole App.\n\n❗️5 one-shot prompts that show what Claude 4.8 can actually do.\n\n![](https://link."
+    },
+    {
+      "from": "\"Matt from FutureTools\" <futuretools@mail.beehiiv.com>",
+      "subject": "ChatGPT 🤝 your bank account...?",
+      "date": "2026-05-29T16:03:49.000Z",
+      "summary": "## Future Tools Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* Robinhood has opened its trading platform to AI agents, allowing users to create a separate account for an AI agent, add money, and let it buy and sell stocks on their behalf. This development raises concerns about risk, as AI agents still struggle with basic tasks and can potentially lose users' life savings.\n* OpenAI has rolled out a personal finance experience in ChatGPT, enabling users to securely connect their accounts and get a dashboard of their spending, investments, and cash flow. However, this feature also raises concerns about data privacy and the potential for advertisers to influence ChatGPT's responses.\n* YouTube will now automatically detect and label AI-generated content, including videos with \"significant photorealistic AI.\" This move aims to increase transparency and help viewers make informed decisions about the content they consume.\n* Cognition, the company behind the AI software engineer Devin, has raised over $1 billion at a $25 billion pre-money valuation. Devin is an autonomous AI coding agent that can write code independently, and the company has gained significant traction with customers like Mercedes-Benz, NASA, and Goldman Sachs.\n* Anthropic has closed a $65 billion funding round, valuing the company at nearly $1 trillion. This investment will likely drive further development of Anthropic's Claude models and its focus on AI safety and research.\n* OpenAI has unveiled a redesigned Microsoft 365 Copilot experience built around AI-native productivity. This update aims to integrate AI more seamlessly into Microsoft's productivity suite and enhance user experience.\n* Claude Code, Anthropic's agentic coding environment, has been updated with new features and capabilities. Claude Code is designed to function like an autonomous software engineer, and its latest version includes improvements in planning, tool use, and integration with terminals and desktops.\n\n### Notable Links\n* [Claude Code](https://www.anthropic.com/claude/code) \n* [ChatGPT](https://chat.openai.com/) \n* [Devin](https://www.cognition.ai/devin) \n* [Anthropic](https://www.anthropic.com/) \n* [OpenAI](https://www.openai.com/) \n\nNote: The links provided are to the primary sources and product pages, not tracking URLs.",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "ChatGPT 🤝 your bank account...?\n\nPlus, YouTube slaps warning labels on AI videos  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 29, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/vOAi5ggozYI%2BrnzoLwvKnWnSB9Akvp87PQzBJuxRnpgnRO49M8uH9aTOY6Iv%0AuAk37kCN6fvSEbLsXeIMUDNqTt8U4ryY8OZGAQ2xk43mmOJ%2FWm6Ihm5hByiJ%0AMXuYigbdQwAaXQkD2ZFTJova%2BJvzdErU2p1b2nzP6rGxa0EOYbyK%2FzdREToa%0AAXrC3k2%2BnnvNpkyrjX%2FdM9QYlcCgw6jItw%3D%3D%0A/6b15329c9a536738)\n\n![](https://link.mail.beehiiv.com/v1/o/PMxF76hTyuMRg3jBNO96PuE45yt6CIGo6b%2FPlUNXXalERM80Z%2BDsxm0Oy9ww%0A6Pf1erR7guADHPmEEOOARRPm1MKf9xuS9nnegmkR95nx44Xr753AijMZ1MyW%0AJGj6c2axgkpqR%2"
+    },
+    {
+      "from": "\"Dharmesh @ simple.ai\" <agentai@mail.beehiiv.com>",
+      "subject": "🤖 Agents Love the Command Line",
+      "date": "2026-05-29T17:03:19.000Z",
+      "summary": "## Agents Love the Command Line\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The future of computing is about humans and agents working together, and software systems will need to deliver both a great User Experience (UX) and a great Agentic Experience (AX) to succeed.\n* Agents prefer Command-Line Interfaces (CLIs) because they are more efficient and less ambiguous than Graphical User Interfaces (GUIs) designed for humans.\n* A great AX is a parallel discipline that asks different questions than UX, focusing on token efficiency, clear errors, and structured outputs that agents can parse efficiently.\n* HubSpot has launched its Agent CLI in private beta, designed from the agent's perspective to provide a convenient and token-efficient way to access HubSpot.\n* The CLI is built for agents, not just humans, and is intended to help agentic systems like Claude Cowork and OpenAI's Codex work efficiently with HubSpot.\n* Designing an interface for an agent requires considering their preferences, such as precise commands, structured outputs, and clear errors, rather than just tweaking a UX designed for humans.\n* Agents reach into software through three doors: API, MCP, and CLI, and each has its own strengths and weaknesses.\n* The era of working together with agents is arriving, and software companies need to adapt to deliver both great UX and AX to succeed.\n\n### Notable Links\n* [Agent.ai](https://agent.ai): a professional network for AI agents to do company research, find prospects, and more.\n* [HubSpot's Agent CLI](https://dharme.sh/hsclisignup): a private beta launch of HubSpot's Agent CLI, designed for agentic systems like Claude Cowork and OpenAI's Codex.\n* [OpenAI's GPT-4](https://openai.com/blog/gpt-4): a large language model that sets benchmarks for general-purpose language and multimodal capabilities.\n* [Anthropic's Claude](https://anthropic.com/clause): a safety-focused frontier model that is seen as a strong competitor to OpenAI's GPT-4.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖 Agents Love the Command Line\n\nAnd most software is still speaking the wrong language to them  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 29, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.OmvVQoGRxXyFopAr2m0tC34HA0k9SH_1W6PCiNx2mhEyx23wv8ruXwS_cY3n2-ksFkwsBa-qkTwBqB_YVjQ-v3-TV0EW926JQCJ7NoZl05CI65-GrDQVC7ebrDbIMGNNeyuloqup2DQzqtQziScozPvGEQFB9sDqNF2MNtpcNqNyZIbJ1HEOKSBZ5p22xxI5tJy10nyn9pp0AiZRhDagVEnfdhvfP6ZiBTToUgLxJC-g7IBKuevbEhIPavWLnIPcWWnC3sZKONhP6IPZ55oUsBKrCUSx1pCGn1yllhhJo59kGURZJK6zKlkmP23-H4yJmMnJ9os8aa0KXG17osud4IYDd0rdOqR9brOjMr37lft5YjYwuHz0E5ZV81obVmdqKA95UwS24f9ccmD9TCAGf5-FBC5D3AeCJCDwy3_uvGgHR"
+    }
+  ],
+  "tldr": [
+    "Anthropic releases Claude Opus 4.8 model.",
+    "Robinhood allows AI agents to trade stocks.",
+    "YouTube labels AI-generated video content.",
+    "OpenAI introduces personal finance in ChatGPT.",
+    "Cognition raises $1 billion for AI coding."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is an AI safety and research company best known for its Claude family of large language models, positioned as a leading alternative to OpenAI’s GPT and Google’s Gemini.[3][4] Claude is designed as a general-purpose AI assistant for tasks such as writing, coding, data analysis, and multimodal understanding, with tiers like Haiku (lightweight), Sonnet (balanced), and Opus (flagship) targeting different complexity and performance needs.[3][4] The company emphasizes \"constitutional AI\" and safety research, publishing work on topics like how AI assistance shapes coding skills and how AI is transforming knowledge work inside Anthropic itself.[7][9]  \n\nRecent developments center on rapid iteration of its top-end Claude Opus model (e.g., 4.6 and 4.7) with major gains in agentic coding, long-horizon task handling, tool use, and multimodal capabilities, such as understanding images and generating visuals directly in workflows.[1][2] Anthropic has also been rolling out more autonomous-agent style products (often framed as moving beyond chatbots), enabling Claude to orchestrate complex enterprise workflows—software engineering, legal, finance, and HR—with plugins and automation that reduce human-in-the-loop labor for repetitive, process-driven tasks.[1][2] This pushes Anthropic from being just a chat interface provider to an AI automation platform, with potential to disrupt traditional IT and outsourcing models by shifting value from headcount-based delivery to outcome- and agent-based pricing.[2]  \n\nIn industry impact, Claude increasingly competes head-to-head with OpenAI and Google on reasoning, coding, and enterprise integration benchmarks, with some external evaluations suggesting Claude slightly outperforms free ChatGPT tiers on cognitive tasks and is preferred for creativity and summaries, while premium GPT tiers remain stronger on certain complex math and reasoning.[3] Anthropic’s focus on safety and alignment, combined with its agentic automation roadmap and strong Claude performance, has made it a central player in the AI/ML ecosystem and a key vendor for organizations looking to adopt advanced, workflow-integrated AI systems.[3][4][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "Claude Opus 4.8",
+        "context": "Claude Opus 4.8 is Anthropic’s latest **flagship large language model**, positioned as its most capable generally available model for complex reasoning, long‑horizon agentic coding, and high‑autonomy knowledge work.[1][4] It extends the Claude 4.x line with a hybrid reasoning architecture and a 1M‑token context window, while keeping the same price as Opus 4.7.[1][4][2] Opus 4.8 introduces a new **fast mode** (research preview) that runs about 2.5× faster at roughly one‑third the cost, plus a lower 1,024‑token minimum cacheable prompt length to make large‑context workflows more efficient.[1][6] Benchmarks show major gains in software engineering (e.g., top scores on SWE‑bench variants, improved long‑horizon coding and program synthesis) and math/analytical reasoning, alongside a key reliability shift: Anthropic reports Opus 4.8 is around **4× less likely than 4.7 to leave flaws in its own code unflagged**.[1][3][5]\n\nThis release matters because it pushes Claude further into **agentic and professional‑grade** use cases while remaining competitive with frontier models from OpenAI and Google on coding, tool use, and complex workflows.[2][5] Anthropic is pairing the model with new **dynamic workflows** (research preview) that let Claude spin up hundreds of parallel sub‑agents in a single session, plus new “effort control” knobs so users can trade off speed/cost vs. depth of reasoning per task.[1][5][6] Industry impact is already visible: cloud providers like **AWS Bedrock** have rolled out Opus 4.8 across multiple regions, making it accessible for enterprise applications in software development, legal and financial analysis, and other high‑stakes domains.[7] Commentators and early users highlight that these improvements—especially in coding reliability, long‑horizon autonomy, and multi‑agent orchestration—position Opus 4.8 as a leading choice for building robust AI agents and complex AI‑driven workflows in production.[2][5][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is a leading artificial intelligence research and product company best known for its GPT series of large language models, the ChatGPT product, and its close commercial partnership with Microsoft.[3][9] It matters in the AI/ML space because its models have repeatedly set benchmarks for general-purpose language and multimodal capabilities, driving both enterprise adoption and consumer awareness of AI assistants.[3][9] In terms of capabilities, OpenAI’s frontier models (GPT‑4‑class and successors) are generally regarded as among the most capable general-purpose systems, while Anthropic’s Claude models are often seen as especially strong on safety, reliability, and long-context reasoning, creating a de facto two-player race at the top end of the market.[9] \n\nRecent developments include OpenAI’s rollout of newer GPT‑4.x family models and the planned retirement of earlier GPT‑4 variants in favor of more capable, more efficient successors such as GPT‑4.1 and its lighter derivatives for different cost–latency tradeoffs.[1][3] OpenAI has also been emphasizing multimodal reasoning (integrating text and images), tool use, and agentic behavior, positioning its models as infrastructure for complex workflows rather than just chatbots.[1][3] Industry impact is substantial: OpenAI’s technology underpins Microsoft Copilot across Office, Windows, and Azure, and it is widely used via API by startups and large enterprises, helping to set pricing norms, safety expectations, and competitive roadmaps for rivals including Anthropic, Google, and others.[3][9] In valuation terms, private-market estimates and secondary sales have frequently placed OpenAI at a higher implied valuation than Anthropic, reflecting its larger user base and deep Microsoft integration, while Anthropic is seen as a fast-rising competitor focused on safety-focused frontier models and enterprise deals with partners like Amazon and Google.[9]",
+        "source": "web search"
+      },
+      {
+        "topic": "Claude Code",
+        "context": "Claude Code is Anthropic’s **agentic coding environment** built on top of its Claude models (currently anchored on the Claude Opus 4.x series), designed to function more like an autonomous software engineer than a traditional code autocomplete tool.[8][10] It combines a multi-file IDE/terminal interface with a sophisticated memory and tool-use architecture, enabling it to understand large codebases, plan multi-step changes, execute commands, run tests, and iteratively modify projects with minimal human intervention.[6][8] Analyses of the (now widely discussed) source-code leak describe a three-layer memory index, multi-agent coordination, risk-classified actions, and continuous background “daemon” behavior, illustrating a blueprint for production-grade AI agents rather than a simple coding assistant.[2][6][8]\n\nThis matters because it pushes AI-assisted development from **token-level assistance** (autocomplete, isolated refactors) to **project-level agency**, where the main bottleneck shifts from writing code to specifying goals, reviewing changes, and integrating AI-driven development into existing workflows.[3][8][10] In practice, the creator of Claude Code at Anthropic reported that, over a recent 30-day period, **100% of his contributions** to the project (hundreds of commits and pull requests) were generated by Claude Code itself, framing it as a turning point for how software engineering work is divided between humans and AI.[3][4] Recent updates in the Claude 4.x line and Opus 4.8-era improvements focus on better planning, longer-running tasks, and tighter integration with terminals/desktops, while Anthropic’s new compute deal with SpaceX has allowed them to **raise usage and rate limits for Claude Code and Opus models**, indicating strong demand and rapid scaling of real-world usage.[1][5]\n\nIndustry impact is emerging along three fronts: first, **developer productivity**—teams use Claude Code as a semi-autonomous collaborator that can maintain context across large repositories, draft substantial features, and handle tedious refactors, shifting human effort towards design, architecture, and oversight.[7][9][10] Second, **agent architectures**—researchers and practitioners treat Claude Code as an influential reference implementation for agent design patterns such as skeptical memory, background consolidation, multi-agent orchestration, and human-in-the-loop risk controls.[2][6][8] Third, **competitive pressure**—its capabilities and growing adoption are driving other model providers and tools (e.g., IDE agents and cloud dev environments) to add long-running goal modes, multi-agent views, and automation hooks to reach feature parity, contributing to a broader transition from “copilots” to autonomous coding agents across the AI/ML ecosystem.[5][10]",
+        "source": "web search"
+      },
+      {
+        "topic": "AI Agents",
+        "context": "AI agents are software systems that can plan, use tools, and carry out multi-step tasks with limited human prompting, moving beyond chat-only assistants toward more autonomous workflow execution. Recent coverage shows the category accelerating in both consumer and enterprise AI, with major vendors packaging agents into coding, research, productivity, and business-process products.[1][2]\n\nThe latest developments center on product launches and platform moves: Anthropic expanded Claude Code with \"sub-agents,\" OpenAI launched ChatGPT Agent for paid users, AWS introduced Bedrock AgentCore plus an agent marketplace, and Google released Gemini CLI for developers.[1] Industry impact is significant because companies are racing to make agents practical for real work, while investors and enterprises are focusing on governance, security, and integration; reports also note growing concern that highly capable agents could automate parts of legal, sales, marketing, IT, and analytics work, reshaping software and services markets.[2][4]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Meta quietly rolls out first public preview of its ‘Avocado’ frontier AI model",
+        "summary": "Meta has begun a limited, developer-focused preview of its long-delayed ‘Avocado’ large language model stack on select Meta AI endpoints and through a gated API program. The release focuses on improved long‑context reasoning, multimodal input, and tight integration with WhatsApp and Instagram automations, positioning Avocado as Meta’s flagship response to Claude, GPT, and Gemini.",
+        "whyItMatters": "For practitioners, this is the first real chance to test Meta’s next‑generation stack in production‑like conditions, benchmark it against Opus/ChatGPT/Gemini, and explore deep integrations with Meta’s messaging and social surfaces. It also reshapes the competitive landscape for open‑weights vs proprietary models and could influence where developers place their long‑term bets for agentic and social/commerce workflows.",
+        "source": "Daily AI News roundups and industry reporting aggregated in GAI Insights daily briefings and AI‑Weekly mid‑week issue"
+      },
+      {
+        "headline": "Luma Labs launches Ray 3, a video model built explicitly for chained reasoning and tool use",
+        "summary": "Luma Labs has released **Ray 3**, a next‑generation video foundation model marketed as the first \"reasoning video model,\" capable of interpreting multi‑step instructions, tracking objects and agents over long time horizons, and calling external tools from within video understanding pipelines.[2] The model targets robotics, autonomous systems, complex surveillance analytics, simulation‑to‑real workflows, and advanced video editing/production.",
+        "whyItMatters": "Video models have mostly been generative or purely perceptual; Ray 3 pushes toward *agentic* video systems that can reason over time, not just frame by frame. That opens up new application patterns (e.g., long‑horizon robot planning from video, complex sports/operations analytics, safety monitors) and gives practitioners a new baseline to compare against vision‑language and robot‑learning stacks built on top of text‑centric LLMs.",
+        "source": "Luma Labs product announcement summarized in weekly AI news shows such as ChatGPT Pulse and creator/enterprise AI newsletters"
+      },
+      {
+        "headline": "DELEGATE‑52 study shows leading LLMs corrupt 25% of content in delegated document workflows",
+        "summary": "A widely discussed research study, **DELEGATE‑52**, found that state‑of‑the‑art models such as GPT‑5.4, Claude 4.6 Opus, and Gemini 3.1 Pro silently corrupt roughly 25% of document content when executing long, multi‑step delegated editing workflows.[3] Errors are often sparse and hard to detect, compounding over time, and were observed across 52 professional domains including software engineering, legal drafting, and scientific writing.[3]",
+        "whyItMatters": "This is a direct warning for teams building AI agents, RAG systems, and autonomous workflows that manipulate critical documents or code. It suggests that reliability and verification tooling (unit tests for text, diff‑aware pipelines, human‑in‑the‑loop review, and formal evaluation harnesses) are not optional, even for top‑tier models, and should be treated as first‑class parts of production AI systems.",
+        "source": "DELEGATE‑52 research preprint and coverage in May 2026 AI news explainer videos and technical newsletters"
+      },
+      {
+        "headline": "Fields Medalist Gowers validates ChatGPT 5.5 Pro’s progress on advanced mathematical reasoning",
+        "summary": "Fields Medalist Timothy Gowers publicly reviewed **ChatGPT 5.5 Pro**, reporting that its performance on non‑trivial, multi‑step mathematical problems was “genuinely impressive,” especially in combinatorics and analysis tasks that previously stumped earlier GPT‑4‑class systems.[3] His assessment highlights more coherent chains of reasoning, better self‑correction, and fewer superficial pattern‑matching errors.",
+        "whyItMatters": "Expert validation at this level matters for practitioners using LLMs in theorem proving, code verification, quantitative finance, and other math‑heavy workflows. It signals that frontier models are becoming credible collaborators on deep technical work, making it more attractive to invest in integrations with proof assistants, symbolic math tools, formal methods, and safety‑critical engineering pipelines.",
+        "source": "Public commentary by Timothy Gowers and secondary reporting in AI news channels summarizing his evaluation of ChatGPT 5.5 Pro"
+      },
+      {
+        "headline": "Venture data shows AI startups captured over 80% of Q1 2026 global VC deal value",
+        "summary": "New venture capital analytics indicate that AI and AI‑adjacent startups accounted for roughly **81% of global VC activity by value in Q1 2026**, crowding out most other technology sectors.[10] The capital is concentrated in frontier model labs, AI infra (compute, data, eval, security), and vertical AI stacks in healthcare, finance, and enterprise productivity.",
+        "whyItMatters": "This funding concentration shapes the near‑term ecosystem in which practitioners operate: toolchains, open‑source projects, and cloud offerings will increasingly be driven by AI‑first companies. It also suggests tighter competition for AI talent, more rapid iteration in infra and frameworks, and a higher likelihood that new standards and de‑facto platforms will emerge from VC‑backed AI infrastructure providers rather than incumbents in adjacent fields.",
+        "source": "Q1 2026 venture data shared by VC analysts such as Max Pog and synthesized in AI/ML startup funding briefings"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Released Claude Opus 4.8 and achieved $965B valuation"
+      },
+      {
+        "name": "Claude Opus 4.8",
+        "type": "product",
+        "context": "New version of Anthropic's AI model with improved performance and features"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Compared to Anthropic in terms of AI capabilities and valuation"
+      },
+      {
+        "name": "Claude Code",
+        "type": "product",
+        "context": "Anthropic's coding model with new features and improvements in Opus 4.8"
+      },
+      {
+        "name": "AI Agents",
+        "type": "technology",
+        "context": "Discussed as a new trend in AI development with potential applications"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as a popular AI chatbot with potential integration with bank accounts"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as a player in the AI industry with its own AI-powered products"
+      },
+      {
+        "name": "NVIDIA",
+        "type": "company",
+        "context": "Mentioned as a key player in the AI hardware industry"
+      },
+      {
+        "name": "Microsoft",
+        "type": "company",
+        "context": "Mentioned as a company with its own AI-powered products and coding models"
+      },
+      {
+        "name": "Opus",
+        "type": "technology",
+        "context": "Mentioned as a key component of Anthropic's AI model with version 4.8 release"
+      },
+      {
+        "name": "TricP",
+        "type": "paper",
+        "context": "Research paper on human activity recognition using Tricky Predator Optimization"
+      }
+    ]
+  },
+  "savedAt": "2026-05-29T18:30:00.000Z",
+  "dateString": "2026-05-30"
+}
