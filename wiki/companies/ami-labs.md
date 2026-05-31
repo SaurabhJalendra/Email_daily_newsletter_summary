@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-12-23
 > **Last updated**: 2026-03-25
-> **Status**: active
+> **Status**: stale
 > **Related**: [[meta]], [[world-models]], [[world-labs]], [[ai-funding-rounds]]
 
 ## Summary

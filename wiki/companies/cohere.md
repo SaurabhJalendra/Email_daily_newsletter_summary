@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-03-28
 > **Last updated**: 2026-03-28
-> **Status**: active
+> **Status**: stale
 > **Related**: [[mistral]], [[elevenlabs]]
 
 ## Summary

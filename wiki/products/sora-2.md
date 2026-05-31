@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-03-26
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[veo-3]], [[ai-video-generation]], [[ai-regulation]], [[ai-copyright]]
 
 ## Summary

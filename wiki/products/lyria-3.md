@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[google]]
 > **First mentioned**: 2026-02-20
 > **Last updated**: 2026-03-27
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[gemini]], [[ai-music-generation]]
 
 ## Summary

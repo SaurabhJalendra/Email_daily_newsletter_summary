@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-12-31
 > **Last updated**: 2026-03-27
-> **Status**: active
+> **Status**: stale
 > **Related**: [[meta]], [[agent-frameworks]], [[ai-funding-rounds]]
 
 ## Summary

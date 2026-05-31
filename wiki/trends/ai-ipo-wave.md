@@ -9,7 +9,7 @@ type: trend
 > **Type**: trend
 > **First mentioned**: 2025-10-30
 > **Last updated**: 2026-03-31
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[anthropic]], [[ai-funding-rounds]], [[xai]], [[ai-bubble-concerns]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-03-28
 > **Last updated**: 2026-03-28
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[gemini]], [[gemini-3-1-flash-tts]], [[gemini-3-1-flash-lite]], [[gemini-3-1-pro]]
 
 ## Summary

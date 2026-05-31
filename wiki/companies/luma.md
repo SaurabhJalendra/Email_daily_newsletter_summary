@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-12-20
 > **Last updated**: 2026-03-26
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-video-generation]], [[runway]], [[sora-2]]
 
 ## Summary

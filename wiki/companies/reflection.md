@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-10
 > **Last updated**: 2026-03-27
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nvidia]], [[ai-funding-rounds]], [[open-source-models]]
 
 ## Summary

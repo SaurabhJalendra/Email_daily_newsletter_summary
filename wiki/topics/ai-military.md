@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-12-25
 > **Last updated**: 2026-03-30 (backfill 2026-02-20..2026-03-30)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[xai]], [[openai]], [[ai-regulation]], [[enterprise-ai]]
 
 ## Summary

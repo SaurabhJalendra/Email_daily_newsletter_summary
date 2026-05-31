@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-12-13
 > **Last updated**: 2026-03-27
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[google]], [[chatgpt]], [[sora-2]], [[ai-copyright]]
 
 ## Summary

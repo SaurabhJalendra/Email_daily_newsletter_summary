@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-27
 > **Last updated**: 2026-03-28
-> **Status**: active
+> **Status**: stale
 > **Related**: [[mistral-studio]], [[mistral-3]], [[ministral-3]], [[mistral-ocr-3]], [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]]
 
 ## Summary

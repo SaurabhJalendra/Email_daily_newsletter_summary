@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-02-10
 > **Last updated**: 2026-03-28
-> **Status**: active
+> **Status**: stale
 > **Related**: [[seedance-2]], [[ai-video-generation]], [[disney]]
 
 ## Summary
