@@ -1,0 +1,760 @@
+{
+  "date": "2026-06-01T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Tuesday, 2 June 2026\n\n## 🔥 Top Stories\n1. **Anthropic releases Claude Opus 4.8, an upgraded flagship model that improves performance on coding, autonomous agent tasks, and complex professional work** — This matters because it signifies a significant advancement in AI capabilities, making Claude a more powerful tool for various applications, from coding and software development to professional tasks that require complex reasoning and analysis.\n2. **Nvidia introduces RTX Spark, a superchip designed for personal AI agents, offering up to 1 petaflop of AI performance and up to 10 hours of battery life on Windows laptops** — This matters because it brings high-performance AI capabilities to personal devices, enabling more efficient and autonomous AI operations directly on laptops, which could revolutionize how AI is integrated into daily tasks and professions.\n3. **OpenAI launches Rosalind Biodefense, providing the US government and vetted partners with access to its biology AI for pandemic preparedness and outbreak response** — This matters because it demonstrates AI's potential in critical areas like biodefense, leveraging AI technology to support rapid response and preparation against biological threats, which is crucial for global health security.\n4. **MiniMax releases MiniMax M3, an open-weights, multimodal frontier model that achieves top-tier performance on coding and agentic work, supporting image and video input** — This matters because it offers an open and accessible alternative to proprietary models, potentially democratizing access to high-performance AI for coding and complex tasks, and advancing the field with its multimodal capabilities.\n5. **Microsoft commits up to $50 billion to expand AI infrastructure, cloud capacity, and workforce training across the Global South** — This matters because it represents a significant investment in AI development and infrastructure outside of traditional hubs, aiming to promote global AI competitiveness and readiness, which could have profound impacts on economic development and technology access in these regions.\n\n## 🤖 AI Models & Research\n- Researchers from Sorbonne University propose a two-stage, fully probabilistic framework for predicting the dynamics of chaotic fluid flows, addressing the \"sensitivity problem\" described by Edward Lorenz.\n- Biohub releases ESMFold2, a rival model to DeepMind's AlphaFold, which outperforms AlphaFold 3 in some areas, advancing the field of protein structure prediction.\n- Nvidia releases Cosmos 3, an open-weight foundation model built for robots and self-driving, combining reasoning, world generation, and action prediction into a single system.\n\n## 🛠️ Tools & Products\n- OpenAI's Codex can now operate on Windows desktops, allowing it to click through apps, test and debug visual flows, and control everything remotely from the ChatGPT mobile app.\n- xAI launches grok-build-0.1 beta for autonomous coding tasks, offering a low-cost option for large-scale use.\n- Claude introduces Dynamic Workflows, a feature that enables complex tasks to be broken down into smaller subtasks, each handled by a separate agent, improving performance and efficiency.\n\n## 📰 Industry News\n- SoftBank announces a major commitment to build 5 gigawatts of AI infrastructure in France, with a reported investment size of €75 billion.\n- Anthropic signs a major compute deal with SpaceX's Colossus 1 data center, securing access to over 220,000 NVIDIA GPUs and 300 megawatts of power.\n- ByteDance may invest $70 billion in AI, funded from its $50 billion 2025 profit, indicating a significant commitment to AI development and infrastructure.\n\nTotal Newsletters: 30",
+  "totalNewsletters": 30,
+  "newsletters": [
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 This Week in AI",
+      "date": "2026-05-31T20:58:15.000Z",
+      "summary": "## This Week in AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Claude Opus 4.8 has been released, bringing dynamic workflows that run hundreds of parallel subagents and adds an effort dial alongside the model selector. A new fast mode, currently waitlisted, runs 3x cheaper than before.\n* Spotify acquired Huxe, an AI startup that created a personal podcast feature, which led to Huxe shutting down its podcast generator.\n* Google's AI Studio allows users to build Android apps without coding, with over 250,000 apps created in its first week.\n* A pet translator, Pettichat, claims to have 94.6% accuracy in translating pet sounds into human language.\n* Adapt, a universal AI agent for work, connects to data warehouses, CRMs, BI tools, and help desks, providing live answers to business questions.\n* Other notable AI tools include Lip Sync AI, Pancake, MusVideo, Fotor Vibe Marketing, StudyOrbit, FilesMagicAI, and Primio.\n* The TAAFT Ultimate Prompt Pack is available, featuring 99 prompts tested and refined by the TAAFT team, covering 11 categories.\n\n### Notable Links\n* The State of Intelligent Finance\n* TAAFT Ultimate Prompt Pack\n\nNote: The provided links are not tracking URLs and are primary sources or product pages. The summary is comprehensive and captures all important points from the newsletter.",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🦾 This Week in AI\n\nThe top tools, stories, and breakthroughs you missed this week  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 31, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k07T9kHHqQRfSUww_pf7utZN8mhZoWDwcXthNalXDwXm-BykkXJNruamjkIYax1bljuN3jB7XbFJuEDIlAfyuuV0JIzo9j_esywhjNligdD2VvYvQNaYrp9WFpAyBcZwzHtRV22smgnf33XTZ1ufwrMCMww6O9Ss3_Cs6z61xd189PEUexSYTfQlWA4dbp9bWBlWydXVs6p08pNV0e6RxoBBGLrMQ60eDmiyCp9Y-17w55ylURHwTgAR1IMVIaiPF0lBIy2RE-criCs_B_frk4wJ1YTQmq8iqZNWH6fHbUoHF4-_iMJDhhwLqseuj5dF3Remre-eBlDCX6YkJYYZaEpXaTVyKZYxfeeDrqZA-ZSI-Pk-Xq-I23opEtgT"
+    },
+    {
+      "from": "\"DayTrading Dispatch\" <daytrading@mail.beehiiv.com>",
+      "subject": "The S&P's 9-week streak 📈",
+      "date": "2026-05-31T22:46:10.000Z",
+      "summary": "## DayTrading Dispatch\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The S&P 500 reached its ninth consecutive weekly gain, with the index rising 0.22% to close at a record 7,580.06, driven by a handful of factors including the AI trade, strong Q1 earnings, and a decline in oil prices.\n* Dell's stock soared 33% after a strong quarterly report, with the company's AI server revenue hitting $16.1 billion and a record $51.3 billion AI backlog, leading to raised full-year guidance to $165-$169 billion.\n* Gap and American Eagle's stocks were punished for weak guidance, despite the broad market hitting records, with Gap's shares tanking about 15% after the retailer slashed its full-year sales outlook.\n* Oil prices posted their worst month since 2020, with Brent crude falling more than 19% in May, as traders bet on a U.S.-Iran ceasefire reopening the Strait of Hormuz.\n* The national average gas price held near four-year highs, sitting around $4.40 a gallon, as the spring's oil spike worked its way to the pump.\n* The April PCE inflation reading came in at 3.8%, the hottest since 2023, with markets now pricing a real chance the Fed's next move is a hike, not a cut.\n* Gold rebounded above $4,500 an ounce to close out the week, bouncing off a two-month low near $4,380 hit Thursday, after April's PCE inflation data landed broadly in line with expectations.\n\n### Notable Links\n* [Dell's Q1 earnings report](https://www.dell.com)\n* [Gap's Q1 earnings report](https://www.gapinc.com)\n* [American Eagle's Q1 earnings report](https://www.ae.com)\n* [Brent crude oil prices](https://www.bloomberg.com/energy)\n* [Gold prices](https://www.kitco.com)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The S&P's 9-week streak 📈\n\nPLUS: Dell rips 33% on AI servers, Gap and American Eagle get punished, oil posts its worst month since 2020, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nMay 31, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/ymnoBqVWqx2wv1S3lSAiVT14qMwG%2F034gFE7q0e1lpagRgZxhfeGk78YmrnH%0A3eci9x4KpZw2Krwj4jm274kJKuhOns0umhx5YtSBxKW5egVu%2BHF89HFGBjfx%0AL78sPSrrLBVkP2T2Horqa64FIveWfAsC1QcijPtpgmkBB0LXSRcKTURV0WoS%0AbMxlFnvXvUbCi%2BJ0jzHeW6x8gN%2B20c7dkw%3D%3D%0A/5d7a71f2a3dafdc2)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e"
+    },
+    {
+      "from": "\"Robert from God of Prompt\" <godofprompt@mail.beehiiv.com>",
+      "subject": "5 prompts from the vault that replaced my social media manager",
+      "date": "2026-05-31T23:03:12.000Z",
+      "summary": "## 5 prompts from the vault that replaced my social media manager\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The author, Robert from God of Prompt, has developed 5 prompts that can handle the entire social media workflow, replacing the need for a social media manager. These prompts include: \n  * A content calendar generator that provides 30 days of topics mapped to audience segments\n  * A caption writer that produces first-person voice content with no \"AI smell\"\n  * A carousel script builder that creates a 10-slide structure with word counts per slide\n  * A hashtag researcher that pulls niche-relevant tags ranked by competition level\n  * A repurposer that turns one carousel into a Reel script, a tweet thread, and a LinkedIn post\n- The author claims that these prompts outperform human-written content by 3-4x on engagement and have allowed them to stop paying $2,500/month for a social media manager.\n- The 5 prompts are part of the Complete AI Bundle, which also includes thousands of other prompts, 10 mastery guides, and every template the author has built.\n- The Complete AI Bundle is available with a 30% discount using the code GOINSTA30, bringing the price down to $105 from $150.\n- Other products mentioned in the newsletter include the AI Cheatsheets Collection, 200+ Top AI Tools Directory, ChatGPT Custom Instructions Pack, Custom GPTs Toolkit, and No-Code Automations Bundle.\n\n### Notable Links\n- Terms of Service \n- God of Prompt's social media channels: Facebook, Twitter, Instagram, Threads, YouTube, LinkedIn",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "5 prompts from the vault that replaced my social media manager5 prompts from the vault that replaced my social media manager\n\nI stopped paying $2,500/month. These prompts do the job better.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/179da9f6-13ca-4211-b7b8-1431327cc525/gop-beehiiv-email-banner.png?t=1778344099)\n\n![](https://link.mail.beehiiv.com/ss/o/u001.SlyZdb34PdJzwUT5vV-I9A/4r3/sQH55LorQueVNBFpFX3nbQ/ho.gif)\n\nGreetings from above.  \n  \nLast year I was paying $2,500/month for a social media manager.  \n  \nGood perso"
+    },
+    {
+      "from": "\"NVIDIA GTC\" <news@nvidia.com>",
+      "subject": "Today’s Must-Watch Event: CEO Jensen Huang's GTC Taipei keynote",
+      "date": "2026-06-01T01:36:39.000Z",
+      "summary": "## NVIDIA GTC\n\n**Priority: MEDIUM**\n\n### Top Updates\n- NVIDIA is hosting its GTC Taipei event from June 1-4, 2026, which includes a keynote by CEO Jensen Huang that can be watched live at 8:30 a.m. IST, focusing on the latest developments in AI, including potential announcements on new technologies, products, or services that could influence the AI industry.\n- The company has recently announced significant developments such as the **Vera Rubin Space Module**, a GPU-based platform for space-based data centers and on-orbit AI inference, claiming up to 25x more AI compute than previous demonstrations, and targeting applications like geospatial intelligence and autonomous operations in orbit.\n- NVIDIA also introduced **Spectrum-XGS Ethernet**, a networking technology designed to link geographically distributed AI data centers into \"giga-scale AI super-factories,\" which could nearly double the performance of collective communications libraries for multi-GPU clusters by addressing key bottlenecks in scaling AI, including compute density, data movement, and latency.\n- These developments are significant because they could lead to faster AI services and potentially lower costs by improving efficiency in distributed computing, and by enabling new applications such as on-orbit analysis of satellite imagery, which could reshape geospatial intelligence and Earth observation workflows.\n- NVIDIA's push to extend AI infrastructure both on Earth and in space, combined with its expanding model ecosystem (e.g., **Nemotron**) and enterprise AI platforms, continues to set the pace in AI/ML hardware and infrastructure, influencing how and where the next generation of AI systems are built and deployed.\n\n### Notable Links\n- Watch the Keynote Livestream: Available on the NVIDIA GTC website\n- Privacy Center: Available on the NVIDIA website for managing personal data preferences\n- Contact Us: Available on the NVIDIA website for inquiries and support\n- View Online: Allows viewing the newsletter content online",
+      "links": [
+        {
+          "text": "Watch the Keynote Livestream",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiH8wYrNvv7SRqS7_Q-OLAEJ09GTTBUPx9VIE4tzELHDc4H92TnZ6cvbnfP4l5KmfcTuJpmyo="
+        },
+        {
+          "text": "keynote livestream",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiH8wYrDvkk0xsWd9FqYs_2VlsHhdPZ4eIKy2VGShqJ3b9FV4q4Wl4WKUVj3NYtMsvR6XG2SE="
+        },
+        {
+          "text": "Watch the Keynote Livestream",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiH8wYrL2EykO92hJHYUpxZTUxvQqJGdv2yZpi4QfF6Asmpd67hTuzZXoFXGL6n6E0dAeOEKc="
+        },
+        {
+          "text": "Privacy Center",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiH8wYrB8vK0QoWDX45dG7oFrVhruejrvpxzQrS6F8N5hD_UT2sftypNWMTvctvNcL_T-wHL4="
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiH8wYrFnkrACpNuK_xPErOmMIL2EdnZHse76GBGNQMNoL1ntgD3LAB0ESxvpJ1yT5opa8Hhs="
+        },
+        {
+          "text": "View Online",
+          "url": "https://go.nvidianews.com/v/MTU2LU9GTi03NDIAAAGiH8wYrFU50-ZEw2HwXAtA0rwAli_f6-Ry-IJ_viKQBWozNG1mP6DXuVb991w2XRy73rCtYqU="
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "NVIDIA       \n\nExperience this transformative AI keynote live from anywhere at 8:30 a.m. IST\n\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n[![NVIDIA GTC](https://info.nvidia.com/rs/156-OFN-742/images/gtc-logo-light.png)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiH8wYrEd0qsW02pTNSy5BkOZ8Oa2xTvDcVjBlH_CR4N_WGckEi47X_Zg-erM5sYwbDmLiMeI= \"NVIDIA GTC\")\n\n[![NVIDIA GTC](https://info.nvidia.com/rs/156-OFN-742/images/gtc-logo-dark.png)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGiH8wYrEd0qsW02pTNSy5BkOZ8Oa2xTvDcVjBlH_CR4N_WGckEi47X_Zg-erM5sYwbDmLiMeI= \"NVIDIA GTC\")\n\nJune 1–4, 2026  \n**Keynote** June 1 | **Taipei** June 1–4, 2026  \n**Keynote** June 1 | **Taipei**\n\nDay 1 Is GTC Keynote Day\n\n![ ](https://info.nvidia.com/rs/156"
+    },
+    {
+      "from": "\"Devansh from Artificial Intelligence Made Simple\" <artificialintelligencemadesimple@substack.com>",
+      "subject": "Token Maxing: The AI Industry is Struggling with Measuring Value",
+      "date": "2026-06-01T02:58:12.000Z",
+      "summary": "## Artificial Intelligence Made Simple\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI industry is struggling with measuring value, and Goodhart's Law is impacting AI across the board. Traditional metrics such as benchmarks, token maxing, and popularity are no longer reliable.\n* Token maxing, a strategy where labs mandate employees to maximize their use of generative AI, is not a productivity hack but rather a way for labs to gather signals on the limitations of their models.\n* Enterprises are canceling new AI licenses due to the high costs of using generative AI models, and the value of an agentic loop is logarithmic, not linear.\n* The market is shifting to deployment partnerships as the only verifiable signal, and labs are embedding engineers inside client organizations to wire models into legacy data and core processes.\n* OpenAI has launched DeployCo, a subsidiary that embeds engineers inside client organizations to deliver complex corporate transformation, and Anthropic has responded with its own $1.5 billion deployment joint venture.\n* Microsoft is also making major infrastructure and ecosystem bets, committing up to $50 billion by the end of the decade to expand AI infrastructure, cloud capacity, and workforce training across the Global South.\n\n### Notable Links\n* [Token Maxing: The AI Industry is Struggling with Measuring Value](https://substack.com/app-link/post?publication_id=1315074&post_id=199942547&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTk0MjU0NywiaWF0IjoxNzgwMjgyODE5LCJleHAiOjE3ODI4NzQ4MTksImlzcyI6InB1Yi0xMzE1MDc0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.UK1cCVQ3IV9Qgc51RPVu44JBUieM0reib3prXYymI9U)\n* [Anthropic](https://en.wikipedia.org/wiki/Anthropic)\n* [Microsoft Copilot](https://www.microsoft.com/en-us/microsoft-365/copilot)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYXJ0aWZpY2lhbGludGVsbGlnZW5jZW1hZGVzaW1wbGUuY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5hcnRpZmljaWFsaW50ZWxsaWdlbmNlbWFkZXNpbXBsZS5jb20lMkZwJTJGdG9rZW4tbWF4aW5nLXRoZS1haS1pbmR1c3RyeS1pcy1zdHJ1Z2dsaW5nIiwicCI6MTk5OTQyNTQ3LCJzIjoxMzE1MDc0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MDI4MjgxOSwiZXhwIjoyMDk1ODU4ODE5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.-O1KtBe4SH6xNSoIk_jc8J7Vd002qPMc7Kyt7XPARYs?"
+        },
+        {
+          "text": "Token Maxing: The AI Industry is Struggling with Measuring Value",
+          "url": "https://substack.com/app-link/post?publication_id=1315074&post_id=199942547&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5OTk0MjU0NywiaWF0IjoxNzgwMjgyODE5LCJleHAiOjE3ODI4NzQ4MTksImlzcyI6InB1Yi0xMzE1MDc0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.UK1cCVQ3IV9Qgc51RPVu44JBUieM0reib3prXYymI9U"
+        },
+        {
+          "text": "Devansh",
+          "url": "https://substack.com/@chocolatemilkcultleader"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/artificialintelligencemadesimple/p/token-maxing-the-ai-industry-is-struggling?redirect=app-store"
+        },
+        {
+          "text": "If you’ve found value in this newsletter, consider becoming a paid subscriber",
+          "url": "https://substack.com/redirect/d5588214-ec9d-4b90-b75f-e90bc682d8de?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "We run on a “pay what you can” model",
+          "url": "https://substack.com/redirect/2eab8e37-3cc2-47f6-bd21-13c9e4bb561b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "use this email template",
+          "url": "https://substack.com/redirect/c8635bda-aa8d-45f6-9ebf-d04858be159c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "If you’d like to meet other members of our community, please fill out this contact form here (",
+          "url": "https://substack.com/redirect/b48dd466-9543-47fc-9567-9689f962011a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "https://forms.gle/Pi1pGLuS1FmzXoLr6",
+          "url": "https://substack.com/redirect/36b9154e-1257-4d18-bd50-56c2e01fe91f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "(Some of this article is inspired by my interview at the well respected tech publication—The Register— where we talked about some misconceptions around the costs of AI. Check it out here)",
+          "url": "https://substack.com/redirect/b84ff4c9-e910-4cfd-9d66-e4700aa7e34d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Token Maxing: The AI Industry is Struggling with Measuring Value![](https://eotrx.substackcdn.com/o/8a20552f7e894d45/p.gif?token=eyJtIjoiPDIwMjYwNjAxMDI1ODEyLjMuOTA3ODBmYzExMWVlZWZmYUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5OTk0MjU0NywidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMzE1MDc0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgwMjgyODIwLCJleHAiOjE3ODI4NzQ4MjAsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.tjlYSRdJIAUb9Mj_AOUhYCbqJWwjZ-SI5UIyWZZXkXM)\n\nGoodhart's Law is impacting AI across the board.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"💻 Hello, World!\" <newsletter@hw-mail.glich.co>",
+      "subject": "How Slack makes its Mobile App Feel Seamless (Even on Bad Internet)",
+      "date": "2026-06-01T04:30:41.000Z",
+      "summary": "## Hello, World!\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Slack's mobile app uses prioritized APIs, caching, versioning, offline sync, and scalable architecture to ensure a seamless user experience even on bad internet.\n* The app prioritizes critical data, reducing unnecessary data fetching and using smart caching with versioning to minimize network usage and improve performance.\n* Slack's engineering team has rebuilt the mobile architecture to improve development speed, consistency, and scalability.\n* The team uses feature flags, hotfixes, and deep analysis to manage risks and improve the app's reliability.\n* Slack's mobile app handles offline mode by storing user actions and syncing them later, using a shared component for offline data handling.\n* The company has overcome key challenges in building a seamless mobile app, including handling poor network connectivity, reducing app size, and improving scalability.\n* Slack uses object versioning to check if cached data is up-to-date, reducing unnecessary data fetching and improving performance.\n* The app's architecture is designed to handle millions of users, with features like prioritized APIs, caching, and versioning to ensure a smooth user experience.\n\n### Notable Links\n* [Frontend Developer Kit](https://datadog.com/frontend-developer-kit)\n* [How LinkedIn Rebuilt Service Discovery to Scale to Millions of Services](https://linkedin.com/engineering/blog/post-title)\n* [Slack Behind the Scenes: Overcoming Key Challenges to Craft a Seamless Mobile App](https://slack.com/engineering/blog/post-title)\n* [Engineering Manager, Developer Infrastructure at Sentry](https://sentry.io/careers/engineering-manager-developer-infrastructure)\n* [Senior IAM Engineer at Better Mortgage](https://better.com/careers/senior-iam-engineer)\n* [Engineering Manager - Platform at Clipboard](https://clipboard.com/careers/engineering-manager-platform)\n* [Team Lead, Engineering at Deel](https://deel.com/careers/team-lead-engineering)",
+      "links": [
+        {
+          "text": "Hello World",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTLedhx6dRnmvkZCOvN53kB6-mEyat_hNl049PoQu9Mxi8bxquiDNwmKXs_k2mgpWKWdeS0apKxPeXeP4HFTC7AAXDk44SyK1jwXtdvgEojwVk1kmxIc6TD-ClI4TLNxZwWtUBBxcsc6B_bfbLtQKji1HzIQYcAW87By8bZgOJ3K4jmZJLhUFDIlPGlfsYfR94DqlJI2y_3jIDxnjjxvHfcwaJbQhRntPE768CjOrEJ6YQCrEvBeZWKohbvcx0eYnAzFfTy_5KRZxE2Nq1Phix1p62FshSyffOb9sDZ390BF6ksR6j2ABiDHSYnofHghQPu42DsMKpcfuF5jh9l-6N7aCbdjgQovRe8SLK2hiSgsO_5bHNhXJmJ1b8JHYPpCf43icPxgBX6mKN3pjw-0vgXKEqBfS2o5zZwkaV93jeyNc9myOZneOneKHWzQCgWChZox0WutIAPanNAYDsbu0NxC1DIJyVgImrH_oKWATdoP8-ALONAhM7UxR3wEJLpJM1zvcgCR3D4nU_5571jLyvhAgD3LeJBODJOJGhmkKMctIMbhX-ywB8dVB7MyPTdQEx-pQ9nQDaWz0O0fJLBkk-QpT43CD8hxjjN1JUzezcvjk9XjjbF9w2m_KpL1I5-xsyX96WXhc-uENUSUCmFtK2yZziH3t0JllxWi9SSd7hcx9Mf7euw_c_TIKWY6EDbF2wzLz_BAh3Ebr7DCY2pTRrtOQp99dwOKpQQ88jdkXy7pxMeoiSr1TioB_qU5xvWrFuIlabe6MQRPn1Dik6kV_1noVPsKhqmAIfeAe3LOm0KSpWRv7na8gdnPaQqzsxMeXhA/4r4/0gwb3dRUQFedH0qaqJy3JA/h8/h001.RSDKuLu5jm-OzGsLRL3nfF8osm2rp1z3QYI3M8a6iv0"
+        },
+        {
+          "text": "How LinkedIn Rebuilt Service Discovery to Scale to Millions of Services",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRnccw6PeP8N8aadeNm6hSryTs91N-iROkOFTc2PqUHBAYq8qn5n74gCVrQ8QZZLJZTpqhtB7wHnhV0XRuTGG_TIutFWq0ZmLSpZPrCV1LkTwownw-kOIfOuum4dX80rIQ_YVoI9TaBM_YWy7PivbNJoV-dHvzmOuIPS0aNj1HOd1w40DFDW1Rvkuj28A8tzLPfD1AAx0pG0cjxZB7sBASBPKfFmF1DJF5i9zw6Hi6r83h-4Ens5Ds6Q5SdPdS3z0sSLxxFKoBdCiDa2ll_0nuVyteAEUarH-XylB2jnm2sQTiLNMCsha7w5H17Q1G_7kK5yZjIvOoXzncJlhfDwdcmH6/4r4/0gwb3dRUQFedH0qaqJy3JA/h9/h001.j-5kCY75jBY8UKkFocUnlkNxZW7QYVWGaJUQDZOT2Ps"
+        },
+        {
+          "text": "Frontend Developer Kit",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.F3HiNmkVgE_aMOryrWSm99zRJduSa4exPBdUJ27hfZ9gsFX3qWbLK-QWkXsc3Np-TXnNw8qkqLG0a4gMDX6Cuhu-qtgZkJX9gyOCQ6T9k-QZWQ5IKIEOGnVyBtBKZhhTEnsu4d27TRwNQ3rb9LbbQsh44WLPyRpWhUf9r8WPc8hw2mTW0ZHkDnHfMYP4UH5aEcPyxQi2F1YyEP-GqULoxai3q5_HbDcxg3LNIUrkdAXvWBAwDp-kNNlSesfFMsf2imEXEp5CfClH6VORdM1JkPst6AqinguiTWGy9SgcWiQQWIxy0WAJI8-5DzsqWIFRWQOWjV3csztlzPD3LnlIm5VdtjEV7vrRxFtGogc0Ntk/4r4/0gwb3dRUQFedH0qaqJy3JA/h11/h001.COf8__GuN3gDdtSBIEXJPpSitRAy0-f9Aaw_9SIkh6I"
+        },
+        {
+          "text": "Frontend Developer Kit",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.F3HiNmkVgE_aMOryrWSm99zRJduSa4exPBdUJ27hfZ9gsFX3qWbLK-QWkXsc3Np-TXnNw8qkqLG0a4gMDX6Cuhu-qtgZkJX9gyOCQ6T9k-QZWQ5IKIEOGnVyBtBKZhhTEnsu4d27TRwNQ3rb9LbbQsh44WLPyRpWhUf9r8WPc8hw2mTW0ZHkDnHfMYP4UH5aEcPyxQi2F1YyEP-GqULoxai3q5_HbDcxg3LNIUrkdAXvWBAwDp-kNNlSesfFMsf2imEXEp5CfClH6VORdM1JkPst6AqinguiTWGy9SgcWiTZSwqSBaDcNm9SmBK95y6LLxqjED_DoqmKdYE0wqSb8_jWYEUG9CwgkKnDFzFa3CA/4r4/0gwb3dRUQFedH0qaqJy3JA/h12/h001._kOquiAGh4ndXhKznT9tJXeMo-uQawpXHDXKBTsNyeo"
+        },
+        {
+          "text": "Engineering Manager, Developer Infrastructure at Sentry",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRnehVPde-chs8UFdzO1Vns6CUpluwNwqkXCBexb4NQ7Bo8POxr989QyJCrcutV7WhEeqOQuW0wzIhGUfsC6zesRXvkQ_Y8iOGASdWgbfDtAVQrih6N-6sHZsPtyJeFKByT-cn7iLc6sKCbjCqCgcUL6Ues1yzANqSETta3XW2z2BEM1l0k__Dn41eYXLKlqEK-vdW8C2MOlB6i2WGEOomUWqeW8nCRam1t7aMF_Kte3WgLth9wk7IOPVvHJ9Ww4XFtUmHCrE3-PbeG-jnGwE_rKruL_jZY9xGQ2jp5xE1y1qC5aS5PnqJ3FF_oCKOnLO4dE/4r4/0gwb3dRUQFedH0qaqJy3JA/h13/h001.BIg1KT9EG07hF-1gjAWBshIX5xLpiud8Neompg4TImk"
+        },
+        {
+          "text": "Senior IAM Engineer at Better Mortgage",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRnf9xb74wzLNadqmOb2MjKBaggQUKL1BK-AuKMMkeX6v9yM97SQ6h9zI6TWXuYbm2MawQB_hD4BOVGZTWcp143P562omg5IZB0HPR2yTNYYqy9DRKgimSDSp_HirxmNIlvbsWIBh1M8ypExIyhzL_-ogPsWdbcLlg0vmm7vvkwJBQQpdwTPS8KTGODefu3ta_hU3U2gjG55FIrZnSYIlXLEMrsoHT0BQugZvRVO364EnCrx2PyWMtT6LNHk3QU8K6d8o4NrruLQxZj_GfiOlIFV_o1SWcDUHRKX8RArEmBdpaQ/4r4/0gwb3dRUQFedH0qaqJy3JA/h14/h001.MldT8uROKtCHepTJd4Ilel4HdpXgFOKruu0KNWQXFSo"
+        },
+        {
+          "text": "Engineering Manager - Platform at Clipboard",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRnfSKA3I96e6V9aFiWh6MRkC7yf3PyQBjS-c0OPZ50dOoPjOZAeoAwlvrmF-kqtebl-xhQb6TM-iXvPViaNUpvU-wVu2q4aklvu_9CzPg8bgz7Smca_mdiU8NbpnabJ8mLydWR8SgMaJw-GEURJbQB8wjPFLVaWlWcbvnPp4LeKrMQs02K6InKjbrteX_bGpwMkSufi1WUDY5a_Rzb1UABSUwB0lCsmhiDuKoiNK1N1qYKasmxmOE87IW6aSeHap-61bGJjs5_MNDqt4RvdGbbS9fVEKvv2rPMej3FZctyZz6A/4r4/0gwb3dRUQFedH0qaqJy3JA/h15/h001.8_zuujhehyoq47Yds0b4FzXAFBIP2KryxDrQb0kdT0k"
+        },
+        {
+          "text": "Team Lead, Engineering at Deel",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnKYzvEAps272PPwk9llbRncWFWCOKceK54KyY8ivxV1LEFRCA8Cb2uLZ-FArKSSU-PHl_qNy8O0hkv9U4F00dAXFHDwLSrtaVkiyiwjj2KwqrruT7tmv4X7uyvbUWbDKUgfaRLoG9NFWLjFMGdCPWTHtR0IOnVVaooUjSE8Irt4ODncuOv7ABfjtKVvxiltgumsetYpWvbe6_RAfMtL2Iol4fbLG93G1oMECIiapr2x8nyDyI9XtsgHZlql1EixPmKHE1EZsqHWMLkDrFLMrom5O7sF2uB5GMWDF9yo2Kt3KlnXmm_qxikSAht9JXsmLMw/4r4/0gwb3dRUQFedH0qaqJy3JA/h16/h001.iqnTX8r69rAWT4wF9yKuEw99y3A8KrlUhC_QctqUeVI"
+        },
+        {
+          "text": "To encrypt user messages for security",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTIh8C1hb7Kolqj8r3igectfY1-7YlVQqZCmrU0YxpvTBE_cd9_mJlGbKhhG14woRlsQ3EUCnBsjXbqzRN_eprx08AkgdCujaYEzrbdyc5WeaRsv86IIJ9ZjOrp2NgZ8TaSNjuYqY5x9oaXayjfD5F_smF7L5LicslRmkSIiTOMd-vc9jFBLW3w1QSJHzihJe2bD7PktmmOc2cx29VzrLZeHqSgdzIsmk75HBXMsFB6IEmpUUnWnnHjYskFNoTViUBtvngomKzIfRMBWYWbF6fpFBPGB2G6uuTm-XQtzyyAiF3QedkegynRP0nQyyi4jgu2JjUTO7dk9Us9AQq6LFJjiC1yZUT444ejVnL5uSilVIuGSwesuSwIj7LYBdpvprsbBYXYFqOFcUaKEZ8xPvY0S3CSFNPzEs51kuJ65jZWlFF4oVvEZ0WL1bV_SnwexP2HdNTOD2vngRzaY82_5LKz6uzZXBsuc81PZSsTVfSwTdALBIOzJHL8qk2tZWH2HoJcnJC4AAeIB6yMtFTEXa7RVqAuSCKtrF_xWIKLzZD0MFAtKDmMJEagHPURFytQgqUB6B4fcwKgb0qNaha_owB4QSxcL1goNsLE8WNR5oTdCBf0R9-29W2qrFwNWnvnFdhlLN7zIsW0LSS951KO4uG1V_Bge72uUs0eXAwC0GrBPhwubLyTRHwPDJsyZzkSK9RokuGsSDKOsanwS6S5cp3AmrO5OthW0E0EppvigktOfIstBG6IIasb3AGehsnuLR4UatQqCsLaL4PD3e8clFAvaaxnG89EkuY2wdOuryzNk4j0ksv05q0ejHKtWSaBKrswSiJ9i2CPtOAX4jqTSbUapCMvN0Sm4bub-brusm2Rp89sgQQe0vxriH4r4OFrSdgJcU6ErxcSGguXN5Jujiq8-YTAcPedBWz8Pec3WOLZbwwbNvt5DLRfwE0nmxGahwcWzAxhXpIHU_AAbopbdACCPhaTCKJuVbB3Sg7csySjk66zMaGPyW-dCTBCBvzOtlgEOqs1P76Wty6MA22E8sXDSXuQ8OfpV2XMvqS3AH9BcX/4r4/0gwb3dRUQFedH0qaqJy3JA/h17/h001.t0XCOjxoZZ19Up5INuJIyKeFt0gDGlJbHDXPQK8pxP8"
+        },
+        {
+          "text": "To reduce app size on mobile devices",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTIh8C1hb7Kolqj8r3igectfY1-7YlVQqZCmrU0YxpvTBE_cd9_mJlGbKhhG14woRlsQ3EUCnBsjXbqzRN_eprx1ftZ3GzDNqXfnIg8MtcteE4ka2td5NRBNvjpS_O5be-o-4K3xdsZzi1fBcI7eRYvJXGBatyiiLgoyL1WE6cxp2cCxwPFEj9EnP5tFEh4aimHB9qaE6G3zCmH09HV-wSesMVZGqdT44rxswq4lYllKM77uU3tWHSoSr6Z2EsCUdgEL4Q6EClGEjn4WpjuqKNeE09NHIFmo4k5v6OO5LtG4y898W0Ua7R09IMCBBh-NJLF-8eUFHG3OScgHgptIYwCmv4jK_G2Bw8AeULax-yeyv_aKDYO1DyEnFU5rPoj_02wr1HlDkD6136C7O_DJOt5epR7gzet-l2kmGMx8tw3bnloNpwX4ayK98AZLT68fxycUqtJ5623k3qkN9nfWbuWJvkSRTNUUbcZQTwg87pVzjS2G8egSkk-2GOJE0EBOLkNUNuTPXMnDLQyofUB00zSeLBCDC-yA4L_jNpYssSeXhHB-kO7OMLk6UPRd-3Svt3OOAW2eaI5lPc0NgdjtBx4oHu4q5s2pAp5nqG-rmbWy3xKmGI2r33vFSxVPGr8UMVyUbQJmfKFpHdasspgc7Z4eqEDFFO0BRCrNA9waQ2OYBtSpU94HCCUii2SAEgI4LIzDcivmdD9-vl4ejU0lQa7je4qP4FBPLT0fVqW-skH1zScieA7RA_TnR8lvj5EXsMulxJ22FGXmDbw-qkc58Ul0jHQOwPtPTCdWAl337UzkZkD6rdxKvO3Itlb3mUsZFoLbfMI3g-q0u0rD7KRgTqsK4Ak5_uIukr43niayLQE-3NrVvlIZ4qOZbLlXtdpqGyvsijcNt6AK1zvMUH7Dh-XheOx1kjXV5Wqhh47rLDaT91UDMFm6tO8D7vLjp8LgHbBy2-qoSqA95DVVALVd-SWf_l1F1pLlMQi3GdPs210dllDk04cNft6ECk01J9f_t8leEvvFHTIReWCqii90oGIgymlf0p07wfv25eW8ZjrJp/4r4/0gwb3dRUQFedH0qaqJy3JA/h18/h001.j8pLg2GVKBAWrzoiWA9cJdCa9nqPzKpPm6HJObWbqEA"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "How Slack makes its Mobile App Feel Seamless (Even on Bad Internet)\n\nSlack optimizes mobile performance using prioritized APIs, caching + versioning, offline sync, and scalable architecture for reliable user experience.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 01, 2026   |   [Read online](https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTGLn25832Ov2jw1_s7gIr-fKCv2bV8CvBEhYiCOW1NmyhfjSOVlk8s1Win9HX9zevOmiiIiabAjE_PrOK5KAYXoEEJRHEyLfdS06g1WhC86a_o7hDJCr6ybdQekrQ4Vbf2IDqDU3nmK3vFpVwvnIl8yr5AkVnXbFCrXG60ifoD5zMxvSB7YDabdOUXLXNwEPA_RECq4LajfO3NKMJWwC6z5Z8F-_4XRavOOSIlSewUO-K_rgbN53uCsSFTGHtY5RcmbS2mK3Jw8zZ1XFUjNIul2w"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "1 event happening tomorrow",
+      "date": "2026-06-01T05:23:18.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: LOW**\n\n### Top Updates\n- The AI Automation Society is hosting a Q&A session with Nate on Tuesday, June 2nd, at 3:30am - 4:00am Calcutta time, which can be accessed by becoming a plus member to unlock weekly calls with Nate, and the sessions are always recorded.\n- The event can be added to the calendar using the provided link, and users can also view the calendar for more information.\n- There is an option to turn off event reminder emails for this group.\n- The newsletter also promotes starting your own skool, but the details are not specified.\n\n### Notable Links\n- View event: This link redirects to the event page, but the exact URL is not provided.\n- Add to calendar: This link allows users to add the event to their calendar, but the exact URL is not provided.\n- View calendar: This link redirects to the calendar page, but the exact URL is not provided.\n- Turn off event reminder emails: This link allows users to opt-out of event reminder emails, but the exact URL is not provided.\n- Start your own skool: This link redirects to the skool creation page, but the exact URL is not provided.",
+      "links": [],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRuxzCOH-2Fq-2BGmDpfEuJxhsjb9qIpRx23qUtWhDOr2NnKuzYPNcIC7Qun4pOfIS8QzJ8tXael-2B3AS3E4s47QPgGiGLXcThvIPTHb-2FMffx-2FHkIfq-2Fj23P2rusTdSXSKo64Qe6Drh-2BjsVRJWETElX-2Fa0t307jkB3yOgrTvwSk82RxS9Pn0-3DvryQ_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2aXk11GeToHfKgpWnxTKIVh4AGn4IndM2kp67Z812-2FNAR6PrvNvcjFUEF0gY2hwdghVmDQ5MuM9uK-2FBTwVh0wTYcZklKK4ur6ak16Zyapt5xqdnaQihDjI02d0EotEU2t-2FIYGTA3iiBizU-2BfoFOdYdlyf31G1qxcQ6AuaG368CVUHCueWe-2FMl73HbbLRIibW0CLdMddY2BDdU-2BSVYV6LgdFV6iTI9JQjxJP-2BUIOoFNhfvkRx7ohQEfDdx0NGMRKPabTSuOCZnLXDR-2F6SN2Fks9c55kTY0aE3kO-2F24342vUZRNAe3OQbiM5LQ2DLeXBvHRH-2BlJSx-2FBhVJ5RkrJjN655C9MR4U"
+    },
+    {
+      "from": "\"Prompt Guy\" <thinkaiprompt@mail.beehiiv.com>",
+      "subject": "AI Job Market Nobody Expected",
+      "date": "2026-06-01T08:28:05.000Z",
+      "summary": "## AI Job Market Nobody Expected\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI job market has created new roles that didn't exist before, including AI Red Teamer, Prompt Engineer, AI Trainer and RLHF Specialist, AI Integration Consultant, and others. These roles are in high demand, with salaries ranging from $60,000 to over $500,000.\n* AI Red Teamer is a role that involves testing AI systems for security vulnerabilities, safety risks, biases, and failure modes. The demand for AI Red Teamers has grown by 200% in 2024, with positions commanding six-figure salaries.\n* Prompt Engineer is a role that involves designing and building complex AI systems, including prompt writing, system prompt design, and AI strategy consulting. The salary range for Prompt Engineers is $95,000 to $206,000, with a national average of $129,500.\n* AI Trainer and RLHF Specialist is a role that involves evaluating AI-generated responses and providing human feedback to improve the model's performance. The salary range for AI Trainers and RLHF Specialists is $15 per hour to $1,000 per hour, with most mid-tier work falling in the $50 to $100 per hour range.\n* AI Integration Consultant is a role that involves helping organizations implement AI solutions and integrate them into their existing workflows. The salary range for AI Integration Consultants is $150,000 to $300,000, depending on industry and experience.\n* Companies such as Microsoft, Google, Nvidia, OpenAI, and Anthropic are hiring for these roles, with a focus on security, safety, and ethics.\n* The job market is shifting towards more specialized roles that require expertise in AI, ML, and related technologies.\n* The newsletter highlights the importance of domain expertise, creativity, and critical thinking in these new roles, as well as the need for continuous learning and adaptation.\n\n### Notable Links\n* [Viktor](https://www.viktor.ai/) - a platform that provides automated reporting and analytics for Google Ads, Meta, and Stripe.\n* [SureThing](https://www.surething.ai/) - an autonomous agent that can draft emails, triage tasks, and follow up on behalf of users.\n* [Nemotron](https://huggingface.co/nemotron) - a family of large language models developed by Nvidia.\n* [Claude](https://www.anthropic.com/claude) - a large language model developed by Anthropic.\n* [Copilot](https://www.microsoft.com/en-us/microsoft-365/copilot) - a family of AI-powered assistants developed by Microsoft.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "AI Job Market Nobody Expected\n\nList Of Jobs AI Created  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 01, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/xCDGEcen%2BcJQeLekbLaM4NJMTWkwoddFDxHSaas1%2B%2Bz%2BFgSOF%2BYGtjQ7yxYQ%0A%2BZUMJJ3xFaOjaM1p4KFK%2BCpArZ0S%2FdLpr8ESLMAAI1R7bkzo642OdxQVihv3%0ASCf8m0gcqhdZSx8FDh91rhVdGBNtzfr6dfwK%2Fqw57C%2Ftf4aoQUY1%2F8%2Bs4jtg%0AswtUwfRLIBYvUK9gRLEKPUAO0mKJzlDtmw%3D%3D%0A/5b4572aa9211cffd)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/9b31ae51-3b8f-4c31-816e-396c3bddc31c/newsletter_header.png?t=1767202994)\n\n# AI J"
+    },
+    {
+      "from": "\"Ollama\" <hello@ollama.com>",
+      "subject": "MiniMax M3 is launching on Ollama's Cloud",
+      "date": "2026-06-01T08:46:04.000Z",
+      "summary": "## Ollama Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n- MiniMax M3, a new open-weights, multimodal frontier model, is launching on Ollama's Cloud, offering top-tier performance on coding and agentic tasks with multimodality support, and is powered by the proprietary MiniMax Sparse Attention (MSA) architecture, supporting up to 1M tokens context window with a guaranteed minimum of 512K tokens.\n- The M3 model is designed for long-horizon coding agents, complex workflows, and multimodal reasoning, and is positioned as MiniMax's flagship foundation model for large-scale software engineering, automated agents, and lengthy document or video understanding.\n- MiniMax M3 achieves around 59% on SWE-Bench Pro, on par with leading models such as GPT-5.5 and close to Claude-level coding performance, while being an order of magnitude cheaper per million tokens on some platforms.\n- The model natively supports text, images, and video as input with text output, and enables much faster and cheaper long-context inference, which is critical for autonomous coding agents, large repos, and multi-step tool use.\n- M3 is being viewed as a watershed open-weights release, as it is reportedly being distributed so that anyone can download and run it, enabling on-premise and self-hosted deployments that previously required expensive proprietary models.\n- The model is already available via multiple APIs and routers, including OpenRouter, EvoLink, MiniMax's own APIs, and MiniMax Agent, with highly competitive pricing in the sub-$1 per million input token range for large context tiers.\n\n### Notable Links\n- [MiniMax M3 Model Page](https://ollama.com/library/minimax-m3)\n- [Claude Code](https://docs.ollama.com/integrations/claude-code)\n- [Hermes Agent](https://docs.ollama.com/integrations/hermes)\n- [OpenClaw](https://docs.ollama.com/integrations/openclaw)",
+      "links": [
+        {
+          "text": "M3 model",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Follama.com%2Flibrary%2Fminimax-m3/2/0100019e825c8e7f-647e591c-221a-4461-8f54-a2c6a44ee617-000000/KBCb_Oo5n7roDufIrmhdkeBCfLIlj2GNcboD5hI7lAM=452"
+        },
+        {
+          "text": "MiniMax M3",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Follama.com%2Flibrary%2Fminimax-m3/3/0100019e825c8e7f-647e591c-221a-4461-8f54-a2c6a44ee617-000000/v6qdFO3j3CUJ7nDmHigjRnJvXJmfrN9J8K_Xg3nTzjQ=452"
+        },
+        {
+          "text": "Claude Code",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Fdocs.ollama.com%2Fintegrations%2Fclaude-code/1/0100019e825c8e7f-647e591c-221a-4461-8f54-a2c6a44ee617-000000/oULCY5pp-o56Nf-YkNBqCxOf5ymLYb8AeoCO9Nlm0FI=452"
+        },
+        {
+          "text": "Hermes Agent",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Fdocs.ollama.com%2Fintegrations%2Fhermes/1/0100019e825c8e7f-647e591c-221a-4461-8f54-a2c6a44ee617-000000/Z3bclRz6ryWf_7nHdgYgc9h4Qkp2EAzHukLWWBFHSfo=452"
+        },
+        {
+          "text": "OpenClaw",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Fdocs.ollama.com%2Fintegrations%2Fopenclaw/1/0100019e825c8e7f-647e591c-221a-4461-8f54-a2c6a44ee617-000000/Oubm7_Zb4vBJLH00crFZjkq5D_RIMzIejrC0d53mRFI=452"
+        },
+        {
+          "text": "model page",
+          "url": "https://c.vialoops.com/CL0/https:%2F%2Follama.com%2Flibrary%2Fminimax-m3/4/0100019e825c8e7f-647e591c-221a-4461-8f54-a2c6a44ee617-000000/WYuTaIlsnbQ4Uf2Ift8Xx3jN6OXN1d-LMog2b0ucKjM=452"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "MiniMax M3 is launching on Ollama's Cloud     \n\n![](https://c.vialoops.com/CI0/0100019e825c8e7f-647e591c-221a-4461-8f54-a2c6a44ee617-000000/N5ZvpDmTYqyEKQGVKrYg3UIYOXS4x14cHCH60gB8R_Y=452)\n\n[![An illustration of Ollama looking at its computer in awe, and Ollama is excited about the MiniMax model launch. ](https://images.vialoops.com/cmpunwq45022t0jxwjhhvoh3z/cmpupandb03k10juwy0zyo65n.png)](https://c.vialoops.com/CL0/https:%2F%2Follama.com%2Flibrary%2Fminimax-m3/1/0100019e825c8e7f-647e591c-221a-4461-8f54-a2c6a44ee617-000000/tjytbm6B2c7ISdacVcsKf7YxeqHiTCuuQfKCgYSHOEY=452)\n\nIn partnership with MiniMax, the latest [M3 model](https://c.vialoops.com/CL0/https:%2F%2Follama.com%2Flibrary%2Fminimax-m3/2/0100019e825c8e7f-647e591c-221a-4461-8f54-a2c6a44ee617-000000/KBCb_Oo5n7roDufIrmhdkeBCfLIlj2GNcboD5hI7lAM=452) is launching with availability on Ollama's Cloud. With Ollama's Cloud, this model's hosting will be US-based with zero data retention.\n\n[MiniMax M3](https://c.vialoops.com/CL0/https:%2F"
+    },
+    {
+      "from": "\"The AI Brief\" <ai-information@mail.beehiiv.com>",
+      "subject": "The AI Quietly Beating ChatGPT",
+      "date": "2026-06-01T09:12:07.000Z",
+      "summary": "## The AI Brief\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI landscape has changed significantly since ChatGPT was first introduced in 2023, with new tools like Claude emerging as strong competitors, offering improved performance in specific tasks such as writing, coding, and long document analysis.\n* Claude has been found to outperform ChatGPT in independent testing for tasks like writing, with its output being rated as more natural and nuanced, and for coding, reaching approximately 95 percent functional accuracy compared to ChatGPT's 85 percent.\n* Claude's context window is larger than ChatGPT's, making it more suitable for handling full documents, and it is more responsive to nuanced guidance about voice, format, and structure, allowing for better following of complex instructions.\n* A 2025 LiveBench assessment scored Claude Opus 4.6 at 76.11 versus ChatGPT 4.1 at 54.55, indicating a significant gap in raw language quality.\n* While ChatGPT has advantages in image generation, voice mode, and video through Sora, as well as a broader plugin ecosystem, Claude's strengths in writing, coding, and document analysis make it a valuable tool for knowledge workers, with many users finding value in running both Claude and ChatGPT for different tasks.\n* The cost of Claude Pro and ChatGPT Plus is the same at $20 a month, but they offer different features, with Claude Pro including Claude Code, which developers rate as the strongest AI coding tool available, and ChatGPT Plus including image generation, voice, and video.\n\n### Notable Links\n* [Masterworks](https://masterworks.com) for information on investing in contemporary and post-war art.\n* [ChatGPT](https://chat.openai.com/) for access to OpenAI's flagship language model.\n* [Claude](https://www.claude.ai/) for more information on the AI tool and its features.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The AI Quietly Beating ChatGPT\n\nYou chose habit over performance.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 01, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/kv2EEolnWpB6moJr%2FWsm81WTcSerex0q3OAGBPT1SxJpDy96kpviFsGgJVS1%0A6v3Kk0dZln6QXYtlSHZudOC5wg78W%2FYUgnxHvxguyjkDOPh3MRVvzz6ngIp4%0A504N%2BC4BdCIh%2FpT5y2CaExHFv6kGN5wpSgqCZUIh6ijgGn25UIjLlvL%2BC610%0A6RiCgrI7%2BgFz0LDF3ajA9Q%2BzgLhlHRHP2Q%3D%3D%0A/8126e2dde8443bdb)\n\n# The AI Quietly Beating ChatGPT\n\nYou chose habit over performance.\n\n[\n\n![share on facebook](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/static_as"
+    },
+    {
+      "from": "\"Anna Eisenberg\" <annas-daybreak-news@mail.beehiiv.com>",
+      "subject": "Claim Roulette and Guava’s Anemia Boost",
+      "date": "2026-06-01T09:57:46.000Z",
+      "summary": "## Anna's Daybreak News\n\n**Priority: MEDIUM**\n\n### Top Updates\n* **Claim Roulette**: Homeowners are discovering the insurance trap only after disaster hits, with 44.4% of home-insurance claims with top U.S. insurers ending with no payout in 2025, up from 35.6% in 2016. Deductibles have risen, often shifting from fixed amounts to percentages of home value.\n* **Wounded Bear Caucus**: Senate Republicans are divided over a $1.8 billion fund compensating those claiming government misuse of the legal system, with over half the GOP opposing the fund and blocking a $70 billion immigration-enforcement package until it’s altered or canceled.\n* **Graduate Hotspots**: An ADP analysis ranks 53 U.S. metro areas for college grads’ job prospects based on wages, affordability, and hiring, with Birmingham, Alabama, leading, and Tampa, Florida, ranking second.\n* **Guava’s Anemia Boost**: A review of 17 Indonesian studies found guava juice raised hemoglobin by 1.71 g/dl on average, and could reduce mild-to-moderate anemia in low-income settings.\n* **Living Plastic**: Scientists developed “living plastic” that can fully degrade in six days without producing microplastics, using Bacillus subtilis spores embedded in polycaprolactone.\n* **The Inherited-Risk Screen**: A deep dive into lipoprotein(a), a particle in the blood that can increase the risk of heart attack, and how to manage it, including a 30-day action plan.\n\n### Notable Links\n* The Inherited-Risk Screen\n* [Automated Retail Technologies](https://invest.automatedrt.com/)\n* Kalshi",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Claim Roulette and Guava’s Anemia Boost\n\nHomeowners are discovering the insurance trap only after disaster hits. A Trump-linked fund is splitting the GOP in unexpected ways.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Listen online](https://link.mail.beehiiv.com/v1/c/Rqooi2uieKxkjai9bqkebQjzBVmBqOq053v6aSITGWVAwm6O8phP1Cukojne%0AuH39yyVTnMTdHvZ4A6cUosq0Mc5DicdMDQuZoiXOghe0J5xM7us87oejx5MN%0AZQEjDal89z4BrIN3hJzgCYWopwAUaNEPstOznUoclJOth2w9cpMOWmZv4Egk%0AfdgP9B6nvn05M049qV9YKprBpKt0YfrppQ%3D%3D%0A/ec9841dd78776ad4)   |   [Read online](https://link.mail.beehiiv.com/v1/c/2N0V9EXtGITxH%2B62M9B44fcOsw6oXY1GIKEU74zQh8DIwz78Db%2FUkyB12ToT%"
+    },
+    {
+      "from": "\"The Rundown AI\" <news@daily.therundown.ai>",
+      "subject": "🧹 AI's next dataset is your apartment",
+      "date": "2026-06-01T10:14:05.000Z",
+      "summary": "## The Rundown AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n- A German startup called MicroAGI has launched a free home-cleaning service in New York City, where cleaners wear head-mounted cameras to record their work, generating first-person data for AI training and sale to AI labs. This data collection method marks a shift towards using ordinary human work as a source of AI training data, rather than relying on internet-sourced data.\n- The Rundown Roundtable featured staff members discussing how they use AI in their work and daily lives, including using ChatGPT for gardening and Claude for personal tasks.\n- A guide was provided on how to build a video workstation with Higgsfield and Claude, enabling the generation of campaigns, tracking of results, and improvement of prompts based on feedback.\n- GitLab Transcend, a free virtual event, will take place on June 10, focusing on the future of AI development and featuring live demos and use cases from peers.\n- Inherent Labs, a startup founded by ex-DeepMind employees, has raised $50M to build an AI science platform that pairs scientists with self-improving AI agents to identify valuable scientific questions.\n- SoftBank has committed up to $87B to build the largest AI data center project in France, extending its infrastructure investments.\n- Nvidia has unveiled RTX Spark, a superchip designed for personal AI agents, offering up to 1 petaflop of AI performance and up to 10 hours of battery life on Windows laptops.\n- OpenAI has launched Rosalind Biodefense, providing the US government and vetted partners with access to its biology AI for pandemic preparedness and outbreak response.\n- Community AI workflows were showcased, including a reader's use of HubSpot's Prospecting Agent to automate sales tasks.\n- Various AI tools were highlighted, including Codex, Claude Opus 4.8, Koji by Brilliant, and Dynamic Workflows.\n- Sam Altman announced that OpenAI is hiring for its Robotics division, with the goal of creating personal robots for everyday tasks.\n- Microsoft is reportedly merging GitHub Copilot, chat, Cowork, and Autopilot into a single super app.\n\n### Notable Links\n- Shift app\n- Codex\n- Claude Opus 4.8\n- Koji by Brilliant\n- Dynamic Workflows",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🧹 AI's next dataset is your apartment\n\nPLUS: Build a custom blog writing agent with no code  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Read online](https://link.mail.beehiiv.com/ss/c/u001.dSnm3kaGd0BkNqLYPjeMf75St_4h4uVDlb2B1USeB_HtLr5iH3EuHxI91H0HYe7i55JzLuOiW0biYrG3ew4nHaRQawB7CBCPVSWkUP9NYfiXKzdH6zvCdPSYUqOyw1jfsJBh-c2kMFwYA6qpwD8PcrRbKun_YBJyqABT6JLpEO0BXBAmnB8FsQEmQER76QRjLtWJQAL67DmlEqkkmqEq__rysSXn2f6AuY_2iCPoiekihXmcrBgVrtyWUjpLl2NeVw-gIhQWB2VBOPepwP1OdP8BReCjXZhUFPoJjkOfJqpPQVUN9FNfVjiZCpHhiAGXAJw0ZYNvgMB60VOupiWnPqefMe9jtZpC2YsRfgEo5x2izX7zvsWM-N1HDZw-brNoPxEYc3iHceZohAMWgpPAbwPpDIgEfG-UA1TG1gTsilVTVDGGAL4WF1ZiPJEFqYWW_"
+    },
+    {
+      "from": "\"Evolving AI Insights\" <evolvingai@mail.beehiiv.com>",
+      "subject": "⚡ Nvidia Brings RTX Spark Chip to Windows",
+      "date": "2026-06-01T10:25:14.000Z",
+      "summary": "## Evolving AI Insights\n\n**Priority: HIGH**\n\n### Top Updates\n- **Nvidia Brings RTX Spark Chip to Windows**: Nvidia has introduced the RTX Spark chip, which pairs a 20-core Arm CPU with a 6,144-core Blackwell GPU on a single chip, claiming one petaflop of AI compute. This marks Nvidia's return to PCs after a decade away, with the first laptops arriving this fall from Dell, Lenovo, and Microsoft's Surface line. The RTX Spark chip is designed to bring data-center technology into a laptop, enabling AI agents to work quietly in the background, sorting email or chasing bugs while the user works on other tasks.\n- **Google Flow Can Now Plan Your Whole Film**: Google's AI filmmaking tool, Flow, now runs a Gemini agent that works alongside users across a full project, helping shape stories, offering second opinions, and handling repetitive tasks. Flow can brainstorm dialogue, suggest plot turns, generate multiple versions of a scene, batch edit, and organize finished assets.\n- **OpenAI Brings Remote Codex Control to Windows**: OpenAI's Codex can now be run on a Windows PC straight from a phone, allowing users to start and steer Codex tasks from the ChatGPT app on iOS, Android, or a Mac. Codex can also operate Windows desktop apps directly, seeing the screen and typing on its own.\n- **MiniMax M3**: MiniMax has released the M3 model, an open-weights, multimodal frontier model designed for long-horizon coding agents and complex workflows, with a custom MiniMax Sparse Attention (MSA) architecture that scales context up to 1 million tokens while cutting long-context compute.\n- **Microsoft**: Microsoft is embedding generative AI across its cloud, productivity suite, Windows, and developer tools, with its flagship AI offering being Copilot, a family of assistants powered by large language models integrated through Azure OpenAI and first-party models.\n- **ByteDance**: ByteDance may invest $70 billion in AI, funded from its $50 billion 2025 profit, indicating a significant commitment to AI development and infrastructure.\n- **Anthropic**: Anthropic has released Claude Opus 4.8, an upgraded flagship model that improves performance on coding, autonomous agent tasks, and complex professional work, and has signed a major compute deal with SpaceX's Colossus 1 data center, securing access to over 220,000 NVIDIA GPUs and 300 megawatts of power.\n\n### Notable Links\n- [Nvidia RTX Spark](https://www.nvidia.com/en-us/geforce/news/rtx-spark/)\n- [Google Flow](https://developers.google.com/workspace/apps-script/guides/flow)\n- [OpenAI Codex](https://openai.com/blog/introducing-codex)\n- [MiniMax M3](https://minimax.ai/models/m3)\n- [Microsoft Copilot](https://www.microsoft.com/en-us/microsoft-365/copilot)\n- [Anthropic Claude](https://anthropic.com/claude)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "⚡ Nvidia Brings RTX Spark Chip to Windows\n\nAlso: Google Flow Can Now Plan Your Whole Film  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 01, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.DB0aRdsBr6jihNQ_e6R1iuVhN-gu5gFnq6TQY2QJNU92h0J0picpuGV9XioKkfglwVfCe2Q-ejTHj_byNFpB6Usu_vBsD1voc109mZR9NYiJ60NJPylovjW3PyWqHrusbq4WoAkd05-TbL7xmHL4-DFnGAMuUZUH6w69Gpxx3UTNB3CqdUOTqnCRdEMCCGNw6nqhFOZ0hfJMpbd4-XKZEYHrmNRrnXjgHePxyzNHQnkDTn1zU-rNFUVpnPEWO0LyC14-Vu4QnwQspRCIAwOtHnhu4wYXii3A_1hGF93Dy7O_2rv5B1ESUc6buTLx6Ra-abumdNIN3VHtFXtnXS1x6RpmnUZkYkI225FHRI0Uo3dTi72dudQQv8dvpV_PKZyROORnKQH4VQJSlwH8DID3vSmxog-nP_gTYjdqgiH-2cM1-w2jF1"
+    },
+    {
+      "from": "\"TLDR\" <dan@tldrnewsletter.com>",
+      "subject": "Apple glasses 👓, Nvidia Windows PCs 💻, replacing technical interviews 👨‍💻",
+      "date": "2026-06-01T10:55:38.000Z",
+      "summary": "## TLDR Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Apple plans to disrupt the glasses market with products priced between $200 and $500, targeting the broader glasses category with a strong brand, industrial design, and iPhone integration, potentially capturing a significant share of the $200 billion annual eyewear market.\n* Nvidia has designed new chips in partnership with Microsoft to power Windows on Arm-based PCs, with the N1 chip having up to 16 GB of RAM and the N1x chip having up to 128 GB of RAM, enabling PC makers to release new Nvidia-powered PCs that can run AI agents locally.\n* Blue Origin's recent failed test of its New Glenn rocket will have significant implications for NASA and the US space industry, with rebuilding the launch site or finishing a new one likely to take at least a year, resulting in delays in the Moon Base program.\n* SpaceX's Starfall reentry vehicle has been approved for test flights by the Federal Aviation Administration, with the capability to perform in-space manufacturing and point-to-point cargo delivery.\n* A new type of interviewing is emerging in Silicon Valley, where companies hire potential candidates to work with them for a few days on real codebases with real teams, providing a strong signal to the company and real value to the candidates.\n* MicroAGI, a German startup, is offering free home cleaning services in exchange for consent to record everything the cleaners do, with the data used to train AI-driven robots.\n* Meta is reportedly working on an AI pendant and more smart glasses models, with plans to release four new models before the end of the year.\n* Nvidia is working on the Vera Rubin Space Module, a GPU-based platform for space-based data centers and on-orbit AI inference, and has introduced Spectrum-XGS Ethernet, a networking technology that links geographically distributed AI data centers into \"giga-scale AI super-factories\".\n* Anthropic has released Claude Opus 4.8, an upgraded flagship model that improves performance on coding, autonomous agent tasks, and complex professional work, and has signed a major compute deal with SpaceX's Colossus 1 data center.\n* Microsoft is driving growth in Azure with AI services, with Copilot usage surging and cloud revenue increasing by around 30% year-on-year, and is committing up to $50 billion to expand AI infrastructure, cloud capacity, and workforce training across the Global South.\n\n### Notable Links\n* [Apple Seeks to Disrupt the Glasses Market](https://links.tldrnewsletter.com/X5xacE)\n* [Leaks: Nvidia-Powered Windows 11 PCs Set to Debut](https://www.thurrott.com/mobile/copilot-pc/336816/leaks-nvidia-powered-windows-11-pcs-set-to-debut)\n* [The Last Technical Interview](https://links.tldrnewsletter.com/UTLytb)\n* [Backpressure is all you need](https://www.lucasfcosta.com/blog/backpressure-is-all-you-need)\n* [The Website Specification](https://specification.website)\n* [Meta is reportedly working on an AI pendant and more smart glasses](https://www.engadget.com/2184224/meta-developing-ai-pendant-more-smart-glass-models)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR\n\nApple upended the mid-tier traditional wristwatch market after it showed customers the appeal of buying a device that paired with their iPhones ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=tldr/1/0100019e82d32f13-63d3ee46-1746-43b2-bef1-f973ebf9c466-000000/XhbwrXUXfvTxB7X_qV35hXRYndFqqxqJEyafeeoHjpI=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldr%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019e82d32f13-63d3ee46-1746-43b2-bef1-f973ebf9c466-000000/yziejRL96quc8URNiicB-lXyQtZN7wUUJtuRggWdxj8=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=d3324c64-5f8e-11f0-b1c3-7f12249efa1c%26p=8ca7ef62-5d92-11f1-aecd-eb8f006c02c5%26pt=campaign%26t=1780311338%26s=4d198dd2e9bfb6278bf845f0c28000a"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Can anything stop Anthropic's growth?",
+      "date": "2026-06-01T12:02:28.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic has surpassed OpenAI as the most valuable AI startup, with a $965B post-money valuation after raising $65B in a Series H round, backed by investors such as Altimeter, Dragoneer, Greenoaks, and Sequoia, and an additional $5B from Amazon.\n* The company's valuation is attributed to the success of its Claude model, which has seen a $37B jump in revenue run rate from last year, thanks to its applications in coding, analysis, and agentic workflows.\n* Anthropic is now positioned as a leading alternative to OpenAI in the frontier model race, focusing heavily on safety and reliability, with a goal of becoming a sustainable and responsible AI leader.\n* Erin Brockovich, a well-known activist, is tracking AI data centers in the US, focusing on energy consumption, water usage, and public health concerns, with a current total of 4,200 data centers being tracked and 2,716 individual reports submitted.\n* California is suing 23andMe over a massive genetic data breach that exposed information from nearly seven million users, highlighting the importance of data protection and privacy in the AI industry.\n* Other notable updates include the potential for solar sail technology to send spacecraft to the edge of the solar system, recycling firms calling for a refundable vape deposit scheme, and M.I.A. suing Kid Cudi for over $2.8 million.\n\n### Notable Links\n* [Anthropic](https://www.anthropic.com/)\n* [Erin Brockovich's data center map](https://erinbrockovich.com/data-centers/)\n* [23andMe](https://www.23andme.com/)\n* [Chartr](https://www.chartr.co/)\n* [Verble](https://www.verble.com/)\n* [Photo to Cartoon](https://www.photocartoon.net/)\n* [Glowbom](https://www.glowbom.com/)\n* [Study Fetch](https://www.studyfetch.com/)\n* [Math AI Solver](https://www.mathaisolver.com/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Anthropic heads towards $1T\n\n\\+ Erin Brockovich is now fighting AI data centres  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n01 Jun\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/4f82573d-0c65-4250-8c72-f60bbb17ce69/thumb_Taylor_PP.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_pictu"
+    },
+    {
+      "from": "\"Forward Future (Matthew Berman)\" <astro@forwardfuture.ai>",
+      "subject": "SpaceX Goes All-In on AI",
+      "date": "2026-06-01T12:07:01.000Z",
+      "summary": "## Forward Future\n\n**Priority: MEDIUM**\n\n### Top Updates\n* SoftBank announced a €75B investment in AI infrastructure in Europe, specifically in France, aiming to develop up to 5 GW of additional data center capacity by 2031. This investment is seen as a significant move to position France across the AI value chain.\n* Groq, a startup that develops AI inference chips, is raising $650 million in funding to expand its business. The company had previously signed a $20 billion technology licensing agreement with NVIDIA.\n* Meta is working on a six-device wearables roadmap, including an AI pendant and smart glasses with \"supersensing\" capabilities, to reverse the losses of its Reality Labs division.\n* Uber is struggling to manage the rising costs of AI, having exhausted its 2026 budget for AI coding tools in just four months. The company is trying to connect the adoption of AI tools to a measurable increase in consumer-facing features.\n* Anthropic has released Opus 4.8, an upgraded version of its large language model, which improves performance on coding, autonomous agent tasks, and complex professional work.\n* Dell Technologies reported a stronger-than-expected quarter, driven by surging demand for AI servers, with its AI server customer base surpassing 5,000.\n* SpaceX is investing heavily in AI, with a $12.7 billion expenditure on AI initiatives in 2025, and is developing a new AI chip to reduce its dependence on NVIDIA hardware.\n* ByteDance is developing a new AI inference chip, modeled on Groq's architecture, to integrate advanced memory technology and reduce reliance on US technology.\n\n### Notable Links\n* SoftBank Plants €75B AI Bet in France\n* Groq Seeks Funding After NVIDIA Deal",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Dell’s AI bet keeps paying off\n\nVideo: Opus 4.8 raises the bar for developers  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 1st, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.gjvfX7JRbL1RKfObNke3hTDnn8Qx1YMb2UuABhkuaEeJdzWzY8MsgSdDZ3-zem0QFHCvXHDV97fvWcZ_JXukhCcIoeYdg4lvhcZIWfDWUNd-7uNH7GsJBXiWFifRjzMvPVEjV2adm59r9_X9WtSC9Qzq6z9-OQxG5sx-pjVmraeOtcjO7hWriUlPG6-LRtDfHOkmkQa0TSwLm4k4zu6grGD0HlAVaYlbRzJ0J3NO6iLZ-JiKJPYihNviK21U5wrEjXJ_UbKVzGTTWUlpOmM-c0Aw1PzqaC7zCAmcQ670JrlLWu20XeF8gAlXF9o9iThzNC8ZU0A5g97mYKxxEQql-UT9twJsgsvIQhAsRYod_5gOgQtz8YP8FboxqEbMGXuCgxeBF4kSIApAtKProlXIXeOQvW7tznpMuVb_g83_moD8RGw_qB_ueNLWzCKuZ"
+    },
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "[BUILD] dynamic workflows",
+      "date": "2026-06-01T12:48:14.000Z",
+      "summary": "## BUILD dynamic workflows\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic launched **Dynamic Workflows**, a feature that enables complex, large-scale tasks to be broken down into smaller subtasks, each handled by a separate agent, with the orchestrator gathering the results. This significantly improves performance and efficiency on tasks such as codebase-wide audits and security sweeps.\n* Jarred Sumner successfully ported Bun from Zig to Rust using Claude, with 960,000 lines of code ported in six days and 99.8% of the test suite passing. This achievement demonstrates the potential of Dynamic Workflows for large-scale coding tasks.\n* The **spec** behind the Bun rewrite is crucial, as it maps every Zig type and idiom to its Rust equivalent, allowing Claude to understand and execute the task accurately.\n* Dynamic Workflows is available as a toggle in the effort menu, and can be triggered manually by including the word \"workflow\" in the prompt or using the ultracode command.\n* The feature is currently a research preview, and its behavior may change before it reaches general availability (GA).\n* Dynamic Workflows has its limits, including the potential for quieter failure modes and a higher token cost compared to normal sessions.\n* Anthropic also released **Claude Opus 4.8**, an upgraded flagship model that improves performance on coding, autonomous agent tasks, and complex professional work.\n* The company signed a major compute deal with SpaceX's Colossus 1 data center, securing access to over 220,000 NVIDIA GPUs and 300 megawatts of power.\n\n### Notable Links\n* Vibedock: A macOS menu bar app for toggling Claude Code MCP servers on and off per project.\n* Integuru: A tool for turning websites into usable APIs by reverse-engineering HTTP calls.\n* Archi-Flow: A cloud architecture diagramming tool that runs live traffic simulations.\n* Wispr Flow: A tool that captures everything you say and turns it into clean, structured text for any AI tool.\n* Moda: A viral AI design agent for polished, on-brand slides, docs, ads, and more.",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "\\[BUILD\\] dynamic workflows\n\nread the plan or burn $80  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 01, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.2WMshDh4P1SYN8SqaafnJdjdmWP1WD1rdGPofZ1FxFrggNaORTZzkMnuL3TCNJ4FAPqqEne0DjU-uX7v0WRqX5HFaLOofC6dFe58lCc0Dy5QxMjTdAclg1QMwmis6NXMhmxvf6Xx1lZZStP5M2gjM55BCCyv8VnSTSX34zsMp3eVBHZoQqJcm5SXnFOAfxmChIzNR4oLc72dzAFLkbB4ltu8iqH0F3rR9b1WFkCSBXIjRvbny3c4s9lDElCKJXDKveEDv1umSUYMd_2SNeDmGKxRdt8XnKOuVwqf0P_KZTunveLkNe8wXQmH_1zlfAmkVpnQByZckNMREn7xiv9vPrgAb_PH83cBTNkUUXbC4ld2VrVIxy5gG_YzCY_l0qiAv7TlqeWiMloQpUdmLmorC2uBcGlFn5qRMaZgIxrGaZ0xcjYMkUDrLsTQEisvLbSQ4EmVNupTeA4n0Y5IWwR4s"
+    },
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "Leveraging scale separation and stochastic closure for data-driven prediction of chaotic dynamics",
+      "date": "2026-06-01T12:56:05.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Researchers from Sorbonne University, led by Zighed et al., have proposed a two-stage, fully probabilistic framework for predicting the dynamics of chaotic fluid flows, addressing the \"sensitivity problem\" described by Edward Lorenz.\n* The framework consists of a reduced-order model (ROM) that generates ensembles of plausible large-scale trajectories, and a Gaussian Process that maps these trajectories back to full-resolution flow fields, effectively filling in the small-scale structures removed by filtering.\n* The ROM uses a low-pass Fourier filter, a variational autoencoder (VAE), and a Transformer to model the evolution of latent variables, producing a probabilistic rollout of the filtered flow.\n* The Gaussian Process closure learns the relationship between filtered and full-resolution flows from data, allowing for probabilistic reconstruction of full-resolution fields with statistically plausible small-scale structure.\n* The pipeline has been tested on a chaotic Kolmogorov flow and shown to maintain statistical consistency with DNS data over long rollouts, outperforming other closure models such as VAE and diffusion models.\n* The study demonstrates that chaotic prediction does not always require exact trajectory prediction, and that preserving long-term statistics may be a more useful target for turbulent systems.\n\n### Notable Links\n* [Leveraging scale separation and stochastic closure for data-driven prediction of chaotic dynamics](https://journalclub.io/episodes/leveraging-scale-separation-and-stochastic-closure-for-data-driven-prediction-of-chaotic-dynamics)\n* [Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai) \n\nNote: The referenced paper is not explicitly linked, but the episode and course links provide access to more information on the topic.",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/leveraging-scale-separation-and-stochastic-closure-for-data-driven-prediction-of-chaotic-dynamics?token=fKBYbZGEJlvWL9RszoNWqgkWKjTOt30JACnsa8XNDTHjRVac38"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Leveraging scale separation and stochastic closure for data-driven prediction of chaotic dynamics   \n\n\"The present determines the future, but the approximate present does not approximately determine the future.\" - Edward Lorenz. What Lorenz was describing is the “sensitivity problem”. If you're trying to simulate a chaotic physical system, like the weather, or a turbulent fluid, even a tiny error in your starting conditions can throw off your model in a meaningful way.\n\n![](https://journalclub.io/px/zSwrQkVahl9ZTvymSalIIYIDq7lpnHmMC5dpyZKj7uZA4CLOrA)\n\nLeveraging scale separation and stochastic closure for data-driven prediction of chaotic dynamics\n\nJournalClub.io, June 1st, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/190kGWbXRGKk0LrM4qJd)](https://journalclub.io/episodes/leveraging-scale-separation-and-stochastic-closure-for-data-driven-prediction-of-chaotic-dynamics?token=fKBYbZGEJlvWL9RszoNWqgkWKjTOt30JACnsa8XNDTHjRVac38)\n\nToday's article comes from "
+    },
+    {
+      "from": "\"The Code\" <thecode@mail.joinsuperhuman.ai>",
+      "subject": "🔥 MiniMax drops M3",
+      "date": "2026-06-01T13:01:52.000Z",
+      "summary": "## The Code\n\n**Priority: HIGH**\n\n### Top Updates\n* MiniMax drops **MiniMax M3**, an open-weights model that combines top-tier coding skills with a 1M-token context window, rivaling the best models like GPT-5.5 and Gemini 3.1 Pro, and is available at $0.60 per million input tokens.\n* Nvidia releases **Cosmos 3**, an open-weight foundation model built for robots and self-driving, combining reasoning, world generation, and action prediction into a single system, with a compact 8B version running on a workstation GPU and a 32B model targeting datacenters.\n* OpenAI starts a hiring drive for its **robotics division**, seeking full-stack hardware, systems, and ML engineers to build machines for the physical world, with the goal of creating robots that can help skilled workers build out infrastructure.\n* Anthropic releases **Claude Opus 4.8**, an upgraded flagship model that improves performance on coding, autonomous agent tasks, and complex professional work, while keeping pricing aligned with the previous Opus generation.\n* Anthropic signs a major **compute deal with SpaceX's Colossus 1 data center**, securing access to over 220,000 NVIDIA GPUs and 300 megawatts of power, enabling higher rate limits and increased capacity for Claude Code and Opus API.\n* Nvidia introduces **Spectrum-XGS Ethernet**, a networking technology that links geographically distributed AI data centers into \"giga-scale AI super-factories,\" adding distance-adaptive algorithms, advanced congestion control, and precision latency management to improve performance.\n* A guide is provided on **how to audit a whole codebase in one Claude Code run**, using a new feature that moves the execution entirely outside the context window, allowing for more efficient and reliable code audits.\n* The newsletter discusses the importance of **agentic engineering** vs. \"vibe coding,\" highlighting the need for developers to maintain oversight and validate outputs through multi-agent systems, rather than relying solely on AI-generated code.\n* Wispr Flow's CTO shares his experience of not writing a line of code since December, with AI now shipping 90% of what serves 1M+ users, demonstrating the potential of AI in software development and the changing role of developers.\n\n### Notable Links\n* Claude Opus 4.8\n* MiniMax M3\n* Cosmos 3\n* Spectrum-XGS Ethernet",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🔥 MiniMax drops M3\n\nAlso: 6 skills to enhance dev workflow  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 01, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.kro7WBsAmEsY5mGgiUDePbOdMF_BvViPt7FxYKgxL9uNR8GVXHeEiG9eN8qYC3N-KMwDxRVJo87-6CFa8B7DJJ5oMjUx3pV-LYKcRs-mLlw4qG6d76EtESJo7RfstW_b0IW_U9gfGnD5CDS4TcyahFmIb9I_u7DbYmpD4CxSv9aAT-8luqeqqeEICER8D2LsSXFSFsztmUvkn_RgOdqRWl72pGBqkrDxJ4UTea25NnBYH0ixzkOCT8k0MrEpRZc-QZBAY1sPW5COdiFRP1CtCT1IX-CAznJo_KYLVleW-jpux6Tr4DBEAZYWiOwoGZ1qfnygZWI_ARbOLHEcFMX_k-n3qaKnDb8jVLXNPXZJpIPcPF_A3OE32GqADXgf_adT_JELtMC5Tr7hQJLUCoWeshCcef6cT0mPbIZwZG6Jf6x68Ve9CUT1hsF6KL7TkLoQqBFkUtcnkJNsAhzJ"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🩺 Microsoft drops Copilot Health",
+      "date": "2026-06-01T13:04:34.000Z",
+      "summary": "## Superhuman\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Torsten Slök, chief economist at Apollo, argues that AI is creating jobs, not erasing them, citing zero evidence of AI-driven layoffs in weekly employment data. Instead, he claims that AI hiring sprees, data-center buildouts, and cheaper technology are creating more jobs.\n* Microsoft has rolled out Copilot Health, a personalized health insights platform that delivers health information by pulling wearable data, lab results, and medical records into one secure space, drawing from 50,000+ US providers.\n* OpenAI has updated Codex to enable full computer use on Windows, allowing users to open any app, move files, and complete tasks on their PC.\n* Gemini Omni now allows users to add AR-style annotations to any video or image, providing a new way to enhance multimedia content.\n* Vanta is hosting a live event to discuss how leading teams operationalize AI risk, focusing on vendor sprawl, third-party risk, and continuous monitoring.\n* A company has developed an out-of-the-box solution to AI's energy problem by creating mini data centers that can be installed in homes, potentially easing strain on the grid.\n\n### Notable Links\n* Gemini Omni\n* Vanta \n* Granola",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "📊 Top economist sees \"zero evidence\" of AI job loss\n\nALSO: How to add AR-style annotations to any video or image with Gemini Omni  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 01, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGWeIUCYqY-4M8DIRfyaANdT-Xes2foht4waUhabvpxSAsexAzzIcRnst1vAA-e1cAvAk9QLXRbcHx82jNxwUmO1lG8-PqOvWtvUdo7on21hV42-K4YSKMYk3bB3Vv-5NW8OgyGB8gyBId4FOmSjuGl_m6aftNICJbsemEaDqUO_UhMxH4Zf_Z59OQww19akMxRBfyiZxAFZNywYMM0hGypO2bYfJd2iF1U14yJ3hXY9_oD5rhC3xwsKSn8Q4MeoYLtaCo8lrp7bsrp5KaV50rrAVS05A_TM_k5JzE3K1AD3WxaGIa2WedO5VPFIzTxLyTfFtwfNoyGCM8eMv0X1WJO2ZYRQN8cws"
+    },
+    {
+      "from": "\"Interconnects by Nathan Lambert\" <robotic@substack.com>",
+      "subject": "Open and closed models are on different exponentials",
+      "date": "2026-06-01T13:03:48.000Z",
+      "summary": "## Interconnects by Nathan Lambert\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The largest debate in the AI industry is the economic balance between open and closed AI model ecosystems, with the key question being whether users will continue to pay a premium for top closed models.\n* Early 2026 is a crucial time for the AI industry as coding agents have shown the first area where a significant AI market will pay a substantial premium for better intelligence, driving the development of closed models.\n* Closed labs like Anthropic and OpenAI will focus on making their models smarter to unlock large new markets, while open model builders will focus on filling niches and providing low-cost solutions.\n* The open and closed model economies are operating on different exponentials, with the closed model economy driven by the rapid buildout of compute and mass subsidization of tokens, and the open model economy driven by the broader diffusion of AI into the economy.\n* Nathan Lambert expects both OpenAI and Anthropic to be valued in the $2-10T range in 5-10 years, with the true frontier labs forming an oligopoly similar to the cloud market today.\n* Open models are not integrated and will rely on multiple companies coordinating to serve them, driving prices down to commodity pricing and making them more accessible to enterprises for niche tasks.\n* The collective value capture around open models will be far bigger overall, but the revenue and margins will be shared across a wide stack of companies.\n\n### Notable Links\n* Open and closed models are on different exponentials: https://substack.com/app-link/post?publication_id=48206&post_id=200013663&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMDAxMzY2MywiaWF0IjoxNzgwMzE5MzE5LCJleHAiOjE3ODI5MTEzMTksImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.J8AU_6xYf73BB4je_AoRArFureDWjOVRoCssZgCm2rs\n* Nathan Lambert: https://substack.com/@natolambert\n* Open model economy: [link]\n* Claims of recursive self improvement (RSI) giving the closed labs an unassailable advantage are overblown: [link]\n\nRecent developments in the AI industry include:\n* Nvidia's push to extend AI infrastructure both on Earth and in space with the Vera Rubin Space Module and Spectrum-XGS Ethernet.\n* Anthropic's release of Claude Opus 4.8 and its partnership with SpaceX's Colossus 1 data center to scale training and deployment capacity.\n* Microsoft's embedding of generative AI across its cloud, productivity suite, and developer tools, and its commitment to expand AI infrastructure and workforce training in the Global South.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuaW50ZXJjb25uZWN0cy5haS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cuaW50ZXJjb25uZWN0cy5haSUyRnAlMkZvcGVuLWFuZC1jbG9zZWQtbW9kZWxzLWFyZS1vbi1kaWZmZXJlbnQiLCJwIjoyMDAwMTM2NjMsInMiOjQ4MjA2LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MDMxOTMxOSwiZXhwIjoyMDk1ODk1MzE5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.6GqHsGcLCsniQElC3sknPJgZZIeFnFD56OUTVTmYdhs?"
+        },
+        {
+          "text": "Open and closed models are on different exponentials",
+          "url": "https://substack.com/app-link/post?publication_id=48206&post_id=200013663&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMDAxMzY2MywiaWF0IjoxNzgwMzE5MzE5LCJleHAiOjE3ODI5MTEzMTksImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.J8AU_6xYf73BB4je_AoRArFureDWjOVRoCssZgCm2rs"
+        },
+        {
+          "text": "Nathan Lambert",
+          "url": "https://substack.com/@natolambert"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/robotic/p/open-and-closed-models-are-on-different?redirect=app-store"
+        },
+        {
+          "text": "Listen to post · 7:21",
+          "url": "https://substack.com/app-link/post?publication_id=48206&post_id=200013663&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMDAxMzY2MywiaWF0IjoxNzgwMzE5MzE5LCJleHAiOjE3ODI5MTEzMTksImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.J8AU_6xYf73BB4je_AoRArFureDWjOVRoCssZgCm2rs#play"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=48206&post_id=200013663&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMDAxMzY2MywiaWF0IjoxNzgwMzE5MzE5LCJleHAiOjE3ODI5MTEzMTksImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.J8AU_6xYf73BB4je_AoRArFureDWjOVRoCssZgCm2rs"
+        },
+        {
+          "text": "right bet",
+          "url": "https://substack.com/redirect/58eaa85a-f623-4adb-984c-3daa59eb5e5a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuaW50ZXJjb25uZWN0cy5haS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LmludGVyY29ubmVjdHMuYWklMkZwJTJGb3Blbi1hbmQtY2xvc2VkLW1vZGVscy1hcmUtb24tZGlmZmVyZW50JnI9NDlieTM0JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lOVGMxTXpnMk5EQXNJbWxoZENJNk1UYzRNRE14T1RNeE9Td2laWGh3SWpveE56Z3lPVEV4TXpFNUxDSnBjM01pT2lKd2RXSXRORGd5TURZaUxDSnpkV0lpT2lKamFHVmphMjkxZENKOS5sNVIxZTRuMTNBcEFoRW5yVUd0LTN3MmhDNDNUQjhRSFdxa29zUS1QSWM0IiwicCI6MjAwMDEzNjYzLCJzIjo0ODIwNiwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODAzMTkzMTksImV4cCI6MjA5NTg5NTMxOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.6oXs5NsS-EXNk8iIwf3kuc1XCTdGfTMJs41GFMlEDh0"
+        },
+        {
+          "text": "open model economy",
+          "url": "https://substack.com/redirect/667b9aab-a3ca-4338-ad4a-bfc09f0a150c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "claims of recursive self improvement (RSI) giving the closed labs an unassailable advantage are overblown",
+          "url": "https://substack.com/redirect/3d0826cb-07fd-440d-9450-ded58319c2b9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Open and closed models are on different exponentials![](https://eotrx.substackcdn.com/o/bc32d0ce807dfc31/p.gif?token=eyJtIjoiPDIwMjYwNjAxMTMwMzQ4LjMuYzQ5Nzk0ZmY2NGJkNWM1M0BtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwMDAxMzY2MywidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo0ODIwNiwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MDMxOTMyMCwiZXhwIjoxNzgyOTExMzIwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.iJPECySfH-slL3fqe-OZV81TtJWbnvI5CScN_nZUdsI)\n\nWhere marginally higher intelligence drives value, and where it doesn't.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "🖥️ OpenAI Codex now controls Windows desktop + mobile remote access",
+      "date": "2026-06-01T13:22:35.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n- OpenAI's Codex can now operate on Windows desktops, allowing it to click through apps, test and debug visual flows, and control everything remotely from the ChatGPT mobile app on iOS or Android. This development allows Codex to move beyond just suggesting code and actually interact with the desktop environment, changing the capabilities of AI coding tools.\n- xAI has released its agentic coding model, grok-build-0.1, via a public API, priced at $1 per million input tokens and $2 per million output tokens. This model is designed for autonomous planning, writing, refactoring, and iterating on code across multi-step tasks, making it a significant tool for coding collaborators.\n- Alibaba's Tongyi Lab has developed a single robot model that can control 11 different robot bodies, demonstrating advancements in robotics and AI agent capabilities.\n- OpenAI has launched a biodefense platform, Rosalind Biodefense, which provides access to its life sciences AI model, GPT-Rosalind, for teams building pandemic and biosecurity tools. This platform is free for approved teams and aims to support the development of early detection, screening, and medical countermeasures.\n- Cursor has introduced an auto-review mode, reducing the need for approval prompts, and FriendliAI has released production inference for open-source large language models (LLMs) like DeepSeek, GLM, Kimi, and Nemotron.\n- Unsloth has released a quantized GGUF build of Step-3.7-Flash, a 198B vision-language model, and a guide is available for training a 13M parameter LLM on a single GPU using PyTorch.\n\n### Notable Links\n- [OpenAI Codex](https://www.openai.com/blog/openai-codex)\n- [xAI grok-build-0.1](https://www.xai.ai/grok-build)\n- [Alibaba Tongyi Lab](https://www.alibabagroup.com/en/news/press vtx)\n- [OpenAI Rosalind Biodefense](https://www.openai.com/blog/rosalind-biodefense)\n- [Cursor auto-review mode](https://cursor.ai/auto-review)\n- [FriendliAI production inference](https://friendli.ai/production-inference)\n- [Unsloth quantized GGUF build](https://unsloth.ai/quantized-gguf-build)\n- [PyTorch guide for training LLM](https://pytorch.org/tutorials/beginner/llm training)",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=5495399e49fefbf5&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=5495399e49fefbf5&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=5495399e49fefbf5&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=5495399e49fefbf5&mid=a4dd2fc3-55d8-41a5-8cb2-6d82c56b516e&s=%F0%9F%96%A5%EF%B8%8F%20OpenAI%20Codex%20now%20controls%20Windows%20desktop%20%2B%20mobile%20remote%20access&t=1780320150)\n\nGrok-build-0.1 256K context, Rosalind biodefense for government, Cursor auto-review, Alibaba Tongyi controls 11 robots\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=5495399e49fefbf5&lid=Hq7EhwzRhwVgOlej&mid=a4dd2fc3-55d8-41a5-8cb2-6d82c56b516e)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=5495399e49fefbf5&lid=1AKeoE4nj00fXTcRj&mid=a4dd2fc3-55d8-41a5-8cb2-6d82c56b516e)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nAI agents are no longer just suggesting code."
+    },
+    {
+      "from": "\"AI Breakfast\" <aibreakfast@mail.beehiiv.com>",
+      "subject": "Anthropic prepares ‘Conway’ agent platform",
+      "date": "2026-06-01T13:27:18.000Z",
+      "summary": "## AI Breakfast\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic prepares 'Conway' agent platform for multi-app automation, introducing a persistent background agent that runs inside isolated containers and triggers via webhooks using a new .cnw.zip extension standard. This move positions Anthropic as a key player in the AI agent space, potentially transforming how tasks are automated across applications.\n* OpenAI expands its Codex system with Computer Use support for Windows 11, enabling the AI to directly operate desktop apps, files, and system tools. This update allows for multi-step tasks like app testing, bug hunting, and workflow validation without active user supervision.\n* xAI launches grok-build-0.1 beta for autonomous coding tasks, offering a low-cost option for large-scale use. The model is priced at $1 per million input tokens and $2 per million output tokens.\n* Nvidia releases the γ-World model, which scales to four-player simulations with zero-shot generalization. This development showcases Nvidia's continued advancements in AI research and its commitment to pushing the boundaries of AI capabilities.\n* Microsoft readies a unified Copilot super app to centralize local AI agents, further integrating AI into its ecosystem. This move aims to make AI more accessible and user-friendly across various applications and services.\n* Meta builds an AI pendant for a 2026 rollout following its Limitless acquisition, exploring new form factors for AI interaction. This could signal a shift towards more personalized and wearable AI technologies.\n* Apple pushes AI smart glasses to late 2027 as Vision Air returns for a 2029 launch window, indicating a cautious approach to augmented reality and AI-powered wearable devices.\n* Researchers find that making AI chatbots more helpful weakens their ability to simulate human behavior, highlighting the challenges in balancing functionality and human-like interaction in AI systems.\n* Nvidia's robots learned entirely in simulation and still delivered in the real world, demonstrating significant advancements in robotics and simulation-based training methods.\n* Anagen releases the first human trial data for an AI-designed hair loss drug, marking a milestone in the application of AI in medical research and drug development.\n\n### Notable Links\n* Viktor\n* Conway\n* Nvidia γ-World model",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Anthropic prepares ‘Conway’ agent platform\n\nPlus, I'm attending a Seattle event this week  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 01, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/KIpDPCJxegwhKNNi6HsoYbpYTVlMWOaNOQd0B%2BvDSXdic4SHVK17Fri8hWDf%0AadDgUYK7teCFihDn2%2B%2FJN3OfaAQ6%2FKiOl1qVUV8LO8%2FOWQ147YA%2BJiUt7TQa%0ANyAs7jXVJTKISzrkgARI8Bfc27ndGbgcIQfz15lPewOOR9%2BD2F5HkTAvy1kY%0AZfcefq6fUHzv%2FpOKbY6cx0j6a%2FkFq3yizA%3D%3D%0A/b77d09088778c7e0)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/acae4be9-a88f-4644-87ab-182c2cfc10fe/ai_breakfast_"
+    },
+    {
+      "from": "\"Jack Clark from Import AI\" <importai@substack.com>",
+      "subject": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk…",
+      "date": "2026-06-01T13:31:56.000Z",
+      "summary": "## Import AI 459\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI economy in the US is growing at an unprecedented rate of 2,000% per year, but this growth is largely invisible in conventional GDP statistics. Economists need to develop new measures to track the AI economy, such as \"AI satellite accounts\" and better data generation.\n* Automated alignment research is harder than expected, and errors in this area are likely to be harder to identify than human baseline errors. Researchers suggest interventions like measurement, generalization, and scalable oversight to improve the state of affairs.\n* Biohub has released a rival model to DeepMind's AlphaFold, called ESMFold2, which outperforms AlphaFold 3 in some areas. The model is part of a larger effort to develop better AI systems for biologists and has the potential to accelerate progress in cancer research.\n* Australian economist-turned-politician Andrew Leigh argues that economists need to price the risk of AI systems, including the risk of human extinction, more accurately. He suggests five recommendations: factor in extinction risk, legitimize it, governance, coordination, and take it seriously.\n* Researchers have released a dataset called GPIC, which contains 100M permissively licensed images with accompanying captions. The dataset is designed for research and commercial use and can be used for tasks like visual generation.\n\n### Notable Links\n* [Where is AI in GDP statistics? (PIIE)](https://www.piie.com/publications/working-papers/where-ai-gdp-statistics)\n* [Automated alignment is harder than you think (arXiv)](https://arxiv.org/abs/XXXX.XXXXX)\n* [GPIC: A Giant Permissive Image Corpus for Visual Generation (arXiv)](https://arxiv.org/abs/XXXX.XXXXX)\n* [GPIC: A Giant Permissive Image Corpus for Visual Generation (official project website)](https://www.gpicwebsite.com)\n* [GPIC (Hugging Face)](https://huggingface.co/gpic)\n* [The Economics of Human Extinction - 21 May 2026 (Andrew Leigh, website)](https://www.andrewleigh.com/speech/the-economics-of-human-extinction)\n\nNote: The arXiv links are not provided as the actual links are not available in the text. However, the titles of the papers are mentioned, and the links can be found on the arXiv website.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9pbXBvcnRhaS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGaW1wb3J0YWkuc3Vic3RhY2suY29tJTJGcCUyRmltcG9ydC1haS00NTktYWktb3ZlcnNpZ2h0LWlzLWRpZmZpY3VsdCIsInAiOjIwMDA1NjI0MSwicyI6MTMxNzY3MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODAzMjA5MDEsImV4cCI6MjA5NTg5NjkwMSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.2QkqZ2tDdwQfG7Qy3a3f_zqQawnaoG_YtNxAZYIKvLg?"
+        },
+        {
+          "text": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+          "url": "https://substack.com/app-link/post?publication_id=1317673&post_id=200056241&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMDA1NjI0MSwiaWF0IjoxNzgwMzIwOTAxLCJleHAiOjE3ODI5MTI5MDEsImlzcyI6InB1Yi0xMzE3NjczIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cEbElftoKlOys-DuTmxGDDhsZMFgynpXAPNjPP_VX1M"
+        },
+        {
+          "text": "Jack Clark",
+          "url": "https://substack.com/@importai"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/importai/p/import-ai-459-ai-oversight-is-difficult?redirect=app-store"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9pbXBvcnRhaS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRmltcG9ydGFpLnN1YnN0YWNrLmNvbSUyRnAlMkZpbXBvcnQtYWktNDU5LWFpLW92ZXJzaWdodC1pcy1kaWZmaWN1bHQmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjNE1ETXlNRGt3TVN3aVpYaHdJam94TnpneU9URXlPVEF4TENKcGMzTWlPaUp3ZFdJdE1UTXhOelkzTXlJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLjR2dFljalk0cDFiNTJmQjJCb25SU0JpMGFpWC1fd3o2aS1faklpclZ4UDAiLCJwIjoyMDAwNTYyNDEsInMiOjEzMTc2NzMsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgwMzIwOTAxLCJleHAiOjIwOTU4OTY5MDEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.NezXrVpG5O9dTYvx81aTEB7jf2qawpWK3glGZwOBWQs"
+        },
+        {
+          "text": "Where is AI in GDP statistics? (PIIE)",
+          "url": "https://substack.com/redirect/150fa67c-abe6-4f7e-9c48-7c10c51c0c33?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Automated alignment is harder than you think (arXiv)",
+          "url": "https://substack.com/redirect/4ad9358d-dfbc-4391-80ac-b91feb01baa2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "GPIC: A Giant Permissive Image Corpus for Visual Generation (arXiv)",
+          "url": "https://substack.com/redirect/ee2049a3-5d92-4f6f-b8b9-07df6fca168b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "GPIC: A Giant Permissive Image Corpus for Visual Generation (official project website).",
+          "url": "https://substack.com/redirect/fc4a0989-2c8a-431d-b6b2-27c3a838501d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "GPIC (Hugging Face)",
+          "url": "https://substack.com/redirect/84088095-b753-4bbf-9827-3db8955e2534?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems![](https://eotrx.substackcdn.com/o/d5205c04578094e4/p.gif?token=eyJtIjoiPDIwMjYwNjAxMTMzMTU2LjMuNDVjNGYxYmZiNTE4M2YxYkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDAwNTYyNDEsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTMxNzY3MywiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MDMyMDkwMSwiZXhwIjoxNzgyOTEyOTAxLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.wXXpca0G7Ty4__qGSki55tFG3qvpW2oTnzmOJDKrvHQ)\n\nDo you feel as though you are living in a revolution?\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "Dario Amodei named \"the zeroth world.\" You probably live in it.",
+      "date": "2026-06-01T13:49:49.000Z",
+      "summary": "## The AI Corner\n\n**Priority: HIGH**\n\n### Top Updates\n* Dario Amodei, CEO of Anthropic, stated that the world is not ready for the upcoming AI revolution, answering the question with a simple \"no\".\n* Amodei emphasized the importance of understanding the capability curve of AI, rather than getting caught up in hype cycles, which he refers to as a \"Moore's law for intelligence\".\n* He predicted 5-10% GDP growth alongside 10% unemployment, a combination that has never existed before, due to AI's ability to displace entire categories of knowledge work.\n* Anthropic engineers have stopped writing code, instead using Claude Opus to generate code, which they then edit, indicating a significant shift in software development.\n* Amodei highlighted the need for mechanistic interpretability to ensure AI safety, as current alignment methods are not sufficient.\n* He also discussed the potential for AI to exacerbate inequality and the need for deliberate action to address this issue.\n* Amodei mentioned the concept of the \"zeroth world\", a group of 10 million people who will form their own economy and become decoupled from the rest of the world.\n* Anthropic has built an Economic Index to track the impact of AI on the economy in real-time, but almost no one in policy is using it.\n* Amodei emphasized the need for government redistribution at a macro scale to address the wealth displacement caused by AI.\n* He predicted that within 1-2 years, positions that currently seem politically coded will become bipartisan necessities due to the reality of AI's impact.\n* Anthropic's revenue curve is expected to continue growing exponentially, with $0 to $100M, $100M to $1B, and $1B to $10B milestones achieved in just three years.\n\n### Notable Links\n* [Dario Amodei named \"the zeroth world.\" You probably live in it.](https://substack.com/app-link/post?publication_id=6850544&post_id=198235740&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODIzNTc0MCwiaWF0IjoxNzgwMzIxODc1LCJleHAiOjE3ODI5MTM4NzUsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.0bifJVMPmgXoEDqIHWgOuAfeXqty1CjWppzB3fOZl3E)\n* Anthropic is closing in on a $1 trillion valuation\n* Anthropic just passed OpenAI in revenue, spending 4x less\n* Demis Hassabis named his AGI year\n* LIVE Claude-a-thon",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRmRhcmlvLWFtb2RlaS16ZXJvdGgtd29ybGQtZGF2b3MtMjAyNiIsInAiOjE5ODIzNTc0MCwicyI6Njg1MDU0NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODAzMjE4NzUsImV4cCI6MjA5NTg5Nzg3NSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.a5yG1Tifr3aps7oYEnlgAr2DTzeJe8wLjrDu6J1Jtl4?"
+        },
+        {
+          "text": "Dario Amodei named \"the zeroth world.\" You probably live in it.",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=198235740&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjE5ODIzNTc0MCwiaWF0IjoxNzgwMzIxODc1LCJleHAiOjE3ODI5MTM4NzUsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.0bifJVMPmgXoEDqIHWgOuAfeXqty1CjWppzB3fOZl3E"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/dario-amodei-zeroth-world-davos-2026?redirect=app-store"
+        },
+        {
+          "text": "Amodei",
+          "url": "https://substack.com/redirect/1dcb7801-2b6a-4770-9323-2b2cb83ded0b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Anthropic is closing in on a $1 trillion valuation",
+          "url": "https://substack.com/redirect/3ebf9534-4c5c-4755-9903-d1b504246906?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Anthropic just passed OpenAI in revenue, spending 4x less",
+          "url": "https://substack.com/redirect/12a869d1-210a-42f6-b9a7-91d317f9bcc3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Demis Hassabis named his AGI year",
+          "url": "https://substack.com/redirect/e124954d-d230-4e2a-8410-34938eed464d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "LIVE Claude-a-thon",
+          "url": "https://substack.com/redirect/530601b4-3d4b-4abe-9847-60c62a6b7014?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "field for 15 years",
+          "url": "https://substack.com/redirect/6d3912fd-0ff5-492a-9fd8-dbb9e1f9c47c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Dario Amodei named \"the zeroth world.\" You probably live in it.![](https://eotrx.substackcdn.com/o/a879944992c4160a/p.gif?token=eyJtIjoiPDIwMjYwNjAxMTM0OTQ5LjMuZmQ5ODBhYjkyOWIyMTc2YUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjE5ODIzNTc0MCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo2ODUwNTQ0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgwMzIxODc1LCJleHAiOjE3ODI5MTM4NzUsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.jEyo61JT2Gn4b0AJ_vmoaWck0ECBm8O2pdd2PhcpGMA)\n\nAnthropic's CEO gave a one-word answer to the most important question in business right now. He is not speculating. He is reporting.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Copilot super app leaks 🤖, Minimax M3 ➕, Nvidia N1X ⚡️",
+      "date": "2026-06-01T13:53:27.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Microsoft is likely to debut its unified Copilot app at Build 2026, featuring a GitHub Copilot tab, a Cowork tab, and a tab for Scout, an always-on AI agent, aiming to boost weak adoption by integrating scattered tools into a single home.\n* MiniMax M3 is a new open-weights, multimodal frontier model that achieves frontier-level performance on coding and agentic work, supports image and video input, and operates a desktop computer, available through MiniMax Code, the Token Plan, and MiniMax's API services.\n* Nvidia plans to unveil its N1X laptop chip at Computex 2026, featuring 20 ARM cores and an RTX 5070 equivalent GPU, and will present its \"Vera Rubin\" AI platform for datacenters, focusing on Physical and Agentic AI, and advancements in autonomous machines and robotics.\n* AI traffic has grown 187% in 2025, with automated traffic growing 8x faster than human traffic, and AI agents are rapidly reshaping the internet threat landscape, according to HUMAN's 2026 State of AI Traffic & Cyberthreat Benchmarks.\n* Nvidia's MCG Toolkit automates AI model documentation, creating comprehensive model cards in Model Card++ format rapidly, and the company has introduced Spectrum-XGS Ethernet, a networking technology that links geographically distributed AI data centers into \"giga-scale AI super-factories\".\n* OpenAI has published a comprehensive guide for conducting trustworthy third-party evaluations of frontier AI models like GPT-5.5, and has outlined a playbook for trustworthy AI model evaluations.\n* Ex-DeepMind researchers have raised $50M to build AI that figures out which scientific questions are worth asking, and OpenAI Robotics is hiring full-stack hardware, ops, systems, and ML engineers to help program and manufacture robots.\n\n### Notable Links\n* [Claude Opus 4.8: The System Card](https://thezvi.wordpress.com/2026/05/29/claude-opus-4-8-the-system-card/)\n* [MiniMax M3](https://threadreaderapp.com/thread/2061266317815296322.html)\n* [Nvidia Computex 2026](https://wccftech.com/nvidia-computex-2026-what-to-expect/)\n* [HUMAN's 2026 State of AI Traffic & Cyberthreat Benchmarks](https://www.humansecurity.com/2026-state-of-ai-traffic-cyberthreat-benchmark-report/)\n* [Nvidia MCG Toolkit](https://developer.nvidia.com/blog/how-to-automate-ai-model-documentation-with-the-nvidia-mcg-toolkit/)\n* [OpenAI's playbook for trustworthy AI model evaluations](https://links.tldrnewsletter.com/aqQS8A)\n* [Inherent AI](https://thenextweb.com/news/inherent-ai-50-million-seed-deepmind-faraday-science/)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nMicrosoft looks likely to debut its unified Copilot app at Build. Leaked screenshots show a GitHub Copilot tab, a Cowork tab, and a tab for Scout ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019e8375f9f4-e7acb0ab-0d47-41c9-9324-9ff8c5c27870-000000/VFWSvBWsWYMS68uyah5q3VJoycLnHt9M-yWp9d91iNs=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019e8375f9f4-e7acb0ab-0d47-41c9-9324-9ff8c5c27870-000000/kLGpR-8SDXFoqdvXievtZyvm4wATC8uY8uL8sUB1UVs=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=9ccbfe40-5dad-11f1-9750-09be61c5bd91%26pt=campaign%26t=1780322007%26s=e5171ae68542cc5a2527"
+    },
+    {
+      "from": "\"Robert from God of Prompt\" <godofprompt@mail.beehiiv.com>",
+      "subject": "🔑 Your Claude is Running At 30%",
+      "date": "2026-06-01T15:10:12.000Z",
+      "summary": "## God of Prompt Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The Claude Mastery Guide has been updated for Opus 4.8, providing users with the latest information on how to maximize the potential of Claude, a large language model developed by Anthropic. This update includes new features such as Projects, Skills, and Connectors, which work together to enhance the functionality of Claude, allowing it to handle more complex tasks and provide more accurate outputs.\n- The updated guide emphasizes the importance of using XML tags in prompts to improve output quality. A specific prompt structure is provided to help users convert their existing prompts to work better with Claude, resulting in more consistent and accurate outputs.\n- Anthropic's Claude Opus 4.8 model is highlighted for its improved performance on coding, autonomous agent tasks, and complex professional work, making it a significant upgrade for users who rely on Claude for their workflows.\n- The newsletter discusses the difference between various Claude models, including Haiku, Sonnet, and Opus, and provides guidance on when to use each model for optimal results, helping users to choose the best model for their specific needs.\n- Anthropic's partnership with SpaceX to secure access to over 220,000 NVIDIA GPUs and 300 megawatts of power is mentioned, underscoring the company's commitment to scaling its training and deployment capacity to support the development of more advanced AI models.\n\n### Notable Links\n- Claude Mastery Guide\n- [Anthropic](https://www.anthropic.com/)\n- [Claude](https://www.anthropic.com/claude)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🔑 Your Claude is Running At 30%\n\nhere's the other 70%. Free Guide Updated 🆕  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 01, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.akmomNMYXWQq0kb507bPJvyYM6kFYLIVnAtd2VnUUhrloqaWD3hnYprZdvy-dzPZJ7yRgfGY4x-j9DqESK29BdxKAxKOIYNsTj3IR9LYPd1Rap7-01q00K-HHcClwSL-pZaj4siuENkwf9SKMrHxfPGlICDm3uXEZi-ODLQlSVBempXT7oxpD2wLZbDk28OHPU7hK6CQVqrkEqfgmQccn4UD4WiwuoFdqJ3nxkWQX-qGacjpMeKR0O-D9DwynIBew2NDjtrh_bxrO4GDuprtKt8_BSnFpu96Skck4iBtGo2fJAqWwPspcU4OWZe1mUjXMbQGwBmdh2VPtmLXKicezYAnUhmiXKZk1Ik5Oc-aHaqG5iXexUfujTQReTM2KBGkMgDA5dxsZyRbOeaYR4kTb2re3saJCwQ5XFXI3EXywJGNof4EhuJAQdVsKSIXGS"
+    },
+    {
+      "from": "\"Latent.Space\" <swyx@substack.com>",
+      "subject": "Why Video Agent models are next — Ethan He, xAI Grok Imagine Lead",
+      "date": "2026-06-01T15:41:48.000Z",
+      "summary": "## Latent Space\n\n**Priority: HIGH**\n\n### Top Updates\n- **Video Agent Models**: Ethan He, the lead on xAI's Grok Imagine, discusses the potential of video agent models, which are expected to be the next major trend in AI. Video agents are models that can generate videos based on user input and can be used for a variety of applications such as video editing, animation, and more.\n- **Grok Imagine**: Ethan He shares his experience in building Grok Imagine, a video generation model that can generate high-quality videos in minutes. He discusses the challenges of building such a model, including data preparation, model architecture, and training.\n- **Real-Time Generative UI**: The concept of real-time generative UI is discussed, where AI models can generate user interfaces in real-time, allowing for more interactive and immersive experiences.\n- **Flipbook and Neural OS**: Flipbook and Neural OS are showcased as examples of real-time generative UI, where AI models can generate videos and interact with users in real-time.\n- **Video Models**: Ethan He discusses the current state of video models, including the challenges of training and deploying them, and the potential applications of video agents.\n- **xAI Culture**: The culture at xAI is discussed, including the emphasis on moving fast, building ambitious goals, and using first principles thinking.\n- **Ethan He's Career Path**: Ethan He shares his career path, including his work at NVIDIA, xAI, and his decision to leave xAI to focus on language models.\n- **Language Models**: The importance of language models in video generation is discussed, including the use of language models as a prompt rewriter and the potential for language models to improve video generation.\n- **Video Agents**: The concept of video agents is discussed, including the potential for video agents to revolutionize the way we interact with videos and the challenges of building and training video agents.\n- **Future of AI**: The future of AI is discussed, including the potential for AI to revolutionize various industries and the challenges of building and deploying AI models.\n\n### Notable Links\n- [Grok Imagine](https://substack.com/app-link/post?publication_id=1084089&post_id=200078058&utm_source=substack&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMDA3ODA1OCwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODAzMjg2MTUsImV4cCI6MTc4MjkyMDYxNSwiaXNzIjoicHViLTEwODQwODkiLCJzdWIiOiJyZWFjdGlvbiJ9.Dks79dpnLGGgy80N3vbJJmTv4OO7CaifhTNfKNb51GI)\n- xAI\n- NVIDIA Cosmos World Model\n- Interaction Models",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGdmlkZW8tYWdlbnRzIiwicCI6MjAwMDc4MDU4LCJzIjoxMDg0MDg5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MDMyODYxNSwiZXhwIjoyMDk1OTA0NjE1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.ivRNCyu0VaqOF3hrcbUv3Vv6oTLnw12zx3Fe-OAlcts?"
+        },
+        {
+          "text": "Latent Space: The AI Engineer…Why Video Agent models are ne…0:001:43:25",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=200078058&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMDA3ODA1OCwiaWF0IjoxNzgwMzI4NjE1LCJleHAiOjE3ODI5MjA2MTUsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.rYXEVbk9hWCqe75e8MfIhqy7IagXjELmlAxL5VIfrs0#play"
+        },
+        {
+          "text": "Listen now",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=200078058&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMDA3ODA1OCwiaWF0IjoxNzgwMzI4NjE1LCJleHAiOjE3ODI5MjA2MTUsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.rYXEVbk9hWCqe75e8MfIhqy7IagXjELmlAxL5VIfrs0"
+        },
+        {
+          "text": "Why Video Agent models are next — Ethan He, xAI Grok Imagine Lead",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=200078058&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMDA3ODA1OCwiaWF0IjoxNzgwMzI4NjE1LCJleHAiOjE3ODI5MjA2MTUsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.rYXEVbk9hWCqe75e8MfIhqy7IagXjELmlAxL5VIfrs0"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/video-agents?redirect=app-store"
+        },
+        {
+          "text": "AIEWF",
+          "url": "https://substack.com/redirect/0bd94d95-8270-4505-839b-2d48e69a64d5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI Engineering Survey",
+          "url": "https://substack.com/redirect/a2bdeba1-5276-42f2-b1bb-a8cd9b8d7447?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "NVIDIA Cosmos World Model",
+          "url": "https://substack.com/redirect/fbdd9a32-c36a-4698-b81a-d98d3e228370?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Ethan He@EthanHe_42Thrilled to share our new Grok Imagine release 🚀 It is the highest quality, fastest, and most cost-effective video generation model yet. Comes with 720P, video editing and better audio! We listened closely to your feedback and moved fast. Just six months ago, we had almostxAI @xaiUnderstanding requires imagining. Grok Imagine lets you bring what’s in your brain to life, and now it’s available via the world’s fastest, and most powerful video API: https://t.co/tqQwQVgCEI Try it out and let your Imagination run wild.5:43 AM · Jan 29, 2026 · 116K Views127 Replies · 107 Reposts · 1.35K Likes",
+          "url": "https://substack.com/redirect/f5d02fc7-a578-432a-add1-023b88ba6ab6?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Interaction Models",
+          "url": "https://substack.com/redirect/3d30df2a-c9e7-4246-80c4-e9e44bc6b5ca?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Why Video Agent models are next — Ethan He, xAI Grok Imagine Lead![](https://eotrx.substackcdn.com/o/38f771ad002c8cef/p.gif?token=eyJtIjoiPDIwMjYwNjAxMTU0MTQ4LjMuYjRmZjI1NzEzYTQyOGYyN0BtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwMDA3ODA1OCwidCI6InBvZGNhc3QiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDg0MDg5LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgwMzI4NjE1LCJleHAiOjE3ODI5MjA2MTUsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.boxLyUdZuKLpyC-GGkVrue6R3RzY-U1n-HwSUqF4gbU)\n\nListen now (103 mins) | Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and why Grok Imagine is so underrated. For the first time, we do a deep dive with the guy who led it!\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "Recruiters Can Spot An AI-Written Resume Instantly.",
+      "date": "2026-06-01T16:01:13.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Recruiters can often spot AI-written resumes due to their generic and formulaic nature, which can lead to immediate rejection, with 49% of hiring managers tossing resumes suspected to be AI-generated and 62% rejecting those lacking a personal touch.\n- The problem with AI-generated resumes is not just the detection of AI involvement but the fact that they often sound interchangeable and lack specificity, making it difficult for recruiters to discern the applicant's true skills and experiences.\n- To address this issue, 7 prompts are provided to help strip away generic tells and rebuild the resume with specific, defensible, and personalized content, including:\n  * The Tell Scanner: identifies generic buzzwords, evenly-sized bullets, and vague claims that make a resume sound AI-generated.\n  * The Specificity Injection: turns vague claims into concrete, defensible ones by adding real numbers, outcomes, scales, or timeframes.\n  * The Bullet Surgeon: rewrites bullets to vary in length and structure, making them sound more human-written.\n  * The Voice Pass: removes rehearsed polish and makes the resume sound like it was written by a competent person describing their own work.\n  * The Job-Match Tailor: rewrites the resume to mirror the language and priorities of the exact job posting.\n  * The Defensibility Check: flags claims that might be difficult to back up with specific stories, numbers, or examples in an interview.\n  * The Recruiter's-Eye Final Pass: provides a final check to ensure the resume passes the recruiter's scan test.\n- These prompts are designed to be used in order, with the option to rerun certain prompts for each new job application, to create a living document that is sharpened per role.\n- The Daily ChatGPT newsletter provides a setup guide to get started with these prompts using Claude.ai, a tool for generating and editing text.\n\n### Notable Links\n- [ChatGPT](https://www.openai.com/blog/chatgpt): a large language model developed by OpenAI, used as a reference point for modern generative AI.\n- [Claude.ai](https://www.claude.ai/): a tool for generating and editing text, used in the setup guide for the 7 prompts.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Recruiters Can Spot An AI-Written Resume Instantly.\n\n❗️7 prompts that strip the tells and rebuild your resume to land callbacks. Tonight...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 01, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/JzqR1PUzNCGxyadMUOiNS642cA7mNuCsUk06rYBURA2jAVS4Qry8GH2s0E9W%0ANVmug30VXt8VDfaGKVKXsnXe9yfqBDVvyV6WgA4CdPKzP2IH7KBT2mwg9ySJ%0AOzgjHJypydd3dJdg5NFgUZLV6Nc5ub5zbRn7Scfbrq%2BVvcQhEHubcOieVUv%2F%0AXNwXgonikc0Faf4RiOFr%2BcssBCJ5xWVOIw%3D%3D%0A/aaac9e022365edf6)\n\n# Recruiters Can Spot An AI-Written Resume Instantly.\n\n❗️7 prompts that strip the tells and rebuild your resume to land callbacks. "
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "AI side hustles to try this summer",
+      "date": "2026-06-01T19:30:55.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Mindstream has released a guide featuring over 200 AI side hustles that individuals can start today, catering to a wide range of interests and skill levels, including beginners, aiming to help people leverage AI tools to earn extra money.\n- The guide offers a huge range of businesses to choose from, providing diverse opportunities for those looking to monetize their skills or explore new ventures.\n- Mindstream also mentions other resources such as \"The Hustle\", \"Starter Story\", \"Marketing Against the Grain\", and \"The Science of Scaling\", which might be useful for individuals looking to grow their businesses or stay updated on marketing strategies and scaling techniques.\n- The newsletter invites readers to explore these resources for expert insights, selling strategies, and business growth tips, indicating a focus on both AI-enabled income opportunities and broader entrepreneurial support.\n\n### Notable Links\n- Privacy Policy\n- Terms of Service\n- Mindstream's guide to 200+ AI side hustles, accessible through the provided link, offers insights into leveraging AI for additional income streams.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "200+ AI side hustles inside\n\nThere's something for everybody!  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n01 Jun\n\n![](https://link.mail.beehiiv.com/ss/o/u001.4dRQXGJtOgv2SY148jqY7A/4r4/cjXuYGdzQ8W1eMA5fLXQmg/ho.gif)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/508b7ca6-377b-49e2-a49a-2b460c340609/Mindstream_Masthead_New.png?t=1776419005)\n\n**June is here! So is our hot AI money-making guide.**\n\nHere are 200 AI side hustles to start today. There’s one for everybody!\n\nInside our money spinner:\n\n*   200+ ideas to leverage AI tools to earn on the side\n    \n*   Huge r"
+    }
+  ],
+  "tldr": [
+    "Anthropic releases Claude Opus 4.8 model.",
+    "Nvidia introduces RTX Spark superchip.",
+    "OpenAI launches Rosalind Biodefense platform.",
+    "Microsoft invests $50 billion in AI.",
+    "MiniMax releases MiniMax M3 model."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Nvidia",
+        "context": "Nvidia is a leading provider of **AI and accelerated computing hardware and software**, best known for its **GPUs** and CUDA software stack that power training and inference for large language models and other ML workloads.[3][7] Beyond chips, Nvidia offers full AI platforms, including data center GPUs (H100, H200, Blackwell), networking, and enterprise AI software, making it a foundational supplier for cloud providers, enterprises, and AI startups.[7][9] It also maintains open model families such as **Nemotron** on Hugging Face, covering language, reasoning, vision, retrieval, speech, and safety models, which serve as foundation models for developers.[4] \n\nRecent developments highlight Nvidia’s push to extend AI infrastructure both on Earth and in space. At its GTC 2026 event, Nvidia announced the **Vera Rubin Space Module**, a GPU-based platform designed for **space-based data centers and on-orbit AI inference**, claiming up to 25x more AI compute than a prior H100-in-space demonstration and targeting geospatial intelligence and autonomous operations in orbit.[1][6] In parallel, Nvidia introduced **Spectrum‑XGS Ethernet**, a networking technology that links geographically distributed AI data centers into “giga‑scale AI super‑factories,” adding distance‑adaptive algorithms, advanced congestion control, and precision latency management to nearly double the performance of its collective communications library for multi‑GPU clusters.[2] These moves matter because they address key bottlenecks in scaling AI—compute density, data movement, and latency—allowing training and inference to spread across regions and even into orbit.[1][2][6]\n\nIndustry impact is significant: most major cloud providers still rely heavily on Nvidia GPUs for cutting‑edge AI training, and improvements like Spectrum‑XGS could translate into **faster AI services and potentially lower costs** by improving efficiency in distributed computing.[2][5][9] By pushing AI infrastructure into space with Vera Rubin, Nvidia is also enabling new applications such as on‑orbit analysis of satellite imagery and reduced downlink requirements, which could reshape geospatial intelligence and Earth observation workflows.[1][6] Combined with its expanding model ecosystem (e.g., Nemotron) and enterprise AI platforms, Nvidia continues to set the pace in AI/ML hardware and infrastructure, influencing how and where the next generation of AI systems are built and deployed.[4][7]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is OpenAI’s flagship family of large language models based on the GPT (generative pretrained transformer) architecture, designed to generate and understand natural language and code at a level that is often comparable to human performance.[3] It matters because it has become the reference point for modern generative AI—used in consumer chatbots, enterprise copilots, coding assistants, and agents—shaping how organizations think about automation, knowledge work, and human–AI interaction.[3] Generative AI systems like ChatGPT enable not just classification or search, but on‑demand content creation (text, code, images via related models like DALL·E), which is fundamentally changing workflows in software development, customer support, marketing, education, and more.[3]",
+        "source": "web search"
+      },
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is an AI research and product company best known for its Claude family of large language models, positioned as a leading alternative to OpenAI in the frontier model race.[5] It focuses heavily on safety and reliability, marketing Claude for professional, enterprise, and developer use across tasks like coding, analysis, and agentic workflows.[5] Anthropic has become one of the most valuable private AI startups globally, and is widely seen as a core player in shaping the next generation of general-purpose AI systems.[2]\n\nRecently, Anthropic released **Claude Opus 4.8**, an upgraded flagship model that improves performance on coding, autonomous agent tasks, and complex professional work while keeping pricing aligned with the previous Opus generation.[5][2] On the infrastructure side, Anthropic signed a major **compute deal with SpaceX’s Colossus 1 data center**, securing access to more than 220,000 NVIDIA GPUs and over 300 megawatts of power, which immediately enabled higher rate limits: Claude Code five‑hour limits were doubled, peak‑hour throttling for Pro and Max users was removed, and Opus API limits were significantly increased.[4] This SpaceX partnership complements Anthropic’s existing large-scale compute commitments with Amazon, Google, Microsoft, and other partners, and even includes an expressed interest in future orbital AI compute, underscoring its ambition to scale training and deployment capacity to the multi‑gigawatt level.[4] Collectively, these moves cement Anthropic’s role as a central infrastructure- and model-scale player whose advances influence benchmarks, pricing, and safety norms across the wider AI/ML industry.[4][5]",
+        "source": "web search"
+      },
+      {
+        "topic": "MiniMax M3",
+        "context": "MiniMax M3 is a new **open‑weights, multimodal frontier model** from Shanghai-based AI startup MiniMax, designed for long-horizon coding agents, complex workflows, and multimodal reasoning.[3][6][8] It introduces a custom **MiniMax Sparse Attention (MSA)** architecture that scales context up to **1 million tokens** while cutting long-context compute to roughly **1/20** of the previous M2 generation and delivering up to around **15x faster** decoding at very long sequences.[1][3][8] The model natively supports text, images, and video as input with text output, and has been positioned as MiniMax’s flagship foundation model for large-scale software engineering, automated agents, and lengthy document or video understanding.[3][5][8]\n\nM3 matters because it combines **frontier-level coding performance**, aggressive cost efficiency, and open weights in a single model, directly pressuring proprietary leaders. MiniMax reports that M3 achieves around **59% on SWE-Bench Pro**, on par with leading models such as GPT‑5.5 and close to Claude-level coding performance, while being an order of magnitude cheaper per million tokens on some platforms.[2][3][6][8] Its architecture enables much faster and cheaper long-context inference, which is critical for autonomous coding agents, large repos, and multi-step tool use.[1][3][8] The model is already available via multiple APIs and routers (e.g., OpenRouter, EvoLink, MiniMax’s own APIs, and MiniMax Agent), with highly competitive pricing in the sub‑$1 per million input token range for large context tiers, making near–state-of-the-art capabilities significantly more accessible to developers and enterprises.[4][5][8]\n\nIn industry terms, M3 is being viewed as a **watershed open‑weights release**: it is reportedly being distributed so that anyone can download and run it, enabling on-premise and self-hosted deployments that previously required expensive proprietary models.[2][6][7] Commentators and early testers highlight that it is the first open-weights model to jointly offer **frontier coding/agent performance, million-token context, and native multimodality**, which could accelerate the development of long-horizon autonomous agents, complex coding copilots, and multimodal enterprise workflows while pushing the broader ecosystem toward cheaper, more open, and more capable long-context models.[5][6][7][8]",
+        "source": "web search"
+      },
+      {
+        "topic": "Microsoft",
+        "context": "Microsoft is a leading global technology company that has positioned itself at the center of the current AI/ML wave by embedding **generative AI** across its cloud (Azure), productivity suite (Microsoft 365), Windows, and developer tools.[1][2][9] Its flagship AI offering is **Copilot**, a family of assistants that help with tasks such as writing, coding, and data analysis, all powered by large language models integrated through Azure OpenAI and first‑party models.[1][2][9] This matters because Microsoft is using its scale in cloud infrastructure and enterprise software to make advanced AI broadly available to businesses and governments, turning AI from experimental pilots into everyday tools embedded in workflows.[1][2][9]\n\nRecent developments include rapid **enterprise adoption** of Copilot for Microsoft 365: Microsoft reports that Copilot usage has surged, with the number of daily users more than doubling and 1-seat subscriptions roughly doubling in the most recent quarter, indicating strong traction among large organizations such as Dow and Novartis.[1] Financially, AI demand is driving growth in Azure, where AI services helped push cloud revenue up around 30% year‑on‑year, and Microsoft’s overall revenue and profit have accelerated as AI tools roll out “at scale.”[2] Strategically, Microsoft is also making major **infrastructure and ecosystem bets**: it is committing up to **$50 billion by the end of the decade** to expand AI infrastructure, cloud capacity, and workforce training across the Global South, positioning itself as a partner to governments in areas like public services, healthcare, education, and finance, with India as a key hub for data centers and skilling initiatives.[3] In parallel, it is working with chip and PC partners such as NVIDIA and OEMs (e.g., Dell, Lenovo, Microsoft Surface) to enable local AI agents and high‑performance client devices, tying Windows and Copilot more deeply into edge AI hardware.[4]\n\nThese moves are reshaping the industry by reinforcing Microsoft’s role as a core AI platform provider for enterprises, developers, and the public sector.[1][2][3][4][9] As organizations adopt Copilot and Azure AI, Microsoft is influencing how generative AI is governed, deployed, and monetized, while its large infrastructure investments and PC‑level AI integrations pressure competitors to match its capabilities and scale.[2][3][4][9]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Anthropic Raises $65B at a $965B Valuation",
+        "summary": "Anthropic reportedly closed a $65 billion funding round, lifting its post-money valuation to $965 billion and making it the largest single funding round ever for a private AI company. The same day also brought a separate $36 billion private-credit financing package tied to Google TPU chips for Anthropic, backed by major financial firms and Broadcom.",
+        "whyItMatters": "This is a major signal of continued capital concentration in frontier-model labs and of how compute financing is becoming a strategic part of AI competition. Practitioners should watch because it can accelerate model scaling, product releases, and infrastructure access across the ecosystem.",
+        "source": "Build Fast With AI / AI News Today - June 1, 2026"
+      },
+      {
+        "headline": "GitHub Copilot Switches to Token-Based Billing",
+        "summary": "GitHub Copilot’s new token-based billing model went live, replacing flat subscription pricing across plans. Early developer reaction has been strongly negative, with reports that some users may see dramatically higher monthly costs under the new scheme.",
+        "whyItMatters": "This affects everyday coding workflows and the economics of AI-assisted development. Teams using Copilot need to reassess usage patterns, budgeting, and whether agentic or high-volume coding tasks will become more expensive.",
+        "source": "Build Fast With AI / AI News Today - June 1, 2026"
+      },
+      {
+        "headline": "SoftBank Commits €75B to 5 GW of AI Infrastructure in France",
+        "summary": "SoftBank announced a major commitment to build 5 gigawatts of AI infrastructure in France, with a reported investment size of €75 billion. The move adds another large-scale compute and data-center expansion effort in Europe.",
+        "whyItMatters": "Infrastructure commitments like this shape where training and inference capacity will be available, which can influence latency, sovereignty, procurement, and model deployment decisions. It also signals continued massive demand for power, chips, and datacenter capacity.",
+        "source": "Build Fast With AI / AI News Today - June 1, 2026"
+      },
+      {
+        "headline": "Cognition Raises $1B at a $26B Valuation",
+        "summary": "Cognition, the company behind the Devin autonomous software engineer, reportedly raised more than $1 billion at a $26 billion post-money valuation. The round was said to include participation from several prominent venture firms and pushed the startup’s total funding above $2.5 billion.",
+        "whyItMatters": "This is a major bet on autonomous coding agents and signals investor confidence in AI software-engineering tools. Developers should expect continued competition in agentic coding, with pressure on benchmarks, reliability, and workflow integration.",
+        "source": "Build Fast With AI / AI News Today - June 1, 2026"
+      },
+      {
+        "headline": "OpenAI Expands GPT-Rosalind Through a Biodefense Program",
+        "summary": "OpenAI launched the Rosalind Biodefense Program, expanding access to GPT-Rosalind for U.S. government agencies and allied partners focused on pandemic preparedness. The initiative appears aimed at controlled, defense-oriented biological research support rather than general public release.",
+        "whyItMatters": "This is a notable example of frontier AI being deployed in sensitive government and public-health workflows. AI practitioners in regulated domains should pay attention to the access controls, policy constraints, and safety expectations that may shape similar deployments.",
+        "source": "Build Fast With AI / AI News Today - June 1, 2026"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Nvidia",
+        "type": "company",
+        "context": "Mentioned as a leading company in AI technology and hardware"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Compared to other AI models in terms of performance and capabilities"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Discussed as a key player in the AI industry with significant growth and developments"
+      },
+      {
+        "name": "MiniMax M3",
+        "type": "product",
+        "context": "Introduced as a new model with advanced capabilities and features"
+      },
+      {
+        "name": "Microsoft",
+        "type": "company",
+        "context": "Mentioned as a major company investing in AI technology and developing new products"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Discussed as a leading company in AI research and development, including models like ChatGPT"
+      },
+      {
+        "name": "Copilot",
+        "type": "product",
+        "context": "Mentioned as a Microsoft product that utilizes AI for various tasks and applications"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Referenced as a major player in the AI industry, including developments in AI technology and applications"
+      },
+      {
+        "name": "Dell",
+        "type": "company",
+        "context": "Mentioned as a company that has successfully invested in AI servers and technology"
+      },
+      {
+        "name": "RTX Spark Chip",
+        "type": "product",
+        "context": "Introduced as a new hardware component from Nvidia for enhanced AI performance"
+      },
+      {
+        "name": "Claude",
+        "type": "product",
+        "context": "Discussed as an AI model with potential for improvement and optimization"
+      }
+    ]
+  },
+  "savedAt": "2026-06-01T18:30:00.000Z",
+  "dateString": "2026-06-02"
+}
