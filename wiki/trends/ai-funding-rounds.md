@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-04-04)
+> **Last updated**: 2026-06-04
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[reflection]], [[thinking-machines]], [[ai-bubble-concerns]], [[merge-labs]], [[ai-ipo-wave]]
 
@@ -18,6 +18,7 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 
 ## Timeline
 
+- **2026-06-04**: [[anthropic]] confidentially files for an IPO at a **$965B valuation** with a **$47B revenue run-rate** (up from $10B a year prior) following a **$65B Series H** round — surpasses [[openai]]'s reported $852B March valuation and becomes the most valuable private AI company; Alphabet announces plans to raise **$80B** for AI infrastructure ($30B public offering + $40B at-the-market share sale), with Berkshire Hathaway backing $10B more; OpenRouter closes the previously-talked $113M Series B led by CapitalG (vs the 2026-04-03 framing of $120M in talks); documentation-AI platform **Mintlify** raises **$45M Series B** to build the "knowledge layer for the agent era"; Google Cloud Q1 revenue up 63% YoY with backlog ~doubling to $460B+; coverage frames the moment as confirming the [[ai-ipo-wave]] thesis and prompting Goldman's Solomon to warn of "greed mode" in the AI IPO market — *source: AlphaSignal "Anthropic files confidential IPO paperwork: $965B valuation, $47B run-rate"; Mindstream "Anthropic might be getting an IPO"; The AI Brief "$965B valuation after $65B Series H"; FutureTools "Anthropic's going public"; AI Breakfast; TLDR AI "Anthropic faces AI spending backlash before IPO"; OpenRouter Team "OpenRouter Raises $113M Series B"; Hello World — Mintlify $45M Series B; Prompt Guy — Mintlify $45M; Evolving AI Insights — Goldman "greed mode"*
 - **2026-04-16**: [[anthropic]] reportedly in investor talks at $800B+ valuation, approaching OpenAI territory — *source: Superhuman "Gemini gets a Mac app"*
 - **2026-04-16**: Eli Lilly agrees to pay up to $2.75B to Insilico Medicine (AI drug discovery) — *source: The Batch "Meta Pivots From Open Weights, Big Pharma Bets On AI"*
 - **2026-04-16**: Allbirds/NewBird AI announces $50M financing to pivot from sneakers to GPU rental; stock up >600% — *source: The Rundown AI; The Code*
@@ -93,8 +94,12 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 
 ## Key Facts
 
+- $965B: Anthropic confidential IPO valuation (Jun 4 2026) on $47B revenue run-rate; preceded by $65B Series H
 - $852B: OpenAI valuation on $122B close (Apr 2 2026) — largest single VC fundraise in venture history
 - $800B+: Anthropic reported valuation talks (Apr 2026)
+- $80B: Alphabet AI-infrastructure raise (Jun 4 2026) — $30B public offering + $40B ATM share sale; +$10B Berkshire private investment
+- $113M: OpenRouter Series B led by CapitalG (Jun 4 2026)
+- $45M: Mintlify Series B for the agent-era "knowledge layer" (Jun 4 2026)
 - $500B: OpenAI valuation (Oct 2025); ~$1T IPO exploration (Oct 30 2025)
 - $300B: Anthropic talks (Nov 3 2025)
 - $38B: OpenAI–AWS multi-year compute (Nov 2025)
@@ -166,3 +171,4 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - data/summaries/2026-04-02.json (The Rundown AI — $122B at $852B; TLDR AI — $122B round; Superhuman — largest private round in history; AI Breakfast — Amazon/Nvidia/SoftBank led; TAAFT — Runway $10M Startup Fund; FutureTools — Qodo $70M)
 - data/summaries/2026-04-03.json (Forward Future — OpenRouter $120M @ $1.3B / Cognichip $60M / Salesforce invests in Anthropic; TLDR AI — Cognichip $60M; World of AI — $188B Q1 framing; TLDR / The Rundown AI — SpaceX IPO $75B @ $1.75T)
 - data/summaries/2026-04-04.json (The Code — Moonshot $18B / Cursor 3 Kimi K2.5; TLDR AI — Moonshot valuation 4×; The Tech Buzz — NVIDIA $2B Marvell; Forward Future — Intel $15M SambaNova stake)
+- data/summaries/2026-06-04.json (AlphaSignal — Anthropic confidential IPO $965B / $47B run-rate; Mindstream — Anthropic IPO + Alphabet $80B + Berkshire $10B; The AI Brief — $65B Series H; FutureTools — Anthropic going public; AI Breakfast; TLDR AI — AI spending backlash; OpenRouter Team — $113M Series B by CapitalG; Hello World — Mintlify $45M Series B; Prompt Guy — Mintlify $45M; Evolving AI Insights — Goldman "greed mode")

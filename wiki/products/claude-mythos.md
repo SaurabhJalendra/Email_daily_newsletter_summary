@@ -8,8 +8,8 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-03-28
-> **Last updated**: 2026-04-15
-> **Status**: unreleased (delayed); in restricted use via [[project-glasswing]]
+> **Last updated**: 2026-06-04
+> **Status**: unreleased (delayed); in restricted use via [[project-glasswing]] (150+ orgs in 15+ countries as of June 2026)
 > **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-opus-4-6]], [[project-glasswing]]
 
 ## Summary
@@ -18,6 +18,7 @@ Claude Mythos is an unreleased [[anthropic]] model first surfaced via a leaked (
 
 ## Timeline
 
+- **2026-06-04**: Mythos Preview footprint expanded — [[anthropic]] gives 150 additional organizations across 15+ countries access via [[project-glasswing]]; coverage frames this alongside Anthropic's confidential IPO filing as evidence Mythos is now Anthropic's enterprise-cybersecurity calling card, even though the model remains formally unreleased — *source: The Rundown AI "Anthropic expands Project Glasswing"; TLDR AI "Anthropic expands Mythos to 150 additional organizations in more than 15 countries"; Evolving AI Insights; AI Breakfast*
 - **2026-04-15**: Regulators warn major banks about potential cybersecurity risks tied to Mythos Preview — institutional-concern inflection; governance pressure rising — *source: 2026-04-15 cycle*
 - **2026-04-13**: Coverage describes "Mythos Breach" with "hackers known as Project Glasswing" breaching the secret project — contradicts the 2026-04-09/11 framing of [[project-glasswing]] as an Anthropic-led *coalition*; likely newsletter-conflation of codename; treat as ambiguous until clarified — *source: 2026-04-13 cycle (TAAFT — Mythos Breach)*
 - **2026-04-11**: Claude Mythos *Preview* named as the model powering [[project-glasswing]] — used to detect and secure critical software in collaboration with major tech companies — *source: 2026-04-11 cycle*
@@ -56,3 +57,4 @@ Claude Mythos is an unreleased [[anthropic]] model first surfaced via a leaked (
 - data/summaries/2026-04-11.json (Mythos Preview powering Project Glasswing with major tech partners)
 - data/summaries/2026-04-13.json (TAAFT — Mythos Breach / Glasswing as hackers framing — ambiguous)
 - data/summaries/2026-04-15.json (Regulators warn banks on Mythos cybersecurity risk exposure)
+- data/summaries/2026-06-04.json (The Rundown AI — Anthropic expands Project Glasswing; TLDR AI — Mythos to 150 orgs in 15+ countries; Evolving AI Insights; AI Breakfast)

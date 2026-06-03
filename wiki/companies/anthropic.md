@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-15 (backfill 2026-04-06..2026-04-15)
+> **Last updated**: 2026-06-04
 > **Status**: active
 > **Related**: [[claude-opus-4-7]], [[claude-opus-4-6]], [[claude-opus-4-5]], [[claude-sonnet-4-6]], [[claude-mythos]], [[claude-design]], [[claude-code]], [[claude-code-web]], [[claude-cowork]], [[claude-for-excel]], [[claude-skills]], [[claude-haiku-4-5]], [[claude-managed-agents]], [[project-glasswing]], [[openai]], [[google]], [[amazon]], [[broadcom]], [[snowflake]], [[agent-frameworks]], [[agentic-ai-foundation]], [[ai-funding-rounds]], [[ai-ipo-wave]], [[ai-healthcare]], [[ai-hardware]], [[ai-memory]], [[ai-jobs-displacement]]
 
@@ -18,6 +18,8 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 
 ## Timeline
 
+- **2026-06-04**: Anthropic files confidentially for an IPO with the SEC at a reported $965B valuation and $47B revenue run-rate (up from $10B a year prior) — surpasses OpenAI's reported $852B March valuation; fresh $65B Series H round disclosed in the same cycle; coverage frames this as the largest pre-IPO valuation of any private AI lab, with [[microsoft]]'s MAI-Thinking-1 the same day described as matching Claude Opus 4.6 — reinforcing the cost-economics scrutiny ("AI spending backlash") preceding the listing — *source: AlphaSignal "Anthropic files confidential IPO paperwork: $965B valuation, $47B run-rate"; Mindstream; The AI Brief; FutureTools "Anthropic's going public"; AI Breakfast; TLDR AI "Anthropic faces AI spending backlash before IPO"*
+- **2026-06-04**: [[project-glasswing]] expanded — Anthropic gives 150 additional organizations across 15+ countries access to [[claude-mythos]] Preview; framed as moving Mythos from a small partner pilot to a broader (but still controlled) cybersecurity-defender footprint — *source: The Rundown AI "Anthropic expands Project Glasswing"; TLDR AI "Anthropic expands Mythos to 150 additional organizations in more than 15 countries"; Evolving AI Insights*
 - **2026-04-16**: [[claude-opus-4-7]] released across all major cloud platforms at $5/$25 per M tokens; includes xhigh effort, task budgets, 3.75 MP vision, file-based memory, desktop agent controls — *source: AlphaSignal, World of AI, TLDR, TLDR AI, Superhuman, Forward Future, AI Breakfast, The Code, TAAFT, Staying Ahead with AI, Hello World!*
 - **2026-04-15**: Annualized revenue reported to have surged past $30B in the three years since Claude launched — framed as fastest sector-transforming revenue growth in enterprise AI; regulators warn major banks about potential cybersecurity risks tied to [[claude-mythos]] Preview exposure in customer environments — *source: 2026-04-15 cycle*
 - **2026-04-14**: [[claude-managed-agents]] formally launches as a fully managed runtime for building/deploying agents; "Ultraplan" cloud-based collaborative task-planning tool launched alongside; Anthropic in development of [[claude-code]] Coordinator Mode (orchestrator delegating to parallel sub-agents) and major desktop experience overhaul; Sam Altman home Molotov attack covered in same cycle as anti-AI-sentiment backdrop — *source: 2026-04-14 cycle*
@@ -266,3 +268,4 @@ Anthropic is the San Francisco AI safety lab behind the Claude model family. Thr
 - data/summaries/2026-04-13.json (TAAFT — Mythos Breach / Project Glasswing hackers framing; Claude Code leak recirc)
 - data/summaries/2026-04-14.json (AlphaSignal / World of AI — Managed Agents + Ultraplan launches; Coordinator Mode in development)
 - data/summaries/2026-04-15.json (TAAFT — Anthropic $30B revenue milestone; TLDR — Mythos regulator warning to banks)
+- data/summaries/2026-06-04.json (AlphaSignal — Anthropic files confidential IPO paperwork $965B / $47B run-rate; Mindstream — Anthropic might be getting an IPO; The AI Brief — Anthropic most valuable private AI / $65B Series H; FutureTools — Anthropic's going public; AI Breakfast — Anthropic IPO + Mythos 150 orgs; TLDR AI — Anthropic faces AI spending backlash before IPO / Mythos 150 orgs; The Rundown AI — Anthropic expands Project Glasswing; Evolving AI Insights — Glasswing 15+ countries)

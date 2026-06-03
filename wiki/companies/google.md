@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-15 (backfill 2026-04-06..2026-04-15)
+> **Last updated**: 2026-06-04
 > **Status**: active
 > **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-live]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[translategemma]], [[medgemma]], [[project-genie]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[universal-commerce-protocol]], [[model-context-protocol]], [[prompt-injection]], [[computer-use]], [[ai-hardware]], [[ai-healthcare]]
 
@@ -18,6 +18,7 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 
 ## Timeline
 
+- **2026-06-04**: Alphabet announces plans to raise **$80B** to fund AI-infrastructure expansion — split between a $30B public offering and a $40B at-the-market share sale; Berkshire Hathaway backs the move with a $10B private investment (split Class A / Class C); Alphabet reportedly on track for $190B total 2026 spend; Google Cloud Q1 revenue up 63% YoY with backlog ~doubling to $460B+; same cycle: Google quietly buying code from Play Store developers to train AI (paid program to access codebases); Google's parent also runs a new anti-scam feature in the Phone app that detects spoofed trusted-contact numbers (AI voice-scam defense) — *source: Mindstream "Anthropic might be getting an IPO"; The Rundown AI "Microsoft paves its own AI way at Build" / Alphabet $80B + $190B; TLDR — Google quietly buying code from Play Store developers*
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency TTS, 70+ languages, multi-speaker, scene direction, Elo 1,211 on Artificial Analysis leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-15**: [[gemini-enterprise]] desktop Agent updated — framed as Google shifting toward "task execution workspaces"; Google launches new AI coding feature that lets users manage a *fleet* of coding agents simultaneously (direct parallel to [[cursor]] 3.1 and Vercel Open Agents same day); Google DeepMind engineer publishes "8 tips for better agent skills" thread — emphasis on clear, specific instructions for AI agents — *source: 2026-04-15 cycle*
 - **2026-04-14**: Google unveils PaperOrchestra — multi-agent workflow that converts raw research notes into structured LaTeX research papers; Demis Hassabis predicts AGI could arrive within five years and trigger "massive societal disruption" — *source: 2026-04-14 cycle*
@@ -258,3 +259,4 @@ Google (with Google DeepMind) is OpenAI's strongest large-model competitor, anch
 - data/summaries/2026-04-11.json (Gemini interactive simulations in chat; Google Finance global with Gemini chatbot)
 - data/summaries/2026-04-14.json (PaperOrchestra multi-agent LaTeX; Hassabis AGI-in-5-years prediction)
 - data/summaries/2026-04-15.json (Gemini Enterprise desktop Agent update; coding agent fleet feature; DeepMind 8 agent-skills tips)
+- data/summaries/2026-06-04.json (Mindstream — Alphabet plans to raise $80B / Berkshire $10B / Google Cloud Q1 revenue +63%; The Rundown AI — Alphabet $190B 2026 spend; TLDR — Google quietly buying Play Store code for AI training)

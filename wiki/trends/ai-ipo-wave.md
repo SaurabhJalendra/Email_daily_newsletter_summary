@@ -8,16 +8,17 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-30
-> **Last updated**: 2026-03-31
-> **Status**: stale
+> **Last updated**: 2026-06-04
+> **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[ai-funding-rounds]], [[xai]], [[ai-bubble-concerns]]
 
 ## Summary
 
-By early 2026 the top frontier AI labs were publicly discussed as IPO candidates at unprecedented pre-listing valuations: [[openai]] at ~$500B, [[anthropic]] at ~$350B (with subsequent reports of $800B+ talks), and xAI closing a $20B Series E at ~$230B. Coverage positioned this alongside SpaceX as part of a "historic IPO wave." The trend crystallized in January 2026 when multiple newsletters reported the two largest AI labs were simultaneously prepping public offerings, breaking the pattern of private hyper-growth that defined 2022–2025.
+By early 2026 the top frontier AI labs were publicly discussed as IPO candidates at unprecedented pre-listing valuations: [[openai]] at ~$500B, [[anthropic]] at ~$350B (with subsequent reports of $800B+ talks), and xAI closing a $20B Series E at ~$230B. Coverage positioned this alongside SpaceX as part of a "historic IPO wave." The trend crystallized in January 2026 when multiple newsletters reported the two largest AI labs were simultaneously prepping public offerings, breaking the pattern of private hyper-growth that defined 2022–2025. The first actual filing landed in early June 2026: [[anthropic]] **confidentially filed for an IPO with the SEC at a $965B valuation** on a $47B revenue run-rate, surpassing OpenAI's $852B March valuation and becoming the most valuable private AI company. Coverage immediately reframes the IPO wave from "preparation" to "filing race," with OpenAI reportedly preparing its own S-1 in parallel and Goldman's David Solomon publicly warning of "greed mode" in the AI IPO market.
 
 ## Timeline
 
+- **2026-06-04**: **[[anthropic]] confidentially files for an IPO with the SEC at $965B valuation** — $47B run-rate (up from $10B a year prior), preceded by a $65B Series H round; the largest pre-IPO valuation of any private AI lab and the first formal S-1 filing in the AI IPO wave; OpenAI reportedly preparing its own IPO filing in parallel; Goldman Sachs' David Solomon publicly warns the current AI IPO market is in "greed mode"; the filing lands the same day [[microsoft]] ships [[mai-thinking-1]] (reported parity with [[claude-opus-4-6]]) and an "AI spending backlash" narrative emerges around Anthropic's high compute costs (TLDR AI lead) — pre-IPO scrutiny on unit economics begins — *source: AlphaSignal "Anthropic files confidential IPO paperwork: $965B valuation, $47B run-rate"; Mindstream "Anthropic might be getting an IPO"; The AI Brief "$965B valuation after $65B Series H"; FutureTools "Anthropic's going public"; AI Breakfast; TLDR AI "Anthropic faces AI spending backlash before IPO"; Evolving AI Insights — Goldman "greed mode"; The Rundown AI*
 - **2026-03-31**: [[openai]] raising an additional $10B from MGX, Coatue, and Thrive — total private funding surpasses $120B at $120B+ valuation framing; SK Hynix plans confidential US IPO in late 2026 targeting $9.6B–$14.4B (first major memory-silicon AI-adjacent listing on the US market); Defense-AI startup Shield AI raises $2B at $12.7B valuation; Kleiner Perkins closes $3.5B fund ($1B early-stage + $2.5B late-stage) heavily tilted toward AI startups; Hummingbird Ventures nears $800M raise including first $600M growth fund — late-stage AI capital remains aggressive — *source: 2026-03-31 cycle (Tech Buzz — SignalPulse: OpenAI Raising; SK Hynix IPO; Shield AI; Kleiner Perkins $3.5B; Hummingbird $800M)*
 - **2026-03-28**: [[anthropic]] reportedly in talks for an October 2026 IPO that could raise $60B+; SpaceX $75B IPO planned at $1.75T valuation — two of the largest tech IPOs on record teed up in the same cycle — *source: 2026-03-28 cycle (TLDR AI — Anthropic October IPO; Forward Future — SpaceX $75B IPO)*
 - **2026-01-17**: [[anthropic]] publishes January 2026 Economic Index — new data on Claude usage across geographies and sectors; context for public-market disclosure — *source: 2026-01-17 cycle*
@@ -31,17 +32,19 @@ By early 2026 the top frontier AI labs were publicly discussed as IPO candidates
 
 ## Key Facts
 
-- Highest reported valuations (Jan 2026): OpenAI ~$500B (IPO talk), Anthropic ~$350B (rising to $800B+ by April 2026), xAI ~$230B (private)
-- "Historic IPO wave" framing joins AI labs with SpaceX
-- Private-market backstops remain aggressive: SoftBank $40B OpenAI (Jan 1 2026), $10B Anthropic round (Jan 9–10)
+- First confidential SEC filing in the wave: Anthropic at **$965B / $47B run-rate** (Jun 4 2026)
+- Highest reported valuations: Anthropic $965B (Jun 2026 IPO filing), OpenAI ~$852B (April 2026 raise), xAI ~$230B (private)
+- "Historic IPO wave" framing joins AI labs with SpaceX (which filed $1.75T S-1 in early April 2026)
+- Private-market backstops remain aggressive: SoftBank $40B OpenAI (Jan 1 2026), OpenAI $122B at $852B (Apr 2 2026)
 - First Chinese capital-markets signal: Baidu Kunlunxin HK IPO filing (Jan 6 2026)
+- Coverage tone shift: Goldman Sachs CEO David Solomon publicly warns of "greed mode" (Jun 4 2026)
 
 ## Open Questions
 
-- Timeline of first actual S-1 filing?
-- Lock-up / board-independence / for-profit structure implications?
-- Will IPO disclosures force full compute-spend and model-training-cost reveals?
-- Which lab files first — regulatory or competitive-signal race?
+- Lock-up / board-independence / for-profit structure implications for Anthropic's filing?
+- Will IPO disclosures force full compute-spend and model-training-cost reveals (TLDR AI's "spending backlash" framing)?
+- When does OpenAI file its own S-1?
+- How will Anthropic's filing affect xAI / Mistral / Perplexity timing?
 
 ## Sources
 
