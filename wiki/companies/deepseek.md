@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-21
-> **Last updated**: 2026-01-03 (backfill 2025-12-20..2026-01-03)
-> **Status**: stale
-> **Related**: [[deepseek-ocr]], [[deepseek-math-v2]], [[deepseek-v3-2]], [[alibaba]], [[long-context-scaling]]
+> **Last updated**: 2026-06-05
+> **Status**: active
+> **Related**: [[deepseek-ocr]], [[deepseek-math-v2]], [[deepseek-v3-2]], [[alibaba]], [[long-context-scaling]], [[ai-funding-rounds]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ DeepSeek is the Chinese frontier AI lab known for releasing competitive open-sou
 
 ## Timeline
 
+- **2026-06-05**: **DeepSeek V4** released — new attention mechanism that makes million-token context cheap, with reported one-tenth of the KV cache and one-quarter of the per-token compute at 1M tokens vs prior generation; same cycle, DeepSeek reportedly raising **~50 billion yuan** in its first formal funding round (about $7B), with the founder committing 20 billion yuan of his own money and the remainder from fewer than 10 other investors — first major outside capital for the lab and a sharp reversal of the "DeepSeek is purely founder-funded" framing that defined 2025 coverage; coverage frames V4 + the funding round as DeepSeek pivoting from "open-source efficiency drops" to capitalized frontier-lab posture — *source: The Tokenizer Edition #30 "DeepSeek V4, LeCun's Bet Against LLMs, Lovable's Self-Improving Agent" — V4 million-token cheap, attention mechanism, KV cache 10×; TLDR AI "DeepSeek fundraising, Meta model delays, Gemma 4 12B" — DeepSeek 50B yuan first round, 20B yuan founder commitment, fewer than 10 other investors*
 - **2026-01-03**: DeepSeek publishes new research paper proposing neural-network structure changes for breakthroughs in model cost and stability — *source: 2026-01-03 cycle*
 - **2026-01-02**: DeepSeek-R1 cited alongside Qwen3 as China's competitive Western-frontier-rival model family — *source: 2026-01-02 cycle*
 - **2025-12-04**: DeepSeek V3.2 framed as reasoning-focused open-source release performing on par with state-of-the-art — *source: 2025-12-04 cycle*
@@ -46,3 +47,4 @@ DeepSeek is the Chinese frontier AI lab known for releasing competitive open-sou
 - data/summaries/2025-11-29.json (DeepSeekMath-V2 IMO gold)
 - data/summaries/2025-12-03.json (DeepSeek-V3.2 / V3.2-Speciale)
 - data/summaries/2025-12-04.json (DeepSeek V3.2 reasoning model coverage)
+- data/summaries/2026-06-05.json (The Tokenizer Edition #30 — DeepSeek V4 million-token cheap, new attention mechanism, 10× KV cache reduction; TLDR AI — DeepSeek 50B yuan first funding round)

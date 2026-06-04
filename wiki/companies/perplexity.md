@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-03
-> **Last updated**: 2026-04-15 (backfill 2026-04-06..2026-04-12)
+> **Last updated**: 2026-06-05
 > **Status**: active
 > **Related**: [[perplexity-comet]], [[perplexity-computer]], [[perplexity-personal-computer]], [[ai-browsers]], [[opera-neon]], [[chatgpt]], [[amazon]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,7 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 
 ## Timeline
 
+- **2026-06-05**: Perplexity **Personal Computer for Windows** launches — extends the always-on local-agent surface from Mac mini ([[perplexity-personal-computer]]) to Windows, with the agent operating directly on the user's machine; framed by World of AI as Perplexity's shift "from a cloud-based search-and-answer tool to a local AI agent." Same cycle Perplexity ships **hybrid agentic inference** — a routing system that automatically splits agent tasks between a compact on-device model and frontier models in the cloud, keeping sensitive data local while offloading heavy reasoning; pitched as a privacy + token-efficiency improvement and the consumer-facing companion to Forward Future's "Perplexity debuts hybrid AI routing" framing. Coverage frames the pair as the logical Perplexity counter to the on-device-AI wave NVIDIA's [[rtx-spark]] + Google's [[gemma-4]] 12B kicked off the same week — *source: World of AI "NVIDIA runs AI on your PC, Claude hits the terminal, Perplexity ships a desktop"; The Code "Google drops Gemma 4" — Perplexity hybrid agentic inference; Forward Future "OpenAI's real plan for ChatGPT" — Perplexity hybrid AI routing; Superhuman "Two labs, two new cutting-edge image models" — Perplexity Computer local/cloud hybrid mode*
 - **2026-04-12**: [[perplexity-computer]] adds bank/credit-card/loan account integration — analyzes spending, builds custom budget trackers; also ships "notebooks" feature for organizing chats, files, and custom instructions — *source: 2026-04-12 cycle*
 - **2026-04-11**: [[perplexity-computer]] adds Plaid integration for unified financial tracking — deeper financial analysis tooling — *source: 2026-04-11 cycle*
 - **2026-04-10**: Revenue up 50% month-over-month; annual recurring revenue estimated past $450M; tax agent shipped for [[perplexity-computer]] using updated IRS materials — *source: 2026-04-10 cycle*
@@ -82,3 +83,4 @@ Perplexity is an AI-first search company. In early October 2025 it appeared in n
 - data/summaries/2026-04-10.json (Revenue 50% MoM growth / $450M ARR; tax agent ship)
 - data/summaries/2026-04-11.json (Plaid integration for Perplexity Computer)
 - data/summaries/2026-04-12.json (bank/credit/loan integrations; notebooks feature)
+- data/summaries/2026-06-05.json (World of AI — Perplexity ships a desktop [Windows Personal Computer launch]; The Code — Perplexity hybrid agentic inference; Forward Future — Perplexity hybrid AI routing; Superhuman — Perplexity Computer local/cloud hybrid mode)

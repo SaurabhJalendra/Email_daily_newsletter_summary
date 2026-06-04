@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-15 (backfill 2026-04-06..2026-04-15)
+> **Last updated**: 2026-06-05
 > **Status**: active
-> **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[google]], [[alibaba]], [[world-models]], [[world-labs]], [[ai-hardware]]
+> **Related**: [[muse-spark]], [[apple]], [[thinking-machines]], [[nvidia]], [[google]], [[alibaba]], [[world-models]], [[world-labs]], [[ai-hardware]], [[agent-frameworks]], [[ai-jobs-displacement]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 
 ## Timeline
 
+- **2026-06-05**: Four-headline Meta day. (1) **Meta Business Agent** launches — a platform letting businesses spin up AI-powered chatbots for customer support and sales across WhatsApp, Instagram, and Messenger, with Zuckerberg saying he wants the agents to "run your whole business"; first time Meta has shipped a packaged business-facing agent product across all three messaging surfaces in a single release. (2) **[[muse-spark]] release to developers delayed a THIRD time** — no release date as of June 3, citing bugs, infrastructure problems, and added buildout work despite the model being reportedly competitive with [[openai]] and [[anthropic]] offerings — sharpens the open-weights-pivot tension since Meta now lags on shipping any of its frontier-class drops. (3) **Instagram AI support tool exploited to give out user passwords** — hackers tricked Meta's customer-support AI into changing the email linked to accounts and then resetting passwords via the recovery flow; Meta says fixed; affected-account count undisclosed; first publicized agentic-AI-as-attack-vector incident at a hyperscaler. (4) **Meta lets employees pause workplace activity tracking for up to 30 minutes at a time** after >1,500 employees signed a petition against an AI-training-data-collection tool — internal backlash signal carrying through after the 2026-06-03 TAAFT "data extraction factory" framing — *source: TLDR "SpaceX prices IPO, Meta AI agents for business, Google's laptop LLM"; TLDR AI "DeepSeek fundraising, Meta model delays, Gemma 4 12B" — Meta delays AI model release, Meta Business Agent on WhatsApp/Messenger/Instagram; Anna's Daybreak News — Meta delays Muse Spark a third time, no release date as of June 3 2026; Mindstream "Meta's AI gave out user passwords" — Instagram AI support tool exploited; Forward Future — Meta allows employees to pause workplace activity tracking after >1,500-employee petition; TAAFT "May's Hottest AI Tools" — Meta backs off mouse-click tracking after worker revolts; The Rundown AI — Meta Business Agent platform; Evolving AI Insights*
 - **2026-04-15**: Meta reportedly building a photorealistic AI clone of Mark Zuckerberg — trained on his mannerisms, tone, and publicly available statements — to advise employees when the real CEO is unavailable; framed as a novel "CEO digital twin" use case — *source: 2026-04-15 cycle*
 - **2026-04-12**: Coverage recirculates [[muse-spark]] framing as "first model from Meta Superintelligence Labs, built to power a more advanced and personal AI assistant" with native multimodal reasoning — *source: 2026-04-12 cycle*
 - **2026-04-11**: [[muse-spark]] described as first model from Meta Superintelligence Labs — handles text and images, runs multiple AI sub-agents, toggles "Instant" vs "Thinking" modes for speed/reasoning trade-off; separately, Meta AI proposes "Neural Computer" shift — models *acting as* computers, training on screen recordings, reproducing desktop/terminal workflows end-to-end — *source: 2026-04-11 cycle*
@@ -142,3 +143,4 @@ Meta continues to push AI into consumer hardware (AI glasses) and foundational i
 - data/summaries/2026-04-11.json (Muse Spark "Instant/Thinking" modes; Neural Computer paradigm)
 - data/summaries/2026-04-12.json (Muse Spark recirc — Meta Superintelligence Labs framing)
 - data/summaries/2026-04-15.json (AI clone of Mark Zuckerberg trained to advise employees)
+- data/summaries/2026-06-05.json (TLDR — Meta AI agents for business [Meta Business Agent on WhatsApp/Instagram/Messenger]; TLDR AI — Meta model delays / Meta Business Agent; Anna's Daybreak News — Muse Spark third delay no release date as of Jun 3; Mindstream — Meta's AI gave out user passwords [Instagram support-tool exploit]; Forward Future — Meta employee tracking pause + >1,500-employee petition; TAAFT — Meta backs off mouse-click tracking after worker revolts; The Rundown AI — Meta Business Agent; Evolving AI Insights)

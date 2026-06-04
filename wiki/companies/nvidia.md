@@ -1,6 +1,6 @@
 ---
 name: NVIDIA
-description: NVIDIA — AI chip supplier; Cosmos physical-AI models, Ising quantum chips, Vera Rubin GPUs, xAI deal
+description: NVIDIA — AI chip supplier; RTX Spark on-device AI, Vera Rubin in production, DGX Station for Windows, Cosmos 3, Ising quantum
 type: company
 ---
 
@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-04-09 (backfill 2026-04-09)
+> **Last updated**: 2026-06-05
 > **Status**: active
-> **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[vera-rubin]], [[alpamayo]], [[nitrogen]], [[xai]], [[openai]], [[anthropic]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-healthcare]], [[ai-bubble-concerns]]
+> **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[vera-rubin]], [[alpamayo]], [[nitrogen]], [[rtx-spark]], [[xai]], [[openai]], [[anthropic]], [[microsoft]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[ai-hardware]], [[ai-healthcare]], [[ai-bubble-concerns]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 
 ## Timeline
 
+- **2026-06-05**: GTC Taipei keynote (Jensen Huang) — five major announcements: (1) [[rtx-spark]] — 1-petaflop consumer "superchip" co-developed with [[microsoft]] to "reinvent the Windows PC for personal AI," runs frontier-scale models locally on laptops/desktops, ships fall 2026 from ASUS/Dell/HP/Lenovo/Microsoft Surface/MSI, includes secure sandboxes for [[openclaw]] and Hermes agents; (2) **Vera Rubin** CPU now in **full production** — purpose-built for agentic-AI factories, framed as delivering faster task completion vs x86; (3) **NVIDIA DGX Station for Windows** — trillion-parameter AI supercomputer for the enterprise desk, lets businesses run + connect always-on frontier agents to Windows apps and workflows; (4) **NVIDIA Humanoid Robot Reference Design** for research, built on NVIDIA Isaac GR00T; (5) **[[nvidia-cosmos]] 3** shipped with an open-weights text-to-image model; separately AlphaSignal covers a new NVIDIA robot planner running **19× faster** with **38% smoother** movement (IMLE — generates path in single step instead of many, tested on a real mobile robot navigating moving people). Coverage frames the keynote as the moment "useful AI" becomes the headline frame and as NVIDIA extending its AI platform from data center down to consumer and prosumer PCs — *source: NVIDIA GTC "GTC Taipei keynote recap: Useful AI has arrived"; World of AI "NVIDIA runs AI on your PC"; InstaByte "Anthropic files for IPO"; The Rundown AI "Reve, Ideogram trade prompts for layouts"; AINews "Reve 2 and Ideogram 4: Layouts in Imagegen"; TLDR "SpaceX prices IPO"; AlphaSignal "NVIDIA Robot Planner: 19x Speed Jump + 38% Smoother Movement"*
 - **2026-04-16**: [[nvidia-cosmos]] 2.5 generally available with faster inference, simplified fine-tuning, Hugging Face Diffusers integration; [[nvidia-cosmos]] 3 pre-announced for summer 2026 — *source: NVIDIA Newsletter "From SDG to physical AI"*
 - **2026-04-16**: Launches the Ising family of quantum chips, treating AI as the control surface for quantum engineering workflows — *source: The Tech Buzz "TSMC Earnings, Nvidia Quantum Chips Pump Tech Market"*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
@@ -82,11 +83,14 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 
 ## Key Facts
 
-- Role: primary AI GPU supplier for most frontier labs
-- Physical-AI stack: [[nvidia-cosmos]] 2.5 GA, Cosmos 3 inbound summer 2026
+- Role: primary AI GPU supplier for most frontier labs; expanding from data center to PC/laptop tier via [[rtx-spark]] (Jun 2026)
+- On-device AI silicon: [[rtx-spark]] 1-petaflop consumer chip (announced Jun 2026, ships fall 2026)
+- Physical-AI stack: [[nvidia-cosmos]] 2.5 GA, [[nvidia-cosmos]] 3 shipped Jun 2026 with open-weights text-to-image
+- Robotics: NVIDIA Humanoid Robot Reference Design (Isaac GR00T) for research (Jun 2026); robot planner IMLE 19× faster (Jun 2026)
 - Quantum: Ising chip family (Apr 2026)
-- Current-gen GPU: Vera Rubin (deploying into Meta/CoreWeave capacity Apr 2026)
-- Known customers / deals: [[xai]], [[meta]] (via CoreWeave)
+- Current-gen GPU: Vera Rubin (in full production Jun 2026; deploying into Meta/CoreWeave capacity Apr 2026)
+- Desktop AI: NVIDIA DGX Station for Windows — trillion-parameter AI supercomputer for the enterprise desk (Jun 2026)
+- Known customers / deals: [[xai]], [[meta]] (via CoreWeave), [[microsoft]] (RTX Spark co-design)
 - Competitive pressure: [[amd]]↔OpenAI/Oracle, [[broadcom]]↔OpenAI custom silicon
 
 ## Open Questions
@@ -129,3 +133,4 @@ NVIDIA is the dominant supplier of AI training/inference GPUs and, through late 
 - data/summaries/2026-03-18.json (GTC 2026 keynote — Vera CPU, Dynamo 1.0, DLSS 5, Space Computing / Space-1, Disney Olaf robot)
 - data/summaries/2026-03-21.json ($1T order backlog; OpenShell + DSX Air launch)
 - data/summaries/2026-04-04.json (NVIDIA Newsletter — Gemma 4 on NVIDIA; The Tech Buzz — MLPerf Extreme Co-Design + $2B Marvell; Forward Future — CloudXR 6.0 / IGX Thor / capital-markets latency)
+- data/summaries/2026-06-05.json (NVIDIA GTC — Useful AI has arrived [Vera Rubin full production, RTX Spark, DGX Station for Windows, Humanoid Robot Reference, Cosmos 3]; World of AI — NVIDIA runs AI on your PC; InstaByte — Anthropic files for IPO; The Rundown AI — Reve, Ideogram trade prompts; AINews — Reve 2 and Ideogram 4; TLDR — SpaceX prices IPO; AlphaSignal — NVIDIA Robot Planner 19x faster 38% smoother)
