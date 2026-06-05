@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-13
-> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-04-15)
+> **Last updated**: 2026-06-04
 > **Status**: active
-> **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code-web]], [[claude-code-security]], [[claude-cowork]], [[agent-frameworks]], [[jules]], [[cursor]]
+> **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-opus-4-5]], [[claude-design]], [[claude-code-web]], [[claude-code-security]], [[claude-cowork]], [[agent-frameworks]], [[jules]], [[cursor]], [[ethan-mollick]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Claude Code is [[anthropic]]'s official command-line coding agent, built around 
 
 ## Timeline
 
+- **2026-06-04**: [[ethan-mollick]] discloses writing his upcoming book *Co-Existence and the End of Co-Intelligence* (Oct 20) with Claude Code and GPT-5.5 assistance — first high-profile non-coding (book-authoring) public reference for Claude Code in 2026; cited alongside "AI agents as readers/critics/gatekeepers" framing — *source: One Useful Thing — Co-Existence and the End of Co-Intelligence*
 - **2026-04-16**: Always-on Routines launched — reusable prompt/repo/connector bundles running on managed cloud on API / schedule / GitHub event triggers — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
 - **2026-04-16**: [[claude-design]] ships with direct hand-off into Claude Code for build stage — *source: TAAFT "Claude Just Became a Designer"; World of AI "ANTHROPIC DROPS Claude Design!"*
 - **2026-04-16**: Nate Herk demos a fully autonomous Claude Code 4.7 trading bot that researches, trades on Alpaca, manages stops, and self-reports on cron — illustrative of agentic Claude Code workflows in the community — *source: AI Automation Society*

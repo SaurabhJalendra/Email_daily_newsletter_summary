@@ -4,6 +4,20 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-06-05-morning
+**Ingested**: data/summaries/2026-06-05-morning.json (1 newsletter — One Useful Thing — "Co-Existence and the End of Co-Intelligence")
+
+**Pages updated**:
+- [[ethan-mollick]] — created; Wharton professor + One Useful Thing newsletter author; *Co-Existence* book (Oct 20 2026) announcement and pivot from "co-intelligence" → "co-existence" framing; AI-as-readers/critics/gatekeepers
+- [[claude-code]] — added Mollick's disclosure of writing his upcoming book with Claude Code + GPT-5.5 assistance (first high-profile non-coding book-authoring public reference for Claude Code in 2026); refreshed Last updated 2026-04-16 → 2026-06-04
+- [[vibe-coding]] — added Mollick June 4 timeline entry extending the vibe-coding-style agent-collaboration pattern beyond coding into book writing; refreshed Status stale → active; Last updated 2026-01-17 → 2026-06-04
+
+**Pages created**: [[ethan-mollick]]
+
+**Notable**: First post-backfill-gap ingest to land in `log.md` since 2026-04-15 — the 2026-04-16 → 2026-06-04 backlog is unchanged and remains the "Backfill Wiki" workflow's responsibility. This morning edition is a thin single-newsletter cycle (Ethan Mollick's Substack only), but it lands an editorially significant framing pivot: from *Co-Intelligence* (humans collaborating with AI as partners, 2024) to *Co-Existence* (humans navigating AI that is sometimes better than them and that itself reads/judges human work, Oct 2026). The "AI agents as readers, critics, and gatekeepers" line is potentially the first labeled framing for the post-agent-as-tool era — humans needing to "pitch" their work to AI gatekeepers parallels SEO's emergence in the 1990s. Worth watching for second-mention pickup by other commentators. Also: Mollick is the first mainstream-management voice to publicly disclose using [[claude-code]] for *book authoring* (vs coding) — extending the vibe-coding pattern into non-software creative work.
+
+---
+
 ## LINT 2026-05-31 (week 2026-W16)
 
 **Lint actions**:

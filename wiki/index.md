@@ -194,6 +194,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad *(stale)*
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
 - [[computer-use]] — models that drive GUIs directly *(stale)*
+- [[ethan-mollick]] — Wharton professor / One Useful Thing author; "co-intelligence" framer; *Co-Existence* book Oct 20 2026
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
 - [[project-glasswing]] — Anthropic-led cybersecurity coalition (AWS, Apple, Google, Microsoft, NVIDIA) using Claude Mythos Preview
@@ -210,7 +211,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-regulation]] — government / judicial / labor / safety pressure on AI labs
 - [[ai-slop]] — AI-content flood quality concerns; YouTube 20%+, Instagram Mosseri commentary *(stale)*
 - [[enterprise-ai]] — AI moving into workplace software; Company Knowledge, Excel, Agent HQ, Copilot *(stale)*
-- [[vibe-coding]] — Karpathy-framed agent-first coding movement; Lovable, Cursor, Claude Code *(stale)*
+- [[vibe-coding]] — Karpathy-framed agent-first coding movement; Lovable, Cursor, Claude Code; generalizing into writing (Mollick, Jun 2026)
 
 ## Queries
 *(empty — populated when you ask questions)*

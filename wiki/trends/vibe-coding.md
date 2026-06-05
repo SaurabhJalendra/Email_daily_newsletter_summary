@@ -8,9 +8,9 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-12-25
-> **Last updated**: 2026-01-17
-> **Status**: stale
-> **Related**: [[andrej-karpathy]], [[claude-code]], [[cursor]], [[lovable]], [[cognition]], [[agent-frameworks]], [[enterprise-ai]]
+> **Last updated**: 2026-06-04
+> **Status**: active
+> **Related**: [[andrej-karpathy]], [[ethan-mollick]], [[claude-code]], [[cursor]], [[lovable]], [[cognition]], [[agent-frameworks]], [[enterprise-ai]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ type: trend
 
 ## Timeline
 
+- **2026-06-04**: [[ethan-mollick]] publicly extends agent-assisted-creation framing beyond coding into *book writing* — uses [[claude-code]] and GPT-5.5 as authorship tools for *Co-Existence and the End of Co-Intelligence*; introduces "AI agents as readers/critics/gatekeepers" — the first cross-discipline (writing) signal that vibe-coding-style agent collaboration is generalizing beyond software — *source: One Useful Thing — Co-Existence and the End of Co-Intelligence*
 - **2026-01-17**: [[claude-code]] diff view + GitHub cross-agent memory + OpenCode GitHub Copilot integration — three layers of the vibe-coding stack fill in — *source: AlphaSignal 2026-01-17*
 - **2026-01-10**: [[claude-code]] 2.1.0 lands with skills hot reload + hooks + `/move`; Grok Build previewed — *source: 2026-01-10 cycle*
 - **2026-01-08**: Tailwind Labs reports 75% layoff, explicitly attributed to AI-driven coding tools reducing staffing needs — first high-profile labor-impact case tied to vibe-coding adoption — *source: 2026-01-08 cycle*
@@ -40,6 +41,7 @@ type: trend
 
 ## Sources
 
+- data/summaries/2026-06-05-morning.json (One Useful Thing — Co-Existence and the End of Co-Intelligence — Mollick on writing-with-Claude-Code)
 - data/summaries/2025-12-23.json (Lovable $330M raise)
 - data/summaries/2025-12-25.json (Karpathy on vibe coding future)
 - data/summaries/2026-01-02.json (vibe-coding revolution framing)
