@@ -8,9 +8,9 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2026-03-07
-> **Last updated**: 2026-04-28
+> **Last updated**: 2026-05-11
 > **Status**: active
-> **Related**: [[anthropic]], [[openai]], [[block]], [[enterprise-ai]], [[ai-regulation]]
+> **Related**: [[anthropic]], [[openai]], [[block]], [[cloudflare]], [[enterprise-ai]], [[ai-regulation]]
 
 ## Summary
 
@@ -18,6 +18,9 @@ AI jobs displacement collects hard-data points on how generative AI is reshaping
 
 ## Timeline
 
+- **2026-05-11**: **Cloudflare layoff terms detailed** — 1,100 employees (~20% of workforce); KPMG launches an **internal dashboard tracking AI use across 10,000 US advisory employees** with a 75%-of-business-days target and a leaderboard — first major professional-services firm publicly using AI-use as a managed KPI for advisory headcount; Meta expands age-detection AI tools across Instagram/Facebook — different vector (compliance AI deployed against users, not displacing workers) — *source: 2026-05-11 cycle (Cloudflare 1100 layoffs / 20% confirmed; KPMG 75% AI-use target + leaderboard)*
+- **2026-05-10**: **[[cloudflare]] lays off 1,100 employees** (~20% of workforce) explicitly citing the shift to an **"AI-first operating model"** — first publicly disclosed >1K layoff with an AI-first framing rationale (extends the Apr-19 Snap 1,000-layoff precedent into the >20%-of-workforce tier); same cycle: **Memoket AI wristband** + **Apple AirPods with cameras feeding Siri** sustain the "always-listening AI" hardware vector (relevant to long-horizon labor-displacement at the customer-service and assistance tiers) — *source: 2026-05-10 cycle (Cloudflare 1100 layoffs / 20% / AI-first operating model)*
+- **2026-05-07**: **Coinbase lays off 14% of staff** citing AI's ability to let small teams "ship what once took weeks in days" — extends the AI-attribution layoff pattern into financial services; complements the prior Snap/Meta data points with a finance-sector cross-domain reading — *source: 2026-05-07 cycle (Coinbase 14% layoff citing AI shipping speed)*
 - **2026-04-28**: **[[meta]] lays off ~8,000 employees** due to rising AI infrastructure costs — concrete absolute number bookending the 2026-04-21 "10% workforce cut" framing; sharpens the AI-capex-funded-by-labor pattern; **GSA "million hours challenge"** to automate 1M hours of internal federal work via USAi system (could expand to other federal agencies) — first major federal-level workforce-AI-automation commitment — *source: 2026-04-28 cycle (Meta ~8,000 layoffs; GSA million-hours challenge)*
 - **2026-04-22**: **Meta plans to lay off 10% of workforce** while ramping AI spending to $115-135B — explicitly framed as a labor-for-capex tradeoff; complements OpenAI senior departures pattern of "AI prioritization through staffing change" — *source: 2026-04-22 cycle*
 - **2026-04-21**: **BCG report**: AI could eliminate 25 million US jobs — workforce adaptation strategies needed; **Meta plans ~10% workforce cut** for AI infra realignment (preview-cycle to Apr 22 framing) — *source: 2026-04-21 cycle (BCG 25M US jobs report; Meta ~10% workforce cut)*
@@ -46,3 +49,6 @@ AI jobs displacement collects hard-data points on how generative AI is reshaping
 - data/summaries/2026-03-07.json (Anthropic Economic Index / AI-jobs study — The Rundown AI, The Code, Forward Future)
 - data/summaries/2026-03-13.json (The Rundown AI — Anthropic research institute on jobs/economy/law/governance)
 - data/summaries/2026-03-24.json (Snowflake technical writing + docs layoffs — AI replacement)
+- data/summaries/2026-05-07.json (Coinbase 14% layoff citing AI shipping speed)
+- data/summaries/2026-05-10.json (Cloudflare 1100 layoffs / 20% / AI-first operating model)
+- data/summaries/2026-05-11.json (Cloudflare 1100 layoffs confirmed; KPMG 75% AI-use target + leaderboard)

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-14 (backfill 2026-04-06..2026-04-14)
+> **Last updated**: 2026-05-12 (backfill carries 2026-05-07→2026-05-12 entries)
 > **Status**: active
 > **Related**: [[meta]], [[google]], [[gemini]], [[anthropic]], [[claude-code]], [[openai]], [[ai-hardware]], [[apple-m5]]
 
@@ -18,6 +18,9 @@ Apple's AI story in October 2025 is catch-up: an internal-only Siri chatbot reva
 
 ## Timeline
 
+- **2026-05-12**: **Apple-Intel preliminary agreement for Intel to manufacture Apple chips** — first publicly disclosed Apple-Intel chip-manufacturing deal, reducing Apple's reliance on TSMC; major shift in global semiconductor supply chain (Intel positioning to regain market share, Apple diversifying its supply chain in the wake of TSMC capacity tightness) — *source: 2026-05-12 cycle (Apple-Intel chip-manufacturing preliminary agreement)*
+- **2026-05-10**: **Apple testing AirPods with built-in cameras** — visual data feeding Siri to answer questions about the user's surroundings; first publicly disclosed Apple-prototyped visual-AI wearable beyond the 2026-04-14 display-free smart glasses (extends Apple's AI-wearable timeline from 2027 glasses into in-ear ambient compute by parallel pathway) — *source: 2026-05-10 cycle (Apple AirPods with built-in cameras feeding Siri)*
+- **2026-05-07**: **Apple opens to third-party AI providers powering features across software** — Google, Anthropic, and OpenAI confirmed as initial third-party AI providers; significant shift in Apple's solo-AI strategy (extends the 2025-11-03 Gemini Siri licensing precedent into a multi-vendor AI provider model — users gain flexibility, third-party AI vendors gain Siri-integrated distribution) — *source: 2026-05-07 cycle (Apple opens to third-party AI providers; Google/Anthropic/OpenAI confirmed)*
 - **2026-04-14**: Apple working on display-free smart glasses — 2027 launch target; testing multiple frame styles; focus on integrated cameras, microphones, speakers (no display); part of [[project-glasswing]]-adjacent "AI wearable as interface" trajectory — *source: 2026-04-14 cycle*
 - **2026-04-09**: Apple participates in [[project-glasswing]] cybersecurity coalition led by [[anthropic]] alongside AWS, Google, Microsoft, NVIDIA (partner disclosure) — *source: 2026-04-09 cycle*
 - **2026-04-06**: Apple rebuilding Siri as a standalone AI agent app — personal data access + systemwide voice control; reframes Siri from system-setting layer to app-surface agent — *source: 2026-04-06 cycle*

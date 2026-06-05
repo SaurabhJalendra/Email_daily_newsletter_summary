@@ -4,6 +4,234 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-05-12
+**Ingested**: data/summaries/2026-05-12.json (backfill batch 12/12 — 21 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Project Glasswing 27-year OpenBSD bug + 'evil' AI training-data attribution + Claude dream-curate memory
+- [[claude-mythos]] — Project Glasswing 27-year OpenBSD bug surfaced via Mythos-driven discovery
+- [[project-glasswing]] — thousands of zero-day vulnerabilities including 27-year-old OpenBSD bug
+- [[claude-managed-agents]] — Claude learns to dream + curate memory (auto-merge duplicates, surface insights)
+- [[openai]] — NVIDIA $30B equity investment + 30-use-case image prompting guide + ChatGPT spreadsheet sidebar
+- [[nvidia]] — $40B+ AI equity program incl $30B OpenAI investment
+- [[google]] — Gemini 3.1 Flash-Lite + DeepMind AI co-mathematician + exoplanet discovery
+- [[apple]] — Apple-Intel preliminary chip-manufacturing agreement (TSMC diversification)
+- [[meta]] — keystroke/mouse-movement tracking for AI training (continued from Apr-24)
+- [[cloudflare]] — stronger Q-results + 20% staff cut for agentic AI restructuring
+- [[ai-funding-rounds]] — NVIDIA $40B+ AI equity / $30B OpenAI
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-12 closes the backfill batch with the cybersecurity-defender pattern at its most concrete to date — Project Glasswing surfaces a **27-year-old bug in OpenBSD** through Claude Mythos Preview, the first publicly disclosed multi-decade vulnerability surfaced by an AI-driven discovery program. NVIDIA's $40B+ AI equity program with $30B explicitly committed to OpenAI vertically integrates the chip-vendor + frontier-lab equity tie at a scale that reframes the prior compute-supply relationship. Apple-Intel preliminary chip-manufacturing agreement breaks Apple's TSMC monopoly (significant semiconductor-industry signal). Cloudflare confirms its AI-first restructuring is operative business-model rather than weakness-driven cost cuts — stronger-than-expected quarterly results paired with 20% layoffs. Anthropic's 'evil-AI-portrayals' corpus attribution (fiction in training data driving emergent character behaviors) is the first explicit Anthropic-disclosed source-attribution for unwanted model character — relevant to the [[ai-copyright]] corpus-curation frontier.
+
+---
+
+## 2026-05-11
+**Ingested**: data/summaries/2026-05-11.json (backfill batch 11/12 — 13 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — SpaceX $1.5B JV finalized + 220k Colossus 1 GPUs leased
+- [[spacex]] — SpaceX-Anthropic $1.5B JV + 220k GPU lease (3rd frontier-AI surface in SpaceX umbrella)
+- [[cerebras]] — files at $26.6B valuation (2026's biggest tech IPO so far); Altman + $10B OpenAI deal backing
+- [[gpt-5-5]] — Instant becomes default for all ChatGPT users
+- [[cloudflare]] — 1,100 layoffs (~20%) confirmed for "agentic AI-first operating model"
+- [[ai-funding-rounds]] — Cerebras $26.6B IPO + NVIDIA $3.2B American manufacturing
+- [[ai-ipo-wave]] — Cerebras $26.6B IPO as 2026's biggest tech IPO so far
+- [[ai-jobs-displacement]] — Cloudflare 1100 confirmed + KPMG 75% AI-use target with leaderboard
+- [[nvidia]] — $3.2B American manufacturing commitment (optical connectivity for AI infra)
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-11 finalizes the Anthropic-SpaceX **$1.5B joint venture + 220,000 Colossus 1 GPU lease** — concrete dollar + GPU-count terms on the partnership that first surfaced 2026-05-08. SpaceX now hosts three frontier-AI surfaces in one corporate parent (xAI internal, [[cursor]] via Apr-23 partnership, Anthropic via this lease) — the broadest multi-lab compute-provider footprint from a single private company. Cerebras's $26.6B IPO filing crystallizes as 2026's biggest tech IPO so far, with explicit Sam Altman + $10B OpenAI deal backing — the first major AI-silicon vendor to list at this scale. KPMG launches an internal AI-use leaderboard targeting 75% of business days across 10,000 advisory employees — the first major professional-services firm publicly using AI-use as a managed KPI for advisory headcount (extends the agentic-restructuring pattern beyond pure tech into Big Four consulting).
+
+---
+
+## 2026-05-10
+**Ingested**: data/summaries/2026-05-10.json (backfill batch 10/12 — 15 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — $900B valuation reportedly confirmed; Claude Dream Mode; xAI orbital data centers exploration
+- [[openai]] — GPT-5 release framing; Musk-Altman trial Tesla-board-seat revelations
+- [[spacex]] — Anthropic + xAI orbital data centers via Starlink solar
+- [[cloudflare]] — 1,100 layoffs (~20%) explicitly tied to "AI-first operating model" first disclosed
+- [[apple]] — AirPods with built-in cameras feeding Siri (visual-AI in-ear ambient compute)
+- [[ai-jobs-displacement]] — Cloudflare 1100 layoffs as new high-water-mark for AI-attribution layoffs
+- [[ai-ipo-wave]] — Anthropic $900B valuation + Cloudflare AI-first counterpoint
+- [[ai-funding-rounds]] — Anthropic $900B valuation framing closure
+
+**Pages created**: [[cloudflare]] (new company page for the AI-first restructuring case study)
+
+**Notable**: 2026-05-10 lands the most-watched datapoints of the backfill batch — Anthropic at a **concrete $900B valuation** (closes the Apr-22 $800B / Apr-26 $1T-talk speculation gap), and Anthropic + xAI publicly exploring **orbital data centers powered by Starlink solar** (first publicly disclosed Anthropic-xAI collaboration of any kind, regardless of model competition — frames space-based AI compute as a long-horizon infrastructure bet shared across competing frontier labs). Cloudflare's 1,100-employee / 20% layoff with an explicit "AI-first operating model" rationale is the new high-water mark for AI-attribution layoffs in 2026 — extends the Apr-19 Snap 1,000-layoff precedent into the >20%-of-workforce tier. The Musk-Altman trial revelation that Musk offered Altman a Tesla board seat in 2017-2018 and was actively trying to poach OpenAI talent reframes the lawsuit narrative as a longer-running private dispute than previously reported.
+
+---
+
+## 2026-05-09
+**Ingested**: data/summaries/2026-05-09.json (backfill batch 9/12 — 28 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — SpaceX Colossus 1 partnership confirmed; "Dreaming" as Managed Agents feature; Natural Language Autoencoders; Claude across Microsoft 365; near-$1T valuation talks
+- [[openai]] — GPT-Realtime-2 + Translate + Whisper; Codex Chrome extension; $25B ARR surpassed; GPT-5.5 Instant law/finance/medicine focus
+- [[gpt-5-5]] — outperforms Claude Opus 4.7 in selected benchmarks (first head-to-head Opus 4.7 underperformance claim)
+- [[google]] — Fitbit Air + Google Health App AI; Project Mariner shut down + integrated into Gemini; Embedding 2 multimodal File Search
+- [[claude-managed-agents]] — Dreaming feature formally framed (review past memories, identify patterns, proactively offer support)
+- [[ai-funding-rounds]] — Anthropic near-$1T valuation talks + OpenAI $25B ARR milestone
+- [[ai-ipo-wave]] — Anthropic near-$1T valuation talks (first publicly disclosed near-trillion talks)
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-09 confirms the Anthropic-SpaceX Colossus 1 partnership and lands two adjacent capability-disclosure milestones: **"Dreaming" formally framed as a [[claude-managed-agents]] feature** (agents review past memories, identify patterns, proactively offer support) and **Natural Language Autoencoders (NLAs)** translating AI model activations into human-readable text (interpretability + safety-auditing surface; extends the Apr-04 functional-emotion-vectors interpretability line). Anthropic valuation talks reaching **near $1T** mark the first publicly disclosed near-trillion-dollar talks for any private AI lab. OpenAI's GPT-Realtime-2 + Translate + Whisper trio (advanced real-time voice agents) plus the Codex Chrome extension (parallel browser tabs in the background) extend OpenAI's harness/parallel-agent surface deep into the browser. Google's Project Mariner shutdown + integration into Gemini consolidates Google's agent surface around a single product line.
+
+---
+
+## 2026-05-08
+**Ingested**: data/summaries/2026-05-08.json (backfill batch 8/12 — 24 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — SpaceX Colossus 1 partnership (revolutionary compute capacity expansion); Claude Managed Agents "dreaming"; Opus 4.7 reframed
+- [[spacex]] — SpaceX-Anthropic Colossus 1 partnership (multi-lab compute provider)
+- [[claude-managed-agents]] — dreaming feature for self-improvement (agents learn from past interactions)
+- [[openai]] — GPT-5.5 Instant 52.5% hallucination reduction in high-stakes topics
+- [[gpt-5-5]] — Instant 52.5% hallucination reduction (concrete number)
+- [[google]] — AI agents in search results ("Expert Advice")
+- [[nvidia]] — Spectrum-X AI-native Ethernet fabric for large-scale AI training
+- [[deepseek]] — $45B valuation framing (highest publicly disclosed Chinese AI lab valuation)
+- [[ai-funding-rounds]] — DeepSeek $45B valuation framing
+- [[ai-military]] — DeepSeek $45B valuation framing as US-AI-dominance challenger
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-08 is the **Anthropic-SpaceX day** — first publicly disclosed Anthropic-SpaceX deal for Colossus 1 supercomputer access. Anthropic now spans all three major cloud + SpaceX dedicated infra ([[amazon]] $40B + [[google]] $40B + SpaceX Colossus) — the broadest hyperscaler diversification of any frontier lab, sharper than [[openai]]'s Azure-centric posture. Same cycle's **NVIDIA Spectrum-X AI-native Ethernet fabric** lands as the first publicly framed NVIDIA Ethernet-fabric product for AI training (competitive context for Anthropic's compute-diversification thesis). DeepSeek's $45B valuation framing positions it as the highest-valued Chinese AI lab — direct cost-performance counter-thesis to US frontier labs. Google's AI agents in search results ("Expert Advice") and OpenAI's GPT-5.5 Instant 52.5% hallucination-reduction in high-stakes topics round out the cycle as the moment several distinct cross-lab inflections land in a single day.
+
+---
+
+## 2026-05-07
+**Ingested**: data/summaries/2026-05-07.json (backfill batch 7/12 — 28 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — 10 ready-to-run Claude agent templates for financial services; White House oversight measures driven by Mythos
+- [[claude-mythos]] — framed as identifying vulnerabilities faster than human teams; White House AI oversight measures
+- [[openai]] — historic $100B raise at $850B valuation; GPT-5.5 Instant becomes ChatGPT default; GPT-5.4 Pro solves Erdős problem; Apple opens to third-party AI providers including OpenAI
+- [[gpt-5-5]] — Instant becomes new ChatGPT default; hallucination reduction emphasis
+- [[cerebras]] — IPO $3.5B raise prep (signal demand for AI listings)
+- [[google]] — Embedding 2 + Gemini API File Search multimodal
+- [[apple]] — third-party AI providers (Google/Anthropic/OpenAI) confirmed for Siri features
+- [[nvidia]] — NVIDIA-ServiceNow autonomous AI agents for enterprise workflows
+- [[ai-jobs-displacement]] — Coinbase 14% layoff citing AI shipping speed
+- [[ai-funding-rounds]] — OpenAI $100B / $850B raise
+- [[ai-ipo-wave]] — OpenAI $100B raise + Cerebras IPO continued
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-07 is **federal-AI-policy day** — the White House weighing new oversight measures explicitly driven by Claude Mythos lands as the first explicit White House regulatory response to the too-dangerous-to-release pattern (a tier-shift from procurement skepticism to pre-release model review). Apple opening to third-party AI providers (Google/Anthropic/OpenAI) marks a structural reversal of the solo-AI strategy first abandoned via the Nov-2025 Gemini Siri deal — now extended to a multi-vendor AI provider model. OpenAI's $100B / $850B raise reinforces the IPO trajectory at scale. GPT-5.4 Pro solving an Erdős problem provides the first concrete AI-research-discovery proof point in the Erdős canon (positions OpenAI alongside Google DeepMind's mathematical-AI track). Anthropic's 10 financial-services agent templates pre-cycle the InstaByte coverage that re-circulates the same agent shelf one month later (2026-06-05).
+
+---
+
+## 2026-05-06
+**Ingested**: data/summaries/2026-05-06.json (backfill batch 6/12 — 30 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — $1.5B Wall Street JV with Blackstone, Goldman Sachs, Hellman & Friedman; Mythos thousands of high-severity zero-days
+- [[claude-mythos]] — discovers thousands of high-severity zero-day vulnerabilities in critical software ("cybersecurity inflection")
+- [[project-glasswing]] — thousands of high-severity zero-days surface as concrete capability claim
+- [[openai]] — GPT-5.5 Frontier + GPT-5.4 + GPT-5.3 Instant released (1M-token context, native computer-use, reduced refusals)
+- [[gpt-5-5]] — Frontier release with 1M-token context + computer-use
+- [[cerebras]] — $3.5B IPO at $15B valuation (revised down from Apr $22-25B)
+- [[ai-funding-rounds]] — Anthropic-Wall Street $1.5B JV + Cerebras $3.5B at $15B + Panthalassa $140M
+- [[ai-ipo-wave]] — Cerebras $3.5B at $15B + Anthropic-Wall Street JV as pre-IPO enterprise muscle play
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-06 closes the **Anthropic $1.5B Wall Street JV** with Blackstone, Goldman Sachs, and Hellman & Friedman — Anthropic competing with [[openai]] on enterprise deployment via private-equity-backed deployment muscle, not just a sales motion. Claude Mythos formally framed as discovering **thousands of high-severity zero-day vulnerabilities in critical software** — first explicit "thousands of zero-days" capability claim attached to Mythos as the [[project-glasswing]]-backing model. OpenAI's three-model drop (GPT-5.5 Frontier + GPT-5.4 + GPT-5.3 Instant) introduces 1M-token native computer-use as the first frontier-class agentic context envelope. Panthalassa's $140M raise for **wave-powered data centers** is the first publicly disclosed wave-energy AI infra raise (frontier of the AI-energy-footprint trend alongside Meta's Apr-28 space-based-solar deal). Cerebras's $3.5B IPO at $15B valuation revises down from the Apr-20 $22-25B framing — likely reflects market conditions or new deal structure.
+
+---
+
+## 2026-05-05
+**Ingested**: data/summaries/2026-05-05.json (backfill batch 5/12 — 28 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — refuses US government federal agreement; near-close on $1.5B Wall Street JV; Mythos Preview select-companies access
+- [[claude-mythos]] — Mythos Preview shared with select companies for vulnerability testing/preparedness
+- [[claude-code-security]] — Claude Security framed as Opus 4.7-powered enterprise scanner
+- [[openai]] — Codex animated pets + config imports; US military 7-AI-company deal including OpenAI
+- [[spacex]] — US military 7-AI-company deal including SpaceX (xAI vertical in classified-AI surface)
+- [[ai-military]] — US military 7-AI-company classified-systems deal excluding Anthropic; Anthropic refuses US gov agreement
+- [[google]] — Google-US Military Gemini classified deal
+- [[nvidia]] — US military 7-AI-company deal including NVIDIA
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-05 is **federal-AI-procurement day** — US military signs agreements with **seven AI/tech companies** ([[openai]], [[google]], [[microsoft]], [[amazon]] AWS, [[nvidia]], [[spacex]], [[reflection]]) for classified systems integration. [[anthropic]] is notably *absent* from the deal and on the same day **explicitly refuses the US government federal agreement** over supply-chain-risk concerns — preserves the safeguard-stance vendor-exclusion pattern established Feb-Mar 2026 and earns explicit AI-ethicist respect in coverage. Mythos Preview's controlled-access cohort framing crystallizes — select companies gain access to a model demonstrating remarkable vulnerability-identification + exploit-generation capabilities. xAI's Grok 4.3 release (always-on reasoning, 1M context, lower cost) and Mayo Clinic's pancreatic cancer AI detection round out the cycle as the day the federal-AI procurement pattern bifurcates into two distinct camps: safeguard-strict (Anthropic) vs federal-integrated (everyone else).
+
+---
+
+## 2026-05-04
+**Ingested**: data/summaries/2026-05-04.json (backfill batch 4/12 — 11 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — reportedly targeting $900B valuation in massive funding round (preliminary framing on 2026-05-10 closure)
+- [[openai]] — GPT-5.5 framed as built to run multi-step projects without hand-holding; Oscars ban AI actors/writing; multi-agent error amplification (17×)
+- [[gpt-5-5]] — multi-step projects without hand-holding framing
+- [[google]] — 75% of new code AI-generated (up from 25% in late 2024)
+- [[ai-funding-rounds]] — Anthropic $900B funding-round target
+- [[ai-ipo-wave]] — Anthropic $900B target as preliminary closure framing
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-04 lands the **Anthropic $900B funding-round target** — first publicly disclosed concrete $900B target framing, preliminary to the 2026-05-10 closure narrative. Google's **75% of new code AI-generated** (up from 25% in late 2024) is the first concrete public number for AI-generated code share inside a hyperscaler (engineers still review everything but the threshold-crossing is significant). The Stanford multi-agent error-amplification study (17× error amplification due to lossy summarization and communication overhead) provides scientific grounding for the current single-agent vs multi-agent debate — relevant to the agent-frameworks topic page direction of travel. The Oscars banning AI actors/writing in film productions is the first major film-industry institutional pushback on AI-generated talent (parallel to [[ai-copyright]] direction of travel).
+
+---
+
+## 2026-05-03
+**Ingested**: data/summaries/2026-05-03.json (backfill batch 3/12 — 15 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Mythos withheld over potential-misuse concerns; Pentagon excludes Anthropic from new AI deals; Claude Opus 4.7 UI updates
+- [[claude-mythos]] — withheld due to potential-misuse concerns framing
+- [[openai]] — Mac app update for ChatGPT's coding agent (Codex macOS continued)
+- [[deepseek]] — V4 designed to run on Huawei Ascend chips (transition stalled)
+- [[meta]] — $25B bond sale for AI infrastructure spending
+- [[ai-funding-rounds]] — SoftBank Roze AI $100B robotics spin-off + Meta $25B bond sale + Microsoft AI infra spend
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-03 sustains the safety-stance vendor-exclusion pattern — **Pentagon explicitly excludes Anthropic from new AI deals over usage restrictions** (re-articulates the Mar-2026 supply-chain-risk framing as a hard exclusion from this round of military AI contracting). Mythos withheld over potential-misuse concerns extends the canonical "too-dangerous-to-release" framing into ethics-of-misuse territory rather than pure capability-risk territory. **SoftBank's $100B robotics company "Roze AI" spin-off** is the first publicly disclosed major SoftBank AI-robotics standalone vehicle at this scale (uncertain materialization but significant signal). DeepSeek's V4 designed to run on Huawei Ascend chips (with transition reportedly stalled) is the first concrete Chinese frontier-lab effort to fully run frontier-class models on domestic silicon — direction of travel for AI silicon decoupling.
+
+---
+
+## 2026-05-02
+**Ingested**: data/summaries/2026-05-02.json (backfill batch 2/12 — 25 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Claude Security public beta launch (powered by Opus 4.7)
+- [[claude-code-security]] — Claude Security public beta on Opus 4.7 (broadens Feb-22 announcement into fully public SKU)
+- [[openai]] — GPT-5.5 hallucination concerns + pricing/tone backlash; Codex browser control + OS dictation + auto-review
+- [[gpt-5-5]] — hallucination rate concerns + pricing/tone backlash (first negative-reception framing)
+- [[google]] — Google-Pentagon AI integration deal (extending classified deal into broader military AI)
+- [[meta]] — $145B AI infra + space-based datacenter ambitions
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-02 is **Claude Security public beta day** — Anthropic productizes its AI-powered vulnerability scanning beyond the Feb-22 [[claude-code-security]] announcement into a public SKU powered by [[claude-opus-4-7]]. GPT-5.5 hallucination-rate concerns surface (worse than Opus 4.7) alongside user backlash over doubled API pricing, lag, and patronizing tone — first negative-reception framing that sets up the 2026-05-07/08 GPT-5.5 Instant hallucination-reduction response. **Meta plans up to $145B in 2026 AI infrastructure including space-based datacenters** — sharpens the 2026-04-28 Overview Energy 1 GW space-based-solar deal into a broader space-datacenter strategy. Google's Pentagon AI integration extends the 2026-04-30 classified deal into broader Pentagon-Gemini military AI integration — Google now publicly positioned as a tier-one Pentagon AI vendor.
+
+---
+
+## 2026-05-01
+**Ingested**: data/summaries/2026-05-01.json (backfill batch 1/12 — 21 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — White House lifts 6-week ban; Adobe-Claude integration (Photoshop/Illustrator/Premiere); London 800-employee office; Oct-2026 IPO speculation at $800B+; Mythos partner roster
+- [[claude-mythos]] — available to Amazon/Apple/Google/Microsoft/NVIDIA/JPMorgan/CrowdStrike for high-severity vulnerability discovery; 93.9% SWE-bench reaffirmed
+- [[openai]] — Musk $130B trial begins in Oakland; revenue/user-target miss; CFO cost discipline; Inference Inflection framing
+- [[deepseek]] — DeepSeek V4 muted market reception
+- [[ai-funding-rounds]] — Hightouch $150M D at $2.75B agentic marketing + AWS chips $20B run rate + Google $40B Anthropic context
+- [[ai-ipo-wave]] — Anthropic Oct-2026 IPO speculation at $800B+
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-05-01 opens the backfill batch with the **White House lifting the six-week federal ban on Anthropic** — federal agencies regain access to Anthropic models including [[claude-mythos]]. Coverage frames the reversal as Anthropic having negotiated successfully via the $65B combined [[amazon]] + [[google]] investment-commitment leverage (Anthropic less federal-contract-dependent than the supply-chain-risk designation assumed). [[adobe]]-Claude integration (direct interaction with Photoshop/Illustrator/Premiere) productizes the 2026-04-30 Claude Connectors framing into a formal Adobe-tool surface. Musk's **$130B civil suit against OpenAI** opens in Oakland federal court (Musk testifies for nearly two hours; 3-week trial expected) — same cycle reveals OpenAI missed its own revenue and user targets (1B weekly users by year-end goal). The AINews "Inference Inflection" essay — Sam Altman articulating that companies must "become AI inference companies" and Brown calling inference "a strategic resource, currently undervalued" — names the underlying compute-economic shift driving Anthropic's diversification away from Microsoft Azure-style single-cloud anchoring.
+
+---
+
 ## 2026-06-05-morning
 **Ingested**: data/summaries/2026-06-05-morning.json (1 newsletter — One Useful Thing — "Co-Existence and the End of Co-Intelligence")
 

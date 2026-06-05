@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **Vendor**: [[anthropic]]
 > **First mentioned**: 2026-04-10
-> **Last updated**: 2026-04-14
+> **Last updated**: 2026-05-12
 > **Status**: launched
 > **Related**: [[anthropic]], [[claude-code]], [[claude-cowork]], [[agent-frameworks]]
 
@@ -19,6 +19,10 @@ Claude Managed Agents is [[anthropic]]'s fully-managed agent runtime, announced 
 
 ## Timeline
 
+- **2026-05-12**: **Claude learns to dream and curate its own memory** — auto-merges duplicates, replaces stale entries, surfaces insights (extends the 2026-05-08 "dreaming" feature into an active memory-curation capability for managed agents) — *source: 2026-05-12 cycle (Claude dream-curate memory)*
+- **2026-05-09**: **"Dreaming" formally framed as Claude Managed Agents feature** — agents review past memories and conversations, identify patterns, and proactively offer support; coverage frames as significant advancement in personalized + adaptive AI assistants — *source: 2026-05-09 cycle (Dreaming for AI agents)*
+- **2026-05-08**: **Claude Managed Agents gain "dreaming" feature for self-improvement** — agents learn from past interactions (first public framing of dream-mode as Anthropic-shipped agent capability, extends the 2026-03-25 Claude "auto dream" memory-consolidation work); same cycle Anthropic-SpaceX Colossus partnership provides infra capacity for Managed Agents at greater scale — *source: 2026-05-08 cycle (Claude Managed Agents dreaming for self-improvement)*
+- **2026-04-26**: **Claude Managed Agents gains built-in memory** for continuous cross-session learning — first persistent-memory feature for the runtime (sets up the 2026-05-08 dreaming feature) — *source: 2026-04-26 cycle (Claude Managed Agents built-in memory)*
 - **2026-04-14**: Formally positioned as a "fully managed runtime" with Ultraplan (collaborative task-planning cloud tool) launched alongside; framed as central to Anthropic's agent strategy — *source: 2026-04-14 cycle*
 - **2026-04-13**: Recapped in cycle coverage as a newly launched Anthropic product surface — *source: 2026-04-13 cycle*
 - **2026-04-10**: Launch announcement — composable APIs for building and deploying cloud-hosted agents at scale with no infrastructure setup required — *source: 2026-04-10 cycle*
@@ -42,3 +46,7 @@ Claude Managed Agents is [[anthropic]]'s fully-managed agent runtime, announced 
 - data/summaries/2026-04-10.json (AlphaSignal — Managed Agents launch; Superhuman — enterprise adoption)
 - data/summaries/2026-04-13.json (recap in Mythos Breach cycle coverage)
 - data/summaries/2026-04-14.json (Ultraplan companion launch; fully-managed-runtime framing)
+- data/summaries/2026-04-26.json (Built-in memory for continuous cross-session learning)
+- data/summaries/2026-05-08.json (Dreaming feature for self-improvement)
+- data/summaries/2026-05-09.json (Dreaming formally framed as Managed Agents feature)
+- data/summaries/2026-05-12.json (Claude dream-curate memory)

@@ -23,6 +23,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[canva]] — design platform; Video 2.0 and own foundation model *(stale)*
 - [[character-ai]] — companion chatbot; ban on minors effective Nov 25 2025; ships Stories interactive fiction *(stale)*
 - [[cisco]] — networking incumbent; AI agents absorbing ~80% of routine network-ops work Feb 2026 *(stale)*
+- [[cloudflare]] — CDN/edge platform; 1,100 layoffs (~20%) for "agentic AI-first operating model" May 2026
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf *(stale)*
 - [[cohere]] — Toronto enterprise LLM vendor; open-source Transcribe ASR tops HuggingFace leaderboard across 14 languages *(stale)*
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale *(stale)*

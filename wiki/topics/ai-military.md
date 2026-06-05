@@ -8,8 +8,8 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-12-25
-> **Last updated**: 2026-03-30 (backfill 2026-02-20..2026-03-30)
-> **Status**: stale
+> **Last updated**: 2026-05-08 (backfill 2026-05-02..2026-05-08)
+> **Status**: active
 > **Related**: [[anthropic]], [[xai]], [[openai]], [[ai-regulation]], [[enterprise-ai]]
 
 ## Summary
@@ -18,6 +18,11 @@ AI-military coverage tracks how the US Department of War / Department of Defense
 
 ## Timeline
 
+- **2026-05-08**: **DeepSeek considers $45B valuation** challenging US AI dominance — sector-context for the US-government AI procurement landscape (foreign-policy frame for AI procurement diversification) — *source: 2026-05-08 cycle (DeepSeek $45B valuation framing in US-AI-dominance context)*
+- **2026-05-05**: **US military signs agreements with 7 AI/tech companies** — [[openai]], [[google]], [[microsoft]], [[amazon]] AWS, [[nvidia]], [[spacex]], [[reflection]] — to integrate AI into classified systems for decision support, logistics, analysis, and other government uses; [[anthropic]] notably **absent** from the deal and on the same day **refuses US government agreement** over supply-chain-risk concerns (preserves the safeguard-stance vendor-exclusion pattern established Feb-Mar 2026) — *source: 2026-05-05 cycle (US military 7-AI-company classified deal excluding Anthropic; Anthropic refuses US gov agreement)*
+- **2026-05-02**: **Google signs Pentagon deal for AI integration** — extends the 2026-04-30 classified-deal trajectory into a broader Pentagon-Gemini military AI integration; Google now publicly positioned as a tier-one Pentagon AI vendor alongside OpenAI/Microsoft — *source: 2026-05-02 cycle (Google-Pentagon AI integration)*
+- **2026-04-30**: **Google secures classified Pentagon deal** despite 600+ employee protest letter — frontier-labs as defense contractors pattern crystallizes; brackets Anthropic's 2026-04-27 NSA + Mythos Preview disclosure — *source: 2026-04-30 cycle (Google classified Pentagon deal + 600-employee protest)*
+- **2026-04-27**: **NSA uses [[claude-mythos]] Preview** despite Pentagon labeling [[anthropic]] supply-chain risk — first publicly disclosed US-government Mythos user; intelligence-community demand overrides DoD procurement skepticism — *source: 2026-04-27 cycle (NSA + Mythos Preview tension)*
 - **2026-03-30**: Federal judge issues preliminary injunction freezing the Pentagon's "supply-chain risk" designation of [[anthropic]] — calls the label an "Orwellian notion"; Claude remains usable across federal agencies pending lawsuit resolution; separately, China deploys robot wolves with micro-missiles and a shared "collective brain" for simulated urban warfare — lethal-autonomy surface expands beyond drones — *source: 2026-03-30 cycle (TAAFT — Judge Blocks the Pentagon's Anthropic Ban; Robot Wolves in China)*
 - **2026-03-23**: Palantir's Maven AI system designated a formal Pentagon "program of record" — secures long-term funding and institutionalizes Maven as reference defense-AI stack — *source: 2026-03-23 cycle*
 - **2026-03-21**: Pentagon escalates [[anthropic]] label from "supply-chain risk" to "unacceptable risk" — citing Anthropic's refusal to let Claude be used for mass surveillance or lethal-weapon targeting decisions — *source: 2026-03-21 cycle*

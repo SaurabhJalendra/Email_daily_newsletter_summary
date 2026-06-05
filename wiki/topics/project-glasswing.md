@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2026-04-09
-> **Last updated**: 2026-06-04
+> **Last updated**: 2026-06-04 (backfill carries 2026-05-06 + 2026-05-12 entries)
 > **Status**: active
 > **Related**: [[anthropic]], [[claude-mythos]], [[amazon]], [[apple]], [[google]], [[microsoft]], [[nvidia]], [[ai-cybersecurity]]
 
@@ -20,6 +20,8 @@ Coverage in the 2026-04-13 cycle ambiguously re-frames "Project Glasswing" as ha
 
 ## Timeline
 
+- **2026-05-12**: **Project Glasswing discovers thousands of zero-day vulnerabilities including a 27-year-old bug in OpenBSD** — first publicly disclosed multi-decade-old vulnerability surfaced by Mythos-driven discovery; concrete proof-point for the "AI finds bugs humans missed for decades" framing and the cybersecurity-defender-tier positioning of Glasswing (specific instance of the prior "thousands of zero-days" capability claim) — *source: 2026-05-12 cycle (Project Glasswing 27-year OpenBSD bug; thousands of zero-day vulnerabilities)*
+- **2026-05-06**: **[[claude-mythos]] discovers thousands of high-severity zero-day vulnerabilities in critical software** — first explicit "thousands of zero-days" capability claim attached to Mythos as the Glasswing-backing model (concrete proof-point for the cybersecurity-inflection-point thesis) — *source: 2026-05-06 cycle (Mythos zero-day haul; cybersecurity inflection framing)*
 - **2026-06-04**: Glasswing expands — [[anthropic]] gives 150 additional organizations across 15+ countries access to [[claude-mythos]] Preview; framed as a meaningful step up in Mythos exposure while keeping the model behind the Glasswing governance umbrella — *source: The Rundown AI "Anthropic expands Project Glasswing"; TLDR AI "Anthropic expands Mythos to 150 additional organizations in more than 15 countries"; Evolving AI Insights — Glasswing 15+ countries; AI Breakfast*
 - **2026-04-13**: Coverage frames "Project Glasswing" as hackers who breached [[claude-mythos]] — inconsistent with the 2026-04-09/11 coalition framing; treated here as ambiguous / possible newsletter-conflation — *source: 2026-04-13 cycle (TAAFT — Mythos Breach)*
 - **2026-04-11**: Glasswing described publicly as Anthropic's security-focused initiative; uses [[claude-mythos]] Preview to secure critical software in collaboration with major tech companies — *source: 2026-04-11 cycle (AlphaSignal)*
@@ -45,3 +47,5 @@ Coverage in the 2026-04-13 cycle ambiguously re-frames "Project Glasswing" as ha
 - data/summaries/2026-04-11.json (AlphaSignal — Glasswing as security initiative using Mythos Preview)
 - data/summaries/2026-04-13.json (TAAFT — Mythos Breach / Glasswing-as-hackers framing — ambiguous)
 - data/summaries/2026-06-04.json (The Rundown AI — Anthropic expands Project Glasswing; TLDR AI — Mythos to 150 orgs in 15+ countries; Evolving AI Insights; AI Breakfast)
+- data/summaries/2026-05-06.json (Mythos thousands of high-severity zero-days; cybersecurity inflection framing)
+- data/summaries/2026-05-12.json (Project Glasswing 27-year OpenBSD bug + thousands of zero-day vulnerabilities)

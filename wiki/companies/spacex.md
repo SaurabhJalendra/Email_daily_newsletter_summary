@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-04-23
-> **Last updated**: 2026-04-25
+> **Last updated**: 2026-05-11
 > **Status**: active
-> **Related**: [[xai]], [[cursor]], [[grok-4-20]], [[ai-funding-rounds]], [[ai-hardware]], [[ai-ipo-wave]]
+> **Related**: [[xai]], [[cursor]], [[grok-4-20]], [[anthropic]], [[ai-funding-rounds]], [[ai-hardware]], [[ai-ipo-wave]]
 
 ## Summary
 
@@ -18,6 +18,10 @@ SpaceX is Elon Musk's space exploration company and, since the Feb 2026 $1.25T s
 
 ## Timeline
 
+- **2026-05-11**: **SpaceX-[[anthropic]] $1.5B joint venture formalized + 220,000 Colossus 1 GPUs leased to Anthropic** — formal terms on the 2026-05-08 partnership; SpaceX now hosts three frontier-AI surfaces in one umbrella ([[xai]] internal, [[cursor]] via Apr-23 partnership, *and* Anthropic via this lease) — first publicly disclosed multi-lab compute provider position from a single corporate parent — *source: 2026-05-11 cycle (SpaceX-Anthropic $1.5B JV + 220k GPU lease)*
+- **2026-05-10**: **[[anthropic]] + [[xai]] reportedly exploring orbital data centers** powered by sun via Starlink — SpaceX-internal AI vertical (xAI) collaborates publicly with external lab (Anthropic) on space-based AI compute — first publicly disclosed cross-company AI-collaboration involving SpaceX's xAI division — *source: 2026-05-10 cycle (Anthropic-xAI orbital data centers)*
+- **2026-05-08**: **SpaceX partners with [[anthropic]] for Colossus 1 supercomputer access** — first publicly disclosed SpaceX-Anthropic deal; revolutionizes Anthropic's compute capacity beyond Amazon/Google commitments; SpaceX's Colossus now serves multiple frontier labs (xAI internal + Anthropic external) — *source: 2026-05-08 cycle (SpaceX-Anthropic Colossus 1 partnership)*
+- **2026-05-05**: **US military signs agreements with seven AI/tech companies including SpaceX** (alongside OpenAI, Google, Microsoft, AWS, NVIDIA, Reflection) — integrates AI into classified systems; SpaceX named explicitly as a frontier-AI defense partner (positions SpaceX's xAI vertical in the federal classified-AI surface) — *source: 2026-05-05 cycle (US military 7-AI-company deal incl SpaceX)*
 - **2026-04-25**: SpaceX-xAI acquisition re-coverage continues — "SpaceX acquires [[xai]] in $1.25T mega-deal, creating a powerhouse in AI distribution and physical deployment, following record venture funding in the AI sector" (first-quarter post-close framing); paired with [[deepseek-v4]] release and [[google]] Gemini 3.1 suite in cycle coverage — *source: 2026-04-25 cycle (SpaceX-xAI $1.25T mega-deal re-coverage)*
 - **2026-04-24**: SpaceX-Cursor framing continues — coverage extends 2026-04-23 with "$60B deal aiming to provide SpaceX with a shortcut into the AI coding market"; significant investment underscoring the growing importance of AI in tech — *source: 2026-04-24 cycle (SpaceX-Cursor $60B deal extended framing)*
 - **2026-04-23**: **SpaceX partners with [[cursor]] for $60B potential acquisition** — strategic partnership aims to integrate Cursor's AI coding capabilities with SpaceX's **Colossus supercomputer**; positions SpaceX/xAI to compete directly with frontier AI labs in developing more advanced coding tools and AI agents — first publicly disclosed Cursor-scale acquisition target — *source: 2026-04-23 cycle (SpaceX-Cursor $60B partnership announcement)*
@@ -47,3 +51,7 @@ SpaceX is Elon Musk's space exploration company and, since the Feb 2026 $1.25T s
 - data/summaries/2026-04-23.json (SpaceX-Cursor $60B partnership for Colossus integration)
 - data/summaries/2026-04-24.json (SpaceX-Cursor $60B deal extended framing)
 - data/summaries/2026-04-25.json (SpaceX-xAI $1.25T mega-deal re-coverage in Beyond the Newsletters)
+- data/summaries/2026-05-05.json (US military 7-AI-company classified-systems deal including SpaceX)
+- data/summaries/2026-05-08.json (SpaceX-Anthropic Colossus 1 supercomputer partnership)
+- data/summaries/2026-05-10.json (Anthropic + xAI orbital data centers via Starlink solar)
+- data/summaries/2026-05-11.json (SpaceX-Anthropic $1.5B JV + 220k Colossus 1 GPU lease)

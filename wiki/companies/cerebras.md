@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-01-16
-> **Last updated**: 2026-04-20
+> **Last updated**: 2026-05-11
 > **Status**: active
 > **Related**: [[openai]], [[gpt-5-3-codex-spark]], [[ai-hardware]], [[ai-ipo-wave]]
 
@@ -18,6 +18,9 @@ Cerebras Systems is the wafer-scale AI inference-silicon vendor whose chips powe
 
 ## Timeline
 
+- **2026-05-11**: **Cerebras files to go public at up to $26.6B** — coverage frames as 2026's biggest tech IPO so far; explicitly cites Sam Altman backing and the $10B OpenAI deal as the IPO thesis (formalizes the 2026-04-20 CBRS filing with a concrete cap-on-valuation) — *source: 2026-05-11 cycle (Cerebras $26.6B IPO filing with Sam Altman + $10B OpenAI deal)*
+- **2026-05-07**: **Cerebras prepares for IPO, planning to raise $3.5B** — continued coverage of the IPO ramp; framed as a market test for whether investors are ready for major AI listings (signal demand for AI hardware listings); paired with Apple's third-party AI provider opening — *source: 2026-05-07 cycle (Cerebras IPO $3.5B raise; demand for AI listings)*
+- **2026-05-06**: **Cerebras plans to raise up to $3.5B in IPO at $15B valuation** — refined IPO terms vs the April $22-25B framing; aims to expand data-center + chip operations (downward revision likely reflects market conditions or new deal structure) — *source: 2026-05-06 cycle (Cerebras $3.5B IPO at $15B valuation)*
 - **2026-04-20**: **Cerebras files for IPO** under Nasdaq ticker **CBRS** at a valuation of approximately **$22-25B**; lands the first AI-inference-silicon vendor on the public-market path; coverage frames the filing alongside [[openai]]'s ChatGPT Hiro Finance / Tubi / GPT-Rosalind cycle — *source: 2026-04-20 cycle (Cerebras IPO filing under ticker CBRS; $22-25B valuation)*
 - **2026-01-27**: [[openai]] + Cerebras partnership confirmed — Cerebras chips used for Codex inference + new voice mode "Garlic" — *source: 2026-01-27 cycle (TAAFT — $70M AI Jackpot; SignalPulse)*
 - **2026-01-17**: OpenAI + Cerebras partnership for 750MW inference — confirms the Jan-16 $10B deal — *source: 2026-01-17 cycle (Cerebras partnership confirmation)*
@@ -46,3 +49,6 @@ Cerebras Systems is the wafer-scale AI inference-silicon vendor whose chips powe
 - data/summaries/2026-01-27.json (Cerebras chips for Codex inference + Garlic voice mode)
 - data/summaries/2026-02-14.json (GPT-5.3-Codex-Spark on Cerebras at 1000+ tokens/sec)
 - data/summaries/2026-04-20.json (Cerebras IPO filing under CBRS; $22-25B valuation)
+- data/summaries/2026-05-06.json (Cerebras $3.5B IPO at $15B valuation; data-center expansion)
+- data/summaries/2026-05-07.json (Cerebras prepares for $3.5B IPO; signal demand for AI listings)
+- data/summaries/2026-05-11.json (Cerebras files at $26.6B; Altman-backed; OpenAI $10B deal)
