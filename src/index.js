@@ -9,11 +9,31 @@ import { ResearchAgent } from './research/agent.js';
 import { config } from './utils/config.js';
 
 /**
+ * Resolve which edition this run produces.
+ * Priority: --edition / EDITION env, then IST hour (before 14:00 → morning).
+ */
+function resolveEdition() {
+  const argEdition = process.argv.find(a => a.startsWith('--edition='))?.split('=')[1];
+  const explicit = (argEdition || process.env.EDITION || '').trim().toLowerCase();
+  if (explicit === 'morning' || explicit === 'evening') return explicit;
+
+  const istHour = Number(
+    new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata', hour: '2-digit', hour12: false })
+  );
+  return istHour < 14 ? 'morning' : 'evening';
+}
+
+/**
  * Main newsletter summarization pipeline
  */
 async function runSummarization() {
+  // Captured before fetch so it becomes the next run's watermark with no gap.
+  const runStartTime = new Date();
+  const edition = resolveEdition();
+
   console.log('\n🚀 Starting Newsletter Summarization Pipeline...');
-  console.log(`⏰ Run Time: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}\n`);
+  console.log(`📮 Edition: ${edition.toUpperCase()}`);
+  console.log(`⏰ Run Time: ${runStartTime.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}\n`);
 
   const storage = new SummaryStorage();
   const fetcher = new EmailFetcher();
@@ -21,18 +41,18 @@ async function runSummarization() {
   const notifier = new EmailNotifier();
 
   try {
-    // Step 1: Get last summary date
-    console.log('📅 Step 1: Checking last summary date...');
-    const lastSummaryDate = await storage.getLastSummaryDate();
-    if (lastSummaryDate) {
-      console.log(`   Last summary: ${lastSummaryDate.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`);
+    // Step 1: Determine fetch watermark
+    console.log('📅 Step 1: Checking fetch watermark...');
+    const watermark = await storage.getWatermark();
+    if (watermark) {
+      console.log(`   Last run watermark: ${watermark.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`);
     } else {
-      console.log('   No previous summary found, fetching last 24 hours');
+      console.log('   No watermark found, fetching last 12 hours');
     }
 
     // Step 2: Fetch newsletters
     console.log('\n📧 Step 2: Fetching newsletters from Gmail...');
-    const emails = await fetcher.getNewslettersSinceLastSummary(lastSummaryDate);
+    const emails = await fetcher.getNewslettersSinceLastSummary(watermark);
     console.log(`   Found ${emails.length} newsletters`);
 
     if (emails.length === 0) {
@@ -70,7 +90,8 @@ async function runSummarization() {
 
     // Step 5: Save summary to storage
     console.log('\n💾 Step 5: Saving summary to storage...');
-    const filepath = await storage.saveSummary(summaryData);
+    summaryData.edition = edition;
+    const filepath = await storage.saveSummary(summaryData, { edition, runStartTime });
     console.log(`   ✓ Saved to: ${filepath}`);
 
     // Step 6: Send email notification
@@ -80,6 +101,7 @@ async function runSummarization() {
 
     console.log('\n✅ Newsletter summarization completed successfully!\n');
     console.log(`📊 Summary Statistics:`);
+    console.log(`   - Edition: ${edition}`);
     console.log(`   - Total newsletters: ${summaryData.totalNewsletters}`);
     console.log(`   - Date: ${new Date(summaryData.date).toLocaleDateString('en-IN', { timeZone: 'Asia/Kolkata' })}`);
     console.log(`   - Saved to: ${filepath}\n`);

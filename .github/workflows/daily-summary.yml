@@ -1,12 +1,23 @@
 name: Daily Newsletter Summary
 
 on:
-  # Run at 12:00 AM IST (6:30 PM UTC previous day)
+  # Two editions per day (IST). 08:00 IST = 02:30 UTC, 20:00 IST = 14:30 UTC.
   schedule:
-    - cron: '30 18 * * *'
+    - cron: '30 2 * * *'    # Morning edition — 08:00 IST
+    - cron: '30 14 * * *'   # Evening edition — 20:00 IST
 
-  # Allow manual trigger
+  # Allow manual trigger; edition auto-derived from IST hour unless overridden.
   workflow_dispatch:
+    inputs:
+      edition:
+        description: 'Edition to run (leave blank to auto-derive from IST hour)'
+        required: false
+        type: choice
+        options:
+          - ''
+          - morning
+          - evening
+        default: ''
 
 permissions:
   contents: write
@@ -38,8 +49,23 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Resolve edition
+        id: edition
+        run: |
+          ED="${{ github.event.inputs.edition }}"
+          if [ -z "$ED" ]; then
+            H=$(TZ=Asia/Kolkata date +%H)
+            if [ "$H" -lt 14 ]; then ED=morning; else ED=evening; fi
+          fi
+          IST_DATE=$(TZ=Asia/Kolkata date +%F)
+          echo "edition=$ED" >> "$GITHUB_OUTPUT"
+          echo "ist_date=$IST_DATE" >> "$GITHUB_OUTPUT"
+          echo "summary_file=data/summaries/${IST_DATE}-${ED}.json" >> "$GITHUB_OUTPUT"
+          echo "Resolved edition: $ED  (IST date $IST_DATE)"
+
       - name: Run newsletter summarization
         env:
+          EDITION: ${{ steps.edition.outputs.edition }}
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
           NEWSLETTER_SENDERS: ${{ secrets.NEWSLETTER_SENDERS }}
@@ -61,7 +87,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new summary to commit"
           else
-            git commit -m "Add newsletter summary for $(date -u +%Y-%m-%d)"
+            git commit -m "Add ${{ steps.edition.outputs.edition }} summary for ${{ steps.edition.outputs.ist_date }}"
             git push
           fi
 
@@ -79,11 +105,11 @@ jobs:
 
             Step 1: Read `wiki/WIKI.md` completely. This is the schema — follow it exactly.
 
-            Step 2: Identify the single NEWEST summary file in `data/summaries/` — the one with the latest `YYYY-MM-DD` date. Ignore `data/summaries/index.json`. This daily ingest processes ONLY that one file (today's summary).
+            Step 2: This run produced exactly one summary file: `${{ steps.edition.outputs.summary_file }}` (the ${{ steps.edition.outputs.edition }} edition). Process ONLY that file. If it does not exist (no newsletters arrived this window), make NO changes and stop.
 
-            Step 3: Read `wiki/log.md`. If it already contains a `## <that-date>` entry, today's summary is already ingested — make NO changes and stop. Otherwise proceed. IMPORTANT: do NOT attempt to back-fill older un-ingested dates. A large historical gap in log.md is expected and is cleared separately by the manually-dispatched "Backfill Wiki" workflow. Ingesting more than one day here will overrun the turn budget and is forbidden.
+            Step 3: Read `wiki/log.md`. If it already contains an entry for this exact file, it's already ingested — make NO changes and stop. Otherwise proceed. IMPORTANT: do NOT attempt to back-fill older un-ingested dates. A large historical gap in log.md is expected and is cleared separately by the manually-dispatched "Backfill Wiki" workflow. Ingesting more than this one file will overrun the turn budget and is forbidden.
 
-            Step 4: For today's summary file, perform the INGEST operation as defined in WIKI.md:
+            Step 4: For this edition's summary file, perform the INGEST operation as defined in WIKI.md:
             - Identify entities mentioned: companies, products, topics, trends
             - For each entity: update the relevant page in wiki/companies/, wiki/products/, wiki/topics/, or wiki/trends/ (create new pages if needed, using kebab-case filenames)
             - Follow the exact page template in WIKI.md (Summary, Timeline, Key Facts, Open Questions, Sources)

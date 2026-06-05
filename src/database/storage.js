@@ -24,27 +24,46 @@ export class SummaryStorage {
   }
 
   /**
-   * Save daily summary to JSON file
+   * Save a summary to a JSON file.
+   *
+   * @param {object} summaryData  The pipeline output. May carry an `edition`.
+   * @param {object} [opts]
+   * @param {('morning'|'evening')} [opts.edition]  Edition slot. When present the
+   *        file is keyed `YYYY-MM-DD-<edition>.json`; otherwise the legacy
+   *        `YYYY-MM-DD.json` (used by historical-import).
+   * @param {Date} [opts.runStartTime]  Captured before fetch; becomes the new
+   *        fetch watermark so the next run picks up exactly where this one stopped.
    */
-  async saveSummary(summaryData) {
+  async saveSummary(summaryData, opts = {}) {
+    const edition = opts.edition || summaryData.edition || null;
+
     // Use the date from summaryData if provided, otherwise use current date
     const date = summaryData.date ? new Date(summaryData.date) : new Date();
     const dateString = this.formatDate(date);
-    const filename = `${dateString}.json`;
+    const filename = edition ? `${dateString}-${edition}.json` : `${dateString}.json`;
     const filepath = path.join(DATA_DIR, filename);
+
+    // savedAt records the actual run time (not IST midnight `date`), so the
+    // dashboard can order editions within a day (evening after morning).
+    const savedAt = (opts.runStartTime instanceof Date ? opts.runStartTime : new Date()).toISOString();
 
     const data = {
       ...summaryData,
-      savedAt: date.toISOString(),
-      dateString: dateString
+      ...(edition ? { edition } : {}),
+      savedAt,
+      dateString
     };
 
     try {
       await fs.writeFile(filepath, JSON.stringify(data, null, 2), 'utf-8');
       console.log(`✓ Summary saved: ${filename}`);
 
-      // Also update the index file for quick access
-      await this.updateIndex(dateString, summaryData.totalNewsletters);
+      // Update the index, keyed by date+edition, and advance the fetch watermark.
+      const indexKey = edition ? `${dateString}-${edition}` : dateString;
+      await this.updateIndex(indexKey, summaryData.totalNewsletters, {
+        edition,
+        lastRunAt: opts.runStartTime instanceof Date ? opts.runStartTime.toISOString() : null
+      });
 
       return filepath;
     } catch (error) {
@@ -72,29 +91,54 @@ export class SummaryStorage {
   }
 
   /**
-   * Get last summary date for determining what emails to fetch
+   * Precise fetch watermark — the timestamp up to which mail has been summarized.
+   *
+   * Persisted in index.json under `__lastRunAt` (set by saveSummary). This is the
+   * only reliable way to separate two same-day editions: IMAP SINCE is date-only,
+   * so the caller fetches SINCE the watermark's date and then post-filters on
+   * `email.date > watermark`.
+   *
+   * Falls back to the newest file's date (legacy single-edition data) if no
+   * `__lastRunAt` is recorded yet, and null if there's nothing at all.
    */
-  async getLastSummaryDate() {
+  async getWatermark() {
+    const indexPath = path.join(DATA_DIR, 'index.json');
+    try {
+      const content = await fs.readFile(indexPath, 'utf-8');
+      const index = JSON.parse(content);
+      if (index.__lastRunAt) {
+        return new Date(index.__lastRunAt);
+      }
+    } catch (error) {
+      // No index yet — fall through to filename-based fallback.
+    }
+
+    // Fallback for repos predating the watermark: end of the newest file's day.
     try {
       const files = await fs.readdir(DATA_DIR);
-      const jsonFiles = files.filter(f => f.endsWith('.json') && f !== 'index.json');
+      const jsonFiles = files.filter(f => this.isSummaryFile(f));
+      if (jsonFiles.length === 0) return null;
 
-      if (jsonFiles.length === 0) {
-        return null;
-      }
-
-      // Sort and get most recent
-      jsonFiles.sort().reverse();
-      const lastFile = jsonFiles[0];
-      const dateString = lastFile.replace('.json', '');
-
-      // Return end of that day (so we get newsletters after the last summary)
+      const dates = jsonFiles
+        .map(f => f.replace('.json', '').replace(/-(morning|evening)$/, ''))
+        .sort();
+      const dateString = dates[dates.length - 1];
       const [year, month, day] = dateString.split('-').map(Number);
       return new Date(year, month - 1, day, 23, 59, 59);
     } catch (error) {
-      console.error('Error getting last summary date:', error);
+      console.error('Error computing watermark:', error);
       return null;
     }
+  }
+
+  /** Back-compat alias — older callers may still ask for the last summary date. */
+  async getLastSummaryDate() {
+    return this.getWatermark();
+  }
+
+  /** True for an actual summary file (not the index). */
+  isSummaryFile(f) {
+    return f.endsWith('.json') && f !== 'index.json';
   }
 
   /**
@@ -103,7 +147,7 @@ export class SummaryStorage {
   async getAllSummaries() {
     try {
       const files = await fs.readdir(DATA_DIR);
-      const jsonFiles = files.filter(f => f.endsWith('.json') && f !== 'index.json');
+      const jsonFiles = files.filter(f => this.isSummaryFile(f));
 
       const summaries = await Promise.all(
         jsonFiles.map(async (file) => {
@@ -124,7 +168,7 @@ export class SummaryStorage {
   /**
    * Update index file for quick lookups
    */
-  async updateIndex(dateString, count) {
+  async updateIndex(indexKey, count, opts = {}) {
     const indexPath = path.join(DATA_DIR, 'index.json');
 
     try {
@@ -136,10 +180,16 @@ export class SummaryStorage {
         // Index doesn't exist yet
       }
 
-      index[dateString] = {
+      index[indexKey] = {
         count: count,
+        ...(opts.edition ? { edition: opts.edition } : {}),
         updatedAt: new Date().toISOString()
       };
+
+      // Advance the fetch watermark (reserved key, ignored by date lookups).
+      if (opts.lastRunAt) {
+        index.__lastRunAt = opts.lastRunAt;
+      }
 
       await fs.writeFile(indexPath, JSON.stringify(index, null, 2), 'utf-8');
     } catch (error) {

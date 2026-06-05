@@ -6,7 +6,7 @@ An automated system that fetches your newsletters daily, generates comprehensive
 
 - **Automated Email Fetching**: Connects to Gmail via IMAP to fetch newsletters
 - **AI-Powered Summarization**: Uses Google Gemini to create comprehensive summaries without losing any information
-- **Daily Scheduling**: Runs automatically at 12 midnight IST via GitHub Actions
+- **Twice-Daily Scheduling**: Runs automatically at 8 AM & 8 PM IST via GitHub Actions (Morning + Evening editions)
 - **Email Notifications**: Get a beautifully formatted email with your daily digest
 - **Web Dashboard**: Browse all your summaries by date with an interactive calendar
 - **Historical Archive**: Access any previous day's summary easily
@@ -16,7 +16,7 @@ An automated system that fetches your newsletters daily, generates comprehensive
 
 ```
 ┌─────────────────┐
-│  GitHub Actions │ ← Runs at 12 midnight IST
+│  GitHub Actions │ ← Runs at 8 AM & 8 PM IST
 └────────┬────────┘
          │
          ▼
@@ -126,15 +126,21 @@ Your dashboard will be live at: **https://newsletter.saurabhjalendra.com**
 
 ## 📅 How It Works
 
-### Daily Workflow (12 Midnight IST)
+### Workflow (Twice Daily — 8 AM & 8 PM IST)
 
-1. **GitHub Actions triggers** at 6:30 PM UTC (12:00 AM IST)
-2. **Email Fetcher** connects to Gmail and fetches newsletters since last summary
+The pipeline runs as two editions per day:
+- **Morning** — 08:00 IST (02:30 UTC) — covers everything since the previous evening run
+- **Evening** — 20:00 IST (14:30 UTC) — covers everything since the morning run
+
+Each run:
+
+1. **GitHub Actions triggers** (02:30 UTC morning / 14:30 UTC evening); the edition is auto-derived from the IST hour
+2. **Email Fetcher** connects to Gmail and fetches newsletters since the last run's **timestamp watermark** (IMAP `SINCE` is date-only, so results are post-filtered on each email's received time to split the two windows)
 3. **Parser** extracts clean content from HTML newsletters
-4. **Gemini AI** generates:
+4. **AI summarizer** (OpenRouter) generates:
    - Individual summaries for each newsletter (comprehensive, no info loss)
-   - Overall daily digest categorized by topic
-5. **Storage** saves summary as JSON file (`data/summaries/YYYY-MM-DD.json`)
+   - Overall digest categorized by topic
+5. **Storage** saves the edition as a JSON file (`data/summaries/YYYY-MM-DD-<morning|evening>.json`) and advances the watermark
 6. **Email Notifier** sends formatted email with summary
 7. **Git** commits new summary data to repository
 8. **Vercel** automatically rebuilds dashboard with new data
@@ -183,7 +189,7 @@ Email_daily_newsletter_summary/
 │   │   └── globals.css         # Tailwind styles
 │   └── package.json
 ├── data/
-│   └── summaries/              # Generated summaries (YYYY-MM-DD.json)
+│   └── summaries/              # Generated summaries (YYYY-MM-DD-<edition>.json)
 ├── .github/
 │   └── workflows/
 │       └── daily-summary.yml   # GitHub Actions workflow
@@ -202,14 +208,13 @@ sender1@example.com,sender2@example.com,@substack.com
 
 ### Changing Schedule Time
 
-Edit `.github/workflows/daily-summary.yml`:
+Edit the two cron entries in `.github/workflows/daily-summary.yml` (times are UTC; IST = UTC + 5:30). The edition is derived from the IST hour (before 14:00 → morning, else evening), so keep one cron in each half of the IST day:
 ```yaml
-# For 10 PM IST (4:30 PM UTC)
-cron: '30 16 * * *'
-
-# For 12 midnight IST (6:30 PM UTC)
-cron: '30 18 * * *'
+schedule:
+  - cron: '30 2 * * *'    # Morning edition — 08:00 IST
+  - cron: '30 14 * * *'   # Evening edition — 20:00 IST
 ```
+You can also trigger a specific edition manually from the **Actions** tab via the `edition` input.
 
 ### Customizing Summary Style
 

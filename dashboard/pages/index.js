@@ -1,34 +1,43 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Head from 'next/head';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { format, parseISO } from 'date-fns';
 import { marked } from 'marked';
 
+// Chronological order within a day: morning, then evening, then legacy.
+const EDITION_ORDER = { morning: 0, evening: 1 };
+const editionRank = (s) => EDITION_ORDER[s.edition] ?? 2;
+
 export default function Home({ summaries }) {
   const [selectedDate, setSelectedDate] = useState(null);
-  const [selectedSummary, setSelectedSummary] = useState(null);
-  const [availableDates, setAvailableDates] = useState([]);
+
+  // Group summaries by calendar day; a day may hold morning + evening editions.
+  const byDate = useMemo(() => {
+    const map = {};
+    for (const s of summaries || []) {
+      (map[s.dateString] ||= []).push(s);
+    }
+    for (const day of Object.values(map)) {
+      day.sort((a, b) => editionRank(a) - editionRank(b));
+    }
+    return map;
+  }, [summaries]);
+
+  const availableDates = useMemo(() => Object.keys(byDate), [byDate]);
+  const selectedEditions = selectedDate ? (byDate[selectedDate] || []) : [];
 
   useEffect(() => {
     if (summaries && summaries.length > 0) {
-      const dates = summaries.map(s => s.dateString);
-      setAvailableDates(dates);
-
-      // Select most recent by default
-      const latest = summaries[0];
-      setSelectedDate(latest.dateString);
-      setSelectedSummary(latest);
+      // summaries arrive newest-first → first item's date is the latest day.
+      setSelectedDate(summaries[0].dateString);
     }
   }, [summaries]);
 
   const handleDateChange = (date) => {
     const dateStr = format(date, 'yyyy-MM-dd');
-    const summary = summaries.find(s => s.dateString === dateStr);
-
-    if (summary) {
+    if (byDate[dateStr]) {
       setSelectedDate(dateStr);
-      setSelectedSummary(summary);
     }
   };
 
@@ -66,10 +75,10 @@ export default function Home({ summaries }) {
               </div>
               <div className="text-right">
                 <p className="text-sm font-medium text-gray-900">
-                  {summaries?.length || 0} Days Archived
+                  {availableDates.length} Days Archived
                 </p>
                 <p className="text-xs text-gray-500">
-                  Updated daily at midnight IST
+                  Updated twice daily — 8 AM & 8 PM IST
                 </p>
               </div>
             </div>
@@ -102,8 +111,12 @@ export default function Home({ summaries }) {
 
             {/* Summary Display */}
             <div className="lg:col-span-2">
-              {selectedSummary ? (
-                <SummaryView summary={selectedSummary} />
+              {selectedEditions.length > 0 ? (
+                <div className="space-y-8">
+                  {selectedEditions.map((summary, idx) => (
+                    <SummaryView key={summary.edition || idx} summary={summary} />
+                  ))}
+                </div>
               ) : (
                 <div className="bg-white rounded-lg shadow-md p-12 text-center">
                   <div className="text-6xl mb-4">📭</div>
@@ -144,9 +157,15 @@ export default function Home({ summaries }) {
   );
 }
 
+const EDITION_BADGE = {
+  morning: { label: '🌅 Morning', cls: 'bg-amber-100 text-amber-800' },
+  evening: { label: '🌆 Evening', cls: 'bg-indigo-100 text-indigo-800' }
+};
+
 function SummaryView({ summary }) {
   const date = new Date(summary.date);
   const formattedDate = format(date, 'EEEE, MMMM d, yyyy');
+  const badge = EDITION_BADGE[summary.edition];
 
   return (
     <div className="space-y-6">
@@ -154,7 +173,14 @@ function SummaryView({ summary }) {
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg shadow-lg p-8 text-white">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-2xl font-bold mb-2">{formattedDate}</h2>
+            <div className="flex items-center gap-3 mb-2">
+              <h2 className="text-2xl font-bold">{formattedDate}</h2>
+              {badge && (
+                <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${badge.cls}`}>
+                  {badge.label}
+                </span>
+              )}
+            </div>
             <p className="text-blue-100 text-lg">
               {summary.totalNewsletters} Newsletter{summary.totalNewsletters !== 1 ? 's' : ''} Summarized
             </p>
@@ -250,8 +276,11 @@ export async function getStaticProps() {
       })
     );
 
-    // Sort by date descending
-    summaries.sort((a, b) => new Date(b.date) - new Date(a.date));
+    // Sort newest-first. Use savedAt (actual run time) so two same-day editions
+    // order correctly (evening after morning); fall back to date for legacy files.
+    summaries.sort((a, b) =>
+      new Date(b.savedAt || b.date) - new Date(a.savedAt || a.date)
+    );
 
     return {
       props: {

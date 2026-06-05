@@ -331,15 +331,22 @@ export class EmailNotifier {
    * page numbers, and serif typography.
    */
   async sendSummaryNotification(summaryData) {
-    const { summary, totalNewsletters, newsletters, date, tldr, researchFindings } = summaryData;
+    const { summary, totalNewsletters, newsletters, date, tldr, researchFindings, edition } = summaryData;
 
-    const dateString = new Date(date).toLocaleDateString('en-IN', {
+    const calendarDate = new Date(date).toLocaleDateString('en-IN', {
       timeZone: 'Asia/Kolkata',
       weekday: 'long',
       year: 'numeric',
       month: 'long',
       day: 'numeric'
     });
+
+    // Edition label flows into the header/cover/text via dateString, and into the
+    // subject + PDF filename explicitly. Absent on legacy single-edition runs.
+    const editionLabel = edition === 'morning' ? 'Morning'
+      : edition === 'evening' ? 'Evening'
+      : '';
+    const dateString = editionLabel ? `${editionLabel} · ${calendarDate}` : calendarDate;
 
     const dateParam = new Date(date).toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
 
@@ -372,16 +379,17 @@ export class EmailNotifier {
     const attachments = [];
     if (pdfBuffer) {
       attachments.push({
-        filename: `digest-${dateParam}.pdf`,
+        filename: edition ? `digest-${dateParam}-${edition}.pdf` : `digest-${dateParam}.pdf`,
         content: pdfBuffer,
         contentType: 'application/pdf'
       });
     }
 
+    const subjectDate = editionLabel ? `${editionLabel} - ${calendarDate}` : calendarDate;
     const mailOptions = {
       from: `Newsletter Digest <${config.email.address}>`,
       to: config.notification.recipientEmail,
-      subject: `📰 Your AI Newsletter Digest - ${dateString}`,
+      subject: `📰 Your AI Newsletter Digest - ${subjectDate}`,
       text: textContent,
       html: bodyHtml,
       attachments

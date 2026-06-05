@@ -114,16 +114,33 @@ export class EmailFetcher {
   }
 
   /**
-   * Get newsletters from last summary time until now
+   * Get newsletters received after the watermark.
+   *
+   * IMAP SINCE is date-granular only, so it cannot separate a morning run from
+   * an evening run on the same day. We therefore fetch SINCE the watermark's
+   * (coarse) date and then post-filter precisely on each email's received time.
+   * That post-filter is what actually splits the two daily windows.
    */
-  async getNewslettersSinceLastSummary(lastSummaryDate) {
+  async getNewslettersSinceLastSummary(watermark) {
     try {
       await this.connect();
 
-      // If no last summary date, get last 24 hours
-      const sinceDate = lastSummaryDate || new Date(Date.now() - 24 * 60 * 60 * 1000);
+      // No watermark yet (first run ever): look back 12 hours (one window).
+      const cutoff = watermark || new Date(Date.now() - 12 * 60 * 60 * 1000);
 
-      const newsletters = await this.fetchNewsletters(sinceDate);
+      // IMAP SINCE ignores the time component; nudge back one day so a watermark
+      // late in the day can't make SINCE skip same-day mail before post-filter.
+      const sinceDate = new Date(cutoff.getTime() - 24 * 60 * 60 * 1000);
+
+      const fetched = await this.fetchNewsletters(sinceDate);
+
+      // Precise window filter — keep only mail strictly after the watermark.
+      const newsletters = fetched.filter(e => {
+        const d = e.date ? new Date(e.date) : null;
+        return d && d > cutoff;
+      });
+
+      console.log(`✓ ${newsletters.length}/${fetched.length} newsletters are after watermark ${cutoff.toISOString()}`);
 
       this.disconnect();
 
