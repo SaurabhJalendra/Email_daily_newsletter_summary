@@ -8,8 +8,8 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-10
-> **Last updated**: 2026-03-29
-> **Status**: stale
+> **Last updated**: 2026-05-23
+> **Status**: active
 > **Related**: [[ai-hardware]], [[ai-regulation]]
 
 ## Summary
@@ -18,6 +18,12 @@ Figure is a humanoid robot company. In early October 2025 it unveiled Figure 03 
 
 ## Timeline
 
+- **2026-05-23**: **Figure F.03 completes 200-hour run sorting 249,560 packages** with **zero failures** on continuous livestream — first publicly framed multi-day-endurance benchmark for humanoid robots; CEO cites keeping a single session live past 8 hours as the hardest engineering hurdle; rewrites the benchmark for humanoid robots from short demo clips to multi-day endurance — *source: 2026-05-23 cycle (TAAFT — This AI Takes Your Phone Away; Evolving AI Insights — 200-Hour Bet; Superhuman — four-armed robot for space; AINews — New AI Infra unicorns)*
+- **2026-05-20**: Figure AI's Helix-02 humanoid robots have been **livestreaming package sorting since May 13** — sustained 8-hour shifts; viral coverage tracks the 24/7 milestone — *source: 2026-05-20 cycle (TAAFT — AI Took Over Radio; Forward Future — Musk lost in under 2 hours)*
+- **2026-05-16**: Figure Helix-02 robots sustain **full factory-style 8-hour shifts without intervention** for the first time — concrete production-grade autonomy data point; reportedly matches human-parity throughput on small package sorting — *source: 2026-05-16 cycle (TLDR — Apple vs OpenAI + Figure Helix-02; Superhuman — Unitree UniStore + Figure)*
+- **2026-05-15**: Figure's autonomous humanoid sorting demo (24/7 livestream) goes viral; AI agent livestream becomes industry benchmark for embodied AI — *source: 2026-05-15 cycle (AINews — Everything is Conductor; AlphaSignal — RuView WiFi)*
+- **2026-05-14**: Figure releases video showing **two humanoid robots performing household tasks without human intervention** — organizing rooms, hanging clothes, making beds — *source: 2026-05-14 cycle (TLDR — Google video AI leaks)*
+- **2026-05-13**: Figure Helix-02 robots sorting packages on conveyor belt for 8 hours straight — first public 8-hour continuous operation demo — *source: 2026-05-13 cycle (TLDR — Google video AI leaks + Figure)*
 - **2026-03-29**: Figure 03 becomes first humanoid robot to walk the White House at "Fostering the Future Together" global summit — demonstrates 11-language greetings; positioned as milestone for humanoid-in-government/education rollout — *source: 2026-03-29 cycle (Superhuman — China straps OpenClaw to robots)*
 - **2025-11-30**: Sued by former head of product safety Robert Gruendel — claims he was fired after warning about deadly risks of the company's robots — *source: 2025-11-30 cycle*
 - **2025-10-10**: Figure 03 reveal — *source: TLDR "Figure 03"; AI Breakfast "Meet The Next Wave of Humanoid Robots"*

@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-04
-> **Last updated**: 2026-04-24
+> **Last updated**: 2026-05-23
 > **Status**: active
-> **Related**: [[agent-frameworks]], [[jules]], [[claude-code]], [[replit]], [[cursor-composer]], [[cognition]]
+> **Related**: [[agent-frameworks]], [[jules]], [[claude-code]], [[replit]], [[cursor-composer]], [[cursor-composer-2-5]], [[spacex]], [[cognition]]
 
 ## Summary
 
@@ -18,6 +18,10 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 
 ## Timeline
 
+- **2026-05-23**: Cursor reaches **$3B annualized revenue** in late April with 3,000+ customers paying ≥$100K each; SpaceX 30-day post-IPO option to acquire Cursor at $60B (with $10B breakup fee) reaffirmed; coverage frames Cursor as one of two top AI coding agents (alongside [[claude-code]]) per Mintlify traffic analysis — *source: 2026-05-23 cycle (TLDR AI — Anthropic Microsoft deal + Cursor $3B ARR; The Code — Microsoft and Uber ditch Claude Code)*
+- **2026-05-20**: Cursor [[cursor-composer-2-5]] recirculates as Anthropic competitive datapoint; SpaceX $60B Cursor option detailed — Cursor "significantly larger model" with SpaceXAI using 10× more compute confirmed — *source: 2026-05-20 cycle (AINews; Forward Future — Musk lost; Superhuman — Gemini becomes your personal agent)*
+- **2026-05-19**: **[[cursor-composer-2-5]] released** — 79.8% SWE-Bench Multilingual, sub-30s tasks, $0.50/$2.50 per M tokens (~10× cheaper than rivals); cloud agent development environments launched; SpaceX-Cursor $60B option emerges — *source: 2026-05-19 cycle (AlphaSignal — Anthropic doubles + Cursor Composer 2.5; Evolving AI Insights; TLDR Newsletter — Google IO + Cursor; The Rundown AI — Musk case + Composer 2.5)*
+- **2026-05-15**: Cursor cloud development environments ship — agents can juggle multiple repositories at once, similar to engineers operating across microservices; Dockerfile-based configs, version history, audit logs, cached builds; Hallmark "skill" for AI agents reduces generic UI output — *source: 2026-05-15 cycle (The Code — Anthropic faces developers backlash; AlphaSignal — agentmemory)*
 - **2026-04-24**: **SpaceX partners with [[cursor]] in a $60B deal** continues coverage — aim: provide [[spacex]] a shortcut into the AI coding market; underscores Cursor's strategic-asset status — *source: 2026-04-24 cycle (SpaceX-Cursor $60B deal extended framing)*
 - **2026-04-23**: **[[spacex]] partners with Cursor for $60B potential acquisition** — strategic partnership aiming to integrate Cursor's AI coding capabilities with SpaceX's **Colossus supercomputer**; positions the combined entity to compete directly with frontier AI labs in coding-agent development — first publicly disclosed SpaceX-scale acquisition target in the AI-coding sector — *source: 2026-04-23 cycle (SpaceX-Cursor $60B partnership)*
 - **2026-04-19**: **Cursor multi-agent system optimizes CUDA kernels** with avg 38% speedup — automatically writes and optimizes kernels, treating optimization as a continuous loop of writing, testing, refining code; positions Cursor's multi-agent architecture as a GPU-performance-engineering tool — *source: 2026-04-19 cycle (AlphaSignal — Cursor multi-agent CUDA optimization 38% speedup)*

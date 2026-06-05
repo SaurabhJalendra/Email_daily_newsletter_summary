@@ -4,6 +4,288 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-05-24
+**Ingested**: data/summaries/2026-05-24.json (backfill batch 12/12 — 13 newsletters)
+
+**Pages updated**:
+- [[spacex]] — S-1 details: $1.7T valuation, $80B raise, SPCX ticker, 1M-satellite FCC request, orbital DCs by 2028
+- [[ai-ipo-wave]] — SpaceX S-1 + OpenAI $1T target + Anthropic ~$900B prep
+- [[orbital-data-centers]] — SpaceX S-1 confirms FCC request for up to 1M satellites for orbital DCs
+- [[google]] — managed agents w/ Linux environments + AI Studio mobile + Trump pulls AI security EO
+
+**Pages created**: *(none)*
+
+**Notable**: SpaceX's S-1 makes the orbital-AI-compute thesis a concrete capital-markets bet — FCC request for up to 1 million satellites to power orbital data centers as early as 2028, Musk holds 85.1% voting control, and the company posted a $4.94B net loss but Starlink contributed half-to-2/3 of $18.7B 2025 revenue. China hitting **61% of global AI usage** (cheap Chinese open models on ~9× lower cost per task) is the most concrete US-vs-China-AI usage data-point of 2026 — frontier capability remains US-led, but agentic-workload economics increasingly run through Chinese open models on OpenRouter. Trump pulled the AI security review EO at the last minute (cybersecurity-arms-race regulatory void widens). NVIDIA Jensen Huang concedes China to Huawei in data-center silicon (US export-controls knock-on).
+
+---
+
+## 2026-05-23
+**Ingested**: data/summaries/2026-05-23.json (backfill batch 11/12 — 27 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Microsoft/Uber drop Claude Code over cost; Microsoft Maia 200 supply deal; Q2 $10.9B + first profitability
+- [[claude-code]] — Microsoft and Uber drop Claude Code; token-cost ceiling signal
+- [[openai]] — Codex Mac shortcuts + goal-tracking; weekly Codex batch updates
+- [[google]] — managed agents w/ Linux environments + AI Studio mobile + AI Co-Scientist Stanford pilot
+- [[nvidia]] — verified agent skills with built-in security cards for Claude/Codex/Cursor
+- [[figure]] — F.03 200-hour run, 249,560 packages sorted with zero failures
+- [[meta]] — Meta launches Forum app + 14,000-job AI restructuring framing
+- [[cohere]] — Command A+ continues circulating in NLP recaps
+- [[ai-cybersecurity-arms-race]] — NVIDIA verified agent skill cards as defender infra
+- [[ai-jobs-displacement]] — ClickUp 22% cut + $1M salary bands for 100×-impact engineers
+- [[cursor]] — $3B ARR confirmed + SpaceX $60B option detailed
+
+**Pages created**: *(none)*
+
+**Notable**: First publicly framed enterprise customer **dropping Claude Code over token cost** — Microsoft sends Windows/Office/Outlook/Teams/Surface developers back to GitHub Copilot CLI (Claude models stay in Copilot CLI though); Uber over-budget. Pairs with [[cursor]]'s $3B ARR + 3,000+ customers paying ≥$100K and Cursor Composer 2.5's 10×-cheaper economics — concrete token-cost ceiling for flat-rate enterprise Claude. Figure F.03 200-hour zero-failure run with 249,560 packages rewrites the humanoid-endurance benchmark from short demo clips to multi-day production runs. AINews's "All Model Labs are now Agent Labs" closes the cycle: AI21 shutters model team, DeepSeek builds a Harness team for the first time, Greg Brockman's reversal — confirms the systems-over-models industry consensus.
+
+---
+
+## 2026-05-22
+**Ingested**: data/summaries/2026-05-22.json (backfill batch 10/12 — 28 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Microsoft Maia 200 AI chip supply deal + $10.9B Q2 projection + Fractional AI acquisition
+- [[spacex]] — S-1 prospectus filed publicly; $1.7T valuation, $80B raise, June 12 Nasdaq debut
+- [[openai]] — GPT-next disproves Erdős 1946 planar unit distance conjecture for <$1000
+- [[nvidia]] — Q1 FY27 $81.6B (+85% YoY), data center $75B (+92% YoY); Vera $200B TAM; Singapore robotics hub
+- [[google]] — AI Co-Scientist + Pomelli + spam policy on AI manipulation
+- [[andrej-karpathy]] — Autoresearch method canonical recipe goes viral; 19% validation gains
+- [[qwen-3-7-max]] — 35h continuous autonomous reasoning confirmed; Zhenwu M890 chip
+- [[ai-ipo-wave]] — SpaceX S-1 + OpenAI Sept target + Anthropic Q2 profitability
+- [[apple]] — WWDC 2026 invites; iOS 27 AI push anticipated
+- [[project-glasswing]] — Mythos chains minor bugs into major holes; Anthropic FSB briefing
+- [[orbital-data-centers]] — NVIDIA confirms space-based DC computing modules
+- [[ai-cybersecurity-arms-race]] — Mythos bug-chaining + Trump pulls AI security EO
+
+**Pages created**: *(none)*
+
+**Notable**: OpenAI's GPT-next **disproves an 80-year-old Erdős conjecture** (planar unit distance, 1946) for under $1000 in compute time — first prominent AI-resolved open mathematics problem from a general-purpose LLM (not a dedicated math system). Anthropic-Microsoft Maia 200 chip supply deal makes Microsoft Azure's custom silicon a real frontier-lab customer for the first time and diversifies Anthropic compute to a fourth substrate (Amazon + Google + SpaceX + Microsoft). NVIDIA Q1 FY27 results validate the inference-economics thesis — $75B data center revenue +92% YoY, Q2 guidance $91B, Vera CPU framed as $200B TAM. Karpathy's Autoresearch method circulates as the canonical recipe for Claude-on-Claude pretraining direction.
+
+---
+
+## 2026-05-21
+**Ingested**: data/summaries/2026-05-21.json (backfill batch 9/12 — 33 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — self-hosted sandboxes (public beta) + MCP tunnels (research preview) for Claude Managed Agents
+- [[google]] — Antigravity 2.0 weekly quotas tripled; "AI killer distribution hack" framing
+- [[ai-ipo-wave]] — OpenAI IPO filing expected as soon as Friday targeting Sept; SpaceX 30-day Cursor option
+- [[ai-cybersecurity-arms-race]] — Hallmark UI skill for AI agents + Tom Dörr 106 Claude Code skills
+- [[xai]] — Igor Babuschkin leaves to start River AI seeking up to $1B
+- [[andrej-karpathy]] — "never felt more behind" admission, free NN-from-scratch course
+
+**Pages created**:
+- [[cohere-command-a-plus]] — Cohere's 218B Apache 2.0 open-weights frontier model
+- [[qwen-3-7-max]] — Alibaba's flagship 35h-continuous-reasoning closed-weight model
+- [[grok-build]] — xAI's SuperGrok Heavy CLI coding agent
+
+**Notable**: Anthropic self-hosted sandboxes + private MCP tunnels productize the "Claude in customer infra" pattern — agents execute tools inside customer infrastructure (Cloudflare/Daytona/Modal/Vercel) without firewall holes, addressing the largest blocker for enterprise Claude Managed Agents adoption. Cohere Command A+ is one of the first major Western labs to release weights at 218B params under Apache 2.0 — joins the open-weights surge alongside DeepSeek V4, Gemma 4, Kimi K2.6. Qwen 3.7-Max ships with 35h continuous autonomous execution + 1M context, sitting #5 on Artificial Analysis Intelligence Index — first explicit Chinese closed-weight model to lead on agentic long-horizon execution metric. Alibaba pairs it with the Zhenwu M890 AI chip (3× perf, 144GB memory, 800GB/s) — China's domestic AI-silicon push consolidates.
+
+---
+
+## 2026-05-20
+**Ingested**: data/summaries/2026-05-20.json (backfill batch 8/12 — 25 newsletters)
+
+**Pages updated**:
+- [[openai]] — Musk lawsuit DISMISSED; Guaranteed Capacity launched; Dell on-prem Codex; Malta free ChatGPT Plus
+- [[google]] — I/O 2026 trifecta extended coverage; Blackstone $5B AI cloud; Android XR glasses (Warby Parker/Samsung)
+- [[spacex]] — S-1 publicly filed at $1.7T; 5-for-1 stock split; SPCX ticker; June 12 debut
+- [[anthropic]] — Cloudflare invited to Mythos under Glasswing; Anthropic briefs FSB; Mythos chains bugs
+- [[project-glasswing]] — Cloudflare partner confirmation; Anthropic-FSB briefings
+- [[meta]] — 7,000 reassigned + 8,000 cut + 6,000 cancelled; $135B capex
+- [[ai-ipo-wave]] — SpaceX S-1 + Musk dismissal clear OpenAI $1T path
+- [[ai-cybersecurity-arms-race]] — Trump pulls AI security review; Cloudflare on Mythos
+- [[andrej-karpathy]] — free NN-from-scratch video course launches
+- [[figure]] — Helix-02 livestream of 24/7 sorting continues
+- [[orbital-data-centers]] — SpaceX IPO + Cowboy Space Corp recirculate
+
+**Pages created**:
+- [[openai-guaranteed-capacity]] — 1-3 year enterprise compute-reservation program with tiered discounts
+
+**Notable**: Musk v. OpenAI dismissed in under two hours — jury rejects all claims on statute-of-limitations; clears the $1T OpenAI IPO path. SpaceX publicly files S-1 same day at $1.7T valuation. The two largest 2026 capital-markets AI events land within 24 hours of each other. Cloudflare publicly confirmed as a Project Glasswing partner — first non-coalition-original company to use Claude Mythos Preview as a defender. Trump pulls the AI security executive order at the last minute, citing AI-competition concerns — leaves the cybersecurity-AI regulatory void wider for the AI-defender-platform race.
+
+---
+
+## 2026-05-19
+**Ingested**: data/summaries/2026-05-19.json (backfill batch 7/12 — 27 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Karpathy joins pretraining team; Claude token limits doubled; 2028 paper warns US-vs-China
+- [[andrej-karpathy]] — joins Anthropic pretraining team (biggest AI talent move of 2026)
+- [[openai]] — Karpathy departure context; Brockman product consolidation; Plaid finance preview
+- [[google]] — I/O 2026 keynote — Gemini 3.5 Flash + Omni + Spark + Antigravity 2.0 + Android XR glasses
+- [[cursor]] — Composer 2.5 launched; cloud agents; SpaceX $60B option emerges
+- [[cerebras]] — Kimi K2.6 trillion-param trials at 981 tokens/sec
+- [[nvidia]] — Vera CPU announced; $200B TAM framing; SANA open-source diffusion model
+- [[meta]] — 8K layoffs + 7K reassigned to AI orgs; Model Capability Initiative surveillance software
+- [[recursive-architectures]] — Sapient Intelligence 1B reasoning model trained in one day for $1,000
+
+**Pages created**:
+- [[tml-interaction-small]] — Thinking Machines' 276B-A12B native interaction model
+- [[openai-deployco]] — OpenAI's $4B enterprise-deployment subsidiary
+- [[openai-daybreak]] — OpenAI's frontier cyber-defense platform
+- [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions
+- [[claude-platform-aws]] — Anthropic Claude Platform native inside AWS
+- [[claude-for-legal]] — Anthropic's vertical legal-workflow Claude
+- [[claude-for-small-business]] — Anthropic SMB Claude package
+- [[gemini-3-5-flash]] — Google I/O 2026 agent-tuned flagship
+- [[gemini-omni]] — Google's conversational video model
+- [[gemini-spark]] — Google's 24/7 personal agent on Google Cloud VMs
+- [[antigravity-2]] — Google's rebuilt parallel-agent desktop app
+- [[googlebook]] — Google's Gemini-native premium laptop category
+- [[cursor-composer-2-5]] — Cursor's RL-trained coding model
+- [[recursive-superintelligence]] — Tim Rocktäschel ex-DeepMind RSI lab
+- [[agentmemory]] — open-source persistent-memory layer for AI coding agents
+- [[recursive-architectures]] — HRM/TRM/RecursiveMAS — latent-space reasoning topic
+- [[ai-cybersecurity-arms-race]] — first AI-built zero-day in wild + Mythos M5 break + Mini Shai-Hulud worm
+- [[orbital-data-centers]] — SpaceX + Suncatcher + Cowboy Space Corp space-AI compute topic
+- [[tml-interaction-small]] — Thinking Machines native interaction model
+
+**Notable**: **Andrej Karpathy joins Anthropic's pretraining team** — biggest AI talent move of 2026, OpenAI co-founder hired to use Claude to accelerate pretraining research (concrete recursive-self-improvement direction matching Recursive Superintelligence and Ineffable Intelligence emerging same week). Google I/O 2026 delivers the agentic-Gemini-era trifecta (3.5 Flash + Omni + Spark) at 4× the speed and AI-Ultra at $100/mo. Cursor Composer 2.5 hits 79.8% SWE-Bench at ~10× cheaper economics — pricing pressure on Claude Code that materializes in the Microsoft/Uber drop one week later.
+
+---
+
+## 2026-05-18
+**Ingested**: data/summaries/2026-05-18.json (backfill batch 6/12 — 13 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Mythos breaks Apple M5 Memory Integrity Enforcement in 5 days; 2028 policy paper circulates
+- [[claude-mythos]] — bypasses Apple M5 MIE in 5 days; concrete frontier-AI hardware bypass
+- [[apple]] — Mythos breaks M5 MIE; concrete hardware-defense bypass data point
+- [[project-glasswing]] — Mythos M5 bypass under controlled-access program
+- [[ai-cybersecurity-arms-race]] — Mythos M5 break demo
+- [[recursive-architectures]] — AlphaSignal cover on HRM/TRM/RecursiveMAS
+
+**Pages created**:
+- [[recursive-architectures]] — latent-space recurrent reasoning models topic
+
+**Notable**: A small research team paired with Claude Mythos Preview broke Apple's M5 Memory Integrity Enforcement in **5 days** — first concrete public proof that a "small team + frontier AI" can do what previously required large security organizations. Reinforces the Project Glasswing controlled-access rationale and the cybersecurity-AI capability gap narrative. Pope Leo XIV's "AI as Industrial Revolution" framing for the upcoming Magnifica Humanitas encyclical formalizes the Vatican-Anthropic collaboration. Recursive architectures (HRM, TRM, RecursiveMAS) re-emerge as the latent-space reasoning category — TRM at 5-7M params beats frontier LLMs on Sudoku-Extreme + ARC-AGI-1.
+
+---
+
+## 2026-05-17
+**Ingested**: data/summaries/2026-05-17.json (backfill batch 5/12 — 16 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Vatican collaboration on Magnifica Humanitas; $200M Gates Foundation; 2028 paper
+- [[apple]] — Cisco AI infrastructure $9B order; iOS 27 anticipation
+- [[openai]] — Apple opens to third-party AI providers (OpenAI/Anthropic/Google)
+- [[ai-jobs-displacement]] — Cisco 4,000 cuts (~5%) for AI infrastructure cash-flow
+- [[andrej-karpathy]] — Yann LeCun bets against LLMs; world models by 2027
+
+**Pages created**: *(none)*
+
+**Notable**: Pope Leo XIV's encyclical *Magnifica Humanitas: On the Protection of Human Dignity in the Age of Artificial Intelligence* (May 25 release) — Anthropic co-founder Chris Olah will help present at the Vatican; positions Anthropic as the AI-safety brand inside the Vatican-as-AI-Industrial-Revolution narrative. Microsoft's Mustafa Suleyman warns AI will reach human-level performance on most professional tasks within 18 months. Malta becomes the first nation to provide every citizen with free ChatGPT Plus for one year — first country-wide AI deployment as civic infrastructure.
+
+---
+
+## 2026-05-16
+**Ingested**: data/summaries/2026-05-16.json (backfill batch 4/12 — 16 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Mythos test against Apple M5 (precursor to May-18 break); MDASH benchmark surpass
+- [[openai]] — Codex Mobile preview; OpenAI-Apple legal action prep; Codex update with 75% less re-rendering
+- [[apple]] — App Store AI agents strategy; iPhone Ultra rumors; WWDC anticipation
+- [[claude-code]] — "You're Using Claude Code Wrong" PDF guide; hidden /commands surfaced
+- [[claude-code-agent-view]] — Agent View highlights continue
+- [[ai-cybersecurity-arms-race]] — MDASH 100+ agents surpasses Mythos on CyberGym
+- [[cerebras]] — IPO surge "$60B IPO Slowly Then All At Once" framing
+- [[claude-for-small-business]] — broader rollout confirmation
+- [[figure]] — Helix-02 8-hour autonomous shifts
+
+**Pages created**: *(none)*
+
+**Notable**: Apple actively building system to support AI agents in App Store — reverses prior vibe-coding-app removal stance, recognizes AI agents as future of consumer computing; App Store generated ~$900M from generative-AI apps in 2025, projected >$1B in 2026. Cerebras IPO surge continues to dominate AINews's coverage as the cleanest US tech IPO since Uber. Microsoft's MDASH AI security harness with 100+ agents surpasses Anthropic's Mythos on CyberGym benchmark — first publicly framed multi-agent defender platform exceeding Mythos.
+
+---
+
+## 2026-05-15
+**Ingested**: data/summaries/2026-05-15.json (backfill batch 3/12 — 26 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Anthropic surpasses OpenAI in Ramp business adoption (34.4% vs 32.3%); $200M Gates Foundation
+- [[claude-for-small-business]] — broad launch with 15 workflows + QuickBooks/PayPal/HubSpot/Canva integrations
+- [[claude-code]] — OpenClaw ban walked back via metered Agent SDK pool June 15
+- [[cerebras]] — IPO debut +68% to $311.07; ~$66B market cap
+- [[cursor]] — cloud development environments launched
+- [[nvidia]] — Ineffable Intelligence partnership confirmed; Vera Rubin RL substrate
+- [[ai-ipo-wave]] — Cerebras IPO debut surge
+- [[openai]] — Codex Mobile preview; OpenAI-Apple deal fraying; End-of-Finetuning
+- [[xai]] — Grok Build CLI launches; xAI talent exodus accelerates
+- [[google]] — Google + Gemini I/O ramp-up
+- [[figure]] — autonomous humanoid sorting demo goes viral
+- [[ai-cybersecurity-arms-race]] — Mini Shai-Hulud reaches OpenAI; MDASH surpasses Mythos
+
+**Pages created**:
+- [[grok-build]] — xAI's CLI coding agent (initial first-mention)
+- [[recursive-superintelligence]] — Tim Rocktäschel RSI startup with $650M @ $4.65B
+
+**Notable**: Anthropic passes OpenAI in business adoption for the first time per Ramp's index (34.4% vs 32.3% in April 2026) — concrete enterprise-mindshare inflection. Claude for Small Business launches with QuickBooks/PayPal/HubSpot/Canva/Google Workspace/Microsoft 365 connectors and 15 ready-made workflows. Cerebras IPO debut +68% to $311.07 (~$66B market cap) confirms the AI-IPO-wave thesis as Anthropic and OpenAI prepare their own. Recursive Superintelligence emerges with $650M @ $4.65B in a single day — joins Ineffable Intelligence × NVIDIA same day as the "post-LLM frontier-lab spinout" pattern. Mini Shai-Hulud npm worm reaches OpenAI's employee devices via TanStack packages — concrete supply-chain-attack proof-point that the cybersecurity AI arms race is bidirectional.
+
+---
+
+## 2026-05-14
+**Ingested**: data/summaries/2026-05-14.json (backfill batch 2/12 — 28 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Claude for Legal expansion (20+ MCP, 12 plugins); /goal + fast mode Opus 4.7; "monthly credit pool" rug-pull
+- [[claude-code]] — /goal command, /loop, /schedule, fast mode Opus 4.7, API credit pool change
+- [[claude-for-legal]] — 20+ MCP connectors + 12 practice-area plugins
+- [[google]] — Googlebook AI laptop category launched; Android Gemini Intelligence; Project Suncatcher
+- [[googlebook]] — Gemini-native premium AI laptop category (created same cycle as launch)
+- [[openai]] — End-of-Finetuning APIs deprecated; Codex iPhone preview; 75 employees walked $30M each
+- [[meta]] — pays $100M+ per researcher to poach AI talent; WhatsApp Incognito Chat
+- [[cerebras]] — IPO prices at $185/share; 20× oversubscribed; $5.55B raised
+- [[ai-ipo-wave]] — Cerebras IPO prices at $185
+- [[ai-cybersecurity-arms-race]] — Mini Shai-Hulud spreads; Pyrefly 1.0 ships as Python type-checker
+- [[figure]] — humanoid robots performing household tasks autonomously
+- [[xai]] — SpaceXAI dissolution coverage continues
+
+**Pages created**:
+- [[claude-for-legal]] — vertical Claude package for law firms
+- [[googlebook]] — Google's Gemini-native premium AI laptop
+
+**Notable**: Anthropic's "monthly API credit pool" pricing change triggers developer backlash ("rug pull" framing) — each Claude subscription gets API credit equal to subscription dollar amount; some power-users threaten to migrate to OpenAI. Claude Code `/goal` command + fast mode Opus 4.7 + Claude for Legal launches form a three-product day. Googlebook merges Android + ChromeOS into one Gemini-native laptop category with Magic Pointer AI cursor — Google's most consequential consumer push since launching Android in 2008. Cerebras IPO prices at $185/share with 20× oversubscription. OpenAI deprecating fine-tuning APIs is the "End of Finetuning" inflection per AINews.
+
+---
+
+## 2026-05-13
+**Ingested**: data/summaries/2026-05-13.json (backfill batch 1/12 — 29 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Claude Platform on AWS launches; Claude Code Agent View ships; Anthropic-Akamai $1.8B 7-year deal; blackmail-from-sci-fi paper
+- [[claude-code]] — Agent View research preview
+- [[claude-code-agent-view]] — unified dashboard for parallel sessions (created same cycle)
+- [[claude-platform-aws]] — native Claude Platform inside AWS account (created same cycle)
+- [[openai]] — DeployCo $4B subsidiary announced; Daybreak cyber-defense launched; OpenAI-Apple deal continues fraying
+- [[openai-deployco]] — $4B enterprise-deployment subsidiary at $10B valuation (created same cycle)
+- [[openai-daybreak]] — frontier cyber-defense platform pairing GPT-5.5 + Codex Security (created same cycle)
+- [[google]] — first AI-built zero-day caught by Threat Intelligence; Gemini Omni leaks ahead of I/O
+- [[gemini-omni]] — leaks ahead of I/O (created same cycle)
+- [[tml-interaction-small]] — Thinking Machines 276B-A12B native interaction model launches (created same cycle)
+- [[thinking-machines]] — TML-Interaction-Small launch + $2B / $12B funding context
+- [[ai-cybersecurity-arms-race]] — first AI-built zero-day in wild + Daybreak defensive response (created same cycle)
+- [[nvidia]] — Sakana TwELL sparsity (20% H100 speedup); Jensen Huang CMU "rebuild America" framing; AWS 1M+ GPUs deploy
+- [[meta]] — Muse Spark across all Meta services; LeWorldModel 48× faster planning
+- [[cerebras]] — IPO range raised $115-125 → $150-160; 20× oversubscribed
+- [[figure]] — Helix-02 robots sorting packages for 8 hours
+- [[xai]] — SpaceXAI dissolution announcement; >50 researchers leave for Meta/Thinking Machines
+
+**Pages created**:
+- [[tml-interaction-small]] — Thinking Machines' 276B-A12B native interaction model
+- [[openai-deployco]] — OpenAI's $4B enterprise-deployment subsidiary
+- [[openai-daybreak]] — OpenAI's defensive cyber platform
+- [[claude-code-agent-view]] — Anthropic's parallel-session dashboard
+- [[claude-platform-aws]] — Anthropic Claude Platform native inside AWS
+- [[gemini-omni]] — Google's conversational video model
+- [[ai-cybersecurity-arms-race]] — defender-attacker arms-race topic
+- [[orbital-data-centers]] — space-based AI compute topic
+
+**Notable**: 2026-05-13 opens the backfill batch with **three frontier-lab strategic moves in a single day** — Anthropic ships Claude Code Agent View + Claude Platform on AWS + Akamai $1.8B 7-year cloud (broadest hyperscaler diversification of any frontier lab); OpenAI launches DeployCo as the $4B enterprise-deployment competitive response to Anthropic's $1.5B Wall Street JV (frontier-lab enterprise-deployment arms race crystallizes); Thinking Machines unveils TML-Interaction-Small as the explicit anti-agentic counter-direction. Google Threat Intelligence catches the **first publicly disclosed AI-built zero-day** in the wild (criminal hacker group with AI-written exploit) — launches the AI cybersecurity arms race as a topic. OpenAI's Daybreak ships the same day as the defensive counter, pairing GPT-5.5 with Codex Security.
+
+---
+
 ## 2026-05-12
 **Ingested**: data/summaries/2026-05-12.json (backfill batch 12/12 — 21 newsletters)
 

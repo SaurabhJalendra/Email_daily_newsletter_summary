@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-04-25
+> **Last updated**: 2026-05-21
 > **Status**: active
-> **Related**: [[nvidia]], [[grok-4-1]], [[grok-4-20]], [[grokipedia]], [[grok-imagine]], [[ai-hardware]], [[ai-funding-rounds]]
+> **Related**: [[nvidia]], [[spacex]], [[grok-4-1]], [[grok-4-20]], [[grok-build]], [[grokipedia]], [[grok-imagine]], [[ai-hardware]], [[ai-funding-rounds]]
 
 ## Summary
 
@@ -18,6 +18,10 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 ## Timeline
 
+- **2026-05-21**: xAI's prior research-lab independence further erodes as SpaceXAI division status hardens; coverage frames as "Cursor would be wholly absorbed if SpaceX exercises $60B option" — *source: 2026-05-21 cycle (Cerebral Valley + Forward Future)*
+- **2026-05-20**: Igor Babuschkin (xAI co-founder) leaving to start **River AI**, seeking up to $1B in funding — concrete data-point on the xAI talent exodus to Meta, Thinking Machines, and now Babuschkin's new venture — *source: 2026-05-20 cycle (TLDR AI — Grok Build + xAI exodus; TLDR — Meta's AI reorg)*
+- **2026-05-15**: **[[grok-build]] CLI launches in early beta** for SuperGrok Heavy subscribers — curl install, plan mode (diff review), subagents, deep worktree integrations, headless mode for easy automation; xAI exodus to Meta + Thinking Machines accelerates — *source: 2026-05-15 cycle (TLDR AI — Grok Build + Codex + xAI exodus; The Code — Codex on phone)*
+- **2026-05-13**: **xAI announced as dissolving into SpaceX as "SpaceXAI" division** — Elon Musk announces xAI will integrate as a new SpaceX division handling all AI projects (X social network, Grok, world models), branding under SpaceX for streamlined vertical integration; **SpaceXAI loses over 50 researchers/engineers since the February merger** — coding/world models/voice teams hit hardest, defecting to Meta + Thinking Machines (xAI exodus story emerges) — *source: 2026-05-13 cycle (TLDR AI — Interaction Models + SpaceXAI; The Code — Ex-OpenAI CTO + Grok)*
 - **2026-04-25**: **SpaceX acquires xAI in $1.25T mega-deal** (re-coverage) — coverage frames the SpaceX-xAI integration as a powerhouse in AI distribution + physical deployment, following record venture funding in the AI sector (continues the Feb-2026 acquisition framing with first-quarter-after-close narrative); same cycle Beyond Newsletters: SpaceX's $250B xAI acquisition is re-cited (alongside [[deepseek]] V4 launch and Gemini 3.1 suite drop) — see [[spacex]] — *source: 2026-04-25 cycle (SpaceX-xAI $1.25T re-coverage; SpaceX $250B mega-deal context)*
 - **2026-04-23**: **[[spacex]] partners with [[cursor]] for $60B potential acquisition** — strategic partnership aiming to integrate Cursor's AI coding capabilities with SpaceX's **Colossus supercomputer**; positions SpaceX/xAI to compete directly with frontier AI labs in coding-tool development and AI-agent research (xAI's Grok Build / Grok CLI ambitions get a Cursor-tier coding-IDE surface via the SpaceX umbrella) — same cycle: **SpaceX acquires xAI for $250B** is re-referenced in coverage as the parent-deal context — *source: 2026-04-23 cycle (SpaceX-Cursor $60B partnership for Colossus integration)*
 - **2026-04-21**: **xAI Grok Build and Grok CLI shipped** as tools for autonomous coding/development — productizes the 2026-04-14 Grok Build credits framework into a release pair, intensifying the xAI-as-coding-lab thesis — *source: 2026-04-21 cycle (xAI Grok Build + Grok CLI)*

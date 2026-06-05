@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-30
-> **Last updated**: 2026-06-04 (backfill carries 2026-05-01→2026-05-11 entries)
+> **Last updated**: 2026-06-04 (backfill carries 2026-05-01→2026-05-23 entries)
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[ai-funding-rounds]], [[xai]], [[ai-bubble-concerns]]
 
@@ -19,6 +19,13 @@ By early 2026 the top frontier AI labs were publicly discussed as IPO candidates
 ## Timeline
 
 - **2026-06-04**: **[[anthropic]] confidentially files for an IPO with the SEC at $965B valuation** — $47B run-rate (up from $10B a year prior), preceded by a $65B Series H round; the largest pre-IPO valuation of any private AI lab and the first formal S-1 filing in the AI IPO wave; OpenAI reportedly preparing its own IPO filing in parallel; Goldman Sachs' David Solomon publicly warns the current AI IPO market is in "greed mode"; the filing lands the same day [[microsoft]] ships [[mai-thinking-1]] (reported parity with [[claude-opus-4-6]]) and an "AI spending backlash" narrative emerges around Anthropic's high compute costs (TLDR AI lead) — pre-IPO scrutiny on unit economics begins — *source: AlphaSignal "Anthropic files confidential IPO paperwork: $965B valuation, $47B run-rate"; Mindstream "Anthropic might be getting an IPO"; The AI Brief "$965B valuation after $65B Series H"; FutureTools "Anthropic's going public"; AI Breakfast; TLDR AI "Anthropic faces AI spending backlash before IPO"; Evolving AI Insights — Goldman "greed mode"; The Rundown AI*
+- **2026-05-22**: **[[spacex]] S-1 prospectus filed publicly** — up to $80B raise at $1.7T valuation; Nasdaq debut June 12 under SPCX; 5-for-1 stock split approved; Anthropic projects $10.9B Q2 revenue (+130% Q1) with $559M first operating profit; **OpenAI ~$852-1T IPO target** for Sept; **Anthropic ~$900B IPO** likely 2026 — *source: 2026-05-22 cycle (DayTrading Dispatch — Bonds enter danger zone; Anna's DayBreak; TLDR — SpaceX financials; Forward Future — NVIDIA earnings; Evolving AI Insights — 1946 Math Problem)*
+- **2026-05-21**: **OpenAI preparing IPO filing** as soon as Friday targeting Sept 2026 debut at $850B+ — Goldman + Morgan Stanley advising; **Anthropic Q2 $10.9B revenue + first operating profit** anchors its IPO trajectory; SpaceX 30-day Cursor $60B option emerges as tactical IPO sweetener — *source: 2026-05-21 cycle (Forward Future — Musk lost in under 2 hours; AINews — Google I/O 2026)*
+- **2026-05-20**: **[[spacex]] publicly files S-1** — $80B raise at $1.7T valuation, SPCX ticker, June 12 Nasdaq debut; **Musk v. OpenAI lawsuit DISMISSED in under two hours**, clearing $1T OpenAI IPO path — *source: 2026-05-20 cycle (Technology News — Apple buried ChatGPT; Forward Future — Musk lost; AINews; Evolving AI Insights — OpenAI Clears Biggest Legal Hurdle)*
+- **2026-05-19**: OpenAI Guaranteed Capacity launched as enterprise lock-in pre-IPO move; Musk-OpenAI case dismissal moves through final deliberation; SpaceX expected to file S-1 imminently — *source: 2026-05-19 cycle (TLDR AI — Gemini 3.5 Flash + Karpathy + OpenAI Guaranteed Capacity)*
+- **2026-05-15**: **[[cerebras]] IPO surges +68% on debut** — closes $311.07, ~$66B market cap; one of the largest tech IPOs in years; recovery from May-06 $15B downward revision — *source: 2026-05-15 cycle (TLDR AI — Cerebras IPO; AINews — Cerebras $60B IPO; Forward Future — Anthropic passes OpenAI)*
+- **2026-05-14**: **Cerebras IPO prices at $185/share** (up from $115-125, then $150-160); demand >20× oversubscribed; sells 30M shares ($5.55B raised) — *source: 2026-05-14 cycle (TLDR AI — Cerebras IPO; Forward Future)*
+- **2026-05-13**: **[[openai-deployco]] $4B / $10B-valuation enterprise subsidiary launches** (responds to Anthropic's $1.5B Wall Street JV); **[[anthropic]] partners with Akamai $1.8B 7-year cloud**; SoftBank $46B yearly gain from Vision Fund — 98% tied to OpenAI; OpenAI valuation jumped $157B→$852B in five months — *source: 2026-05-13 cycle (Multiple — OpenAI DeployCo $4B; AINews — Akamai $1.8B; Forward Future — OpenAI hires humans)*
 - **2026-05-11**: **[[cerebras]] files to go public at up to $26.6B valuation** — coverage frames this as 2026's biggest tech IPO so far; backed by Sam Altman and the $10B OpenAI deal; first major AI-silicon vendor to formally list at this scale — *source: 2026-05-11 cycle (Cerebras $26.6B IPO filing — 2026's biggest tech IPO)*
 - **2026-05-10**: **[[anthropic]] reportedly at $900B valuation** + [[xai]]-Anthropic orbital data center exploration; Cloudflare 1100 layoffs (~20%) cited as backdrop for "AI winners vs losers" framing inside the wave — *source: 2026-05-10 cycle (Anthropic $900B valuation; Cloudflare AI-first layoffs as wave-counterpoint)*
 - **2026-05-09**: **Anthropic valuation talks near $1T** — first publicly disclosed talks at a near-trillion-dollar valuation for any private AI lab — *source: 2026-05-09 cycle (Anthropic near-$1T valuation talks)*
@@ -65,3 +72,11 @@ By early 2026 the top frontier AI labs were publicly discussed as IPO candidates
 - data/summaries/2026-01-17.json (Anthropic Economic Index)
 - data/summaries/2026-03-28.json (TLDR AI — Anthropic October IPO $60B+; Forward Future — SpaceX $75B IPO at $1.75T)
 - data/summaries/2026-03-31.json (Tech Buzz SignalPulse — OpenAI $10B / $120B+; SK Hynix confidential US IPO late 2026; Shield AI $2B at $12.7B; Kleiner Perkins $3.5B; Hummingbird ~$800M)
+- data/summaries/2026-05-13.json (Forward Future — OpenAI DeployCo $4B; AINews — Akamai $1.8B)
+- data/summaries/2026-05-14.json (TLDR AI — Cerebras IPO $185; Forward Future)
+- data/summaries/2026-05-15.json (TLDR AI; AINews — Cerebras $60B IPO; Forward Future — Anthropic passes OpenAI)
+- data/summaries/2026-05-19.json (TLDR AI — OpenAI Guaranteed Capacity; Forward Future)
+- data/summaries/2026-05-20.json (Technology News; Forward Future; AINews; Evolving AI Insights — Musk dismissal + SpaceX S-1)
+- data/summaries/2026-05-21.json (Forward Future; AINews)
+- data/summaries/2026-05-22.json (DayTrading Dispatch; Anna's DayBreak; TLDR; Forward Future; Evolving AI Insights)
+- data/summaries/2026-05-24.json (Technology News — SpaceX $1.7T; World of AI — China 61%)

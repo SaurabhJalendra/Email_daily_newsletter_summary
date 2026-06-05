@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2026-04-09
-> **Last updated**: 2026-06-04 (backfill carries 2026-05-06 + 2026-05-12 entries)
+> **Last updated**: 2026-06-04 (backfill carries 2026-05-06 → 2026-05-22 entries)
 > **Status**: active
-> **Related**: [[anthropic]], [[claude-mythos]], [[amazon]], [[apple]], [[google]], [[microsoft]], [[nvidia]], [[ai-cybersecurity]]
+> **Related**: [[anthropic]], [[claude-mythos]], [[amazon]], [[apple]], [[google]], [[microsoft]], [[nvidia]], [[cloudflare]], [[ai-cybersecurity-arms-race]], [[openai-daybreak]]
 
 ## Summary
 
@@ -20,6 +20,9 @@ Coverage in the 2026-04-13 cycle ambiguously re-frames "Project Glasswing" as ha
 
 ## Timeline
 
+- **2026-05-22**: Mythos chains minor bugs into major security holes per Cloudflare write-up; Anthropic briefs FSB on Mythos cybersecurity capability — *source: 2026-05-22 cycle (Forward Future — NVIDIA earnings; Evolving AI Insights — 200-Hour Bet)*
+- **2026-05-20**: **Cloudflare invited to use [[claude-mythos]] Preview under Project Glasswing** — first public articulation of Cloudflare as a Glasswing partner; coverage frames Cloudflare as observing Mythos finding chains; Anthropic begins briefing the **Financial Stability Board** on Mythos cybersecurity-vulnerability discovery (national-financial-security framing matures) — *source: 2026-05-20 cycle (TLDR — Meta's AI reorg + Project Glasswing; Forward Future — Anthropic briefs FSB; The Code — Cloudflare-Anthropic chain testing)*
+- **2026-05-18**: [[claude-mythos]] bypasses Apple M5 Memory Integrity Enforcement in 5 days — small research team + Mythos; reinforces Glasswing's controlled-access rationale; first concrete frontier-AI hardware-defense bypass under the program — *source: 2026-05-18 cycle (Uncovering AI; TAAFT; Superhuman; The Code)*
 - **2026-05-12**: **Project Glasswing discovers thousands of zero-day vulnerabilities including a 27-year-old bug in OpenBSD** — first publicly disclosed multi-decade-old vulnerability surfaced by Mythos-driven discovery; concrete proof-point for the "AI finds bugs humans missed for decades" framing and the cybersecurity-defender-tier positioning of Glasswing (specific instance of the prior "thousands of zero-days" capability claim) — *source: 2026-05-12 cycle (Project Glasswing 27-year OpenBSD bug; thousands of zero-day vulnerabilities)*
 - **2026-05-06**: **[[claude-mythos]] discovers thousands of high-severity zero-day vulnerabilities in critical software** — first explicit "thousands of zero-days" capability claim attached to Mythos as the Glasswing-backing model (concrete proof-point for the cybersecurity-inflection-point thesis) — *source: 2026-05-06 cycle (Mythos zero-day haul; cybersecurity inflection framing)*
 - **2026-06-04**: Glasswing expands — [[anthropic]] gives 150 additional organizations across 15+ countries access to [[claude-mythos]] Preview; framed as a meaningful step up in Mythos exposure while keeping the model behind the Glasswing governance umbrella — *source: The Rundown AI "Anthropic expands Project Glasswing"; TLDR AI "Anthropic expands Mythos to 150 additional organizations in more than 15 countries"; Evolving AI Insights — Glasswing 15+ countries; AI Breakfast*
@@ -49,3 +52,6 @@ Coverage in the 2026-04-13 cycle ambiguously re-frames "Project Glasswing" as ha
 - data/summaries/2026-06-04.json (The Rundown AI — Anthropic expands Project Glasswing; TLDR AI — Mythos to 150 orgs in 15+ countries; Evolving AI Insights; AI Breakfast)
 - data/summaries/2026-05-06.json (Mythos thousands of high-severity zero-days; cybersecurity inflection framing)
 - data/summaries/2026-05-12.json (Project Glasswing 27-year OpenBSD bug + thousands of zero-day vulnerabilities)
+- data/summaries/2026-05-18.json (Uncovering AI; TAAFT; Superhuman; The Code — Mythos breaks Apple M5)
+- data/summaries/2026-05-20.json (TLDR; Forward Future; The Code — Cloudflare on Mythos)
+- data/summaries/2026-05-22.json (Forward Future; Evolving AI Insights — Mythos chains bugs)

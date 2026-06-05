@@ -8,16 +8,24 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-04-23
-> **Last updated**: 2026-05-11
+> **Last updated**: 2026-05-24
 > **Status**: active
-> **Related**: [[xai]], [[cursor]], [[grok-4-20]], [[anthropic]], [[ai-funding-rounds]], [[ai-hardware]], [[ai-ipo-wave]]
+> **Related**: [[xai]], [[cursor]], [[cursor-composer-2-5]], [[grok-4-20]], [[grok-build]], [[anthropic]], [[orbital-data-centers]], [[project-suncatcher]], [[ai-funding-rounds]], [[ai-hardware]], [[ai-ipo-wave]]
 
 ## Summary
 
-SpaceX is Elon Musk's space exploration company and, since the Feb 2026 $1.25T stock-swap merger with [[xai]], the parent company of xAI's frontier AI lab. By April 2026 SpaceX's AI footprint sharpened into two distinct vectors: a publicly disclosed $1.75T IPO filing (early-April), and a $60B partnership / potential acquisition of [[cursor]] (late-April) that pulls a leading AI-coding IDE into the SpaceX umbrella alongside the Colossus supercomputer. Coverage frames SpaceX as the first physical-space + frontier-AI company at $1T+ scale, with explicit ambitions for orbital AI compute and Starlink-solar-powered space data centers.
+SpaceX is Elon Musk's space exploration company and, since the Feb 2026 $1.25T stock-swap merger with [[xai]], the parent company of xAI's frontier AI lab. SpaceX publicly filed for IPO on 2026-05-20, seeking to raise up to $80B at a $1.7-1.75T valuation under Nasdaq ticker **SPCX** with trading debut targeted 2026-06-12 — described as the largest IPO in history. Starlink contributes between half and two-thirds of SpaceX's $18.7B 2025 revenue (the only profitable segment); the company posted a $4.94B 2025 net loss. The S-1 details ambitions to deploy data centers in space as early as 2028 and a request for FCC approval to launch up to **1 million satellites** to power them. Musk holds 85.1% voting control with a new 1 billion Class B share compensation grant. SpaceX also holds a 30-day option after IPO to acquire [[cursor]] for $60B (with a $10B breakup fee). The company hosts the Colossus 1 supercomputer leased to [[anthropic]] (220K GPUs, $1.25B/month through May 2029), powers [[cursor-composer-2-5]]'s next-gen training, and houses xAI as an internal "SpaceXAI" division per the May 2026 Musk announcement.
 
 ## Timeline
 
+- **2026-05-24**: SpaceX IPO filing fully covered — $1.7T valuation / $80B raise / SPCX ticker / June 12 Nasdaq debut / 1M-satellite FCC request / orbital DCs by 2028 / Mars colony framing — *source: 2026-05-24 cycle (Technology News — SpaceX going public at $1.7T; Anna's DayBreak — Market Recap May 16-23; World of AI — China hits 61% of AI usage)*
+- **2026-05-22**: SpaceX S-1 prospectus filed; up to $80B raise at $1.7T valuation; 2025 revenue $18.7B (Starlink ~half-to-2/3), net loss $4.94B; coverage frames as IPO of the decade — *source: 2026-05-22 cycle (DayTrading Dispatch — Bonds enter danger zone + SpaceX S-1; Anna's DayBreak — Castro Indicted; TLDR — SpaceX financials; AINews)*
+- **2026-05-21**: SpaceX IPO + xAI dissolution into SpaceX division ("SpaceXAI") + Cursor $60B option begin coordinated coverage — Musk frames the AI+space stack as the IPO thesis — *source: 2026-05-21 cycle (Forward Future — Musk lost in under 2 hours; AINews — Google I/O 2026)*
+- **2026-05-20**: **SpaceX publicly files S-1 IPO prospectus** — up to $80B raise at $1.7T valuation; roadshow June 4, pricing June 11, debut **June 12 on Nasdaq under SPCX**; SpaceX shareholders signed off on a **5-for-1 stock split** (per-share price ~$105 post-split for retail access); coverage flags the orbital-DC ambition as central to the AI-infrastructure framing — *source: 2026-05-20 cycle (Technology News — Apple buried ChatGPT; Forward Future — Musk lost in under 2 hours; AINews — Google I/O; AI Supremacy — Tensions mount over AI Consequences)*
+- **2026-05-18**: SpaceX $1.75T IPO + Starship v3 maiden flight on May 19; deploys 22 mock Starlink satellites; first AI-data-center-rocket framing builds — *source: 2026-05-18 cycle (DayTrading Dispatch — biggest IPO ever; TAAFT — Pope declares war)*
+- **2026-05-15**: [[cursor]] reports training a "significantly larger" Composer model on SpaceXAI infrastructure using 10× more compute — concretizes SpaceX's role as Cursor's compute provider — *source: 2026-05-15 cycle (Superhuman — Higgsfield + Cursor)*
+- **2026-05-14**: SpaceX Starship V3 (tallest rocket ever built) prepared for May 19 maiden flight — paired with the orbital-DC framing — *source: 2026-05-14 cycle (Technology News — TikTok and Meta facing $9B EU fine; TLDR Newsletter — Googlebooks + Starship v3)*
+- **2026-05-13**: SpaceX targets May 12 for Flight 12 of Version 3 Starship (NASA Artemis III platform); Musk announces $55-119B Terafab project with Intel; xAI dissolution into SpaceXAI begins to surface in coverage — *source: 2026-05-13 cycle (Technology News — Intel is back; TLDR AI — Interaction Models + SpaceXAI)*
 - **2026-05-11**: **SpaceX-[[anthropic]] $1.5B joint venture formalized + 220,000 Colossus 1 GPUs leased to Anthropic** — formal terms on the 2026-05-08 partnership; SpaceX now hosts three frontier-AI surfaces in one umbrella ([[xai]] internal, [[cursor]] via Apr-23 partnership, *and* Anthropic via this lease) — first publicly disclosed multi-lab compute provider position from a single corporate parent — *source: 2026-05-11 cycle (SpaceX-Anthropic $1.5B JV + 220k GPU lease)*
 - **2026-05-10**: **[[anthropic]] + [[xai]] reportedly exploring orbital data centers** powered by sun via Starlink — SpaceX-internal AI vertical (xAI) collaborates publicly with external lab (Anthropic) on space-based AI compute — first publicly disclosed cross-company AI-collaboration involving SpaceX's xAI division — *source: 2026-05-10 cycle (Anthropic-xAI orbital data centers)*
 - **2026-05-08**: **SpaceX partners with [[anthropic]] for Colossus 1 supercomputer access** — first publicly disclosed SpaceX-Anthropic deal; revolutionizes Anthropic's compute capacity beyond Amazon/Google commitments; SpaceX's Colossus now serves multiple frontier labs (xAI internal + Anthropic external) — *source: 2026-05-08 cycle (SpaceX-Anthropic Colossus 1 partnership)*
@@ -32,11 +40,17 @@ SpaceX is Elon Musk's space exploration company and, since the Feb 2026 $1.25T s
 ## Key Facts
 
 - Founded: 2002 (Elon Musk)
-- AI subsidiary: [[xai]] (acquired Feb 2026 for $1.25T stock-swap; ~$250B valuation transferred)
+- AI subsidiary: xAI → reorganized as "SpaceXAI" internal division (May 2026)
 - Compute asset: Colossus supercomputer (xAI-built, now SpaceX-owned)
-- IPO filing: ~$1.75T (filed early April 2026)
-- Pending acquisition target: [[cursor]] (~$60B partnership / potential acquisition, Apr 2026)
-- Strategic focus: space-based AI data centers (Starlink solar power), physical-AI deployment
+- IPO: filed 2026-05-20 S-1; target debut **June 12, 2026** on Nasdaq under **SPCX**
+- IPO valuation: $1.7T; up to **$80B raise** (largest IPO in history)
+- 2025 revenue: $18.7B (Starlink ~half-to-2/3, only profitable segment)
+- 2025 net loss: $4.94B
+- 5-for-1 stock split approved (per-share ~$105 post-split)
+- Musk voting control: 85.1%; new 1B Class B share comp grant
+- Pending acquisition right: [[cursor]] — 30-day option post-IPO at $60B ($10B breakup fee)
+- Compute customer: [[anthropic]] via Colossus 1 — 220K GPUs, $1.25B/month, ~$45B 3-year ($45B total through May 2029)
+- Strategic focus: orbital data centers (FCC request for up to **1M satellites**), Mars colony
 
 ## Open Questions
 
@@ -55,3 +69,11 @@ SpaceX is Elon Musk's space exploration company and, since the Feb 2026 $1.25T s
 - data/summaries/2026-05-08.json (SpaceX-Anthropic Colossus 1 supercomputer partnership)
 - data/summaries/2026-05-10.json (Anthropic + xAI orbital data centers via Starlink solar)
 - data/summaries/2026-05-11.json (SpaceX-Anthropic $1.5B JV + 220k Colossus 1 GPU lease)
+- data/summaries/2026-05-13.json (Technology News; TLDR AI — SpaceXAI dissolution + Starship Flight 12 + Terafab)
+- data/summaries/2026-05-14.json (Technology News; TLDR Newsletter — Starship v3)
+- data/summaries/2026-05-15.json (Superhuman — Cursor SpaceXAI 10× compute)
+- data/summaries/2026-05-18.json (DayTrading Dispatch — biggest IPO ever; TAAFT)
+- data/summaries/2026-05-20.json (Technology News; Forward Future; AINews; AI Supremacy — SPCX S-1 filing; 5-for-1 stock split)
+- data/summaries/2026-05-21.json (Forward Future — Musk lost; AINews — Google I/O)
+- data/summaries/2026-05-22.json (DayTrading Dispatch; Anna's DayBreak; TLDR — S-1 details)
+- data/summaries/2026-05-24.json (Technology News — $1.7T IPO; Anna's DayBreak Market Recap; World of AI — China 61%)
