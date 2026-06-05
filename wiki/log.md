@@ -4,6 +4,206 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-06-03
+**Ingested**: data/summaries/2026-06-03.json (backfill batch 10/10 — ~33 newsletters; the day Anthropic confidentially files for IPO)
+
+**Pages updated**:
+- [[anthropic]] — confidential S-1 IPO filing at $965B with $47B run-rate (up from $9B in 2025); Pope Leo encyclical explicitly named Anthropic; AIDE 4-of-500 S&P AI-usage perfect score context; $250B VC concentration in just OpenAI + Anthropic
+- [[openai]] — frontier models + Codex GA on AWS (Bedrock + GovCloud); Florida v OpenAI engagement-over-safety lawsuit; Senate bill could seize half of OpenAI equity; OpenAI Codex Python SDK
+- [[nvidia]] — Cosmos 3 formal launch (Nano 16B + Super 64B Mixture-of-Transformers, SOTA on Text-to-Image / Image-to-Video); Nemotron 3 Ultra 550B-A55B "most intelligent US open-weights model" 5×/30% faster-cheaper; DGX Station for Windows; Vera CPU framed as "CPU for AI agents" with Oracle / CoreWeave / ByteDance support
+- [[perplexity]] — Search as Code (SaC) via SDK; first frontier-search vendor to publish search-as-code-generation research framing
+- [[ai-ipo-wave]] — AI IPO trifecta now fully visible (Anthropic + OpenAI + SpaceX in 4-month window); Bernie Sanders American AI Sovereign Wealth Fund Act; Berkshire Hathaway $10B Google investment
+- [[ai-regulation]] — Sanders Sovereign Wealth Fund Act; Florida v OpenAI; US Commerce export-license extension to China-HQ entities regardless of physical location; Pope Leo names Anthropic
+- [[ai-bubble-concerns]] — AIDE 4-of-500 S&P perfect AI-usage score; $250B VC concentration in OpenAI + Anthropic; 200+ unicorn graveyard; "end of the era of AI discounts" enterprise-price-rise framing
+
+**Pages created**: *(none)*
+
+**Notable**: The headline event of the May-25 → June-3 backfill window arrives: **[[anthropic]] confidentially files a draft S-1 with the SEC for an IPO at $965B valuation with a $47B revenue run-rate** (up from $9B in 2025). The filing puts Anthropic ahead of OpenAI in the race to public markets and turns the AI IPO wave from "preparation" into a "filing race" — with **OpenAI expected to file within weeks at $852B-$1T** and **SpaceX confirmed to start trading on Nasdaq on June 12 at up to $1.75T**; the AI IPO trifecta is now fully visible inside a four-month public-debut window. The **Bernie Sanders American AI Sovereign Wealth Fund Act** + **Senate bill to seize half of OpenAI equity** + Senator Warren's prior wealth + AI-infra tax proposals form a coherent congressional Democratic AI-equity-socialization package — first publicly framed legislative response to the frontier-lab capital concentration. The **AIDE 4-of-500 S&P 500 perfect-AI-usage score** (only NVIDIA, Amazon, Meta, SLB) provides the cleanest quantification yet of the "AI washing" gap that the IPO-wave euphoria can paper over, and **$250B VC concentrated in just OpenAI + Anthropic** alongside the **200+ "unicorn graveyard"** is the structural data point underneath. **NVIDIA Cosmos 3 + Nemotron 3 Ultra + RTX Spark + DGX Station + Vera CPU** is the most concentrated single-day NVIDIA full-stack launch of the cycle (open omnimodal world models + the most-intelligent US open-weights model + 1-petaflop consumer chip + trillion-parameter desktop + agent-tuned CPU). Pope Leo's encyclical *Magnifica Humanitas* explicitly **named Anthropic by name** (per Forward Future) — first frontier-lab name-check by the Vatican, sharpens the Olah-at-Vatican framing from 2026-05-27 as a concrete editorial choice. The end of the backfill window cleanly hands off into the documented 2026-06-04 Anthropic-IPO-filing recoverage entry already on [[anthropic]] and [[ai-ipo-wave]].
+
+---
+
+## 2026-06-02
+**Ingested**: data/summaries/2026-06-02.json (backfill batch 9/10 — ~30 newsletters; pre-GTC Taipei pre-Microsoft Build cycle)
+
+**Pages updated**:
+- [[anthropic]] — Conway agent platform prep (.cnw.zip / isolated containers / webhooks); Bun Zig→Rust port via Claude Code Dynamic Workflows (960K LOC in 6 days, 99.8% tests pass); SpaceX Colossus 1 specifics (220K GPUs + 300MW); Wispr Flow CTO hasn't written code since Dec; Dario Amodei "zeroth world" framing + 5-10% GDP + 10% unemployment + Anthropic engineers no longer write code
+- [[claude-code]] — Dynamic Workflows industrial-scale Bun port demo; spec-as-glue artifact; ultracode mechanics; higher token cost / quieter failure modes framing
+- [[openai]] — Codex Computer Use for Windows 11 + ChatGPT mobile remote-steer; Rosalind Biodefense platform; OpenAI Robotics hiring; third-party evals playbook
+- [[nvidia]] — pre-GTC-Taipei wave: RTX Spark / N1 / N1X / Cosmos 3 / Spectrum-XGS Ethernet / Vera Rubin Space Module / $6.5B photonics / γ-World model / sim-to-real robots
+- [[rtx-spark]] — first publicly framed pre-launch specifics: 20-core Arm + 6,144-core Blackwell + 1 petaflop / Dell + Lenovo + Surface fall 2026
+- [[microsoft]] — Copilot Health (50,000+ US providers); Super App Build 2026 reveal with Scout always-on agent tab confirmed; +30% Azure cloud YoY; $50B Global South AI infra commitment
+- [[grok-build]] — grok-build-0.1 public API beta at $1/M input + $2/M output
+- [[minimax]] — MiniMax M3 release: open-weights, multimodal, 1M context via custom MiniMax Sparse Attention; $0.60/M input; rivals GPT-5.5 + Gemini 3.1 Pro
+- [[mistral]] — (rolled into 2026-06-01 entry)
+
+**Pages created**: *(none — but [[rtx-spark]] first-mentioned date refined to 2026-06-02 from 2026-06-05)*
+
+**Notable**: Heavy pre-GTC-Taipei + pre-Microsoft-Build cycle dominated by **Claude Code Dynamic Workflows production demos** and the **on-device-AI laptop tier crystallizing**. The Bun port — **Jarred Sumner transpiles 960,000 lines of Zig to Rust in 6 days with 99.8% test-suite pass using Claude Code Dynamic Workflows** — is the most concrete public demonstration of agentic-coding-at-industrial-scale to date and explicitly hangs on a load-bearing "spec" artifact mapping Zig idioms to Rust (specs-as-glue becomes the next surface area). The **Anthropic Conway agent platform** prep with `.cnw.zip` extension standard + isolated containers + webhook triggers positions Anthropic against the Microsoft Copilot super-app + the Zapier-class multi-app automation category, parallel to the [[claude-managed-agents]] runtime. **OpenAI Codex Windows 11 Computer Use + remote-steer from ChatGPT mobile** + **Rosalind Biodefense** + **Robotics hiring drive** sketch the post-IPO-filing OpenAI three-front expansion (desktop / biosecurity / physical world). NVIDIA's pre-GTC-Taipei wave (RTX Spark / N1 / N1X / Cosmos 3 / Spectrum-XGS / Vera Rubin Space Module) lays the on-device-AI + cross-DC + orbital-AI substrate that gets stamped at the June-5 keynote. **Dario Amodei's "zeroth world" framing** (5-10% GDP growth alongside 10% unemployment — a combination that has never existed before — driven by AI displacing entire categories of knowledge work) lands as the strongest single labor-economics framing of the cycle, paired with the disclosure that **Anthropic engineers themselves have stopped writing code** and use Claude Opus to generate it then edit. **MiniMax M3** open-weights frontier model at $0.60/M input + 1M context via custom Sparse Attention is the cleanest open-vs-closed pricing-pressure data point of the week.
+
+---
+
+## 2026-06-01
+**Ingested**: data/summaries/2026-06-01.json (backfill batch 8/10 — ~14 newsletters; Monday after the Anthropic Series H + Opus 4.8 week)
+
+**Pages updated**:
+- [[mistral]] — Vibe Work Mode + Code Mode + VS Code extension; expands into aviation/cars/defense/shipping (Airbus, BMW, CMA CGM); CEO calls for "buy European" rules; status active again
+- [[character-ai]] — Pennsylvania sues over chatbot posing as licensed psychiatrist with fabricated license + prescription offer; status active again
+- [[microsoft]] — super app preview unifying Copilot + Cowork + agentic "Autopilot" (precursor framing to Build 2026 Scout reveal)
+- [[ai-regulation]] — Pennsylvania v Character.AI psychiatrist-impersonation lawsuit; YouTube AI-content auto-detection labels in production at scale
+- [[ai-hardware]] — NVIDIA $6.5B photonics investment for copper-to-light data-center interconnects; SK Hynix + Micron both cross $1T market cap from AI memory demand
+
+**Pages created**: *(none)*
+
+**Notable**: Quiet Monday after the Anthropic Series H + Opus 4.8 + Dynamic Workflows headline week. Two structural beats stand out. (1) The Pennsylvania v [[character-ai]] lawsuit pivots companion-AI regulation from emotional-dependency framing into **AI-impersonation of credentialed professionals** with a concrete fabricated-license + prescription-offer fact pattern — likely the first US state-level precedent for credentialed-profession AI restrictions, with adjacency to the Iowa K-12 AI-chatbot rules from 2026-05-25. (2) **[[mistral]] expands from banking-only enterprise deployment into industrial verticals** — Airbus / BMW / CMA CGM deals across aviation / cars / defense / shipping plus the CEO's "buy European" rules call land as concrete European-sovereign-AI infrastructure (counter-anchors the Apple-Google $1B/year + Anthropic $965B Series H US-frontier consolidation of the prior week). NVIDIA's **$6.5B photonics investment** signals the next AI-hardware bottleneck shift from compute to I/O (copper interconnects → light-based interconnects) and pairs with **SK Hynix + Micron both crossing $1T market cap** as the AI-memory-hardware tier now sits at full hyperscaler-class capitalization. Microsoft's "super app" preview lands as the explicit Autopilot codename precursor that becomes [[microsoft-scout]] at Build 2026 on 2026-06-04 — the announcement-to-public-launch cadence tightens.
+
+---
+
+## 2026-05-31
+**Ingested**: data/summaries/2026-05-31.json (backfill batch 7/10 — ~18 newsletters; Sunday cycle dominated by May Recap framing)
+
+**Pages updated**:
+- [[anthropic]] — Microsoft formally replaces Claude Code internally with Copilot CLI (concretizes); virtual-town Grok vs Claude experiment (Claude zero crime / Grok 183 crimes 4-day collapse); LLMs absorb-false-claims-as-true >90% research; Claude Skills Pack community product; May Recap framing
+- [[claude-code]] — Microsoft Experiences & Devices formal Copilot-CLI swap; Codex controls Windows cross-tool competitive context; GitLab Orbit live software-lifecycle knowledge graph; Microsoft preparing own AI coding model
+- [[openai]] — Codex controls Windows + ChatGPT mobile remote-steer; GPT-5.5 Instant sycophancy/factuality/multilingual update; FDE push aligned across labs (AIE + OpenAI DeployCo + Anthropic DeployCo); Superalignment-team-dissolution narrative recoverage in "The People Building AI Are Not Okay"
+- [[apple]] — iOS 27 dedicated Siri app sharpens: text + voice modes + conversation log + message history; requires Apple Intelligence + iPhone 15 Pro or newer
+- [[gemini-spark]] — rolls out to US AI Ultra subscribers (live-deployment milestone)
+- [[ai-jobs-displacement]] — Intuit 3,000 cuts (~17%) "double down on big AI bets" + CEO walkback contradiction; Wix 1,000 cuts (~20%) explicit AI evolution attribution; combined ~4,000 publicly disclosed AI-attributed jobs in single cycle
+
+**Pages created**: *(none)*
+
+**Notable**: Sunday cycle, lighter on net-new, dominated by **May Recap** synthesis (the World of AI May 2026 retrospective frames Anthropic's $380B → $965B jump as the largest single-quarter modern-VC-era valuation step-up for any major private company) and follow-on validation of the previous week's headlines. The substantive new beat: **Microsoft formally replaces Claude Code internally with GitHub Copilot CLI** in its Experiences & Devices division — sharpens the 2026-05-23 / 5-27 / 5-28 framing into a Fortune-10-scale internal-tooling swap headline. The **Intuit 3,000 + Wix 1,000 ~4,000 AI-attributed layoffs in a single Sunday cycle** lands in counter-balance to the [[lovable]] $400M-ARR-with-146-people record from 2026-05-30 — the two outcomes are the same week's bookends for what the agentic-coding revenue-per-employee inflection means for incumbent SaaS employment levels. The "virtual town Grok 183 crimes vs Claude zero crime" experiment is a soft Anthropic alignment-story win heading into the post-Opus-4.8 / Mythos-1 commercialization cycle, but its real significance is methodological: first publicly framed multi-model multi-day "virtual society" stability comparison. **Gemini Spark rolling out to US AI Ultra subscribers** is the first live-deployment milestone for I/O 2026's headline consumer agent feature — concrete evidence that the I/O 2026 trifecta ([[gemini-3-5-flash]] + [[gemini-omni]] + [[gemini-spark]] + [[antigravity-2]]) is moving from announcement to shipping cadence on schedule.
+
+---
+
+## 2026-05-30
+**Ingested**: data/summaries/2026-05-30.json (backfill batch 6/10 — ~30 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Claude Opus 4.8 launches; Dynamic Workflows / ultracode; $65B Series H at $965B; $47B run-rate; Mythos-class to all customers "in coming weeks"; AWS Bedrock rollout
+- [[claude-code]] — Dynamic Workflows / ultracode: up to 1,000 parallel sub-agents per session; Opus 4.8 release; Cursor developer-habits "output doubled but concentrated in power users" cross-tool context; Microsoft preparing new AI coding model
+- [[claude-mythos]] — Mythos-class to all customers "in coming weeks" — concrete commercialization timeline
+- [[apple]] — Siri leak pre-WWDC: standalone chatbot app + Dynamic Island UI + persistent conversations + file uploads in iOS 27 (June 8)
+- [[lovable]] — $400M ARR in 14 months with 146 people, ~zero paid ads — ~$2.7M ARR/employee
+- [[groq]] — $650M raise + pivot from AI chips to inference cloud services (contradicts the Dec-2025 NVIDIA $20B-acquisition framing; flagged as open question)
+- [[ai-funding-rounds]] — Anthropic $65B Series H at $965B (Altimeter/Dragoneer/Greenoaks/Sequoia); Groq $650M; Lovable $400M ARR
+- [[ai-bubble-concerns]] — AI token costs +65% since Feb 2026; only 18 cents per token dollar generates user value (Uber budget exhaustion framing); status active again
+- [[ai-regulation]] — EU AI Act amended to delay high-risk restrictions; CNN sues Perplexity over AI-generated content; Sen. Warren wealth tax + AI infra tax proposal
+
+**Pages created**: [[claude-opus-4-8]]
+
+**Notable**: Single biggest Anthropic day of the cycle and arguably of 2026. **Claude Opus 4.8** ships with a *reliability-over-raw-capability* posture (4× less likely to leave code flaws unflagged; 4× drop in confidently-stated guesses; "sets a new floor for honesty in AI models" per Staying Ahead with AI; SOTA on SWE-Bench Pro / FrontierSWE / APEX-SWE / Terminal-Bench 2.1 / OSWorld-Verified / GDPval-AA; outperforms [[gpt-5-5]] + Gemini 3.1 Pro on agentic coding + computer use + financial analysis per launch coverage) **at the same price as Opus 4.7**, plus a fast mode at **2.5× speed / 1/3 the cost** and a **1M-token context window** — directly counters the late-May "AI tokenmaxxing" enterprise-ROI complaint (Uber, Microsoft) with a concrete cheaper-and-better-and-more-honest answer. **[[claude-code]] Dynamic Workflows / "ultracode"** orchestrates **up to 1,000 parallel sub-agents in a single session** — the largest parallel-sub-agent fanout publicly framed for any agentic coding tool. The capital backstop arrives the same day: **$65B Series H at $965B post-money** (Altimeter / Dragoneer / Greenoaks / Sequoia) with **$47B run-rate revenue** — the AINews headline "Anthropic raises $965B Series H" crystallizes the Anthropic-is-bigger-than-OpenAI inflection. Anthropic confirms Mythos-class models reach all customers **"in the coming weeks"** — collapses the controlled-access model into a near-term mass-availability roadmap inside [[claude-code]] + the new Claude Security dashboard. Adjacent: **Lovable's $400M ARR in 14 months with 146 people** (~$2.7M ARR/employee, ~zero paid ads) is the highest revenue-per-employee data point of the year and validates the specialized-vertical-AI thesis at the consumer end of the [[vibe-coding]] market. **Groq's $650M raise + pivot to inference cloud services** publicly contradicts the December 2025 NVIDIA-$20B-acquired-Groq framing — preserved as an open question pending third-mention reconciliation.
+
+---
+
+## 2026-05-29
+**Ingested**: data/summaries/2026-05-29.json (backfill batch 5/10 — ~28 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — $30B round closes at $900B+; Mythos 1 commercialization to Claude Code + Claude Security dashboard; Claude Opus 4.8 released; Claude Code reliability update; voice mode adds 6 languages; AWS-key-leakage TAAFT concern; $75M → $3B early-investor return
+- [[claude-mythos]] — Mythos 1 commercialization begins (Claude Code + Claude Security dashboard); dual-use commercialization playbook articulated; 10K verified bugs across Apple/Google/Microsoft/AWS/Cisco
+- [[claude-code]] — Mythos 1 surface in Claude Code; Claude Opus 4.8 release; reliability update (responsiveness/MCP/error/session-recovery/long-context); Cognition Devin 89% own code competitive context
+- [[cognition]] — $1B Series D at $26B; Devin 89% own code (up from 13% in Dec); $37M→$492M revenue in 12 months; $1B+ ARR projection; status active again
+- [[openai]] — OpenAI Foundation $250M for shared AI prosperity (windfall mechanisms / labor-to-capital tax shifts); GPT-5.2 + GPT-5.3-Codex sunset June 2; GPT-5.5 becomes default for free users; OpenAI private MCP; OpenAI confidential IPO filed; Trump kills AI safety EO after 3-CEO call; ChatGPT ad-platform expansion
+- [[google]] — Gemini Embedding 2 unified multimodal (text/audio/video/image); Coral Board on-device AI dev platform; Hassabis tightens AGI countdown to 2029
+- [[meta]] — superintelligence research lab + recruits from OpenAI/Google; $65B AI capex (TLDR framing); Meta Plus subscription globally + Meta One AI tiers
+- [[ai-funding-rounds]] — Anthropic $30B/$900B+ closes; Cognition $1B/$26B; Trajectory $15M continual learning; Tensormesh $20M; $75M → $3B early-investor return
+- [[ai-regulation]] — Trump shelves AI safety EO after 3-CEO call (NSA 90-day pre-launch review killed); YouTube AI-content auto-detection + deepfake labels; FBI AI fraud own category (+74% teen victims, $7.2B crypto)
+- [[ai-cybersecurity-arms-race]] — Glassworm botnet poisons 300+ GitHub repos (CrowdStrike + Google + Shadowserver dismantle); BadHost Starlette Python single-char auth bypass; Mythos 1 commercialization
+- [[ai-jobs-displacement]] — OpenAI Foundation $250M operationalizes Altman's softer framing; Cognition Devin 89% own code as concrete agent-replaces-engineer data point
+
+**Pages created**: *(none)*
+
+**Notable**: Three same-cycle inflections compound. (1) **Anthropic's $30B round officially closes at $900B+** — Anthropic is now the most valuable private AI company, and **Mythos 1 commercialization begins in [[claude-code]] + a new Claude Security dashboard**, converting the 10K-bug capability claim from a controlled-access proof-point into a gated paid SKU inside developers' default workflow. (2) **Cognition raises $1B at $26B** with **Devin now writing 89% of its own code** (up from 13% in December) and **revenue $37M → $492M in 12 months** — the cleanest "agent-replaces-engineer" data point of the cycle and the strongest second-position challenger to the Anthropic/[[claude-code]] coding-agent thesis. (3) **OpenAI Foundation pledges $250M for shared AI prosperity** with explicit experiments around windfall mechanisms, labor-to-capital tax shifts, and sovereign wealth funds — converts Altman's softer "jobs apocalypse" framing from rhetoric into a foundation-funded program — and same day **OpenAI confidentially files S-1 IPO draft to the SEC** and **Trump shelves the AI safety EO after 3 tech-CEOs called him directly** (NSA pre-launch model review killed). The Hassabis 2029 AGI floor crystallizes the timeline-tightening that started 2026-05-26. Same-cycle Glassworm 300-GitHub-repo poisoning + Starlette BadHost (single-char auth bypass) + Mythos-1-commercialization triple is the cleanest "AI cybersecurity arms race normalizes at supply-chain scale" cycle of the year.
+
+---
+
+## 2026-05-28
+**Ingested**: data/summaries/2026-05-28.json (backfill batch 4/10 — ~33 newsletters)
+
+**Pages updated**:
+- [[apple]] — pays Google ~$1B/year for 1.2T custom Gemini for Siri; Baltra ~1T late 2026; iOS 27 GenAI subdomain
+- [[google]] — Apple $1B/year deal as biggest third-party Gemini customer; Chrome built-in AI dev API; Hassabis AGI-by-2030; Stanford AI hiring racial bias study
+- [[anthropic]] — Anthropic Academy 17 free Claude certifications + Skilljar; Claude Code security-guidance plugin + 5h rate limits doubled via SpaceX + Accenture 30K training + ~4% of public GitHub commits + 20% projection; Spotify-UMG consent-based AI music
+- [[claude-code]] — security-guidance plugin; 5h rate limits doubled (SpaceX); Accenture 30K; 4% public GitHub commits + 20% EOY projection; Anthropic Academy 17 courses; OpenAI 70-line CLAUDE.md cookbook; Bearly OpenADE plans-then-execute; Datacurve DeepSWE benchmark (GPT-5.5 70 / Sonnet 4.6 32 / Gemini 3 Flash 5)
+- [[qwen-3-7-max]] — concrete benchmarks: 80.4 SWE-Bench Verified / 92.4 GPQA Diamond / 56.6 AAII (#5); closed-weights confirmed; half Opus 4.7 pricing
+- [[openai]] — ChatGPT 900M weekly users; Altman ChatGPT-personality "biggest risk" framing; Altman softens AI jobs apocalypse; intelligence as metered utility; Shavit safety lead → OpenAI Foundation / AI Resilience program; new CMO from ServiceNow; 70-line CLAUDE.md cookbook
+- [[ai-funding-rounds]] — Fireworks $15B + Baseten $11B AI-infra decacorns; OpenRouter $113M at $1.3B (CapitalG); OpenRouter weekly volume 5T→25T tokens in 6 months; HF LeRobot Humanoid $2,500
+- [[ai-jobs-displacement]] — Altman softens jobs apocalypse; Uber tokenmaxxing burned 2026 AI budget in 4 months; Meta WA 1,400 layoffs; NEA teachers union calls for AI ban in elementary schools; US gov hiring 1,200 AI Medicare/Medicaid fraud hunters
+- [[ai-hardware]] — Huawei LogicFolding 3D vertical chip stacking (1.4nm-equivalent density within 5 years); Jensen Huang $150B/year Taiwan pledge
+- [[figure]] — Catalyst Brands deal (JCPenney + Brooks Brothers + ...); $39B valuation; "engineered for endurance" framing
+
+**Pages created**: *(none)*
+
+**Notable**: **Apple paying [[google]] ~$1B/year for a custom 1.2T-parameter Gemini to power Siri** is the most significant Big-Tech AI-strategy reversal of the cycle — concrete dollar-figure confirmation that Apple is *renting* frontier capability rather than building it solo, paired with an explicit ~1T-parameter "Baltra" model on the late-2026 roadmap. This is exactly the multi-vendor-AI-provider future the 2026-05-07 Apple-opens-to-third-party-AI move foreshadowed, but the $1B/year price tag converts it into a market-shaping economic relationship. Same cycle: **Anthropic Academy launches 17 free Claude certifications + Accenture trains 30K professionals on Claude Code**, mirroring the 2026-05-25 PwC 30K — the "30K-seat consulting deal" is now a *repeated* pattern, not a one-off, and the Claude Code rate-limits-doubled + 4%-of-public-GitHub-commits + 20%-EOY-projection numbers anchor the "Claude Code as developer-productivity utility" thesis at concrete share-of-market terms. The Uber **"AI tokenmaxxing"** framing (entire 2026 AI budget burned in 4 months, 95% engineers using AI monthly, COO Macdonald can't prove ROI) lands as the first major-enterprise public ROI-reckoning at production scale — pairs with **Altman softening his jobs-apocalypse warnings** and **Shavit leaving OpenAI to launch AI Resilience program at the OpenAI Foundation** for a single-cycle inflection: the major-lab founders are repositioning rhetoric (Altman tones down displacement risk, Olah's Vatican framing concedes it) and the safety-org architecture is bifurcating (in-lab safety teams shrinking, foundation-funded resilience programs expanding). The **Fireworks $15B / Baseten $11B / OpenRouter $113M at $1.3B** triple-decacorn moment in the inference-routing tier converts the 2026-05-01 Sam Altman "become an inference company" Inference Inflection essay into a fully realized capital-markets reality in 28 days.
+
+---
+
+## 2026-05-27
+**Ingested**: data/summaries/2026-05-27.json (backfill batch 3/10 — ~28 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Pope Leo XIV *Magnifica Humanitas* encyclical + Chris Olah at Vatican; $30B+ round closing this week at $900B+ (Sequoia/Dragoneer/Altimeter/Greenoaks); 125+ Claude Code settings only 40 documented; Microsoft winds down Claude Code Experiences/Devices; ECB warns banks on Mythos
+- [[claude-code]] — 125+ settings only 40 documented; Microsoft Experiences/Devices winddown; Uber COO Macdonald "harder to justify" AI spending
+- [[google]] — 100 new dev features; Antigravity CLI launches; AI Studio Android-no-code 250K apps in week one; Gemini 3.5 Flash powers AI Search; Managed Agents in Gemini API; APAC Climate AI Accelerator; AlphaProof Nexus 56-year math mystery
+- [[antigravity-2]] — Antigravity CLI lightweight terminal launches + AI Studio Android (250K apps week one)
+- [[xai]] — Grok Build opens to all SuperGrok + X Premium+; Grok V9-Medium 1.5T finished training (coding focus, public release 2-3 weeks); Grok Skills
+- [[grok-build]] — opens to subscribers; plans-before-execute + parallel sub-agents; explicitly positioned vs Claude Code + Codex
+- [[cursor]] — 40% of Cursor's own PRs from cloud agents; Temporal workflow engine
+- [[ai-regulation]] — Pope Leo Magnifica Humanitas + Iowa first-state AI-chatbot-3hr-reminder-for-children rule + ECB Mythos warning + UK brain-inspired silicon AI-sovereignty + Meta/Google open-weights decensored
+- [[ai-jobs-displacement]] — Olah Vatican "real possibility" large-scale displacement; Goldman Solomon counterframe; cybersecurity +11% YoY hiring; McKinsey billing-model rethink
+- [[ai-funding-rounds]] — Anthropic $30B+ at $900B+ closing (Sequoia/Dragoneer/Altimeter/Greenoaks); OpenAI $1T confidential IPO filing (Goldman + Morgan Stanley)
+
+**Pages created**: *(none)*
+
+**Notable**: The Vatican goes from peripheral commentator to first-rank AI-policy actor with **Pope Leo XIV's *Magnifica Humanitas* encyclical** (42,000 words / 235 pages dedicated entirely to AI; "disarm" framing; AI training data as common good not private property; explicit Industrial-Revolution parallel). Anthropic co-founder Chris Olah standing alongside the Pope at the Vatican Synod Hall and stating "real possibility" of large-scale labor displacement is the first frontier-lab-founder acknowledgment of mass-displacement risk delivered at a global-policy venue — converts the prior week's Pichai NYT "I get it" admission into a peer-credibility cluster (Pichai + Olah on one side, Goldman's Solomon explicitly on the other side as a no-job-apocalypse counterframe). Same day: **Anthropic's $30B+ round at $900B+ closing this week** (Sequoia + Dragoneer + Altimeter + Greenoaks) explicitly passes [[openai]]'s $852B March valuation and crowns Anthropic as most valuable private AI company, while **OpenAI confidentially files for IPO at $1T** with Goldman Sachs + Morgan Stanley — the two largest private-AI capital-markets events ever are now both in play in the same 24 hours, which is the actual setup the 2026-06-04 Anthropic confidential-IPO landing pays off. Cursor's disclosure that **40% of its own codebase PRs now come from cloud agents** is the first concrete "agents-as-default-engineer" production number from a top vendor and validates the "vibe coding" trajectory at the engineering-team level. The Google "100 new features for devs" wave (Antigravity CLI + AI Studio Android-no-code with 250K apps in week one + Managed Agents in Gemini API) signals Google's I/O 2026 execution is on schedule for the agentic-dev-stack thesis.
+
+---
+
+## 2026-05-26
+**Ingested**: data/summaries/2026-05-26.json (backfill batch 2/10 — ~18 newsletters)
+
+**Pages updated**:
+- [[google]] — AlphaProof Nexus solves 9 open Erdős + 44 OEIS conjectures via LLM+Lean; Hassabis 5-year human-level AI; AI Search definitions bug
+- [[claude-mythos]] — 10,000+ vulns in 30 days vs only 97 patched; Cloudflare 2,000 bugs; Mozilla 271 fixed in Firefox 150; Mythos 1 imminent; Opus 4.8 rumored; banking/browser/cloud-infra scanned; safe-distribution problem framing
+- [[project-glasswing]] — ~50 organizations confirmed cohort size; vulnerability discovery outpaces patching inflection
+- [[anthropic]] — Mythos 30-day scorecard + Claude Code `/usage` command + Karpathy 65-line CLAUDE.md 65%→94% + SpaceX-Anthropic $15B/yr lease reframing + Mythos 1 + Opus 4.8 rumor
+- [[claude-code]] — `/usage` command for per-skill/subagent/MCP token telemetry + Karpathy 65-line config; IBM Bob Claude-powered legacy-code modernization
+- [[deepseek]] — V4 Pro 75% permanent price cut; API $0.0035-$0.83/M tokens; undercuts GPT-5, Opus 4.7, Gemini 3.5 Flash
+- [[cursor]] — $3B annual sales + 3,000+ enterprise customers locked in as durable headline; Codex 10% production traffic via third-party Pi Terminal + OpenCode counter-positioning
+- [[openai]] — hiring $445K AI-safety self-improving-AI watcher; Gartner Magic Quadrant Leader for enterprise coding agents; Codex 4M weekly users; Codex 10% third-party traffic via Pi Terminal + OpenCode; Project Prometheus (Bezos)
+- [[meta]] — Stratos Project 40,000-acre Utah AI data center; AIRA agent autonomous architecture discovery beats Llama 3.2; Forum + 10% layoffs + 7K reassigned re-confirmed
+- [[andrej-karpathy]] — 65-line CLAUDE.md config 65%→94% Claude coding accuracy
+- [[ai-cybersecurity-arms-race]] — Mythos 10K/97 patched + Cloudflare 2K + Mozilla 271 + TeamPCP open-source poisoning + South Korea AI fake-audio celebrity career end + Auth.md secure agent registration
+
+**Pages created**: *(none)*
+
+**Notable**: Three same-cycle autonomous-discovery milestones land together — [[google]] DeepMind's **AlphaProof Nexus solves 9 open Erdős + 44 OEIS conjectures** at a few-hundred-dollars-per-problem cost (overtakes [[openai]]'s 2026-05-22 single-Erdős disproof by 8 more problems), [[openai]] hires a **$445K AI-safety specialist explicitly to watch self-improving AI systems**, and [[meta]]'s **AIRA agent autonomously discovers neural architectures** that beat Llama 3.2 at every scale tested — together these point to "models doing real research while being watched" becoming a hire-able job category at the major labs. Separately, the [[claude-mythos]] **10,000-bug / 97-patches scoreboard** is the first publicly framed inflection where vulnerability discovery outpaces patch labor at industrial scale; Anthropic's "the safe-distribution problem is harder than the capability problem" framing recasts [[project-glasswing]] from a coalition into the actual *governance answer* to that distribution problem. [[deepseek]]'s **75% permanent V4 Pro price cut** locks in the AI-pricing-collapse narrative from late April as a permanent floor below GPT-5, Opus 4.7, and Gemini 3.5 Flash — sets up the V4 + ~50B-yuan funding cycle on 2026-06-05. [[claude-code]]'s **`/usage` command + Karpathy's 65-line CLAUDE.md config (65%→94%)** are the first concrete post-developer-backlash + post-Karpathy-join Claude Code deliverables — together they say "developers care about token-cost visibility *and* a known-good prompt scaffold," and Anthropic just shipped both in the same week.
+
+---
+
+## 2026-05-25
+**Ingested**: data/summaries/2026-05-25.json (backfill batch 1/10 — ~16 newsletters)
+
+**Pages updated**:
+- [[anthropic]] — PwC 30,000-staff Claude deployment + Goldman Sachs Claude accounting/compliance + $30-50B raise at ~$900B + $200M Gates Foundation re-coverage + 10,000-vulnerability Mythos capability claim + rolling outages from chip shortage
+- [[claude-code]] — PwC 30K training rollout + free 147-lesson Claude Code course + Mindstream non-developer primer
+- [[claude-cowork]] — second anchor surface in PwC 30K deployment; status active again
+- [[openai]] — ads inside ChatGPT + bank-account connection for financial planning + Codex on phone + Dell hybrid/on-prem partnership + Erdős unit-distance disproof recoverage + Meta AIRA cross-lab autoresearch context
+- [[chatgpt]] — ads + bank-account connection for financial planning
+- [[codex-app]] — Codex on phone via ChatGPT mobile + Dell hybrid+on-prem
+- [[google]] — 10 moves from I/O 2026 + AGI by 2030 + Pichai NYT Hard Fork AGI-uncertainty admission + Bumble Bee AI matchmaker + Musk lawsuit dismissed + Universal Cart as biggest commerce announcement framing
+- [[gemini-omni]] — post-I/O synthesis (claymation protein-folding prompt + plain-conversation editing example)
+- [[ai-jobs-displacement]] — graduation booing + Pichai "I get it" interview + Meta/LinkedIn AI-investment cuts + Starbucks discontinues AI inventory tool + Stanford economist weak-link framing
+- [[ai-funding-rounds]] — Anthropic $30-50B at $900B + Mintlify $45M Series B (48% AI-agent doc visitors)
+- [[enterprise-ai]] — Anthropic-PwC 30K + Goldman Sachs Claude + Mintlify agent-readable-docs framing; status active again
+- [[ai-hardware]] — chip shortage / Anthropic rolling outages / CIA rationing / $9B White House Blackwell fund for spy agencies
+
+**Pages created**: *(none)*
+
+**Notable**: The most strategically significant single-day fact pattern of late-May is the **PwC 30,000-seat Claude deployment** — first publicly disclosed five-figure-seat single-customer Claude training program, with [[claude-code]] *and* [[claude-cowork]] named together as the anchor surfaces (resolves the open question of how Anthropic positions Cowork relative to Code at enterprise scale — they're sold as a paired productivity-plus-coding bundle). Combined with **Goldman Sachs Claude for accounting + compliance** the same day, Anthropic now has top-3 US banks (JPMorgan via Mythos cohort, Goldman via accounting/compliance) and the largest professional-services firm (PwC) running Claude as a default workplace surface — the Ramp-data lead over OpenAI from 2026-05-15 is showing up in named-customer deployment terms. Separately, the **chip-shortage rolling outages at Anthropic + CIA compute rationing + $9B White House secret Blackwell fund for spy agencies** is the first time the GPU squeeze has surfaced operationally at a frontier lab; supply, not capital, is now the binding constraint on the agentic-AI rollout cadence. Sundar Pichai's NYT Hard Fork "no one can say for sure if we are on an absolute path to AGI" remark is the first mainstream-press AGI-uncertainty admission from a top-3 lab CEO and reframes the 2026-05-19 I/O "AGI by 2030" line as a target-with-error-bars rather than a roadmap commitment.
+
+---
+
 ## 2026-05-24
 **Ingested**: data/summaries/2026-05-24.json (backfill batch 12/12 — 13 newsletters)
 

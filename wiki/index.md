@@ -21,10 +21,10 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cerebras]] — wafer-scale AI inference silicon; powers OpenAI Codex; files for IPO under ticker CBRS at $22-25B (Apr 2026)
 - [[bytedance]] — Chinese tech giant; ships Seedance 2.0 / Seedream 5.0 on Jimeng AI video platform *(stale)*
 - [[canva]] — design platform; Video 2.0 and own foundation model *(stale)*
-- [[character-ai]] — companion chatbot; ban on minors effective Nov 25 2025; ships Stories interactive fiction *(stale)*
+- [[character-ai]] — companion chatbot; ban on minors effective Nov 25 2025; ships Stories interactive fiction; Pennsylvania psychiatrist-impersonation lawsuit (Jun 2026)
 - [[cisco]] — networking incumbent; AI agents absorbing ~80% of routine network-ops work Feb 2026 *(stale)*
 - [[cloudflare]] — CDN/edge platform; 1,100 layoffs (~20%) for "agentic AI-first operating model" May 2026
-- [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf *(stale)*
+- [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf; $1B Series D at $26B + Devin writes 89% of own code (May 2026)
 - [[cohere]] — Toronto enterprise LLM vendor; open-source Transcribe ASR tops HuggingFace leaderboard across 14 languages *(stale)*
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale *(stale)*
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025 *(stale)*
@@ -32,7 +32,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[extropic]] — TSU thermodynamic-sampling chip; ~10,000× energy-efficiency claim *(stale)*
 - [[figure]] — humanoid robots; Figure 03; sued by former product-safety head Nov 2025 *(stale)*
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
-- [[groq]] — LPU inference-silicon company; NVIDIA reported $20B acquisition Dec 2025 *(stale)*
+- [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026)
@@ -45,7 +45,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[meta]] — Muse Spark + open-weights pivot; $21B CoreWeave; SAM 3/3D; WorldGen
 - [[microsoft]] — Copilot ecosystem; Mico personality; Copilot App Builder; renewed OpenAI ~27% stake
 - [[minimax]] — Chinese frontier-model lab; M2.1 coding model
-- [[mistral]] — French frontier lab; Mistral Studio + Mistral 3 open-weights flagship; HSBC partnership *(stale)*
+- [[mistral]] — French frontier lab; Mistral Studio + Mistral 3 open-weights; HSBC + Airbus/BMW/CMA CGM; Vibe Work/Code Mode (Jun 2026)
 - [[moonshot-ai]] — Chinese frontier lab; ships Kimi K2 Thinking open-source reasoning model
 - [[notion]] — workspace app; Custom Agents autonomous AI teammates Feb 2026 *(stale)*
 - [[nous-research]] — open-source AI research collective; Hermes Agent self-improving AI agent Feb 2026
@@ -92,7 +92,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions (May 2026)
 - [[claude-code-security]] — Anthropic's security scanner inside Claude Code (Feb 2026) *(stale)*
 - [[claude-code-web]] — browser/cloud Claude Code for dev work outside the terminal *(stale)*
-- [[claude-cowork]] — Anthropic's local-file agent for organizing digital work *(stale)*
+- [[claude-cowork]] — Anthropic's local-file agent for organizing digital work; anchor surface in PwC 30K-staff deployment (May 2026)
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills *(stale)*
 - [[claude-for-legal]] — Anthropic's vertical Claude package for law firms; 20+ MCP connectors + 12 plugins (May 2026)
@@ -106,6 +106,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-opus-4-5]] — Anthropic's Nov 2025 flagship; 80.9% SWE-bench Verified; T2 Retail 88.9% / Telecom 98.2% *(stale)*
 - [[claude-opus-4-6]] — Anthropic's Feb 2026 flagship; 1M context, agent teams, fast mode 2.5× *(stale)*
 - [[claude-opus-4-7]] — Anthropic's Apr 2026 flagship; 3.75 MP vision, xhigh effort, file memory
+- [[claude-opus-4-8]] — Anthropic's May 30 2026 flagship; 4× less unflagged-code-flaw rate; fast mode 2.5×/1/3 cost; 1M context; SWE-Bench Pro / Terminal-Bench 2.1 SOTA
 - [[claude-skills]] — Anthropic's reusable capabilities + Agent Skills *(stale)*
 - [[claude-sonnet-4-6]] — Anthropic's Feb 2026 mid-tier; Opus-class perf at 40% lower cost; 79.6% SWE-Bench *(stale)*
 - [[codex-app]] — OpenAI's native macOS app for Codex; parallel agents, Skills library, Automations *(stale)*
@@ -241,14 +242,14 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos *(stale)*
 
 ## Trends
-- [[ai-bubble-concerns]] — institutional warnings vs $1T/$5T deal flow *(stale)*
+- [[ai-bubble-concerns]] — institutional warnings vs $1T/$5T deal flow; AI token costs +65% YoY; AIDE 4-of-500 S&P perfect-AI-usage score (Jun 2026)
 - [[ai-funding-rounds]] — major AI sector financings; SoftBank, AWS, Google-Anthropic, Mercor
 - [[ai-hardware]] — chips, form factors, robots, $38B AWS-OpenAI, Extropic TSU, Qualcomm AI200
 - [[ai-ipo-wave]] — OpenAI $500B / Anthropic $350B IPO prep and frontier-lab public-market path *(stale)*
 - [[ai-jobs-displacement]] — labor-market impact studies + flagship AI-driven layoffs (Anthropic Economic Index, Block, Snowflake) *(stale)*
 - [[ai-regulation]] — government / judicial / labor / safety pressure on AI labs
 - [[ai-slop]] — AI-content flood quality concerns; YouTube 20%+, Instagram Mosseri commentary *(stale)*
-- [[enterprise-ai]] — AI moving into workplace software; Company Knowledge, Excel, Agent HQ, Copilot *(stale)*
+- [[enterprise-ai]] — AI moving into workplace software; PwC + Accenture 30K-staff Claude Code rollouts; Goldman Sachs Claude (May 2026)
 - [[vibe-coding]] — Karpathy-framed agent-first coding movement; Lovable, Cursor, Claude Code; generalizing into writing (Mollick, Jun 2026)
 
 ## Queries

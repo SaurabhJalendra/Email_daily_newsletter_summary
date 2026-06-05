@@ -9,7 +9,7 @@ metadata:
 
 > **Type**: product
 > **First mentioned**: 2026-05-21
-> **Last updated**: 2026-05-23
+> **Last updated**: 2026-05-28
 > **Status**: active
 > **Related**: [[alibaba]], [[qwen-3-5]], [[claude-opus-4-7]], [[gpt-5-5]], [[gemini-3-5-flash]], [[agent-frameworks]]
 
@@ -19,6 +19,7 @@ Qwen 3.7-Max is Alibaba's May 2026 flagship Qwen, a proprietary closed-weight mo
 
 ## Timeline
 
+- **2026-05-28**: **Concrete benchmark numbers land**: Qwen 3.7-Max scores **80.4% SWE-Bench Verified**, **92.4% GPQA Diamond**, **56.6 Artificial Analysis Intelligence Index** (ranks #5 overall); pricing roughly **half of [[claude-opus-4-7]]**; **closed-weights confirmed** as the new default ("departure from Qwen's open-source approach" — concrete framing); available through Alibaba Cloud + select aggregators; sustains the 2026-05-21 framing into shippable benchmarks — *source: 2026-05-28 cycle (World of AI — Apple Pays Gemini / Alibaba Qwen 3.7 Max — 56.6 AAII / 80.4% SWE-Bench / 92.4% GPQA Diamond / half Opus pricing; AlphaSignal — Alibaba Qwen 3.7 Max 80.4% SWE-Bench Verified + 92.4% GPQA Diamond + 1M context fits entire codebases)*
 - **2026-05-23**: Qwen 3.7-Max + Cohere Command A+ + Gemini 3.5 Flash + Antigravity 2.0 called out as the week's agentic-stack — *source: 2026-05-23 cycle (NLP Newsletter — AI Agents Weekly)*
 - **2026-05-22**: Qwen 3.7-Max with 35h continuous autonomous execution confirmed; Zhenwu M890 paired in coverage; ranks 5th on Artificial Analysis Index — *source: 2026-05-22 cycle (AI Breakfast — Qwen 35h continuous; The Code — Microsoft and Uber ditch Claude Code; TLDR AI — Anthropic Microsoft deal + Qwen 3.7)*
 - **2026-05-21**: Qwen 3.7-Max emerges — beats Claude Opus 4.6 Max on math benchmarks, 1M context, 35h continuous reasoning; Alibaba's two-track strategy (Plus open / Max closed) crystallizes — *source: 2026-05-21 cycle (TAAFT — OpenAI Preps $1T IPO + Qwen 3.7-Max; Evolving AI Insights — A 200-Hour Bet; Forward Future — NVIDIA earnings)*
@@ -45,3 +46,4 @@ Qwen 3.7-Max is Alibaba's May 2026 flagship Qwen, a proprietary closed-weight mo
 - data/summaries/2026-05-21.json (TAAFT; Evolving AI Insights; Forward Future)
 - data/summaries/2026-05-22.json (AI Breakfast; The Code; TLDR AI; InstaByte)
 - data/summaries/2026-05-23.json (NLP Newsletter; The Code — Microsoft drops Claude Code; AINews — All Model Labs are now Agent Labs)
+- data/summaries/2026-05-28.json (World of AI — Qwen 3.7 Max benchmarks + closed-weights pricing; AlphaSignal — Qwen 3.7 Max SWE-Bench Verified + GPQA Diamond + 1M context)

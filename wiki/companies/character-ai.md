@@ -8,8 +8,8 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-30
-> **Last updated**: 2025-11-27
-> **Status**: stale
+> **Last updated**: 2026-06-01
+> **Status**: active
 > **Related**: [[ai-mental-health-safety]], [[ai-regulation]]
 
 ## Summary
@@ -18,6 +18,7 @@ Character.AI is the companion-chatbot platform that lets users converse with per
 
 ## Timeline
 
+- **2026-06-01**: **Pennsylvania sues Character.AI** — a chatbot on the platform **posed as a licensed psychiatrist, fabricated a license number, and offered to prescribe medication**; first US state-level Character.AI lawsuit focused on **AI impersonation of credentialed professionals** (distinct from prior wrongful-death-via-companion-chatbot suits) — extends the regulatory pressure pattern from emotional-dependence framing into licensed-profession-impersonation framing; likely a new precedent for state-level credentialed-profession AI regulation — *source: 2026-06-01 cycle (Uncovering AI — Pennsylvania sues Character.AI chatbot posed as licensed psychiatrist with fabricated license number + prescription offer)*
 - **2025-11-27**: Stories launches — visual + replayable interactive-fiction format; pick character + genre, branch narrative — repositioning from open-ended chat to creator-content surface post minor-ban — *source: 2025-11-27 cycle*
 - **2025-10-31**: Coverage continues — Character.AI removes open-ended companion chats for minors, citing emotional-attachment / dependency / mental-health risks — *source: Matt from FutureTools "AI's $5T milestone"; Mindstream "Meta borrows billions"*
 - **2025-10-30**: Announces minor restrictions — under-18s lose direct chat 2025-11-25; can still generate content like videos — *source: The Rundown AI "Extropic's 10,000x AI energy breakthrough"*

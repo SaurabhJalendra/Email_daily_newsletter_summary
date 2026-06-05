@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-24
-> **Last updated**: 2026-04-14 (backfill 2026-04-14)
+> **Last updated**: 2026-06-02
 > **Status**: active
 > **Related**: [[deepseek]], [[alibaba]], [[moonshot-ai]], [[agent-frameworks]]
 
@@ -18,6 +18,7 @@ MiniMax is one of the Chinese AI labs active in the December 2025 open-weights p
 
 ## Timeline
 
+- **2026-06-02**: **MiniMax M3 released** — open-weights, multimodal frontier model designed for long-horizon coding agents and complex workflows; **custom MiniMax Sparse Attention (MSA) architecture** scales context up to **1M tokens** while cutting long-context compute (MSA is the headline architectural innovation); rivals [[gpt-5-5]] and Gemini 3.1 Pro per launch coverage; **priced at $0.60 / M input tokens** (undercuts most US frontier-class coding-agent models); available through **MiniMax Code**, the **Token Plan**, and MiniMax's API services; supports image and video input + operates a desktop computer; launching on Ollama's Cloud the same week (Ollama distribution context) — *source: 2026-06-02 cycle (Evolving AI Insights — MiniMax M3 open-weights multimodal 1M context MSA + rivals GPT-5.5/Gemini 3.1 Pro; The Code — MiniMax M3 open-weights with MSA + $0.60/M input tokens; TLDR AI — MiniMax M3 multimodal frontier + MiniMax Code + Token Plan)*
 - **2026-04-14**: MiniMax M2.7 released as open-weight on Hugging Face — 230B parameters runnable locally on a 128GB RAM setup; teams can self-host the coding model previously only available as hosted API — significant push for open-weight coding-agent stacks amid [[anthropic]] third-party blockages and OpenClaw billing cutoff — *source: 2026-04-14 cycle*
 - **2026-04-02**: M2.7 release details expand — built on self-evolution (model "deeply participates in its own training"); reaches parity with [[claude-sonnet-4-5]] ([[anthropic]] Sonnet 4.6) on [[openclaw]] at a fraction of the cost; open-sources the Office Skills library — four production-grade Word / Excel / PDF / PPT skills that generate deliverable files (direct answer to Anthropic Agent Skills + OpenAI Agent Skills packaging); launches a new Token subscription plan spanning M2.7, video, voice, music, and image modalities — first cross-modal unified plan from a Chinese open-weights lab — *source: 2026-04-02 cycle (TLDR — Claude Code leaks / Try M2.7 / Office Skills / Token Plan; TLDR AI — M2.7 on OpenClaw parity with Sonnet 4.6)*
 - **2026-03-20**: MiniMax M2.7 launches — self-evolving AI model; rivals [[openai]] + [[anthropic]] on coding benchmarks; supports complex software-engineering/office/research workflows; distributed via [[ollama]] — *source: 2026-03-20 cycle*

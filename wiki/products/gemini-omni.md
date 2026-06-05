@@ -9,7 +9,7 @@ metadata:
 
 > **Type**: product
 > **First mentioned**: 2026-05-13
-> **Last updated**: 2026-05-23
+> **Last updated**: 2026-05-25
 > **Status**: active
 > **Related**: [[google]], [[gemini]], [[gemini-3-5-flash]], [[veo-3]], [[nano-banana-pro]], [[project-genie]], [[ai-video-generation]], [[world-models]]
 
@@ -19,6 +19,7 @@ Gemini Omni is Google's conversational multimodal video model launched at Google
 
 ## Timeline
 
+- **2026-05-25**: Post-I/O 2026 synthesis: Omni recapped as the "video generation from text prompts" surface that lets users (e.g.) "generate a claymation explainer of protein folding from a one-line prompt" — concrete example crystallizes the editorial framing of Omni as a high-fidelity-+-conversational-editing pair; users can ask for adjustments (motion blur in background, warmer lighting) via plain chat after generation — *source: 2026-05-25 cycle (The AI Corner — 10 moves from I/O 2026 / Gemini Omni; Uncovering AI — Gemini Omni high-fidelity video + plain-conversation editing)*
 - **2026-05-23**: Gemini Omni continues circulating as the "create-anything model" framing in AI-agents weekly recaps — *source: 2026-05-23 cycle (NLP Newsletter; Hello World)*
 - **2026-05-20**: Gemini Omni Flash announced as the conversational video-editing flagship — supports remixing, object swap, template editing, mixing inputs; up to 10s clips today, API access in coming weeks — *source: 2026-05-20 cycle (AlphaSignal — Gemini Omni Flash; AI Breakfast — Every Announcement; Cerebral Valley)*
 - **2026-05-19**: Gemini Omni officially announced at Google I/O 2026 — replaces Veo 3.1 branding in Gemini surfaces; rolls out to AI Plus, Pro, Ultra tiers across Gemini app, Google Flow, YouTube Shorts — *source: 2026-05-19 cycle (World of AI — Gemini 3.5 Flash + Karpathy + IO; AINews — Gemini 3.5 Flash + Omni + Antigravity; The Rundown AI — biggest reveals from Google I/O; TLDR — Google I/O; AI Breakfast — Every Announcement; Forward Future — Google found AI's killer distribution hack; Evolving AI Insights — OpenAI Co-Founder Joins Anthropic)*
@@ -48,3 +49,4 @@ Gemini Omni is Google's conversational multimodal video model launched at Google
 - data/summaries/2026-05-19.json (World of AI; AINews; The Rundown AI; TLDR; AI Breakfast; Forward Future; Evolving AI Insights)
 - data/summaries/2026-05-20.json (AlphaSignal; AI Breakfast; Cerebral Valley)
 - data/summaries/2026-05-23.json (NLP Newsletter; Hello World)
+- data/summaries/2026-05-25.json (The AI Corner — claymation protein-folding explainer prompt; Uncovering AI — high-fidelity video + plain-conversation editing example)

@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-14
-> **Last updated**: 2026-05-22
+> **Last updated**: 2026-05-26
 > **Status**: active
 > **Related**: [[nanochat]], [[openai]], [[anthropic]], [[recursive-architectures]], [[recursive-superintelligence]], [[agent-frameworks]], [[vibe-coding]]
 
@@ -18,6 +18,7 @@ Andrej Karpathy is a founding-era [[openai]] researcher and former Tesla Autopil
 
 ## Timeline
 
+- **2026-05-26**: **Karpathy's 65-line CLAUDE.md config boosts Claude coding accuracy from 65% → 94%** in published framing — four rules encoded in the config file: think-before-coding, simplicity-first, surgical-changes, goal-driven; widely circulated as the first prominent post-Anthropic-join Karpathy contribution and gives [[claude-code]] users a concrete, copy-pasteable accuracy lever (separate artifact from the Autoresearch method but the same agent-discipline-via-config thesis) — *source: 2026-05-26 cycle (AlphaSignal — Karpathy's 65-line config pushes Claude coding accuracy to 94%)*
 - **2026-05-22**: Karpathy's **Autoresearch method** circulates as the canonical recipe — three-file architecture (prepare.py / train.py / program.md), agent runs experiments while user sleeps, ~11% validation-score improvements; Hyperspace AI runs 333 experiments across 35 agents overnight for 19% improvement — *source: 2026-05-22 cycle (The AI Corner — How to 10× any AI skill using Autoresearch)*
 - **2026-05-21**: Karpathy admits "never felt more behind" — AI code over-trust giving him "heart attacks"; developer community deconstructs the meta-commentary — *source: 2026-05-21 cycle (The Code — AI boom divides Silicon Valley)*
 - **2026-05-20**: Karpathy free video course teaching neural networks from scratch ships; ties into the educational lineage he plans to resume — *source: 2026-05-20 cycle (AlphaSignal — Hallmark + Karpathy course)*
@@ -47,3 +48,4 @@ Andrej Karpathy is a founding-era [[openai]] researcher and former Tesla Autopil
 - data/summaries/2026-05-20.json (AlphaSignal — Karpathy free video course)
 - data/summaries/2026-05-21.json (The Code — Karpathy never felt more behind)
 - data/summaries/2026-05-22.json (The AI Corner — Karpathy Autoresearch method)
+- data/summaries/2026-05-26.json (AlphaSignal — Karpathy 65-line CLAUDE.md config pushes Claude coding accuracy to 94%)

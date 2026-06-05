@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-05-21
+> **Last updated**: 2026-05-27
 > **Status**: active
 > **Related**: [[nvidia]], [[spacex]], [[grok-4-1]], [[grok-4-20]], [[grok-build]], [[grokipedia]], [[grok-imagine]], [[ai-hardware]], [[ai-funding-rounds]]
 
@@ -18,6 +18,7 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 ## Timeline
 
+- **2026-05-27**: **[[grok-build]] opens to all SuperGrok and X Premium+ users** in beta (graduates from May-15 SuperGrok Heavy-only beta to broader subscriber availability) — terminal coding agent that **shows its plan before executing** and can hand off bigger tasks to parallel sub-agents (positions Grok Build as the explicit plan-then-execute competitor to [[claude-code]] and [[openai-codex]]); **Musk announces Grok V9-Medium (1.5T-parameter foundation model) has finished training** — designed for "harder coding tasks," reinforcement-learning phase begins within days, public release expected in 2–3 weeks (first Grok release in trillion-parameter tier framed explicitly around coding); **xAI launches Grok Skills** for custom workflows; also xAI exodus narrative continues to circulate — *source: 2026-05-27 cycle (The Rundown AI — Pope wants AI disarmed / xAI Grok Build to all SuperGrok and X Premium+ + Grok V9-Medium 1.5T training complete; Forward Future — Grok V9-Medium 1.5T harder coding; Evolving AI Insights — xAI Grok Skills; The Code — Grok Build opens to subscribers)*
 - **2026-05-21**: xAI's prior research-lab independence further erodes as SpaceXAI division status hardens; coverage frames as "Cursor would be wholly absorbed if SpaceX exercises $60B option" — *source: 2026-05-21 cycle (Cerebral Valley + Forward Future)*
 - **2026-05-20**: Igor Babuschkin (xAI co-founder) leaving to start **River AI**, seeking up to $1B in funding — concrete data-point on the xAI talent exodus to Meta, Thinking Machines, and now Babuschkin's new venture — *source: 2026-05-20 cycle (TLDR AI — Grok Build + xAI exodus; TLDR — Meta's AI reorg)*
 - **2026-05-15**: **[[grok-build]] CLI launches in early beta** for SuperGrok Heavy subscribers — curl install, plan mode (diff review), subagents, deep worktree integrations, headless mode for easy automation; xAI exodus to Meta + Thinking Machines accelerates — *source: 2026-05-15 cycle (TLDR AI — Grok Build + Codex + xAI exodus; The Code — Codex on phone)*

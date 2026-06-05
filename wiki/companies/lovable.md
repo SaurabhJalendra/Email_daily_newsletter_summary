@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-23
-> **Last updated**: 2026-04-15 (backfill 2026-04-15)
+> **Last updated**: 2026-05-30
 > **Status**: active
 > **Related**: [[vibe-coding]], [[claude-code]], [[cursor]], [[ai-funding-rounds]], [[agent-frameworks]]
 
@@ -18,6 +18,7 @@ Lovable is a European "vibe-coding" startup whose product turns natural-language
 
 ## Timeline
 
+- **2026-05-30**: **Lovable hits $400M ARR in 14 months with 146 people** and **almost zero paid ads** — concrete answer to the open question of revenue scale for the 2025-12-23 $6.6B valuation; fastest vibe-coding-tier revenue ramp on record and one of the highest revenue-per-employee ratios of any SaaS-class company in 2026 (~$2.7M ARR per employee); validates the "specialized vertical AI tier scales without a sales motion" thesis at the consumer / prosumer end of [[vibe-coding]] — *source: 2026-05-30 cycle (How Lovable hit $400M ARR in 14 months with 146 people and almost zero paid ads)*
 - **2026-04-15**: Lovable Payments launches — sell products from Lovable-built sites by describing item, price, and assets in chat; monetize websites via chat; extends prompt-to-app into prompt-to-revenue — *source: 2026-04-15 cycle*
 - **2026-01-02**: Lovable cited in the "vibe coding / Claude Code" revolution framing — agents writing code autonomously reshaping the programming profession — *source: 2026-01-02 cycle*
 - **2025-12-25**: Lovable listed alongside [[claude-code]] as leading tools powering the Karpathy "vibe coding" framing — users build mobile apps and UI straight from prompts — *source: 2025-12-25 cycle*

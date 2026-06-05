@@ -8,8 +8,8 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-27
-> **Last updated**: 2026-03-28
-> **Status**: stale
+> **Last updated**: 2026-06-01
+> **Status**: active
 > **Related**: [[mistral-studio]], [[mistral-3]], [[ministral-3]], [[mistral-ocr-3]], [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]]
 
 ## Summary
@@ -18,6 +18,7 @@ Mistral AI is the Paris-based frontier lab known for its open-weight model line 
 
 ## Timeline
 
+- **2026-06-01**: **Mistral Vibe gains Work Mode + Code Mode** — Work Mode automates administrative tasks, Code Mode adds remote coding agents + a VS Code extension (extends the 2026-03-21 Mistral Vibe terminal-coding-agent into a multi-mode productivity surface and gives Mistral an explicit VS Code distribution path); **Mistral expands into aviation / cars / defense / shipping** — deals with **Airbus, BMW, CMA CGM** (first publicly framed Mistral expansion into industrial verticals beyond banking [HSBC] and consumer cloud); **Mistral CEO calls for "buy European" rules** to close the funding gap with US tech giants (first explicit Mistral-led European-AI-protectionism framing); **BNP Paribas leaning on Mistral** (Le Chat + open-weight) carried forward from 2026-05-29 — sustains the European-banking + sovereign-AI thesis — *source: 2026-06-01 cycle (Uncovering AI — Mistral Vibe Work Mode + Code Mode + VS Code extension; Mindstream — Mistral expands into aviation/cars/defense/shipping with Airbus/BMW/CMA CGM + buy European rules)*
 - **2026-03-28**: Voxtral released — open-weight text-to-speech model; fast, expressive, multilingual (initial launch across 9 languages); framed alongside [[cohere]] Transcribe and ElevenLabs as part of a wave of open-weight audio models pressuring proprietary incumbents — *source: 2026-03-28 cycle (The Rundown AI — Mistral Voxtral)*
 - **2026-03-21**: Mistral Vibe released — terminal-native coding agent that refactors entire codebases; PRs, tests, docs "on autopilot" — *source: 2026-03-21 cycle*
 - **2026-03-19**: Mistral Forge debuts — full-cycle model development with internal training recipes and forward-deployed scientists; Mistral Small 4 MoE released for enterprise customers — *source: 2026-03-19 cycle*

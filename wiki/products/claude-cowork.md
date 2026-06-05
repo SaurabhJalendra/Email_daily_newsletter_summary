@@ -8,8 +8,8 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-01-14
-> **Last updated**: 2026-03-24
-> **Status**: stale
+> **Last updated**: 2026-05-25
+> **Status**: active
 > **Related**: [[anthropic]], [[claude-code]], [[claude-opus-4-5]], [[agent-frameworks]], [[enterprise-ai]]
 
 ## Summary
@@ -18,6 +18,7 @@ Claude Cowork is [[anthropic]]'s general-purpose AI agent for local-file work, l
 
 ## Timeline
 
+- **2026-05-25**: **Anthropic-PwC names Claude Cowork the second anchor surface** (alongside [[claude-code]]) in the 30,000-US-staff training program — concrete signal that Cowork has graduated from individual-productivity tool into a billable enterprise-deployment SKU; live deployments include insurance underwriting, cybersecurity, and HR workflows running through PwC's joint Anthropic Center of Excellence — *source: 2026-05-25 cycle (The AI Brief — Anthropic-PwC largest enterprise deployment)*
 - **2026-03-24**: Projects feature added — persistent workspaces linking local folders, instructions, and ongoing tasks; one-click imports for local task organization — *source: 2026-03-24 cycle*
 - **2026-03-18**: Dispatch launches (research preview) — users send tasks from their phone and have Cowork execute them on a Mac desktop asynchronously; enables remote-trigger workflows — *source: 2026-03-18 cycle (World of AI); 2026-03-19 cycle (Mac-specific detail)*
 - **2026-02-27**: Scheduled tasks added — enables automated recurring Cowork workflows — *source: 2026-02-27 cycle*
@@ -53,3 +54,4 @@ Claude Cowork is [[anthropic]]'s general-purpose AI agent for local-file work, l
 - data/summaries/2026-02-27.json (Cowork scheduled tasks)
 - data/summaries/2026-03-18.json (Dispatch — phone-to-desktop task hand-off)
 - data/summaries/2026-03-24.json (Projects feature — persistent workspaces linking local folders + tasks)
+- data/summaries/2026-05-25.json (The AI Brief — Anthropic-PwC 30K-staff Claude Cowork + Claude Code training; insurance underwriting / cybersecurity / HR live deployments)

@@ -9,7 +9,7 @@ metadata:
 
 > **Type**: product
 > **First mentioned**: 2026-05-19
-> **Last updated**: 2026-05-23
+> **Last updated**: 2026-05-31
 > **Status**: active
 > **Related**: [[google]], [[gemini]], [[gemini-3-5-flash]], [[antigravity-2]], [[claude-managed-agents]], [[openai-workspace-agents]], [[agent-frameworks]]
 
@@ -19,6 +19,7 @@ Gemini Spark is Google's always-on personal AI agent announced at Google I/O 202
 
 ## Timeline
 
+- **2026-05-31**: **Gemini Spark rolls out to US AI Ultra subscribers** — first publicly framed live-deployment milestone for the 24/7 personal agent (graduates from I/O announcement → live consumer feature in US AI Ultra tier); coverage frames Spark as the canonical "consumer-managed-agent" reference vs [[claude-managed-agents]] and [[openai-workspace-agents]] — *source: 2026-05-31 cycle (AINews — Gemini Spark rolled out to US AI Ultra subscribers as 24/7 personal agent)*
 - **2026-05-23**: Gemini Spark recirculates as the canonical Google-vs-Anthropic-vs-OpenAI personal-agent reference point — *source: 2026-05-23 cycle (NLP Newsletter; Hello World)*
 - **2026-05-22**: Gemini Spark + Daily Brief expand into Gmail / Maps / Calendar agentic actions as part of broader "Gemini becomes the OS" framing — *source: 2026-05-22 cycle (TAAFT — OpenAI Preps $1T IPO; Uncovering AI — Bezos says AI labor shortage)*
 - **2026-05-21**: Coverage emphasizes Spark's distribution-via-Google footprint (Search, YouTube, Gmail, Docs, Chrome, Android) as the "killer distribution hack" — *source: 2026-05-21 cycle (Forward Future — Google found AI's killer distribution hack)*

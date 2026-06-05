@@ -8,7 +8,7 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-05-25
 > **Status**: active
 > **Related**: [[nvidia]], [[nvidia-cosmos]], [[vera-rubin]], [[ironwood-tpu]], [[project-suncatcher]], [[amd]], [[broadcom]], [[oracle]], [[meta]], [[apple]], [[apple-m5]], [[xai]], [[openai]], [[amazon]], [[qualcomm]], [[extropic]], [[figure]], [[liquid-ai]]
 
@@ -18,6 +18,9 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 
 ## Timeline
 
+- **2026-06-01**: **[[nvidia]] invests $6.5B in photonics companies** — copper-to-light data-center interconnect push aimed at the I/O bottleneck that constrains current AI-rack designs; first publicly framed nine-figure photonics-company investment from a US AI hardware vendor at this scale; **SK Hynix + Micron both cross $1T market cap** driven by AI data-center memory chip demand (two new $1T-cap AI-hardware companies in the same week extends the 2026-05-29 Mindstream "Micron and SK Hynix joined the $1T club" framing into a confirmed milestone) — *source: 2026-06-01 cycle (Uncovering AI — NVIDIA $6.5B photonics investment for copper-to-light data-center interconnects; Mindstream — SK Hynix + Micron crossed $1T cap driven by AI memory demand)*
+- **2026-05-28**: **Huawei "LogicFolding" 3D vertical chip stacking** — claims a technique that stacks traditional 2D circuits into vertical structures, matching the transistor density of 1.4nm process nodes and (per Huawei) closing the cutting-edge gap within 5 years; first publicly framed Chinese AI-chip-architecture answer to US export controls that doesn't require ASML EUV — concrete signal that the China silicon-sovereignty thesis is now an *architectural* play (vertical density) rather than just a process play; **Jensen Huang pledges $150B/year to Taiwan** during his visit — secures supply chain via TSMC, framed as Taiwan-AI-epicenter geopolitical anchor; **AMD Zen 7 chips** referenced as upcoming; **Qualcomm-ByteDance AI deal** circulated — *source: 2026-05-28 cycle (AI vs the Pope — Huawei LogicFolding 3D vertical stacking 1.4nm equiv within 5 years; Uncovering AI — Jensen Huang $150B/year Taiwan AI hardware investment; Forward Future — AMD Zen 7 + Qualcomm-ByteDance)*
+- **2026-05-25**: **AI chip shortage surfaces operationally** — [[anthropic]] reports rolling outages tied to demand; the CIA reportedly rationing compute; **White House approves a secret $9B fund for spy agencies to acquire [[nvidia]] Blackwell chips** — first explicit federal-procurement carve-out for AI silicon at this scale, framed as a national-security supply lock-in to clear classified-AI roadmaps through the GPU squeeze; concrete data point that physical-silicon availability is now the binding constraint on the frontier-model rollout cadence (not capital, not regulation) — *source: 2026-05-25 cycle (Uncovering AI — chip shortage / Anthropic outages / CIA rationing compute / $9B Blackwell fund)*
 - **2026-04-16**: [[meta]] signs $21B CoreWeave deal; early Vera Rubin GPU deployments included — *source: InstaByte*
 - **2026-04-16**: [[nvidia]] launches Ising quantum chip family — *source: The Tech Buzz*
 - **2026-04-16**: TSMC Q1 revenue up 40.6% YoY; CEO C.C. Wei says capacity "very tight" — *source: The Tech Buzz*
@@ -128,3 +131,4 @@ October 2025 showed hardware moving from background to foreground for AI. On sil
 - data/summaries/2026-02-26.json (Meta-AMD $100B / 6 GW)
 - data/summaries/2026-03-03.json (Meta-AMD partnership details)
 - data/summaries/2026-03-06.json (Nvidia potential investment pullback)
+- data/summaries/2026-05-25.json (Uncovering AI — chip shortage / Anthropic rolling outages / CIA rationing compute / White House $9B Blackwell fund for spy agencies)

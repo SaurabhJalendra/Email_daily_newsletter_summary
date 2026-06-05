@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-10
-> **Last updated**: 2026-05-23
+> **Last updated**: 2026-05-28
 > **Status**: active
 > **Related**: [[ai-hardware]], [[ai-regulation]]
 
@@ -18,6 +18,7 @@ Figure is a humanoid robot company. In early October 2025 it unveiled Figure 03 
 
 ## Timeline
 
+- **2026-05-28**: **Figure inks deal with Catalyst Brands** (parent of JCPenney, Brooks Brothers, others) to deploy humanoid robots across the retail conglomerate's operations — first publicly framed multi-banner US retail deployment for Figure (broader than the prior single-brand pilots); same cycle: **$39B valuation** confirmed (from ~$500M three years ago), little revenue but explicit narrative-arbitrage between F.03 endurance demos and the retail-deployment storyline; Figure F.03 / Helix-02 framed as "engineered for endurance, not just intelligence" — *source: 2026-05-28 cycle (AI vs the Pope — Figure inks deal with Catalyst Brands; Forward Future — Figure $39B valuation context; AlphaSignal — Figure robots deployed to JCPenney + Brooks Brothers stores)*
 - **2026-05-23**: **Figure F.03 completes 200-hour run sorting 249,560 packages** with **zero failures** on continuous livestream — first publicly framed multi-day-endurance benchmark for humanoid robots; CEO cites keeping a single session live past 8 hours as the hardest engineering hurdle; rewrites the benchmark for humanoid robots from short demo clips to multi-day endurance — *source: 2026-05-23 cycle (TAAFT — This AI Takes Your Phone Away; Evolving AI Insights — 200-Hour Bet; Superhuman — four-armed robot for space; AINews — New AI Infra unicorns)*
 - **2026-05-20**: Figure AI's Helix-02 humanoid robots have been **livestreaming package sorting since May 13** — sustained 8-hour shifts; viral coverage tracks the 24/7 milestone — *source: 2026-05-20 cycle (TAAFT — AI Took Over Radio; Forward Future — Musk lost in under 2 hours)*
 - **2026-05-16**: Figure Helix-02 robots sustain **full factory-style 8-hour shifts without intervention** for the first time — concrete production-grade autonomy data point; reportedly matches human-parity throughput on small package sorting — *source: 2026-05-16 cycle (TLDR — Apple vs OpenAI + Figure Helix-02; Superhuman — Unitree UniStore + Figure)*

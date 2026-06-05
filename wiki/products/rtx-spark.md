@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **Vendor**: [[nvidia]]
-> **First mentioned**: 2026-06-05
+> **First mentioned**: 2026-06-02
 > **Last updated**: 2026-06-05
 > **Status**: announced (ships fall 2026)
 > **Related**: [[nvidia]], [[microsoft]], [[ai-hardware]], [[openclaw]], [[vera-rubin]], [[gemma-4]]
@@ -19,6 +19,7 @@ RTX Spark is NVIDIA's 1-petaflop consumer "superchip" announced at GTC Taipei (J
 
 ## Timeline
 
+- **2026-06-02**: **Pre-launch coverage** for RTX Spark begins ahead of the GTC Taipei keynote on June 5 — 20-core Arm CPU + 6,144-core Blackwell GPU + 1 petaflop on a single chip; framed as NVIDIA "returning to PCs after a decade away"; partner laptops from Dell + Lenovo + Microsoft Surface ship fall 2026; designed to keep AI agents running quietly in the background sorting email or chasing bugs while user works (TLDR pairs this with details on **N1 / N1X** Windows-Arm chips: N1 has up to 16GB RAM, N1X up to 128GB RAM — same Computex/Taipei window) — *source: 2026-06-02 cycle (Evolving AI Insights — NVIDIA Brings RTX Spark Chip to Windows / 1 petaflop / Dell, Lenovo, Microsoft Surface fall 2026; TLDR Newsletter — Nvidia N1 + N1X Windows-Arm chips up to 128GB RAM; TLDR AI — Nvidia N1X laptop chip at Computex 2026)*
 - **2026-06-05**: Launch announcement at GTC Taipei keynote (Jensen Huang) — 1-petaflop chip, on-device agentic workflows, secure Microsoft-built sandboxes for OpenClaw / Hermes, partner OEMs ASUS / Dell / HP / Lenovo / Microsoft Surface / MSI, ships fall 2026; positioned alongside [[vera-rubin]] (CPU now in full production) and DGX Station for Windows as NVIDIA's three-tier personal-to-enterprise AI hardware stack; Microsoft Surface ships a "Surface RTX Spark Dev Box" mini-PC the same day; coverage frames the announcement as the trigger for "local AI as mainstream deployment target" — *source: World of AI "NVIDIA runs AI on your PC"; NVIDIA GTC "GTC Taipei keynote recap: Useful AI has arrived"; InstaByte "Anthropic files for IPO"; The Rundown AI "Reve, Ideogram trade prompts for layouts"; AINews "Reve 2 and Ideogram 4: Layouts in Imagegen"; TLDR "SpaceX prices IPO"; The Code "Google drops Gemma 4"; Forward Future "OpenAI's real plan for ChatGPT"*
 
 ## Key Facts
@@ -40,4 +41,5 @@ RTX Spark is NVIDIA's 1-petaflop consumer "superchip" announced at GTC Taipei (J
 
 ## Sources
 
+- data/summaries/2026-06-02.json (Evolving AI Insights — NVIDIA Brings RTX Spark Chip to Windows; TLDR Newsletter — N1 / N1X chips; TLDR AI — N1X laptop at Computex 2026)
 - data/summaries/2026-06-05.json (World of AI — NVIDIA runs AI on your PC; NVIDIA GTC — Useful AI has arrived; InstaByte — Anthropic files for IPO; The Rundown AI — Reve, Ideogram trade prompts; AINews — Reve 2 and Ideogram 4; TLDR — SpaceX prices IPO; The Code — Google drops Gemma 4; Forward Future — OpenAI's real plan for ChatGPT)

@@ -8,8 +8,8 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-05
-> **Last updated**: 2026-02-19 (backfill 2026-01-05..2026-02-19)
-> **Status**: stale
+> **Last updated**: 2026-05-25
+> **Status**: active
 > **Related**: [[gemini-enterprise]], [[agentforce]], [[salesforce]], [[microsoft]], [[google]], [[openai]], [[anthropic]], [[chatgpt-company-knowledge]], [[claude-cowork]], [[claude-for-excel]], [[github-agent-hq]], [[mistral-studio]], [[universal-commerce-protocol]], [[agent-frameworks]]
 
 ## Summary
@@ -18,6 +18,7 @@ October 2025 was a sustained enterprise-AI product cycle. [[google]] shipped [[g
 
 ## Timeline
 
+- **2026-05-25**: **[[anthropic]]-PwC "largest enterprise Claude deployment to date"** — 30,000 US PwC staff trained on [[claude-code]] + [[claude-cowork]] via a joint Anthropic-PwC Center of Excellence; live deployments running across insurance underwriting, cybersecurity, HR; sets a five-figure-seat single-customer benchmark for frontier-lab enterprise rollouts; **Goldman Sachs adopts Claude for accounting + compliance automation** (top-3 US bank Claude rollout); **OpenAI ads in ChatGPT + bank-account connection for financial planning** (consumer-LLM features bleeding directly into enterprise-services use cases); **Mintlify $45M Series B + 48% of doc visitors are AI agents** crystallizes the agent-readable-docs-as-product-strategy framing for B2B SaaS — *source: 2026-05-25 cycle (The AI Brief — Anthropic-PwC 30K + Goldman Sachs Claude / OpenAI ads + bank connect; Prompt Guy — Mintlify $45M + 48% AI-agent doc visitors)*
 - **2026-02-19**: Figma Code-to-Canvas integrates [[claude-code]] as a hand-off target — design-stage to build-stage continuity inside enterprise design tooling — *source: 2026-02-19 cycle*
 - **2026-02-18**: [[chatgpt]] Lockdown Mode launches — restricted high-security session mode for enterprise/government workflows — *source: 2026-02-18 cycle*
 - **2026-02-13**: [[microsoft]] Copilot Tasks expands — task graph for end-to-end enterprise workflows — *source: 2026-02-13 cycle*
@@ -83,3 +84,4 @@ October 2025 was a sustained enterprise-AI product cycle. [[google]] shipped [[g
 - data/summaries/2026-01-15.json (Attio; Walmart + Google)
 - data/summaries/2026-01-18.json (Copilot Studio VS Code extension)
 - data/summaries/2026-01-19.json (Microsoft Copilot Checkout)
+- data/summaries/2026-05-25.json (The AI Brief — Anthropic-PwC 30K Claude Code + Cowork deployment / Goldman Sachs Claude accounting + compliance / OpenAI ads + bank-account connect; Prompt Guy — Mintlify $45M Series B / 48% AI-agent doc visitors)

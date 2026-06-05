@@ -9,7 +9,7 @@ metadata:
 
 > **Type**: product
 > **First mentioned**: 2026-05-19
-> **Last updated**: 2026-05-23
+> **Last updated**: 2026-05-27
 > **Status**: active
 > **Related**: [[google]], [[antigravity]], [[gemini-3-5-flash]], [[gemini-spark]], [[claude-code]], [[claude-code-agent-view]], [[openai-codex]], [[cursor]], [[agent-frameworks]]
 
@@ -19,6 +19,7 @@ Antigravity 2.0 is Google's rebuilt-from-scratch successor to the 2025-11 [[anti
 
 ## Timeline
 
+- **2026-05-27**: **Antigravity CLI lightweight terminal interface launched** as a publicly available variant (publicized as part of the Google "100 new features for devs" wave); paired with **AI Studio native Android app builder** (no-code Android deployment with 250,000+ apps created in the first launch week, first two deploys free); concrete signal Antigravity 2.0 is now a multi-surface dev brand (desktop + CLI + AI Studio + SDK) rather than a single app — *source: 2026-05-27 cycle (The Code — Antigravity CLI launches + AI Studio 250K apps in week one; The AI Leverage — Google 100 new features for devs / Managed Agents in Gemini API)*
 - **2026-05-23**: Antigravity 2.0 + Codex Thursday + Cohere Command A+ + Qwen 3.7-Max called out as the AI-agent stack of the week — *source: 2026-05-23 cycle (NLP Newsletter; AlphaSignal)*
 - **2026-05-22**: Antigravity CLI replacing Gemini CLI confirmed in coverage; Google sunsets Gemini CLI for the new agent terminal — *source: 2026-05-22 cycle (The Code — How do junior devs break in)*
 - **2026-05-21**: Google triples weekly quotas across all paid Antigravity 2.0 plans after launch-driven demand surge — *source: 2026-05-21 cycle (AI Breakfast — Qwen 35h continuous)*
@@ -51,3 +52,4 @@ Antigravity 2.0 is Google's rebuilt-from-scratch successor to the 2025-11 [[anti
 - data/summaries/2026-05-21.json (AI Breakfast)
 - data/summaries/2026-05-22.json (The Code; Mindstream)
 - data/summaries/2026-05-23.json (NLP Newsletter; AlphaSignal)
+- data/summaries/2026-05-27.json (The Code — Antigravity CLI lightweight terminal launches + AI Studio Android builder 250K apps in week one; The AI Leverage — Google 100 new features push)

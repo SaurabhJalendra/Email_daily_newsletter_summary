@@ -8,8 +8,8 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-10-10
-> **Last updated**: 2025-12-17 (backfill 2025-12-05..2025-12-19)
-> **Status**: stale
+> **Last updated**: 2026-05-30
+> **Status**: active
 > **Related**: [[ai-funding-rounds]], [[openai]], [[anthropic]], [[nvidia]], [[google]]
 
 ## Summary
@@ -18,6 +18,8 @@ In October 2025 multiple institutional voices — the Bank of England, the IMF, 
 
 ## Timeline
 
+- **2026-06-03**: **AI-Driven Enterprise Institute (AIDE) S&P 500 grade**: only **4 of 500 companies** achieve a perfect-100 AI-usage score — **NVIDIA + Amazon + Meta + SLB** (extends and quantifies the "AI washing" framing — most S&P 500 companies claim AI use but lack measurable deployment); **~$250B in venture funding has flowed into just two companies (OpenAI + Anthropic)** — concentration of pre-IPO capital around two names (Superhuman framing); **"Unicorn graveyard"**: 200+ AI startups have failed for lack of funding while the wave concentrates around the IPO trifecta (concrete IPO-wave-vs-broader-AI-startup-ecosystem divergence); same-cycle AI labs (Anthropic + OpenAI) raise enterprise prices — The Code frames as "the end of the era of AI discounts" (signals shift from subsidy phase to revenue-extraction phase, classic pre-IPO unit-economics pivot) — *source: 2026-06-03 cycle (Uncovering AI — AIDE Index 4 of 500 perfect S&P AI usage / NVIDIA Amazon Meta SLB; Superhuman — $250B VC into OpenAI + Anthropic + 200+ AI startup unicorn graveyard; The Code — AI labs raise prices / end of AI discounts era)*
+- **2026-05-30**: **AI token-price inflation hits 65% since February 2026** (Anna's Daybreak / Axios framing) — companies like Uber exhausting AI budgets within months; estimates that **only 18 cents of every token dollar generates user value** — first publicly framed ROI-collapse number for AI token spend; pairs with [[claude-opus-4-8]] Fast Mode (1/3 cost) and DeepSeek V4 Pro permanent 75% cut as compensating cost actions (sustains the tension: list prices rising at the frontier while open-weights + fast modes compress effective floor) — *source: 2026-05-30 cycle (Anna's Daybreak — AI token costs +65% since Feb / only 18 cents per dollar generates user value / Uber budget exhaustion)*
 - **2025-12-17**: "AI: bubble or not?" framing in TLDR AI cycle alongside [[nemotron-3]] coverage; "$3B collapse" headline with NVIDIA agentic announcements — *source: TLDR AI "Nvidia Nemotron 3 / Claude agentic tasks"; Forward Future "NVIDIA Agentic Bet & A $3B Collapse"*
 - **2025-12-16**: "Design is search" framing as design tools shift to AI; signal-pulse covers economy-wide consolidation — *source: TLDR "SpaceX IPO banks / design is search"; SignalPulse*
 - **2025-12-12**: "Why AGI won't happen" coverage; ongoing skepticism narrative — *source: TLDR "Musk Bezos space race / why AGI won't happen"*

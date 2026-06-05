@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-04
-> **Last updated**: 2026-05-23
+> **Last updated**: 2026-05-26
 > **Status**: active
 > **Related**: [[agent-frameworks]], [[jules]], [[claude-code]], [[replit]], [[cursor-composer]], [[cursor-composer-2-5]], [[spacex]], [[cognition]]
 
@@ -18,6 +18,8 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 
 ## Timeline
 
+- **2026-05-27**: **40% of Cursor's own codebase pull requests now come from cloud agents** (up sharply from six months ago) — concrete production-engineering data point that the autonomous-agent share of internal developer work has crossed the threshold-of-meaningful-default at the company most identified with the agentic-coding paradigm; Cursor publishes findings on how it builds and manages cloud agents (uses **Temporal** workflow engine, designed to survive machine failures) — first-party reference architecture for "agents in production" — *source: 2026-05-27 cycle (The Code — Cursor 40% cloud-agent PRs + Temporal workflow engine)*
+- **2026-05-26**: Coverage repeats and locks in **Cursor $3B annualized sales + 3,000+ enterprise customers** as the durable headline (The Code "Cursor is having a moment"); Cursor framed as the canonical specialized-coding-model success story driving the "frontier models won't eat the vertical AI market" thesis (Composer 2.5 economics referenced); same cycle: **OpenAI's Codex now routes 10% of production traffic through third-party platforms** like Pi Terminal and OpenCode (Codex matches Anthropic's earlier OpenClaw concession by going the other direction — letting third parties tap free ChatGPT accounts for inference) — concrete pressure point on Cursor's lock-in surfaces — *source: 2026-05-26 cycle (The Code — Cursor is having a moment / $3B annual sales 3000+ customers; AlphaSignal — Cursor cited in Karpathy CLAUDE.md cross-tool framing; Forward Future — Cerebras IPO context)*
 - **2026-05-23**: Cursor reaches **$3B annualized revenue** in late April with 3,000+ customers paying ≥$100K each; SpaceX 30-day post-IPO option to acquire Cursor at $60B (with $10B breakup fee) reaffirmed; coverage frames Cursor as one of two top AI coding agents (alongside [[claude-code]]) per Mintlify traffic analysis — *source: 2026-05-23 cycle (TLDR AI — Anthropic Microsoft deal + Cursor $3B ARR; The Code — Microsoft and Uber ditch Claude Code)*
 - **2026-05-20**: Cursor [[cursor-composer-2-5]] recirculates as Anthropic competitive datapoint; SpaceX $60B Cursor option detailed — Cursor "significantly larger model" with SpaceXAI using 10× more compute confirmed — *source: 2026-05-20 cycle (AINews; Forward Future — Musk lost; Superhuman — Gemini becomes your personal agent)*
 - **2026-05-19**: **[[cursor-composer-2-5]] released** — 79.8% SWE-Bench Multilingual, sub-30s tasks, $0.50/$2.50 per M tokens (~10× cheaper than rivals); cloud agent development environments launched; SpaceX-Cursor $60B option emerges — *source: 2026-05-19 cycle (AlphaSignal — Anthropic doubles + Cursor Composer 2.5; Evolving AI Insights; TLDR Newsletter — Google IO + Cursor; The Rundown AI — Musk case + Composer 2.5)*
@@ -80,3 +82,4 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 - data/summaries/2026-03-28.json (AlphaSignal — Cursor Real-time RL for Composer)
 - data/summaries/2026-04-04.json (TLDR — Cursor 3; The Code — IDE built for agents + Design Mode; TLDR AI — Cursor 3 multi-repo; Forward Future — Cursor 3; Superhuman — Cursor 3)
 - data/summaries/2026-04-05.json (TAAFT — Cursor Agents Window / Cursor Ditches the IDE)
+- data/summaries/2026-05-26.json (The Code — Cursor is having a moment / $3B annual sales 3,000+ enterprise customers; Codex 10% production traffic via third-party platforms Pi Terminal and OpenCode)

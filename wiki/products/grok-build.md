@@ -9,7 +9,7 @@ metadata:
 
 > **Type**: product
 > **First mentioned**: 2026-05-15
-> **Last updated**: 2026-05-16
+> **Last updated**: 2026-05-27
 > **Status**: active
 > **Related**: [[xai]], [[spacex]], [[claude-code]], [[openai-codex]], [[antigravity-2]], [[agent-frameworks]]
 
@@ -19,6 +19,8 @@ Grok Build is [[xai]]'s CLI coding agent for SuperGrok Heavy subscribers, launch
 
 ## Timeline
 
+- **2026-06-02**: **grok-build-0.1 public API beta launches** — Grok Build's first publicly priced API: **$1/M input + $2/M output tokens** (sub-Opus / sub-GPT-5.5 entry-price-positioning for agentic coding); designed for autonomous planning, writing, refactoring, iterating on code across multi-step tasks; AlphaSignal frames as the explicit low-cost entry to the agentic coding category that puts pricing pressure on [[claude-code]] / Codex; same cycle: **Wispr Flow CTO** hasn't written code since December 2025, AI ships 90% serving 1M+ users (cross-tool agent-replaces-engineer data point) — *source: 2026-06-02 cycle (AlphaSignal — xAI grok-build-0.1 public API $1/M input + $2/M output; AI Breakfast — grok-build-0.1 beta autonomous coding pricing; TLDR AI — grok-build-0.1)*
+- **2026-05-27**: **Grok Build opens to all SuperGrok and X Premium+ subscribers** in beta — graduates from the 2026-05-15 SuperGrok Heavy-only beta to broad subscriber availability; The Rundown AI and The Code coverage emphasizes the **plans-before-execute** UX (Grok Build shows the plan, lets the developer review or rewrite before execution) and **hand-off to parallel sub-agents** for bigger tasks — positions Grok Build as the explicit plan-then-execute competitor to [[claude-code]] (which got `/usage` + 125+ settings the same week) and [[openai-codex]] (which gained 4M weekly users + Mac cleanup tool + 10% third-party-platform routing same week); same cycle Musk announces **Grok V9-Medium (1.5T params) finished training**, designed for harder coding tasks, public release in 2–3 weeks — *source: 2026-05-27 cycle (The Rundown AI — xAI Grok Build to all SuperGrok and X Premium+ + Grok V9-Medium training complete; The Code — Grok Build opens to subscribers / plans-before-execute + parallel sub-agents)*
 - **2026-05-16**: Grok Build coverage continues — features like plan mode and subagents emphasized; xAI exodus to Meta / Thinking Machines surfaces same cycle — *source: 2026-05-16 cycle (TLDR AI — Grok Build + Codex customizations + xAI exodus; The Code — You can now access Codex on phone + Grok Build)*
 - **2026-05-15**: Grok Build launches as early beta for SuperGrok Heavy subscribers — curl install, plan mode, subagents, worktree integrations, headless mode; xAI announced as dissolving into SpaceXAI (SpaceX AI division) — *source: 2026-05-15 cycle (TLDR AI — Grok Build; The Rundown AI — OpenAI's Codex escapes the desktop; The Code — You can now access Codex on phone)*
 
@@ -41,3 +43,4 @@ Grok Build is [[xai]]'s CLI coding agent for SuperGrok Heavy subscribers, launch
 
 - data/summaries/2026-05-15.json (TLDR AI — Grok Build; The Rundown AI; The Code; TLDR — Apple vs OpenAI)
 - data/summaries/2026-05-16.json (TLDR AI; The Code)
+- data/summaries/2026-05-27.json (The Rundown AI — Grok Build to all SuperGrok / X Premium+ + Grok V9-Medium 1.5T training complete; The Code — Grok Build opens / plans-before-execute + parallel sub-agents)

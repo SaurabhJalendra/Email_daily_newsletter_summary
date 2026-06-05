@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-07
-> **Last updated**: 2026-04-14 (backfill 2026-04-06..2026-04-14)
+> **Last updated**: 2026-05-25
 > **Status**: active
 > **Related**: [[openai]], [[gpt-5-1]], [[agentkit]], [[chatgpt-atlas]], [[chatgpt-company-knowledge]], [[chatgpt-health]], [[chatgpt-translate]], [[sora-2]], [[ai-regulation]], [[ai-copyright]], [[prompt-injection]]
 
@@ -18,6 +18,7 @@ ChatGPT is [[openai]]'s flagship consumer AI assistant. At DevDay 2025 OpenAI re
 
 ## Timeline
 
+- **2026-05-25**: **Ads launch inside ChatGPT** alongside **bank-account connection for financial planning** — ChatGPT can analyze spending, flag patterns, and support financial planning grounded in the user's actual account data (productizes the 2026-05-18/19 Plaid finance preview into a publicly framed launch); makes ChatGPT the first major consumer LLM to run ad monetization and real-money financial guidance in the same product surface — *source: 2026-05-25 cycle (The AI Brief — OpenAI launched ads in ChatGPT and connected it to your bank account)*
 - **2026-04-14**: Tubi launches a native app inside ChatGPT — users find and stream content with a single prompt; extends the ChatGPT-as-app-platform thesis into free ad-supported TV — *source: 2026-04-14 cycle*
 - **2026-04-11**: ChatGPT Pro $100/mo tier introduced — higher Codex usage limits for longer, high-effort coding sessions; targeted at power developer users — *source: 2026-04-11 cycle*
 - **2026-04-06**: ChatGPT rolls out on Apple CarPlay — voice-mode interaction without on-screen text; first in-car ChatGPT surface — *source: 2026-04-06 cycle*
@@ -116,3 +117,4 @@ ChatGPT is [[openai]]'s flagship consumer AI assistant. At DevDay 2025 OpenAI re
 - data/summaries/2026-01-16.json (Apple replaces ChatGPT with Gemini in Siri)
 - data/summaries/2026-01-17.json (ChatGPT App Store momentum)
 - data/summaries/2026-01-19.json (ChatGPT Translate standalone)
+- data/summaries/2026-05-25.json (The AI Brief — ads in ChatGPT + bank-account connection for financial planning)

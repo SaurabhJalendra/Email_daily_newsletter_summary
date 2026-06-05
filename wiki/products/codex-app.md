@@ -8,8 +8,8 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-02-04
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
-> **Status**: stale (macOS + Windows; ChatGPT Free/Go users get limited-time access)
+> **Last updated**: 2026-05-25
+> **Status**: active (macOS + Windows; phone via ChatGPT mobile app; on-prem via Dell)
 > **Related**: [[openai]], [[openai-codex]], [[gpt-5-2-codex]], [[gpt-5-3-codex]], [[chatgpt]], [[agent-frameworks]], [[claude-code]]
 
 ## Summary
@@ -18,6 +18,7 @@ Codex App is [[openai]]'s native macOS application for [[openai-codex]], positio
 
 ## Timeline
 
+- **2026-05-25**: **Codex lands on the [[chatgpt]] mobile app** — OpenAI brings Codex to your phone so coding/tasking is reachable wherever the user is (recirculates the 2026-05-15/16 Codex Mobile preview into a public-launch positioning); **OpenAI-Dell partnership** extends Codex to **hybrid and on-premises environments** for enterprise/regulated customers (extends the 2026-05-20 Dell announcement) — *source: 2026-05-25 cycle (The AI Brief — OpenAI brought Codex to your phone + Dell hybrid+on-prem)*
 - **2026-03-06**: Codex App on Windows — native agent sandbox + full PowerShell support; direct interaction with local filesystem and IDE — *source: 2026-03-06 cycle*
 - **2026-02-09**: Codex App reportedly 40% faster following backend optimization update — *source: 2026-02-09 cycle*
 - **2026-02-05**: Codex App ships with [[gpt-5-3-codex]] integration as the new default coding model — *source: 2026-02-05 cycle*
@@ -46,3 +47,4 @@ Codex App is [[openai]]'s native macOS application for [[openai-codex]], positio
 
 - data/summaries/2026-02-04.json (World of AI — OpenAI DROPS Codex Desktop!; The Rundown AI — social network where humans just watch; TLDR — SpaceX buys xAI / OpenAI Codex app; TLDR AI — Claude Sonnet 5 leaks / OpenAI Codex app; Superhuman — SpaceX acquires xAI; AlphaSignal — OpenAI's internal data agent; TAAFT — SpaceX + xAI = $1T Empire; The Code by Superhuman — Chinese lab dethroned DeepSeek)
 - data/summaries/2026-03-06.json (Codex App on Windows with PowerShell support)
+- data/summaries/2026-05-25.json (The AI Brief — Codex on phone via ChatGPT mobile app; Dell hybrid + on-premises partnership)
