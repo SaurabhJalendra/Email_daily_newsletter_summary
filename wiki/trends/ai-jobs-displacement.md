@@ -8,8 +8,8 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2026-03-07
-> **Last updated**: 2026-03-24
-> **Status**: stale
+> **Last updated**: 2026-04-28
+> **Status**: active
 > **Related**: [[anthropic]], [[openai]], [[block]], [[enterprise-ai]], [[ai-regulation]]
 
 ## Summary
@@ -18,6 +18,10 @@ AI jobs displacement collects hard-data points on how generative AI is reshaping
 
 ## Timeline
 
+- **2026-04-28**: **[[meta]] lays off ~8,000 employees** due to rising AI infrastructure costs — concrete absolute number bookending the 2026-04-21 "10% workforce cut" framing; sharpens the AI-capex-funded-by-labor pattern; **GSA "million hours challenge"** to automate 1M hours of internal federal work via USAi system (could expand to other federal agencies) — first major federal-level workforce-AI-automation commitment — *source: 2026-04-28 cycle (Meta ~8,000 layoffs; GSA million-hours challenge)*
+- **2026-04-22**: **Meta plans to lay off 10% of workforce** while ramping AI spending to $115-135B — explicitly framed as a labor-for-capex tradeoff; complements OpenAI senior departures pattern of "AI prioritization through staffing change" — *source: 2026-04-22 cycle*
+- **2026-04-21**: **BCG report**: AI could eliminate 25 million US jobs — workforce adaptation strategies needed; **Meta plans ~10% workforce cut** for AI infra realignment (preview-cycle to Apr 22 framing) — *source: 2026-04-21 cycle (BCG 25M US jobs report; Meta ~10% workforce cut)*
+- **2026-04-19**: **Snap lays off 1,000 employees** (~16% of workforce), attributing reduction to AI efficiency boosts — first publicly-disclosed standalone-tech-company layoff explicitly tied to AI efficiency; coverage frames over 99,000 tech-industry layoffs in 2026 with nearly half attributed to AI-driven restructuring; first concrete data point that the 2025-2026 layoff cycle has crossed the 100K-tech-layoff threshold with explicit AI attribution — *source: 2026-04-19 cycle (Snap 1,000 layoffs; 99K tech layoffs cycle YTD)*
 - **2026-03-24**: Snowflake confirms "targeted workforce reductions" in technical writing + documentation teams — roles replaced by AI — *source: 2026-03-24 cycle*
 - **2026-03-13**: [[anthropic]] opens research institute to study AI's impact on jobs, economies, law, and governance — direct access to frontier-model data; commits to share learnings publicly and engage workers/industries facing displacement — *source: 2026-03-13 cycle (The Rundown AI — AI research institute)*
 - **2026-03-07**: [[anthropic]] publishes AI-jobs study — 44% of jobs at high risk, programmers most exposed (74.5% task coverage, real-world usage sits at 33%, leaving a 61-point gap); hiring into exposed fields for 22–25-year-olds down 14% since ChatGPT launch; framed as "early-warning system for AI job loss" — *source: 2026-03-07 cycle (The Rundown AI; The Code)*

@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-21
-> **Last updated**: 2026-04-05 (backfill 2026-04-05)
+> **Last updated**: 2026-04-29
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[nvidia]], [[perplexity]], [[perplexity-comet]], [[ai-hardware]], [[ai-funding-rounds]]
 
@@ -18,6 +18,10 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 
 ## Timeline
 
+- **2026-04-29**: **OpenAI now ships products on AWS** under reworked Microsoft partnership — Microsoft loses exclusivity over OpenAI IP; OpenAI can ship products on any cloud (including AWS, Google Cloud); reinforces Amazon's $38B Nov-2025 OpenAI compute commitment and brings OpenAI's primary product surface back into AWS's commercial reach — *source: 2026-04-29 cycle (OpenAI on AWS via Microsoft exclusivity rework)*
+- **2026-04-27**: **Meta signs massive deal with AWS for millions of Graviton ARM chips** — coverage frames as a significant jab at cloud rival [[google]] Cloud; major hyperscaler-customer win in the silicon-diversification trend (extends Amazon's Trainium + Graviton in-house silicon positioning beyond Anthropic into Meta's compute stack) — *source: 2026-04-27 cycle (Meta-AWS Graviton ARM chips megadeal)*
+- **2026-04-25**: **Meta and Amazon sign deal for AWS AI chips** — significant partnership in the AI hardware space (preview cycle for the 2026-04-27 Graviton ARM specific framing); positions Amazon-Meta as a counter to Google-Anthropic on hyperscaler-customer alignment — *source: 2026-04-25 cycle (Meta-Amazon AWS AI chips deal)*
+- **2026-04-22**: **Amazon invests up to $25B in [[anthropic]]** — expanded agreement to build out AI infrastructure; adds to Nov-2025 $15B and brings Amazon's total Anthropic commitment near $40B; rebalances Amazon's two-hyperscaler-customer (OpenAI + Anthropic) competitive position — *source: 2026-04-22 cycle (Amazon $25B Anthropic infra expansion)*
 - **2026-04-05**: Ring AI app store coverage continues — second-cycle mention confirms the 2026-04-02 launch as an ongoing developer story rather than a one-day announcement; specifically framed alongside Apple's planned AI app marketplace as the two dominant distribution surfaces emerging for consumer AI agents — *source: 2026-04-05 cycle (The Tech Buzz — Ring Launches App Store)*
 - **2026-04-02**: Ring opens an AI app store — 100M+ cameras in the field become a developer platform for third-party AI apps covering elder care, workforce analytics, and rental management; developers get access to Ring's cameras and audio streams with user permission; positions Amazon's consumer camera fleet as the leading installed base for physical-world computer vision + audio agents (direct parallel to [[openai-codex]] plugins / [[claude-code]] plugins on the coding side); $122B OpenAI round (Amazon + Nvidia + SoftBank led) reinforces Amazon's AI-compute investment thesis; also $2B/month OpenAI revenue framing continues — *source: 2026-04-02 cycle (TAAFT — Ring Opens an AI App Store; The Rundown AI — OpenAI $122B round; AI Breakfast — Anthropic agent architecture leak / $122B at $852B led by Amazon/Nvidia/SoftBank)*
 - **2026-03-29**: Amazon acquires Fauna Robotics — consumer home-robotics expansion; Sprout, a child-sized humanoid designed for household tasks, is Fauna's flagship — positions Amazon as a direct challenger to Tesla, Figure, and Boston Dynamics on the household-humanoid axis (follows 2026-03-22 Rivr quadruped acquisition) — *source: 2026-03-29 cycle (Superhuman — China straps OpenClaw to robots)*

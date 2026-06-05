@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-11-07
-> **Last updated**: 2026-04-04 (backfill 2026-04-04)
+> **Last updated**: 2026-04-27
 > **Status**: active
 > **Related**: [[kimi-k2-thinking]], [[kimi-k2-5]], [[openclaw]], [[baidu]], [[alibaba]], [[deepseek]], [[cursor]]
 
@@ -18,6 +18,10 @@ Moonshot AI (the company behind the "Kimi" assistant) is a Chinese frontier-lab 
 
 ## Timeline
 
+- **2026-04-27**: [[kimi-k2-6]] alongside [[deepseek-v4]] framed as open-source models democratizing access to advanced AI capabilities (massive context windows, multimodal comprehension, coding/tool-use); positions Moonshot as part of Chinese-open-source-as-developer-default cohort — *source: 2026-04-27 cycle (Kimi K2.6 democratization framing with DeepSeek V4)*
+- **2026-04-26**: **[[kimi-k2-6]] Agent Swarm released** — extends K2.5's Agent Swarm into an enhanced multi-agent interaction surface — *source: 2026-04-26 cycle (Kimi K2.6 Agent Swarm release)*
+- **2026-04-23**: [[kimi-k2-6]] framed as achieving "breakthroughs in autonomous work" — demonstrates AI's potential to automate complex tasks and transform industries — *source: 2026-04-23 cycle (Kimi K2.6 autonomous-work breakthrough)*
+- **2026-04-22**: **Moonshot AI releases [[kimi-k2-6]]** — open-source trillion-parameter multimodal model; outperforms leading models including [[gpt-5-4]] and [[claude-opus-4-6]] on several benchmarks; advancements in coding, agentic workflows, multimedia processing — *source: 2026-04-22 cycle (Kimi K2.6 release; trillion-parameter multimodal; benchmark superiority claims)*
 - **2026-04-04**: Moonshot AI's valuation quadruples to $18B (up from ~$4.8B in January) after Kimi K2.5 is used by [[cursor]] as the underlying model to build Cursor 3; coverage details a zero-hierarchy operating model — no departments, titles, OKRs, or KPIs; each co-founder directly oversees ~50 people; hire-for-generalists with more than half of staff having rotated through multiple roles; framed as a pointed counter-example to the Big-Tech org chart now that a Chinese open-weights lab is powering a flagship Western developer product — *source: 2026-04-04 cycle (The Code — Cursor 3 powered by Kimi K2.5 + Moonshot $18B; TLDR AI — Moonshot valuation 4× on Cursor 3 usage)*
 - **2026-02-17**: Launches Kimi Claw — brings [[openclaw]] directly into the browser; access to 5,000+ community-built skills via ClawHub; 40GB cloud storage; "Bring Your Own Claw" option; Moonshot also rolls out persistent OpenClaw assistant integrated into Kimi with cloud deployment — *source: 2026-02-17 cycle (The Code; AlphaSignal)*
 - **2026-02-06**: Kimi AI slides — text-prompt-to-stunning-slides positioning continues — *source: 2026-02-06 cycle*

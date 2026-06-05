@@ -8,7 +8,7 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-04-29
 > **Status**: active
 > **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-cowork]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]], [[agent-composer]], [[lux]], [[claude-managed-agents]]
 
@@ -38,6 +38,13 @@ type: topic
 - **2025-12-21**: [[anthropic]] ships [[claude-code]] browser extension GA — injects Claude into any web page; plus ChatGPT Atlas-style agentic browsing direction — *source: 2025-12-21 cycle*
 - **2025-12-20**: [[agent-skills]] published as open standard — reusable capability packages shared across [[anthropic]] and [[openai]] agent stacks — *source: 2025-12-20 cycle*
 - **2026-04-16**: Always-on Routines land in [[claude-code]] — managed-cloud execution triggered by APIs, schedules, GitHub events — *source: AlphaSignal "Anthropic presents always-on Routines in Claude Code"*
+- **2026-04-19**: **Many-Tier Instruction Hierarchy (ManyIH)** proposed by researchers — addresses instruction conflicts in LLM agents, surpassing traditional models with fixed privilege levels (academic-research framing — sets up the conceptual frame for next-gen multi-agent permission models); **Subagents arrive in Gemini CLI** — main agent delegates to specialized expert subagents operating in separate context windows; **Cursor multi-agent system** optimizes CUDA kernels (38% speedup) — *source: 2026-04-19 cycle (ManyIH paper; Gemini CLI subagents; Cursor multi-agent CUDA)*
+- **2026-04-20**: Ollama supports **GitHub Copilot CLI** — terminal agent that works directly with repos on GitHub (allows users to bring GitHub context into sessions); **Chrome Skills** lets users save favorite Gemini prompts and reuse across web pages (Gemini-prompt-reuse surface) — *source: 2026-04-20 cycle (Ollama + GitHub Copilot CLI; Chrome Skills for Gemini prompts)*
+- **2026-04-21**: **xAI Grok Build + Grok CLI ship** — tools for autonomous coding and development (productizes Grok-as-coding-agent thesis) — *source: 2026-04-21 cycle*
+- **2026-04-24**: **OpenAI introduces Workspace Agents** preview — shared AI agents for team workflows; **Gemini Enterprise Agent Platform** ships as Google's new platform for building/scaling/governing/optimizing agents across multi-day workflows; **Claude Context** semantic code search for AI coding assistants — *source: 2026-04-24 cycle*
+- **2026-04-25**: **OpenAI Workspace Agents launches** in ChatGPT (formal launch); **Kimi K2.6 Agent Swarm release** continues to be referenced as multi-agent surface — *source: 2026-04-25 cycle*
+- **2026-04-26**: **Anthropic Claude Managed Agents gains built-in memory** — continuous learning across sessions; **ChatGPT Workspace Agents** + **Codex Chronicle screen memory** improves Codex's information retention over longer sequences; **Sakana launches Fugu** — multi-agent beta — *source: 2026-04-26 cycle*
+- **2026-04-29**: **OpenAI Symphony** released — open-source spec for Codex orchestration (Linear integration for automated coding tasks); **Cognition introduces Devin** — local coding agent that runs entirely on user's machine with full access to codebase + tools (pre-coverage; full devin release context); **Microsoft Outlook Agent Mode** — Copilot-driven inbox + calendar workflow; **"Context Rot" workaround proposed** using parallel subagents to improve LLM performance — *source: 2026-04-29 cycle (Symphony open-source spec; Devin local coding agent; Outlook Agent Mode; Context Rot parallel-subagents)*
 - **2026-04-16**: [[openai-codex]] repositioned as superapp — background computer use, parallel agents, in-app browser — *source: The Rundown AI "OpenAI's superapp hiding inside Codex"*
 - **2026-04-16**: OpenAI Agents SDK adds native harness for cross-file / tool workflows and sandboxed execution — *source: TLDR AI "Gemini 3.1 Flash TTS, Agent-to-Person marketplace, OpenAI Agents SDK"*
 - **2026-04-16**: Cloudflare launches Agent Memory — managed service that extracts facts / events / instructions from agent conversations and retrieves on demand (part of Cloudflare Agents Week) — *source: TAAFT "Claude Just Became a Designer"; TLDR "Opus 4.7, Cloudflare Agents Week"*

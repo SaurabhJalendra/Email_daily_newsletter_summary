@@ -122,6 +122,277 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-04-30
+**Ingested**: data/summaries/2026-04-30.json (backfill batch 12/12)
+
+**Pages updated**:
+- [[openai]] — IPO trajectory under financial pressure; Taylor Swift voice/likeness trademark coverage
+- [[anthropic]] — Claude Connectors for Adobe/Blender/Autodesk creative tools; [[claude-mythos]] restricted-release framing
+- [[claude-mythos]] — Mythos Preview restricted-release framing crystallized
+- [[nvidia]] — [[nemotron-3]] Nano Omni open multimodal release (9× agent efficiency)
+- [[google]] — Classified Pentagon deal + 600-employee protest letter
+- [[meta]] — [[muse-spark]] investor-strategy framing; [[poolside]] Laguna XS.2/M.1 cycle context
+- [[adobe]] — Anthropic Claude Connectors integrates Adobe creative apps
+
+**Pages created**: *(none — captured in existing pages)*
+
+**Notable**: 2026-04-30 closes the late-April-2026 cycle with the cross-lab "frontier-labs as defense contractors" pattern crystallizing: [[google]] secures a classified Pentagon deal despite a 600-employee protest letter to Pichai — bookending the 2026-04-27 NSA + [[claude-mythos]] Preview disclosure. Anthropic's Claude Connectors for Adobe/Blender/Autodesk reframes Anthropic-vs-Adobe from "Claude Design as Figma competitor" (Apr 20) into "Claude as creative-app glue" — a more strategically composable positioning than the head-to-head replacement framing. Taylor Swift's voice/likeness trademark filing is the highest-profile celebrity precedent yet for "AI-era IP protection" — likely to be cited in next cycle's [[ai-copyright]] coverage. NVIDIA's [[nemotron-3]] Nano Omni release at 9× agent efficiency continues the open-multimodal-from-the-largest-vendor trend.
+
+---
+
+## 2026-04-29
+**Ingested**: data/summaries/2026-04-29.json (backfill batch 11/12)
+
+**Pages updated**:
+- [[openai]] — Microsoft exclusivity ends; Azure-first launch access until 2032; OpenAI building own smartphone (Mediatek/Qualcomm/Luxshare partners); Symphony open-source spec for Codex orchestration
+- [[microsoft]] — Microsoft loses OpenAI exclusivity (Azure-first to 2032); Outlook Agent Mode for inbox + calendar
+- [[meta]] — China blocks Meta's $2-3B acquisition of [[manus]] (Beijing fences off homegrown AI sector)
+- [[manus]] — China geo-block reverses Meta acquisition narrative
+- [[amazon]] — OpenAI products now ship on AWS via Microsoft-exclusivity rework
+- [[agent-frameworks]] — Symphony Codex orchestration spec; Cognition Devin local coding agent; Microsoft Outlook Agent Mode; Context Rot parallel-subagents workaround
+
+**Pages created**: [[ineffable-intelligence]] (David Silver's $1.1B-seeded reinforcement-learning "superlearners" lab)
+
+**Notable**: 2026-04-29 is the day the Microsoft-OpenAI exclusivity finally cracks publicly — Microsoft loses exclusivity over OpenAI IP and OpenAI can now ship on any cloud, with Azure-first launch access carried only until 2032. Same cycle: David Silver (AlphaGo creator) launches [[ineffable-intelligence]] with a $1.1B seed to build reinforcement-learning "superlearners" — joining the [[thinking-machines]] / [[ami-labs]] / [[merge-labs]] frontier-spinout mega-seed cohort, but on a fundamentally different research thesis (RL over next-token prediction). China blocking the [[meta]]-[[manus]] $2-3B acquisition lands as the first major government veto of a Western-acquirer-Chinese-AI-target deal in this cycle, with explicit national-security framing. Musk-Altman trial begins ($134B suit). OpenAI's own smartphone partnership with Mediatek/Qualcomm/Luxshare extends the Gumdrop audio-device trajectory into a general-purpose mobile surface where AI agents may replace traditional apps.
+
+---
+
+## 2026-04-28
+**Ingested**: data/summaries/2026-04-28.json (backfill batch 10/12)
+
+**Pages updated**:
+- [[google]] — Gemini AI update; global Search Live expansion; Personal Intelligence cross-service integration
+- [[meta]] — ~8,000 layoffs due to AI infrastructure costs; 1 GW Overview Energy space-based solar deal
+- [[anthropic]] — Claude agents successfully negotiate real deals between employees (first publicly framed Claude autonomous-negotiation data point); [[claude-opus-4-7]] reframed as "improved task success rates + autonomous agents"
+- [[openai]] — GPT-5.5 long-horizon agentic framing continues; Tinder integrates Sam Altman's World ID iris-scanning verification ("proof of humanity" badge)
+- [[deepseek]] — [[deepseek-v4]] (V4-Pro + V4-Flash) framed as triggering AI-pricing collapse
+- [[gpt-5-5]] — Long-horizon agentic framing continues from Apr 25 release
+- [[deepseek-v4]] — V4-Pro/V4-Flash MoE cost-performance framing crystallizes
+- [[ai-jobs-displacement]] — Meta ~8,000 layoffs; GSA million-hours challenge for federal-AI automation
+- [[ai-funding-rounds]] — Meta-AWS Graviton ARM chips megadeal
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-04-28 confirms the AI-pricing-collapse narrative — [[deepseek-v4]] open-source release explicitly framed as pricing Western frontier labs out of cost-performance leadership. [[meta]]'s ~8,000 layoffs come with a "rising AI infrastructure costs" rationale — concrete absolute number bookending the 2026-04-21 "10% workforce cut" framing and reinforcing the AI-capex-funded-by-labor pattern alongside [[snap]]. The Overview Energy 1 GW space-based solar power deal is the first hyperscaler commitment to space-based power infrastructure — frontier of the AI-energy-footprint trend. Tinder integrating World ID (Sam Altman's iris-scanning verification) is the first major dating-platform deployment of "proof of humanity" — likely the most consequential consumer-app integration for World ID to date.
+
+---
+
+## 2026-04-27
+**Ingested**: data/summaries/2026-04-27.json (backfill batch 9/12)
+
+**Pages updated**:
+- [[openai]] — GPT-5.5 "human-centric AI" framing (autonomous task execution, intent recognition, output verification); [[claude-mythos]] Preview tension with NSA (despite Pentagon supply-chain-risk label); Florida pursues criminal charges over FSU shooting / ChatGPT involvement
+- [[anthropic]] — NSA uses Mythos Preview despite Pentagon supply-chain-risk label (federal AI-security tension)
+- [[claude-mythos]] — NSA + Mythos Preview tension; first publicly disclosed US-government Mythos user
+- [[microsoft]] — +15M Copilot seats on 450M enterprise base
+- [[meta]] — Meta-AWS Graviton ARM chips megadeal (jab at Google Cloud)
+- [[amazon]] — Meta-AWS Graviton ARM chips megadeal
+- [[claude-design]] — Productized + powered-by-Opus-4.7 framing
+- [[deepseek]] — [[deepseek-v4]] democratization framing alongside [[kimi-k2-6]]
+- [[moonshot-ai]] — Kimi K2.6 democratization framing
+- [[ai-regulation]] — Florida FSU shooting OpenAI criminal probe; first state DA pursuing criminal liability against frontier lab in connection with mass-casualty event
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-04-27 is the day federal AI-security tensions surface visibly — the NSA is using [[claude-mythos]] Preview *despite* the Pentagon labeling [[anthropic]] a supply-chain risk. First publicly disclosed US-government Mythos user, and contradicts the "Pentagon vs Anthropic" narrative from Feb-Mar 2026: intelligence-community demand for Mythos overrides procurement-level skepticism. Same cycle: Florida pursues criminal charges against OpenAI over a deadly FSU shooting in which ChatGPT allegedly provided advice to the suspect — first time a US state DA explicitly pursues criminal liability against a frontier lab in connection with a mass-casualty event. GPT-5.5 "human-centric AI" framing crystallizes — the explicit articulation of intent-recognition / planning / output-verification as model capabilities.
+
+---
+
+## 2026-04-26
+**Ingested**: data/summaries/2026-04-26.json (backfill batch 8/12)
+
+**Pages updated**:
+- [[google]] — Eighth-generation TPUs announced (performance/efficiency improvement); $40B [[anthropic]] commitment ($10B + $30B milestone-tied)
+- [[google-tpu-v8]] — TPU v8 announcement
+- [[anthropic]] — Claude Managed Agents gains built-in memory; investigates unauthorized access to [[claude-mythos]] Preview (despite Pentagon ban)
+- [[claude-managed-agents]] — Built-in memory for continuous cross-session learning
+- [[claude-mythos]] — Mythos Preview unauthorized-access investigation (first-ever public disclosure)
+- [[deepseek]] — Open-sources [[deepseek-v4]] Preview at lower cost
+- [[deepseek-v4]] — V4 Preview open-sourced
+- [[openai]] — GPT-5.5 continued agentic-work framing alongside Google-Anthropic $40B
+- [[ai-funding-rounds]] — Google $40B Anthropic deal (largest single Google AI investment)
+- [[moonshot-ai]] — Kimi K2.6 Agent Swarm release
+- [[kimi-k2-6]] — Agent Swarm release
+- [[vercel]] — Security incident continues to be covered
+- [[agent-frameworks]] — Claude Managed Agents memory; ChatGPT Workspace Agents + Codex Chronicle; Sakana Fugu
+
+**Pages created**: *(none)*
+
+**Notable**: 2026-04-26 closes Google's largest single AI investment of the cycle — up to $40B to Anthropic ($10B immediate + $30B milestone-tied) — the largest single Google AI commitment to date and a strategic-pivot signal acknowledging Anthropic's enterprise strengths and the value of locking in TPU compute commitments. Anthropic's first-ever public disclosure of an unauthorized-access investigation into Mythos Preview (via a third-party vendor) contextualizes the 2026-04-13 "Mythos Breach" framing as having a real underlying incident — even though the [[project-glasswing]] hacker-vs-coalition contradiction remains unresolved. DeepSeek V4 Preview open-sources the same day, sustaining the cost-performance pressure narrative.
+
+---
+
+## 2026-04-25
+**Ingested**: data/summaries/2026-04-25.json (backfill batch 7/12)
+
+**Pages updated**:
+- [[openai]] — GPT-5.5 released (new class of intelligence for real work); Workspace Agents launches in ChatGPT
+- [[gpt-5-5]] — Formal release (Apr 25)
+- [[openai-workspace-agents]] — Formal launch alongside GPT-5.5
+- [[anthropic]] — Resolves [[claude-code]] response-quality regression; outlines mitigation steps
+- [[google]] — Vision Banana (unified vision-as-image-gen); Gemini 3.1 suite native-multimodal framing
+- [[deepseek]] — [[deepseek-v4]] Flash + V4 Pro preview; Tencent/Alibaba $20B talks
+- [[deepseek-v4]] — V4 Flash + V4 Pro preview
+- [[moonshot-ai]] — Kimi K2.6 democratization framing continues
+- [[microsoft]] — $1.8B Australia cloud + AI infra investment
+- [[amazon]] — Meta-Amazon AWS AI chips deal (pre-cycle to Apr 27 Graviton specifics)
+- [[xai]] — SpaceX-xAI $1.25T mega-deal re-coverage (post-close framing)
+- [[spacex]] — Re-cited as $250B mega-deal context
+- [[ai-funding-rounds]] — Tencent/Alibaba DeepSeek $20B talks; Microsoft Australia $1.8B
+- [[agent-frameworks]] — Workspace Agents formal launch; Kimi K2.6 Agent Swarm
+- [[claude-design]] — Animated professional websites framing (Apr 23 cycle)
+
+**Pages created**: [[gpt-5-5]], [[openai-workspace-agents]], [[deepseek-v4]] (formal page), [[kimi-k2-6]] (formal page)
+
+**Notable**: 2026-04-25 is the GPT-5.5 release day — OpenAI lands "a new class of intelligence for real work" simultaneous with Workspace Agents in ChatGPT (extending the Codex parallel-agent surface into team collaboration). Same week: [[deepseek-v4]] Flash + V4 Pro previewed open-source, Tencent + Alibaba in talks to back DeepSeek at $20B (first major Chinese-domestic-investor signal for the lab), and [[google]] DeepMind ships Vision Banana (unified-vision-as-image-gen). MIT's recursive model framework at 10M tokens lands as a frontier-scale academic counterpoint to commercial labs. The single-week clustering of GPT-5.5 + DeepSeek V4 + Kimi K2.6 + Vision Banana marks the start of the post-Opus-4.7 next-cycle release wave.
+
+---
+
+## 2026-04-24
+**Ingested**: data/summaries/2026-04-24.json (backfill batch 6/12)
+
+**Pages updated**:
+- [[anthropic]] — [[claude-mythos]] unauthorized-access incident surfaces; Claude Context semantic-code-search ships
+- [[claude-mythos]] — Mythos unauthorized-access framing
+- [[google]] — Google unveils 8th-gen TPUs (cost-efficient full-stack AI infra); Gemini Enterprise Agent Platform ships
+- [[google-tpu-v8]] — TPU v8 formal launch + NVIDIA-competition framing
+- [[nvidia]] — Growing competition from Google in AI hardware (TPU v8 cost-efficient framing)
+- [[openai]] — Workspace Agents preview
+- [[openai-workspace-agents]] — Preview introduction
+- [[meta]] — Trains AI on employee keystrokes/mouse movements (broad worker-privacy debate)
+- [[salesforce]] — Agentforce relaunched as "Flex Credits" at $0.10 per action after $2-per-conversation rejected
+- [[chatgpt-images-2]] — Text-rendering + non-Latin + image-sizes framing
+- [[ai-funding-rounds]] — Tesla $2B AI-hardware acquisition; TSMC $165B US AI-chip expansion
+- [[cursor]] — SpaceX-Cursor $60B deal extended framing
+- [[spacex]] — SpaceX-Cursor $60B deal extended framing
+- [[agent-frameworks]] — Workspace Agents preview; Gemini Enterprise Agent Platform; Claude Context
+
+**Pages created**: [[google-tpu-v8]]
+
+**Notable**: 2026-04-24 lands two parallel acceleration signals: Google's eighth-gen TPU as cost-efficient full-stack AI infra (direct NVIDIA competition framing in coverage) and Anthropic's first public disclosure that Claude Mythos was compromised by unauthorized users. Meta's keystroke + mouse-movement employee tracking for AI training bookends [[openai]]'s Project Stagecraft pattern from the employer side — both labs now openly mining their own workforce as training data sources. Tesla's $2B unnamed-AI-hardware acquisition + TSMC's $165B US expansion + Microsoft's enterprise Copilot momentum all reinforce the silicon-supply-as-strategic-asset narrative.
+
+---
+
+## 2026-04-23
+**Ingested**: data/summaries/2026-04-23.json (backfill batch 5/12)
+
+**Pages updated**:
+- [[openai]] — [[chatgpt-images-2]] released (reasoning step before generation); harness-engineering paradigm (Ryan Lopopolo: 1M LOC, 1B tokens/day, zero human review)
+- [[chatgpt-images-2]] — Release: reasoning-step-before-generation
+- [[spacex]] — SpaceX partners with [[cursor]] for $60B potential acquisition (Colossus integration)
+- [[cursor]] — SpaceX-Cursor $60B partnership announcement
+- [[google]] — Deep Research Agent announced (autonomous research-tool from text prompts)
+- [[anthropic]] — Mythos 94.6% PhD-tests framing
+- [[claude-mythos]] — 94.6% on science PhD tests (cross-domain capability milestone)
+- [[deepseek-v4]] — Trillion-parameter late-April release framing
+- [[meta]] — Employee productivity tracking preview (preview to Apr 24 framing)
+- [[moonshot-ai]] — Kimi K2.6 autonomous-work breakthrough framing
+- [[kimi-k2-6]] — Autonomous-work breakthrough
+
+**Pages created**: [[spacex]], [[chatgpt-images-2]] (formal page)
+
+**Notable**: 2026-04-23 is the day SpaceX makes its move into AI coding — a $60B partnership / potential acquisition of [[cursor]] to integrate Cursor's AI coding capabilities with SpaceX's **Colossus supercomputer**. Combined with the Feb-2026 SpaceX-xAI merger, SpaceX now has frontier-AI (xAI), AI-IDE (Cursor), and the inference/training infrastructure (Colossus) — a vertically integrated AI stack under one corporate parent. OpenAI's [[chatgpt-images-2]] introduces a reasoning step *before* image generation — first ChatGPT image model with explicit pre-generation reasoning, paralleling [[google]] DeepMind's Vision Banana (Apr 25) on "reasoning meets vision" architectures. EU AI Act enforcement scheduled for August 2026 lands as the most explicit regulatory deadline in this cycle.
+
+---
+
+## 2026-04-22
+**Ingested**: data/summaries/2026-04-22.json (backfill batch 4/12)
+
+**Pages updated**:
+- [[moonshot-ai]] — Releases [[kimi-k2-6]] open-source trillion-parameter multimodal model (outperforms GPT-5.4 + Claude Opus 4.6 on several benchmarks)
+- [[kimi-k2-6]] — Formal release: trillion-parameter multimodal; benchmark superiority claims
+- [[anthropic]] — Amazon invests up to $25B in Anthropic (expanded infra agreement); [[claude-opus-4-7]] reframed as launching with high-resolution image support + improved multimodal reasoning
+- [[amazon]] — $25B Anthropic infra expansion (combined ~$40B with Nov-2025 $15B)
+- [[ai-funding-rounds]] — Amazon $25B Anthropic infra expansion
+- [[openai]] — $122B raise at $852B valuation re-framing (re-circulates from 2026-04-10); GPT-5.4 surpasses human performance on desktop task benchmarks
+- [[google]] — DeepMind forms strike team to improve AI coding models (explicit goal: match Anthropic's coding performance) — first publicly acknowledged "we're behind on coding agents" admission
+- [[nvidia]] — DGX Station availability announced (data-center power to dev desk)
+- [[meta]] — 10% workforce layoff + $115-135B AI spending (labor-for-capex tradeoff)
+- [[ai-jobs-displacement]] — Meta 10% layoff $115-135B AI spending
+- [[claude-mythos]] — Global coverage sparking cybersecurity alarms ("Mythos breaking containment / accelerating cyber threats")
+- [[claude-design]] — Visual-asset framing (prototypes, slide decks, one-pagers)
+
+**Pages created**: [[kimi-k2-6]] (formal release page)
+
+**Notable**: 2026-04-22 is [[moonshot-ai]]'s biggest day yet — [[kimi-k2-6]] ships open-source at trillion-parameter scale and reportedly outperforms [[gpt-5-4]] + [[claude-opus-4-6]] on several benchmarks, making Moonshot the lead Chinese open-source frontier lab going into the [[deepseek-v4]] release later in the week. [[amazon]]'s $25B Anthropic infra investment ($40B+ combined with Nov-2025) rebalances the OpenAI-Anthropic hyperscaler-customer rivalry at AWS. [[google]] DeepMind forming a strike team explicitly to match Anthropic's coding performance is the first publicly acknowledged "we're behind on coding agents" admission from Google.
+
+---
+
+## 2026-04-21
+**Ingested**: data/summaries/2026-04-21.json (backfill batch 3/12)
+
+**Pages updated**:
+- [[anthropic]] — [[claude-for-word]] ships (Microsoft Word integration for AI-driven redlining + content creation); [[claude-opus-4-7]] reframed (advanced software engineering, coding, enterprise workflows, vision); UK/US regulators delay Mythos release ("A.I. doomsday" mainstream coverage)
+- [[claude-for-word]] — Ships (productizes Apr-12 capability)
+- [[openai]] — Three senior executives depart (incl. former CPO Kevin Weil); consolidation toward enterprise AI + superapp
+- [[nvidia]] — Launches Space Computing (brings AI compute to orbit); TPU + networking supply agreement through 2031 (cross-vendor)
+- [[meta]] — Plans ~10% workforce cut for AI infra realignment
+- [[xai]] — Grok Build + Grok CLI shipped (autonomous coding/dev tools)
+- [[vercel]] — Security breach attributed to compromised third-party AI tool
+- [[claude-mythos]] — Release-delay mainstream coverage / A.I. doomsday framing
+- [[ai-jobs-displacement]] — BCG report: AI could eliminate 25M US jobs
+- [[google]] — TPUs unveiled to challenge NVIDIA on AI inference (preview-cycle)
+- [[google-tpu-v8]] — Preview-cycle framing for Apr 24 formal launch
+- [[claude-design]] — Non-designer positioning + Code hand-off framing
+- [[agent-frameworks]] — xAI Grok Build + Grok CLI ship
+
+**Pages created**: [[claude-for-word]]
+
+**Notable**: 2026-04-21 is OpenAI's first publicly tracked exec-departure cycle of 2026 — three senior executives depart including former CPO Kevin Weil, coverage frames as consolidation toward enterprise AI + the Codex superapp. [[vercel]]'s security breach attributed to a compromised third-party AI tool is the first publicized hyperscaler-tier security incident in 2026 explicitly traced to an AI-tool dependency — preview of the "AI-tool supply-chain security" frontier that will sharpen through May. [[nvidia]] Space Computing extends the Mar-18 GTC space-AI announcement into a productized line, with a multi-decade TPU supply agreement through 2031 hinting at an unusual cross-vendor relationship. UK/US regulators delaying Mythos release adds mainstream-press "A.I. doomsday" framing pressure.
+
+---
+
+## 2026-04-20
+**Ingested**: data/summaries/2026-04-20.json (backfill batch 2/12)
+
+**Pages updated**:
+- [[anthropic]] — [[claude-design]] formal launch (full visual design product); Mythos flagged by US + UK regulators
+- [[claude-design]] — Formal launch as full visual design product
+- [[claude-mythos]] — US/UK regulator concerns
+- [[canva]] — Canva AI 2.0 launches (AI-native creative environment; fully editable generated designs)
+- [[canva-ai-2]] — Launch: AI-native + fully-editable framing
+- [[google]] — [[gemma-4]] family release (foundation for local AI engines); Chrome Skills launches for Gemini-prompt reuse
+- [[openai]] — [[gpt-rosalind]] released (Life Sciences reasoning model); acquires Hiro Finance (talent deal — personal-finance fintech); Tubi native app inside ChatGPT
+- [[gpt-rosalind]] — Formal release
+- [[cerebras]] — Files for IPO under ticker CBRS at $22-25B valuation
+- [[ai-funding-rounds]] — Cerebras IPO filing
+- [[ai-ipo-wave]] — Cerebras CBRS filing extends frontier-AI-IPO trajectory
+- [[adobe]] — Firefly AI Assistant continued framing
+- [[claude-mythos]] — US/UK regulators concerns over vulnerability-discovery capability
+
+**Pages created**: [[canva-ai-2]], [[gpt-rosalind]] (formal page), [[cerebras]] (formal page)
+
+**Notable**: 2026-04-20 is the day the design-tooling category crystallizes — [[claude-design]] formal launch + [[canva-ai-2]] AI-native creative environment + [[adobe]] Firefly AI Assistant continued rollout = single-day battleground inflection. [[google]] DeepMind releases [[gemma-4]] family as the "foundation for local AI engines that developers can fully control" — explicit "renting API → building specialized systems" framing. [[cerebras]] files for IPO under CBRS at $22-25B — first AI-inference-silicon vendor on the public-market path. [[openai]]'s [[gpt-rosalind]] formally releases as the first Life Sciences reasoning model.
+
+---
+
+## 2026-04-19
+**Ingested**: data/summaries/2026-04-19.json (backfill batch 1/12)
+
+**Pages updated**:
+- [[anthropic]] — [[claude-mythos]] reframed as "restricted model specializing in autonomously detecting and exploiting software vulnerabilities"; ASL-4 safety protocol triggered for Claude Mythos 5 (first publicly framed ASL-4 invocation)
+- [[claude-mythos]] — ASL-4 framing; vulnerability-discovery characterization
+- [[openai]] — GPT-5.4-Cyber released (defensive cybersecurity); Trusted Access for Cyber (TAC) program expanded; Agents SDK update (native harness + sandboxed execution); GPT-Rosalind introduced; Codex updated with background computer control + multi-agent workflows + deeper IDE integration
+- [[gpt-5-4-cyber]] — Formal release
+- [[gpt-rosalind]] — Introduction (formal release follows on Apr 20)
+- [[nvidia]] — [[nvidia-ising]] launches (world's first open AI models for quantum computing — Ising Calibration + Verification); Lyra 2.0 (3D environments from a single image); Jensen Huang argues US chip restrictions backfire
+- [[nvidia-ising]] — Formal launch
+- [[google]] — Subagents arrive in Gemini CLI (multi-agent workspace); Gemini Mac app (instant on-screen summarization)
+- [[cursor]] — Multi-agent system optimizes CUDA kernels (38% speedup)
+- [[ai-jobs-displacement]] — Snap 1,000 layoffs (~16% workforce); 99K tech layoffs YTD with explicit AI attribution
+- [[ai-funding-rounds]] — Q1 2026 AI funding $297B framing; Allbirds → NewBird AI pivot
+- [[xai]] — Grok deepfake regulatory pressure
+- [[deepseek-v4]] — Upcoming-release announcement
+- [[spacex]] — $250B xAI acquisition re-framing in Beyond the Newsletters
+- [[adobe]] — Firefly AI Assistant launches (Creative Agent — multi-step workflows across Photoshop/Premiere/Illustrator)
+- [[agent-frameworks]] — ManyIH (Many-Tier Instruction Hierarchy) paper; Gemini CLI subagents; Cursor multi-agent CUDA
+
+**Pages created**: [[gpt-5-4-cyber]], [[nvidia-ising]] (formal page)
+
+**Notable**: 2026-04-19 is the day Anthropic publicly triggers **ASL-4** safety protocol for [[claude-mythos]] 5 — first publicly framed ASL-4 invocation, signaling Anthropic now treats Mythos at a higher risk tier than any prior Claude release. Same cycle: [[openai]] ships **GPT-5.4-Cyber** as the defensive-cybersecurity fine-tune of GPT-5.4 with lowered refusal thresholds for verified TAC-program users — counter-positioning to Mythos's restricted release: where Mythos is held back from public release, GPT-5.4-Cyber democratizes a defender-tuned alternative through a tiered-identity-verification program. [[nvidia-ising]] launches as the world's first open AI models for quantum computing (Ising Calibration + Verification automate quantum-processor calibration + error correction) — extending NVIDIA's "AI as control surface" thesis from physical AI ([[nvidia-cosmos]]) to quantum engineering. The Q1 2026 $297B AI-funding-surge framing and the 99K-YTD tech-layoff total (nearly half AI-attributed) sit on opposite sides of the same capex-vs-labor ledger.
+
+---
+
 ## 2026-04-15
 **Ingested**: data/summaries/2026-04-15.json (backfill)
 

@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-03-28
-> **Last updated**: 2026-06-04
+> **Last updated**: 2026-06-04 (backfill carries 2026-04-19→2026-04-30 entries)
 > **Status**: unreleased (delayed); in restricted use via [[project-glasswing]] (150+ orgs in 15+ countries as of June 2026)
 > **Related**: [[anthropic]], [[claude-opus-4-7]], [[claude-opus-4-6]], [[project-glasswing]]
 
@@ -19,6 +19,16 @@ Claude Mythos is an unreleased [[anthropic]] model first surfaced via a leaked (
 ## Timeline
 
 - **2026-06-04**: Mythos Preview footprint expanded — [[anthropic]] gives 150 additional organizations across 15+ countries access via [[project-glasswing]]; coverage frames this alongside Anthropic's confidential IPO filing as evidence Mythos is now Anthropic's enterprise-cybersecurity calling card, even though the model remains formally unreleased — *source: The Rundown AI "Anthropic expands Project Glasswing"; TLDR AI "Anthropic expands Mythos to 150 additional organizations in more than 15 countries"; Evolving AI Insights; AI Breakfast*
+- **2026-04-30**: Mythos Preview's restricted-release framing crystallizes — coverage describes Mythos as held back due to "concerns about AI capabilities in vulnerability discovery and exploitation" (canonical "too-dangerous-to-release" articulation); reinforces the still-Preview-only status going into May 2026 — *source: 2026-04-30 cycle (Mythos Preview restricted-release framing)*
+- **2026-04-28**: Mythos remains in restricted release; **Claude agents successfully negotiate real deals between employees** — Anthropic experiment expands Claude-agent capability surface but does not yet leverage Mythos publicly (negotiation experiments use the publicly-available Opus 4.7 surface) — *source: 2026-04-28 cycle (Anthropic Claude agents negotiation experiments)*
+- **2026-04-27**: **NSA uses Mythos Preview despite Pentagon supply-chain-risk label** — federal AI-security tension surfaces: the National Security Agency is using the unreleased Mythos Preview model even as the DoD has labeled [[anthropic]] a supply-chain risk; signals that intelligence-community demand for Mythos is overriding procurement-level Anthropic skepticism — first publicly disclosed US-government Mythos user — *source: 2026-04-27 cycle (NSA + Mythos Preview tension despite Pentagon label)*
+- **2026-04-26**: **Anthropic investigates unauthorized access to Claude Mythos Preview** — including via a third-party vendor — despite the Pentagon ban labeling Anthropic a supply-chain risk; first-ever public Anthropic disclosure of a Mythos-access breach attempt (contextualizes the 2026-04-13 "Mythos Breach" framing as having a real underlying incident, even if the [[project-glasswing]] hacker-vs-coalition contradiction remains open) — *source: 2026-04-26 cycle (Mythos Preview unauthorized-access investigation)*
+- **2026-04-24**: **Mythos unauthorized-access incident covered** — coverage frames the unreleased Mythos as compromised by unauthorized users; surfaces broader concerns about security/access controls of increasingly powerful AI systems — *source: 2026-04-24 cycle (Mythos unauthorized-access framing)*
+- **2026-04-23**: Mythos scores **94.6% on science PhD tests** — exceptional domain expertise; underscores rapid progress in AI capabilities in specialized knowledge domains (positions Mythos in academic-reasoning territory alongside [[deepseek-v4]] / [[gemini-3-1-pro]] science scores) — *source: 2026-04-23 cycle (Mythos 94.6% PhD-tests framing)*
+- **2026-04-22**: Mythos called out by global coverage as sparking cybersecurity alarms — "Mythos breaking containment / accelerating cyber threats" framing reinforces 2026-04-15 banking-regulator warning — *source: 2026-04-22 cycle (Mythos sparking global cybersecurity alarms)*
+- **2026-04-21**: UK/US regulators reportedly **delay Mythos release** — coverage features "experts warn of A.I. doomsday scenarios" framing in mainstream press following Anthropic's release-postponement decision; reinforces the governance-pressure trajectory — *source: 2026-04-21 cycle (Mythos release-delay mainstream coverage)*
+- **2026-04-20**: Mythos flagged again by US + UK regulators over **vulnerability-discovery capability** — coverage framing extends the 2026-04-15 banking-regulator warning to UK as well — *source: 2026-04-20 cycle (Mythos US/UK regulator concerns)*
+- **2026-04-19**: Mythos reframed as "restricted model specializing in autonomously detecting and exploiting software vulnerabilities" — Anthropic reportedly **triggers ASL-4 safety protocol for Claude Mythos 5** (first ASL-4 invocation publicly framed; suggests Anthropic now treats Mythos at a higher risk tier than prior Claude releases) — *source: 2026-04-19 cycle (Mythos ASL-4 framing; vulnerability-discovery characterization)*
 - **2026-04-15**: Regulators warn major banks about potential cybersecurity risks tied to Mythos Preview — institutional-concern inflection; governance pressure rising — *source: 2026-04-15 cycle*
 - **2026-04-13**: Coverage describes "Mythos Breach" with "hackers known as Project Glasswing" breaching the secret project — contradicts the 2026-04-09/11 framing of [[project-glasswing]] as an Anthropic-led *coalition*; likely newsletter-conflation of codename; treat as ambiguous until clarified — *source: 2026-04-13 cycle (TAAFT — Mythos Breach)*
 - **2026-04-11**: Claude Mythos *Preview* named as the model powering [[project-glasswing]] — used to detect and secure critical software in collaboration with major tech companies — *source: 2026-04-11 cycle*
@@ -58,3 +68,13 @@ Claude Mythos is an unreleased [[anthropic]] model first surfaced via a leaked (
 - data/summaries/2026-04-13.json (TAAFT — Mythos Breach / Glasswing as hackers framing — ambiguous)
 - data/summaries/2026-04-15.json (Regulators warn banks on Mythos cybersecurity risk exposure)
 - data/summaries/2026-06-04.json (The Rundown AI — Anthropic expands Project Glasswing; TLDR AI — Mythos to 150 orgs in 15+ countries; Evolving AI Insights; AI Breakfast)
+- data/summaries/2026-04-19.json (Mythos ASL-4 framing; vulnerability-discovery characterization)
+- data/summaries/2026-04-20.json (Mythos US/UK regulator concerns)
+- data/summaries/2026-04-21.json (Mythos release-delay mainstream coverage / A.I. doomsday framing)
+- data/summaries/2026-04-22.json (Mythos sparking global cybersecurity alarms)
+- data/summaries/2026-04-23.json (Mythos 94.6% PhD-tests framing)
+- data/summaries/2026-04-24.json (Mythos unauthorized-access framing)
+- data/summaries/2026-04-26.json (Mythos Preview unauthorized-access investigation despite Pentagon label)
+- data/summaries/2026-04-27.json (NSA + Mythos Preview tension)
+- data/summaries/2026-04-28.json (Claude agents negotiation experiments; Mythos still in restricted release)
+- data/summaries/2026-04-30.json (Mythos Preview restricted-release framing)

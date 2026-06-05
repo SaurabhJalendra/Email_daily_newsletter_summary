@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-04
-> **Last updated**: 2026-04-15 (backfill 2026-04-06..2026-04-15)
+> **Last updated**: 2026-04-24
 > **Status**: active
 > **Related**: [[agent-frameworks]], [[jules]], [[claude-code]], [[replit]], [[cursor-composer]], [[cognition]]
 
@@ -18,6 +18,9 @@ Cursor is an AI-native coding IDE (a VS Code fork) that has become the reference
 
 ## Timeline
 
+- **2026-04-24**: **SpaceX partners with [[cursor]] in a $60B deal** continues coverage — aim: provide [[spacex]] a shortcut into the AI coding market; underscores Cursor's strategic-asset status — *source: 2026-04-24 cycle (SpaceX-Cursor $60B deal extended framing)*
+- **2026-04-23**: **[[spacex]] partners with Cursor for $60B potential acquisition** — strategic partnership aiming to integrate Cursor's AI coding capabilities with SpaceX's **Colossus supercomputer**; positions the combined entity to compete directly with frontier AI labs in coding-agent development — first publicly disclosed SpaceX-scale acquisition target in the AI-coding sector — *source: 2026-04-23 cycle (SpaceX-Cursor $60B partnership)*
+- **2026-04-19**: **Cursor multi-agent system optimizes CUDA kernels** with avg 38% speedup — automatically writes and optimizes kernels, treating optimization as a continuous loop of writing, testing, refining code; positions Cursor's multi-agent architecture as a GPU-performance-engineering tool — *source: 2026-04-19 cycle (AlphaSignal — Cursor multi-agent CUDA optimization 38% speedup)*
 - **2026-04-15**: Cursor 3.1 released — lets users manage a *fleet* of coding agents at once; doubles down on the parallel-agent thesis; parallels Google's same-day "manage a fleet of coding agents" feature and [[vercel]]'s Open Agents open-sourcing — multi-agent-management becomes an industry-default surface in a single week — *source: 2026-04-15 cycle*
 - **2026-04-11**: Cursor lets agents attach demos and screenshots to pull requests for easier review — PR-review surface for agent output — *source: 2026-04-11 cycle*
 - **2026-04-10**: Bugbot (code reviewer) upgraded to learn on the job and track developer interactions — agent-self-tuning from real review feedback — *source: 2026-04-10 cycle*
