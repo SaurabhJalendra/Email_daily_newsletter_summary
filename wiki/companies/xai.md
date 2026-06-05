@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-08
-> **Last updated**: 2026-05-27
+> **Last updated**: 2026-06-05 (evening edition adds Grok as Cloudflare-native AI gateway + Gopuff "Go" shopping assistant)
 > **Status**: active
-> **Related**: [[nvidia]], [[spacex]], [[grok-4-1]], [[grok-4-20]], [[grok-build]], [[grokipedia]], [[grok-imagine]], [[ai-hardware]], [[ai-funding-rounds]]
+> **Related**: [[nvidia]], [[spacex]], [[grok-4-1]], [[grok-4-20]], [[grok-build]], [[grokipedia]], [[grok-imagine]], [[ai-hardware]], [[ai-funding-rounds]], [[cloudflare]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ xAI is Elon Musk's AI lab, maker of the Grok model family. In early October 2025
 
 ## Timeline
 
+- **2026-06-05-evening**: **Grok becomes a native AI Gateway model on [[cloudflare]]** — Cloudflare's AI Gateway now exposes Grok as a first-class managed model option alongside the existing OpenAI / Anthropic / Google routes; first publicly framed Cloudflare-xAI partnership (extends Grok's distribution beyond X/SpaceXAI native surfaces into a major CDN+edge platform's AI runtime); **Gopuff launches "Go" AI shopping assistant built on Grok** — predicts users' carts using Grok + real-time signals from X + Gopuff order data; first publicly framed consumer-retail Grok deployment that explicitly couples X social signal with a shopping graph (concrete data-moat case for SpaceX-owned X data feeding into a Grok-powered consumer surface — extends the SpaceXAI integration thesis from internal Musk-company use to a third-party retail customer). The day's coverage also recirculates **SpaceXAI's IPO push** ("explaining its IPO to people who might not know they will be forced into buying it" — AINews framing) — *source: Evolving AI Insights "Anthropic Warns AI Could Slip Beyond Human Control" — Cloudflare and xAI make Grok native AI gateway model; The Rundown AI "Anthropic's self-improving AI warning" — Gopuff launches Go AI shopping with Grok + X signals; AINews "[AINews] not much happened today" — SpaceXAI IPO framing*
 - **2026-05-27**: **[[grok-build]] opens to all SuperGrok and X Premium+ users** in beta (graduates from May-15 SuperGrok Heavy-only beta to broader subscriber availability) — terminal coding agent that **shows its plan before executing** and can hand off bigger tasks to parallel sub-agents (positions Grok Build as the explicit plan-then-execute competitor to [[claude-code]] and [[openai-codex]]); **Musk announces Grok V9-Medium (1.5T-parameter foundation model) has finished training** — designed for "harder coding tasks," reinforcement-learning phase begins within days, public release expected in 2–3 weeks (first Grok release in trillion-parameter tier framed explicitly around coding); **xAI launches Grok Skills** for custom workflows; also xAI exodus narrative continues to circulate — *source: 2026-05-27 cycle (The Rundown AI — Pope wants AI disarmed / xAI Grok Build to all SuperGrok and X Premium+ + Grok V9-Medium 1.5T training complete; Forward Future — Grok V9-Medium 1.5T harder coding; Evolving AI Insights — xAI Grok Skills; The Code — Grok Build opens to subscribers)*
 - **2026-05-21**: xAI's prior research-lab independence further erodes as SpaceXAI division status hardens; coverage frames as "Cursor would be wholly absorbed if SpaceX exercises $60B option" — *source: 2026-05-21 cycle (Cerebral Valley + Forward Future)*
 - **2026-05-20**: Igor Babuschkin (xAI co-founder) leaving to start **River AI**, seeking up to $1B in funding — concrete data-point on the xAI talent exodus to Meta, Thinking Machines, and now Babuschkin's new venture — *source: 2026-05-20 cycle (TLDR AI — Grok Build + xAI exodus; TLDR — Meta's AI reorg)*

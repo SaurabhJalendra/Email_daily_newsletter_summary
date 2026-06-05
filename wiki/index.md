@@ -202,6 +202,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
 - [[perplexity-computer]] — Perplexity's 19-model orchestration platform for end-to-end workflows (Feb 2026)
 - [[perplexity-personal-computer]] — Perplexity's always-on local AI agent on a dedicated Mac mini (Mar 2026) *(stale)*
+- [[poke]] — first third-party AI agent approved for Apple Messages for Business / iMessage (Jun 2026)
 - [[project-genie]] — Google DeepMind's interactive 3D-world generator powered by Genie 3 model *(stale)*
 - [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO *(stale)*
 - [[qwen-3-5]] — Alibaba's Feb 2026 vision-language MoE family; 397B-A17B Max, Medium MoE, Small tiny-model tier *(stale)*
@@ -238,6 +239,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026)
 - [[project-glasswing]] — Anthropic-led cybersecurity coalition (AWS, Apple, Google, Microsoft, NVIDIA) using Claude Mythos Preview
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures *(stale)*
+- [[recursive-self-improvement]] — Anthropic's "Sparks of RSI" essay; 80% of Anthropic code Claude-authored, 8× engineer output, coordinated-pause ask (Jun 2026)
 - [[universal-commerce-protocol]] — Shopify + Google open protocol for agent-commerce (Jan 2026) *(stale)*
 - [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos *(stale)*
 
