@@ -98,37 +98,39 @@ export class SummaryStorage {
    * so the caller fetches SINCE the watermark's date and then post-filters on
    * `email.date > watermark`.
    *
-   * Falls back to the newest file's date (legacy single-edition data) if no
-   * `__lastRunAt` is recorded yet, and null if there's nothing at all.
+   * Falls back (for repos predating the watermark) to the latest run time
+   * recorded in the index entries' `updatedAt`, and null if there's nothing —
+   * in which case the fetcher uses a last-12-hours window. NOTE: do NOT fall
+   * back to a filename date — files are named by IST calendar day but produced
+   * at the prior run's wall-clock time, so an end-of-day filename watermark can
+   * land in the future and filter out every fetched email.
    */
   async getWatermark() {
     const indexPath = path.join(DATA_DIR, 'index.json');
     try {
       const content = await fs.readFile(indexPath, 'utf-8');
       const index = JSON.parse(content);
+
       if (index.__lastRunAt) {
         return new Date(index.__lastRunAt);
       }
+
+      // Pre-watermark fallback: newest per-entry updatedAt ≈ the last run time.
+      const times = Object.entries(index)
+        .filter(([k]) => !k.startsWith('__'))
+        .map(([, v]) => v && v.updatedAt)
+        .filter(Boolean)
+        .map(t => new Date(t).getTime())
+        .filter(n => !Number.isNaN(n));
+
+      if (times.length > 0) {
+        return new Date(Math.max(...times));
+      }
     } catch (error) {
-      // No index yet — fall through to filename-based fallback.
+      // No index / unreadable — caller will use the 12-hour default.
     }
 
-    // Fallback for repos predating the watermark: end of the newest file's day.
-    try {
-      const files = await fs.readdir(DATA_DIR);
-      const jsonFiles = files.filter(f => this.isSummaryFile(f));
-      if (jsonFiles.length === 0) return null;
-
-      const dates = jsonFiles
-        .map(f => f.replace('.json', '').replace(/-(morning|evening)$/, ''))
-        .sort();
-      const dateString = dates[dates.length - 1];
-      const [year, month, day] = dateString.split('-').map(Number);
-      return new Date(year, month - 1, day, 23, 59, 59);
-    } catch (error) {
-      console.error('Error computing watermark:', error);
-      return null;
-    }
+    return null;
   }
 
   /** Back-compat alias — older callers may still ask for the last summary date. */
