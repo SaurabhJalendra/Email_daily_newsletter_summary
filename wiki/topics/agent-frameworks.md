@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-29
+> **Last updated**: 2026-06-06 (evening edition adds The AI Corner's 6-pattern / 14-step taxonomy for Claude Code Dynamic Workflows)
 > **Status**: active
-> **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-cowork]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]], [[agent-composer]], [[lux]], [[claude-managed-agents]]
+> **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-cowork]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]], [[agent-composer]], [[lux]], [[claude-managed-agents]], [[recursive-self-improvement]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ type: topic
 
 ## Timeline
 
+- **2026-06-06-evening**: **The AI Corner publishes the 6-pattern / 14-step taxonomy** for Anthropic-engineer Claude Code Dynamic Workflows usage — first publicly framed *named* taxonomy of multi-agent orchestration primitives at a frontier lab: (1) **fan-out and synthesize**, (2) **classify-and-act**, (3) **adversarial verification**, (4) **generate-and-filter**, (5) **tournament**, (6) **loop-until-done** — each with corresponding JavaScript code; 14-step roadmap covers migrating code, sorting 1,000 items, and verifying agents at scale; use-case compositions: migrations, deep research, root-cause investigation; Dynamic Workflows lets the model write its own custom **harness in JavaScript on the fly**, with subagents, parallel execution, **per-agent model choice**, and **per-agent isolation**; positions Claude Code Dynamic Workflows as the canonical reference for what production-grade agent orchestration looks like as of mid-2026; quotes Marc Andreessen, Dario Amodei, and Demis Hassabis on the "moat in 2026 lives in the system built around the model" thesis (cross-lab CEO-level convergence at the agent-framework level — see [[recursive-self-improvement]] for the upstream thesis tie-in) — *source: data/summaries/2026-06-06-evening.json (The AI Corner — Dynamic Workflows 6 patterns + 14 steps + per-agent model choice/isolation + Andreessen/Amodei/Hassabis convergence)*
 - **2026-03-02**: [[anthropic]] ships 7-part Agentic blitz for Claude — remote control, Figma connector, and other agent-workflow features — *source: 2026-03-02 cycle*
 - **2026-02-27**: [[perplexity-computer]] launches with 19-model orchestration; [[vercel]] open-sources Chat SDK for cross-platform bots; [[nous-research]] Hermes Agent goes open-source; [[claude-cowork]] adds scheduled tasks — *source: 2026-02-27 cycle*
 - **2026-02-26**: [[notion]] launches Custom Agents — autonomous AI teammates that automate tasks and answer questions proactively — *source: 2026-02-26 cycle*
