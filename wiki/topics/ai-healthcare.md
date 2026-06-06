@@ -8,8 +8,8 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2026-01-08
-> **Last updated**: 2026-01-18
-> **Status**: stale
+> **Last updated**: 2026-06-06 (morning edition adds first AI-designed vaccine into human trials + Google smartphone-camera pulse reading)
+> **Status**: active
 > **Related**: [[chatgpt-health]], [[openai-for-healthcare]], [[openai]], [[anthropic]], [[google]], [[nvidia]], [[enterprise-ai]]
 
 ## Summary
@@ -18,6 +18,7 @@ By early 2026 healthcare became a concurrent priority at every major AI lab. In 
 
 ## Timeline
 
+- **2026-06-06-morning**: **First AI-designed vaccine enters human trials** — described as a **"super-antigen" that trains the immune system against a whole virus family**; flu and Ebola versions next; first publicly disclosed AI-designed vaccine to reach human-trial stage and a concrete milestone in the AI-drug-discovery narrative that until now had been dominated by pharma-AI partnerships (Lilly+NVIDIA, Anthropic+Gates Foundation, [[gpt-rosalind]]); positions vaccine design as the **most tractable early human-trial surface for generative biology** (one design × broad coverage vs many small-molecule shots); same cycle: **[[google]] builds a system that reads pulse from the front camera of a smartphone** (consumer biosensing as a separate AI-healthcare track parallel to vaccine design) — *source: data/summaries/2026-06-06-morning.json (TAAFT "AI's First Vaccine Hits Humans" — AI designed its first real vaccine, trialled in humans, super-antigen trains immune system against virus families, flu and Ebola versions next; phone cameras read user pulse — Google front-camera pulse system)*
 - **2026-01-18**: Mistral OCR 3 for medical documents; Anthropic's Claude for Healthcare grouped with Claude Cowork — *source: 2026-01-18 cycle*
 - **2026-01-17**: Google updates MedGemma to 1.5 — better support for high-dimensional medical imaging — *source: 2026-01-17 cycle*
 - **2026-01-15**: Lilly + NVIDIA announce $1B AI drug-discovery lab partnership — *source: 2026-01-15 cycle*

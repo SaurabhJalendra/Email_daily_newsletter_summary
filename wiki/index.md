@@ -13,6 +13,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[anduril]] — defense-tech prime; $8B at $60B valuation Mar 2026; ExoAnalytic Solutions acquisition doubled space unit *(stale)*
 - [[anthropic]] — Claude maker; Opus 4.7/4.5, Claude Design, Routines, Excel, Code Web, IPO talks, Bun acquisition
 - [[apple]] — solo-AI strategy abandoned; Siri+Gemini deal; M5 chip; Subramanya new AI VP
+- [[assemblyai]] — voice/speech AI vendor; Voice Agent API collapses pipeline into a single WebSocket (Jun 2026)
 - [[auth0]] — identity platform; Auth0 for AI Agents *(stale)*
 - [[baidu]] — Chinese search/cloud giant; ERNIE-4.5-VL-Thinking open-source multimodal reasoning *(stale)*
 - [[black-forest-labs]] — German image-gen lab; ships FLUX.2 *(stale)*
@@ -36,6 +37,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026)
+- [[jpmorgan-chase]] — investment bank; LLM Suite aggregates OpenAI + Anthropic; "fully AI-powered megabank" commitment; $18B/yr tech (Jun 2026)
 - [[liquid-ai]] — MIT-spinout efficient-model lab; LFM2 family; LFM2-2.6B-Exp Dec 2025 *(stale)*
 - [[lovable]] — Swedish vibe-coding startup; $330M @ $6.6B Dec 2025
 - [[luma]] — AI video startup; Ray3 Modify video-model update *(stale)*
@@ -59,6 +61,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[reflection]] — raised $2B *(stale)*
 - [[replit]] — browser IDE; non-coder pivot *(stale)*
 - [[runway]] — AI video; Gen-4.5 tops Veo 3 and Sora on Artificial Analysis
+- [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
 - [[salesforce]] — enterprise SaaS; Agentforce 360
 - [[spacex]] — Musk's space company; xAI parent; S-1 filed at $1.7T (SPCX); orbital DCs + Anthropic Colossus 1 lease
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B

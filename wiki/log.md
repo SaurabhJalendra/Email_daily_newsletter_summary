@@ -4,6 +4,27 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-06-06-morning
+**Ingested**: data/summaries/2026-06-06-morning.json (11 newsletters — AlphaSignal "Claude outpaces humans 64% of the time", TAAFT "AI's First Vaccine Hits Humans", Simon Willison sandboxing/Lockdown/Uber-cap, AINews "not much happened today" with Sakana RSI Lab, Hello World Redis/Zapocalypse/Asana Dash, Latent.Space RL envs, plus three community/promo newsletters)
+
+**Pages updated**:
+- [[anthropic]] — Anthropic Cloud sandboxing publication across Claude.ai / Code / Cowork; AlphaSignal Mythos 52× / 64% / 80%-of-codebase / 12-hour / horizon-doubling capability headline
+- [[claude-mythos]] — 52× code speedup, outpaces humans 64% of the time, authored 80% of Anthropic's production codebase, handles 12-hour solo tasks, task horizons doubling every four months (METR-style scaling-law data point)
+- [[openai]] — OSS support program (6 months ChatGPT Pro + Codex + Codex Security + $1M fund for OSS maintainers); "Lockdown Mode" limiting outbound network requests to prevent data exfiltration; Codex "Build iOS Apps" plugin echo; flagged Simon Willison's 1T/137B MAI param-count claim as conflicting with Build 2026 canonical 35B-active framing
+- [[chatgpt]] — memory capacity doubled for Plus and Pro users (capacity-multiplier arm of 2026-06-05 Dreaming launch)
+- [[meta]] — face recognition technology hidden in Meta AI app despite public "still thinking through" stance
+- [[cloudflare]] — bot-vs-human traffic milestone concretized: bots account for 57.5% of HTTP requests
+- [[ai-cybersecurity-arms-race]] — sandboxing emerges as the defender-side architectural surface (OpenAI Lockdown Mode + Anthropic sandboxing publication + Simon Willison `micropython-wasm` Datasette plugin); AI security tool finds 2-year-old Redis vulnerability; "Zapocalypse" full-account-takeover chain (since fixed)
+- [[ai-healthcare]] — first AI-designed vaccine enters human trials (super-antigen training immune system against virus families; flu and Ebola versions next); refreshed Status: stale → active; Google smartphone-camera pulse-reading system
+- [[recursive-self-improvement]] — Sakana AI launches dedicated RSI Lab in Tokyo (first named organizational unit outside US frontier labs); horizon-doubling-every-four-months Mythos data point as quantitative scaffold
+- [[enterprise-ai]] — JPMorgan LLM Suite + 400-450+ active gen-AI use cases + $18B/yr tech with AI central pillar; Uber $1,500/month AI-token cap per employee; Asana Dash AI "Chief of Staff" launch; Datadog State of AI Engineering report
+
+**Pages created**: [[jpmorgan-chase]], [[assemblyai]], [[sakana-ai]]
+
+**Notable**: This morning edition is a "Saturday-after" cycle: AINews itself titled the day "not much happened today" and most named beats are *recurrence + concretization* of the 2026-06-05 evening cycle (RSI essay, Mythos commercialization, ChatGPT Dreaming). The genuinely *new* signals are: (1) **Sandboxing emerges as the defender-side architectural surface** — three near-simultaneous announcements (OpenAI Lockdown Mode + Anthropic sandboxing publication + Simon Willison's `micropython-wasm` Datasette plugin) point to "safe arbitrary code execution" as the next agentic-coding interface, parallel to Mythos's offensive-tier headlines. (2) **Sakana AI's RSI Lab in Tokyo** is the first publicly framed *named organizational unit* for [[recursive-self-improvement]] outside the US frontier labs — concretizes Anthropic's 2026-06-05 "Sparks of RSI" essay into a competitor structural commitment in a third jurisdiction (Japan), implicitly challenging the US-China two-jurisdiction frame of Anthropic's coordinated-pause ask. (3) **AlphaSignal supplies the cleanest publicly framed METR-style scaling-law data point on Mythos**: task horizons doubling every four months. If sustained, that implies ~8× horizon growth per year — a quantitative scaffold for the qualitative "AI builds AI" framing. (4) **JPMorgan's LLM Suite framing** is the cleanest single-institution articulation of "every employee has an AI assistant" yet, with 400-450+ active use cases and a $18B/yr tech budget as the AI-adoption bellwether for regulated industries. (5) **Uber's $1,500/month AI-token cap per employee** is the first publicly disclosed per-headcount AI-spend metering policy — productizes the 2026-05-23 "Uber drops Claude Code over cost" framing into a quantitative enterprise-budgeting primitive. (6) **First AI-designed vaccine entering human trials** is the most concrete generative-biology milestone of the cycle. Simon Willison's 1T/137B Microsoft MAI-Thinking-1 / MAI-Code-1-Flash size claim **conflicts with the 2026-06-05 Build canonical 35B-active / 5B framing** — flagged on [[openai]] timeline; treat existing wiki figures as canonical until corroborated.
+
+---
+
 ## 2026-06-03
 **Ingested**: data/summaries/2026-06-03.json (backfill batch 10/10 — ~33 newsletters; the day Anthropic confidentially files for IPO)
 

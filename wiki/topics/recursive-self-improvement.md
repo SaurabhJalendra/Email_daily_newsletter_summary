@@ -9,9 +9,9 @@ metadata:
 
 > **Type**: topic
 > **First mentioned**: 2026-06-05
-> **Last updated**: 2026-06-05
+> **Last updated**: 2026-06-06 (morning edition adds Sakana AI RSI Lab Tokyo + Mythos 52× / horizon-doubling METR-style headline)
 > **Status**: active
-> **Related**: [[anthropic]], [[claude-code]], [[claude-mythos]], [[ai-cybersecurity-arms-race]], [[openai]], [[andrej-karpathy]]
+> **Related**: [[anthropic]], [[claude-code]], [[claude-mythos]], [[ai-cybersecurity-arms-race]], [[openai]], [[andrej-karpathy]], [[sakana-ai]]
 
 ## Summary
 
@@ -21,6 +21,7 @@ The framing is paired with [[anthropic]]'s established **AI-safety positioning**
 
 ## Timeline
 
+- **2026-06-06-morning**: **RSI moves from theory to explicit org strategy** — **[[sakana-ai]] launches a dedicated RSI Lab in Tokyo** (first publicly framed *named* organizational unit for recursive self-improvement at a frontier-adjacent lab; lands the day after Anthropic's "Sparks of RSI" essay and concretizes the framing into a competitor structural commitment outside the US frontier labs); **AlphaSignal publishes the [[claude-mythos]] capability headline**: 52× code speedup, outpaces humans 64% of the time, has authored 80%+ of Anthropic's production codebase, handles tasks solo for up to 12 hours, with task horizons **doubling every four months** — the horizon-doubling number is the cleanest publicly framed **METR-style scaling-law data point** attached to a Mythos-class model and supplies a quantitative scaffold for the "AI builds AI" framing (4-month doubling implies ~8× task-horizon growth per year if sustained); same cycle AINews "not much happened today" coverage explicitly tags the RSI narrative as the structuring story of the post-essay cycle ("Recursive self-improvement (RSI) moved from vague theory to explicit org strategy") — *source: data/summaries/2026-06-06-morning.json (AINews "not much happened today" — Sakana AI launches dedicated RSI Lab in Tokyo; AlphaSignal "Claude outpaces humans 64% of the time" — Mythos Preview 52× speedup / 64% / 80%-of-codebase / 12-hour solo tasks / horizon doubling every 4 months)*
 - **2026-06-05**: **Anthropic publishes *"When AI builds itself"* / "Sparks of RSI" essay** — argues current systems show *early* signs of recursive self-improvement (Claude writing 80%+ of Anthropic's merged code; engineers shipping 8× more code than in 2024; coverage tightening "faster than we thought" framing); reportedly **3M+ views**; policy chief expects RSI could be operative within ~2 years; explicit call for a **coordinated international pause/slowdown** with U.S.–China verification, framed as analogous to nuclear arms control; reframes [[anthropic]]'s safety positioning from product-tier ("too dangerous to release") to civilization-scale governance ask; same-cycle: [[openai]] launches **ChatGPT "Dreaming"** background memory synthesis (an AI-on-AI internal cognition loop adjacent to RSI but not framed as such); same-cycle: CEOs of OpenAI / Anthropic / Google DeepMind / Microsoft sign an open letter pressing Congress to require synthetic-DNA sellers to vet every buyer/order (dual-use AI-bioweapon framing layered on the RSI-safety cycle); **Anthropic's 95% of internal analytics queries now handled by Claude** is the second internal-workflow datapoint in the same cycle alongside the 80% code rate — *source: The Rundown AI "Anthropic's self-improving AI warning"; AINews "[AINews] not much happened today" — Sparks of RSI; Evolving AI Insights "Anthropic Warns AI Could Slip Beyond Human Control"; Forward Future "Anthropic's own AI writes 80% of its code"; Superhuman "AI is now building AI"; The Code "Agents overtake humans" — Anthropic 95% analytics via Claude; TLDR "iMessage agents, Anthropic wants pause"; TLDR AI "Anthropic Oceanus leaks, ChatGPT Dreaming, recursive self improvement"; AI Breakfast "Anthropic stops testing new Mythos model"; Anna's Daybreak — global AI pause framing*
 
 ## Key Facts
