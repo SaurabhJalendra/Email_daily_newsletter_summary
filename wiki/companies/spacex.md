@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-04-23
-> **Last updated**: 2026-05-24
+> **Last updated**: 2026-06-07 (morning edition adds Google rents AI compute from SpaceX at ~$1B/month through 2029 for ~110K NVIDIA GPUs)
 > **Status**: active
-> **Related**: [[xai]], [[cursor]], [[cursor-composer-2-5]], [[grok-4-20]], [[grok-build]], [[anthropic]], [[orbital-data-centers]], [[project-suncatcher]], [[ai-funding-rounds]], [[ai-hardware]], [[ai-ipo-wave]]
+> **Related**: [[xai]], [[cursor]], [[cursor-composer-2-5]], [[grok-4-20]], [[grok-build]], [[anthropic]], [[google]], [[orbital-data-centers]], [[project-suncatcher]], [[ai-funding-rounds]], [[ai-hardware]], [[ai-ipo-wave]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ SpaceX is Elon Musk's space exploration company and, since the Feb 2026 $1.25T s
 
 ## Timeline
 
+- **2026-06-07-morning**: **[[google]] rents AI compute from SpaceX** at **~$1 billion per month through 2029** — approximately **110,000 NVIDIA GPUs** under lease (first publicly framed Google-SpaceX commercial compute deal at this scale); puts SpaceX inside the top-two hyperscaler-customer supply pools (Anthropic via Colossus 1 $1.25B/month + 220K GPUs from 2026-05-11 + now Google via this lease) — SpaceX is now confirmed as a multi-frontier-lab + multi-hyperscaler AI-compute provider with a published per-customer pricing footprint of ~$1B+/month; sharpens the IPO thesis (compute rental is a real, scaled revenue line, not just space-Internet via Starlink) ahead of the June-12 Nasdaq SPCX debut — *source: data/summaries/2026-06-07-morning.json (TAAFT "🦾 Bots Outnumber Humans (57.2%)" — Google rents AI compute from SpaceX worth ~$1B/month through 2029 for ~110,000 NVIDIA GPUs)*
 - **2026-05-24**: SpaceX IPO filing fully covered — $1.7T valuation / $80B raise / SPCX ticker / June 12 Nasdaq debut / 1M-satellite FCC request / orbital DCs by 2028 / Mars colony framing — *source: 2026-05-24 cycle (Technology News — SpaceX going public at $1.7T; Anna's DayBreak — Market Recap May 16-23; World of AI — China hits 61% of AI usage)*
 - **2026-05-22**: SpaceX S-1 prospectus filed; up to $80B raise at $1.7T valuation; 2025 revenue $18.7B (Starlink ~half-to-2/3), net loss $4.94B; coverage frames as IPO of the decade — *source: 2026-05-22 cycle (DayTrading Dispatch — Bonds enter danger zone + SpaceX S-1; Anna's DayBreak — Castro Indicted; TLDR — SpaceX financials; AINews)*
 - **2026-05-21**: SpaceX IPO + xAI dissolution into SpaceX division ("SpaceXAI") + Cursor $60B option begin coordinated coverage — Musk frames the AI+space stack as the IPO thesis — *source: 2026-05-21 cycle (Forward Future — Musk lost in under 2 hours; AINews — Google I/O 2026)*

@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-21
-> **Last updated**: 2026-04-29
+> **Last updated**: 2026-06-07 (morning edition adds upgraded conversational-instruction warehouse robot inside €10B European logistics expansion)
 > **Status**: active
-> **Related**: [[openai]], [[anthropic]], [[nvidia]], [[perplexity]], [[perplexity-comet]], [[ai-hardware]], [[ai-funding-rounds]]
+> **Related**: [[openai]], [[anthropic]], [[nvidia]], [[perplexity]], [[perplexity-comet]], [[humanoid-robotics]], [[ai-hardware]], [[ai-funding-rounds]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Amazon (AWS) is one of the three hyperscalers most central to the AI compute bui
 
 ## Timeline
 
+- **2026-06-07-morning**: **Amazon unveils an upgraded warehouse robot that responds to conversational instructions** as part of a **€10B European logistics expansion** — extends Amazon's 2026-03-29 Fauna Robotics consumer-humanoid acquisition into a paired warehouse-vertical surface (the consumer-humanoid + conversational-warehouse pairing positions Amazon across both the household and industrial sides of the [[humanoid-robotics]] arms race); lands in the same window as [[nvidia]]'s [[isaac-groot]] Reference Humanoid Robot launch + [[openai]]'s robotics-program restart with Aditya Ramesh + Sam Altman's [[alfred-robotics]] investment + China's queued humanoid IPOs + JPMorgan reframing Tesla as a robotics-and-AI business — the cycle's connective tissue is that all major frontier-lab / cloud / chipmaker players are now publicly committed to embodied AI surfaces — *source: data/summaries/2026-06-07-morning.json (Superhuman "💵 Sam Altman's quiet robotics bet" — Amazon upgraded warehouse robot responds to conversational instructions / €10B European logistics expansion)*
 - **2026-04-29**: **OpenAI now ships products on AWS** under reworked Microsoft partnership — Microsoft loses exclusivity over OpenAI IP; OpenAI can ship products on any cloud (including AWS, Google Cloud); reinforces Amazon's $38B Nov-2025 OpenAI compute commitment and brings OpenAI's primary product surface back into AWS's commercial reach — *source: 2026-04-29 cycle (OpenAI on AWS via Microsoft exclusivity rework)*
 - **2026-04-27**: **Meta signs massive deal with AWS for millions of Graviton ARM chips** — coverage frames as a significant jab at cloud rival [[google]] Cloud; major hyperscaler-customer win in the silicon-diversification trend (extends Amazon's Trainium + Graviton in-house silicon positioning beyond Anthropic into Meta's compute stack) — *source: 2026-04-27 cycle (Meta-AWS Graviton ARM chips megadeal)*
 - **2026-04-25**: **Meta and Amazon sign deal for AWS AI chips** — significant partnership in the AI hardware space (preview cycle for the 2026-04-27 Graviton ARM specific framing); positions Amazon-Meta as a counter to Google-Anthropic on hyperscaler-customer alignment — *source: 2026-04-25 cycle (Meta-Amazon AWS AI chips deal)*
