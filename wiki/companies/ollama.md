@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-03-31
-> **Last updated**: 2026-04-13 (backfill 2026-04-06..2026-04-13)
+> **Last updated**: 2026-06-07 (evening edition — Ollama distributes Gemma 4 12B + QAT weights for all Gemma 4 sizes)
 > **Status**: active
-> **Related**: [[openclaw]], [[moonshot-ai]], [[agent-frameworks]]
+> **Related**: [[openclaw]], [[moonshot-ai]], [[google]], [[gemma-4]], [[claude-code]], [[agent-frameworks]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Ollama is the company behind the widely-used local-model runtime of the same nam
 
 ## Timeline
 
+- **2026-06-07-evening**: **Ollama ships [[gemma-4]] 12B + QAT weights for all Gemma 4 sizes** — the new 12B Gemma 4 model (encoder-free unified multimodal, text + images + native audio in a single transformer, designed to power on-device agents on a 16GB-RAM laptop with benchmark performance nearing the 26B variant) becomes the headline default for the local-agent stack; same drop, **Quantization-Aware Trained (QAT) weights** land for all five Gemma 4 sizes (E2B, E4B, 12B, 26B, 31B) — pulled via `ollama pull gemma4:<size>-it-qat`; ~72% memory reduction with near-original quality, faster across Apple/AMD/Intel/NVIDIA/Qualcomm; Ollama explicitly markets Gemma 4 12B as the substrate for `ollama launch claude --model gemma4:12b`, plus parallel app launches for Codex App, Hermes Agent, and [[openclaw]] — reinforces Ollama-as-canonical-local-runtime positioning for the Apache 2.0 frontier-on-device tier (lands one day after [[google]]'s 270M [[gemma-3-270m]] on the Gemma family's ultra-edge side) — *source: data/summaries/2026-06-07-evening.json (Ollama Newsletter "Gemma 4 12B + quantization-aware weights for all sizes")*
 - **2026-04-13**: GLM-5.1 (ZAI) lands on Ollama Cloud — flagship open-weight coding agent; significantly stronger coding capabilities framing — *source: 2026-04-13 cycle*
 - **2026-04-08**: Gemma 4 available on Ollama — frontier-level performance framing for reasoning / agentic workflows / coding / multimodal; four sizes (2B, 4B, 26B, 31B) deployable locally — *source: 2026-04-08 cycle*
 - **2026-04-06**: Ollama Cloud powers [[openclaw]] — OpenClaw framed as "personal AI assistant that manages inbox, email, calendar via messaging apps" running on Ollama's cloud models (kimi-k2.5 / glm-5 / minimax-m2.7 / gemma4:31b cloud variants) — *source: 2026-04-06 cycle*
@@ -41,3 +42,4 @@ Ollama is the company behind the widely-used local-model runtime of the same nam
 
 - data/summaries/2026-03-31.json (Ollama Newsletter — Ollama launch Pi: the coding agent behind OpenClaw)
 - data/summaries/2026-04-01.json (Ollama Newsletter — Ollama updated to run fastest on Apple silicon, powered by MLX)
+- data/summaries/2026-06-07-evening.json (Ollama Newsletter — Gemma 4 12B + quantization-aware weights for all sizes)

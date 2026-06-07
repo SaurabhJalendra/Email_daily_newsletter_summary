@@ -141,7 +141,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-embedding-2]] — Google's multimodal embedding model across text/image/video/audio/PDF (Mar 2026) *(stale)*
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
 - [[gemma-3-270m]] — Google's 270M small model for edge / on-device use (Jun 2026)
-- [[gemma-4]] — Google's Apr 2026 open-weights family (2B/4B/26B MoE/31B Dense); 256K context; Apache 2.0; 140+ languages *(stale)*
+- [[gemma-4]] — Google's open-weights family (E2B/E4B/12B encoder-free multimodal/26B MoE/31B Dense); 256K context; Apache 2.0; QAT weights for all sizes (Jun 2026)
 - [[github-agent-hq]] — GitHub's multi-agent control plane *(stale)*
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
 - [[glm-4-7]] — Zhipu AI open-source WebDev model topping open leaderboards Dec 2025 *(stale)*
