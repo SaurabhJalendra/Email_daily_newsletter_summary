@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-06-07 (morning edition adds Google rents AI compute from SpaceX — ~$1B/month through 2029 for ~110,000 NVIDIA GPUs)
 > **Status**: active
-> **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-live]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[project-suncatcher]], [[nano-banana-pro]], [[translategemma]], [[medgemma]], [[project-genie]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[universal-commerce-protocol]], [[model-context-protocol]], [[prompt-injection]], [[computer-use]], [[ai-hardware]], [[ai-healthcare]]
+> **Related**: [[gemini]], [[gemini-3]], [[gemini-3-1-flash-live]], [[gemini-3-1-flash-tts]], [[gemini-3-flash]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[antigravity]], [[veo-3]], [[jules]], [[ironwood-tpu]], [[google-tpu-v8]], [[project-suncatcher]], [[nano-banana-pro]], [[translategemma]], [[medgemma]], [[project-genie]], [[anthropic]], [[apple]], [[openai]], [[disney]], [[universal-commerce-protocol]], [[model-context-protocol]], [[prompt-injection]], [[computer-use]], [[ai-hardware]], [[ai-healthcare]]
 
 ## Summary
 

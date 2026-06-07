@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-06-06 (evening edition: analyst-positive Gemini-powered Siri WWDC reveal expected to lift stock)
 > **Status**: active
-> **Related**: [[meta]], [[google]], [[gemini]], [[anthropic]], [[claude-code]], [[openai]], [[ai-hardware]], [[apple-m5]]
+> **Related**: [[meta]], [[google]], [[gemini]], [[anthropic]], [[claude-code]], [[openai]], [[ai-hardware]], [[apple-m5]], [[poke]]
 
 ## Summary
 

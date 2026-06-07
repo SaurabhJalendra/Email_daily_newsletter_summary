@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-10-08
 > **Last updated**: 2026-06-07 (morning edition adds Isaac GR00T Reference Humanoid Robot + NVIDIA full-stack sim-to-real robotics platform)
 > **Status**: active
-> **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[vera-rubin]], [[nvidia-vera-cpu]], [[alpamayo]], [[nitrogen]], [[rtx-spark]], [[isaac-groot]], [[ineffable-intelligence]], [[xai]], [[openai]], [[anthropic]], [[microsoft]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[humanoid-robotics]], [[ai-hardware]], [[ai-healthcare]], [[ai-bubble-concerns]], [[orbital-data-centers]]
+> **Related**: [[nvidia-cosmos]], [[nemotron-3]], [[vera-rubin]], [[nvidia-vera-cpu]], [[nvidia-ising]], [[alpamayo]], [[nitrogen]], [[rtx-spark]], [[isaac-groot]], [[ineffable-intelligence]], [[xai]], [[openai]], [[anthropic]], [[microsoft]], [[amd]], [[broadcom]], [[meta]], [[baidu]], [[humanoid-robotics]], [[ai-hardware]], [[ai-healthcare]], [[ai-bubble-concerns]], [[orbital-data-centers]]
 
 ## Summary
 

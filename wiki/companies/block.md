@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-03-05
 > **Last updated**: 2026-04-03 (backfill 2026-02-20..2026-04-03)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-labor-impact]], [[agent-frameworks]], [[anthropic]], [[agentic-ai-foundation]]
 
 ## Summary

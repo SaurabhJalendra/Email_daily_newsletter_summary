@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[google]]
 > **First mentioned**: 2026-04-04
 > **Last updated**: 2026-04-05
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[nvidia]], [[gemini]], [[qwen-3-5]], [[open-source-models]]
 
 ## Summary

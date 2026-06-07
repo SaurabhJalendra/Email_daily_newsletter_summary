@@ -10,7 +10,7 @@ type: topic
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-06-06 (evening edition adds The AI Corner's 6-pattern / 14-step taxonomy for Claude Code Dynamic Workflows)
 > **Status**: active
-> **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-cowork]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]], [[agent-composer]], [[lux]], [[claude-managed-agents]], [[recursive-self-improvement]]
+> **Related**: [[agentkit]], [[openai-codex]], [[claude-skills]], [[claude-code]], [[claude-cowork]], [[claude-design]], [[jules]], [[cursor]], [[agentforce]], [[github-spec-kit]], [[agentic-ai-foundation]], [[model-context-protocol]], [[nemotron-3]], [[openai]], [[google]], [[anthropic]], [[salesforce]], [[auth0]], [[agent-composer]], [[lux]], [[claude-managed-agents]], [[recursive-self-improvement]], [[agentmemory]], [[assemblyai]], [[poke]]
 
 ## Summary
 

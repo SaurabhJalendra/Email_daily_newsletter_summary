@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-14
 > **Last updated**: 2026-04-03
-> **Status**: active
+> **Status**: stale
 > **Related**: [[agentforce]], [[slack]], [[anthropic]], [[openai]], [[enterprise-ai]], [[agent-frameworks]], [[ai-funding-rounds]], [[mcp]]
 
 ## Summary

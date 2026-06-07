@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-15
 > **Last updated**: 2026-04-03
-> **Status**: active
+> **Status**: stale
 > **Related**: [[amd]], [[ai-hardware]], [[ai-labor-market]], [[ai-funding-rounds]]
 
 ## Summary

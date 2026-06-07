@@ -7,7 +7,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai2]] — Allen Institute for AI nonprofit; PreScience open scientific-forecasting benchmark + LACERScore Feb 2026 *(stale)*
 - [[alfred-robotics]] — stealth robotics-software startup at $40M valuation; Sam Altman invests via Hydrazine Capital alongside Khosla Ventures + SV Angel (Jun 2026)
 - [[ai21-labs]] — Israeli foundation-model lab; Jamba family; NVIDIA reported $3B acquisition talks Jan 2026 *(stale)*
-- [[alibaba]] — Qwen model family; Qwen3-Max-Thinking 100% AIME 2025; Quark S1 Smart Specs; 14.2% China open-AI share
+- [[alibaba]] — Qwen model family; Qwen3-Max-Thinking 100% AIME 2025; Quark S1 Smart Specs; 14.2% China open-AI share *(stale)*
 - [[ami-labs]] — Yann LeCun's world-models startup spun out of Meta FAIR; €3B raise target *(stale)*
 - [[amazon]] — AWS provider; $38B OpenAI; Nova 2 + Trainium 3; Rufus 805% YoY Black Friday
 - [[amd]] — chipmaker; OpenAI and Oracle partnerships *(stale)*
@@ -18,7 +18,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[auth0]] — identity platform; Auth0 for AI Agents *(stale)*
 - [[baidu]] — Chinese search/cloud giant; ERNIE-4.5-VL-Thinking open-source multimodal reasoning *(stale)*
 - [[black-forest-labs]] — German image-gen lab; ships FLUX.2 *(stale)*
-- [[block]] — Square/Cash App parent; cut ~half of employees citing internal AI agent "Goose" Mar 2026
+- [[block]] — Square/Cash App parent; cut ~half of employees citing internal AI agent "Goose" Mar 2026 *(stale)*
 - [[broadcom]] — custom AI silicon partner for OpenAI
 - [[cerebras]] — wafer-scale AI inference silicon; powers OpenAI Codex; files for IPO under ticker CBRS at $22-25B (Apr 2026)
 - [[bytedance]] — Chinese tech giant; ships Seedance 2.0 / Seedream 5.0 on Jimeng AI video platform *(stale)*
@@ -55,15 +55,15 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nvidia]] — AI GPUs; Cosmos physical AI; Ising quantum; Vera Rubin; $57B record quarter; Alpamayo-R1
 - [[ollama]] — local-model runtime; launches Pi coding agent behind OpenClaw with Pro/Max cloud tiers Mar 2026
 - [[openai]] — ChatGPT/Sora; Atlas browser; Aardvark; "Code Red" vs Gemini 3; first device w/ Jony Ive
-- [[oracle]] — enterprise cloud; AMD partnership
+- [[oracle]] — enterprise cloud; AMD partnership *(stale)*
 - [[perplexity]] — AI search; Comet browser; AI Browser w/ shopping + virtual try-on
 - [[qualcomm]] — AI200/AI250 data-center AI chips *(stale)*
 - [[recursive-superintelligence]] — Tim Rocktäschel ex-DeepMind RSI startup; $650M @ $4.65B in a single day (May 2026)
 - [[reflection]] — raised $2B *(stale)*
 - [[replit]] — browser IDE; non-coder pivot *(stale)*
-- [[runway]] — AI video; Gen-4.5 tops Veo 3 and Sora on Artificial Analysis
+- [[runway]] — AI video; Gen-4.5 tops Veo 3 and Sora on Artificial Analysis *(stale)*
 - [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
-- [[salesforce]] — enterprise SaaS; Agentforce 360
+- [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[spacex]] — Musk's space company; xAI parent; S-1 filed at $1.7T (SPCX); orbital DCs + Anthropic Colossus 1 lease
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
 - [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
@@ -140,7 +140,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-spark]] — Google's I/O 2026 24/7 personal agent on Google Cloud VMs; AI Ultra $100/mo
 - [[gemini-embedding-2]] — Google's multimodal embedding model across text/image/video/audio/PDF (Mar 2026) *(stale)*
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
-- [[gemma-4]] — Google's Apr 2026 open-weights family (2B/4B/26B MoE/31B Dense); 256K context; Apache 2.0; 140+ languages
+- [[gemma-3-270m]] — Google's 270M small model for edge / on-device use (Jun 2026)
+- [[gemma-4]] — Google's Apr 2026 open-weights family (2B/4B/26B MoE/31B Dense); 256K context; Apache 2.0; 140+ languages *(stale)*
 - [[github-agent-hq]] — GitHub's multi-agent control plane *(stale)*
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
 - [[glm-4-7]] — Zhipu AI open-source WebDev model topping open leaderboards Dec 2025 *(stale)*
@@ -168,6 +169,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours *(stale)*
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference *(stale)*
+- [[ideogram-4]] — Ideogram's first open-weight text-to-image model; structured JSON prompting + native 2K + multilingual text rendering (Jun 2026)
 - [[isaac-groot]] — NVIDIA's research-grade humanoid robot reference design (Unitree H2 body + Blackwell GPU); US/Europe/South Korea partners (Jun 2026)
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
 - [[kimi-k2-5]] — Moonshot AI's 1T MoE + 400M MoonViT multimodal agentic model with Agent Swarm (Jan 2026) *(stale)*
@@ -176,8 +178,10 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026) *(stale)*
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark *(stale)*
 - [[lyria-3]] — Google's music-generation model in Gemini; 30-sec tracks, 8 languages, SynthID *(stale)*
+- [[mai-thinking-1]] — Microsoft's first internally-built reasoning + Codex-competitor model family (MAI-Thinking-1 35B-active + MAI-Code-1-Flash 5B); Build 2026 (Jun 2026)
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video *(stale)*
 - [[medgemma]] — Google open medical-imaging model family (Jan 2026) *(stale)*
+- [[microsoft-scout]] — Microsoft's always-on Scout agent tab inside the Microsoft Super App framing; Build 2026 (Jun 2026)
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
@@ -266,3 +270,4 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 ## Digests
 - [[digests/2025-W42]] — Week of 2025-10-13: silicon-diversification crescendo, Apple M5, Gemini 3 confirmed, regulatory pressure arrives
 - [[digests/2026-W16]] — Week of 2026-04-13: eighth regeneration on 2026-05-31 covering the 2026-04-09→2026-04-15 window (the backfill batch advanced past this window — 2026-04-19→2026-04-30 was ingested via "Backfill Wiki" 2026-06-05; the 2026-W16 digest will need regeneration on the next LINT to incorporate the new ingest cohort plus 2026-04-19→2026-04-30 W17/W18 entries) — fleet-of-agents becomes industry default across 6 vendors ([[anthropic]] / [[openai]] / [[google]] / [[xai]] / [[cursor]] / [[vercel]]), [[claude-mythos]] gains 5 framings without shipping, [[project-glasswing]] coalition vs hacker-group contradiction preserved as open question, [[anthropic]] $30B + 1,000+ enterprise customers vs [[openai]] $122B at $852B financial parity, [[muse-spark]] four-day Neural-Computer launch arc culminates in Zuckerberg AI clone, [[perplexity-computer]] becomes personal-finance platform, OpenAI's 4-day-work-week proposal + Sam Altman home attack mark frontier-lab-as-policy-actor turn, Stargate UK paused on energy/regulation
+- [[digests/2026-W23]] — Week of 2026-06-01: Anthropic confidential IPO at $965B / $47B run-rate (post-$65B Series H) crowns the most-valuable-private-AI-company race, [[claude-opus-4-8]] + Dynamic Workflows ship with 1,000 parallel sub-agents and 1M context, Anthropic's *"When AI builds itself"* / Sparks of RSI essay (80% of code Claude-authored + 8× engineer multiplier) draws 3M+ views and a coordinated-pause ask, [[claude-mythos]] commercialization begins then gets gut-punched by the Oceanus checkpoint leak via Chinese API proxy, humanoid-robotics arms race coalesces ([[nvidia]] [[isaac-groot]] + [[openai]] Robotics restart + Altman [[alfred-robotics]] + Amazon €10B), [[google]]-SpaceX ~$1B/month for ~110K NVIDIA GPUs through 2029, ChatGPT crosses 1B MAU + ChatGPT Dreaming memory ships, [[broadcom]] miss + $725B 2026 hyperscaler capex sharpens [[ai-bubble-concerns]], 8 new pages created ([[claude-opus-4-8]] / [[ethan-mollick]] / [[jpmorgan-chase]] / [[assemblyai]] / [[sakana-ai]] / [[humanoid-robotics]] / [[isaac-groot]] / [[alfred-robotics]])

@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-12-03
 > **Last updated**: 2026-04-02
-> **Status**: active
+> **Status**: stale
 > **Related**: [[runway-gen-4-5]], [[ai-video-generation]], [[veo-3]], [[sora-2]]
 
 ## Summary

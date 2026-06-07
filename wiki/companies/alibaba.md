@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-16
 > **Last updated**: 2026-04-04
-> **Status**: active
+> **Status**: stale
 > **Related**: [[qwen-3-vl]], [[qwen-image]], [[qwen-image-2]], [[qwen-3-5]], [[qwen3-coder-next]], [[openai]], [[meta]], [[deepseek]], [[ai-hardware]]
 
 ## Summary
