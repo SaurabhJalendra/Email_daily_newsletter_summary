@@ -1,10 +1,13 @@
 name: Daily Newsletter Summary
 
 on:
-  # Two editions per day (IST). 08:00 IST = 02:30 UTC, 20:00 IST = 14:30 UTC.
+  # Two editions per day (IST). 06:00 IST = 00:30 UTC, 18:00 IST = 12:30 UTC.
+  # NOTE: GitHub's scheduled triggers can fire 1-4h late under load, so actual
+  # delivery may drift later than these times. The email itself sends ~3-5 min
+  # into the run; the edition is derived from the IST hour at run time.
   schedule:
-    - cron: '30 2 * * *'    # Morning edition — 08:00 IST
-    - cron: '30 14 * * *'   # Evening edition — 20:00 IST
+    - cron: '30 0 * * *'    # Morning edition — 06:00 IST
+    - cron: '30 12 * * *'   # Evening edition — 18:00 IST
 
   # Allow manual trigger; edition auto-derived from IST hour unless overridden.
   workflow_dispatch:

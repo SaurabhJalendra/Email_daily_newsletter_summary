@@ -8,8 +8,10 @@
 
 Replace the single midnight digest with **two time-windowed editions per day** so AI news arrives twice daily instead of one overnight dump:
 
-- **Morning edition** — 08:00 IST — covers everything that arrived since the previous evening run (the overnight US-daytime bulk).
-- **Evening edition** — 20:00 IST — covers everything since the morning run (the IST-daytime mail).
+- **Morning edition** — 06:00 IST — covers everything that arrived since the previous evening run (the overnight US-daytime bulk).
+- **Evening edition** — 18:00 IST — covers everything since the morning run (the IST-daytime mail).
+
+> Times updated 2026-06-08 from 08:00/20:00 → 06:00/18:00. Note GitHub scheduled triggers can fire 1–4h late; the email sends ~3–5 min into the run.
 
 Primary motivation is **timeliness**. (Email clipping is *already* solved — the notifier sends a <20 KB scannable body plus the full digest as a PDF attachment — so this is not a size fix.)
 
@@ -56,8 +58,8 @@ The GitHub workflow computes the edition from the IST hour and passes `EDITION=`
 ## GitHub Actions
 
 - Two crons replace the single one:
-  - `30 2 * * *` → 08:00 IST → morning
-  - `30 14 * * *` → 20:00 IST → evening
+  - `30 0 * * *` → 06:00 IST → morning
+  - `30 12 * * *` → 18:00 IST → evening
 - A step computes `EDITION` from `TZ=Asia/Kolkata date +%H` and exports it to `npm start` and the commit message (`Add <edition> summary for <date>`).
 - `workflow_dispatch` gains an optional `edition` input for manual runs.
 - Wiki ingestion: change "newest by date" → "most recently modified summary file not already in `wiki/log.md`" so it picks the edition just produced (two same-date files).

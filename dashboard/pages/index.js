@@ -78,7 +78,7 @@ export default function Home({ summaries }) {
                   {availableDates.length} Days Archived
                 </p>
                 <p className="text-xs text-gray-500">
-                  Updated twice daily — 8 AM & 8 PM IST
+                  Updated twice daily — 6 AM & 6 PM IST
                 </p>
               </div>
             </div>

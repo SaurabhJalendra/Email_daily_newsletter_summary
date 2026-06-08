@@ -5,8 +5,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+- Edition times moved **08:00/20:00 IST → 06:00/18:00 IST** (crons `30 0` + `30 12` UTC) for earlier delivery. (Note: GitHub scheduled triggers can fire 1–4h late under load — the cron time is the *intended* fire time, not guaranteed delivery.)
+
 ### Added
-- **Two daily editions** — the digest now runs twice a day: a **Morning** edition at 08:00 IST and an **Evening** edition at 20:00 IST, each covering only what arrived since the previous run. Motivated by timeliness (clipping was already handled by the short-body + PDF email).
+- **Two daily editions** — the digest now runs twice a day: a **Morning** edition and an **Evening** edition, each covering only what arrived since the previous run. Motivated by timeliness (clipping was already handled by the short-body + PDF email).
 - Precise **timestamp watermark** (`index.json` → `__lastRunAt`) so two same-day runs don't overlap; IMAP `SINCE` results are post-filtered on each email's received time to split the windows.
 - Edition labels in the email subject/header/PDF filename and an edition badge in the dashboard.
 - `specs/2026-06-05-two-editions.md` documenting the design.

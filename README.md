@@ -6,7 +6,7 @@ An automated system that fetches your newsletters daily, generates comprehensive
 
 - **Automated Email Fetching**: Connects to Gmail via IMAP to fetch newsletters
 - **AI-Powered Summarization**: Uses Google Gemini to create comprehensive summaries without losing any information
-- **Twice-Daily Scheduling**: Runs automatically at 8 AM & 8 PM IST via GitHub Actions (Morning + Evening editions)
+- **Twice-Daily Scheduling**: Runs automatically at 6 AM & 6 PM IST via GitHub Actions (Morning + Evening editions)
 - **Email Notifications**: Get a beautifully formatted email with your daily digest
 - **Web Dashboard**: Browse all your summaries by date with an interactive calendar
 - **Historical Archive**: Access any previous day's summary easily
@@ -16,7 +16,7 @@ An automated system that fetches your newsletters daily, generates comprehensive
 
 ```
 ┌─────────────────┐
-│  GitHub Actions │ ← Runs at 8 AM & 8 PM IST
+│  GitHub Actions │ ← Runs at 6 AM & 6 PM IST
 └────────┬────────┘
          │
          ▼
@@ -126,15 +126,17 @@ Your dashboard will be live at: **https://newsletter.saurabhjalendra.com**
 
 ## 📅 How It Works
 
-### Workflow (Twice Daily — 8 AM & 8 PM IST)
+### Workflow (Twice Daily — 6 AM & 6 PM IST)
 
 The pipeline runs as two editions per day:
-- **Morning** — 08:00 IST (02:30 UTC) — covers everything since the previous evening run
-- **Evening** — 20:00 IST (14:30 UTC) — covers everything since the morning run
+- **Morning** — 06:00 IST (00:30 UTC) — covers everything since the previous evening run
+- **Evening** — 18:00 IST (12:30 UTC) — covers everything since the morning run
+
+> Note: GitHub's scheduled triggers can fire 1–4 hours late under load, so actual delivery may drift later than the times above. The pipeline itself sends the email ~3–5 minutes into the run.
 
 Each run:
 
-1. **GitHub Actions triggers** (02:30 UTC morning / 14:30 UTC evening); the edition is auto-derived from the IST hour
+1. **GitHub Actions triggers** (00:30 UTC morning / 12:30 UTC evening); the edition is auto-derived from the IST hour
 2. **Email Fetcher** connects to Gmail and fetches newsletters since the last run's **timestamp watermark** (IMAP `SINCE` is date-only, so results are post-filtered on each email's received time to split the two windows)
 3. **Parser** extracts clean content from HTML newsletters
 4. **AI summarizer** (OpenRouter) generates:
@@ -211,8 +213,8 @@ sender1@example.com,sender2@example.com,@substack.com
 Edit the two cron entries in `.github/workflows/daily-summary.yml` (times are UTC; IST = UTC + 5:30). The edition is derived from the IST hour (before 14:00 → morning, else evening), so keep one cron in each half of the IST day:
 ```yaml
 schedule:
-  - cron: '30 2 * * *'    # Morning edition — 08:00 IST
-  - cron: '30 14 * * *'   # Evening edition — 20:00 IST
+  - cron: '30 0 * * *'    # Morning edition — 06:00 IST
+  - cron: '30 12 * * *'   # Evening edition — 18:00 IST
 ```
 You can also trigger a specific edition manually from the **Actions** tab via the `edition` input.
 
