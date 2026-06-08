@@ -232,6 +232,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
 - [[agentic-ai-foundation]] — Linux Foundation project for open agentic-AI standards; OpenAI/Anthropic/Block + MCP *(stale)*
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser *(stale)*
+- [[ai-chatbot-dark-patterns]] — CDT 37-pattern taxonomy of deceptive/manipulative chatbot-UX behaviors; first chatbot-UX-as-regulatory-surface artifact (Jun 2026)
 - [[ai-cybersecurity-arms-race]] — first AI-built zero-day in wild, Daybreak/Mythos/MDASH defender platforms, Mini Shai-Hulud worm (May 2026)
 - [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals *(stale)*
 - [[ai-healthcare]] — AI push into clinical, consumer-health, and pharma workflows; ChatGPT Health, OpenAI for Healthcare, Lilly-Insilico *(stale)*

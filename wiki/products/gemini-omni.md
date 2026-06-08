@@ -9,7 +9,7 @@ metadata:
 
 > **Type**: product
 > **First mentioned**: 2026-05-13
-> **Last updated**: 2026-05-25
+> **Last updated**: 2026-06-08 (evening edition — Vaibhav Sisinty three-test review: Likeness 6/10, Multi-turn Ceiling 7/10, Physics 5/10; positioned as edit-loop workflow upgrade *not* a [[veo-3]] replacement)
 > **Status**: active
 > **Related**: [[google]], [[gemini]], [[gemini-3-5-flash]], [[veo-3]], [[nano-banana-pro]], [[project-genie]], [[ai-video-generation]], [[world-models]]
 
@@ -19,6 +19,7 @@ Gemini Omni is Google's conversational multimodal video model launched at Google
 
 ## Timeline
 
+- **2026-06-08-evening**: **Vaibhav Sisinty publishes first publicly framed three-test methodological evaluation of Gemini Omni vs [[veo-3]]** — (1) **Likeness Test 6/10** — Omni keeps the subject identical across edits but struggles with environment and lighting consistency; (2) **Multi-turn Ceiling Test 7/10** — Omni performs well across the first three editing turns but fails in the fourth, exposing a ceiling on the chat-based edit loop; (3) **Physics Test 5/10** — fails to depict the physics of a bowling ball dropping onto cardboard boxes accurately. Conclusion: Omni's strengths are in **chat-based editing-loop workflow**, *not* in raw video-generation output fidelity — explicitly framed as a **workflow upgrade, not a Veo 3.1 replacement** (first cross-test methodological framing that decouples Omni's chat-editing-loop value from raw-output-fidelity benchmarks in this wiki — sharpens the 2026-05-19 "Nano Banana for video" framing into a concrete tradeoff: in-chat editing as the durable surface, raw generation still Veo's territory) — *source: data/summaries/2026-06-08-evening.json (Staying Ahead with AI / Vaibhav Sisinty "rip veo?" — Likeness 6/10 + Multi-turn 7/10 + Physics 5/10 + edit-loop workflow upgrade not Veo replacement; Superhuman "ChatGPT getting biggest overhaul yet" — Gemini Live real-time AI edits through camera as the conversational-editing companion surface)*
 - **2026-05-25**: Post-I/O 2026 synthesis: Omni recapped as the "video generation from text prompts" surface that lets users (e.g.) "generate a claymation explainer of protein folding from a one-line prompt" — concrete example crystallizes the editorial framing of Omni as a high-fidelity-+-conversational-editing pair; users can ask for adjustments (motion blur in background, warmer lighting) via plain chat after generation — *source: 2026-05-25 cycle (The AI Corner — 10 moves from I/O 2026 / Gemini Omni; Uncovering AI — Gemini Omni high-fidelity video + plain-conversation editing)*
 - **2026-05-23**: Gemini Omni continues circulating as the "create-anything model" framing in AI-agents weekly recaps — *source: 2026-05-23 cycle (NLP Newsletter; Hello World)*
 - **2026-05-20**: Gemini Omni Flash announced as the conversational video-editing flagship — supports remixing, object swap, template editing, mixing inputs; up to 10s clips today, API access in coming weeks — *source: 2026-05-20 cycle (AlphaSignal — Gemini Omni Flash; AI Breakfast — Every Announcement; Cerebral Valley)*
