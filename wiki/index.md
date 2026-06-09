@@ -65,6 +65,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[spacex]] — Musk's space company; xAI parent; S-1 filed at $1.7T (SPCX); orbital DCs + Anthropic Colossus 1 lease
+- [[suno]] — Cambridge-based AI music-generation startup; $400M Series D at $5.4B led by Bond Capital (Jun 2026); Warner settled, Universal/Sony lawsuits ongoing
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
 - [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
 - [[world-labs]] — Fei-Fei Li's "spatial intelligence" startup; ships Marble world model; $1B raise Feb 2026 *(stale)*
