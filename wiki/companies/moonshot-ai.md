@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-11-07
-> **Last updated**: 2026-04-27
+> **Last updated**: 2026-06-09-evening (Kimi ships a stronger coding agent + new desktop agent product **Kimi Work** with up to 300 local sub-agents and persistent memory — first publicly framed Chinese-frontier-lab desktop agent product at this scale)
 > **Status**: active
 > **Related**: [[kimi-k2-thinking]], [[kimi-k2-5]], [[openclaw]], [[baidu]], [[alibaba]], [[deepseek]], [[cursor]]
 
@@ -18,6 +18,7 @@ Moonshot AI (the company behind the "Kimi" assistant) is a Chinese frontier-lab 
 
 ## Timeline
 
+- **2026-06-09-evening**: **Kimi ships a stronger coding agent + new desktop agent product "Kimi Work"** with **up to 300 local sub-agents and persistent memory** (AINews). First publicly framed *Chinese-frontier-lab desktop agent product at the 300-sub-agent / persistent-memory tier* in this wiki — positions Moonshot/Kimi directly against [[hermes-desktop]] (open-weights / self-improving / cross-app memory), [[openclaw]] (US-side local agent on Ollama), and [[claude-code]] / [[openai-codex]] / [[chatgpt]] superapp (frontier-lab managed agents). The "300 local sub-agents" claim is the cleanest cross-cycle "consumer-tier local-agent fleet sizing" framing yet — extends the [[kimi-k2-5]] Agent Swarm framing into the desktop agent surface and concretizes Moonshot's positioning as a Chinese open-source / open-weight challenger in the agent-platform consolidation cycle. Same cycle Vaibhav Sisinty's GPT-5.5-vs-Qwen-3.7-Max real-world coding-task review highlights the Chinese-AI-cost-efficiency narrative (Qwen 4× lower output / 2× lower input cost vs GPT-5.5) — Kimi shipping a stronger coding agent fits the same cycle's cross-cycle "Chinese AI cost-economics + capability tier closing in" framing — *source: data/summaries/2026-06-09-evening.json (AINews "[AINews] FrontierCode: Benchmarking for Code Quality over Slop" — Kimi shipped a stronger coding agent + Kimi Work desktop agent product with up to 300 local sub-agents and persistent memory)*
 - **2026-04-27**: [[kimi-k2-6]] alongside [[deepseek-v4]] framed as open-source models democratizing access to advanced AI capabilities (massive context windows, multimodal comprehension, coding/tool-use); positions Moonshot as part of Chinese-open-source-as-developer-default cohort — *source: 2026-04-27 cycle (Kimi K2.6 democratization framing with DeepSeek V4)*
 - **2026-04-26**: **[[kimi-k2-6]] Agent Swarm released** — extends K2.5's Agent Swarm into an enhanced multi-agent interaction surface — *source: 2026-04-26 cycle (Kimi K2.6 Agent Swarm release)*
 - **2026-04-23**: [[kimi-k2-6]] framed as achieving "breakthroughs in autonomous work" — demonstrates AI's potential to automate complex tasks and transform industries — *source: 2026-04-23 cycle (Kimi K2.6 autonomous-work breakthrough)*

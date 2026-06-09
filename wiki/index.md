@@ -127,6 +127,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek-v4]] — DeepSeek's Apr 2026 frontier MoE family (V4-Pro + V4-Flash); open-sourced; triggers AI-pricing collapse
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
 - [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(stale)*
+- [[frontiercode]] — AINews/Latent Space code-quality benchmark; mergeability over unit-tests; Opus 4.8 ~13% on hardest subset (Jun 2026)
 - [[function-gemma]] — Google 270M on-device function-calling model *(stale)*
 - [[gemini]] — Google's flagship model family
 - [[gemini-2-5-computer-use]] — Gemini variant for UI control *(stale)*

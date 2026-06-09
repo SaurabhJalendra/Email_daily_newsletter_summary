@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **Vendor**: [[perplexity]]
 > **First mentioned**: 2026-02-27
-> **Last updated**: 2026-04-12 (backfill 2026-04-06..2026-04-12)
+> **Last updated**: 2026-06-09-evening (Forward Future reframes Perplexity Computer as a hosted automation platform with built-in connectors, automation, and coding tools — explicit "replaces DIY AI agents" positioning ahead of competing agent surfaces)
 > **Status**: active
 > **Related**: [[perplexity]], [[agent-frameworks]], [[perplexity-comet]]
 
@@ -19,6 +19,7 @@ Perplexity Computer is Perplexity's multi-model orchestration platform, launched
 
 ## Timeline
 
+- **2026-06-09-evening**: **Perplexity Computer reframed by Forward Future as a hosted workflow-automation platform** that "aims to replace DIY AI agents with a hosted platform featuring **built-in connectors, automation, and coding tools**" — first publicly framed *anti-DIY-agent-stack* positioning in this wiki, sharpens the 2026-02-27 19-model orchestration framing into a direct competitive frame against [[openclaw]]-class self-hosted agent setups + bespoke n8n/Zapier/Make stacks. Same cycle the headline framing is **"Perplexity Computer Automates Workflow"** (vs the prior tax + finance + search vertical framing). Positions Perplexity Computer alongside [[openai-codex]]'s superapp redesign + [[claude-code]] Dynamic Workflows + [[chatgpt]] superapp as a fourth hosted-automation surface for the 2026-mid-year agent-platform consolidation cycle — *source: data/summaries/2026-06-09-evening.json (Forward Future "$852B and OpenAI just filed" — Perplexity Computer aims to replace DIY AI agents with a hosted platform / built-in connectors + automation + coding tools / streamlines workflow automation)*
 - **2026-04-12**: Adds bank / credit card / loan account connections for spending analysis and custom budget trackers; ships "notebooks" feature for organizing chats / files / custom instructions — *source: 2026-04-12 cycle*
 - **2026-04-11**: Adds Plaid integration for unified financial tracking; deeper financial-analysis tools — *source: 2026-04-11 cycle*
 - **2026-04-10**: Tax agent ships using updated IRS materials and current tax rules; Perplexity revenue +50% MoM on Computer-driven search + agent usage — *source: 2026-04-10 cycle*
