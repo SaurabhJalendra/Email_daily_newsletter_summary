@@ -1,6 +1,6 @@
 ---
 name: FrontierCode
-description: AINews / Latent Space code-quality benchmark scoring whether AI-generated patches are actually mergeable by OSS maintainers; Opus 4.8 scores ~13% on hardest subset
+description: Cognition's code-quality benchmark scoring whether AI-generated patches are actually mergeable by OSS maintainers; AI models score just 13/100 on real code
 metadata:
   type: product
 ---
@@ -8,28 +8,30 @@ metadata:
 # FrontierCode
 
 > **Type**: product
-> **Vendor**: AINews / Latent Space (swyx)
+> **Vendor**: [[cognition]] (per AlphaSignal 2026-06-10-morning attribution); previously framed in this wiki as AINews / Latent Space (swyx) — *attribution corrected 2026-06-10-morning: AINews / Latent Space's "[AINews] FrontierCode: Benchmarking for Code Quality over Slop" 2026-06-09-evening coverage appears to be the publication/feature surface, while Cognition is the actual benchmark builder*
 > **First mentioned**: 2026-06-09-evening
-> **Last updated**: 2026-06-09-evening
+> **Last updated**: 2026-06-10-morning (attribution corrected to [[cognition]] per AlphaSignal "🧪 Cognition's FrontierCode: AI models score just 13/100 on real code"; reframes the benchmark as a Cognition product, consistent with Cognition's [[cognition]] coding-agent positioning and its 89%-self-coding Devin claim — Cognition has clear incentive to publish a code-quality benchmark that frames the gap between "agent-writes-code" and "code-is-actually-mergeable")
 > **Status**: launched
-> **Related**: [[claude-opus-4-8]], [[recursive-self-improvement]], [[vibe-coding]], [[agent-frameworks]], [[claude-code]], [[openai-codex]]
+> **Related**: [[cognition]], [[claude-opus-4-8]], [[claude-fable-5]], [[recursive-self-improvement]], [[vibe-coding]], [[agent-frameworks]], [[claude-code]], [[openai-codex]]
 
 ## Summary
 
-FrontierCode is a new code-quality benchmark introduced by AINews / Latent Space in June 2026, designed to measure whether AI-generated patches are **actually mergeable** by open-source maintainers — not just whether they pass unit tests. The benchmark was built in collaboration with OSS maintainers, with each task requiring **over 40 hours of human work** to construct (a deliberately costly per-task floor, on the FrontierMath template applied to software engineering). On launch, the best model — [[claude-opus-4-8]] — scored only about **13% on the hardest subset**, sharply undercutting the "coding is solved" framing popular in 2025/2026 SWEBench discourse and explicitly positioning FrontierCode against [[claude-code]]-class and [[openai-codex]]-class harness benchmarks (SWEBench-Verified, SWEBench Pro) that AINews argues have under-articulated code quality and maintainability.
+FrontierCode is a code-quality benchmark introduced in June 2026 by [[cognition]] (the Devin / Windsurf lab), designed to measure whether AI-generated patches are **actually mergeable** by open-source maintainers — not just whether they pass unit tests. The benchmark was built in collaboration with OSS maintainers, with each task requiring **over 40 hours of human work** to construct (a deliberately costly per-task floor, on the FrontierMath template applied to software engineering). On launch, the best model — [[claude-opus-4-8]] — scored only about **13% on the hardest subset** (AlphaSignal's 2026-06-10-morning headline: "AI models score just 13/100 on real code"), sharply undercutting the "coding is solved" framing popular in 2025/2026 SWEBench discourse and explicitly positioning FrontierCode against [[claude-code]]-class and [[openai-codex]]-class harness benchmarks (SWEBench-Verified, SWEBench Pro) that under-articulate code quality and maintainability.
 
-The launch frames the benchmark as a "War on Slop" intervention — first publicly framed dedicated code-*quality* (vs code-correctness) benchmark from a major AI-Engineer-adjacent publication, with explicit FrontierMath methodological inheritance.
+The launch framing (AINews / Latent Space's 2026-06-09-evening coverage) cast the benchmark as a "War on Slop" intervention — first publicly framed dedicated code-*quality* (vs code-correctness) benchmark covered by a major AI-Engineer-adjacent publication, with explicit FrontierMath methodological inheritance. Attribution to **Cognition** as the *builder* (vs AINews / Latent Space as the *coverage* venue) was corrected on 2026-06-10-morning per AlphaSignal's explicit "Cognition's FrontierCode" headline; consistent with Cognition's product positioning (Devin's 89%-own-code-authoring claim from the 2026-05-29 funding cycle gives Cognition clear strategic incentive to publish a benchmark that distinguishes "agent writes code" from "code is actually mergeable").
 
 ## Timeline
 
-- **2026-06-09-evening**: **FrontierCode introduced** — code-quality benchmark with per-task >40-hour OSS-maintainer construction cost; best model **[[claude-opus-4-8]] ~13% on the hardest subset**; explicit framing as a counter to SWEBench-Verified / SWEBench Pro's gap on code maintainability and reviewer-mergeability; positioned alongside other harness-as-unit-of-analysis evals like Agent Arena (1M+ real-world sessions leaderboard launched same cycle) — *source: data/summaries/2026-06-09-evening.json (AINews "[AINews] FrontierCode: Benchmarking for Code Quality over Slop" — FrontierCode launch / Opus 4.8 ~13% hardest subset / 40-hour tasks / OSS maintainers + SWEBench-Verified + SWEBench Pro gap framing + War on Slop framing)*
+- **2026-06-10-morning**: **Vendor attribution corrected to [[cognition]]** — AlphaSignal headline "🧪 Cognition's FrontierCode: AI models score just 13/100 on real code" explicitly attributes the benchmark to **Cognition** (the Devin / Windsurf lab), reframing the 2026-06-09-evening AINews / Latent Space framing as the *coverage* venue rather than the builder. AlphaSignal's "13/100 on real code" headline also tightens the prior "~13% on the hardest subset" framing into a single canonical headline number, suggesting the headline metric may apply more broadly than just the hardest subset. Subject-only data this cycle (pipeline summaries unavailable due to OpenRouter key-limit-exceeded error) — full Cognition-side launch details (release announcement, leaderboard, GitHub artifact, judging protocol) will be reconstructed on the next successful summarization pass. Cognition has clear strategic incentive to publish a code-quality (not just code-correctness) benchmark — Devin's 89%-self-coding claim from the 2026-05-29 $1B/$26B funding round positioned Cognition's agent stack as a top-of-leaderboard code generator under SWEBench-style evaluation; FrontierCode reframes the evaluation surface to where Cognition can articulate the gap between "agent writes code" and "code is actually mergeable" as the next-generation defensible benchmark — *source: data/summaries/2026-06-10-morning.json (AlphaSignal "🧪 Cognition's FrontierCode: AI models score just 13/100 on real code"; pipeline summary unavailable due to OpenRouter key-limit-exceeded error)*
+- **2026-06-09-evening**: **FrontierCode introduced** (covered by AINews / Latent Space; attribution corrected on 2026-06-10-morning to [[cognition]] as the builder) — code-quality benchmark with per-task >40-hour OSS-maintainer construction cost; best model **[[claude-opus-4-8]] ~13% on the hardest subset**; explicit framing as a counter to SWEBench-Verified / SWEBench Pro's gap on code maintainability and reviewer-mergeability; positioned alongside other harness-as-unit-of-analysis evals like Agent Arena (1M+ real-world sessions leaderboard launched same cycle) — *source: data/summaries/2026-06-09-evening.json (AINews "[AINews] FrontierCode: Benchmarking for Code Quality over Slop" — FrontierCode launch / Opus 4.8 ~13% hardest subset / 40-hour tasks / OSS maintainers + SWEBench-Verified + SWEBench Pro gap framing + War on Slop framing)*
 
 ## Key Facts
 
-- Vendor: AINews / Latent Space (swyx)
+- Vendor: [[cognition]] (corrected 2026-06-10-morning per AlphaSignal "Cognition's FrontierCode" attribution)
+- Coverage / publication venue (2026-06-09-evening launch cycle): AINews / Latent Space (swyx) — "Benchmarking for Code Quality over Slop"
 - Construction cost: >40 hours of human work per task
 - Co-built with: open-source maintainers
-- Best score at launch: ~13% on hardest subset ([[claude-opus-4-8]])
+- Best score at launch: ~13% on hardest subset ([[claude-opus-4-8]]); AlphaSignal headline canonicalizes as "AI models score just 13/100 on real code"
 - Inspiration: FrontierMath methodology applied to software engineering
 - Positioning: code *quality* (mergeability) vs code *correctness* (passes tests)
 
@@ -43,4 +45,5 @@ The launch frames the benchmark as a "War on Slop" intervention — first public
 
 ## Sources
 
-- data/summaries/2026-06-09-evening.json (AINews — FrontierCode: Benchmarking for Code Quality over Slop)
+- data/summaries/2026-06-09-evening.json (AINews — FrontierCode: Benchmarking for Code Quality over Slop — coverage venue; original framing attributed benchmark to AINews / Latent Space)
+- data/summaries/2026-06-10-morning.json (AlphaSignal — 🧪 Cognition's FrontierCode: AI models score just 13/100 on real code — vendor attribution corrected to [[cognition]]; subject-only data due to OpenRouter key-limit-exceeded pipeline error)

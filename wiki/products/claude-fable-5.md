@@ -1,0 +1,48 @@
+---
+name: Claude Fable 5
+description: Anthropic's June 2026 frontier Claude model — "beats Opus" per TAAFT launch coverage; introduces "Fable" as a new versioned Claude tier alongside Haiku/Sonnet/Opus
+metadata:
+  type: product
+---
+
+# Claude Fable 5
+
+> **Type**: product
+> **First mentioned**: 2026-06-10-morning
+> **Last updated**: 2026-06-10-morning
+> **Status**: launched (subject-only data — full launch details to be reconstructed once a downstream summary pipeline run captures the body content)
+> **Related**: [[anthropic]], [[claude-opus-4-8]], [[claude-opus-4-7]], [[claude-mythos]], [[claude-code]], [[recursive-self-improvement]], [[ai-cybersecurity-arms-race]]
+
+## Summary
+
+Claude Fable 5 is an [[anthropic]] frontier Claude release that surfaced across three independent newsletters in the 2026-06-09 evening / 2026-06-10 morning cycle (TAAFT, World of AI, Interconnects by Nathan Lambert), with TAAFT framing it as "Beats Opus" — the cleanest reading is that Fable 5 supersedes [[claude-opus-4-8]] as Anthropic's leading model on at least one published benchmark. The "Fable" naming is novel and reads as Anthropic introducing a new versioned Claude tier alongside Haiku/Sonnet/Opus (and the still-restricted [[claude-mythos]] line), with "5" placing it on a parallel numbering track rather than continuing the Claude 4.x line that culminated in Opus 4.8.
+
+Interconnects (Nathan Lambert) pairs the release with "**new AI safety fables**" framing — a wordplay that hints at the model name being thematically tied to Anthropic's safety-focused positioning (consistent with the same-cycle [[recursive-self-improvement]] coordinated-pause ask and [[ai-cybersecurity-arms-race]] storyline). Pipeline summarization failed for all 10 newsletters in this edition due to an OpenRouter key-limit-exceeded error, so this page is currently built from subject-line evidence only and will need to be re-anchored once a follow-up cycle recovers the launch specifics (benchmark numbers, pricing, context window, release-channel rollout).
+
+## Timeline
+
+- **2026-06-10-morning**: **Claude Fable 5 dropped** — corroborated across three independent newsletters in the same cycle window: **TAAFT** ("🦾 Claude Fable 5 Drops (Beats Opus)"), **World of AI** ("Anthropic: Claude Fable 5 DROPS! 🧠🔥"), and **Interconnects by Nathan Lambert** ("Claude Fable 5 and new AI safety fables"); World of AI's accompanying YouTube link teases "Claude Fable 5 IS INCREDIBLE! Greatest AI Model Ever! (Fully Tested)" (subject-only context — full body summaries not available this cycle due to OpenRouter key-limit-exceeded pipeline error). TAAFT's "Beats Opus" framing suggests Fable 5 has surpassed [[claude-opus-4-8]] on at least one of Opus 4.8's launch-coverage SOTA benchmarks (SWE-Bench Pro / FrontierSWE / APEX-SWE / Terminal-Bench 2.1 / OSWorld-Verified / GDPval-AA). Interconnects's "new AI safety fables" framing pairs the release with Lambert's recurring [[recursive-self-improvement]] commentary (the body links to his "Recursive self-improvement isn't quite the right mental model" essay), suggesting Fable 5 ships alongside fresh Anthropic safety / alignment communications consistent with the 2026-06-05 *"When AI builds itself"* essay arc and the 2026-06-08 evening coordinated-pause ask. First publicly framed cross-cycle Claude release explicitly named **"Fable"** rather than continuing the Haiku/Sonnet/Opus/Mythos line — reads as Anthropic introducing a *new* product tier in its Claude lineup (the "5" version number puts Fable on a parallel numbering track to Claude 4.x rather than continuing it, mirroring the 2026-06-09-morning "Mythos 5" pattern where Mythos surfaced as a versioned tier). The same cycle Ethan Mollick publishes **"What it feels like to work with [[claude-mythos]]"** in One Useful Thing — first publicly framed Mollick-tier hands-on essay on Mythos working impressions (subject-only; full essay content unavailable this cycle); links in the body reference *the most sophisticated academic social science paper*, *a 10-page epic rhyming poem*, *a game about flipping coins*, *a snake game*, and *poet translated into an art game* as Mythos task demos — *source: data/summaries/2026-06-10-morning.json (TAAFT "🦾 Claude Fable 5 Drops (Beats Opus)"; World of AI "Anthropic: Claude Fable 5 DROPS! 🧠🔥" — YouTube companion "Claude Fable 5 IS INCREDIBLE! Greatest AI Model Ever! (Fully Tested)"; Interconnects by Nathan Lambert "Claude Fable 5 and new AI safety fables" — body links to "Recursive self-improvement isn't quite the right mental model" essay; pipeline summaries unavailable due to OpenRouter key-limit-exceeded error on all 10 newsletters in this edition)*
+
+## Key Facts
+
+- Vendor: [[anthropic]]
+- Naming: "Claude Fable 5" — introduces "Fable" as a new versioned tier alongside Haiku / Sonnet / Opus / [[claude-mythos]]
+- Versioning: "5" on a parallel track to Claude 4.x (not a continuation of the Claude 4 numbering line)
+- Position vs [[claude-opus-4-8]]: "Beats Opus" per TAAFT — at least one published benchmark superiority over the 2026-05-30 Opus 4.8 flagship
+- Coverage cohort at launch: TAAFT + World of AI + Interconnects (Nathan Lambert) — three independent reads in the same cycle window
+- Safety / RSI framing: paired with "new AI safety fables" (Interconnects) and Mollick's same-cycle Mythos hands-on essay
+
+## Open Questions
+
+- Full benchmark numbers (SWE-Bench Pro / Terminal-Bench 2.1 / FrontierSWE / FrontierCode / etc.) — TAAFT's "Beats Opus" needs disambiguation against the Opus 4.8 launch-cycle benchmark set
+- Pricing tier vs Opus 4.8 (same price? premium tier? gated to enterprise?)
+- Context window — does Fable 5 retain Opus 4.8's 1M tokens or extend it?
+- Distribution surfaces — Claude.ai + API + AWS Bedrock + Google Cloud Vertex AI + Microsoft Foundry day-one rollout?
+- Relationship to [[claude-mythos]] and Mythos 5 — is Fable a successor/sibling to Mythos in the new tier hierarchy or a separate consumer-facing line?
+- Why "Fable"? Is the naming a thematic tie to Anthropic's "AI safety fables" communications track (Interconnects framing) or a coincidental product-line label?
+- Does Fable 5 address the [[frontiercode]] code-quality gap exposed by Opus 4.8's ~13% on hardest-subset score?
+- Paired research-preview features (e.g., Dynamic Workflows / ultracode equivalents)?
+
+## Sources
+
+- data/summaries/2026-06-10-morning.json (TAAFT — Claude Fable 5 Drops (Beats Opus); World of AI — Claude Fable 5 DROPS! / YouTube "Greatest AI Model Ever! (Fully Tested)"; Interconnects by Nathan Lambert — Claude Fable 5 and new AI safety fables; all newsletter summaries unavailable due to OpenRouter key-limit-exceeded error; reconstruction from subject-line evidence only)

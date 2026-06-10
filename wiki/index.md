@@ -12,7 +12,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[amazon]] — AWS provider; $38B OpenAI; Nova 2 + Trainium 3; Rufus 805% YoY Black Friday
 - [[amd]] — chipmaker; OpenAI and Oracle partnerships *(stale)*
 - [[anduril]] — defense-tech prime; $8B at $60B valuation Mar 2026; ExoAnalytic Solutions acquisition doubled space unit *(stale)*
-- [[anthropic]] — Claude maker; Opus 4.7/4.5, Claude Design, Routines, Excel, Code Web, IPO talks, Bun acquisition
+- [[anthropic]] — Claude maker; Opus 4.7/4.8, Claude Design, Routines, $965B confidential IPO, Fable 5 release
 - [[apple]] — solo-AI strategy abandoned; Siri+Gemini deal; M5 chip; Subramanya new AI VP
 - [[assemblyai]] — voice/speech AI vendor; Voice Agent API collapses pipeline into a single WebSocket (Jun 2026)
 - [[auth0]] — identity platform; Auth0 for AI Agents *(stale)*
@@ -99,6 +99,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-code-web]] — browser/cloud Claude Code for dev work outside the terminal *(stale)*
 - [[claude-cowork]] — Anthropic's local-file agent for organizing digital work; anchor surface in PwC 30K-staff deployment (May 2026)
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
+- [[claude-fable-5]] — Anthropic's June 2026 frontier Claude release; "Beats Opus" per TAAFT; introduces "Fable" as a new versioned Claude tier alongside Haiku/Sonnet/Opus/Mythos (Jun 2026)
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills *(stale)*
 - [[claude-for-legal]] — Anthropic's vertical Claude package for law firms; 20+ MCP connectors + 12 plugins (May 2026)
 - [[claude-for-small-business]] — Anthropic's SMB Claude package; QuickBooks/PayPal/HubSpot/Canva/Google Workspace/Microsoft 365 (May 2026)
@@ -127,7 +128,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek-v4]] — DeepSeek's Apr 2026 frontier MoE family (V4-Pro + V4-Flash); open-sourced; triggers AI-pricing collapse
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
 - [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(stale)*
-- [[frontiercode]] — AINews/Latent Space code-quality benchmark; mergeability over unit-tests; Opus 4.8 ~13% on hardest subset (Jun 2026)
+- [[frontiercode]] — Cognition's code-quality benchmark (corrected 2026-06-10 — initially framed as AINews/Latent Space); mergeability over unit-tests; Opus 4.8 13/100 score (Jun 2026)
 - [[function-gemma]] — Google 270M on-device function-calling model *(stale)*
 - [[gemini]] — Google's flagship model family
 - [[gemini-2-5-computer-use]] — Gemini variant for UI control *(stale)*
