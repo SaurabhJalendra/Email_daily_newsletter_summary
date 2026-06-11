@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-04-16
+> **Last updated**: 2026-06-11-morning (subject-only: InstaByte "Apple reboots Siri with Gemini" — recoverage of Gemini-powered Siri shipping at WWDC26; pipeline summaries unavailable this edition due to OpenRouter key-limit-exceeded error)
 > **Status**: active
-> **Related**: [[google]], [[gemini-3-1-flash-tts]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[gemini-3]], [[jules]], [[prompt-injection]]
+> **Related**: [[google]], [[apple]], [[gemini-3-1-flash-tts]], [[gemini-2-5-computer-use]], [[gemini-enterprise]], [[gemini-3]], [[gemini-3-5-flash]], [[jules]], [[prompt-injection]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Gemini is [[google]]'s flagship multimodal AI model family, spanning consumer (G
 
 ## Timeline
 
+- **2026-06-11-morning**: **InstaByte "Apple reboots Siri with Gemini"** lands as third-cycle-week recoverage of the WWDC26 Gemini-powered Siri launch — extends the 2026-06-09 morning/evening cycle's "AFM Pro on Google cloud / comparable to Gemini Frontier" framing into the developer-tutorial newsletter tier (see [[apple]] for the WWDC26 launch arc). Reinforces that "Apple Gemini Siri" is now the canonical newsletter-cycle label for the rebuilt Siri product, and that Gemini's distribution surface includes the ~1.5B-iPhone install base via the Apple Intelligence integration. **Pipeline summaries unavailable** this cycle (all 12 newsletters failed with OpenRouter key-limit-exceeded error) — *source: data/summaries/2026-06-11-morning.json (InstaByte — Apple reboots Siri with Gemini; all 12 newsletter summaries failed with OpenRouter key-limit-exceeded error)*
 - **2026-04-16**: [[gemini-3-1-flash-tts]] released — low-latency, 70+ languages, multi-speaker dialogue, scene direction, Elo 1,211 on Artificial Analysis TTS leaderboard — *source: AlphaSignal; World of AI; TAAFT; TLDR AI; The Code*
 - **2026-04-16**: Gemini Mac app ships — floating chat bubble, window sharing, screen analysis, global shortcut — *source: TAAFT; Superhuman; The Rundown AI; "Gemini on your desktop"*
 - **2026-04-16**: Chrome Skills — save / reuse Gemini prompts across pages via `/` or plus-button — *source: Mindstream "AI just made Chrome even more useful"*
