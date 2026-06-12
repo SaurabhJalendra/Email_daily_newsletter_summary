@@ -57,6 +57,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai]] — ChatGPT/Sora; Atlas browser; Aardvark; "Code Red" vs Gemini 3; first device w/ Jony Ive
 - [[oracle]] — enterprise cloud; AMD partnership *(stale)*
 - [[perplexity]] — AI search; Comet browser; AI Browser w/ shopping + virtual try-on
+- [[project-prometheus]] — Jeff Bezos's "artificial general engineer" company; automates CAD + physics-based simulation; $41B framing (Jun 2026)
 - [[qualcomm]] — AI200/AI250 data-center AI chips *(stale)*
 - [[recursive-superintelligence]] — Tim Rocktäschel ex-DeepMind RSI startup; $650M @ $4.65B in a single day (May 2026)
 - [[reflection]] — raised $2B *(stale)*
