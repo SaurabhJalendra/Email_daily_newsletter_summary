@@ -98,6 +98,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions (May 2026)
 - [[claude-code-security]] — Anthropic's security scanner inside Claude Code (Feb 2026) *(stale)*
 - [[claude-code-web]] — browser/cloud Claude Code for dev work outside the terminal *(stale)*
+- [[claude-corps]] — Anthropic's paid AI-learning fellowship ($85K stipend); anthropic.com/claude-corps/fellow (Jun 2026)
 - [[claude-cowork]] — Anthropic's local-file agent for organizing digital work; anchor surface in PwC 30K-staff deployment (May 2026)
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
 - [[claude-fable-5]] — Anthropic's June 2026 frontier Claude release; "Beats Opus" per TAAFT; introduces "Fable" as a new versioned Claude tier alongside Haiku/Sonnet/Opus/Mythos (Jun 2026)
