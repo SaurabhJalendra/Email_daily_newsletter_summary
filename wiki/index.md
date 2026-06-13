@@ -179,6 +179,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
 - [[kimi-k2-5]] — Moonshot AI's 1T MoE + 400M MoonViT multimodal agentic model with Agent Swarm (Jan 2026) *(stale)*
 - [[kimi-k2-6]] — Moonshot AI's Apr 2026 open-source trillion-parameter multimodal model; Agent Swarm; outperforms GPT-5.4 / Opus 4.6 on several benchmarks
+- [[kimi-k2-7-code]] — Moonshot AI's Jun 2026 coding-specialized K2.7-series Kimi variant; launches on Ollama's US-hosted cloud (Jun 2026)
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026) *(stale)*
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark *(stale)*

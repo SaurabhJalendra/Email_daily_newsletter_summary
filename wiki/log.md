@@ -4,6 +4,20 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-06-13-evening
+**Ingested**: data/summaries/2026-06-13-evening.json (6 newsletters — **ALL 6 SUMMARIES FAILED with OpenRouter 403 key-limit-exceeded error** — **seventh consecutive cycle** with same blocker after 2026-06-10-morning + 2026-06-11-morning + 2026-06-11-evening + 2026-06-12-morning + 2026-06-12-evening + 2026-06-13-morning; the longest sustained pipeline-outage stretch recorded in this wiki, now spanning seven consecutive editions. Ingest works from subject-line + link-text evidence only. Only one substantive AI-relevant signal in this edition; remaining five newsletters were non-AI (Anna Eisenberg market recap), generic engineering (Raul Junco system-design hot-path), generic Claude promo (Mindstream "Claude for beginners"), niche medical deep-learning (JournalClub.io NSCLC pathology paper), or notification spam (AI Automation Society Skool).
+
+**Subject-bearing AI/dev-tools entities**:
+- **Ollama "Kimi K2.7 Code is now on Ollama's US-hosted cloud"** — first publicly framed [[kimi-k2-7-code]] hosting in this wiki; succeeds [[kimi-k2-6]] (2026-04-22 trillion-parameter multimodal) and the K2.6 Agent Swarm framing with a coding-specialized variant; *novel* "US-hosted cloud" regional framing for the Kimi-on-Ollama lineage (earlier `kimi-k2.5:cloud` and `kimi-k2.6:cloud` references in Ollama Cloud did not surface a regional-hosting tier); body links confirm canonical model page **ollama.com/library/kimi-k2.7-code**; likely productizes the 2026-06-13-morning AlphaSignal "Kimi 30% Faster Coding" coding-capability uplift — pending body-text recovery on a future successful summarization pass
+
+**Pages updated**:
+- [[ollama]] — added 2026-06-13-evening Kimi K2.7 Code hosting on US-hosted cloud; updated header Related to include [[kimi-k2-7-code]]
+- [[moonshot-ai]] — added 2026-06-13-evening Kimi K2.7 Code release timeline; updated header Related to include [[kimi-k2-6]] + [[kimi-k2-7-code]] + [[ollama]]
+
+**Pages created**: [[kimi-k2-7-code]]
+
+**Notable**: Seven consecutive editions of OpenRouter 403 key-limit-exceeded — pipeline blocker has now persisted for the full week-long stretch from 2026-06-10-morning through 2026-06-13-evening. Substantive details (model size, license, benchmark deltas vs K2.6 / GPT-5.5 / Claude Fable 5, Pro/Max plan inclusion, why "US-hosted" specifically called out) for [[kimi-k2-7-code]] all remain to be re-anchored on the next successful summarization pass. The cross-cycle Kimi product-naming cadence (K2.5 Jan 2026 → K2.6 Apr 2026 → K2.7 Code Jun 2026) implies a ~2-month release rhythm for [[moonshot-ai]]; the "Code" suffix is the first specialized-variant branding in the K2 series — watch for whether K2.7 base + K2.7 Code is a split-SKU pattern in subsequent cycles.
+
 ## 2026-06-13-morning
 **Ingested**: data/summaries/2026-06-13-morning.json (10 newsletters — **ALL 10 SUMMARIES FAILED with OpenRouter 403 key-limit-exceeded error** — sixth consecutive cycle with same blocker after 2026-06-10-morning + 2026-06-11-morning + 2026-06-11-evening + 2026-06-12-morning + 2026-06-12-evening; the longest sustained pipeline-outage stretch recorded in this wiki, now spanning six consecutive editions. Ingest works from subject-line + link-text evidence only.
 
