@@ -4,6 +4,19 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## LINT 2026-06-14 (week 2026-W24)
+
+**Lint actions**:
+- Fixed contradictions: none requiring intervention this week (the only flagged spelling variance — Clive Chan vs Clive Chen from W23 — was already noted as transliteration variance on [[anthropic]] without contradiction-fix needed)
+- Resolved orphans: 0 — all 5 new pages this week ([[project-prometheus]], [[kimi-k2-7-code]], [[claude-corps]], [[diffusion-gemma]], [[mimo-code]]) already carry sufficient inbound cross-references from existing pages ([[anthropic]] / [[google]] / [[moonshot-ai]] / [[ollama]] / [[openai]] / [[ai-ipo-wave]]); audit confirmed no zero-backlink orphan condition
+- Merged duplicates: none — no near-duplicate page conflicts detected this week
+- Stale pages marked: 0 net new staleness marks this week — the week's coverage exclusively touched active pages within the 60-day Last-updated window; pre-existing *(stale)* markings preserved as-is
+- Index regenerated: added [[rtx-spark]] (was present in `products/` directory but absent from index Products section — discovered during directory-vs-index reconciliation pass); added [[digests/2026-W24]] under Digests section
+
+**Digest generated**: wiki/digests/2026-W24.md (~5,600 words)
+
+---
+
 ## 2026-06-14-morning
 **Ingested**: data/summaries/2026-06-14-morning.json (3 newsletters — **ALL 3 SUMMARIES FAILED with OpenRouter 403 key-limit-exceeded error** — **eighth consecutive cycle** with the same blocker after 2026-06-10-morning + 2026-06-11-morning + 2026-06-11-evening + 2026-06-12-morning + 2026-06-12-evening + 2026-06-13-morning + 2026-06-13-evening; the longest sustained pipeline-outage stretch recorded in this wiki, now spanning eight consecutive editions across a full week-plus. Ingest works from subject-line + link-text evidence only. Very small cycle (3 newsletters vs typical 8-17) — the small volume itself is a noteworthy data point likely tied to the morning-edition window rather than the pipeline outage.
 
