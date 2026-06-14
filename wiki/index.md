@@ -126,6 +126,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cursor-composer-2-5]] — Cursor's May 2026 RL-trained model; 79.8% SWE-Bench Multilingual at ~10× efficiency
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier *(stale)*
 - [[deepseek-ocr]] — open-source OCR with 10× vision-token compression, 97% accuracy *(stale)*
+- [[diffusion-gemma]] — Google's diffusion-based Gemma-family variant; first surfaced TLDR AI 2026-06-11-evening + second-cohort NLP Newsletter digest 2026-06-14-morning
 - [[deepseek-v3-2]] — DeepSeek V3.2 matches GPT-5; V3.2-Speciale rivals Gemini 3 Pro w/ IMO/IOI/ICPC gold *(stale)*
 - [[deepseek-v4]] — DeepSeek's Apr 2026 frontier MoE family (V4-Pro + V4-Flash); open-sourced; triggers AI-pricing collapse
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
@@ -188,6 +189,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video *(stale)*
 - [[medgemma]] — Google open medical-imaging model family (Jan 2026) *(stale)*
 - [[microsoft-scout]] — Microsoft's always-on Scout agent tab inside the Microsoft Super App framing; Build 2026 (Jun 2026)
+- [[mimo-code]] — Xiaomi's coding-specialized model; three-cycle cross-newsletter convergence (TLDR AI → Hello World "Claude vs Mimo" → NLP Newsletter AI Agents Weekly digest, Jun 2026)
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
