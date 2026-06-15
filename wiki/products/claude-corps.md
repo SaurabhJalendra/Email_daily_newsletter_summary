@@ -9,9 +9,9 @@ metadata:
 
 > **Type**: product
 > **First mentioned**: 2026-06-13-morning
-> **Last updated**: 2026-06-13-morning
+> **Last updated**: 2026-06-15-morning (subject-only: Singh in USA "Claude Corps & AI Lab Fellowships for Fresh Grads (2026): The Complete List" lists Claude Corps alongside OpenAI Safety Fellowship + OpenAI Residency + MATS Program — first cross-program publicly framed AI-lab fellowship roundup featuring Claude Corps as a peer-tier program; pipeline summaries unavailable due to OpenRouter 403 key-limit-exceeded error)
 > **Status**: launched (subject-only data — full program design, eligibility, and rollout details to be reconstructed on the next successful summarization pass)
-> **Related**: [[anthropic]], [[claude-code]], [[ai-jobs-displacement]]
+> **Related**: [[anthropic]], [[openai]], [[claude-code]], [[ai-jobs-displacement]]
 
 ## Summary
 
@@ -21,6 +21,7 @@ Coverage framing ("almost nobody knows yet") suggests the fellowship was launche
 
 ## Timeline
 
+- **2026-06-15-morning**: **Claude Corps appears in a cross-program AI-lab fellowship roundup** — Harnoor Singh ("Singh in USA") Substack post **"Claude Corps & AI Lab Fellowships for Fresh Grads (2026): The Complete List"** is the first publicly framed cross-newsletter coverage placing Claude Corps in a fellowship-roundup context alongside **OpenAI Safety Fellowship** (openai.com/index/introducing-openai-safety-fellowship), **OpenAI Residency** (openai.com/residency), and the **MATS Program** (matsprogram.org/apply) — body links also include **anthropic.com/claude-corps/fellow** + **anthropic.com/careers**. First publicly framed coverage of Claude Corps as a *peer* in the AI-lab paid-fellowship landscape (rather than as the standalone "almost nobody knows yet" launch frame of 2026-06-13-morning), implying the fresh-grad audience is now actively comparing Anthropic / OpenAI / MATS as fellowship tracks. Substantive details (admission criteria comparison, stipend ranking, deliverables comparison) to be reconstructed on the next successful summarization pass. Pipeline summaries unavailable — all 15 newsletters failed with OpenRouter 403 key-limit-exceeded error — *source: data/summaries/2026-06-15-morning.json (Harnoor Singh from Singh in USA — Claude Corps & AI Lab Fellowships for Fresh Grads (2026): The Complete List; body links to anthropic.com/claude-corps/fellow, anthropic.com/careers, openai.com/index/introducing-openai-safety-fellowship, openai.com/residency, matsprogram.org/apply; all 15 newsletter summaries failed with OpenRouter 403 key-limit-exceeded error)*
 - **2026-06-13-morning**: **Claude Corps Fellowship surfaces** — Abhijay Vuyyuru's "Anthropic Will Pay You $85,000 to Learn AI (and Almost Nobody Knows Yet)" Substack post is the first publicly framed cross-newsletter coverage of the Anthropic fellowship in this wiki; body links to **anthropic.com/claude-corps/fellow** (fellow application page) and **anthropic.com/news/claude-corps** (program announcement). $85K stipend reads as Anthropic targeting the *paid-residency* fellow tier (analog to a research-residency program) rather than the unpaid open-courseware tier that Anthropic Academy occupies. "Almost nobody knows yet" framing suggests low-volume launch without a coordinated press cycle — typical of a fellowship program (vs a product launch). Pipeline summaries unavailable — all 10 newsletters failed with OpenRouter 403 key-limit-exceeded error (sixth consecutive cycle with the same blocker). Substantive details (fellow count, duration, eligibility, deliverables, fellowship year, cohort start date) to be reconstructed on the next successful summarization pass — *source: data/summaries/2026-06-13-morning.json (Abhijay's AI Action Letter — Anthropic Will Pay You $85,000 to Learn AI; body links to anthropic.com/claude-corps/fellow and anthropic.com/news/claude-corps; all 10 newsletter summaries failed with OpenRouter 403 key-limit-exceeded error)*
 
 ## Key Facts

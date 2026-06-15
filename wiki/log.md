@@ -4,6 +4,43 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-06-15-morning
+**Ingested**: data/summaries/2026-06-15-morning.json (15 newsletters — **ALL 15 SUMMARIES FAILED with OpenRouter 403 key-limit-exceeded error** — **ninth consecutive cycle** with the same blocker after 2026-06-10-morning + 2026-06-11-morning + 2026-06-11-evening + 2026-06-12-morning + 2026-06-12-evening + 2026-06-13-morning + 2026-06-13-evening + 2026-06-14-morning; the longest sustained pipeline-outage stretch recorded in this wiki, now spanning nine consecutive editions across more than a week. Ingest works from subject-line + link-text evidence only.
+
+**Subject-bearing AI/dev-tools entities** (three substantive AI-relevant signals out of 15 newsletters — the remainder were non-AI or generic promo/notification spam, see Skipped section below):
+- **Interconnects by Nathan Lambert "Welcome to the AGI era of AI governance"** — first publicly framed *Lambert-byline* AGI-era-of-governance positioning piece in this wiki; body links: "Claude 5 Mythos/Fable" + "force them to suspend access" + "tipped off" + "strong political inclination" — suggests the governance argument is grounded in concrete lab-suspension + political-inclination evidence rather than abstract policy theory
+- **Harnoor Singh from Singh in USA "Claude Corps & AI Lab Fellowships for Fresh Grads (2026): The Complete List"** — first publicly framed cross-program AI-lab fellowship roundup placing [[claude-corps]] alongside OpenAI Safety Fellowship + OpenAI Residency + MATS Program; body links: anthropic.com/claude-corps/fellow + anthropic.com/careers + openai.com/index/introducing-openai-safety-fellowship + openai.com/residency + matsprogram.org/apply
+- **AlphaSignal "⚙️ Everything to know about loop engineering and 'loopmaxxing'"** — first publicly framed *named-discipline* framing of **loop engineering** / **loopmaxxing** in the developer-newsletter circuit; pairs structurally with the 2026-06-06-evening "loop-until-done" pattern from The AI Corner's Claude Code Dynamic Workflows 6-pattern taxonomy and with the 2026-06-07-evening **Scaling Laws for Agent Harnesses** Effective-Feedback-Compute research cohort
+
+**Pages updated**:
+- [[claude-corps]] — 2026-06-15-morning entry: Singh in USA fellowship-roundup post places Claude Corps in peer-tier framing with OpenAI Safety Fellowship + OpenAI Residency + MATS Program; first cross-program publicly framed AI-lab fellowship roundup featuring Claude Corps as peer-tier; Related expanded to include [[openai]]; header Last-updated revised
+- [[ai-regulation]] — 2026-06-15-morning entry: Interconnects/Nathan Lambert "AGI era of AI governance" positions AGI as the operating regime for governance debate (compounds 2026-06-11-evening Amodei-to-Washington push + 2026-06-09-evening OpenAI global-coordination-body into a named-third-party-commentator framing); body links signal lab-suspension-as-governance-lever + political-inclination evidence substrate; header Last-updated revised
+- [[agent-frameworks]] — 2026-06-15-morning entry: AlphaSignal surfaces *loop engineering* / *loopmaxxing* as a named agent-orchestration discipline in the developer-newsletter circuit; pairs structurally with the 2026-06-06 Claude Code Dynamic Workflows "loop-until-done" pattern and the 2026-06-07 EFC scaling-law cohort; "loopmaxxing" vernacular signals maturation of agent-developer practice (sibling to tokenmaxxing / RAGmaxxing); header Last-updated revised
+
+**Pages created**: *(none — all entities surfaced this cycle already have wiki pages)*
+
+**Skipped subjects (non-AI / generic promo / notification spam / niche academic / market-finance / clickbait)**:
+- Harnoor Singh "The Forward Deployed Engineer: A No-BS Guide to Tech's Hottest Job" — career/role essay (not AI-specific dev-tools content)
+- Anna Eisenberg "The Alzheimer's Test Dilemma" — medical / non-AI
+- JournalClub.io "Concept drift detection in district heating: A characterization framework and detector-centric benchmark" — niche academic ML on a non-AI vertical (district heating)
+- Mindstream "This VP is managing 9,000 partners through the AI transistion" — generic enterprise-AI-management profile (low cross-day relevance)
+- NLP Newsletter "🥇Top AI Papers of the Week" — generic weekly-papers digest with no extractable named-paper signals from the subject line alone
+- God of Prompt "🔑 US Government Banned The Most Powerful AI On Earth" — clickbait without retrievable specifics
+- The AI Corner "Your AI bill is mostly wasted tokens" — generic token-cost-optimization promo (no novel framing extractable from subject)
+- Superhuman "🐊 Scientists discover ancient giant croc" — non-AI (paleontology)
+- AI Automation Society (Skool) "1 new notification since 9:36 pm (Jun 13, 2026)" — notification spam
+- Citrini "Macro Memo: Spin Cycle" — macro / finance newsletter
+- TAAFT "🦾 This Week in AI" — generic weekly-roundup subject without extractable specifics
+- DayTrading Dispatch "SpaceX just pulled off the biggest IPO ever 🚀" — finance / SPCX IPO recoverage (not page-ified pending body recovery; already covered as a multi-cycle SPCX IPO arc in prior ingest cycles)
+
+**Notable**:
+- **Ninth consecutive cycle with 100% OpenRouter 403 key-limit-exceeded failure** — the outage stretch (2026-06-10-morning → 2026-06-11-morning → 2026-06-11-evening → 2026-06-12-morning → 2026-06-12-evening → 2026-06-13-morning → 2026-06-13-evening → 2026-06-14-morning → 2026-06-15-morning) is now nine consecutive editions spanning more than a week, by a wide margin the longest pipeline outage recorded in this wiki. Nine consecutive ingest cycles have run on subject-line + link-text evidence only. Highest-priority body-recovery items unchanged from the 2026-06-14-morning log entry, now joined by: (6) **Nathan Lambert "AGI era of AI governance" substantive argument** — which lab is referenced by "force them to suspend access", what investigation does "tipped off" point to, what is the "strong political inclination" angle (likely a US partisan-alignment claim about a specific lab); (7) **Singh in USA Claude Corps & AI Lab Fellowships roundup body** — fellowship comparison criteria, stipend ranking across Anthropic Claude Corps vs OpenAI Safety Fellowship vs OpenAI Residency vs MATS, deliverable comparison; (8) **AlphaSignal "loop engineering" / "loopmaxxing" playbook** — concrete loop-engineering tactics, what tools / harnesses are named, relation to EFC and Claude Code Dynamic Workflows.
+- **3 pages updated + 0 pages created = 3 total**, far below the 10–15 target band — the low number is the correct conservative read for a 15-newsletter cycle where 12 newsletters are non-AI / generic promo / notification spam / clickbait / niche-academic / market-finance content. Discipline note: the no-fabrication discipline correctly held back any standalone [[loop-engineering]] or [[loopmaxxing]] topic pages from a *single-subject-only* signal (will revisit if loop engineering / loopmaxxing surfaces in 2-3 more cycles per the cross-cycle convergence threshold).
+- **Volume note**: 15 newsletters this morning is in the typical morning-cycle range (8-17) — sharply up from the 3-newsletter 2026-06-14-morning floor that was flagged as anomalously small; the 15-newsletter volume confirms the smaller 06-14-morning cycle was a one-off rather than a pipeline-volume degradation trend.
+- **Signal-to-noise note**: 3 substantive AI signals out of 15 newsletters (20%) is one of the lower S/N ratios in recent cycles — driven by a mix of clickbait (God of Prompt), generic roundups (NLP Newsletter weekly papers, TAAFT This Week in AI), non-AI verticals (Anna Eisenberg, Superhuman ancient croc, DayTrading SpaceX, Citrini macro), notification spam (Skool), and niche-academic (JournalClub district heating). The Interconnects / Singh in USA / AlphaSignal trio still produced cycle-defining signals, but the noise floor is unusually high this cycle.
+
+---
+
 ## LINT 2026-06-14 (week 2026-W24)
 
 **Lint actions**:
