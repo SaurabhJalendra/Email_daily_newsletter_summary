@@ -8,8 +8,8 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-03-07
-> **Status**: stale
+> **Last updated**: 2026-06-16-morning (subject-only: TAAFT "🦾 13 Words Poison AI Search" — first publicly framed *13-word adversarial-prompt poisoning of AI search* in this wiki; reactivates the topic page from stale after a 3-month dormant window; pipeline summaries unavailable — eleventh consecutive cycle with OpenRouter 403 key-limit-exceeded blocker)
+> **Status**: active
 > **Related**: [[gemini]], [[google]], [[chatgpt-atlas]], [[ai-browsers]], [[aardvark]], [[openai]], [[perplexity]]
 
 ## Summary
@@ -18,6 +18,7 @@ Prompt injection is a security category where adversarial content embedded in mo
 
 ## Timeline
 
+- **2026-06-16-morning**: **TAAFT "🦾 13 Words Poison AI Search"** — first publicly framed *13-word adversarial-prompt poisoning of AI search* in this wiki, reactivating the topic page from a 3-month stale window. The "13 words" framing is structurally novel: it specifies a *minimum-viable adversarial-prompt budget* (just 13 words is enough to "poison" an AI-search response), distinct from the prior prompt-injection event categories tracked on this page — hidden-text browser-hijack ([[chatgpt-atlas]] 2025-10-23), domain-injection in retrieved documents ([[gemini]] 2025-10-01), supply-chain prompt-injection via GitHub issue titles (2026-03-07). "Poison AI Search" framing specifically targets the *AI-search* (retrieval-augmented answer-generation) surface — likely a single short paragraph or sentence-level adversarial seed that, when scraped/indexed by AI search engines, causes the search assistant to produce attacker-controlled outputs to unrelated downstream queries. Pairs structurally with the 2025-10-01 Gemini disclosure, the 2025-10-23 ChatGPT Atlas hidden-text hijack, and OpenAI's 2025-10-27 prompt-injection mitigation guidance — extends the category from per-session injection (browse-time) and per-document injection (RAG-time) into a *per-index injection* surface where a single 13-word planted artifact corrupts the AI-search index for downstream users. Pipeline summaries unavailable — body-recovery items: (a) the specific 13 words, (b) which AI search engines (Google AI Search / [[perplexity]] / Bing Copilot / ChatGPT Search) the poisoning was demonstrated against, (c) the disclosure source and whether a fix is in place — *source: data/summaries/2026-06-16-morning.json (TAAFT — 13 Words Poison AI Search; all 9 newsletter summaries failed with OpenRouter 403 key-limit-exceeded error — eleventh consecutive cycle)*
 - **2026-03-07**: GitHub issue title compromises ~4,000 developer machines — crafted title installs [[openclaw]] when pasted into AI dev tools that interpret prompts as instructions; first large-scale reported supply-chain prompt-injection on agentic dev tooling — *source: TLDR "GPT-5.4 + Anthropic's leaked memo"*
 - **2025-12-18**: AI Breakfast reports "8M+ AI Chats Secretly Harvested" — large-scale chat-data exfiltration coverage — *source: AI Breakfast "8M+ AI Chats Secretly Harvested"; TAAFT*
 - **2025-12-16**: Reverse-engineering of [[anthropic]]'s Claude memory system published — uses on-demand tools and selective retrieval; raises red-team-style transparency questions — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal*
