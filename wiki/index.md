@@ -71,7 +71,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
 - [[world-labs]] — Fei-Fei Li's "spatial intelligence" startup; ships Marble world model; $1B raise Feb 2026 *(stale)*
 - [[xai]] — Elon Musk's AI lab; Grok 4.1 dialog modes; $15B @ $230B; Memphis solar farm
-- [[zhipu-ai]] — Chinese frontier lab; GLM family; GLM-5.2 surfaces via TLDR AI Jun 2026
+- [[zhipu-ai]] — Chinese frontier lab; GLM family; GLM-5.2 "top frontend coding model in the world" + IndexShare for Speculative Decoding (Jun 2026)
 
 ## Products
 - [[aardvark]] — OpenAI's GPT-5 code-security agent (92% vulnerability identification, 10 CVEs) *(stale)*
@@ -152,7 +152,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
 - [[glm-4-7]] — Zhipu AI open-source WebDev model topping open leaderboards Dec 2025 *(stale)*
 - [[glm-5]] — Zhipu AI's Feb 2026 open-source 754B MIT-licensed flagship; sparse attention + async RL *(stale)*
-- [[glm-5-2]] — Zhipu AI's June 2026 minor-version successor to GLM-5; surfaced via TLDR AI three-headline cycle bundle (Jun 2026)
+- [[glm-5-2]] — Zhipu AI's June 2026 minor-version successor to GLM-5; "the top Frontend Coding model in the world" per AINews + IndexShare for Speculative Decoding; released opportunistically into the Fable ban window (Jun 2026)
 - [[glm-ocr]] — Zhipu AI's open-source SOTA OCR model; #1 OmniDocBench, handwriting/tables/code layouts *(stale)*
 - [[gpt-5-1]] — OpenAI's mid-Nov 2025 ChatGPT upgrade; Instant/Thinking modes, 8 personalities *(stale)*
 - [[gpt-5-1-codex-max]] — OpenAI's coding model; 24+ hour sessions via compaction; 77.9% SWE-bench Verified *(stale)*
@@ -167,6 +167,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[googlebook]] — Google's Gemini-native premium AI laptop category; Magic Pointer AI cursor; ships fall 2026
 - [[grok-build]] — xAI's CLI coding agent for SuperGrok Heavy subscribers (May 2026)
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding *(stale)*
+- [[gpt-bidi]] — OpenAI's pre-launch bidirectional voice architecture for ChatGPT voice mode; first surfaced via AI Breakfast (Jun 2026)
 - [[gpt-image-1-5]] — OpenAI's Dec 2025 image-gen upgrade; 4× faster, sharper detail, Likeness Retention *(stale)*
 - [[gpt-rosalind]] — OpenAI's first Life Sciences model; drug discovery, genomics, translational medicine (Apr 2026)
 - [[google-tpu-v8]] — Google's 8th-gen TPU; cost-efficient full-stack AI infra positioned against NVIDIA (Apr 2026)
