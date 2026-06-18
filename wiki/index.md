@@ -47,6 +47,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[merge-labs]] — Sam Altman BCI startup; $250M raise at $850M valuation Jan 2026 *(stale)*
 - [[meta]] — Muse Spark + open-weights pivot; $21B CoreWeave; SAM 3/3D; WorldGen
 - [[microsoft]] — Copilot ecosystem; Mico personality; Copilot App Builder; renewed OpenAI ~27% stake
+- [[midjourney]] — bootstrapped frontier AI lab; text-to-image core + V1 video + Midjourney Medical Scanner (full-body ultrasonic CT); CEO David Holz (Jun 2026)
 - [[minimax]] — Chinese frontier-model lab; M2.1 coding model
 - [[mistral]] — French frontier lab; Mistral Studio + Mistral 3 open-weights; HSBC + Airbus/BMW/CMA CGM; Vibe Work/Code Mode (Jun 2026)
 - [[moonshot-ai]] — Chinese frontier lab; ships Kimi K2 Thinking open-source reasoning model
@@ -93,6 +94,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-health]] — OpenAI's consumer health assistant (symptom guidance, lab-report reading, clinician review) *(stale)*
 - [[chatgpt-images-2]] — OpenAI's Apr 2026 image-gen upgrade; reasoning step before generation; non-Latin language support
 - [[chatgpt-go]] — OpenAI's $8/mo ChatGPT entry-paid tier; launched globally Jan 2026 *(stale)*
+- [[chatgpt-tasks]] — OpenAI's scheduled-tasks hub inside ChatGPT — one-off + recurring tasks; replaces Pulse (sunset within 14 days); agent-on-a-schedule shift (Jun 2026)
 - [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages) *(stale)*
 - [[claude-code]] — Anthropic's CLI coding agent; plugins, Routines, Web variant; $1B ARR
 - [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions (May 2026)
@@ -191,6 +193,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video *(stale)*
 - [[medgemma]] — Google open medical-imaging model family (Jan 2026) *(stale)*
 - [[microsoft-scout]] — Microsoft's always-on Scout agent tab inside the Microsoft Super App framing; Build 2026 (Jun 2026)
+- [[midjourney-scan]] — Midjourney's first hardware: full-body ultrasonic CT scanner; "first new whole-body medical imaging modality in 50 years" per Holz; Midjourney Spa SF deployment (Jun 2026)
 - [[mimo-code]] — Xiaomi's coding-specialized model; three-cycle cross-newsletter convergence (TLDR AI → Hello World "Claude vs Mimo" → NLP Newsletter AI Agents Weekly digest, Jun 2026)
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
@@ -231,7 +234,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwen3-coder-next]] — Alibaba's Feb 2026 open-weights 80B MoE coding-agent model (800K coding tasks) *(stale)*
 - [[rtx-spark]] — NVIDIA's 1-petaflop consumer-PC superchip for running frontier-scale AI models locally on laptops and desktops; ships fall 2026
 - [[runway-gen-4-5]] — Runway's text-to-video; tops Veo 3 and Sora on Artificial Analysis benchmark *(stale)*
-- [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2K, 15s, native audio, anchor system *(stale)*
+- [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2.5 weeks away with longer clips + 4K imminent + Seedance 2.0 mini lower-cost variant released (Jun 2026)
+- [[snap-specs]] — Snap's $2,195 standalone AI AR glasses for the post-phone era; 51° FOV, 7ms latency, two Snapdragon chips, contextual AI (Jun 2026)
 - [[sora-2]] — OpenAI's video model; physics, audio, monetization, Hollywood pushback *(stale)*
 - [[tinker-api]] — Thinking Machines' LLM fine-tuning API *(stale)*
 - [[tml-interaction-small]] — Thinking Machines' 276B-A12B native real-time interaction model; 200ms audio/video/text micro-turns (May 2026)
