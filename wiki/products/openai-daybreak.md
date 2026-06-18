@@ -1,8 +1,7 @@
 ---
 name: OpenAI Daybreak
 description: OpenAI's frontier-AI cyber-defense platform pairing GPT-5.5 with Codex Security to scan code, find vulns, and propose patches (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # OpenAI Daybreak

@@ -1,8 +1,7 @@
 ---
 name: Recursive Superintelligence
 description: Tim Rocktäschel + Peter Norvig recursive-self-improving AI startup — $650M @ $4.65B (May 2026)
-metadata:
-  type: company
+type: company
 ---
 
 # Recursive Superintelligence

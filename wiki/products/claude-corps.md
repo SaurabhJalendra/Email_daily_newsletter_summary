@@ -1,8 +1,7 @@
 ---
 name: Claude Corps
 description: Anthropic's paid AI-learning fellowship program — $85,000 stipend to "Learn AI"; landing pages at anthropic.com/claude-corps/fellow and anthropic.com/news/claude-corps
-metadata:
-  type: product
+type: product
 ---
 
 # Claude Corps

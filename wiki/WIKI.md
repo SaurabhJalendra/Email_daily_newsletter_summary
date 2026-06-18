@@ -80,7 +80,15 @@ wiki/
 
 Every wiki page follows this template:
 
+**OKF frontmatter is REQUIRED on every page** (Open Knowledge Format v0.1): YAML frontmatter with a **flat top-level `type:`** field. Write `type: product` directly — **NOT** nested under `metadata:`. Reserved files (`index.md`, `log.md`, `WIKI.md`) are exempt.
+
 ```markdown
+---
+name: <Page Title>
+description: <one-line evergreen description of the entity>
+type: company | product | topic | trend | digest
+---
+
 # <Page Title>
 
 > **Type**: company | product | topic | trend

@@ -1,8 +1,7 @@
 ---
 name: Claude Opus 4.8
 description: Anthropic's May 2026 flagship — 4× less likely to fake confidence; SWE-bench Pro / Terminal-Bench 2.1 / OSWorld-Verified / GDPval-AA SOTA; fast mode 2.5× / 1/3 cost; 1M context; same price as 4.7
-metadata:
-  type: product
+type: product
 ---
 
 # Claude Opus 4.8

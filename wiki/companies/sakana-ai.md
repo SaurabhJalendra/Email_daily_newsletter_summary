@@ -1,8 +1,7 @@
 ---
 name: Sakana AI
 description: Tokyo-based AI research lab; launches dedicated Recursive Self-Improvement (RSI) Lab in Tokyo (Jun 2026)
-metadata:
-  type: company
+type: company
 ---
 
 # Sakana AI

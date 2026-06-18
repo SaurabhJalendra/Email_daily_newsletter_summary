@@ -1,8 +1,7 @@
 ---
 name: ai-chatbot-dark-patterns
 description: AI chatbot UX as regulatory surface — CDT taxonomy of 37 deceptive/manipulative interface patterns; first comprehensive chatbot-UX-as-policy artifact (Jun 2026)
-metadata:
-  type: topic
+type: topic
 ---
 
 # AI Chatbot Dark Patterns

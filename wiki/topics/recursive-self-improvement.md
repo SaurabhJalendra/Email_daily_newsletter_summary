@@ -1,8 +1,7 @@
 ---
 name: recursive-self-improvement
 description: AI systems that materially accelerate their own successor's development — Anthropic frames it as "Sparks of RSI" with Claude writing 80% of its own code (Jun 2026)
-metadata:
-  type: topic
+type: topic
 ---
 
 # Recursive Self-Improvement (RSI)

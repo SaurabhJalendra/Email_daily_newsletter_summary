@@ -1,8 +1,7 @@
 ---
 name: Orbital Data Centers
 description: Space-based AI compute initiatives — SpaceX, Google Project Suncatcher, Cowboy Space Corp, Starcloud (May 2026)
-metadata:
-  type: topic
+type: topic
 ---
 
 # Orbital Data Centers

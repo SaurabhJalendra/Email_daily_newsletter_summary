@@ -1,8 +1,7 @@
 ---
 name: Grok Build
 description: xAI's CLI coding agent for SuperGrok Heavy subscribers — plan mode, subagents, headless automation (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Grok Build

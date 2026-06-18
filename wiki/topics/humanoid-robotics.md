@@ -1,8 +1,7 @@
 ---
 name: humanoid-robotics
 description: Humanoid robotics — frontier labs and chipmakers move into embodied AI; Sam Altman / OpenAI / NVIDIA Isaac GR00T / Amazon warehouse / Serve / China IPO wave (Jun 2026)
-metadata:
-  type: topic
+type: topic
 ---
 
 # Humanoid Robotics

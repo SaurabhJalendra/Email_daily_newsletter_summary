@@ -1,8 +1,7 @@
 ---
 name: Claude Code Agent View
 description: Anthropic's unified dashboard for parallel Claude Code sessions — research preview (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Claude Code Agent View

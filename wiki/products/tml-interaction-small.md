@@ -1,8 +1,7 @@
 ---
 name: TML-Interaction-Small
 description: Thinking Machines' 276B-A12B native interaction model — audio/video/text micro-turns at 200ms (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # TML-Interaction-Small

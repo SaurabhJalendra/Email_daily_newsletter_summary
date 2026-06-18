@@ -1,8 +1,7 @@
 ---
 name: Antigravity 2.0
 description: Google's rebuilt-from-scratch parallel-agent desktop app, CLI, and SDK powered by Gemini 3.5 Flash (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Antigravity 2.0

@@ -1,8 +1,7 @@
 ---
 name: Claude for Small Business
 description: Anthropic's SMB-focused Claude package embedding Claude into QuickBooks/PayPal/HubSpot/Canva/Google Workspace/Microsoft 365 (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Claude for Small Business

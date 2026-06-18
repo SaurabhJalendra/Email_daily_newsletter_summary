@@ -1,8 +1,7 @@
 ---
 name: alfred-robotics
 description: Alfred Robotics — stealth robotics-software startup at $40M valuation; Sam Altman invests via Hydrazine Capital alongside Khosla Ventures and SV Angel (Jun 2026)
-metadata:
-  type: company
+type: company
 ---
 
 # Alfred Robotics

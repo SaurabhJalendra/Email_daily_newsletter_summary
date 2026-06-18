@@ -1,8 +1,7 @@
 ---
 name: GLM-5.2
 description: Zhipu AI's June 2026 minor-version successor to GLM-5; first surfaced via TLDR AI three-headline cycle bundle 2026-06-15-evening
-metadata:
-  type: product
+type: product
 ---
 
 # GLM-5.2

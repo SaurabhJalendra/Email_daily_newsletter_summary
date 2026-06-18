@@ -1,8 +1,7 @@
 ---
 name: Recursive Architectures
 description: Latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free, hierarchical reasoning at fraction of LLM cost (May 2026)
-metadata:
-  type: topic
+type: topic
 ---
 
 # Recursive Architectures

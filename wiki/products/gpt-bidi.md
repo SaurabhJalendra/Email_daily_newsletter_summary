@@ -1,8 +1,7 @@
 ---
 name: GPT-Bidi
 description: OpenAI's pre-launch bidirectional-voice architecture for ChatGPT voice mode; first publicly framed via AI Breakfast 2026-06-17-evening
-metadata:
-  type: product
+type: product
 ---
 
 # GPT-Bidi

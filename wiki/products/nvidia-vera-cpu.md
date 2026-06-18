@@ -1,8 +1,7 @@
 ---
 name: NVIDIA Vera CPU
 description: NVIDIA's first agent-tuned CPU — 88 custom Olympus cores, 1.2 TB/s memory bandwidth, $200B TAM (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # NVIDIA Vera CPU

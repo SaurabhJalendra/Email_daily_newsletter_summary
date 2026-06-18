@@ -1,8 +1,7 @@
 ---
 name: Qwen 3.7-Max
 description: Alibaba's flagship Qwen 3.7 — 35h continuous autonomous reasoning, 1M context, beats Opus 4.6 Max on math (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Qwen 3.7-Max

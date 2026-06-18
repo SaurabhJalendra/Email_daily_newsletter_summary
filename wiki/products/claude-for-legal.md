@@ -1,8 +1,7 @@
 ---
 name: Claude for Legal
 description: Anthropic's vertical Claude package for law firms and corporate legal teams (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Claude for Legal

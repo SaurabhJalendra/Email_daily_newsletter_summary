@@ -1,8 +1,7 @@
 ---
 name: AssemblyAI
 description: Voice/speech AI vendor; Voice Agent API collapses voice agent pipeline into a single WebSocket connection (Jun 2026)
-metadata:
-  type: company
+type: company
 ---
 
 # AssemblyAI

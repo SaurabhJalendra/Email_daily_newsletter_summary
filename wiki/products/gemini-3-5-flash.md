@@ -1,8 +1,7 @@
 ---
 name: Gemini 3.5 Flash
 description: Google's I/O 2026 agent-and-coding-tuned flagship; 4x speed at frontier-level performance; 1M-token context (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Gemini 3.5 Flash

@@ -1,8 +1,7 @@
 ---
 name: poke
 description: First third-party AI agent approved for Apple Messages for Business — chat-native assistant inside iMessage (Jun 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Poke

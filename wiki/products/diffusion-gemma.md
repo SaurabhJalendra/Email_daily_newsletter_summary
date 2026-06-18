@@ -1,8 +1,7 @@
 ---
 name: DiffusionGemma
 description: Google's diffusion-based Gemma-family variant; first surfaced via TLDR AI subject line 2026-06-11-evening and recovered in NLP Newsletter AI Agents Weekly digest 2026-06-14-morning
-metadata:
-  type: product
+type: product
 ---
 
 # DiffusionGemma

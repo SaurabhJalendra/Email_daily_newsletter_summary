@@ -1,8 +1,7 @@
 ---
 name: FrontierCode
 description: Cognition's code-quality benchmark scoring whether AI-generated patches are actually mergeable by OSS maintainers; AI models score just 13/100 on real code
-metadata:
-  type: product
+type: product
 ---
 
 # FrontierCode

@@ -1,8 +1,7 @@
 ---
 name: Gemini Spark
 description: Google's 24/7 personal AI agent on Google Cloud VMs — performs background tasks across Workspace/Chrome/email/chat (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Gemini Spark

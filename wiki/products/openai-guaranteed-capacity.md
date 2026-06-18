@@ -1,8 +1,7 @@
 ---
 name: OpenAI Guaranteed Capacity
 description: Enterprise compute-reservation program — 1-3 year commitments with tiered discounts (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # OpenAI Guaranteed Capacity

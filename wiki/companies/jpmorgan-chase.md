@@ -1,8 +1,7 @@
 ---
 name: JPMorgan Chase
 description: World's largest investment bank; LLM Suite model-agnostic platform aggregating OpenAI + Anthropic; "fully AI-powered megabank" commitment
-metadata:
-  type: company
+type: company
 ---
 
 # JPMorgan Chase

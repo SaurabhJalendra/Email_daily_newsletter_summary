@@ -1,8 +1,7 @@
 ---
 name: Googlebook
 description: Google's Gemini-native premium AI laptop category — Android+ChromeOS merge with Magic Pointer AI cursor (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Googlebook

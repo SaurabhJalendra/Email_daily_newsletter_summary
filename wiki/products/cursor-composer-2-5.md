@@ -1,8 +1,7 @@
 ---
 name: Cursor Composer 2.5
 description: Cursor's reinforcement-learning-trained coding model that approaches frontier benchmarks at ~10× efficiency (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Cursor Composer 2.5

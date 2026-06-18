@@ -1,8 +1,7 @@
 ---
 name: Project Prometheus
 description: Jeff Bezos's "artificial general engineer" company — automating CAD + physics-based simulation for physical-object design; $41B framing surfaces 2026-06-12-evening
-metadata:
-  type: company
+type: company
 ---
 
 # Project Prometheus

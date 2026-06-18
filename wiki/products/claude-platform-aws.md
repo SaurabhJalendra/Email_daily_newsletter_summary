@@ -1,8 +1,7 @@
 ---
 name: Claude Platform on AWS
 description: Anthropic's native Claude Platform — full API parity inside an AWS account (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Claude Platform on AWS

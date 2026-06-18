@@ -1,8 +1,7 @@
 ---
 name: agentmemory
 description: Open-source persistent-memory layer for AI coding agents; 92% token reduction across sessions (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # agentmemory

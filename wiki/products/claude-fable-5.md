@@ -1,8 +1,7 @@
 ---
 name: Claude Fable 5
 description: Anthropic's June 2026 frontier Claude model — "beats Opus" per TAAFT launch coverage; introduces "Fable" as a new versioned Claude tier alongside Haiku/Sonnet/Opus
-metadata:
-  type: product
+type: product
 ---
 
 # Claude Fable 5

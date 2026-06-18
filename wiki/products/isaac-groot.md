@@ -1,8 +1,7 @@
 ---
 name: isaac-groot
 description: NVIDIA Isaac GR00T Reference Humanoid Robot — research-grade humanoid platform combining a Unitree H2 body and onboard Blackwell GPU; open reference design extends to US/Europe/South Korea partners (Jun 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Isaac GR00T Reference Humanoid Robot

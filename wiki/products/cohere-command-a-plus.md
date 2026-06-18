@@ -1,8 +1,7 @@
 ---
 name: Cohere Command A+
 description: Cohere's first fully open-source frontier model — 218B params, Apache 2.0 (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Cohere Command A+

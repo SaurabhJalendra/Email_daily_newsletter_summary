@@ -1,8 +1,7 @@
 ---
 name: Gemini Omni
 description: Google's conversational video model — "Nano Banana for video"; edits and creates video from any input (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # Gemini Omni

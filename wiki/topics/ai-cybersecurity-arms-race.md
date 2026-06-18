@@ -1,8 +1,7 @@
 ---
 name: AI Cybersecurity Arms Race
 description: First confirmed AI-built zero-day, AI-on-AI defender platforms (Daybreak/Mythos/MDASH), supply-chain worms (May 2026)
-metadata:
-  type: topic
+type: topic
 ---
 
 # AI Cybersecurity Arms Race

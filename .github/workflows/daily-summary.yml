@@ -116,6 +116,7 @@ jobs:
             - Identify entities mentioned: companies, products, topics, trends
             - For each entity: update the relevant page in wiki/companies/, wiki/products/, wiki/topics/, or wiki/trends/ (create new pages if needed, using kebab-case filenames)
             - Follow the exact page template in WIKI.md (Summary, Timeline, Key Facts, Open Questions, Sources)
+            - OKF REQUIRED: every page you create or update MUST have YAML frontmatter with a flat top-level `type:` field (company | product | topic | trend) — written as `type: product`, NOT nested under `metadata:`. Include `name:` and `description:` too. If a page you touch lacks frontmatter or uses the nested `metadata: type:` form, fix it to flat `type:` while you are there.
             - Add cross-references between related pages using [[page-name]] syntax
             - Aim for 3-8 page updates per newsletter; 10-15 total per daily ingest
 

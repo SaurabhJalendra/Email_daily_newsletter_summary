@@ -1,8 +1,7 @@
 ---
 name: OpenAI Deployment Company
 description: OpenAI's $4B enterprise-deployment subsidiary placing Forward Deployed Engineers inside Fortune 500s (May 2026)
-metadata:
-  type: product
+type: product
 ---
 
 # OpenAI Deployment Company (DeployCo)

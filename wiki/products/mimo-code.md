@@ -1,8 +1,7 @@
 ---
 name: MiMo Code
 description: Xiaomi's coding-specialized AI model (subject-only data — three-cycle convergence across TLDR AI / Hello World / NLP Newsletter from 2026-06-12-evening to 2026-06-14-morning)
-metadata:
-  type: product
+type: product
 ---
 
 # MiMo Code
