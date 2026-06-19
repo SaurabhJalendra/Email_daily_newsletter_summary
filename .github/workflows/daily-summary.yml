@@ -1,15 +1,13 @@
 name: Daily Newsletter Summary
 
 on:
-  # Two editions per day (IST). 06:00 IST = 00:30 UTC, 18:00 IST = 12:30 UTC.
-  # NOTE: GitHub's scheduled triggers can fire 1-4h late under load, so actual
-  # delivery may drift later than these times. The email itself sends ~3-5 min
-  # into the run; the edition is derived from the IST hour at run time.
-  schedule:
-    - cron: '30 0 * * *'    # Morning edition — 06:00 IST
-    - cron: '30 12 * * *'   # Evening edition — 18:00 IST
-
-  # Allow manual trigger; edition auto-derived from IST hour unless overridden.
+  # Scheduling is handled EXTERNALLY by cron-job.org (punctual), which hits this
+  # workflow's dispatch endpoint at 06:00 + 18:00 IST. The native GitHub `schedule:`
+  # triggers were REMOVED 2026-06-19: they fired 4-5h late AND double-fired alongside
+  # cron-job.org (two digests/day — 06:00 punctual + ~11:00 late). To revert, re-add a
+  # `schedule:` block here.
+  #
+  # Manual/external trigger; edition auto-derived from IST hour unless overridden.
   workflow_dispatch:
     inputs:
       edition:
