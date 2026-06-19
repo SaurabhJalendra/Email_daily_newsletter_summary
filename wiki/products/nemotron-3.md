@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-12-17
-> **Last updated**: 2026-06-05
+> **Last updated**: 2026-06-19-evening (**DeepLearning.AI The Batch positions Nemotron 3 Ultra as the canonical "Nvidia's Open Contender" cycle headline — "among the best-performing from a U.S. developer and among the most open developed by anyone"; confirms hybrid transformer-mamba + 550B params at full scale; "built for long-running agentic tasks" framing extends the May/Jun "agentic CPU" + Vera Rubin platform vertical-integration arc into the model layer**)
 > **Status**: active
-> **Related**: [[nvidia]], [[nvidia-cosmos]], [[agent-frameworks]], [[deepseek]], [[mistral-3]], [[gemma-4]], [[qwen-3-7-max]]
+> **Related**: [[nvidia]], [[nvidia-cosmos]], [[vera-rubin]], [[agent-frameworks]], [[deepseek]], [[mistral-3]], [[gemma-4]], [[qwen-3-7-max]], [[glm-5-2]]
 
 ## Summary
 
