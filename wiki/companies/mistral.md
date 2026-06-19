@@ -8,7 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-27
-> **Last updated**: 2026-06-01
+> **Last updated**: 2026-06-19-morning (**TLDR AI: Mistral announces new model coming summer 2026** with early access program opening in July for key partners in research, government, and industry — first publicly framed forward-look on a *next-cycle Mistral flagship* in this wiki since the Mistral 3 / Vibe Work-and-Code-Mode arc)
 > **Status**: active
 > **Related**: [[mistral-studio]], [[mistral-3]], [[ministral-3]], [[mistral-ocr-3]], [[openai]], [[anthropic]], [[enterprise-ai]], [[ai-hardware]]
 
@@ -18,6 +18,7 @@ Mistral AI is the Paris-based frontier lab known for its open-weight model line 
 
 ## Timeline
 
+- **2026-06-19-morning**: **Mistral announces a new model coming this summer** with an **early access program opening in July for key partners in research, government, and industry** (TLDR AI). First publicly framed forward-look on a *next-cycle Mistral flagship* in this wiki since the 2026-06-01 Vibe Work-and-Code-Mode update arc; the explicit *research + government + industry* partner tiering reads as a sovereign-AI-leaning early-access design (consistent with the 2026-06-01 BNP-Paribas + Airbus/BMW/CMA-CGM industrial-vertical positioning and the same-cycle "buy European" rules push). Body-recovery items: (a) what's the new model — successor to [[mistral-3]] Large 3? a Vibe-tier upgrade? a new reasoning model competing with [[gpt-5-5]] / [[claude-opus-4-8]] / [[glm-5-2]]?; (b) open-weights vs API-only; (c) the early-access partner roster — *source: data/summaries/2026-06-19-morning.json (TLDR AI — Mistral has announced a new model coming this summer, with an early access program opening in July for key partners in research, government, and industry)*
 - **2026-06-01**: **Mistral Vibe gains Work Mode + Code Mode** — Work Mode automates administrative tasks, Code Mode adds remote coding agents + a VS Code extension (extends the 2026-03-21 Mistral Vibe terminal-coding-agent into a multi-mode productivity surface and gives Mistral an explicit VS Code distribution path); **Mistral expands into aviation / cars / defense / shipping** — deals with **Airbus, BMW, CMA CGM** (first publicly framed Mistral expansion into industrial verticals beyond banking [HSBC] and consumer cloud); **Mistral CEO calls for "buy European" rules** to close the funding gap with US tech giants (first explicit Mistral-led European-AI-protectionism framing); **BNP Paribas leaning on Mistral** (Le Chat + open-weight) carried forward from 2026-05-29 — sustains the European-banking + sovereign-AI thesis — *source: 2026-06-01 cycle (Uncovering AI — Mistral Vibe Work Mode + Code Mode + VS Code extension; Mindstream — Mistral expands into aviation/cars/defense/shipping with Airbus/BMW/CMA CGM + buy European rules)*
 - **2026-03-28**: Voxtral released — open-weight text-to-speech model; fast, expressive, multilingual (initial launch across 9 languages); framed alongside [[cohere]] Transcribe and ElevenLabs as part of a wave of open-weight audio models pressuring proprietary incumbents — *source: 2026-03-28 cycle (The Rundown AI — Mistral Voxtral)*
 - **2026-03-21**: Mistral Vibe released — terminal-native coding agent that refactors entire codebases; PRs, tests, docs "on autopilot" — *source: 2026-03-21 cycle*

@@ -242,6 +242,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B) *(stale)*
 - [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell)
 - [[veo-3]] — Google's Veo 3 / 3.1 video-generation model *(stale)*
+- [[vercel-eve]] — Vercel's open-source agent framework; durable execution + sandboxed compute + approvals + subagents + evaluations; "production infrastructure for AI agents" (Jun 2026)
 
 ## Topics
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
