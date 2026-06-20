@@ -1,0 +1,374 @@
+{
+  "date": "2026-06-19T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Saturday, 20 June 2026\n\n## 🔥 Top Stories\n1. **Midjourney Launches Full-Body Ultrasonic Scanner**: Midjourney has unveiled a full-body medical scanner that can produce detailed, radiation-free images of the body in about 60 seconds, aiming to provide a faster and cheaper alternative to MRI scans. — Why it matters: This innovation could significantly impact the medical imaging industry by providing a quicker, safer, and potentially more cost-effective solution for patients.\n2. **Anthropic Joins Carbon Removal Coalition Frontier**: Anthropic has joined Frontier, a carbon removal group backed by Stripe, Google, and Shopify, with a $915 million funding round, marking its first climate-related move. — Why it matters: This move signifies a growing trend of AI companies acknowledging their environmental impact and taking steps towards sustainability, which could have long-term effects on the industry's carbon footprint.\n3. **OpenAI Prepares to Launch GPT-5.6**: OpenAI is planning to launch GPT-5.6, which is expected to include enhancements such as a larger context window, improved long-horizon coding, and faster Codex response times, aiming to undercut Anthropic's pricing. — Why it matters: The continuous improvement of AI models like GPT-5.6 pushes the boundaries of what AI can achieve, potentially leading to more efficient and accessible AI tools for a wider range of applications.\n\n## 🤖 AI Models & Research\n- **Anthropic's Claude Code Study**: A study of 400,000 Claude Code sessions shows that domain expertise is becoming more important than coding skill, with lawyers, managers, and other non-engineers succeeding at similar rates to software engineers. This indicates the increasing usefulness of AI-assisted coding across various domains.\n- **Unsloth's Quantized GLM-5.2 Model**: Unsloth has released a 2-bit quantized version of the GLM-5.2 model, reducing its size by 84% to 238GB, allowing it to run locally on a 256GB Mac. This development enables private, offline coding agents and long-context tasks without cloud API usage fees or rate limits.\n\n## 🛠️ Tools & Products\n- **Palmier's Mac-Native Video Editor**: Palmier has launched a Mac-native video editor built for AI, where Claude or Codex can generate, organize, and trim footage directly in-app. The base editor is free to download and integrates with leading video models.\n- **AgentDeck Plugin**: A new plugin called AgentDeck turns a Stream Deck+ into a physical control panel for Claude Code, allowing for more efficient interaction with AI coding sessions.\n\n## 📰 Industry News\n- **Google's AI Scanning Gmail Accounts**: Google's AI is scanning Gmail accounts, including bank statements, tax files, and medical letters, without user consent, prompting a class-action lawsuit. Users can opt-out by toggling off specific settings, but this process is not straightforward.\n- **Apple's Price Increases Due to AI Boom**: Apple's CEO announced that price increases for Apple products are now \"unavoidable\" due to the rising costs of memory chips driven by the AI boom. This may lead to more expensive iPhones, iPads, and Macs for consumers.",
+  "totalNewsletters": 12,
+  "newsletters": [
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "A relaxation approach to layerwise determination of learning rates in deep neural networks",
+      "date": "2026-06-19T12:54:55.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A new paper titled \"A relaxation approach to layerwise determination of learning rates in deep neural networks\" by Min et al. from Ewha Womans University, South Korea, presents a framework for choosing the right learning rate for every layer in a model, addressing the lack of structure in current methods for setting learning rates.\n* The authors propose a method that separates the traditional definition of a \"step\" in training, allowing for layer-specific updates and learning rates, which can be chosen using a relaxed minimization problem that bounds the loss after the proposed update.\n* This approach involves treating each layer as its own weight block, applying the update rule block-by-block, and using a relaxation method to estimate a useful learning rate for each layer without running a search over multiple candidate values.\n* The relaxation method uses a global or local Lipschitz constant to bound the loss, providing a safe and adaptive way to choose learning rates, and the authors demonstrate the effectiveness of their approach through experiments on classification tasks, comparing it to optimizers like AdaGrad, Adam, and K-FAC.\n* The paper provides formal convergence proofs, derivations, and estimates, and the authors make their work available for further study and implementation.\n\n### Notable Links\n* [A relaxation approach to layerwise determination of learning rates in deep neural networks](https://journalclub.io/episodes/a-relaxation-approach-to-layerwise-determination-of-learning-rates-in-deep-neural-networks)\n* [Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai)",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/a-relaxation-approach-to-layerwise-determination-of-learning-rates-in-deep-neural-networks?token=Pt7jibsHSne8NuFFjvf1c4bjH98PzAiL5wFjxskelnjBIHEcT6"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "A relaxation approach to layerwise determination of learning rates in deep neural networks   \n\nIf you ask five different ML engineers how they pick their learning rate, you’ll probably get five different answers. For some, it’s all gut. For others it’s trial and error. And a few just use the same learning rate settings every time. What these answers have in common, is a notable lack of structure, or process. While we (as an industry) have well-refined methods and heuristics for setting one’s batch size, or tuning your regularization or adjusting your architecture, learning rate has remained (for most engineers) a largely intuitive setting.\n\n![](https://journalclub.io/px/xSvAUheu7YUM2rZBA2WaxDNhpjsr4HvUbolh74Z0aDVI94B9CU)\n\nA relaxation approach to layerwise determination of learning rates in deep neural networks\n\nJournalClub.io, June 19th, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/NVe7YEwTO7WUWRv3tLuQ)](https://journalclub.io/episodes/a-relaxation-app"
+    },
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "Tokens 101",
+      "date": "2026-06-19T12:55:16.000Z",
+      "summary": "## Tokens 101\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses the importance of understanding tokens for AI users, particularly in the context of token optimization and cost management.\n* Tokenization is the process of chopping text into tokens, which are roughly pieces of words, and every model does it differently.\n* The author explains that the cost of tokens comes from long answers, even when the question is short, and that starting a new chat when the subject changes and asking for short answers when possible can help reduce token usage.\n* The newsletter highlights the significance of token optimization, citing examples of companies like Uber and Meta that have faced significant costs due to token usage.\n* Tools like GPT for Work Tokenizer and OpenAI Tokenizer are mentioned as helpful resources for understanding and managing token usage.\n* The author also discusses the concept of cached tokens, which can be reused instead of re-reading the same context, and reasoning tokens, which are used for hidden thinking in newer models.\n* Images can be costly in terms of tokens, with a single screenshot potentially costing more than several pages of text.\n\n### Notable Links\n* GPT for Work Tokenizer\n* OpenAI Tokenizer \n\nOther notable mentions include:\n- Deel's free Payroll Toolkit, which provides guidance on payroll modernization and optimization.\n- Roku Ads Manager, which is running a brand lift survey to understand the effectiveness of its ads.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Tokens 101\n\nWhat every AI user should understand but nobody does  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.2WMshDh4P1SYN8SqaafnJdjdmWP1WD1rdGPofZ1FxFoxgfcoaO34OFRfek6vJEcLDqHgbRep7tDe2KvA9H7BoK6e_VVOZ5Fja_g5UmrYDqkgU8vP99tTejZoHr8xPF5sOYwQWDAp5eAOCQvhG3apwuM0Jd3PCydzfad4m0KnTrH9PULJaogqjea-pLTCMIuwnDUVjvnya_toBjMruZ2nt0xYk2FpHf9EG2Nm91i6AfTx4zkKpS3EhxnnBXV1BPk3VnaUg0XE3eVF_Zd0jR6zF-dysYrzlQ-DCaEiTmfjc8JvW-dgspTLdet4-ypjI-QiApJvPIpWAMzzcogru6IroyUnBkcF_S4kE2MlI7XcOODIELNaF_Fp-k1ZRf1XBHs8znu-fIuKbgatnPYxLmh6-buyUIi5CkNbRugZ1F2K5y_UwQmxYZ8dJOwgLpr5HWzDGbmE00MIzAZ"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🎬 YC-backed startup reimagines video editing",
+      "date": "2026-06-19T13:09:15.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A YC-backed startup, Palmier, has launched a Mac-native video editor built for AI, where Claude or Codex can generate, organize, and trim footage directly in-app, eliminating the need to jump between platforms. The base editor is free to download and integrates with leading video models like Seedance 2.0, Kling V3, and Grok Imagine.\n* Adobe has rolled out a fresh wave of creative AI upgrades, including its Firefly AI Assistant, which can execute tasks across its apps, such as Premiere, Photoshop, and In Design.\n* Kimi Work now runs 24/7 until a task is done, with a new Goal Mode that keeps the desktop AI agent working until it reaches the set objective.\n* Microsoft has opened up its Copilot Cowork, an agentic workplace assistant, to anyone on a Microsoft 365 plan, claiming it handles 200,000 operations per day.\n* The company has also updated its Firefly AI Assistant to execute tasks across its apps, including Premiere, Photoshop, and In Design.\n* OpenRouter has launched a tool called Fusion, which can outperform any single LLM by running prompts through multiple top models and synthesizing the responses.\n* Google's Gemini Omni Flash now tops Arena's leaderboards for text-to-video and image-to-video, while OpenAI's GPT-5.5 and Anthropic's Claude Opus 4.7 lead a new agent category.\n* Meta has launched AI Mode on Facebook, which adds a search tab that draws on publicly shared posts across Meta's apps.\n* A number of new AI tools have been released, including Midjourney, Unfox, Teno, Loopa, and Clientence, which offer various AI-powered capabilities such as image generation, text analysis, and client reporting.\n* Palmier's video editor has been released, with a launch video that has gained 1.5M+ views.\n* Google's Gemini-powered smart speaker has opened pre-orders, with the new Google Home Speaker powered by Gemini and able to better understand conversational requests and multi-step commands.\n\n### Notable Links\n* Palmier Video Editor\n* Kimi Work\n* Adobe Firefly AI Assistant\n* Google Home Speaker",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🎬 YC-backed startup reimagines video editing\n\nALSO: How to schedule tasks in ChatGPT  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGUuMb9NvSSBFhJ9PyXS87FBDv7Sf6PjLygWP5LHAPhaWo3_TrMyjZgIQs-qcF4vir8fq531Wpsvbf-AItCREFjU3XvCzFVaz4xCGEi-zaPVkJ90xqv_RdK1pgrm1I1QnxaJ_4RbideRLLGOpt9OCqMOHOMfdlwbmSkI-b2vTT5TJkiXd6v9e9ZCfwk2s1gdbc9W9qwAjEyJ-s8nFfoz_Wg4r5pD7eWdpw_RNW5Tp4mQmrjM69qm2TRqkD5nRLupUwXev6hOYfstx-O2mYIaVAuPY9VMnkEy1EQ9_Hb-026kumFAlWrLsyxQqdawe5cJJ0arWKN9EELtz50m-4gT7osnS8DkhYwWWFsKP8DyRoeTmJHFFR9oXOTXOBOsk7B23NrSHIPtExgg_4"
+    },
+    {
+      "from": "\"Interconnects by Nathan Lambert\" <robotic@substack.com>",
+      "subject": "Banning Open Source AI Would Be A Mistake",
+      "date": "2026-06-19T13:02:47.000Z",
+      "summary": "## Interconnects by Nathan Lambert\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The authors, Nathan Lambert and Kevin Xu, argue that banning open source AI would be a mistake, as it drives economic growth, promotes education, innovation, and competition, and is a safer and more secure option due to its transparency.\n* Open source AI models, such as those developed by OpenAI and Anthropic, are being used in various domains, including coding, legal, and enterprise workflows, and are essential for startups and educational institutions that cannot afford proprietary models.\n* The US government's recent actions, such as the executive order to review AI models and proposals to regulate AI, may inadvertently or intentionally harm open source AI, which could have negative consequences for the industry and society.\n* Open source AI has been instrumental in driving technological progress, with over 90% of the world's software built on open source, generating over $8 trillion in economic benefits, and has been the foundation for many successful companies, including Meta and Linux.\n* The authors emphasize that regulating or banning open source AI would be counterproductive, as it would stifle innovation, limit access to AI technology, and potentially create more safety and security concerns.\n* The recent $65 billion Series H funding round for Anthropic, which valued the company at $965 billion post-money, and the release of its newest flagship model, Claude Opus 4.8, demonstrate the growing importance of AI companies and their impact on the industry.\n\n### Notable Links\n* Banning Open Source AI Would Be A Mistake: https://substack.com/app-link/post?publication_id=48206&post_id=202597944&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMjU5Nzk0NCwiaWF0IjoxNzgxODc0NjU0LCJleHAiOjE3ODQ0NjY2NTQsImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.P2Txx0y5oVxNAkuxrbz_6kFja3-aQRaLiPMJhtn3HTw\n* Nathan Lambert: https://substack.com/@natolambert\n* Kevin Xu: https://substack.com/@kevinsxu\n* Interconnected: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuaW50ZXJjb25uZWN0cy5haS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cuaW50ZXJjb25uZWN0cy5haSUyRnAlMkZiYW5uaW5nLW9wZW4tc291cmNlLWFpLXdvdWxkLWJlLWEiLCJwIjoyMDI1OTc5NDQsInMiOjQ4MjA2LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MTg3NDY1NCwiZXhwIjoyMDk3NDUwNjU0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.LUmjuUFK6yzaksBMKr7nkfG15H-yBWVZ0OwGS2ZNkho?"
+        },
+        {
+          "text": "Banning Open Source AI Would Be A Mistake",
+          "url": "https://substack.com/app-link/post?publication_id=48206&post_id=202597944&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMjU5Nzk0NCwiaWF0IjoxNzgxODc0NjU0LCJleHAiOjE3ODQ0NjY2NTQsImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.P2Txx0y5oVxNAkuxrbz_6kFja3-aQRaLiPMJhtn3HTw"
+        },
+        {
+          "text": "Nathan Lambert",
+          "url": "https://substack.com/@natolambert"
+        },
+        {
+          "text": "Kevin Xu",
+          "url": "https://substack.com/@kevinsxu"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/robotic/p/banning-open-source-ai-would-be-a?redirect=app-store"
+        },
+        {
+          "text": "Listen to post · 6:50",
+          "url": "https://substack.com/app-link/post?publication_id=48206&post_id=202597944&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMjU5Nzk0NCwiaWF0IjoxNzgxODc0NjU0LCJleHAiOjE3ODQ0NjY2NTQsImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.P2Txx0y5oVxNAkuxrbz_6kFja3-aQRaLiPMJhtn3HTw#play"
+        },
+        {
+          "text": "Kevin Xu",
+          "url": "https://open.substack.com/users/9714824-kevin-xu"
+        },
+        {
+          "text": "Interconnected",
+          "url": "https://substack.com/redirect/88800e7c-de9e-41f9-ba65-29c1cc57f600?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=48206&post_id=202597944&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMjU5Nzk0NCwiaWF0IjoxNzgxODc0NjU0LCJleHAiOjE3ODQ0NjY2NTQsImlzcyI6InB1Yi00ODIwNiIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.P2Txx0y5oVxNAkuxrbz_6kFja3-aQRaLiPMJhtn3HTw"
+        },
+        {
+          "text": "a congressional proposal",
+          "url": "https://substack.com/redirect/ef0fd5d1-db2c-41db-b4d7-9a98032d5206?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://arxiv.org/abs/users/9714824",
+          "title": null,
+          "arxivId": "users/9714824",
+          "source": "arxiv-id"
+        }
+      ],
+      "priority": "MEDIUM",
+      "originalContent": "Banning Open Source AI Would Be A Mistake![](https://eotrx.substackcdn.com/o/44545a03e5910134/p.gif?token=eyJtIjoiPDIwMjYwNjE5MTMwMjQ3LjMuZDI5YjQ1MThjNzZhMzA0YkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwMjU5Nzk0NCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo0ODIwNiwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MTg3NDY1NCwiZXhwIjoxNzg0NDY2NjU0LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.pTY_ofL7yKPqThW9ud1P3X8m49hzwPRt4CYM0M3ZH-s)\n\nThis post was originally an op-ed co-authored with Kevin Xu of Interconnected for a general, non-technical audience.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"AI Breakfast\" <aibreakfast@mail.beehiiv.com>",
+      "subject": "Midjourney Pivots to Medicine",
+      "date": "2026-06-19T13:11:38.000Z",
+      "summary": "## AI Breakfast\n\n**Priority: HIGH**\n\n### Top Updates\n- **Midjourney Pivots to Medicine**: Midjourney, known for its generative AI image platform, has launched a new healthcare division called **Midjourney Medical** and unveiled its first hardware product: a full-body ultrasonic scanner intended as a faster, radiation-free alternative to MRI. The system uses licensed semiconductor technology from Butterfly Network and has already produced 3D body maps in one-minute scans. Midjourney claims the scanner could deliver MRI-comparable images without radiation or strong magnetic fields and at potentially much lower per-scan costs.\n- **Anthropic Updates**: Anthropic is a San Francisco-based AI company best known for its Claude family of models. The company has recently become one of the most closely watched players in the AI/ML market, with a $65 billion Series H funding round valuing the company at $965 billion post-money. Anthropic has released Claude Opus 4.8, its newest flagship model, which is especially strong at coding, long-horizon tasks, and enterprise workflows.\n- **Claude Code and Enterprise Dashboards**: Claude Code now supports Artifacts, turning terminal sessions into live, auto-updating webpages for tasks like PR walkthroughs or interactive dashboards. Claude Enterprise added centralized authorization for Model Context Protocol (MCP) connectors, allowing companies to manage access centrally using identity providers like Okta.\n- **Frontier Models and Product Moves**: Several companies have made notable announcements, including Z.ai claiming the top spot for open-weights AI on the Artificial Analysis leaderboard, Kimi K2.7 Code undercutting Claude Fable 5 by 94% on landing pages, and ByteDance preparing Seedance 2.5 video generator for an early July launch.\n- **Agents and the Agentic Stack**: Several updates have been made to agents and the agentic stack, including Perplexity's Brain helping its Computer agent learn from mistakes, and AWS Continuum giving corporate software permission to patch its own code.\n- **Business, Labor, and Institutions**: Several business and labor updates have been announced, including Prometheus, Jeff Bezos' AI startup, being worth $41 billion, and Accenture having its worst day in years, potentially due to AI coming for the consulting business.\n- **Hardware and Infrastructure**: Several hardware and infrastructure updates have been announced, including Crusoe supplying 1.6 gigawatts to feed Meta's hungry AI agents, and Nvidia research showing robots that train themselves through AI coding agents.\n- **Research and Benchmarks**: Several research and benchmark updates have been announced, including Microsoft ResNet winning a top vision award, and KAIST cutting AI vision memory footprint sixteenfold to sharpen robot eyes.\n- **Robotics**: Several robotics updates have been announced, including Codey representing a new era of autonomous, socially intelligent humanoids, and Tesla's purpose-built robotaxi beating standard EV efficiency ratings in leaked regulatory specs.\n- **Media and Creative AI**: Epic Games has dropped Unreal Engine 5.8 with full Claude and Codex terminal control, and Framer 3.0 has introduced canvas-native design agents and teamwork branching to help creators build websites faster.\n\n### Notable Links\n- Midjourney Medical\n- Claude Code\n- Viktor",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Midjourney Pivots to Medicine\n\nJune 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/5Gnx7sp0DtpuZNW5CmBRPh5d4xpbDJYdHS7MiWKEKxG93XatcONdi2AFlAP9%0AmolrjjLJylxfssXPDYkbm5oOHs7Cxbdf3yKs7lYYEELAah8R6ZfMYoQUOtaW%0A%2BjxKhZ5LnhiatIy3c424qFuwxYsqxCX6oAlkHPmRrOMgn3Vxp51FPBiEv35%2F%0AzqMg%2F4XzUGbhkRas%2FNVhRxE2EwgmdDKCoA%3D%3D%0A/48fa2e3c5189ee09)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/acae4be9-a88f-4644-87ab-182c2cfc10fe/ai_breakfast_white_logo.png?t=1773352600)](https://link.mail.beehiiv.com/v1/c/%2FGVq65B74isOEgu%2BdcRiqaZT1YOarwU3B6CBGcKeF50LuOYXwBo2Wuq9VsDe%0ALNGCX1B0ypblOMM5SC9QsEx8pX%2BvVVzOZdXFQGAGO7YENrdS9QRB%2BGKuf26T%0A5J5vxX1yfdXXbKeVssp%2Bw%2BhjARbL%2BQ2%2BDTe%2FLdEA%2FkBrwQCyLUfVKhWLaZFf%0ApeJHdlt9zn%2FIjg0D1uktg1bk%2BfVaP83tBw%3D%3D%0A/c3d3d768514a2cf3)\n\n# Midjourney Pivots to Medicine\n\n![](https://link.mail.beehiiv.com/v1/o/A7zPlpLGhYLbUY%2FAwUceQ%2F%2FL0b7wdSanGGrRk8HMFl3ks8xDkBTa"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "GPT-5.6 Tuesday 🤖, Claude Code artifacts 👨‍💻, Perplexity’s Brain memory 🧠",
+      "date": "2026-06-19T13:45:53.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI plans to launch GPT-5.6, potentially including Mini and Pro variants, with key enhancements such as a larger 1.5M token context window, improved long-horizon coding, and faster Codex response times, aiming to undercut Anthropic's pricing.\n* Midjourney is developing a full-body ultrasonic scanner, capable of creating 3D maps of the body in under 60 seconds, with plans to deploy the technology in spas for customer use, potentially disrupting the medical imaging industry.\n* Perplexity Brain is a memory system that builds a persistent context graph across tasks, projects, decisions, files, and sources, enabling agents to start with relevant context instead of starting from scratch, and linking every memory to its original source.\n* Claude Code now supports \"artifacts,\" allowing users to turn work sessions into live, shareable visual pages for tasks like PR walkthroughs and system explainers, with features like version history and privacy controls.\n* Google's AI Control Roadmap is a framework for building and managing advanced AI, adding a layer of system-level security that provides assurance even if alignment is perfect, and incorporating safeguards like sandboxing and prompt injection resistance.\n* Yann LeCun criticized Elon Musk's xAI as a failure, highlighting struggles to hire top talent and the need to rent infrastructure to recover costs, and warning that AI labs must increase prices or cut costs to avoid a \"big bubble explosion\" due to high operational expenses.\n* Google is using Nvidia's playbook to build a rival AI chip business, renting computing power from thousands of its microprocessors to AI giant Anthropic, and investing in its AI infrastructure team to improve chip performance.\n* Baseten specializes in providing software and computing capacity to companies tapping into lower-cost AI models, betting on cheaper alternatives to OpenAI and Anthropic.\n* Mistral AI is enhancing its Vibe platform with a CODE section for browser-based coding and an APPS area for building and sharing apps, moving beyond basic chat functionalities.\n* OpenAI introduced Enterprise Usage Analytics and expanded spend controls for ChatGPT Enterprise, aiming to provide better insights and management tools for businesses using its AI services.\n\n### Notable Links\n* [OpenAI's GPT-5.6 announcement](https://www.testingcatalog.com/openai-prepares-gpt-5-6-models-for-the-upcoming-release/)\n* [Midjourney's full-body ultrasonic scanner](https://www.engadget.com/2196998/midjourney-full-body-ultrasonic-scanner/)\n* [Perplexity Brain](https://www.perplexity.ai/hub/blog/self-improving-memory-for-agents)\n* [Claude Code's artifact feature](https://claude.com/blog/artifacts-in-claude-code)\n* [Google's AI Control Roadmap](https://deepmind.google/blog/securing-the-future-of-ai-agents/)\n* [Yann LeCun's criticism of xAI](https://www.cnbc.com/2026/06/18/yann-lecun-elon-musk-xai-failure-ai-labs-bubble-risk.html)\n* [Google's AI chip business](https://links.tldrnewsletter.com/jyH9oA)\n* [Baseten's cheaper AI models](https://links.tldrnewsletter.com/UVgEMm)\n* [Mistral AI's Vibe platform enhancement](https://www.testingcatalog.com/mistral-ai-to-get-code-and-apps-features-on-vibe/)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nOpenAI plans to launch GPT-5.6, potentially including Mini and Pro variants, next week. Key enhancements include a larger 1.5M token context window ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019ee021853d-ef8175ea-9c80-4769-b2db-5587d12989ca-000000/Wqy_hlh_3tPF1eBi_AoUXaxpw-eHYACxecwT_Kuzjp0=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019ee021853d-ef8175ea-9c80-4769-b2db-5587d12989ca-000000/UizUpdbR1Uz_v-NpCl0wpR059TetPxMUqid2KKaq1jQ=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=68e966f4-6bd5-11f1-8963-21977cc50469%26pt=campaign%26t=1781876753%26s=7df580637faf8d90aa"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "Google's AI Is Reading Your Emails Right Now.",
+      "date": "2026-06-19T15:03:14.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Google's AI is scanning Gmail accounts, including bank statements, tax files, and medical letters, without user consent, prompting a class-action lawsuit in the Northern District of California. The lawsuit alleges that Google \"surreptitiously\" enabled its Gemini AI to access users' private communications, violating user consent. To opt-out, users must toggle off two switches: \"Smart features and personalization\" in Gmail settings and \"Smart features and personalization in other Google products\" in the same settings page.\n- The opt-out process is not straightforward, as Google has buried the settings across two separate menus, leading to most people only finding one of the switches. This has been described as a \"dark pattern\" design intended to discourage users from opting out.\n- Disabling the AI scanning also disables some convenience features like Smart Compose, automatic email sorting, nudges, and spellchecking, as Google intentionally designed it this way to encourage users to keep the AI scanning enabled.\n- Users can check what data Google has already stored by visiting the \"Data and privacy\" section of their Google account, where they can also delete their data and pause tracking.\n- For truly sensitive information, users are advised to move those conversations off Gmail entirely, suggesting the use of end-to-end encrypted services like ProtonMail.\n\n### Notable Links\n- [My Account](https://myaccount.google.com) for managing Google account settings and data privacy\n- [ProtonMail](https://protonmail.com) for end-to-end encrypted email services\n\nThis newsletter highlights the importance of data privacy and user consent, especially with the increasing use of AI in scanning and analyzing personal data. The opt-out process for Google's AI scanning is not straightforward, and users must take additional steps to protect their data. The newsletter also provides information on how to check and delete stored data, as well as alternative email services that prioritize data privacy.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Google's AI Is Reading Your Emails Right Now.\n\n❗️Your bank statements, tax files, medical letters. 5 moves to shut it off tonight...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/DOk5t3RmoUbWH0J4waAi46fArdDtntpjl4wz%2Fx1H87yeJBNmUwYvCRmjN%2FG6%0ACwWmJAxqdUvxSZ2g2CeSAD1lnF7kOYGJkNmM9xJLrbP7NtuyDQYTSOhYNx2b%0A96KI6XHyVYIIEzy3wJzdIDPVDer5bYcjCvwA9BcVezC1MhBWCJ1MJF3tJ4XM%0AzH1BjX1HgzbRDY4RMoBu1xOlhSutsIbUqA%3D%3D%0A/8b3b2209197da2da)\n\n# Google's AI Is Reading Your Emails Right Now.\n\n❗️Your bank statements, tax files, medical letters. 5 moves to shut it off tonight...\n\n![]("
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "From AI jobs to Moon bases, casually",
+      "date": "2026-06-19T15:03:31.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Jeff Bezos, the founder of Amazon, has expressed his disagreement with the idea that AI will replace human workers, instead believing that AI could increase demand for human labor by removing barriers and creating new opportunities. He also mentioned his new AI venture, Prometheus, which focuses on speeding up physical manufacturing.\n* Anthropic, an AI startup, has joined Frontier, a carbon removal group backed by Stripe, Google, and Shopify, with a $915 million funding round, bringing Frontier's total pledges to $1.8 billion. Anthropic is the first AI startup to join the group.\n* Apple has announced that it will be forced to raise prices due to the ongoing memory shortage, which is driving up component costs across the industry.\n* Mindstream has provided a crash course on how to make your own AI agents, including an introduction to AI agents, building and testing bots with n8n, coaching up personalized assistants, and handling context.\n* NASA's James Webb Space Telescope has captured extreme temperature swings on a \"roasted\" exoplanet, offering new insights into how alien atmospheres change in real-time.\n* The 2026 BET Awards will feature performances by Cardi B and Queen Latifah, among others.\n\n### Notable Links\n* [The Hustle](https://thehustle.co/) for business as unusual\n* [Starter Story](https://www.starterstory.com/) for growing your business\n* [Marketing Against the Grain](https://www.marketingagainstthegrain.com/) for expert insights\n* [The Science of Scaling](https://www.thescienceofscaling.com/) for sales and scaling\n\n### Company and Product Updates\n* Anthropic: Joined Frontier, a carbon removal group, with a $915 million funding round\n* Apple: Announced price increases due to memory shortage\n* NASA: James Webb Space Telescope captured extreme temperature swings on a \"roasted\" exoplanet\n* Mindstream: Provided a crash course on making your own AI agents\n\n### Research and Development\n* No specific research papers or academic publications mentioned in this newsletter.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Bezos says AI won't take your job\n\n\\+ Anthropic is the first AI firm to do this  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n19 Jun\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_pictur"
+    },
+    {
+      "from": "\"Matt from FutureTools\" <futuretools@mail.beehiiv.com>",
+      "subject": "Midjourney did what now?",
+      "date": "2026-06-19T16:03:34.000Z",
+      "summary": "## Midjourney did what now?\n\n**Priority: HIGH**\n\n### Top Updates\n* Midjourney, a leading AI image-generation company, has unexpectedly pivoted to healthcare by announcing its first hardware product: a full-body ultrasound scanner called The Midjourney Scanner, which can generate detailed 3D images of the body in about 60 seconds.\n* The scanner uses 40 Butterfly Network ultrasound-on-chip modules and is part of a new division called Midjourney Medical, with plans to open a flagship spa in San Francisco in late 2027, offering the scans alongside hot tubs, saunas, and cold plunges.\n* Midjourney aims to deploy 50,000 scanners worldwide by 2031, performing up to a billion scans per month, which could significantly expand access to routine whole-body imaging and shift diagnostic workflows away from traditional MRI providers.\n* Anthropic, another major AI player, has joined the carbon removal coalition Frontier, contributing to a $915 million round of pledges to support early-stage removal projects, marking its first climate-related move.\n* Anthropic has also added centralized enterprise authorization for MCP connectors in Claude, streamlining access control, and has introduced live, shareable artifacts to Claude Code, allowing developers to preview and share their work.\n* OpenAI has added spend controls and usage analytics to ChatGPT Enterprise, giving admins tighter budget oversight, and has announced a strategic \"third phase\" centered on automating AI research, building powerful personal agents, and making advanced AI abundant and affordable.\n* Google DeepMind has published an AI Control roadmap, laying out how to secure increasingly capable agents, and Perplexity has unveiled Brain, a self-improving memory system that lets AI agents learn from past tasks.\n* Rendervi has launched an AI render studio for design teams, allowing them to transform rough sketches into polished renders instantly, and PewDiePie has built an open-source AI workspace called Project Odysseus.\n\n### Notable Links\n* Midjourney Medical\n* Frontier\n* Rendervi\n* Project Odysseus",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Midjourney did what now?\n\nLet’s make community the priority today  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/k%2F7aw5YK%2FDaL%2BVyNMkV%2FPEKvXRsvO8HqSVuUUkw41mrtTnsRMSS2lIUVDqJi%0Apt08jq636XVT8inP8LsyXIGrJQtc3VnRGOpy0ijlXRY9Bv00IfDYznGKqmpa%0A7TI6elJfew%2FDwwHITZLd1GqaGDNIoHkWOYuQWmEw2dMXYk9IriypERwT27S%2F%0AAIBq8CDBpAubiDtmcId5V3dvHN6Ia%2BgRaQ%3D%3D%0A/77fd8a0d1e34e8df)\n\n![](https://link.mail.beehiiv.com/v1/o/46IbFjzEUkDnK5F1utNXGEelkeo9XWMZ4KbksOwxFQ8Q8Hcvl8%2F4sMBsB6cF%0AW8ia8e8wADDFzA01uRUb7GYG3XPhUfYRXfGHcwhl48PqZMgyJvIJV5JAx3Ly%0AbUz7dtJnrQ7do4QlvrLiWg32Uw0%2F"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "No, You Don’t Need an AI Agent",
+      "date": "2026-06-19T16:37:50.000Z",
+      "summary": "## The AI Corner\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The article discusses the difference between an AI workflow and an AI agent, emphasizing that most businesses need workflows, not agents, to automate their processes.\n* A workflow is defined as a series of steps that are predetermined and executed in a specific order, whereas an agent is a system that can make decisions and take actions on its own.\n* The author argues that many companies are sold AI agents when they actually need workflows, which can lead to wasted money and resources.\n* The article highlights the importance of understanding the difference between workflows and agents and choosing the right approach for a specific business problem.\n* It also discusses the role of AI in automating business processes, such as accounts payable, procurement, and sales, and how it can help improve efficiency and reduce costs.\n* The author notes that AI can be used to automate repetitive and patterned tasks, but human judgment and oversight are still necessary for tasks that require complex decision-making.\n* The article mentions that the barrier between idea and running product has collapsed, and that non-technical people can now build and deploy AI systems without needing to write code.\n* It also references a study by Lovable, which found that people from non-technical backgrounds are increasingly building and shipping AI systems.\n\n### Notable Links\n* Shipping AI systems in 2026\n* Hugging Face\n* Orkes\n* Sales\n* The AI Corner\n\n### Key Statistics\n* The article does not provide specific statistics, but it mentions that the use of AI in business automation is increasing, and that many companies are seeing significant returns on investment from implementing AI systems.\n* It also notes that the cost of AI systems is decreasing, making them more accessible to businesses of all sizes.\n\n### Companies and Tools\n* Lovable: a company that provides a platform for building and deploying AI systems\n* Hugging Face: a company that provides a range of AI models and tools for natural language processing and other applications\n* Orkes: a company that provides a platform for automating business processes\n* The AI Corner: a newsletter that provides news and insights on AI and related technologies.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRmFpLXdvcmtmbG93LXZzLWFpLWFnZW50LWJ1c2luZXNzLWd1aWRlIiwicCI6MjAwNzYxNjIxLCJzIjo2ODUwNTQ0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MTg4NzI4OCwiZXhwIjoyMDk3NDYzMjg4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ._5p2VzH3yOHYPs0SzqptIpgKXVRGSQYT6AMc7bDHxjw?"
+        },
+        {
+          "text": "No, You Don’t Need an AI Agent",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=200761621&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMDc2MTYyMSwiaWF0IjoxNzgxODg3Mjg4LCJleHAiOjE3ODQ0NzkyODgsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.bOSSg-WYJ7nCGlIJamVKIObYeTvTWK1CwmJyYEoWV6I"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/ai-workflow-vs-ai-agent-business-guide?redirect=app-store"
+        },
+        {
+          "text": "shipping AI systems in 2026",
+          "url": "https://substack.com/redirect/8cb98195-5ff3-43c9-a7e7-a6b0168048cc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "smarter-sounding option",
+          "url": "https://substack.com/redirect/337c7e4f-2f2c-42b4-9f3e-5f2782ffd92c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Hugging Face",
+          "url": "https://substack.com/redirect/318f8608-cbd8-473c-8e45-5ebf0b60fba8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Orkes",
+          "url": "https://substack.com/redirect/b1f56973-0873-4003-a676-4cba4c164df7?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Sales",
+          "url": "https://substack.com/redirect/6190825a-c719-4e24-aa6e-62821d894c66?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The AI Corner",
+          "url": "https://substack.com/redirect/e87972f0-cc55-4f0f-8fa9-97cc62dce686?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "No, You Don’t Need an AI Agent![](https://eotrx.substackcdn.com/o/f613bc24c35415c5/p.gif?token=eyJtIjoiPDIwMjYwNjE5MTYzNzUwLjMuYTAyMzg0NjhhN2E2NGM4OEBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDA3NjE2MjEsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6Njg1MDU0NCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MTg4NzI4OCwiZXhwIjoxNzg0NDc5Mjg4LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.RrXbQe3ODjuWT2yYk67FBfWwFczb2ZwEvu7Dr2l5v-4)\n\nThe agent every vendor is selling you is usually a workflow in disguise, and paying agent prices for it wastes money you don’t have.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "Unsloth GLM-5.2 2-bit quant 🦙, OpenAI GPT-5.5 Instant doctor training ",
+      "date": "2026-06-19T18:16:36.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Unsloth has released a 2-bit quantized version of the GLM-5.2 model, reducing its size by 84% to 238GB, allowing it to run locally on a 256GB Mac. This development enables private, offline coding agents and long-context tasks without cloud API usage fees or rate limits.\n* OpenAI has trained GPT-5.5 Instant with 600 doctors to improve its performance in health-related tasks, reducing hallucinations by 71%. This demonstrates the potential for AI models to absorb specialist knowledge and redistribute it.\n* Anthropic's study of 400,000 Claude Code sessions shows that domain expertise is becoming more important than coding skill, with lawyers, managers, and other non-engineers succeeding at similar rates to software engineers. The study also found that task value grew by 27% in six months, indicating the increasing usefulness of AI-assisted coding.\n* A new plugin called AgentDeck turns a Stream Deck+ into a physical control panel for Claude Code, allowing for more efficient interaction with AI coding sessions.\n* Datalab has released an open-source structured extraction model called Lift, which can extract user-defined fields from documents and fit them into a schema.\n* OpenAI, Anthropic, and other companies are making significant advancements in AI research, development, and deployment, including the use of AI agents, multimodal systems, and autonomous AI agents.\n* UC Berkeley has developed a method to turn everyday human videos into robot hand training data, which could improve the performance of robotic systems.\n* Ostris has shrunk Ideogram 4's 9B unconditional model into a lightweight LoRA, making it more efficient and accessible.\n* Matt Pocock has released an AI coding skills toolkit with 63% lower token costs, which could make AI-assisted coding more affordable and widely available.\n\n### Notable Links\n* [Unsloth's quantized GLM-5.2 model](https://github.com/Unsloth/GLM-5.2)\n* [OpenAI's GPT-5.5 Instant model](https://openai.com/blog/gpt-5-5-instant/)\n* [Anthropic's Claude Code study](https://anthropic.com/research/claud-code-study)\n* [AgentDeck plugin](https://github.com/asheshgoplani/agent-deck)\n* [Datalab's Lift model](https://datalab.ai/lift)\n* [UC Berkeley's robot hand training data method](https://www.berkeley.edu/news/robot-hand-training-data)\n* [Ostris's lightweight LoRA model](https://ostris.ai/lightweight-lora)\n* [Matt Pocock's AI coding skills toolkit](https://matt.pocock.ai/ai-coding-skills-toolkit)",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b5138d299a112d42&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b5138d299a112d42&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b5138d299a112d42&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=b5138d299a112d42&mid=1085c308-a950-452a-88dd-c39cddc32921&s=Unsloth%20GLM-5.2%202-bit%20quant%20%F0%9F%A6%99%2C%20OpenAI%20GPT-5.5%20Instant%20doctor%20training%20&t=1781892982)\n\nOn Unsloth's 238GB GLM-5.2 quant, 600-doctor GPT-5.5 training, AgentDeck for Claude Code, Berkeley robot video data\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=b5138d299a112d42&lid=1d5wCf6XaeVCaQ5u9&mid=1085c308-a950-452a-88dd-c39cddc32921)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=b5138d299a112d42&lid=1jdLHjjOi6JfhFFLM&mid=1085c308-a950-452a-88dd-c39cddc32921)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nTwo big data drops today, and they tell the same sto"
+    },
+    {
+      "from": "\"Technology News\" <technology-newsletter@mail.beehiiv.com>",
+      "subject": "Tim Cook says pricier iPhones are unavoidable 📱",
+      "date": "2026-06-19T20:07:52.000Z",
+      "summary": "## Technology News\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Apple's CEO, Tim Cook, announced that price increases for Apple products, including iPhones, are now \"unavoidable\" due to the rising costs of memory chips driven by the AI boom, which may lead to more expensive iPhones, iPads, and Macs for consumers.\n- Spotify has started allowing musicians to upload full-length videos directly into the app, marking a move into YouTube's territory, and enabling artists to upload music videos, live sessions, and covers on the platform.\n- Midjourney, a company known for its AI image generation capabilities, has unveiled a full-body medical scanner that can produce detailed, radiation-free images of the body in about 60 seconds, aiming to provide a faster and cheaper alternative to MRI scans.\n- Rockstar has unveiled the official cover art for Grand Theft Auto VI and confirmed that pre-orders will open on June 25, ahead of the game's November 19 launch on PlayStation 5 and Xbox.\n- Apple's upcoming iPhone software update, iOS 27, will allow CarPlay to show video apps on a car's built-in screen, enabling users to watch videos while parked or charging their electric vehicles.\n- Elon Musk's SpaceX has had a successful stock debut, leading financial analysts to speculate about a potential merger between SpaceX and Tesla, which could create a vast empire spanning rockets, cars, satellites, and AI.\n\n### Notable Links\n- [Midjourney Medical Scanner](https://www.midjourney.com.medical)\n- [Spotify Video Uploads](https://www.spotify.com/video-uploads)\n- [Grand Theft Auto VI](https://www.rockstargames.com/GTA6)\n- [iOS 27 CarPlay Update](https://www.apple.com/ios-27/carplay)\n- [SpaceX and Tesla Merger Speculation](https://www.bloomberg.com/news/articles/2026-06-19/spacex-tesla-merger-speculation)\n\nAdditional Research Context:\n**Midjourney Medical**: Midjourney's new healthcare division has launched a full-body ultrasonic scanner intended as a faster, radiation-free alternative to MRI scans. The system uses AI models to reconstruct detailed 3D images of organs, muscles, bones, and body composition in about 60 seconds. Prototypes are built using licensed semiconductor technology from Butterfly Network, and the company aims to deploy roughly 50,000 scanners worldwide by 2031.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Your next iPhone will cost more. Blame AI. 💸\n\nPlus: Spotify takes a swing at YouTube, Midjourney builds a body scanner, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/YkE5ga%2Bbc5y7LNZBXNZU1pGJDTCFFQnXeFjQglLL7kNEJk8r%2FqCK%2FoYS2d7X%0AFNvjX4J60spKH8KmObzM3nBO2ZZ8GGqHnyQnMWZds6GoyyehJlpxA%2BsyWmIM%0AIhc%2Feu9cuwgXTRLDwNErMCe3kIHHVEPWEMouii774D%2Bw6fKOGBfedvJsihII%0AucvyxHnJiolDBvJ7T7Uou5dg2RPI9ft1SA%3D%3D%0A/ab9245204b06bca2)\n\n![](https://link.mail.beehiiv.com/v1/o/bR1lNpB8M6KPGGTHRWY643LmnMF3pa%2FmAsMtIjyj4nM8v%2FYTJa5iZav7btY9%0AlLLF8XTM63GzZFcx8xWSg01%2B"
+    }
+  ],
+  "tldr": [
+    "Midjourney launches full-body ultrasonic scanner.",
+    "Anthropic joins carbon removal coalition Frontier.",
+    "OpenAI prepares to launch GPT-5.6 model.",
+    "Google's AI scans Gmail accounts without consent.",
+    "Apple's prices increase due to AI boom."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "GPT-5.6",
+        "context": "GPT-5.6 is an anticipated next iteration of OpenAI’s flagship GPT‑5.x series, expected to follow GPT‑5.5 (released in late April 2026) on a roughly 6‑week cadence as part of OpenAI’s rapid model-refresh strategy.[1][2][9] As of late May, OpenAI has *not* officially announced GPT‑5.6: there is no model card, API endpoint, or benchmark page, and references to the model so far come from backend traces, leak trackers, newsletters, and prediction markets rather than formal documentation.[2][5][10][11] A single `gpt-5.6` routing entry briefly appeared in OpenAI’s Codex backend logs, consistent with internal canary testing rather than a public launch.[2][6][11]\n\nUnofficial reporting and industry commentary converge on GPT‑5.6 as a **meaningful improvement** over GPT‑5.5, with leaked expectations focusing on a significantly larger context window (around **1.5M tokens**), better long‑horizon tool use/agent behavior, stronger multimodal grounding, and improved efficiency and safety—though all such details remain unconfirmed.[1][3][4][5][11][15] These rumored capabilities matter because they directly target current bottlenecks: working over entire codebases or book‑length documents, reducing reasoning drift in long tool‑calling sequences, and competing with frontier models like Anthropic’s Claude 4.8 and Google’s Gemini 3.5 in both scale and reliability.[3][4][8][15] Prediction markets and model‑release trackers put the probability of a public GPT‑5.6 launch by late June 2026 at roughly 80–89%, reflecting a broad industry expectation that OpenAI will continue its accelerated flagship release cycle to maintain competitiveness in agents, enterprise workflows, and developer tooling—even though, until OpenAI publishes an official announcement, all concrete performance claims should be treated as informed speculation rather than confirmed fact.[5][8][9][11][15]",
+        "source": "web search"
+      },
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is a leading artificial intelligence company founded in 2015 that develops frontier **generative AI models**, most notably the GPT series that powers ChatGPT.[3][14] It operates as both a research lab and a commercial provider of AI platforms used by consumers, developers, and enterprises, positioning itself at the center of the current AI/ML wave through large language models, multimodal systems, and increasingly autonomous AI agents.[3][14] The company’s roadmap and products heavily influence technical benchmarks, funding flows, and competitive strategies across the broader AI industry.[1][3]\n\nRecently, OpenAI has focused on scaling and hardening its **agentic** and enterprise offerings while preparing for a public market debut. It has filed for an IPO and is being discussed as part of a multitrillion‑dollar pipeline of AI listings, highlighting investor expectations around its growth and dominance in the sector.[1][6] Product-wise, OpenAI has moved beyond core GPT models into AI **agents** that can perform tasks and transactions, including partnerships that let agents make online purchases and tools aimed at finance and legal workflows.[1][2] It has announced a strategic “third phase” centered on automating AI research, building powerful personal agents, and making advanced AI abundant and affordable, with internal timelines suggesting a significant share of its own research could be done by AI systems within a few years.[6]\n\nTo support this push, OpenAI is expanding its ecosystem through acquisitions, partnerships, and global infrastructure. It plans to acquire Promptfoo to strengthen **AI agent security testing**, addressing safety and robustness as enterprises deploy autonomous systems.[2] The company is also investing in international R&D capacity, such as committing hundreds of millions of dollars to a new AI lab in Singapore, and is securing relationships with major banks and corporates ahead of its IPO.[1][2] At the same time, OpenAI faces growing regulatory, legal, and public‑trust scrutiny, including lawsuits and policy debates over chatbot safety and societal impacts, underscoring how central its technology has become to the trajectory and governance of modern AI.[1][5]",
+        "source": "web search"
+      },
+      {
+        "topic": "Midjourney",
+        "context": "Midjourney, originally known for its generative AI image platform, has launched a new healthcare division called **Midjourney Medical** and unveiled its first hardware product: a full‑body ultrasonic scanner intended as a faster, radiation‑free alternative to MRI.[1][7][14] The system lowers a person into a water-filled tub where a ring of ultrasonic transducers captures data from multiple angles; AI models then reconstruct detailed 3D images of organs, muscles, bones, and body composition in about 60 seconds, compared with the much longer and more expensive MRI workflow.[1][2][5][8] Prototypes are reportedly built using licensed semiconductor technology from Butterfly Network and have already produced 3D body maps in one minute scans.[1][8]\n\nThe company is pairing this technology with a spa‑like delivery model, planning a 23,000‑square‑foot “Midjourney Spa” in San Francisco where visitors step into a shallow pool of light before being lowered into the scanner, with an initial opening targeted around 2027 pending regulatory progress.[3][4][9][10] Midjourney claims the scanner could deliver MRI‑comparable images without radiation or strong magnetic fields and at potentially much lower per‑scan costs, and it aims to deploy roughly **50,000 scanners worldwide by 2031** to perform up to a billion scans per month.[1][3][8][12][14] If the technology and required approvals (such as FDA clearance in the US) materialize as described, it could significantly expand access to routine whole‑body imaging, shift some diagnostic workflows away from traditional MRI providers, and mark a notable pivot in the AI/ML industry from purely digital media generation to deeply integrated, AI‑driven medical hardware.[4][6][7][10]",
+        "source": "web search"
+      },
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is a San Francisco–based AI company best known for its Claude family of models, and it has recently become one of the most closely watched players in the AI/ML market. The biggest recent development is its $65 billion Series H funding round, which valued the company at $965 billion post-money and made it the most highly valued private AI company, surpassing OpenAI.[13][1] That news was paired with the release of Claude Opus 4.8, Anthropic’s newest flagship model, which the company says is especially strong at coding, long-horizon tasks, and enterprise workflows.[1][7]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is a **conversational AI assistant** developed by OpenAI, built on large language models like GPT‑4 and newer GPT‑4.1 variants, and accessed via both a web interface and APIs for integration into products and workflows.[1][11] It can understand natural language prompts and perform tasks such as drafting emails, summarizing documents, scheduling-related assistance, coding, data analysis, and multi-step research, which is why it is increasingly used as a general-purpose productivity tool in areas like email triage and task management.[1][10] In the broader AI/ML landscape, ChatGPT is a flagship example of **generative AI**, which has shifted industry focus from traditional prediction-oriented machine learning to systems that can create new text, code, and other content on demand.[9][10]\n\nRecent developments highlight OpenAI’s push to turn ChatGPT into a more capable, agent-like platform and a sustainable business. OpenAI has introduced **Deep Research**, an agent inside ChatGPT that conducts in-depth, multi-step web investigations for users, aimed at automating complex information-gathering and synthesis.[1] The company has also released newer model families such as **GPT‑4.1** (and smaller variants) with longer context windows and stronger reasoning, which improve ChatGPT’s ability to handle large email threads, long documents, and complex workflows.[1] On the product and business side, OpenAI is **testing ads in ChatGPT’s free tiers**, marking a significant monetization shift for a product reportedly serving hundreds of millions of weekly active users.[2][3] At the same time, it is rolling out enhanced safety measures like age-prediction to better protect under‑18 users.[2]\n\nIndustry-wide, ChatGPT has become both a **reference standard and competitive benchmark** for conversational AI, pushing companies such as Google, Anthropic, and others to release rival models and assistants.[1][5] Enterprises and professionals are embedding ChatGPT into email clients, CRMs, IDEs, and internal tools, using it for summarization, meeting prep, scheduling support, and assisted decision-making, which is accelerating experimentation with AI copilots across sectors.[9][10] Its rapid adoption has also triggered regulatory, ethical, and legal debates, including lawsuits and calls for stronger safeguards after incidents that allegedly involved harmful outputs, underscoring its dual role as a powerful productivity technology and a focal point for AI governance discussions.[2][4][12]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "SpaceX Confirms $60 Billion Acquisition of AI Coding Assistant Maker Cursor",
+        "summary": "SpaceX filed an 8-K confirming it will acquire Anysphere, the company behind the Cursor AI coding assistant, in an all-stock deal valued at approximately $60 billion. The transaction is described as the largest startup acquisition in history and signals SpaceX’s intent to deeply integrate AI into its software and engineering workflows.[3]",
+        "whyItMatters": "This deal massively elevates the strategic value of AI coding tools, suggesting that core software development infrastructure is becoming a prime target for large, capital-rich acquirers. For practitioners, it implies accelerated investment in AI-assisted engineering tooling, tighter integration of models with developer workflows, and potentially faster iteration cycles on complex software systems.",
+        "source": "unrot.co weekly AI news recap (June 19–25, 2026)"
+      },
+      {
+        "headline": "ChatGPT Falls Below 50% Global AI Assistant Market Share for the First Time",
+        "summary": "Sensor Tower’s State of AI 2026 report shows ChatGPT’s global AI assistant market share dropped to 46.4% by the end of May 2026, the first time it has fallen below 50% since launch.[3] The report highlights intensifying competition from other assistants and vertical AI tools as users diversify their usage patterns.[3]",
+        "whyItMatters": "Market-share erosion at this scale indicates the AI assistant landscape is fragmenting, which affects where developers choose to deploy integrations, SDKs, and plugins. Practitioners need to plan for a multi-assistant world, optimizing models and workflows for interoperability rather than relying on a single dominant platform.",
+        "source": "Sensor Tower State of AI 2026 report as summarized by unrot.co"
+      },
+      {
+        "headline": "OpenAI AI Agent Achieves First Published Autonomous Contribution in Medicinal Chemistry",
+        "summary": "OpenAI and Molecule.one published a paper describing what they call the first instance of a near‑autonomous AI agent making a genuine contribution to an open‑ended medicinal chemistry problem.[3] Alongside the paper, they released LifeSciBench, an expert-designed benchmark to evaluate AI systems on real-world life science research tasks rather than pattern matching.[3]",
+        "whyItMatters": "This marks a transition from toy demos to AI agents contributing to peer‑reviewed scientific advances, especially in high‑stakes domains like drug discovery. For practitioners, it validates agentic workflows for complex R&D tasks and provides a new benchmark (LifeSciBench) for assessing models on scientific reasoning beyond generic benchmarks.",
+        "source": "OpenAI and Molecule.one research announcement summarized by unrot.co"
+      },
+      {
+        "headline": "Japan’s Three Megabanks Gain Access to Anthropic’s Restricted Claude Mythos via Project Glasswing",
+        "summary": "Japan’s Finance Minister announced that MUFG, Sumitomo Mitsui Banking Corporation, and Mizuho will gain access to Anthropic’s restricted Mythos-class model Claude Mythos through a government-backed initiative called Project Glasswing.[1] This is reported as the first confirmed deployment of Anthropic’s most restricted model to a non‑US institution.[1]",
+        "whyItMatters": "Frontier, tightly controlled models are starting to be deployed in heavily regulated sectors like national-scale banking, indicating regulators and vendors are finding governance structures that unlock sensitive capabilities. AI practitioners in finance and other regulated industries should expect more opportunities—but also stricter compliance regimes—for using high-capability models in production.",
+        "source": "PromptAI Learning daily AI news (June 19, 2026)"
+      },
+      {
+        "headline": "Researchers Reveal Prompt-Poisoning Attack That Steers AI Research Agents with Only 13 Words",
+        "summary": "Researchers Tingwei Zhang, Harold Triedman, and Vitaly Shmatikov demonstrated that inserting as few as thirteen carefully chosen words into ordinary Reddit comments can covertly redirect tools like ChatGPT’s Deep Research and Google’s Gemini toward scams or non‑existent products.[6] Their findings underscore how web‑scale retrieval‑augmented systems can be manipulated through subtle prompt‑poisoning of public content.[6]",
+        "whyItMatters": "As agentic, browsing, and research modes become standard in tools used by developers and analysts, this work highlights a concrete, low-cost adversarial vector against RAG and web‑integrated systems. Practitioners must harden retrieval pipelines, add adversarial robustness checks, and treat untrusted web text as a potential attack surface rather than a neutral data source.",
+        "source": "NeuralBuddies AI News Recap (June 19, 2026) summarizing Zhang, Triedman & Shmatikov’s research"
+      }
+    ],
+    "entities": [
+      {
+        "name": "GPT-5.6",
+        "type": "product",
+        "context": "Mentioned as upcoming release from OpenAI with enhanced features"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as the developer of GPT-5.6 and other AI models"
+      },
+      {
+        "name": "Midjourney",
+        "type": "product",
+        "context": "Mentioned as pivoting to medicine and building a body scanner"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as the first AI firm to achieve a specific milestone"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as a tool for scheduling tasks and reading emails"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as having AI that reads emails"
+      },
+      {
+        "name": "GLM-5.2",
+        "type": "product",
+        "context": "Mentioned as a 238GB model with 2-bit quantization"
+      },
+      {
+        "name": "Unsloth",
+        "type": "company",
+        "context": "Mentioned as the developer of the GLM-5.2 model"
+      },
+      {
+        "name": "Claude Code",
+        "type": "product",
+        "context": "Mentioned as a tool for coding with AI assistance"
+      },
+      {
+        "name": "AgentDeck",
+        "type": "product",
+        "context": "Mentioned as a tool for working with Claude Code"
+      },
+      {
+        "name": "Tim Cook",
+        "type": "person",
+        "context": "Mentioned as stating that pricier iPhones are unavoidable due to AI"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-06-20T00:30:34.885Z",
+  "dateString": "2026-06-20"
+}
