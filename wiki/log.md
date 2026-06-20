@@ -4,6 +4,43 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-06-20-evening
+**Ingested**: data/summaries/2026-06-20-evening.json (5 newsletters — light cycle, mostly MEDIUM/LOW priority; Hello, World! is the cycle's load-bearing source, World of AI carries the Midjourney scanner follow-up, AINews + Ollama + AI Automation Society are mostly ephemeral/promotional)
+
+**Cycle-shaping signals**:
+- **TSRX kills JSX** — Hello, World! Top Story lands TSRX (TypeScript language extension + JSX successor by Dominic Gannaway) as a structurally novel UI syntax explicitly designed to be *statically analyzable for LLMs*; multi-target compile to React/Solid/Preact/Ripple/Vue/Vue Vapor; first publicly framed in this wiki, new topic page [[tsrx]].
+- **Anthropic "Shuts Down" Fable and Mythos** — Hello, World! Top Story #2 lands the cleanest *shut-down* canonical-headline framing in this wiki, sharpening the prior multi-cycle "ban / pull / disable worldwide / deadlock / working on a solution" lexical range into a clean shut-down event-label that downstream newsletters can reference compactly; cycle 6 of cross-newsletter coverage.
+- **NVIDIA MotionBricks** — Top Story #5 lands NVIDIA's real-time AI character-motion framework (350,000+ motion skills, low latency) for game animation; new product page [[nvidia-motionbricks]], extends NVIDIA's AI-for-creative-tools surface into real-time interactive animation.
+- **Midjourney Scanner fifth-cycle confirmation** — World of AI carries Midjourney's full-body AI body scanner with first publicly framed *ex-Apple Vision Pro engineer leading Midjourney Medical* personnel detail + first publicly framed *measured-skeptical caveat* on the 10×-cheaper/60×-faster MRI claims ("based on prototype claims and have not been independently verified") + first publicly framed *durable moat* strategic framing on the hardware pivot.
+- **Microsoft pay-per-use AI agent pricing** — first software-pricing-model change in ~20 years (researchFindings.missingStories via TechXplore); structurally novel metered-AI pricing pivot embedded across productivity + enterprise products, shifting AI cost-optimization from engineering practice to procurement/compliance discipline.
+- **US federal AI bill (269 pages)** — researchFindings.missingStories surfaces the bill introduced early June 2026, with sweeping transparency/safety/accountability/risk-management requirements targeting high-risk AI deployments; first publicly framed *US-federal-AI-bill counterpart to the EU AI Act* in this wiki.
+- **Cloudflare bot-traffic split re-anchored** — researchFindings.missingStories reframes the milestone as 57.5% bot vs 42.5% human + first publicly framed AI-practitioner-specific implications (training-corpora + production-API pollution; bot-aware data filtering + abuse-prevention design).
+- **OpenAI AI agent + medicinal chemistry advance** — Hello, World! AI Models & Research canonicalizes the *first publicly published autonomous AI-agent contribution to a peer-reviewed scientific research advance* + LifeSciBench second-cohort confirmation.
+- **AI Forgetting and Memory Issues** — Top Story #4 reframes AI memory as a *negative-space* problem: industry focus on increasing context windows rather than improving memory/retention leads to repeated re-explanation cost; pairs with **Temporal Dependency Graph Compression (TDGC)** technique framing as the engineering-level counterpart.
+- **JetBrains Marketplace coordinated malware campaign** — first publicly framed IDE-marketplace AI-key-theft via plugin supply-chain event in this wiki; adds the IDE-plugin axis to the [[ai-cybersecurity-arms-race]] surface.
+
+**Pages updated**:
+- [[anthropic]] — Hello, World! Top Story shut-down canonical-headline framing of the Fable/Mythos regulatory event
+- [[claude-fable-5]] — Hello, World! "Anthropic Shuts Fable" cycle headline; first publicly framed *"shut down"* event-label
+- [[claude-mythos]] — Hello, World! Top Story explicitly names Mythos alongside Fable in the shut-down framing; *no-reversal-yet* posture
+- [[midjourney]] — fifth-cycle World of AI confirmation + ex-Apple Vision Pro engineer leadership detail + durable-moat strategic framing + prototype-claims-caveat
+- [[midjourney-scan]] — fifth-cycle World of AI cohort with measured-skeptical caveat on headline numbers
+- [[microsoft]] — first software-pricing-model change in ~20 years; pay-per-use metered AI agent pricing pivot
+- [[cloudflare]] — bot-traffic 57.5%/42.5% explicit split re-anchored + AI-practitioner implications
+- [[openai]] — Hello, World! AI Models & Research canonicalizes OpenAI medicinal-chemistry advance + LifeSciBench framing
+- [[nvidia]] — MotionBricks Top Story added + new related-link to [[nvidia-motionbricks]]
+- [[ai-regulation]] — US federal AI bill 269-page framework + Hello, World! shut-down canonical-headline recoverage
+- [[ai-memory]] — Hello, World! "AI Forgetting" memory-vs-context-window trade-off framing + TDGC engineering counterpart
+- [[ai-cybersecurity-arms-race]] — JetBrains Marketplace AI-key-theft via plugin supply-chain event
+
+**Pages created**:
+- [[tsrx]] — TypeScript language extension + JSX successor; statically analyzable for LLMs; multi-target compile
+- [[nvidia-motionbricks]] — NVIDIA real-time AI character-motion framework; 350K+ motion skills with low latency
+
+**Notable**: This is a *light cycle* with only 5 newsletters and most signals being second-cohort confirmations of the 2026-06-20-morning content. The structurally novel net-new signals are: (1) **TSRX as LLM-statically-analyzable UI syntax** — first publicly framed "UI tooling designed for AI consumption" surface in this wiki, with cross-implications for plugin security + AI key management + agent-driven UI refactoring; (2) **NVIDIA MotionBricks** — first publicly framed real-time AI character-motion framework, extends NVIDIA's creative-tools AI surface into interactive game animation specifically; (3) **Microsoft pay-per-use AI pricing** — first software-pricing-model change in ~20 years, structurally novel metered-AI pricing pivot with implications for the broader [[ai-bubble-concerns]] unit-economics axis (Microsoft is now structurally aligned with the price-increase side of Yann LeCun's "raise prices or cut costs" framing); (4) **US federal AI bill (269 pages)** — first publicly framed US-federal-AI-bill counterpart to the EU AI Act, foreshadowing concrete US compliance obligations; (5) **JetBrains Marketplace AI-key-theft** — first publicly framed IDE-plugin AI-key-theft event, adds the IDE-plugin axis to the cybersecurity-arms-race surface; (6) **"AI Forgetting"** as memory-vs-context-window trade-off — shifts AI Memory topic's center of gravity from "memory as positive feature" to "memory as missing primitive." Also notable: the **Midjourney Scanner cycle has now sustained 5 consecutive cycles** (longest single-product hardware-launch cross-cycle stickiness in this wiki), and the **Hello, World! "shut down" framing for Anthropic Fable/Mythos** crosses the regulatory event into recurring-headline status (cycle 6 of cross-newsletter coverage). The Ollama Team-plan survey + AI Automation Society Skool notifications + AINews "not much happened today" promo cycle were correctly excluded as ephemeral content.
+
+---
+
 ## 2026-06-18-evening
 **Ingested**: data/summaries/2026-06-18-evening.json (15 newsletters — **pipeline summaries SUCCEEDED this cycle, ending the thirteen-consecutive-cycle OpenRouter 403 outage that ran from 2026-06-10-morning through 2026-06-17-evening**, the longest sustained pipeline outage recorded in this wiki). Full body content recoverable directly from summary text rather than reconstructed from subject lines — first content-rich ingest cycle in 8+ days.
 

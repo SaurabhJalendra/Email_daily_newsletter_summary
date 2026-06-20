@@ -215,6 +215,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nitrogen]] — NVIDIA open-source gaming-agent model *(stale)*
 - [[nvidia-cosmos]] — NVIDIA's physical-AI foundation models (Cosmos 2.5 GA, 3 inbound)
 - [[nvidia-ising]] — NVIDIA's open AI models for quantum computing; Ising Calibration + Verification automate quantum-processor workflows (Apr 2026)
+- [[nvidia-motionbricks]] — NVIDIA's real-time AI character-motion framework; 350K+ motion skills with low latency for game animation (Jun 2026)
 - [[openai-codex]] — OpenAI's Codex-as-superapp (ChatGPT + Atlas + Codex)
 - [[openai-for-healthcare]] — OpenAI's HIPAA-compliant enterprise health offering *(stale)*
 - [[openai-frontier]] — OpenAI's Feb 2026 enterprise AI-Employee platform (personas + skills + memory) *(stale)*
@@ -267,6 +268,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[project-glasswing]] — Anthropic-led cybersecurity coalition (AWS, Apple, Google, Microsoft, NVIDIA) using Claude Mythos Preview
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures *(stale)*
 - [[recursive-self-improvement]] — Anthropic's "Sparks of RSI" essay; 80% of Anthropic code Claude-authored, 8× engineer output, coordinated-pause ask (Jun 2026)
+- [[tsrx]] — TypeScript language extension + JSX successor by Dominic Gannaway; statically analyzable for LLMs; multi-target compile (React/Solid/Preact/Vue) (Jun 2026)
 - [[universal-commerce-protocol]] — Shopify + Google open protocol for agent-commerce (Jan 2026) *(stale)*
 - [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos *(stale)*
 
