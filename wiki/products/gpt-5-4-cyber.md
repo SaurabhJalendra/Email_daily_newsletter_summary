@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-04-19
 > **Last updated**: 2026-04-19
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[openai]], [[gpt-5-4]], [[aardvark]], [[codex-security]], [[claude-mythos]]
 
 ## Summary

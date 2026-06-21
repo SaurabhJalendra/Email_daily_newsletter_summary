@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-17
 > **Last updated**: 2026-04-08 (backfill 2026-04-06..2026-04-08)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[anthropic]], [[moonshot-ai]], [[moltbot]], [[agent-frameworks]]
 
 ## Summary

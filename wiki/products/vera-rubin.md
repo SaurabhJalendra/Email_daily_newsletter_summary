@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-20
 > **Last updated**: 2026-04-16 (+ 2026-03-18 GTC backfill)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nvidia]], [[anthropic]], [[meta]], [[ai-hardware]]
 
 ## Summary

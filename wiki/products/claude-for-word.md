@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-04-21
 > **Last updated**: 2026-04-21
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[anthropic]], [[claude-for-excel]], [[claude-opus-4-7]], [[microsoft]], [[copilot-cowork]]
 
 ## Summary

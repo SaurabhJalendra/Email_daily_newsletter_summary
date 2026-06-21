@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-04-16
 > **Last updated**: 2026-04-21
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[openai]], [[ai-healthcare]], [[openai-for-healthcare]], [[chatgpt-health]]
 
 ## Summary

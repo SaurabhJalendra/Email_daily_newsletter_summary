@@ -4,6 +4,19 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## LINT 2026-06-21 (week 2026-W25)
+
+**Lint actions**:
+- Fixed contradictions: none requiring intervention this week — the only flagged ambiguity (Bezos $12B vs $41B framing on [[project-prometheus]] from 2026-06-15-evening) is already preserved as an open question on the page with four candidate readings; both figures cross-cited as cross-cycle framings rather than treated as a contradiction-to-resolve per the WIKI.md "prefer the more detailed entry" rule (the $41B framing has two-newsletter cross-cycle support + AGE-language consistency; $12B is the single-source Forward Future framing — page Summary retains $41B as the primary anchor with $12B as candidate-reading under reconciliation)
+- Resolved orphans: 1 — [[perplexity-brain]] (created 2026-06-20-morning) carried only one inbound cross-ref ([[perplexity]] company page); added a cross-ref from [[ai-memory]] topic page's Related list (Perplexity Brain's source-linking + self-improving graph is structurally a Q2-2026 cross-lab memory-architecture cohort member alongside Claude file-memory + ChatGPT Dreaming + GPT-5.4 Stateful AI). All 11 new pages created this week ([[glm-5-2]], [[gpt-bidi]], [[midjourney]], [[midjourney-scan]], [[snap-specs]], [[chatgpt-tasks]], [[tsrx]], [[nvidia-motionbricks]], [[john-jumper]], [[spatialclaw]], [[qwen-robot-suite]]) already carried 3+ inbound cross-refs at LINT time (range: 3 to 14)
+- Merged duplicates: none — no near-duplicate page conflicts detected this week
+- Stale pages marked: 11 active pages crossed the 60-day untouched threshold and were marked `> **Status**: stale`: [[canva-ai-2]] (Apr 20 last touched), [[claude-for-word]] (Apr 21), [[gemini-3-1-flash-tts]] (Apr 16), [[gpt-5-4-cyber]] (Apr 19), [[gpt-rosalind]] (Apr 21), [[muse-spark]] (Apr 16), [[nvidia-cosmos]] (Apr 16), [[nvidia-ising]] (Apr 19), [[openai-codex]] (Apr 16), [[openclaw]] (Apr 8), [[vera-rubin]] (Apr 16); index Products entries updated with *(stale)* markers in parallel. [[moltbook]] (Mar 12 — `acquired by Meta`) and [[qwen-image]] (Feb 19 — `superseded by qwen-image-2`) preserved with their more-informative specific statuses
+- Index regenerated: added 3 product entries that were present in `products/` directory but absent from the index — [[gpt-5-6]] (OpenAI's pre-launch next GPT-5.x flagship; ~1.5M context, Mini/Pro variants, pricing aimed at undercutting Anthropic), [[open-fable]] (Z.ai's forecasted ~December 2026 open-weights Fable-class model; strategic open-source counter to the Fable/Mythos export-control regime), [[perplexity-brain]] (Perplexity's self-improving memory system with persistent context graph + origin-source linking, launched 2026-06-20); added [[digests/2026-W25]] under Digests section
+
+**Digest generated**: wiki/digests/2026-W25.md (~5,970 words)
+
+---
+
 ## 2026-06-21-morning
 **Ingested**: data/summaries/2026-06-21-morning.json (7 newsletters — JournalClub.io + Mindstream + NLP Newsletter + Superhuman + Uncovering AI + DeepLearning.AI receipt + The AI Corner; effective high-signal cycle anchored by Uncovering AI HIGH-priority Anthropic-Nobel-winner-from-Google framing + NLP Newsletter HIGH-priority AI Agents Weekly digest)
 

@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-04-10
 > **Last updated**: 2026-04-16
-> **Status**: active
+> **Status**: stale
 > **Related**: [[meta]], [[claude-mythos]], [[agent-frameworks]]
 
 ## Summary

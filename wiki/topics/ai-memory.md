@@ -10,7 +10,7 @@ type: topic
 > **First mentioned**: 2026-03-01
 > **Last updated**: 2026-06-20-evening (Hello, World! cycle headline "AI Forgetting and Memory Issues" reframes AI memory as a *negative-space* problem — the AI industry's focus on *increasing context windows and tokens* rather than *improving memory and knowledge retention* leads to repeated re-explanation cost + reduced developer productivity; first publicly framed *memory-vs-context-window* trade-off framing in this wiki — shifts the topic's center of gravity from "memory as feature" to "memory as missing primitive")
 > **Status**: active
-> **Related**: [[anthropic]], [[chatgpt]], [[claude-opus-4-7]], [[claude-fable-5]], [[agent-frameworks]], [[claude-cowork]]
+> **Related**: [[anthropic]], [[chatgpt]], [[claude-opus-4-7]], [[claude-fable-5]], [[agent-frameworks]], [[claude-cowork]], [[perplexity-brain]]
 
 ## Summary
 

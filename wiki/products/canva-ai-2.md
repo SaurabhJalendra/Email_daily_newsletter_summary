@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-04-20
 > **Last updated**: 2026-04-20
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[canva]], [[canva-design-model]], [[adobe]], [[claude-design]]
 
 ## Summary
