@@ -1,0 +1,316 @@
+{
+  "date": "2026-06-20T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Sunday, 21 June 2026\n\n## 🔥 Top Stories\n1. **Google DeepMind loses key researchers to rival AI labs**: Noam Shazeer joins OpenAI, and John Jumper joins Anthropic, signaling a significant shift in the AI landscape and potential implications for Google's AI development capabilities. Why it matters: This talent drain could impact Google's ability to compete with Anthropic and OpenAI in the AI market.\n2. **Qualcomm declares the app era over, shifting towards agent-first computing**: This shift will revolutionize the way we interact with devices and access information, with agents replacing apps across various device designs. Why it matters: The transition to agent-first computing has the potential to transform the tech industry and how users engage with technology.\n3. **Anthropic builds wet labs and AI-for-science infrastructure**: This significant investment in AI research and development could lead to breakthroughs in various fields, including biology and chemistry. Why it matters: Anthropic's move into wet labs and AI-for-science infrastructure highlights the growing intersection of AI and scientific research, potentially leading to significant advancements.\n4. **Apple's overhauled Siri runs on a custom ~1.2T-parameter Gemini model licensed from Google**: This upgrade brings significantly improved conversational ability, contextual awareness, and cross-device integration across the Apple ecosystem. Why it matters: The integration of a customized Gemini model into Siri showcases the growing importance of AI in consumer technology and the strategic partnerships forming in the industry.\n5. **ChatGPT hits 1 billion MAUs as its share of the AI assistant market drops below 50%**: Despite reaching a significant user milestone, ChatGPT's market share decline indicates a competitive AI assistant market. Why it matters: The changing dynamics in the AI assistant market reflect the rapid evolution and diversification of AI technologies and user preferences.\n\n## 🤖 AI Models & Research\n- Z.ai has open-sourced **GLM-5.2**, a frontier model with a 1M-token context window, designed for long-horizon coding and agentic work, offering two effort levels for balanced quality and token efficiency.\n- NVIDIA has introduced **SpatialClaw**, a spatial reasoning model for coding and robotics tasks, enhancing capabilities in complex environments.\n- The study by Gallina et al. in the Frontiers in Bioinformatics journal tests the reliability of Bray-Curtis and Jaccard distance measures in a reference-free k-mer based context for metagenomic comparisons, highlighting the potential of using raw statistical structure of the data to compare complex systems.\n\n## 🛠️ Tools & Products\n- **Gemini** in Gmail offers tools like email thread summaries, writing assistance, and suggested replies, enhancing productivity and workflow automation.\n- **Dub AI** translates and dubs videos into 25+ languages with cloned voices and automatic speaker detection, showcasing the growing capabilities of AI in media production.\n- **Claude Code** has introduced interactive Artifacts, enhancing its capabilities in coding and development tasks.\n- Alibaba has open-sourced its **Qwen-Robot Suite**, a trio of robotics AI models that can be deployed across humanoids, robotic arms, and quadruped robots.\n\n## 📰 Industry News\n- Genesis AI has unveiled a new humanoid robot design called **Eno**, featuring a minimalist, appliance-like design with a wheeled base, capable of performing lab automation tasks.\n- Waymo has launched a new subscription tier called **Waymo Premier**, offering priority matching, free cancellations, and loyalty credits to its frequent riders.\n- Amazon is entering the **AI chip market**, posing a significant threat to Nvidia's core business and potentially leading to a major shift in the AI hardware landscape.\n- Norway has banned the use of generative AI tools in schools for students aged 6-13, citing concerns about the impact on foundational learning, reflecting growing discussions around AI's role in education.",
+  "totalNewsletters": 7,
+  "newsletters": [
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "Reference-free k-mer based dissimilarity measures for metagenomes comparison",
+      "date": "2026-06-20T12:54:11.000Z",
+      "summary": "## JournalClub.io Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The current interest in microbiome research is at an all-time high, with many people exploring the ecosystem of microbes that live in and on the human body, and companies offering products and services claiming to transform or improve the gut microbiome.\n* A new paper from Gallina et al. in the Frontiers in Bioinformatics journal tests the reliability of two existing distance measures, Bray-Curtis and Jaccard, in a reference-free k-mer based context for metagenomic comparisons.\n* The study focuses on metagenomics, which involves the genetic material recovered from an entire mixed community, rather than individual organisms, and aims to compare two metagenomic samples without relying on a database of known microbial genomes.\n* The authors applied the Bray-Curtis and Jaccard distance measures to k-mer counts instead of species counts, allowing for a comparison of the abundance structure of the samples without requiring species identification.\n* The results show that Bray-Curtis performs well in capturing the structure of the metagenomic samples, especially in the human microbiome datasets, while Jaccard is less reliable due to its sensitivity to sparsity and noise.\n* The paper highlights the potential of using raw statistical structure of the data to compare complex systems without needing to label every component, which could be applicable beyond metagenomics to other domains with incomplete or unavailable labels.\n\n### Notable Links\n* [Reference-free k-mer based dissimilarity measures for metagenomes comparison](https://journalclub.io/episodes/reference-free-k-mer-based-dissimilarity-measures-for-metagenomes-comparison)\n* [Google Trends: Microbiome](https://trends.google.com/explore?q=microbiome&date=all&geo=Worldwide)\n* [The Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai)",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/reference-free-k-mer-based-dissimilarity-measures-for-metagenomes-comparison?token=zS3kmA9XUCx5j1UBwx6m6uVkpZ9dvg8efslmOOSB1HJjkwcbJp"
+        },
+        {
+          "text": "Google Trends",
+          "url": "https://trends.google.com/explore?q=microbiome&date=all&geo=Worldwide"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Reference-free k-mer based dissimilarity measures for metagenomes comparison   \n\nIf you head over to Google Trends and type in the term “microbiome”, you’ll see that search-interest in that term is currently hovering around an all-time high. It’s been on a bit of a run since last July. And now more people than ever are exploring that ecosystem of microbes that live in and on the human body. They’re trying to learn more about how their gut community works, and how to keep it healthy.\n\n![](https://journalclub.io/px/MVCjtbPxUm5pbiif4FxWWX30aiJGyRaYlWDSmyzP4TBpBIOUpt)\n\nReference-free k-mer based dissimilarity measures for metagenomes comparison\n\nJournalClub.io, June 20th, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/a6C1sOXiTlWBju6v3KlE)](https://journalclub.io/episodes/reference-free-k-mer-based-dissimilarity-measures-for-metagenomes-comparison?token=zS3kmA9XUCx5j1UBwx6m6uVkpZ9dvg8efslmOOSB1HJjkwcbJp)\n\nToday's article comes from the Frontiers in Bioinforma"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "How to use Gemini in your Gmail!",
+      "date": "2026-06-20T15:05:11.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses the use of Gemini in Gmail to stay on track and organized, particularly for managing multiple tasks and follow-ups. It highlights how Gemini can summarize emails, identify action items, and convert email threads into structured tasks.\n* Gemini is a feature available in some Gmail accounts, including Google Workspace (Business or Enterprise), and offers tools like email thread summaries, writing assistance, contextual answers, suggested replies, and drafts.\n* The newsletter provides tips on how to use Gemini effectively, such as labeling emails, asking specific questions, and turning threads into quick checklists that can be pasted into Google Tasks.\n* It also mentions the potential of AI in various fields, including a brief note on the world's fastest supercomputer, El Capitan, which can perform around 2.79 quintillion calculations per second.\n* Additionally, there's a mention of \"Dub AI,\" a tool that translates and dubs videos into 25+ languages with cloned voices and automatic speaker detection.\n* The newsletter includes a link to learn more about mastering Excel with ChatGPT, indicating the growing integration of AI tools into productivity software.\n* Updates on Google's AI ecosystem, including Gemini, and its applications in Gmail, are directly relevant to AI practitioners interested in productivity and workflow automation.\n* ChatGPT is mentioned as a tool for assisting with tasks in Excel and other productivity software, showcasing its expanding role in everyday workflows.\n\n### Notable Links\n* Master Excel with ChatGPT!\n* Dub AI\n* That's Actually Wild\n* View our Privacy Policy\n* Update your email preferences\n\nThe newsletter covers various topics, including the use of AI in productivity tools like Gmail and Excel, the capabilities of Gemini and ChatGPT, and the emergence of new AI-powered tools like Dub AI. It highlights the potential of AI to transform workflows and improve productivity, making it relevant for AI practitioners interested in these areas.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "How to use Gemini in your Gmail!\n\n\\+ Master Excel with ChatGPT!  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n20 Jun\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/guest_author/profile_picture/a00f34"
+    },
+    {
+      "from": "\"NLP Newsletter\" <nlpnews@substack.com>",
+      "subject": "🤖 AI Agents Weekly: GLM-5.2, Claude Code Artifacts, Qwen-Robot Suite, Codex Skills, Block's Builderbot, SpatialCl…",
+      "date": "2026-06-20T15:45:25.000Z",
+      "summary": "## AI Agents Weekly\n\n**Priority: HIGH**\n\n### Top Updates\n* Z.ai has open-sourced **GLM-5.2**, a frontier model with a 1M-token context window, designed for long-horizon coding and agentic work. It offers two effort levels: GLM-5.2 (max) for peak performance and GLM-5.2 (high) for balanced quality and token efficiency. The model is MIT-licensed, compatible with various platforms, and has achieved competitive scores on coding and long-horizon tests, including SWE-bench Pro and Terminal-Bench.\n* **Claude Code** has introduced interactive Artifacts, enhancing its capabilities in coding and development tasks.\n* **Qwen** has launched the Robot Suite, a collection of tools for robot development and automation.\n* **Codex** has introduced a feature to turn demos into skills, streamlining the development process.\n* **Block's Builderbot** is now capable of writing 15% of code, marking a significant milestone in automated coding.\n* **Flue 1.0** has been released, reimagining the agent harness for improved performance and efficiency.\n* **Vercel** has debuted the **eve framework**, a new framework for building and deploying AI applications.\n* **Cursor** has launched **Origin**, a code hosting platform designed for AI-powered development.\n* **Perplexity** has added **Brain memory** to its Computer platform, enhancing its capabilities in complex tasks.\n* **OpenRouter** has shipped the **Fusion API**, a new API for integrating AI models and services.\n* **NVIDIA** has introduced **SpatialClaw**, a spatial reasoning model for coding and robotics tasks.\n* **ENPIRE** has developed a self-improving robot policy, demonstrating advancements in autonomous systems.\n* **SkillsBench 1.1** has been released, providing an updated benchmark for evaluating agent skills.\n* **DeepMind** has published an AI Control Roadmap, outlining the path towards more controllable and reliable AI systems.\n* **OpenAI** has trained broadly beneficial models, aiming to create more generalizable and useful AI systems.\n* **Anthropic** has measured returns to expertise, highlighting the importance of human expertise in AI development.\n\n### Notable Links\n* GLM-5.2\n* Omnigent\n* Subscribe to AI Newsletter\n* [elvis](https://substack.com/@elvissaravia)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9ubHAuZWx2aXNzYXJhdmlhLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZubHAuZWx2aXNzYXJhdmlhLmNvbSUyRnAlMkZhaS1hZ2VudHMtd2Vla2x5LWdsbS01Mi1jbGF1ZGUtY29kZSIsInAiOjIwMjc3MjA3OSwicyI6MTAzMjM4LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MTk3MDM4OSwiZXhwIjoyMDk3NTQ2Mzg5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.o9dtHDswfuku9Ng8wuk4iOwFP9iwND5ypKYxd_BlXT0?"
+        },
+        {
+          "text": "🤖 AI Agents Weekly: GLM-5.2, Claude Code Artifacts, Qwen-Robot Suite, Codex Skills, Block's Builderbot, SpatialClaw, and More",
+          "url": "https://substack.com/app-link/post?publication_id=103238&post_id=202772079&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMjc3MjA3OSwiaWF0IjoxNzgxOTcwMzg5LCJleHAiOjE3ODQ1NjIzODksImlzcyI6InB1Yi0xMDMyMzgiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.MPoUiJrre_U8rsKf6aDxc5al_lXjY-nxsuDjD3JJHg0"
+        },
+        {
+          "text": "elvis",
+          "url": "https://substack.com/@elvissaravia"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/nlpnews/p/ai-agents-weekly-glm-52-claude-code?redirect=app-store"
+        },
+        {
+          "text": "Blog",
+          "url": "https://substack.com/redirect/7dbc3bbc-4326-468d-9af5-9968f2ce52f6?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "GitHub",
+          "url": "https://substack.com/redirect/8ec9a6b0-9ba3-4c22-9604-c496492d8f17?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9ubHAuZWx2aXNzYXJhdmlhLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGbmxwLmVsdmlzc2FyYXZpYS5jb20lMkZwJTJGYWktYWdlbnRzLXdlZWtseS1nbG0tNTItY2xhdWRlLWNvZGUmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjNE1UazNNRE00T1N3aVpYaHdJam94TnpnME5UWXlNemc1TENKcGMzTWlPaUp3ZFdJdE1UQXpNak00SWl3aWMzVmlJam9pWTJobFkydHZkWFFpZlEudG9DUzhjYUllMFNwTjFGOG5VNkhuOUpJQ2ZYMnczSTBIeS1lbE4wSGtaUSIsInAiOjIwMjc3MjA3OSwicyI6MTAzMjM4LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MTk3MDM4OSwiZXhwIjoyMDk3NTQ2Mzg5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.TxnYb2kolTn52QUPMi_Y4tbK9l2a1Hi2ySImlJ7ZXw4?simple=true&next=https%3A%2F%2Fnlp.elvissaravia.com%2Fp%2Fai-agents-weekly-glm-52-claude-code"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=103238&post_id=202772079&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMjc3MjA3OSwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODE5NzAzODksImV4cCI6MTc4NDU2MjM4OSwiaXNzIjoicHViLTEwMzIzOCIsInN1YiI6InJlYWN0aW9uIn0._yzRwW3fftis8JCZ3oj-eY73Iwx0sOfWxbFuIJCQGog&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=103238&post_id=202772079&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMjc3MjA3OSwiaWF0IjoxNzgxOTcwMzg5LCJleHAiOjE3ODQ1NjIzODksImlzcyI6InB1Yi0xMDMyMzgiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.MPoUiJrre_U8rsKf6aDxc5al_lXjY-nxsuDjD3JJHg0&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvbmxwbmV3cy9wL2FpLWFnZW50cy13ZWVrbHktZ2xtLTUyLWNsYXVkZS1jb2RlP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtcmVzdGFjay1jb21tZW50JmFjdGlvbj1yZXN0YWNrLWNvbW1lbnQmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0luQnZjM1JmYVdRaU9qSXdNamMzTWpBM09Td2lhV0YwSWpveE56Z3hPVGN3TXpnNUxDSmxlSEFpT2pFM09EUTFOakl6T0Rrc0ltbHpjeUk2SW5CMVlpMHhNRE15TXpnaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuTVBvVWlKcnJlX1U4cnNLZjZhRHhjNWFsX2xYalktbnhzdURqRDNKSkhnMCIsInAiOjIwMjc3MjA3OSwicyI6MTAzMjM4LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MTk3MDM4OSwiZXhwIjoyMDk3NTQ2Mzg5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.cPei7p22euUkeo_P3RPwRS6oyafck88Bnmq2KOc_csk"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🤖 AI Agents Weekly: GLM-5.2, Claude Code Artifacts, Qwen-Robot Suite, Codex Skills, Block's Builderbot, SpatialClaw, and More![](https://eotrx.substackcdn.com/o/cd77b1dc376075bd/p.gif?token=eyJtIjoiPDIwMjYwNjIwMTU0NTI1LjMuOWE3NmRhMGM0YTZlY2Y3N0BtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDI3NzIwNzksInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjEwMzIzOCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MTk3MDM4OSwiZXhwIjoxNzg0NTYyMzg5LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.miFKQr1tsYxUFdjuHfGJYImPv56rCE8GaCeemZLydso)\n\nGLM-5.2, Claude Code Artifacts, Qwen-Robot Suite, Codex Skills, Block's Builderbot, SpatialClaw, and More\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "📱 Robot phone makes high-profile appearance",
+      "date": "2026-06-20T16:08:08.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Genesis AI has unveiled a new humanoid robot design called Eno, which deviates from the traditional humanoid template and instead features a minimalist, appliance-like design with a wheeled base, and is capable of performing lab automation tasks.\n* Waymo has launched a new subscription tier called Waymo Premier, which offers priority matching, free cancellations, and loyalty credits to its frequent riders in San Francisco, Los Angeles, and Phoenix for $29.99 a month.\n* Honor has showcased its Robot Phone at the Shanghai International Film Festival, featuring a motorized camera that extends from the phone body like an antenna and tracks subjects automatically through robotic motion control.\n* Stringman, a DIY robot, can hang from cables anchored to a room's four corners and use a gripper to pick up items from the floor, covering an entire room from above and reaching under furniture.\n* Defense firm Milrem Robotics has proposed a concept to line NATO's eastern border with ground robots, aerial drones, and networked sensors to detect and respond to threats.\n* Scientists have developed a robotic lab platform to test drugs that can kill surviving tumor cells after chemotherapy, identifying nine effective drugs across multiple patients.\n* Alibaba has open-sourced its Qwen-Robot Suite, a trio of robotics AI models that can be deployed across humanoids, robotic arms, and quadruped robots.\n* Samsung is reportedly exploring a stake in Boston Dynamics, a leading robotics company.\n* An IFR report claims that the US robotics industry grew 11% last year, with China deploying roughly ten times as many robots as the US.\n* Dnsys has developed the Z1, a robotic knee exoskeleton that boosts leg power during movement and reduces joint strain.\n* Phone farms, rooms full of automated rigs, are generating artificial views, fake watch time, and manufactured likes on social media, distorting the numbers and corrupting recommendation algorithms.\n\n### Notable Links\n* Genesis AI's Eno robot\n* Waymo Premier subscription tier\n* Honor Robot Phone",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖 Genesis AI skips the humanoid template\n\nJune 20, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGWVc8iNIVKANUngYPA6aYFrDivMdUF2BpSkoRkmw-OmnvAPVSgQBxKg3ZOgZ_o65GUM8LZifDndE4ddZUneWUHxca-lu5jeY9LZYV6liHuWQe9Bqy6eHn0O9Phlrgio5Qy81qMF8MOP6B75pcx4t-zumg04_H1QthCZHU703ZDrgT698eXo4YyXF0n7lW0tPU0hRYJgTHEW3ZP-RvOg7bCobecv_sIi_5NIB7NEP0TyEOBZWJefoy8TIG6126-AuAw6urI7jBwMBRNbCfQ2qdA9FQ89Kjo7p5bVJG80yqLKm32f4WvwA68XNbej5EiMafEBmLaX5hruJ-sC8U_y2SukUBuYG93MjZ4Q4mIgXUBYjtf0kNbcYTE_yujIzz1jporUwZTzwDwzwpbkWI9z6QEhlH8HgTCJJzkeRewwZs23hT32gsEcrU52hv1GjDxMnr9wz4pxZiiKAZFHwMCkDlJMFp1cTigu1jYhEP4dV99FtCJHXhwLbUH3XYJBuq2tM9lD_f1XosiHhbFWnXsW_Clmqu0BYohVw4XkbxIrVvdPo1vFZ9mbZ01E3j9c5YrADf-Q2ZaQPy4Xcoghy9Yc5OBVQdlpQdENXqeYPk9af6l6w5mftyvqsdoY6eNdxwJIhgr1xbHhaSUM1YycnmH0kmrkywWn1mxFKyEqItCuSbrcB1woltXlyZ_M22ZVh2IDaeKU6pxGf4Ffn_P8Y-dlnHehvIHPljeYqJpZy_w-17T1kb3AbgYaayXyrXeDmKyTQNO3Pb-gdgpdtrnXuZfj_qCM/4rn/04e8IEKHRj6LG6TSHfS1xA/h0/h001.w0alaUQ4OkCZRPU"
+    },
+    {
+      "from": "\"Uncovering AI\" <uncoverai@mail.beehiiv.com>",
+      "subject": "🧠 Anthropic just added a Nobel winner — from Google",
+      "date": "2026-06-20T17:37:05.000Z",
+      "summary": "## Uncovering AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Google DeepMind lost two of its most important researchers to rival AI labs: Noam Shazeer, the co-lead of Gemini and co-author of the Transformer paper, joined OpenAI, and John Jumper, the VP who won the 2024 Nobel Prize in Chemistry for co-creating AlphaFold, joined Anthropic. This talent drain signals a significant shift in the AI landscape, with Anthropic and OpenAI gaining momentum.\n* Qualcomm's CEO declared the app era over, announcing that agents will replace apps across 40+ new device designs, including smart glasses, wearable pins, and earbuds. This shift towards agent-first computing will revolutionize the way we interact with devices and access information.\n* Google is struggling to retain its top AI talent, with two major researchers leaving in 48 hours. This brain drain could impact Google's ability to compete with Anthropic and OpenAI in the AI market.\n* Anthropic is building wet labs and AI-for-science infrastructure, signaling a significant investment in AI research and development. This move could lead to breakthroughs in various fields, including biology and chemistry.\n* Mukesh Ambani's Reliance Industries announced the Jio Call Agent, an AI-powered voice assistant that will be integrated into the Jio network, allowing users to transcribe conversations, make reservations, and order food on command.\n* Amazon is entering the AI chip market, posing a significant threat to Nvidia's core business. This move could lead to a major shift in the AI hardware landscape.\n* Norway has banned the use of generative AI tools in schools for students aged 6-13, citing concerns about the impact on foundational learning.\n* The ex-CEO of Allbirds is building an AI startup with $0 in staff, using AI to automate tasks and processes.\n\n### Notable Links\n* [Attention Is All You Need](https://arxiv.org/abs/1706.03762)\n* [AlphaFold](https://www.nature.com/articles/s41586-021-03828-1)\n* [Transformer](https://arxiv.org/abs/1706.03762)\n* [ChatGPT](https://chat.openai.com/)\n* [Gemini](https://cloud.google.com/ai-platform/gemini)\n* [Anthropic](https://www.anthropic.com/)\n* [OpenAI](https://www.openai.com/)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🧠 Anthropic just added a Nobel winner — from Google\n\nGoogle loses two Nobel-level minds in 48 hours. This is bigger than a talent story.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 20, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/Ac06%2BauXwGnPVxTzJsu8gsq1ur0XPmz09xl1Dt8v8Xe04awMeOEPnrq%2BpQit%0AMVQWd%2B0wGijWvmkUA1hN3fF9dAvy404GIoDngMhKdO999Jf3Pa9nxOtDszuf%0A2t4rH%2BrA3ex4kIVlMQYvqtTpq1QteqOJ%2FGH844v3csvm5gBR%2BWoFfEFnLa7g%0AqL%2Bpj%2Bc5mgpmdX2brwOiq5s9TflVpfGkdw%3D%3D%0A/1a3ca2f897ae879b)\n\n# 🧠 Anthropic just added a Nobel winner — from Google\n\nGoogle loses two Nobel-level minds in 48 hours. This is bigger than"
+    },
+    {
+      "from": "\"DeepLearning.AI\" <invoice+statements+acct_1RHZepJKh2G7HNV5@stripe.com>",
+      "subject": "Your receipt from DeepLearning.AI #2572-4360",
+      "date": "2026-06-20T21:27:17.000Z",
+      "summary": "## DeepLearning.AI\n\n**Priority: LOW**\n\n### Top Updates\n- The newsletter appears to be a receipt from DeepLearning.AI for a payment of ₹999.00, made on June 20, 2026, for a subscription to their \"Pro\" service, which will be active from June 19 to July 19, 2026. This update is relevant for billing and subscription management purposes but does not contain significant AI-related news or developments.\n- The receipt includes details such as the receipt number (#2572-4360), invoice number (QYACAV0X-0005), and payment method (Visa - 9587), which are important for record-keeping and payment verification.\n- The newsletter also provides links to manage the subscription and to access support, which can be useful for users needing to update their subscription details or requiring assistance with their DeepLearning.AI services.\n\n### Notable Links\n- Download invoice: This link allows users to download a copy of their invoice for record-keeping purposes.\n- Download receipt: This link provides access to a downloadable receipt, useful for payment verification and financial record-keeping.\n- Manage your subscription: Users can update or cancel their subscription through this link.\n- Support site: For questions or issues, users can visit the DeepLearning.AI support site for assistance.\n- Learn more about Stripe Billing: This link directs to information about Stripe's billing services, which are used by DeepLearning.AI for payment processing.",
+      "links": [
+        {
+          "text": "Download invoice",
+          "url": "https://58.email.stripe.com/CL0/https:%2F%2Fpay.stripe.com%2Finvoice%2Facct_1RHZepJKh2G7HNV5%2Flive_YWNjdF8xUkhaZXBKS2gyRzdITlY1LF9ValhpWXpHTGRteVVxN0lPbGNPSmREcFdPWVhlZ20xLDE3MjUzMTYzMg0200BIzARlvO%2Fpdf%3Fs=em/1/0100019ee6ee4d79-e8b032d9-6d38-4d99-8b78-fdf79fc52839-000000/bRRQlaMh2s-VbXz2KXJEq_L4ZYwiC3WJRObF2opk9zc=452"
+        },
+        {
+          "text": "Download receipt",
+          "url": "https://58.email.stripe.com/CL0/https:%2F%2Fdashboard.stripe.com%2Freceipts%2Finvoices%2FCAcQARoXChVhY2N0XzFSSFplcEpLaDJHN0hOVjUosIvc0QYyBu8uLpRw2DovFib00R0bFJbA39vK2725PUh0OHQVOIbJV9vz0UGy8FX_iaNJs5zGDEH_R65n2BE%2Fpdf%3Fs=em/1/0100019ee6ee4d79-e8b032d9-6d38-4d99-8b78-fdf79fc52839-000000/Frb7k2VJHM5Vvb_GAuusSSObVK2q6KbXT2tyjNP2XfU=452"
+        },
+        {
+          "text": "Manage your subscription",
+          "url": "https://58.email.stripe.com/CL0/https:%2F%2Fbilling.stripe.com%2Fp%2Flogin%2FcN26q31YI5QY6Va4gg/1/0100019ee6ee4d79-e8b032d9-6d38-4d99-8b78-fdf79fc52839-000000/rmMqvCzEFk25khgVi9SJu39xDt62FxGCuof30OyVFow=452"
+        },
+        {
+          "text": "support site",
+          "url": "https://info.deeplearning.ai/knowledge-base"
+        },
+        {
+          "text": "Learn more about Stripe Billing",
+          "url": "https://58.email.stripe.com/CL0/https:%2F%2Fstripe.com%2Fbilling/1/0100019ee6ee4d79-e8b032d9-6d38-4d99-8b78-fdf79fc52839-000000/xSrTayv4CcdEFVoKXgWWcUgBObv9KgoqHo1wrz2k91I=452"
+        }
+      ],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": " Your receipt from DeepLearning.AI #2572-4360\n\n     \n\nYour receipt from DeepLearning.AI #2572-4360  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­  \n\n[\n\n](https://deeplearning.ai/)\n\n \n\nDeepLearning.AI\n\n \n\nReceipt from DeepLearning.AI\n\n₹999.00\n\nPaid June 20, 2026\n\n \n\n \n\n \n\n![invoice illustration](https://stripe-images.s3.amazonaws.com/emails/invoices_invoic"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "Your GTM, run by agents",
+      "date": "2026-06-20T21:40:03.000Z",
+      "summary": "## The AI Corner\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Carles Reina, an employee at ElevenLabs, built a go-to-market strategy that generated $500M in revenue, using 8 agents, 3 workflows, and operator rules, which can be taught and replicated.\n* The 8-agent GTM stack includes each agent mapped to a proven operator rule, with copy-paste prompts, and the operator rules act as guardrails to ensure discipline and scalability.\n* The 3 workflows that chain the agents together are the morning loop, the outbound loop, and the forecast loop, which help automate tasks such as sourcing, enriching, sequencing, forecasting, and expanding.\n* The tool stack used includes Clay, HubSpot, and Claude, and connectors that allow agents to act inside systems.\n* A keep-it-human map is used to protect GTM work from automation, ensuring that human judgment and decision-making are preserved.\n* A 30-day rollout plan is provided to help implement the GTM agent stack, from setting up the first agent to a self-running engine.\n* Related builds and resources are available, including the AI Agents library, Prompting and Context Engineering library, AI Tools and Models library, and Business and Investing library.\n\n### Notable Links\n* The AI Corner: [link]\n* AI Agents library: [link]\n* Prompting and Context Engineering library: [link]\n* AI Tools and Models library: [link]\n* Business and Investing library: [link]\n* Five-agent sales team: [link]\n* Loop engineering: [link]\n* How to build an AI agent guide: [link]\n* VC founder playbook: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRnlvdXItZ3RtLXJ1bi1ieS1hZ2VudHMiLCJwIjoyMDI4ODg5OTksInMiOjY4NTA1NDQsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgxOTkxNzAwLCJleHAiOjIwOTc1Njc3MDAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.XSU_m4bkBnxqZVZnNFu1bZXb07hmFKpkKBSodO8uiqU?"
+        },
+        {
+          "text": "Your GTM, run by agents",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=202888999&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMjg4ODk5OSwiaWF0IjoxNzgxOTkxNzAwLCJleHAiOjE3ODQ1ODM3MDAsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.gYaCeZSdkphXj6GSZ6mOMDZG2MNkaySVon03Zm7tpFg"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/your-gtm-run-by-agents?redirect=app-store"
+        },
+        {
+          "text": "AI Corner",
+          "url": "https://substack.com/redirect/cd4e48a4-7c42-43c8-bda4-111fd9fdb668?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI Agents library",
+          "url": "https://substack.com/redirect/1e94a8b6-6c47-4169-b115-89a3f5e2ae7e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Prompting and Context Engineering library",
+          "url": "https://substack.com/redirect/ba61d2da-6a8c-435f-b388-e92d04d05e41?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI Tools and Models library",
+          "url": "https://substack.com/redirect/0f778fdf-5be2-45b2-819b-55f64e20c9e7?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Business and Investing library",
+          "url": "https://substack.com/redirect/90f7290f-4716-4593-bad5-a21435f06cf7?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "five-agent sales team",
+          "url": "https://substack.com/redirect/b1309b8c-4015-4190-9e6e-02d156f1bfbb?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Your GTM, run by agents![](https://eotrx.substackcdn.com/o/e6127d3ea6266510/p.gif?token=eyJtIjoiPDIwMjYwNjIwMjE0MDAzLjMuZTk4ZThlMzQ0ZDMwOTBmNEBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDI4ODg5OTksInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjY4NTA1NDQsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODE5OTE3MDEsImV4cCI6MTc4NDU4MzcwMSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.38q_WYizfZSrYyivmoax940IcvCXYWd3XwOM8Ux2v6U)\n\n8 agents, 3 workflows, and the operator rules behind serious revenue, like ElevenLabs' Carles Reina.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    }
+  ],
+  "tldr": [
+    "Google DeepMind loses key researchers.",
+    "Qualcomm shifts to agent-first computing.",
+    "Anthropic builds AI-for-science infrastructure.",
+    "Apple's Siri uses custom Gemini model.",
+    "ChatGPT hits 1 billion MAUs milestone."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is a frontier AI company best known for its Claude family of large language models and its focus on building “reliable, steerable” AI systems for enterprise and developer use.[9][14] It matters because it is one of the leading model labs shaping the AI market, with recent reporting pointing to very large compute deals, rapid revenue growth, and a possible IPO narrative that underscores how central it has become to the sector’s infrastructure and commercialization dynamics.[2][10]\n\nThe latest notable development is Anthropic’s announcement that the US government issued an export-control directive requiring it to suspend access to its Fable 5 and Mythos 5 models, which Anthropic says forced it to disable access to those systems.[12] In parallel, the company has also been expanding capacity and usage limits through a major compute partnership with SpaceX, while its public-facing news and coverage have emphasized both fast product scaling and heightened safety concerns around powerful models.[10][12] The newsletter context about Anthropic “adding a Nobel winner from Google” likely refers to a high-profile senior hire or advisory addition, but that specific detail is not confirmed in the supplied sources, so it should be treated as unverified without a direct primary source.",
+        "source": "web search"
+      },
+      {
+        "topic": "Google",
+        "context": "Google is one of the largest and most influential companies in the AI/ML space, primarily through its Gemini models, Google DeepMind research, and Google Cloud’s AI platform.[6][7][10] Its work underpins products from Search and Workspace to Android and Maps, and its models are increasingly licensed to major partners, making Google both a foundational AI research lab and a commercial platform provider.[5][11] The newsletter note about losing “two Nobel-level minds” refers to high-profile researchers leaving for other AI labs or startups, which has raised questions about talent retention even as Google continues to ship major AI products at scale.\n\nIn the latest developments, Google has been rapidly expanding the **Gemini** ecosystem, rolling out Gemini 2.5 Pro and Flash as generally available models, plus new low-cost **Flash-Lite “thinking models”** via the Gemini API and Google AI Studio.[12] It has also moved its latest **Imagen 4** text-to-image model and **Veo 3/3.1** video generation models into paid preview or general availability, targeting richer video, better native audio, and stronger text rendering for enterprise and creative use cases.[12] On the infrastructure side, Google Cloud used recent launches to push dedicated training and inference chips (TPU 8t and 8i) and to deepen its enterprise AI stack via the Gemini Enterprise Agent Platform, large investments and partnerships (including a multibillion-dollar Anthropic tie-up and integration deals with Adobe, Atlassian, Salesforce, ServiceNow, and Workday), and a high-profile agreement to power the next version of Apple’s Siri with Gemini.[10][11] These moves matter because they position Google as a full-stack AI provider—research, models, chips, and cloud platform—directly competing with OpenAI/Microsoft and others, even as the loss of star researchers highlights the intense talent competition and shifting center of gravity across the AI industry.",
+        "source": "web search"
+      },
+      {
+        "topic": "GLM-5.2",
+        "context": "GLM-5.2 is Z.ai’s latest **open‑weight large language model**, positioned as a flagship **engineering/agentic coding model** with a focus on long‑running software development and automation tasks.[2][5][9] It is a very large model (reported around 744–753B parameters) with a **1 million token context window** and up to 131k output tokens, enabling it to reason over entire repositories, long documents, and multi‑step workflows in a single session.[4][5][8] Architecturally, Z.ai highlights techniques like **IndexShare** to cut per‑token compute at 1M context by about 2.9× and improved multi‑token prediction to extend speculative decoding, aiming to keep long‑context usage economically viable.[5] The model exposes multiple “effort” levels (e.g., GLM‑5.2 max vs high) so agents can trade off speed and cost against deeper reasoning on complex coding tasks.[3][9]\n\nGLM‑5.2 matters because it pushes **frontier‑level performance into the open‑weights ecosystem** specifically for agents and coding, directly challenging closed models from OpenAI and Anthropic on both quality and cost.[1][5][14] Public benchmark and arena results report that GLM‑5.2 is competitive with or slightly ahead of GPT‑5.5 and Claude Opus/Fable on several coding and long‑horizon tests, including top‑tier scores on SWE‑bench Pro and Terminal‑Bench and a #1 open‑model ranking on the Agent Arena leaderboard for agent tasks.[1][5][10][11] Z.ai is releasing it under an **MIT license** with downloadable weights plus pay‑as‑you‑go APIs and hosted chat, and it is already integrated into platforms like **Cloudflare Workers AI** and SGLang-based stacks for agentic workflows.[2][3][6][9] In practice this means developers and enterprises can build repository‑scale coding agents, CI/CD copilots, and long‑horizon automation systems on infrastructure they control, narrowing the gap between open and proprietary models and accelerating experimentation in AI agents that can plan, call tools, and execute complex software engineering tasks over hours or days.[1][5][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "Google Gemini",
+        "context": "Gemini is Google’s family of large-scale generative AI models and the associated assistant experience that is now embedded across many Google products, including Gmail, Docs, Search, Android, and Google Cloud services.[2][4] In consumer tools like Gmail, Gemini can draft and refine emails, summarize long threads, suggest replies, and pull context from across your inbox and Drive to help with tasks, functioning as a context-aware productivity assistant inside the familiar Google Workspace interface.[2][3] On the backend, developers and enterprises access these same models via the Gemini API and the Gemini for Workspace and Gemini for Enterprise offerings, enabling custom AI workflows, chatbots, and agents that integrate with their data and applications.[4][6][7]\n\nRecent developments center on making Gemini faster, more multimodal, and more deeply integrated into Google’s ecosystem. Google has introduced newer model variants like **Gemini 3 Flash** to provide quicker, cost-efficient responses for everyday tasks in the Gemini app and AI Mode in Search, alongside advanced audio models for real-time voice interactions and live speech translation.[9] Google has also added tools such as video verification in the Gemini app, using SynthID watermarks to detect AI-generated content, reflecting a growing emphasis on safety and content authenticity.[9] On the enterprise and public-sector side, offerings like Gemini for Government, deployed on platforms such as GenAI.mil, highlight how Gemini is being positioned as a secure, high-assurance AI capability for large organizations, with features like retrieval-augmented generation and grounding in Google Search to reduce hallucinations.[4][11] Collectively, these moves show Gemini’s increasing impact as a general-purpose AI platform that competes directly with systems like OpenAI’s GPT models, reshaping productivity tools, cloud platforms, and how end-users interact with services like Gmail and Search.[2][4][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is a family of large language model–powered assistants developed by OpenAI, designed to understand natural language, generate text, write and debug code, analyze documents and spreadsheets, and assist with tasks in tools like Excel, Word, and other productivity software.[4][8][9] It matters because it has become one of the most widely used AI interfaces globally, with hundreds of millions of users, and serves as a reference point for how generative AI is integrated into everyday workflows, from data analysis and content creation to education and customer support.[6] Its Excel-related capabilities have improved as newer GPT‑4.x and GPT‑5.x models (and specialized coding/reasoning models like o3‑mini and Codex-based agents) handle larger documents, more complex formulas, and multi-step data-cleaning or automation tasks directly from natural language instructions.[1][4][8]\n\nRecent developments include OpenAI’s release of new GPT‑4.1 and 4.1‑mini models for the API, which offer better reasoning, coding, and long‑context handling (up to around a million tokens) and underpin many ChatGPT features for working with large files and datasets.[1][4] OpenAI has also been rolling out ChatGPT-specific features such as Deep Research, an agent inside ChatGPT that can perform multi-step web research; Study Mode for more interactive learning; and a Library/workspace experience for organizing and querying uploads like Word documents, PDFs, and Excel sheets in a persistent way.[1][3][9] On the product and business side, OpenAI has begun testing advertisements for free and “Go” users in the U.S., signaling a shift in monetization strategy, and introduced age-prediction and safety controls to better handle under‑18 users.[5][6] These changes reflect a broader industry trend toward agentic, tool-using AI systems and sustainable business models.\n\nIn the wider AI/ML landscape, ChatGPT continues to shape expectations for general-purpose AI assistants and has driven competing offerings from Google (Gemini), Anthropic (Claude), and others, all racing to match or exceed its coding, reasoning, and productivity capabilities.[1][3] Enterprises are increasingly embedding ChatGPT and OpenAI models into workflows for code generation, analytics, and internal knowledge search, while regulators, researchers, and courts scrutinize its societal impact, including issues around safety, misinformation, mental health, and liability.[6][11][13] As newer OpenAI models (including reasoning-focused and domain-tuned variants) become available through ChatGPT and its API, industry impact is shifting from simple chatbots toward AI agents that can reliably execute complex tasks—such as end‑to‑end data analysis or report generation—making ChatGPT not just a conversational novelty but a core component in modern AI-powered productivity stacks, including for power users of tools like Excel.[1][3][4]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Noam Shazeer leaves Google to lead architecture research at OpenAI",
+        "summary": "Noam Shazeer, co‑author of the original Transformer paper that underpins modern large language models, has departed Google to join OpenAI as Lead for Architecture Research.[8] He is expected to be responsible for the design of OpenAI’s future neural network architectures, directly influencing the next generations of GPT‑class models.[8]",
+        "whyItMatters": "For practitioners, Shazeer’s move could materially affect how future OpenAI models are structured and optimized, with potential downstream changes in model capabilities, efficiency, and training paradigms. It also signals intensifying talent competition between frontier labs, which may shape the pace and direction of state‑of‑the‑art model development.",
+        "source": "BuildFastWithAI daily AI news (June 20, 2026), citing ThePlanetTools.ai"
+      },
+      {
+        "headline": "Apple’s overhauled Siri runs on a custom ~1.2T‑parameter Gemini model licensed from Google",
+        "summary": "Apple’s WWDC 2026 unveiling of the new Siri AI confirmed that cloud‑side capabilities are powered by a customized Gemini model of roughly 1.2 trillion parameters that Apple licenses from Google for about $1 billion per year.[10] The upgrade brings significantly improved conversational ability, contextual awareness, and cross‑device integration across the Apple ecosystem.[10]",
+        "whyItMatters": "This is a major reference deployment of a frontier‑scale model embedded deeply in a consumer OS, raising the bar for latency, privacy, and reliability at massive scale. It also highlights a growing platform pattern where device vendors integrate third‑party foundation models, which affects how practitioners think about distribution, deployment targets, and where to focus model vs. application‑layer innovation.",
+        "source": "OsasAI weekly AI summary (week of June 8–17, 2026) based on WWDC 2026 and subsequent reporting"
+      },
+      {
+        "headline": "ChatGPT hits 1 billion MAUs as its share of the AI assistant market drops below 50%",
+        "summary": "Sensor Tower’s latest State of AI report indicates ChatGPT has reached approximately 1 billion monthly active users, making it the fastest app in history to do so.[10] At the same time, its market share among AI assistants has fallen below 50%, with Gemini at about 27.7% and Claude around 10.3%.[10]",
+        "whyItMatters": "For AI builders, this combination of massive absolute scale and rising competition changes distribution dynamics: no single assistant is a guaranteed default channel. It underscores the importance of multi‑platform strategies, interoperability, and differentiation at the application and tooling layers rather than relying on one dominant model ecosystem.",
+        "source": "OsasAI synthesis of Sensor Tower’s State of AI market data"
+      },
+      {
+        "headline": "G7 brings Altman, Amodei, and Hassabis together for joint briefing on frontier AI risks",
+        "summary": "At a recent G7 gathering, the CEOs of OpenAI (Sam Altman), Anthropic (Dario Amodei), and Google DeepMind (Demis Hassabis) appeared together in front of world leaders to discuss frontier AI development and associated risks.[10] Their joint presence underscores both the geopolitical relevance of AI and the concentration of frontier capabilities in a small number of firms.[10]",
+        "whyItMatters": "This signals continued movement toward coordinated international governance of frontier models, which may translate into more concrete regulatory and standards frameworks affecting access, safety compliance, and reporting obligations. Practitioners building on top of frontier APIs should expect evolving policy constraints, especially for high‑risk or dual‑use applications.",
+        "source": "OsasAI weekly AI summary of G7 proceedings and leadership appearances"
+      },
+      {
+        "headline": "Claude Fable 5 and Mythos 5 remain suspended under U.S. export controls with refunds and free‑access windows closing",
+        "summary": "Anthropic’s Claude Fable 5 and Mythos 5 remain offline after a June 12 U.S. export control directive, with the June 20 refund deadline now passed and the June 22 free‑trial access window closing shortly.[2][3][8] Anthropic had previously indicated it was working with regulators and hoped to restore access within days, but no firm restoration date has been announced.[2][3]",
+        "whyItMatters": "For practitioners, the sudden unavailability of top‑tier models due to regulatory action is a concrete reminder of platform and jurisdictional risk in model selection. It reinforces the need for architectural resilience—such as multi‑model routing, abstraction layers, and robust migration paths—when building products on frontier LLMs that may face abrupt policy‑driven interruptions.",
+        "source": "BuildFastWithAI daily AI news (June 20, 2026) and PromptAI Learning daily/weekly coverage of the export control action"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as having added a Nobel winner from Google"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as losing two Nobel-level minds to other companies"
+      },
+      {
+        "name": "GLM-5.2",
+        "type": "product",
+        "context": "Mentioned as a recent development in AI agents"
+      },
+      {
+        "name": "Gemini",
+        "type": "product",
+        "context": "Mentioned as a tool that can be used in Gmail"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as a tool that can be used to master Excel"
+      },
+      {
+        "name": "DeepLearning.AI",
+        "type": "company",
+        "context": "Mentioned as the sender of a receipt for a purchase"
+      },
+      {
+        "name": "Nobel Prize",
+        "type": "event",
+        "context": "Mentioned as an award that recognizes outstanding achievements in science"
+      },
+      {
+        "name": "Genesis AI",
+        "type": "company",
+        "context": "Mentioned as a company that is developing AI technology"
+      },
+      {
+        "name": "Claude Code Artifacts",
+        "type": "product",
+        "context": "Mentioned as a recent development in AI agents"
+      },
+      {
+        "name": "Codex Skills",
+        "type": "product",
+        "context": "Mentioned as a recent development in AI agents"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-06-21T00:30:38.873Z",
+  "dateString": "2026-06-21"
+}
