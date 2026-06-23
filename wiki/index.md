@@ -61,7 +61,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[project-prometheus]] — Jeff Bezos's "artificial general engineer" company; automates CAD + physics-based simulation; $41B framing (Jun 2026)
 - [[qualcomm]] — AI200/AI250 data-center AI chips *(stale)*
 - [[recursive-superintelligence]] — Tim Rocktäschel ex-DeepMind RSI startup; $650M @ $4.65B in a single day (May 2026)
-- [[reflection]] — raised $2B *(stale)*
+- [[reflection]] — NVIDIA-backed US open-source lab founded by ex-Google DeepMind researchers; $6.3B SpaceX Colossus 2 / GB300 compute deal (Jun 2026)
 - [[replit]] — browser IDE; non-coder pivot *(stale)*
 - [[runway]] — AI video; Gen-4.5 tops Veo 3 and Sora on Artificial Analysis *(stale)*
 - [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
@@ -240,6 +240,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwen3-coder-next]] — Alibaba's Feb 2026 open-weights 80B MoE coding-agent model (800K coding tasks) *(stale)*
 - [[rtx-spark]] — NVIDIA's 1-petaflop consumer-PC superchip for running frontier-scale AI models locally on laptops and desktops; ships fall 2026
 - [[runway-gen-4-5]] — Runway's text-to-video; tops Veo 3 and Sora on Artificial Analysis benchmark *(stale)*
+- [[sakana-fugu]] — Sakana AI's multi-agent orchestration platform; behaves like single model from API consumer's perspective; claimed parity with Fable/Mythos (Jun 2026)
 - [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2.5 weeks away with longer clips + 4K imminent + Seedance 2.0 mini lower-cost variant released (Jun 2026)
 - [[snap-specs]] — Snap's $2,195 standalone AI AR glasses for the post-phone era; 51° FOV, 7ms latency, two Snapdragon chips, contextual AI (Jun 2026)
 - [[sora-2]] — OpenAI's video model; physics, audio, monetization, Hollywood pushback *(stale)*
