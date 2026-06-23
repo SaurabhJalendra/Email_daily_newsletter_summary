@@ -1,0 +1,48 @@
+---
+name: GPT-5.5-Cyber
+description: OpenAI's cybersecurity-specialist variant of GPT-5.5; record 85.6% on CyberGym benchmark; available to verified defenders inside OpenAI Daybreak (Jun 2026)
+type: product
+---
+
+# GPT-5.5-Cyber
+
+> **Type**: product
+> **Vendor**: [[openai]]
+> **First mentioned**: 2026-06-23-evening
+> **Last updated**: 2026-06-23-evening (**AINews HIGH + Evolving AI Insights cycle-cohort first publicly framed GPT-5.5-Cyber product surface in this wiki: full GPT-5.5-Cyber model for trusted defenders + record 85.6% on CyberGym test + verified-defender deployment tier inside [[openai-daybreak]] / "Patch the Planet" / Codex Security plugin / Cyber Partner Program expansion** — structurally novel as the first publicly framed *cybersec-specialist variant* of the GPT-5.5 SKU; productizes Daybreak's prior May 2026 launch from *general-purpose cyber-defense platform* into a *named cybersec-specialist model + verified-defender productization* cycle event)
+> **Status**: launched (generally available to verified defenders via [[openai-daybreak]] / Cyber Partner Program)
+> **Related**: [[openai]], [[gpt-5-5]], [[gpt-5-4-cyber]], [[openai-daybreak]], [[codex-security]], [[aardvark]], [[claude-mythos]], [[project-glasswing]], [[ai-cybersecurity-arms-race]]
+
+## Summary
+
+GPT-5.5-Cyber is [[openai]]'s cybersecurity-specialist variant of the [[gpt-5-5]] flagship, productized inside the [[openai-daybreak]] cyber-defense platform's June 2026 expansion. The model holds a record **85.6% score on the CyberGym test** (the canonical cybersec capability benchmark where Microsoft MDASH previously held the lead after surpassing [[claude-mythos]] in May 2026), and is now generally available to *verified defenders* — a deployment tier productized via the new Cyber Partner Program. The model launches alongside the **Codex Security plugin** and **Patch the Planet** open-source-flaw-fixing initiative as part of the broader Daybreak expansion, positioning OpenAI as a direct competitor to Anthropic's controlled-access [[claude-mythos]] / [[project-glasswing]] on the cybersec-AI axis.
+
+The launch reads as OpenAI's *capability-progression event* — Daybreak graduates from "bug-finding AI" (May 2026 launch) to "bug-finding-and-bug-fixing AI for trusted defenders" with GPT-5.5-Cyber as the underlying capability driver. The 85.6% CyberGym record concretizes the capability tier against named benchmarks; the verified-defender deployment tier productizes the controlled-access deployment model that Anthropic established with Mythos / Glasswing. Sits in the same competitive cycle as the same-edition [[sakana-fugu]] Ultra (multi-agent-orchestration cybersec capability via $10/message tier) + [[claude-mythos]] still-suspended status under US export controls; structurally significant as the first cycle where the *defender-side* cybersec-AI capability surface is dominated by a US-domestic frontier-lab product (Daybreak / GPT-5.5-Cyber) rather than Mythos.
+
+## Timeline
+
+- **2026-06-23-evening**: **GPT-5.5-Cyber publicly framed as cybersec-specialist variant of GPT-5.5; record 85.6% CyberGym; available to verified defenders inside [[openai-daybreak]] expansion**. (1) **AINews HIGH-priority framing**: ***"OpenAI has expanded its Daybreak program, focusing on cyber security, with the introduction of a Codex Security plugin, the full GPT-5.5-Cyber model for trusted defenders, a Cyber Partner Program, and Patch the Planet for securing critical open-source software (OSS)."*** First publicly framed *full GPT-5.5-Cyber model for trusted defenders* in this wiki — productizes the prior GPT-5.5 SKU into a *cybersec-specialist* variant deployment tier with explicit "trusted defenders" gating. (2) **Evolving AI Insights record-benchmark framing**: ***"OpenAI's GPT-5.5-Cyber has achieved a record 85.6% on the CyberGym test and is now available to verified defenders, who can run it inside their own products to improve security."*** First publicly framed *85.6% CyberGym record* on a named OpenAI cybersec-specialist variant in this wiki — concretizes the capability-tier against the canonical cybersec benchmark. CyberGym is the same benchmark where Microsoft MDASH (100+ specialized agents chained) previously surpassed [[claude-mythos]] in May 2026 (see [[ai-cybersecurity-arms-race]] 2026-05-15 entry); the 85.6% framing implies GPT-5.5-Cyber now holds the CyberGym leadership position. Structurally significant: GPT-5.5-Cyber's "verified defenders... can run it inside their own products to improve security" framing concretizes the *embedded-deployment* model — verified defenders integrate GPT-5.5-Cyber into their own cybersec products (vs the prior Daybreak May 2026 framing where the platform was used directly). This is the *enterprise-OEM* deployment model: vendors can use GPT-5.5-Cyber as the underlying capability driver inside their proprietary cybersec offerings. (3) **Cycle structural significance**: this is the first publicly framed *named cybersec-specialist variant* of any GPT-5.x SKU in this wiki since [[gpt-5-4-cyber]] (April 2026). The naming convention "GPT-5.5-Cyber" follows the GPT-5.4-Cyber pattern — implies OpenAI's cybersec-specialist variant is now a *per-flagship-version recurring SKU* (GPT-5.4-Cyber → GPT-5.5-Cyber → likely future GPT-5.6-Cyber). Pairs cycle-structurally with same-cycle (a) Anthropic [[claude-mythos]] still suspended under US export controls, (b) Sakana [[sakana-fugu]] Ultra cybersec capability via multi-agent orchestration, (c) Five Eyes "months not years" warning, (d) Anthropic-Micron strategic deal — the cycle's cybersec narrative concentrates on US-domestic capability buildout. The 85.6% CyberGym record + verified-defender embedded-deployment model gives OpenAI a *named-leadership-tier* positioning on the cybersec-AI axis while Mythos remains unavailable. Body-recovery items: (a) GPT-5.5-Cyber pricing tier (bundled into Daybreak? Standalone API? Cyber Partner Program revenue share?), (b) verified-defender enrollment criteria + named-partner roster, (c) CyberGym 85.6% breakdown by category (offensive vs defensive vs analysis subtests), (d) GPT-5.5-Cyber vs Microsoft MDASH (100+ agents chain) head-to-head benchmark comparison, (e) GPT-5.5-Cyber capability deltas vs GPT-5.4-Cyber (April 2026 predecessor) — *source: data/summaries/2026-06-23-evening.json (AINews HIGH — OpenAI Daybreak / full GPT-5.5-Cyber model for trusted defenders / Codex Security plugin / Cyber Partner Program / Patch the Planet for OSS; Evolving AI Insights — OpenAI's GPT-5.5-Cyber has achieved a record 85.6% on the CyberGym test and is now available to verified defenders, who can run it inside their own products to improve security)*
+
+## Key Facts
+
+- Vendor: [[openai]]
+- Parent SKU: [[gpt-5-5]] (cybersec-specialist variant)
+- Predecessor: [[gpt-5-4-cyber]] (April 2026)
+- Distribution: [[openai-daybreak]] / Cyber Partner Program
+- Deployment tier: verified defenders (embedded OEM use — integrate inside own products)
+- Benchmark: **85.6% on CyberGym** (record)
+- Sibling components in Daybreak expansion: Codex Security plugin + Patch the Planet (OSS-flaw-fixing) + Cyber Partner Program
+- Strategic positioning: direct competitor to Anthropic's [[claude-mythos]] / [[project-glasswing]] controlled-access tier (with Mythos still suspended under US export controls)
+
+## Open Questions
+
+- Pricing tier — bundled into Daybreak, standalone API, or Cyber Partner Program revenue share?
+- Verified-defender enrollment criteria + named-partner roster
+- CyberGym 85.6% breakdown by subtest category (offensive vs defensive vs analysis)
+- Head-to-head benchmark comparison vs Microsoft MDASH (100+ specialized agents chain) and vs [[claude-mythos]] (suspended)
+- Capability deltas vs [[gpt-5-4-cyber]] (April 2026 predecessor) — how much improvement on CyberGym?
+- Does GPT-5.5-Cyber have dual-use risk classification (offensive capability spillover)?
+
+## Sources
+
+- data/summaries/2026-06-23-evening.json (AINews HIGH — OpenAI Daybreak / full GPT-5.5-Cyber model for trusted defenders / Codex Security plugin / Cyber Partner Program / Patch the Planet for OSS; Evolving AI Insights — OpenAI's GPT-5.5-Cyber has achieved a record 85.6% on the CyberGym test and is now available to verified defenders, who can run it inside their own products to improve security)
