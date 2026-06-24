@@ -1,0 +1,367 @@
+{
+  "date": "2026-06-23T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Wednesday, 24 June 2026\n\n## 🔥 Top Stories\n1. **OpenAI launched GPT-5.5-Cyber and \"Patch the Planet,\" a defensive cyber stack for the AI era** — This matters because it represents a significant push by OpenAI into cybersecurity, aiming to help organizations close vulnerabilities and protect against cyber threats.\n2. **Anthropic's Mythos AI reportedly broke into almost all of the NSA's classified systems in hours during an authorized test** — This matters because it highlights the immense capabilities and potential risks of advanced AI models, reframing how frontier AI is viewed in terms of national security.\n3. **Nvidia developed new servers that cool AI chips with zero water, reducing data center water usage to near zero** — This matters because it addresses environmental concerns related to data center operations, offering a more sustainable solution for the computing power needed to train and run AI models.\n4. **GPT-5 cracked a 3-year immunology mystery by solving a lab puzzle that had gone unsolved for years** — This matters because it demonstrates the potential of AI to contribute significantly to scientific research, particularly in complex domains like immunology.\n5. **SpaceX signed a $6.3 billion compute deal with open-source lab Reflection AI** — This matters because it reflects a substantial investment in computing power for AI development, underscoring the growing demand for advanced computational resources in the field.\n\n## 🤖 AI Models & Research\n- **ELY-SLAM: An Efficient SLAM Algorithm with Lightweight YOLO-Based Collaborative Perception** was discussed, which integrates a lightweight YOLO-based object detector, a motion-tracking algorithm, and an outlier rejection method for improved performance in dynamic environments.\n- **TabBench V2 benchmark** evaluates machine learning algorithms on 189 classification tasks, comparing the performance of tabular foundation models (TFMs), gradient-boosted decision trees (GBDTs), and tuned neural networks (NNs).\n- **GLM-5.2 has been released**, raising the bar for open models and representing a significant improvement over previous open models.\n- **Moebius is a highly efficient lightweight inpainting framework** that rivals and even surpasses the generation quality of industrial models.\n\n## 🛠️ Tools & Products\n- **ElevenLabs launched Ads Engine**, a platform that automatically translates existing ads across 50+ languages, linking to Meta, Google, and LinkedIn accounts.\n- **Cursor launched a mobile app** to drive cloud agents on the go and unveiled Origin, an agent-native GitHub competitor.\n- **Meta launched its own glasses line** in 26 styles, including a Kylie Jenner collaboration, and will ship with Meta AI powered by Muse Spark from day one.\n- **Gemini 3.5 Pro** is expected to enter its general-availability window, making it a highly anticipated unreleased AI model of 2026.\n\n## 📰 Industry News\n- **Lloyds Banking Group is hiring 300 tech specialists** to work on AI projects, including agentic AI, which can plan and carry out tasks with limited human input.\n- **Tencent is testing an AI assistant, Xiaowei**, within WeChat to enhance user interaction and challenge AI competitors like Alibaba in China.\n- **Barclays estimates humanoid robots could generate $200 billion in revenue by 2035**, with Nvidia already working with companies like Agility Robotics.\n- **Nvidia's push into robotics** is expected to increase the company's presence in the industry, with a focus on making robots safer and more efficient.",
+  "totalNewsletters": 12,
+  "newsletters": [
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "ELY-SLAM: An efficient SLAM algorithm with lightweight YOLO-based collaborative perception",
+      "date": "2026-06-23T12:56:11.000Z",
+      "summary": "## JournalClub.io Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The JournalClub.io newsletter discusses ELY-SLAM, an efficient SLAM (Simultaneous Localization and Mapping) algorithm that integrates a lightweight YOLO-based object detector, a motion-tracking algorithm, and an outlier rejection method to function correctly in environments with moving people.\n* ELY-SLAM is designed to overcome the limitations of traditional SLAM systems, such as ORB-SLAM3, which assume a stationary environment and can be disrupted by dynamic objects.\n* The algorithm uses a three-component approach: \n  1. A lightweight YOLO-based detector (LSR-YOLO) to identify regions likely to contain dynamic features, \n  2. The Lucas-Kanade (LK) optical flow method to track the motion of features in these regions, and \n  3. The PROSAC (Progressive Sample Consensus) outlier rejection method to filter out unreliable matches.\n* The authors evaluated ELY-SLAM on a set of benchmarks and compared its performance to ORB-SLAM3 and other baselines, demonstrating improved localization accuracy, cleaner static maps, and faster tracking.\n* ELY-SLAM is relevant to the development of robust, low-latency spatial AI for autonomous robots, AR/VR devices, and smart cameras, which require efficient and accurate SLAM systems to operate effectively in dynamic environments.\n\n### Notable Links\n* [ELY-SLAM: An Efficient SLAM Algorithm with Lightweight YOLO-Based Collaborative Perception](https://journalclub.io/episodes/ely-slam-an-efficient-slam-algorithm-with-lightweight-yolo-based-collaborative-perception)\n* Read the Original Paper\n* [The Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l)",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/ely-slam-an-efficient-slam-algorithm-with-lightweight-yolo-based-collaborative-perception?token=uvAl7Lbfr068Ac2gAwXhdA9uVnIuH51hzp2XnjKMXY8JdL61Rf"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "ELY-SLAM: An efficient SLAM algorithm with lightweight YOLO-based collaborative perception   \n\nWhen a robot is navigating an unfamiliar environment it has to answer two questions at the same time, over and over again: where am I right now, and what does the space around me look like? The second question can't be answered without knowing the first, and the first can't be answered without already knowing some version of the second. A catch-22.\n\n![](https://journalclub.io/px/fzdKbf1GIsxUvRrjcR7mCw28vqzz2I9FJmiR9AWoRITZX6EgeB)\n\nELY-SLAM: An efficient SLAM algorithm with lightweight YOLO-based collaborative perception\n\nJournalClub.io, June 23rd, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/9lOxjqAfQFyhEz6Kbs2S)](https://journalclub.io/episodes/ely-slam-an-efficient-slam-algorithm-with-lightweight-yolo-based-collaborative-perception?token=uvAl7Lbfr068Ac2gAwXhdA9uVnIuH51hzp2XnjKMXY8JdL61Rf)\n\nToday's article comes from the journal Array. The authors are Zhao et"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🌎 OpenAI wants to \"patch the planet\"",
+      "date": "2026-06-23T13:10:04.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI is expanding its cybersecurity push, with the full version of GPT-5.5-Cyber being rolled out to trusted partners, and the launch of \"Patch the Planet,\" a program to help organizations close vulnerabilities.\n* Anthropic's leading models, including Mythos and Fable, have been pulled, and the company is currently negotiating their release.\n* ElevenLabs has launched Ads Engine, a platform that automatically translates existing ads across 50+ languages, linking to Meta, Google, and LinkedIn accounts.\n* Nvidia has unveiled a new factory design that uses a closed-loop system to achieve near-zero water consumption in favorable climates.\n* Agent \"loops\" could become AI's next biggest trend, with leading voices in AI agreeing on the concept, which involves creating a repetitive workflow for AI to work efficiently.\n* OpenAI's GPT-5.5 model has been released, with improved planning, tool use, and self-correction capabilities, allowing users to hand it messy multi-step tasks and have the model autonomously plan steps, call tools, and check its own work.\n\n### Notable Links\n* Patch the Planet\n* Ads Engine\n* GPT-5.5",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🌑 OpenAI expands cyber push while Mythos stays dark\n\nALSO: How to fill out forms by talking to ChatGPT  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 23, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGX3SOpPRp_OmgxIwPU15SyclzckuYD-O6VwONAg-9aYAJHo3iV34nzxpEpIexF1YmDJk74HdSAg358h9FyZFJPNIWWBWuqqCmx1Er-svTC8wi2Ua9ETlvyduUuiFZXarVL2jAZ1fIqPlXuG8EL4R82esWn4ki5DT3gc_HGd3HRbR37PDY94lJCM_uBzrnbC59x2xGFZdvi9evsY6v1BagBBD-Hz2MtsM3A6bdk41a4mX7BItT9JO0huuckg8F25UmpmrxF0EoqExTKz56wkPYqfXvTYnZfoMx_gTzEkXcmteP4e6rVnvbJRRK9gON4b6_UXVG3P2kIxFHzXcItgBykOhO36yq-xWJ4_BATZBwj3vHPGPeGNdoGkFiw9"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "SpaceX paid $60B for Cursor — here's what developers actually get",
+      "date": "2026-06-23T13:20:01.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n- OpenAI has launched GPT-5.5-Cyber, a specialized model that scored 85.",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=a134a6c52ffc8b81&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=a134a6c52ffc8b81&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=a134a6c52ffc8b81&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=a134a6c52ffc8b81&mid=9eb02073-7a4c-4ee1-9d40-fc585e74ed88&s=SpaceX%20paid%20%2460B%20for%20Cursor%20%E2%80%94%20here%27s%20what%20developers%20actually%20get&t=1782220787)\n\nComposer 3 ships 5 trillion parameters trained on 100K GPUs, plus a joint Cursor-SpaceX model inside Grok Build.\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=a134a6c52ffc8b81&lid=1ne5HeEGHUAGfMnML&mid=9eb02073-7a4c-4ee1-9d40-fc585e74ed88)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=a134a6c52ffc8b81&lid=1i6CGLjBjtLxeilBc&mid=9eb02073-7a4c-4ee1-9d40-fc585e74ed88)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nThe coding layer is getting a full security upgrade. OpenAI s"
+    },
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "grok vs grok",
+      "date": "2026-06-23T13:28:17.000Z",
+      "summary": "## Staying Ahead with AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses the capabilities of Grok Imagine, a tool that can generate videos and animations, and compares its performance to Sora, a similar tool that was previously available.\n* The author tests Grok Imagine on three different tasks: creating a close-up portrait of a young woman, simulating fluid physics, and creating a product animation for a brand.\n* The results show that Grok Imagine's auto-suggested animations can be just as good as, or even better than, the author's manually directed prompts.\n* The author concludes that Grok Imagine is a viable replacement for Sora, especially for short clips and fast turnaround times, with a price point of around $4.20 per minute for 720p video.\n* The newsletter also provides tips on how to optimize the use of AI tools like Grok Imagine, such as starting a fresh chat per task, asking for shorter answers, and using lighter models for simple tasks.\n* Additionally, the newsletter mentions OpenAI's latest developments, including the consolidation of its roadmap around GPT-5 and the release of specialized reasoning models like o3 and o3-mini.\n* OpenAI is also strengthening its cyber and safety posture by acquiring Promptfoo, a startup focused on automated testing and red-teaming of AI agents, and building offerings like ChatGPT Gov for U.S. government agencies.\n\n### Notable Links\n* Grok Imagine\n* [OpenAI](https://www.openai.com/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "grok vs grok\n\nJune 23, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.2WMshDh4P1SYN8SqaafnJdjdmWP1WD1rdGPofZ1FxFpDNuqFY1IFM2z-bcvcNM_BLCRMIQPXPmpnoBzAwiFJCik1GkoJm_UIhmJ4zjL0bzpiZoNGqiNaMfWXZaD2TYDW9yBcggvQZaqh2b2KynlYVpenr4Wx0Qo-3FosXJKz3ZCXMOE5QVzVp699ncJKM-1eIK7hraMLNbr5vZ4cXb2r1NDJWdmxhBZUwohE35gBYSnBu2NrIS8w4V4x3QgwOrNleOLj2LFH8JzK0gs9DzwlrKUtSM8-IbOShvXYrYv4Qbw6ptffLRmISdOSRkwXc7uYSgIh6QSjScU6YASg2dA4oQn6hYPOEGR1MeGG9IvskPkAngLxMx0_fkiQfDY8kHpAG5HOhEOH76W55AZKi5-LYwoLeX_DhsQHzvG1HP8TTvtIbEJpOapaiw8UbMLNk1zGgUiiFs3s5mexYQLHQOEzSbldRcj7sTwTYNYsmx4L_Q0V4EhddfbJ3-P5CGyUIqdIsIKPAFjFzsg4cmocasPwsWJ_dtLlRmHqFWd4xmKQWSkcwnXO-eNCu0TSY0dIL7cTGSTpDMmtpWet9uY4eijiWywy4BlOLY1g6y8GKjWt5knJazzdehG-hnZo3Jbt28p0/4rq/DwV03sS5SNGTmGMAFSdBpQ/h0/h001.lZjeaEfO-N2RpnW858qsclcMJ9044wWxofF8nzZKZNs)\n\n[\n\n![like](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/static_assets/header/like.png)\n\n\n\n\n\n\n\n](https://link.mail.beehiiv.com/ss/c/u001.2WMs"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "SpaceX Colossus deal 🚀, GPT-5.5 Cyber launch 🛡️, Codex as workspace 🤖",
+      "date": "2026-06-23T13:45:25.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* SpaceX signed a deal worth up to $6.3 billion with Reflection AI for access to its supercomputer Project Colossus, allowing Reflection to use Nvidia GB300s for training open-source AI models and reflecting a shift toward increased demand for compute power in AI development.\n* OpenAI launched new security tools and updated GPT-5.5-Cyber, a defensive cyber stack for the AI era, which includes a Daybreak Cyber Partner Program and an open-source security initiative called Patch the Planet.\n* Alibaba's AI video model, HappyHorse 1.1, rose to No. 2 in global rankings, delivering production-ready video through an API built for integration into enterprise software stacks and supporting text-to-video, image-to-video, and subject-to-video generation.\n* Anthropic is preparing to require identity verification for certain users starting on July 8, with the company using Persona as its identity-checking provider.\n* Tencent is testing an AI assistant, Xiaowei, within WeChat to enhance user interaction and challenge AI competitors like Alibaba in China.\n* OpenAI's GPT-5.5 model has been updated, with significant improvements in agentic coding, computer use, knowledge work, and advanced research tasks, and is now available via API, including the GPT-5.5 Pro variant and the lighter GPT-5.5 Instant.\n* GLM-5.2 has been released, raising the bar for open models and representing a significant improvement over previous open models, with the analysis positioning it as one of the strongest openly available models.\n* Moebius is a highly efficient lightweight inpainting framework that rivals and even surpasses the generation quality of the 11.9B industrial generalist FLUX.1-Fill-Dev, with an under 15x acceleration in total inference time.\n* Loop engineering is a shift in AI development from manually prompting agents to designing autonomous systems that decide what to work on, execute tasks, verify outcomes, and improve over time.\n\n### Notable Links\n* [GPT-5.5](https://www.openai.com/blog/gpt-5-5/)\n* [HappyHorse 1.1](https://www.alibabacloud.com/product/happyhorse)\n* [Moebius](https://hustvl.github.io/Moebius/)\n* [GLM-5.2](https://thezvi.wordpress.com/2026/06/22/glm-5-2-is-the-new-best-open-model/)\n* [Patch the Planet](https://www.openai.com/blog/patch-the-planet/)\n* [Daybreak Cyber Partner Program](https://www.openai.com/blog/daybreak-cyber-partner-program/)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nSpaceX signed a deal worth up to $6.3 billion with Reflection AI for access to its supercomputer Project Colossus. This agreement allows Reflection ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019ef4ba8576-b44aec7f-6945-4e4f-9e3f-417e9581a519-000000/MbTo9EvRBaUX4kvmD1Z6K6zdWUP6wPGxr7YA0CLqrFY=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019ef4ba8576-b44aec7f-6945-4e4f-9e3f-417e9581a519-000000/QQk9sJ6nRvINjHxOSvCO1ZAWK0y521L5xgYPOcQg4vE=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=f1342fbe-6edf-11f1-9704-355d713718f6%26pt=campaign%26t=1782222325%26s=bbef40a25aaeb75ab0"
+    },
+    {
+      "from": "\"Christoph Molnar from Mindful Modeler\" <mindfulmodeler@substack.com>",
+      "subject": "When trees still beat tabular foundation models",
+      "date": "2026-06-23T13:53:58.000Z",
+      "summary": "## Mindful Modeler\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The TabBench V2 benchmark evaluates machine learning algorithms on 189 classification tasks, comparing the performance of tabular foundation models (TFMs), gradient-boosted decision trees (GBDTs), and tuned neural networks (NNs).\n* The overall win rate of state-of-the-art TFMs is approximately 83% based on accuracy, with the list of 2nd-generation TFMs including TabICLv2, TabPFN-3.0, and Seldon.\n* A decision tree analysis provides a rule of thumb for when to expect each ML algorithm to perform best:\n  + Small to midsize classification datasets with few categorical features: Use Tabular Foundation Models.\n  + Smallish datasets with many categorical features: Use boosted trees.\n  + Larger binary datasets: Use boosted trees.\n  + Large multi-class or unbalanced datasets: Use tuned neural networks.\n* The development of TFMs is ongoing, with improvements being made to their performance on various tasks, and it is expected that their territory will continue to expand.\n* Christoph Molnar is working on an open book about Tabular Foundation Models, available at tabularfoundationmodels.com.\n\n### Notable Links\n* TabBench V2: https://tabbench.github.io/\n* Tabular Foundation Models book: https://tabularfoundationmodels.com\n* Christoph Molnar's Substack: https://mindfulmodeler.substack.com\n* NeuralkAI: https://neuralk.ai \n\nNote: This summary captures the main points from the newsletter, excluding tracking URLs and focusing on AI, ML, and related technology content.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9taW5kZnVsbW9kZWxlci5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGbWluZGZ1bG1vZGVsZXIuc3Vic3RhY2suY29tJTJGcCUyRndoZW4tdHJlZXMtc3RpbGwtYmVhdC10YWJ1bGFyLWZvdW5kYXRpb24iLCJwIjoyMDMwNDk1MzEsInMiOjEwNzg3NjAsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgyMjIyODg2LCJleHAiOjIwOTc3OTg4ODYsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.NHxRm02tWg3VscgO2xrCWordAyQdTeFVugu05P2OI1g?"
+        },
+        {
+          "text": "When trees still beat tabular foundation models",
+          "url": "https://substack.com/app-link/post?publication_id=1078760&post_id=203049531&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMzA0OTUzMSwiaWF0IjoxNzgyMjIyODg2LCJleHAiOjE3ODQ4MTQ4ODYsImlzcyI6InB1Yi0xMDc4NzYwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.xaLg_Bm49S5GyZ7a4LxJFqxQYRj8dTPpvY6-DiLKVOs"
+        },
+        {
+          "text": "Christoph Molnar",
+          "url": "https://substack.com/@christophmolnar"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/mindfulmodeler/p/when-trees-still-beat-tabular-foundation?redirect=app-store"
+        },
+        {
+          "text": "TabBench V2",
+          "url": "https://substack.com/redirect/84ae0ea9-06cd-442d-9272-1a22d63a9511?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "NeuralkAI",
+          "url": "https://substack.com/redirect/f97d4573-baea-4b0c-ad63-9f0415e9da7a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "tabularfoundationmodels.com",
+          "url": "https://substack.com/redirect/d1ce8197-47ec-4681-b67d-f0169dfe352b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Mindful Modeler",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9taW5kZnVsbW9kZWxlci5zdWJzdGFjay5jb20_dXRtX2NhbXBhaWduPWVtYWlsLWhvbWUmcj00OWJ5MzQiLCJwIjoyMDMwNDk1MzEsInMiOjEwNzg3NjAsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgyMjIyODg2LCJleHAiOjIwOTc3OTg4ODYsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.6ftRl67E8bP8Idht52sOzk4CvzMw7D4tS9R9JbLGkWU?"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=1078760&post_id=203049531&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMzA0OTUzMSwiaWF0IjoxNzgyMjIyODg2LCJleHAiOjE3ODQ4MTQ4ODYsImlzcyI6InB1Yi0xMDc4NzYwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.xaLg_Bm49S5GyZ7a4LxJFqxQYRj8dTPpvY6-DiLKVOs"
+        },
+        {
+          "text": "Supervised Machine Learning for Science",
+          "url": "https://substack.com/redirect/e8add79b-68c1-411f-94dd-dc7d12f4b8c1?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "When trees still beat tabular foundation models![](https://eotrx.substackcdn.com/o/0003f4194d9ad8ec/p.gif?token=eyJtIjoiPDIwMjYwNjIzMTM1MzU4LjMuNWFkYjFjYzYyMzIxMjQ1YUBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDMwNDk1MzEsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTA3ODc2MCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MjIyMjg4NiwiZXhwIjoxNzg0ODE0ODg2LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.T2vJKSV7vyPJZgBS-rBU4Cgryhxb6gByo9u-84lEIZk)\n\nAs you might have noticed, I’m rather optimistic about tabular foundation models.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"The AI Field\" <theaifield@mail.beehiiv.com>",
+      "subject": "Did Anthropic's AI break into the NSA?",
+      "date": "2026-06-23T14:01:03.000Z",
+      "summary": "## The AI Field\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic's Mythos AI reportedly broke into almost all of the NSA's classified systems in hours during an authorized test, reframing the entire ban on Anthropic's top models and treating frontier AI as a weapon.\n* Nvidia says its new liquid-cooled servers cut data-center water use to near zero, but critics note that the electricity powering these centers still consumes water upstream, and the UN warns that AI could use as much water as 1.3 billion people by 2030.\n* OpenAI launched GPT-5.5-Cyber and \"Patch the Planet,\" a defensive push to auto-fix open-source security holes with Trail of Bits and HackerOne.\n* SpaceX signed a $6.3B compute deal with open-source lab Reflection AI, while its stock had its worst day since the IPO, down about 10%.\n* Yann LeCun called xAI \"kind of a failure\" and warned that the whole industry is heading for a bubble.\n* The Five Eyes nations issued a rare joint AI-cyber warning, stating that AI will reshape cyberattacks \"in months, not years.\"\n* Data-center backlash is going national, with only 8% of opponents actually living near a data center.\n\n### Notable Links\n* Gemini 3.5 Pro\n* GPT-5.5-Cyber\n* Raycast\n* Suno\n* Pika\n* Ideogram\n* Genspark\n\nThis newsletter is a comprehensive summary of the latest developments in the AI field, covering topics such as Anthropic's Mythos AI, Nvidia's liquid-cooled servers, OpenAI's GPT-5.5-Cyber, and more. The updates are significant and have a high impact on AI practitioners, making this newsletter a HIGH priority.",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Did Anthropic's AI break into the NSA?\n\nPlus Nvidia's fix for AI's water problem and a bubble warning.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 23, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/T7zhBw0%2BKKpeD3%2BAIT03zYp7xGXMWGT%2FGpM8NkWrQRCkckmZPVMBdfrhDsh4%0AjFWUlasTn3iRk68lZghAePhDAUTsQfQme8ZkitnS1F38YJEqVY9MQiA6A1NF%0A6S9vr%2BkcUhZC2ftau8%2F8qrOOMBPeSPZWsx3tWHGYAktMuoHgpsjEwcBGVhA3%0AKnqBSfxd6N4C9cyveT3DSlbkhmgq6CCv6A%3D%3D%0A/9bbe6f769bebadcc)\n\n# Anthropic's Mythos Reportedly Cracked the NSA in Hours\n\nPlus Nvidia says it solved AI's water problem, OpenAI's cyber model, and Yann LeCun's bubble warning.\n\n![]"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "The AI Upgrade Trap: Why Switching to a Better Model Breaks Everything You Built",
+      "date": "2026-06-23T14:37:27.000Z",
+      "summary": "## The AI Corner\n\n**Priority: HIGH**\n\n### Top Updates\n- Twice in six weeks, Anthropic shipped a model with better benchmarks across the board, but production systems broke anyway, highlighting the \"AI Upgrade Trap\" where better benchmarks don't necessarily mean better performance in production systems.\n- The latest model, Opus 4.7, was not a bad model, but it broke thousands of production workflows because it stopped filling gaps in prompts that the previous model, Opus 4.6, used to fill, and it got more literal over time.\n- Benchmarks measure performance on a fixed set of tasks, but they don't account for the specific prompts and workflows that developers build, leading to a \"gap\" between benchmarks and real-world performance.\n- Models getting more literal over time means that prompts that relied on the old model filling gaps quietly stop working, and developers need to rewrite their prompts to account for the new model's behavior.\n- The persistence that made Opus 4.6 valuable degraded in Opus 4.7, causing the model to give up early and ask for permission to continue, rather than grinding through a task to completion.\n- The compaction problem means that a bigger advertised context window doesn't guarantee more usable memory before quality drops, and the no-rollback problem means that old prompt versions may not be accessible once a new model is released.\n- The Upgrade Tax has six parts: benchmarks improving while production breaks, implicit-to-explicit drift, the second failure mode (giving up early), the compaction problem, the no-rollback problem, and the QA layer itself.\n- Developers who got burned by the Opus 4.7 launch started testing Codex side by side and posted before-and-after comparisons, leading to an exodus of frustrated developers to other models like GPT-5.5.\n- To avoid the Upgrade Tax, developers should write down what they expect their prompts to produce, run prompts against both old and new models side by side, and implement prompt version control, side-by-side testing, and regression scoring.\n\n### Notable Links\n- [The AI Upgrade Trap: Why Switching to a Better Model Breaks Everything You Built](https://substack.com/app-link/post?publication_id=6850544&post_id=202100669&utm_source=post-email-title&utm_campaign=email-post-title&isFreemail=true&r=49by34)\n- Attio\n- Opus 4.7\n- GPT-5.5\n- Claude Code",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRnRoZS1haS11cGdyYWRlLXRyYXAtd2h5LXN3aXRjaGluZyIsInAiOjIwMjEwMDY2OSwicyI6Njg1MDU0NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODIyMjU1NzYsImV4cCI6MjA5NzgwMTU3NiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.AOZBnr_Gd_R7aMl3qC5Tx4DgXvkybBgEU1WW64__g3c?"
+        },
+        {
+          "text": "The AI Upgrade Trap: Why Switching to a Better Model Breaks Everything You Built",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=202100669&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMjEwMDY2OSwiaWF0IjoxNzgyMjI1NTc2LCJleHAiOjE3ODQ4MTc1NzYsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.HwtcniydVVMeS_3FxzJYzC1p_JjEZNHauIHlVxL82mQ"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/the-ai-upgrade-trap-why-switching?redirect=app-store"
+        },
+        {
+          "text": "Attio",
+          "url": "https://substack.com/redirect/d1aaef0e-9309-4d69-8804-059f4547694c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Opus 4.7",
+          "url": "https://substack.com/redirect/37300b7d-3fd3-484a-ae98-2b5ff46a8fbf?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "launch posts",
+          "url": "https://substack.com/redirect/f4e524d6-d0a1-402c-928c-b19da551462c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "prompts that suddenly produced shorter, terser, sometimes",
+          "url": "https://substack.com/redirect/cd876748-f955-4d1f-9c88-56c3aa1c428c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Opus 4.7 gives up early",
+          "url": "https://substack.com/redirect/60d12b75-5aac-4af6-9a3d-090512ba8333?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Claude Code",
+          "url": "https://substack.com/redirect/3eeabbdc-ca5b-477b-83bb-def5d339e0ca?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "The AI Upgrade Trap: Why Switching to a Better Model Breaks Everything You Built![](https://eotrx.substackcdn.com/o/50e416113a7783f9/p.gif?token=eyJtIjoiPDIwMjYwNjIzMTQzNzI3LjMuNWRmYjUwYTEyODRlY2E3NkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwMjEwMDY2OSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo2ODUwNTQ0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgyMjI1NTc2LCJleHAiOjE3ODQ4MTc1NzYsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.3j0y5UcBVBrEXObeZfNLriXyt3hnZNvNO0ppaL0Blj0)\n\nTwice in six weeks, Anthropic shipped a model with better benchmarks across the board. Twice, production systems broke anyway.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Nvidia's new plan: make robots safe",
+      "date": "2026-06-23T15:04:45.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Nvidia is working on technology to make humanoid robots safer in workplaces, pushing further into robotics with its Halos software and IGX Thor hardware. The goal is to enable humanoids to make quick, safer decisions when working near people.\n* The Halos software is based on systems used in self-driving cars and is designed to help robots better understand their surroundings, allowing them to make more informed decisions.\n* Nvidia is pairing Halos with its IGX Thor hardware, giving robots the computing power to analyze their surroundings and respond in real time.\n* The company is also creating a safety lab where robot makers can test their machines before seeking regulatory approval.\n* Lloyds Banking Group is hiring 300 tech specialists to work on AI projects, including agentic AI, which can plan and carry out tasks with limited human input.\n* The new hires will support projects across fraud prevention, scam detection, internal document searches, and more personalized online banking.\n* Meta is appointing Cred founder Kunal Shah as the new head of WhatsApp, replacing longtime leader Will Cathcart after seven years in the role.\n* Barclays estimates humanoid robots could generate $200 billion in revenue by 2035, with Nvidia already working with companies like Agility Robotics.\n* A university researcher built a tool that tries to spot check-worthy claims in live speech using NLP and source retrieval, taking transcribed text, searching the web for relevant sources, and then sending those results into Claude to judge the claim.\n\n### Notable Links\n* [Nvidia Halos Software](https://www.nvidia.com/en-us/about-nvidia/halos/)\n* [Lloyds Banking Group Careers](https://www.lloydsbankinggroup.com/careers/)\n* [WhatsApp](https://www.whatsapp.com/)\n* [Cred](https://www.cred.club/)\n* [Agility Robotics](https://www.agilityrobotics.com/)\n\n### Additional Information\n* Nvidia's push into robotics is expected to increase the company's presence in the industry, with a focus on making robots safer and more efficient.\n* Lloyds Banking Group's hiring of 300 tech specialists is a significant investment in AI and demonstrates the company's commitment to using technology to improve its services.\n* The appointment of Kunal Shah as the new head of WhatsApp marks a significant change in leadership for the company.\n* The tool developed by the university researcher has the potential to improve the accuracy of fact-checking in live speech, using NLP and source retrieval to verify claims.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Robots need to be nicer to humans\n\n\\+ AI made this bank £50M  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n23 Jun\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/d823006d-a4f6-456"
+    },
+    {
+      "from": "\"DayTrading Dispatch\" <daytrading@mail.beehiiv.com>",
+      "subject": "The AI Trade Hits a Wall 🧱",
+      "date": "2026-06-23T17:31:19.000Z",
+      "summary": "## DayTrading Dispatch\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI trade hit a wall, with the Nasdaq dropping 1.32% to 26,166.60 and the S&P 500 easing 0.37% to 7,472.79, amid concerns about the valuations of AI-related stocks.\n* Alphabet's shares sank about 5% after another marquee AI researcher, John Jumper, left for Anthropic, stoking fears that Google is losing the AI talent war.\n* SpaceX's stock fell 16% to $154.60, its lowest since going public, after the company announced plans to sell investment-grade bonds to fund its AI ambitions.\n* The small-cap Russell 2000 closed above 3,000 for the first time ever, finishing at 3,004.40 with a gain of about 1%, as investors rotated into smaller, domestically focused companies.\n* Micron is set to report earnings on Wednesday, which will be a key test of the AI-memory boom, with the company guiding to roughly 81% gross margins.\n* FedEx will report its first quarter as a standalone parcel and express company, with Wall Street expecting roughly $5.95 in adjusted earnings per share.\n* The KOSPI, South Korea's stock market, plunged 9.99% after foreign investors dumped roughly 5.79 trillion won (about $3.8 billion) of Korean shares, triggering a market-wide \"circuit breaker\" that froze trading for 20 minutes.\n\n### Notable Links\n* [Micron's earnings report](https://www.micron.com/investor_relations)\n* [FedEx's investor relations](https://investor.fedex.com/)\n* [OpenAI's website](https://openai.com/)\n* [Paper Title](https://arxiv.org/abs/XXXX.XXXXX) (no specific paper mentioned in the newsletter)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The AI Trade Hits a Wall 🧱\n\nPLUS: Alphabet's AI brain drain sinks Google stock, SpaceX slides a third straight day, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 23, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/no3qW1zYvxqBw9Xoi9UzB5L8AlfIPr%2FcXSbsgbdGgF9goEBqj85%2FBV6BgkmH%0AAVwlwBrDBXjjysqDiDwNl1XD3%2Bc8hm4a%2FCT59%2F2eEwcV91fW2X4I94teGTBZ%0AZrztz4Qwj4lfy9ihePd9CHK4Kd7B%2Fn2y%2Bmdgt86W5ztKwxPVJNFNvuVNFRjy%0AMjRA7ssX8NYY4eMgohXM6jOss0GvdfozhA%3D%3D%0A/192eaeb7b6724ff7)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e15ff2bf-557f-4"
+    },
+    {
+      "from": "\"🛼  The '92\" <the92@mail.beehiiv.com>",
+      "subject": "🛼 90s trivia",
+      "date": "2026-06-23T20:02:45.000Z",
+      "summary": "## The '92 Newsletter\n\n**Priority: LOW**\n\n### Top Updates\n* The newsletter is focused on 90s trivia, with a \"Trivia Tuesday\" section that includes questions about Toy Story, All That, and other 90s-related topics.\n* The prizes for the trivia questions include a Brickcraft MTV cassette player, a 90s-inspired All That t-shirt, and a retro Snoopy travel mug.\n* The newsletter also mentions The '92 Club, a subscription service that sends a \"bright orange envelope packed with 90s fun\" to subscribers each month.\n* The newsletter includes links to various 90s-themed products, such as a Rugrats Monopoly game, a Lisa Frank pillowcase, and a TMNT slippers.\n* The newsletter also mentions a book called \"The Totally Sweet 90s Book\" and a pin featuring The Iron Giant.\n\n### Notable Links\n* The '92 Club \n* The '92 Newsletter\n* The Totally Sweet 90s Book \n\nNote: Since this newsletter is primarily focused on 90s trivia and not directly related to AI, ML, or technology, I have marked it as LOW priority.",
+      "links": [],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "🛼 90s trivia\n\nNew: 90s trivia fun + more............................................................................................................................  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2e43872b-1ff9-46b3-bb71-fc04a90ad788/The__92_Throwback_Newsletter_Header.png?t=1716625838)](https://link.mail.beehiiv.com/v1/c/bDBBztni6iwc8yTBPUja5u%2BqNdRWUeJ3zUfeYgT2ij%2B6Q780kWv%2FkoyBHH%2Fq%0AXyYEwSwQ3s6aZryqONGHIc9Yx4s%2FWtu%2FMxXiWcX7q%2FpX%2BLEnQ4ljkCO1AtBX%0AJfTDg7OqdFQ32CSeLVPsFDL2GWmmEX4LNk153xnf1p5n"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 GPT-5 Cracked a 3-Year Mystery",
+      "date": "2026-06-23T22:40:58.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* GPT-5 cracked a 3-year immunology mystery by solving a lab puzzle that had gone unsolved for years, demonstrating its capabilities in expert domains.\n* Tag Claude can be used to delegate tasks like a colleague, breaking work into stages, remembering context over time, and running jobs in the background.\n* Cursor launched a mobile app to drive cloud agents on the go and unveiled Origin, an agent-native GitHub competitor, as well as a from-scratch model as big as GPT.\n* Meta launched its own glasses line in 26 styles, including a Kylie Jenner collaboration, and will ship with Meta AI powered by Muse Spark from day one.\n* NVIDIA developed new servers that cool AI chips with zero water, reducing data center water usage to near zero.\n* Michael Caine's AI voice replica narrated The Odyssey, an epic poem by Homer, using ElevenLabs technology.\n* A fitness band that coaches users with Gemini was launched, which reads heart rate, sleep stages, blood oxygen, HRV, and skin temperature day and night, and provides a personalized plan.\n* Various AI tools were introduced, including Planable, Guild, AirMusic, Thinkfill, RowSpeak, Propane, ClipMode, and Director by OpenArt, which can be used for tasks such as content creation, music generation, and video production.\n\n### Notable Links\n* [Paper Title](https://link.to/arxiv/paper) - Not available in this newsletter\n* [GPT-5](https://www.openai.com/blog/gpt-5) - OpenAI's latest flagship large language model\n* [Cursor](https://www.cursor.ai/) - A platform for building and training AI models\n* [Meta Glasses](https://www.meta.com/glasses) - Meta's new line of smart glasses\n* [NVIDIA](https://www.nvidia.com/) - A leader in AI computing hardware\n* [ElevenLabs](https://www.elevenlabs.io/) - A platform for creating AI voice replicas\n* [Gemini](https://www.gemini.ai/) - An AI-powered coaching platform\n* [Director by OpenArt](https://www.openart.ai/director) - A platform for creating videos using AI",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 GPT-5 Cracked a 3-Year Mystery\n\nGPT solves a lab puzzle, Cursor takes on GitHub, a Gemini coach on your wrist, Michael Caine's AI voice reads Homer, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 23, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0t9YBOvoPJSa0P3ffqmCd2UDISMldEoI9GbdrW0HqIzxQtiXxq1YdGgSHbz8e4e2hOG_dt7FL1JpVi9v6XMH1P0RirPhCMHJc2oeVAVUFu8ck86NjWYm5-h1X7cjbXzf7K5uWjn3s3U6XU_h3ubAJZUZAPyhJQ8hY67644VS0su0W-bCdAdjrpidpJPW6TLgpmwDmMtNOHB_lXpCzZibW7VYoIo0zm751ZxE7A-FJHW-Cit9V7Ct4tI0lShhvtm05jt3fkEWVZNo-wNlqFceX6SpGt8KGn5dMaB317OiQ"
+    }
+  ],
+  "tldr": [
+    "OpenAI launches GPT-5.5-Cyber.",
+    "Anthropic's AI breaks NSA systems.",
+    "Nvidia develops water-free AI servers.",
+    "GPT-5 solves 3-year immunology mystery.",
+    "SpaceX signs $6.3 billion AI deal."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "ELY-SLAM",
+        "context": "ELY-SLAM appears in recent AI/ML commentary as an **efficient SLAM (Simultaneous Localization and Mapping) algorithm** that combines lightweight **YOLO-based object detection** with collaborative perception for real-time mapping and localization on resource-constrained platforms (e.g., edge devices, small robots, or drones). This places it within the broader class of **AI‑enhanced SLAM** methods that use deep learning—particularly fast detectors like YOLO—to provide semantic cues (objects, obstacles, landmarks) that augment traditional geometric SLAM pipelines.[8][11] In this context, ELY-SLAM is framed as a system that keeps the SLAM core computationally lean while offloading rich scene understanding to an efficient, lightweight perception stack, enabling responsive operation in dynamic or bandwidth-limited environments.[8][11]\n\nWhy it matters: industry and research are pushing toward **robust, low-latency spatial AI** for autonomous robots, AR/VR devices, and smart cameras, where classical SLAM struggles with textureless scenes, dynamic objects, and tight compute budgets.[8][11][13] AI‑driven SLAM with embedded detectors (like YOLO) and collaborative perception helps tackle these issues by improving feature extraction, semantic mapping, and adaptability across diverse environments, all while maintaining real-time performance.[8][11] Although there is not yet a widely cited academic paper or benchmark explicitly titled “ELY-SLAM,” the way it is described aligns with current trends tracked in recent SLAM surveys and curated lists of novel SLAM systems, which highlight transformer-based SLAM, semantic SLAM, and lightweight deep models as key directions for near‑term industrial deployment in mobile robotics, logistics, and XR devices.[8][9][11][15]",
+        "source": "web search"
+      },
+      {
+        "topic": "YOLO (You Only Look Once) in modern computer vision",
+        "context": "In the current AI/ML landscape, **YOLO** refers to a family of real-time computer vision models used for object detection and related tasks, not just the original 2015 architecture. Recent work, especially by Ultralytics, has turned YOLO into a unified framework that supports **object detection, instance segmentation, pose/keypoint estimation, oriented detection, and classification** within a single toolbox, making it a standard building block in robotics, autonomous systems, and SLAM pipelines like ELY‑SLAM.[10] Thoughtworks’ Technology Radar highlights YOLO as a mature, production-ready alternative to large general-purpose models for many vision problems, particularly on edge devices where speed and efficiency are critical.[6] \n\nThe latest major development is **YOLO26**, released in late 2025 as a deployment-focused evolution of the series.[10][3] YOLO26 introduces an **end-to-end, NMS‑free architecture**, removing non-maximum suppression and Distribution Focal Loss (DFL) so predictions are produced directly without heavy post-processing.[10][3] It adds new training strategies—**ProgLoss** (progressive loss balancing) and **STAL** (Small-Target-Aware Label assignment)—plus a new **MuSGD optimizer** for faster, more stable convergence, significantly improving small-object accuracy and achieving up to ~40% faster CPU inference on low-power and edge hardware.[10][3] This design shift, together with earlier releases like YOLO11 that improved accuracy–efficiency trade-offs and multi-task support, is driving broad **industry impact**: YOLO has become a de facto standard for real-time vision benchmarks (e.g., MLPerf edge suites), commercial vision products, and embedded AI platforms, and is increasingly used as a core perception module in robotics and SLAM systems where compact, fast, and reliable visual understanding is essential.[2][6][10] ",
+        "source": "web search"
+      },
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is a leading artificial intelligence research and product company founded in 2015 that develops large language and multimodal models such as GPT, ChatGPT, and specialized reasoning and video systems.[5][14] It matters in the AI/ML space because its models set de facto benchmarks for generative AI capability, safety practices, and commercialization strategies, and because many enterprises and governments are integrating OpenAI’s systems into critical workflows.[5][9] OpenAI has also been expanding into AI security and evaluation, reflecting growing concern about robust, trustworthy deployment of advanced models in sensitive domains.[9]\n\nThe latest developments include a strategic focus on a new generation of models, with OpenAI consolidating its roadmap around GPT‑5 and unifying capabilities like advanced reasoning, voice, and agentic behavior in a single, higher‑performing system.[7] At the same time, OpenAI has released and iterated on specialized reasoning models such as the o3 and o3‑mini series and related agent features (like Deep Research and browser‑using agents) aimed at complex research, coding, and STEM workloads.[7] On the go‑to‑market side, OpenAI is reportedly strengthening its cyber and safety posture by moving to acquire Promptfoo, a startup focused on automated testing and red‑teaming of AI agents, and by building offerings like ChatGPT Gov to meet security, privacy, and compliance requirements for U.S. government agencies.[7][9] Collectively, these moves position OpenAI not just as a model provider, but as a full‑stack platform for powerful, safety‑tested AI agents across enterprise, government, and consumer applications.",
+        "source": "web search"
+      },
+      {
+        "topic": "GPT-5",
+        "context": "GPT-5 is OpenAI’s latest flagship large language model, deployed as the core engine behind ChatGPT and exposed via API, positioned as a major step toward more general, PhD-level expertise in software, research, and knowledge work.[3][5][12][14] Compared with GPT-4-era models, GPT-5 unifies fast interactive responses with more deliberate \"thinking\" modes, improves reasoning and coding, reduces factual errors and sycophancy, and comes in multiple variants (including lighter mini/nano versions) tuned for different cost–latency trade-offs.[8][9][12][15] It is now the default model for most ChatGPT users, including free tiers in many rollouts, and underpins new agent-like behaviors such as writing full applications, managing calendars, and drafting complex reports end-to-end.[2][5][8][15]\n\nGPT-5 matters because it pushes large models from simple Q&A into *actionable* professional assistance: OpenAI highlights gains in writing, programming, healthcare and medical summarization, and other expert domains, with early benchmarks and follow-on releases like GPT-5.2 claiming state-of-the-art performance on structured professional tasks across dozens of fields at a fraction of human cost.[3][8][13][15] For industry, this has two main effects: first, enterprises and developers can offload larger spans of workflows—spreadsheets, presentations, multi-step coding tasks, and tool-driven automations—to the model; second, GPT-5’s API lineup (standard, mini, nano and later 5.x updates) gives product teams more granular control over speed, price, and capability when embedding AI into their own software.[8][9][13] Together, these shifts are accelerating experimentation with AI copilots and autonomous agents in sectors like software development, operations, and knowledge-heavy services, while intensifying competitive pressure on rival labs and cloud providers to match GPT-5’s reasoning quality, tool use, and economics.[3][8][11][13]",
+        "source": "web search"
+      },
+      {
+        "topic": "GPT-5.5",
+        "context": "GPT-5.5 is OpenAI’s latest flagship large language model, positioned as a “new class of intelligence for real work,” with particular strength in **agentic coding, computer use, knowledge work, and advanced research tasks**.[7][9][13] It builds on GPT-5.4 but adds significantly better planning, tool use, and self‑correction, allowing users to hand it messy multi‑step tasks and have the model autonomously plan steps, call tools, check its own work, and continue through failures with much less human micromanagement.[7][9][10][12] Benchmarks cited by OpenAI and independent commentators show state‑of‑the‑art results in coding, math (e.g., large gains on AIME 2025), multimodal reasoning (MMMU‑Pro), and complex visual puzzles, while maintaining similar or better speed and lower token usage than its predecessor, which is particularly attractive for enterprises and developers.[4][9][12]  \n\nThe model matters because it pushes the industry further toward **agentic AI systems** that can operate software, conduct research, and assist in scientific and engineering workflows with minimal guidance, raising both productivity potential and safety questions.[7][9][13] OpenAI categorizes GPT‑5.5 as high‑risk but below its “critical” threshold on cybersecurity and dual‑use capabilities and reports extensive red‑teaming on advanced cyber and biology use cases before release.[1][7] GPT‑5.5 has rolled out to ChatGPT Plus, Pro, Business, and Enterprise users and is also available via API (including the **GPT‑5.5 Pro** variant and the lighter **GPT‑5.5 Instant**, which is now the default ChatGPT model), with a focus on reduced hallucinations in sensitive domains, more concise responses, and new context‑management features that let it search across past chats and user data (like files and email) for more personalized answers.[1][3][4][6] Collectively, these changes are accelerating adoption in coding copilots, research assistants, and emerging AI “super‑app” and agent platforms, and they are intensifying competitive pressure on rival models from Anthropic, Google, and others by setting new benchmarks in both capability and practical deployability.[4][9][12][13]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "U.S. export controls force Anthropic’s Fable 5 and Mythos 5 fully offline worldwide",
+        "summary": "The U.S. Commerce Department issued a national‑security export‑control directive that forced Anthropic to disable access to its frontier models Fable 5 and Mythos 5 for all users globally, including U.S. customers.[10][13] The order targets access by foreign nationals but has effectively resulted in a complete shutdown of the models eleven days after launch.[10][13]",
+        "whyItMatters": "Practitioners lose access to two cutting‑edge models overnight, underscoring that regulatory risk is now a first‑order dependency in model selection and deployment. Teams relying on Fable/Mythos for evaluation or production must rapidly re‑architect stacks, and the episode highlights the need for multi‑model redundancy and compliance‑aware toolchains.",
+        "source": "U.S. Commerce Department export‑control directive; coverage in AI‑Weekly Issue 222 and Radical Data Science bulletin[10][13]"
+      },
+      {
+        "headline": "Gemini 3.5 Pro enters final pre‑GA window with limited, high‑stakes enterprise preview",
+        "summary": "Google’s Gemini 3.5 Pro has entered its committed June general‑availability window and remains in restricted Vertex AI enterprise preview, with no public model card, stable API identifier, or pricing published yet.[1][3][11] Analysts track GA as expected between June 23 and June 30, making it the most anticipated unreleased AI model of 2026.[1][3][11]",
+        "whyItMatters": "Gemini 3.5 Pro is expected to materially shift the competitive landscape versus GPT‑5.x for coding, agents, and multimodal workloads. Teams planning migrations or benchmarking must account for uncertain timelines, undocumented behavior, and pricing, while early‑access customers may gain a temporary performance and cost advantage.",
+        "source": "Build Fast with AI daily briefing; Prompta Learning AI News Today; unrot.co Top 10 AI Stories for June 23, 2026[1][3][11]"
+      },
+      {
+        "headline": "OpenAI–Molecule.one collaboration demonstrates frontier AI improving real drug synthesis in wet lab",
+        "summary": "OpenAI published results from a three‑month collaboration with Polish startup Molecule.one showing a frontier model proposing and validating 10,080 chemistry reactions, including an improved synthesis route for a drug candidate that had stumped medicinal chemists.[11] This is the first publicly documented case of a general‑purpose LLM materially improving a real medicinal chemistry route via physical experimentation.[11]",
+        "whyItMatters": "The work is an existence‑proof that large models can move from suggestion tools to high‑impact co‑designers in scientific R&D pipelines. For practitioners, it signals growing demand for domain‑conditioned agents, lab‑automation integrations, and evaluation methods that combine symbolic chemistry, simulation, and real‑world experiment data.",
+        "source": "OpenAI technical report and blog; synthesis in unrot.co Top 10 AI Stories for June 23, 2026[11]"
+      },
+      {
+        "headline": "Major security vulnerability disclosed in popular AI app/development framework used for agentic apps",
+        "summary": "A critical security issue was disclosed affecting a widely used AI development framework for building agentic applications, exposing apps to prompt injection and data‑exfiltration risks via insufficient sandboxing and tool‑calling isolation.[5] The vulnerability has triggered urgent patching and architectural guidance across the ecosystem.[5]",
+        "whyItMatters": "As more production systems rely on tool‑using agents, framework‑level vulnerabilities can compromise entire fleets of applications and sensitive customer data. AI practitioners must tighten threat models around agents, review dependency chains, and adopt secure‑by‑default patterns (strong isolation, allow‑lists, and explicit data‑flow controls) in LLM app frameworks.",
+        "source": "June 23, 2026 \"Top 5 AI News Stories\" digest by Hiroki Miyano summarizing multiple security advisories[5]"
+      },
+      {
+        "headline": "Smartbird raises seed funding with near‑zero employees, betting on AI‑native, ultra‑lean company model",
+        "summary": "Smartbird, a new startup involving the co‑founder of Allbirds, raised a seed round while operating with virtually no full‑time employees, after bringing on former AWS executive Nadia Carlsten as CEO.[5] The company is positioned as an exemplar of a new “AI‑first, minimal‑headcount” organizational model enabled by agentic tooling.[5]",
+        "whyItMatters": "If AI‑native companies can reach meaningful milestones with tiny teams, it will reshape assumptions about team size, tooling, and productivity for AI product development. Practitioners can expect rising demand for robust automation, orchestration, and evaluation stacks that let a handful of engineers coordinate large fleets of agents instead of large human teams.",
+        "source": "TechCrunch coverage summarized in Hiroki Miyano’s June 23, 2026 \"Top 5 AI News Stories\" note[5]"
+      }
+    ],
+    "entities": [
+      {
+        "name": "ELY-SLAM",
+        "type": "technology",
+        "context": "Introduced as an efficient SLAM algorithm with lightweight YOLO-based collaborative perception"
+      },
+      {
+        "name": "YOLO",
+        "type": "technology",
+        "context": "Mentioned as a component of the ELY-SLAM algorithm"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as a company expanding its cyber push and working on various AI projects"
+      },
+      {
+        "name": "GPT-5",
+        "type": "product",
+        "context": "Mentioned as a product that cracked a 3-year mystery and has various applications"
+      },
+      {
+        "name": "GPT-5.5",
+        "type": "product",
+        "context": "Mentioned as a product related to Cyber launch"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as a product that can be used to fill out forms"
+      },
+      {
+        "name": "SpaceX",
+        "type": "company",
+        "context": "Mentioned as a company that signed a deal with Reflection AI and has various AI-related projects"
+      },
+      {
+        "name": "Cursor",
+        "type": "product",
+        "context": "Mentioned as a product related to GitHub and SpaceX"
+      },
+      {
+        "name": "Reflection AI",
+        "type": "company",
+        "context": "Mentioned as a company that partnered with SpaceX"
+      },
+      {
+        "name": "Nvidia",
+        "type": "company",
+        "context": "Mentioned as a company working on AI safety and having a fix for AI's water problem"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as a company whose AI may have broken into the NSA"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-06-24T00:30:33.602Z",
+  "dateString": "2026-06-24"
+}
