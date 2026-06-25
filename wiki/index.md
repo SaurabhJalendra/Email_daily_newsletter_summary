@@ -207,6 +207,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ministral-3]] — Mistral dense small-model line (3B/8B) for on-device inference *(stale)*
 - [[mistral-3]] — Mistral's open-weight lineup; flagship Large 3 (41B active / 675B total MoE) *(stale)*
 - [[mistral-ocr-3]] — Mistral's OCR model; ~97% accuracy, strong on European documents *(stale)*
+- [[mistral-ocr-4]] — Mistral's OCR successor — bounding boxes + confidence scores + 170 languages + single-container deployment; built specifically for RAG pipelines (Jun 2026)
 - [[mistral-studio]] — Mistral's production-AI platform *(stale)*
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot *(stale)*
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*
@@ -221,6 +222,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-codex]] — OpenAI's Codex-as-superapp (ChatGPT + Atlas + Codex) *(stale)*
 - [[openai-for-healthcare]] — OpenAI's HIPAA-compliant enterprise health offering *(stale)*
 - [[openai-frontier]] — OpenAI's Feb 2026 enterprise AI-Employee platform (personas + skills + memory) *(stale)*
+- [[openai-jalapeno]] — OpenAI's first custom AI inference chip co-designed with [[broadcom]]; built from scratch in nine months; better performance-per-watt + lower operating costs than current GPU-based systems (Jun 2026)
+- [[openai-prism]] — OpenAI's free AI-native workspace powered by [[gpt-5-2]] — converts whiteboard sketches into code + manuscript-context chat for researchers (Jun 2026)
 - [[openai-workspace-agents]] — OpenAI's Apr 2026 ChatGPT feature for shared team agents handling complex tasks + long-running workflows
 - [[open-fable]] — Zhipu AI's forecasted ~Dec 2026 open-weights Fable-class model; strategic open-source counter to the Fable/Mythos export-control regime (Jun 2026)
 - [[openclaw]] — open-source persistent assistant; team (incl. Steinberger) acquihired into OpenAI *(stale)*
