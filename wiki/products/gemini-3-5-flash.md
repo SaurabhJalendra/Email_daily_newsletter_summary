@@ -8,15 +8,18 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-05-19
-> **Last updated**: 2026-05-23
+> **Last updated**: 2026-06-25-evening (**The Rundown AI: Google has added new computer-use functionality directly into Gemini 3.5 Flash, allowing the model to power agents that navigate browsers, apps, and desktops — first publicly framed *native computer-use baseline on Gemini 3.5 Flash flagship* in this wiki (vs the prior 2025-Oct [[gemini-2-5-computer-use]] dedicated SKU); graduates computer-use from a separate variant into a baseline capability of the flagship; introduced alongside Gemini Omni / Gemini Spark as part of broader strategic agent push**)
+> **Previously updated**: 2026-05-23
 > **Status**: active
-> **Related**: [[google]], [[gemini]], [[gemini-3-1-pro]], [[gemini-3-1-flash-lite]], [[gemini-omni]], [[gemini-spark]], [[antigravity-2]], [[claude-opus-4-7]], [[gpt-5-5]], [[agent-frameworks]]
+> **Related**: [[google]], [[gemini]], [[gemini-3-1-pro]], [[gemini-3-1-flash-lite]], [[gemini-2-5-computer-use]], [[gemini-omni]], [[gemini-spark]], [[antigravity-2]], [[claude-opus-4-7]], [[gpt-5-5]], [[computer-use]], [[agent-frameworks]]
 
 ## Summary
 
 Gemini 3.5 Flash is Google's mid-tier-renamed-into-flagship model, launched at Google I/O 2026 (2026-05-19) as the new default model in the Gemini app, Google Search AI Mode, and Antigravity 2.0. Trained specifically for agentic workloads, coding, and long-horizon task execution. Beats Gemini 3.1 Pro on coding, agent, and multimodal benchmarks at roughly 4× faster output and half the cost — scoring 76.2% on Terminal-Bench 2.1, 83.6% on MCP Atlas, 84.2% on CharXiv Reasoning, 84% on MMMU-Pro, and 1656 Elo on GDPval-AA. Supports a 1M-token context window and 65K max output tokens. Pricing is $1.50/M input and $9/M output (3× the previous Flash but below frontier competitors per-task). Runs at ~280-289 tokens/sec. Pairs with [[gemini-spark]] (24/7 personal agent), [[gemini-omni]] (any-input → video), and [[antigravity-2]] (parallel-agent desktop platform) as the I/O 2026 trio.
 
 ## Timeline
+
+- **2026-06-25-evening**: **Native computer-use functionality added directly into Gemini 3.5 Flash (The Rundown AI)**. ***"Google has added new computer-use functionality directly into Gemini 3.5 Flash, allowing the model to power agents that navigate browsers, apps, and desktops, and has introduced new models and tools such as Gemini Omni and Gemini Spark, signaling a strategic push toward AI agents that can plan, execute tasks, and integrate with enterprise workflows"***. First publicly framed *native computer-use baseline on the Gemini 3.5 Flash flagship* in this wiki — graduates computer-use from a separate variant ([[gemini-2-5-computer-use]] dedicated SKU from Oct 2025) into a *baseline capability of the flagship model*. Strategic significance: makes computer-use the default capability across the broad Gemini 3.5 Flash distribution surface (Gemini app + Search AI Mode + AI Studio + [[antigravity-2]] + Android Studio + enterprise surfaces), structurally analog to Anthropic's claude-3.5-Sonnet computer-use cycle. Introduced alongside [[gemini-omni]] + [[gemini-spark]] as part of broader strategic agent push. Body-recovery items: (a) Computer-use benchmark numbers vs Claude / [[chatgpt-atlas]] / [[gemini-2-5-computer-use]] / OpenAI Operator, (b) browser + app + desktop coverage scope (which platforms? sandboxing model?), (c) whether [[gemini-2-5-computer-use]] gets deprecated now that 3.5 Flash has native computer-use — *source: data/summaries/2026-06-25-evening.json (The Rundown AI "🌶️ OpenAI's spicy new custom AI chip" — Google has added new computer-use functionality directly into Gemini 3.5 Flash allowing the model to power agents that navigate browsers apps and desktops + introduced new models and tools such as Gemini Omni and Gemini Spark + strategic push toward AI agents that can plan execute tasks and integrate with enterprise workflows)*
 
 - **2026-05-23**: Gemini 3.5 Flash + Managed Agents recirculate in NLP Newsletter weekly recap — *source: 2026-05-23 cycle (NLP Newsletter — AI Agents Weekly; Hello World)*
 - **2026-05-22**: Coverage emphasizes Gemini 3.5 Flash sits fifth on Artificial Analysis Intelligence Index — ahead of Claude Opus 4.7 trail-position positioning emerges (Qwen 3.7-Max sits ahead per coverage) — *source: 2026-05-22 cycle (The Code — Microsoft and Uber ditch Claude Code; Mindstream)*
@@ -34,6 +37,7 @@ Gemini 3.5 Flash is Google's mid-tier-renamed-into-flagship model, launched at G
 - Multimodal: text, image, video, audio, PDF inputs
 - Default model in Gemini app, Search AI Mode, AI Studio, [[antigravity-2]], Android Studio, enterprise surfaces
 - Pairs with [[gemini-spark]], [[gemini-omni]], [[antigravity-2]] as I/O 2026 trio
+- **Native computer-use** (Jun 2026): powers agents that navigate browsers, apps, and desktops — graduates computer-use into a flagship baseline capability rather than a separate SKU (see [[gemini-2-5-computer-use]] for the prior dedicated variant)
 
 ## Open Questions
 

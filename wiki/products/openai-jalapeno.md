@@ -9,9 +9,10 @@ type: product
 > **Type**: product
 > **Vendor**: [[openai]] (co-designed with [[broadcom]])
 > **First mentioned**: 2026-06-25-morning
-> **Last updated**: 2026-06-25-morning
-> **Status**: unveiled
-> **Related**: [[openai]], [[broadcom]], [[nvidia]], [[ai-hardware]], [[chatgpt]], [[google-tpu-v8]]
+> **Last updated**: 2026-06-25-evening (**evening cycle deepens cycle-1 framing: ~50% cost savings vs typical GPU-based setups + initial deployments in [[microsoft]]-operated data centers starting late 2026 + multi-gigawatt ramp through 2027–2028 toward ~10 GW by end of decade + prototypes already running production-target workloads on [[gpt-5-3-codex-spark]] in OpenAI labs + reticle-sized ASIC with HBM3E memory + "Intelligence Processor" branding + design-to-tape-out in nine months reportedly leveraging OpenAI's own models for design automation + targeting LLM inference for [[chatgpt]] / [[openai-codex]] / API / future agentic products + Broadcom positioning Jalapeño as potentially usable across the broader LLM ecosystem beyond OpenAI**)
+> **Previously updated**: 2026-06-25-morning
+> **Status**: unveiled; prototypes running production-target workloads in OpenAI labs; initial production deployments planned late 2026
+> **Related**: [[openai]], [[broadcom]], [[nvidia]], [[ai-hardware]], [[chatgpt]], [[google-tpu-v8]], [[gpt-5-3-codex-spark]], [[microsoft]], [[openai-codex]]
 
 ## Summary
 
@@ -21,26 +22,37 @@ The chip lands inside a broader full-stack platform play: OpenAI is now stacking
 
 ## Timeline
 
+- **2026-06-25-evening**: **Cycle-2 deepening: ~50% cost savings vs typical GPU-based setups + initial Microsoft-data-center deployments late 2026 + multi-gigawatt ramp through 2027–2028 toward ~10 GW by end of decade + prototypes already on GPT-5.3-Codex-Spark in OpenAI labs + reticle-sized ASIC + HBM3E memory + "Intelligence Processor" branding + design-to-tape-out in 9 months reportedly used OpenAI models for design automation + Broadcom positioning chip as potentially usable beyond OpenAI**. Five newsletters in this edition (AINews HIGH "It's Meta-Harness Summer" + The Rundown AI "🌶️ OpenAI's spicy new custom AI chip" + Evolving AI Insights "🌶️ OpenAI Will Soon Run ChatGPT on JALAPEÑO" + TLDR "OpenAI's custom chip 🖥️" + InstaByte) extend the morning cycle's launch event into substantive technical and deployment detail. (1) **~50% cost savings + late-2026 Microsoft-data-center deployment**: The Rundown AI lands ***"designed to deliver higher performance per watt and significantly lower cost for large language model inference, with initial deployments planned in data centers operated by Microsoft and other partners starting around late 2026"*** + ***"targeting multi-gigawatt levels of compute by the end of the decade"***. researchFindings.additionalContext anchors the cost-multiplier: ***"Broadcom and Bloomberg coverage highlight up to around 50% cost savings versus typical GPU-based setups"*** — first publicly framed *50% cost savings vs GPU baseline* in this wiki. (2) **Engineering samples on GPT-5.3-Codex-Spark**: ***"Prototypes are already running in OpenAI labs on models such as GPT‑5.3‑Codex‑Spark, meeting targeted power and performance metrics"*** — first publicly framed *which workload Jalapeño is being validated against* — see [[gpt-5-3-codex-spark]]. The selection is structurally significant: GPT-5.3-Codex-Spark is OpenAI's [[cerebras]]-hardware coding variant (1000+ tokens/sec, Feb 2026), so Jalapeño is being benchmarked against a *known fast-inference baseline*. (3) **~10 GW roadmap through 2027–2028**: ***"initial deployment across data centers expected to begin in late 2026 and ramp through 2027–2028 as part of a roadmap toward about 10 gigawatts of AI compute capacity by the end of the decade"*** — first publicly framed *concrete decade-end GW target* on Jalapeño in this wiki. (4) **9-month design cycle leveraged OpenAI's own models for design automation**: ***"the chip went from design to tape-out in about nine months, an unusually fast cycle that reportedly leveraged OpenAI's own models for design automation"*** — first publicly framed *recursive use of OpenAI models in chip design* — pairs with the [[recursive-self-improvement]] arc (AI used to design the substrate that runs more AI). (5) **Architecture details**: ***"high performance per watt, large HBM3E memory capacity, and reticle-sized silicon"*** + ***"reticle-sized ASIC architecture optimized specifically for running large language models"*** + **"Intelligence Processor" branding** — first publicly framed reticle-sized form factor + HBM3E memory + "Intelligence Processor" naming on Jalapeño. (6) **Broadcom positioning beyond OpenAI**: ***"Broadcom positions Jalapeño as not only an internal OpenAI chip but potentially a product usable across the LLM ecosystem, suggesting it could become a new specialized inference platform for external AI firms as well"*** — first publicly framed *Jalapeño as external-customer offering* in this wiki; if realized, would graduate Jalapeño from an OpenAI-internal SKU into a *competing AI-inference accelerator vendor* alongside NVIDIA / [[google-tpu-v8]] / Amazon Trainium. (7) **Workloads targeted**: ChatGPT + Codex + API + future agentic products. TLDR confirms: ***"OpenAI and Broadcom have unveiled the Jalapeño chip, a custom AI chip designed for inference and optimized for large language models like ChatGPT and Codex"*** + ***"up to 50% cost savings versus typical GPU-based setups. Engineering samples are already running production-target workloads in OpenAI's labs"*** — *source: data/summaries/2026-06-25-evening.json (AINews HIGH "It's Meta-Harness Summer" — OpenAI has announced Jalapeño its first custom AI chip designed for inference aiming to reduce dependence on NVIDIA GPUs and improve performance per watt; The Rundown AI "🌶️ OpenAI's spicy new custom AI chip" — designed to deliver higher performance per watt and significantly lower cost for large language model inference / initial deployments planned in data centers operated by Microsoft and other partners starting around late 2026 / multi-gigawatt levels of compute by the end of the decade; Evolving AI Insights — Jalapeño designed from scratch and built with Broadcom in just nine months purpose-built to run models like ChatGPT and Codex with deployment expected by the end of 2026; TLDR — Jalapeño chip designed for inference / 50% cost savings vs GPU-based setups / engineering samples already running production-target workloads in OpenAI's labs / initial deployments planned in data centers operated by Microsoft and other partners starting around late 2026; researchFindings.additionalContext for Jalapeño — Intelligence Processor / blank-slate ASIC architecture optimized for LLMs / reticle-sized silicon + HBM3E / 9 months design-to-tape-out leveraging OpenAI's own models for design automation / prototypes on GPT-5.3-Codex-Spark / 10 GW roadmap by end of decade / Broadcom positions Jalapeño as potentially usable across the broader LLM ecosystem)*
+
 - **2026-06-25-morning**: **OpenAI unveils Jalapeño, its first custom AI inference chip, co-designed with [[broadcom]]** — built from scratch in nine months, optimized for LLM inference workloads (serving ChatGPT and similar), promising better performance-per-watt and lower operating costs than current state-of-the-art GPU-based systems. Cross-newsletter convergence (AlphaSignal HIGH + AI Breakfast HIGH + tokens& HIGH + TAAFT HIGH + Mindstream + Uncovering AI HIGH + Henry Farrell). TAAFT cycle-headline framing: "🦾 OpenAI Cooks Up Jalapeño". tokens& adds: "built from scratch in nine months ... competing directly with Nvidia and Google in the semiconductor space." First publicly framed *OpenAI-owned inference silicon* in this wiki — completes the silicon-diversification posture of every frontier lab (Anthropic+Micron Series H, Google TPU v8, Amazon Trainium 3, Anthropic+AWS Trainium, now OpenAI+Broadcom Jalapeño) — *source: data/summaries/2026-06-25-morning.json (AlphaSignal HIGH; AI Breakfast HIGH; tokens& HIGH; TAAFT HIGH "🦾 OpenAI Cooks Up Jalapeño"; Mindstream; Uncovering AI HIGH; Henry Farrell)*
 
 ## Key Facts
 
 - Vendor: [[openai]]
 - Co-designer / silicon partner: [[broadcom]]
-- Target workload: LLM inference (serving ChatGPT and similar workloads)
-- Build time: from scratch in nine months
-- Positioning claim: better performance-per-watt + lower operating costs than current GPU-based systems
+- Branding: **"Intelligence Processor"** (blank-slate ASIC)
+- Target workload: LLM inference (ChatGPT, Codex, API, future agentic products) — inference-only, not training
+- Form factor: **reticle-sized silicon** with **HBM3E** memory
+- Build time: design-to-tape-out in ~9 months — reportedly used OpenAI's own models for design automation
+- Cost positioning: **~50% cost savings** vs typical GPU-based setups (per Broadcom + Bloomberg coverage)
+- Initial deployment: data centers operated by **[[microsoft]]** and other partners starting **late 2026**
+- Decade-end target: **~10 GW** of AI compute capacity by end of decade (ramp through 2027–2028)
+- Prototype validation: already running production-target workloads on **[[gpt-5-3-codex-spark]]** in OpenAI labs
+- External availability: Broadcom positions Jalapeño as potentially usable across the broader LLM ecosystem beyond OpenAI
 - Strategic intent: reduce reliance on external GPU providers ([[nvidia]] in particular)
 - Part of broader "full-stack platform" thesis for OpenAI (silicon → infrastructure → models → ChatGPT/Codex layer)
 
 ## Open Questions
 
 - Per-chip performance numbers (FLOPS, tokens/sec, memory bandwidth) — none disclosed at unveil
-- Whether Jalapeño targets training as well as inference, or inference-only at launch
-- Production timeline and which OpenAI workloads it serves first (ChatGPT? Codex? both?)
-- Whether Jalapeño will be made available to OpenAI's [[openai-deployco]] enterprise customers
-- How Jalapeño's per-watt economics compare to Google's [[google-tpu-v8]] and Amazon's Trainium 3
+- Inference-only confirmed (no training) but is training a future SKU?
+- HBM3E capacity per chip + total memory per inference node
+- Reticle-sized exact die area + process node (TSMC 3nm? 2nm?)
+- External-customer availability terms (Broadcom marketed but no named external customer yet)
+- How Jalapeño's per-watt economics compare to Google's [[google-tpu-v8]] and Amazon's Trainium 3 in production
+- Whether the 50% cost-savings claim survives independent benchmarking
 
 ## Sources
 
+- data/summaries/2026-06-25-evening.json (AINews HIGH "It's Meta-Harness Summer"; The Rundown AI "🌶️ OpenAI's spicy new custom AI chip"; Evolving AI Insights "🌶️ OpenAI Will Soon Run ChatGPT on JALAPEÑO"; TLDR "OpenAI's custom chip"; InstaByte; researchFindings.additionalContext on OpenAI + Jalapeño — Intelligence Processor / blank-slate ASIC / reticle-sized + HBM3E / 9 months design-to-tape-out / prototypes on GPT-5.3-Codex-Spark / 10 GW decade-end target / Broadcom external-customer positioning)
 - data/summaries/2026-06-25-morning.json (AlphaSignal HIGH — OpenAI unveils Jalapeño, its first custom AI inference chip, co-designed with Broadcom / better performance-per-watt and lower operating costs / major step in OpenAI's strategy to build a full-stack platform; AI Breakfast HIGH; tokens& HIGH — built from scratch in nine months / competing directly with Nvidia and Google; TAAFT HIGH "🦾 OpenAI Cooks Up Jalapeño"; Mindstream; Uncovering AI HIGH; Henry Farrell)
