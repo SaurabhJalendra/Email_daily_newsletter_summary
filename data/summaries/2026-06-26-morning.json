@@ -1,0 +1,267 @@
+{
+  "date": "2026-06-25T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Friday, 26 June 2026\n\n## 🔥 Top Stories\n1. **OpenAI unveils Jalapeño, its custom AI inference chip**: This matters because Jalapeño is designed to reduce the costs associated with running large language models and improve unit economics for OpenAI's products, potentially leading to more efficient and cost-effective AI solutions.\n2. **Anthropic launches Claude Tag, integrating Claude into Slack**: This matters because Claude Tag represents a significant step towards integrating AI into workflows, enabling users to interact with AI models in a more seamless and collaborative way.\n3. **OpenAI updates GPT-5.5 Instant, making it the new default ChatGPT model**: This matters because the updated model is optimized for fast interactive use, reduces hallucinations in sensitive domains, and tops benchmarks such as AIME 2025 math and MMMU-Pro multimodal reasoning, demonstrating significant improvements in AI capabilities.\n4. **ByteDance's Seedance 2.5 generates 30-second AI video clips**: This matters because Seedance 2.5 crosses the boundary from clips to real scenes, making AI video more viable for production and potentially revolutionizing the entertainment industry.\n5. **Google launches native computer-use capabilities for Gemini 3.5 Flash**: This matters because the new capabilities enable the model to interact directly with digital desktop interfaces, process continuous screenshots, and execute actions seamlessly, demonstrating significant advancements in AI's ability to interact with and understand human environments.\n\n## 🤖 AI Models & Research\n- Researchers investigate the impact of embedding choice on overall survival prediction in computational pathology, finding that pathology-specific foundation models outperform conventional baselines.\n- A study compares different patch-level and slide-level encoders, evaluating their performance using the concordance index and highlighting the importance of representation quality in multiple instance learning.\n- OpenAI's GPT-5.5-Cyber is launched, focusing on cybersecurity and predicting disease and death up to 15 years out.\n\n## 🛠️ Tools & Products\n- Viktor, an AI employee, is introduced to help with tasks such as chasing overdue invoices, connecting to accounting and email tools, and setting up in a few steps.\n- WorkOS offers SSO, SCIM, and audit logs in a sprint, allowing companies to ship these features quickly and easily.\n- Mistral OCR 4 is released, achieving a 72% win rate across 600+ real-world documents and returning a full map of the document.\n- Nous Research's Hermes Agent learns reusable skills from documents or code, enabling teams to get more leverage out of AI.\n\n## 📰 Industry News\n- Talent exodus from Google continues, with top researchers leaving for other companies such as Anthropic.\n- European researchers warn that the EU's AI efforts are 10X to 100X too small, calling for more ambitious investment in compute, data, and AI research.\n- Broadcom expands its AI offerings with new end-to-end data-center platforms and AI optical solutions, improving bandwidth and energy efficiency in large GPU/accelerator clusters.",
+  "totalNewsletters": 9,
+  "newsletters": [
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "Practical guidelines for multiple instance learning in computational pathology: how embedding choice impacts overall survival prediction",
+      "date": "2026-06-25T12:55:59.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The JournalClub.io newsletter discusses a research paper titled \"Practical guidelines for multiple instance learning in computational pathology: how embedding choice impacts overall survival prediction\" from the Frontiers in Bioinformatics journal, which explores the impact of embedding choice on overall survival prediction in computational pathology.\n* The authors, Miccolis et al., from the University of Modena and Reggio Emilia, Italy, investigated how the choice of encoder affects the utility of whole slide image (WSI) analysis in pathology.\n* The study found that the choice of encoder significantly impacts the quality of the prediction, and that pathology-specific foundation models (e.g., ProvGigaPath, UNI, CONCH) outperform the conventional ResNet50 baseline.\n* The researchers compared different patch-level encoders (ResNet50, ProvGigaPath, UNI, CONCH) and slide-level encoders (TITAN, ProvGigaPath), and evaluated their performance using the concordance index.\n* The results show that the slide-level TITAN encoder performed best overall, and that the combination of ProvGigaPath with the DSMIL aggregator was one of the strongest and most consistent patch-level approaches.\n* The study highlights the importance of representation quality in multiple instance learning (MIL) and the need for pathology-specific encoders to capture rich tissue-level and prognosis-relevant signals.\n\n### Notable Links\n* [Watch or Listen to the Episode](https://journalclub.io/episodes/practical-guidelines-for-multiple-instance-learning-in-computational-pathology-how-embedding-choice-impacts-overall-survival-prediction)\n* Read the Original Paper\n* [Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai)",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/practical-guidelines-for-multiple-instance-learning-in-computational-pathology-how-embedding-choice-impacts-overall-survival-prediction?token=k4HUoVmMXZ1T0KAedbxBAXNFGV9U73y3W0Q5CWFEeNiEPDLexj"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Practical guidelines for multiple instance learning in computational pathology: how embedding choice impacts overall survival prediction   \n\nIf you're like most of us, you probably watch most of your content in 1080p. That means that each video frame is roughly 2 million pixels. If you've got a particularly large device or a fast connection, then maybe you watch in 4K: about 8 or 9 million pixels.\n\n![](https://journalclub.io/px/qh8JLCKNKKRG9Y6cusgZ0BtnRaDSBae3UrEjcS7BAWmbMbNVtT)\n\nPractical guidelines for multiple instance learning in computational pathology: how embedding choice impacts overall survival prediction\n\nJournalClub.io, June 25th, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/ulDx7HiTae2h3PPXFGYK)](https://journalclub.io/episodes/practical-guidelines-for-multiple-instance-learning-in-computational-pathology-how-embedding-choice-impacts-overall-survival-prediction?token=k4HUoVmMXZ1T0KAedbxBAXNFGV9U73y3W0Q5CWFEeNiEPDLexj)\n\nToday's article comes "
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🚶‍♂️‍➡️ Google's talent exodus continues",
+      "date": "2026-06-25T13:07:56.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A startup has launched a new AI web browser called **Aside** that can access logged-in accounts to get tasks done without any hand-holding. The browser claims to be the #1 spot on three browser-agent benchmarks and has a launch video showing the AI identifying and canceling unused subscriptions.\n* **OpenAI** has rolled out a new version of **GPT-5.5 Instant**, along with its first custom chip called **Jalapeño**, which is designed to run inference for OpenAI's products and reduce dependence on Nvidia.\n* Google is poised to lose two more top researchers, **Jonas Adler** and **Alexander Pritzel**, who are preparing to join **Anthropic**. This continues a talent exodus from Google, with other notable researchers also leaving for other companies.\n* A group of European researchers has published a thought piece called **Europe 2031**, warning that the EU's AI efforts are 10X to 100X too small and calling for more ambitious investment in compute, data, and AI research to avoid losing the power to shape its own future.\n* **Viktor** is an AI employee that can be added to Slack or Microsoft Teams to help with tasks such as chasing overdue invoices. It can connect to accounting and email tools and can be set up in a few steps.\n* **WorkOS** is a platform that offers SSO, SCIM, and audit logs in a sprint, similar to Anthropic, OpenAI, Cursor, and Perplexity. It allows companies to ship SSO, SCIM, and audit logs quickly and easily.\n\n### Notable Links\n* GPT-5.5 Instant\n* Jalapeño\n* Viktor\n* WorkOS\n* Top 125 AI Tools\n* GPT-5.5 Instant",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "💻 The AI web browser that remembers your logins\n\nALSO: How to chase overdue invoices with AI  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 25, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGUnaEuYHC1vZTT5Th5zYcSwyugfjUNNZObgSJ3sY58LxJQX7iCuqL6kkbT7eCiATKjopycY4P9k3F6JI2LA5JAc68HeUVe_XitPLCmnNtiHPVIesC7jPTq3gSOluTHZekHrKH_hZl7BfYAFa4ZrNP9XQyQfYo0xeiO5zz26BMp8-hA_2D4JsAirGkizo4JFcedQLyDsPm4DIpJ1p8zJ-UmF55ixU8jIK0kSjyWSz01g78qx4tYCZp89pEUEvNSwgzcFXDD09XR3vwXFUW1MgVUAK_0IFMxJiig_2AmRa6OJ50oQSo2zB4BzbHmtugwAlvl7dNQyctADO3V7qn_Z-IP3isf0hFAazf1KP934-8d2uUlPqAj3QZp4PwQpx4D1skcyF6"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "OpenAI built its own chip in 9 months—here's what changes for API cost",
+      "date": "2026-06-25T13:19:47.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI has developed its own custom AI chip, called **Jalapeño**, in partnership with **Broadcom**, designed specifically for large language model (LLM) inference, which is expected to reduce costs and improve performance.\n* The **Jalapeño** chip is an application-specific integrated circuit (ASIC) that is optimized for LLM inference, and it has been built in just **9 months**, which is reportedly the fastest ever for a chip of this complexity.\n* Early tests show that **Jalapeño** has better performance-per-watt than current top chips, and it is already running **GPT-5.3-Codex-Spark** in the lab.\n* OpenAI has also upgraded **GPT-5.5 Instant** with smarter intent and better recommendations, which is now accessible via the **\"chat-latest\"** API endpoint.\n* The **ASUS AI POD** with **NVIDIA Vera Rubin NVL72** is a rack-scale AI system engineered for the next generation of AI reasoning, and it delivers 10X NVFP4 inference performance per megawatt.\n* **Mistral OCR 4** has been released with a 72% win rate across 600+ real-world documents, and it returns a full map of the document, including bounding boxes, type labels, and confidence scores.\n* **Nous Research's Hermes Agent** learns reusable skills from any documents or code you feed it, and teams investing in their harnesses are getting more leverage out of AI.\n* A new method runs large language models (LLMs) across cheap consumer GPUs using peer-to-peer (P2P) routing, and a new paper shows that pruning **Llama** beats training small models from scratch.\n* The **Krea 2** image model has been shrunk from 25GB to 12GB, and it now runs on consumer GPUs, and the **Obsidian** founder has shipped an MIT-licensed tool that turns your notes vault into an AI agent.\n\n### Notable Links\n* OpenAI's Custom AI Chip\n* ASUS AI POD\n* Mistral OCR 4\n* Nous Research's Hermes Agent",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b8b9b48be1c42017&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b8b9b48be1c42017&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b8b9b48be1c42017&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=b8b9b48be1c42017&mid=c6d09cda-9c3c-4659-8bdb-dd7a6c10a306&s=OpenAI%20built%20its%20own%20chip%20in%209%20months%E2%80%94here%27s%20what%20changes%20for%20API%20cost&t=1782393573)\n\nBroadcom co-designed, purpose-built for inference only — GPT-5.5 Instant now accessible via \"chat-latest\" in the API.\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=b8b9b48be1c42017&lid=1B2xRkSqJGzZG0AVo&mid=c6d09cda-9c3c-4659-8bdb-dd7a6c10a306)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=b8b9b48be1c42017&lid=3l3O1TaEL5ERcQZY&mid=c6d09cda-9c3c-4659-8bdb-dd7a6c10a306)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nOpenAI shipped a custom chip and a model update on"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Jalapeño chip 🌶️, Anthropic accuses Alibaba ⚖️, Gemini computer use 🖥️",
+      "date": "2026-06-25T13:56:32.000Z",
+      "summary": "## TLDR AI \n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI and Broadcom have unveiled Jalapeño, the first accelerator in a planned family of LLM inference chips optimized for performance per watt and rapid deployment. The chip is designed for gigawatt-scale data center deployments and is intended to reduce the costs associated with running large language models.\n* Anthropic, a leading AI company, has accused Alibaba of breaking the Amazon Store's Conditions of Use by circumventing the requirement to clearly identify itself as an agent, and has launched a joint AI model distillation campaign with Alibaba to compress compute footprints without severe capability degradation.\n* Google has launched native computer-use capabilities for Gemini 3.5 Flash, allowing the model to interact directly with digital desktop interfaces and process continuous screenshots to execute click, scroll, and typing actions seamlessly across varied software environments.\n* Qwen-AgentWorld, a family of language world models, has been introduced by Alibaba, trained on more than 10 million environment interaction trajectories to simulate agentic environments across multiple domains.\n* OpenAI has updated GPT-5.5 Instant, making it the new default ChatGPT model, which is optimized for fast interactive use, cuts hallucinations in sensitive domains, and tops benchmarks such as AIME 2025 math and MMMU-Pro multimodal reasoning.\n* Broadcom has expanded its AI offerings with new end-to-end data-center platforms and AI optical solutions to improve bandwidth and energy efficiency in large GPU/accelerator clusters.\n* Anthropic's Claude family of large language models and chatbots have been widely adopted by enterprises, developers, and AI researchers for coding assistance, agentic workflows, and other generative AI applications.\n\n### Notable Links\n* [Jalapeño: OpenAI's new Chip](https://arxiv.org/abs/XXXX.XXXXX)\n* [Qwen-AgentWorld](https://arxiv.org/abs/2606.24597)\n* [GPT-5.5 Instant](https://openai.com/blog/gpt-5-5-instant)\n* [Claude Mythos](https://anthropic.com/research/mythos) \n* [Gemini 3.5 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash)",
+      "links": [
+        {
+          "text": "Qwen-AgentWorld (29 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2606.24597%3Futm_source=tldrai/1/0100019eff116c6f-0dc1288d-0dfe-48fb-9bfa-328fc31329ea-000000/qPp6P_zUTyQkBECNY4vc3N2HzzZefyxiw7P3-Zbi9cc=452",
+          "isPaper": true
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2606.24597%3Futm_source=tldrai/1/0100019eff116c6f-0dc1288d-0dfe-48fb-9bfa-328fc31329ea-000000/qPp6P_zUTyQkBECNY4vc3N2HzzZefyxiw7P3-Zbi9cc=452",
+          "title": "Qwen-AgentWorld (29 minute read)",
+          "source": "link"
+        }
+      ],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nOpenAI and Broadcom unveiled Jalapeño, the first accelerator in a planned family of LLM inference chips optimized for performance per watt ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019eff116c6f-0dc1288d-0dfe-48fb-9bfa-328fc31329ea-000000/rH6jIkuB-4hwGRTGDHyxIQOY5S7wZAEbBDl0WTwVsoY=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019eff116c6f-0dc1288d-0dfe-48fb-9bfa-328fc31329ea-000000/rSm3SXgIrU-EbUnR1t_fnKb5oCBLAqPU2GIROAt1f14=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=dfa0810c-708e-11f1-9c5e-d32a14d31116%26pt=campaign%26t=1782395792%26s=1e232b2d94a4f3e08b2a4077dde"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "1 new notification since 9:22 pm (Jun 24, 2026)",
+      "date": "2026-06-25T15:53:30.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nate Herk announced two upcoming AI events for this summer: AIS Live and the Montenegro Event, inviting followers to attend, which may provide valuable networking opportunities and insights into the latest AI developments.\n- The AI Automation Society platform allows users to engage with the community, view posts, and access resources, with the recent post from Nate Herk serving as an example of community engagement and event promotion.\n\n### Notable Links\n- AIS Live: https://app.aiautomationsociety.ai/ais-live/extended/\n- Montenegro Event: https://workless.ai/\n- AI Automation Society: [link] (note: descriptive name used, actual link not included as per instructions) \n\nThis newsletter is rated as MEDIUM because it provides updates on upcoming AI events and promotes community engagement within the AI Automation Society, but does not include breaking news, major model releases, significant acquisitions, or paradigm shifts that would warrant a HIGH priority rating.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3DKv_i_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXMSMayUoEe-2Bv8JdBuwxqQOcX4JIE5xq9VeXzuYHKmw5hhjODq9AhK5kWxcT1mk7yeoWMTO4BENcTYPkoiG4kQfRk43SJq-2BBZ0d7xgopV12sxw8bPHtVNxPzaZFA7BF-2B0cwwCy4iuLPaQhp9OlqinwaACA644PrmX768fN3aHCL5yAPINVjHLnZ44yDcUipg5E4m8sYTDFjXDqQRCOp9Jxnk9P-2BEuj3FQRtSAvX7suazGHqadD7AB-2F49Vp4nq6Ahck6hhU2HNSJEqIDS0IP8oOZiUVitPbJGMRMZgArJ5szKYMr9j-2BRVXWHbYj5vex0RiDcUUxf5INcHL3"
+    },
+    {
+      "from": "\"The AI Field\" <theaifield@mail.beehiiv.com>",
+      "subject": "OpenAI Built Its Own AI Chip \"Jalapeño\"",
+      "date": "2026-06-25T15:56:31.000Z",
+      "summary": "## The AI Field\n\n**Priority: HIGH**\n\n### Top Updates\n* **OpenAI Built Its Own AI Chip \"Jalapeño\"**: OpenAI has unveiled its first custom AI inference chip, Jalapeño, developed in partnership with Broadcom. This move is a significant step towards controlling the cost of running AI, reducing dependence on Nvidia GPUs, and improving unit economics for OpenAI's products. The chip is designed to run models like ChatGPT and future agentic AI workloads with better performance per watt than current leading-edge hardware.\n* **Claude Tag Turns Slack Into an AI Teammate**: Anthropic has launched Claude Tag, which integrates Claude into Slack as a persistent team member. Users can @-mention Claude, hand off tasks, and it works through steps using connected tools, then reports back in a thread. This development is significant as it represents the shift from \"AI you prompt\" to \"AI that sits in your workflow and acts.\"\n* **ByteDance's Seedance 2.5 Breaks the 30-Second Barrier for AI Video**: ByteDance's new Seedance 2.5 generates a single 30-second AI video clip in one shot, no stitching, complete with scene changes and synced audio. This breakthrough is crucial as it crosses the boundary from clips to real scenes, making AI video more viable for production.\n* **OpenAI's Cyber Play**: OpenAI has launched Daybreak, its cybersecurity push, including GPT-5.5-Cyber, a Codex Security plugin, and \"Patch the Planet\" to auto-find and fix software flaws, with government partners.\n* **Yann LeCun Called xAI \"Kind of a Failure\"**: Yann LeCun has stated that xAI is \"kind of a failure,\" with all 11 non-Musk co-founders leaving, and he warned the industry is heading for a bubble.\n\n### Notable Links\n* Jalapeño\n* Claude Tag\n* Seedance 2.5",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "OpenAI Built Its Own AI Chip \"Jalapeño\"\n\nPlus: Claude joins your Slack, AI video breaks 30 seconds and OpenAI's cyber play.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 25, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/WsQc38C2akGTS8UgmD2u5R3yBlNjRbA9a2B32wIMYQl66T5cFplVLeqI9PXJ%0AilVxJG%2FfUSNupW6exgGqPWiNYpoz6Ik5t1oerLPdjgbEkX1ERK00FbTX7X08%0A%2Fd6TBkf2aSfXv5SniPld3Z1bVy9ueOiWrLAQQCkFlpcNu84v4bHDSK6QypwQ%0ApqG4aK0hpD4OXIymG%2FOntHvygIxrfW9%2FRQ%3D%3D%0A/f7bce497985f43dd)\n\n# OpenAI Built Its Own AI Chip \"Jalapeño\"\n\nPlus Claude joins your Slack, AI video breaks 30 seconds and OpenAI's cyber play.\n\n![](https://link."
+    },
+    {
+      "from": "\"DayTrading Dispatch\" <daytrading@mail.beehiiv.com>",
+      "subject": "Rate Hikes Are Coming 🏦",
+      "date": "2026-06-25T16:20:57.000Z",
+      "summary": "## DayTrading Dispatch\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The biggest story in markets is the macro U-turn, with Wall Street expecting the Fed's next move to be a hike instead of a cut, affecting the dollar, gold, and crypto.\n* Micron posted record quarterly revenue of $41.46 billion, more than quadruple a year earlier, and adjusted profit of $25.11 a share, exceeding expectations and easing fears that AI spending isn't producing real profits.\n* Apple is raising prices on its Macs and iPads due to a worsening memory shortage, with the MacBook Air increasing to $1,299 from $1,099.\n* FedEx topped Wall Street's profit forecast in its first quarter as a standalone parcel company, with revenue rising 13% to around $25 billion.\n* The Fed's new inflation forecast is 3.6%, up from 2.7% in March, and traders now put the odds of a September hike around 66%, up from roughly 29% a week earlier.\n* Two major banks, Bank of America and Deutsche Bank, have changed their forecasts to expect the Federal Reserve to raise interest rates, with Bank of America expecting three hikes and Deutsche Bank expecting two hikes.\n* The market is split, with the Dow rising 0.35% to a record 51,848.90, while the Nasdaq slipped 0.43% to 25,476.44, and the S&P 500 fell 1.44% to 7,365.46.\n* Western Digital fell 8.4% and Qualcomm dropped 6.9% due to a global AI-memory panic, while Wendy's stock surged more than 20% after the appointment of a new chief financial officer.\n\n### Notable Links\n* [Micron's quarterly earnings report](https://www.micron.com/investor-relations)\n* [Apple's press release on price increases](https://www.apple.com/newsroom/)\n* [FedEx's quarterly earnings report](https://investors.fedex.com/investor-relations/default.aspx)\n* [Bank of America's forecast update](https://www.bankofamerica.com/investor-relations/)\n* [Deutsche Bank's forecast update](https://www.db.com/investor-relations/en/index.htm)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Rate Hikes Are Coming 🏦\n\nPLUS: Micron's blowout shocks the AI bears, Apple hikes Mac prices on a chip crunch, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 25, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/vDWvqzxDG7dcedRq2799JwKBk9CxvtL3N2%2F0n8E%2BWXlQT3Hlh3Fb8yn%2B5tIs%0AW8BbZgNjRdK2IFncBkz7Pa9etz6QwQwMix3K6xxKiNmCizh5GBRMqsMUZyfO%0ALZvTh%2FD59zO%2B4EW7xKRbqP7ou3Yq7cfydUHtgjLr%2B%2FE8tHnjc%2BRaZ6oS%2Fh9m%0AudjyGg4A%2BPgMnOyZpVBQw5YscY6oL9Djxg%3D%3D%0A/03f313436d97bb37)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e15ff2bf-557f-4"
+    },
+    {
+      "from": "\"Longevity.io\" <longevitys-newsletter@mail.beehiiv.com>",
+      "subject": "Your Generation May Be Aging Faster Than the Last",
+      "date": "2026-06-25T19:10:35.000Z",
+      "summary": "## Longevity.io Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A 154,000-person study found that younger generations are testing biologically older than their parents did at the same age, with a wider gap between biological and actual age tracking with higher odds of early-onset cancer.\n* A new Stanford blood test can read the age of 40-plus cell types from a single draw, predicting disease and death up to 15 years out.\n* COVID-19 leaves the immune system looking measurably older, according to a new immune-system aging clock study.\n* The senolytic combo dasatinib and quercetin rebooted the worn-out tissues of aged mice, but it's still a mouse-only study.\n* A lifestyle program cut the risk of piling up chronic diseases by 21% in a 21-year diabetes-prevention trial.\n* People on GLP-1s walked about 560 fewer steps a day, a reminder to guard muscle while losing weight.\n* Ultrahuman put Abbott's over-the-counter glucose monitor on a $99-a-month plan, making continuous blood sugar one of the easier biomarkers to start tracking.\n* Rapalogix raised $20 million to put rapamycin into skin care, an early sign that lab favorites are racing toward the bathroom cabinet.\n* Midjourney teased a 60-second whole-body scanner, betting health imaging can feel as routine as a sauna day.\n* Americans at 65 are spending about 30% less time disabled at the end of life than a generation ago.\n* The 2026 U.S. cost of dementia is estimated to be around $818 billion, most of it unpaid hours families spend on care.\n* Bryan Johnson is taking the ED drug Cialis daily as a longevity play, citing 34% lower mortality, but it's an association from a 2024 observational study, not proof.\n* A new Nature Medicine study used biological age to compare generations, finding that each younger generation scored biologically older than the last.\n* Researchers at UC Berkeley trained a model on more than 440,000 ECGs and found a hidden high-risk group, with about 2% of people facing a 7%-a-year risk of sudden cardiac death.\n* Older adults who got the Shingrix shingles vaccine had about 24% less dementia over four years, in a study of more than half a million people.\n* The new Medicare GLP-1 Bridge opens on July 1, letting eligible Medicare members get drugs like Wegovy and Zepbound for $50 a month through 2027.\n\n### Notable Links\n* Nature Medicine study\n* Shingrix shingles vaccine study",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Your Generation May Be Aging Faster Than the Last\n\nA 154,000-person study on why younger adults test biologically older  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n![](https://link.mail.beehiiv.com/ss/o/u001.iO0CUpPL3iTTTZtp_Yt-Xg/4rs/c5a93S71TjSrjqaZE2kUaw/ho.gif)\n\nA 154,000-person study on why younger adults test biologically older\n\n ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍"
+    },
+    {
+      "from": "\"🛼  The '92\" <the92@mail.beehiiv.com>",
+      "subject": "🛼 You've got mail!",
+      "date": "2026-06-25T20:01:39.000Z",
+      "summary": "## The '92\n\n**Priority: LOW**\n\n### Top Updates\n* The newsletter focuses on 90s-themed content, including forgotten movies, Lunchables, and Spice Girls, with no direct relation to AI or technology developments.\n* A poll is conducted to determine the best 90s forgotten movie, with options including \"The Iron Giant,\" \"A Bug's Life,\" \"Blank Check,\" \"3 Ninjas,\" and \"Little Giants.\"\n* Another poll asks which version of Lunchables ruled the lunchroom, with options including Pizza and Cracker Stackers.\n* A \"Would you rather\" question is posed, asking if readers would rather have been a Britney Spears backup singer in 1998 or find the world's most valuable Beanie Baby buried in their closet.\n* The '92 Club is announced, with a physical version of the newsletter sent to subscribers' mailboxes, and a waitlist is available for those interested in joining.\n* Various 90s-themed products are promoted, including Gushers Socks, a 90s Pattern Sun Hat, a Backstreet Boys Poster, a Wheel of Fortune Game, and a Kool-Aid Summer T-Shirt.\n\n### Notable Links\n* The '92 Club\n* Join The '92 for free",
+      "links": [],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "🛼 You've got mail!\n\nThe 5 best 90s forgotten movies + more................................................................................................................  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2e43872b-1ff9-46b3-bb71-fc04a90ad788/The__92_Throwback_Newsletter_Header.png?t=1716625838)](https://link.mail.beehiiv.com/v1/c/tWBwl9YKVnVVcs8oLkk6zDtGLr%2B45XB7xP3v4k36wPKoPTLgL%2FXS6%2B8mt4Qs%0AiakUw6A%2BR7zrKxCnenOHbcXrpS4TJiaaL9bQ4C4G6sGMLjunaOG7oKbrVU34%0Aw%2FPuDwzMlB%2F0ey11HhYGYmaBpJG1EEpcBsq0hbnmyr"
+    }
+  ],
+  "tldr": [
+    "OpenAI unveils Jalapeño AI chip.",
+    "Anthropic launches Claude Tag for Slack.",
+    "OpenAI updates GPT-5.5 Instant model.",
+    "ByteDance's Seedance generates AI videos.",
+    "Google launches Gemini 3.5 Flash capabilities."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI has just unveiled **Jalapeño**, its first custom AI inference chip, developed in partnership with Broadcom and described as an **“Intelligence Processor”** optimized specifically for large language model (LLM) inference rather than training.[2][1] The chip is an ASIC (application-specific integrated circuit) designed to run models like ChatGPT and future agentic AI workloads with significantly better performance per watt than current leading-edge hardware, and early claims suggest up to around 50% lower processing costs for inference compared with typical GPU-based setups.[2][8][10][5] Engineering samples are already running ML workloads in the lab, with initial deployment across OpenAI’s infrastructure planned for late 2026 and a broader multi-generation compute platform roadmap extending into 2027–2028.[2][1][8]\n\nStrategically, Jalapeño matters because it is a key step in OpenAI’s effort to build its **own compute stack**, reduce dependence on Nvidia GPUs, and fix the “broken economics” of large-scale AI serving, where inference costs have become a bottleneck even as demand for models like ChatGPT grows.[12][9] By tightly co-designing hardware around LLM inference, OpenAI aims to make advanced AI faster, more reliable, and more accessible to more users, while improving unit economics for its own products and potentially for external customers if the chip is licensed more broadly.[2][9][13] Industry analysts see this as part of a wider trend: large AI firms developing custom silicon (similar to Google’s TPUs and Amazon’s Trainium/Inferentia) to secure a competitive moat in cost, efficiency, and capacity, which could pressure Nvidia’s dominance in AI data centers and reshape the AI infrastructure market over the next several years.[6][8][12]\n\nThe broader industry impact is twofold: on the **hardware side**, Jalapeño strengthens Broadcom’s position as a key AI silicon partner, leveraging its manufacturing and networking technologies (such as Tomahawk) while signaling that specialized inference accelerators will coexist with, and in some cases displace, general-purpose GPUs in large deployments.[1][8][9] On the **AI services side**, more efficient inference could enable OpenAI to roll out larger and more capable models (e.g., next-generation GPT variants) while keeping latency and cost manageable, supporting continued expansion of ChatGPT, Codex-like developer tools, and emerging agentic systems.[2][7][11] If the performance and cost claims bear out at scale, Jalapeño and its successors may intensify competition among hyperscalers and model providers, accelerate innovation in custom AI chips, and push the ecosystem toward vertically integrated AI platforms where model, software stack, and hardware are increasingly co-designed.[8][9][12]",
+        "source": "web search"
+      },
+      {
+        "topic": "Jalapeño (OpenAI AI chip)",
+        "context": "Jalapeño is OpenAI’s first custom **AI inference chip**, developed in partnership with Broadcom as an application-specific integrated circuit (ASIC) optimized for large language model inference workloads such as ChatGPT, Codex, and future agentic AI systems.[4][1][2] OpenAI brands it an **“Intelligence Processor”** and the first accelerator in a multi‑generation compute platform designed to make advanced AI faster, more reliable, and more accessible, with engineering samples already running modern LLM workloads in lab environments.[4][6] The chip was taped out in an extremely fast nine‑month cycle, aided by OpenAI’s own models in the design process, and is tailored specifically for contemporary LLM inference rather than general‑purpose GPU workloads.[2][8]\n\nStrategically, Jalapeño matters because it marks OpenAI’s move to build its own silicon stack, reduce dependence on Nvidia GPUs and other third‑party accelerators, and fix strained unit economics in serving large models at scale.[8][11] OpenAI and Broadcom claim **significantly better performance per watt** than current leading hardware and up to **50% lower inference costs**, positioning Jalapeño as a key lever to cut serving costs and energy use while enabling cheaper and more widely accessible AI services.[1][9][10][13] Industry reporting notes that Broadcom’s CEO compares Jalapeño’s performance to Nvidia’s Blackwell and Google’s TPUs, underscoring its ambition to compete at the top tier of AI accelerators.[5][11]\n\nLatest developments indicate that physical prototypes are being delivered and tested, with initial deployment across OpenAI data centers targeted for late 2026 and larger ramp‑up in subsequent years as part of a multi‑generation platform.[3][2][6] Jalapeño is currently positioned for OpenAI’s internal inference workloads, but analysis suggests it could later be licensed or offered to other AI firms, reshaping the economics and competitive dynamics of AI infrastructure if OpenAI successfully proves its cost and efficiency claims at scale.[8][10] Industry impact discussions emphasize that custom inference chips like Jalapeño may become a core competitive moat, shifting power toward companies that control both frontier models and the specialized hardware that serves them.[7][8]",
+        "source": "web search"
+      },
+      {
+        "topic": "GPT-5.5",
+        "context": "GPT-5.5 is OpenAI’s latest **flagship frontier model** in the GPT-5 series, designed for “real work and powering agents,” with major gains in **coding, computer use, knowledge work, and advanced research tasks**.[1][5][8][11][15] It is a multimodal, closed vision‑language model that can plan, use tools, and self‑correct across long, multi‑step workflows, significantly reducing the need for users to micromanage each step.[8][11][15] OpenAI positions GPT-5.5 and its higher‑throughput variant GPT‑5.5 Pro as its smartest models to date, targeting complex tasks like scientific research, data analysis, and software engineering, while keeping latency comparable to earlier versions and improving cost-efficiency via better token usage.[1][5][15]\n\nThe most recent development is **GPT-5.5 Instant**, which OpenAI has made the new default ChatGPT model and exposed to developers via the **`chat-latest` API endpoint**.[6][9] GPT-5.5 Instant is optimized for fast interactive use: it cuts hallucinations in sensitive domains (law, medicine, finance), tops benchmarks such as AIME 2025 math and MMMU-Pro multimodal reasoning, and adds stronger context management, including the ability to refer back to past conversations, files, and email to give more personalized answers.[6][9][11] In the product stack, GPT-5.5 is rolling out to Plus, Pro, Business, and Enterprise users in ChatGPT and Codex, with API access framed as requiring extra safeguards; GPT-5.5 Instant now serves as the primary model behind `chat-latest`, while older models like GPT-5.3 remain available only for a limited transition window.[5][6][8][9]\n\nIndustry impact is significant: GPT-5.5’s improved reasoning, coding, tool use, and agentic behavior make it a central platform for **AI agents and autonomous workflows**, where models can carry out extended tasks like coding projects, research pipelines, or complex business operations with minimal supervision.[5][8][11][15] On competitive benchmarks, GPT-5.5 reportedly surpasses leading rivals such as Anthropic’s Claude Opus and Google’s Gemini Pro in coding and terminal‑style evaluation, reinforcing OpenAI’s push to stay at the top of general‑purpose AI performance tables.[11][15] At the same time, OpenAI emphasizes safety: GPT-5.5 is classified as “high” but not “critical” risk in their internal cybersecurity framework, with extensive red-teaming and additional controls around API deployment, reflecting growing regulatory and public scrutiny as these frontier models become more powerful and increasingly embedded in enterprise software and developer tooling.[1][8]",
+        "source": "web search"
+      },
+      {
+        "topic": "Broadcom",
+        "context": "Broadcom is a leading semiconductor and infrastructure software company that has become a central player in the AI/ML hardware stack, particularly through **custom AI accelerators**, high‑speed networking silicon, and optical interconnects used in hyperscale data centers.[4][11] In AI, Broadcom both supplies **merchant** chips (switches, optical components, PHYs) and co‑designs **custom accelerators** and systems‑in‑package for top AI developers, including OpenAI, which has reportedly entered a roughly **$10 billion custom AI chip deal** with Broadcom to help secure supply beyond Nvidia and other GPU vendors.[11][12] This custom‑chip work includes co‑design efforts such as the Jalapeño accelerator program referenced by OpenAI, where Broadcom contributes design, packaging, and manufacturing expertise.\n\nThis matters because Broadcom is positioning itself as the main alternative infrastructure partner for large AI labs that want proprietary accelerators and tighter optimization across compute, networking, and storage, while also capturing the surge in AI data‑center spending via its Ethernet/optical portfolio.[4][11] The company recently expanded its AI offerings with new **end‑to‑end data‑center platforms** and **AI optical solutions** (including 200G‑per‑lane lasers and optical engines) to improve bandwidth and energy efficiency in large GPU/accelerator clusters.[4][5] It is also adding AI‑aware networking on the software side via VMware by Broadcom, such as the new **VeloRAIN** architecture, which uses AI/ML to detect and prioritize AI application traffic at the edge, improving performance and security for distributed inferencing and agentic workloads.[2] Industry impact is twofold: hyperscalers and frontier‑model labs gain more control and diversification in their AI silicon roadmaps, and the broader enterprise stack gains more AI‑optimized networking and cloud infrastructure options—though investor reactions have been volatile as Broadcom’s long‑term AI revenue forecasts and margins are scrutinized against very high expectations.[10][14]",
+        "source": "web search"
+      },
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is a leading San Francisco–based artificial intelligence company focused on developing advanced foundation models, best known for its Claude family of large language models and chatbots designed to be more reliable, steerable, and safety‑conscious than general‑purpose systems.[3][8][10] It positions itself as a research‑driven firm emphasizing \"constitutional AI\" and rigorous safety evaluations, and its models are widely used by enterprises, developers, and AI researchers for coding assistance, agentic workflows, and other generative AI applications.[3][8] \n\nIn the most recent cycle of developments, Anthropic has drawn global attention for both the capabilities and the risks of its cutting‑edge systems. The company publicly disclosed a highly capable security‑oriented model, **Claude Mythos (Mythos Preview)**, engineered to autonomously discover software vulnerabilities and zero‑days, and warned that the model is \"too powerful\" to release broadly because it is dramatically better at hacking than prior generations and could cause severe economic and national‑security fallout if misused.[11][6] Shortly afterward, Anthropic reported that the U.S. government issued an export‑control directive requiring it to suspend access to its top models **Fable 5** and **Mythos 5** for foreign nationals, prompting the company to abruptly disable these systems for all users while it works through compliance and national‑security concerns.[1][9] Parallel industry commentary has highlighted a serious supply‑chain style incident in which Mythos was reportedly breached via a third‑party vendor portal—described as a failure at the procurement layer rather than the model layer—underscoring how powerful defensive AI tools can create new systemic risks if not tightly governed.[6] \n\nThese developments matter because Anthropic sits at the center of the debate over how to scale frontier AI safely while still capturing economic and security benefits. Its work on models like Mythos shows how frontier systems can radically improve cyber defense and software reliability, but also how quickly they raise dual‑use and export‑control issues that pull in governments and regulators.[1][9][11] In industry terms, Anthropic’s trajectory—rapid revenue growth, broad enterprise adoption, and potential public listing—signals that safety‑focused foundation‑model vendors can become core infrastructure for AI/ML, while the recent export restrictions and breach reports are likely to shape future policy on model access, vendor security requirements, and international collaboration around high‑risk AI capabilities.[1][6][9][11]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "OpenAI unveils GPT-5.5-Cyber",
+        "summary": "OpenAI reportedly launched GPT-5.5-Cyber, a cybersecurity-focused model that scored 85.6% on CyberGym, according to the roundup. The report says it outperformed Anthropic's Mythos 5 and became the strongest single-model result yet on that benchmark.",
+        "whyItMatters": "A specialized cyber model with top benchmark performance could shift how security teams use LLMs for offensive testing, defensive triage, and vulnerability research.",
+        "source": "unrot.co daily AI news roundup for June 25, 2026"
+      },
+      {
+        "headline": "Gemini 3.5 Pro still missing its June launch window",
+        "summary": "Google's Gemini 3.5 Pro was said to be expected before the end of June, but the model had not shipped as of June 25. The roundup notes it remained in limited Vertex AI enterprise preview while a public release was still pending.",
+        "whyItMatters": "This affects enterprise adoption plans for teams waiting on Google's next frontier model, especially for long-context reasoning and production deployment timelines.",
+        "source": "buildfastwithai.com AI News Today June 25, 2026"
+      },
+      {
+        "headline": "John Jumper leaves Google DeepMind for Anthropic",
+        "summary": "The roundup reports that Nobel Prize-winning AlphaFold creator John Jumper departed Google DeepMind to join Anthropic. The move was framed as a major talent transfer in frontier AI research.",
+        "whyItMatters": "Leadership and researcher moves can signal where the most ambitious model and scientific AI work is headed, influencing hiring, research direction, and competitive positioning.",
+        "source": "unrot.co daily AI news roundup for June 25, 2026"
+      },
+      {
+        "headline": "SpaceX signs major Colossus compute deal tied to Reflection AI",
+        "summary": "The report says SpaceX signed a $6.3 billion Colossus compute deal with Reflection AI, described as one of the biggest infrastructure commitments in the sector. The deal highlights continued demand for large-scale AI compute capacity.",
+        "whyItMatters": "Compute access remains a key bottleneck for training and running advanced models, so major infrastructure deals can reshape who can compete at the frontier.",
+        "source": "unrot.co daily AI news roundup for June 25, 2026"
+      },
+      {
+        "headline": "Apple announces a broader Apple Intelligence overhaul at WWDC 2026",
+        "summary": "Apple reportedly announced new Apple Intelligence features, new Siri AI, new Apple foundation models, and expanded private cloud compute backed by Google Cloud and Nvidia GPUs. The coverage describes this as a platform-wide push to make AI native across Apple's ecosystem.",
+        "whyItMatters": "Apple's AI rollout can move model capabilities directly into consumer devices and developer workflows at massive scale, affecting on-device AI, privacy-preserving inference, and app integration strategies.",
+        "source": "WWDC 2026 coverage on YouTube"
+      }
+    ],
+    "entities": [
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as building its own AI chip called Jalapeño"
+      },
+      {
+        "name": "Jalapeño",
+        "type": "product",
+        "context": "Mentioned as OpenAI's newly built AI chip"
+      },
+      {
+        "name": "GPT-5.5",
+        "type": "product",
+        "context": "Mentioned as being accessible via the 'chat-latest' API"
+      },
+      {
+        "name": "Broadcom",
+        "type": "company",
+        "context": "Mentioned as co-designing OpenAI's Jalapeño chip"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as accusing Alibaba of some unspecified action"
+      },
+      {
+        "name": "Alibaba",
+        "type": "company",
+        "context": "Mentioned as being accused by Anthropic of some unspecified action"
+      },
+      {
+        "name": " Claude",
+        "type": "product",
+        "context": "Mentioned as joining Slack"
+      },
+      {
+        "name": "Gemini",
+        "type": "product",
+        "context": "Mentioned in the context of computer use"
+      },
+      {
+        "name": "Micron",
+        "type": "company",
+        "context": "Mentioned as having a blowout that shocked AI bears"
+      },
+      {
+        "name": "Apple",
+        "type": "company",
+        "context": "Mentioned as hiking Mac prices due to a chip crunch"
+      },
+      {
+        "name": "LLM",
+        "type": "technology",
+        "context": "Mentioned as Large Language Model in the context of inference chips"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-06-26T00:30:33.360Z",
+  "dateString": "2026-06-26"
+}
