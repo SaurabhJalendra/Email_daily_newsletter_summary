@@ -8,7 +8,8 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2025-12-25
-> **Last updated**: 2026-06-08 (evening edition — MIT/Wharton + DORA study on 100K+ active GitHub devs: async agents generate **17× more code** but only **20% more software releases**; "attenuation effect" + "marketplace paradox" + Agentic Development Lifecycle (ADLC) framing)
+> **Last updated**: 2026-06-27-evening (**Hello, World! Industry News: ***"The cost of AI coding tools is rising quickly, with analysts warning that it could soon exceed the cost of employing software developers, emphasizing the need for stronger governance and cost management"*** — first publicly framed *AI-coding-tool-cost-may-soon-exceed-software-developer-salaries* canonical lexical anchor in this wiki + first publicly framed *cost-governance-as-vibe-coding-discipline* framing; pairs structurally with [[plandex]] open-source AI coding agent launch + [[glm-5-2]] *credible alternative to premium commercial coding assistants* framing — the cycle's broader pattern is that vibe-coding's economic equation is becoming a procurement question, not just a productivity question, with open-source alternatives ([[plandex]] / [[glm-5-2]]) emerging as cost-side responses to premium commercial assistant pricing pressure)
+> **Previously updated**: 2026-06-08 (evening edition — MIT/Wharton + DORA study on 100K+ active GitHub devs: async agents generate **17× more code** but only **20% more software releases**; "attenuation effect" + "marketplace paradox" + Agentic Development Lifecycle (ADLC) framing)
 > **Status**: active
 > **Related**: [[andrej-karpathy]], [[ethan-mollick]], [[claude-code]], [[cursor]], [[lovable]], [[cognition]], [[agent-frameworks]], [[enterprise-ai]]
 
