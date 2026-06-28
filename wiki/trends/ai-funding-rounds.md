@@ -119,7 +119,7 @@ Early October 2025 delivered several landmark AI financing events: [[openai]] re
 - **2025-10-29**: [[openai]] for-profit (PBC) recapitalization completes; Microsoft retains ~27% stake — *source: The Rundown AI; AI Breakfast; TLDR; TLDR AI*
 - **2025-10-29**: [[mercor]] raises $350M at a $10B valuation — *source: TLDR AI "Mercor hits $10B"*
 - **2025-10-31**: Meta raises $25B in bonds for AI infrastructure — *source: Mindstream "Meta borrows billions on Halloween"*
-- **2025-10-27**: SoftBank invests $22.5B in [[openai]] — *source: TLDR AI "SoftBank + OpenAI $22.5B"*
+- **2025-10-27**: [[softbank]] invests $22.5B in [[openai]] — *source: TLDR AI "SoftBank + OpenAI $22.5B"*
 - **2025-10-24**: [[google]] Cloud + [[anthropic]] multi-year TPU deal (reported up to ~$50B / 1M TPUs) — *source: TLDR "Google Anthropic deal"*
 - **2025-10-10**: [[reflection]] raises $2B — *source: TLDR AI*
 - **2025-10-10**: BoE, IMF, JPM flag AI bubble risk at dotcom levels — *source: Mindstream*
