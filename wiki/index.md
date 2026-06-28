@@ -66,6 +66,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[runway]] — AI video; Gen-4.5 tops Veo 3 and Sora on Artificial Analysis *(stale)*
 - [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
+- [[softbank]] — Japanese investment group; OpenAI's largest single capital backer (Vision Fund + Stargate JV + ~11% stake); 2026-06-28 strategic-partnership announcement for AI infrastructure + telecom/enterprise deployment with [[openai]]
 - [[spacex]] — Musk's space company; xAI parent; S-1 filed at $1.7T (SPCX); orbital DCs + Anthropic Colossus 1 lease
 - [[suno]] — Cambridge-based AI music-generation startup; $400M Series D at $5.4B led by Bond Capital (Jun 2026); Warner settled, Universal/Sony lawsuits ongoing
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
@@ -252,8 +253,9 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[tml-interaction-small]] — Thinking Machines' 276B-A12B native real-time interaction model; 200ms audio/video/text micro-turns (May 2026)
 - [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B) *(stale)*
 - [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell) *(stale)*
-- [[veo-3]] — Google's Veo 3 / 3.1 video-generation model *(stale)*
+- [[veo-3]] — Google's Veo 3 / 3.1 video-generation model; Jun 2026 resurfaces as image-to-video chained step with [[nano-banana-pro]]
 - [[vercel-eve]] — Vercel's open-source agent framework; durable execution + sandboxed compute + approvals + subagents + evaluations; "production infrastructure for AI agents" (Jun 2026)
+- [[wispr-flow]] — voice-dictation + AI-editing product letting devs prompt agents in [[cursor]] / VS Code / JetBrains ~4× faster than typing; Bloomberg-reported $260M @ ~$2B Menlo Ventures lead (Jun 2026)
 
 ## Topics
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents

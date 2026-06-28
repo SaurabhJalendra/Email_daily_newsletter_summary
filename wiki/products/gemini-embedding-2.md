@@ -9,8 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[google]]
 > **First mentioned**: 2026-03-12
-> **Last updated**: 2026-03-13
-> **Status**: stale
+> **Last updated**: 2026-06-28-morning (resurfaces in researchFindings.missingStories as "Google debuts Gemini Embedding 2 for more powerful multimodal retrieval" — framed as upgrade for RAG-style systems, knowledge bases, and recommendation engines; expected near-term integration into Google Cloud and developer tooling; signals continued Mar 2026 launch relevance for RAG-pipeline embedding-stack reevaluation 3+ months post-launch)
+> **Status**: active
 > **Related**: [[google]], [[gemini]], [[gemini-3-1-pro]]
 
 ## Summary
@@ -19,6 +19,7 @@ Gemini Embedding 2 is [[google]]'s multimodal embedding model, released March 12
 
 ## Timeline
 
+- **2026-06-28-morning**: Resurfaces in researchFindings.missingStories — framed as upgrade for RAG-style systems / knowledge bases / recommendation engines; expected near-term integration into Google Cloud + developer tooling; signals continued post-launch traction 3+ months on — *source: data/summaries/2026-06-28-morning.json (researchFindings.missingStories — Google debuts Gemini Embedding 2 for more powerful multimodal retrieval)*
 - **2026-03-13**: AlphaSignal deep-dive — multimodal search across 5 media types confirmed, with Matryoshka Representation Learning detailed for nested dimension scaling — *source: 2026-03-13 cycle (AlphaSignal — Gemini Embedding 2)*
 - **2026-03-12**: Gemini Embedding 2 launches on Gemini API + Vertex AI — text/image/video/audio/PDF unified embedding, 100+ languages, benchmark-leading on text/image/video/speech tasks — *source: 2026-03-12 cycle (World of AI; Google AI Studio; AI Breakfast; TLDR AI; Superhuman)*
 
@@ -46,3 +47,4 @@ Gemini Embedding 2 is [[google]]'s multimodal embedding model, released March 12
 
 - data/summaries/2026-03-12.json (World of AI; Google AI Studio; AI Breakfast; TLDR AI; Superhuman)
 - data/summaries/2026-03-13.json (AlphaSignal — multimodal search across 5 media types)
+- data/summaries/2026-06-28-morning.json (researchFindings.missingStories — Google debuts Gemini Embedding 2 for more powerful multimodal retrieval)
