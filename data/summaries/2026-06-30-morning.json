@@ -1,0 +1,536 @@
+{
+  "date": "2026-06-29T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Tuesday, 30 June 2026\n\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! \n\n## Top Stories\n1. **OpenAI releases GPT-5.6 model family, including Sol, Terra, and Luna, with Sol being the flagship model**: Why it matters - This release!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! indicates a significant advancement in AI capabilities and could have a major impact on various industries.\n2. **Anthropic releases Claude Fable 5, a public model optimized for coding, vision, and scientific work, and Claude Mythos 5, a restricted model limited to vetted security partners**: Why it matters - This release highlights the ongoing development of specialized AI models for specific tasks and industries, with a focus on security and responsible AI development.\n3. **Google limits Meta's access to Gemini capacity due to excessive compute requests**: Why it matters - This development underscores the growing demand for AI compute resources and the challenges of scaling AI infrastructure to meet the needs of large companies.\n4. **South Korea announces a roughly $1 trillion plan to invest in chips, data centers, and robotics**: Why it matters - This massive investment signals a significant commitment to becoming a leader in the AI field and could have far-reaching implications for the global tech industry.\n5. **Ford's attempt to replace engineers with AI for quality control backfires, costing billions**: Why it matters - This story highlights the importance of human expertise and judgment in areas where AI is not yet capable of fully replacing humans, serving as a cautionary tale for companies looking to implement AI solutions.\n\n## AI Models & Research\n- Researchers from the University of Castilla-La Mancha, Spain, develop an MLOps platform for Elastic Pattern experimentation to improve the efficiency and reproducibility of classification research.\n- NVIDIA researchers develop ENPIRE, a software framework for self-improving robots to learn and adapt in the real world.\n- Nous Research develops a Mixture of Agents (MoA) approach that combines the outputs of multiple models to achieve better performance than single models.\n\n## Tools & Products\n- TokenGo launches an inference service that operates at below market rates with no quality sacrifice.\n- AssemblyAI releases a real-time speech-to-text model that takes an agent's question as input.\n- Codebase-memory indexes the Linux kernel in 3 minutes, cutting agent tool calls by 2x.\n- Career-Ops, an open-source AI system, automates job searches and is available for free on GitHub.\n\n## Industry News\n- OpenAI raises $122 billion in March 2026, the largest fundraise in history, highlighting the company's aggressive expansion plans.\n- Google is losing top AI talent to startups like OpenAI and Anthropic due to the allure of pre-IPO equity.\n- Anthropic publishes its Economic Index June 2026 report, revealing that AI computational costs strongly correlate with the economic value of tasks.\n- Tidal will stop paying royalties on fully AI-generated tracks and will badge them starting July 15.\n- Palantir and Nvidia team up to bring secure Nemotron models to US government agencies.\n\nTotal Newsletters: 17",
+  "totalNewsletters": 17,
+  "newsletters": [
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "[GUIDE] spec for agent",
+      "date": "2026-06-29T12:53:40.000Z",
+      "summary": "## Staying Ahead with AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses the importance of writing a clear spec for AI coding agents to avoid vagueness and ensure the agent builds what is intended, highlighting the gap between human intent and machine execution.\n* It introduces the concept of spec-driven development, where the spec is written first and the agent executes against it, reading the spec as the source of truth before touching any files.\n* The newsletter provides a template for a good spec, which includes six elements: outcome, scope boundary, constraints, prior decisions, requirements in EARS format, and acceptance criteria.\n* It emphasizes the importance of each section, including the often-underrated scope boundary and prior decisions, and provides examples and explanations for each.\n* The newsletter also touches on the limitations of specs and what can break, including intent drift, context decay, and no verification gate.\n* Additionally, it mentions two partner companies: EnergyX, a US startup that has reached a $1 billion private valuation and is offering investment opportunities, and Wispr, which offers a tool called Flow that captures speech and turns it into detailed, paste-ready input for ChatGPT or Claude.\n* OpenAI's recent developments, including the release of GPT-5.6, Dreaming V3, and custom AI inference accelerator Jalapeño, are mentioned, as well as the evolution of ChatGPT into a more integrated work platform with stronger context handling and agentic features.\n\n### Notable Links\n* [EnergyX investment opportunity](https://invest.energyx.com/)\n* [Wispr Flow tool](https://www.wispr.ai/)\n* [OpenAI GPT-5.6 release notes](https://openai.com/research/gpt-5-6)\n* [ChatGPT updates](https://help.openai.com/en/collections/2699791-chatgpt)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "\\[GUIDE\\] spec for agent\n\nand reason your agent builds the wrong thing  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 29, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.2WMshDh4P1SYN8SqaafnJdjdmWP1WD1rdGPofZ1FxFrmJEImH-kqU1GcoTHHHBuGSpdGxzA6UqaxBqr0zI0Wc8o72h_s6vZ5HrxY243u8f5GS_Uc-4wLjnUtCvoXwmHfKBp8Gm0Knbx8ODkEFhzletGUO0a4CYAPiD9ckdfkpfCUIl0n6pd2wgwUumyjE1bUdnGQTa1JXuCkKBo8F5Wr-f3peUxyauFIsvj2U63P3DZ0IrajQyQ1clSD-o800LwiO3YeOOsAvZXFStwcmKpAY7YRGZpvvVPu-KplWMSHsKAZsSYTR9OBHA2jQFQPMR7R1okxb_jUkQwVy7NnimnnZ95ZkVHKqjE4mjuQypBlmVYNobrlhaYU7MiEOMQvsOUBffKeeyo3FSJNI0arFH88TFSfx8tvhBSbcHOOTpms-b_HVUgcd-Jq3PBL8pkCdw148y7QF"
+    },
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "Towards an MLOps infrastructure for Elastic Pattern experimentation",
+      "date": "2026-06-29T12:55:45.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Researchers from the University of Castilla-La Mancha, Spain, have developed an MLOps platform for Elastic Pattern experimentation, aiming to improve the efficiency and reproducibility of classification research. This platform enables the automatic generation of experimental configurations, parallel execution of tests, and comparison of results.\n* The Elastic Pattern framework represents classes as flexible, elastic structures, rather than traditional rigid boundaries. This approach allows for more natural handling of borderline cases and ambiguous classifications, potentially leading to more interpretable and robust classifiers.\n* The MLOps platform uses a four-stage workflow: defining experiments through Python scripts, configuring and launching experiments via Airflow, logging results to MLflow, and analyzing and comparing data through the MLflow interface.\n* The platform was validated across three datasets with varying complexity, demonstrating its ability to manage different experiment spaces and provide a reproducible way to run, organize, and compare a large family of experiments.\n* The authors acknowledge limitations, including the platform's current local containerized setup, which may not scale well to cloud-native workloads, and the requirement for coding skills to define experiments.\n* The Elastic Pattern framework involves choosing feature representations, aggregation strategies, and deformation methods, resulting in a combinatorial problem with 84 possible experimental configurations.\n* The platform uses parallelism to execute multiple experimental runs concurrently, reducing the total wall-clock time required to test all configurations.\n\n### Notable Links\n* [Towards an MLOps infrastructure for Elastic Pattern experimentation](https://journalclub.io/episodes/towards-an-mlops-infrastructure-for-elastic-pattern-experimentation)\n* [The Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai) \n\nNote: The original paper referenced in the newsletter is not explicitly mentioned with a title or arXiv ID/DOI. If available, this information should be included in the summary for completeness.",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/towards-an-mlops-infrastructure-for-elastic-pattern-experimentation?token=ZBTHugsqoSLNXMQQd2GX37Vt9TlO53M01n4CYOsQETETPdANCO"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Towards an MLOps infrastructure for Elastic Pattern experimentation   \n\nWhen we talk about classification, we normally talk about drawing a line or plane through a set of points. In logistic regression, that divider is linear. In kernel SVMs, it's curved, and in quadratic discriminant analysis it can become a multi-dimensional hypersurface. But the result is the same: a border that creates a clean separation between groups.\n\n![](https://journalclub.io/px/hZDpj3RppaJRsiRzpx11BHWr3EEIDG8XoHnILtQXVMRDaN59WQ)\n\nTowards an MLOps infrastructure for Elastic Pattern experimentation\n\nJournalClub.io, June 29th, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/eyGZZzTsTgaW5ZBfxJEo)](https://journalclub.io/episodes/towards-an-mlops-infrastructure-for-elastic-pattern-experimentation?token=ZBTHugsqoSLNXMQQd2GX37Vt9TlO53M01n4CYOsQETETPdANCO)\n\nToday's article comes from the SoftwareX journal. The authors are Rodriguez-Cardos et al., from the University of Castilla-La Mancha"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🔐 OpenAI's new models are government-gated (for now)",
+      "date": "2026-06-29T13:05:40.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n- OpenAI has launched its strongest model yet, GPT-5.6, but only to trusted partners at the government's request, citing safety concerns. The GPT-5.6 model series includes Sol, Terra, and Luna, with Sol being the flagship model. OpenAI's CEO, Sam Altman, calls this slow rollout \"reasonable, but not optimal.\"\n- The launch of GPT-5.6 series mirrors the treatment of Anthropic's Mythos, which is now back in limited preview, with access restricted to \"trusted partners\" due to potential misuse risks.\n- Google has rationed Meta's access to its Gemini models, citing a lack of compute capacity. This highlights the ongoing compute shortage and its impact on corporate relationships.\n- New Chinese models, such as Tulongfeng and GLM-5.2, are closing the gap with America's frontier labs, with Tulongfeng being billed as a \"Chinese version of Mythos\" for identifying cyber bugs.\n- The AI market is experiencing increased competition, with notable developments from companies like Meta, Amazon, Alphabet, and Microsoft, as well as newcomers like Anthropic and OpenAI.\n- The stock market is reflecting the AI competition, with semiconductor and memory chip firms surging, while software companies are experiencing a bad year due to fears of AI disruption.\n- OpenAI is increasingly focusing on building end-to-end agentic systems, with a stated long-term mission to build broadly beneficial AGI.\n\n### Notable Links\n- OpenAI's GPT-5.6 model series\n- Anthropic's Claude Mythos 5\n- Google's Gemini 3.5 series",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "👀 AI competition heightens between US and China\n\nALSO: How to turn Claude Cowork into your personalized assistant  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 29, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGVXc-x6eMGci5mik2ZwLeB3SIR0yjrXtqpne7ywfitp0MwjhrMeZZsLja_x-dZI8_CeteLJmFQXI31LX4wYDHIyKOhiahsmHyKTkcg8ua1soguh2RMM6uXV2Oay4uAN_IMaFPL61ZOEFETY6Ynzo8mvhSlkXa6f9VP8T0HH43j7Tbo0JTH_O4TO9BzvgiBO1SYwKbJSo__3egUTIv93u2Pbx3vJd07zXmH9YcMJGctJb0LUW7zqriJNZ0N1WElXcqSrH9O_NQ24A2xKmrKie5FTeguSUy6-e4mrIW8kTBhMwYKtwWgWELNwLzQTk0muU95OdEEvKSAr4mt6yFT1AcWlawbCPgtxcmDVEBGJeGJ5wDvE-"
+    },
+    {
+      "from": "\"Jack Clark from Import AI\" <importai@substack.com>",
+      "subject": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+      "date": "2026-06-29T13:03:27.000Z",
+      "summary": "## Import AI 463\n\n**Priority: MEDIUM**\n\n### Top Updates\n* NVIDIA researchers have developed ENPIRE, a software framework that enables self-improving robots to learn and adapt in the real world through autonomous experimentation and execution loops, similar to those used in AI agents.\n* ENPIRE uses a closed-loop system to transform real-world robot learning into a controllable optimization procedure, minimizing human effort and allowing for fair comparisons across different training recipes and agent variants.\n* The system consists of four core modules: Environment, Policy Improvement, Rollout, and Evolution, and has been tested on tasks such as PushT, organizing pins into a pin box, and cutting a zip tie with a success rate of 99%.\n* Tencent has released details on ARGUS, a software system used for tracing and performance diagnosis on large-scale GPU clusters, including a 10,000-GPU cluster used for AI model training.\n* Researchers have created the Local Ordinance Corpus for the United States (LOCUS), a comprehensive dataset of local laws and ordinances, to make the law more visible and accessible to AI systems.\n* An essay by Fernando Borretti discusses the potential consequences of developing superintelligent machines, including the possibility of human disempowerment and the loss of autonomy.\n\n### Notable Papers and Links\n* [ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://arxiv.org/abs/) (NVIDIA research)\n* [ARGUS: Production-Scale Tracing and Performance Diagnosis for over 10,000-GPU Clusters](https://arxiv.org/abs/) (arXiv)\n* [Artificial Intelligence and the Lessons of History](https://ssrn.com/abstract=) (SSRN)\n* [No-One Escapes the Permanent Underclass](https://blog.post/) (Fernando Borretti's blog)\n* [Freeing the Law with LOCUS: A Local Ordinance Corpus for the United States](https://arxiv.org/abs/) (arXiv)\n* [LocalLaws / LOCUS-v1](https://huggingface.co/) (Hugging Face)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9pbXBvcnRhaS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGaW1wb3J0YWkuc3Vic3RhY2suY29tJTJGcCUyRmltcG9ydC1haS00NjMtc2VsZi1pbXByb3Zpbmctcm9ib3RzIiwicCI6MjA0MDU0NzE0LCJzIjoxMzE3NjczLCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MjczOTAyOSwiZXhwIjoyMDk4MzE1MDI5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.G2ndxCz4otkkVPxdLghMShJtUlqpjeTEQI6wx-9AC6g?"
+        },
+        {
+          "text": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+          "url": "https://substack.com/app-link/post?publication_id=1317673&post_id=204054714&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDA1NDcxNCwiaWF0IjoxNzgyNzM5MDI5LCJleHAiOjE3ODUzMzEwMjksImlzcyI6InB1Yi0xMzE3NjczIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.RTpP6aXzcxRsm--AMeeoXEdtCrbH-yR_iHy2cpeb91Y"
+        },
+        {
+          "text": "Jack Clark",
+          "url": "https://substack.com/@importai"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/importai/p/import-ai-463-self-improving-robots?redirect=app-store"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9pbXBvcnRhaS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRmltcG9ydGFpLnN1YnN0YWNrLmNvbSUyRnAlMkZpbXBvcnQtYWktNDYzLXNlbGYtaW1wcm92aW5nLXJvYm90cyZyPTQ5YnkzNCZ0b2tlbj1leUoxYzJWeVgybGtJam95TlRjMU16ZzJOREFzSW1saGRDSTZNVGM0TWpjek9UQXlPU3dpWlhod0lqb3hOemcxTXpNeE1ESTVMQ0pwYzNNaU9pSndkV0l0TVRNeE56WTNNeUlzSW5OMVlpSTZJbU5vWldOcmIzVjBJbjAuRjN4LXQ3Y2tEV1BaRzRIa3E4QncxRnVPM0dtRnMxY3gtbTZuVVEweVNpZyIsInAiOjIwNDA1NDcxNCwicyI6MTMxNzY3MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODI3MzkwMjksImV4cCI6MjA5ODMxNTAyOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.Lyoh3ZnEouu_82Yf2AsDwpdOmwO5C4wd2A3O-yT1lD0"
+        },
+        {
+          "text": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World (NVIDIA research website)",
+          "url": "https://substack.com/redirect/de69ffd0-d82b-4c35-925e-9b14644fd294?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World (arXiv)",
+          "url": "https://substack.com/redirect/1cf2c020-1375-45d0-b682-f748832f35f3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Artificial Intelligence and the Lessons of History (SSRN)",
+          "url": "https://substack.com/redirect/e5d5d4d6-123a-41c8-810c-8eddb8be6999?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "ARGUS: Production-Scale Tracing and Performance Diagnosis for over 10,000-GPU Clusters (arXiv)",
+          "url": "https://substack.com/redirect/c67d416d-e0b1-43b6-b6a6-b51e4fc8387a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "whose work",
+          "url": "https://substack.com/redirect/9c5727eb-e8a2-4519-a218-ccbfa1e67017?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era![](https://eotrx.substackcdn.com/o/dcdecf1345ddb445/p.gif?token=eyJtIjoiPDIwMjYwNjI5MTMwMzI3LjMuZTRjMGY4YWEyMWQ4ZGIxYUBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDQwNTQ3MTQsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTMxNzY3MywiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MjczOTAyOSwiZXhwIjoxNzg1MzMxMDI5LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.YnNSgRVtB3axYqVflsVFSYJxyX2KHLhJXy79YLPh4j0)\n\nWhat eras bookend our interregnum?\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "Anthropic Mythos 5 back for 100 orgs while Fable 5 stays locked",
+      "date": "2026-06-29T13:18:49.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI has released a new model family called GPT-5.6, which includes three models: Sol, Terra, and Luna, each suited for different use cases and budgets, with Sol being the flagship model for complex tasks, Terra offering GPT-5.5 quality at a lower cost, and Luna being the most affordable option for high-volume tasks.\n* The US government has limited the rollout of GPT-5.6 to roughly 20 trusted partner organizations for now, with broader API and ChatGPT!!!!!!!access expected in the coming weeks.\n* Anthropic has restored its top cybersecurity model, Claude Mythos 5, to US critical infrastructure operators, but Fable 5, the general-use version, remains offline for most users, with access limited to roughly 100 trusted organizations, including Apple, Google, Cisco, Nvidia, and Microsoft.\n* Nous Research has developed a Mixture of Agents (MoA) approach that combines the outputs of multiple models to achieve better performance than single models, with an 8% improvement over Claude Opus 4.8 and 11% over GPT-5.5.\n* OpenAI has updated its Codex app with faster scrolling and smarter navigation, and has also rolled out a new book on building agentic AI systems, while NumPy remains a popular open-source math library for Python.\n* TokenGo has launched an inference service that operates at below market rates with no quality sacrifice, offering 10% off market rates and further volume-based discounts.\n* AssemblyAI has released a real-time speech-to-text model that takes an agent's question as input, with a word error rate of 6.99% and support for 18 languages.\n* Codebase-memory has indexed the Linux kernel in 3 minutes, cutting agent tool calls by 2x.\n\n### Notable Links\n* OpenAI GPT-5.6 models\n* Anthropic Claude Mythos 5\n* Nous Research Mixture of Agents",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=c713cfd1b35b64b4&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=c713cfd1b35b64b4&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=c713cfd1b35b64b4&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=c713cfd1b35b64b4&mid=4d263fab-0c9f-4f3b-be1e-6a5e9aa93e4e&s=Anthropic%20Mythos%205%20back%20for%20100%20orgs%20while%20Fable%205%20stays%20locked&t=1782739115)\n\nMythos 5 cleared for Apple, Google, Cisco, Nvidia, Microsoft; Fable 5 still offline for general API users\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=c713cfd1b35b64b4&lid=1iCPJjPUGbXsFU4jl&mid=4d263fab-0c9f-4f3b-be1e-6a5e9aa93e4e)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=c713cfd1b35b64b4&lid=lXQpDUM1ksOtZqaL&mid=4d263fab-0c9f-4f3b-be1e-6a5e9aa93e4e)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nThe US government is now a de facto gatekeeper for frontier AI. Both OpenAI and A"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "GPT-5.6 preview ☀️, Grok 4.5 beta 🤖, Google limits Meta 🛑",
+      "date": "2026-06-29T13:54:52.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI introduced GPT-5.6 Preview, a family of models named Sol, Terra, and Luna, with Sol positioned as the flagship model, featuring stronger cyber and bio safety testing, new safeguards, and a limited preview before broader availability.\n* Elon Musk announced that Grok 4.5 has entered private beta at SpaceX and Tesla, with the model based on a 1.5T V9 foundation model and showing early evaluations near or above Opus.\n* Google reportedly limited Meta's access to Gemini capacity due to excessive compute requests, potentially delaying some internal Meta AI projects and pushing staff to use AI tokens more efficiently.\n* Anthropic published its Economic Index June 2026 report, revealing that AI computational costs strongly correlate with the economic value of tasks, with higher-wage occupations consuming up to 2.5 times more tokens.\n* Researchers at Stanford published an interactive report on historic and current memory and storage prices, providing a dataset and downloadable raw data and chart export tools.\n* Google is testing a notebook collections feature for NotebookLM, allowing users to organize multiple notebooks under a single heading and addressing a long-standing limitation for managing large notebook libraries.\n* Apple Vision Pro executive Paul Meade reportedly left Apple to join OpenAI's hardware team.\n* Masayoshi Son expressed skepticism about the viability of space-based data centers, citing math that doesn't support the concept.\n\n### Notable Links\n* [GPT-5.6 Sol, Terra, and Luna](https://deploymentsafety.openai.com/gpt-5-6-preview)\n* [Qwen Image Agent](https://arxiv.org/abs/2606.26907)\n* [Reward Models Can Be Too Sensitive](https://arxiv.org/abs/2606.21795)\n* [Anthropic Economic Index June 2026 Report](https://www.anthropic.com/research/economic-index-june-2026-report)\n* [Gemini Nano models on Pixel with frozen Multi-Token Prediction](https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction)\n* [Lean Software Scaling Laws](https://gwern.net/lean-scaling)\n* [Memory Prices report from Stanford](https://dam.stanford.edu/memory-prices.html)\n* [The Next Paradigm](https://www(dwarkesh.com/p/the-next-paradigm)\n* [Moneyball for Physical AI](https://praxiscurrents.substack.com/p/moneyball-for-physical-ai)\n* [Agents as Webs of Beliefs](https://www.lesswrong.com/posts/M39Z2CvyfaxZdaxR4/agents-as-webs-of-beliefs)",
+      "links": [
+        {
+          "text": "Qwen Image Agent (12 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2606.26907%3Futm_source=tldrai/1/0100019f13a954cb-c1c1b027-1e2e-40ac-a022-7dc83c754cc8-000000/sTikmv7NfGO73imI5cXje_Hl-7u_BbdqQsn1aXgbmi0=452",
+          "isPaper": true
+        },
+        {
+          "text": "Reward Models Can Be Too Sensitive (22 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2606.21795%3Futm_source=tldrai/1/0100019f13a954cb-c1c1b027-1e2e-40ac-a022-7dc83c754cc8-000000/Tusfn4QXkrqdpr2toXCtUz513xc7EugQKm36KZwX5OA=452",
+          "isPaper": true
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2606.26907%3Futm_source=tldrai/1/0100019f13a954cb-c1c1b027-1e2e-40ac-a022-7dc83c754cc8-000000/sTikmv7NfGO73imI5cXje_Hl-7u_BbdqQsn1aXgbmi0=452",
+          "title": "Qwen Image Agent (12 minute read)",
+          "source": "link"
+        },
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2606.21795%3Futm_source=tldrai/1/0100019f13a954cb-c1c1b027-1e2e-40ac-a022-7dc83c754cc8-000000/Tusfn4QXkrqdpr2toXCtUz513xc7EugQKm36KZwX5OA=452",
+          "title": "Reward Models Can Be Too Sensitive (22 minute read)",
+          "source": "link"
+        }
+      ],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nOpenAI introduced GPT-5.6 Preview, a family of models named Sol, Terra, and Luna, with Sol positioned as the flagship model ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019f13a954cb-c1c1b027-1e2e-40ac-a022-7dc83c754cc8-000000/VVQcQvTc24EHXtEl4pOyE08oHRQn_8UzhD8VgFPrRKQ=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019f13a954cb-c1c1b027-1e2e-40ac-a022-7dc83c754cc8-000000/B_4qN1KG6HHjQ1GcyR6nJX5P8fDvYqwJneCESRgysn8=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=e21fc998-7399-11f1-91e7-afc99fb97726%26pt=campaign%26t=1782741292%26s=1a865ea7b27e54aa28a569760f7ffb9db7991edde7"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "OpenAI's $122B masterclass: 10 takeaways from Sarah Friar",
+      "date": "2026-06-29T14:38:30.000Z",
+      "summary": "## The AI Corner\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI raised **$122 billion** in March 2026, the largest fundraise in history, highlighting the company's aggressive expansion plans and the growing importance of AI in the tech industry. This massive investment will likely accelerate OpenAI's development of new AI models and technologies.\n* OpenAI's CFO, Sarah Friar, outlined the company's strategy for compute, margins, pricing, and the upcoming Jony Ive device, emphasizing the need for flexibility and optionality in the face of rapid technological change. She also stressed the importance of investing ahead of demand and building durable businesses.\n* The company is experiencing a **compute crunch**, with limited availability of compute resources for 2026 and 2027, which may impact the!!!!!!!development and deployment of AI models. Friar noted that data centers breaking ground today will not produce usable compute until late 2027 at the earliest.\n* OpenAI is working on a **$2,000-a-month** product, which may seem expensive but could be justified by the value it provides to users. The company is also exploring new pricing models and strategies to capture the value of its AI products.\n* The **Jony Ive device** is expected to ship by the end of 2026, with a focus on multimodal interaction and instant responses. This device may revolutionize the way people interact with AI systems and could have significant implications for the tech industry.\n* OpenAI's revenue is now **50-50** between enterprise and consumer, indicating the growing importance of AI in both sectors. The company is working to build institutional memory and intuition into its models, which could lead to significant advancements in AI capabilities.\n* The company is emphasizing the importance of **durability** over timing, with a focus on building long-term value rather than prioritizing short-term gains. This approach may lead to more sustainable and responsible AI development.\n\n### Notable Links\n* [OpenAI's $122B masterclass: 10 takeaways from Sarah Friar](https://substack.com/app-link/post?publication_id=6850544&post_id=201159182&utm_source=substack&utm_campaign=email-post-title&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMTE1OTE4MiwiaWF0IjoxNzgyNzQ0MDU1LCJleHAiOjE3ODUzMzYwNTUsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.-jolPUpvhtAZknVdCUOYZX32ECIngrSdCSLIbjZoSww)\n* The AI build\n* The SaaS defense playbook for the AI era",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRm9wZW5haS1zYXJhaC1mcmlhci0xMjJiLW1hc3RlcmNsYXNzLTEwLXRha2Vhd2F5cy0yMDI2IiwicCI6MjAxMTU5MTgyLCJzIjo2ODUwNTQ0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4Mjc0NDA1NSwiZXhwIjoyMDk4MzIwMDU1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.wvPBb5TOLZiVNB9DwKTcVs5af78TS3j-fNfyVAzZHi0?"
+        },
+        {
+          "text": "OpenAI's $122B masterclass: 10 takeaways from Sarah Friar",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=201159182&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMTE1OTE4MiwiaWF0IjoxNzgyNzQ0MDU1LCJleHAiOjE3ODUzMzYwNTUsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.-jolPUpvhtAZknVdCUOYZX32ECIngrSdCSLIbjZoSww"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/openai-sarah-friar-122b-masterclass-10-takeaways-2026?redirect=app-store"
+        },
+        {
+          "text": "fundraise",
+          "url": "https://substack.com/redirect/702f2a75-de79-4485-a7d1-79a6a0556abe?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Master the rest",
+          "url": "https://substack.com/redirect/a91af1b6-0320-4997-a783-88d210251fff?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "capital",
+          "url": "https://substack.com/redirect/450a925d-02e1-4aa4-8382-f6951791278c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "tokens",
+          "url": "https://substack.com/redirect/77ed3035-cb38-472e-893f-2bda10fa40ba?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Anthropic",
+          "url": "https://substack.com/redirect/d150c91e-ddf2-4cb0-862b-65cc45de21c3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Google DeepMind",
+          "url": "https://substack.com/redirect/862ee726-c18a-4c9a-9cf5-7b918c8dcf61?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "OpenAI's $122B masterclass: 10 takeaways from Sarah Friar![](https://eotrx.substackcdn.com/o/5719d58bcd082bee/p.gif?token=eyJtIjoiPDIwMjYwNjI5MTQzODMwLjMuMDkwNTBjNGY4NGZiMTk5MkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwMTE1OTE4MiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo2ODUwNTQ0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgyNzQ0MDU1LCJleHAiOjE3ODUzMzYwNTUsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.kJEcngYrj8xCxWyFVTmpl1GnTAZsImoXMpYCm0ZXDhQ)\n\nCompute scarcity, the pricing ceiling, and the memory moat, and what founders and investors should steal.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Why Google can't retain it's best AI talent",
+      "date": "2026-06-29T15:03:40.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Google is losing its top AI talent to startups like OpenAI and Anthropic due to the allure of pre-IPO equity, which could significantly increase their net worth. This talent drain poses a challenge for Google in the AI race, as its roster is a key competitive advantage.\n* OpenAI has developed its own AI chip, called Jalapeño, in partnership with Broadcom, which will allow for more efficient, cost-effective, and self-reliant operations. This move towards vertical integration is expected to reshape how OpenAI scales its products.\n* OpenAI plans to deploy the Jalapeño chip later this year and fully scale through early 2028, with the chip taking around 9 months to design and featuring an Application-Specific Integrated Circuit (ASIC) for task-specific processes.\n* Teenage Engineering has released a major software update for its EP-133 KO II sampler, adding features like USB audio, sample reverse, an arpeggiator, and longer recording times, making it a notable update for music producers and audio engineers.\n* Anthropic has released Claude Fable 5, a public, state-of-the-art model optimized for coding, vision, and scientific work, and Claude Mythos 5, a restricted model limited to vetted security partners, highlighting its strategy of tightly controlling access to its most capable systems due to potential misuse risks.\n* Google has launched Gemini 3.5 and Gemini Omni, an anything-to-anything multimodal family, and Gemini Spark, a persistent, always-on personal and enterprise AI agent, indicating a push towards proactive, context-aware AI embedded throughout Google's ecosystem.\n* Google is investing in AI chips and partnerships, including a $40B commitment to Anthropic, and has launched a Gemini Enterprise Agent Platform with native plug-ins from major SaaS vendors, positioning itself as a central infrastructure and model provider across the broader AI ecosystem.\n\n### Notable Links\n* [OpenAI](https://www.openai.com/)\n* [Anthropic](https://www.anthropic.com/)\n* [Google](https://www.google.com/)\n* [Gemini](https://cloud.google.com/gemini)\n* [Claude](https://www.anthropic.com/claude)\n* [Jalapeño](https://www.openai.com/jalapeno)\n* [EP-133 KO II](https://www.teenageengineering.com/products/ep-133-ko-ii)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Why is Google losing its AI talent?\n\n\\+ OpenAI's own AI chip is here  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n29 Jun\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/4f82573d-0c65-4250-8c72-f60bbb17ce69/thumb_Taylor_PP.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277"
+    },
+    {
+      "from": "\"Henry Farrell\" <programmablemutter@substack.com>",
+      "subject": "The U.S. is still weaponizing dollars. Just not against Iran",
+      "date": "2026-06-29T15:19:29.000Z",
+      "summary": "## The U.S. is still weaponizing dollars. Just not against Iran\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The U.S. is shifting its policy on weaponizing the dollar, no longer targeting Iran but instead focusing on allies such as Europe, by pursuing financial sanctions against judges and International Criminal Court officials.\n* The Trump administration has issued a general license allowing the unblocking of transactions related to Iranian oil, effectively reversing previous sanctions and enabling Iran to sell oil using U.S. dollars.\n* Iran has been using cryptocurrency to circumvent U.S. dollar sanctions, with its Central Bank funneling large sums of money through crypto transactions involving the crypto exchange CoinEx.\n* The U.S. has sanctioned particular entities for facilitating Iranian transactions, but its unwillingness to take general actions against crypto has encouraged the growth of a system resistant to traditional financial controls.\n* The European Union's \"digital euro\" initiative has been given the go-ahead, aiming to provide an alternative payment system within Europe that would reduce reliance on dollar-linked stablecoins like Tether.\n* The power of the dollar rests not just on dollar-based coercion but also on its central role in transactions and the need for countries to maintain dollar reserves, making it hard for other powers to replace the dollar without radical shifts to their internal economies.\n\n### Notable Links\n* Underground Empire: a book by Henry Farrell and Abe Newman that discusses the use of financial sanctions as a tool of U.S. foreign policy.\n* Today's newsletter by Paul Krugman: mentions Henry Farrell's and Abe Newman's book, Underground Empire.\n* The U.S. is still weaponizing dollars. Just not against Iran: the article by Henry Farrell discussing the shift in U.S. policy on weaponizing the dollar.\n* General license: allows the unblocking of transactions related to Iranian oil.\n* CoinEx: a crypto exchange involved in Iranian crypto transactions.\n* Digital euro: an alternative payment system initiative by the European Union.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cucHJvZ3JhbW1hYmxlbXV0dGVyLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cucHJvZ3JhbW1hYmxlbXV0dGVyLmNvbSUyRnAlMkZ0aGUtdXMtaXMtc3RpbGwtd2VhcG9uaXppbmctZG9sbGFycyIsInAiOjIwNDExMDAxOSwicyI6MTc0NTY3OSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODI3NDY0NzUsImV4cCI6MjA5ODMyMjQ3NSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.BWJX4CQ35PDCWGS_fGxs0v7Zpk9defDW3NfxZwAT-VQ?"
+        },
+        {
+          "text": "The U.S. is still weaponizing dollars. Just not against Iran",
+          "url": "https://substack.com/app-link/post?publication_id=1745679&post_id=204110019&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDExMDAxOSwiaWF0IjoxNzgyNzQ2NDc1LCJleHAiOjE3ODUzMzg0NzUsImlzcyI6InB1Yi0xNzQ1Njc5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.sf7Lfaxr_JtKgKvf7v0xQ4u71v-GlG1Kyr8l2GRi3a4"
+        },
+        {
+          "text": "Henry Farrell",
+          "url": "https://substack.com/@henryfarrell"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/programmablemutter/p/the-us-is-still-weaponizing-dollars?redirect=app-store"
+        },
+        {
+          "text": "Underground Empire",
+          "url": "https://substack.com/redirect/c0a94257-67ba-42f9-a603-cadb837bdae5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "today’s newsletter",
+          "url": "https://substack.com/redirect/edd96211-449b-467d-8cf8-58ee06d6b230?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Pledge your support",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cucHJvZ3JhbW1hYmxlbXV0dGVyLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnByb2dyYW1tYWJsZW11dHRlci5jb20lMkZwJTJGdGhlLXVzLWlzLXN0aWxsLXdlYXBvbml6aW5nLWRvbGxhcnMmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjNE1qYzBOalEzTlN3aVpYaHdJam94TnpnMU16TTRORGMxTENKcGMzTWlPaUp3ZFdJdE1UYzBOVFkzT1NJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLmlsbHRBcVA1ZEpWa3BwdGVMSTJQbzN5Z0MxeWRpd1p2d0pZOVQxWFhUcmsiLCJwIjoyMDQxMTAwMTksInMiOjE3NDU2NzksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgyNzQ2NDc1LCJleHAiOjIwOTgzMjI0NzUsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.moJyPupa7BNkk0lofcyEaJOcUHxCiii2nQUVCRTB6Fg"
+        },
+        {
+          "text": "briefly explained",
+          "url": "https://substack.com/redirect/e6b9afb6-6fad-4a06-8c4a-50b2051926b3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "general license",
+          "url": "https://substack.com/redirect/8f0d2e6a-e7bb-430d-913b-35c7987a71c3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "has been funneling",
+          "url": "https://substack.com/redirect/6e9ca387-4865-4a69-9860-88ca52813262?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The U.S. is still weaponizing dollars. Just not against Iran![](https://eotrx.substackcdn.com/o/e612c833f30a62a3/p.gif?token=eyJtIjoiPDIwMjYwNjI5MTUxOTI5LjMuNzYzYzY3OGVhMWMzMGE4N0BtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDQxMTAwMTksInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTc0NTY3OSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4Mjc0NjQ3NSwiZXhwIjoxNzg1MzM4NDc1LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.Qpv9z-1sU_yNRN1TQo3r982nBE1yNs7Nc-bY3vkP0vA)\n\nDollar power is not in danger ... yet\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "I Typed One Word Before My Prompt. ChatGPT Changed Completely.",
+      "date": "2026-06-29T17:59:56.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- ChatGPT has 10 secret codes that can change the entire output of a prompt, including `/human`, `/red team`, `/meta`, `/alt 3`, `/truth`, `/eli10`, `/predict`, `/OODA`, `/x10 think`, and `/socrates`. These codes can be used to humanize output, critique ideas, analyze questions, provide alternative answers, and more.\n- The `/human` code can be used to make ChatGPT's output sound more natural and human-like, while the `/red team` code can be used to aggressively critique an idea and find its weaknesses.\n- The `/meta` code can be used to analyze a question before answering it, while the `/alt 3` code can be used to provide three completely different versions of an answer.\n- The `/truth` code can be used to make ChatGPT admit what it does not know instead of guessing, while the `/eli10` code can be used to explain complex topics in simple terms.\n- The `/predict` code can be used to predict the likely outcomes of a situation, while the `/OODA` code can be used to run a military decision framework on a problem.\n- The `/x10 think` code can be used to make ChatGPT think ten times harder before answering a question, while the `/socrates` code can be used to ask questions that help the user think through the answer themselves.\n- These codes can be used to improve the quality and usefulness of ChatGPT's output, and can be combined in different ways to achieve specific goals.\n- The founder of Daily ChatGPT, Matas Jonaitis, is offering a 30-prompt business pack to subscribers who reply with \"BIZ\".\n\n### Notable Links\n- Read online\n- DailyChatGPT on Instagram: [https://link.mail.beehiiv.com/v1/c/wejFkO%2BFfojsvWiEUj%2B4zJ157rDPcE7vgovzHaVt74M3CAZy%2FAIxGa1k9rXO%0Aw7xhksDv0q6uAmmERxXebr0lij1BMvc8W3icviRC7GvxysVITfBtuqEzQtXn%0AP1mEHYVjxH6Pv0jtAe1HlAd8SjlBIjBZFFE8dJxLH0UVkKxvXddlRlzIE4oM%0AgVOh2FJGTTgjLi6D8ObbMaUQY%2BBQGJw7Hw%3D%3D%0A/fd6c5e59eee4fb8b](https://www.instagram.com/dailyprompter)\n- DailyChatGPT on Threads: [https://link.mail.beehiiv.com/v1/c/X9fjYZP1u15nq2HqTmXahctFmwLIPnvYwdPjkqHBMu3je1oHB2CLcrXUYEm7%0ACVQMaSPJkilGlMI9yDNvBXgjjSlWudqpH%2Frp78O3L%2Fe2N2CAFrMQUBa89OhK%0AB1pHCV0QfZHGKW%2BupMfIrb2cF08HmawmZikj9krwfyyrHEHmRx94slZTqEvT%0AtRvEWft9dRAPtbiZZWjrRZUrLTG0NTmxIQ%3D%3D%0A/59d235122ea99d99](https://www threads.net/dailyprompter)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "I Typed One Word Before My Prompt. ChatGPT Changed Completely.\n\n❗️10 one-word codes that change the entire output...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 29, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/hB0Jm3OVwcZUvuBbCDjiBMbnNd6lMESeeWRSALW47lUIic86on6%2FkYKaEfaS%0AzR24oE%2BnYi7xn1kzmCcmj1oCWarutkXYtpOcb1wt4pCsaJ0jq%2BMxCz2ixDLG%0APM4AHtbiQajnBmnhCsj7elctPCFo%2BQvq%2BDjX3XSxcwvZpj4gH6ZLda%2FSkgHz%0AOotOXSF%2Fnfn3wfopCl2uWgSY%2F8n1JwkYRQ%3D%3D%0A/13a80d56454317f6)\n\n# ChatGPT Has 10 Secret Codes Almost Nobody Uses\n\n❗️10 one-word codes that change the entire output...\n\n![](https://link.mail.beehiiv.com/v1/o/f"
+    },
+    {
+      "from": "\"Technology News\" <technology-newsletter@mail.beehiiv.com>",
+      "subject": "Google just lost a Nobel Prize winner to Anthropic 🧠",
+      "date": "2026-06-29T18:16:17.000Z",
+      "summary": "## Technology News\n\n**Priority: HIGH**\n\n### Top Updates\n* Several of Google's most important AI researchers have quit for rivals in the span of a week, including Noam Shazeer, a co-author of the foundational research paper that made today's chatbots!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! possible and a co-lead of Google's flagship Gemini AI, who is heading to OpenAI, and John Jumper, a Nobel Prize winner whose AlphaFold system cracked one of biology's hardest problems, who is leaving for Anthropic, which raises concerns about Google's ability to stay at the front of the AI race.\n* Samsung's next Galaxy Unpacked event is scheduled for July 22 in London, where the company is expected to show off new folding phones, the Galaxy Z Fold 8!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! and Z Flip 8, along with its first pair of smart glasses, the \"Galaxy Glasses.\"\n* OpenAI is rolling out a new personal finance feature that lets you securely link your financial accounts to ChatGPT, see a dashboard of your money, and ask questions about your own spending.\n* SpaceX has test-fired the engine on the Starship vehicle slated for its next flight, \"Flight 13,\" and is targeting a launch in July.\n* YouTube is testing a heart \"like\" button on Shorts, quietly removing the dislike button, and adding double-speed playback.\n* Waymo now runs paid rides in about a dozen U.S. cities and is eyeing London and Tokyo, while Tesla's rival service is still confined to a few Texas markets.\n* Anthropic says China's Alibaba used roughly 25,000 fake accounts to bombard Claude with nearly 29 million questions, allegedly to copy its abilities on the cheap.\n\n### Notable Links\n* Learn how to sponsor this newsletter \n\nHowever I removed the bee hiiv.com tracking link to keep it clean and straightforward \n\n please remove Tracking URL when factoring in your News Letters",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Google's brain drain is scaring Wall Street 📉\n\nPLUS: Samsung's next big reveal gets a date, ChatGPT wants to see your bank account, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 29, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/Dxqf79K9a3ijTBKG80%2F3jafjShIMw2YJzMex0DGZNztMBkCs%2FvRsVo8rLyjv%0ABqb5eF%2FKfKjXYfJ2SsY1mTGCoN6eGZvZxOvDk8zM8NmIwl8NGt0TmppRH8cV%0AsAbcV71FKNdVSFuZWZt%2BxZwhRgrD4uURTLvS0etYLE7TrNiBCEbdF5RLnXAa%0A61c7Z1EckcRKMBLAFf0Cdrp%2FH3APIi4QWw%3D%3D%0A/d1eef2bebae7ce66)\n\n![](https://link.mail.beehiiv.com/v1/o/rGG7ZEQMLibOrUo18%2BdZS4eleGcNdn7fnUYTCiNagGxwxluaS7oGFfheX6VY%0ASBbafjqjqtNiGUNjK3"
+    },
+    {
+      "from": "\"Understanding AI\" <understandingai@substack.com>",
+      "subject": "7 charts that show why you should advertise on Understanding AI",
+      "date": "2026-06-29T18:51:49.000Z",
+      "summary": "## Understanding AI Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The Understanding AI newsletter has grown to 273,000 readers, with a significant increase of nearly 200,000 readers over the last year, and the paid readership has also grown, but at a slower pace, with fewer than 1% of readers being paid subscribers.\n- To maintain the newsletter's quality and ad-free experience for paid subscribers, the author plans to begin showing ads to free readers in the coming months, with a focus on ethical advertising that does not compromise the newsletter's independence and integrity.\n- The author is seeking experienced individuals to help with selling ads and is open to hearing from companies interested in advertising on the platform, with contact information provided at tim@understandingai.org.\n- A survey of readers in March revealed that 25% of respondents are engineers, scientists, researchers, IT professionals, or others doing technical work, and another 15% are founders, executives, or managers, indicating a technically sophisticated and influential audience.\n- The survey also showed that readers are interested in topics such as LLMs, technical deep dives, and AI infrastructure, and that they have significant influence over corporate IT spending, with 19% of respondents saying they have control over technology budgets and another 25% saying they recommend or evaluate technology for their companies.\n- At least 27% of respondents work in technology, research, or academia, and 27% are actively involved in developing and deploying AI systems, highlighting the newsletter's relevance to the AI community.\n- Readers control budgets as high as $5 million, with 7% of respondents saying they control or influence more than $1 million in spending each year, making the newsletter an attractive platform for advertisers.\n\n### Notable Links\n- Subscribe to Understanding AI: [link]\n- 7 charts that show why you should advertise on Understanding AI: https://substack.com/app-link/post?publication_id=1501429&post_id=204161324&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDE2MTMyNCwiaWF0IjoxNzgyNzU5NDY0LCJleHAiOjE3ODUzNTE0NjQsImlzcyI6InB1Yi0xNTAxNDI5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.At5_4s3RlJQzQ8w05hBQeLOMruNyXE2YCy4kZfHXkNg\n- Timothy B. Lee: https://substack.com/@timothyblee\n- READ IN APP: https://open.substack.com/pub/understandingai/p/7-charts-that-show-why-you-should?redirect=app-store\n- tim@understandingai.org: [link]\n- Upgrade to paid: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudW5kZXJzdGFuZGluZ2FpLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cudW5kZXJzdGFuZGluZ2FpLm9yZyUyRnAlMkY3LWNoYXJ0cy10aGF0LXNob3ctd2h5LXlvdS1zaG91bGQiLCJwIjoyMDQxNjEzMjQsInMiOjE1MDE0MjksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgyNzU5NDY0LCJleHAiOjIwOTgzMzU0NjQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.ka9BXnygcERyBoKwYhrcNdKi-jdjN6HV-hh_G-xL0fQ?"
+        },
+        {
+          "text": "7 charts that show why you should advertise on Understanding AI",
+          "url": "https://substack.com/app-link/post?publication_id=1501429&post_id=204161324&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDE2MTMyNCwiaWF0IjoxNzgyNzU5NDY0LCJleHAiOjE3ODUzNTE0NjQsImlzcyI6InB1Yi0xNTAxNDI5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.At5_4s3RlJQzQ8w05hBQeLOMruNyXE2YCy4kZfHXkNg"
+        },
+        {
+          "text": "Timothy B. Lee",
+          "url": "https://substack.com/@timothyblee"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/understandingai/p/7-charts-that-show-why-you-should?redirect=app-store"
+        },
+        {
+          "text": "tim@understandingai.org",
+          "url": "https://substack.com/redirect/a0f3262a-20cf-495d-bb8d-36a008606f26?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudW5kZXJzdGFuZGluZ2FpLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnVuZGVyc3RhbmRpbmdhaS5vcmclMkZwJTJGNy1jaGFydHMtdGhhdC1zaG93LXdoeS15b3Utc2hvdWxkJnI9NDlieTM0JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lOVGMxTXpnMk5EQXNJbWxoZENJNk1UYzRNamMxT1RRMk5Dd2laWGh3SWpveE56ZzFNelV4TkRZMExDSnBjM01pT2lKd2RXSXRNVFV3TVRReU9TSXNJbk4xWWlJNkltTm9aV05yYjNWMEluMC5GWER6V1kwR1VveEk2UEtLLVgxUmlsMU85aFg4WmtRUjI2ejU0UDZHSm5nIiwicCI6MjA0MTYxMzI0LCJzIjoxNTAxNDI5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4Mjc1OTQ2NCwiZXhwIjoyMDk4MzM1NDY0LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.ICHCNz7qCUaDCQiRlIl3Tf5REu5lzAGZ3k9zhp2lE-4"
+        },
+        {
+          "text": "Nate Silver",
+          "url": "https://substack.com/redirect/d16478a5-1eaf-40dc-8872-9753106f136c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Derek Thompson",
+          "url": "https://substack.com/redirect/c1e90ebb-4c18-4c14-9d75-d88ccd7dcb1c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Sayash Kapoor and Arvind Naryanan",
+          "url": "https://substack.com/redirect/0566c9a5-42c5-4425-a8ab-1823e7f2564b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Noah Smith",
+          "url": "https://substack.com/redirect/1e0d0460-6190-4194-8ee8-2cb3e00f14dd?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "7 charts that show why you should advertise on Understanding AI![](https://eotrx.substackcdn.com/o/c52f90dce9530b17/p.gif?token=eyJtIjoiPDIwMjYwNjI5MTg1MTQ5LjMuMTEzMDZlYzc3ZmMyM2MzYUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDQxNjEzMjQsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTUwMTQyOSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4Mjc1OTQ2NSwiZXhwIjoxNzg1MzUxNDY1LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.tOKbV1hLx0-M8TrHvo9hnbaJciih37ymFidFrCQnhHw)\n\nThe newsletter will remain ad-free for paying readers.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 Mind-Reading AI Is Here (No Surgery)",
+      "date": "2026-06-29T20:12:24.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The latest AI developments include the introduction of mind-reading AI that can turn brainwaves into sentences without requiring surgery or implants, allowing people who cannot speak to regain their voice.\n* Google's Gemini model has experienced delays due to compute constraints, with Google unable to fulfill Meta's full order, highlighting the growing demand for AI compute resources.\n* AI-generated art has surpassed human-created art in some cases, with AI-generated portraits selling for high prices and AI-generated art winning competitions, raising questions about the role of AI in creative industries.\n* The TAAFT newsletter provides updates on various AI tools and developments, including the launch of Cursor on iOS, allowing users to code without a laptop, and the introduction of HydraDB, a graph database for AI workloads.\n* Zuckerberg has expressed concerns about the development of a single, all-knowing AI, advocating for personal AIs that individuals can control, highlighting the need for responsible AI development and deployment.\n* The TAAFT newsletter also covers notable AI tools, including Planable, which syncs AI, APIs, and tools for planning and reporting, and Neural4D, which generates editable 3D models from text, photos, or sketches.\n* The newsletter features a prompt of the day, which generates three meals to make tonight based on ingredients in the user's fridge and pantry, demonstrating the practical applications of AI in everyday life.\n\n### Notable Links\n* [ChatGPT](https://www.chatgpt.com/)\n* [Gemini](https://www.gemini.com/)\n* [Cursor](https://www.cursor.com/)\n* [HydraDB](https://www.hydradb.com/)\n* [Neural4D](https://www.neural4d.com/)\n* [Planable](https://www.planable.com/)\n* [TAAFT Ultimate Prompt Pack](https://www.theresanaiforthat.com/prompt-pack)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 Mind-Reading AI Is Here (No Surgery)\n\nTurn your brainwaves into sentences, Google caps Meta's compute, Cursor lands on iOS, AI makes better art than humans, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 29, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0ZpS0UntpCZj-BgEDSW2rSCzYOzn5C1K816DWSId2S_kff2F8TOJB2gC69mTqfvO45fUk9NYabyVWkr-MVxkIJd4kCm84AqbtorL1KnAVCo_bNSX3oULRacKXJBrcqSE0-vGhZdvyZUSMwzey-M4eScHTUJBQkXRWhlwwDi-r_uFp_FlaeSDP1lNAkehXif07xnfnzBiHFv9UgxfCoFjFpBb6yZMm6r-RdhHFHcnPRL0psOkoq3fW_6cvM8IaRhDRAIEAT2wxV_vGzii6SMKCQCDioc6UIm5p"
+    },
+    {
+      "from": "\"Hamel Husain\" <hamel_husain@parlance-labs.com>",
+      "subject": "New Post: “It’s Hard to Eval” Is a Product Smell",
+      "date": "2026-06-29T21:16:27.000Z",
+      "summary": "## Hamel Husain Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Hamel Husain discusses the importance of making AI outputs easy to verify, emphasizing that if a product is hard for developers to evaluate, it's likely hard for users as well, highlighting this as a \"product smell\" that indicates potential issues with the product's design or functionality. He shares case studies of three products he advised on, including an internal AI data agent, a physical education lesson-plan generator, and a workers' comp tool, showing before-and-after interfaces that incorporate design patterns for checkable artifacts, diffs, assumptions, and citations to improve verifiability.\n- The post emphasizes the value of designing products with verifiability in mind, suggesting that this approach can improve user trust and usability, and provides examples of how this can be achieved in different applications, including AI-driven tools for business questions, education, and medical report generation.\n\n### Notable Links\n- [Read the full interactive post](https://hamel.dev/blog/posts/eval-smell) on Hamel Husain's site for detailed case studies and design patterns.",
+      "links": [
+        {
+          "text": "Update your profile",
+          "url": "https://preferences.kit-mail3.com/v8ug3zq387urhvznn8qbghvkrv874c9hr636l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Your product should make it easy to verify AI outputs.  ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ "
+    },
+    {
+      "from": "\"Abhijay from Abhijay’s AI Action Letter\" <abhijayvuyyuru@substack.com>",
+      "subject": "A Guy Built an AI Employee Whose Only Job Was Finding Him a Job (Then Gave It Away Free)",
+      "date": "2026-06-29T22:04:16.000Z",
+      "summary": "## AI Action Letter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- A guy named Santiago Fernández de Valderrama built an open-source AI system called Career-Ops to automate his job search, which led to 12 interviews out of 66 applications and eventually a job offer as Head of Applied AI at a company called Zinkee. The system is now available for free on GitHub, allowing users to set up their own AI employee to find and apply to job openings.\n- Career-Ops works by scanning job boards and company career pages, scoring job listings based on factors like salary, skills match, and growth opportunities, and tailoring resumes to specific job openings. It also helps with drafting cover letters, preparing interview answers, and tracking application status.\n- The system requires a coding tool like Claude Code, Node.js, and Playwright to run, and users need to install these tools and set up their resume and target companies to get started.\n- The author provides a step-by-step guide on how to set up Career-Ops, including running the installer, opening the system in a coding tool, adding a resume, setting up a profile and target companies, and running the first scan.\n- Career-Ops has gained popularity, with over 50,000 stars on GitHub and a community of users helping each other set it up.\n\n### Notable Links\n- Career-Ops on GitHub: https://github.com/santifer/career-ops\n- Santiago's write-up on Career-Ops: https://santifer.io\n- OpenAI: https://openai.com\n- Anthropic: https://anthropic.com\n- Google: https://google.com\n\nNote: The newsletter primarily focuses on the Career-Ops AI system and its potential to automate job searches, but also mentions other AI companies like OpenAI, Anthropic, and Google in the context of the broader AI ecosystem.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGYWJoaWpheXZ1eXl1cnUuc3Vic3RhY2suY29tJTJGcCUyRmEtZ3V5LWJ1aWx0LWFuLWFpLWVtcGxveWVlLXdob3NlIiwicCI6MjA0MTg3ODgzLCJzIjo1ODgyODgzLCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4Mjc3MDkzOSwiZXhwIjoyMDk4MzQ2OTM5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.3D5B2B_qC4mUfdBbOgLVsVQa01gQgnQlmrUbOhHa9cs?"
+        },
+        {
+          "text": "A Guy Built an AI Employee Whose Only Job Was Finding Him a Job (Then Gave It Away Free)",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=204187883&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDE4Nzg4MywiaWF0IjoxNzgyNzcwOTM5LCJleHAiOjE3ODUzNjI5MzksImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.zO5mrAeJ-AXWZdCO2CGrG8dPBSCD0c5_kXxdXWi2-HM"
+        },
+        {
+          "text": "Abhijay Arora Vuyyuru",
+          "url": "https://substack.com/@abhijayaroravuyyuru"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/abhijayvuyyuru/p/a-guy-built-an-ai-employee-whose?redirect=app-store"
+        },
+        {
+          "text": "on GitHub here",
+          "url": "https://substack.com/redirect/7107da5d-4ba1-4b44-97dc-c55c62f7583a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "at santifer.io",
+          "url": "https://substack.com/redirect/4ca94102-641d-4346-b04e-440e467a6423?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRmFiaGlqYXl2dXl5dXJ1LnN1YnN0YWNrLmNvbSUyRnAlMkZhLWd1eS1idWlsdC1hbi1haS1lbXBsb3llZS13aG9zZSZyPTQ5YnkzNCZ0b2tlbj1leUoxYzJWeVgybGtJam95TlRjMU16ZzJOREFzSW1saGRDSTZNVGM0TWpjM01Ea3pPU3dpWlhod0lqb3hOemcxTXpZeU9UTTVMQ0pwYzNNaU9pSndkV0l0TlRnNE1qZzRNeUlzSW5OMVlpSTZJbU5vWldOcmIzVjBJbjAuUl9kYV9XbzctaEtrMm53bHFfMF81SjFtWHpiUTVnZXBxQ1VlTGVPdjdSWSIsInAiOjIwNDE4Nzg4MywicyI6NTg4Mjg4MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODI3NzA5MzksImV4cCI6MjA5ODM0NjkzOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.pxxBpFO93hruAmJvuh_q-bDmFo17grtR1r9_z3cwMIU"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=204187883&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDE4Nzg4MywiaWF0IjoxNzgyNzcwOTM5LCJleHAiOjE3ODUzNjI5MzksImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.zO5mrAeJ-AXWZdCO2CGrG8dPBSCD0c5_kXxdXWi2-HM"
+        },
+        {
+          "text": "AI Action Letter",
+          "url": "https://substack.com/redirect/a50d22c0-fba6-43b1-9d9a-d929661bb711?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=204187883&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDE4Nzg4MywicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODI3NzA5MzksImV4cCI6MTc4NTM2MjkzOSwiaXNzIjoicHViLTU4ODI4ODMiLCJzdWIiOiJyZWFjdGlvbiJ9.ilSwIAEiJW7Qs1oOqy6O3MI-dhgH_zEYfbCsFBJcuQk&r=49by34"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "A Guy Built an AI Employee Whose Only Job Was Finding Him a Job (Then Gave It Away Free)![](https://eotrx.substackcdn.com/o/4a4759aec3fb1ced/p.gif?token=eyJtIjoiPDIwMjYwNjI5MjIwNDE2LjMuNDYxMDBlNTU0NzQ0NmE1MkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDQxODc4ODMsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6NTg4Mjg4MywiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4Mjc3MDk0MCwiZXhwIjoxNzg1MzYyOTQwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.jYD3mcw9XApN9nvcPIekK4Yyvf3d9uhH_i5sngCaApY)\n\nAI Action Letter #41: The Open-Source AI System That Turned 66 Applications Into 12 Interviews, and How to Set It Up Yourself\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"Chase AI Community\" <noreply@skool.com>",
+      "subject": "Chase Hannegan posted \"💫Loop Engineering Skill + More Chase AI+ Updates💫\"",
+      "date": "2026-06-29T22:10:18.000Z",
+      "summary": "## Chase AI Community\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Chase Hannegan has added a new Loop Engineering lesson to the Claude Code Masterclass, which explains the concept of loop engineering, its limitations, and provides a skill that builds loop engineering constructs for unique tasks. This update is notable for AI practitioners as it provides practical knowledge on leveraging loop engineering in their work.\n- The Claude Code Masterclass has also been updated with a Chase AI+ exclusive Loop Engineering skill, enhancing the capabilities of the masterclass for its users. This skill is expected to improve the efficiency of tasks and provide more customized solutions.\n- Chase AI+ is offering a 40% discount on annual memberships for a limited time, making it an attractive opportunity for those interested in staying updated on the latest AI developments and tools. This discount can help AI practitioners access exclusive material, including lessons on app building and creating custom software versions.\n- Recent updates and releases include the Top 17 Claude Code Plugins, Agentic OS 2.0, Loop Engineering Intro, GLM 5.2 vs Claude vs Codex, and Ponytail, which aim to enhance the functionality and usability of Claude Code and other related tools. These updates are relevant for AI practitioners seeking to optimize their workflow and explore new capabilities.\n- Future lessons are expected to cover topics such as building a local version of WisprFlow and creating custom software using Claude Code, further expanding the possibilities for AI-driven application development. This will be particularly useful for practitioners interested in bespoke software solutions and localized AI applications.\n\n### Notable Links\n- Claude Code Masterclass\n- Chase AI+ \n- Skool Platform (for community and course access)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/e6ad8cbe88014c909808566ee94723a9/45e3b91336584a8c862b0c0ce35a3aec71e078ffb1ab4a90b7d4feee2af0aab0.jpg)\n\nChase AI Community\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRuxx2f4G5pcYUeNv-2FGLDcJun-2BPoFfFlTdw-2FC-2FYMahsCCuJ5RylOPB-2B6gNR6alz4zSFng-2Bot-2Fn3ff7fndlTH63P50XuuGxmo-2BAPMYktUDA2KN4gDSVYTLxo6ZktjrhR0cPtG-2FIZKEF6KioYiyLPIAS8QYw-3D-3DLe_9_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXK-2BTgWdB2roACSiMyIX5lppkaM0-2B3HpjjD-2BwTINFb0xTHZB4q5XgxmdsW-2BFoDP12AvPpfKeKxverFMexu3e7mFMKfx6N13Ct3013e4qD-2FKS832EIB0UK9rYp5kdqqwyZfTepE-2FCDqaATJFeP5whNI6hkXy2UOTh0w3JS-2BqoYz3wENIVeAVKODEGTUA9PeylDO5jQTKyWupFGiPZkiKyEzcTb3tQdkpJSADUo2a6hudsVKG7ElzGTeWk6h6-2Bf0nOYPdpmieCIjBe5WfZ0TTUGl4DU57FsonA9ThrMplKAZuJXp3nTF8DkL8J0x8cHZyMGOqJPHy8hbCouUFeo8nzV-2BOA3bS"
+    },
+    {
+      "from": "\"Uncovering AI\" <uncoverai@mail.beehiiv.com>",
+      "subject": "🔧 Ford's AI layoffs backfire. It cost billions.",
+      "date": "2026-06-29T22:23:01.000Z",
+      "summary": "## Uncovering AI\n**Priority: HIGH**\n\n### Top Updates\n* Ford's attempt to replace engineers with AI for quality control backfired, costing billions, and the company had to rehire around 350 veteran engineers, known as \"gray beards,\" to fix the issues. This highlights the importance of human expertise and judgment in areas where AI is not yet capable of fully replacing humans.\n* South Korea has announced a roughly $1 trillion plan to invest in chips, data centers, and robotics, aiming to secure AI's core elements and become a leader in the field. This investment will include $518 billion from Samsung and SK Hynix for new fabs and $356-500 billion for data centers.\n* Tidal will stop paying royalties on fully AI-generated tracks and will badge them starting July 15, in an effort to combat the use of AI in music creation.\n* Palantir and Nvidia are teaming up to bring secure Nemotron models to US government agencies, enhancing the security and capabilities of AI systems in the public sector.\n* A fake \"Perplexity\" Chrome extension was caught logging users' searches and keystrokes, highlighting the need for vigilance and security in the development and use of AI-related tools.\n* San Francisco tech salaries continue to defy gravity, with AI talent commanding top packages, indicating a high demand for skilled workers in the AI field.\n* Microsoft has been working on various AI-related projects, including the development of AI-powered tools and systems, with a focus on enhancing productivity and capabilities.\n\n### Notable Links\n* Ford's billion-dollar lesson on what AI can't replace\n* South Korea's $1 trillion bet on winning the AI hardware war",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🔧 Ford's AI layoffs backfire. It cost billions.\n\nThe \"gray beards\" came back, and so did the No. 1 quality crown.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 29, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/eJNT9u2qjVAZgnUmnVF9le3Xh832mH1Ne2MJ1Tai3%2F8F9U3YXKJU8PrUEgRl%0AaAykTHlgbFVNRxf2mAoKRtfl2ABQak9RYoSXX1FLBW70L%2BKjRnrSGHoFH%2ByX%0ACT5hjt7nLVVcUdCcX8Ndb5%2FOrmaF%2FoLPdHXKHCKHJSn%2BL64ZLy9TEJo5r%2FyX%0ApjfiqDAVI9%2FTZ2dQ3RQBZo4Xfzega031tQ%3D%3D%0A/dcc97ca94a7105f1)\n\n# 🔧 Ford's AI layoffs backfire. It cost billions.\n\nThe \"gray beards\" came back, and so did the No. 1 quality crown.\n\n![](https://link.mail.beehii"
+    }
+  ],
+  "tldr": [
+    "OpenAI releases GPT-5.6 model family.",
+    "Anthropic releases Claude Fable 5 model.",
+    "Google limits Meta's Gemini access.",
+    "South Korea invests $1 trillion in AI.",
+    "Ford's AI replacement attempt backfires."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is a leading artificial intelligence research and product company best known for developing the GPT series of large language models, including the recent GPT‑5.x and preview GPT‑5.6 family, which power ChatGPT and a wide range of enterprise and developer tools.[1][7][14] It positions itself at the frontier of AI capability and safety, with a stated long‑term mission to build broadly beneficial AGI, and has increasingly oriented its work around agentic systems, personal AI assistants, and automated AI research.[1][14][15] This makes OpenAI a central player in the AI/ML ecosystem, shaping benchmarks for model performance, safety practices, and commercial deployment at scale.[7][14]\n\nRecent developments focus on the **GPT‑5.6 series**, released in a limited preview with three variants—Sol (flagship), Terra (lower‑cost but competitive), and Luna (budget)—emphasizing stronger coding, science, cybersecurity capabilities, and new reasoning modes including an “ultra” multi‑agent option.[7][8] At the request of the U.S. government, OpenAI has delayed full public launch and restricted initial access to vetted partners, reflecting growing regulatory scrutiny of frontier models.[2][8] Alongside GPT‑5.6, OpenAI is updating its broader stack: it has rolled out Dreaming V3, a rebuilt memory architecture that synthesizes user context across conversations, updated GPT‑5.5 Instant as the default ChatGPT model, and begun retiring older models such as o3 and GPT‑4.5.[7][8]\n\nThe company’s industry impact is expanding beyond models into infrastructure, security, and enterprise workflows. OpenAI unveiled **Jalapeño**, its first custom AI inference accelerator co‑designed with Broadcom for late‑2026 deployment, signaling a move to vertically integrate compute for large‑scale inference.[7] It is strengthening AI agent security through the planned acquisition of Promptfoo and partnerships with major consulting firms to embed AI agents into business processes.[14] On the organizational side, OpenAI is building a global footprint, including hiring a managing director for India, and increasingly tailoring specialized models like GPT‑5.5‑Cyber for critical cybersecurity firms under controlled access.[2][7][8] Together, these steps underscore OpenAI’s role as a key driver of AI capabilities, safety frameworks, and commercialization strategies that influence how enterprises and governments adopt advanced AI systems.[2][7][14]",
+        "source": "web search"
+      },
+      {
+        "topic": "GPT-5.6 (Sol, Terra, Luna)",
+        "context": "GPT-5.6 is OpenAI’s latest **next-generation model family**, released as a three‑variant suite: **Sol** (flagship frontier model), **Terra** (balanced mid‑tier), and **Luna** (fast, low‑cost tier).[5][12][13] Sol is described as OpenAI’s strongest model to date, with state‑of‑the‑art performance in **coding, biology, cybersecurity, and long‑horizon agentic tasks**, and benchmark scores that slightly exceed Anthropic’s Claude Mythos 5 on several evaluations.[3][6][12][14] Terra targets everyday, high‑volume work with performance comparable to GPT‑5.5 at roughly half the price, while Luna is optimized for speed and cost, positioned as the most affordable option in the family.[13][14] Pricing is aggressive against frontier competitors: Sol is listed around $5 per million input tokens and $30 per million output tokens, with Terra and Luna scaled down from there.[11][13]\n\nThe release matters less for immediate broad adoption than for what it signals about frontier capabilities and regulatory dynamics. GPT‑5.6 is being rolled out as a **limited preview only**, initially to a small group of “trusted partners” using the OpenAI API and Codex, with participation vetted or shared with the U.S. government.[1][2][10][12][13][14] Access has been explicitly constrained at the request of the U.S. administration pending AI safety and security reviews, making GPT‑5.6 a test case for how government scrutiny can shape the launch of frontier models.[1][8][11][14] Industry observers highlight its agentic features (long‑running autonomous workflows, Ultra mode with multiple sub‑agents, and extended reasoning time) as an important step toward more capable AI systems for complex software engineering, security research, and scientific analysis, while raising corresponding concerns about dual‑use risks.[6][13][14]\n\nIn the broader AI/ML ecosystem, GPT‑5.6 is seen as a key escalation in the **capabilities and cost-performance race** among frontier labs. Sol’s reported gains over Claude Mythos 5, combined with substantially lower token pricing, intensify competitive pressure on rivals like Anthropic, Google, and others in advanced coding and cybersecurity workloads.[3][11][12][13] Enterprises with early access are experimenting with higher‑complexity agentic applications—such as automated code refactoring at scale, adversarial security testing, and advanced bioinformatics pipelines—that were previously difficult or costly to run on older models.[6][7][13][14] At the same time, the restricted launch and government involvement are prompting renewed industry focus on safety frameworks, red‑teaming, and access controls for frontier models, suggesting that future high‑end releases may increasingly be staged through **government‑aligned preview programs** before general availability.[1][8][11][14]",
+        "source": "web search"
+      },
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is a San Francisco–based AI company focused on building advanced large language models, best known for its Claude family, and positioned as a leading competitor to OpenAI with a strong emphasis on safety, reliability, and enterprise use cases.[12] Backed by major tech firms including Google and Amazon, it targets researchers, developers, and large enterprises with tools for coding, agents, and complex knowledge work, framed around responsible and steerable AI systems.[12]\n\nRecently, Anthropic has escalated its competition in the frontier-model race with the release of **Claude Fable 5** and the restricted **Claude Mythos 5** line.[9] Fable 5 is a public, state-of-the-art model optimized for coding, vision, and scientific work, offering a 1M-token context window and enterprise-friendly pricing and safeguards, including deployment on Amazon Bedrock and automatic rerouting of sensitive cyber/bio queries to weaker models such as Opus 4.x.[9] Mythos 5 is the same underlying model with many cyber safeguards removed and is limited to vetted security partners under “Project Glasswing,” reflecting Anthropic’s strategy of tightly controlling access to its most capable systems due to potential misuse risks.[9][10] The U.S. government has gone so far as to issue export controls suspending broad access to Mythos 5 and Fable 5, later permitting Mythos 5 only for “trusted partners,” underscoring regulators’ concern about frontier model capabilities.[1][2]\n\nThese developments have significant industry impact: Anthropic is both pushing the performance frontier and shaping policy debates around model safety, export controls, and responsible access to powerful AI.[1][2][7] Its rapid product cadence (Opus 4.x series, Claude Cowork for collaborative workflows, and sector-specific deployments like Goldman Sachs’ autonomous agents powered by Claude Opus 4.6) positions it as a key infrastructure provider for financial, legal, and enterprise automation.[4][5][14] At the same time, Anthropic publicly advocates slowing global AI development to mitigate risks around self-improving systems, signaling that leading labs may both drive and restrain the pace of AI progress.[7] This combination of cutting-edge models, tight safety controls, and growing enterprise adoption makes Anthropic central to current discussions about how frontier AI should be developed, governed, and integrated into critical business workflows.[9][12]",
+        "source": "web search"
+      },
+      {
+        "topic": "Google",
+        "context": "Google is a leading AI/ML company whose recent strategy centers on building larger multimodal Gemini models, agentic platforms, and its own AI compute stack, while competing for top talent against rivals like Meta and Anthropic.[1][5][8] It matters because Google’s infrastructure (TPUs, Cloud, Android, Workspace, and Search) gives it unusual leverage to push frontier models and AI agents into consumer products and enterprise workflows at massive scale, shaping how AI is adopted across the industry.[7][9] \n\nOn the model and product side, Google used I/O 2026 to launch the **Gemini 3.5** series and **Gemini Omni**, an anything‑to‑anything multimodal family capable of turning text, audio, and images into video and more, along with **Gemini Spark**, pitched as a persistent, always‑on personal and enterprise AI agent rather than a simple chatbot.[2][5][10] These launches were paired with an expanded **Antigravity 2.0** agent‑first development platform, updates to Google AI Studio, and wider integration of Gemini across Search Live, Workspace (Docs, Sheets, Slides, Drive), Maps, Pixel, and healthcare tools, indicating a push toward proactive, context‑aware AI embedded throughout Google’s ecosystem.[5][11][13] Google Research and DeepMind also continue to publish cutting‑edge work—such as text‑to‑SQL (Gemini‑SQL2), faster parallel‑generation models like DiffusionGemma, and multi‑agent safety funding—highlighting Google’s attempt to remain a research leader even as talent flows to other labs.[3][4][12]\n\nOn the compute and industry side, Google is aggressively investing in AI chips and partnerships to counter both internal talent loss and external compute constraints at rivals like Meta. At Cloud Next, it bifurcated its accelerator roadmap into **TPU 8t for training** and **TPU 8i for inference**, with the inference chip claiming about **80% better performance‑per‑dollar** on serving chain‑of‑thought mixture‑of‑experts models, reinforcing its strategy to keep more AI workloads on Google Cloud.[8] Alphabet simultaneously committed around **$40B to Anthropic**, launched a **Gemini Enterprise Agent Platform** with native plug‑ins from major SaaS vendors, and confirmed Gemini’s role in the next version of Apple’s Siri, moves that signal Google’s intent to be a central infrastructure and model provider across the broader AI ecosystem rather than just within its own products.[8] Combined with recent price cuts where Google told enterprises they could save up to $1B annually by switching from other frontier models to Gemini, these developments intensify competitive pressure on Meta and others with more limited compute or monetization channels, and position Google as a key arbiter of how large‑scale AI is trained, deployed, and economically accessed.[2][8]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is OpenAI’s conversational AI product, and the current news cycle shows it evolving from a general-purpose chatbot into a more integrated work platform with stronger context handling, agentic features, and enterprise-oriented use cases. Recent coverage and OpenAI release notes highlight new capabilities such as project-level context, file and folder uploads, Deep Research, Operator, and newer model rollouts that improve reasoning, coding, and tool use inside ChatGPT.[3][8][10] OpenAI’s news and release notes remain the primary source for the product’s latest changes.[1][10]\n\nWhat matters most in 2026 is that ChatGPT is no longer just a text generator: it is being positioned as an interface for research, coding, browsing, and task automation, which has broad impact on consumer productivity and software workflows.[8][9] Industry reporting also points to OpenAI testing monetization changes such as ads for free users and adding safety systems like age prediction, while ongoing model upgrades and feature expansion continue to intensify competition with Google Gemini and Anthropic Claude.[13][11][2] These developments suggest ChatGPT remains one of the most influential products in AI/ML, shaping expectations for customizable outputs, multimodal assistants, and AI agents across the market.[9][13]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [],
+    "entities": [
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as the developer of GPT-5.6 and other AI models"
+      },
+      {
+        "name": "GPT-5.6",
+        "type": "product",
+        "context": "Introduced as a new AI model with three variants: Sol, Terra, and Luna"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as a competitor to OpenAI, with its Mythos 5 model and recruitment of former Google employees"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Discussed in relation to its AI talent loss, AI chip development, and limits on Meta's compute resources"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as an AI model with customizable outputs and potential applications"
+      },
+      {
+        "name": "Meta",
+        "type": "company",
+        "context": "Discussed in relation to its AI developments and limitations imposed by Google"
+      },
+      {
+        "name": "MLOps",
+        "type": "technology",
+        "context": "Mentioned as a key infrastructure for Elastic Pattern experimentation and AI development"
+      },
+      {
+        "name": "Fable 5",
+        "type": "product",
+        "context": "Discussed as an AI model that remains locked for general API users, while Anthropic's Mythos 5 is available"
+      },
+      {
+        "name": "Sol",
+        "type": "product",
+        "context": "Introduced as the flagship model of OpenAI's GPT-5.6 family"
+      },
+      {
+        "name": "Mythos 5",
+        "type": "product",
+        "context": "Mentioned as an AI model developed by Anthropic, available for 100 organizations"
+      },
+      {
+        "name": "TensorFlow",
+        "type": "technology",
+        "context": "Implicitly mentioned in the context of AI and machine learning developments"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-06-30T00:30:33.469Z",
+  "dateString": "2026-06-30"
+}
