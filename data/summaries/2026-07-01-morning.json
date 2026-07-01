@@ -1,0 +1,542 @@
+{
+  "date": "2026-06-30T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Wednesday, 1 July 2026\n\n## 🔥 Top Stories\n1. **Meta releases Brain2Qwerty v2, a brain-scanning model that can decode sentences in real-time with 61% accuracy** — This matters because it has significant implications for people who cannot speak due to medical conditions, offering a potential means of communication.\n2. **Anthropic's Claude Opus 4.8 is now available on Azure with native billing and prompt caching** — This matters because it expands the accessibility and usability of a powerful AI model, making it more integrated into mainstream cloud services.\n3. **Open-source models like Llama, Mistral, Qwen, DeepSeek, GLM, and Kimi are rapidly improving, narrowing the gap with proprietary frontier models** — This matters because it indicates a shift towards more democratized access to advanced AI capabilities, potentially altering the landscape of AI development and adoption.\n4. **Etched, a chip company, has developed a chip specifically designed to run AI, walking out of stealth with $800M raised and $1B in contracts** — This matters because it signifies a major investment in hardware tailored for AI, which could lead to significant advancements in AI processing efficiency and capabilities.\n5. **The EU is advancing a \"Digital Omnibus\" initiative to streamline data and privacy rules, aiming to reduce compliance overhead for companies implementing AI** — This matters because it could simplify the regulatory environment for AI adoption in the EU, potentially fostering more innovation and deployment of AI technologies.\n\n## 🤖 AI Models & Research\n- Researchers from the University of Liverpool have published a paper on Bayesian deep learning for uncertainty-aware medical image segmentation correction and feature engineering, with applications to OCT imaging, allowing for more accurate and reliable image segmentation.\n- DeepSeek has open-sourced DSpark, a framework that speeds up LLM inference by up to 85%, enabling large language models to answer faster without changing the underlying model's output.\n- A transformer model, DiScoFormer, has been developed to estimate both density and score from data in a single pass, surpassing classical kernel density estimation (KDE) in accuracy.\n\n## 🛠️ Tools & Products\n- Claude has released Sonnet 5, the most agentic Sonnet yet, allowing it to plan and run browsers and terminals at near-Opus quality.\n- Google has announced Nano Banana 2 Lite, which generates images faster and cheaper than before, and Omni Flash, which opens AI video generation and editing to developers.\n- Stigg has introduced a product that places products on virtual models, and Whacka turns ideas into working apps directly from a phone.\n\n## 📰 Industry News\n- Rocket Lab is acquiring satellite-communications company Iridium in a cash-and-stock deal valuing Iridium at about $8 billion, gaining a fully operational global satellite network.\n- SoftBank has entered into a strategic partnership with OpenAI, aligning its capital and portfolio companies around OpenAI’s models and infrastructure.\n- The market is shifting towards a model where companies sell finished work, such as resolved tickets or reviewed contracts, at a fixed price, rather than selling tokens, indicating a change in how AI services are valued and monetized.\n\nTotal Newsletters: 16",
+  "totalNewsletters": 16,
+  "newsletters": [
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "Bayesian deep learning for uncertainty aware medical image segmentation correction and feature engineering: Applications to OCT imaging",
+      "date": "2026-06-30T12:55:36.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Researchers from the University of Liverpool, led by Ball et al., have published a paper on Bayesian deep learning for uncertainty-aware medical image segmentation correction and feature engineering, with applications to OCT (Optical Coherence Tomography) imaging. This development matters because it enables more accurate and reliable image segmentation, which is crucial in medical diagnosis and treatment.\n* The authors propose a modified U-Net architecture that outputs not only a segmentation mask but also multiple pixel-level uncertainty maps, allowing clinicians to assess the reliability of the predictions. This approach is significant because it addresses the problem of \"confidently wrong\" predictions, where a model asserts a prediction with high confidence but is actually incorrect.\n* The system uses Bayesian deep learning to represent model parameters as distributions instead of single point estimates, enabling the calculation of epistemic and aleatoric uncertainty for every pixel. Epistemic uncertainty represents the model's lack of knowledge, while aleatoric uncertainty represents the uncertainty caused by the data itself.\n* The authors evaluated their system on two OCT datasets, the HCMS dataset and the Duke DME dataset, and compared it to a standard U-Net and a Bayesian U-Net without uncertainty correction. The results showed that the proposed system performed as well as or slightly better than the baseline U-Net, with the main gain being increased interpretability and the ability to flag low-quality scans and remove small segmentation artifacts.\n* The use of Bayesian deep learning and uncertainty estimation has broader implications for the field of AI, particularly in high-stakes applications such as healthcare, finance, and autonomous systems, where knowing when a model is unsure is often as important as the prediction itself.\n\n### Notable Links\n* [Bayesian deep learning for uncertainty aware medical image segmentation correction and feature engineering: Applications to OCT imaging](https://journalclub.io/episodes/bayesian-deep-learning-for-uncertainty-aware-medical-image-segmentation-correction-and-feature-engineering-applications-to-oct-imaging)\n* [The Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai) \n* [Watch or Listen to the Episode](https://journalclub.io/episodes/bayesian-deep-learning-for-uncertainty-aware-medical-image-segmentation-correction-and-feature-engineering-applications-to-oct-imaging?token=bCl5fpU5PwUQmx5R65bfMH1Cuq3oJZTJTCWeO4VBZWXo9YvsHM)",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/bayesian-deep-learning-for-uncertainty-aware-medical-image-segmentation-correction-and-feature-engineering-applications-to-oct-imaging?token=bCl5fpU5PwUQmx5R65bfMH1Cuq3oJZTJTCWeO4VBZWXo9YvsHM"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Bayesian deep learning for uncertainty aware medical image segmentation correction and feature engineering: Applications to OCT imaging   \n\n\"Confidently wrong\". If you're a regular user of any kind of AI, then I'm sure you're aware of what that phrase refers to. A prediction, an imputation, a classification or some other kind of inference that the model asserts strongly…but is completely incorrect.\n\n![](https://journalclub.io/px/wV7h8zvnvXXI7dynvPvgYy6ZWiFuLbi1HnN1NOmSGsKFrHPWOR)\n\nBayesian deep learning for uncertainty aware medical image segmentation correction and feature engineering: Applications to OCT imaging\n\nJournalClub.io, June 30th, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/eBFt5w96QXSYNDCmDhH2)](https://journalclub.io/episodes/bayesian-deep-learning-for-uncertainty-aware-medical-image-segmentation-correction-and-feature-engineering-applications-to-oct-imaging?token=bCl5fpU5PwUQmx5R65bfMH1Cuq3oJZTJTCWeO4VBZWXo9YvsHM)\n\nToday's article comes f"
+    },
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "the secret to my videos",
+      "date": "2026-06-30T12:55:55.000Z",
+      "summary": "## Staying Ahead with AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The author shares their method for creating scroll-stopping AI hooks, which involves a 5-step process: picking a subject with a curiosity gap, locking a still image, using Claude to write a prompt, testing two image tools and keeping the winner, and animating the same way.\n* The process is demonstrated through three examples: a calm tech founder sitting in a fire, a businessman typing in an underwater office, and a luxury car with a glowing green algae filter.\n* The importance of using a human anchor in fake shots is highlighted, where including a real person touching or pointing at something impossible makes the brain stop doubting it.\n* The author emphasizes that no single tool wins every shot and that the idea is what does the work, not the tool.\n* Two ads are featured: Moda, an AI design product that allows users to prompt what they need and edit every element on a full canvas, and ElevenAgents, a vertically integrated pipeline for voice models that provides full control and fast response times.\n\n### Notable Links\n* [Claude](https://www.claudeforce.com/) - an AI assistant that can be used for a variety of tasks, including writing prompts and generating images.\n* [Moda](https://moda.ai) - an AI design product that allows users to prompt what they need and edit every element on a full canvas.\n* [ElevenAgents](https://elevenagents.com) - a vertically integrated pipeline for voice models that provides full control and fast response times.\n* [Nano Banana Pro](https://nanobanana.pro) - an image generation tool used in the author's examples.\n* [GPT Image 2](https://gpt-image-2.com) - an image generation tool used in the author's examples.\n* [Seedance 2.0](https://seedance.ai) - a video generation tool used in the author's examples.\n* [Veo 3.1](https://veo.ai) - a video generation tool used in the author's examples.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "the secret to my videos\n\na method anyone can use  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 30, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.2WMshDh4P1SYN8SqaafnJdjdmWP1WD1rdGPofZ1FxFqHgJ7J51VVcGnbV81X2s9l-b_90kCkGxoPBL7_RzJ4b7COY3j7lMHfZuErO2MupmyHtx3b-i8NEXbe4JEw5h3bjSJzDcyinkC4UarUdx6mcYIRV1HalXj5jU481AJNASnoPJNmaxHH6QgtPVFQCTXyRfrPDeLZoQp1Z23wiCc6BPdmA2gPNcytmvlT4ZIj7IomhPQ8t0U3BFrvbuiqqnYjqPDWcoEBGGXyL3BY9R3V0muThCNfBccyJS7g0tMuUZPbzS5gUXt4Ll4LcjFKpSa6-_9EzsbV0iviHrjSK93awmYCGmeepKParb6itsMLnzm_vh3PZ3RUyJDGXFSNHpx9pqXd1TUZTme_rrMuX44RSyCI7d02nkfB8UQMigIEIZCH-nX88h7TJBdT0kpxh3nY1B28nBS7X_f2HQrFQaz5Emvb4r5"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🧠 Meta upgrades it brain-scanning model",
+      "date": "2026-06-30T13:04:45.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta has upgraded its brain-scanning model, **Brain2Qwerty v2**, which can analyze raw brain signals captured via a non-invasive scanner and decode sentences in real-time at 61% accuracy. This model is trained on roughly 22,000 sentences from 9 volunteers, each recorded for 10 hours, and aims to benefit people who can no longer speak after a stroke, accident, or brain disorder.\n* **OpenClaw**, a platform that popularized personal AI assistants, is now available on iOS and Android stores, allowing users to command their AI assistant from a phone-native app. Additionally, the AI coding platform **Cursor** has launched an iOS app, enabling users to kick off always-on cloud agents at any time.\n* A California lawsuit accuses **Samsung**, **SK Hynix**, and **Micron** of price fixing, alleging that the three memory giants, who control roughly 90% of the global DRAM market, have illegally coordinated to restrict supply and inflate prices.\n* **LlamaParse**, a document OCR for AI agents, is being used by 300,000 developers to turn hours of manual document processing into seconds of automation, with VLM-powered document understanding agents.\n* **Glean** has released a report, **The Work AI Index 2026**, which found that AI saves time but much of it goes back into cleanup, and highlights the need for more effective AI integration in the workplace.\n* The newsletter also mentions various trending AI tools, including **Studio**, **GetHireIn**, **Spion**, **Linkence**, and **Bloome**, and provides links to learn more about these tools.\n\n### Notable Links\n* Brain2Qwerty v2\n* LlamaParse\n* Glean's The Work AI Index 2026",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🧠 Meta's model turn brain waves into words\n\nALSO: How to audit website SEO with Replit  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 30, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGVZEpRLwIRV_Yu3CvFXCt9ODTwkluMwhvF9rnGszVN7Xwf5ZLGNOjXwL2wht2NLFPw2LuxkEvjK6_ctqfYIczHtpf658-r3s3iWiYttwIdyzAmO4T7xiN2MhGjG2mcbHiA-di4DZ-pzmsHo3S7TVY9wez_a91hHVg4i2uyY6AtkJ98L_vNb38jbdFpEfZnhcF8sw2ptgcL4IA5Wgzh7qEpzS1ISagWjD8yXWHsLBxdVIfbgUBiu-EqsaPJ8hm4qo4TikgjJGLdOn1qMy4UjW_fZlISG9bxAzkJUaIUYqm68Tqe63mYivNutEJlUebRBoMe9x8068jOuFrLlksAbU0LtDlFmPb4AYVX_F2zC_p6ShC6gpR4sgJ2rJfNGp9SRxTIWyreMeEre"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "1 new notification since 6:47 pm (Jun 29, 2026)",
+      "date": "2026-06-30T13:18:34.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nate Herk has posted about a new video featuring Stanford's Method, which turns Claude into a PhD-level research team by running a topic through five different expert perspectives (practitioner, academic, skeptic, economist, and historian) to catch blind spots that one angle may miss, and has made this method available as a free Claude skill.\n- The Stanford's STORM research method aims to provide a more comprehensive understanding of a topic by considering multiple perspectives, which can be useful for research and analysis.\n- The post mentions that the method can be used to spin up different expert perspectives and map where they agree and disagree, providing a more nuanced understanding of the topic.\n\n### Notable Links\n- View post: This link allows users to view the original post by Nate Herk and learn more about the Stanford's Method and its application to Claude.\n- View Group: This link takes users to the group page where they can engage with others and discuss the topic further.\n- Start your own skool: This link provides an opportunity for users to create their own community or group to discuss AI-related topics. \n\nNote: There are no specific papers, products, or technologies mentioned in the newsletter aside from Claude, which is a relevant AI tool. The newsletter appears to be focused on sharing knowledge and updates within the AI Automation Society community.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3DR4Z7_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXG68pfzNOaZooPuvIonPakWjA18cktKFCuMGSEz38ywyVm-2F-2Bm8cMcmB4pqe7YD-2B8-2Berm3j3Z6orqomS86zO-2FawyFiGC2Dl6uXPyoBe6kmwPdwva5OhmqWXgncTB1b7E90-2B3bV4RkUmD8mkVFRYz7Xa1JuW9YoTsV8jogxOPqyF9ZJlhe7GKZKT7pS1Tw2m3WKXBWOz36hO4UPTM6MstilJn6GEigliNMV7CIaP2BRL9ntmKE3euRt-2BJ42-2BspimlPB-2FcBaMkEh57VuhFUqL3KgRKNGxhRyEKuOBLJa70GT-2FK0-2FOgNPzvRGoy25nxXIs-2Bk1"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "🧠 Meta Brain2Qwerty v2 hits 78% word accuracy, no surgery needed",
+      "date": "2026-06-30T13:18:33.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta releases open-source brain-to-text decoder **Brain2Qwerty v2**, achieving **78% word accuracy** and **61% average word accuracy** across participants, with the ability to decode whole words and meaning from brain signals without surgery. The full training code is now public, allowing researchers to build on it directly.\n* **Cursor** launches a native iOS app, enabling users to run and control coding agents from their phone, with features like launching cloud agents, remote control, and live activity updates.\n* **MegaTrain** trains **120B models on a single GPU** by storing weights in CPU memory, while **JetSpec** achieves a **9.64x speed boost** on Qwen3 models with smarter speculative decoding.\n* **DeepSeek** introduces a new decoding trick that boosts LLM throughput by up to **400%**.\n* **Anthropic** brings **Claude Opus 4.8** to Azure with native billing and prompt caching.\n* **Marvin's open-source science initiative** tackles humanity's hardest problems, including schizophrenia and muscular aging.\n* An open-source tool is released to run full AI-powered penetration tests from plain text commands.\n* **10 open-source GitHub tools** are highlighted for web scraping, including **Firecrawl**, **browser-use**, **Crawl4AI**, **Microsoft MarkItDown**, and **Crawlee**.\n\n### Notable Links\n* Brain2Qwerty v2 \n* Cursor iOS app\n* Tiger Data workshop \n* WorkOS \n* Iluvatar Labs",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=0dd93315ed7864f2&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=0dd93315ed7864f2&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=0dd93315ed7864f2&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=0dd93315ed7864f2&mid=9b66d242-95e0-4162-be1f-8c362f92e250&s=%F0%9F%A7%A0%20Meta%20Brain2Qwerty%20v2%20hits%2078%25%20word%20accuracy%2C%20no%20surgery%20needed&t=1782825499)\n\nBrain2Qwerty v2 trained on 22,000 sentences, 9 volunteers, 10 hours each — full training code now public.\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=0dd93315ed7864f2&lid=x9UUmsXcDsk7JtPS&mid=9b66d242-95e0-4162-be1f-8c362f92e250)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=0dd93315ed7864f2&lid=1AYpRGcfUp6sjj0Xx&mid=9b66d242-95e0-4162-be1f-8c362f92e250)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nThe theme today is **democratization**. Not the buzzword kind. The "
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Devin Fusion 💻, DeepSeek DSpark ⚡, economy of tokens 💰",
+      "date": "2026-06-30T13:46:16.000Z",
+      "summary": "## TLDR AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* **Devin Fusion**: Cognition has introduced Devin Fusion, a multi-model harness that combines a frontier-level coding agent with a cheaper \"sidekick\" model to reduce costs while maintaining top-tier performance, achieving a 35% lower cost than running frontier models alone and up to 41% lower cost when paired with Fable 5.\n* **DeepSeek's DSpark**: DeepSeek has open-sourced DSpark, a new framework that speeds up LLM inference by up to 85%, allowing large language models to answer faster without changing the underlying model's output.\n* **Gemini's personalized AI image generation**: Gemini's personalized AI image generation feature is now free for US users, generating images based on the AI model's understanding of users' likes and preferences without requiring specific prompts.\n* **Cursor for iOS**: Cursor has launched a mobile app for iOS, enabling developers to manage projects from anywhere using cloud or local agents, and supporting workflows such as incident handling and customer issue resolution.\n* **RoadmapBench**: A new benchmark, RoadmapBench, has been introduced to evaluate long-horizon coding tasks, requiring agents to implement functionalities across multiple files and languages, grounded in real version upgrades across 17 repositories.\n* **DiScoFormer**: A transformer model, DiScoFormer, has been developed to estimate both density and score from data in a single pass, surpassing classical kernel density estimation (KDE) in accuracy, especially in high dimensions.\n* **Google Cloud and SandboxAQ**: Google Cloud will start offering specialist AI models from SandboxAQ, trained on scientific equations and laboratory data, for use in drug discovery, materials science, and semiconductor manufacturing.\n* **Sakana Fugu**: Sakana Fugu has launched with a 93.2 LiveCodeBench score, beating Fable, and starts at $5 per million input tokens.\n\n### Notable Links\n* [Devin Fusion](https://cognition.com/blog/devin-fusion)\n* [RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades](https://arxiv.org/abs/2605.15846)\n* [DiScoFormer](https://huggingface.co/blog/allenai/discoformer)",
+      "links": [
+        {
+          "text": "RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades (1 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2605.15846%3Futm_source=tldrai/1/0100019f18c7d0c6-69261911-08e2-4ea1-8de1-b138635ebcb8-000000/_TdhJqu7gnqzI6vuv8dUiRE5EiIVJ2zv6YkRAwnNjl8=452",
+          "isPaper": true
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2605.15846%3Futm_source=tldrai/1/0100019f18c7d0c6-69261911-08e2-4ea1-8de1-b138635ebcb8-000000/_TdhJqu7gnqzI6vuv8dUiRE5EiIVJ2zv6YkRAwnNjl8=452",
+          "title": "RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades (1 minute read)",
+          "source": "link"
+        }
+      ],
+      "priority": "MEDIUM",
+      "originalContent": "    TLDR AI  \n\nDevin Fusion is a multi-model harness from Cognition that mixes frontier and cost-effective models, reducing expenses by 35% on FrontierCode ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019f18c7d0c6-69261911-08e2-4ea1-8de1-b138635ebcb8-000000/hM6L44HzUD2XJjOmOfhB78fx7WCFTIRkQMRAwKq5sk0=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019f18c7d0c6-69261911-08e2-4ea1-8de1-b138635ebcb8-000000/qEIRK6fOf9Uo-kenK6lSdPUAzotU9rYETW2G6vNmaio=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=95de363e-7469-11f1-a1f0-6d003e08fae0%26pt=campaign%26t=1782827176%26s=0014861b8031f7580d319168e"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Chinese AI keeps getting better",
+      "date": "2026-06-30T15:03:31.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Chinese AI models, specifically Zhipu AI's GLM-5.2, are catching up with top US systems in some cybersecurity tasks, adding pressure to the global AI race.\n* GLM-5.2 is an open-weight model, meaning it can be downloaded, run on personal hardware, and modified with fewer restrictions, making it useful for companies but also raising security concerns.\n* The model has been tested and can match leading US models like Anthropic's Claude Opus 4.8 in finding software bugs, although it still falls behind in other areas.\n* US restrictions on advanced AI models could push companies towards cheaper Chinese alternatives, potentially shifting power in cybersecurity.\n* Suno has launched a new artist program called Spark, aimed at supporting unsigned artists with grants, mentorship, and marketing support, but the terms have raised concerns, including a \"Good Vibes Only\" clause that prohibits artists from saying anything negative about Suno.\n* Rocket Lab is acquiring satellite communications provider Iridium for $8 billion, combining launch services with a global satellite network, aiming to compete with SpaceX.\n\n### Notable Links\n* 18 ChatGPT Prompts That Make Sense Of Excel\n* Futurepedia \n* The Hustle \n* Starter Story \n* Marketing Against the Grain",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Chinese AI keeps getting better\n\n\\+ Would you let AI train on your music?  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n30 Jun\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/d823"
+    },
+    {
+      "from": "\"Cerebral Valley\" <team@mail.cerebralvalley.ai>",
+      "subject": "Cerebral Valley – Week of June 29",
+      "date": "2026-06-30T16:03:12.000Z",
+      "summary": "## Cerebral Valley\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI Engineer World Fair is closing out with a private evening at Shack15, featuring demos and a happy hour.\n* Abridge, Anthropic, and Lightspeed are hosting an event on the future of agentic AI in healthcare, focusing on open problems and hands-on experiences.\n* fal and Sequoia are organizing a 72-hour video hackathon for creative technologists, filmmakers, and developers to push the frontier of AI-native storytelling.\n* H100 spot prices have decreased by 40% from their May peak, sparking AI demand worries.\n* DeepSeek has shipped DSpark, which provides a 51-400% throughput boost.\n* Researchers have successfully killed a language model's German language capabilities with just 4 tokens.\n* Enterprises are increasingly adopting open-source solutions, with some companies securing compute and post-training in-house.\n* OpenAI has developed Jalapeño, the first AI-built chip, which was largely coded by Codex.\n* Vercel is offering free tickets to its Ship 26 conference, an AI-native and agent-focused event.\n* Several companies, including Judgement Labs, sakana.ai, and Databricks, are hiring for various positions in AI and related fields.\n\n### Notable Links\n* AI Engineer World Fair Demos & Happy Hour: https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TqAq8Nkamu4q1NaH4vREb0i4u0I1qvYhWomVYKDYSSlEDHqYAyT8VqwcwN5XfIAHOQITsAYliXgkaQMkdCeHPtBAgtNAjEjQnoTGKqYCDrTgdQKDXN3hR83ZA6UGozXlspapVrbX4eXD3un-zbpjfV8HRWJcXYOWIFU-80xesvP1OSCu2UXewDZNtR7M3mncKQ/4rx/LwliWwqCS7OltluThFu_4g/h1/h001.kYdh7Ch9uy6LSNOQ-k3dABiAGKVlrNx9_GALM_WtGiU\n* The Future of Agentic AI in Healthcare: https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7Tobz9NlIfe5KH44Bsi628y71oCUDyPMAqZoqKoqDxB7GFsHfzPnNYou34ko3_VZDTachCwGDQtFaqicUprIVsEF5eLEGf3pwcQcBruEfEkPWLaryyVMSUMoONZEFXYCTJSnIbkDGaiEDthdgDc3Yo8v38y3EqPAA62D0YXZveJUAG1QU3V9l95eK0JAnXYdfqY/4rx/LwliWwqCS7OltluThFu_4g/h3/h001.IOL5nLTO_AlxyfESfLJF2D0gYqEUdBzRa820bEqHbkk\n* fal x Sequoia 72-Hour Video Hackathon: https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TrMpk0mtMPULs2Ex37dVWOS9kVREbDMoP51mV8-I7Pcdr3kNp-GZ1BKVz0uaSzUFpTeh0igEn3uWjTAVtM7IKS35Wag_DDS-_tHABcIuiVw02Rz422YIlOnRjzrdGRzoEwfSQS1BJeAOH1DK0pX9hat4f7bouEyqCkYA8TxgPUDwjKeHa8fc_oezf25a-H7djI/4rx/LwliWwqCS7OltluThFu_4g/h5/h001.Q4FKIucB-I15HHnJS9ZXNWBZl8i_CN23Qn77PPOiTKw\n* Vercel Ship 26: https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.v39Q-NuhH_czhpeg2tQ6TD0pc3QBaTzCctHpJf1K_CHAeNPoX1qo99Cw74e0tIp6e-uLutt0GXw0UxSe2pTz5oQx6VuGKwO_pK0YIHRnIzPHT01Pbhtbz1ObhmXjCKCuCgKrEDvxqNmi7K1jMNn3FGBxuuFgLbT-4oaZoHhFKGwIKGVCibyVyhISTEZo-cUa/4rx/LwliWwqCS7OltluThFu_4g/h16/h001.TN_GaPNuLRsT50wu4C5jv9WNDh0sN9IIJiVU02jPGCM",
+      "links": [
+        {
+          "text": "AI Engineer World Fair Demos & Happy Hour",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TqAq8Nkamu4q1NaH4vREb0i4u0I1qvYhWomVYKDYSSlEDHqYAyT8VqwcwN5XfIAHOQITsAYliXgkaQMkdCeHPtBAgtNAjEjQnoTGKqYCDrTgdQKDXN3hR83ZA6UGozXlspapVrbX4eXD3un-zbpjfV8HRWJcXYOWIFU-80xesvP1OSCu2UXewDZNtR7M3mncKQ/4rx/LwliWwqCS7OltluThFu_4g/h1/h001.kYdh7Ch9uy6LSNOQ-k3dABiAGKVlrNx9_GALM_WtGiU"
+        },
+        {
+          "text": "Register here",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TqAq8Nkamu4q1NaH4vREb0i4u0I1qvYhWomVYKDYSSlEDHqYAyT8VqwcwN5XfIAHOQITsAYliXgkaQMkdCeHPtBAgtNAjEjQnoTGKqYCDrTgV6UbQqIyhsMVmst2CFULkztuhiGg1Hs7S_fj-s1nt86SW-H_28coHlXoYHsqlHAo-4PmKbRlfat9wDC_rSSctQ/4rx/LwliWwqCS7OltluThFu_4g/h2/h001.wFAaJXc05-8r4ky_xHt5pdULmrnjOBx7Ysu3Eu9HcHY"
+        },
+        {
+          "text": "The Future of Agentic AI in Healthcare - Abridge x Anthropic x Lightspeed",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7Tobz9NlIfe5KH44Bsi628y71oCUDyPMAqZoqKoqDxB7GFsHfzPnNYou34ko3_VZDTachCwGDQtFaqicUprIVsEF5eLEGf3pwcQcBruEfEkPWLaryyVMSUMoONZEFXYCTJSnIbkDGaiEDthdgDc3Yo8v38y3EqPAA62D0YXZveJUAG1QU3V9l95eK0JAnXYdfqY/4rx/LwliWwqCS7OltluThFu_4g/h3/h001.IOL5nLTO_AlxyfESfLJF2D0gYqEUdBzRa820bEqHbkk"
+        },
+        {
+          "text": "Register here",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7Tobz9NlIfe5KH44Bsi628y71oCUDyPMAqZoqKoqDxB7GFsHfzPnNYou34ko3_VZDTachCwGDQtFaqicUprIVsEF5eLEGf3pwcQcBruEfEkPWJVFideIkoMZbcd6dy2tdx9fOHb1aizLuEZFkdESH32G9iFHK1xdQgZSgjaAcqr9s4-eCUGUrqHc7lkPzVC19MY/4rx/LwliWwqCS7OltluThFu_4g/h4/h001.XtayBib_krv8nDTXJlbja51LzFHC1IXv9tYbovKFGc4"
+        },
+        {
+          "text": "fal x Sequoia 72-Hour Video Hackathon",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TrMpk0mtMPULs2Ex37dVWOS9kVREbDMoP51mV8-I7Pcdr3kNp-GZ1BKVz0uaSzUFpTeh0igEn3uWjTAVtM7IKS35Wag_DDS-_tHABcIuiVw02Rz422YIlOnRjzrdGRzoEwfSQS1BJeAOH1DK0pX9hat4f7bouEyqCkYA8TxgPUDwjKeHa8fc_oezf25a-H7djI/4rx/LwliWwqCS7OltluThFu_4g/h5/h001.Q4FKIucB-I15HHnJS9ZXNWBZl8i_CN23Qn77PPOiTKw"
+        },
+        {
+          "text": "Register here",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzF7gpgWymjd375KPDNi7TrMpk0mtMPULs2Ex37dVWOS9kVREbDMoP51mV8-I7Pcdr3kNp-GZ1BKVz0uaSzUFpTeh0igEn3uWjTAVtM7IKS35Wag_DDS-_tHABcIuiVw02Rz422YIlOnRjzrdGRzoEyixAwaWaW0mUhO5zVfjdzWvGsXvHQJ_V26OcCZfy_r6YMLpeWjHZEe8A5a8o9gTmk/4rx/LwliWwqCS7OltluThFu_4g/h6/h001.gNv6aOkyOgKIMdFtkqrShkXbxrRk_bxPX2FPie6zmGo"
+        },
+        {
+          "text": "H100 spot prices down 40% from May peak.",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgG8wSMrN2PnRl4Ig9uZHZAi1iXYLS0QbNr3C_VZt_K5E6iPC7KOqYlOunahEI0BS-Gpjos3Hi-BhT5wYB-1CZ87SEpo3lhqxJphs59A9hQD7HG3mf2AIzyf2rDp3OydkBu477ctiQShrc9C7n_Z5Zts/4rx/LwliWwqCS7OltluThFu_4g/h7/h001.vtGh1oW26UVnQfF3cItSWx1ZBBMS-7ZWt1R_MYfJ6Mg"
+        },
+        {
+          "text": "DeepSeek ships DSpark, a 51–400% throughput boost.",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgOm7DTt9HyfD8I-_CpSyVDmQqBVt3KXMtrk0w-X2l6hHH87A-Sa0grh4kWsfUZdCm08bXqTPhF29U7VBkaHlU6bvL586zz9Th8r3I67V8EYqw0NbRJRxozzbobjHDbrQhA/4rx/LwliWwqCS7OltluThFu_4g/h8/h001.jfcU7pZfpSXt9bnPYvAttHbsir2XHQCEar9rBxucxCg"
+        },
+        {
+          "text": "Killed an LM's German with 4 tokens.",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgFRanZ_1CSZluFzkrPMlhSJD_vYuXU00IiBez-RcEy4C_1CQ_BFflho0RlmyusbsQ_qfQ4cXRHAkgJImWnbf3KiFJaZtEqgpczzDF5WWwoz6-oAfgqOv6dcYmICn6s_r5w/4rx/LwliWwqCS7OltluThFu_4g/h9/h001.DzopQGdcH3jPNCsXgi2raxmBZHUk8RDpzPC70UD1QaQ"
+        },
+        {
+          "text": "Enterprises are quietly going open-source.",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.6BDeHfVuGHZWNAeBDC4UgMX9HLjWIyxW8h9Sb5eTVHdXP9pMx_ybYqycvGbi4_G4WpIwSCFEEmty8TIHUcVRHfLnNHLEVND0RWFU3mesgKCNg93dV7VLiYuN6qJM8KYG6YNPrX4iCGucZ8a8L1l0ZQ/4rx/LwliWwqCS7OltluThFu_4g/h10/h001.1ZNX8sDeU_z8ZQHx7FkSBk8VfArKU0iw48LRdhVyRuQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Cerebral Valley – Week of June 29\n\nClose Out the World's Fair With Us — Plus Healthcare AI & Video Hacks Ahead  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 30, 2026   |   [Read online](https://elinkac1.mail.cerebralvalley.ai/ss/c/u001.WdgDeYwiPuACT2DM9v_9UzEHuU_d1EXRHutJZ3K5E1dHGT1uqZ-dAZVJxbdqUz4ee0m-WrfpYyGOgvCpIwD0hu-_RDWeZ_dt-ZfxCEiNTQqgfaq9wVxJK9WsNDwmrmNPmovg6HaImTeDZWoQlzrWe-a75-QJ8NV1Jfva-BHiuiq9c7LXbmFtNJDsKc9MLgA0lmmjBYkeiUO0MjB5TSqOBv0NPcKZaLOmnM9UJ2XJHbjpBlIghYwsDyykvMHDjuhs7VjGw6wUP4sRBLcZMQwjYAGSxavCPku4RlUg4e9WWoIJ9sjr089ML2mujNbxWWvCGv4HKbjdCMavWAkqAkMkjyOjfpfU8qA3EeUzvljCQFc5qK_9KzqyrSQguf83eKvsgGaEAinOvY9gGhnJbZB"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "The Real Reason AI Costs Keep Rising",
+      "date": "2026-06-30T16:03:48.000Z",
+      "summary": "## The AI Corner\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Tokens, the basic unit of AI computation, have become 600 times cheaper over the past six years, but companies are still experiencing exponential growth in AI costs, with some blowing their entire annual AI budget in a single quarter.\n* The main reason for this paradox is that cheaper tokens have enabled more complex and expensive AI architectures, such as looping agents that retrieve, reason, and respond, leading to increased token consumption.\n* Companies like Uber and Microsoft are struggling to justify their AI spending, with Uber burning through its annual AI coding budget in just four months and Microsoft canceling internal coding subscriptions due to high costs.\n* The AI industry is shifting from a focus on token-based pricing to outcome-based pricing, where companies pay for specific business outcomes rather than tokens consumed.\n* Lovable, a product that allows users to describe a feature and have AI ship it, is one example of a company that hides the token machinery and sells the result instead.\n* The market is moving towards a model where companies sell finished work, such as resolved tickets or reviewed contracts, at a fixed price, rather than selling tokens.\n\n### Notable Links\n* Lovable\n* Nvidia's CEO\n* Tokens keep getting cheaper\n* Describe AI better\n* A unit of inference that cost around sixty dollars per million tokens when the GPT-3 API launched in 2020\n* Nvidia's Jensen Huang\n\n### Key Statistics\n* 600 times cheaper: The decrease in token cost over the past six years.\n* 15-fold: The increase in model spending across Blackstone's portfolio companies in a single quarter year over year.\n* 11 percent: The proportion of live backend code that Uber ships that now comes from AI agents.\n* 1.6 times: The return on investment for coding tools, once token costs are factored in.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRnRva2VuLWRvb21lZC11bml0LW9mLXNhbGUtYWktcHJpY2luZyIsInAiOjIwMjM4NjY4NSwicyI6Njg1MDU0NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODI4MzU5MDMsImV4cCI6MjA5ODQxMTkwMywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.3LQLW36lR8DdN49aE1BFgK4YB5GTPJixMrko05onDmc?"
+        },
+        {
+          "text": "The Real Reason AI Costs Keep Rising",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=202386685&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMjM4NjY4NSwiaWF0IjoxNzgyODM1OTAzLCJleHAiOjE3ODU0Mjc5MDMsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.gVst5hXRdxgdUozkXViW3nIDfP0hhWC8FH9Jn2-nPEg"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/token-doomed-unit-of-sale-ai-pricing?redirect=app-store"
+        },
+        {
+          "text": "Nvidia’s CEO",
+          "url": "https://substack.com/redirect/a0f25d52-0db0-4a9d-96e3-04712d85529b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "tokens keep getting cheaper",
+          "url": "https://substack.com/redirect/f6a2c162-9dcf-4bac-b103-8a11cc8a593b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Lovable",
+          "url": "https://substack.com/redirect/2f420775-a054-4bb3-97b9-d9fb8150b6a4?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "describe AI better",
+          "url": "https://substack.com/redirect/e72fb061-f351-4a96-bf0a-7ab383667f50?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "A unit of inference that cost around sixty dollars per million tokens when the GPT-3 API launched in 2020",
+          "url": "https://substack.com/redirect/f47b2377-ff5f-4117-a51d-63304f4688eb?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Nvidia’s Jensen Huang",
+          "url": "https://substack.com/redirect/53e5f775-0e9e-4f8f-b26a-284bfec3727c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The Real Reason AI Costs Keep Rising![](https://eotrx.substackcdn.com/o/ac05533a7425e9d9/p.gif?token=eyJtIjoiPDIwMjYwNjMwMTYwMzQ4LjMuYTM5NDhjMzVmZGMyOTAwY0BtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwMjM4NjY4NSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo2ODUwNTQ0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgyODM1OTAzLCJleHAiOjE3ODU0Mjc5MDMsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.b9gEMlqsu6Y4SCmLHnJtFCFEyfPk5Avp0MQgphTgpAs)\n\nTokens got 600x cheaper in six years, yet companies are blowing a year of AI budget in a single quarter.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"Dwarkesh Patel\" <dwarkesh@substack.com>",
+      "subject": "Grant Sanderson – AI and the future of math",
+      "date": "2026-06-30T16:33:06.000Z",
+      "summary": "## AI Newsletter Summary\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Grant Sanderson discusses the potential of AI in mathematics, particularly in solving complex problems and discovering new theorems.\n* The conversation touches on the concept of \"grindability\" in AI training, where certain tasks, like coding and math, can be repeated and improved upon, whereas real-world tasks are harder to containerize and train AI on.\n* Sanderson highlights the importance of human curation and explanation in learning, citing the example of using LLMs to explain complex concepts, but ultimately relying on human teachers to provide context and motivation.\n* The potential applications of AI in mathematics are discussed, including the possibility of AI-assisted theorem proving and the exploration of new mathematical concepts.\n* The conversation also explores the limitations of AI in writing and theory of mind, highlighting the importance of human empathy and understanding in creating engaging and effective writing.\n\n### Notable Links\n* [Grant Sanderson's YouTube channel](https://www.youtube.com/3blue1brown)\n* [Dwarkesh Patel's podcast](https://dwarkeshpatel.substack.com/)\n* [TRIBE v2: A brain-aligned foundation model](https://arxiv.org/abs/XXXX.XXXXX) (Note: The actual arXiv ID/DOI is not provided in the original newsletter)\n\nThis summary captures the main points of the conversation between Grant Sanderson and Dwarkesh Patel, focusing on the potential of AI in mathematics, the importance of human curation and explanation, and the limitations of AI in writing and theory of mind.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuZHdhcmtlc2guY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5kd2Fya2VzaC5jb20lMkZwJTJGZ3JhbnQtc2FuZGVyc29uLTIiLCJwIjoyMDQyNzU5MTYsInMiOjY5MzQ1LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MjgzNzMxOCwiZXhwIjoyMDk4NDEzMzE4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.7Kgrr64rKCA1lYyHFoFdFgCLtAFOMRQdufdnns5A9oQ?"
+        },
+        {
+          "text": "Watch now",
+          "url": "https://substack.com/app-link/post?publication_id=69345&post_id=204275916&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDI3NTkxNiwiaWF0IjoxNzgyODM3MzE4LCJleHAiOjE3ODU0MjkzMTgsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.wqhNFZwSD0DtdMo_zZzWQgNgnLkhxs798ZQSsLuS-_c"
+        },
+        {
+          "text": "Grant Sanderson – AI and the future of math",
+          "url": "https://substack.com/app-link/post?publication_id=69345&post_id=204275916&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDI3NTkxNiwiaWF0IjoxNzgyODM3MzE4LCJleHAiOjE3ODU0MjkzMTgsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.wqhNFZwSD0DtdMo_zZzWQgNgnLkhxs798ZQSsLuS-_c"
+        },
+        {
+          "text": "Dwarkesh Patel",
+          "url": "https://substack.com/@dwarkesh"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/dwarkesh/p/grant-sanderson-2?redirect=app-store"
+        },
+        {
+          "text": "Grant",
+          "url": "https://substack.com/redirect/1a0e3722-b2c2-4c95-99e7-6f5adebba1d4?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "YouTube",
+          "url": "https://substack.com/redirect/943b70e8-0953-4dea-972c-92b8d3f71dcb?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Apple Podcasts",
+          "url": "https://substack.com/redirect/6ea43b3c-98c9-41e1-9ab9-eb3a54b7cf16?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Spotify",
+          "url": "https://substack.com/redirect/fdaa16c8-c2d1-42fc-b909-2a95207cd30d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Gemini 3.5 Live Translate",
+          "url": "https://substack.com/redirect/312d098b-0e51-4191-9304-47eb66562f77?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Grant Sanderson – AI and the future of math![](https://eotrx.substackcdn.com/o/7ccb8b99acc14eb4/p.gif?token=eyJtIjoiPDIwMjYwNjMwMTYzMzA2LjMuNjlmNGI4MDBmODA4OTY1OUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwNDI3NTkxNiwidCI6InBvZGNhc3QiLCJhIjoiZXZlcnlvbmUiLCJzIjo2OTM0NSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MjgzNzMxOSwiZXhwIjoxNzg1NDI5MzE5LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.29Q-HMndOjThJtfV0nndhotN_igV4WmGr_K55a0s7e4)\n\nWatch now (94 mins) | Math is where we’ll see superintelligence first. What will it look like?\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"Dharmesh @ simple.ai\" <agentai@mail.beehiiv.com>",
+      "subject": "🤖 How to Future-Proof Your AI Workflows",
+      "date": "2026-06-30T17:08:11.000Z",
+      "summary": "## Simple AI Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The concept of \"portable context\" is introduced as a way to future-proof AI workflows by storing key information and personalization details in external files, making it accessible to any AI model, thereby providing outage insurance, allowing the use of the right model for the job, eliminating the need for re-teaching, and preparing for future models.\n- The importance of context in AI interactions is highlighted, with the example of Anthropic's Claude going down and how having a portable context file would minimize disruption by allowing the use of another AI model with the same context.\n- Portable context can be stored in Markdown files (.md), which are a universal standard for storing context and are simple text files with some formatting.\n- Examples of how to create a portable context file are provided, including templates for storing information about the user, their current projects, writing voice, and preferences.\n- The use of custom instructions in AI apps like ChatGPT and Claude is mentioned as a simpler alternative to creating Markdown files, allowing for some level of portability and personalization.\n- The author, Dharmesh, shares his personal experience of using portable context and invites readers to share their AI app usage and preferences.\n\n### Notable Links\n- [Agent.ai](https://agent.ai), a professional network for AI agents, is mentioned as a resource for making the most of AI.\n- A link to update email preferences or unsubscribe is provided, but the actual link is not included in the summary as per instructions.\n- A link to the terms of service is also mentioned but not included.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖 How to Future-Proof Your AI Workflows\n\nTired of re-introducing yourself to every new AI? Try this.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 30, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.OmvVQoGRxXyFopAr2m0tC9LRR-nHu0DKZzEaCE8OuSTXHi6A_pjAtxqAn0tt93bPmDufK-pOwRJhM8myUhJ0Qsa5xQme6ipxAAVE7vZWpYnoix7S4nmAukuXiUSDGqqZ5BLYyI1ef68r1utWuETNQZAwJVOsmPf_aC2aQTeZquwJsXnVm3W2RGAaYVjevTeCgIsxkQoSP4DdKCZgj1QnJ1jUovF6TKIcHFmhUCGeaGIrJzKgyXjjjkxqasjGdnwlU9Iwpd2FmVsWp-aqqOyznya1NJLLk_x63VqdVOQ19YuBVQKKBS9sIqkGq0A9yD8hTypzwu_zDZGcNf6eDQht9ue1lTCq77FEa84FGZLNrqpSufo9jv2d76ppPtxiaMpZrIIuT0W2GC8ufJA8LZ8AkelYmtjC9R2zI0EIgH"
+    },
+    {
+      "from": "\"DayTrading Dispatch\" <daytrading@mail.beehiiv.com>",
+      "subject": "Rocket Lab Takes Aim at SpaceX 🛰️",
+      "date": "2026-06-30T19:09:14.000Z",
+      "summary": "## DayTrading Dispatch\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The Dow Jones Industrial Average closed above 52,000 for the first time ever on Monday, ending at 52,182.74, with the S&P 500 climbing 1.18% to 7,440.43 and the Nasdaq jumping 2.07% to 25,820.14.\n* Alphabet made its debut in the Dow on Monday, replacing Verizon after more than two decades in the index, deepening the 130-year-old benchmark's tilt toward AI and Big Tech.\n* Rocket Lab announced it will buy satellite-communications company Iridium in a cash-and-stock deal valuing Iridium at about $8 billion, gaining a fully operational global satellite network, valuable radio spectrum, and an ecosystem of more than 500 partners with paying customers.\n* AeroVironment's stock soared more than 20% after the drone maker blew past Wall Street's fiscal fourth-quarter estimates, posting $641.6 million in revenue versus roughly $557 million expected.\n* Concentrix shares cratered about 24% after the customer-experience firm missed earnings and slashed its full-year outlook, blaming clients shifting work offshore and trimming spending.\n* Bitcoin is limping out of the worst month of its 2026 correction, hovering near $60,000, pressured by outflows from Bitcoin ETFs, fears of higher interest rates, a stronger dollar, and investors chasing AI stocks instead.\n\n### Notable Links\n* [Bloomberg reported Monday](https://www.bloomberg.com/) on the Rocket Lab and Iridium deal\n* [Public](https://public.com/) for real-time market data \n\nNote: Links are not provided as they were tracking URLs. Only descriptive names are used.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Rocket Lab Takes Aim at SpaceX 🛰️\n\nPLUS: The Dow tops 52,000 for the first time, AeroVironment's drone earnings blow past estimates, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 30, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/uyvNDwfzfLLcBFbBLisFEQqNHSqHk3vdIBi4dPUQRykM%2Fl%2Fwm0In0gLeBkId%0Ax9pJLwUdnVQRL%2BO2xuR6aByAo5rXNvrzDvG0KCJD0G5tcLnIRCLm2LF5psls%0ArSCpxXPRQQiMY3qtEcsleQRjBfNc3lLnmNzChMgVdrKCvvvIdrId9hPBZFzS%0AeKIysVcPYNNG5BmW6VYlu4liB0%2F8j5xN7g%3D%3D%0A/77dc173eeb4fc258)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e15f"
+    },
+    {
+      "from": "\"🛼  The '92\" <the92@mail.beehiiv.com>",
+      "subject": "🛼 90s trivia",
+      "date": "2026-06-30T20:07:43.000Z",
+      "summary": "## The '92 Newsletter\n\n**Priority: LOW**\n\n### Top Updates\n* The '92 newsletter is focused on 90s trivia, with a \"Trivia Tuesday\" section featuring questions about 90s Nickelodeon shows, including a chance to win prizes such as a TMNT lunchbox, an MTV sneaker set, and a Lion King t-shirt.\n* The newsletter invites readers to join \"The '92 Club,\" a membership program that sends a monthly package of 90s-themed items, including stickers, magnets, pins, and retro collectibles.\n* The newsletter mentions various 90s-themed products available for purchase, including a TMNT snapback hat, an Easy-Bake Oven tote, a Ren & Stimpy Monopoly game, a Toy Story Alien tumbler, a Nickelodeon jigsaw puzzle, and a Backstreet Boys kitchen mitt.\n* Readers can participate in a trivia contest to win prizes by answering questions about 90s TV shows and characters.\n\n### Notable Links\n* The '92 Club \n* Ren & Stimpy Monopoly \n* Toy Story Alien Tumbler \n* Nickelodeon Jigsaw Puzzle \n* Backstreet Boys Kitchen Mitt",
+      "links": [],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "🛼 90s trivia\n\nNew: 90s trivia fun + more............................................................................................................................  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2e43872b-1ff9-46b3-bb71-fc04a90ad788/The__92_Throwback_Newsletter_Header.png?t=1716625838)](https://link.mail.beehiiv.com/v1/c/Dtg2ZEeongxDQZAOAh9%2Ba%2BZpbVf93Mf5is6vIlDeFkyRAI%2BlH6rG%2BblIqRrE%0AU9z%2BGBquVHRWZiHdg3ip7zjrlDHZ%2FqsAlVsJZvXCvCukReKceKaq%2FyUC6Fkq%0AzRZenP17AlNU2fOUv5mtN68cZKRS7HU3%2Bnht8htAF3dO"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 Claude Levels Up Twice Today",
+      "date": "2026-06-30T20:56:20.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Claude has released two significant updates: Sonnet 5, which is the most agentic Sonnet yet, allowing it to plan and run browsers and terminals at near-Opus quality, and the new Claude Science app, which traces every result back to the code and data behind it.\n* Google has announced several new media-AI related releases, including Nano Banana 2 Lite, which generates images faster and cheaper than before, and Omni Flash, which opens AI video generation and editing to developers.\n* OpenAI has introduced a new benchmark, GeneBench-Pro, which tests whether AI can handle real judgment calls in biology research, with the best model currently solving under a third of the problems.\n* A chip company called Etched has quietly built a chip that does one thing: run AI, and has walked out of stealth with $800M raised and $1B in contracts.\n* The newsletter also highlights several new AI tools, including Stigg, which places products on virtual models; Whacka, which turns ideas into working apps directly from a phone; Modulate, which detects AI-generated music; and Recover Unpaid Invoices, which audits medical bills line by line for errors and overcharges.\n* Other notable updates include the release of the TAAFT Ultimate Prompt Pack, which contains 99 prompts for AI models like ChatGPT and Claude, and the introduction of Levels, a metabolic health system that uses AI to analyze an individual's glucose response to different foods.\n\n### Notable Links\n*  Claude Sonnet 5\n* GeneBench-Pro\n* TAAFT Ultimate Prompt Pack",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 Claude Levels Up Twice Today\n\nSonnet 5 and a Science app drop, Nano Banana 2 Lite and Omni Flash, an AI video prompt playbook, turn any source into an explainer video, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJune 30, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0bcv7hmEQ_1nD0mDF4oFrpA7qjPFnp2IIdriq--e0jwgxkdkgQ8cDj_TEY3HbUHL_V5EeFSPJ94Peq9wofV66fyBFj_SgCj-ButqO48VT8Hyw9iPfjBiUnG86S7yRQmsoDwngNCLGnad1IDHMWKGhNJgGlcAvS-De7wHrXoGTS81hNUZaLk3U9AOofr6waKmsWJtlVkT6jV3ZiIAyyNb4tq8UBjzQufxtCHFtWA2bHHi3jNI3-cjJy5a_ZIShjywLtFV97HX7jmKJeaQp6GeOc"
+    },
+    {
+      "from": "\"Ethan Mollick from One Useful Thing\" <oneusefulthing@substack.com>",
+      "subject": "The twilight of the chatbots",
+      "date": "2026-06-30T22:18:12.000Z",
+      "summary": "## One Useful Thing\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The field of AI is experiencing rapid advancements, with better models being released more quickly than ever, and the evidence points to accelerating capability gains as well. This is especially obvious when looking at the ability of AIs to do real work.\n* Two notable assessments, from METR and the UK's AI Security Institute, estimate the amount of human programmer hours' worth of effort the AI can do with a single prompt, and they are increasing at a better than exponential rate.\n* Another organization, Epoch, found that Opus 4.7, working on its own for 14 hours, was able to build a software package that would take 2-17 weeks of human engineering work.\n* The way people use AI is changing, with a shift from using chatbots as co-intelligence to using agents that can work autonomously for longer periods. This change is driven by the increasing capability of AI models to do longer and more complex tasks.\n* The use of agents is becoming more widespread, with a quarter of OpenAI workers having at least four agents running at one time every week. This change is not limited to coders, as legal, HR, and other non-tech functions have adopted agents at nearly the same rate.\n* The success of agents depends on the expertise of the user, with domain experience being a key factor in getting useful output from agents like Claude Code.\n* The field of AI is experiencing turbulence, with sudden and improvised policy changes at the highest level of government, and massive swings in stocks. This turbulence is driven by the rapid advancements in AI capabilities, which are difficult for institutions to track.\n\n### Notable Links\n* METR: a notable assessment that estimates the amount of human programmer hours' worth of effort the AI can do with a single prompt.\n* AI Security Institute: another assessment that estimates the amount of human programmer hours' worth of effort the AI can do with a single prompt.\n* Epoch: an organization that found Opus 4.7, working on its own for 14 hours, was able to build a software package that would take 2-17 weeks of human engineering work.\n* Claude Code: an agent that can work autonomously for longer periods and is being used by non-tech functions like legal and HR.\n* AA-Briefcase: a test that simulates a complex multi-week consulting engagement where AI has to do many kinds of analysis.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cub25ldXNlZnVsdGhpbmcub3JnL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5vbmV1c2VmdWx0aGluZy5vcmclMkZwJTJGdGhlLXR3aWxpZ2h0LW9mLXRoZS1jaGF0Ym90cyIsInAiOjIwNDAwMzU2MCwicyI6MTE4MDY0NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODI4NTgyMzksImV4cCI6MjA5ODQzNDIzOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.sSxeRJq3L4yg2YkQAm_EYwq4BWlzaLQL370DW8rE7L0?"
+        },
+        {
+          "text": "The twilight of the chatbots",
+          "url": "https://substack.com/app-link/post?publication_id=1180644&post_id=204003560&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDAwMzU2MCwiaWF0IjoxNzgyODU4MjM5LCJleHAiOjE3ODU0NTAyMzksImlzcyI6InB1Yi0xMTgwNjQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.fHf4eJ8xKJJycenMwCXOMOktTIOG4ukIEQCBjsLQAqA"
+        },
+        {
+          "text": "Ethan Mollick",
+          "url": "https://substack.com/@oneusefulthing"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/oneusefulthing/p/the-twilight-of-the-chatbots?redirect=app-store"
+        },
+        {
+          "text": "METR",
+          "url": "https://substack.com/redirect/15fe751d-ce54-4ae5-a568-1f997ae2ca27?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI Security Institute",
+          "url": "https://substack.com/redirect/416886ab-c04d-4171-9278-f5566c8d0f7d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Epoch",
+          "url": "https://substack.com/redirect/1aafe41a-62cd-42ea-84e0-552352ef88f3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "experiments",
+          "url": "https://substack.com/redirect/42635fb6-eff9-451d-97d3-5d922828521c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AA-Briefcase",
+          "url": "https://substack.com/redirect/6915e58c-a8db-4d4f-b138-d8efdd901457?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "You can play with all the result here.",
+          "url": "https://substack.com/redirect/dd87f580-cb6d-494d-8d90-e4c507e6cbb5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The twilight of the chatbots![](https://eotrx.substackcdn.com/o/55338fc5bd8a18ed/p.gif?token=eyJtIjoiPDIwMjYwNjMwMjIxODEyLjMuOGVlYTY3MGFmYWU2NTA0NUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDQwMDM1NjAsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTE4MDY0NCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4Mjg1ODIzOSwiZXhwIjoxNzg1NDUwMjM5LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.lIbITCdSJFjw0g3q-nTPtCPd8hhbZJQwzLENJ1FSbB8)\n\nHow work changes along the exponential\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "Ahmad Osman on why local AI is catching up",
+      "date": "2026-06-30T23:39:29.000Z",
+      "summary": "## AINews\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Ahmad Osman, founder of Osmantic, argues that local AI is catching up with cloud-based AI, with improvements in models and hardware enabling faster and more efficient processing on personal devices, from laptops and phones to enterprise-grade infrastructure.\n- Osman's workshops at the AI Engineer World's Fair (AIEWF) demonstrated the capabilities of local AI, showcasing open-source software for deploying and operating local AI systems, and highlighting the potential for specialized models tailored to specific business use cases.\n- The gap between open-source models and proprietary frontier models is narrowing, with open-source models like Llama, Mistral, Qwen, DeepSeek, GLM, and Kimi improving rapidly, and companies like Osmantic providing open-source deployment systems for local AI.\n- Local AI is attracting interest from a wide range of audiences, including students, enthusiasts, and enterprises, with applications in areas like model routing, private infrastructure, and control over company data.\n- Osman emphasizes the importance of sovereignty in AI, with companies and individuals controlling their models, compute, and data, while benefiting from the progress of the open-source ecosystem.\n- The trend towards hybrid and sovereign AI is expected to continue, with more applications combining local and cloud AI, and enterprises moving towards dedicated hardware and secure compute to maintain control over their models and data.\n\n### Notable Links\n- Ahmad Osman: [link]\n- AI Engineer World's Fair: [link]\n- Osmantic: [link]\n- Open Source AI Must Win: [link]\n- Latent.Space: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWhtYWQtb3NtYW4tbG9jYWwtYWkiLCJwIjoyMDQzNjA0MTEsInMiOjEwODQwODksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgyODYyOTEyLCJleHAiOjIwOTg0Mzg5MTIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.wxW8yVa9NDf3dse3e0uW_XcE3CgCLXKAM6BxB2R2y94?"
+        },
+        {
+          "text": "Ahmad Osman on why local AI is catching up",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=204360411&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDM2MDQxMSwiaWF0IjoxNzgyODYyOTEyLCJleHAiOjE3ODU0NTQ5MTIsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.LQqbirhGRRR4NVyNwbx9kdzgA3ueDbwHiTqj86i6rwk"
+        },
+        {
+          "text": "Richard MacManus",
+          "url": "https://substack.com/@ricmac"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ahmad-osman-local-ai?redirect=app-store"
+        },
+        {
+          "text": "Ahmad Osman",
+          "url": "https://substack.com/redirect/67d5dd7f-695a-499c-8eb4-f5e1a76375cc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI Engineer World’s Fair",
+          "url": "https://substack.com/redirect/9cdac253-d509-4d32-a1f9-b00d1bb1c6b4?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Osmantic",
+          "url": "https://substack.com/redirect/95eb981b-9559-42cc-8343-c1929be90808?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Open Source AI Must Win",
+          "url": "https://substack.com/redirect/26a75c45-2fec-4e0c-adeb-cf82b4d79bc2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Latent.Space",
+          "url": "https://substack.com/redirect/b7fdd080-9fc0-486b-921e-60bdcd9139a5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "upgrade your subscription.",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QmdXRtX2NhbXBhaWduPWVtYWlsLWNoZWNrb3V0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cubGF0ZW50LnNwYWNlJTJGcCUyRmFobWFkLW9zbWFuLWxvY2FsLWFpJnI9NDlieTM0JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lOVGMxTXpnMk5EQXNJbWxoZENJNk1UYzRNamcyTWpreE1pd2laWGh3SWpveE56ZzFORFUwT1RFeUxDSnBjM01pT2lKd2RXSXRNVEE0TkRBNE9TSXNJbk4xWWlJNkltTm9aV05yYjNWMEluMC4zdFUzNlhFOGY5cVlKX3Jjc0dmd2JWNDh4d2ZVZGx0ZVdzeVc2MFBCYVpNIiwicCI6MjA0MzYwNDExLCJzIjoxMDg0MDg5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4Mjg2MjkxMiwiZXhwIjoyMDk4NDM4OTEyLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.h3pjPfEVq7O1jjCaX4QumVdEZUOJhBlilVaz4uJ3l3g"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Ahmad Osman on why local AI is catching up![](https://eotrx.substackcdn.com/o/99adc45b649bc7e8/p.gif?token=eyJtIjoiPDIwMjYwNjMwMjMzOTI5LjMuYzIzYTczZWY1MzRlNDg2ZUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwNDM2MDQxMSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDg0MDg5LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgyODYyOTEyLCJleHAiOjE3ODU0NTQ5MTIsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.odrZm3_orrFikrBymb-S1rv3DQsxnz2B3KbLxUUp6UY)\n\nAfter two packed AIEWF workshops, Ahmad Osman makes the case that local AI is catching up fast — from laptops and phones to enterprise-grade infrastructure.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    }
+  ],
+  "tldr": [
+    "Meta releases Brain2Qwerty v2 brain-scanning model.",
+    "Anthropic's Claude Opus 4.8 available on Azure.",
+    "Open-source models narrow gap with proprietary ones.",
+    "Etched develops AI-specific chip with $1B contracts.",
+    "EU advances \"Digital Omnibus\" for AI regulations."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Bayesian deep learning",
+        "context": "Bayesian deep learning (BDL) combines deep neural networks with Bayesian probability to model uncertainty, typically by learning distributions over weights or predictions rather than single point estimates. It matters because uncertainty estimates can make AI systems more trustworthy in high-stakes settings such as healthcare, finance, and autonomous systems, where knowing when a model is unsure is often as important as the prediction itself.[8][9]\n\nThe most relevant recent development in the supplied results is Google Research’s new “Bayesian Teaching” work, which trains models to imitate how a Bayesian assistant updates beliefs over time. In reported experiments, this improved preference-learning performance for LLMs and produced large gains over standard supervised fine-tuning, suggesting broader industry interest in Bayesian-style updating for adaptive AI assistants.[1] More broadly, recent academic and industry commentary continues to frame BDL as important for uncertainty-aware medical image segmentation correction and feature engineering, with ongoing research focused on making probabilistic methods scalable and practical for modern deep learning workflows.[8][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "Meta",
+        "context": "Meta’s latest major AI/ML development in the brain–computer interface space is **TRIBE v2**, a tri‑modal “brain predictive” foundation model that acts as a **digital twin of human neural activity**.[1][4][10] Developed by Meta’s FAIR (Fundamental AI Research) team, TRIBE v2 takes visual, auditory, and language inputs (video, audio, text) and predicts how the human brain would respond, across roughly 70,000 voxels, using patterns normally captured by fMRI scans.[1][4][10] It is trained on more than 500–1,000 hours of fMRI data from over 700 participants and achieves about **70× higher spatial resolution** than previous state‑of‑the‑art neural decoding approaches, while generalizing zero‑shot to new people, languages, and tasks.[1][4][5][8][10] Meta has openly released the model, code, weights, and interactive demos, enabling researchers to simulate brain responses to complex stimuli without repeatedly running expensive brain‑imaging experiments.[1][4][9][10]\n\nThis work builds on Meta’s broader **brain–AI research program** aimed at decoding language and images from brain activity using non‑invasive methods.[12][13] In parallel research, Meta has demonstrated an AI system that uses **magnetoencephalography (MEG)** to reconstruct in real time the images a person is seeing from their brain activity, achieving millisecond‑level temporal resolution of visual representations.[12][14] Earlier projects explored decoding letters, words, and speech spectrograms from intracranial recordings and fMRI, pointing toward systems that can turn brain activity into continuous natural language.[7][13][14] While TRIBE v2 itself predicts brain responses to external stimuli rather than reading private thoughts, the combination of predictive models (like TRIBE v2) and real‑time decoders (based on MEG and fMRI) marks a significant step toward practical brain–computer interfaces.\n\nThese developments matter for both **neuroscience** and the **AI industry**. For neuroscience, TRIBE v2 enables high‑volume, in‑silico experimentation: scientists can test hypotheses about how the brain processes sights, sounds, and language without collecting new scans for every study, potentially accelerating research on perception, cognition, and neurological disorders.[1][3][4][5][8] Meta explicitly highlights use cases such as planning experiments, designing more brain‑like AI architectures, and eventually assisting in the diagnosis of brain diseases.[3][5] For the AI/ML sector, Meta’s open‑sourcing of TRIBE v2 and its associated datasets and demos sets a benchmark for **brain‑aligned foundation models**, likely influencing how other tech companies and labs pursue multimodal models grounded in human neural data.[1][4][9][10] It also intensifies debates around privacy, ethics, and regulation of brain data, as commercial platforms move closer to systems that can predict or reconstruct aspects of perception and language directly from brain activity.[5][12][13]",
+        "source": "web search"
+      },
+      {
+        "topic": "Brain2Qwerty v2",
+        "context": "Brain2Qwerty v2 is Meta’s latest **non‑invasive brain‑to‑text AI model** that decodes natural sentences directly from brain activity recorded with magnetoencephalography (MEG), without any implants or surgery.[2][3][5] The system is trained on MEG signals from volunteers as they type or read sentences, using a pipeline that combines a convolutional encoder, transformer, and character‑level language model to map raw neural signals into characters, words, and coherent sentences in near real time.[2][3][14] Across nine participants, Brain2Qwerty v2 achieves an average **61% word accuracy** (about 39% word error rate), with the best participant reaching **78% word accuracy**, meaning more than half of their decoded sentences contain one or zero word errors—dramatically improving on v1 and prior non‑invasive approaches that were typically below 10% accuracy.[1][2][3][8]\n\nThis matters because it pushes **non‑invasive brain–computer interfaces (BCIs)** toward accuracy levels previously associated mainly with surgically implanted electrodes, offering a potential communication channel for people with conditions such as ALS, locked‑in syndrome, or anarthria without the risks and cost of brain surgery.[1][5][11] The latest developments include Meta’s public announcement of Brain2Qwerty v2 in late June 2026, the release of full training code for both v1 and v2, and shared datasets to accelerate external neuroscience and AI research.[2][3][14] Industry observers highlight v2 as a milestone in mind‑to‑text communication: it demonstrates that scaling data (about 10× more per participant than v1) and modern sequence models can make non‑invasive decoding practical, and it is expected to catalyze further work on clinical BCIs, privacy and ethics of neural data, and new human–computer interaction modalities built on thought‑driven interfaces.[3][5][12]",
+        "source": "web search"
+      },
+      {
+        "topic": "OCT imaging",
+        "context": "OCT imaging refers to optical coherence tomography, a high-resolution, noninvasive imaging modality used heavily in ophthalmology to visualize retinal and other eye structures. In the AI/ML space, it has become a major testbed for deep learning because the data are abundant, image-centric, and clinically valuable for tasks such as disease screening, segmentation, quality control, and progression monitoring.[8][7][12][14] The newsletter context about Bayesian deep learning fits a broader trend: researchers are using uncertainty-aware models to improve segmentation correction, anomaly detection, and reliability when OCT labels are noisy or cases are clinically ambiguous.[1][5]",
+        "source": "web search"
+      },
+      {
+        "topic": "Devin Fusion",
+        "context": "Devin Fusion is a **multi‑model (hybrid) harness** for Cognition’s Devin autonomous software engineer that dynamically combines a frontier‑level coding agent with a cheaper “sidekick” model to cut costs while preserving top‑tier performance.[1][2][5][6] The frontier agent remains responsible for planning, handling ambiguity, delegation, and final review, while the sidekick takes over lower‑stakes subtasks such as exploration, writing tests, and lint fixes, with dynamic mid‑session routing so work can move back to the smarter model as tasks become more complex.[1][5][6] In Cognition’s FrontierCode benchmark (which measures both code correctness and quality), Devin Fusion maintains **frontier and Fable 5‑level performance** while delivering about **35% lower cost** than running frontier models like GPT‑5.5 or Claude Opus 4.8 alone, and up to **41% lower cost** when paired with Fable 5 in their tests.[1][3][4][6]\n\nThis matters because conventional model routing has often optimized for synthetic benchmarks rather than code that engineers will actually merge, leading to wasted frontier‑model spend on routine tasks.[1][4][6] Devin Fusion’s design directly targets real‑world agentic coding workloads, showing that **cost‑efficient model harnesses**—rather than ever‑larger single models—can deliver frontier‑level intelligence for production engineering at significantly reduced cost.[1][5][6] Early reports highlight that the hybrid routing can keep FrontierCode scores essentially unchanged at roughly two‑thirds the cost, with a high rate of automatically merged pull requests, signaling a practical path to scaling autonomous coding agents in enterprise environments.[1][5] Industry coverage frames Devin Fusion as part of a broader trend: pairing specialized or frontier models with orchestration and dynamic routing to make autonomous software engineers economically viable at scale, reinforcing Cognition’s position in the AI/ML space as it partners with major IT services firms and enterprises to deploy Devin in real workflows.[5][8][9]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "OpenAI Quietly Rolls Out GPT-5.1 Pro and Codex Pro With Long-Horizon Agentic Capabilities",
+        "summary": "OpenAI has released GPT-5.1 Pro and a new Codex Pro (GPT-5.1-Codex-Max) that function as highly autonomous agents capable of working on long-horizon tasks for more than 24 hours and operating directly in Windows environments.[8] These models emphasize sustained task execution and deep integration with developer workflows beyond traditional chat interfaces.[8]",
+        "whyItMatters": "For practitioners, this marks a major shift from short, stateless interactions to persistent, agentic workflows, enabling complex multi-step automation in software development, data operations, and research. The Windows support significantly broadens deployment options for enterprise and individual developers who previously relied on Mac/Linux-focused tooling.[8]",
+        "source": "Overclocked newsletter – \"ChatGPT 5.1 Pro & Codex Pro go agentic\""
+      },
+      {
+        "headline": "China’s Qwen 3 Open-Source LLM Tops Math and Code Leaderboards",
+        "summary": "Alibaba’s Qwen 3 model has reached the top of open-source leaderboards in math and coding benchmarks, outperforming many Western proprietary LLMs.[10] It uses hybrid reasoning approaches and is positioned as a \"free & local\" alternative to paid APIs.[10]",
+        "whyItMatters": "A leading open-source model matching or beating commercial systems in math and code alters the cost and architecture calculus for teams building AI products. Practitioners can now consider on-prem or self-hosted Qwen 3 deployments for high-performance coding and reasoning workloads without incurring large API bills, which impacts procurement, compliance, and latency-sensitive applications.[10]",
+        "source": "Maciejko – \"AI NEWS YOU MISSED #65\"; TechCrunch coverage referenced therein"
+      },
+      {
+        "headline": "SoftBank Announces Strategic Partnership With OpenAI",
+        "summary": "SoftBank has entered into a new strategic partnership with OpenAI, aligning its capital and portfolio companies around OpenAI’s models and infrastructure.[8] The collaboration is framed as part of a broader push to embed advanced AI capabilities across SoftBank-backed startups and telecom assets.[8]",
+        "whyItMatters": "This deal signals continued consolidation of AI ecosystems around a few foundation model providers and gives OpenAI deeper distribution into telecom and startup networks. For practitioners, it likely means easier access and tighter integration of OpenAI models in products built within SoftBank’s portfolio, as well as potential new platform requirements or incentives centered on OpenAI’s APIs.[8]",
+        "source": "Overclocked – \"Softbank teams up with OpenAI\""
+      },
+      {
+        "headline": "EU Moves to Lighten Corporate AI Compliance With ‘Digital Omnibus’ and AI Rule Adjustments",
+        "summary": "The EU is advancing a \"Digital Omnibus\" initiative to streamline data and privacy rules and reduce compliance overhead, alongside moves to lighten certain AI regulatory burdens for companies.[4][8] These changes aim to simplify how firms implement AI while remaining within EU legal frameworks.[4][8]",
+        "whyItMatters": "Regulatory friction is a key bottleneck for AI deployment in Europe; easing compliance can significantly accelerate production rollouts of AI systems, especially in regulated sectors. Practitioners need to track these evolving rules, as they may relax documentation and auditing requirements in some areas while still demanding robust safety and privacy controls.[4][8]",
+        "source": "The Neuron – \"AI News Overflow\"; Overclocked – \"EU lightens AI rules for companies\""
+      },
+      {
+        "headline": "Perplexity Introduces ‘Personal Computer’ System; NVIDIA Launches Nemotron 3 Super; Google Releases Gemini Embedding 2",
+        "summary": "A recent tools wave includes Perplexity’s new \"Personal Computer\" system aimed at more powerful on-device or personal agent workflows, NVIDIA’s Nemotron 3 Super model, and Google’s Gemini Embedding 2 for improved representation learning.[7] These launches collectively expand options for local agentic computing, high-performance model training, and advanced embedding-based retrieval and ranking.[7]",
+        "whyItMatters": "For practitioners, these tools directly impact how AI applications are architected: Perplexity’s system supports more personalized and persistent agents, Nemotron 3 Super offers another foundation for custom model training and fine-tuning, and Gemini Embedding 2 improves semantic search, RAG, and recommendation pipelines. Evaluating and potentially integrating these into stacks can unlock performance and UX gains across AI products.[7]",
+        "source": "r/AISEOInsider – \"AI News Update: 6 AI Tools That Dropped In The Last 24 Hours\""
+      }
+    ],
+    "entities": [
+      {
+        "name": "Bayesian deep learning",
+        "type": "technology",
+        "context": "Mentioned as a method for uncertainty aware medical image segmentation correction and feature engineering"
+      },
+      {
+        "name": "Meta",
+        "type": "company",
+        "context": "Announced an upgrade to its brain-scanning model, turning brain waves into words"
+      },
+      {
+        "name": "Brain2Qwerty v2",
+        "type": "product",
+        "context": "Mentioned as Meta's brain-scanning model that achieved 78% word accuracy without surgery"
+      },
+      {
+        "name": "OCT imaging",
+        "type": "technology",
+        "context": "Mentioned as an application of Bayesian deep learning for medical image segmentation correction"
+      },
+      {
+        "name": "Devin Fusion",
+        "type": "product",
+        "context": "Mentioned as a multi-model harness from Cognition that reduces expenses by 35%"
+      },
+      {
+        "name": "Cognition",
+        "type": "company",
+        "context": "Mentioned as the developer of Devin Fusion, a multi-model harness"
+      },
+      {
+        "name": "AI Automation Society",
+        "type": "organization",
+        "context": "Mentioned as a community discussing AI and automation"
+      },
+      {
+        "name": "Grant Sanderson",
+        "type": "person",
+        "context": "Mentioned as discussing AI and the future of math"
+      },
+      {
+        "name": "Rocket Lab",
+        "type": "company",
+        "context": "Mentioned as a competitor to SpaceX in the space industry"
+      },
+      {
+        "name": "Claude",
+        "type": "product",
+        "context": "Mentioned as an AI that leveled up twice, releasing new features and apps"
+      },
+      {
+        "name": "Ahmad Osman",
+        "type": "person",
+        "context": "Mentioned as discussing why local AI is catching up"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-07-01T00:30:34.490Z",
+  "dateString": "2026-07-01"
+}
