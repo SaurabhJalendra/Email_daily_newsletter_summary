@@ -32,6 +32,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale *(stale)*
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025 *(stale)*
 - [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace, in-platform LLM hosting *(stale)*
+- [[etched]] — AI inference chip startup; exits stealth Jul 2026 at $5B valuation ($800M raised, $1B+ in contracts, first inference racks shipping summer 2026)
 - [[extropic]] — TSU thermodynamic-sampling chip; ~10,000× energy-efficiency claim *(stale)*
 - [[figure]] — humanoid robots; Figure 03; sued by former product-safety head Nov 2025 *(stale)*
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
@@ -124,8 +125,10 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-opus-4-6]] — Anthropic's Feb 2026 flagship; 1M context, agent teams, fast mode 2.5× *(stale)*
 - [[claude-opus-4-7]] — Anthropic's Apr 2026 flagship; 3.75 MP vision, xhigh effort, file memory
 - [[claude-opus-4-8]] — Anthropic's May 30 2026 flagship; 4× less unflagged-code-flaw rate; fast mode 2.5×/1/3 cost; 1M context; SWE-Bench Pro / Terminal-Bench 2.1 SOTA
+- [[claude-science]] — Anthropic's Jul 2026 science hub — unified research platform (paper review + databases + figure-making + computing jobs) with result-provenance-tracking (traces every result back to code and data)
 - [[claude-skills]] — Anthropic's reusable capabilities + Agent Skills *(stale)*
 - [[claude-sonnet-4-6]] — Anthropic's Feb 2026 mid-tier; Opus-class perf at 40% lower cost; 79.6% SWE-Bench *(stale)*
+- [[claude-sonnet-5]] — Anthropic's Jul 2026 mid-tier ("most agentic Sonnet yet"); 1M context, $3/M input + $15/M output (promo $2/$10), default for Free/Pro; adopted by Cursor + Cognition + Cline + FactoryAI + Perplexity + VS Code
 - [[claude-tag]] — Anthropic's multiplayer proactive persistent AI agent inside Slack as a shared team member; beta for Enterprise/Team customers (Jun 2026)
 - [[codex-app]] — OpenAI's native macOS app for Codex; parallel agents, Skills library, Automations *(stale)*
 - [[codex-security]] — OpenAI's autonomous appsec agent inside Codex; scans repos, builds threat models, proposes patches (Mar 2026) *(stale)*
@@ -198,6 +201,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kimi-k2-7-code]] — Moonshot AI's Jun 2026 coding-specialized K2.7-series Kimi variant; launches on Ollama's US-hosted cloud (Jun 2026)
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
+- [[longcat-2]] — Meituan's Jul 2026 open-source 1.6-trillion-parameter model — first publicly framed Meituan-frontier-AI-lab entrant; one of the largest publicly disclosed open-source parameter counts
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026) *(stale)*
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark *(stale)*
 - [[lyria-3]] — Google's music-generation model in Gemini; 30-sec tracks, 8 languages, SynthID *(stale)*
