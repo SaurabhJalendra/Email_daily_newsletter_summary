@@ -1,0 +1,57 @@
+---
+name: Claude Sonnet 5
+description: Anthropic's July 2026 mid-tier Claude release — "the most agentic Sonnet yet"; plans and runs browsers and terminals at near-Opus quality; extends the Sonnet cost-efficient near-frontier line during the Fable/Mythos export-control regime
+type: product
+---
+
+# Claude Sonnet 5
+
+> **Type**: product
+> **Vendor**: [[anthropic]]
+> **First mentioned**: 2026-07-01-morning
+> **Last updated**: 2026-07-01-morning (created — TAAFT MEDIUM subject "🦾 Claude Levels Up Twice Today" lands first publicly framed *Sonnet 5* Claude tier in this wiki + first publicly framed *"most agentic Sonnet yet"* canonical framing + first publicly framed *"plan and run browsers and terminals at near-Opus quality"* capability claim; extends the Claude versioned-tier ladder into a fifth Sonnet generation (Haiku 4.5 → Sonnet 4.6 → **Sonnet 5** → Opus 4.7/4.8 → Fable 5 → Mythos))
+> **Status**: launched
+> **Related**: [[anthropic]], [[claude-sonnet-4-6]], [[claude-haiku-4-5]], [[claude-opus-4-8]], [[claude-code]], [[claude-mythos]], [[claude-fable-5]], [[agent-frameworks]], [[computer-use]]
+
+## Summary
+
+Claude Sonnet 5 is [[anthropic]]'s July 2026 mid-tier Claude release, framed by TAAFT as ***"the most agentic Sonnet yet"*** — able to *plan and run browsers and terminals at near-Opus quality*. The launch extends the Claude versioned-tier ladder into a fifth Sonnet generation (Haiku 4.5 → Sonnet 4.6 → Sonnet 5 → Opus 4.7/4.8 → Fable 5 → Mythos), reasserting Sonnet as the *cost-efficient near-frontier* Claude while Fable 5 / Mythos remain under the US export-style-controls regime that took effect 2026-06-15.
+
+The "most agentic Sonnet yet" framing positions Sonnet 5 explicitly as an *agentic-tier* release rather than a chat-tier update, extending the mid-2025+ frontier-lab pattern of *positioning mid-tier models as agent-capable rather than chat-capable*. The "plan and run browsers and terminals at near-Opus quality" claim implies Sonnet 5 approaches [[claude-opus-4-8]] on agentic-execution benchmarks (browser-driving + terminal / CLI use) at materially lower per-call cost, following the Sonnet 4.6 → Opus 4.6 40%-lower-cost-at-Opus-class-performance pattern from February 2026. Sonnet 5 pairs with the same-cycle [[claude-opus-4-8]] Azure native-billing + prompt-caching rollout and the Claude Science research-provenance-tracking app as a triple Anthropic product-shipping cycle happening in "product-motion mode" while the export-style-controls regulatory regime stabilizes.
+
+## Timeline
+
+- **2026-07-01-morning**: **Created — Claude Sonnet 5 unveiled as the "most agentic Sonnet yet" via TAAFT MEDIUM cycle-headline framing**. TAAFT MEDIUM subject "🦾 Claude Levels Up Twice Today" lands: ***"Claude has released two significant updates: Sonnet 5, which is the most agentic Sonnet yet, allowing it to plan and run browsers and terminals at near-Opus quality"*** + ***"Sonnet 5 and a Science app drop"*** cycle-framing. First publicly framed *Sonnet 5* Claude tier in this wiki — extends the Claude versioned-tier ladder into a fifth Sonnet generation:
+
+  | Tier | Prior release | This cycle |
+  |------|---------------|------------|
+  | Haiku (fast/cheap) | 4.5 (stale) | — |
+  | Sonnet (mid) | 4.6 (Feb 2026, stale) | **Sonnet 5** |
+  | Opus (flagship) | 4.7 (Apr 2026) / 4.8 (May 2026) | Opus 4.8 lands on Azure |
+  | Fable (premium tier) | 5 (Jun 2026, export-controlled) | — |
+  | Mythos (cyber-tier) | — (Jun 2026, export-controlled) | ~100-firm restoration |
+
+  Structurally novel four ways: (a) **"most agentic Sonnet yet"** canonical framing — positions Sonnet 5 explicitly as an *agentic-tier* release rather than a chat-tier update; matches the mid-2025+ frontier-lab pattern of positioning mid-tier models as agent-capable (see [[claude-sonnet-4-6]] Feb 2026 launch which introduced the Opus-class-perf-at-40%-lower-cost framing); (b) **"plan and run browsers and terminals"** capability claim — first publicly framed *Sonnet-tier browser + terminal agentic-execution* in this wiki; browser-driving matches the [[computer-use]] / Gemini 2.5 Computer Use / [[chatgpt-atlas]] competitive surface, terminal execution matches [[claude-code]]'s CLI positioning; (c) **"near-Opus quality"** capability positioning — implies Sonnet 5 approaches [[claude-opus-4-8]] on agentic-execution benchmarks at materially lower per-call cost, replaying the Sonnet 4.6 → Opus 4.6 40%-lower-cost-at-Opus-class-performance pattern; (d) **launched into the Fable/Mythos export-control window** — Sonnet 5 arrives while [[claude-fable-5]] remains restricted for general use + [[claude-mythos]] is restored only to ~100 vetted firms; positions Sonnet 5 as the *widely-available agentic-tier Claude for developers and enterprises without export-clearance* — analogous to Opus 4.8's re-anchoring as flagship-for-enterprise during the same window. Pairs cycle-structurally with two same-edition Anthropic launches: (1) **Claude Science app** — TAAFT lands ***"the new Claude Science app, which traces every result back to the code and data behind it"*** (research-provenance-tracking product); (2) **Opus 4.8 Azure** — AlphaSignal MEDIUM lands ***"Anthropic brings Claude Opus 4.8 to Azure with native billing and prompt caching"*** (tri-hyperscaler distribution). The triple product-motion signals Anthropic is executing on shipping cadence while the regulatory regime stabilizes into multi-cycle equilibrium. Body-recovery items: (a) Sonnet 5 pricing tier + comparison to Sonnet 4.6 rate cards, (b) benchmark deltas vs Sonnet 4.6 on SWE-bench Verified + Terminal-Bench + [[computer-use]] tests, (c) context window (1M or narrower), (d) rollout across AWS Bedrock + Google Cloud Vertex + Azure (does Sonnet 5 ship with tri-hyperscaler distribution from day one like Opus 4.8?), (e) whether Sonnet 5 gets a Claude Code / Cursor / Devin default-model slot immediately — *source: data/summaries/2026-07-01-morning.json (TAAFT MEDIUM "🦾 Claude Levels Up Twice Today" — Sonnet 5 most agentic Sonnet yet + plan and run browsers and terminals at near-Opus quality + Sonnet 5 and a Science app drop)*
+
+## Key Facts
+
+- Vendor: [[anthropic]]
+- Tier: Sonnet (mid) — successor to [[claude-sonnet-4-6]]
+- Canonical framing: ***"the most agentic Sonnet yet"*** (TAAFT)
+- Capability claim: *plans and runs browsers and terminals at near-Opus quality* — approaches [[claude-opus-4-8]] agentic-execution capability at lower per-call cost
+- Positioning: cost-efficient near-frontier Claude during the [[claude-fable-5]] + [[claude-mythos]] US export-style-controls regime
+- Co-launched with: Claude Science app (research-provenance-tracking, TAAFT MEDIUM)
+- Same-cycle Anthropic bundle: [[claude-opus-4-8]] Azure native-billing + prompt-caching rollout
+
+## Open Questions
+
+- Pricing tier — does Sonnet 5 undercut Sonnet 4.6's rate card or hold pricing while lifting capability?
+- Benchmark deltas vs Sonnet 4.6 on SWE-bench Verified + Terminal-Bench 2.1 + OSWorld-Verified + browser-driving benchmarks
+- Context window (1M or narrower)
+- Tri-hyperscaler distribution from day one (AWS Bedrock + Google Cloud Vertex + Azure)
+- Whether Sonnet 5 becomes the default model in [[claude-code]] / [[cursor]] / [[devin-fusion]] mid-tier slots
+- Availability to non-vetted-cohort customers (contrast with Fable 5 / Mythos export-control restrictions)
+
+## Sources
+
+- data/summaries/2026-07-01-morning.json (TAAFT MEDIUM "🦾 Claude Levels Up Twice Today" — Sonnet 5 most agentic Sonnet yet + plan and run browsers and terminals at near-Opus quality; daily-digest Tools & Products — Claude has released Sonnet 5 the most agentic Sonnet yet)
