@@ -1,0 +1,43 @@
+---
+name: Software Factories
+description: The cross-vendor thesis that every major software project will soon run on an automated factory — main-loop automation of triage → spec → implement → review → verify → ship → monitor
+type: topic
+---
+
+# Software Factories
+
+> **Type**: topic
+> **First mentioned**: 2026-07-02-morning
+> **Last updated**: 2026-07-02-morning (first publicly framed cross-vendor *software factories* thesis in this wiki — Warp CEO Zach Lloyd + Cursor Forward Deployed Engineer Pauline Brunet same-day Latent Space interview cohort names the pattern as the next phase of coding)
+> **Status**: emerging
+> **Related**: [[warp]], [[cursor]], [[cognition]], [[claude-code]], [[agent-frameworks]], [[openai-codex]], [[recursive-self-improvement]]
+
+## Summary
+
+"Software factories" is the emerging cross-vendor thesis that every major software project will soon run on an automated factory — a system that automates the main loop of software engineering (triage / specification / implementation / review / verification / shipping / monitoring). The pattern names the *orchestration layer* around models and coding harnesses (rather than the individual models or harnesses themselves) as the primary optimization surface. Named implementers as of July 2026 include [[warp]]'s Oz platform, [[cursor]]'s Forward Deployed Engineer deployments, and Factory. Lloyd (Warp CEO) expects software factories to become as standard as GitHub or CI/CD; Brunet (Cursor FDE lead) describes Cursor's vision as building an "AI software factory" where long-running agents assist every step of the development lifecycle.
+
+The thesis structurally extends the [[agent-frameworks]] harness-first + [[recursive-self-improvement]] internal-lab tooling arcs into a *cross-vendor named-discipline* — moving orchestration from single-vendor product ("Claude Code / Cursor / Codex") into a category the developer-newsletter circuit references as *"the factory"*. It also elevates *forward-deployed engineering* (customer-facing engineers who deploy AI capabilities inside organizations) as a critical adjacent role for large-scale factory adoption.
+
+## Timeline
+
+- **2026-07-02-morning**: **First publicly framed cross-vendor *software factories* thesis in this wiki — Warp CEO Zach Lloyd + Cursor FDE lead Pauline Brunet same-day Latent Space interview cohort**. Two AINews subjects converge: (1) ***"Warp CEO Zach Lloyd on why software factories are the next phase of coding"*** — Lloyd explains software factories as *"automation of the main loop of software engineering"* covering triage / spec / implementation / review / verification / shipping / monitoring; [[warp]]'s Oz platform is designed to *"connect multiple models and coding harnesses across local environments and isolated cloud sandboxes"*; Warp has open-sourced its core CLI tool. Lloyd expects software factories to become as standard as GitHub or CI/CD, and names Warp + Factory as co-implementers. (2) ***"How Cursor deploys AI inside the enterprise"*** — Pauline Brunet describes Cursor's vision as an *"AI software factory where long-running agents can assist with every step of the software development process, from planning and designing to testing and deploying"*; Cursor's Forward Deployed Engineer team is scaling *10× by end of December* and is recruiting software engineers with extensive customer-facing experience. First publicly framed **software-factory-as-category-of-orchestration** at cross-vendor scale + **forward-deployed-engineering-as-adoption-vehicle** in this wiki. Structural significance: (a) the pattern names the orchestration layer (not the model, not the harness) as the primary optimization surface — extends the 2026-06-06-evening Andreessen/Amodei/Hassabis *"moat in 2026 lives in the system built around the model"* framing into a concrete cross-vendor product category; (b) the paired FDE surface (Cursor 10× scale + Warp + industry pattern) shifts the AI-coding-adoption bottleneck from *tool availability* to *tool-deployment inside customer organizations*, mirroring how enterprise SaaS matured from license-sale to services-embedded delivery; (c) the *long-running agents assist every step* framing productizes the 2026-06-06-evening Dynamic Workflows six-pattern taxonomy at the entire-SDLC scope rather than per-task scope. Body-recovery items: (a) which specific coding harnesses each factory orchestrates (Claude Code / Cursor / Codex / Grok Build), (b) whether the factory pattern composes with [[github-agent-hq]] or displaces it, (c) FDE compensation + hiring criteria at Cursor + Warp — *source: data/summaries/2026-07-02-morning.json (AINews swyx — Warp CEO Zach Lloyd on why software factories are the next phase of coding; AINews swyx — How Cursor deploys AI inside the enterprise / Pauline Brunet FDE team / AI software factory / long-running agents assist every step)*
+
+## Key Facts
+
+- Definition: automation of the main loop of software engineering (triage → spec → implement → review → verify → ship → monitor)
+- Named implementers: [[warp]] Oz + [[cursor]] FDE + Factory (Zach Lloyd's list)
+- Adjacent discipline: **Forward Deployed Engineering** — customer-facing engineers who deploy AI capabilities inside client organizations (Cursor scaling 10× by December)
+- Comparison anchor: expected to become as standard as GitHub or CI/CD (per Lloyd)
+- Structural framing: orchestration layer, not model or harness, is the primary optimization surface
+
+## Open Questions
+
+- Which specific coding harnesses does each factory orchestrate?
+- Does the factory pattern compose with or displace [[github-agent-hq]]?
+- Is there a canonical open-source factory reference implementation (Warp CLI + Oz? Cursor + Composer 2.5?)
+- How does forward-deployed engineering compensation compare to standard software-engineering roles?
+- Does the pattern generalize beyond coding (design factories? research factories?)?
+
+## Sources
+
+- data/summaries/2026-07-02-morning.json (AINews swyx — Warp CEO Zach Lloyd on software factories; AINews swyx — How Cursor deploys AI inside the enterprise / Pauline Brunet FDE)

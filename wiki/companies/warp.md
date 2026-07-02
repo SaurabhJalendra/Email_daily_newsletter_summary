@@ -1,0 +1,44 @@
+---
+name: Warp
+description: AI-terminal startup building "software factories"; ships Oz agent-orchestration platform; open-sourced core CLI
+type: company
+---
+
+# Warp
+
+> **Type**: company
+> **First mentioned**: 2026-02-12
+> **Last updated**: 2026-07-02-morning (**Zach Lloyd Latent Space interview lands ***"software factories are the next phase of coding"*** thesis + first publicly framed Oz agent-orchestration platform in this wiki as the company's next product line + first publicly framed *core CLI open-sourced* posture — repositions Warp from a *terminal-with-integrated-coding-agents* product into a *"factory" orchestration layer that connects multiple models and coding harnesses across local environments and isolated cloud sandboxes***)
+> **Status**: active
+> **Related**: [[cursor]], [[cognition]], [[claude-code]], [[software-factories]], [[agent-frameworks]], [[openai-codex]]
+
+## Summary
+
+Warp is an AI-native terminal startup led by CEO Zach Lloyd, initially known for shipping "a terminal with integrated coding agents" and its own [[agent-frameworks|long-running coding agent]] "Oz" (Feb 2026). Post-mid-2026 the company has pivoted its product framing from *terminal-first* to *"software factories" orchestration-first*: Oz is now positioned as an orchestration platform connecting multiple models and coding harnesses across local and cloud sandboxes, and Warp has open-sourced its core CLI tool as the substrate. Lloyd's July 2026 Latent Space interview frames the [[software-factories]] pattern — every major software project running on an automated factory that handles triage / spec / implementation / review / verification / ship / monitoring — as the industry's next phase, positioning Warp alongside [[cursor]] and Factory as reference implementers.
+
+## Timeline
+
+- **2026-07-02-morning**: **Zach Lloyd Latent Space interview lands the ***"software factories are the next phase of coding"*** thesis + Oz agent-orchestration platform + open-source core CLI**. AINews subject ***"Warp CEO Zach Lloyd on why software factories are the next phase of coding"*** carries Lloyd's argument that every major software project will soon run on an automated factory. Key framings: (1) **Software factory definition** — *automation of the main loop of software engineering* (triage → spec → implementation → review → verification → ship → monitoring); (2) **Oz platform** — Warp's new agent-orchestration platform, designed to *"connect multiple models and coding harnesses across local environments and isolated cloud sandboxes"*; first publicly framed Warp *multi-model + multi-harness* orchestration surface in this wiki; (3) **Core CLI open-sourced** — Warp has released its core CLI tool as open source and is focusing R&D on Oz; first publicly framed Warp open-source posture; (4) **Industry becomes-a-primitive framing** — Lloyd expects software factories to become as standard as GitHub or CI/CD, naming Warp + [[cursor]] (via Factory) + Factory as co-implementers; (5) **Forward-deployed engineering** — Lloyd tags [[cursor]]'s [[cursor|Forward Deployed Engineer]] model as part of the same adoption pattern; (6) **Advice to AI engineers** — start automating the annoying parts of the job and build a loop that handles tasks factory-style rather than building everything by hand. Pairs cycle-structurally with the same-day [[cursor]] Pauline Brunet FDE interview as a *two-vendor same-cycle software-factories cross-newsletter convergence*; both are Latent Space / AINews interviews, framing the *software factory* as the emerging cross-newsletter named-discipline for autonomous coding orchestration. Body-recovery items: (a) Oz pricing / rollout tier, (b) which specific models + coding harnesses Oz composes (Claude Code / Cursor / OpenAI Codex / xAI Grok Build?), (c) core-CLI license (MIT / Apache / GPL?), (d) whether Oz integrates with GitHub Actions / CI/CD as the *"factory floor"* — *source: data/summaries/2026-07-02-morning.json (AINews swyx — Warp CEO Zach Lloyd on why software factories are the next phase of coding / automates the main loop of software engineering including triage specification implementation review verification shipping and monitoring / Oz platform designed to connect multiple models and coding harnesses across local environments and isolated cloud sandboxes / open-sourced its core CLI tool)*
+
+- **2026-02-12**: Warp ships Oz — long-running coding agent with autonomous task delegation in the terminal — *source: 2026-02-12 cycle (see [[agent-frameworks]])*
+
+## Key Facts
+
+- CEO: Zach Lloyd
+- Core product: Warp terminal with integrated coding agents
+- Current product line: **Oz** — agent-orchestration platform connecting multiple models and coding harnesses across local + cloud sandboxes
+- Open source: core CLI tool released open-source (July 2026)
+- Framing: "software factories" — main-loop-automation of triage → spec → implement → review → verify → ship → monitor
+- Peer cohort: [[cursor]] (Forward Deployed Engineers program) + Factory
+
+## Open Questions
+
+- Oz pricing model + rollout tier (public API? enterprise-only?)
+- Which specific coding harnesses does Oz orchestrate (Claude Code / Cursor / Codex / Grok Build)?
+- Core CLI license (MIT / Apache / GPL)
+- Does Oz integrate with GitHub Actions / CI/CD as the factory floor?
+- Warp's competitive moat vs [[cursor]] Composer 2.5 + Cognition Devin/SWE-1.5 as they add orchestration surfaces
+
+## Sources
+
+- data/summaries/2026-07-02-morning.json (AINews swyx — Warp CEO Zach Lloyd on why software factories are the next phase of coding / Oz platform / open-sourced core CLI)
