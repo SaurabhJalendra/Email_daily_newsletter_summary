@@ -1,0 +1,414 @@
+{
+  "date": "2026-07-01T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Thursday, 2 July 2026\n\n## 🔥 Top Stories\n1. **Anthropic releases Claude Sonnet 5, a lower-cost model with near-Opus level performance** — This matters because it makes high-performance AI models more accessible to a wider range of users, potentially accelerating the adoption of AI in various industries.\n2. **OpenAI announces GPT-5.6, its next-generation model family** — This matters because GPT-5.6 offers significant improvements in coding, biology, and cybersecurity capabilities, which could have a major impact on the development of AI-powered tools and applications.\n3. **Google releases Nano Banana 2 Lite, its fastest and cheapest AI image generator yet** — This matters because it makes high-quality image generation more accessible to everyday users, which could lead to new applications in fields like art, design, and marketing.\n4. **Meta debuts Brain2Qwerty v2, an AI that can type words directly from brain signals** — This matters because it has potential applications for individuals with paralysis and could lead to breakthroughs in the development of brain-computer interfaces.\n5. **Meituan launches LongCat-2.0, a massive 1.6 trillion-parameter model** — This matters because it demonstrates China's growing capabilities in AI research and development, which could lead to increased competition in the global AI market.\n\n## 🤖 AI Models & Research\n- Researchers develop an ensemble deep learning model for detecting diabetic retinopathy, a leading cause of preventable blindness worldwide.\n- Anthropic launches Claude Science, an AI workbench that integrates with 60+ scientific databases and can run on lab hardware.\n- Qwen 3, an open-source model from Alibaba's Qwen team, tops math-and-code leaderboards, surpassing many Western LLMs.\n\n## 🛠️ Tools & Products\n- Acti introduces an \"Agentic Keyboard\" for iOS and Android, which swaps the phone's keyboard with a Gemini-powered AI agent.\n- Pocket introduces a feature that captures and organizes important conversations automatically.\n- Revolte launches an AI-driven software delivery platform using autonomous agents for planning, generating, testing, deploying, and operating code.\n- Sendmux launches an email API for AI agents, allowing developers to create dedicated agent inboxes.\n\n## 📰 Industry News\n- Ford rehires hundreds of experienced engineers after AI quality checks fail to match human expertise.\n- Nvidia launches an inference chip that puts it in competition with other chip manufacturers.\n- The US government lifts export controls on Anthropic's AI models, including Fable 5 and Mythos.\n- China's Qwen team releases Qwen 3, an open-source model that surpasses many Western LLMs on math and coding tasks.\n- Palantir's CEO criticizes the token pricing model used by many AI companies, calling it a national security issue.",
+  "totalNewsletters": 14,
+  "newsletters": [
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "An automated analytics approach for diabetic retinopathy detection with ensemble deep learning models in healthcare",
+      "date": "2026-07-01T12:55:48.000Z",
+      "summary": "## JournalClub.io\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Researchers Khandakar et al. from the University of Barishal in Bangladesh have developed an ensemble deep learning model for detecting diabetic retinopathy, a leading cause of preventable blindness worldwide. The model combines multiple convolutional neural networks (CNNs) to improve detection accuracy.\n* The ensemble approach uses feature-level fusion, where each CNN extracts features from the input image, and a final classifier combines these features to make a diagnosis. This approach outperformed individual CNNs in the study.\n* The researchers tested two ensemble configurations: ReXDen (combining ResNet18, Xception, and DenseNet201) and ReXInDen (adding InceptionV3 to ReXDen). ReXInDen performed best on two datasets, while ReXDen performed best on a combined, larger dataset.\n* The study highlights the potential of ensemble deep learning models in improving the accuracy of diabetic retinopathy detection, which can help address the shortage of skilled ophthalmologists and prevent blindness.\n* The ensemble model uses pre-trained CNNs as feature extractors, which can learn local detectors, preserve spatial relationships, and build higher-level representations of retinal images.\n* The researchers also discuss the importance of preprocessing retinal images to enhance visibility and improve model performance.\n\n### Notable Links\n* [An automated analytics approach for diabetic retinopathy detection with ensemble deep learning models in healthcare](https://journalclub.io/episodes/an-automated-analytics-approach-for-diabetic-retinopathy-detection-with-ensemble-deep-learning-models-in-healthcare)\n* [Revolutionizing Diabetic Retinopathy Diagnosis with Modified Regularization Long Short-Term Memory Framework](https://journalclub.io/episodes/revolutionizing-diabetic-retinopathy-diagnosis-with-modified-regularization-long-short-term-memory-framework)\n* [An enhanced diabetic retinopathy blindness detection using deep learning and image preprocessing techniques](https://journalclub.io/episodes/an-enhanced-diabetic-retinopathy-blindness-detection-using-deep-learning-and-image-preprocessing-techniques)\n* [The Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai)",
+      "links": [
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/an-automated-analytics-approach-for-diabetic-retinopathy-detection-with-ensemble-deep-learning-models-in-healthcare?token=3CjE6xj5lTUm9fQasRqntuiue9kNcadRJ90tKAkd7Ul6xZBLJc"
+        },
+        {
+          "text": "Revolutionizing Diabetic Retinopathy Diagnosis with Modified Regularization Long Short-Term Memory Framework",
+          "url": "https://journalclub.io/episodes/revolutionizing-diabetic-retinopathy-diagnosis-with-modified-regularization-long-short-term-memory-framework"
+        },
+        {
+          "text": "An enhanced diabetic retinopathy blindness detection using deep learning and image preprocessing techniques",
+          "url": "https://journalclub.io/episodes/an-enhanced-diabetic-retinopathy-blindness-detection-using-deep-learning-and-image-preprocessing-techniques"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "An automated analytics approach for diabetic retinopathy detection with ensemble deep learning models in healthcare   \n\nFun fact: there is only one place in your body where doctors can directly observe your living blood vessels without making an incision. Where is that location? Under your tongue? Up your nostrils? Deep in your ear canals?\n\n![](https://journalclub.io/px/vxkyWR86C1OcxmfqYOmjz4yKFsLvcn1M2kL4gC48dtLbZ5ssXc)\n\nAn automated analytics approach for diabetic retinopathy detection with ensemble deep learning models in healthcare\n\nJournalClub.io, July 1st, 2026  \n  \n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/tEFfaxdLT2qrz7pfwUvS)](https://journalclub.io/episodes/an-automated-analytics-approach-for-diabetic-retinopathy-detection-with-ensemble-deep-learning-models-in-healthcare?token=3CjE6xj5lTUm9fQasRqntuiue9kNcadRJ90tKAkd7Ul6xZBLJc)\n\nToday's article comes from the journal of Healthcare Analytics. The authors are Khandakar et al., from the University of Ba"
+    },
+    {
+      "from": "\"The AI Field\" <theaifield@mail.beehiiv.com>",
+      "subject": "Claude Sonnet 5 is now the free default",
+      "date": "2026-07-01T13:02:14.000Z",
+      "summary": "## The AI Field\n\n**Priority: HIGH**\n\n### Top Updates\n* **Claude Sonnet 5**: Anthropic released Claude Sonnet 5, a new mid-tier model that offers near-Opus level performance at a lower price point, making it the default for Free and Pro users. This shift pressures competitors on pricing and capabilities.\n* **Fable 5 Return**: The US lifted its ban on Fable 5, allowing Anthropic to redeploy the model globally with new safety classifiers to prevent cyber-jailbreaks, marking a significant development in AI model governance.\n* **Meta's Brain2Qwerty**: Meta unveiled Brain2Qwerty v2, an AI that can type words directly from brain signals without surgery, achieving 61% word accuracy. This breakthrough has potential applications for individuals with paralysis.\n* **GPT-5.6**: OpenAI announced GPT-5.6, its next-generation model family, with three tiers: Sol, Terra, and Luna. GPT-5.6 offers significant improvements in coding, cybersecurity, and long-horizon reasoning, and introduces new features like maximum inference effort and Ultra mode.\n* **Anthropic Developments**: Anthropic is expanding its product lineup, focusing on agentic performance at lower costs, and emphasizing safety and governance. The company's models, including Claude, are being integrated into cloud platforms and competing with other AI assistants.\n* **ChatGPT Updates**: ChatGPT is becoming a more powerful general-purpose work and research assistant, with features like Deep Research, web search, and image generation. OpenAI is also testing advertising in the free and lower-cost tiers of ChatGPT.\n\n### Notable Links\n* Claude Sonnet 5\n* Fable 5 Return\n* Meta's Brain2Qwerty\n* GPT-5.6\n* Anthropic\n* ChatGPT",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Claude Sonnet 5 is now the free default\n\nPlus the Fable 5 ban is over and Meta reads your mind.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 01, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/zNF4qV8YxG%2FwFcFUnNI%2BnKGkfWxlLJsmnBHSt3p9aY5s5lMH5lxYxkaymRZb%0AQv3J%2BOBQF2YzmBnbHYW9qlg%2FQhztF5R1yR0PDeLplIeli%2FxUC4rFnYcQ2PjY%0Azr8ed1mgBbH5PVcPtuRQ4zLJZ9HyP4i3pwsX7c9WYwU6YZ9i0pY5LrfaFy3j%0Apvqk6YlMWJRH%2FIVZH0ZFIpj2V7AcQP23cA%3D%3D%0A/d770fa8560718fa4)\n\n# Claude Sonnet 5 Launches, Fable 5 Returns Today\n\nPlus: Meta built an AI that types from your brain.\n\n![](https://link.mail.beehiiv.com/v1/o/SlrQNiH2XOusN7sPA8gYPkE%2Fn"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "👀 Anthropic releases Sonnet 5",
+      "date": "2026-07-01T13:09:31.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic has released **Sonnet 5**, its most agentic Sonnet model yet, which is available in the Claude App and offers performance close to Opus 4.8 at a lower price point. This model is a drop-in upgrade for Claude Sonnet 4.6 and is the default for Free and Pro users.\n* **Claude Fable 5** is Anthropic's publicly available, Mythos-class AI model, which has been rolled back out after the US government lifted export controls that froze it. Fable 5 is positioned as a high-end frontier model with stronger safety controls.\n* Acti has introduced an **\"Agentic Keyboard\"** for iOS and Android, which swaps the phone's keyboard with a Gemini-powered AI agent that can read the screen, understand what the user is trying to do, and help out. The agent can draft replies, find information, or take action without leaving the app.\n* Google has made **personalized image generation** available to everyone, using Gmail, Photos, and Search data to customize photos. The company has also released **Nano Banana 2 Lite** and **Gemini Omni Flash**, its fastest and cheapest image/video models yet.\n* A study by Ramp found that companies spending heavily on AI grew headcount at 10.2% in the two years following adoption, while firms with low adoption saw no growth. The study suggests that AI may not be creating jobs, but it's not destroying them either.\n* Venture capitalist Chamath Palihapitiya is stepping into a CEO role for his new AI startup, **8090**, which aims to leverage AI for growth.\n* **ChatGPT** has introduced new features, including the ability to generate and edit presentations directly in the platform. Users can connect ChatGPT to Notion and use it to run AI agents directly in the app.\n* Pocket has introduced a feature that **captures and organizes important conversations automatically**, allowing users to press one button and have their meeting transcribed and summarized.\n\n### Notable Links\n* [Anthropic's Claude Models](https://www.anthropic.com/claude)\n* [Acti's Agentic Keyboard](https://www.acti.ai/keyboard)\n* [ChatGPT](https://chat.openai.com/)\n* [Ramp's Study on AI Adoption](https://www.ramp.com/blog/ai-adoption-study)\n* [Chamath Palihapitiya's Startup, 8090](https://www.8090.ai/)\n* [Pocket's Conversation Capture Feature](https://www.pocket.com/conversation-capture)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "👀 Claude Fable 5 is back\n\nALSO: How to generate and edit presentations directly in ChatGPT  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 01, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGWQ_XzBxyoGJv_JbciEaYODTend-KFzwXNE2dwY8FN-9vkrbic05W2WUnaElTCSugXdhoaqwOuL2cAXQUhPdf6jFK0oPiIdQJrB9rz5rHnhGgd7DWRuQeLN2ElOg-R-UtKuxlNlvacXkFc1the_kIYP_MxX5IAT9gOFOv5gGMX7ynrJYS2qHbkzue6Y62TKfX5qWL1KtdzKE1zDAHtrOCMHyeq5Dy7Cvh1wB7ZRvBtdKKMH_7t5Xlcd31vTzuOeqkrFqXcCxAsy-lKTWga2A_tnBAAA2ex522qrD5fTZsD0rbroCTImSB7vhoIZipPIyZSTWXY5mRlmAGFAGWW5g3h2Cqfbb4Ifl06viDtassJpa-qZL5SlXXYJon0Dgrnv4n7xQwWX"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Claude Sonnet 5 🎭, Fable approved 🚀, Nano Banana 2 Lite 🍌",
+      "date": "2026-07-01T13:45:16.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic has introduced Claude Sonnet 5, a lower-cost Sonnet model with stronger agentic performance in planning, tool use, coding, and knowledge work, offering performance close to Opus 4.8 at a lower price point.\n* Google released Nano Banana 2 Lite, its fastest and most cost-efficient Gemini Image model, alongside Gemini Omni Flash for video generation and conversational editing.\n* The Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5, allowing Anthropic to restore access to these models.\n* Anthropic has announced Claude Science, an AI workbench app available in beta for Pro, Max, Team, and Enterprise users on macOS and Linux, integrating fragmented scientific tools into a single environment.\n* Thinking Machines is an AI research lab focused on human-AI collaboration, and it plans to open a limited research preview of its interaction models in the coming months, with a wider release later this year.\n* Brain² is a multiplayer AI for companies that compounds context from every human and agent in an organization, and it is available for a free trial.\n* Meituan has officially launched LongCat-2.0, a massive 1.6 trillion-parameter Mixture-of-Experts model tailored specifically for agentic coding, multi-step workflows, and long-context processing.\n* OpenAI has reportedly cut response costs for guest ChatGPT users by more than half, and it has also introduced Deep Research, an agent inside ChatGPT that performs multi-step web investigations.\n* Etched, a Nvidia competitor, has hit a $5B valuation and has booked $1 billion in contract orders for full systems powered by its chip.\n* Anthropic has launched an internal drug discovery program to develop AI tools designed for drugmakers, focusing on discovering treatments for neglected diseases.\n\n### Notable Links\n* [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5)\n* [Nano Banana 2 Lite](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/)\n* [Claude Science](https://www.anthropic.com/news/claude-science-ai-workbench)\n* [Brain²](https://clickup.com/brain/)\n* [LongCat-2.0](https://www.testingcatalog.com/meituan-launches-longcat-2-0-1-6t-parameter-model-on-apis/)\n* [ChatGPT](https://www.openai.com/chatgpt)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nAnthropic has introduced Claude Sonnet 5, a lower-cost Sonnet model with stronger agentic performance in planning, tool use, coding, and knowledge ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019f1ded4384-f61a96cb-da22-4551-b70c-0e6227268397-000000/do4QVq0p3JIuqWwGQH3Y0v92uNL2pBwN4TU24MFrs90=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019f1ded4384-f61a96cb-da22-4551-b70c-0e6227268397-000000/4IdSBGsUWIiKsTP_drG3AxJMB9YZnT86B9ayDi0_2mo=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=7f7b1852-7528-11f1-8607-bf5a09495459%26pt=campaign%26t=1782913516%26s=8222002f200251abfee"
+    },
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "Warp CEO Zach Lloyd on why software factories are the next phase of coding",
+      "date": "2026-07-01T14:28:23.000Z",
+      "summary": "## AINews\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Warp CEO Zach Lloyd discusses the concept of \"software factories\" as the next phase of coding, predicting that every major software project will soon run on an automated factory, with Warp's new agent orchestration platform Oz being a key part of this shift.\n* Lloyd explains that the term \"software factory\" refers to the automation of the main loop of software engineering, including triage, specification, implementation, review, verification, shipping, and monitoring, and that Warp's Oz platform is designed to connect multiple models and coding harnesses across local environments and isolated cloud sandboxes.\n* The company has open-sourced its core CLI tool and is focusing on developing Oz, which is intended to integrate with existing workflows and tools, allowing developers to automate specific parts of their job and eventually creating a new engineering discipline around meta-engineering and building the system that builds the product.\n* Lloyd advises AI engineers to start preparing for this shift by automating annoying parts of their job and trying to build a loop that handles tasks using a factory approach, rather than building everything by hand.\n* The concept of software factories is expected to become a standard part of how serious software projects operate, similar to GitHub or CI/CD, with companies like Warp, Factory, and others working on developing and implementing these systems.\n* Forward-deployed engineering, which combines aspects of product management, consulting, and traditional engineering, is also expected to play a role in the adoption of software factories, with companies like Warp providing tools and services to support this transition.\n\n### Notable Links\n* Warp\n* Oz\n* [ChatGPT](https://www.openai.com/blog/chatgpt)\n* [Deep Research](https://www.openai.com/blog/deep-research)\n* [ChatGPT Search](https://www.openai.com/blog/chatgpt-search)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGc29mdHdhcmUtZmFjdG9yaWVzIiwicCI6MjA0NDQ1ODY4LCJzIjoxMDg0MDg5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MjkxNjIyMCwiZXhwIjoyMDk4NDkyMjIwLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.Q7PethknBzhvQWrapBz05egFD0d-eNIc9yj_Drifosg?"
+        },
+        {
+          "text": "Warp CEO Zach Lloyd on why software factories are the next phase of coding",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=204445868&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDQ0NTg2OCwiaWF0IjoxNzgyOTE2MjIwLCJleHAiOjE3ODU1MDgyMjAsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.qPj1cPgG4Bcy3h_iEMi_3WX-CjQkZyZtvhLoR84kFgQ"
+        },
+        {
+          "text": "Richard MacManus",
+          "url": "https://substack.com/@ricmac"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/software-factories?redirect=app-store"
+        },
+        {
+          "text": "software factory",
+          "url": "https://substack.com/redirect/a93094ee-0c75-4a92-93cb-578b30c764db?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "a terminal with integrated coding agents",
+          "url": "https://substack.com/redirect/f74c1af3-3a3d-41ba-8bb1-6d0c406a4912?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "open-source its core CLI tool",
+          "url": "https://substack.com/redirect/2df50130-fc6b-4ba1-9358-21a3ded1f1f9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Warp",
+          "url": "https://substack.com/redirect/e431a259-adff-4385-8f2a-fa4997f4bd59?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Oz",
+          "url": "https://substack.com/redirect/ca4434d9-7284-4320-b613-82abee729db7?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "view on YouTube",
+          "url": "https://substack.com/redirect/3c2632b5-fc00-4a27-8683-8666d16eaa5f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Warp CEO Zach Lloyd on why software factories are the next phase of coding![](https://eotrx.substackcdn.com/o/2a3ddb11f3ebbef3/p.gif?token=eyJtIjoiPDIwMjYwNzAxMTQyODIzLjMuYTc0NGM5YzQxYTkyMTZhMUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDQ0NDU4NjgsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTA4NDA4OSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MjkxNjIyMCwiZXhwIjoxNzg1NTA4MjIwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.7aqvtLvkAcAlNkAKin_ftAJC5IbJU3Eka7j26EhZW2g)\n\nWarp's founder thinks every major software project will soon run on an automated factory. He discusses why and how engineers should prepare for this shift.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"Latent.Space\" <swyx@substack.com>",
+      "subject": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "date": "2026-07-01T14:42:39.000Z",
+      "summary": "Error generating summary. Original subject: 🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGdGhlLWNvb2xlc3QtZGlmZnVzaW9uLXJlc2VhcmNoLWlzbnQiLCJwIjoyMDQzOTMzMDAsInMiOjEwODQwODksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgyOTE3MTQ1LCJleHAiOjIwOTg0OTMxNDUsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.jP-AshpA9m_XyIHIZNsAQ0L_DL6uI495VubIxTETWKU?"
+        },
+        {
+          "text": "Latent Space: The AI Engineer…🔬 The Coolest Diffusion Rese…0:001:48:39",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=204393300&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDM5MzMwMCwiaWF0IjoxNzgyOTE3MTQ1LCJleHAiOjE3ODU1MDkxNDUsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.MqQ8oxk32vHUPUcxim_uEhImxesYwBm35q5cPQX3fhw#play"
+        },
+        {
+          "text": "Listen now",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=204393300&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDM5MzMwMCwiaWF0IjoxNzgyOTE3MTQ1LCJleHAiOjE3ODU1MDkxNDUsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.MqQ8oxk32vHUPUcxim_uEhImxesYwBm35q5cPQX3fhw"
+        },
+        {
+          "text": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=204393300&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDM5MzMwMCwiaWF0IjoxNzgyOTE3MTQ1LCJleHAiOjE3ODU1MDkxNDUsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.MqQ8oxk32vHUPUcxim_uEhImxesYwBm35q5cPQX3fhw"
+        },
+        {
+          "text": "Brandon Anderson",
+          "url": "https://substack.com/@brandonscience"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/the-coolest-diffusion-research-isnt?redirect=app-store"
+        },
+        {
+          "text": "Genesis Molecular AI",
+          "url": "https://substack.com/redirect/1abde253-5098-4c8e-8ce8-ef0340bdebac?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Evan Feinberg",
+          "url": "https://substack.com/redirect/dcebe1ef-70f2-4081-9109-f81d72be6755?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Sergey Edunov",
+          "url": "https://substack.com/redirect/3afca114-d611-44ae-a4bc-8b08733d51ea?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "PEARL",
+          "url": "https://substack.com/redirect/04fb9be1-582a-4300-9f3a-ec73809577e0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "priority": "LOW",
+      "error": "Unexpected end of JSON input"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "GPT-5.6 is going to be... epic",
+      "date": "2026-07-01T15:03:19.000Z",
+      "summary": "## Mindstream\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI has announced the limited preview of **GPT-5.6**, its next-generation model family, which includes three versions: **Sol** (the most powerful), **Terra** (balanced), and **Luna** (faster and cheaper). GPT-5.6 Sol is described as OpenAI's strongest model yet, with significant improvements in coding, biology, and cybersecurity capabilities.\n* The **GPT-5.6** preview is currently limited to trusted partners through the API and Codex, with broader access planned for ChatGPT, Codex, and API users in the coming weeks. The models are priced at $5 input / $30 output per 1M tokens for Sol, $2.50 / $15 for Terra, and $1 / $6 for Luna.\n* **Ford** has rehired hundreds of experienced engineers after its AI quality checks failed to match human expertise. The carmaker had been using AI across parts of its business but found that the technology did not perform as well as expected.\n* **Google** is shutting down the **Tenor GIF API**, forcing platforms like X, Discord, Bluesky, and WhatsApp to switch to alternative GIF services.\n* **ChatGPT** has been updated with new features, including **image generation and editing**, and **web search** capabilities. OpenAI has also introduced **Deep Research**, an agent inside ChatGPT that performs multi-step web investigations.\n* **Mindstream Picks** include NASA's InSight mission revealing evidence of ancient magma oceans beneath Mars, Sainsbury's reporting milder food inflation, and Iron Maiden's induction into the Rock & Roll Hall of Fame.\n\n### Notable Links\n* Meet Sol, Terra, and Luna\n* Most LinkedIn AI Content Is Slop — Here Are the Prompts That Aren't\n* AI quality checks needed adult supervision",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "GPT-5.6 is sorta here\n\n\\+ Humans are replacing AI!?  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n01 Jul\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/d823006d-a4f6-456a-abc0-49"
+    },
+    {
+      "from": "\"Matt from FutureTools\" <futuretools@mail.beehiiv.com>",
+      "subject": "The AI lane to watch",
+      "date": "2026-07-01T16:07:01.000Z",
+      "summary": "## The AI Lane to Watch\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Pocket raised $11M for an AI note-taking gadget that sticks to the back of a phone and records real-world conversations, selling over 130,000 units since its launch last year, indicating potential in the AI gadget category.\n* Google announced the integration of SandboxAQ's Large Quantitative Models (LQMs) onto Google Cloud Marketplace, allowing researchers access to AI models trained on numerical data and scientific equations for applications in chemistry, biology, materials science, and drug discovery.\n* LQMs are distinct from Large Language Models (LLMs) as they predict outcomes based on numerical data rather than text, with potential applications in fields like biopharma, energy, and financial services.\n* SandboxAQ, originally spun out of Alphabet and chaired by former Google CEO Eric Schmidt, aims at the $50+ trillion global quantitative economy and has received a $500 million CHIPS Act award.\n* Congress is preparing a new version of the Health and Location Data Protection Act to ban the sale of Americans' health and location data, including information shared with AI chatbots, with enforcement mechanisms and a $1 billion earmark for the FTC.\n* Proception, a robot hand startup, raised $11M after settling a lawsuit with Tesla, focusing on creating robotic hands with human-like dexterity and a sensor-packed glove for capturing human hand interaction data.\n* Revolte introduced an AI-driven software delivery platform using autonomous agents for planning, generating, testing, deploying, and operating code, integrating with tools like Jira, Git, and Figma.\n* Sendmux launched an email API for AI agents, allowing developers to create dedicated agent inboxes, send emails through multiple providers, and receive inbound mail as structured JSON.\n* Various AI model updates were announced, including Google's Gemini Omni Flash and Nano Banana 2 Lite, Anthropic's Claude Sonnet 5 for coding and professional work, and OpenAI's GeneBench-Pro for measuring AI performance across genomics tasks.\n* Netflix used an AI-generated Gene Wilder voice in its new Wonka reality show, while the Commerce Department lifted restrictions on Anthropic's AI models.\n\n### Notable Links\n* SandboxAQ's Large Quantitative Models\n* Health and Location Data Protection Act\n* Proception robotic hands\n* Revolte AI-driven software delivery platform\n* Sendmux email API for AI agents",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The AI lane to watch\n\nRobot hands get funded  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 01, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/py6dgiNS7GjuEUiDuicfJJaK4EkflUj75%2BCSOqA%2BpmIY%2FlQRFpX1MHBRmSiq%0AzZXFTCxYkdFD0CuJyQA5qLs%2BJBMgUkUYPnBoZVHBxctDY%2FcFYfE1LqJgQAUz%0AislxHWRthYjnxgX%2FlUigflG0RIodDFohI%2FgWOOED8AaMOWHByhEi8cH6ANT8%0AEDoMvhhEVZIo1cCoGUV5XT%2B7hX%2BF6shIAQ%3D%3D%0A/2ab496f402e09bd6)\n\n![](https://link.mail.beehiiv.com/v1/o/cgwiwqIrgA1rbV%2BfUhu0Lla50kil3mpzex5ESnr7s74IOmm4bLDSK9M9F8Am%0AsM3VsB0aw%2BT6KbkUbYee3X9R8m2%2FxV3yXOfhCkcZSEeMGnGPeZ37vut%2BdaAk%0AIcmjD4HZKoO6gT%2FSDLLpTagkKdQFKrT38PgyOpf"
+    },
+    {
+      "from": "\"Robert from God of Prompt\" <godofprompt@mail.beehiiv.com>",
+      "subject": "🔑 Your AI Just Got Promoted",
+      "date": "2026-07-01T16:25:43.000Z",
+      "summary": "## God of Prompt Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A significant development in AI technology has been reported, where AI models have advanced from simply providing advice to actually executing tasks, marking a major shift in their capabilities. This change is exemplified by the experience of the author, who went from manually conducting research with multiple browser tabs and spreadsheets to having the AI complete the work independently in just a minute.\n* Anthropic, a company in the AI sector, is playing a crucial role in this evolution by developing high-capability agentic models combined with explicit safety layers and governance initiatives. This is shaping both the technical trajectory towards autonomous AI assistants handling complex workflows and influencing the policy debate around the deployment and restrictions of powerful models.\n* The development and deployment of models like Mythos, which can discover software vulnerabilities, underscore the importance of safety and governance in AI. Companies like Anthropic are at the forefront of addressing these challenges through partnerships and innovations.\n* Amazon's multibillion-dollar partnership and Bedrock distribution are examples of how enterprises are shifting from experimental to production-grade AI agents, indicating a move towards more practical and efficient use of AI in industries.\n* The competition among companies like Anthropic, OpenAI, and others highlights the rapid advancement and investment in AI technology, with a focus on creating cost-efficient, production-grade AI agents.\n\n### Notable Links\n* None directly provided in the summary, but references to external sources such as web searches and potential academic papers or company announcements are implied, especially concerning Anthropic's models and the broader AI industry developments.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🔑 Your AI Just Got Promoted\n\nPreheader: Sonnet 5 doesn't answer, it executes.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 01, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/SqI3U%2F5Q8MgrkHslpeKbC9%2BgtvaX%2BgVLEeKAu8WPsvTOqWqcUt%2F%2F8KswL3SS%0AJxyUaEvxVEgL3ARKerwgMh4IBPybDMpbe2yGs4%2B7Jk%2Fg6rznSBBCJY6m088x%0AB3QBaa9eZiPv2XOPJwblXAvAJt1OmDGs%2Bq5QlrZUjlOtDwvhUUCdOwlcx4nU%0ADBslYcWcaCKBFGQz%2By2U4E1W05ddLzqSPw%3D%3D%0A/c859713fd814d5eb)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/179da9f6-13ca-4211-b7b8-1431327cc525/gop-beehiiv-email-banner"
+    },
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "How Cursor deploys AI inside the enterprise",
+      "date": "2026-07-01T19:03:44.000Z",
+      "summary": "## AINews\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Cursor's Pauline Brunet explained how her team of Forward Deployed Engineers help organizations implement agents, essentially setting up software factories, in an interview with Latent Space at the AI Engineer World's Fair.\n* The role of Forward Deployed Engineers at Cursor involves working directly with customers to deploy AI capabilities, including implementing agents across the entire software development lifecycle.\n* Cursor's vision is to create an \"AI software factory\" where long-running agents can assist with every step of the software development process, from planning and designing to testing and deploying.\n* The company is growing its FDE team rapidly, with a goal to increase the team size tenfold by the end of December, and is looking for software engineers with extensive customer-facing experience.\n* Brunet discussed the challenges of expanding agent adoption beyond individual enthusiasts, including the need for top-down support from organization leaders and the importance of finding the right champions within an organization.\n* She also highlighted the potential for agents to automate processes across teams, functions, and organizations, and the need for standardizing work with cloud agents.\n* The FDE team at Cursor works closely with customers to identify use cases and implement solutions, and the lessons learned from these deployments feed back into the core Cursor product and help shape the company's product roadmap.\n\n### Notable Links\n* How Cursor deploys AI inside the enterprise: https://substack.com/app-link/post?publication_id=1084089&post_id=204513174&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDUxMzE3NCwiaWF0IjoxNzgyOTMyODc3LCJleHAiOjE3ODU1MjQ4NzcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.exT1j2ondDOuqhAXjoX-pzItA5dEw3Y9Dl5mghZ-sl0\n* Richard MacManus: https://substack.com/@ricmac\n* Pauline Brunet: [link]\n* software factory: [link]\n* Local AI: [link]\n* Latent.Space: [link]\n* Upgrade your subscription: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGY3Vyc29yLWZvcndhcmQtZGVwbG95ZWQtZW5naW5lZXJzIiwicCI6MjA0NTEzMTc0LCJzIjoxMDg0MDg5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MjkzMjg3NywiZXhwIjoyMDk4NTA4ODc3LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.eNSZaK3BIsKaGdFxUt6EpYmbpK9oIvG5MtV2ukGK8xo?"
+        },
+        {
+          "text": "How Cursor deploys AI inside the enterprise",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=204513174&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDUxMzE3NCwiaWF0IjoxNzgyOTMyODc3LCJleHAiOjE3ODU1MjQ4NzcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.exT1j2ondDOuqhAXjoX-pzItA5dEw3Y9Dl5mghZ-sl0"
+        },
+        {
+          "text": "Richard MacManus",
+          "url": "https://substack.com/@ricmac"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/cursor-forward-deployed-engineers?redirect=app-store"
+        },
+        {
+          "text": "Pauline Brunet",
+          "url": "https://substack.com/redirect/5b4fd545-3b4d-419f-9d58-6c73f715a1b0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "software factory",
+          "url": "https://substack.com/redirect/febb53b3-9f71-4b54-8f7b-6276d7aa88e0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Local AI",
+          "url": "https://substack.com/redirect/34d0df2f-082d-42c2-b6b5-357d619536cc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Latent.Space",
+          "url": "https://substack.com/redirect/f79d792b-f568-4fdd-9200-1c490c6046ef?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "upgrade your subscription.",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QmdXRtX2NhbXBhaWduPWVtYWlsLWNoZWNrb3V0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cubGF0ZW50LnNwYWNlJTJGcCUyRmN1cnNvci1mb3J3YXJkLWRlcGxveWVkLWVuZ2luZWVycyZyPTQ5YnkzNCZ0b2tlbj1leUoxYzJWeVgybGtJam95TlRjMU16ZzJOREFzSW1saGRDSTZNVGM0TWprek1qZzNOeXdpWlhod0lqb3hOemcxTlRJME9EYzNMQ0pwYzNNaU9pSndkV0l0TVRBNE5EQTRPU0lzSW5OMVlpSTZJbU5vWldOcmIzVjBJbjAuTlNhal90aWR6d0VoTm1uNlUwbnFJMzhQWGh5aHpzVWFpNktUUGZwSTBBayIsInAiOjIwNDUxMzE3NCwicyI6MTA4NDA4OSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODI5MzI4NzcsImV4cCI6MjA5ODUwODg3NywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.4HqAsmKlnNgpqZIKuZtrNgIXU8h8QEaLZFNAjdB6fG8"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=204513174&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNDUxMzE3NCwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODI5MzI4NzcsImV4cCI6MTc4NTUyNDg3NywiaXNzIjoicHViLTEwODQwODkiLCJzdWIiOiJyZWFjdGlvbiJ9.y0FYniAZoQOhNNpRZE4kWNY-IO3PiVl1caUk9Op9biE&r=49by34"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "How Cursor deploys AI inside the enterprise![](https://eotrx.substackcdn.com/o/753aadb4864568a1/p.gif?token=eyJtIjoiPDIwMjYwNzAxMTkwMzQ0LjMuMWRkMTA1YTUyMDQ3ZDY4NEBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDQ1MTMxNzQsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTA4NDA4OSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MjkzMjg3NywiZXhwIjoxNzg1NTI0ODc3LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.0vL_Dpb04XSh5AOf5tZeoAfkDXZW2WaSIhZJnObK1UY)\n\nCursor's Pauline Brunet explains how her team of Forward Deployed Engineers help organizations implement agents — essentially setting up software factories.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"tokens&\" <tokensandai@mail.beehiiv.com>",
+      "subject": "tokens& Weekly 7/1 - 🌍 Together AI's $800M Bet: Make Frontier AI Accessible to All",
+      "date": "2026-07-01T20:31:56.000Z",
+      "summary": "## tokens& Weekly 7/1\n\n**Priority: HIGH**\n\n### Top Updates\n* Together AI raised $800M at an $8.3B valuation, aiming to make frontier AI accessible to all by focusing on the \"cheap open-source plumbing\" that other models rely on.\n* Fable 5 and Mythos, Anthropic's high-end models, are back after an 18-day standoff with the Trump administration, with access to Mythos now being government-approved and restricted.\n* Etched launched an inference chip that puts it in Nvidia-rival territory, with impressive performance numbers.\n* EliseAI, which runs in the background of 1 in 6 US apartments, crossed $200M ARR and is now hiring for multiple roles.\n* Meta's Brain2Qwerty v2 can decode typed sentences straight from brain activity without implants, with the more people recorded, the closer it gets to matching surgical accuracy.\n* Sonnet 5, Anthropic's new default model, is built to run agents cheaper than Opus but has lower cybersecurity benchmarks than the previous version.\n* Nvidia's robots can now train themselves using a neuro-symbolic pipeline with Lean formal verification, achieving 99% success rates on fiddly tasks.\n* California signed the first state-government deal with Claude, providing every agency with Claude at half price.\n* Google launched Nano Banana 2 Lite and Gemini Omni Flash, cheaper bulk image generation and a video model that tops leaderboards.\n* OpenAI introduced GeneBench-Pro, a benchmark for AI agents doing real computational biology.\n* X shipped a hosted MCP server, allowing Claude, Grok, and Cursor to read and search X accounts.\n* AI cracked nine unsolved problems in topology and combinatorics using a neuro-symbolic pipeline with Lean formal verification.\n\n### Notable Links\n* Fable 5 and Mythos\n* Etched inference chip\n* Meta's Brain2Qwerty v2\n* Sonnet 5\n* Nvidia's robot training\n* Google Nano Banana 2 Lite and Gemini Omni Flash\n* OpenAI GeneBench-Pro\n* X hosted MCP server",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "tokens& Weekly 7/1 - 🌍 Together AI's $800M Bet: Make Frontier AI Accessible to All\n\nJust another week of AI headlines... and it turns out \"reading your mind\" wasn't just sci-fi.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 01, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/SWA8eNZFrZgY65tdQPyvg%2BljtTQjJciWYBYQgak%2BCxeAM0hWoDttYwUfk4bG%0AR8do1%2F7i8iaG1tx56a7MEIzZHM%2BkLepAgx5JXZdw%2BY%2FsTqlnwOrzntB%2B9sKp%0AV%2F1izetTJnwg22rzINoTFpMQNTfFdvh83ER7GGc60ou4GennBVxCVxKKg7aO%0ALpcmM%2BgeF6aF3cfNA5nb5r2Lf4aDOckI4A%3D%3D%0A/2646149a344dec26)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=r"
+    },
+    {
+      "from": "\"Uncovering AI\" <uncoverai@mail.beehiiv.com>",
+      "subject": "📱 SpaceX has a phone prototype. Musk denies it.",
+      "date": "2026-07-01T20:45:51.000Z",
+      "summary": "## Uncovering AI\n\n**Priority: HIGH**\n\n### Top Updates\n* SpaceX has allegedly developed a phone prototype with a proprietary OS, which could potentially integration with the company's Starlink Mobile and xAI technology, positioning SpaceX as a competitor in the AI device market, despite Elon Musk's denial of the report.\n* Palantir's CEO Alex Karp has criticized the token pricing model used by many AI companies, calling it \"tokenmaxxing\" and framing it as a national security issue, while promoting Palantir's own model-agnostic, own-your-weights product in partnership with Nvidia.\n* A team of researchers has proposed a new system called FLARE-AI for reporting AI model flaws, which aims to provide a standardized and interoperable way to document and route flaw reports to the relevant parties, reducing duplication of work and improving the overall security of AI systems.\n* Anthropic has launched Claude Science, an AI workbench that integrates with 60+ scientific databases and can run on lab hardware, and Claude Sonnet 5, a new model that boasts near-Opus agentic performance at a lower price point, making it an attractive option for enterprises looking for efficient and cost-effective AI solutions.\n* Cisco is rolling out AI agents to its 90,000 employees, and Together AI has raised $800M at an $8.3B valuation, demonstrating the growing demand for AI-powered solutions in various industries.\n* Fed Chair Kevin Warsh has weighed in on the potential impact of AI on inflation, suggesting that the AI-driven capex boom could eventually lead to increased productivity and lower prices, while also highlighting the need for careful monitoring of the situation.\n\n### Notable Links\n* FLARE-AI \n* Claude Sonnet 5\n* SpaceX's mystery AI \"handset\"",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "📱 SpaceX has a phone prototype. Musk denies it.\n\n💸 \"tokenmaxxing\" is Palantir's new dirty word  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 01, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/Rr708H9pWtFBqabMYqH%2FdeQRNmg9oZkOfEi%2BwpZbMXIZEIkTUcVr3lfPbIVl%0AEeVwrMyRQL9VD%2FFM8XPm9dJqpjXj52AzPILk4CRf23FhkTEEh5CyCOmfYUci%0AQWUD5daKxdSoGV77GVeI5vJ7y9uxWre47O16GqntqFhkm3R1msPzCvGTSbFA%0A2xWhJ01951qECfAHGh%2BJr5aJ7TaMjd1uPA%3D%3D%0A/2c3686356db3a10f)\n\n# 📱 SpaceX has a phone prototype. Musk denies it.\n\nThe days of app-based phones are numbered, and say hello to Claude Sonnet 5 and Claude Science.\n\n![](https://link.mail.b"
+    },
+    {
+      "from": "\"Technology News\" <technology-newsletter@mail.beehiiv.com>",
+      "subject": "China just sidestepped America's AI chip ban 🇨🇳",
+      "date": "2026-07-01T22:07:23.000Z",
+      "summary": "## Technology News\n\n**Priority: HIGH**\n\n### Top Updates\n- A Chinese company, Meituan, claims to have trained a massive AI system, LongCat-2.0, entirely on homemade chips, sidestepping the American hardware that Washington has spent years trying to keep out of its hands. This development strikes at the core of America's strategy to restrict the sale of top chips to China, betting that without the best hardware, Chinese companies would struggle to keep up.\n- The free version of Claude, a chatbot developed by Anthropic, has been upgraded with the new Claude Sonnet 5 model, which performs close to its far pricier flagship model and is now the default for free and paid users alike. This upgrade makes the brain behind the free version of Claude noticeably smarter and better at handling multi-step tasks on its own.\n- Google has released \"Nano Banana 2 Lite,\" its fastest and cheapest AI image generator yet, capable of spitting out a picture in about four seconds. It's already baked into the Gemini app, Google Photos, and Search, making custom image creation quicker for everyday users.\n- Apple is moving to push out iPhone security fixes faster in response to a new wave of hacking attempts supercharged by AI. If you own an iPhone, expect updates to land more often, and it's worth installing them promptly.\n- Ford has brought back 350 experienced engineers after leaning too hard on AI and automated systems, which hurt the quality of its cars. Executives admitted they'd \"mistakenly\" assumed AI could handle the job alone, highlighting the limits of technology and the need for human expertise.\n- NASA has launched a first-of-its-kind, $30 million mission to grab and adjust its aging Swift telescope, which is slowly being dragged out of orbit. A refrigerator-sized robot with three arms will attempt the catch, marking the first time anyone has reached up and saved a satellite this way.\n- The era of console exclusivity is changing, with Xbox putting its biggest franchises on PlayStation 5. \"Halo: Campaign Evolved,\" a ground-up remake of the game that launched Xbox, arrives July 28, and for the first time, a mainline Halo campaign will also land on PlayStation 5.\n\n### Notable Links\n- LongCat-2.0\n- Claude Sonnet 5",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "China just sidestepped America's AI chip ban 🇨🇳\n\nPLUS: the free version of Claude gets a big brain upgrade, NASA races to rescue a falling telescope, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 01, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/fRogfdaCX0aZmRO6YyO8aibtJHSaxogTjClzPRib51lMWCfzDEbWFSMYznBq%0AY7mH2dL%2BHvCIJUPdqMIzNYusfniePZcNOaxmEYQgfUXnxfE87ezEmPQcTx4E%0AWnKS7LbJe7gpnWN7RRLOFoRS6IXD1vrs%2BUNWoXBB6BZKQS%2FmQHInQQiIHsjJ%0AUjY8oOFZk9m1QtU24V40S0%2BRZ7%2F6yDJF0w%3D%3D%0A/c053493e2fe94b16)\n\n![](https://link.mail.beehiiv.com/v1/o/ijJyPaLeljkdPtK55hWldsKAlX0mkYjD1kZ7pM%2BM97YHnostBxM1IqHzprsd%0"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 1,302 Real Ways People Use AI",
+      "date": "2026-07-01T22:14:14.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* **Claude Fable 5 Returns**: Export controls that pulled Anthropic’s newest model offline three weeks ago have lifted, and it returns worldwide today. The model now includes a new safety classifier that routes risky prompts to Opus 4.8 and has expanded its capabilities for general use.\n* **Grok Voice Agents**: Grok has introduced voice agents that can handle real phone calls, answering in under a second across 25+ languages, making it suitable for various customer service and support applications.\n* **Andreessen Lands Pentagon Advisory Seat**: Marc Andreessen has been appointed to the rebuilt Defense Policy Board, advising on strategy and force-structure, marking a significant intersection of venture capital and military planning.\n* **1,302 Real-World AI Use Cases**: A list of concrete examples of companies using AI has grown from 101 to 1,302, showcasing the diverse applications of AI in industries.\n* **ChatGPT's Super App Ambitions**: Greg Brockman has outlined plans for ChatGPT to become a super app, merging chat and Codex-style agents to browse, code, and act on behalf of users, signaling a shift towards more multi-functional AI assistants.\n* **Retro AI History Clock**: A unique desk clock, the TimeCapsule G3, narrates history and answers questions about past events, leveraging AI to make learning engaging and interactive.\n* **AI Tools and Developments**: Various AI tools have been launched or updated, including LDOO for speech-to-text, Velma API for building production AI agents, DB-GPT for connecting to databases and files, and FastBots for creating chatbots from PDFs, docs, and YouTube videos.\n* **Stigg: AI Product Ledger**: Stigg has been introduced as the first usage runtime for AI products, allowing for real-time control over AI spend and providing a financial-grade credit ledger for managing AI-related expenses.\n\n### Notable Links\n* Claude Fable 5\n* Grok Voice Agents\n* Andreessen Pentagon Advisory\n* TAAFT Ultimate Prompt Pack",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 1,302 Real Ways People Use AI\n\nOver 1K AI uses, Grok Voice Agents, Fable 5 is back, a retro AI history clock, ChatGPT's super app, Andreessen + Pentagon, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 01, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0FdO80m2iqBkcvfGqgttkSvfcDjRW7ApQasmoqwvpI0aE8N4u-p7W3FTCkFIBBfO_tsXy1FuOQQjltv2AoLKAXLr-WgoaMsOVwksHtVURTI-xz9ariqmPo25cfqk6AvaOfAqmPSKBuRtt9YN4nOFpJAyw2EaRhfxoEAwfuyNam7tQL5I0oDSBk_JyPp9aWaxt4gkmepjc_yrWahuzRI7xdZ4V1PQC1nwim8-5gjzlx0NzfeOizcQtzI7MsHsqC9quaB2iIDjpvQe9zayISNed7Sg4DQz3qw7WR9w"
+    }
+  ],
+  "tldr": [
+    "Anthropic releases Claude Sonnet 5 model.",
+    "OpenAI announces GPT-5.6 model family.",
+    "Google releases Nano Banana 2 Lite generator.",
+    "Meta debuts Brain2Qwerty v2 brain-computer AI.",
+    "Meituan launches LongCat-2.0 massive model."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Claude Sonnet 5",
+        "context": "Claude Sonnet 5 is Anthropic’s newest Sonnet-tier model and is positioned as the company’s most agentic Sonnet yet, with stronger planning, tool use, coding, and autonomous task execution. Anthropic says it can use browsers and terminals and run tasks that previously required larger, more expensive models, while offering performance close to Opus 4.8 at a lower price point.[1][7] It is also a drop-in upgrade for Claude Sonnet 4.6, with adaptive thinking enabled by default and a few API behavior changes for extended thinking and sampling parameters.[2] The model is available across all Claude plans, is the default for Free and Pro users, and is also available in Claude Code and on the Claude Platform.[1][8]",
+        "source": "primary source"
+      },
+      {
+        "topic": "GPT-5.6",
+        "context": "GPT-5.6 is OpenAI’s newly announced next‑generation model family, positioned as the successor to GPT‑5.5 and released in three tiers: **Sol** (flagship frontier model), **Terra** (balanced, mid‑tier), and **Luna** (fast and affordable). Sol is described as OpenAI’s **most capable model yet**, with major gains in coding, cybersecurity, long‑horizon reasoning, and scientific/knowledge tasks, and it introduces new runtime features such as *maximum inference effort* (longer reasoning time) and an *Ultra mode* that uses multiple sub‑agents to handle complex workflows.[2][11] Early technical reports and backend log leaks also highlight a vastly expanded context window of around **1.5 million tokens** and improved token efficiency, enabling GPT‑5.6 to manage large codebases, multi‑step projects, and rich multimodal inputs more effectively than previous generations.[6][9]\n\nGPT-5.6 matters because it marks a shift from “just” large language models toward more **agent‑like systems** that can autonomously execute complex, cross‑platform tasks: developers report capabilities such as browser automation with Playwright, real‑time interactive 3D object generation, and deep support for end‑to‑end coding workflows.[2][9] On benchmarks, GPT‑5.6 Sol and Sol Ultra post strong results on tools like Terminal‑Bench 2.1 for coding, reinforcing its role as a frontier capabilities model.[2] At the same time, OpenAI has sharply **limited the rollout at the request of the U.S. government**, providing access first to a small group of approved institutions and partners—roughly a few dozen companies—while a broader release to ChatGPT, Codex, and the public API is planned in the following weeks.[1][2][5][11]\n\nThis constrained launch has immediate **industry and policy impact**. On the industry side, GPT‑5.6 intensifies competition with Google, Anthropic, and others by pushing the pace of frontier model development and raising expectations around large‑context, agentic AI for software development, cybersecurity, and enterprise automation.[9][10][11] On the policy side, the U.S. government’s direct involvement in gating access—via a request that OpenAI restrict distribution—signals a growing move toward formal frameworks and executive‑order‑style oversight for powerful models, especially around cybersecurity and national security concerns.[1][5] OpenAI has publicly stated that government‑approved restricted releases should be a short‑term exception rather than a long‑term norm, warning that excessive controls could prevent companies, researchers, and security experts from using the latest tools.[1][2] Overall, GPT‑5.6 is emerging as both a technical milestone in large‑context, agentic AI and a test case for how frontier models will be governed and deployed at scale.\n",
+        "source": "web search"
+      },
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is an AI research company best known for its **Claude** family of large language models, which it positions as reliable, controllable systems for enterprise, coding, and increasingly agentic (tool-using, multi-step) workflows.[4][11] Its product lineup has recently expanded from core chat models into more specialized, higher-capability tiers (Opus, Sonnet, Fable/Mythos) optimized for software engineering, agents, and long-context reasoning, often with 1M-token context windows and strong vision and scientific performance.[4][5][9]\n\nThe latest wave of developments centers on newer Claude models that emphasize **agentic performance at lower cost**, such as the newest **Sonnet** tier and the more capable **Fable 5** and restricted **Mythos 5** variants.[4][9] These models are designed to run complex, multi-step tasks like code refactoring, workflow automation, and data analysis more autonomously, while rerouting sensitive cybersecurity or biosecurity queries to safer models in the public versions, with an unrestricted Mythos 5 available only to vetted defenders through Project Glasswing.[9] This positions Anthropic as a key player in enterprise AI where efficiency, safety, and agent-like behavior are increasingly critical, and complements a broader push into safety and governance, including the launch of **The Anthropic Institute** and public advocacy for slower, more coordinated progress on frontier systems.[4][12]\n\nIndustry impact is significant: Anthropic’s Claude models are now widely integrated into cloud platforms (such as via Amazon’s multibillion-dollar partnership and Bedrock distribution) and are competing directly with OpenAI and others as enterprises shift from experimentation to cost-efficient, production-grade AI agents.[2][9][13] By combining high-capability agentic models with explicit safety layers and governance initiatives, Anthropic is shaping both the technical trajectory (toward autonomous AI assistants handling complex workflows) and the policy debate around how powerful models—especially those like Mythos that can discover software vulnerabilities—should be deployed and restricted.[9][12][13]",
+        "source": "web search"
+      },
+      {
+        "topic": "Fable 5",
+        "context": "Claude Fable 5 is Anthropic’s publicly available, Mythos-class AI model: a high-end frontier model positioned above the company’s earlier general-use offerings, with Anthropic saying it is safe for general use and state-of-the-art on nearly all tested benchmarks. It matters because it represents both a capability jump and a policy shift: Anthropic paired the launch with stronger safety controls, including visible safeguards for requests tied to frontier model development, cybersecurity, biology, and chemistry, and in some cases routing or fallback behavior to a less capable model. [2][4][10]\n\nThe latest reporting centers on backlash over the model’s initial guardrail design and access restrictions, followed by a rapid walkback to make safeguards visible rather than silent. Coverage also says Anthropic temporarily limited access because of capacity constraints and then planned broader subscription access later, while industry observers highlighted concerns about trust, enterprise adoption, and the precedent of capability throttling for AI R&D-related prompts. The most relevant source is Anthropic’s own launch post, supplemented by contemporaneous industry reporting and commentary. [2][1][4][14]",
+        "source": "Anthropic official announcement and web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is OpenAI’s flagship **conversational AI assistant** built on large language models such as GPT‑4.1 and GPT‑4o, and increasingly positioned as a **multi‑modal super app** for text, code, images, and now more agentic tasks.[2] It is widely used for drafting and editing content, including **generating and refining presentations**, and is being integrated into productivity workflows and enterprise environments, including a government-focused version called **ChatGPT Gov**.[2][12] Recent updates have added features like **image generation and editing** directly in ChatGPT and long‑context reasoning models (e.g., o3‑mini) that improve complex analysis, coding, and multi-step problem solving.[2]\n\nThe latest developments focus on turning ChatGPT into a more powerful **general-purpose work and research assistant**. OpenAI has introduced **Deep Research**, an agent inside ChatGPT that performs multi-step web investigations, synthesizing up-to-date information for users.[2] ChatGPT also now supports **web search** more broadly via ChatGPT Search, allowing it to pull in current data with cited sources instead of relying solely on its training snapshot.[12] On the platform side, OpenAI has begun testing **advertising in the free and lower-cost tiers of ChatGPT**, showing labeled sponsored links while keeping paid tiers ad-free and excluding sensitive topics, as part of a strategy to monetize broad access.[4][10]\n\nIndustry-wide, ChatGPT remains a central reference point in the **AI assistant and productivity tools market**, competing with systems like Google Gemini, Anthropic Claude, and others.[2][8] Its evolving capabilities—especially agent-style features that can browse, search, and operate tools—are pushing organizations to redesign workflows in software development, research, and office productivity, including how presentations, documents, and reports are created and edited.[2] At the same time, regulators and policymakers are scrutinizing ChatGPT and similar systems, with agencies like the U.S. FTC signaling attention to how AI chatbots handle safety, bias, and user protection, underscoring ChatGPT’s broader societal and economic impact.[1]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "White House issues sweeping order on ‘Promoting Advanced Artificial Intelligence Innovation and Security’",
+        "summary": "The U.S. administration released a major presidential directive titled \"Promoting Advanced Artificial Intelligence Innovation and Security,\" laying out federal priorities for AI R&D, safety, and national security uses of advanced models.[15] It builds on earlier executive actions and directs agencies to both accelerate AI deployment and develop stronger safeguards, evaluation standards, and reporting obligations for high‑risk systems.[15]",
+        "whyItMatters": "AI practitioners working with U.S. government data, infrastructure, or funding will face new compliance, reporting, and evaluation expectations, especially around safety and security. The order also signals where future public funding, standards efforts, and procurement opportunities will concentrate, influencing which capabilities and safety practices become de‑facto industry norms.",
+        "source": "White House presidential action (Promoting Advanced Artificial Intelligence Innovation and Security)[15]"
+      },
+      {
+        "headline": "Portugal launches first national open‑source LLM in push for AI sovereignty",
+        "summary": "Portugal announced its first open‑source artificial intelligence model as part of a broader European trend toward AI sovereignty and reduced reliance on U.S. providers.[4] The government framed the release as foundational digital infrastructure, intended for public administration, local industry, and research institutions.[4]",
+        "whyItMatters": "A government‑backed, open‑source LLM expands the ecosystem of publicly available models and offers an alternative to U.S.‑centric APIs, especially for EU‑regulated contexts. Practitioners building for European public‑sector or regulated industries get a politically supported model option that may align more cleanly with EU data, language, and compliance requirements.",
+        "source": "Reuters AI news desk report on Portugal’s first open‑source AI model[4]"
+      },
+      {
+        "headline": "DeepSeek publishes architectural breakthrough in ‘Manifold‑Constrained Hyper‑Connections’ for Transformers",
+        "summary": "DeepSeek released a research paper proposing “Manifold‑Constrained Hyper‑Connections,” a modification to Transformer residual pathways that expands effective capacity without triggering training instabilities or memory blow‑ups.[5] The work is positioned as the first fundamental architecture change to Transformers since 2015, targeting scalability and stability at very large model sizes.[5]",
+        "whyItMatters": "If validated, this architecture could let practitioners push parameter counts and context lengths further without proportional increases in training pathologies or hardware costs. It directly affects how large models are designed and trained, and could influence next‑generation open‑source and proprietary LLM architectures.",
+        "source": "Reddit summary of DeepSeek’s paper and architecture release[5]"
+      },
+      {
+        "headline": "Meta debuts stand‑alone ‘Meta AI’ app, separating its assistant from core social platforms",
+        "summary": "Meta launched a dedicated ‘Meta AI’ application that pulls its AI assistant out of Facebook, Instagram, and WhatsApp into a stand‑alone product.[3] The app provides a unified interface for chat, multimodal interactions, and tool integrations, positioning Meta AI as a direct competitor to ChatGPT‑style assistants.[3]",
+        "whyItMatters": "For builders, a stand‑alone Meta AI app likely means a clearer product surface, more consistent APIs, and potentially a richer plugin or agent ecosystem than the scattered integrations inside social apps. It also intensifies competition among assistant platforms, which can pressure providers on model quality, pricing, and developer tooling.",
+        "source": "“AI News You Missed #65” newsletter coverage of Meta’s stand‑alone Meta AI app[3]"
+      },
+      {
+        "headline": "China’s Qwen 3 open‑source model tops math‑and‑code leaderboards",
+        "summary": "Qwen 3, an open‑source model from Alibaba’s Qwen team, climbed to the top of multiple open‑source leaderboards, surpassing many Western LLMs on math and coding tasks.[3] It is offered under a permissive license and positioned for global enterprise and developer use.[3]",
+        "whyItMatters": "A high‑performing, permissively licensed Chinese model becoming state‑of‑the‑art on core reasoning workloads changes the open‑source calculus for many teams. Practitioners now have another top‑tier option for on‑prem or private‑cloud deployments, which can impact vendor selection, cost structures, and geopolitical risk assessments around model sourcing.",
+        "source": "“AI News You Missed #65” coverage of Qwen 3’s leaderboard performance[3]"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Claude Sonnet 5",
+        "type": "product",
+        "context": "Introduced as a lower-cost Sonnet model with stronger agentic performance in planning, tool use, coding, and knowledge"
+      },
+      {
+        "name": "GPT-5.6",
+        "type": "product",
+        "context": "Mentioned as an upcoming release with expected significant improvements"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Introduced Claude Sonnet 5, a lower-cost Sonnet model with stronger agentic performance"
+      },
+      {
+        "name": "Fable 5",
+        "type": "product",
+        "context": "Mentioned as being back after a ban, with improved performance"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as having a super app and being used for generating and editing presentations"
+      },
+      {
+        "name": "Together AI",
+        "type": "company",
+        "context": "Mentioned as making an $800M bet to make frontier AI accessible to all"
+      },
+      {
+        "name": "Cursor",
+        "type": "company",
+        "context": "Mentioned as deploying AI inside the enterprise"
+      },
+      {
+        "name": "Palantir",
+        "type": "company",
+        "context": "Mentioned as having a new concept called 'tokenmaxxing'"
+      },
+      {
+        "name": "SpaceX",
+        "type": "company",
+        "context": "Mentioned as having a phone prototype, which Musk denies"
+      },
+      {
+        "name": "NASA",
+        "type": "organization",
+        "context": "Mentioned as racing to rescue a falling telescope"
+      },
+      {
+        "name": "Andreessen",
+        "type": "person",
+        "context": "Mentioned in relation to the Pentagon and AI investments"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-07-02T00:30:38.611Z",
+  "dateString": "2026-07-02"
+}
