@@ -28,6 +28,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cisco]] — networking incumbent; AI agents absorbing ~80% of routine network-ops work Feb 2026 *(stale)*
 - [[cloudflare]] — CDN/edge platform; 1,100 layoffs (~20%) for "agentic AI-first operating model" May 2026
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf; $1B Series D at $26B + Devin writes 89% of own code (May 2026)
+- [[coinbase]] — US-listed crypto exchange; 1,200 full-time AI agents in production + 2× YoY code-per-developer + Coinbase Advisor SEC-registered AI investment advice + SpaceX pre-IPO perps + "bank for the agentic economy" thesis (Jul 2026)
 - [[cohere]] — Toronto enterprise LLM vendor; open-source Transcribe ASR tops HuggingFace leaderboard across 14 languages *(stale)*
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale *(stale)*
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025 *(stale)*
@@ -35,6 +36,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[etched]] — AI inference chip startup; exits stealth Jul 2026 at $5B valuation ($800M raised, $1B+ in contracts, first inference racks shipping summer 2026)
 - [[extropic]] — TSU thermodynamic-sampling chip; ~10,000× energy-efficiency claim *(stale)*
 - [[figure]] — humanoid robots; Figure 03; sued by former product-safety head Nov 2025 *(stale)*
+- [[friendliai]] — "Frontier Inference Cloud for agents" serving frontier open-weight models; powers [[claude-code]] + [[cursor]] + Kilo Code + Hermes Agents + [[ollama]] (Jul 2026)
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
@@ -107,6 +109,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-go]] — OpenAI's $8/mo ChatGPT entry-paid tier; launched globally Jan 2026 *(stale)*
 - [[chatgpt-tasks]] — OpenAI's scheduled-tasks hub inside ChatGPT — one-off + recurring tasks; replaces Pulse (sunset within 14 days); agent-on-a-schedule shift (Jun 2026)
 - [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages) *(stale)*
+- [[chandra-ocr-2]] — document-intelligence OCR model topping olmOCR on tables (92.1%) + tiny text (93.7%); up to $5K Textract-migration credits (Jul 2026)
 - [[claude-code]] — Anthropic's CLI coding agent; plugins, Routines, Web variant; $1B ARR
 - [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions (May 2026)
 - [[claude-code-security]] — Anthropic's security scanner inside Claude Code (Feb 2026) *(stale)*
@@ -211,6 +214,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mai-thinking-1]] — Microsoft's first internally-built reasoning + Codex-competitor model family (MAI-Thinking-1 35B-active + MAI-Code-1-Flash 5B); Build 2026 (Jun 2026)
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video *(stale)*
 - [[medgemma]] — Google open medical-imaging model family (Jan 2026) *(stale)*
+- [[meta-compute]] — Meta's forthcoming cloud infrastructure business selling AI compute + hosted models from $183B surplus data-center capacity; challenges AWS/Azure/GCP (Jul 2026)
 - [[microsoft-scout]] — Microsoft's always-on Scout agent tab inside the Microsoft Super App framing; Build 2026 (Jun 2026)
 - [[midjourney-scan]] — Midjourney's first hardware: full-body ultrasonic CT scanner; "first new whole-body medical imaging modality in 50 years" per Holz; Midjourney Spa SF deployment (Jun 2026)
 - [[mimo-code]] — Xiaomi's coding-specialized model; three-cycle cross-newsletter convergence (TLDR AI → Hello World "Claude vs Mimo" → NLP Newsletter AI Agents Weekly digest, Jun 2026)
@@ -275,6 +279,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[veo-3]] — Google's Veo 3 / 3.1 video-generation model; Jun 2026 resurfaces as image-to-video chained step with [[nano-banana-pro]]
 - [[vercel-eve]] — Vercel's open-source agent framework; durable execution + sandboxed compute + approvals + subagents + evaluations; "production infrastructure for AI agents" (Jun 2026)
 - [[wispr-flow]] — voice-dictation + AI-editing product letting devs prompt agents in [[cursor]] / VS Code / JetBrains ~4× faster than typing; Bloomberg-reported $260M @ ~$2B Menlo Ventures lead (Jun 2026)
+- [[zcode]] — [[zhipu-ai]]'s cross-platform (macOS/Windows/Linux) agentic-coding IDE; ships with [[glm-5-2]] tuned specifically for ZCode's plan → code → review → deploy loop (Jul 2026)
 
 ## Topics
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
