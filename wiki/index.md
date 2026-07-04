@@ -43,10 +43,11 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026)
 - [[jpmorgan-chase]] — investment bank; LLM Suite aggregates OpenAI + Anthropic; "fully AI-powered megabank" commitment; $18B/yr tech (Jun 2026)
+- [[kling-ai]] — Kuaishou spin-off Chinese AI video-generation company; $15B valuation Jul 2026 (~$2.8B round led by Alibaba + Tencent); short-form AI video focus
 - [[liquid-ai]] — MIT-spinout efficient-model lab; LFM2 family; LFM2-2.6B-Exp Dec 2025 *(stale)*
 - [[lovable]] — Swedish vibe-coding startup; $330M @ $6.6B Dec 2025
 - [[luma]] — AI video startup; Ray3 Modify video-model update *(stale)*
-- [[manus]] — Chinese-roots general-purpose agent startup; acquired by Meta for $2B Dec 2025 *(stale)*
+- [[manus]] — Singapore-HQ Chinese-roots agent startup; China formally blocks Meta's $2B acquisition Jul 2026 (~3 months after co-founder Chinese-review)
 - [[mercor]] — talent-marketplace AI; $350M raise at $10B valuation *(stale)*
 - [[merge-labs]] — Sam Altman BCI startup; $250M raise at $850M valuation Jan 2026 *(stale)*
 - [[meta]] — Muse Spark + open-weights pivot; $21B CoreWeave; SAM 3/3D; WorldGen
