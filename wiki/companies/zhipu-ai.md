@@ -11,7 +11,7 @@ type: company
 > **Last updated**: 2026-06-27-evening (**Hello, World! lands [[glm-5-2]] *"significant leap in practical usability, competing with proprietary AI systems in coding tasks and potentially serving as a credible alternative to premium commercial coding assistants"* — first publicly framed *credible alternative to premium commercial coding assistants* commercial-substitute positioning on a Zhipu AI model in this wiki; productizes the prior benchmark-leader + cost-leader + community-acclaim framings into a *commercial-coding-assistant-substitute* deployment positioning visible to the developer-newsletter readership; Zhipu AI continues to operate outside US export-control jurisdiction during the broader Mythos-reversal / GPT-5.6-launch cycle**)
 > **Previously updated**: 2026-06-22-morning (The Tokenizer Edition #32 cycle-headline placement "GLM-5.2 Open Weights" alongside Groq Endless Compute + Anthropic Circuit Tracer + Mindstream consumer-tech recoverage + Simon Willison hands-on review surfaces via Tokenizer body link)
 > **Status**: active (reactivated 2026-06-15-evening after >3-month staleness window via GLM-5.2 surfacing; sharply re-anchored 2026-06-17-evening with the world-leading-frontend-coding claim; further reinforced 2026-06-19-evening with vibe-check pass + Open Fable forecast)
-> **Related**: [[glm-4-7]], [[glm-5]], [[glm-5-2]], [[open-fable]], [[glm-ocr]], [[deepseek]], [[alibaba]], [[moonshot-ai]]
+> **Related**: [[glm-4-7]], [[glm-5]], [[glm-5-2]], [[open-fable]], [[glm-ocr]], [[zcode]], [[deepseek]], [[alibaba]], [[moonshot-ai]]
 
 ## Summary
 

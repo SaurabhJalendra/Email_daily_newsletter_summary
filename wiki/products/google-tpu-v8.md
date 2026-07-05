@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-04-21
 > **Last updated**: 2026-04-28
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[google]], [[ironwood-tpu]], [[nvidia]], [[anthropic]], [[ai-hardware]]
 
 ## Summary

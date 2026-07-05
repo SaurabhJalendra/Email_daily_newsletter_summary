@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-04-19
 > **Last updated**: 2026-04-28
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[deepseek]], [[deepseek-v3-2]], [[gpt-5-5]], [[claude-opus-4-7]], [[kimi-k2-6]], [[qwen-3-6]]
 
 ## Summary

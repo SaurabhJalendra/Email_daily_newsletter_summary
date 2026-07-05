@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2026-06-23-evening
 > **Last updated**: 2026-06-23-evening (**AINews HIGH-priority + Rundown AI cycle-cohort first publicly framed *Baseten Series F $13B valuation at $1.5B raise + ~20× revenue growth in a year + focus on post-trained open models + inference as critical component of enterprise control planes + "owned intelligence" framing* in this wiki** — structurally significant single-cycle launch as a *neocloud-tier inference + post-training* infrastructure company at a Coreweave-parity-to-better valuation tier; AINews canonicalizes the "owned intelligence" thesis as the cycle's load-bearing enterprise-AI-distribution-narrative axis where companies run, fine-tune, and retain control over their AI models and data rather than relying solely on external APIs)
 > **Status**: active
-> **Related**: [[ai-funding-rounds]], [[ai-hardware]], [[enterprise-ai]], [[glm-5-2]], [[ollama]], [[anthropic]], [[openai]], [[spacex]], [[ai-bubble-concerns]]
+> **Related**: [[ai-funding-rounds]], [[ai-hardware]], [[enterprise-ai]], [[glm-5-2]], [[ollama]], [[anthropic]], [[openai]], [[spacex]], [[friendliai]], [[together-ai]], [[ai-bubble-concerns]]
 
 ## Summary
 

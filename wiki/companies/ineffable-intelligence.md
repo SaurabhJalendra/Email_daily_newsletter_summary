@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-04-29
 > **Last updated**: 2026-04-29
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-funding-rounds]], [[thinking-machines]], [[ami-labs]], [[merge-labs]]
 
 ## Summary

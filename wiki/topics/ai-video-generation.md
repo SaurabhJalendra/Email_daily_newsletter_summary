@@ -10,7 +10,7 @@ type: topic
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-02-19
 > **Status**: stale
-> **Related**: [[sora-2]], [[veo-3]], [[seedance-2]], [[marble]], [[world-models]], [[openai]], [[google]], [[bytedance]], [[world-labs]], [[ai-regulation]], [[ai-copyright]], [[luma]], [[ltx-2]], [[runway]], [[runway-gen-4-5]]
+> **Related**: [[sora-2]], [[veo-3]], [[seedance-2]], [[marble]], [[world-models]], [[openai]], [[google]], [[bytedance]], [[world-labs]], [[ai-regulation]], [[ai-copyright]], [[luma]], [[ltx-2]], [[runway]], [[runway-gen-4-5]], [[kling-ai]]
 
 ## Summary
 
