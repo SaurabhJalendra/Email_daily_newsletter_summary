@@ -278,6 +278,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B) *(stale)*
 - [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell) *(stale)*
 - [[watermelon]] — Meta's upcoming internal frontier-tier model per Meta Superintelligence Chief Alexandr Wang; caught up with OpenAI's GPT-5.5 on closely followed AI benchmarks; still in training, no release timeline (Jul 2026)
+- [[weave-isaac-1]] — Weave Robotics's home humanoid at $8K upfront / $449/mo subscription; folds clothes/tidies/makes beds; adjusts 3ft-6ft; California fall-2026 rollout with remote-teleoperation fallback (Jul 2026)
 - [[veo-3]] — Google's Veo 3 / 3.1 video-generation model; Jun 2026 resurfaces as image-to-video chained step with [[nano-banana-pro]]
 - [[vercel-eve]] — Vercel's open-source agent framework; durable execution + sandboxed compute + approvals + subagents + evaluations; "production infrastructure for AI agents" (Jun 2026)
 - [[wispr-flow]] — voice-dictation + AI-editing product letting devs prompt agents in [[cursor]] / VS Code / JetBrains ~4× faster than typing; Bloomberg-reported $260M @ ~$2B Menlo Ventures lead (Jun 2026)
