@@ -1,0 +1,301 @@
+{
+  "date": "2026-07-04T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Sunday, 5 July 2026\n\n## 🔥 Top Stories\n1. **Anthropic released Claude Sonnet 5, its most agentic Sonnet yet, with capabilities to plan, use tools, and run autonomously** — This matters because it signifies a significant advancement in AI autonomy and potential applications in various fields, making models more accessible and user-friendly.\n2. **Meituan open-sourced LongCat-2.0, a 1.6T model, making a large-scale model available for public use and research** — This matters as it positions China as less dependent on Western chips and cloud providers while advancing global AI research capabilities.\n3. **China open-sourced a 1.6-trillion-parameter frontier model trained entirely on domestic chips** — This matters because it showcases China's growing independence in AI technology and its ability to develop competitive models without relying on foreign hardware.\n4. **Grok 4.5 entered private beta inside SpaceX and Tesla, marking a step toward deeply embedding Grok into engineering, operations, and autonomy tooling** — This matters as it indicates the potential for AI to significantly impact and streamline operations within major tech and space exploration companies.\n5. **OpenAI reportedly considers offering the US government a 5% equity stake as part of its IPO strategy** — This matters because it reflects the increasing regulatory pressure on AI companies and the potential for government oversight in the development and deployment of frontier AI models.\n\n## 🤖 AI Models & Research\n- Researchers developed DeepSeek-Lattice-KG, a compact language model with knowledge graph augmentation for lattice-structure design, achieving nearly 95% accuracy.\n- Meta's next AI model, codenamed \"Watermelon,\" has reportedly caught up to OpenAI's GPT-5.5 on internal benchmarks.\n- A cheap Chinese model called GLM-5.2 is quietly climbing developer leaderboards, reportedly sitting just below Anthropic's Opus 4.8 in capability at a fraction of the cost.\n\n## 🛠️ Tools & Products\n- xAI launched Grok Voice Agent Builder, a no-code platform for creating human-like voice agents powered by Grok Voice.\n- Vercel added voice agents to AI Gateway, expanding the capabilities of its platform.\n- Stigg, a usage runtime for AI products, allows for real-time metering and entitlement logic, enabling the launch of models and spend caps without deployment.\n- World Monitor, a live global spy map, tracks ships, jets, and cables in real-time, providing a 3D visualization of global events.\n\n## 📰 Industry News\n- Tesla capped staff AI spending at $200 per week for outside AI tools but exempted xAI products like Grok and Composer from this limit.\n- Anthropic is in talks with Samsung to produce a custom Anthropic processor, which would reduce reliance on Nvidia and mitigate chip shortages.\n- Global VC funding hit a record $510 billion in H1 2026, with OpenAI and Anthropic together accounting for $217 billion, or 43% of all startup capital in that period.\n- A school in Nebraska received a bomb threat from a caller using an AI-generated voice, highlighting the potential misuse of AI technology.\n- Weave Robotics unveiled Isaac 1, a home humanoid robot priced at $8,000 upfront or $449 a month, which can perform tasks such as folding clothes and tidying up living spaces.",
+  "totalNewsletters": 8,
+  "newsletters": [
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "DeepSeek-Lattice-KG: A Compact Language Model With Knowledge Graph Augmentation for Lattice Structure Design",
+      "date": "2026-07-04T12:55:17.000Z",
+      "summary": "## JournalClub.io Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Researchers from Xi'an Jiaotong University, China, have developed a compact language model called DeepSeek-Lattice-KG, which is an extension of the DeepSeek-R1 model, fine-tuned for lattice-structure design tasks. This model has achieved nearly 95% accuracy in lattice-structure design exploration.\n* The DeepSeek-R1 model, released by a Chinese hedge fund called \"High-Flyer\" in January 2025, is a large language model with 671 billion parameters, 37 billion active parameters per token, and a 128K-token context window. It was open-weight, allowing anyone to download, run, and test it.\n* The authors of the paper fine-tuned the DeepSeek-R1-14B model on 2,500 full-text lattice-structure articles and 35,000 curated question-answer pairs, resulting in a domain-adapted model called DeepSeek-Lattice, which improved the base model's accuracy from 71.7% to 82.9%.\n* The researchers then augmented the DeepSeek-Lattice model with a knowledge graph layer, creating DeepSeek-Lattice-KG, which further improved the accuracy to 94.8%. The knowledge graph was built from 50,000 publications and stored in Neo4j, allowing the model to retrieve structured relationships between domain entities and apply that knowledge to critical design tasks.\n* The DeepSeek-Lattice-KG model was tested on a benchmark of 2,000 expert-curated multiple-choice questions across six lattice-structure subdomains, outperforming other models, including the base DeepSeek-R1-14B, fine-tuned DeepSeek-Lattice, and larger general-purpose models like DeepSeek-R1-670B.\n* The paper highlights the potential of open-weight models, fine-tuning, and knowledge graph augmentation in producing sophisticated and grounded outputs, especially in specialized domains like lattice-structure design.\n\n### Notable Links\n* DeepSeek-Lattice-KG paper\n* [Watch or Listen to the Episode](https://journalclub.io/episodes/deepseek-lattice-kg-a-compact-language-model-with-knowledge-graph-augmentation-for-lattice-structure-design)\n* [The Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai)",
+      "links": [
+        {
+          "text": "Resubscribe Now",
+          "url": "https://journalclub.io/account/add-time/yearly?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        },
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/deepseek-lattice-kg-a-compact-language-model-with-knowledge-graph-augmentation-for-lattice-structure-design?token=x3UDqS7LaRORpTauPKD6gsaTa9X2BkAr6W0q7nIbhAAUF0eTH6"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "DeepSeek-Lattice-KG: A Compact Language Model With Knowledge Graph Augmentation for Lattice Structure Design   \n\nOn January 20th, 2025, an obscure Chinese hedge fund called “High-Flyer” did something very odd for a hedge fund. They released a large language model. A very large language model. 671 billion parameters, 37 billion active parameters per token, a 128K-token context window, and distilled variants ranging from 1.5B to 70B parameters each.\n\n![](https://journalclub.io/px/qx42TbbF8EkkBVlmX3xwUyM8nx8ngEGWUw6x4wf6wTKkPRnDsc)\n\nDeepSeek-Lattice-KG: A Compact Language Model With Knowledge Graph Augmentation for Lattice Structure Design\n\nJournalClub.io, July 4th, 2026  \n  \n\nWarning: Your subscription ends in 6 days.\n\n[Resubscribe Now](https://journalclub.io/account/add-time/yearly?uid=z0Litxqnnl9rqdjV78XM9yL6l)\n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/S69CtXVtSSA3AjL9rCmg)](https://journalclub.io/episodes/deepseek-lattice-kg-a-compact-language-model-with-know"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "2 new notifications since 6:35 pm (Jul 3, 2026)",
+      "date": "2026-07-04T13:08:22.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nate Herk posted a new video about creating a connected second brain using an LLM wiki, inspired by Andrej Karpathy's idea, and demonstrated how to build it in five minutes using Claude Code and Obsidian.\n- Nate Herk also posted another video discussing how Claude is creating a new generation of millionaires, breaking down the exact playbook and sharing stories of founders running companies without writing code.\n- The AI Automation Society group has new notifications, including posts from Nate Herk, which can be viewed by following the links provided.\n\n### Notable Links\n- [View post: Fable 5 + Karpathy’s LLM Wiki](View post)\n- [View post: How Claude is Creating a New Generation of Millionaires](View post)\n- [Start your own skool](Start your own skool)\n- [Turn off daily notifications email for this group](Turn off daily notifications email for this group)\n\nNote: Since there are no primary sources, papers, or product pages provided in the newsletter, the Notable Links section only includes descriptive references to the links mentioned in the newsletter.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3Dvgxp_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXNz3Q3TEkorHS2ioHopZbryWGP9FuyYRP1YQ0mS7jzztls8xq5kpvl3Mw2zfPMcuLGGbhMHuA8BeRd-2FSfqm9ioGYbUVMe5TB80guN5qdbDakXBkAgzFQ0Ktailp-2BftoPxYUU8w0SU30WTIasRy9Io0t4pp6eDI3mYJVtjxI-2BL0RkRwFa-2BnGYnrNJrl-2FD1CU-2F80iV07dMFSAorklG9sNL1xIKtPbD747Gg4ArP5DRmeRxttDlSw1i89q2n-2F9u-2FP6zibwgDf-2BTagIrnxHWZd66B7A-2Bm99016YsTHwVCyNCSrUFNNvXp3aUbQKPponG6tkimdJio"
+    },
+    {
+      "from": "\"Devansh and Martin Ford from Artificial Intelligence Made Simple\" <artificialintelligencemadesimple@substack.com>",
+      "subject": "Will AI Destroy Your Jobs [Livestreams]",
+      "date": "2026-07-04T13:54:02.000Z",
+      "summary": "## Artificial Intelligence Made Simple\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Martin Ford, a futurist and author, discusses the impact of AI on jobs in a livestream, arguing that AI will eventually displace most human workers, but the timeline is uncertain.\n* Ford's book, \"Rise of the Robots,\" updated in June 2023, explores the effects of AI and robotics on the labor market and suggests that universal basic income may be a solution to mitigate job displacement.\n* The livestream covers various topics, including the difference between task automation and job elimination, the role of liability in AI adoption, and the need for continuous learning in AI systems.\n* Ford emphasizes that AI is currently more capable at sophisticated, credentialed tasks than at blue-collar physical work, inverting the traditional assumption that machines would only displace lower-skill jobs.\n* The conversation also touches on the concentration of wealth and power due to AI-driven automation, and the potential for AI to enable self-service and route around human intermediaries.\n* The AI Made Simple community is encouraged to participate in discussions, share articles, and provide feedback, with various links to social media platforms, podcasts, and a subreddit for further engagement.\n\n### Notable Links\n* Rise of the Robots\n* Martin Ford's Twitter\n* Data Science Gems\n* AI Made Simple Subreddit\n* Devansh's Twitter",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYXJ0aWZpY2lhbGludGVsbGlnZW5jZW1hZGVzaW1wbGUuY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5hcnRpZmljaWFsaW50ZWxsaWdlbmNlbWFkZXNpbXBsZS5jb20lMkZwJTJGd2lsbC1haS1kZXN0cm95LXlvdXItam9icy1saXZlc3RyZWFtcyIsInAiOjIwMzczMDUyNiwicyI6MTMxNTA3NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODMxNzMzOTEsImV4cCI6MjA5ODc0OTM5MSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.gAVqu07qR1B2C8ykQtgHxPlRjYS-KVSnurOF4Z7w_fI?"
+        },
+        {
+          "text": "Watch now",
+          "url": "https://substack.com/app-link/post?publication_id=1315074&post_id=203730526&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMzczMDUyNiwiaWF0IjoxNzgzMTczMzkxLCJleHAiOjE3ODU3NjUzOTEsImlzcyI6InB1Yi0xMzE1MDc0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.XJnHSNjyxFbhF05mw8ny3aDFTJ8EmfNlWduPuKFUXOM"
+        },
+        {
+          "text": "Will AI Destroy Your Jobs [Livestreams]",
+          "url": "https://substack.com/app-link/post?publication_id=1315074&post_id=203730526&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMzczMDUyNiwiaWF0IjoxNzgzMTczMzkxLCJleHAiOjE3ODU3NjUzOTEsImlzcyI6InB1Yi0xMzE1MDc0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.XJnHSNjyxFbhF05mw8ny3aDFTJ8EmfNlWduPuKFUXOM"
+        },
+        {
+          "text": "Devansh",
+          "url": "https://substack.com/@chocolatemilkcultleader"
+        },
+        {
+          "text": "Martin Ford",
+          "url": "https://substack.com/@mfordfuture"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/artificialintelligencemadesimple/p/will-ai-destroy-your-jobs-livestreams?redirect=app-store"
+        },
+        {
+          "text": "If you’ve found value in this newsletter, consider becoming a paid subscriber",
+          "url": "https://substack.com/redirect/40ed2b0d-76f7-4b7a-b809-388eb6a42be2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "We run on a “pay what you can” model",
+          "url": "https://substack.com/redirect/6e3bb797-cbf5-4406-95d3-185cfdc89227?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "use this email template",
+          "url": "https://substack.com/redirect/7241f4cd-1345-4ac9-bb71-6260774704b1?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "If you’d like to meet other members of our community, please fill out this contact form here (",
+          "url": "https://substack.com/redirect/1030b1a0-ef30-4680-9513-2e33034e4324?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Will AI Destroy Your Jobs \\[Livestreams\\]![](https://eotrx.substackcdn.com/o/a9f381e85542e9ad/p.gif?token=eyJtIjoiPDIwMjYwNzA0MTM1NDAyLjMuOGFiMTY1YThiZjkzZTgxYkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwMzczMDUyNiwidCI6InBvZGNhc3QiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMzE1MDc0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgzMTczMzkxLCJleHAiOjE3ODU3NjUzOTEsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.aZ3K3-kEQhus84H7FNAPZ9aHa1z8el8IGQxfU4sS9sY)\n\nWatch now (59 mins) | Martin Ford on Why Jobs Break From Consolidation, Not Robots\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"NLP Newsletter\" <nlpnews@substack.com>",
+      "subject": "🤖 AI Agents Weekly: Claude Sonnet 5, Grok Voice Agent Builder, LongCat-2.0, Hosted X MCP, Cursor for iOS, Claude …",
+      "date": "2026-07-04T13:57:22.000Z",
+      "summary": "## NLP Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic released Claude Sonnet 5, its most agentic Sonnet yet, built to plan, use tools, and run autonomously at a level that recently required larger, more expensive models. The new model is available as the default on Free and Pro plans and is also available to Max, Team, and Enterprise subscribers.\n* xAI launched Grok Voice Agent Builder, a no-code platform for creating human-like voice agents powered by Grok Voice. The platform allows users to build production voice agents without writing code and is available at a price point of $0.05 per minute.\n* Meituan open-sourced LongCat-2.0, a 1.6T model. This move is significant as it makes a large-scale model available for public use and research.\n* X shipped a hosted MCP server, expanding its offerings in the AI space. This hosted server can be used for various applications, including building and deploying AI models.\n* Cursor launched always-on iOS agents, enabling the development of more sophisticated and interactive iOS applications. This launch is notable as it brings advanced AI capabilities to mobile devices.\n* Claude Science app entered beta, marking another step in the development of AI-powered tools for scientific research and applications. The app is expected to provide advanced features for scientists and researchers.\n* Anthropic brought Fable 5 back, reviving a previously discontinued product. This move indicates a continued commitment to the development of AI-powered writing and content generation tools.\n* Z.ai shipped ZCode for GLM-5.2, a significant update to its coding and model development platform. This update is expected to improve the performance and capabilities of the platform.\n* Google dropped Nano Banana 2 Lite, a lighter version of its Nano Banana model. This move may indicate a shift in focus towards more powerful or specialized models.\n* Vercel added voice agents to AI Gateway, expanding the capabilities of its platform. This addition enables users to build and deploy voice-powered applications more easily.\n* WebKit shipped a Safari MCP server, providing a new option for developers working with Safari and AI-powered applications. This server can be used to build and deploy AI models within the Safari ecosystem.\n* Google introduced TabFM for tables, a new feature for working with tabular data in AI applications. This feature is expected to improve the performance and ease of use of AI models working with tables.\n* Bridgewater fine-tuned an expert-judgment model, demonstrating the potential for AI in financial analysis and decision-making. This fine-tuning is notable as it shows the ability of AI to learn from and replicate expert judgments.\n* OpenAI released GeneBench-Pro, a tool for benchmarking and evaluating the performance of AI models in genetics and genomics applications. This tool is significant as it provides a standardized way to compare and improve AI models in these fields.\n* NVIDIA split a 30B diffusion model, a notable achievement in AI model development. This split demonstrates the ability to break down large models into smaller, more manageable components.\n* Claude Code steganography sparked debate, highlighting the potential and risks of using AI for steganography and secret communication. This debate is important as it raises questions about the ethical and security implications of AI-powered steganography.\n* Microsoft launched its $2.5B Frontier Company, a significant investment in AI research and development. This launch is notable as it demonstrates a major commitment to AI and its potential applications.\n* AutoMem made memory a trainable skill, a breakthrough in AI research. This achievement has significant implications for the development of more advanced and capable AI models.\n* ClawArena benchmarked subagent orchestration, providing a new tool for evaluating and comparing the performance of AI models in complex tasks. This benchmark is important as it enables researchers to compare and improve AI models in areas such as multi-agent systems.\n* Qwen 3.6 won local development, a notable achievement in AI-powered development tools. This win demonstrates the potential of AI to improve and accelerate development workflows.\n\n### Notable Links\n* Subscribe to AI Newsletter\n* [AI Agents Weekly: Claude Sonnet 5, Grok Voice Agent Builder, LongCat-2.0, Hosted X MCP, Cursor for iOS, Claude Science, and More](https://substack.com/app-link/post?publication_id=103238&post_id=205055038&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNTA1NTAzOCwiaWF0IjoxNzgzMTczNDc1LCJleHAiOjE3ODU3NjU0NzUsImlzcyI6InB1Yi0xMDMyMzgiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.Z14lhdExGN9MwosTS-sMKw1SEN7g5tfJTCaQ-BPah4w)\n* Blog\n* Platform\n* Upgrade to paid",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9ubHAuZWx2aXNzYXJhdmlhLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZubHAuZWx2aXNzYXJhdmlhLmNvbSUyRnAlMkZhaS1hZ2VudHMtd2Vla2x5LWNsYXVkZS1zb25uZXQtNSIsInAiOjIwNTA1NTAzOCwicyI6MTAzMjM4LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MzE3MzQ3NSwiZXhwIjoyMDk4NzQ5NDc1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.xw4clxqiMHWNtESlrJfBlLaMrRwAqVCPz1aGI_yyuHY?"
+        },
+        {
+          "text": "🤖 AI Agents Weekly: Claude Sonnet 5, Grok Voice Agent Builder, LongCat-2.0, Hosted X MCP, Cursor for iOS, Claude Science, and More",
+          "url": "https://substack.com/app-link/post?publication_id=103238&post_id=205055038&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNTA1NTAzOCwiaWF0IjoxNzgzMTczNDc1LCJleHAiOjE3ODU3NjU0NzUsImlzcyI6InB1Yi0xMDMyMzgiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.Z14lhdExGN9MwosTS-sMKw1SEN7g5tfJTCaQ-BPah4w"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/nlpnews/p/ai-agents-weekly-claude-sonnet-5?redirect=app-store"
+        },
+        {
+          "text": "Blog",
+          "url": "https://substack.com/redirect/8a4a4df6-54cb-4090-a88c-30eee9aef5ad?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Platform...",
+          "url": "https://substack.com/redirect/8b226857-7a8f-49a9-b486-01e1025fc68f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9ubHAuZWx2aXNzYXJhdmlhLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGbmxwLmVsdmlzc2FyYXZpYS5jb20lMkZwJTJGYWktYWdlbnRzLXdlZWtseS1jbGF1ZGUtc29ubmV0LTUmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjNE16RTNNelEzTlN3aVpYaHdJam94TnpnMU56WTFORGMxTENKcGMzTWlPaUp3ZFdJdE1UQXpNak00SWl3aWMzVmlJam9pWTJobFkydHZkWFFpZlEuaEcxM2JzX3dIc3hTX2VUc0d1cDNNVWQ1OC01ck4xTlhPUFlYdGpWdGFLOCIsInAiOjIwNTA1NTAzOCwicyI6MTAzMjM4LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MzE3MzQ3NSwiZXhwIjoyMDk4NzQ5NDc1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.9GvD5RMg8L1feopsH22ynM2u2mE3FfQNV9WcZR1Frs8?simple=true&next=https%3A%2F%2Fnlp.elvissaravia.com%2Fp%2Fai-agents-weekly-claude-sonnet-5"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=103238&post_id=205055038&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNTA1NTAzOCwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODMxNzM0NzUsImV4cCI6MTc4NTc2NTQ3NSwiaXNzIjoicHViLTEwMzIzOCIsInN1YiI6InJlYWN0aW9uIn0.YwuFjesW23DGS6fBUiDimVbf9HvUL3YnBk7OPOUDJqI&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=103238&post_id=205055038&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNTA1NTAzOCwiaWF0IjoxNzgzMTczNDc1LCJleHAiOjE3ODU3NjU0NzUsImlzcyI6InB1Yi0xMDMyMzgiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.Z14lhdExGN9MwosTS-sMKw1SEN7g5tfJTCaQ-BPah4w&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvbmxwbmV3cy9wL2FpLWFnZW50cy13ZWVrbHktY2xhdWRlLXNvbm5ldC01P3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtcmVzdGFjay1jb21tZW50JmFjdGlvbj1yZXN0YWNrLWNvbW1lbnQmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0luQnZjM1JmYVdRaU9qSXdOVEExTlRBek9Dd2lhV0YwSWpveE56Z3pNVGN6TkRjMUxDSmxlSEFpT2pFM09EVTNOalUwTnpVc0ltbHpjeUk2SW5CMVlpMHhNRE15TXpnaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuWjE0bGhkRXhHTjlNd29zVFMtc01LdzFTRU43ZzV0ZkpUQ2FRLUJQYWg0dyIsInAiOjIwNTA1NTAzOCwicyI6MTAzMjM4LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MzE3MzQ3NSwiZXhwIjoyMDk4NzQ5NDc1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.hL5JvTtkEj6luUTimaoroPXMULltCYtIUXsepqcJBZw"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖 AI Agents Weekly: Claude Sonnet 5, Grok Voice Agent Builder, LongCat-2.0, Hosted X MCP, Cursor for iOS, Claude Science, and More![](https://eotrx.substackcdn.com/o/6a528101e68d424d/p.gif?token=eyJtIjoiPDIwMjYwNzA0MTM1NzIyLjMuM2Y3NjA1NTk0YmM4OGJkN0BtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDUwNTUwMzgsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjEwMzIzOCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MzE3MzQ3NSwiZXhwIjoxNzg1NzY1NDc1LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.nt9XHwyRV_XdfJ9oAUZi3PlioSc1gpGvC8QHACkGhH0)\n\nClaude Sonnet 5, Grok Voice Agent Builder, LongCat-2.0, Hosted X MCP, Cursor for iOS, Claude Science, and More\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "We try Google Docs' newest AI feature",
+      "date": "2026-07-04T15:06:00.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Google has released a new AI feature in Google Docs that allows users to listen to their documents being read aloud or generate an audio summary of their writing. This feature, powered by Gemini, can help users identify awkward sentences, improve writing flow, and quickly check if their main idea is coming across.\n- The feature has two modes: \"Listen to this tab\" which reads the document almost exactly as it's written, and \"Listen to document summary\" which creates a summary of the document and reads it back to the user. Users can switch between different voice styles, such as \"Coach\" or \"Persuader\", depending on the type of feedback they want.\n- The \"Listen to this tab\" feature only works for a certain number of words, so users need to refresh it before it reads new text. The \"Listen to document summary\" feature generates a new summary every time it's refreshed, which can be disappointing if the user liked the first version better.\n- The newsletter also mentions a tool called Thea, which turns study materials into smart flashcards and practice tests that adapt to how the user learns.\n- Additionally, the newsletter mentions Iceberg A23a, which was once the world's largest iceberg, covering almost 4,000 km², roughly twice the size of Greater London. After spending nearly 40 years stuck to the seafloor, it's finally breaking apart in the Southern Ocean.\n- The newsletter compares four AI models: ChatGPT, Claude, Gemini, and Perplexity, and provides a guide on which tool to use and when.\n- ChatGPT is OpenAI's consumer-facing AI assistant and chatbot, built on the company's GPT family of large language models. It remains a benchmark product and a direct competitor to Claude and Perplexity, especially in search, research, coding, and general-purpose assistant workflows.\n\n### Notable Links\n- ChatGPT Vs Claude Vs Gemini Vs Perplexity!\n- Thea\n- The Hustle\n- Starter Story\n- Marketing Against the Grain\n- The Science of Scaling\n- Futurepedia",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "How to use Google Docs' AI\n\n\\+ Gemini Vs Claude Vs ChatGPT Vs Perplexity!  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n04 Jul\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/guest_author/profile_pict"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "👀 New report cast doubt on China's robot success",
+      "date": "2026-07-04T16:06:16.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Weave Robotics has unveiled Isaac 1, a home humanoid robot priced at $8,000 upfront or $449 a month, which can perform tasks such as folding clothes, tidying up living spaces, and making beds. The robot can adjust its height from 3 to nearly 6 feet depending on the task and may require remote human assistance for certain tasks. Shipping is expected to begin this fall, starting in California.\n* A new CNN report has cast doubt on China's robot success, revealing that Chinese robots still require human operators to function and cannot yet replace workers on factory floors. Even leading manufacturer UBTECH's most advanced models can reportedly only achieve 80% of human productivity in certain constrained tasks.\n* Apptronik has announced a massive humanoid data factory called Robot Park, where robots will work real shifts in logistics and manufacturing to feed training data into the AI models that will power Apollo 3, the company's first commercial-grade humanoid robot, expected to be released next year.\n* NASA's Swift Observatory, a 22-year-old gamma-ray telescope, is falling toward Earth due to strong solar activity, and a private robotic spacecraft called LINK is preparing to grab it and tug it back to a safe altitude of 600 kilometers.\n* Pudu Robotics is opening the world's first fully robot-serviced hotel in 2027, where every guest-facing function will be handled by a fleet of specialized robots powered by a single AI platform.\n* ERNEST, NASA's four-foot prototype rover, has successfully navigated a field of boulders that would have stopped Curiosity and Perseverance dead in their tracks, demonstrating its ability to climb over obstacles entirely on its own.\n\n### Notable Links\n* [Weave Robotics' Isaac 1](https://www.weaverobotics.com/isaac1)\n* [Apptronik's Robot Park](https://www.apptronik.com/robotpark)\n* [Pudu Robotics' Robot-Serviced Hotel](https://www.pudurobotics.com/hotel)\n* [NASA's ERNEST Rover](https://www.nasa.gov/ernest)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🧹We're closer than ever to a chore-free life\n\nJuly 04, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGWVc8iNIVKANUngYPA6aYFrKkh3irJfLuXsNnLPf8mO2DESfRXB9anO6A8SQYeYTVjAD3OJOt2tfVrWaYeNCsA2X-hBA2oefunwuoEZGeMOIwg4n0q3uI2WmrrvZds5IrVJMzsbBF0pQPH9kt_b70JtKgaPR9D-AXm0YOXUuhTCZEaNeVY1AJUK7T5z8kQSBLULicNUJRBFj8l89tbbJcecPqVt2dpwUF8DzRSlge0Pow2yufKFvMFS4UnpvMMiIKKrYkZSMejruKjZFmbilB9dOQmI3fPiJs4it1kC51XkK7feUGpkzfOI9Ttsyfmx426h-PnK-Tt1uecsbQwttJV4hp7vtxPvwpfq716j9kP_o9CaD9koabmi3sAngDIMU0wwafJ_GP34JlkUSZMDqg5IYGOKNk5NM_ZJob_HClKlpwBvxVK5CjYgEBi_J9QvIZ-Rc6PMA8SZ57xYXA9IpVCmXd3yYiOXsh173UeMfYj4-X5mAvW4oaST_nTAAaVe_vWNfY5KFdnQ46LzD3DwmCHyxVv-UhM_E9G4vMcruM_x8d6DulFnqG0CgBDLHGSB-A2FZdbiK7CIxqLJ-GIgXriqX0g07U7bRnDocdU0xUdX2XXQGobsLTmD_hQWDdYy0cn0-SU-2G-8Xg8QorWi2yhaMOMpzzNVkkLzxlJzJDPhO0EQNQb7mII8rt3ME7e3Qhp04ND_dBnCGp11q-wasw2N5GDDWRX-v-crZ8gPQmZ8rP-WOgQ6cAL8LLMmJBGjwu0/4s1/3oFX0lN2Qt2lzKTnio0xjQ/h0/h001.ok1d_igUmt7QHuQoEynSVa8f8G3Xnr_j"
+    },
+    {
+      "from": "\"Uncovering AI\" <uncoverai@mail.beehiiv.com>",
+      "subject": "⛪ Thiel called the Pope a CCP asset. Over AI.",
+      "date": "2026-07-04T18:11:19.000Z",
+      "summary": "## Uncovering AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Peter Thiel accused the Pope of working for the Chinese Communist Party due to the Pope's stance on AI regulation, framing it as a national security issue and claiming that regulation would only slow down the US while China would not adhere to it.\n* Freedom 250, a Trump-aligned nonprofit, commissioned AI-generated portraits of the Founding Fathers, which have been criticized by historians for inaccurately depicting historical figures with modern beauty standards and anachronistic poses.\n* OpenClaw, an open-source agent framework, is being used for various tasks, including automation of repetitive research, outreach, and even dating, highlighting the potential for creative misuse of agentic AI.\n* Meta's next AI model, codenamed \"Watermelon,\" has reportedly caught up to OpenAI's GPT-5.5 on internal benchmarks, according to Meta's AI chief Alexandr Wang.\n* A cheap Chinese model called GLM-5.2 is quietly climbing developer leaderboards and reportedly sits just below Anthropic's Opus 4.8 in capability, at a fraction of the cost.\n* A school in Nebraska received a bomb threat from a caller using an AI-generated voice, in what investigators are calling a swatting incident.\n\n### Notable Links\n* Peter Thiel's statement on the Pope and AI regulation\n* Freedom 250's AI-generated portraits of the Founding Fathers\n* OpenClaw agent framework\n* Meta's Watermelon AI model\n* GLM-5.2 AI model",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "⛪ Thiel called the Pope a CCP asset. Over AI.\n\nPlus, OpenClaw is now everyone's AI wingman and it is getting weird fast.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 04, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/1AhLwJkBuuMdAOyH4mB%2FCLW5MFzBTEexMvWH4KbATNlupWuo%2Fr0p9vmtDQVu%0AhtatgdsbBt3a5Gifw5z1N6CNt4%2B%2Fl2WLSFf3J9wyE0CkD2XGaPgu4xM6lVWb%0ANu4ip0n0RutY5iYvAEQ20cGili4%2Ba0yaKn62CIaN2QfS8N6O1pX27x3YfRfy%0Axf5N7%2F6PUrS7BPe7HmYP0jjCoPXwk6VrYw%3D%3D%0A/9d06a07571d39283)\n\n# ⛪ Thiel called the Pope a CCP asset. Over AI.\n\nPlus, OpenClaw is now everyone's AI wingman and it is getting weird fast.\n\n![](https://link.mai"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 AI Voice Clone. $18K Stolen.",
+      "date": "2026-07-04T22:00:42.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A phone scam using AI voice cloning stole $18,000 from a father, with scammers posing as police and using a crying voice-clone to convince him his daughter was in jail.\n* Tesla has capped staff AI spending at $200 per week for outside AI tools, starting July 6, but exempted xAI products like Grok and Composer from this limit.\n* Anthropic is in talks with Samsung to produce a custom Anthropic processor, which would reduce reliance on Nvidia and mitigate chip shortages.\n* A live global spy map, World Monitor, tracks ships, jets, and cables in real-time, providing a 3D visualization of global events.\n* Claude rewards users for knowing their own unknowns, and a new test challenges users to spot AI writing from human writing.\n* Phil Chen discussed the work AI never grades, and an ex-OpenAI founder shared career advice for the AI era.\n* Stigg, a usage runtime for AI products, allows for real-time metering and entitlement logic, enabling launch of models and spend caps without deployment.\n\n### Notable Links\n* [World Monitor](https://www.worldmonitor.com) - a live global spy map\n* [Stigg](https://www.stigg.com) - a usage runtime for AI products\n* [Katalize](https://www.katalize.com) - installs and runs AI systems inside small businesses\n* [Hostinger](https://www.hostinger.com) - a website hosting platform\n* [Paraspeech](https://www.paraspeech.com) - turns speech into text on Mac\n* [GenFlik](https://www.genflik.com) - turns product links or photos into finished UGC avatar video ads\n* [OVOV](https://www.ovov.com) - generates 4K images with GPT Image 2 and Nano Banana 2\n* [EmpirioLabs AI](https://www.empiriolabs.ai) - hosts open and proprietary models on its own GPUs\n* [Lienhound](https://www.lienhound.com) - reads and enforces lien claims\n* [pxpipe](https://www.pxpipe.com) - renders Claude Code context as images\n* [Meetily](https://www.meetily.com) - transcribes and summarizes calls fully on-device\n* [Free LLM API Resources](https://www.freellmapi.com) - maps every provider handing out free tokens or trial credits\n\nNote: The newsletter is comprehensive, covering various AI-related topics, tools, and developments, making it a MEDIUM priority.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 AI Voice Clone. $18K Stolen.\n\nPhone scam steals dad's life savings, a live global spy map, Tesla caps AI spend, Anthropic wants a Samsung chip, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 04, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0ukrenwUHC2f-lW5-PlBWSJkaXYSraBB2byDqW7MAbD-qij-XKlkJixXnCKPmQZFeA1ZamjEM8bZvrT9chYp6u-DIcQKy4DL4AuYf_GIo3nZhEOi41Fys1Zj3_86-ntPqZaJbmn3AueybTqnwgjlpI1Mfl3dq87eohURhlWRDPWgaz7Rcvr6dY43fHIJIODrbTjGN-qg6z_4ZVcTJPa-Dn-KAOrP4x1l1rQLU2h4GIWUFSOzkndKPloL9dHh3H2i-8SIQQzhiJRrfKaPRdA9eSIdLL-DcA-_YLSI6Zrt56rmen"
+    }
+  ],
+  "tldr": [
+    "Anthropic released autonomous AI model Claude Sonnet 5.",
+    "Meituan open-sourced large-scale AI model LongCat-2.0.",
+    "China developed 1.6-trillion-parameter model on domestic chips.",
+    "Grok 4.5 entered private beta in SpaceX and Tesla.",
+    "OpenAI may offer US government 5% equity stake."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "DeepSeek-Lattice-KG",
+        "context": "I could not find a credible, direct public mention of a model or project officially named \"DeepSeek-Lattice-KG\" in the available recent sources, so the safest reading is that this refers to an inferred or internal label rather than a widely documented release. The closest relevant context is DeepSeek’s recent sequence of open-source and efficiency-focused model updates, including DeepSeek-V3.2 and V3.2-Speciale for agentic reasoning, as well as earlier V4-Pro/V4-Flash reports emphasizing stronger math, coding, and lower-cost deployment.[14][4][6]\n\nIf the newsletter description is accurate, \"Lattice-KG\" likely points to a compact language model augmented with a knowledge graph for lattice-structure design, which would fit DeepSeek’s broader direction: improving reasoning performance while keeping models efficient and deployable. That matters because AI tools for materials science and engineering increasingly depend on structured domain knowledge, and knowledge-graph augmentation can improve factual consistency and design search in specialized tasks; however, I could not verify any public launch, benchmark, or industry adoption specifically tied to \"DeepSeek-Lattice-KG\" from the provided sources, so any stronger claim would be speculative.[14][4][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "High-Flyer (Chinese quantitative hedge fund and backer of DeepSeek)",
+        "context": "High-Flyer is a leading Chinese **quantitative hedge fund** founded in 2016, registered in Ningbo with its main office in Hangzhou, Zhejiang.[14] It manages multi‑billion dollar assets and has historically used advanced AI models for trading and portfolio management.[4][13] In 2023, founder Liang Wenfeng spun out an independent research division called **DeepSeek** to pursue large language models (LLMs) and longer‑term ambitions around artificial general intelligence (AGI).[4][6][13] High-Flyer is widely described as the financial and computational backer behind DeepSeek’s rapid rise, acquiring thousands of Nvidia GPUs and channeling significant resources into frontier model development.[4][13]\n\nHigh-Flyer and DeepSeek matter in AI/ML because they have produced **cost‑efficient, high‑performance LLMs** that challenge U.S. incumbents like OpenAI, Google, and Meta. DeepSeek’s models (including DeepSeek-V2 and the recent DeepSeek-R1) are reported to **rival leading Western LLMs** while being trained on far fewer and older-generation Nvidia chips, with training costs around $6 million—far below typical frontier-model budgets.[1][3][9] Within days of launch, DeepSeek’s R1 platform climbed to the top of U.S. app‑store rankings for LLM apps, surprising observers with its performance and user adoption.[2] Coverage from outlets such as Reuters, the Financial Times, and others frames High-Flyer/DeepSeek as a major part of China’s push to narrow or erode the West’s AI lead, demonstrating that sophisticated foundation models can be built cheaply and outside the usual Big Tech ecosystem.[1][3][5][11]\n\nRecent developments include High-Flyer publicly **pivoting more of its focus from pure quant trading toward core AI research**, stating an explicit ambition to contribute to AGI and “AI technologies that benefit all of humanity.”[4][6] The hedge fund’s strong investment returns—averaging over 50% in 2025 across its funds—have further reinforced its financial capacity to sustain large‑scale AI experiments.[7][8] Industry impact is visible on multiple fronts: Chinese asset managers are now “beating High-Flyer’s path” and racing to embed AI into their own operations; global markets and Silicon Valley are reassessing assumptions about the capital intensity and geographic concentration of cutting‑edge AI; and policymakers are watching High-Flyer/DeepSeek as a case study in how financial firms can become frontier AI players almost overnight.[5][10][11] In short, High-Flyer has become both a **major AI user** (in quantitative finance) and a **frontier AI producer**, with its DeepSeek models influencing competitive dynamics, cost structures, and strategic planning across the global AI and fund‑management industries.[1][3][5][11]",
+        "source": "web search"
+      },
+      {
+        "topic": "Claude (Anthropic AI)",
+        "context": "Claude is Anthropic’s family of large language models, positioned as a frontier **general-purpose AI assistant and agent platform** that competes directly with systems like ChatGPT and Perplexity.[1][4] The latest generation centers on **Claude 4**, including the flagship **Claude Opus 4 / 4.6** and the mid‑tier **Claude Sonnet 4 / 4.5**, which Anthropic describes as setting new standards in coding, advanced reasoning, and agentic workflows for both consumers and enterprises.[4][5][14][15] These models power the Claude app, Claude Cowork, and integrate into business workflows for tasks such as financial analysis, document automation, and complex software use.[1][15]\n\nClaude matters because Anthropic is explicitly focused on **safety‑aligned, high‑capability models** and is pushing the industry toward agentic AI that can not only generate text but autonomously act on users’ behalf across devices and applications.[3][4][13][15] Recent developments include Anthropic’s rollout of features that let Claude **control a user’s computer (mouse, keyboard, and screen)**, open apps, browse the web, and manipulate spreadsheets, all under a permission and safeguards framework to reduce misuse risks.[3][13] Anthropic has also expanded the Claude Cowork ecosystem with **Dispatch** (persistent, cross‑device task orchestration), multi‑agent code review, and event‑driven “Channels” that feed external signals into running sessions, positioning Claude as a persistent, context‑rich digital colleague rather than a one‑off chatbot.[13][15]\n\nIndustry impact is visible on multiple fronts. On the enterprise side, firms such as **Goldman Sachs** are deploying autonomous agents based on **Claude Opus 4.6** for trade accounting, compliance, onboarding, and complex financial research, signaling growing confidence in Claude for regulated, high‑value workflows.[15] In legal and professional services, new Claude‑powered plugins and models have attracted attention—and some concern—for their ability to automate document review and legal tasks at scale, with media reporting that newer Claude releases are “scaring lawyers and legal firms” due to their speed and accuracy.[5][15] At the same time, Anthropic’s most advanced, security‑focused Claude variants have drawn **direct regulatory scrutiny**: the US government recently ordered a freeze on certain newly launched Claude cybersecurity models over fears of uncontrolled automated hacking capabilities, highlighting how Claude now sits at the center of debates about powerful AI, safety, and export controls.[6][9] Overall, Claude has evolved from a safer alternative chatbot into a leading **agentic AI platform** that is reshaping how organizations view automation, software usage, and AI governance.[3][4][13][15]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is OpenAI’s consumer-facing AI assistant and chatbot, built on the company’s GPT family of large language models. In the AI/ML market, it remains a benchmark product and a direct competitor to Claude and Perplexity, especially in search, research, coding, and general-purpose assistant workflows. OpenAI’s recent release notes and news coverage indicate that ChatGPT has continued to expand beyond plain chat into more agentic and tool-using behavior, which is important because it shifts the product from a question-answering interface toward an AI workspace.[6][13]\n\nThe most recent notable developments are OpenAI’s rollout of **Deep Research** in ChatGPT for multi-step web investigation, the release of newer model families such as **GPT-4.1** and **o3/o3-mini** for stronger reasoning and STEM tasks, and broader search-enabled functionality inside ChatGPT.[2][3] Industry coverage also reports OpenAI testing or preparing monetization changes such as ads for free users, which signals pressure to balance rapid product growth with revenue generation.[4][9] The broader impact is that ChatGPT continues to set the pace for the sector, pushing competitors to match its search, reasoning, and productivity features while also intensifying concerns about model quality, privacy, and commercialization in mainstream AI assistants.[2][3][8]",
+        "source": "web search"
+      },
+      {
+        "topic": "Perplexity (Perplexity AI)",
+        "context": "Perplexity is an AI-native **answer engine** that combines large language models with live web search to deliver cited, conversational responses, positioning itself as both a next‑generation search engine and a direct competitor to systems like ChatGPT and Claude.[9][10] Founded in 2022, it has raised substantial venture funding and is now one of the most discussed challengers to Google Search in consumer-facing AI, largely because it emphasizes transparency (inline citations) and real‑time information retrieval over static chatbot-style replies.[9][10]\n\nRecent developments center on Perplexity’s push beyond simple chat into **agentic, autonomous workflows**. The company has launched **Perplexity Computer**, described as a general‑purpose digital worker rather than a chatbot: it can take a complex task (research, reports, code, visuals, data aggregation), break it into subtasks, route each part to one of 19 specialized models, and then merge the outputs into a single result, reflecting a multi‑model orchestration approach aimed at higher reliability and autonomy.[13] In parallel, Perplexity has rolled out an advanced version of its **Deep Research** agent for Max subscribers, which external benchmarking claims is now among the strongest deep research systems compared with rivals like Gemini’s research agent, and it has introduced a **Model Council** feature to let premium users choose among different underlying models.[2][3]\n\nIndustry impact is significant on several fronts. Perplexity is frequently cited in the media and analyst coverage as a leading **AI search** and **answer engine** competitor, reshaping expectations around how people access information by blending search, summarization, and sourcing in one interface.[9][10][14] Its agent-like offerings (Computer, Deep Research) place it directly in the emerging \"AI digital worker\" and \"AI research assistant\" category, intensifying competition with OpenAI, Anthropic, and Google in both consumer and professional knowledge-work use cases.[3][13] Strategically, large cloud and tech firms have taken notice: coverage of Perplexity’s major funding rounds and partnerships underscores that incumbents see AI-native search and autonomous research tools as a key battleground, and Perplexity’s rapid product cadence—documented in its public changelog—suggests it will remain a prominent player in the AI/ML ecosystem.[2][9][14]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "China open-sources 1.6T-parameter frontier model trained entirely on domestic chips",
+        "summary": "A Chinese research consortium released a **1.6-trillion-parameter** large language model under an MIT license, emphasizing that the system was trained end-to-end on domestically produced accelerators and infrastructure.[2] The release positions China as less dependent on Western chips and cloud providers while making a frontier-scale model openly available to the global research community.[2]",
+        "whyItMatters": "For practitioners, this is a rare combination of frontier-scale capacity and permissive licensing, enabling experiments in fine-tuning, distillation, and evaluation that are often blocked by closed weights. It also signals rapid maturation of non‑US AI hardware and training stacks, which affects assumptions about compute access, export controls, and the long‑term geography of AI capabilities.",
+        "source": "BuildFastWithAI daily briefing on July 4, 2026 AI news[2]"
+      },
+      {
+        "headline": "Grok 4.5 enters private beta inside SpaceX and Tesla",
+        "summary": "X.ai’s next-generation model, **Grok 4.5**, is now running in private beta across internal workflows at SpaceX and Tesla, according to reports summarizing July 4 AI developments.[2] The deployment is framed as a step toward deeply embedding Grok into engineering, operations, and autonomy tooling before a wider external release.[2]",
+        "whyItMatters": "Grok 4.5’s early use in high-stakes, real-world engineering environments offers practitioners a preview of where large models are heading in terms of reliability, latency, and tool integration. If successful, this will strengthen the case for tightly coupling foundation models with vertical domains like robotics, manufacturing, and automotive, pushing expectations for AI-assisted engineering productivity.",
+        "source": "BuildFastWithAI July 4, 2026 roundup of top AI stories[2]"
+      },
+      {
+        "headline": "Meituan releases LongCat‑2.0 multimodal model under MIT license",
+        "summary": "Chinese tech giant Meituan launched **LongCat‑2.0**, a new open-source model released on June 29, 2026 under an MIT license and highlighted in July 4 AI news digests.[2] LongCat‑2.0 focuses on high‑context, multi‑document reasoning and is positioned as a strong open alternative for long‑context applications.[2]",
+        "whyItMatters": "Long‑context reasoning is becoming critical for codebases, legal documents, analytics, and multi‑step agents. An MIT‑licensed long‑context model from a large industrial player broadens the toolkit for practitioners who need to build commercial products without restrictive licensing and want to benchmark against non‑US models optimized for long sequences.",
+        "source": "BuildFastWithAI July 4, 2026 AI news summary[2]"
+      },
+      {
+        "headline": "OpenAI reportedly considers offering US government a 5% equity stake as part of IPO strategy",
+        "summary": "Reports on July 4 indicate that OpenAI is exploring a proposal to give the **US government a 5% ownership stake** as part of its path toward a public offering.[2] The move is described as an attempt to address mounting regulatory pressure and to formalize government oversight over frontier model development and deployment.[2]",
+        "whyItMatters": "If a leading AI lab ties equity to state oversight, it could redefine the regulatory landscape and the implicit social contract for frontier AI. Practitioners would need to anticipate more direct government involvement in safety rules, access controls, and export policies, which could shape model availability, compliance requirements, and acceptable use norms.",
+        "source": "BuildFastWithAI July 4, 2026 report on OpenAI governance and funding discussions[2]"
+      },
+      {
+        "headline": "Global VC funding hits record $510B in H1 2026, with OpenAI and Anthropic taking 43%",
+        "summary": "Venture reports cited in July 4 AI roundups show **global VC funding** reaching a record **$510 billion** in the first half of 2026, with **OpenAI and Anthropic together accounting for $217 billion**, or 43% of all startup capital in that period.[2] This concentration in two frontier labs is unprecedented in tech funding history.[2]",
+        "whyItMatters": "The extreme capital concentration around a handful of frontier labs shapes the ecosystems practitioners operate in: it influences which platforms dominate APIs, compute markets, and model standards. Smaller startups and open-source projects will increasingly need to differentiate on niche capabilities, data, or governance, while also planning around dependence on a few heavily funded model providers.",
+        "source": "BuildFastWithAI July 4, 2026 analysis of global VC and AI mega‑rounds[2]"
+      }
+    ],
+    "entities": [
+      {
+        "name": "DeepSeek-Lattice-KG",
+        "type": "product",
+        "context": "Mentioned as a compact language model with knowledge graph augmentation for lattice structure design"
+      },
+      {
+        "name": "High-Flyer",
+        "type": "company",
+        "context": "Mentioned as a Chinese hedge fund that released a large language model"
+      },
+      {
+        "name": "Claude",
+        "type": "product",
+        "context": "Mentioned as a competitor to ChatGPT and Perplexity in a comparison of AI models"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as a competitor to Claude and Perplexity in a comparison of AI models"
+      },
+      {
+        "name": "Perplexity",
+        "type": "product",
+        "context": "Mentioned as a competitor to Claude and ChatGPT in a comparison of AI models"
+      },
+      {
+        "name": "Google Docs",
+        "type": "product",
+        "context": "Mentioned as having a new AI feature that can be used for various tasks"
+      },
+      {
+        "name": "Gemini",
+        "type": "product",
+        "context": "Mentioned as a competitor to Claude and ChatGPT in a comparison of AI models"
+      },
+      {
+        "name": "OpenClaw",
+        "type": "product",
+        "context": "Mentioned as an AI wingman that is getting popular"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as wanting a Samsung chip for their AI technology"
+      },
+      {
+        "name": "Tesla",
+        "type": "company",
+        "context": "Mentioned as capping their AI spend in a recent development"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-07-05T00:30:50.744Z",
+  "dateString": "2026-07-05"
+}
