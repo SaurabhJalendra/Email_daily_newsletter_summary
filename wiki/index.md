@@ -95,6 +95,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agentmemory]] — Tom Dörr open-source persistent-memory layer for AI coding agents; 92% token reduction (May 2026)
 - [[ai-edge-gallery]] — Google on-device AI runtime for Android *(stale)*
 - [[alpamayo]] — NVIDIA open 10B autonomous-driving model family (Jan 2026 CES) *(stale)*
+- [[alphaevolve]] — Google DeepMind's teased Alpha-series extension into complex evolving/dynamic environments — long-horizon multi-step optimization across science + engineering (Jul 2026)
 - [[antigravity]] — Google's free agent-first VSCode-forked IDE built for Gemini 3 *(stale)*
 - [[antigravity-2]] — Google's I/O 2026 rebuilt parallel-agent desktop app + CLI + SDK powered by Gemini 3.5 Flash
 - [[anthropic-fellows]] — Anthropic's AI-safety research fellowship; 4mo / $3,850/wk / ~$15K/mo compute / 40% hire + 80% papers (Jun 2026)
@@ -168,6 +169,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
 - [[gemma-3-270m]] — Google's 270M small model for edge / on-device use (Jun 2026)
 - [[gemma-4]] — Google's open-weights family (E2B/E4B/12B encoder-free multimodal/26B MoE/31B Dense); 256K context; Apache 2.0; QAT weights for all sizes (Jun 2026)
+- [[genpage]] — Netflix's single-model end-to-end generative homepage (rows + titles + layout from viewing history; 20% serving-latency reduction) (Jul 2026)
 - [[github-agent-hq]] — GitHub's multi-agent control plane *(stale)*
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
 - [[glm-4-7]] — Zhipu AI open-source WebDev model topping open leaderboards Dec 2025 *(stale)*
@@ -300,6 +302,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[computer-use]] — models that drive GUIs directly *(stale)*
 - [[ethan-mollick]] — Wharton professor / One Useful Thing author; "co-intelligence" framer; *Co-Existence* book Oct 20 2026
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
+- [[forward-deployed-engineer]] — customer-embedded software/ML engineer role owning AI-solution lifecycle; from Palantir → OpenAI + Anthropic + AWS ($1B org) + Microsoft (Jul 2026)
 - [[humanoid-robotics]] — embodied-AI arms race: NVIDIA Isaac GR00T + OpenAI Robotics restart + Altman/Alfred + Amazon warehouse + Serve + China IPOs (Jun 2026)
 - [[john-jumper]] — Google DeepMind VP and 2024 Nobel Chemistry laureate (AlphaFold co-creator); departs for Anthropic in June 2026
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
