@@ -8,7 +8,8 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2026-05-13
-> **Last updated**: 2026-05-24
+> **Last updated**: 2026-07-06-evening (**AI Supremacy "The Token Apocalypse" essay reanchors SpaceX orbital DC ambition as *"space-based AI computing and orbital data centers, including the deployment of up to 1 million 'AI satellites'"* offering *"massive, scalable, solar-powered capacity and global low-latency connectivity for AI workloads"* + DayTrading Dispatch reframes SpaceX's Nasdaq-100 inclusion as tied to the orbital-DC AI-infrastructure thesis. First publicly framed *"AI satellites"* explicit lexical anchor on the prior 1M-satellite FCC filing (productizes the S-1 filing "1M satellites" number into an *"AI satellites"* naming convention consistent with this topic's narrative). See [[spacex]] + [[ai-bubble-concerns]] — *source: data/summaries/2026-07-06-evening.json (AI Supremacy "The Token Apocalypse"; DayTrading Dispatch "SpaceX heads for your 401k")*)
+> **Previously updated**: 2026-05-24
 > **Status**: active
 > **Related**: [[spacex]], [[google]], [[project-suncatcher]], [[anthropic]], [[xai]], [[ai-hardware]], [[nvidia]]
 
@@ -18,6 +19,7 @@ Orbital data centers — putting AI training/inference compute into space — mo
 
 ## Timeline
 
+- **2026-07-06-evening**: **AI Supremacy "The Token Apocalypse" essay lands first publicly framed *"AI satellites"* explicit lexical anchor on SpaceX's 1M-satellite FCC filing + reanchors orbital DC capacity framing as *"massive, scalable, solar-powered"* + *"global low-latency connectivity"*. DayTrading Dispatch confirms SpaceX Nasdaq-100 inclusion pairs with the orbital-DC AI-infrastructure thesis.** Michael Spencer HIGH: SpaceX's plans include ***"space-based AI computing and orbital data centers, including the deployment of up to 1 million 'AI satellites'"*** offering ***"massive, scalable, solar-powered capacity and global low-latency connectivity for AI workloads"***. First publicly framed *"AI satellites"* explicit lexical anchor in this wiki — productizes the S-1 filing "1M satellites" number into an *"AI satellites"* naming convention. Sits inside Spencer's *Token Apocalypse* framing where orbital compute becomes a *supply-side alternative* to constrained terrestrial data-center capacity + water/power resource limits (see [[ai-bubble-concerns]] UN 945 TWh + 9.3B liters water framing). DayTrading Dispatch pairs the orbital DC framing with SpaceX's Nasdaq-100 inclusion under fast-track mega-IPO rules — reads as the orbital-DC AI-infrastructure thesis becoming a load-bearing pillar of SPCX's index-fund investor thesis. See [[spacex]] — *source: data/summaries/2026-07-06-evening.json (AI Supremacy "The Token Apocalypse" — SpaceX space-based AI computing + orbital data centers + 1M "AI satellites" + massive scalable solar-powered capacity + global low-latency connectivity for AI workloads; DayTrading Dispatch — Nasdaq-100 inclusion + orbital DC thesis)*
 - **2026-05-24**: SpaceX S-1 filing details: up to 1 million solar-powered "orbital data centres" possible as early as 2028; FCC approval requested for satellite buildout — *source: 2026-05-24 cycle (Technology News — SpaceX going public at $1.7T; Anna's DayBreak — Market Recap May 16-23)*
 - **2026-05-22**: NVIDIA confirms new computing modules for space-based data centers and satellite constellations — *source: 2026-05-22 cycle (Mindstream — Nvidia isn't stopping)*
 - **2026-05-20**: SpaceX reframes itself as a top-tier AI infrastructure name during IPO pre-filing window; orbital DC pitch central to the $1.75T valuation thesis — *source: 2026-05-20 cycle (Evolving AI Insights — 1946 Math Problem; Forward Future)*
@@ -44,6 +46,7 @@ Orbital data centers — putting AI training/inference compute into space — mo
 
 ## Sources
 
+- data/summaries/2026-07-06-evening.json (AI Supremacy "The Token Apocalypse" — SpaceX 1M "AI satellites" orbital DC framing; DayTrading Dispatch — Nasdaq-100 inclusion + orbital DC thesis)
 - data/summaries/2026-05-13.json (TLDR; Evolving AI Insights)
 - data/summaries/2026-05-14.json (FutureTools; The Rundown AI; Forward Future)
 - data/summaries/2026-05-15.json (Cerebral Valley; AINews)
