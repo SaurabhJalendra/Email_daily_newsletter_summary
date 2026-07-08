@@ -77,6 +77,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[softbank]] — Japanese investment group; OpenAI's largest single capital backer (Vision Fund + Stargate JV + ~11% stake); 2026-06-28 strategic-partnership announcement for AI infrastructure + telecom/enterprise deployment with [[openai]]
 - [[spacex]] — Musk's space company; xAI parent; S-1 filed at $1.7T (SPCX); orbital DCs + Anthropic Colossus 1 lease
 - [[suno]] — Cambridge-based AI music-generation startup; $400M Series D at $5.4B led by Bond Capital (Jun 2026); Warner settled, Universal/Sony lawsuits ongoing
+- [[terawulf]] — US-listed compute-infrastructure operator (former Bitcoin miner pivoting to AI-DC hosting); $19B multi-year Anthropic AI-infrastructure lease deal + initial capacity 2H 2027 (Jul 2026)
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
 - [[together-ai]] — open-source AI infrastructure company; $800M @ $8.3B (Jul 2026) — "cheap open-source plumbing" thesis for making frontier AI accessible
 - [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
@@ -323,6 +324,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos *(stale)*
 
 ## Trends
+- [[ai-biosecurity]] — pandemic-uplift-warning + bioweapon-uplift capability concerns on frontier LLMs + emerging AI-safety subdiscipline of biological threat model interpretability + refusal-training + evaluation (Jul 2026)
 - [[ai-bubble-concerns]] — institutional warnings vs $1T/$5T deal flow; AI token costs +65% YoY; AIDE 4-of-500 S&P perfect-AI-usage score (Jun 2026)
 - [[ai-distillation-attacks]] — industrial-scale model-extraction campaigns; Anthropic-vs-Alibaba 25K-account / 28.8M-exchange / 45-day accusation as first publicly named bilateral incident (Jun 2026)
 - [[ai-funding-rounds]] — major AI sector financings; SoftBank, AWS, Google-Anthropic, Mercor
