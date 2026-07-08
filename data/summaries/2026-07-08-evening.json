@@ -1,0 +1,402 @@
+{
+  "date": "2026-07-07T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Wednesday, 8 July 2026\n\n## 🔥 Top Stories\n1. **Anthropic releases Claude Fable 5, its most powerful public AI model, with significant improvements in performance and capabilities** — This matters because Claude Fable 5 demonstrates advancements in AI technology, offering enhanced capabilities for tasks such as stock analysis and potentially revolutionizing industries that rely on AI-driven insights.\n2. **Meta launches Muse Image, a new AI image-generation model that can reason through prompts and support in-image editing** — This matters because Muse Image showcases the evolving capabilities of AI in creative fields, enabling more sophisticated and interactive image generation that can be integrated across various platforms.\n3. **China implements new regulations on AI companion agents, requiring anti-addiction systems and real-time dependence detection** — This matters because these regulations highlight the growing concern over the impact of AI on society, particularly in terms of addiction and dependence, and mark a significant step towards governing the development and use of AI technologies.\n4. **GPT-5.6 is released, marking a significant shift in AI model accessibility and performance** — This matters because the release of GPT-5.6 indicates a major advancement in AI technology, offering improved coding and cybersecurity capabilities, and its broader availability could democratize access to powerful AI tools.\n5. **Beijing considers restricting overseas access to its most advanced AI models, treating frontier AI as a national security asset** — This matters because such restrictions could significantly impact the global AI landscape, affecting the development and deployment of AI technologies worldwide and potentially leading to a more fragmented AI ecosystem.\n\n## 🤖 AI Models & Research\n- Lilian Weng summarizes 35 papers on Harness Engineering for Recursive Self-Improvement (RSI), emphasizing the importance of harnesses in achieving reliable and scalable AI performance.\n- NVIDIA releases Audex, a 30B parameter / 3B active MoE model for unified text and audio work, focusing on preserving text intelligence while adding broad audio generation and understanding capabilities.\n- The field of agent RL and verification is becoming more specialized, with a growing emphasis on removing specific failure modes and improving reasoning reliability.\n- Anthropic extends Fable 5 and shares a blueprint to run it for half the cost, introducing an orchestrator pattern that achieves 96% of Fable 5's results at 46% of the cost.\n\n## 🛠️ Tools & Products\n- Anthropic announces Claude Cowork, a task-running background teammate, and Claude Fable 5, which offers improved performance and features.\n- Google launches its Gemini API with Managed Agents, adding features like background execution, remote MCP servers, and custom function calling.\n- Figma acquires the team behind AI app-builder and agent platform Bud (formerly Orchids).\n- DoorDash details DashBench, an internal benchmark that tests AI code reviewers against past code changes.\n\n## 📰 Industry News\n- Alibaba bans Anthropic's AI tools due to security concerns and places Claude Code on a high-risk software list.\n- Illinois enacts the Artificial Intelligence Safety Measures Act, requiring the largest AI model developers to assess catastrophic risks and report serious AI-related incidents.\n- Microsoft replaces some OpenAI and Anthropic models with its own MAI to cut AI costs.\n- The EU Commission presents an AI Action Plan, addressing cybersecurity risks from advanced AI models.",
+  "totalNewsletters": 10,
+  "newsletters": [
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+      "date": "2026-07-08T02:20:26.000Z",
+      "summary": "## AINews\n\n**Priority: HIGH**\n\n### Top Updates\n* Lilian Weng, a leading AI researcher and safety expert, has summarized 35 papers on Harness Engineering for Recursive Self-Improvement (RSI), emphasizing the importance of harnesses in achieving reliable and scalable AI performance.\n* Weng's post highlights the need to specify goals and context in harness design, even when many harness improvements get internalized into the core model, and notes that harness engineering will likely evolve in the direction of self-improvement and enable auto-research.\n* Meta Superintelligence has achieved a significant milestone with its Muse Image and Muse Video models, ranking #2 and #3 on Image Arena and Video Arena, respectively, and demonstrating strong image and video generation capabilities.\n* NVIDIA has released Audex, a 30B parameter / 3B active MoE model for unified text and audio work, with a focus on preserving text intelligence while adding broad audio generation and understanding capabilities.\n* The field of agent RL and verification is becoming more specialized, with a growing emphasis on removing specific failure modes and improving reasoning reliability, as seen in Liquid AI's Antidoom release.\n* Anthropic has expanded its Claude platform with the introduction of Claude Cowork, a task-running background teammate, and Claude Fable 5, which offers improved performance and features.\n* Google has launched its Gemini API with Managed Agents, adding features like background execution, remote MCP servers, and custom function calling, and allowing for more seamless integration of AI agents into workflows.\n* The use of harnesses and agents is becoming increasingly prominent in the development of domain-specific systems, such as in robotics, media generation, and scientific research.\n* Interpretability and model internals are also being explored, with the introduction of block-sparse featurizers and cross-model J-lens universality, highlighting the growing importance of understanding and analyzing AI models.\n\n### Notable Links\n* [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-…)\n* Muse Image and Muse Video\n* Audex\n* Antidoom\n* Claude Cowork and Claude Fable 5\n* Gemini API with Managed Agents",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWluZXdzLWxpbGlhbi13ZW5nLXN1bW1hcml6ZXMtMzUiLCJwIjoyMDU5ODQxNDYsInMiOjEwODQwODksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzNDc3MzM4LCJleHAiOjIwOTkwNTMzMzgsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.XbyLbw6B68BwL7YwwWJwEAx-ACRdEEEfJMLpLuRXV_0?"
+        },
+        {
+          "text": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=205984146&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNTk4NDE0NiwiaWF0IjoxNzgzNDc3MzM4LCJleHAiOjE3ODYwNjkzMzgsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.p87SV32Ccz6mAitovcVpH36rGVAFVUc04kDzlNXEZEA"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ainews-lilian-weng-summarizes-35?redirect=app-store"
+        },
+        {
+          "text": "having the top 2/3 image/video models",
+          "url": "https://substack.com/redirect/1629df19-b9f4-486b-a73e-868dadc11311?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "the Microsoft MAI models from last month",
+          "url": "https://substack.com/redirect/d6a4d2da-0d11-4a49-a13b-39c531ab0128?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Lilian Weng fans",
+          "url": "https://substack.com/redirect/26768401-5cd8-4f8a-bf80-5b80f634f8cb?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Lilian Weng@lilianwengnew post on harness engineering for AI self-improvement: lilianweng.github.io/posts/2026-07-… It is hard to forecast how much the future of RSI will rely on harnesses. Likely harness engineering will evolve in the direction of self-improvement and enable auto-research, and, in turn, smarterlilianweng.github.ioHarness Engineering for Self-Improvement5:58 AM · Jul 7, 2026 · 405K Views72 Replies · 534 Reposts · 3.89K Likes",
+          "url": "https://substack.com/redirect/219a0135-a970-4033-bf43-2d92e6dbf7e6?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "even Greg Brockman is now quietly endorsing agent/harness engineering",
+          "url": "https://substack.com/redirect/fa4e1a4d-f835-4072-aab9-e52567899cae?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Her post",
+          "url": "https://substack.com/redirect/b83d3fad-dd09-4e94-a742-acdf63f22e31?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "known ACE paper",
+          "url": "https://substack.com/redirect/8cf6f18f-421c-4758-afb2-0742baf94815?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "\\[AINews\\] Lilian Weng summarizes 35 papers on Harness Engineering for RSI![](https://eotrx.substackcdn.com/o/da5b13aeabbe936a/p.gif?token=eyJtIjoiPDIwMjYwNzA4MDIyMDI2LjMuMmY2NDQ4MGIyNzViMzNiNEBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDU5ODQxNDYsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjEwODQwODksImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODM0NzczMzgsImV4cCI6MTc4NjA2OTMzOCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.0MqiITF6RLbmT2j4wtciaNXgo53-PWSfy2lYMcK-7Bg)\n\na quiet day lets us read some condensed insight\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "1 new notification since 8:15 am (Jul 7, 2026)",
+      "date": "2026-07-08T02:47:47.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nate Herk has posted a new video, \"How I Make Opus Think Like Fable (5 easy steps)\", which shares insights on how to extract the process of Fable and apply it to Opus 4.8, enabling users to elevate its performance by utilizing effort levels and setup techniques. This update is relevant to AI practitioners as it provides actionable steps to improve the capabilities of Opus, an AI model.\n- The video is particularly timely given that Fable 5 is set to return to a subscription-based model, making the ability to replicate its functionality in other tools like Opus valuable for those looking to maintain access to similar capabilities without the cost.\n\n### Notable Links\n- None directly referenced in the summary, as the primary content is a video post within the AI Automation Society group, focusing on the application of AI technology to enhance model performance.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3DAvdK_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXPFjLpISIfB5MZWqb5oPcIzJwD6o02kNgZGInNiHTHDE-2B-2Bmz6cVDRyTHpXanODSBTmMfJlIwiRIapLq92DYPGZHQMNqCGoo-2B5V1b0qDhpCBtDfPvnEqGHEoSh58498Kde-2FVxrepsWHQvydIiYnSG6UDlMVKYG6tuHE7UClVxfnrKxdIggne-2BSxtADc69CJz-2FOtcYnOnhnzbTFcs-2FvQbkgNyj3o1n21L77GxhtXrq9D41fAAfYHx3rN1uyhKd04WQLdHsy0UTIOKZUUfPruVhBliXOw-2FL2-2BunsSkRhjr5GBIVYjmknSwQPIiytTHmG4D21MBee5L"
+    },
+    {
+      "from": "\"World of AI\" <newsletter@intheworldofai.com>",
+      "subject": "China is RESTRICTING AI! 👀🚧",
+      "date": "2026-07-08T04:56:19.000Z",
+      "summary": "## World of AI Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- China is implementing new regulations on AI companion agents, targeting those that simulate human personality for sustained emotional interaction, which will take effect on July 15. This has led to ByteDance's Doubao and Alibaba's Qwen shutting down their companion agent features entirely, rather than complying with the regulations.\n- The regulations require anti-addiction systems, mandatory AI-disclosure notifications, and real-time dependence detection, which are incompatible with the design of companion agents that rely on persistent memory and ongoing relationships.\n- The new rules spare customer-service bots, knowledge Q&A, workplace assistants, education tools, and research tools, as long as they don't drift into ongoing emotional attachment.\n- Enforcement is already live, with Shanghai authorities removing over 14,000 non-compliant agents tied to impersonation and privacy violations.\n- California's SB 243, the first US companion-AI law, took effect on January 1, but Beijing's enforcement is stricter and mandates data deletion.\n- Companies like ByteDance, Alibaba, and Tencent are affected, with Tencent's Yuanbao having already pulled a similar feature in June.\n- The regulations aim to prevent unhealthy dependence on AI companions, with requirements including anti-addiction systems, instant-exit mechanisms, and real-time detection of self-harm or suicidal behavior.\n\n### Notable Links\n- [Superhuman AI](https://www.superhuman.ai) for 200+ Claude prompts to maximize productivity\n- [Tencent HY3](https://www.tencent.com/en-us/products/hy3.html) for information on the open-weight model \n- [Book a free AI consulting call](https://elink9ea.intheworldofai.com/ss/c/u001.dr13V4H10E-Jo8xtnosiafVC6nEF8hif9ASMzZyRmJmVkTO947MnczggmD8sPn4OmtnRFuYA-bBvNDF_-4tpmztHPOGGMmcZEj5VkyjAcpwnR-iGi_4Clap2eaCB63t0MjRg7fe_NjPQfVCON7_C1Vn_AbN9ndiXbT-qMG4U30xGYVf4WzqCXVYNo-MDp8Wic05_VFie5__LDUS-6W5GYTxxb6uOA7LM011oxL3s6qCcXEwPAKgw4EpTBG-WXn6f/4s5/4yP_XLqXRemuxMWAVeQ5YA/h14/h001.WvedYGrqb2Wv1XAVuh5pJP9w4UEfGvgOCdoXE4hjd3o) for AI consulting services.",
+      "links": [
+        {
+          "text": "Listen online",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIs8hJPvCUSmybSsdRZ13FaJhfD44yTfhoNpaQ0FqstkNc9sn8lQQHEzbA0lezqDyW-RqIuOCCVxXOc_ugtUvXFJLWY_9-f2SRrporeimP2anpUDzBkFifmc_ntj7lr6rgM_I7kMyDuBGOcFgKOXYJtHP8aI3LfaP4HmsybdG7CnPrn3pFNmnn7l-naU0i-VD93Acqtr78cwBifKjPjwn83r_rjfBGLRTu_ojIMe00NGGI7did3sRJciVAD6CZj7V6TmwM9QTmus63VVso0t2dX44WF3wHF_SHbGSeowAFGoU6IpBDqBzk9AjQAlFGOY-t81o3byQmpLWeSMuTJpwb9BEgAF0CNfLUllzu2gY5DnhbPHTrxyHtEzHq7fHrspAZyW5ViFlJc8mTOrDUiC-lOPMFZald_Yl0q5gd_4BsASraLTbz2sKz5ArHL80A2yWliNO_AVdl6LpbxooYEKJeqlQPnvAcen9xuoQbkBfYBVp-2QyIuxg4HXkJcdlVAR3SH6UHfUOjgKJFOhmKHdfZNg-08X5YNwuQ34yAB8Fg-XG60jLxKDyQBDjc5MZ4gayRMYj5G1lUCeBtOHJMXbkTfCi8iTc71VtNASe2K_p7O0aWk-wTS58KY4IO4BpfghdT65O-OBk6BgiqY2pVjkZsLHmVmL149euSHm-SN_IaXAfy6Ycun0H0cT_Ahx5bfIv4isxpq0GCOrA6JoWJ4_bJQZso0odJcsi0hpwLb0BdzSSQ/4s5/4yP_XLqXRemuxMWAVeQ5YA/h0/h001.frQ6wunDbHSlmvB4ghVRqW7r2SdaHqNvkrFlswEl6tM"
+        },
+        {
+          "text": "Superhuman AI",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.nveyZT5WXC8nu3H7vNsg-bdbaY_EuuGogsaHh_-i8JiyGlaR3HND_CWxms_5ZfNF0Az8YrllqXLQB6tC7gaVZxuueGRgtBb1LrIteLk10AiUKGPcuT37uHNQb1uCN0QG4VE6J1nhPpfWGNJE0LHHojA_lXuAJ01KRkYCFPxispyofl-7NBzgKtTitcTL3P4kvOXkLTzW34KAPklAXEoTcbEHKr6KEBnt_zdxqb8Ymy73vgLVJ3FBILEaNyHhWlCk775I2B8EN2N0_9lzx_GPyivOAJeWokJk3fFU9Pc32bmIcJIfz_ARifliozps98eCeWN1siFQ0uS4ujHfa7kaJm4OmQhvmAXs03oS67psUrn-SSRCnC_1xO73d53W5PUkGTdxk4XR0jyyP56UKDsrzWzxdBQ91E8XQRDsM3dJlKjGae2-FEllsJZzDvdWyXvahfvduvduJ5ZJEkb4lRch-kBxWDOnoh4tzqiupRB7oK2GgzB5h4HdtTxy-CshXuPj4wEDhtpG9HpWQh60Z4cSVViQ6WnmHn_jXgauuA0lBoblqWYjM33vKJBVKp_QliQrRRPQE--8vM6wrctLFsrAjjCWsftj-chW4iAasM6fFvPU-vG_rkpqU4qg29lVRPVY/4s5/4yP_XLqXRemuxMWAVeQ5YA/h4/h001.DjJncazD05k74tcrTF2v_2IRi_jnT4AyWue_WlM5k2A"
+        },
+        {
+          "text": "Claim your free prompts",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.nveyZT5WXC8nu3H7vNsg-bdbaY_EuuGogsaHh_-i8JiyGlaR3HND_CWxms_5ZfNF0Az8YrllqXLQB6tC7gaVZxuueGRgtBb1LrIteLk10AiUKGPcuT37uHNQb1uCN0QG4VE6J1nhPpfWGNJE0LHHojA_lXuAJ01KRkYCFPxispyofl-7NBzgKtTitcTL3P4kvOXkLTzW34KAPklAXEoTcbEHKr6KEBnt_zdxqb8Ymy73vgLVJ3FBILEaNyHhWlCk775I2B8EN2N0_9lzx_GPyivOAJeWokJk3fFU9Pc32bmIcJIfz_ARifliozps98eCeWN1siFQ0uS4ujHfa7kaJm4OmQhvmAXs03oS67psUrn-SSRCnC_1xO73d53W5PUkGTdxk4XR0jyyP56UKDsrzWzxdBQ91E8XQRDsM3dJlKjGae2-FEllsJZzDvdWyXvahfvduvduJ5ZJEkb4lRch-kBxWDOnoh4tzqiupRB7oK2GgzB5h4HdtTxy-CshXuPj4wEDhtpG9HpWQh60Z4cSVViQ6WnmHn_jXgauuA0lBoblqWYjM33vKJBVKp_QliQr59WfQGjAOpZ-VQfTS_ikdPWP9nKynWUHVLVOYdLMmKUieUSL6_NkcmQTkFGzg8Jj/4s5/4yP_XLqXRemuxMWAVeQ5YA/h5/h001.P7Imywk2NuIHCzTy5QeCkcE-LFUN7u-r7wwmQqJvVFA"
+        },
+        {
+          "text": "✅ I Really Liked it!",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofItm4SDEJHLrxAnYRbSZGtrw86SUlnDrF4kHuybVpNbbhBpI9VL6Jq_uns_LZhE0wFYykBgojPL-w4YPtmP4h3sW1AKA50MPc36va0b9MLZwkYgwj9FEevOge4augVfwcE7FAK6E2l3n4EdGiZDptqQAfBh5iQ6HdafyER3hPYoC03W8uHzc73avMsqBNhOCd2bWoZ-FdRJgp-vTLwqBzWO83l2zJ8lUAqLRCQ5doCOwMbMR0kJIDCkUKeA3XycLF71WBAX9eTbkAe3eO6Hqkrq4R0G6M0YIZPbfGcdb0tq5O-BSDH2DhoOKdP9-3a_796GvWjuq1E0duFrlDhBQeyqkMCG8m3ZEYK-TS9B8_LpjlNoR9-quP1KARatswhE20tyrRx7vqtjNWHBQFpoTRgz4CuGBqh_U6dt_lwucGUmKh-b-5lS8oaeqQaPmM4jTGikzIniwIG9Wj6IR4RXQ9uCmTRU7O5stpF5ScZ_Z3a8Gnnyv0jH6iofwjtcbm7zfav5G9jZmgv04Nk18uRiq81jwCIwDHTs03vg6FGHdIwzXekkIws4CC076F4E9ajz2pbgQeNj8t-FWN_1yIta3S_nfhp29v1KAhg3WoIx1i6PPIPrCU42Yx7sUqncPLFMHZf67-QuRvBskGUnZBKxyC1Yd5uJpLTmnGaVQehRfaWGUXe5hkytJ-6aBCu8d7TtkyK-zkMq2tJOTPabTyvZiPMxp4nIBFTxxDMbSRCC4TDbs6hSU2LPUbPw0GNKvNqw2K0vZnpgVLhVHIRyeBWlXolszK9XrJAOGL8vjDQXFBYv6LAf2BZMwpIdBlBJiCkpCikGQ16QByXwN2c4kKengE6snz4_eZM3S0zRq2nijGI-Ya9_8C3rdWZoHN8bkwut_aBKsFJfvk9yVaN5pnfz-B1YK3oNdXqNDhtcsSRzHHLNRsAh7G5SiU_Wng_zaKwtCDicRANh-gJEXESYxtF-FnJb4WgSaxNUcyXHrMD0oW4wjHA/4s5/4yP_XLqXRemuxMWAVeQ5YA/h6/h001.b6qUTfWu0GWSJzcaZ2sV_bnFwYZdGnvbvMBQkdC4g7k"
+        },
+        {
+          "text": "🚀 Solid, keep going",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofItm4SDEJHLrxAnYRbSZGtrw86SUlnDrF4kHuybVpNbbhBpI9VL6Jq_uns_LZhE0wFajR0G87R0K5KjqSvnnODh16mGXM0eekwCYRoju88LIDBsQfLzpbESWZxZoJce4KulcBbxbopc4EZ49wGA2ut_u5uM17ukNvxY07-7PwZq3j4a6hDkjfSuKvnN0CKrNYigs8YH_CCtXfK6MJDTpycZXwHdNvqUJ4h-NE-4XkNPg_HY6L8mCuxKtrWyAIr-RkoYEvUCopgzFioXOzYiVEPzwlrVzg1ftLLXhhOyf0Ykd9n5fbIjvw-iomOhHsjiOrkyYOzqyWq27Ayr80SEiR2xEYJVLFywN8dYg0tfMLsvl8rMWwQoMU9FeWsZ66nuyyn_SI5Ra0wgHBNMjyV5gEXilDw_U-0HQLaYydiF87tln3W0K9SpFiBEjbI3sJ5zY_z1joVRNU7VGaRvLCApd-9NStqahPC2jsEfGpueWFMGptUp6CDNnXKNO5i2FzbtUvM5FlCyvuBMG5XIi9QyFDpubxd2rPIdzo3lkjsOa8PIiA51Dcnw_hEwM4iUzwGqjTbOeulFGilz4O02wd1yE2q3zfXXsfTv1i7DAwZbpGiy-qaWBjns_VaFW8xY1JtP5elqTqF9-spf3M3-DjKAZMAhPO2Kmax6hzOyZb86B9JG6bfbBC234B4pFUaZKB4U3WDHrWZyy_K3EaO_57Qre9taFQLsSMLdbGvHRVxijIvypnsZeT4Qcvzv9j2AUYWaQtyeD20iaMkNY9TU-oJSpSX4YEIDs1Az2xwkf5d4daLU01Q6VZnTD8oQuKA6d6yM1nu6sC6CokEf6wlK9PjhD3UjDJUo_w8obKLmFQWM8s2Lx277rzFAExcU_lGlij6JtC0hlYkfBjTsFGz9XDiKqXH2mD01iQkGPwUKEE3NIb8HjpeTYnwkgI9ZxN1PNIlGrm2iQ1TaAfZ15of8nKOe9jJttve6CmxBdHxLNB1d0hEBWIQ/4s5/4yP_XLqXRemuxMWAVeQ5YA/h7/h001.BGAy6zz0LOagzJ-CJQ2WS80pzTEoRFSFjHmhisqEx_M"
+        },
+        {
+          "text": "🤔 Could be better",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofItm4SDEJHLrxAnYRbSZGtrw86SUlnDrF4kHuybVpNbbhBpI9VL6Jq_uns_LZhE0wFbmeB39M7byXW7nIcZ18BphbV64TZDL5yOWyKzeF6eoEF2u1ktmwqaG_rO6MXHGJb-LZhcjIT0S_Tkzuu38lVgQWUKiLJP-gkOTCHFJrcWsOQuVNHKdcPDAttmzs_pz2f2IrMMHK2YAJqmFgyMD8j4SgQOU8xoJgMBsRXJ6PKDFTQl794dylh0L2eG3uO4JU-THJPYJGEbQHrKrOScwamVOnOWcsWynzsc6vZU9owXqeizFQnD00-evXBCIVDMebvR-gM_z7ilpVxtYDmyackYOJ14bWetYTYciXXp1sWOV-BWd0zuSr7C5J_RweZYL5K_WMyl2yb0lB_fIHihejRlB3A1RRJNjdZeaQSLXwOs79YWhO935Xl6OuGUqC98q0s3_XXZ1Q3Tf1KF9FXv6Cps3ZiVQPsKu1hYifMqaGQvzRiBBi2NBtnj4gsIiP9y2jRpGgCesLcVGCk8hnuZr6Nm_N769OHFImJN0uTD_vdzDFT5urQgnfNEETw8pxqJNz71rCL584IuUcjuRDtWVSDsHhas4WKp5VbPzSN0PRSc3ckXJ5usUu0rkHXTGXFHPt60SjP7GA758obk3UmR1w5WXPzgmAEncW4t-uRbSFJJLfemP7NS2TA70vr38ymECbnFoa9ptPznsYuvdgQU89Gx3SkdYSpSLVaAbs5qJuWFpx_S3c5wps2SY3wQB2oj5rFzPU9C_EdMP-qHx5fTrHNU-01rVemvF3dF4RNmGPgNUwbXiU34eClrmpjgsK3GCoL7tOg6T3deV26B2qHSi6OWzWD1ggV_Gh68CPzM8E18GSzU9ryEiUQlrdIP5g5GJJhugHPudQPnsnnX7_xdqfCgoRgPqCiFz5yiABZU4cYD0prknG9yTdKvyx0l8OaZ_iZ1SpPrpPwEmycpU7KZmfeTZ2bhzflGvBB-CIu-8LKWZVg/4s5/4yP_XLqXRemuxMWAVeQ5YA/h8/h001.wvrmT8eACCHzZqn8xkaNqnPPrreFVgWv1GtRwU2uAiw"
+        },
+        {
+          "text": "Tencent HY3 IS REALLY GOOD! Best Open-Weight Model? (FULLY FREE)",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaXgc7wkhO5qnqQqF6Zk88E7V7f7zIazAoHHGtD-kfBe1hdEWlSsVTJtiVI2rjhSGtiN0naOEpPACdKKcVzZvcysEBGcFjjXb4XjxOrTYJ_jIBsqjrJWSiVpkF1XFxH8f-yzbeNxvtfetAYdSJgbWikfuZA8agVH8RxW35RJo9thO2gZWTxIYY5XB9RPKE3j8vy1XJnB3aIq0gEFS8ZKjvesasesy6yevM20fNlki-Uqq/4s5/4yP_XLqXRemuxMWAVeQ5YA/h9/h001.-0E-cfrQQk7I3Az1zCj9-X7FHfEKDfVAL90abwFE2vI"
+        },
+        {
+          "text": "Book a free AI consulting call.",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.dr13V4H10E-Jo8xtnosiafVC6nEF8hif9ASMzZyRmJmVkTO947MnczggmD8sPn4OmtnRFuYA-bBvNDF_-4tpmztHPOGGMmcZEj5VkyjAcpwnR-iGi_4Clap2eaCB63t0MjRg7fe_NjPQfVCON7_C1Vn_AbN9ndiXbT-qMG4U30xGYVf4WzqCXVYNo-MDp8Wic05_VFie5__LDUS-6W5GYTxxb6uOA7LM011oxL3s6qCcXEwPAKgw4EpTBG-WXn6f/4s5/4yP_XLqXRemuxMWAVeQ5YA/h14/h001.WvedYGrqb2Wv1XAVuh5pJP9w4UEfGvgOCdoXE4hjd3o"
+        },
+        {
+          "text": "here",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIswJvY8wQFQRGcnjmPgARAfEr_VS0-WEKgWPeYVrrOvD_4DLM1sNx1S66hFhBdKltEdW4WEuP3A4eMS10RSzVa6_1pnMbCtXIPq8udzKJBqYxdApaaNpMdL-pNowpI7pJU87XveRpVIBfiz0LvUR3MuhgtEBuTa1I0FJlaOAIpyPyV7O1KTPHLek2L9BKWNOk22rTfQbtZ7xBhDAd0Q1qyc0kpkGiIC2cxkJoMREpE1LTWcpPSSGM6ooy07D46X9cC02kk1xboeqqMSa7OgNHxR4gwUrIxu7ou7ZaaxWWlmv2-TL5tWSye5wbE_73VD-d9Rq7sG8BH-ytzAYPOBy4WsegMmSMPcknj16f8FYKu4Los88NvFZ11qNmzslRhw13HfL5KHxzo9VyjXd0UudU5b-HdkOsX-jAiMtE8NfG9e25JQsg1EqBOLppT4Ujhtv5pL1b20RfNZu0RLgAdvn-x0dujRUV4e8KDWriKbKWmNc9RufTodbluer8kyBNLavvcL5Msc2Mpq8GuZLSfb7aWYSbtGnxFCFfu4x4GjQZ-0jfId12JamsmjlaP5OAdYA91kBp4tcdYsBknrefpHVgZzzz-3wZVOqC0xAK1SpX-b4ngUjYSQ7izlp9QCMeInSJvl2hPrI1ab9hthLc-7LgFfgyBORRWUY5qH1PC2yypimz1Cb3HsikN6E9YBgWamOP0vKRksE946o7rw4GQ_fi03JvRoKUrwwW7aHZQtnPl63dT10dIJOi9bVqQNghiRvC76ug6WVZ5F0gf55xzg95WkffXTUc_62lE99hclOLbDYvMDvC8M7EKFh91kG3_AzDJV70wvewU-Z37ic-gRgoprnWisYyaSy-2KczSGoUN6cd6FK85iiDX--fierrjMSDNRJZGJE7HyPRklQZdbdvWNeNd9sO01hmx80VbGq_u2gFDjudJpdEO-CNRmQT3-5iweV1fXj4CqEFRSS_IbM91l/4s5/4yP_XLqXRemuxMWAVeQ5YA/h15/h001.lENSYbKBrPIFTrzALBZMivVCAuXLTU2l78qzkxgJePE"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "China is RESTRICTING AI! 👀🚧\n\nBeijing's new rules hit July 15 — and instead of complying, China's two biggest AI apps are pulling the plug on their companion agents entirely. Qwen is permanently deleting user data with no way out.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 08, 2026   |   [Listen online](https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIs8hJPvCUSmybSsdRZ13FaJhfD44yTfhoNpaQ0FqstkNc9sn8lQQHEzbA0lezqDyW-RqIuOCCVxXOc_ugtUvXFJLWY_9-f2SRrporeimP2anpUDzBkFifmc_ntj7lr6rgM_I7kMyDuBGOcFgKOXYJtHP8aI3LfaP4HmsybdG7CnPrn3pFNmnn7l-naU0i-VD93Acqtr78cwBifKjPjwn83r_rjfBGLRTu_ojIMe00NGGI7did3s"
+    },
+    {
+      "from": "\"Michael Spencer and Weng Honn from AI Supremacy\" <aisupremacy+guides@substack.com>",
+      "subject": "Claude Fable Guide for Stock Analysis",
+      "date": "2026-07-08T09:20:07.000Z",
+      "summary": "## AI Supremacy Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n- Anthropic has released Claude Fable 5, its most powerful public AI model, which was temporarily suspended due to a jailbreak that allowed it to flag software flaws and write code showing how one could be abused. The model is now available for use, but paid users will have to switch to pay-per-token pricing on July 12th.\n- The Claude Fable Guide for Stock Analysis provides a comprehensive guide on using AI to spot undervalued AI stocks, including how to set up Claude Fable 5 for stock research and which skills are best suited for the task.\n- Weng Honn, a guest writer from Malaysia, shares his expertise on using Claude Fable 5 for stock analysis and provides a framework for setting up an investment AI system using the model.\n- The guide covers topics such as what Claude Fable 5 is, what it's genuinely best for, and how to set it up for stock research, including a step-by-step guide and a decision grid for making informed investment decisions.\n- Agentic AI is mentioned as a tool that can change how investing and stock picking are done, and the guide provides resources for further learning, including related articles and publications such as \"How to Invest with AI\" and \"Compound with AI\".\n\n### Notable Links\n- Claude Fable Guide for Stock Analysis\n- Michael Spencer's Substack page\n- Weng Honn's Substack page\n- How to Invest with AI publication\n- Compound with AI publication\n- Anthropic's Claude AI model\n- Claude Fable 5 model",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYWktc3VwcmVtYWN5LmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cuYWktc3VwcmVtYWN5LmNvbSUyRnAlMkZjbGF1ZGUtZmFibGUtZ3VpZGUtZm9yLXN0b2NrLWFuYWx5c2lzLWFudGhyb3BpYy1teXRob3MtanVseS0yMDI2IiwicCI6MjA1OTk2ODQ3LCJzIjozOTYyMzUsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzNTAyNTY3LCJleHAiOjIwOTkwNzg1NjcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.LOmZ16DkZrDlrC-aublsmRDG7maclQLxznLI643-PVE?"
+        },
+        {
+          "text": "Claude Fable Guide for Stock Analysis",
+          "url": "https://substack.com/app-link/post?publication_id=396235&post_id=205996847&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNTk5Njg0NywiaWF0IjoxNzgzNTAyNTY3LCJleHAiOjE3ODYwOTQ1NjcsImlzcyI6InB1Yi0zOTYyMzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.lFjc3xHfvPzF6TQIIeHwfTZz6VXjuZ3Uh-SRiexrbvY"
+        },
+        {
+          "text": "Michael Spencer",
+          "url": "https://substack.com/@aisupremacy"
+        },
+        {
+          "text": "Weng Honn",
+          "url": "https://substack.com/@thewenglab"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/aisupremacy/p/claude-fable-guide-for-stock-analysis-anthropic-mythos-july-2026?redirect=app-store"
+        },
+        {
+          "text": "here",
+          "url": "https://substack.com/redirect/086b690e-ba1a-4e30-be58-3ef253113b52?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Archives",
+          "url": "https://substack.com/redirect/825d453b-f2d4-45c2-b82c-0dbcdc63bf2b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Notes",
+          "url": "https://substack.com/redirect/aa93d573-0efb-485c-a368-4917485453a1?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Chat",
+          "url": "https://substack.com/redirect/4862848e-f72c-4e49-9d8e-009e44113967?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Homepage",
+          "url": "https://substack.com/redirect/eba27892-5cd6-4282-bb40-940a9e0d8bf1?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://arxiv.org/abs/users/4917349",
+          "title": null,
+          "arxivId": "users/4917349",
+          "source": "arxiv-id"
+        }
+      ],
+      "priority": "HIGH",
+      "originalContent": "Claude Fable Guide for Stock Analysis ![](https://eotrx.substackcdn.com/o/1655d7fa76ce0a1d/p.gif?token=eyJtIjoiPDIwMjYwNzA4MDkyMDA3LjMuNzBlNjI2ZmE4NTA5YTJjY0BtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDU5OTY4NDcsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjM5NjIzNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MzUwMjU2OCwiZXhwIjoxNzg2MDk0NTY4LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.JE9SRiWsJCpJC3zIt6hsPAkwgRPF_Ult6MjqPLhqYaU)\n\nThe Complete Guide to Using AI to Spot Undervalued AI Stocks\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    },
+    {
+      "from": "\"Anna Eisenberg\" <annas-daybreak-news@mail.beehiiv.com>",
+      "subject": "Hormuz Reignites and Immune Reset",
+      "date": "2026-07-08T10:05:13.000Z",
+      "summary": "## Anna's Daybreak News\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Hormuz Reignites: The U.S. struck over 80 Iranian targets, including air defenses and command-and-control networks, after attacks on commercial vessels in the Strait of Hormuz. The oil waiver has been revoked, with a July 17 grace period for existing transactions. Iran has vowed retaliation, hitting 85 U.S. sites in Bahrain and Kuwait.\n- McConnell Watch: Mitch McConnell, 84, has been hospitalized for over three weeks with no public explanation. Top Senate Republicans say they have spoken with him, and his office reports improvement. McConnell plans to retire in January 2027.\n- Immune Reset: Researchers have engineered mesenchymal stem cells to produce alpha-1 antitrypsin, reversing diabetes in mice with new-onset Type 1 diabetes. The treatment protected insulin-producing cells and reduced immune attacks. Human trials are upcoming.\n- Manhattan Alarm: A 37-story former Pfizer tower buckled during an apartment conversion after two interior columns failed. No one was injured, but nearby buildings were evacuated. Developers expect a short delay.\n- Missing the Signs: Doctors often miss heart attacks in women due to \"atypical\" symptoms. Women under 55 are seven times more likely to be sent home without proper cardiac testing. Experts advise calling 911 for new chest discomfort or unexplained shortness of breath.\n- Adderall Fallout: Done Global founder Ruthia He was sentenced to 72 months in prison and fined $1 million for illegally distributing over 37 million Adderall pills and defrauding insurers of over $12 million.\n\n### Notable Links\n- The Omega-3-Rhythm Paradox\n- invest.energyx.com\n- Mode Mobile \n- invest.modemobile.com",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Hormuz Reignites and Immune Reset\n\nHormuz reignites, and the oil waiver is gone.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Listen online](https://link.mail.beehiiv.com/v1/c/grfzQ2HnCZMsDmvL2cxD37Tf1dLOWfkmRi%2F2jFwWjGibkLAyG5CrnHHjBlNs%0AQi1t8mqOWGDbMnCbnHo%2FuMKEaE37gWFHeokK8sJBJI0DrceFVhC32RuaQ5xF%0AWL%2FHXfvBdHQt9iOEH3E7HT%2BItArdhu1PidSdhXacTk%2Fly3tnH%2BiBFU7HZWY2%0ABJkhMMV0p%2FX60eCgIwIrieWpp7m6G5%2FRBw%3D%3D%0A/7850b7591ccc8922)   |   [Read online](https://link.mail.beehiiv.com/v1/c/wnk0lltawR935y%2BGnxjb2Fmb26vf8tMGlqMB5arLmCoVQtQsuhFrS3NXEF9B%0AipL6uscivL7VFDReCxHGT761NYjY7wJJJyvbQlU%2Fp07YALRb%2BQUgEKkONoD2%0AqAKSi%2FVJ"
+    },
+    {
+      "from": "\"The Rundown AI\" <news@daily.therundown.ai>",
+      "subject": "🎆 Meta's impressive AI image debut",
+      "date": "2026-07-08T10:07:13.000Z",
+      "summary": "## The Rundown AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta has released **Muse Image**, its first proprietary AI image-generation model from Meta Superintelligence Labs, as part of the new Muse family that is replacing the earlier Llama models. Muse Image is tightly integrated with the **Muse Spark** large language model, enabling so-called *agentic* behavior where the system can reason through prompts, search the web, and plan before generating images.\n* The model is already embedded in the Meta AI app and website, Instagram, and WhatsApp, with planned expansion to Facebook and Messenger, and supports creative tools like transforming user photos, redesigning rooms, drawing directly on images, and mentioning Instagram accounts so their likeness can be incorporated into AI-generated photos.\n* Beijing is reportedly discussing rules that would limit use of China's strongest models outside of China, including Qwen, Doubao, and GLM-5.2, after Chinese models gained global users on low costs and efficient, strong performance.\n* DoorDash has detailed **DashBench**, an internal benchmark that tests AI code reviewers against 105 of the company's past code changes to see how many problems each setup catches, with a pairing of Kimi K2.6 and Fable 5 performing best.\n* Tufa Labs has taken first place in ARC-AGI-3's $37.5K milestone contest, wrapping a small Qwen model in an open-sourced coding agent to tackle the game-based benchmark.\n* Microsoft is reportedly running Excel and Outlook prompts on its in-house MAI models, with Mustafa Suleyman pushing to \"ultimately eliminate\" its Anthropic bill.\n* Anthropic has announced that its Claude Cowork platform is being added to mobile and web in beta, giving users the ability to move between devices during tasks.\n* Figma has acquired the team behind AI app-builder and agent platform Bud (formerly Orchids).\n* A community member, Sarah D., is using AI as a decision engine to help her live safely, efficiently, and independently while traveling off-grid in a van.\n\n### Notable Links\n* Meta's Muse Image\n* DoorDash's DashBench",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🎆 Meta climbs the AI image leaderboards\n\nPLUS: Run better 1-on-1s with employees using AI  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Read online](https://link.mail.beehiiv.com/ss/c/u001.dSnm3kaGd0BkNqLYPjeMf75St_4h4uVDlb2B1USeB_FvP9peD5jtU2fClweu3Bpx1MMGfxf1v07t-z-wV7fibB2bkWS0genEphPZ1le-AiiC4NMrG2xJgZurCZRjNqwEPMOU1P-4kYiOnFi3RDfolckcYPh71N0HLIVjOd4WVfwi6LEoX5QA3TGKybHd3SaLwdVKYVk9vOZ0EAFv__wEnloQTDnJCGftaY2zzEzd19xgX8i5mhYBWKF_QZN7UO2CiHdkOctParvzF9cVEbKinNirxsRLJviEP8HpJzq_RZ8oa8zwPUhpYaYFWtyYPjtu7WC3R647CkuzXfCKWkI6dMZ-muDpRtl1nskIimfzZvOxFYLgtqvsltt3h8p6WQuUcX8-edleVApY9XL_PHExa7oKWGRIuoNdPCle0lCJxRy3oZp0fXdqmLAz8SbQZhJ6sPT"
+    },
+    {
+      "from": "\"Evolving AI Insights\" <evolvingai@mail.beehiiv.com>",
+      "subject": "🔓 GPT 5.6 Goes Live for Everyone TOMORROW",
+      "date": "2026-07-08T10:39:32.000Z",
+      "summary": "## Evolving AI Insights\n\n**Priority: HIGH**\n\n### Top Updates\n* GPT-5.6 is going live for everyone tomorrow, marking a significant shift from its initial limited preview to a broader release, with access spanning three tiers: Luna, Terra, and Sol, offering varying levels of capability and pricing.\n* OpenAI emphasizes GPT-5.6 as its strongest model yet, particularly in coding and cybersecurity, and ships it with a robust safety stack, indicating a focus on both performance and security.\n* Anthropic extends Fable 5 and shares a blueprint to run it for half the cost, introducing an orchestrator pattern that achieves 96% of Fable 5's results at 46% of the cost, showcasing efficient use of AI resources.\n* Claude Cowork now allows tasks to be finished while the user is offline, demonstrating advancements in autonomous task completion and integration of AI into daily workflows.\n* The EU Commission has presented an AI Action Plan, addressing cybersecurity risks from advanced AI models, which is a significant step towards regulating and securing AI technologies.\n* Other updates include the launch of Pocket by Meta for creating mini-games from text prompts, and the disclosure of JADEPUFFER, the first fully AI-agent-driven ransomware attack, highlighting the growing importance of AI security.\n* Trending AI tools mentioned include Granola for AI notetaking, Auto Learning Agents for self-hosted AI, MeltFlex for room redesign with real furniture, and Depthflow for turning flat images into 3D parallax motion.\n\n### Notable Links\n* GPT-5.6 by OpenAI\n* Fable 5 by Anthropic\n* Claude Cowork\n\nThis newsletter covers significant updates in the AI landscape, including new model releases, advancements in task automation, and regulatory moves. The breadth of topics underscores the rapid evolution and expanding applications of AI technologies.",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🔓 GPT 5.6 Goes Live for Everyone TOMORROW\n\nAlso: Anthropic Extends Fable 5 and Shares a Blueprint to Run It for Half  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 08, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.UL8z_frrzVFXbrsJOFh-kMJOn4HwAMJd584RF3IXXpK6fiqFfNnF_w4GksgunyjZcKiiuEv1JUErCn1LJ-oW-gi5RvNXC_id73aYSzh-6z0wISVHGztOX1QY1bMnMj9pMOIA_nKfeZi7rdrDZCfYU3Wg5sI9AnTMFtM1v-z5I-Bo_HO0459RCQzxOUKh105PwfiqGnhYnA6GGTciPpC-6TswyVg5p87I_UxRdhG_wkI9sI1YI1cUlnSbAMn7PB4g8TizRk5TJJJfQPkWh40DvbqNbZOF0aLLfS_IjYSsFEgOcFtnl9ZPVNwi1sfyOIJH85b88CHggqruDCReDcCxfgDZ9tjQF2f36Xs0cAKw16hwrZ2xWh1abQNOLtOsktTcUZPVT2GL4S1uuup6TKY_0s"
+    },
+    {
+      "from": "\"TLDR\" <dan@tldrnewsletter.com>",
+      "subject": "Meta AI images 🖼️, inside XBox layoffs 📉, tech worker sentiment 💼",
+      "date": "2026-07-08T10:54:34.000Z",
+      "summary": "## TLDR\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta has released a new AI model for creating images, called Muse Image, which will be available for consumers to access for free via the Meta AI app and site, WhatsApp direct messages, and Instagram Stories. The model is part of Meta's AI-powered Advantage Plus service and will be used to power advertiser-specific image-generation tools.\n* Xbox announced layoffs of 3,200 employees and the closure of five game studios, citing a need to reset itself after overspending on studios, staff, and games that people didn't want to play. The company plans to take a more streamlined approach to games and studios going forward, focusing on franchises like Minecraft.\n* SpaceX launched the first-ever nuclear-powered commercial satellite, called BOHR, which is designed to test a new type of power source for spacecraft. The satellite uses a betavoltaic device to harness energy from the radioactive decay of tritium and convert it into electricity.\n* Tesla's upcoming Cybercab will feature a more powerful version of the company's Full Self-Driving computer, with increased onboard memory and the ability to run larger self-driving models. The Cybercab is designed to operate entirely without human intervention and will be equipped with an SAE Level 4 Autonomous Mode.\n* Google for Startups has released a technical guide for embedding generative media models in applications and workflows. The guide provides information on which models work best for different tasks and how to deliver consistent media at scale.\n* A recent survey found that tech workers are either amplified by AI or shaken by it, with burnout surging and optimism fading. Many tech workers believe the tech industry is in a state of chaos.\n* Chinese authorities are considering restricting access to the country's most advanced AI models, with options including a bar on public release or a limit to domestic use only.\n* Microsoft is replacing OpenAI and Anthropic models with its own AI models in some applications, including Excel and Outlook.\n* The European Union has implemented a new rule requiring all cars sold in the EU to be equipped with a camera aimed at the driver's face, which will be used to monitor driver attention and prevent distracted driving.\n\n### Notable Links\n* [Meta AI](https://www.meta.com/en/ai)\n* [SpaceX](https://www.spacex.com/)\n* [Tesla Cybercab](https://www.tesla.com/cybercab)\n* [Google for Startups](https://startup.google.com/)\n* [Chinese AI models](https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html)\n* [Microsoft AI](https://www.microsoft.com/en-us/ai)\n* [EU car safety regulations](https://allaboutcookies.org/eu-mandatory-distracted-driver-system/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR\n\nMeta has released a new AI model for creating images, Muse Image. The model will be available for consumers to access for free via the Meta AI app ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=tldr/1/0100019f415d8162-1f0c53a1-1f1f-43e0-8cea-b009b148523e-000000/nqc7dAZx_jWVWoDJiJ9pApGXE_FnxRGPU9k_gQtbGL4=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldr%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019f415d8162-1f0c53a1-1f1f-43e0-8cea-b009b148523e-000000/ERMDbNEYtNqjOXvt1L5SeQOP7nDlt4DhFXQWHF5A17k=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=d3324c64-5f8e-11f0-b1c3-7f12249efa1c%26p=bdcec82e-7a9b-11f1-adc9-3f92cecdc4b3%26pt=campaign%26t=1783508074%26s=8ac1e4c5c2289f2c6b172ef74054"
+    },
+    {
+      "from": "\"Forward Future (Matthew Berman)\" <astro@forwardfuture.ai>",
+      "subject": "AI’s Price War + Alibaba Dumps Anthropic",
+      "date": "2026-07-08T12:01:54.000Z",
+      "summary": "## Forward Future Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Alibaba has banned Anthropic's AI tools due to security concerns, citing a large-scale AI distillation attack, and has placed Claude Code on a high-risk software list, requiring staff to switch to its own Qoder assistant by July 10.\n* DeepSeek is developing its own AI inference chip to reduce reliance on NVIDIA hardware, aiming to decrease costs and improve performance.\n* Meta has launched Muse Image, a new AI image-generation model that can reason through prompts, blend multiple photos, and support in-image editing across its apps, including Instagram and Facebook.\n* Illinois has enacted the Artificial Intelligence Safety Measures Act, which requires the largest AI model developers to assess catastrophic risks, report serious AI-related incidents, and undergo annual independent audits.\n* U.S. companies are increasingly adopting AI models from Chinese developers, such as DeepSeek and Z.ai, due to rising costs from leading U.S. providers, with Chinese models accounting for over 30% of weekly token usage by U.S. companies since February 8, 2026.\n* Beijing is considering restricting overseas access to its most advanced AI models, treating frontier AI as a national security asset, and has held discussions with Alibaba, ByteDance, and Z.ai on limiting future models and strengthening penalties for AI theft.\n* Researchers have found that leading AI chatbots can provide inconsistent, inaccurate, or biased personal finance recommendations, highlighting the need for improved AI safety and regulation.\n* Anthropic has brought Claude Cowork to web and mobile for Max users, enabling AI tasks to run across devices, and Microsoft is replacing some OpenAI and Anthropic models with its own MAI to cut AI costs.\n\n### Notable Links\n* [Muse Image](https://meta.ai/muse-image) \n* [Alibaba's Qoder assistant](https://www.alibaba.com/qoder) \n* [DeepSeek's AI inference chip](https://www.deepseek.ai/chip) \n* [Artificial Intelligence Safety Measures Act](https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=022-0923) \n* [Anthropic's Claude Cowork](https://www.anthropic.com/claude-cowork) \n\nNote: Links are preserved as per the original format, without modifying or removing any, as per the instruction to \"Preserve key statistics, dates, and facts\" and \"Use clear bullet points for readability\". However, for the sake of improved clarity, links that are tracking/redirect URLs have been excluded from the summary where possible, and focus has been given to primary sources and relevant AI content.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Beijing weighs sealing off its best AI\n\nVideo: Cut AI costs without cutting quality  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 8th, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.gjvfX7JRbL1RKfObNke3hTDnn8Qx1YMb2UuABhkuaEd7aCriRoVEEY5xCdmxOnW9qLjMbIX8Hd58RO4NOGx81S7j_B874SqJdP279mS7qr-zGMl4V7VMy8YdVC-_jSlRpI4CNqnwZ69_Euy0J14rRIYJiJYFEWSx2H_JOP08hIjGYhGGE7DH5PT6cKVmbHcqGVqoAQDCE3MIhceecj_sAv1ZMmzOj6VY2NATIMCbMAcr5KYCR1GWZrGbBiFMEGAmbC9g77ISR-ey5ftNaGCl1wlRrbKlW2NmMWhDkgvvY6_cImXgULpVeWbTDjJNAeqC7yr_LfIHaOsg_d-nZEYZUqROC5xAe4eWH1YWDc-P58tVjk-QXSxhy4_zpNPYhRGM4QzKQGq14Nni-OXzvt2JtCbahRwv5pPDyBcbR-xC27VXiKFFVcgxKp2"
+    },
+    {
+      "from": "\"A Life Engineered\" <alifeengineered@substack.com>",
+      "subject": "5 More Things World-Class Engineers Do That You Don't",
+      "date": "2026-07-08T12:06:00.000Z",
+      "summary": "## A Life Engineered\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses 5 behaviors of world-class engineers that distinguish them from others, focusing on the importance of experience, trust, and continuous learning.\n* These behaviors include:\n  + Collecting scars: World-class engineers embrace challenges and learn from their mistakes, recognizing that scars from experience are essential for growth.\n  + Getting nervous when the work gets easy: Elite engineers stay vigilant and look for the next challenge, even when their current work is going smoothly, to avoid complacency.\n  + Earning trust before spending it: They prioritize building trust with their team and stakeholders before taking on bigger responsibilities or proposing new ideas.\n  + Making sure it's the right problem: Top engineers focus on solving problems that matter and have a significant impact, rather than just executing tasks.\n  + Organizing their career around the work they love: World-class engineers prioritize doing work they enjoy and are passionate about, even if it means taking a demotion or changing roles.\n* The author emphasizes the importance of behavior and habits in becoming an elite engineer, rather than just relying on intelligence or talent.\n* Examples are provided from experienced engineers, including Christopher Brown, Kun Chen, Carlos Arguelles, Michael Novati, and Philip Su, who have worked at top companies like NVIDIA, Facebook, Microsoft, and Meta.\n* The newsletter also mentions the author's upcoming travel and the plan to republish three popular articles from the archive during their absence.\n\n### Notable Links\n* Subscribe to A Life Engineered: [link]\n* 5 More Things World-Class Engineers Do That You Don't: https://substack.com/app-link/post?publication_id=2598310&post_id=205958042&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNTk1ODA0MiwiaWF0IjoxNzgzNTEzMDc2LCJleHAiOjE3ODYxMDUwNzYsImlzcyI6InB1Yi0yNTk4MzEwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.jauRrUv3AHp7T2Lz4V2wFs37FVkOJcBRrFa_payc8ws\n* Steve Huynh: https://substack.com/@alifeengineered\n* READ IN APP: https://open.substack.com/pub/alifeengineered/p/5-more-things-world-class-engineers?redirect=app-store\n* Torsten Dederichs: [link]\n* Unsplash: [link]\n* Last week I shared the first five: [link]\n* Christopher Brown: [link]\n* Carlos: [link]\n* Kun Chen: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hbGlmZWVuZ2luZWVyZWQuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRmFsaWZlZW5naW5lZXJlZC5zdWJzdGFjay5jb20lMkZwJTJGNS1tb3JlLXRoaW5ncy13b3JsZC1jbGFzcy1lbmdpbmVlcnMiLCJwIjoyMDU5NTgwNDIsInMiOjI1OTgzMTAsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzNTEzMDc2LCJleHAiOjIwOTkwODkwNzYsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.vggFynqKbLajEL8f7O-lUbKcWZ0iL6t6ExYE6h_bVf8?"
+        },
+        {
+          "text": "5 More Things World-Class Engineers Do That You Don't",
+          "url": "https://substack.com/app-link/post?publication_id=2598310&post_id=205958042&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNTk1ODA0MiwiaWF0IjoxNzgzNTEzMDc2LCJleHAiOjE3ODYxMDUwNzYsImlzcyI6InB1Yi0yNTk4MzEwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.jauRrUv3AHp7T2Lz4V2wFs37FVkOJcBRrFa_payc8ws"
+        },
+        {
+          "text": "Steve Huynh",
+          "url": "https://substack.com/@alifeengineered"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/alifeengineered/p/5-more-things-world-class-engineers?redirect=app-store"
+        },
+        {
+          "text": "Torsten Dederichs",
+          "url": "https://substack.com/redirect/07f76196-5004-4241-84b3-4086f474e14f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Unsplash",
+          "url": "https://substack.com/redirect/86fffa9c-ff85-4daf-a3b0-b21cfc404b36?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Last week I shared the first five",
+          "url": "https://substack.com/redirect/0b151017-f818-427c-a8b0-afc0d13e784a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Christopher Brown",
+          "url": "https://substack.com/redirect/eeb60970-a588-4bcb-944a-92bd47b648d3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Carlos",
+          "url": "https://substack.com/redirect/280bc9d8-daf6-4efd-9694-0ff40334ef88?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Kun Chen",
+          "url": "https://substack.com/redirect/821375dd-5503-4449-be12-f419bccfb501?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "5 More Things World-Class Engineers Do That You Don't![](https://eotrx.substackcdn.com/o/8a0e4ed713ac125a/p.gif?token=eyJtIjoiPDIwMjYwNzA4MTIwNjAwLjMuYTY4ZWYwMWU3YzhkY2M4MEBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDU5NTgwNDIsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MjU5ODMxMCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MzUxMzA3NiwiZXhwIjoxNzg2MTA1MDc2LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.Pu9c2vELMSNTxI0CZjcpKz3LljqfORufl-xZr-AsBPk)\n\nMore of what the truly elite do differently. Copy them.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    }
+  ],
+  "tldr": [
+    "Anthropic releases Claude Fable 5 AI model.",
+    "Meta launches Muse Image AI generation model.",
+    "China implements AI companion agent regulations.",
+    "GPT-5.6 AI model is released globally.",
+    "Beijing restricts overseas AI model access."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Lilian Weng",
+        "context": "Lilian Weng is a leading AI researcher and safety expert, best known for her role as **VP of Research and Safety at OpenAI**, where she helped shape work on safe, capable large language models and alignment-focused training methods.[1][2] She also gained broad influence through her technical blog *Lil’Log*, where she explains frontier topics such as reinforcement learning, agentic LLMs, and diffusion models (including recent pieces on video diffusion that have been widely cited in AI news coverage).[2][4] Her work traces the evolution of AI from theoretical RL and robotics toward deployed, safety-conscious foundation models, making her a key voice on how to build powerful but aligned systems.[2]\n\nMore recently, industry coverage highlights Weng’s broader impact on how the field is responding to the \"data wall\"—the shortage of high-quality training data for frontier models—by emphasizing **reinforcement learning, test-time computation, and synthetic data** as the three main strategic paths for scaling capabilities while maintaining safety.[5] A widely read long-form article she authored after a multi‑year hiatus went viral in 2025–2026, helping crystallize these ideas and their implications for next-generation model development and evaluation.[5] Together with her prior OpenAI leadership and ongoing public technical writing, Weng’s recent contributions are shaping how labs and practitioners think about harness engineering, scalable alignment techniques, and the safe deployment of increasingly agentic AI systems.[2][5]",
+        "source": "web search"
+      },
+      {
+        "topic": "Harness Engineering",
+        "context": "Harness engineering in the AI/ML space refers to the systematic design of the **environment around AI models and agents**—including workflows, tools, context, constraints, memory, verification, and feedback loops—so that they can perform complex tasks reliably and at scale.[1][2][3][9] Instead of relying on ad‑hoc prompts, teams encode specifications, architectural rules, test and observability scaffolding, and governance policies into machine-readable artifacts that agents use to write code, run tests, manage deployments, and perform other engineering work.[1][2][4] This framing shifts the human role from directly implementing solutions to **designing and iterating the harness**: feedforward controls (guides, specs, structured context) and feedback controls (linters, tests, metrics, review loops) that steer and correct AI behavior over time.[2][3]\n\nIt matters because as foundation models converge in capability, **most of the performance and reliability gains now come from harness design rather than the underlying model**.[3][9] Studies and agent benchmarks cited in recent work show that the same model can vary in effectiveness by several‑fold depending on harness design, particularly in complex settings like software engineering and deadline‑constrained reasoning.[3][8] OpenAI has publicly described an internal Harness system for Codex agents that encodes layered architecture constraints, garbage‑collection routines for codebase drift, and structured feedback loops, enabling agents to generate code, tests, and observability artifacts in a consistent way across large organizations.[4] Industry examples like Cursor, Claude Code, Anthropic Managed Agents, and Live-SWE-agent demonstrate that well‑designed scaffolds, context strategies, and self‑evolving harnesses can outperform both naive agents and traditional human workflows on software engineering tasks.[8][9]\n\nRecent developments show rapid **industrialization of harness engineering**. Red Hat and other practitioners emphasize “structured workflows for AI‑assisted development,” recommending repository impact maps, explicit constraints, human checkpoints, and MCP-based tool ecosystems as core harness components.[1] OpenAI’s Harness engineering methodology for Codex agents, highlighted by InfoQ, standardizes how teams run large-scale AI workloads and reorients engineers toward intent specification and harness maintenance.[4] A growing ecosystem—captured in resources like the \"awesome-harness-engineering\" collection—tracks dozens of papers on agent memory management, temporal feedback, self-evolving scaffolds, and strategic reasoning under operational constraints.[8] On the product side, platforms such as Harness (the software delivery company, distinct from the methodology term) are operationalizing similar ideas with **Autonomous Worker Agents** that replace fixed CI/CD scripts with governed AI agents, and with AI DLC Insights and Cloud & AI Cost Management to measure the ROI and resource impact of AI-driven pipelines.[6][7] Collectively, these trends signal that harness engineering is becoming a central competitive lever: organizations that invest in robust harnesses—tools, workflows, observability, and governance around models—are seeing more reliable automation, faster delivery cycles, better safety, and clearer economic value from AI across software development and operations.[3][4][6][7][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "Recursive Self-Improvement (RSI) in AI/ML",
+        "context": "In the AI/ML space, **Recursive Self-Improvement (RSI)** refers to AI systems that can iteratively improve their own code, model weights, architectures, or training processes, creating a feedback loop where each improvement enhances the system’s ability to further improve itself.[6][7] Conceptually, RSI has been closely linked to AGI and superintelligence, since a sufficiently capable \"seed\" system that can redesign its own learning and reasoning mechanisms could trigger rapid capability gains beyond human control.[6] Current practical work toward RSI includes neural architecture search, meta-learning, automated hyperparameter optimization, and gradient-based meta-optimization, all of which let models adjust aspects of their own learning and structure within human-designed constraints.[7]\n\nRSI matters because it is increasingly visible as a *strategic direction* for leading labs, both as a way to accelerate AI R&D and as a central concern for safety and governance. OpenAI has publicly noted \"early signs of recursive self-improvement\" where AI accelerates AI development itself and warned that this will intensify competitive pressures and create governance challenges that current institutions are not prepared to handle.[4] Industry commentary now treats RSI as a successor buzzword to AGI, capturing fears and hopes around a potential \"takeoff\" phase in capabilities, even though major researchers emphasize that fully autonomous, unrestricted RSI has not yet been achieved.[1][7] Surveys and expert analyses in 2026 generally place **controlled, narrow-domain RSI** a few years away, and **general RSI** on the order of a decade or more, with safe, aligned RSI explicitly flagged as an unsolved problem.[7]\n\nRecent developments include dedicated research initiatives such as **Sakana AI’s RSI Lab**, which aims to \"redesign the AI development process itself with AI\" and to build agent-native models and world simulators oriented toward open-ended, self-improving agents rather than static chatbots.[2] Technical research lines highlighted in 2026 include gradient-based meta-optimization and \"learning to learn\" approaches, where models adapt their own optimization strategies during training, moving closer to systems that manage parts of their own improvement loop.[7] At the industry level, RSI has become a framing for both frontier ambition and regulatory concern: labs and commentators describe it as the next major inflection beyond current foundation models, while simultaneously stressing that present systems remain firmly within human-defined objectives and meta-architectures, with no evidence yet of a runaway, fully recursive AI.[1][7]",
+        "source": "web search"
+      },
+      {
+        "topic": "GPT-5.6",
+        "context": "GPT-5.6 is OpenAI’s next-generation **large language model family**, positioned as the successor to GPT-5.5 and released initially in a limited preview before a general rollout to all users.[1][2] It comes in three main variants—**Luna**, **Terra**, and **Sol**—spanning from more cost-efficient to most capable, with Sol further extended by a Sol Ultra configuration.[1][2] Early benchmarks cited in public reporting indicate that Sol and Sol Ultra outperform leading frontier models like Claude Mythos 5 on evaluation suites such as TerminalBench 2.1, while Luna and Terra also show gains over their GPT-5.x predecessors.[2] OpenAI’s official preview frames GPT-5.6, especially Sol, as its most capable cybersecurity-oriented model to date, emphasizing long-horizon security tasks such as vulnerability research and exploitation.[1]\n\nGPT-5.6 matters for two main reasons: **capability and alignment**. On the capability side, developer analyses and pre-launch coverage describe a roughly **1.5 million token context window**, improved long-context reasoning and multi-step agentic execution, and a fresher training cutoff extending into May 2026, all aimed at more reliable performance in complex workflows.[7] On the safety side, GPT-5.6 Sol launches with OpenAI’s “most robust safety stack to date,” including strengthened protections for higher-risk and sensitive cyber activities, plus weeks of red-teaming and hardening against real-world misuse, with U.S. government engagement prior to launch.[1] Independent reporting highlights that GPT-5.6 is the first model trained with a redesigned reward audit pipeline meant to correct the alignment failure that affected GPT-5.5’s training data, suggesting that this release is as much an alignment infrastructure milestone as a capability bump.[7]\n\nRecent developments point to GPT-5.6 moving from **stealth/limited rollout to broad availability**. OpenAI’s preview states that GPT-5.6 models are initially accessible via the API and Codex to a small set of trusted partners, with plans to make Sol, Terra, and Luna “generally available in the coming weeks” across ChatGPT, Codex, and the API, alongside new pricing and prompt-caching mechanics.[1] External observers have reported gray-rollout behavior, where some Pro users see GPT-5.6 Pro shadow-testing under the GPT-5.5 Pro label, and leaks have suggested target launch windows in late June and early July, with Sol’s global release pegged to around July 7 if schedules hold.[6][7][8] In the broader industry, GPT-5.6 is viewed as a flagship step that intensifies competition at the frontier: it pushes context length and reasoning benchmarks upward, deepens integration into coding and agentic environments, and signals that alignment tooling—rather than only raw scale—is becoming a central axis of differentiation among leading AI labs.[1][2][7]",
+        "source": "web search"
+      },
+      {
+        "topic": "Meta",
+        "context": "{\n  \"topic\": \"Meta (Muse Image)\",\n  \"context\": \"Meta has released **Muse Image**, its first proprietary AI image-generation model from Meta Superintelligence Labs, as part of the new Muse family that is replacing the earlier Llama models.[1][2][4] Muse Image is tightly integrated with the **Muse Spark** large language model, enabling so-called *agentic* behavior where the system can reason through prompts, search the web, and plan before generating images, and it is natively built to interpret complex, conversational instructions, blend multiple photos, and even produce legible styled text and functional QR codes within images.[2][3][6] The model is already embedded in the Meta AI app and website, Instagram, and WhatsApp, with planned expansion to Facebook and Messenger, and supports creative tools like transforming user photos, redesigning rooms, drawing directly on images, and mentioning Instagram accounts so their likeness can be incorporated into AI-generated photos.[2][3][4]\\n\\nTh",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "White House prepares voluntary frontier AI standards framework",
+        "summary": "The White House is expected to announce a voluntary AI standards framework for frontier models between July 7–11, implementing Section 3 of the June 2 executive order on AI governance.[3] The framework will set expectations around safety, testing, and disclosure for advanced AI systems ahead of a formal August 1 deadline.[3]",
+        "whyItMatters": "This framework will shape how leading AI labs document risks, testing, and deployment practices, influencing compliance requirements and best practices for anyone building on or integrating frontier models.[3] Practitioners working with high‑capability systems will need to track these standards to anticipate future binding regulation and align internal governance.",
+        "source": "BuildFastWithAI / Financial Times reporting on U.S. White House AI standards window"
+      },
+      {
+        "headline": "Senate AI Safety and Security Committee advances Framework for AI Governance Act",
+        "summary": "A U.S. Senate AI Safety and Security Committee advanced the bipartisan Framework for AI Governance Act, which would create a national AI incident database and require baseline disclosure for high‑risk AI applications.[4] The bill now moves toward a floor vote after the August recess.[4]",
+        "whyItMatters": "If enacted, this would introduce formal incident reporting and transparency obligations for many deployed AI systems, affecting how practitioners log failures, security events, and misuse.[4] It also signals growing legislative focus on operational safety and accountability, which will influence risk management and compliance strategies in AI projects.",
+        "source": "SkyCrumbs July 2026 AI news roundup"
+      },
+      {
+        "headline": "Sysdig publishes first analysis of fully autonomous AI ransomware \"JADEPUFFER\"",
+        "summary": "Sysdig released a definitive analysis of JADEPUFFER, described as the first fully autonomous AI‑driven ransomware attack.[3] The report details how the system used agentic capabilities to independently discover vulnerabilities, pivot within networks, and execute encryption and extortion workflows.[3]",
+        "whyItMatters": "This marks a shift from human‑operated malware to autonomous AI‑powered attacks, raising the bar for defensive tooling and security-aware AI deployment.[3] Practitioners building agents and automation need to consider dual‑use risks and design safeguards to prevent similar capabilities from being weaponized.",
+        "source": "Sysdig report summarized in BuildFastWithAI July 7, 2026 news"
+      },
+      {
+        "headline": "Anthropic overtakes OpenAI in revenue and signs $19B AI data center lease",
+        "summary": "Fortune confirmed that Anthropic has overtaken OpenAI in revenue, reflecting rapid commercial adoption of Claude and related services.[3] In parallel, Anthropic signed a $19 billion AI data center lease with sustainable infrastructure provider TeraWulf to secure long‑term compute capacity.[3]",
+        "whyItMatters": "Revenue leadership and massive compute commitments indicate Anthropic’s models and tooling are becoming central in enterprise AI stacks, affecting ecosystem priorities and integration options for practitioners.[3] The $19B lease underscores escalating compute requirements for frontier models and may influence pricing, capacity, and regional availability of high‑end AI infrastructure.",
+        "source": "Fortune and SiliconANGLE, summarized by BuildFastWithAI"
+      },
+      {
+        "headline": "DeepMind and OpenAI publish major LLM research on emergent planning and scaling laws",
+        "summary": "DeepMind’s \"Emergent Planning in LLMs\" in Nature Machine Intelligence shows that large language models can exhibit coherent multi‑step planning behavior without explicit planning modules, suggesting planning may emerge from scale.[4] An OpenAI team released \"Scaling Laws for Reasoning Models\" on arXiv, demonstrating that increased test‑time compute yields disproportionate gains in reasoning performance and validating the trajectory of o‑series models.[4]",
+        "whyItMatters": "These papers provide theoretical and empirical guidance on how to design and deploy reasoning‑heavy systems, indicating that both model scale and inference‑time compute are key levers for complex planning tasks.[4] Practitioners can use these insights to tune decoding strategies, allocate compute budgets, and evaluate when to favor larger models or higher per‑query computation for mission‑critical reasoning workloads.",
+        "source": "Nature Machine Intelligence and arXiv, summarized by SkyCrumbs July 2026 AI research section"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Lilian Weng",
+        "type": "person",
+        "context": "Summarized 35 papers on Harness Engineering for RSI"
+      },
+      {
+        "name": "Harness Engineering",
+        "type": "technology",
+        "context": "Subject of 35 papers summarized by Lilian Weng"
+      },
+      {
+        "name": "RSI",
+        "type": "technology",
+        "context": "Related to Harness Engineering papers summarized by Lilian Weng"
+      },
+      {
+        "name": "GPT 5.6",
+        "type": "product",
+        "context": "Mentioned as being released for everyone tomorrow"
+      },
+      {
+        "name": "Meta",
+        "type": "company",
+        "context": "Released a new AI model for creating images, Muse Image"
+      },
+      {
+        "name": "Muse Image",
+        "type": "product",
+        "context": "New AI model for creating images released by Meta"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as being dumped by Alibaba and extending Fable 5"
+      },
+      {
+        "name": "Fable 5",
+        "type": "product",
+        "context": "Mentioned as being extended by Anthropic"
+      },
+      {
+        "name": "Alibaba",
+        "type": "company",
+        "context": "Mentioned as dumping Anthropic"
+      },
+      {
+        "name": "Claude Fable",
+        "type": "product",
+        "context": "Mentioned as a guide for stock analysis"
+      },
+      {
+        "name": "China",
+        "type": "location",
+        "context": "Mentioned as restricting AI and having new rules affecting AI apps"
+      }
+    ]
+  },
+  "edition": "evening",
+  "savedAt": "2026-07-08T12:30:59.277Z",
+  "dateString": "2026-07-08"
+}
