@@ -102,6 +102,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[antigravity-2]] — Google's I/O 2026 rebuilt parallel-agent desktop app + CLI + SDK powered by Gemini 3.5 Flash
 - [[anthropic-fellows]] — Anthropic's AI-safety research fellowship; 4mo / $3,850/wk / ~$15K/mo compute / 40% hire + 80% papers (Jun 2026)
 - [[apple-m5]] — Apple's M5 silicon with per-core Neural Accelerators *(stale)*
+- [[audex]] — NVIDIA's 30B / 3B active MoE unified text + audio model — preserves text intelligence while adding broad audio generation and understanding (Jul 2026)
 - [[aws-blocks]] — Amazon's open-source framework for building modular, reusable cloud apps from composable software components (Jun 2026)
 - [[canva-ai-2]] — Canva's Apr 2026 AI-native creative environment; fully editable generated designs *(stale)*
 - [[canva-design-model]] — Canva's in-house multimodal foundation model *(stale)*
@@ -237,7 +238,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mistral-ocr-3]] — Mistral's OCR model; ~97% accuracy, strong on European documents *(stale)*
 - [[mistral-ocr-4]] — Mistral's OCR successor — bounding boxes + confidence scores + 170 languages + single-container deployment; built specifically for RAG pipelines (Jun 2026)
 - [[mistral-studio]] — Mistral's production-AI platform *(stale)*
-- [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot *(stale)*
+- [[muse-image]] — Meta's first proprietary AI image-generation model; Muse family replaces Llama era; Muse Spark agentic integration; #2 Image Arena at launch (Jul 2026)
+- [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*
 - [[nano-banana-pro]] — Google's Gemini 3 Pro Image; 4K, 14-input, 5-character consistency, SynthID+C2PA *(stale)*
 - [[nanochat]] — Karpathy's end-to-end ChatGPT clone repo *(stale)*

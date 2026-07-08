@@ -8,9 +8,10 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-04-10
-> **Last updated**: 2026-04-16
-> **Status**: stale
-> **Related**: [[meta]], [[claude-mythos]], [[agent-frameworks]]
+> **Last updated**: 2026-07-08-evening (**Muse Spark productized as agentic-orchestration substrate for [[muse-image]] launch** — The Rundown AI MEDIUM: ***"Muse Image is tightly integrated with the Muse Spark large language model, enabling so-called agentic behavior where the system can reason through prompts, search the web, and plan before generating images"***. First publicly framed *Muse Spark as agentic-orchestration substrate for image-generation* in this wiki. Structurally significant three ways: (a) Muse Spark's role graduates from *standalone-multimodal-reasoning-LLM* into *foundation-substrate-for-Muse-family-multimodal-products*; (b) validates the 2026-04 Muse-Spark *"Contemplating mode + multi-sub-agent orchestration"* framing at productized-consumer-tier — the same multi-sub-agent architecture that Muse Spark launched with now underpins Muse Image's *"reason through prompts + search the web + plan"* agentic image-generation workflow; (c) closes the pivot loop — the April 2026 *"Meta pivots from open-weights"* framing (The Batch) now has a concrete productization end-state: Muse Spark = LLM substrate + Muse Image = image-generation surface + Muse Video = video-generation surface, all closed-weights + tightly integrated. See [[muse-image]] + [[meta]] — *source: data/summaries/2026-07-08-evening.json (The Rundown AI MEDIUM "🎆 Meta's impressive AI image debut" — Muse Image is tightly integrated with the Muse Spark large language model enabling so-called agentic behavior where the system can reason through prompts search the web and plan before generating images)*)
+> **Previously updated**: 2026-04-16
+> **Status**: active
+> **Related**: [[meta]], [[muse-image]], [[muse-video]], [[watermelon]], [[claude-mythos]], [[agent-frameworks]]
 
 ## Summary
 
