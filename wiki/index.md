@@ -190,7 +190,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-5-4-cyber]] — OpenAI's defensive-cybersecurity fine-tune of GPT-5.4 under expanded Trusted Access for Cyber program (Apr 2026) *(stale)*
 - [[gpt-5-5]] — OpenAI's late-Apr 2026 flagship; "new class of intelligence for real work" — agentic computing, long-horizon tasks
 - [[gpt-5-5-cyber]] — OpenAI's cybersecurity-specialist variant of GPT-5.5; record 85.6% on CyberGym; for verified defenders via OpenAI Daybreak (Jun 2026)
-- [[gpt-5-6]] — OpenAI's anticipated next GPT-5.x flagship; 1.5M context, faster Codex, Mini/Pro variants, pricing to undercut Anthropic (Jun 2026, pre-launch)
+- [[gpt-5-6]] — OpenAI's Jul 2026 flagship; Sol ($5/$30 pricing) / Terra (2× cheaper than GPT-5.5, balanced) / Luna (fast/low-cost); Thursday July 9 GA under "robust safety stack" + Terminal-Bench 2.1 SOTA
+- [[gpt-live]] — OpenAI's Jul 2026 full-duplex voice model — listens + speaks simultaneously with mid-sentence handoff to larger models; rebuild of ChatGPT voice mode
 - [[google-ai-studio]] — Google's free playground for testing/comparing AI models incl. Gemini 3.5 Flash; side-by-side runs + prompt-builder; Google login (Jun 2026)
 - [[googlebook]] — Google's Gemini-native premium AI laptop category; Magic Pointer AI cursor; ships fall 2026
 - [[grok-build]] — xAI's CLI coding agent for SuperGrok Heavy subscribers (May 2026)
@@ -201,6 +202,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[google-tpu-v8]] — Google's 8th-gen TPU; cost-efficient full-stack AI infra positioned against NVIDIA (Apr 2026) *(stale)*
 - [[grok-4-1]] — xAI's mid-Nov 2025 Grok upgrade; personality overhaul, EQ lead, top of LMArena *(stale)*
 - [[grok-4-20]] — xAI's Feb 2026 Grok upgrade; four-agent parallel research workflow, public beta *(stale)*
+- [[grok-4-5]] — xAI/SpaceXAI's Jul 2026 Opus-class Grok; $2/$6 pricing "cheapest smart model on the market"; Word/Excel/PowerPoint plugins; 21 multilingual Grok Voice voices with 1-min cloning
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours *(stale)*
@@ -312,6 +314,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[forward-deployed-engineer]] — customer-embedded software/ML engineer role owning AI-solution lifecycle; from Palantir → OpenAI + Anthropic + AWS ($1B org) + Microsoft (Jul 2026)
 - [[humanoid-robotics]] — embodied-AI arms race: NVIDIA Isaac GR00T + OpenAI Robotics restart + Altman/Alfred + Amazon warehouse + Serve + China IPOs (Jun 2026)
+- [[j-space]] — Anthropic interpretability finding — emergent internal workspace inside Claude for silent reasoning + planning + multi-step reasoning; J-lens open-source tool + Content Seal watermarking pairing; "A Global Workspace in Language Models" paper (Jul 2026)
 - [[john-jumper]] — Google DeepMind VP and 2024 Nobel Chemistry laureate (AlphaFold co-creator); departs for Anthropic in June 2026
 - [[loop-engineering]] — named developer discipline of designing autonomous agent loops (triggers + actions + verification gates) for self-check + self-correct execution cycles; sibling to prompt-engineering / context-engineering / harness-design; "autonomous software assembly lines" per AlphaSignal (Jul 2026)
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
