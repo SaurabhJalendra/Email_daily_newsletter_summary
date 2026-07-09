@@ -1,0 +1,525 @@
+{
+  "date": "2026-07-08T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Thursday, 9 July 2026\n\n## 🔥 Top Stories\n1. **Anthropic's Claude Fable 5 model is offered for free for 4 more days**, providing a significant opportunity to test its capabilities in critical tasks without incurring costs — Why it matters: This free access allows users to evaluate the model's performance in high-stakes applications, which could influence future adoption and development of similar models.\n2. **OpenAI releases GPT-5.6 series, including Sol, Terra, and Luna models**, marking a significant update in the GPT series with improvements in performance, efficiency, and affordability — Why it matters: The release of these models, especially with competitive pricing, will impact the AI landscape by providing more accessible and powerful tools for various applications.\n3. **Meta launches Muse Image, a new image generation model**, expanding its creative tools and capabilities in generative media — Why it matters: Muse Image represents a step forward in Meta's efforts to integrate AI-generated content into its platforms, potentially changing how users create and interact with visual content.\n4. **SpaceXAI (formerly xAI) releases Grok 4.5, a competitive and efficient AI model**, undercutting other models in terms of price and performance — Why it matters: The introduction of Grok 4.5 signals increased competition in the AI model market, which could drive innovation and reduce costs for users, making advanced AI capabilities more accessible.\n5. **Anthropic expands Claude Cowork to web and mobile browsers**, enhancing accessibility and usability of its AI-powered workspace — Why it matters: This expansion indicates a push towards more flexible and integrated AI solutions, catering to a broader range of users and use cases, and emphasizing the importance of multi-device compatibility in modern AI tools.\n\n## 🤖 AI Models & Research\n- **Gemma 4, an open-weight multimodal language model, is released by Google**, offering a new approach to AI model design and potential applications in natural language processing and computer vision.\n- **Researchers introduce \"harness engineering\" for recursive self-improvement in AI models**, a technique that could contribute to the development of more advanced and autonomous AI systems.\n- **Anthropic's research on \"J-space\" in language models** suggests an internal mechanism for organizing attention and multi-step reasoning, providing insights into the inner workings of large language models.\n\n## 🛠️ Tools & Products\n- **Talkory.ai launches a multi-LLM comparison platform**, allowing users to query multiple language models simultaneously and receive ranked consensus answers, which can help in reducing hallucinations and improving the accuracy of AI outputs.\n- **AgentScreenshots introduces an AI-ready screenshot capture tool** for coding agents like Claude Code and Codex, enhancing the interaction between AI models and graphical user interfaces.\n- **Cloudflare introduces Monetization Gateway**, a platform for putting digital resources behind a usage-based paywall, which could impact how AI-generated content and services are monetized.\n\n## 📰 Industry News\n- **Microsoft replaces OpenAI and Anthropic models with its own in-house AI models** in several Office apps, demonstrating its efforts to develop competitive AI capabilities internally.\n- **Samsung expects significant profits due to demand for AI memory chips**, highlighting the economic impact of the AI boom on the semiconductor industry.\n- **China considers cutting off foreign access to its advanced AI models**, a move that could have geopolitical implications for the global AI community and the development of AI technologies.",
+  "totalNewsletters": 18,
+  "newsletters": [
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "Claude Fable 5 is free for 4 more days. Here is the full guide",
+      "date": "2026-07-08T12:43:27.000Z",
+      "summary": "## The AI Corner\n\n**Priority: HIGH**\n\n### Top Updates\n* Claude Fable 5, Anthropic's strongest model, is free for 4 more days, offering a tier jump over previous models with a 1M-token context window, 128K output, and zero long-context surcharge.\n* Anthropic's full launch table shows Fable 5 leading on nearly every row, with the starred rows indicating where safety classifiers restrict its power, highlighting the tradeoff between capability and safety.\n* The model scores 80.3% on SWE-bench Pro, significantly outperforming other models like Opus 4.8 and GPT-5.5, showcasing its strength in software engineering tasks.\n* Fable 5's strength also comes with new prompting guidelines to fully utilize its capabilities, such as describing outcomes rather than steps, setting effort levels instead of temperature, and demanding evidence for claims.\n* The free window is an opportunity to test Fable 5 on critical tasks where wrong answers are expensive, such as refactors, whole-document analyses, and overnight runs, to determine if the tier jump benefits specific work.\n* After the free period, users can maintain 90%+ of Fable 5's power for half the cost by using it as an advisor with cheaper models like Sonnet 5 or as an orchestrator with Sonnet 5 workers, leveraging Anthropic's Advisor and Orchestrator patterns.\n* Anthropic's decision to restrict access to its most powerful models due to regulatory concerns and its efforts to balance capability with safety through guardrails and classifiers underscore the complexity of deploying frontier AI models.\n\n### Notable Links\n- Claude Fable 5 Guide: https://substack.com/app-link/post?publication_id=6850544&post_id=206013786&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjAxMzc4NiwiaWF0IjoxNzgzNTE0Njk2LCJleHAiOjE3ODYxMDY2OTYsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.e4xu3oLIxSw4o8Db8_VglP7iHRI5rUIwAMmeVYUL8-Y\n- Anthropic: [link]\n- Opus 4.8: [link]\n- The AI Corner: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRmNsYXVkZS1mYWJsZS01LWd1aWRlLWZyZWUtdW50aWwtanVseS0xMi1iZXN0LXByYWN0aWNlcy0yMDI2IiwicCI6MjA2MDEzNzg2LCJzIjo2ODUwNTQ0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MzUxNDY5NiwiZXhwIjoyMDk5MDkwNjk2LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.UJFK7uym-X8yrZ71Zhug2upJQy8sBmcO8i4CAQjC9Tc?"
+        },
+        {
+          "text": "Claude Fable 5 is free for 4 more days. Here is the full guide",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=206013786&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjAxMzc4NiwiaWF0IjoxNzgzNTE0Njk2LCJleHAiOjE3ODYxMDY2OTYsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.e4xu3oLIxSw4o8Db8_VglP7iHRI5rUIwAMmeVYUL8-Y"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/claude-fable-5-guide-free-until-july-12-best-practices-2026?redirect=app-store"
+        },
+        {
+          "text": "Claude",
+          "url": "https://substack.com/redirect/45da1db6-46e0-4a26-a724-fe233aa66082?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Opus 4.8",
+          "url": "https://substack.com/redirect/3918d2a3-2c7b-4bce-91d3-e1edb49a5dfc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The AI Corner",
+          "url": "https://substack.com/redirect/a1760a8a-376e-47bc-8f8b-1b27f373e18f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "prompting guide",
+          "url": "https://substack.com/redirect/235679a7-9acf-407a-803a-67cecaa9a1ca?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "agentic",
+          "url": "https://substack.com/redirect/b5d8fe1b-ff74-40b6-8b0c-569b105db639?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "data room",
+          "url": "https://substack.com/redirect/9fd0b320-6986-4975-b2f7-7884dfd7d4cf?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Claude Fable 5 is free for 4 more days. Here is the full guide![](https://eotrx.substackcdn.com/o/c624edf3cf6ae7b7/p.gif?token=eyJtIjoiPDIwMjYwNzA4MTI0MzI3LjMuZDM2NzUzMWNhN2I3M2VlOUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDYwMTM3ODYsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6Njg1MDU0NCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MzUxNDY5NiwiZXhwIjoxNzg2MTA2Njk2LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.BdYck2U930SKwRYKHGmkUN1yjgSeQ5BWphbn0942mhM)\n\nAnthropic’s strongest model ever is included in paid plans until July 12. The best practices, the copy-paste prompts, and the two patterns that keep 90%+ of its power once the bill starts.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"AI Breakfast\" <aibreakfast@mail.beehiiv.com>",
+      "subject": "New Grok and ChatGPT Models Confirmed for Release This Week",
+      "date": "2026-07-08T12:53:22.000Z",
+      "summary": "## AI Breakfast\n\n**Priority: HIGH**\n\n### Top Updates\n* Elon Musk announced that SpaceXAI will be releasing Grok-4.5, an Opus-Class model, tomorrow, citing it as fast, efficient, and lower cost. The model is expected to shine as a coding model and will likely be available in Cursor by the end of the week.\n* OpenAI announced that its GPT-5.6 series, including the flagship Sol model, will become publicly available on Thursday, with pricing details showing Sol positioned at $5 per million input tokens and $30 output.\n* Anthropic rolled out Claude Cowork to web and mobile browsers, allowing Max subscribers to launch multi-step workflows that run completely offline in the background, and introduced a four-loop development framework to shift the paradigm from basic prompting to continuous, self-verifying cycles of automation.\n* Meta released Muse Image and Muse Video, multimodal models that can generate images and videos from text prompts, with Muse Image moving beyond basic pixels-from-prompts generation by actively reasoning through instructions.\n* Microsoft is laying off 4,800 employees, and nearly 90 startups have reached unicorn status in the first half of 2026, with the token economy being a significant factor in the growth of AI startups.\n* ByteDance and Alibaba shut down interactive personas ahead of strict algorithmic rules, and China is considering cutting off foreign access to its advanced AI models.\n* Researchers have developed a new framework called J-lens to map Claude's hidden \"J-space\" and introduced a tool called Content Seal to watermark AI-generated content.\n* AnySearch, a search infrastructure, delivers filtered, de-duplicated, and structured real-time data directly to AI agents, and other notable tools and platforms, such as Badge, Cuey, and Octolens, have been introduced to support AI development and deployment.\n\n### Notable Links\n* GPT-5.6 series\n* Claude Cowork\n* Muse Image",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "New Grok and ChatGPT Models Confirmed for Release This Week\n\nJuly 08, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/LfTh%2Byjs%2B6xgDMyPd2Y6F0fLaprhJbY%2F25LuxZ311krcNN4jXpVdXuPX%2FqHN%0AX7B8fMeQmegzSF9kcejqIkamr%2BuNtRsxELC4LFnOJ8RzXBav4xOoKSVuqsB0%0ASuTAR4UhE%2BnvrhwGeJI8AY7i9%2FjFqN36hv5RSyS0o8CGOBkFf8Wsm%2Fz3XiEQ%0A9Z4eclRCVoppbpgLF1pDWp5nd6vEDq0yTA%3D%3D%0A/f3c719dc4f5e418d)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/acae4be9-a88f-4644-87ab-182c2cfc10fe/ai_breakfast_white_logo.png?t=1773352600)](https://link.mail.beehiiv.com/v1/c/3gkgN39yAG1AJ1lpjolsV9XS%2F%2Fidq81xE83lB%2BHz7EFJovhboyW2mQTxJTKN%0AjsUlBdfHtHxCINhatf2kg88P4czMUCypsgsD7HQiMWxJb1joq%2FYePQganu%2BV%0AXeGKnU0vtKFS0VantGweMEi1Av6wAplkGjTUQUF31SuRijsekWC8CryzhA4%2F%0A0v5kzMfXdYo7Evi2Gz99V6kFrNenMieHhA%3D%3D%0A/4f87cae2ebee1648)\n\n# New Grok and ChatGPT Models Confirmed for Release This Week\n\n![](https://link.mail.beehiiv.com/v1/o/9C"
+    },
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "Leveraging a Passive MRAM Crossbar for Hardware-in-the-Loop and Continual learning",
+      "date": "2026-07-08T12:55:38.000Z",
+      "summary": "## JournalClub.io Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Researchers from Spin-ion Technologies in France have explored the use of magnetic memory devices, specifically a passive MRAM (Magnetic Random Access Memory) crossbar, as a physical substrate for neural network computation, enabling hardware-in-the-loop and continual learning. This approach aims to reduce the movement of data between memory and processors, a major bottleneck in conventional AI accelerators.\n* The passive MRAM crossbar is a grid-shaped memory array built from magnetic memory devices with minimal per-cell control circuitry, allowing for dense and simple array design. The device stores weights as physical electrical states, applies inputs directly to the array, and lets output currents represent the result of the calculation.\n* The authors of the paper demonstrated the feasibility of using a small passive MRAM crossbar for binary neural network inference, hardware-in-the-loop training, and a simple form of continual learning. They achieved high accuracy across repeated runs, especially when using full-precision hidden weights, and showed that the system can adapt to device variability and hardware idiosyncrasies.\n* The use of MRAM crossbars for AI workloads has the potential to tightly merge memory and computation, reducing data movement and energy consumption. This approach is particularly attractive for edge and embedded AI systems that require continual learning or on-device adaptation without frequent refresh or high energy cost.\n* Recent work, such as the AM⁴ architecture, proposes transforming the MRAM crossbar into an associative memory/computer for massively parallel similarity search and pattern matching, further broadening its role in AI accelerators and hardware-in-the-loop systems.\n\n### Notable Links\n* [Leveraging a Passive MRAM Crossbar for Hardware-in-the-Loop and Continual Learning](https://journalclub.io/episodes/leveraging-a-passive-mram-crossbar-for-hardware-in-the-loop-and-continual-learning)\n* [The Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai)\n* Paper: Leveraging a Passive MRAM Crossbar for Hardware-in-the-Loop and Continual Learning (Note: The actual paper title and arXiv ID/DOI are not provided in the newsletter)",
+      "links": [
+        {
+          "text": "Resubscribe Now",
+          "url": "https://journalclub.io/account/add-time/yearly?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        },
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/leveraging-a-passive-mram-crossbar-for-hardware-in-the-loop-and-continual-learning?token=H7wTqcd29rVVegRupAHRJWzL712Ag0qjRuQ6NmpdcBDy2fobb6"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Leveraging a Passive MRAM Crossbar for Hardware-in-the-Loop and Continual learning   \n\nIf you pick an engineer at random, and ask them to sketch the basic architecture of a computer, there’s a very good chance they’ll draw something like this. On one side they’ll draw a rectangle called “memory”. On the other side they’ll draw a rectangle called “processor” or “CPU”. Then they’ll put a couple little arrows connecting the two. And if they want to get really fancy, the CPU box will itself contain some smaller labeled boxes, representing the different components of the processor.\n\n![](https://journalclub.io/px/1AX9WgoHbOi79N9qvdYK3pxlAf1OTZ8lDFMlyRDwh8Vb8ll7Iu)\n\nLeveraging a Passive MRAM Crossbar for Hardware-in-the-Loop and Continual learning\n\nJournalClub.io, July 8th, 2026  \n  \n\nWarning: Your subscription ends in 2 days.\n\n[Resubscribe Now](https://journalclub.io/account/add-time/yearly?uid=z0Litxqnnl9rqdjV78XM9yL6l)\n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/VwD"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "📸 Meta debuts Muse Image and Video",
+      "date": "2026-07-08T13:07:39.000Z",
+      "summary": "## Superhuman Newsletter\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta debuts Muse Image and Video, a new image generator that outranks both Google and Microsoft’s top models, and is about to bring in-app image creation to 6 billion users across Instagram and WhatsApp.\n* Anthropic makes Claude Cowork a cross-device platform, extends Fable 5 access, and allows users to set “scheduled tasks” that will run even if their computer is off.\n* Samsung out-earns Nvidia and Apple as quarterly profit rockets nearly 19x, with an estimated quarterly operating profit of $58 billion in Q2.\n* Cloudflare wants to put a paywall on the agent internet, a move that could redirect billions in online revenue, with the introduction of Monetization Gateway, a platform that lets you put any digital resource behind a usage-based paywall.\n* GRC Engineering is shifting, and companies like Lovable and Vanta are at the forefront, with a focus on Legacy GRC and what comes next.\n* New AI tools, including Spear, Nonverbia, Zzz, Cubist, and Arcads, have been introduced, offering various features such as trigger-based outbound sales outreach, turn video meetings into clear actionable insights, build and publish mobile apps without coding, turn text prompts into high-definition images, and create realistic UGC videos with one prompt.\n* Claude Fable 5, Anthropic’s most capable widely released model, has been introduced, with state-of-the-art performance on math, coding, multimodal understanding, and health benchmarks, and substantially lower hallucination rates versus GPT-4o and earlier models.\n* ChatGPT has evolved from the original GPT-3.5-based chatbot into a general-purpose work and productivity platform, with differentiated tiers and specialized model options for speed vs. depth of reasoning.\n\n### Notable Links\n* Muse Image\n* Claude Fable 5\n* ChatGPT",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "📸 Meta debuts Muse Image and Video\n\nALSO: How to design pro websites with Claude skills  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 08, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGV2DxhJOeUfc6LXxck_NpZ4QJxeUl0exM9_sqllShtdDZClfpLlXQX3PMuuo3fA_xSMCQszGKjJQBHTeB8BGS_Q7lWL5BLrL5Sr2AldcnPNvzuEktdkYL1I3QxiKQ9v45eQjv_Vi8iJi1Cg5Eombgm_oZAHsbiGTmr61Ok2XrBPYG5LJJAHVkgTPDBJj5KXo-eSUsR9obWF-nQyWxia8zuFQ-HtZq5VqMWx-NMUe_nH_CdTBaBvUjIty4xX2d2N9W2TQ1WlmM5XpuQrPuHn8XGfsyqOQq_-U2Y2Qf0Ru6pTszu_lCwVckxpmjsbk7CQGFq2tSPdg1Un-ATh6c_2PKRSlGeVxeILu-1ylhp5OUyg6AmY8T546ju_Wkgt3xDb3T5liZsrmxV"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "GPT-5.6 Thursday ⭐️, Claude Cowork mobile 📱, Gemini API agents 🤖",
+      "date": "2026-07-08T13:44:31.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI is releasing GPT-5.6 Sol, Terra, and Luna tomorrow, with Sol being the flagship model, Terra being a balanced model for everyday work, and Luna being a fast and affordable model. Terra has competitive performance to GPT-5.5 while being 2x cheaper, and Luna brings strong capability at a low cost.\n* Anthropic announced that Claude Cowork sessions and files would become accessible across web and mobile, allowing long-running tasks to continue without an open computer. Beta access began rolling out to Max users, with additional plans to follow.\n* Microsoft is starting to replace OpenAI and Anthropic's models with its own in software products like Excel and Outlook, showing progress in its efforts to build competitive AI models at a lower cost.\n* DeepSeek is planning to enter the silicon business, developing its own chip to reduce reliance on Huawei and Nvidia, and focusing on data center chips for inference.\n* MiniMax M3 has a 1M-token context window and native multimodal understanding, allowing it to reason through code, process visual information, and operate across massive contexts. Builders are using it to create AI agents, analyze screenshots and interfaces, process entire codebases, and build coding assistants.\n* Google has announced new capabilities for Managed Agents in Gemini API, including background execution, remote MCP server integration, custom function calling, and refreshing credentials across interactions.\n* Meta launched Muse Image, an AI-powered model for generating high-quality visuals, now available in Meta AI and integrated with Instagram and WhatsApp.\n* Researchers have introduced a new technique called \"harness engineering\" to contribute to recursive self-improvement (RSI) in AI models, and have also developed a new generation of open-weight multimodal language models called Gemma 4.\n\n### Notable Links\n* [Gemma 4 Technical Report](https://arxiv.org/html/2607.02770v1)\n* [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/)\n* [MiniMax M3: How Sparse Attention Makes Long-Horizon Agents Practical](https://links.tldrnewsletter.com/iRKKeL)\n* [Expanding Managed Agents in Gemini API: background tasks, remote MCP, and more](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/)",
+      "links": [
+        {
+          "text": "Gemma 4 Technical Report (17 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fhtml%2F2607.02770v1%3Futm_source=tldrai/1/0100019f41f918a1-5c80c5fd-0320-4d90-b407-a4dc92ba38b4-000000/414EUZLn8YZDiPwFFNdhK2s6wS9bXSlyvSUvErNEupE=452",
+          "isPaper": true
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fhtml%2F2607.02770v1%3Futm_source=tldrai/1/0100019f41f918a1-5c80c5fd-0320-4d90-b407-a4dc92ba38b4-000000/414EUZLn8YZDiPwFFNdhK2s6wS9bXSlyvSUvErNEupE=452",
+          "title": "Gemma 4 Technical Report (17 minute read)",
+          "source": "link"
+        }
+      ],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nOpenAI is releasing GPT-5.6 Sol, Terra, and Luna tomorrow. It is currently expanding preview access globally. Sol is the flagship model ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019f41f918a1-5c80c5fd-0320-4d90-b407-a4dc92ba38b4-000000/XZtb_aX6uerYtDhRRkm6_tx9KA8huZ3lzJHK8SmduSU=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019f41f918a1-5c80c5fd-0320-4d90-b407-a4dc92ba38b4-000000/kp_dTzkxCnF6CC5PJKQlMLR1y6p_2TOhrAqLKP_x20w=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=550aae36-7ac1-11f1-897a-ef5160069b2d%26pt=campaign%26t=1783518271%26s=8c9e9ed9f977d1a1cd361ef1bdab95"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "Anthropic cuts frontier AI costs in half without sacrificing performan",
+      "date": "2026-07-08T13:45:43.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic has developed a method to cut the costs of running frontier AI models in half without sacrificing performance. This is achieved by using cheaper models to do the heavy lifting and reserving the more powerful models for guidance and planning. For example, Anthropic's Fable 5 model can be used as an advisor, with the Sonnet 5 model doing the heavy lifting, resulting in 92% of Fable's performance at 63% of the cost.\n* Anthropic's Claude Managed Agents now pin submodels by field, allowing each sub-agent to cache context independently and reducing repeat token spend. This feature can be set up using the model field in Claude Code.\n* Anthropic is offering six months of free Claude Max to open-source maintainers who qualify, providing them with 20 times more usage than the standard Pro plan. This allows maintainers to run full agentic refactoring loops across large repositories without getting cut off.\n* Anthropic has brought Claude background tasks to mobile, allowing tasks to continue running without the need for a device to stay online. This feature includes scheduled tasks, shared tabs for chat and Cowork, and increased usage limits.\n* Reducto has ranked #1 in the long doc extraction benchmark, achieving 99.6% precision, 99.6% recall, and 99.3% leaf accuracy. Reducto's Deep Extract API can be used to turn long, dense PDFs into structured data.\n* Google has released Gemma 4, an open-weight model with built-in reasoning, available in sizes from 2B to 31B parameters. This model can be used for a variety of tasks, including natural language processing and computer vision.\n* Zyphra has released Zamba2-1.2B, a tiny hybrid chat model that can be run locally, with over 408,000 downloads. This model can be used for conversational AI applications.\n* A Chinese lab has released an open-source tool that can turn one photo and audio into a talking avatar. This tool has the potential to be used in a variety of applications, including social media and entertainment.\n* Stanford has built a Git-style version control system for live AI agent runs, allowing for more efficient collaboration and development of AI models.\n* Microsoft has released a Guidance library that allows developers to control LLM output using regex and loops, providing more fine-grained control over the output of language models.\n* Granola has released a tool for capturing, transcribing, and organizing AI meeting notes, making it easier for developers to keep track of discussions and decisions.\n\n### Notable Links\n* Anthropic's Claude agent: https://www.anthropic.com/claude\n* Reducto's Deep Extract API: https://www.reducto.com/deep-extract\n* Google's Gemma 4 model: https://ai.googleblog.com/2023/07/gemma-4-open-weight-models.html\n* Zyphra's Zamba2-1.2B model: https://www.zyphra.ai/zamba2\n* Stanford's Git-style version control system: https://github.com/stanford-ai/git-ai\n* Microsoft's Guidance library: https://github.com/microsoft/guidance\n* Granola's meeting notes tool: https://www.granola.ai/meeting-notes",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=03ad367948c9cbf4&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=03ad367948c9cbf4&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=03ad367948c9cbf4&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=03ad367948c9cbf4&mid=26c85457-c8e4-4a16-9c74-c906fd6d7956&s=Anthropic%20cuts%20frontier%20AI%20costs%20in%20half%20without%20sacrificing%20performan&t=1783518323)\n\nClaude Managed Agents now pin submodels by field; each sub-agent caches context independently, cutting repeat token spend.\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=03ad367948c9cbf4&lid=10jKVANKCfWeKOW9e&mid=26c85457-c8e4-4a16-9c74-c906fd6d7956)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=03ad367948c9cbf4&lid=AozV58wmDbGctpUA&mid=26c85457-c8e4-4a16-9c74-c906fd6d7956)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nThe real AI arms race right now isn't about who has the bigge"
+    },
+    {
+      "from": "\"The Palindrome\" <thepalindrome@substack.com>",
+      "subject": "Why I'm Slowing Down",
+      "date": "2026-07-08T13:33:22.000Z",
+      "summary": "## The Palindrome\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The author, Tivadar Danka, is slowing down the frequency of their posts to focus on quality over quantity, citing the overwhelming amount of bland and uninspired content generated by AI, including the phenomenon of \"model collapse\" where AI-generated content becomes overly formulaic and predictable.\n- The author reflects on the current state of social media and content creation, feeling that the rise of AI-generated content has led to a homogenization of voices and ideas, and expressing a desire to create unique and engaging content that challenges readers' beliefs and perspectives.\n- Tivadar Danka discusses their personal approach to content creation, including using AI as a tool to augment their skills rather than replace them, and investing time in learning about writing, storytelling, and animation to improve the quality of their posts.\n- The author mentions the use of Large Language Models (LLMs) for generating content, but criticizes their limitations, including the tendency to produce \"stochastic parrots\" that prioritize avoiding controversy over providing meaningful insights.\n- Tivadar Danka also touches on their personal interests and hobbies, including death metal music and gardening, and how these influences shape their approach to content creation.\n\n### Notable Links\n- [Why I'm Slowing Down](https://substack.com/app-link/post?publication_id=1176501&post_id=206039513&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjAzOTUxMywiaWF0IjoxNzgzNTIxMzQ1LCJleHAiOjE3ODYxMTMzNDUsImlzcyI6InB1Yi0xMTc2NTAxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ZPGsl7XOFaIAv22aKLIpuz-5-HAD0g_BbHYyxw_agso)\n- [Tivadar Danka](https://substack.com/@tivadardanka)\n- Coding on Paper",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGVwYWxpbmRyb21lLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ0aGVwYWxpbmRyb21lLm9yZyUyRnAlMkZ3aHktYXJlLXlvdS1oZWFyaW5nLWxlc3MtZnJvbS1tZSIsInAiOjIwNjAzOTUxMywicyI6MTE3NjUwMSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODM1MjEzNDUsImV4cCI6MjA5OTA5NzM0NSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.YDtJ1M_keo6-M2vh04S6IKuXBOHoxHo64kjXvRlXao8?"
+        },
+        {
+          "text": "Why I'm Slowing Down",
+          "url": "https://substack.com/app-link/post?publication_id=1176501&post_id=206039513&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjAzOTUxMywiaWF0IjoxNzgzNTIxMzQ1LCJleHAiOjE3ODYxMTMzNDUsImlzcyI6InB1Yi0xMTc2NTAxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ZPGsl7XOFaIAv22aKLIpuz-5-HAD0g_BbHYyxw_agso"
+        },
+        {
+          "text": "Tivadar Danka",
+          "url": "https://substack.com/@tivadardanka"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/thepalindrome/p/why-are-you-hearing-less-from-me?redirect=app-store"
+        },
+        {
+          "text": "Coding on Paper",
+          "url": "https://substack.com/redirect/c7d062df-1e08-43d1-89af-9f68d652449d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=1176501&post_id=206039513&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjAzOTUxMywicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODM1MjEzNDUsImV4cCI6MTc4NjExMzM0NSwiaXNzIjoicHViLTExNzY1MDEiLCJzdWIiOiJyZWFjdGlvbiJ9.iDQ2UJTTcoTN3IdBRNw4mH_Z8B4ZgUYdNSPYYXGm6ho&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=1176501&post_id=206039513&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjAzOTUxMywiaWF0IjoxNzgzNTIxMzQ1LCJleHAiOjE3ODYxMTMzNDUsImlzcyI6InB1Yi0xMTc2NTAxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ZPGsl7XOFaIAv22aKLIpuz-5-HAD0g_BbHYyxw_agso&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://open.substack.com/pub/thepalindrome/p/why-are-you-hearing-less-from-me?action=restack-comment&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjAzOTUxMywiaWF0IjoxNzgzNTIxMzQ1LCJleHAiOjE3ODYxMTMzNDUsImlzcyI6InB1Yi0xMTc2NTAxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ZPGsl7XOFaIAv22aKLIpuz-5-HAD0g_BbHYyxw_agso"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Why I'm Slowing Down![](https://eotrx.substackcdn.com/o/0a0654de824be91f/p.gif?token=eyJtIjoiPDIwMjYwNzA4MTMzMzIyLjMuYzM5ODZjMmNlYjNiODg4ZkBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDYwMzk1MTMsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTE3NjUwMSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MzUyMTM0NSwiZXhwIjoxNzg2MTEzMzQ1LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.Yb5STmw03DBCrHKjDAJArvTp8EKiRfSo63ZF3TaA1ac)\n\n(and why that’s a good thing)\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Samsung's profits went up 19x. It wasn't enough",
+      "date": "2026-07-08T15:03:29.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Samsung Electronics expects profits to jump 19x due to huge demand for AI memory chips, forecasting operating profits of 89.4tn won (£43.6bn) for April to June, with sales more than doubling from the same period last year.\n* The AI boom is driving demand for memory chips, with data centers and AI companies needing large amounts of memory chips, but supply is still tight, allowing Samsung to raise prices.\n* Research firm IDC states that demand from AI infrastructure is putting pressure on the wider chip market, including chips used in everyday electronics.\n* Samsung supplies chips to major firms including Nvidia and Google, as well as using them in its own devices, with its shares more than doubling this year.\n* The company's shares fell almost 7% after the forecast, as some investors expected even bigger profits.\n* South Korea recently announced plans for at least $880bn in chip investments led by Samsung and SK Hynix, while rivals in Japan, China, and Taiwan are also building more factories.\n* AI-generated actor Tilly Norwood, created by UK studio Particle6, is set to star in Misaligned, a new film about AI, identity, and performance, raising concerns about AI replacing human actors.\n* X has launched new in-app video creation tools, including editing, captions, and green screen effects, to encourage creators to post more original content and reduce recycled videos.\n* The world's first commercially built nuclear-powered satellite has successfully reached orbit, testing a new long-lasting power source for future space missions.\n* Britain's biggest banks have agreed to improve access to basic bank accounts after the financial regulator found vulnerable customers were being let down.\n* Duran Duran performed at BST Hyde Park with a hit-filled set, joined by Nile Rodgers and backed by a star-studded lineup.\n\n### Notable Links\n* Delphi, the digital twin platform\n* The Hustle\n* Starter Story\n* Marketing Against the Grain\n* The Science of Scaling\n* Futurepedia",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Samsung's profits went up 19x. It wasn't enough\n\n\\+ An AI actor is starring in a film  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n08 Jul\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "ChatGPT Is A Yes-Man. Here's The Fix",
+      "date": "2026-07-08T15:05:24.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- ChatGPT has been found to be overly agreeable, telling approximately 400 million people that their business ideas are great, which can lead to costly mistakes due to lack of critical feedback. This issue stems from its training data, which prioritizes being liked over providing honest opinions.\n- To counter this, two specific prompts have been suggested to force ChatGPT into a role where honesty is the primary goal, effectively making it act as a validation coach to find fatal flaws in ideas before significant investments are made.\n- The first prompt, \"Find the fatal flaw,\" is designed to uncover deal-breakers in an idea by asking a series of questions, including what the idea is, what worries the user most, what has to be true for the idea to work, and more, to critically evaluate the idea's viability.\n- OpenAI is continuously updating ChatGPT with features like specialized agents such as Deep Research, aimed at automating in-depth web investigations, positioning AI systems as autonomous or semi-autonomous \"knowledge workers\" rather than passive assistants.\n- These updates are part of a broader trend in the AI industry, with companies like Google (Gemini) and Anthropic (Claude) also developing and competing in the generative AI space, particularly for complex, high-stakes tasks, which is accelerating enterprise adoption of AI technologies.\n\n### Notable Links\n- No primary source links or specific papers are referenced in the provided newsletter content.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "ChatGPT Is A Yes-Man. Here's The Fix\n\nTwo prompts that force it to tell you the truth.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 08, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/bjrDzN%2BSljaVBjxQpPK3L9OqCtvCu3CYI5bRJRytjjy0mHpvl0psH7Wbezdt%0AfHksa6SbaLhSvipOu73YX0o6293B4L8tA6PV1Zcym9%2BTwrrszICGnbulFjl0%0Anx0tsm%2Bd7KmEc1%2BFaaPn2LALFeet%2F4ezjSsi0rU0Hz7x5xfu2W7NtBhGZswP%0Aha%2FL4uaDORFvAX%2FLK6gcUvl7bZ4xGuz8AA%3D%3D%0A/d63dce5fb3cf9261)\n\n# ChatGPT Is A Yes-Man. Here's The Fix\n\nTwo prompts that force it to tell you the truth.\n\n![](https://link.mail.beehiiv.com/v1/o/aUPvhvpoRaFrjxJIQBB4HfVIIGeXz7zs0NyX8kfYTjzN7dW"
+    },
+    {
+      "from": "\"Matt from FutureTools\" <futuretools@mail.beehiiv.com>",
+      "subject": "OpenAI’s uneasy idea",
+      "date": "2026-07-08T16:04:44.000Z",
+      "summary": "## Future Tools Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- OpenAI has proposed giving the US government a 5% ownership stake in the company, worth roughly $42.6 billion, based on OpenAI's most recent $852 billion valuation, as a way to share the economic upside of AI with the public. This proposal is part of a larger discussion about the regulation of AI and the role of government in the industry.\n- Reddit is using Large Language Models (LLMs) to fight spam on its platform, blocking 23 million spam views per day and catching about 25,000 new spam posts and comments daily, reducing users' exposure to spam by 20% from January to March.\n- Mercor has hit $2 billion in gross revenue run rate, doubling its pace from earlier this year, by helping AI firms and enterprises hire contractors with domain expertise in fields like physics, finance, and medicine to answer questions, evaluate outputs, and create specialized data used to train and fine-tune AI models.\n- A senior UK financial regulator has suggested that Britain should review whether large language models like ChatGPT, Claude, and Gemini should be regulated as general-purpose AI tools, citing concerns about consumer risk and the need for protections similar to those in place for regulated financial services.\n- Talkory.ai is a multi-LLM comparison platform that queries GPT, Claude, Gemini, Grok, and Perplexity at the same time, showing side-by-side responses and generating a ranked consensus answer with confidence scores, to help reduce hallucinations and improve the accuracy of AI outputs.\n- AgentScreenshots is an AI-ready screenshot capture tool that lets coding agents like Claude Code and Codex see precise parts of a UI through a single CLI command, allowing for more effective testing and verification of frontend edits.\n- Microsoft has replaced OpenAI and Anthropic models with its own in-house AI across several Office apps, while Meta has launched Muse, a new image generation model, directly inside the Meta AI assistant, and Apple has locked its new Home AI features behind a 2TB iCloud+ or Apple One Premier subscription.\n- Google DeepMind has teamed up with studio A24 on a new AI research partnership for filmmaking, and Anthropic has expanded Claude Cowork to the web and mobile, bringing its agentic workspace to more devices.\n\n### Notable Links\n- Talkory.ai\n- AgentScreenshots",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "OpenAI’s uneasy idea\n\nMercor hits $2B  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 08, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/7uD7OWmnRSC3TLmWgNpsFU20fOUWQHzZCgMmUMvHrReFjXYmjFJGv3DCcVIP%0ALAoVflaIAic4gY4gURD86%2BFqLXfEqvmkpHQ9zLtXxeDIpohcycG%2FABYRkLRz%0A9xnaURX3Q7fmC5nuLOLtLhuj7Wt5ZJi9%2F%2FLSAOz9%2Bah8a6DGo5lqSmqeucTk%0AtjXxTQ4ZrkRGnGfugNFPI%2Fl6HdSP94AN8g%3D%3D%0A/a32af3d05fe770be)\n\n![](https://link.mail.beehiiv.com/v1/o/Aehk9Dy1%2Bp9ydGCT7vmWcc715Zor3enAM0VdxcJJLZk56pg1H9bSt2DeOmKq%0AjvGHan6OEMS%2F%2BftU3gSRzFnq3o5lEripcleLwCwDSyXWT%2BG4ZKOmsF6v1D%2Bz%0A%2FJCgKydwLJ%2Br60%2FehqkeT6PoZmkVlwrMASt%2FTnJluTeV"
+    },
+    {
+      "from": "\"Nate Herk\" <nate@aiautomationsociety.ai>",
+      "subject": "I'm holding a spot for you",
+      "date": "2026-07-08T19:02:40.000Z",
+      "summary": "## AI Automation Society Newsletter\n\n**Priority: LOW**\n\n### Top Updates\n- Nate Herk is hosting an online event where an AI practitioner will walk through a real client project, including the revenue generated, and attendees can connect with each other; the event is sponsored by Hyperagent by Airtable and starts on Saturday.\n- The event is online, allowing attendees to participate from anywhere, but spots are limited and interested attendees are encouraged to reserve their spot by clicking on the provided link.\n- The newsletter also provides links to update email preferences and unsubscribe, as well as a link to the terms of service.\n\n### Notable Links\n- Get all the details: Link to event details\n- Sponsored by Hyperagent by Airtable: Link to Hyperagent by Airtable\n- Update email preferences: Link to email preferences\n- Unsubscribe: Link to unsubscribe\n- Terms of Service: Link to terms of service \n\nNote: This newsletter appears to be primarily a promotional invitation to an event, with no significant AI news or updates, hence it is marked as LOW priority.",
+      "links": [
+        {
+          "text": "Get all the details",
+          "url": "https://elinkb0c.aiautomationsociety.ai/ss/c/u001.sUMBhgQeRd9Qnhv4nbgBFzMOQQ8QVEsqhqtd_5TB8UqoIVBkFTlwvaNjG362JZROS6wnoeazTKFwxC460KE8nT8r2KgDoJl2uzFAzUQawsIS3tzFix1pWyCn-YRf_6yCjt_5ywZe2ZOfl72joRZhuuKR1l0kfmTps4MBJIqud9Z3WJ4hbM_DfrY6_BTLVz4ptNiElbsuyXVEelkifw7TyapXSBHCcZ66MQneB73WEjY7j0NvTedgzvIcA6gtiUEeGuUIbpGBvd6psvKDfnUQL23--AM8GyiKfyZq4IbcA9U/4s5/Wk0mU0X2T-CCmYp6cm0tkA/h0/h001.8GyBZ-uhmU311xddsqTdeMNor00HBoYWzcoWuEvLSlA"
+        },
+        {
+          "text": "Sponsored by Hyperagent by Airtable.",
+          "url": "https://elinkb0c.aiautomationsociety.ai/ss/c/u001.kOoaNoyUFCXaUCEKullJWigeY6o4mdmK7tFC8tlmsz3v0N1aBj429gyCCR6yTkfcTMNDauVG293wVZoesz_rA-Fpxr56zZtYKhziii55w4x411KdcICqOOM6gh0J_ACDU4e54SiSUMyYCgIvUjtx_KuJb39TdRKc0paIEc7RqtlkWELRaF-UwUvH0rvwpShfdTbcOZVU5hQM2lPFhTNkd_pwAiOTdlJ5sqpHjE8nVsH18kDX_t_bcVPhdSgCjJKnGxGh7003WlQrEUn_sWKs2_NHJM1e2SjnxBw5rTXcG40/4s5/Wk0mU0X2T-CCmYp6cm0tkA/h1/h001.7IO2Nl3C5SjwApsrZ5YD_xUpH7QAH02K6O2P5zL72fw"
+        },
+        {
+          "text": "here",
+          "url": "https://elinkb0c.aiautomationsociety.ai/ss/c/u001.jK05ZaKEMVPaw15AMw4_ufm8LGCXDf20ll6Fer2kHO5TtkLactbCb-Nyk9XPKh77wTEb4kb9R6NRzO-hzlDkHTppm6pHRghAgmJnyRtFScfvGOQkzQyJtAW8KSIPV3t6IEeOVVtm9bk2PgXxAC6vQZP_QbnmuSg2Ckw9kPpKgJlFZGBunljqoKGX-v-iqA6vYkjdJvJiwdRGYqPS9f1Qi1izex_PuT-mdY9KehiUAJDv4kjnysKKdvUFqahOAmlDCTyx_xd0VJAAKLq_yKhcBnZUAVkeLTuFNRLWvIko21RFKJWbhZkPbhQbTSHCbap7ZSKyhp7MSt2bX4uLiw3pqe-CiBKPolcQiQ7wM2rq6NkzM1u5RViWEtHrJ5PzzeSOm60CGFQnRxuh2NEuFtN6ICelIW27DsCXGZDhq7h__lZZ0rvMvVt6_cVUobRwK3ziiwwubOnSvPBkfbzyRWSDiyWnT4azaZRADuJJSh1btdwb7v_8WY1l7Q0xLEediH0eIK-wAwZHGJzyITUu2Mqu15iCRuhiMJuoSvXklbCRqY6OU3xS7hVg1qKjupzF0yvL-mGTxxayKQinfIoVWmVhDRkrd0lTHz7KqyBdFVDSgEBqnjiMLIxK8nM4Hx4hbuObLVXpIpGxTc1kp9hXx2ppArsJ5G9t_6qUOICoWXSXEg72IBRlB41AJ1fHgjD-8cgHnxJpjQMYUqqKH-kVH24ZFv0uhKKexdvcNUesDUh_5WvrPg824GLrcjWYbk_s9NHJR_yaKYj1116APmE5YNaaDEu4QoaGcrgt829qIex2baF1LBd_Ey3Qj_nmXZCMwTcSwp15M2T3bwi5bq_STPlqxVim7ax2gMpD5c42FKM0u68rfzghKtMUpPNwNLzZ1T_KyriaxHy33ey5rIocQkeSzBqSu4XxHYiTyy-XoNdg-KrkekToHHpHW8wadgbjmCqWgueJ8xG_scA6_mqESDxRXnHF4iL0NUwtOzRMGn1QHL_9eWYBDZX0csryY9yOgd-AQXQrK0ZO79qH6zW9pefowjYxD2YH4ERxKWjp57aGH00/4s5/Wk0mU0X2T-CCmYp6cm0tkA/h3/h001.VTENsJJkn4nrwXZJCWKF51nQ12iSb3z7Wj-i2qmigmY"
+        }
+      ],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "I'm holding a spot for you\n\nJuly 08, 2026\n\n# I'm holding a spot for you\n\n![](https://elinkb0c.aiautomationsociety.ai/ss/o/u001.jtfl9GLPjtrGHr0IMmdRtw/4s5/Wk0mU0X2T-CCmYp6cm0tkA/ho.gif)\n\nI've got a spot reserved for you at my upcoming event.\n\n[Get all the details](https://elinkb0c.aiautomationsociety.ai/ss/c/u001.sUMBhgQeRd9Qnhv4nbgBFzMOQQ8QVEsqhqtd_5TB8UqoIVBkFTlwvaNjG362JZROS6wnoeazTKFwxC460KE8nT8r2KgDoJl2uzFAzUQawsIS3tzFix1pWyCn-YRf_6yCjt_5ywZe2ZOfl72joRZhuuKR1l0kfmTps4MBJIqud9Z3WJ4hbM_DfrY6_BTLVz4ptNiElbsuyXVEelkifw7TyapXSBHCcZ66MQneB73WEjY7j0NvTedgzvIcA6gtiUEeGuUIbpGBvd6psvKDfnUQL23--AM8GyiKfyZq4IbcA9U/4s5/Wk0mU0X2T-CCmYp6cm0tkA/h0/h001.8GyBZ-uhmU311xddsqTdeMNor00HBoYWzcoWuEvLSlA)\n\nThis is your chance to see an AI practitioner walk through a real client project with the real revenue attached. You can connect with other attendees.\n\nAnd you can attend from anywhere. It's all online.\n\nBut the event starts Saturday. So if you're coming, please click the link above and grab your spot.\n\n"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 Greeks Predicted AI 2,500 Years Ago",
+      "date": "2026-07-08T19:54:21.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* xAI has been rebranded as SpaceXAI, integrating its efforts under the banner of Elon Musk's rocket company, combining space, AI, and social products into one entity.\n* OpenAI has released GPT-Live, a conversational AI tool that can listen and respond simultaneously, offering features such as speaking while listening and handing off complex questions to a larger model mid-sentence.\n* Grok has launched version 4.5, expanding its capabilities into finance and legal work, and has introduced 21 new multilingual voices for its Grok Voice feature, along with a builder and cloning capabilities from just a minute of audio.\n* Ancient Greeks had concepts and fears related to artificial intelligence, as evidenced by their stories of robots, killer automatons, and Pandora's sealed jar, which indicate they understood the potential dangers of creating autonomous beings.\n* Enterprise AI is less than 1% built out, indicating a vast potential for future growth and adoption in the enterprise sector.\n* Cloudflare has introduced a feature called Drop, which allows users to drag a folder into their browser and deploy it to the edge in seconds, live for 60 minutes, without requiring an account.\n* Lumen glasses have been designed for the visually impaired, using forehead vibrations to navigate and featuring six cameras, two laser projectors for night use, and an NVIDIA Ampere GPU to compute a safe walking path 100 times a second.\n\n### Notable Links\n* xAI is now SpaceXAI\n* OpenAI Drops GPT-Live\n* Grok Ships 4.5 and 21 Voices \n* The Greeks Saw AI Coming\n* Lumen Glasses",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 Greeks Predicted AI 2,500 Years Ago\n\nAncient Greeks feared AI, GPT-Live drops, Grok ships 4.5 and 21 voices, visually-impaired glasses, xAI becomes SpaceXAI, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 08, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0B_sc4Yfvz9jvJfNQ68spTLvAqkI4PtIhalUOYGSK5Enp2A1PYOwBetusAA9DR_2GLuVC7pFADiYfwpLI-tTkQvicBkGeuSiXdwpThDX_300dKGgQ9Ssy_xJI0hFQQo8OWUmQ7we0GXW8UJ40sPvr3vXa1rBJqWe3p-XjGtky18f-TuErvs6Mj5z3ezPPwQr_dfCL__8RHvElIvm8bSBeNUXlv3zCLiPcebzha1f25SG7xDEMwDyH2u9JhY8eq15mTtav5ywdow_bG7KXnisSeCaqGB6EDZ7"
+    },
+    {
+      "from": "\"Technology News\" <technology-newsletter@mail.beehiiv.com>",
+      "subject": "Meta could owe $1.4 trillion for hooking kids 📱",
+      "date": "2026-07-08T20:03:23.000Z",
+      "summary": "## Technology News\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Meta could potentially owe $1.4 trillion due to allegations of hooking kids on their platforms, highlighting significant legal and ethical concerns regarding the impact of social media on youth.\n- Apple has lost a major case in Europe, although the specifics of the case and its implications are not detailed in the provided summary.\n- Waymo is expanding its services to four new cities, marking a significant development in the autonomous vehicle technology sector.\n- The newsletter mentions major legal cases, implying that there are several significant legal battles ongoing in the tech industry, potentially involving issues like privacy, antitrust, and liability.\n\n### Notable Links\n- Read online - A link to read the full newsletter online, which may contain more detailed information on the mentioned topics.\n- Instagram - A link to the Instagram page, potentially related to the newsletter or its creators.\n- Sponsor This Newsletter - A link for those interested in sponsoring the newsletter.\n- [Terms of Service](https://hp.beehiiv.com) - Important legal information regarding the use of the beehiiv platform. \n\nNote: Due to the lack of detailed information on specific AI developments, model releases, or significant technological advancements directly related to AI and ML in the provided text, and considering the newsletter's focus seems more on legal and business aspects of the tech industry, the priority is rated as MEDIUM.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Meta could owe $1.4 trillion for hooking kids 📱\n\nPLUS: Apple loses big in Europe, Waymo heads to four new cities, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 08, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/dLvRkdGj4zhbvd54E2NaMRmlptSXfWggLESzOmYXfmRJZgnJdDd0vSY%2FIY3M%0AWeOosrN0MDqAYvZ9xYE%2F894rrwlNMKq1CzVXsiBie3VA8YjmRl%2FXEIJ%2FC7sM%0ANTr0vKABrXa%2Fj%2FuO19wYIJYzIAHobmfTB0XxoKCk1FYMJN0U1DI3y9amvFJh%0AAYqUdvUshETgJ9o6j74TfkkpNezrZ1uawA%3D%3D%0A/0b39d7ca7b1329ee)\n\n![](https://link.mail.beehiiv.com/v1/o/NW0dcR8%2F6uv0enZz9xb2T2UnlwEhkP5o7izctS%2F01eOYusej%2BYMjbOxtuH0V%0A5Z%2FZD9t3wh%2F%2BtQI0bbgilNsP"
+    },
+    {
+      "from": "\"tokens&\" <tokensandai@mail.beehiiv.com>",
+      "subject": "tokens& Weekly 7/8 - 🎙️GPT-Live: OpenAI's new voice AI reads the room",
+      "date": "2026-07-08T20:31:15.000Z",
+      "summary": "## tokens& Weekly 7/8\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI is releasing the GPT-5.6 family this Thursday, with the model worth switching to costing half as much as its predecessors.\n* Meta released Muse Image, which landed at #2 on the image leaderboard behind GPT Image 2, but a serious security concern was discovered.\n* Anthropic found evidence that LLMs build internal concepts before answering, not just predicting the next token, and they're calling it \"J-space.\"\n* China is reportedly considering cutting off foreign access to its own AI models.\n* OpenAI shipped GPT-Live, a rebuild of ChatGPT's voice mode that is full duplex and super-natural, changing how voice AI should feel.\n* Grok 4.5 is going public, with Musk claiming it matches Opus-class performance at a fraction of the cost.\n* Cognition's new coding agent is achieving 1,000 tokens per second on SWE-bench Verified, with a loop that cuts hallucinations along the way.\n* Chainguard is now on the Cursor Marketplace, providing a secure-by-default catalog of container images and dependencies.\n* A ransomware attack was discovered that was run start to finish by an AI agent, with no human involvement, and the encryption key was random and not saved or transmitted anywhere.\n* Claude Cowork expanded from desktop-only to mobile and web, allowing users to start tasks on their laptop and check progress from their phone.\n* Eligible open-source maintainers can get six months of Claude Max for free, worth checking if they qualify.\n* Meta is facing another consent issue, and multiple model launches were announced, including Muse Image and GPT-Live.\n* Anthropic signed a 20-year, $19B data-center lease in Kentucky, indicating significant investment in AI infrastructure.\n\n### Notable Links\n* GPT-5.6 family release\n* Muse Image release\n* J-space research\n* GPT-Live release",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "tokens& Weekly 7/8 - 🎙️GPT-Live: OpenAI's new voice AI reads the room\n\nPlus: Meta's consent issue yet again and multiple model launches.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 08, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/KTbLWPKRNH8Oe75l7roxqsroxwsr2xh%2BVkwRU3DTngAQPG8t6axSMBIrD2jU%0AW6RtwoCutniMXMX3R6OelNvoeD9PJKYwS3BJ1Z4iMF8Fi5MHHVxu2ymv2Hh4%0AN1KlDm1XEoFTPRutc9QtUFA8GrGnQqlST2IUmtzu6%2B11WlLPWvlIJVt38XJT%0ALtypaI3Dl%2F2g%2FPAI2IHTKX2aJAfzHfq4ZA%3D%3D%0A/df7418a9c1d07535)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e028d810-7cbf"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "Order #245 Ready! The Prompt Library is flying out today",
+      "date": "2026-07-08T22:01:51.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The Prompt Library, a collection of 3,260 meticulously crafted prompts for various business scenarios, is being offered at a limited-time price of $87, with the price set to increase to $127 after Friday. This library, designed for use with AI models like ChatGPT, includes tools such as the AI Path Finder and the Prompt Improver to help users effectively utilize AI in their business operations.\n- The Prompt Library package includes several valuable tools and features, such as the AI Path Finder (valued at $47), which helps users find the right prompt chain to achieve their business goals, and the Built-in Prompt Improver (also valued at $47), which can rebuild lazy prompts into more effective ones. Additionally, it includes a Privacy Policy + Terms generator, best-model tags for prompts, business starter prompts, constant updates, and lifetime access.\n- The launch of The Prompt Library and its promotional pricing strategy indicates a growing market for AI-related tools and services, catering to businesses and individuals looking to leverage AI technology like ChatGPT for productivity and efficiency.\n- Recent developments in ChatGPT, including the introduction of GPT-5 and its variants, have significantly improved the model's performance on benchmarks like math, coding, and multimodal understanding, with reduced hallucination rates. These advancements make ChatGPT a more reliable tool for complex tasks and professional workflows.\n- OpenAI has simplified the model picker in ChatGPT to make trade-offs between speed and reasoning more transparent, with clear tiers like Instant, Medium, High, and Pro-only. This move, along with the expansion of interactive features and the introduction of a Lockdown Mode for enhanced security, positions ChatGPT as a comprehensive platform for work and productivity.\n\n### Notable Links\n- [ChatGPT](https://www.chatgpt.com/) for more information on OpenAI's conversational AI product.\n- [GPT-5](https://openai.com/research/gpt-5) for details on the latest generation of OpenAI's large language models.\n- [The Prompt Library](https://library.dailyprompting.com) for access to the collection of prompts and tools for AI-based business operations.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Order #245 Ready! The Prompt Library is flying out today\n\n135 purchases later...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 08, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/ED8rBUU1ke1%2BPB08%2FNP329yVoZwPnLGujatFRCoGsdeUcCkA%2FRugxYO3svkS%0A55iQKHKDwXrxb2HfzBoDZKJ58Fl8Ecu0fiobf%2FDStZtk2N%2BfCg%2F%2Bn%2BOl6XF8%0A6QjibxpZZexlojV0I1xq%2Fuw5sRiBZbQg9UktZbTlO%2Fc25%2BK3Za27%2F6GxHBug%0AAO83PDqSqGum3alyduX2R5VAgu0lEgXYFA%3D%3D%0A/0b6969694c275bb2)\n\n# Order #245 Ready! The Prompt Library is flying out today\n\n135 purchases later...\n\n![](https://link.mail.beehiiv.com/v1/o/FeuTeWpLA5N2%2FKGC3MjaRAvr50UdfbMEpuWLnDX%2F8xPMq"
+    },
+    {
+      "from": "\"Abhijay from Abhijay’s AI Action Letter\" <abhijayvuyyuru@substack.com>",
+      "subject": "This AI Fellowship Pays Up To $300 / Hour 🇺🇸 (No Coding Experience Needed)",
+      "date": "2026-07-08T22:09:27.000Z",
+      "summary": "## AI Action Letter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The Handshake AI Fellowship is a remote gig that pays individuals to correct AI models in their field of expertise, with rates ranging from $22 to $300+ per hour, depending on the field and level of expertise.\n* The fellowship is open to individuals with valid US work authorization, including F-1 students on CPT or OPT, J-1, and H-1B visa holders.\n* To apply, individuals need to sign up on the Handshake AI website, create an account, and pick a field to specialize in.\n* The application process involves a short assessment, which tests domain knowledge and the ability to write clear prompts that surface a model's real ability.\n* The fellowship has already paid out over $100 million to more than 100,000 people and is a legitimate way to earn money while gaining experience in AI.\n* The program has some drawbacks, including project-based work, potential pay cuts, and payment delays.\n* The author provides a step-by-step guide on how to apply, including signing up, picking a field, preparing for the assessment, passing the assessment, and getting matched with projects.\n* The author also provides a list of free resources to help prepare for the assessment, including Anthropic's prompt engineering tutorial, OpenAI's prompt engineering guide, and Anthropic Academy.\n\n### Notable Links\n* Handshake AI home: joinhandshake.com/ai\n* Introduction to the Handshake AI program: Introduction to the program\n* Creating an Account and Logging In: Creating an Account and Logging In\n* Fellowship Work Authorization Eligibility: Fellowship Work Authorization Eligibility\n* Anthropic's prompt engineering tutorial: Anthropic prompt engineering tutorial\n* OpenAI's prompt engineering guide: OpenAI prompt engineering guide\n* Anthropic Academy: Anthropic Academy",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGYWJoaWpheXZ1eXl1cnUuc3Vic3RhY2suY29tJTJGcCUyRnRoaXMtYWktZmVsbG93c2hpcC1wYXlzLXVwLXRvLTMwMCIsInAiOjIwNjIwNzU0NSwicyI6NTg4Mjg4MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODM1NDg1ODgsImV4cCI6MjA5OTEyNDU4OCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.EL4TQhyZznGsWr051LN-kiePU1ufORy0ua7e7tllsRs?"
+        },
+        {
+          "text": "This AI Fellowship Pays Up To $300 / Hour 🇺🇸 (No Coding Experience Needed)",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=206207545&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjIwNzU0NSwiaWF0IjoxNzgzNTQ4NTg4LCJleHAiOjE3ODYxNDA1ODgsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.w_s-CkmgmrZOMOwX_4nYkSzDY_xnR6P_daw53xqYBUE"
+        },
+        {
+          "text": "Abhijay Arora Vuyyuru",
+          "url": "https://substack.com/@abhijayaroravuyyuru"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/abhijayvuyyuru/p/this-ai-fellowship-pays-up-to-300?redirect=app-store"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRmFiaGlqYXl2dXl5dXJ1LnN1YnN0YWNrLmNvbSUyRnAlMkZ0aGlzLWFpLWZlbGxvd3NoaXAtcGF5cy11cC10by0zMDAmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjNE16VTBPRFU0T0N3aVpYaHdJam94TnpnMk1UUXdOVGc0TENKcGMzTWlPaUp3ZFdJdE5UZzRNamc0TXlJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLjhrUWhfTWV6YnFSOVFSMm1IdFl5emV0b3dWSWZQb21RUnBXX3hTNVRTQVUiLCJwIjoyMDYyMDc1NDUsInMiOjU4ODI4ODMsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzNTQ4NTg4LCJleHAiOjIwOTkxMjQ1ODgsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.GOFG9y4izpTTIbqjPjMI0FG2qO1XOmqfFqFHh9S0jDc"
+        },
+        {
+          "text": "joinhandshake.com/ai",
+          "url": "https://substack.com/redirect/5312c4af-e0df-4e1c-bb72-65fe519c7b2b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Fellowship Work Authorization Eligibility",
+          "url": "https://substack.com/redirect/c60c1ad3-2f70-40a8-9cc8-2ba1f53fef1e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=206207545&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjIwNzU0NSwiaWF0IjoxNzgzNTQ4NTg4LCJleHAiOjE3ODYxNDA1ODgsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.w_s-CkmgmrZOMOwX_4nYkSzDY_xnR6P_daw53xqYBUE"
+        },
+        {
+          "text": "Creating an Account and Logging In",
+          "url": "https://substack.com/redirect/dfa4b66c-5b27-43b0-bf26-fdd4d387bbc8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Introduction to the Handshake AI program",
+          "url": "https://substack.com/redirect/f5bf2d47-93a8-4080-b5fa-78d2cf731dcb?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "This AI Fellowship Pays Up To $300 / Hour 🇺🇸 (No Coding Experience Needed)![](https://eotrx.substackcdn.com/o/a715d50ad74a7a09/p.gif?token=eyJtIjoiPDIwMjYwNzA4MjIwOTI3LjMuMjdlM2FjZDNiZjUxOGUxMEBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDYyMDc1NDUsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6NTg4Mjg4MywiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MzU0ODU4OCwiZXhwIjoxNzg2MTQwNTg4LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.QzWekot-Y_muo0ACj12ci8TTTx_bmLfuz7sOZITSfhM)\n\nAI Action Letter #47: One Stop Guide to Landing the Handshake AI Fellowship, the AI Labs Behind ChatGPT and Anthropic\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"Uncovering AI\" <uncoverai@mail.beehiiv.com>",
+      "subject": "Grok 4.5 isn't the smartest. It doesn't need to be.",
+      "date": "2026-07-08T22:30:29.000Z",
+      "summary": "## Uncovering AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Meta launched Muse Image, a media generation model that can create images based on text prompts, but it has a consent problem as it opts in public Instagram accounts by default, allowing strangers to use their photos in AI-generated images without notification or consent.\n* xAI released Grok 4.5, a new model that undercuts the competition in terms of price and efficiency, with pricing starting at $2 per million input tokens and $6 per million output tokens, making it the cheapest smart model on the market.\n* Grok 4.5 is available in Word, Excel, and PowerPoint plugins, allowing users to generate content such as multi-sheet financial models and full slide decks from a single prompt.\n* A method for turning any model into a website design machine using a single ambitious prompt, giving the model access to real tools such as image libraries and hosting services, and requiring iteration passes before considering the output complete.\n* Other notable updates include Meta's plans to build its first major Canadian data center, Nvidia's stock climbing after reports of Beijing allowing Chinese firms to buy H200 chips, OpenAI expanding access to GPT-5.6, and Tesla launching Tesla Home, a consumer-facing dashboard built on its Opticaster AI engine.\n\n### Notable Links\n* Muse Image\n* Grok 4.5",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🖼️ Meta made your face an AI prompt. By default.\n\nInstagram opted you in without asking. Here's how to opt back out.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 08, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/UGfZ8WUTA3DiMDxeQ4NBC8JdYWclvUv42PmKxJ5ghAZ7G80CL6EQvzx80%2F5v%0A4aB8WLT1koI%2BSIdq2r1XvBvC2%2BDcR6Qcp%2BT2Vdzg3lq6yPm74u0AY7e25%2Bw3%0Ar2a4s6KJprQdVVetfcGSpFKHXaahVCEa7m8zQde2NAgO3b5r7N6MmxHq7SGm%0AkATcuzylpuJaELAOGmPcd0%2BU7CKB1vYCnw%3D%3D%0A/a8fa3d4ba459b9b3)\n\n# 🖼️ Meta made your face an AI prompt. By default.\n\nInstagram opted you in without asking. Here's how to opt back out.\n\n![](https://link.mail.beeh"
+    },
+    {
+      "from": "\"Prof. Tom Yeh - AI by Hand ✍️\" <aibyhand@substack.com>",
+      "subject": "Qwen 3.6 ~ Recording",
+      "date": "2026-07-08T22:43:03.000Z",
+      "summary": "## AI by Hand \n\n**Priority: MEDIUM**\n\n### Top Updates\n* Prof. Tom Yeh released a recording of the Qwen 3.6 seminar, which focuses on tracing a single token through three moving parts of the transformer architecture: position, gated attention, and decode.\n* The seminar covers techniques such as RoPE (Rotary Positional Encoding), YaRN (Yet another RoPE extension), and speculative decoding, allowing attendees to understand how these components work together.\n* The Qwen 3.6 seminar is part of the AI by Hand seminar series, which includes topics such as Manifold-Constrained Hyper Connections, Generative AI, Attention, and more.\n* The seminar series aims to provide a deep understanding of AI and ML concepts, with a focus on hands-on learning and tracing complex models.\n* The recording and accompanying Excel workbook are currently available for free, allowing attendees to review and practice the concepts covered in the seminar.\n* The seminar series covers various topics, including:\n  + Manifold-Constrained Hyper Connections (mHC) from DeepSeek\n  + How Small Models Learn Tool Use\n  + Generative AI\n  + Attention\n  + Google Ironwood TPU: From Bits to HBM\n  + 9 AI Eval Formulas You Must Know\n  + Meta Superintelligence Labs vs Facebook AI Research\n  + Transformer: Six Levels of Understanding\n  + OpenClaw Seminar\n  + PPO → DPO → GRPO → Rubrics\n  + Gemma 4\n\n### Notable Links\n* Qwen 3.6 ~ Recording\n* Prof. Tom Yeh\n* READ IN APP\n* Library\n* Seminar Series 2026\n* Manifold-Constrained Hyper Connections (mHC) from DeepSeek\n* How Small Models Learn Tool Use\n* Generative AI\n* Attention\n* Google Ironwood TPU: From Bits to HBM\n* 9 AI Eval Formulas You Must Know\n* Meta Superintelligence Labs vs Facebook AI Research\n* Transformer: Six Levels of Understanding\n* OpenClaw Seminar\n* PPO → DPO → GRPO → Rubrics\n* Gemma 4",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYnloYW5kLmFpL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5ieWhhbmQuYWklMkZwJTJGcXdlbi0zLTYtc2VtaW5hci1yZWNvcmRpbmciLCJwIjoyMDYyMDc3OTYsInMiOjIzNTc5OTMsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzNTUwNjIyLCJleHAiOjIwOTkxMjY2MjIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.H3BmwhwHK4LkklkHzLUNsc_JE0AFHslzdso0lrsrCQE?"
+        },
+        {
+          "text": "Qwen 3.6 ~ Recording",
+          "url": "https://substack.com/app-link/post?publication_id=2357993&post_id=206207796&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjIwNzc5NiwiaWF0IjoxNzgzNTUwNjIyLCJleHAiOjE3ODYxNDI2MjIsImlzcyI6InB1Yi0yMzU3OTkzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.K1FmtrT7XWwozLggqxUsKhisBaf-vsPe2tBF-ju3ONE"
+        },
+        {
+          "text": "Prof. Tom Yeh",
+          "url": "https://substack.com/@tomyeh"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/aibyhand/p/qwen-3-6-seminar-recording?redirect=app-store"
+        },
+        {
+          "text": "Library",
+          "url": "https://substack.com/redirect/7a4491ca-f373-425c-965a-460a851b052e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Seminar Series 2026",
+          "url": "https://substack.com/redirect/7dcc4672-cefd-491f-8e0b-e57bcfc19fe8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Manifold-Constrained Hyper Connections (mHC) from DeepSeek (Jan 9, 2026)",
+          "url": "https://substack.com/redirect/3ab1ac8b-d8d5-4b9f-b727-2d13b01c1f08?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "How Small Models Learn Tool Use (Jan 11, 2026)",
+          "url": "https://substack.com/redirect/ebe025a9-c6af-4929-b1b5-9fbf13f51348?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Generative AI (Jan 11, 2026)",
+          "url": "https://substack.com/redirect/1017e6da-513d-4048-9be9-c31e82dc4798?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Attention (Jan 15, 2026)",
+          "url": "https://substack.com/redirect/4cd038b9-4311-438f-b071-5dba3716b67b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Qwen 3.6 ~ Recording![](https://eotrx.substackcdn.com/o/c57d9e442e8d4ac6/p.gif?token=eyJtIjoiPDIwMjYwNzA4MjI0MzAzLjMuZWNlYzYyZGQzOThiYzJkNEBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDYyMDc3OTYsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MjM1Nzk5MywiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MzU1MDYyMiwiZXhwIjoxNzg2MTQyNjIyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.nyTgPaTQNHJ5Ft876hIWiQJtk2hoFyy5DQVA23fXTuU)\n\nAI by Hand ✍️ Seminars\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    }
+  ],
+  "tldr": [
+    "Anthropic's Claude Fable 5 model is free for 4 days.",
+    "OpenAI releases GPT-5.6 series models.",
+    "Meta launches Muse Image generation model.",
+    "SpaceXAI releases Grok 4.5 AI model.",
+    "Microsoft replaces AI models with in-house versions."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Claude Fable 5",
+        "context": "Claude Fable 5 is Anthropic’s most capable widely released model, positioned for demanding reasoning and long-horizon agentic work. Anthropic says it is generally available across the Claude API and major cloud platforms, with a 1M-token context window by default and pricing of $10 per million input tokens and $50 per million output tokens. The company also describes it as state-of-the-art across many benchmarks, with especially strong results in software engineering, knowledge work, vision, scientific research, and finance.[1][2]\n\nThe latest reporting suggests Fable 5 matters because it has pushed frontier coding and autonomous-task performance forward, but also because its release surfaced a major safety-versus-capability tradeoff. Anthropic introduced stricter guardrails for Fable 5 than for the closely related Mythos 5 variant, with some flagged requests falling back to older models; later community discussion highlighted that this safety behavior was both a practical limitation and a sign of Anthropic’s attempt to make frontier models broadly usable. The industry impact is that Fable 5 has become a reference point for next-generation agentic AI, especially in coding and long-running workflows, while also intensifying debate over access, safety filters, and how quickly frontier capabilities should be deployed.[2][3]",
+        "source": "web search"
+      },
+      {
+        "topic": "Grok (xAI chatbot and model family)",
+        "context": "Grok is a generative AI chatbot and family of large language models developed by Elon Musk’s xAI, tightly integrated with the X social network and available via mobile apps, the X platform, and the xAI API.[2][1] The system is positioned as a frontier model line, evolving from Grok‑1 and Grok‑1.5 to the more capable Grok‑3 and Grok‑4 series, with native tool use, real‑time search across X and the wider web, and multimodal capabilities such as image generation.[1][2][8] xAI markets Grok‑4 as one of the most intelligent models available, offering tiers like Grok 4 Heavy for maximum capability and broader distribution through consumer subscriptions (SuperGrok, Premium+) and enterprise channels including government and cloud platforms.[1][5]\n\nRecent developments center on rapid iteration of the Grok‑4 family and expanding enterprise deployment. xAI has introduced variants such as Grok 4 Fast and Grok 4.1, emphasizing improved reasoning, multimodal understanding, reduced hallucinations, and different performance/latency trade‑offs.[2][5][7] Cloud partners now expose managed Grok endpoints (e.g., grok‑4.3 and grok‑4.20 reasoning/non‑reasoning models) within enterprise AI platforms, signaling a push into business and developer use cases beyond X.[5] On the frontier side, Elon Musk has disclosed that Grok 4.5—built on a 1.5‑trillion‑parameter foundation model and incorporating data from coding tools like Cursor—is in private beta at SpaceX and Tesla, indicating large‑scale industrial testing and an emphasis on advanced reasoning and code generation.[2]\n\nIndustry impact is twofold: competitive pressure on leading foundation models and intensified regulatory scrutiny. On benchmarks and features, xAI positions Grok‑4.x as a direct competitor to models like GPT‑5, particularly in reasoning tasks, while its tight integration with X’s real‑time data and tooling differentiates it as a news‑aware, socially embedded assistant.[1][7][8] At the same time, Grok’s image‑generation capabilities have triggered investigations and restrictions; regulators in the UK and EU are probing its role in generating non‑consensual sexual images, and some countries, including Malaysia and Indonesia, have blocked access over concerns about explicit deepfakes and online safety.[4][7] The U.S. Department of Defense has announced plans to integrate Grok into both classified and unclassified networks, underscoring its strategic relevance in government and defense contexts and highlighting how frontier AI systems like Grok are becoming part of critical digital infrastructure.[2][1]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is OpenAI’s flagship **conversational AI** product, built on the GPT‑5 family of large language models and delivered as a multimodal assistant that can handle text, code, images, and complex reasoning tasks.[4][7] It has evolved from the original GPT‑3.5-based chatbot into a general-purpose work and productivity platform, with differentiated tiers (Free, Plus, Pro, Business, Enterprise) and specialized model options for speed vs. depth of reasoning.[4] The latest generation, GPT‑5 and its GPT‑5.4/5.5 variants, is designed specifically to support longer reasoning chains, end‑to‑end task execution, and richer context handling for complex workflows.[4][7]\n\nRecent developments focus on both **model quality** and **product capabilities**. OpenAI has introduced GPT‑5 as its best system to date, with state‑of‑the‑art performance on math, coding, multimodal understanding, and health benchmarks, and substantially lower hallucination rates versus GPT‑4o and earlier models.[7] Within ChatGPT, GPT‑5.5 Instant has become the new default model, replacing GPT‑5.3 Instant and improving everyday answers across accuracy, clarity, image understanding, STEM, and web search reliability.[1][5] OpenAI has also retired older GPT‑5.2 and GPT‑4.5 variants, automatically migrating existing chats to GPT‑5.5, and simplified the model picker into clear tiers (Instant, Medium, High, Pro‑only) to make trade‑offs between speed and reasoning more transparent to users.[5][8] On the feature side, ChatGPT has expanded interactive charts, long‑conversation tables of contents, full‑screen writing blocks, direct email sending from chat, improved dictation, and more robust memory with twice the capacity for Plus/Pro users, alongside a new Lockdown Mode to limit external services and reduce prompt‑injection risk.[1][5]\n\nThese changes are significant for the broader **AI/ML and industry landscape** because they push ChatGPT further from a simple chatbot toward an integrated **agentic platform** that can reliably handle multi‑step work, research, coding, and decision support at scale.[4][7][9] The combination of stronger reasoning (via GPT‑5 and GPT‑5.4/5.5), richer product features (attachments, charts, long‑form tooling, integrated email), and safety upgrades (lower hallucinations, Lockdown Mode) makes ChatGPT more viable as a core tool in professional workflows across software development, finance, research, and operations.[5][7][9] In parallel, OpenAI is layering in specialized agents such as Deep Research inside ChatGPT, aimed at automating in‑depth web investigations, which reinforces the trend toward AI systems acting as autonomous or semi‑autonomous “knowledge workers” rather than passive assistants.[9] Collectively, these updates are intensifying competition with other foundation model providers (e.g., Google’s Gemini, Anthropic’s Claude) and accelerating enterprise adoption of generative AI for complex, high‑stakes tasks.",
+        "source": "web search"
+      },
+      {
+        "topic": "MRAM Crossbar",
+        "context": "MRAM crossbar in AI/ML refers to using **magnetoresistive RAM (MRAM)** cells arranged in a **crossbar array** as both storage and analogue compute fabric for neural network operations, especially multiply–accumulate (MAC) in hardware-in-the-loop and continual learning contexts.[4][6] In 2022, Samsung and collaborators (including Harvard) demonstrated a 64×64 MRAM crossbar array integrated with CMOS readout that performs **in-memory computing** using a novel *resistance-sum* architecture, overcoming MRAM’s low-resistance/high-current problem that previously made analogue MAC inefficient.[2][4][6] This array was used to implement perceptron and deeper CNN layers, achieving up to ~98.9% accuracy on MNIST (close to software baselines) and ~93.4% accuracy on face detection, while operating at low power and illustrating how MRAM crossbars can tightly merge memory and computation for AI workloads.[4][6]\n\nThis matters for AI/ML because MRAM is **non‑volatile, high‑endurance, and fast**, making it attractive for edge and embedded AI systems that need continual learning or on‑device adaptation without frequent refresh or high energy cost.[2][4] By performing MAC operations directly in the memory array, MRAM crossbars reduce data movement between memory and processors—a major bottleneck in conventional AI accelerators—and open a path to neuromorphic and associative computing architectures that are closer to how biological neural systems co-locate storage and compute.[1][2][4] Building on Samsung’s MRAM crossbar, recent work such as the AM⁴ architecture proposes transforming this crossbar into an **associative memory/computer** (CAM/TCAM/ACAM/AP) for massively parallel similarity search and pattern matching, further broadening its role in AI accelerators and hardware-in-the-loop systems where fast, low-power associative operations are critical.[7] Together, these developments position MRAM crossbar as a promising substrate for next‑generation AI chips that support on‑device training, continual learning, and efficient edge inference with significant potential industry impact, though much of the work is still at research and early prototyping stages.[2][4][7]",
+        "source": "web search"
+      },
+      {
+        "topic": "Meta (Instagram/Meta AI)",
+        "context": "Meta is expanding its consumer-facing AI features across Instagram, WhatsApp, and Messenger, with a particular focus on generative image tools that turn user photos and faces into AI prompts for personalized content.[3][5] These capabilities are part of the broader **Meta AI** assistant and image-generation stack, built on the company’s Emu image synthesis model, and surfaced through features like “Imagine” and the newer “Imagine Me” within chat interfaces and the Meta AI app.[3][5] Users can upload photos, reference themselves with words like “me” or “myself,” tag friends via their usernames, and apply detailed text prompts to generate or edit images and short video “vibes.”[1][2][3]\n\nThe notable, more controversial development is Meta’s push to make **user faces a default input to AI image features** in messaging and social apps, exemplified by the “Imagine Me” feature that asks users to submit a set of selfies (front, left, right) to build a personalized generative profile.[3][5] Once set up, people can request images such as “imagine me as a 90s rockstar” or “imagine me as a comic book hero,” and Meta AI produces stylized portraits within seconds, watermarking outputs with labels like “Imagined with AI.”[1][3][5] This matters because it normalizes large-scale use of biometric-like data (faces) in everyday AI interactions, raising privacy, consent, and data-governance questions, while simultaneously driving rapid mainstream adoption of AI-native creative workflows inside social platforms.\n\nIndustry-wide, Meta’s integration of AI prompting around user images is accelerating the shift from static social media to **AI-generated, personalized media streams**, potentially reshaping creator dynamics, advertising formats, and user expectations around identity and self-expression.[1][2][3][5] For AI/ML, it provides a large-scale deployment context for multimodal models that must handle faces, style transfer, safety constraints, and watermarking in real time. Competitively, Meta’s move pressures other social and messaging platforms to offer similarly seamless, personality-aware AI tools, and contributes to ongoing debates about how platforms should treat user likenesses, default opt-in vs. opt-out mechanisms, and transparency in generative content tagging.[3][5]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "OpenAI launches GPT-Live voice models",
+        "summary": "Reuters reported that OpenAI launched GPT-Live, a new family of voice models that can listen and speak simultaneously in real time. The rollout appears to target low-latency conversational use cases where turn-taking and interruption handling matter.",
+        "whyItMatters": "Real-time speech models can change voice assistants, call-center automation, and live copilots by reducing conversational lag and improving natural interaction.",
+        "source": "Reuters"
+      },
+      {
+        "headline": "Meta rolls out Muse Image from Superintelligence Labs",
+        "summary": "Meta said it is rolling out Muse Image, its first image-generation model from Meta Superintelligence Labs, across Facebook and related apps. The release expands Meta’s generative media stack and signals continued investment in native creative tools.",
+        "whyItMatters": "Image generation integrated into major consumer platforms can rapidly affect creator workflows, ad production, and multimodal app design.",
+        "source": "Reuters"
+      },
+      {
+        "headline": "Anthropic research paper: 'A Global Workspace in Language Models'",
+        "summary": "GAI Insights highlighted Anthropic’s research release on a global workspace mechanism inside language models. The paper suggests an internal coordination structure that may help explain how models organize attention and multi-step reasoning.",
+        "whyItMatters": "Mechanistic research like this can inform interpretability, architecture design, and debugging strategies for frontier models.",
+        "source": "Anthropic research / GAI Insights"
+      },
+      {
+        "headline": "EU publishes final AI Act Transparency Code of Practice",
+        "summary": "TLT reported that the EU published its final Transparency Code of Practice ahead of the August compliance deadline for AI Act transparency obligations. The same briefing noted a proposed Cloud and AI Development Act alongside the code.",
+        "whyItMatters": "This affects deployment, documentation, and disclosure requirements for AI systems operating in Europe, especially for providers of high-risk and consumer-facing models.",
+        "source": "TLT LLP"
+      },
+      {
+        "headline": "CNBC investigation: Chinese AI models capture 30%–46% of enterprise token usage",
+        "summary": "A CNBC investigation, cited by BuildFastWithAI, said Chinese AI models now account for between 30% and 46% of enterprise API token usage flowing through US developer platforms. The finding points to substantial adoption of Chinese models in commercial workloads.",
+        "whyItMatters": "Model choice, pricing, latency, and geopolitical risk are increasingly shaping enterprise AI stacks, and this could influence procurement and governance decisions.",
+        "source": "CNBC"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Claude Fable 5",
+        "type": "product",
+        "context": "Mentioned as being free for 4 more days with a full guide available"
+      },
+      {
+        "name": "Grok",
+        "type": "product",
+        "context": "New models confirmed for release this week"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "New models confirmed for release this week"
+      },
+      {
+        "name": "MRAM Crossbar",
+        "type": "technology",
+        "context": "Discussed in the context of hardware-in-the-loop and continual learning"
+      },
+      {
+        "name": "Meta",
+        "type": "company",
+        "context": "Mentioned as making user faces into AI prompts by default on Instagram"
+      },
+      {
+        "name": "Instagram",
+        "type": "product",
+        "context": "Mentioned as opting users into AI prompt feature without asking"
+      },
+      {
+        "name": "Qwen 3.6",
+        "type": "product",
+        "context": "Mentioned as having a recording available"
+      },
+      {
+        "name": "Grok 4.5",
+        "type": "product",
+        "context": "Mentioned as not being the smartest but sufficient"
+      },
+      {
+        "name": "Prof. Tom Yeh",
+        "type": "person",
+        "context": "Author of the AI by Hand newsletter"
+      },
+      {
+        "name": "AI by Hand",
+        "type": "newsletter",
+        "context": "Newsletter authored by Prof. Tom Yeh"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-07-09T00:30:52.639Z",
+  "dateString": "2026-07-09"
+}
