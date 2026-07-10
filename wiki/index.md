@@ -41,6 +41,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
+- [[ibm]] — enterprise-software incumbent; watsonx + Granite; launches [[ibm-bob]] AI coding partner for enterprise SDLC (Jul 2026)
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*
 - [[jpmorgan-chase]] — investment bank; LLM Suite aggregates OpenAI + Anthropic; "fully AI-powered megabank" commitment; $18B/yr tech (Jun 2026)
 - [[kling-ai]] — Kuaishou spin-off Chinese AI video-generation company; $15B valuation Jul 2026 (~$2.8B round led by Alibaba + Tencent); short-form AI video focus
@@ -114,6 +115,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-go]] — OpenAI's $8/mo ChatGPT entry-paid tier; launched globally Jan 2026 *(stale)*
 - [[chatgpt-tasks]] — OpenAI's scheduled-tasks hub inside ChatGPT — one-off + recurring tasks; replaces Pulse (sunset within 14 days); agent-on-a-schedule shift (Jun 2026)
 - [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages) *(stale)*
+- [[chatgpt-work]] — OpenAI's agentic ChatGPT workspace — takes outcomes not prompts, works for hours, delivers finished materials; powered by [[gpt-5-6]] (Jul 2026)
 - [[chandra-ocr-2]] — document-intelligence OCR model topping olmOCR on tables (92.1%) + tiny text (93.7%); up to $5K Textract-migration credits (Jul 2026)
 - [[claude-code]] — Anthropic's CLI coding agent; plugins, Routines, Web variant; $1B ARR
 - [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions (May 2026)
@@ -128,6 +130,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-for-small-business]] — Anthropic's SMB Claude package; QuickBooks/PayPal/HubSpot/Canva/Google Workspace/Microsoft 365 (May 2026)
 - [[claude-for-word]] — Anthropic's Microsoft Word integration; AI-driven redlining and content creation (Apr 2026) *(stale)*
 - [[claude-platform-aws]] — Anthropic's Claude Platform natively inside AWS account with full API parity (May 2026)
+- [[claude-reflect]] — Anthropic's mindful-use / anti-over-reliance Reflections dashboard for Free/Pro/Max accounts with memory on (Jul 2026)
 - [[claude-haiku-4-5]] — Anthropic's fast, low-cost coding model *(stale)*
 - [[claude-managed-agents]] — Anthropic's fully-managed agent runtime; composable APIs for cloud-hosted agents + Ultraplan (Apr 2026)
 - [[claude-marketplace]] — Anthropic's enterprise marketplace for Claude-powered third-party tools (Mar 2026) *(stale)*
@@ -207,6 +210,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours *(stale)*
 - [[harnessx]] — Xiaomi Darwin Agent Team's "agent foundry" framework; nine-component behavior pipeline with self-contained lego-swappable processors (Jul 2026)
+- [[ibm-bob]] — IBM's AI coding partner for enterprise teams coordinating planning + coding + testing + validation across the SDLC (Jul 2026)
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference *(stale)*
 - [[ideogram-4]] — Ideogram's first open-weight text-to-image model; structured JSON prompting + native 2K + multilingual text rendering (Jun 2026)
 - [[isaac-groot]] — NVIDIA's research-grade humanoid robot reference design (Unitree H2 body + Blackwell GPU); US/Europe/South Korea partners (Jun 2026)
