@@ -247,6 +247,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-image]] — Meta's first proprietary AI image-generation model; Muse family replaces Llama era; Muse Spark agentic integration; #2 Image Arena at launch (Jul 2026)
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*
+- [[nemotron-labs-twotower]] — NVIDIA's Jul 2026 open-weight parallel text diffusion model; dual 30B-copy pipelined-role architecture generating chunks of text in parallel at 2.42× throughput + 98.7% baseline quality
 - [[nano-banana-pro]] — Google's Gemini 3 Pro Image; 4K, 14-input, 5-character consistency, SynthID+C2PA *(stale)*
 - [[nanochat]] — Karpathy's end-to-end ChatGPT clone repo *(stale)*
 - [[nemotron-3]] — NVIDIA's open-source agentic model line; Nano (30B/3B active MoE), 4× throughput claim *(stale)*
@@ -305,6 +306,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
 - [[agentic-ai-foundation]] — Linux Foundation project for open agentic-AI standards; OpenAI/Anthropic/Block + MCP *(stale)*
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser *(stale)*
+- [[akrites]] — Linux Foundation + tech-giants cross-vendor initiative to protect critical open-source software from AI-powered cyberattacks (Jul 2026)
 - [[ai-chatbot-dark-patterns]] — CDT 37-pattern taxonomy of deceptive/manipulative chatbot-UX behaviors; first chatbot-UX-as-regulatory-surface artifact (Jun 2026)
 - [[ai-cybersecurity-arms-race]] — first AI-built zero-day in wild, Daybreak/Mythos/MDASH defender platforms, Mini Shai-Hulud worm (May 2026)
 - [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals *(stale)*

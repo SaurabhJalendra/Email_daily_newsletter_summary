@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[openai]]
 > **First mentioned**: 2026-07-09-morning
-> **Last updated**: 2026-07-09-morning
+> **Last updated**: 2026-07-11-evening (**Cycle-2 recoverage — first publicly framed *"turn-taking issue" canonical UX-problem-statement* on GPT-Live in this wiki**. Technology News HIGH: ***"OpenAI is rolling out new voice models called GPT-Live, which are designed to fix the awkward turn-taking issue in voice conversations with AI models"***. Cycle-2 confirmation of the 2026-07-09-morning launch sharpens the *full-duplex + super-natural + mid-sentence-larger-model-handoff* architectural framings into the canonical *UX-problem-statement*: turn-taking friction is the specific consumer-facing problem GPT-Live solves. Positions GPT-Live's differentiator as the *"conversations feel awkward with PTT-tier voice modes"* consumer-experience-tier framing rather than the developer-facing latency-tier framing. Body-recovery items: (a) rollout timeline vs Plus/Pro tier gating — *source: data/summaries/2026-07-11-evening.json (Technology News HIGH "GPT-5.6 is here. The government saw it first. 👀")*)
+> **Previously updated**: 2026-07-09-morning
 > **Status**: shipped (Jul 2026 — successor rebuild of ChatGPT's voice mode)
 > **Related**: [[openai]], [[chatgpt]], [[gpt-bidi]], [[gemini-3-1-flash-live]], [[tml-interaction-small]], [[grok-4-5]], [[elevenlabs]]
 
