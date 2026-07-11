@@ -1,0 +1,593 @@
+{
+  "date": "2026-07-10T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Saturday, 11 July 2026\n\n## 🔥 Top Stories\n1. **OpenAI releases GPT-5.6 family of large language models** — This matters because it represents a significant advancement in AI capabilities, with the new models offering improved performance in coding, biology, and cybersecurity, and has the potential to impact various industries and applications.\n2. **Anthropic's Claude model updates and controversy** — This matters because Claude remains a benchmark-setting competitor in frontier AI, but its involvement in controversies regarding safety, governance, and deployment highlights the increasing importance of regulation in AI development and the need for careful consideration of AI's potential impacts.\n3. **Meta launches Muse Image and Muse Spark** — This matters because it positions Meta as a direct competitor to OpenAI and Anthropic in image and multimodal tooling, raising fresh questions about training data and privacy, and demonstrates the rapidly evolving landscape of AI technology and applications.\n4. **Microsoft forms $2.5B Frontier Company for AI engineering** — This matters because it signifies a major investment in AI engineering and transformation, aiming to work directly with large enterprises to design, deploy, and scale AI systems, which could accelerate the adoption of AI across various sectors.\n5. **Italy fines Character.AI for data protection breaches** — This matters because it highlights regulator concerns around how conversational AI systems collect, store, and use personal data, emphasizing the need for AI companies to prioritize data protection and comply with regulations.\n\n## 🤖 AI Models & Research\n- Researchers from Argonne National Laboratory introduced a prompt-level reasoning enhancement framework that can improve Large Language Models (LLMs) performance on ChemBench, a benchmark for chemistry-related questions, by using philosophical reasoning styles inspired by classical philosophers.\n- Google's agent broke a 56-year math record by finding a way to multiply 4x4 matrices in 48 scalar multiplications, previously achieved by DeepMind's AlphaEvolve, demonstrating advancements in AI's mathematical capabilities.\n- DeepMind, OpenAI, and Stanford released landmark papers on planning, scaling laws, and benchmark contamination, challenging prevailing assumptions about how reasoning is achieved and how performance is measured in AI models.\n\n## 🛠️ Tools & Products\n- OpenAI launched ChatGPT Work, a new work-focused AI agent powered by GPT-5.6, which can tackle projects on a computer or phone, pulling context from other files to match a user's style, enhancing productivity and automation capabilities.\n- Meta introduced Muse Spark 1.1, a new model with improved tool use, coding, computer interaction, and multimodal reasoning, and opened a public preview of its Meta Model API for developers.\n- PromptQL relaunched as a multiplayer AI coworker, allowing teams to share AI agents that operate across a common thread, assist in getting work done, and can run on any frontier LLM.\n\n## 📰 Industry News\n- The US Senate committee advanced the bipartisan Framework for AI Governance Act, which would create a national AI incident database and mandate baseline disclosure for high-risk AI applications, moving toward a full Senate vote after the August recess.\n- NVIDIA is hosting the GTC Berlin conference, an AI conference and expo, on October 21-22, providing a platform for innovators shaping Europe's AI landscape to connect and share knowledge.\n- Anthropic appointed former Fed Chair Ben Bernanke to its Long-Term Benefit Trust to help navigate AI's economic impacts, and invited public input on AI-related concerns through surveys and focus groups, highlighting the company's efforts to address broader societal implications of AI development.",
+  "totalNewsletters": 19,
+  "newsletters": [
+    {
+      "from": "\"JournalClub.io\" <noreply@newsletter.journalclub.io>",
+      "subject": "The ballad of LLM agents: philosophical reasoning for chemistry",
+      "date": "2026-07-10T12:55:14.000Z",
+      "summary": "## JournalClub.io Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses the recent releases of various Large Language Models (LLMs) and foundation models, such as Claude, Gemini, Qwen, GPT, DeepSeek, Llama, Mistral, and Grok, highlighting the challenges of keeping track of their release notes and performances.\n* Researchers from Argonne National Laboratory have introduced a new prompt-level reasoning enhancement framework that can improve LLM performance on ChemBench, a benchmark for chemistry-related questions, by 4-11 percentage points.\n* The framework uses philosophical reasoning styles inspired by classical philosophers such as Socrates, Aristotle, Descartes, Hegel, Hume, Plato, and Kant to create system prompts that condition the model's generation process.\n* The study shows that these prompts can substantially improve performance on ChemBench, especially for weaker baselines and tasks that match the prompt style, demonstrating the importance of prompt design and instruction structure in unlocking a model's full potential.\n* The authors tested the framework with several base models, including GPT-4o, GPT-5, and GPT-5.1, and found that the gains were uneven, with some prompts working better for specific models and tasks.\n* The newsletter also mentions the release of Claude Sonnet 4.6 and its improved performance in computer use, programming, design, and knowledge work, as well as the growing industry impact of Anthropic's Claude model.\n\n### Notable Links\n* [The ballad of LLM agents: philosophical reasoning for chemistry](https://journalclub.io/episodes/the-ballad-of-llm-agents-philosophical-reasoning-for-chemistry?token=SFFpojzyEN8l9dxtTAP8RRQImwWHNvWyOTaI9Ra1j4gCBW1ORt)\n* [Resubscribe Now](https://journalclub.io/account/add-time/yearly?uid=z0Litxqnnl9rqdjV78XM9yL6l)\n* [The Foundations of Artificial Intelligence course](https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l)",
+      "links": [
+        {
+          "text": "Resubscribe Now",
+          "url": "https://journalclub.io/account/add-time/yearly?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        },
+        {
+          "text": "Watch or Listen to the Episode",
+          "url": "https://journalclub.io/episodes/the-ballad-of-llm-agents-philosophical-reasoning-for-chemistry?token=SFFpojzyEN8l9dxtTAP8RRQImwWHNvWyOTaI9Ra1j4gCBW1ORt"
+        },
+        {
+          "text": "Click here",
+          "url": "https://journalclub.io/courses/foundations-of-ai?uid=z0Litxqnnl9rqdjV78XM9yL6l"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The ballad of LLM agents: philosophical reasoning for chemistry   \n\nLately, it feels like we can't go more than a week without a new version of an LLM or foundation model dropping. New versions of Claude, new Gemini, new Qwen, new GPT, new DeepSeek, new Llama, new Mistral, new Grok, and more. There are now so many highly capable models, with such similar functionality, and they're releasing so frequently, that I for one have trouble telling the release notes apart.\n\n![](https://journalclub.io/px/p0afAhdSipolyQyDo0mqsu82RAtC2tXa47kMS7J1NGsE9Q0R2w)\n\nThe ballad of LLM agents: philosophical reasoning for chemistry\n\nJournalClub.io, July 10th, 2026  \n  \n\nWarning: Your subscription ends later today!\n\n[Resubscribe Now](https://journalclub.io/account/add-time/yearly?uid=z0Litxqnnl9rqdjV78XM9yL6l)\n\n[![Thumbnail of today's episode.](https://cdn.filestackcontent.com/F1ngjHyRcmltM61S9Ufm)](https://journalclub.io/episodes/the-ballad-of-llm-agents-philosophical-reasoning-for-chemistry?token=SFFpojzyE"
+    },
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "gpt 5.6 / grok 4.5 / glm 5.2",
+      "date": "2026-07-10T12:58:43.000Z",
+      "summary": "## Staying Ahead with AI\n\n**Priority: HIGH**\n\n### Top Updates\n* **GPT-5.6 Release**: OpenAI has launched GPT-5.6, a new family of frontier models available across ChatGPT, Codex, and the OpenAI API, with three main variants: Sol (flagship), Terra (balanced), and Luna (fast and lower-cost). This release matters because it extends OpenAI's impact from general AI chat tools into more integrated workplace automation and advanced developer capabilities.\n* **ChatGPT Work**: OpenAI has introduced ChatGPT Work, an AI “agent” that uses GPT-5.6 models plus Codex to automate office tasks, operating across connected apps, files, and devices, and drafting documents, spreadsheets, presentations, and managing workflows. This development signifies OpenAI's push into enterprise-oriented capabilities.\n* **Grok 4.5**: SpaceXAI's flagship model, Grok 4.5, has been released, trained alongside Cursor, with 500k context, and is considered an Opus-class model by Elon Musk. This release is notable for its potential impact on the AI landscape.\n* **Muse Spark 1.1**: Meta's agentic coding model, Muse Spark 1.1, has been opened to developers, offering coding capabilities at $1.25 in and $4.25 out per million tokens. This move undercuts competitors and signifies Meta's growing presence in the AI market.\n* **GLM 5.2**: GLM 5.2 has been released, with open weights under an MIT license, beating GPT-5.5 on the SWE-bench Pro at $4.40 output tokens against Sol's $30. This release indicates a significant advancement in AI capabilities and potential cost savings for users.\n* **Rebranding and Partnerships**: SpaceXAI has completed its rebranding, and OpenAI has partnered with Microsoft for Copilot 365, with GPT 5.6 as the preferred model. These developments reflect the evolving landscape of AI collaborations and brand identities.\n* **Anthropic's Claude**: Anthropic's Claude model has seen updates, with the introduction of Claude Reflect, a beta dashboard showing how users have utilized Claude over the past year, and Quiet Hours and Break Nudges features. These updates demonstrate Anthropic's continued development of its flagship model.\n\n### Notable Links\n* [GPT-5.6](https://www.openai.com/blog/gpt-5-6)\n* [ChatGPT Work](https://www.openai.com/blog/chatgpt-work)\n* [Grok 4.5](https://www.spacexai.com/grok-4-5)\n* [Muse Spark 1.1](https://www.meta.ai/muse-spark-1-1)\n* [GLM 5.2](https://github.com/glm-ai/glm-5-2)\n* [Claude Reflect](https://www.anthropic.com/claude-reflect)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "gpt 5.6 / grok 4.5 / glm 5.2\n\nand a lot more happened this week  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 10, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/6YHm%2BJtFpzVPNVyaRJOMH1BcI6d%2F2jvSHgn4c4AKPgDdVk1F0ArIBGLhd0kI%0AEiesdbdbjaB356Nuno94%2FQU1m9Usqzq9X21bPZ0ECBA6u54LISN0yKcAhHLn%0AtbyVINZqd%2BPr1ZX1OIV4r5XhjtmrNBzZ3B85CXek94Bt8yQ2h7lfVB8mV0yP%0A36J5P5tnbGwqW3gtm2lnlKQyrYfW0frazQ%3D%3D%0A/fb641fbdd27c594a)\n\n[\n\n![like](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/static_assets/header/like.png)\n\n\n\n\n\n\n\n](https://link.mail.beehiiv.com/v1/c/%2B2wifvySxCGIEavuC21bfA"
+    },
+    {
+      "from": "\"Forward Future (Matthew Berman)\" <astro@forwardfuture.ai>",
+      "subject": "Who approved OpenAI’s Sol model?",
+      "date": "2026-07-10T13:04:16.000Z",
+      "summary": "## Forward Future\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI has released its new frontier large language model family, **GPT-5.6**, with three tiers: **Sol** (flagship, most capable), **Terra** (balanced for everyday work), and **Luna** (fast and lower-cost). GPT-5.6 is available across ChatGPT, Codex, and the OpenAI API, with Sol positioned as the company's strongest model for complex tasks like coding, research, cybersecurity, and design. Pricing is per million tokens, with Sol at $5 input / $30 output, Terra at $2.50 / $15, and Luna at $1 / $6.\n* The New York Times has alleged that OpenAI secretly tracked copyrighted content despite claiming such searches were impractical, with new court filings accusing OpenAI of withholding evidence in a publishers' copyright lawsuit.\n* Meta has upgraded its flagship reasoning model, **Muse Spark**, to improve coding, computer use, and multimodal reasoning, introducing a 1 million-token context window and multi-agent orchestration.\n* PrismML claims to have compressed Alibaba's 27-billion-parameter **Qwen 3.6** open-source AI model to run entirely on an iPhone 17 Pro, making it the largest AI model yet demonstrated on a smartphone.\n* The US government's process for determining the safety of OpenAI's **Sol** AI model for public release remains largely opaque, with researchers, policymakers, and industry leaders lacking visibility into the evaluation criteria, who conducted the assessments, or which standards models must meet before deployment.\n* **Anthropic**'s **Claude** AI model has been used to create interactive microdramas, and the company has debuted a new AI chip strategy.\n* **Palo Alto Networks** CEO targets AI costs, stating that they must fall 90% within two years to drive broader enterprise adoption.\n* **Character.AI** has debuted interactive microdramas, and **China** has flagged **Claude** code flaws.\n\n### Notable Links\n* [OpenAI API](https://openai.com/api/)\n* [ChatGPT](https://chat.openai.com/)\n* [Codex](https://codex.openai.com/)\n* [Muse Spark](https://www.meta.ai/muse-spark)\n* [PrismML](https://www.prismml.ai/)\n* [Qwen 3.6](https://github.com/alibaba/Qwen)\n* [Anthropic Claude](https://www.anthropic.com/claude)\n* [Character.AI](https://www.character.ai/)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "OpenAI rolls out GPT-5.6 after greenlight\n\nVideo: GPT-5.6 gets more done for less  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 10th, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.gjvfX7JRbL1RKfObNke3hTDnn8Qx1YMb2UuABhkuaEeEEhO53KUg_kGt8fP_dY8_nmZ0RIJo6OdMHV859Sfv3hiZZt4oMIr1Pbal75xDJYbxZHbf_RXNKu5uLvjOKcSX_FHku_pMT3IOfJMz4ZpxI4HXAeGnjlN3s0S7pJ7157arucf77czeDY_ZF78v4mU23gdd_aVfMu0yR7VlzmmxpQRJ6xsVLn_yils3-hEn4p7G1nwa9wJYmWSP24nwXOr4J2HTOCp9RKRGxNxGybW6Jtoxc-oK_lQDq-nPUmwL6zJBq6jL8_olO6cT-z0EKXCkoniom51wxpZrzptFmz7vkbd5GdUApAD6BSt_YNEBYIDcvooSKDuBqonOBFLso8VWM4oNuWudsVeaCIpVjGikw8y-_iVCRQagiCWRk4TFfffh_sh8gnZESodW"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🧑‍💻 ChatGPT gets a work-focused agent",
+      "date": "2026-07-10T13:08:26.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- OpenAI has launched **ChatGPT Work**, a new work-focused AI agent powered by GPT-5.6, which can tackle projects on a computer or phone, pulling context from other files to match a user's style. This development signifies OpenAI's efforts to create more specialized AI tools for professional and enterprise use, enhancing productivity and automation capabilities.\n- Meta has debuted **Muse Spark 1.1**, its first paid model, marking a pivot from its open-weight strategy. This model is aimed at agentic tasks, coding, and computer use, with pricing described as \"very aggressive and attractive\" compared to other frontier models.\n- **PromptQL** has relaunched as a multiplayer AI coworker, allowing teams to share AI agents that operate across a common thread, assist in getting work done, and can run on any frontier LLM. It features memory, turning every correction into a reusable skill, thereby learning and improving from its mistakes over time.\n- **Anthropic** has made progress with its **Claude** model, including new research revealing a hidden thinking space where Claude reasons through ideas without spelling them out in its chain-of-thought. Additionally, Claude Cowork now works across devices, and access to Claude Fable 5 has been extended.\n- **Meta's Superintelligence Labs** has dropped three new models, including **Muse Image**, ranked #3 on Arena's text-to-image board, and **Muse Video**, teased ahead of a wider release. **Muse Spark 1.1** is a low-cost agentic coding model now available on the Meta Model API.\n- Chinese labs have ramped up competition with **Tencent** shipping **Hy3**, a smaller open-source model that outperforms expectations, and **Meituan** fully open-sourcing **LongCat-2.0**, billed as the first trillion-parameter coding model trained without Nvidia GPUs.\n- OpenAI has upgraded **ChatGPT’s voice** and released its new flagship model publicly, launching **GPT-Live**, a family of voice models that listen and speak simultaneously, making interactions sound more human-like.\n- **Viktor** is presented as an AI employee that can be hired and works in Slack or Microsoft Teams, capable of pulling data, drafting reports, chasing people for answers, and handing back finished work ready to send.\n- **Caestro** allows enterprises to turn job descriptions into trained AI employees with memory, running them on company memory and automating tasks in Slack.\n\n### Notable Links\n- [GPT-5.6](https://openai.com/blog/gpt-5-6)\n- [ChatGPT Work](https://openai.com/chatgpt/work)\n- [Muse Spark 1.1](https://meta.ai/models/muse-spark-1-1)\n- [Claude](https://anthropic.com/claude)\n- [PromptQL](https://promptql.com)\n- [Viktor](https://viktor.ai)\n- [Caestro](https://caestro.ai)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🧑‍💻 OpenAI launches ChatGPT Work\n\nALSO: How to turn your PDFs into a Claude skill  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 10, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGVXc-x6eMGci5mik2ZwLeB3eQ3Umb7l1Pz53jZd-UBHgHKpgPPkSr3qHruLhV3J9dM_7knaSDcvE5qUlE5OfqUh9aM3fvT63xWoauHt66fpJlPEBN2BR5rETSVzBB50_Vft99xN0dCx3BkjbFV1tsNDwdWfI4U1svElg0oJpZGofl-9ynSos2nJNVST4LlO4udVacMGQA10ZOAs8RkcZhya1sGPCANEkpDbKCu_6KdUMiS0VVAkNzSnTsuQRHHkZPzoski9YDRFjTgBoon0USYwK1hguhBDl0fiNocCjH2wu9qYxmefWA_O-s1xcp_HBT3zDVndadN8JZYFGRMzehEggDXR2LwbULD_3pOskSn9sY9Kzx7PRqe4vE1kX17RFu5R0hKD4NnORw9d"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "GPT-5.6 🚀, Muse Spark 1.1 ✨, ChatGPT Work 💼",
+      "date": "2026-07-10T13:45:23.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI launched GPT-5.6, featuring models Sol, Terra, and Luna, with Sol leading in intelligence and efficiency for coding, cybersecurity, and science. GPT-5.6 is available across ChatGPT, Codex, and the OpenAI API, with Sol rolling out first to eligible paid ChatGPT plans and Terra/Luna offered as lower-cost and faster options.\n* Meta introduced Muse Spark 1.1 with improved tool use, coding, computer interaction, and multimodal reasoning, and opened a public preview of its Meta Model API for developers.\n* OpenAI shut down its Atlas browser and shifted its agentic browsing features into ChatGPT's desktop app and a Chrome extension, following a broader effort to reduce side projects while continuing to develop AI-assisted web browsing.\n* ChatGPT Work is a GPT-5.6-powered workspace that gathers context from team tools and acts across files and desktop applications, designed to turn fragmented project materials into finished documents, spreadsheets, and presentations.\n* Wispr Flow is a tool that turns voice into clean text in Claude, ChatGPT, and Cursor, with features such as syntax-aware processing, filler stripping, and grammar fixing, allowing for faster and more efficient input.\n* Z.ai's Stable Asynchronous RL replaces GRPO-style grouped sampling with one rollout per prompt, supported by value-model training and strict token-level clipping, and achieves state-of-the-art results on the ARC-AGI-3 benchmark.\n* Anthropic appointed former Fed Chair Ben Bernanke to its Long-Term Benefit Trust to help navigate AI's economic impacts, and invited public input on AI-related concerns through surveys and focus groups.\n* OpenAI's Fidji Simo plans to step down from her role as a full-time executive after an extended medical leave, with her product and business responsibilities divided among President Greg Brockman, CFO Sarah Friar, and Chief Strategy Officer Jason Kwon.\n* News organizations suing OpenAI have accused the AI firm of repeatedly lying for years to conceal evidence of infringement that could hobble its defense, which may lead to serious sanctions against OpenAI.\n* Mercor, an AI training startup, seeks to raise a round at a $20 billion valuation, doubling from its last $10 billion valuation in October, and Meta's new AI chips will begin production in September, designed by Netta and Broadcom and manufactured by TSMC.\n\n### Notable Links\n* [Z.ai's Stable Asynchronous RL (arXiv)](https://arxiv.org/abs/2607.07508)\n* [GPT-5.6 Review](https://signals.forwardfuture.com/gpt-5-6-review/)\n* [GPT-5.6 Series](https://arcprize.org/results/openai-gpt-5-6)\n* [Evolving Windows vulnerability management to meet the speed of AI-powered discovery](https://blogs.windows.com/windowsexperience/2026/07/09/evolving-windows-vulnerability-management-to-meet-the-speed-of-ai-powered-discovery/)\n* [OpenAI may have made a fatal misstep in copyright fight with news orgs](https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/)\n* [ChatGPT Work](https://links.tldrnewsletter.com/THB8Pe)\n* [Flexible Video Diffusion](https://research.nvidia.com/labs/genair/flex-forcing/)\n* [Prisma (GitHub Repo)](https://github.com/prisma/prisma)",
+      "links": [
+        {
+          "text": "Z.ai's Stable Asynchronous RL (13 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2607.07508%3Futm_source=tldrai/1/0100019f4c469d12-d16beba8-115d-435c-897b-65954041e8dd-000000/O1VcOqKGUEBFS57qUcWk1Qvdco8q4jEbQBHewVJjULI=452",
+          "isPaper": true
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2607.07508%3Futm_source=tldrai/1/0100019f4c469d12-d16beba8-115d-435c-897b-65954041e8dd-000000/O1VcOqKGUEBFS57qUcWk1Qvdco8q4jEbQBHewVJjULI=452",
+          "title": "Z.ai's Stable Asynchronous RL (13 minute read)",
+          "source": "link"
+        }
+      ],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nOpenAI launched GPT-5.6 featuring models Sol, Terra, and Luna, with Sol leading in intelligence and efficiency for coding, cybersecurity, and science ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019f4c469d12-d16beba8-115d-435c-897b-65954041e8dd-000000/vyLZrSSYRHGrDa-TtMfjANKVK8xTSbgfJbFEe27qXUs=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019f4c469d12-d16beba8-115d-435c-897b-65954041e8dd-000000/lEmdBlx58_IxmsHbIx1oIJb_XM6h2Daw0zeOOuO45MY=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=5621cfb8-7c59-11f1-96d0-3fb66f609a88%26pt=campaign%26t=1783691123%26s=988628c5e61e3076"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "ChatGPT Work Agent 🏗️, Claude Reflect Dashboard 🧘, SWE-1.7 at $1.97/ta",
+      "date": "2026-07-10T13:45:51.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI has released **ChatGPT Work**, a new mode of ChatGPT that uses **GPT-5.6** to run full workflows for hours, allowing it to take a goal, figure out the steps itself, and hand back a finished document, spreadsheet, or web app without requiring hand-holding. ChatGPT Work can pull data from connected apps like Google Drive, Slack, and Salesforce, and output finished sheets, slides, and shareable web apps.\n* Anthropic has added a **monthly usage dashboard** called **Reflect** to Claude, which shows users how they've been spending time with the AI, including most active day, peak hour, total conversations, and breakdown of topics discussed. Reflect also provides workflow tips and controls to set quiet hours and schedule break nudges.\n* Cognition has released **SWE-1.7**, a coding model that hits frontier scores at $1.97 per task, built on top of Kimi K2.7 and improved using reinforcement learning. SWE-1.7 is available in Devin via web, desktop, and CLI, and can tackle longer, real-world coding tasks.\n* Zhipu AI's new RL training trick has beaten GRPO on coding and math benchmarks, and Cohere Labs has released **Aya Vision**, an 8B open-weights model supporting 23 languages.\n* Claude Code's hidden **/advisor** command allows any model to review code, and Sentry has announced that coding agents can't fix bugs they can't see, and that their MCP can help agents debug with real production context.\n* Open-source benchmark tests 30+ robot models across sim and real-world tasks, and an open-source tool can clone a user's voice and pipe it into Claude or Cursor.\n\n### Notable Links\n* [OpenAI's GPT-5.6](https://openai.com)\n* [Anthropic's Claude Reflect](https://anthropic.com)\n* [Cognition's SWE-1.7](https://cognition.ai)\n* [Zhipu AI's RL training trick](https://zhipu.ai)\n* [Cohere Labs' Aya Vision](https://cohere.ai)\n* [Claude Code's /advisor command](https://anthropic.com)\n* [Sentry's MCP](https://sentry.io)",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=1682ab0a0d169527&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=1682ab0a0d169527&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=1682ab0a0d169527&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=1682ab0a0d169527&mid=b425241e-2643-403a-bf15-5c2c60d2c635&s=ChatGPT%20Work%20Agent%20%F0%9F%8F%97%EF%B8%8F%2C%20Claude%20Reflect%20Dashboard%20%F0%9F%A7%98%2C%20SWE-1.7%20at%20%241.97/ta&t=1783691137)\n\nOn GPT-5.6 Work agent, Claude Reflect quiet hours, SWE-1.7 at $1.97, Zhipu RL beats GRPO, Claude Code /advisor command.\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=1682ab0a0d169527&lid=kdRjjU4yaH49IuGh&mid=b425241e-2643-403a-bf15-5c2c60d2c635)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=1682ab0a0d169527&lid=OXAAc6Wp58QPgTmv&mid=b425241e-2643-403a-bf15-5c2c60d2c635)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nOpenAI just shipped an AI t"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "GPT-5.6 is imminent",
+      "date": "2026-07-10T15:03:34.000Z",
+      "summary": "## Mindstream\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI's GPT-5.6 is set to be launched after passing the US government's security concerns, with the model being available in three tiers: Luna, Terra, and Sol, offering stronger abilities in coding, biology, and cybersecurity.\n* GPT-5.6 Sol, the flagship model, is positioned as the company's most powerful model yet, with improved performance on reasoning-heavy tasks, and will be available across ChatGPT, Codex, and the OpenAI API.\n* The US government had delayed the release of GPT-5.6 due to concerns about the potential misuse of powerful AI models for advanced cyberattacks, but has now approved the launch after extra testing and meetings with OpenAI.\n* Google Photos is adding a new Video Remix tool that uses Google's Gemini Omni AI model to edit videos in seconds, allowing users to brighten dark clips, change backgrounds, add cinematic lighting, or apply styles like watercolour, sketchbook, and oil painting.\n* Samsung is offering a $30 store credit to customers who register their interest and preorder one of its upcoming foldable phones after the July 22 Galaxy Unpacked event.\n* Anthropic's Claude model is being used for chat, coding, and agentic workflows, with recent updates including the release of Claude Sonnet 4.6 and improvements in computer use, programming, design, and knowledge work.\n* Mindstream provides 150 prompts for scaling a business, including copy-paste prompts for marketing, sales, and operations, mega-prompts that automate entire workflows, and custom templates for ChatGPT, Claude, and Perplexity.\n\n### Notable Links\n* GPT-5.6\n* Get 150 Prompts to Scale Your Business",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "GPT-5.6 is imminent\n\n\\+ Google is making Apple's camera roll look prehistoric  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n10 Jul\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/"
+    },
+    {
+      "from": "\"Longevity.io\" <longevitys-newsletter@mail.beehiiv.com>",
+      "subject": "Older Lifters Have the Muscle of Younger Adults",
+      "date": "2026-07-10T16:00:45.000Z",
+      "summary": "## Longevity.io Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Trained older adults have muscle gene activity that looks years younger, with about 50% of the age-related differences in muscle's energy-making genes absent, according to a new study in Nature Aging. This suggests that staying trained keeps muscle young where it matters.\n* A new study points to a reason why ovaries age faster than almost any other organ: a protein called IL-11 builds up with age and stiffens the ovarian tissue, choking its function. Blocking IL-11 in aged mice and rats improved fertility and hormone balance.\n* Insilico Medicine began a Phase III trial of rentosertib, a lung-fibrosis pill whose target and molecule were both found by AI, making it one of the first end-to-end AI-designed medicines to reach a make-or-break final trial.\n* The peptide gold rush has swelled into a billion-dollar gray market, with the FDA panel weighing which compounded peptides to allow on July 23-24. The nonprofit Forever Healthy now posts free, plain-English verdicts on the peptides people are buying.\n* Fountain Life opened a $595-a-year tier with a whole-body scan and blood workup, pulling the kind of testing that once cost many times more toward the mainstream.\n* New CDC data shows Americans died at the lowest rate ever recorded in 2025, pointing to a record life expectancy that isn't official yet.\n* A Gallup poll put current GLP-1 use at 11% of U.S. adults, triple 2024's rate, as obesity slipped to 36.4% from its 2022 peak.\n* Nestlé is reworking recipes with bolder spice and smaller portions because GLP-1s dull the taste buds.\n* A new laser treatment nudged skin's aging markers younger in a trial of Candela's Nordlys device, an early industry signal.\n* A JAMA secret-shopper test of 49 online GLP-1 sellers found 92% wrote a prescription with barely any clinician contact, a reason to insist on a real exam before buying.\n\n### Notable Links\n* Nature Aging study on muscle gene activity in older adults\n* Nature Aging study on ovarian aging\n* Insilico Medicine's Phase III trial of rentosertib",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Older Lifters Have the Muscle of Younger Adults\n\nTrained older adults have muscle gene activity that looks years younger  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n![](https://link.mail.beehiiv.com/ss/o/u001.iO0CUpPL3iTTTZtp_Yt-Xg/4s7/QiueMJN3RcetYGbYxqXgTg/ho.gif)\n\nTrained older adults have muscle gene activity that looks years younger\n\n ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "up to 240 users now",
+      "date": "2026-07-10T16:04:38.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The Daily ChatGPT library has reached up to 240 users, indicating rapid growth, and the price for the Full Library is set to increase in approximately 12 hours. The current price of $87 is considered low by the founder, Matas Jonaitis, who emphasizes the high quality and manual curation of the 3,260 prompts included.\n- The founder distinguishes their product from others that may offer a larger number of prompts but are of lower quality, being \"AI-generated slop, scraped and stacked to hit a big number on the sales page.\"\n- A key feature, the Prompt Improver, allows users to paste in any prompt and have it rebuilt into an engineered one with role, constraints, and a real deliverable, making it a valuable tool on its own worth the $87 price tag.\n- After the 12-hour window, the price will increase to $127 for the Full Library, and the $87 price will only be available for the Starter version, indicating a significant price adjustment based on the library's growth and the value it offers.\n- The founder, Matas Jonaitis, invites readers to take advantage of the current pricing as a \"launch-week head start\" before the price increase.\n\n### Notable Links\n- [DailyChatGPT Full Library](https://library.dailyprompting.com)\n- [The Daily ChatGPT on Instagram](https://www.instagram.com/dailyprompter)\n- [The Daily ChatGPT on Threads](https://www threads.net/@dailyprompter)\n- [Terms of Service](https://hp.beehiiv.com/0ad5fed8-5044-4a6a-bd18-48b7beaf74c4)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "up to 240 users now\n\nLibrary's moving fast. Price goes up in ~12 hours  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 10, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/G4tamS0SFuEVSMHvqBLwm%2BAVvNx%2Falij4haP9RvlQjVXyV9ybMpvBUs%2Fe%2BJk%0ALwXJJQ9tsBI0u5xPJMmx%2B9etUr2FgTkinSr43ZKz7LC31SccWhLP%2Bf0yWrot%0AVK3x12SPFK%2BRryjZM6LgvfWDMYnLxjNVoFFnPYwqp2o113d1xrC1EfisF%2BkZ%0AClpzMQlMFx7KHW%2BDkETBdsrM%2BIr1%2Flto2Q%3D%3D%0A/1cfebe5ca42fab94)\n\n# up to 240 users now\n\nLibrary's moving fast. Price goes up in ~12 hours\n\n![](https://link.mail.beehiiv.com/v1/o/mPu5ZZBkdCW9Es09CEgaWw039dGK3VtVvnHB5PDi8W6YN5mpkdbqE8CGcFa1%0AMRSNqrhX"
+    },
+    {
+      "from": "\"Matt from FutureTools\" <futuretools@mail.beehiiv.com>",
+      "subject": "GPT-5.6 gets cleared",
+      "date": "2026-07-10T16:11:00.000Z",
+      "summary": "## FutureTools Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* **GPT-5.6 Launch**: OpenAI's latest frontier model family, GPT-5.6, has been cleared for broad launch after a limited preview, marking a significant milestone in AI development. The model comes in three tiers: Luna, Terra, and Sol, with Sol being the flagship and most capable model for complex tasks.\n* **Enterprise AI Adoption**: A new BCG report found that 74% of front-line white-collar employees now use AI daily or several times a week, up from 51% last year, highlighting the growing importance of AI in the workplace.\n* **Meta's Photo Problem**: Meta's new AI image generator, Muse Image, has sparked controversy over its ability to use people's photos without their consent, raising concerns about privacy and consent in AI-powered image generation.\n* **Trump Administration Clearance**: The Trump administration has given OpenAI the green light to launch GPT-5.6, marking another case where frontier AI releases are being negotiated in real-time rather than governed by a clear framework.\n* **FutureTools Transformation**: FutureTools is transforming into a hub for curated AI knowledge, industry insights, exclusive commentary, and handpicked tool reviews, shifting its focus from \"everything\" to \"what actually matters\".\n* **AI News and Updates**: Other notable updates include Google shipping AlphaEvolve, its AI code-optimization agent, SpaceXAI debuting Robostral Navigate, an 8B model that navigates using just a single camera, and OpenAI introducing ChatGPT Work Agent to manage apps, files, and long-running projects.\n\n### Notable Links\n* [GPT-5.6](https://www.openai.com/blog/gpt-5-6)\n* [FutureTools](https://www.futuretools.io)\n* [Adviserry](https://www.adviserry.com)\n* [askbowtie](https://www.askbowtie.com)\n* [Mistral](https://www.mistral.ai)\n* [OpenAI API](https://www.openai.com/api)\n* [ChatGPT Work](https://www.chatgpt.work)\n\nNote: The links provided are for primary sources and product pages, and do not include tracking URLs.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "GPT-5.6 gets cleared\n\nMeta's photo problem  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 10, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/opandm9zXM45E5dCnWiORP6vWxzoFNkgrDQ5ktDYmT6EvuyfQyad2dgC%2FD5p%0Ayu9EwxPfMQ7YmeNA0zvuyODH6AIdvCTT8Chnj2ZJpPfKi21wEiCTXkb4wz4i%0Ae1HlUCwlznl8XF4pbiBrF8XaBOwGBiXH%2BWcp%2BMu88%2Bfi230Q%2FPvH3qfkNn8T%0AK1f7Lh3whZBj%2BokhVxaXY05zwcjvlRrgXA%3D%3D%0A/f415db9468325259)\n\n![](https://link.mail.beehiiv.com/v1/o/fldJkGN0W9usRMfW1VPL9d264cVtDM%2FY0cMvMQJq2aR6lLaa6jKxQt8iFPG5%0AyzvQhMYQSoKa9iwZ6%2Fru2oK%2FPSxve1hs%2FVY0dHJ%2For4OeSmdDyoL8eCspXT%2F%0A7%2BFg3bb74M5x1uSNgtJVhdmH0D0k0wS6bC%2FRCFOFG"
+    },
+    {
+      "from": "\"Henry Farrell\" <programmablemutter@substack.com>",
+      "subject": "Sanctions jiu-jitsu",
+      "date": "2026-07-10T16:22:40.000Z",
+      "summary": "## Sanctions Jiu-Jitsu\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The US has been using financial sanctions as a tool to exert influence over other countries, but other nations are starting to fight back with \"countersanctions laws\" that allow them to sue foreign companies for damages if they comply with US sanctions.\n* China has passed the Anti-Foreign Sanctions Law, which creates a private right of action for Chinese companies to pursue damages in Chinese courts when their rights are infringed by foreign sanctions.\n* Russia has also passed the \"Lugovoy Law\", which allows Russian parties affected by sanctions to sue foreign companies in Russian courts for damages, regardless of where a contract agreed to arbitration.\n* The European Court of Justice (ECJ) has ruled that an EU firm cannot terminate a contract to comply with US sanctions, and that a terminating firm bears the burden of proving that its decision was based on grounds other than compliance with US sanctions.\n* India is studying an EU-style blocking statute to counter US sanctions.\n* The use of countersanctions laws is becoming more prevalent, with China and Russia invoking them to counter US sanctions, and the EU also using its blocking statute to counter US sanctions.\n\n### Notable Links\n* [Hegemoney](https://hegemoney.substack.com/)\n* [Programmable Mutter](https://programmablemutter.substack.com/)\n* [Sanctions Jiu-Jitsu](https://substack.com/app-link/post?publication_id=6207000&post_id=206339284&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjMzOTI4NCwiaWF0IjoxNzgzNzAwNTgxLCJleHAiOjE3ODYyOTI1ODEsImlzcyI6InB1Yi02MjA3MDAwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.kg1drH_MO4wC2t9quNLYnEiEzIQB1BZH3z1zE6kiDuo)\n* [Jess Hoversen](https://substack.com/@jesshoversen)\n\nNote: This newsletter is more focused on geopolitics and economics, but it has some implications for AI and technology, particularly in the areas of international trade and commerce.",
+      "links": [
+        {
+          "text": "Programmable Mutter",
+          "url": "https://substack.com/redirect/ae3cfc45-b0f4-43d3-894b-61f554da11c5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Hegemoney",
+          "url": "https://substack.com/redirect/23aee52f-6a50-4e9e-8c4e-14a5556df945?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Sanctions jiu-jitsu",
+          "url": "https://substack.com/app-link/post?publication_id=6207000&post_id=206339284&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjMzOTI4NCwiaWF0IjoxNzgzNzAwNTgxLCJleHAiOjE3ODYyOTI1ODEsImlzcyI6InB1Yi02MjA3MDAwIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.kg1drH_MO4wC2t9quNLYnEiEzIQB1BZH3z1zE6kiDuo"
+        },
+        {
+          "text": "Jess Hoversen",
+          "url": "https://substack.com/@jesshoversen"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/hegemoney/p/sanctions-jiu-jitsu?redirect=app-store"
+        },
+        {
+          "text": "World",
+          "url": "https://substack.com/redirect/9c01defe-1d41-436f-a316-05e8eb70a66e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Bank",
+          "url": "https://substack.com/redirect/eb955e31-25b0-4691-9dfe-c76e66556efa?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Archives",
+          "url": "https://substack.com/redirect/10566c84-04e5-4f9a-a499-4563fbd36252?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "described",
+          "url": "https://substack.com/redirect/79b4a2cd-db97-48ee-bf63-505863f04b4a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "reported",
+          "url": "https://substack.com/redirect/56a89516-9ad2-487a-bf97-72571a09b6d2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Sanctions jiu-jitsu![](https://eotrx.substackcdn.com/o/faf15f1a37f925ef/p.gif?token=eyJtIjoiPDIwMjYwNzEwMTYyMjQwLjMuOTI2YTVkY2E2ODUyNzE0MEBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwNjQ2OTA1OCwidCI6InJlc3RhY2siLCJhIjoiZXZlcnlvbmUiLCJzIjoxNzQ1Njc5LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgzNzAwNTgyLCJleHAiOjE3ODYyOTI1ODIsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.cvI09eym_BYlNwmEcyNwnOel-HigoJjnEddzQAg3ZYU)\n\n![](https://substackcdn.com/image/fetch/$s_!X4Ot!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideArrowLeftRight%3Fv%3D4%26height%3D36%26fill%3D%2523808080%26stroke%3D%2523808080%26strokeWidth%3D3.6)\n\n[Programmable Mutter](https://substack.com/redirect/ae3cfc45-b0f4-43d3-894b-61f554da11c5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ) cross-posted a post from [Hegemoney](https://substack.com/redirect/23aee52f-6a50-4e9e-8c4e-1"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "Google’s agent broke a 56-year math record. Yours forgets yesterday",
+      "date": "2026-07-10T16:47:21.000Z",
+      "summary": "## The AI Corner\n\n**Priority: HIGH**\n\n### Top Updates\n* Google's agent broke a 56-year math record by finding a way to multiply 4x4 matrices in 48 scalar multiplications, previously achieved by DeepMind's AlphaEvolve.\n* Self-evolving agents have transitioned from papers to production this year, with the introduction of a full stack for building an agent that gets smarter every week, including verified numbers behind every layer.\n* The \"harness\" layer, which includes prompts, memory, tools, and playbooks, is open to improvement and has shown significant gains, such as reflective prompt evolution beating reinforcement learning by up to 20 points using 35x fewer rollouts.\n* The concept of a self-improving system has been split into two parts: the \"model\" (the weights) and the \"harness\" (everything around the weights), with the harness layer being more accessible to improvement.\n* A taxonomy for self-improving systems has been published by AI researcher Shunyu Yao, which splits every self-improving system into two parts using a single equation: Agent = Model + Harness.\n* Examples of self-evolving agents include:\n\t+ An autonomous research system that ran for 417 hours and produced 166 fully AI-generated papers for about $180K.\n\t+ An agent that built GPU kernels that beat expert baselines.\n* The Self-Evolving Agent Stack, a system with five layers, including the playbook layer, memory layer, skill factory, specialist layer, and prompt evolution loop, is available, along with a 7-day install plan and a frontier map.\n\n### Notable Links\n* The AI Agents library: A collection of resources and tools for building self-evolving agents.\n* The Prompting and Context Engineering library: A collection of resources and tools for improving the harness layer of self-evolving agents.\n* The Claude and Anthropic library: A collection of resources and tools related to Claude, Anthropic's flagship family of large language models.\n* Ruben Dominguez: The author of the article and a researcher in the field of AI. \n\nNote: There are no specific academic papers referenced in this newsletter. The content is focused on industry developments, tools, and technologies in the field of AI.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRnNlbGYtZXZvbHZpbmctYWdlbnQtc3RhY2stcGxheWJvb2tzLW1lbW9yeS1za2lsbHMtMjAyNiIsInAiOjIwNjQxMzMzOSwicyI6Njg1MDU0NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODM3MDIxNDcsImV4cCI6MjA5OTI3ODE0NywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.eYmvTFAgLmxna9HaDPWMgQkSNTwo6Se4oqaVwjWY-QY?"
+        },
+        {
+          "text": "Google’s agent broke a 56-year math record. Yours forgets yesterday",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=206413339&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjQxMzMzOSwiaWF0IjoxNzgzNzAyMTQ3LCJleHAiOjE3ODYyOTQxNDcsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.5KWYR0_Gzz-_Xe63Ei9DIsl8LabeVyIu6KYZShfbWE0"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/self-evolving-agent-stack-playbooks-memory-skills-2026?redirect=app-store"
+        },
+        {
+          "text": "The AI Agents library",
+          "url": "https://substack.com/redirect/a4052569-b6ec-4304-abbf-0641ef4db788?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The Prompting and Context Engineering library",
+          "url": "https://substack.com/redirect/eb94f845-92ae-4026-8d85-1e01a91d57bf?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The Claude and Anthropic library",
+          "url": "https://substack.com/redirect/6a77eaca-e3c4-4f28-b085-65ece0b7621a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Get 50% off forever",
+          "url": "https://substack.com/redirect/31653e7f-b32c-4c3e-a652-b8ec762e6dea?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Start trial",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy50aGUtYWktY29ybmVyLmNvbSUyRnAlMkZzZWxmLWV2b2x2aW5nLWFnZW50LXN0YWNrLXBsYXlib29rcy1tZW1vcnktc2tpbGxzLTIwMjYmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjNE16Y3dNakUwTnl3aVpYaHdJam94TnpnMk1qazBNVFEzTENKcGMzTWlPaUp3ZFdJdE5qZzFNRFUwTkNJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLjVEMWFoem1CRGdFUVJhQTlaZlNXVFkwTG1qNmxaeUc3cUhPcDk5eGRpQ3MiLCJwIjoyMDY0MTMzMzksInMiOjY4NTA1NDQsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzNzAyMTQ3LCJleHAiOjIwOTkyNzgxNDcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.ba7V4IT_bNz3HdUwiO3lUgRmKQhaSGga80wMlDcesSg?simple=true&next=https%3A%2F%2Fwww.the-ai-corner.com%2Fp%2Fself-evolving-agent-stack-playbooks-memory-skills-2026&coupon=a600db30"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=206413339&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjQxMzMzOSwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODM3MDIxNDcsImV4cCI6MTc4NjI5NDE0NywiaXNzIjoicHViLTY4NTA1NDQiLCJzdWIiOiJyZWFjdGlvbiJ9.uA3h067aRFFbLWwS7opCeJ0frnQxVtZOE7v4rDPzkmU&r=49by34"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Google’s agent broke a 56-year math record. Yours forgets yesterday![](https://eotrx.substackcdn.com/o/b5b0a609ea160c1c/p.gif?token=eyJtIjoiPDIwMjYwNzEwMTY0NzIxLjMuMjUyNjg5M2FhNWM3ZjQxYUBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDY0MTMzMzksInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjY4NTA1NDQsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODM3MDIxNDcsImV4cCI6MTc4NjI5NDE0NywiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.F4QpuZy9ekxOf66CU0xCDFHBSRpe4d-1jQ5bPzdQ2f4)\n\nSelf-evolving agents went from papers to production this year. Here is the full stack for building an agent that gets smarter every week, with the verified numbers behind every layer\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"Dwarkesh Patel\" <dwarkesh@substack.com>",
+      "subject": "Adam Brown – Einstein's happiest thought: General Relativity from scratch",
+      "date": "2026-07-10T16:39:35.000Z",
+      "summary": "## Dwarkesh Podcast\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Adam Brown discusses Einstein's theory of General Relativity, explaining how it was developed and its key principles, including the equivalence principle and the curvature of spacetime.\n* Brown explains how General Relativity predicts the existence of black holes and describes their properties, including the event horizon and singularity.\n* The discussion touches on the history of black hole research, including the work of Schwarzschild and the observation of black holes in the universe.\n* Brown also talks about the potential for using black holes as power plants, as they can extract energy from objects that fall into them.\n* The conversation covers the current state of black hole research, including the use of gravitational wave detectors like LIGO and the observation of black holes in the center of galaxies.\n* Brown discusses the challenges of understanding black holes, including the effects of gravitational time dilation and the difficulty of observing them directly.\n* The podcast also touches on the potential for AI to contribute to our understanding of physics, including the use of large language models to explore complex mathematical concepts.\n\n### Notable Links\n* Adam Brown\n* Jane Street\n* Crusoe\n* Cursor\n* [Dwarkesh Patel](https://substack.com/@dwarkesh)\n* YouTube",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuZHdhcmtlc2guY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5kd2Fya2VzaC5jb20lMkZwJTJGYWRhbS1icm93bi1nciIsInAiOjIwNjQ0NTg0NCwicyI6NjkzNDUsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzNzAxNjMwLCJleHAiOjIwOTkyNzc2MzAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.EW_45fK_jLzOdLkznCuzX-Se8B1T0ddQ4e6_2moPBGk?"
+        },
+        {
+          "text": "Watch now",
+          "url": "https://substack.com/app-link/post?publication_id=69345&post_id=206445844&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjQ0NTg0NCwiaWF0IjoxNzgzNzAxNjMwLCJleHAiOjE3ODYyOTM2MzAsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.RHX9BeP3jAU-RyDihpHpKwvIrrLAZ0NHGnPLCYgSuZI"
+        },
+        {
+          "text": "Adam Brown – Einstein's happiest thought: General Relativity from scratch",
+          "url": "https://substack.com/app-link/post?publication_id=69345&post_id=206445844&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjQ0NTg0NCwiaWF0IjoxNzgzNzAxNjMwLCJleHAiOjE3ODYyOTM2MzAsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.RHX9BeP3jAU-RyDihpHpKwvIrrLAZ0NHGnPLCYgSuZI"
+        },
+        {
+          "text": "Dwarkesh Patel",
+          "url": "https://substack.com/@dwarkesh"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/dwarkesh/p/adam-brown-gr?redirect=app-store"
+        },
+        {
+          "text": "Adam Brown",
+          "url": "https://substack.com/redirect/e210d2f3-041b-4846-aa98-a8248ac916e4?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "YouTube",
+          "url": "https://substack.com/redirect/2d182525-b330-49e0-9e95-4dcfdc312d94?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Jane Street",
+          "url": "https://substack.com/redirect/ee1ec926-e508-444b-b111-9de0f2659a14?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Crusoe",
+          "url": "https://substack.com/redirect/5bff8d96-bcda-4598-bff4-8a1b1b1d4042?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Cursor",
+          "url": "https://substack.com/redirect/a9cb727b-f591-4eaa-9e5b-b1e94f6bdc16?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Adam Brown – Einstein's happiest thought: General Relativity from scratch![](https://eotrx.substackcdn.com/o/963afa381c7bb4e6/p.gif?token=eyJtIjoiPDIwMjYwNzEwMTYzOTM1LjMuNmRmNzc0ZmRkMjExMzEyMkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwNjQ0NTg0NCwidCI6InBvZGNhc3QiLCJhIjoiZXZlcnlvbmUiLCJzIjo2OTM0NSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MzcwMTYzMCwiZXhwIjoxNzg2MjkzNjMwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.Wzn0r323FkT3Ax6_T9oHOAGeupAXN4uptgc6Nn4iO2E)\n\nWatch now (98 mins) | And why black holes are the ultimate power plants.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    },
+    {
+      "from": "\"Dharmesh @ simple.ai\" <hi@simple.ai>",
+      "subject": "🤖 Automate More Work with Scheduled Tasks",
+      "date": "2026-07-10T17:05:17.000Z",
+      "summary": "## Simple.ai Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The newsletter discusses how to automate more work with scheduled tasks, allowing users to delegate real projects for their AI to complete in the background, increasing productivity and efficiency. This is achieved by treating AI as a teammate rather than a tool, and utilizing features such as Scheduled Tasks on platforms like ChatGPT and Claude.\n- The concept of asynchronous work is introduced, where AI handles tasks while the user focuses on other things, such as using AI to research the top 10 companies in enterprise CRM tools, pulling their website URLs, pricing, and brand positioning angles, and comparing the results to the previous week.\n- The newsletter highlights the importance of scheduling tasks, which is a paid feature on both OpenAI's ChatGPT and Anthropic's Claude, costing around $20 per month. Setting up scheduled tasks is relatively beginner-friendly, with step-by-step instructions provided for both platforms.\n- Examples of scheduled tasks are given, such as going through unread emails, sorting them into three lists, and summarizing notable storylines from the World Cup. These tasks can be customized to fit specific needs and can help users make the most out of their AI subscription.\n- The newsletter also touches on the idea of moving from using AI as a tool to using it as a teammate, which involves reallocating time away from rote keystroke work and towards making bigger picture decisions that require taste and judgment.\n- The introduction of agent.ai, a professional network for AI agents, is mentioned, which can be used for company research, finding prospects, and more.\n\n### Notable Links\n- [ChatGPT](https://www.chatgpt.com/)\n- [Claude](https://www.anthropic.com/')\n- [Agent.ai](https://agent.ai)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖 Automate More Work with Scheduled Tasks\n\nThe difference between a tool and a teammate.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 10, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.OmvVQoGRxXyFopAr2m0tC8BlJQakQpHqCUbJpt7pYmHDBQJqg16vp5KA4Os7m4p5Q6icbBXfByDaQAl2aHxrYH6qNPuQ4HLE_SMxdzqOiKIizkSR5RRa8xLnDgcPXHjRU9_Q7BWKVrC3cTGTAW1ztDpMeKVXIQdV5Ja7v1LN_GpHgAaBhAXmKkgIJDOqgFE1b3qWZP5BwnRTgbOvM6izSGsoX0LA2DmfHsNegRaCmrru2oM8yaQoDaKSlZWwE-OgOkzn4PwoJ0TeRCA9ydX7MTqlA6IjIMHB3n-7zVZKkG68LpkZbbXTVge-H88tupJig1NcnR74DZCfMS-psnh7i_xlN46nq4UJ7NxOwI5pBcGCimRsdaXwe2ICH9AXBaWbKEd9nvZzmfPYKIX0i-DjzYGg7CbTMzyPlx4HWHvwZr76ifePAK"
+    },
+    {
+      "from": "\"Simon Willison from Simon Willison’s Newsletter\" <simonw@substack.com>",
+      "subject": "The new GPT-5.6 family: Luna, Terra, Sol",
+      "date": "2026-07-10T17:23:02.000Z",
+      "summary": "## Simon Willison's Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n- OpenAI has released the **GPT-5.6 family** of large language models, which includes three models: **Luna**, **Terra**, and **Sol**. The models are priced per 1M input/output tokens, with Sol being the most expensive and capable model. GPT-5.6 Sol has set a new high score on the Agents' Last Exam benchmark, outperforming Claude Fable 5.\n- **sqlite-utils 4.0** has been released, which includes a new feature for database schema migrations. The new version also introduces support for nested transactions, compound foreign keys, and other improvements.\n- OpenAI's **GPT-5.6** models have a **February 16th 2026 knowledge cutoff** and a **million token context window**. The models also support **programmatic tool calling**, **multi-agent** workflows, and **prompt cache breakpoints**.\n- **Claude Fable 5** has been used to review and test the sqlite-utils 4.0 release, and has identified several bugs and issues that have been fixed.\n- **Muse Spark 1.1** has been released, which is a new model from Meta that offers significant improvements in agentic tool calling and computer use.\n- **Jarred Sumner** has rewritten the **Bun** framework in Rust, using a combination of human and AI-powered tools to automate the porting process.\n- **GPT-Live** has been introduced, which is a new feature that allows for more efficient and interactive conversations with the model.\n- **ChatGPT Work** has been launched, which is a new work-focused AI agent that can research, analyze, and produce finished documents, spreadsheets, and presentations.\n\n### Notable Links\n- [The new GPT-5.6 family: Luna, Terra, Sol](https://substack.com/app-link/post?publication_id=1173386&post_id=206476122&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjQ3NjEyMiwiaWF0IjoxNzgzNzA0MjI0LCJleHAiOjE3ODYyOTYyMjQsImlzcyI6InB1Yi0xMTczMzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.Etmn3fy0lbQ07TtvjqnB3RZX5js9bUeCGvBh-ep42QQ)\n- sqlite-utils 4.0\n- Muse Spark 1.1",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zaW1vbncuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnNpbW9udy5zdWJzdGFjay5jb20lMkZwJTJGdGhlLW5ldy1ncHQtNTYtZmFtaWx5LWx1bmEtdGVycmEiLCJwIjoyMDY0NzYxMjIsInMiOjExNzMzODYsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzNzA0MjI0LCJleHAiOjIwOTkyODAyMjQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.jIzZIH5S2Y4vRlA5ZYrL2Epg-rmPI7KFFg6Otqev7iE?"
+        },
+        {
+          "text": "The new GPT-5.6 family: Luna, Terra, Sol",
+          "url": "https://substack.com/app-link/post?publication_id=1173386&post_id=206476122&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjQ3NjEyMiwiaWF0IjoxNzgzNzA0MjI0LCJleHAiOjE3ODYyOTYyMjQsImlzcyI6InB1Yi0xMTczMzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.Etmn3fy0lbQ07TtvjqnB3RZX5js9bUeCGvBh-ep42QQ"
+        },
+        {
+          "text": "Simon Willison",
+          "url": "https://substack.com/@simonw"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/simonw/p/the-new-gpt-56-family-luna-terra?redirect=app-store"
+        },
+        {
+          "text": "Teleport",
+          "url": "https://substack.com/redirect/9ae37ee3-595b-465a-9093-8f1cf4640a84?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The new GPT-5.6 family: Luna, Terra, Sol",
+          "url": "https://substack.com/redirect/88682ff5-9410-4945-8ad6-0486168b0649?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "hit general availability this morning",
+          "url": "https://substack.com/redirect/2cf76b0a-bf8e-4337-9b95-05bbadd74244?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Agents’ Last Exam",
+          "url": "https://substack.com/redirect/55b1a534-e127-48a9-8e8b-78f7951dfea2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "this article yesterday",
+          "url": "https://substack.com/redirect/b12b06b8-96be-4251-ab13-62e00c2778ea?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "model guidance for using GPT-5.6",
+          "url": "https://substack.com/redirect/f9ff0022-1711-498e-84bf-e7b20e521541?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The new GPT-5.6 family: Luna, Terra, Sol![](https://eotrx.substackcdn.com/o/cb035504a3ac83ab/p.gif?token=eyJtIjoiPDIwMjYwNzEwMTcyMzAyLjMuYzEyZDMzMDJiOWRkOTQ3MEBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDY0NzYxMjIsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTE3MzM4NiwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MzcwNDIyNSwiZXhwIjoxNzg2Mjk2MjI1LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.K8UVozZQY-yUOblRGRMr0o0eHP-Q0rN8raJJpHjajXc)\n\nPlus sqlite-utils 4.0, now with database schema migrations\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    },
+    {
+      "from": "\"Understanding AI\" <understandingai@substack.com>",
+      "subject": "An OpenAI model crushed top human programmers at a world coding competition",
+      "date": "2026-07-10T18:16:14.000Z",
+      "summary": "## Understanding AI\n\n**Priority: HIGH**\n\n### Top Updates\n- An OpenAI model has surpassed top human programmers in the AtCoder World Tour Finals, a prestigious programming competition, winning in both the heuristic and algorithmic divisions. This marks a significant milestone in AI development, demonstrating the potential for AI models to outperform humans in complex programming tasks.\n- The OpenAI model \"completely demolished human competitors\" in the heuristic division, with the human winner of the previous year's competition, Przemysław Dębiak (known as \"Psyho\"), estimating that humans would need several more days to match the AI's score.\n- In the algorithmic division, the OpenAI model solved all five problems, including two that none of the 12 human competitors were able to solve, further showcasing its capabilities.\n- The performance of the OpenAI model was described as \"very impressive\" and signals a significant shift in the potential for AI to excel in programming competitions, potentially rendering human programmers obsolete in certain areas.\n- OpenAI has recently launched GPT-5.6, a new family of frontier models available across ChatGPT, Codex, and the OpenAI API, which comes in three main variants: Sol (flagship), Terra (balanced), and Luna (fast and lower-cost).\n- GPT-5.6 was initially released in a limited preview to a select group of trusted partners at the request of the U.S. government and has now moved into broad global rollout after clearance from the U.S. Department of Commerce.\n- Alongside GPT-5.6, OpenAI has introduced ChatGPT Work, an AI \"agent\" that uses these models plus Codex to automate office tasks by operating across connected apps, files, and devices.\n\n### Notable Links\n- AtCoder World Tour Finals\n- OpenAI\n- GPT-5.6\n- ChatGPT Work\n- ChatGPT\n- Codex\n- OpenAI API\n\nThis newsletter is rated HIGH due to the significant impact of the OpenAI model's performance in the AtCoder World Tour Finals and the recent release of GPT-5.6, which demonstrates a major advancement in AI capabilities and potential applications in programming and automation.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudW5kZXJzdGFuZGluZ2FpLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cudW5kZXJzdGFuZGluZ2FpLm9yZyUyRnAlMkZhbi1vcGVuYWktbW9kZWwtY3J1c2hlZC10b3AtaHVtYW4iLCJwIjoyMDY0ODE1MzksInMiOjE1MDE0MjksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzNzA3NTYwLCJleHAiOjIwOTkyODM1NjAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.Cuo2e8KVzdd52RS7dehV4x23hbTas4Ol23j-C0in5-0?"
+        },
+        {
+          "text": "An OpenAI model crushed top human programmers at a world coding competition",
+          "url": "https://substack.com/app-link/post?publication_id=1501429&post_id=206481539&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjQ4MTUzOSwiaWF0IjoxNzgzNzA3NTYwLCJleHAiOjE3ODYyOTk1NjAsImlzcyI6InB1Yi0xNTAxNDI5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.i8FLJ_9nL_RIuQLgP4yJsxDH2S-6oToQ9nq44r7tTqk"
+        },
+        {
+          "text": "Kai Williams",
+          "url": "https://substack.com/@chiwilliams"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/understandingai/p/an-openai-model-crushed-top-human?redirect=app-store"
+        },
+        {
+          "text": "AtCoder World Tour Finals",
+          "url": "https://substack.com/redirect/4c35e6cc-52b7-48f9-9a96-1cfe5bb20993?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "tweet",
+          "url": "https://substack.com/redirect/0b8578b0-5049-43da-a25c-4833f2d33b19?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "noted",
+          "url": "https://substack.com/redirect/dbf6af57-b0ca-43f9-bdfb-4c1e61db5931?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "award ceremony",
+          "url": "https://substack.com/redirect/77863db0-f953-49c3-bbcd-04ba6724adb3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Start trial",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudW5kZXJzdGFuZGluZ2FpLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnVuZGVyc3RhbmRpbmdhaS5vcmclMkZwJTJGYW4tb3BlbmFpLW1vZGVsLWNydXNoZWQtdG9wLWh1bWFuJnI9NDlieTM0JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lOVGMxTXpnMk5EQXNJbWxoZENJNk1UYzRNemN3TnpVMk1Dd2laWGh3SWpveE56ZzJNams1TlRZd0xDSnBjM01pT2lKd2RXSXRNVFV3TVRReU9TSXNJbk4xWWlJNkltTm9aV05yYjNWMEluMC53b05wYjNLd0NsMjlqTlFPUzJDNTEtM29neGU0RHByTzA1N2ZrMXBQZC1ZIiwicCI6MjA2NDgxNTM5LCJzIjoxNTAxNDI5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4MzcwNzU2MCwiZXhwIjoyMDk5MjgzNTYwLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.Mz7L32D_cM1HFHP9wurlOHun4p3VnQClH8Gyv50t5vk?simple=true&next=https%3A%2F%2Fwww.understandingai.org%2Fp%2Fan-openai-model-crushed-top-human&coupon=7c4d0010"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=1501429&post_id=206481539&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjQ4MTUzOSwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODM3MDc1NjAsImV4cCI6MTc4NjI5OTU2MCwiaXNzIjoicHViLTE1MDE0MjkiLCJzdWIiOiJyZWFjdGlvbiJ9.5oyhRIVKCvIh7irs2ERIcYCgprtb1R25OX6OoIg8wBE&r=49by34"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "An OpenAI model crushed top human programmers at a world coding competition![](https://eotrx.substackcdn.com/o/ae16f7ba82feacfb/p.gif?token=eyJtIjoiPDIwMjYwNzEwMTgxNjE0LjMuN2VkNzI0ZmViNWZhNDVhOEBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwNjQ4MTUzOSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoib25seV9wYWlkIiwicyI6MTUwMTQyOSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4MzcwNzU2MSwiZXhwIjoxNzg2Mjk5NTYxLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.6KtdToDPI7oxdDGbN35bTCu4Ux-VS5fwKLYcyejk6no)\n\nBut human programmers aren’t obsolete — at least not yet.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"NVIDIA GTC\" <news@nvidia.com>",
+      "subject": "Your GTC Berlin early-bird savings expire Wednesday",
+      "date": "2026-07-10T18:37:00.000Z",
+      "summary": "## NVIDIA GTC\n\n**Priority: MEDIUM**\n\n### Top Updates\n- NVIDIA is hosting the GTC Berlin conference, an AI conference and expo, on October 21-22, with a keynote by NVIDIA CEO Jensen Huang, deep-dive AI sessions, hands-on workshops, and live demos, providing a unique opportunity to connect with innovators shaping Europe's AI landscape.\n- Early-bird pricing for conference passes ends on July 15, with savings of over €300, and an additional 20% discount available with code GTC26EU20.\n- The conference will feature workshops on October 20, and the main event will take place on October 21-22 in Berlin, allowing attendees to learn about the latest AI developments and network with industry experts.\n\n### Notable Links\n- Register Now and Save: https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGi7EpHfNDzwwNuklIvm-Q_PHTjDszmHJZ3-gwhmDT_n2TWpOwe8ddhFMqdAw5xjmz9CskBZIg=\n- Privacy Center: https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGi7EpHe4sHdZSftBSs3rD-SZrqng71AJNCXQbdcodMpWg1p09mT7WK2GYrKvuT4hwerc8viJI=\n- Contact Us: https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGi7EpHfJOvusomZX-3QQwT-iUa1Z8tFaqo-KnRLsfhpMqj26RG5ZNevRX7nvWBrQ-pcLg5PUo=\n- View Online: https://go.nvidianews.com/v/MTU2LU9GTi03NDIAAAGi7EpHe1YprsXR9_bROE-jstMm43koeFWzG4ufA85R4EsFiGKlqR97ahSJ5371_sjzVnWDCNI=",
+      "links": [
+        {
+          "text": "Register Now and Save",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGi7EpHfNDzwwNuklIvm-Q_PHTjDszmHJZ3-gwhmDT_n2TWpOwe8ddhFMqdAw5xjmz9CskBZIg="
+        },
+        {
+          "text": "Privacy Center",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGi7EpHe4sHdZSftBSs3rD-SZrqng71AJNCXQbdcodMpWg1p09mT7WK2GYrKvuT4hwerc8viJI="
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGi7EpHfJOvusomZX-3QQwT-iUa1Z8tFaqo-KnRLsfhpMqj26RG5ZNevRX7nvWBrQ-pcLg5PUo="
+        },
+        {
+          "text": "View Online",
+          "url": "https://go.nvidianews.com/v/MTU2LU9GTi03NDIAAAGi7EpHe1YprsXR9_bROE-jstMm43koeFWzG4ufA85R4EsFiGKlqR97ahSJ5371_sjzVnWDCNI="
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "NVIDIA       \n\nRegister by July 15 to lock in savings on your GTC Berlin pass.\n\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n[![NVIDIA GTC](https://info.nvidia.com/rs/156-OFN-742/images/gtc-logo-light.png)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGi7EpHfNsCIu-aXG9ekEZLW1Kd04Vv8tTsQ1eNgCfTHKSTqGG-7QmtFYpxiaKivXYTN3xtA7o= \"NVIDIA GTC\")\n\n[![NVIDIA GTC](https://info.nvidia.com/rs/156-OFN-742/images/gtc-logo-dark.png)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGi7EpHfNsCIu-aXG9ekEZLW1Kd04Vv8tTsQ1eNgCfTHKSTqGG-7QmtFYpxiaKivXYTN3xtA7o= \"NVIDIA GTC\")\n\n**AI Conference & Expo** October 21–22**  \nKeynote** October 21 | **Workshops** October 20 | **Berlin** October 21–22**  \nKeynote** October 21 | **Workshops** October 20 | **"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 Lifelike Companion Robots Are Here",
+      "date": "2026-07-10T20:13:33.000Z",
+      "summary": "## TAAFT - There's An AI For That\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta has developed its first AI chip, called \"Iris\", which is scheduled to enter production in September. The chip aims to double compute power next year while reducing reliance on outside suppliers. This development is significant as it showcases Meta's efforts to create its own AI-focused hardware, potentially reducing its dependence on other companies like Nvidia.\n* Ollama, a platform that allows users to run open models locally, has raised $65M in a Series B funding round and reached 9M users. This indicates the growing demand for accessible and user-friendly AI tools.\n* A new companion robot, UWORLD U1, with silicone skin and emotion-processing capabilities, is now being mass-produced by UBTech. This marks a significant advancement in robotics, particularly in the field of social and companion robots.\n* Google is offering a free AI certificate course, covering research, planning, presentations, and building an app from a prompt. This initiative aims to make AI skills more accessible to a broader audience.\n* OpenAI's GPT-5.6 model has become the first to win a live ARC-AGI-3 game, demonstrating significant advancements in AI capabilities, especially in reasoning-heavy tasks.\n* A pocket-sized device called Krono, running open Android, allows users to capture and organize their ideas, providing a calm and distraction-free environment for note-taking and writing.\n* AI-designed molecules have been created, which can speed up drug discovery. This is an example of how AI can contribute to significant advancements in fields like medicine and chemistry.\n\n### Notable Links\n* Meta's First AI Chip Hits Production\n* Google Will Teach You AI Free\n* Lifelike Companion Robots Are Here",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 Lifelike Companion Robots Are Here\n\nA companion robot with silicone skin, Google teaches AI free, an AI that fooled 121 chemists, Meta’s first inference chip, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 10, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0L-iwFtUYkOXX0vSYnG1q3f2QsmkWxn6cACuIRK290P_w7xaQLLAO5jV1oG9_1CSaYbMvbBrTZGN_n2Js_zwWTTPjqCnCJWOeKpRPQrr_tvUtIdaCqMbmi3sffKG_S3zFqxgg9YOkSlZPJit8lprr3275wiVTuLtQJa71X1DPg8QF43mWE76Xe7A3Q4DnmdkHpPMJ8Xx3Q3Y6c4GoHDBtC0IZEGp72Dlya07XWtqjzl95HTdgXHG2wy-TAFJGBZq6i4R2fJ0mvejrF1VdFK5KioGWBS2eSV"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "3 new notifications since 3:42 am (Jul 10, 2026)",
+      "date": "2026-07-10T22:17:32.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The AI Automation Society has announced that today (July 11th) is the last day to buy tickets for the AIS Live event, a virtual conference taking place on July 11th and 12th, where real AI business owners will share their experiences and strategies, providing valuable insights for attendees.\n- A post by Nate Herk mentions the event and encourages readers to get their tickets, highlighting the opportunity to learn from AI business owners about what they sell and how they operate.\n- There is a mention of Anthropic's AI model, Claude, being used extensively within the company, with over 80% of merged production code authored by Claude, demonstrating the advancements in AI coding assistants.\n- Claude remains a benchmark-setting competitor in frontier AI but is also involved in controversies regarding safety, governance, and deployment, showing the increasing importance of regulation in AI development.\n- The use of AI models like Claude in coding and other areas indicates a significant shift towards automation and AI-driven solutions in the industry.\n\n### Notable Links\n- AIS Live event (for more information on the virtual conference)\n- Anthropic's Claude AI model (for details on the AI coding assistant and its applications)\n- Note: Due to the format requirements, no direct links are provided, but these references are to the primary sources of information mentioned in the newsletter.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3DXK4z_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXBCL2788E8RyLwuVXwv-2F5-2FJaFYbEuTLuAEWRkc4D2tlJB7fxgkUTQh3oE6hAzXvCeHLRCwli56e8Ac6HcmBRx-2FmJv-2BN022Bn7qwVGD1dJ2SWTLEvW-2BPTmigrYm-2BvETKAJj-2BUEMadFXa-2Bj5nF-2BQyACfyYSIGj6cViAHrN2WbPOnUCYjBe-2B0sDE993q7B578FIOdbk00LWSJYKP7vcKMuAh8KraFVCp3pqKPYk-2F7bOeC2urMhi6Vva74H8m2HnVmvrFPn99-2BaA-2FI0cx1-2F1uuyUYtjDmK0SYUtPl4-2B8PCRFvz7NR1ElyRjEr8nlLA0"
+    }
+  ],
+  "tldr": [
+    "OpenAI releases GPT-5.6 language models.",
+    "Anthropic's Claude model sparks controversy.",
+    "Meta launches Muse Image and Spark.",
+    "Microsoft invests $2.5B in AI engineering.",
+    "Italy fines Character.AI for data breaches."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "GPT-5.6",
+        "context": "GPT-5.6 is OpenAI’s latest **frontier large language model family**, released broadly in early July 2026 after a limited preview in late June.[1][2][6] It comes in three tiers—**Luna**, **Terra**, and **Sol**—with Sol positioned as the flagship, highest‑reasoning model for complex, long‑horizon work in coding, research, cybersecurity, computer use, and design.[1][2][5][6] GPT-5.6 is available across ChatGPT, Codex, and the OpenAI API, with Sol rolling out first to eligible paid ChatGPT plans (Plus, Pro, Business, Enterprise) and Terra/Luna offered as lower‑cost and faster options depending on product and plan.[2][5] Pricing is per million tokens, with Sol at $5 input / $30 output, Terra at $2.50 / $15, and Luna at $1 / $6, and the family introduces more predictable prompt caching with explicit cache breakpoints and a 30‑minute minimum cache life.[1][2]\n\nGPT-5.6 matters primarily because it **pushes the performance frontier on reasoning‑heavy, “agentic” tasks** while improving efficiency and safety controls versus prior generations like GPT-5.5.[1][2][4] OpenAI’s evaluations highlight large gains in multi‑step professional analysis, tool and computer use, long‑horizon coding, biology, and especially cybersecurity, where GPT-5.6 Sol is described as the company’s strongest model yet for complex security workflows such as vulnerability research and exploitation under controlled conditions.[1][2] Technically, the release introduces new effort controls such as a **`max` reasoning effort** mode that gives the model more time to think deeply, and an **`ultra` mode** that coordinates sub‑agents to accelerate complex projects—features aimed at turning the model into a more capable autonomous or semi‑autonomous worker for enterprises and advanced developers.[1][2]\n\nFrom an industry perspective, GPT-5.6 signals a shift toward **scalable, tiered AI stacks optimized for sustained knowledge work and enterprise automation**, not just chat-style Q&A.[1][2] Its rollout across ChatGPT plans and the API, combined with high-throughput serving on specialized hardware (e.g., a Sol deployment on Cerebras at up to 750 tokens per second), is likely to influence how organizations structure software development, security analysis, and data-intensive research workflows around AI co‑workers.[1] The stronger cybersecurity capabilities and more granular control over reasoning effort will also intensify ongoing debates on AI safety and governance, as models become more capable in sensitive domains while vendors attempt to keep them below “critical” risk thresholds through system cards, red-teaming, and access controls.[1][2][4]",
+        "source": "web search"
+      },
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is a leading artificial intelligence research and product company best known for developing the GPT family of large language models and the ChatGPT assistant, which are widely used across consumer, enterprise, and developer platforms.[4][11] In the current AI/ML landscape, OpenAI is a central player in frontier model development, shaping benchmarks for general-purpose reasoning, coding, and productivity tools, and its releases often trigger competitive responses from rivals such as Anthropic and major cloud providers.[3][7]\n\nMost recently, OpenAI has launched **GPT-5.6**, a new family of frontier models available across ChatGPT, Codex, and the OpenAI API.[4][8] The series comes in three main variants—**Sol** (flagship and most capable), **Terra** (balanced for everyday work), and **Luna** (fast and lower-cost)—with Sol positioned as the company’s most powerful model to date and its “strongest cybersecurity model” with more efficient token usage, particularly for coding tasks.[3][4][9] GPT-5.6 was initially released in a limited preview to a select group of trusted partners at the request of the U.S. government, reflecting ongoing national security and safety reviews, and has now moved into broad global rollout after clearance from the U.S. Department of Commerce.[1][2][12] Alongside GPT-5.6, OpenAI has introduced **ChatGPT Work**, an AI “agent” that uses these models plus Codex to automate office tasks by operating across connected apps, files, and devices—drafting documents, spreadsheets, presentations, and managing workflows on desktop, web, and mobile for professional users.[3][5][6][7]\n\nThese developments matter because they extend OpenAI’s impact from general AI chat tools into more tightly integrated workplace automation and advanced developer capabilities, while highlighting growing regulatory engagement with frontier models. GPT-5.6’s tiered pricing and performance profiles (Sol, Terra, Luna) aim to make high-end capabilities economically accessible for a range of use cases, from intensive coding and research to everyday business tasks.[3][4][10] The staggered release, safety system card, and government-requested preview underscore that OpenAI’s models are now treated as critical infrastructure-level technologies, influencing policy, security assessments, and competitive dynamics across the AI industry.[2][9][12]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT Work",
+        "context": "{\"topic\":\"ChatGPT Work\",\"context\":\"ChatGPT Work is OpenAI’s new work-focused AI agent for longer, more complex tasks. It can research and analyze information, work across connected apps and files, and produce finished documents, spreadsheets, presentations, reports, and websites; OpenAI says it can also keep projects moving with scheduled tasks and human approval checkpoints for important actions.[7][3] OpenAI has positioned it as an enterprise-oriented capability, with access rolling out first to Pro, Pro Lite, Enterprise, and Edu users on web and mobile, while Plus and Business follow shortly after.[7]\n\nThe latest developments show OpenAI pushing this into a broader enterprise agent platform: it now supports workspace agents that teams can share, connect to business tools, and use for long-running workflows, and OpenAI says these agents are an evolution of GPTs.[6][10] The launch matters because it intensifies competition in enterprise AI against rivals such as Anthropic and others, ",
+        "source": "web search"
+      },
+      {
+        "topic": "Claude",
+        "context": "Claude is Anthropic’s flagship family of large language models, positioned as a major competitor to OpenAI’s GPT line and used for chat, coding, and agentic workflows. Anthropic’s current public lineup includes Claude Opus 4 and Claude Sonnet 4, with Opus emphasized for complex reasoning and long-running coding tasks and Sonnet positioned as the faster, balanced option; Anthropic says these models ship with new API tools for agents such as code execution, an MCP connector, and Files API support.[6] Anthropic’s newsroom also shows continued product activity around Claude Code and related features, underscoring that Claude is increasingly central to the company’s developer and enterprise strategy.[7]\n\nThe latest notable development is rapid model iteration and growing industry impact. In February 2026, Anthropic released Claude Sonnet 4.6 and made it the default option for free and Pro users, highlighting improvements in computer use, programming, design, and knowledge work.[8] More recently, Anthropic’s own reporting and coverage indicate Claude is being used deeply inside the company, with one report saying more than 80% of merged production code was authored by Claude, which illustrates how far AI coding assistants have advanced.[3] In the broader market, Claude remains a benchmark-setting competitor in frontier AI, but recent headlines also include safety, governance, and deployment controversies around newer Claude variants and government restrictions, showing that the model’s relevance is increasingly tied to both capability and regulation.[1][7]",
+        "source": "web search"
+      },
+      {
+        "topic": "Llama (Meta AI language model family)",
+        "context": "Llama is a family of large language models developed by Meta AI, designed as an **open and accessible foundation** for developers, researchers, and businesses to build generative AI applications.[2][3] Starting with the first Llama release in 2023, Meta has iterated quickly: Llama 2 expanded into instruction-tuned variants, Llama 3 and 3.1 pushed state-of-the-art performance at 8B, 70B, and a frontier-scale 405B model, and the latest Llama 4 series introduces multimodal and mixture-of-experts architectures.[2][5][6] Across these generations, Llama models have focused on strong reasoning, coding, multilingual capabilities, and longer context windows, while remaining broadly available under open or permissive licenses.[2][5][6]\n\nLlama matters because it has become one of the **most widely adopted open LLM ecosystems**, with Meta reporting more than 650 million downloads of Llama and derivative models and license approvals more than doubling in six months.[7] This scale of adoption positions Llama as a central infrastructure layer for AI, enabling startups, enterprises, and open-source communities to build assistants, coding tools, agents, and domain-specific models without relying solely on closed proprietary systems.[3][7] The Llama API and emerging \"Llama Stack\" further aim to standardize how third-party projects integrate Llama models, combining the ease of a managed service with the flexibility of open tooling.[4][5]\n\nMost recently, Meta has announced **Llama 3.1 and Llama 4** as key milestones. Llama 3.1 introduced the 405B model, which Meta describes as the first openly available frontier-level model, plus upgraded 8B and 70B variants with 128K context windows, stronger tool use, and improved reasoning and multilingual support.[5] Llama 4, released in 2025, shifts to a multimodal, mixture-of-experts design with models like Scout (17B active parameters, 10 million-token context) and Maverick (17B active parameters, 1M context), which Meta claims outperform leading closed models such as GPT‑4o and Gemini 2.0 on several benchmarks.[1][2] These rapid, high-capability releases are accelerating innovation in areas like synthetic data generation, model distillation, long-context applications, and multimodal agents, and they are intensifying competitive pressure on closed model providers by raising the bar for what open models can do.[1][5][7]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Meta launches Muse Image and Muse Spark developer access for in-house generative image AI",
+        "summary": "Meta released Muse Image, its first fully in-house AI image generator, integrated across the Meta AI app, Instagram Stories, and WhatsApp, and followed with long-awaited developer access plus an upgraded Muse Spark model. The launches position Meta as a direct competitor to OpenAI and Anthropic in image and multimodal tooling, while raising fresh questions about training data and privacy.",
+        "whyItMatters": "Practitioners gain a new, high‑scale image and multimodal platform deeply embedded in consumer social apps, expanding deployment avenues for creative and marketing use cases. The privacy backlash and data sourcing scrutiny around Muse will shape best practices for training and deploying large vision models at scale.",
+        "source": "Crescendo AI news roundup; Reuters AI desk"
+      },
+      {
+        "headline": "Microsoft forms $2.5B Frontier Company to embed AI engineering teams inside enterprises",
+        "summary": "Microsoft announced the Microsoft Frontier Company, a new unit backed by $2.5 billion and 6,000 engineers that will work directly inside large enterprise customers to design, deploy, and scale AI systems. The unit focuses on end‑to‑end AI transformation, from infrastructure and safety to agentic workflows and domain‑specific copilots.",
+        "whyItMatters": "This signals a shift from generic platform offerings to deeply embedded AI engineering partnerships, changing how large organizations staff and implement AI systems. Practitioners can expect more integrated, production‑grade patterns for agents, safety tooling, and MLOps to originate from these co‑development efforts.",
+        "source": "Crescendo AI news roundup"
+      },
+      {
+        "headline": "Italy fines Character.AI for data protection breaches in generative AI platform",
+        "summary": "Italy's data protection authority imposed a €158,000 fine on Character Technologies, operator of Character.AI, for violations of data protection rules related to its generative AI platform. The decision highlights regulator concerns around how conversational AI systems collect, store, and use personal data.",
+        "whyItMatters": "Regulatory actions like this refine the legal expectations for consent, data retention, and transparency in chatbots and agentic systems. AI practitioners building user‑facing models need to anticipate tighter enforcement on data handling, logging, and privacy safeguards, especially in the EU.",
+        "source": "Reuters AI News"
+      },
+      {
+        "headline": "US Senate committee advances Framework for AI Governance Act toward floor vote",
+        "summary": "The US Senate AI Safety and Security Committee advanced the bipartisan Framework for AI Governance Act, which would create a national AI incident database and mandate baseline disclosure for high‑risk AI applications. The bill now moves toward a full Senate vote after the August recess.",
+        "whyItMatters": "If enacted, this framework would formalize incident reporting and transparency obligations, directly affecting how frontier and applied models are monitored and disclosed. Practitioners will need to integrate incident tracking, risk classification, and reporting pipelines into their ML operations for regulated use cases.",
+        "source": "Skycrumbs July 2026 AI news analysis"
+      },
+      {
+        "headline": "DeepMind, OpenAI, and Stanford release landmark papers on planning, scaling laws, and benchmark contamination",
+        "summary": "Recent research highlights include DeepMind’s \"Emergent Planning in LLMs\" showing multi‑step planning behavior emerging from scale, OpenAI’s \"Scaling Laws for Reasoning Models\" quantifying gains from test‑time compute, and Stanford’s \"Benchmark Contamination in 2026\" documenting 15–30% training data overlap with common evaluation sets. Together, these papers challenge prevailing assumptions about how reasoning is achieved and how performance is measured.",
+        "whyItMatters": "These findings will influence how practitioners architect models, allocate compute at inference time, and design trustworthy evaluations. Expect increased focus on test‑time search/planning, more rigorous benchmark hygiene, and revised methodologies for claiming state‑of‑the‑art results in production and research settings.",
+        "source": "Skycrumbs July 2026 AI news analysis"
+      }
+    ],
+    "entities": [
+      {
+        "name": "GPT-5.6",
+        "type": "product",
+        "context": "Mentioned as the latest release from OpenAI with improved functionality"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as the developer of GPT-5.6 and other AI models"
+      },
+      {
+        "name": "ChatGPT Work",
+        "type": "product",
+        "context": "Mentioned as a new work-focused agent launched by OpenAI"
+      },
+      {
+        "name": "Claude",
+        "type": "product",
+        "context": "Mentioned as a competing AI model with similar functionality to GPT-5.6"
+      },
+      {
+        "name": "Llama",
+        "type": "product",
+        "context": "Mentioned as a highly capable AI model with frequent releases"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as a developer of AI technologies and competitor to OpenAI"
+      },
+      {
+        "name": "Sol",
+        "type": "product",
+        "context": "Mentioned as a new AI model developed by OpenAI with improved intelligence and efficiency"
+      },
+      {
+        "name": "Terra",
+        "type": "product",
+        "context": "Mentioned as a new AI model developed by OpenAI with improved functionality"
+      },
+      {
+        "name": "Luna",
+        "type": "product",
+        "context": "Mentioned as a new AI model developed by OpenAI with improved functionality"
+      },
+      {
+        "name": "Grok",
+        "type": "product",
+        "context": "Mentioned as a competing AI model with similar functionality to GPT-5.6"
+      },
+      {
+        "name": "NVIDIA GTC",
+        "type": "event",
+        "context": "Mentioned as an upcoming conference for AI and technology professionals"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-07-11T00:30:43.397Z",
+  "dateString": "2026-07-11"
+}
