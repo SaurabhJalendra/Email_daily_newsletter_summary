@@ -239,6 +239,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-daybreak]] — OpenAI's frontier cyber-defense platform pairing GPT-5.5 + Codex Security (May 2026)
 - [[openai-guaranteed-capacity]] — OpenAI's enterprise compute-reservation program; 1-3 year commitments (May 2026)
 - [[qwen-3-7-max]] — Alibaba's flagship Qwen 3.7; 35h continuous autonomous reasoning, 1M context (May 2026)
+- [[robostral-navigate]] — Mistral's Jul 2026 first robotics-tier model for factories/warehouses/industrial automation; cross-supplier hardware portability
 - [[ministral-3]] — Mistral dense small-model line (3B/8B) for on-device inference *(stale)*
 - [[mistral-3]] — Mistral's open-weight lineup; flagship Large 3 (41B active / 675B total MoE) *(stale)*
 - [[mistral-ocr-3]] — Mistral's OCR model; ~97% accuracy, strong on European documents *(stale)*
@@ -325,6 +326,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[john-jumper]] — Google DeepMind VP and 2024 Nobel Chemistry laureate (AlphaFold co-creator); departs for Anthropic in June 2026
 - [[loop-engineering]] — named developer discipline of designing autonomous agent loops (triggers + actions + verification gates) for self-check + self-correct execution cycles; sibling to prompt-engineering / context-engineering / harness-design; "autonomous software assembly lines" per AlphaSignal (Jul 2026)
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
+- [[omar-yaghi]] — Nobel-laureate chemist (reticular chemistry / MOFs); departs UC Berkeley to lead Tsinghua University's new AI for Chemistry and Materials Science Research Center in Beijing (announced Jul 4 2026)
 - [[orbital-data-centers]] — space-based AI compute initiatives; SpaceX, Project Suncatcher, Cowboy Space Corp, Starcloud (May 2026)
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026)
 - [[software-factories]] — cross-vendor thesis (Warp Oz + Cursor FDE + Factory) that every major software project will soon run on an automated main-loop factory (triage → spec → implement → review → verify → ship → monitor) (Jul 2026)
