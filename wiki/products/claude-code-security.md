@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[anthropic]]
 > **First mentioned**: 2026-02-22
 > **Last updated**: 2026-05-02
-> **Status**: active
+> **Status**: stale
 > **Related**: [[claude-code]], [[anthropic]]
 
 ## Summary
