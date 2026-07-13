@@ -8,9 +8,10 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-03
-> **Last updated**: 2026-04-02
-> **Status**: stale
-> **Related**: [[runway-gen-4-5]], [[ai-video-generation]], [[veo-3]], [[sora-2]]
+> **Last updated**: 2026-07-13-evening (**Runway Dev API launched — developer-tier access to frontier video models + bundled third-party image and audio generator.** The Rundown AI MEDIUM: ***"Runway has introduced Runway Dev, a new API serving its frontier video models alongside a third-party image and audio generator"***. Daily-digest: ***"Runway Dev provides access to Runway's video models, enabling developers to integrate them into their applications"***. First publicly framed *Runway Dev developer-API* + *frontier-video-model plural framing* + *third-party image + audio generator bundling* in this wiki. Structurally significant three ways: (a) shifts Runway from consumer-app + agency-tier offering into developer-API-tier substrate, competing with [[sora-2]] API + [[veo-3]] + [[seedance-2]] 2.5 for build-your-own-video-app developer tier; (b) third-party image + audio generator bundling positions Runway Dev as *composed multimodal-pipeline endpoint* — structurally novel vs bare-model-API pattern; (c) plural *"frontier video models"* framing implies multi-tier serving (Gen-4.5 + successors). See [[runway-dev]] for product-side detail. Body-recovery items: (a) named video-model tiers exposed via Runway Dev, (b) bundled third-party generator vendors, (c) pricing tier + rate-limits — *source: data/summaries/2026-07-13-evening.json (The Rundown AI MEDIUM "🏛️ Apple says OpenAI stole more than employees" — Runway has introduced Runway Dev a new API serving its frontier video models alongside a third-party image and audio generator; daily-digest — Runway introduces Runway Dev a new API serving frontier video models))
+> **Previously updated**: 2026-04-02
+> **Status**: active
+> **Related**: [[runway-gen-4-5]], [[runway-dev]], [[ai-video-generation]], [[veo-3]], [[sora-2]], [[seedance-2]], [[gemini-omni]]
 
 ## Summary
 
