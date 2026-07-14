@@ -1,0 +1,522 @@
+{
+  "date": "2026-07-13T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Tuesday, 14 July 2026\n\n## 🔥 Top Stories\n1. **Apple sues OpenAI for trade secret theft**: Apple alleges that OpenAI recruited former Apple employees and used confidential information to accelerate its hardware development, which could have significant implications for the future of AI hardware and the legal landscape surrounding trade secrets. Why it matters: This lawsuit could impact OpenAI's plans to develop its own devices and highlights the intense competition and legal battles in the AI industry.\n2. **Grok 4.5 release**: SpaceXAI has debuted Grok 4.5, its first model since going public, which promises Opus-level power at a significantly lower cost, making it a potential game-changer in the AI market. Why it matters: The release of Grok 4.5 could disrupt the market and challenge the dominance of existing AI models, providing a more cost-effective option for developers and businesses.\n3. **Demis Hassabis predicts AGI arrival**: Demis Hassabis, the founder of DeepMind, predicts that Artificial General Intelligence (AGI) will arrive in 2 to 5 years, which could have profound implications for various industries and society as a whole. Why it matters: The potential arrival of AGI could bring about significant changes in the way we live and work, and Hassabis's prediction highlights the need for increased investment and research in AI safety and ethics.\n\n## 🤖 AI Models & Research\n- **Claude Opus 4 and Sonnet 4 updates**: Anthropic has introduced Claude Opus 4 and Sonnet 4, which offer stronger coding, advanced reasoning, and long-running agent workflows, signaling a broader push toward AI agents that can execute real work.\n- **GPT-5.6 Sol Ultra**: OpenAI's GPT-5.6 Sol Ultra model has solved the 50-year-old math problem known as the Cycle Double Cover Conjecture in under one hour using 64 parallel subagents, demonstrating the power of parallelism in solving complex problems.\n- **Gemini 3.5 Pro**: Leaked specs point to a 2 million token context window and Deep Think reasoning, making it a potentially powerful tool for AI applications.\n\n## 🛠️ Tools & Products\n- **ChatGPT Work**: OpenAI has launched ChatGPT Work, a new agent that can take actions across a user's computer or phone to get work done, powered by the company's new state-of-the-art GPT-5.6 model.\n- **Melius creative canvas**: Melius has launched a creative canvas for AI, which helps teams create digital assets in bulk via a node-based canvas powered by top image and video models.\n- **Cursor v3.11**: Cursor has released version 3.11, which includes features such as agent transcript search, side chats for parallel conversations, cloud agent hooks, and a smarter project picker.\n\n## 📰 Industry News\n- **SK Hynix Nasdaq debut**: SK Hynix has made Wall Street history with a $28-29 billion Nasdaq debut, the largest ADR listing ever, due to its control of 60% of the world's AI memory supply.\n- **Meta computing power expansion**: Meta is planning to double its computing power by 2027, backed by a new Samsung supply deal and a $10 billion data center in Alberta.\n- **Google AI Studio updates**: Google AI Studio now allows deployed apps to claim a permanent custom domain, making it easier to share demos, build a portfolio, or send links to clients.",
+  "totalNewsletters": 16,
+  "newsletters": [
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "grok vs terra / winner",
+      "date": "2026-07-13T12:57:33.000Z",
+      "summary": "## Staying Ahead with AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Grok 4.5 and GPT-5.6 Terra were compared in a test, with Grok 4.5 showing faster performance and lower cost per output.\n* The test involved fixing 5 real bugs and completing 10 tasks, with Grok 4.5 outperforming GPT-5.6 Terra in terms of speed and cost.\n* The models were tested on their ability to ship code without rework, with Grok 4.5 shipping 8 out of 10 tasks and GPT-5.6 Terra shipping 7 out of 10 tasks.\n* The total spend across the ten tasks was compared, with Grok 4.5 being 3x cheaper per output than GPT-5.6 Terra.\n* The results suggest that Grok 4.5 may be a more cost-effective option for developers, but the difference in capability between the two models was not as significant as expected.\n* Other tools and platforms mentioned include Microsoft Flint, an open-source visualisation language, and Rowboat, an open-source, self-hosted platform for cross-tool, multi-agent workflows.\n* Viktor, an AI-powered assistant, was also mentioned as a tool that can help with tasks such as finance close, engineering review, and campaign briefs.\n* The newsletter also mentions a lawsuit between Apple and OpenAI, alleging trade secret theft, and the erosion of the Apple-OpenAI partnership.\n\n### Notable Links\n* Viktor\n* Microsoft Flint\n* Rowboat\n* AI Cheatsheet 101",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "grok vs terra / winner\n\nelon said opus-class so I put it to test  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 13, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/EE2FYGTk3j%2BxUhjIteW%2FV0rks%2BrTayFlo%2Bo9KSyQ0pPzUGKufhzAroMXrhCY%0AzRkmEQzm82cZKK8OpUR8HIAF9HKdJ9YE56LzQmMZCLwi4p4mrbFPLUgz2HiL%0AjJDPSoQtyMeRx0GejiwdlNgr%2FUt%2FfR3nC%2Bpt7q9UJD%2FmaE1DhmYRfDDpmHsg%0AOvg7ootD0ntkqZZ5WSYHhcj2Hw8B%2BVL4Mw%3D%3D%0A/88105fc7dd4c59ef)\n\n[\n\n![like](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/static_assets/header/like.png)\n\n\n\n\n\n\n\n](https://link.mail.beehiiv.com/v1/c/83vw7qHGcreba"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "👀 OpenAI faces a major accusation",
+      "date": "2026-07-13T13:05:29.000Z",
+      "summary": "## Superhuman\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI faces a major accusation from Apple, which has sued the company for trade secret theft, alleging that OpenAI poached Apple employees and used them to funnel confidential hardware secrets out of the company. OpenAI has denied the claims.\n* SK Hynix has raised $26.5 billion in its Nasdaq debut, topping Alibaba's 2014 record for the largest-ever US listing by a non-American company. The stock closed up 13% on its first day, powered by soaring demand for its memory chips.\n* Melius has launched a creative canvas for AI, which helps teams create digital assets in bulk via a node-based canvas powered by top image and video models. The company claims its platform cuts down on excessive prompting and inconsistency issues that are common with some creative AI tools.\n* ChatGPT Work has been launched by OpenAI, a new agent that can take actions across a user's computer or phone to get work done, powered by the company's new state-of-the-art GPT-5.6 model.\n* Anthropic has extended access to Claude Fable again with higher limits through July 19th. While some are excited about the additional usage, the inconsistent pricing has also started drawing pushback.\n* Comp AI's AI agents can pull evidence from 580+ integrations, generate policies, and keep users audit-ready 24/7. The company offers a cost-effective solution for businesses, with a price 80% cheaper than legacy tools.\n\n### Notable Links\n* [ChatGPT](https://www.chatgpt.com/)\n* [Claude](https://www.anthropic.com/claude)\n* [Melius](https://www.melius.com/)\n* [AWS](https://aws.amazon.com/)\n* [Comp AI](https://www.comp.ai/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "👀 OpenAI faces a major accusation\n\nALSO: Turn meeting notes into presentations with ChatGPT Work  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 13, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGXKeW0UUPQ823pCdPniRGo67Sl5D5HYn_V2mpeIWSEujYsYqVBESqXm1q-FR5jif6vU7tKEh_wzjEXUi6KO4ppqdgCZWBONFTkTq3YlAq5lk2wW3fvGHhoOaR8CU-qrb_VSh18l9SAXKVwrG3JwOZE7hyuz0WjHydYB6tWPDxAPRhyhf1zhUX3VB-gHpV-rvTtiidGVo1p6x63QiUGVYqAvD0P6A9z9c3OXkVcMEqzvSsGiYpuvVskHi-kJI-zKgUSdLRYdMoB01mr_sTjowSW3qX6IDJ9Nhe75KHWLe7Bs4aDxDQcfM3GpO35R4eXzu1fq3WUxGyT65ZTgDlhBGrL4AhgLlQu1ajBqqdK1dx4NBTBP2pI-DeLOhdrPVsa_9h"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "1 new notification since 7:06 pm (Jul 12, 2026)",
+      "date": "2026-07-13T13:42:32.000Z",
+      "summary": "## AI Automation Society Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nate Herk posted a new video about using Claude Code and Clay for lead generation, making the process more accessible and fun. This matters because it showcases the potential of AI tools like Claude and Clay in automating business workflows, such as finding leads, which is a crucial step for many professionals and businesses. Claude, being a large language model and chatbot product from Anthropic, is notable for its conversation, coding, research, and increasingly agentic software workflows capabilities.\n- The AI Automation Society, a community focused on learning, building, and deploying real-world AI automations and intelligent systems, is highlighted as a significant platform. It is designed to be accessible to individuals regardless of their coding background or prior experience, making it a valuable resource for both beginners and entrepreneurs looking to scale their operations with automation.\n- Recent developments in Claude include the introduction of Claude Opus 4 and Sonnet 4, which offer stronger coding, advanced reasoning, and long-running agent workflows. Additionally, Anthropic rolled out Sonnet 4.6 with improved computer use, programming, design, and knowledge-work capabilities, signaling a broader push toward AI agents that can execute real work.\n- The AI Automation Society's efforts to formalize its identity and engagement model, such as branding updates and new notification features, are part of a wider movement of AI automation communities. These communities share news, tools, and implementation strategies, contributing to the diffusion of AI automation practices beyond large tech companies and into everyday professional workflows.\n\n### Notable Links\n- [Claude by Anthropic](https://www.anthropic.com/)\n- [AI Automation Society](https://www.skool.com/)\n- Note: The provided newsletter does not include direct links to papers or specific product pages beyond the mentioned companies and tools. For more detailed information on Claude and its capabilities, visiting Anthropic's official website is recommended. Similarly, for insights into the AI Automation Society's activities and resources, their platform on Skool can be explored.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3D7wfj_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXAuVdzFiZ5Gca4Zkm4HT0x0SwjleGug9M2PQ46vHihRAWOXs7xYcQmciXw79j17aZw23IkHSYDhBDMjnfCsKPBqzzU6b9F5s9xOCDKq-2B5fZ-2FulSfCQtQVMsnwWlLFwG0XC5SjN-2Fidybg3CJ7i4ki30d7HnkUHOsyaUjyIFrpp-2FF1K7tnAWInBll9clecMZeDb-2FIObpP4-2B2oDx8f7leIv82AEmTuYperSmWUI4bsm679f-2F9kQLfJ20SM8ansUTeeIAHsSgc-2BVKgoj-2FFcTNzMhApwDj8Lsy3Wa0vJC1vWVwTs49zpwVOWHBgXNrb-2F4i1sXk-2F1"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "64 parallel subagents just ended a 50-year math standoff — here's the ",
+      "date": "2026-07-13T13:44:03.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI's GPT-5.6 Sol Ultra has solved the 50-year-old math problem known as the Cycle Double Cover Conjecture in under one hour using 64 parallel subagents. This breakthrough demonstrates the power of parallelism in solving complex problems and opens up new possibilities for applying this model to other hard, open-ended research problems. The full prompt, proof PDF, and Lean formalization are available on GitHub.\n* Cursor has released version 3.11, which includes features such as agent transcript search, side chats for parallel conversations, cloud agent hooks, and a smarter project picker. These updates aim to improve the user experience and make working with AI agents more efficient.\n* Google AI Studio now allows deployed apps to claim a permanent custom domain, making it easier to share demos, build a portfolio, or send links to clients. This feature provides a more professional way to showcase AI-powered applications.\n* Unsloth AI has released Qwen3.6 quants that run 2.5x faster on consumer GPUs, demonstrating advancements in optimizing AI performance on consumer hardware.\n* Tiger Data's engineers will be going end-to-end on a real-time data pipeline on July 22, which may be worth joining for those interested in data processing and AI applications.\n* AIDC-AI has released an open-source tool that turns a topic into a full short video, showing the capabilities of AI in content creation.\n* Kyutai has released an open model that transcribes any song into per-instrument MIDI, highlighting AI's potential in music processing and generation.\n* Moonshot AI has released Kimi K2, an open agentic model on Hugging Face, contributing to the development of more accessible and powerful AI models.\n* An open-source dataset has been released that packs 1,324 animated fitness exercises with multilingual instructions, which can be useful for applications in fitness and health.\n\n### Notable Links\n* [OpenAI's GPT-5.6 Sol Ultra proof on GitHub](https://github.com/openai/cdc-lean)\n* Cursor v3.11 release notes\n* Google AI Studio custom domain feature\n* Unsloth AI Qwen3.6 quants release\n* Tiger Data real-time data pipeline event\n* AIDC-AI open-source video creation tool\n* Kyutai per-instrument MIDI transcription model\n* Moonshot AI Kimi K2 model on Hugging Face\n* Open-source fitness exercise dataset",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=7d69a7172c1e5b88&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=7d69a7172c1e5b88&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=7d69a7172c1e5b88&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=7d69a7172c1e5b88&mid=b56bc459-eeaf-4fbd-87a0-f3fd71621220&s=64%20parallel%20subagents%20just%20ended%20a%2050-year%20math%20standoff%20%E2%80%94%20here%27s%20the%20&t=1783950224)\n\nCycle Double Cover Conjecture: 50 years open, 64 subagents closed it — proof PDF and full prompt are public.\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=7d69a7172c1e5b88&lid=1v7tAoxxKeZAC0Eo2&mid=b56bc459-eeaf-4fbd-87a0-f3fd71621220)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=7d69a7172c1e5b88&lid=ML7sY8xHBH6OKMuJ&mid=b56bc459-eeaf-4fbd-87a0-f3fd71621220)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nAI is quietly eating two very different worlds this week: s"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "Demis Hassabis Says AGI Arrives in 2 to 5 Years. Here Is the Full Picture",
+      "date": "2026-07-13T13:55:21.000Z",
+      "summary": "## The AI Corner\n\n**Priority: HIGH**\n\n### Top Updates\n* Demis Hassabis, the founder of DeepMind, predicts that Artificial General Intelligence (AGI) will arrive in 2 to 5 years, marking a significant shift in the planning horizon for various industries.\n* Hassabis emphasizes the importance of addressing bio and nuclear risks, which he believes will arrive before AGI, and advocates for an international body to test frontier systems before they are released.\n* He highlights the significance of bench depth, stating that it is the key moat in the AI industry, and notes that investors often misprice it by focusing solely on compute and capital.\n* Hassabis also discusses the evolution of AI from a \"slot machine era\" to a more directed and iterative approach, where users can specify and adjust outputs in a more controlled manner.\n* He mentions that text models are limited and that true AGI will require a understanding of the physical world, making multimodal models essential for achieving this goal.\n* Hassabis provides 10 key takeaways from his interview, including the importance of simulation, the need for learned simulators, and the role of imagination in AI development.\n* He also discusses the significance of games as a ladder to scientific progress and the need for a full AGI system to understand the physical world around it.\n* The concept of \"SynthID\" is introduced as a standard for detecting synthetic media, and Hassabis emphasizes the importance of mandatory provenance detection in the future.\n\n### Notable Links\n* [Demis Hassabis Says AGI Arrives in 2 to 5 Years. Here Is the Full Picture](https://substack.com/app-link/post?publication_id=6850544&post_id=203832195&utm_source=post-email-title&utm_campaign=email-post-title&isFreemail=true&r=49by34)\n* Outskill\n* The Fable 5 shutdown\n* AI tools and models library\n* The context engineering guide\n* Inside the Fable 5 and Mythos 5 government ban\n* What top VCs look for in 2026\n* 100 AI agent ideas and how to implement them\n* The investor list of lists\n\n### Additional Context\nThe newsletter also mentions the importance of simulation, learned simulators, and the role of imagination in AI development. It highlights the significance of games as a ladder to scientific progress and the need for a full AGI system to understand the physical world around it. The concept of \"SynthID\" is introduced as a standard for detecting synthetic media, and Hassabis emphasizes the importance of mandatory provenance detection in the future. The newsletter concludes by emphasizing the need for founders, investors, and operators to adapt to the changing AI landscape and to prioritize bench depth, simulation, and multimodal models in their strategies.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRmRlbWlzLWhhc3NhYmlzLWFnaS0yLTUteWVhcnMtMTAtdGFrZWF3YXlzLTIwMjYiLCJwIjoyMDM4MzIxOTUsInMiOjY4NTA1NDQsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzOTUxMDAzLCJleHAiOjIwOTk1MjcwMDMsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.sSfK441IZid2IEUBMJuYaO6j69xTa89qSt_k2kzcdkg?"
+        },
+        {
+          "text": "Demis Hassabis Says AGI Arrives in 2 to 5 Years. Here Is the Full Picture",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=203832195&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwMzgzMjE5NSwiaWF0IjoxNzgzOTUxMDAzLCJleHAiOjE3ODY1NDMwMDMsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.n6v9Ui3RcdKzb0yuOil1l5gsAJyxLFrDxSOtqzeIOBE"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/demis-hassabis-agi-2-5-years-10-takeaways-2026?redirect=app-store"
+        },
+        {
+          "text": "AI industry",
+          "url": "https://substack.com/redirect/3a786019-7f8e-47bf-9404-d6ecaea9af8c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Outskill",
+          "url": "https://substack.com/redirect/2c50c346-627b-455e-9f60-d4faa99c7dd1?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The Fable 5 shutdown",
+          "url": "https://substack.com/redirect/a3015aae-fb3c-42a3-9167-20bb5bb80a3c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "moat",
+          "url": "https://substack.com/redirect/e365c588-324b-4bd8-9f25-c2848d776622?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "investors",
+          "url": "https://substack.com/redirect/7909bc01-9dac-46c1-b996-d3016db6c2c7?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "top VCs already do",
+          "url": "https://substack.com/redirect/867c1ecd-ea14-405e-90f7-2759b6824a41?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Demis Hassabis Says AGI Arrives in 2 to 5 Years. Here Is the Full Picture![](https://eotrx.substackcdn.com/o/83a1cc0a7b6a282f/p.gif?token=eyJtIjoiPDIwMjYwNzEzMTM1NTIxLjMuMmMyNzI2Y2I2MjVjMmI2ZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwMzgzMjE5NSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo2ODUwNTQ0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgzOTUxMDAzLCJleHAiOjE3ODY1NDMwMDMsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.p54Cz4p-7SiqNY50iXZ63VNAmtTifnBlF85z_isCLhA)\n\nDemis Hassabis says AGI arrives in 2 to 5 years, bio and nuclear AI risks land first, and text models miss the ceiling. The 10 takeaways from his interview.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Claude Code browser 🌍, Cursor general agent 🤖, Claude Fable extension ⏳",
+      "date": "2026-07-13T13:58:30.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n- Claude Code, developed by Anthropic, has introduced an in-app browser, allowing it to interact with websites, documents, and designs in a more integrated way, enhancing its capabilities as a coding and research tool.\n- Apple has sued OpenAI, alleging the theft of trade secrets related to hardware, which could impact OpenAI's plans to develop its own devices and highlights the intense competition and legal battles in the AI industry.\n- Anthropic has extended access to Claude Fable 5 and elevated limits for Claude Code, indicating the company's push to make its AI models more accessible and capable for a wider range of tasks.\n- OpenAI has temporarily removed usage limits for GPT-5.6 Sol, making it more accessible for users to utilize its advanced features without restrictions, which could lead to more widespread adoption and innovative applications.\n- Cursor is reportedly building a general-purpose AI agent capable of handling tasks such as responding to emails, organizing spreadsheets, and performing engineering tasks, marking another significant development in the race to create versatile AI assistants.\n- The Future Worth Building Is Human, an initiative by Thinking Machines, aims to develop AI that complements human judgment and promotes customizable, interactive models for diverse applications, emphasizing the need for human-centric AI development.\n- Researchers have explored the concept of proactive memory for AI agents, such as OpenWiki Brains, which enables agents to gather and update context autonomously, potentially enhancing their efficiency and capability in various workflows.\n- LLM-as-a-Verifier, a general-purpose verification framework, has been introduced, aiming to provide efficient training methods for large language models using sparsity techniques, which could make training LLMs more accessible and cost-effective.\n- Meta has pulled its new AI image feature after backlash over privacy concerns, highlighting the challenges AI companies face in balancing innovation with user privacy and ethical considerations.\n\n### Notable Links\n- [LLM-as-a-Verifier: A General-Purpose Verification Framework](https://arxiv.org/pdf/2607.05391)\n- [Proactive Memory for Long-Horizon Agents](https://arxiv.org/abs/2607.08716)",
+      "links": [
+        {
+          "text": "LLM-as-a-Verifier: A General-Purpose Verification Framework (31 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fpdf%2F2607.05391%3Futm_source=tldrai/1/0100019f5bc5b185-e9bd25d8-d072-4c45-aff7-37bde7742479-000000/Um2hKnb_z7PQuHX3KDxcg3dztvNDW6r6OgMqOJMypW4=452",
+          "isPaper": true
+        },
+        {
+          "text": "Proactive Memory for Long-Horizon Agents (16 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2607.08716%3Futm_source=tldrai/1/0100019f5bc5b185-e9bd25d8-d072-4c45-aff7-37bde7742479-000000/7XhTvEi-XtWOPnm4msJNySgvG_-I6VUjtMtFLalA-98=452",
+          "isPaper": true
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fpdf%2F2607.05391%3Futm_source=tldrai/1/0100019f5bc5b185-e9bd25d8-d072-4c45-aff7-37bde7742479-000000/Um2hKnb_z7PQuHX3KDxcg3dztvNDW6r6OgMqOJMypW4=452",
+          "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework (31 minute read)",
+          "source": "link"
+        },
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2607.08716%3Futm_source=tldrai/1/0100019f5bc5b185-e9bd25d8-d072-4c45-aff7-37bde7742479-000000/7XhTvEi-XtWOPnm4msJNySgvG_-I6VUjtMtFLalA-98=452",
+          "title": "Proactive Memory for Long-Horizon Agents (16 minute read)",
+          "source": "link"
+        }
+      ],
+      "priority": "MEDIUM",
+      "originalContent": "    TLDR AI  \n\nClaude Code can now pull up docs, designs, and websites. It can read, click through, and interact with these sites the same way it does ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019f5bc5b185-e9bd25d8-d072-4c45-aff7-37bde7742479-000000/vKASfgX6YtOJCnQY4d3DueaCEbn94xVcpOVT-Dtdr6U=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019f5bc5b185-e9bd25d8-d072-4c45-aff7-37bde7742479-000000/5BbtsZPhiDXsthAEG5wUkakqePtdMEGGPwuoaus2cO8=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=859f0802-7eb4-11f1-9bea-394cf08903cb%26pt=campaign%26t=1783951110%26s=d074432b0bff900ff03c1df9fed6a7"
+    },
+    {
+      "from": "\"Gamma\" <hello@gamma.app>",
+      "subject": "Help shape Gamma's future (15 min + $10 gift card)",
+      "date": "2026-07-13T14:07:44.000Z",
+      "summary": "## Gamma Newsletter\n\n**Priority: LOW**\n\n### Top Updates\n- The Gamma team is soliciting user feedback through a survey to help shape the future of their product, with the survey taking approximately 10-15 minutes to complete and offering a $10 gift card as a thank you for participation. This feedback will be used directly by the team building the product.\n- The survey is open until July 20th, and participants must have a Gamma account to be eligible for the gift card.\n- Gamma is promoting its presence on various social media platforms, including X, LinkedIn, Instagram, TikTok, and YouTube, for users to follow for updates.\n\n### Notable Links\n- Take the survey: Gamma User Survey\n- X: Gamma's X page\n- LinkedIn: Gamma's LinkedIn page\n- Instagram: Gamma's Instagram page\n- TikTok: Gamma's TikTok page\n- YouTube: Gamma's YouTube page\n\nThis newsletter appears to be primarily promotional, focusing on gathering user feedback and promoting Gamma's social media presence, rather than announcing significant AI-related updates or breakthroughs. Therefore, it is rated as LOW priority for AI practitioners.",
+      "links": [
+        {
+          "text": "Take the survey",
+          "url": "https://email.gamma.app/e/c/eyJlbWFpbF9pZCI6ImRnU09qd2NEQVBiOGdoZjFfSUlYQVo5Ynh6YWh4b09uc2FRcTI2M1pZdz09IiwiaHJlZiI6Imh0dHBzOi8vd3d3LnN1cnZleW1vbmtleS5jb20vci8zRlBERjVUP2lkPXlrYTV0b3F2c3U4Z3Fud1x1MDAyNnQ9ZGdTT2p3Y0RBUGI4Z2hmMV9JSVhBWjlieHphaHhvT25zYVFxMjYzWll3PT1cdTAwMjZhanNfdWlkPWNpb184ZThmMDdjOTBjYzU2N2Y2ZmM4MjE3XHUwMDI2dXRtX2NhbXBhaWduPVVzZXIrU3VydmV5Ky0rSnVseSsyMDI2XHUwMDI2dXRtX2xhbmd1YWdlPWVuXHUwMDI2dXRtX21lZGl1bT1jaW9cdTAwMjZ1dG1fc291cmNlPWVtYWlsIiwiaW50ZXJuYWwiOiI4ZThmMDdjOTBjYzU2N2Y2ZmM4MjE3IiwibGlua19pZCI6Mjc0Mn0/50d76b3f02c7a8a0ff3911b67655baadd044d15a1d58193f5bcb08c5c3ba1a42"
+        },
+        {
+          "text": "X",
+          "url": "https://email.gamma.app/e/c/eyJlbWFpbF9pZCI6ImRnU09qd2NEQVBiOGdoZjFfSUlYQVo5Ynh6YWh4b09uc2FRcTI2M1pZdz09IiwiaHJlZiI6Imh0dHBzOi8veC5jb20vZ2FtbWFhcHA_YWpzX3VpZD1jaW9fOGU4ZjA3YzkwY2M1NjdmNmZjODIxN1x1MDAyNnV0bV9jYW1wYWlnbj1Vc2VyK1N1cnZleSstK0p1bHkrMjAyNlx1MDAyNnV0bV9sYW5ndWFnZT1lblx1MDAyNnV0bV9tZWRpdW09Y2lvXHUwMDI2dXRtX3NvdXJjZT1lbWFpbCIsImludGVybmFsIjoiOGU4ZjA3YzkwY2M1NjdmNmZjODIxNyIsImxpbmtfaWQiOjEwNzl9/e69f2beda60af61e994fe06b44923029689d1babbbd15273358b33909fb69440"
+        },
+        {
+          "text": "LinkedIn",
+          "url": "https://email.gamma.app/e/c/eyJlbWFpbF9pZCI6ImRnU09qd2NEQVBiOGdoZjFfSUlYQVo5Ynh6YWh4b09uc2FRcTI2M1pZdz09IiwiaHJlZiI6Imh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9jb21wYW55L2dhbW1hLWFwcD9hanNfdWlkPWNpb184ZThmMDdjOTBjYzU2N2Y2ZmM4MjE3XHUwMDI2dXRtX2NhbXBhaWduPVVzZXIrU3VydmV5Ky0rSnVseSsyMDI2XHUwMDI2dXRtX2xhbmd1YWdlPWVuXHUwMDI2dXRtX21lZGl1bT1jaW9cdTAwMjZ1dG1fc291cmNlPWVtYWlsIiwiaW50ZXJuYWwiOiI4ZThmMDdjOTBjYzU2N2Y2ZmM4MjE3IiwibGlua19pZCI6OX0/7d8d80596744da0ca904e730ae2d390be02c2487a848e57fdbb3d79a88c4746c"
+        },
+        {
+          "text": "Instagram",
+          "url": "https://email.gamma.app/e/c/eyJlbWFpbF9pZCI6ImRnU09qd2NEQVBiOGdoZjFfSUlYQVo5Ynh6YWh4b09uc2FRcTI2M1pZdz09IiwiaHJlZiI6Imh0dHBzOi8vd3d3Lmluc3RhZ3JhbS5jb20vbWVldGdhbW1hP2Fqc191aWQ9Y2lvXzhlOGYwN2M5MGNjNTY3ZjZmYzgyMTdcdTAwMjZ1dG1fY2FtcGFpZ249VXNlcitTdXJ2ZXkrLStKdWx5KzIwMjZcdTAwMjZ1dG1fbGFuZ3VhZ2U9ZW5cdTAwMjZ1dG1fbWVkaXVtPWNpb1x1MDAyNnV0bV9zb3VyY2U9ZW1haWwiLCJpbnRlcm5hbCI6IjhlOGYwN2M5MGNjNTY3ZjZmYzgyMTciLCJsaW5rX2lkIjoyNDd9/2001fddae64a1bcae39d27fc18aa11d2282c1f51dc43615911936897946a7330"
+        },
+        {
+          "text": "TikTok",
+          "url": "https://email.gamma.app/e/c/eyJlbWFpbF9pZCI6ImRnU09qd2NEQVBiOGdoZjFfSUlYQVo5Ynh6YWh4b09uc2FRcTI2M1pZdz09IiwiaHJlZiI6Imh0dHBzOi8vd3d3LnRpa3Rvay5jb20vQGdhbW1hLmFwcD9hanNfdWlkPWNpb184ZThmMDdjOTBjYzU2N2Y2ZmM4MjE3XHUwMDI2dXRtX2NhbXBhaWduPVVzZXIrU3VydmV5Ky0rSnVseSsyMDI2XHUwMDI2dXRtX2xhbmd1YWdlPWVuXHUwMDI2dXRtX21lZGl1bT1jaW9cdTAwMjZ1dG1fc291cmNlPWVtYWlsIiwiaW50ZXJuYWwiOiI4ZThmMDdjOTBjYzU2N2Y2ZmM4MjE3IiwibGlua19pZCI6MjQ4fQ/1235bad36746482d7b59ae08c3d15c0ea9f7c15551c2b9d93ac16e25d0218555"
+        },
+        {
+          "text": "YouTube",
+          "url": "https://www.youtube.com/@meetgamma?ajs_uid=cio_8e8f07c90cc567f6fc8217"
+        }
+      ],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "[![Gamma logo](https://cdn.gamma.app/_app_static/images/gamma-logo-sky-700-wordmark-588df957.png)](https://email.gamma.app/e/c/eyJlbWFpbF9pZCI6ImRnU09qd2NEQVBiOGdoZjFfSUlYQVo5Ynh6YWh4b09uc2FRcTI2M1pZdz09IiwiaHJlZiI6Imh0dHBzOi8vZ2FtbWEuYXBwP2Fqc191aWQ9Y2lvXzhlOGYwN2M5MGNjNTY3ZjZmYzgyMTdcdTAwMjZ1dG1fY2FtcGFpZ249VXNlcitTdXJ2ZXkrLStKdWx5KzIwMjZcdTAwMjZ1dG1fbGFuZ3VhZ2U9ZW5cdTAwMjZ1dG1fbWVkaXVtPWNpb1x1MDAyNnV0bV9zb3VyY2U9ZW1haWwiLCJpbnRlcm5hbCI6IjhlOGYwN2M5MGNjNTY3ZjZmYzgyMTciLCJsaW5rX2lkIjoxfQ/3990fb553e80809b9f48cb248004d8f72ffae131f8887586cc45493fe7e34f03)\n\nWe're shaping what's next for Gamma - and we need your help.\n\nTake 10-15 minutes to share what's working in Gamma and what isn't. Your feedback goes straight to the team actually building the product.\n\nAs a thank you, we'll send you a $10 gift card when you finish - limit one per person, and you'll need a Gamma account to be eligible. Please note that only responses completed by July 20th will be eligible for a gift card.\n\n[**Take the "
+    },
+    {
+      "from": "\"AI Breakfast\" <aibreakfast@mail.beehiiv.com>",
+      "subject": "OpenAI lifts usage caps as Apple sues",
+      "date": "2026-07-13T14:53:28.000Z",
+      "summary": "## AI Breakfast\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI has lifted its usage caps for premium tiers, allowing users to access more compute power, as the company faces a lawsuit from Apple alleging the theft of trade secrets related to consumer AI devices. The lawsuit targets former Apple executives Tang Tan and Chang Liu, claiming they exploited an authentication bug to download confidential hardware designs and manufacturing data after leaving Apple.\n* OpenAI's GPT-5.6 Sol Ultra model reportedly used 64 parallel subagents to solve the 50-year-old Cycle Double Cover Conjecture in graph theory in under an hour, demonstrating the model's capabilities.\n* The company has also rolled out backend token-efficiency upgrades and a new \"banked reset\" system to improve performance and reduce costs.\n* Microsoft CEO Satya Nadella has warned of a \"Reverse Information Paradox\" where companies are forced to expose their proprietary data and workflows to make AI tools useful, essentially paying for the software twice.\n* Anthropic is extending promotional access to its Claude Fable 5 model and has embedded a built-in browser directly into Claude Code, allowing users to allocate up to half of their weekly capacity to the frontier Mythos-class Fable 5 model.\n* Benchmarks have shown that OpenAI's GPT-5.6 Luna model can match or beat low-effort configurations on the premium Sol model for a fraction of the cost, making it a more cost-effective option for many users.\n* The AI market is seeing significant developments, including the introduction of new models, tools, and technologies, such as FetchSandbox, ExploreYC API, Sim, Miora, and JustVibe.\n* Apple has issued a sweeping lawsuit against OpenAI, alleging the company stole trade secrets related to consumer AI devices, and has warned customers to prepare for massive Patch Tuesday updates due to the use of AI in its code security pipeline.\n\n### Notable Links\n* [Paper Title](https://link.to/arxiv/paper) (if applicable)\n* [OpenAI GPT-5.6 Sol Ultra model](https://www.openai.com/)\n* [Anthropic Claude Fable 5 model](https://www.anthropic.com/)\n* [Microsoft MDASH](https://www.microsoft.com/)\n* [FetchSandbox](https://www.fetchsandbox.com/)\n* [ExploreYC API](https://www.explorey_api.com/)\n* [Sim](https://www.sim.ai/)\n* [Miora](https://www.miora.ai/)\n* [JustVibe](https://www.justvibe.ai/)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "OpenAI lifts usage caps as Apple sues\n\nJuly 13, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/2U4ezNu%2BGkRrcvFZtheymRD7vADgGiIPOdwHs2bumseUAR%2FgcWTdrZldbu7o%0ACPFpT2YfvJ73W2PrnnuRJKPo877jCxyA8HcrvbrOu7V2WBDdWHTIPZjgozqC%0A00E5l8rO47TVeCvHuQEMmOfxzsfdVV9Q5WPjjlzxIOnXTAzm3GzLL0rr3JYi%0AKpFl8h4m2M7I9A4%2F%2BG0eqcX1Ea3q2O80Aw%3D%3D%0A/a26070fd77799b60)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/acae4be9-a88f-4644-87ab-182c2cfc10fe/ai_breakfast_white_logo.png?t=1773352600)](https://link.mail.beehiiv.com/v1/c/iU6D86Wx8qBxiiL8Mb8krE4rgwmxviNM%2BGDVsQlercZdaZkU8n5X5RlFP7GB%0AvhOh0nNUorUsjw8Jnaf6ZceomvrWi7W2GzfVZpzq5OCRteKrl%2BWQqK8%2BXjaq%0Aa9koTgBAo4QHYs2kJDq%2BTTJQJttwyjm%2BHoyp1CwrpT11BUbAmstzwlF8Uq0y%0Ay%2BbAzgQXsupLPiwGpSEF9P3DI9677gfGaA%3D%3D%0A/106591a6b88b29db)\n\n# OpenAI lifts usage caps as Apple sues\n\n![](https://link.mail.beehiiv.com/v1/o/wVwl8erhdFEX5D36XtWb%2FECPLK0i8mwJChWpVdJclH7rkKSuzf6k"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Steal these workflows and build a company",
+      "date": "2026-07-13T15:03:32.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Mindstream has introduced 7 AI workflows designed to help build a startup in a significantly shorter timeframe, such as a weekend, by leveraging AI to streamline processes like finding the first 100 customers, building a lead generation system, and designing products.\n- These workflows are aimed at making it easier for entrepreneurs to launch their businesses, emphasizing the role of AI in accelerating startup development.\n- The newsletter mentions several resources for further learning and business growth, including The Hustle for business insights, Starter Story for startup stories, Marketing Against the Grain for marketing strategies, The Science of Scaling for scaling techniques, and Futurepedia for learning about AI.\n\n### Notable Links\n- [The Hustle](https://thehustle.co/) for business as unusual insights\n- [Starter Story](https://starterstory.com/) for growing a business\n- [Marketing Against the Grain](https://marketingagainstthegrain.com/) for expert marketing insights\n- [The Science of Scaling](https://thescale.io/) for scaling businesses\n- [Futurepedia](https://futurepedia.io/) for AI learning resources\n- [Mindstream's Privacy Policy](https://www.mindstream.news/privacy-policy) for data protection information\n- [Terms of Service](https://www.mindstream.news/terms-of-service) for service usage guidelines",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The most useful AI workflows ever!\n\nBuild a startup in hours, not months  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n13 Jul\n\n![](https://link.mail.beehiiv.com/ss/o/u001.4dRQXGJtOgv2SY148jqY7A/4sa/csySL5G2SSyyLJYZP9KQSg/ho.gif)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=1920,height=3840/uploads/asset/file/508b7ca6-377b-49e2-a49a-2b460c340609/Mindstream_Masthead_New.png?t=1776419005)\n\n**We’ve built 7 workflows to speed run a startup.**\n\nBuild a business in a weekend.\n\nAI makes it so much easier.\n\nThe 7 workflows teach you:\n\n*   How to find your first 100 customers\n    \n*   H"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Grok 4.5 is 5x cheaper than Claude Opus",
+      "date": "2026-07-13T15:03:50.000Z",
+      "summary": "## Mindstream\n\n**Priority: HIGH**\n\n### Top Updates\n- **Grok 4.5 Release**: SpaceXAI has debuted Grok 4.5, its first model since going public, which promises Opus-level power at a significantly lower cost. This model is trained on the same compute capacity that xAI leases out to Anthropic and Google, positioning SpaceXAI as a major player in the AI market.\n- **Grok 4.5 vs. Claude Opus**: Grok 4.5 is 5 times cheaper than Claude Opus, with costs of $2 per million input tokens and $6 per million output tokens, compared to Opus's $5/million for input and $25/million for output. This pricing could disrupt the market and challenge the dominance of existing AI models.\n- **Anthropic's \"Reflect\" Feature**: Anthropic has introduced a \"reflect\" feature for its Claude model, providing a \"Spotify Wrapped\"-style dashboard that gives subscribers a yearly review of their AI usage. This feature aims to help users create a more intentional relationship with the AI and offers practical insights into their personal AI workflow.\n- **SpaceXAI and Anthropic Updates**: The release of Grok 4.5 and the introduction of the \"reflect\" feature demonstrate the rapid progress and innovation in the AI industry, with both SpaceXAI and Anthropic pushing the boundaries of what is possible with AI technology.\n- **Model Rivalry**: The launch of Grok 4.5 and the subsequent release of GPT 5.6 by OpenAI highlight the increasing competition in the AI market, with multiple models vying for dominance and challenging each other's capabilities and pricing.\n- **China's Reusable Launch Technology**: China has successfully recovered an orbital rocket booster for the first time, marking a significant milestone in its push toward reusable launch technology and demonstrating its commitment to advancing its space program.\n- **Aldi's US Expansion**: Aldi is accelerating its $9 billion US expansion, betting that its low-cost model can win over city shoppers and challenge established grocery chains, showcasing the potential for disruption in traditional industries through innovative business models.\n- **Spotify's New Controls**: Spotify is adding new controls to its Release Radar playlist, allowing listeners to customize the playlist by genre, discover new artists, or view editor-picked recommendations, enhancing the user experience and paving the way for more personalized music suggestions.\n\n### Notable Links\n- Grok 4.5\n- Anthropic's Reflect Feature\n- Fabricate\n- Norton Neo\n- NoodleTomato\n- Thea\n- CorpusIQ",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Grok 4.5 might level the playing field\n\n\\+ a \"Spotify Wrapped\" for Claude!  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n13 Jul\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/4f82573d-0c65-4250-8c72-f60bbb17ce69/thumb_Taylor_PP.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-"
+    },
+    {
+      "from": "\"Robert from God of Prompt\" <godofprompt@mail.beehiiv.com>",
+      "subject": "🔑 xAI Just Dropped Grok 4.5",
+      "date": "2026-07-13T17:58:26.000Z",
+      "summary": "## God of Prompt Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- xAI has launched Grok 4.5, its first model release since going public, specifically designed for coding and agentic work rather than general consumer use. This model is trained on real developer session data from Cursor, a platform xAI is in the process of acquiring, which distinguishes it from models trained solely on static code repositories.\n- The pricing of Grok 4.5 is set at $2 per million input tokens and $6 per million output tokens, making it significantly cheaper than competitors like Claude Opus 4.8 and GPT-5.6 Sol. Notably, Grok 4.5 achieves comparable coding work using 15,954 average output tokens versus 67,020 for Opus 4.8, indicating a 4.2x reduction in tokens needed per task.\n- Elon Musk described Grok 4.5 as \"an Opus-class model, but faster, more token-efficient, and lower cost,\" comparing it to Anthropic's top models. However, he also clarified that Grok 4.5 is roughly comparable to Opus 4.7 but much faster, placing it a generation behind the current top models in terms of accuracy.\n- Benchmarks show that Grok 4.5 surpasses GPT-5.5 and Opus 4.8 on Snorkel's GDPVal+ dataset for professional workplace reasoning tasks, especially in legal, education, and healthcare areas. However, it trails behind on other benchmarks like DeepSWE 1.1 and SWE-Bench Pro, indicating its use case is more niche towards efficiency and cost-effectiveness rather than absolute accuracy.\n- The model is available in Grok Build, Cursor on all plans, and via the SpaceXAI API console, but not yet in the EU, with expected availability in mid-July 2026.\n- A practical strategy for many teams is to route high-volume, cost-sensitive tasks to Grok 4.5 and reserve more capable models like Claude for tasks requiring maximum accuracy.\n- The launch of Grok 4.5 also highlights the flywheel effect where xAI owns the compute (via its Memphis supercomputer), the model, and the coding tool (Cursor), which could lead to structural tension with competitors like Anthropic that rely on xAI's compute capacity.\n\n### Notable Links\n- Grok 4.5\n- Cursor\n- SpaceXAI API Console",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🔑 xAI Just Dropped Grok 4.5\n\nAnd The Price Tag Is The Most Interesting Thing About It  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 13, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/8%2FrbKmY9sve2vGWY%2Bn7YDjw%2BKupGcajSwHdj3rU3gOrEaiYzsYLK22I57Xgb%0A5zvEqTQn0Kz2C5OzSH7UnC86PrfaHC562YUrA485x4QY4%2F%2B3Yzf9zdiOj6VE%0ANm30%2BIkgtlUJiJbzXgD6eQVb5PSWDPwS1igA7m0tQd6Pr%2FTTI8BRQ1HZCkqo%0AQwdRqGj7A8YfyNT60jFg8Rj%2BEjGgDrFLHA%3D%3D%0A/1c1a9a26c090e176)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/179da9f6-13ca-4211-b7b8-1431327cc525/gop-beehiiv-email-b"
+    },
+    {
+      "from": "\"Arvind and Sayash from AI as Normal Technology\" <aisnakeoil@substack.com>",
+      "subject": "What will be left for us to work on?",
+      "date": "2026-07-13T18:47:06.000Z",
+      "summary": "## AI as Normal Technology\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Arvind Narayanan gave a keynote at ICML 2026 titled \"What will be left for us to work on?\" where he addressed the anxiety about how to adapt as AI capabilities increase.\n* He argued that the _AI as Normal Technology_ framework is a correct and useful way to think about AI's impacts, unless there is a future discontinuity like recursive self-improvement.\n* Narayanan emphasized that even if recursive self-improvement is achieved, it won't automatically lead to superintelligence or put humans out of work.\n* He discussed the concept of \"co-superintelligence\" where humans and AI collaborate to amplify human potential.\n* Narayanan also talked about the importance of evaluation in AI research and the need to move beyond benchmarks as the primary measure of progress.\n* He highlighted the shift from building to evaluation in various fields, including software engineering, and the need for new skills and roles to emerge.\n* Narayanan mentioned that his team is working on a project to test AI's ability to do humanlike AI research and that they are hiring a researcher to lead future open-world evaluations.\n* He emphasized the need for human understanding and judgment in AI development and deployment, and the importance of preserving human dignity and democratic governance.\n\n### Notable Links\n* AI as Normal Technology\n* Keynote slides\n* Open-world evaluation\n* [Arvind Narayanan's Substack](https://substack.com/@aisnakeoil)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm9ybWFsdGVjaC5haS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cubm9ybWFsdGVjaC5haSUyRnAlMkZ3aGF0LXdpbGwtYmUtbGVmdC1mb3ItdXMtdG8td29yayIsInAiOjIwNjc0MTYwOSwicyI6MTAwODAwMywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODM5Njg1MTEsImV4cCI6MjA5OTU0NDUxMSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.amLkKbsN69FBAgEHrI6hmyHdng0iv2Y8k8pTX03SCdY?"
+        },
+        {
+          "text": "What will be left for us to work on?",
+          "url": "https://substack.com/app-link/post?publication_id=1008003&post_id=206741609&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjc0MTYwOSwiaWF0IjoxNzgzOTY4NTExLCJleHAiOjE3ODY1NjA1MTEsImlzcyI6InB1Yi0xMDA4MDAzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.38xRnKALXXe9-W3rdwufudSsOXz59wZEQBv1twB6wZA"
+        },
+        {
+          "text": "Arvind Narayanan",
+          "url": "https://substack.com/@aisnakeoil"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/aisnakeoil/p/what-will-be-left-for-us-to-work?redirect=app-store"
+        },
+        {
+          "text": "keynote",
+          "url": "https://substack.com/redirect/f56b2ded-0c47-4303-8205-47ee4b1d690b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "here",
+          "url": "https://substack.com/redirect/f5d3440b-8f18-4065-95d2-10332baa3d6e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "science of AI agent evaluation",
+          "url": "https://substack.com/redirect/99533f59-f6b2-4f1b-a401-4fa9ddacbb8a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI as Normal Technology",
+          "url": "https://substack.com/redirect/ff49f89e-7f3c-4c7f-8be2-b70244b3a0b2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "permanent underclass",
+          "url": "https://substack.com/redirect/d0f5fb99-89fa-47f9-b281-5fa193a2ab2e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "quip",
+          "url": "https://substack.com/redirect/560dd5a8-994d-4a18-a87c-ac48ff051d3a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "What will be left for us to work on?![](https://eotrx.substackcdn.com/o/c27ef1983d750758/p.gif?token=eyJtIjoiPDIwMjYwNzEzMTg0NzA2LjMuNjEwYzE0ZDEwZTU2MjQwNUBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDY3NDE2MDksInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwODAwMywiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4Mzk2ODUxMSwiZXhwIjoxNzg2NTYwNTExLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.RqSHtObayvFs3VIUXVa_Ap4KLYQ-1ZbH8CoOzF3f6Cc)\n\nMy keynote at ICML 2026\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 How to Learn Faster with AI",
+      "date": "2026-07-13T20:06:45.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n- ChatGPT has returned to WhatsApp, allowing users to message the verified 1-800-CHATGPT contact on WhatsApp to ask questions, send voice notes, and make images in-chat. This development matters because it brings advanced conversational AI capabilities directly into everyday communication tools, turning chat apps into front-ends for powerful AI assistants.\n- A group of 16 Nobel Laureates has warned of an \"AI tsunami,\" stating that the AI revolution could happen in just ten years, compared to the century it took for the Industrial Revolution. This warning highlights the potential for rapid and significant changes in the job market and the need for leaders to act before job losses occur.\n- Claude, Anthropic's conversational AI model, has been found to shift its values and responses based on the language it is interacting in. This discovery is important because it shows that even advanced AI models can have biases and inconsistencies in their decision-making processes.\n- A new AI health bracelet called Lumysi has been launched, which tracks sleep, recovery, stress, and activity around the clock without the need for a screen. This product matters because it provides a convenient and discreet way for users to monitor their health and wellness.\n- Proton has launched a private AI chat called Lumo, which uses zero-access encryption to ensure that conversations remain private and secure. This development is significant because it provides a secure and private way for users to communicate, which is essential in today's digital age.\n- Waze has rolled out a new motorcycle mode, which provides routes built for two wheels, with narrow-street shortcuts, accurate ETAs, and warnings for potholes, speed bumps, and narrow bridges. This update matters because it shows how AI can be used to improve navigation and safety for specific modes of transportation.\n- A learning coach has conducted research on using AI to learn without dulling memory, running thousands of tests and a 923-person survey on the topic. This research is important because it explores the potential for AI to enhance human learning and memory, rather than replacing them.\n\n### Notable Links\n- [ChatGPT](https://www.chatgpt.com/)\n- [Claude](https://www.anthropic.com/claude)\n- [Lumysi](https://www.lumysi.com/)\n- [Lumo by Proton](https://proton.me/lo)\n- [Waze](https://www.waze.com/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 How to Learn Faster with AI\n\nLearn without brain rot, 16 Nobel Laureates warn of AI tsunami, Claude’s values shift by language, ChatGPT returns to WhatsApp, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 13, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0IYBnvRQBRuDvrL4jdsrYjFgH22u1P4nifjEPNKOWWjpsKN08YIelbnefuRSDI_i6VhAHWBCL-1LhFoJ5vNRIciplEWQQXz6nhAGN7u03g20M_Q-4bsjqUMWfvPAtvZmZVQTip74jx9RV5KWNJ_rzdjPWQJFoWxyYrXRKcvBy_7sbIF7AM8Ml8HbXgh6SOxVeOH-j9gWk29m6drf2_aea-Klz6OAQWbkw3UWPnuVfy1lJpveguGS8So59ZgLZWqesPcxHnWe-sYliVlYmnZ9atTLOPhT54BHX"
+    },
+    {
+      "from": "\"Uncovering AI\" <uncoverai@mail.beehiiv.com>",
+      "subject": "🔍 Google Search Doesn't Look Like Google Anymore",
+      "date": "2026-07-13T21:06:59.000Z",
+      "summary": "## Uncovering AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Apple has filed a lawsuit against OpenAI, alleging that OpenAI stole trade secrets by recruiting former Apple employees and using confidential information to accelerate its hardware development. The lawsuit claims that over 400 former Apple employees now work at OpenAI, and that OpenAI's chief hardware officer, Tang Tan, used Apple's internal codenames to solicit information from job candidates.\n* Google has rolled out a major update to its search engine, replacing traditional search results with AI-generated answers. The new system, powered by Gemini 3.5 Flash, provides a single answer to a user's query, with citations and links to sources. This change has significant implications for content discovery and SEO.\n* The update has already led to a 58% drop in publisher click-through rates, and antitrust complaints are stacking up. A German court has reportedly stripped Google of a liability shield tied to how it surfaces search results.\n* SK Hynix has made Wall Street history with a $28-29 billion Nasdaq debut, the largest ADR listing ever, due to its control of 60% of the world's AI memory supply.\n* Meta is planning to double its computing power by 2027, backed by a new Samsung supply deal and a $10 billion data center in Alberta.\n* Gemini 3.5 Pro has a launch date of July 17, with leaked specs pointing to a 2 million token context window and Deep Think reasoning.\n* The Federal Reserve has appointed Marc Andreessen to co-lead its first AI economic impact task force.\n\n### Notable Links\n* [Apple's lawsuit against OpenAI](https://www.nbcnews.com/tech/tech-news/apple-sues-openai-trade-secrets-rcna78476)\n* [Google's new search engine](https://www.google.com/)\n* [SK Hynix's Nasdaq debut](https://www.bloomberg.com/news/articles/2023-07-12/sk-hynix-raises-28-9-billion-in-largest-us-adr-listing)\n* [Meta's computing power expansion](https://www.meta.com/news/meta-to-double-computing-power-by-2027/)\n* [Gemini 3.5 Pro launch](https://www.gemini.ai/pro)\n* [Federal Reserve's AI task force](https://www.federalreserve.gov/publications/files/aieconomic-impact-task-force-202307.pdf)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🔍 Google Search Doesn't Look Like Google Anymore\n\nApple's lawsuit against OpenAI has some brutal receipts  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 13, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/fLPaJmdD%2FpQPIr2Y1OXWAES%2Fw%2BNCn0VHjIyWkAeFxeFkHU6FO9Cvs92u7%2Fnq%0A86Gh4xMOPrFHV0YzC0HTvk8z6vuzL8Al1QBALqMkzuPELH6I9ycDpEXca57T%0ATjJjHeRcFUmJLCBuQjDjIJCyUcXAonYJo5gZdlj6JRCGHME%2BC%2FMg%2BoA5eO01%0ANSjL1mczFIIelGYIo2SFlrRHq7LVtMGFSg%3D%3D%0A/78bd236a97d11d41)\n\n# 🔍 Google Search Doesn't Look Like Google Anymore\n\nApple's lawsuit against OpenAI has some brutal receipts\n\n![](https://link.mail.beehiiv.com/v1/o/T7tMjxi"
+    },
+    {
+      "from": "\"Prof. Tom Yeh - AI by Hand ✍️\" <aibyhand@substack.com>",
+      "subject": "Frontier AI Software Engineering Seminar #7 ~ Richard Hsu, Nuro + previous recordings",
+      "date": "2026-07-13T22:17:56.000Z",
+      "summary": "## AI by Hand\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The Frontier AI Software Engineering Seminar #7 will feature Richard Hsu from Nuro, discussing \"Nuro’s autonomous AI hill-climb Lessons of deploying 50+ AI Employees and Autoresearch agents for self-driving car\" on July 16th, 2026, at 2 pm Pacific Time. Registration is available at https://luma.com/odzruz0q.\n* Previous seminars are available, including sessions with Daniel Svonava from Superlinked, Patrick Devine from Ollama, Kalpit Singh from SingleStore, and Jackie Lee from Science VR, covering topics such as code review, AI adoption, and quantum circuits.\n* Richard Hsu leads Nuro’s Frontier AI Engineering team and has driven the company's rapid AI ascent through three generations of work, from adhoc AI chatbots to AI Employees and autoresearch AI agents.\n* A reading on \"Onboarding AI Employees at Nuro\" is available, discussing the company's approach to integrating AI into their workforce.\n\n### Notable Links\n- Frontier AI Software Engineering Seminar #7\n- Prof. Tom Yeh\n- Richard Hsu\n- Onboarding AI Employees at Nuro\n- Previous seminar recordings: Daniel Svonava, Superlinked; Patrick Devine, Ollama; Kalpit Singh, SingleStore; Jackie Lee, Science VR",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYnloYW5kLmFpL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5ieWhhbmQuYWklMkZwJTJGZnJvbnRpZXItYWktc29mdHdhcmUtZW5naW5lZXJpbmciLCJwIjoyMDY5MjM0NTQsInMiOjIzNTc5OTMsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzOTgxMTIwLCJleHAiOjIwOTk1NTcxMjAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.4ABuKsRYKiedY-6DPmRO-9qhxsuXCJT5Ok3wFjyQ6Gs?"
+        },
+        {
+          "text": "Frontier AI Software Engineering Seminar #7 ~ Richard Hsu, Nuro + previous recordings",
+          "url": "https://substack.com/app-link/post?publication_id=2357993&post_id=206923454&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjkyMzQ1NCwiaWF0IjoxNzgzOTgxMTIwLCJleHAiOjE3ODY1NzMxMjAsImlzcyI6InB1Yi0yMzU3OTkzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.nQxqb_RQ_QLuCTg5Z0D_ctWiSG6UW7a_rmkZW_Qqrpc"
+        },
+        {
+          "text": "Prof. Tom Yeh",
+          "url": "https://substack.com/@tomyeh"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/aibyhand/p/frontier-ai-software-engineering?redirect=app-store"
+        },
+        {
+          "text": "Richard Hsu",
+          "url": "https://substack.com/redirect/5ed42fac-f850-4d55-a9e1-07e8ff2000be?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Onboarding AI Employees at Nuro",
+          "url": "https://substack.com/redirect/c2274e75-40b5-4ab4-bda7-91d3319292cc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "https://luma.com/odzruz0q",
+          "url": "https://substack.com/redirect/8a921228-be84-4c1e-b178-62bfc113cc36?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=2357993&post_id=206923454&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjkyMzQ1NCwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODM5ODExMjAsImV4cCI6MTc4NjU3MzEyMCwiaXNzIjoicHViLTIzNTc5OTMiLCJzdWIiOiJyZWFjdGlvbiJ9.g52-kAOxop_LOw3BnlwzvT5z_uWZSoPtrYDJgKoOoXU&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=2357993&post_id=206923454&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjkyMzQ1NCwiaWF0IjoxNzgzOTgxMTIwLCJleHAiOjE3ODY1NzMxMjAsImlzcyI6InB1Yi0yMzU3OTkzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.nQxqb_RQ_QLuCTg5Z0D_ctWiSG6UW7a_rmkZW_Qqrpc&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://open.substack.com/pub/aibyhand/p/frontier-ai-software-engineering?action=restack-comment&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjkyMzQ1NCwiaWF0IjoxNzgzOTgxMTIwLCJleHAiOjE3ODY1NzMxMjAsImlzcyI6InB1Yi0yMzU3OTkzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.nQxqb_RQ_QLuCTg5Z0D_ctWiSG6UW7a_rmkZW_Qqrpc"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Frontier AI Software Engineering Seminar #7 ~ Richard Hsu, Nuro + previous recordings![](https://eotrx.substackcdn.com/o/64f1c3b422c9cf16/p.gif?token=eyJtIjoiPDIwMjYwNzEzMjIxNzU2LjMuODAxZDE0NWY1OTU2NDU5Y0BtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwNjkyMzQ1NCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoyMzU3OTkzLCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzgzOTgxMTIwLCJleHAiOjE3ODY1NzMxMjAsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.3qYVBjta-iGsnO0coN-abb679o4K7jZEvSzwiwvgqSQ)\n\nJoin me this Thursday to learn from Richard Hsu at Nuro.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"Abhijay from Abhijay’s AI Action Letter\" <abhijayvuyyuru@substack.com>",
+      "subject": "🤖I Built a Claude Skill That Makes AI Writing Sound 100% Human (Download The Skill File)",
+      "date": "2026-07-13T23:18:39.000Z",
+      "summary": "## Abhijay's AI Action Letter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Abhijay built a Claude skill called \"humanizer\" that makes AI writing sound 100% human, which can be downloaded for free. The skill rewrites text to make it sound like a real person wrote it, while keeping the original meaning, facts, and numbers.\n* The humanizer skill works by raising perplexity, forcing burstiness, stripping banned words, and adding human texture to the text. It also has a \"score\" mode that shows which words and rhythms are flagging the text as AI-written.\n* AI writing detectors like GPTZero, Originality.ai, and Turnitin use math signals such as perplexity and burstiness to detect AI-written text. Perplexity measures how predictable the next word is, while burstiness measures the variation in sentence length.\n* The detectors are not always accurate and can false-flag formal writing, simple writing, and non-native English speakers.\n* Abhijay provides a list of \"dead giveaways\" that can trip the alarm, including the use of em dashes, certain words like \"delve\" and \"leverage\", filler phrases like \"it's worth noting\", uniform rhythm, and perfect tricolons.\n* The humanizer skill can help avoid these dead giveaways and make AI-written text sound more human.\n\n### Notable Links\n* Abhijay's AI Action Letter\n* [Abhijay Arora Vuyyuru](https://substack.com/@abhijayaroravuyyuru)\n* [Claude](https://www.anthropic.com/)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGYWJoaWpheXZ1eXl1cnUuc3Vic3RhY2suY29tJTJGcCUyRmktYnVpbHQtYS1jbGF1ZGUtc2tpbGwtdGhhdC1tYWtlcyIsInAiOjIwNjkzMjE0MiwicyI6NTg4Mjg4MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODM5ODQ3NDIsImV4cCI6MjA5OTU2MDc0MiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.qxu5p9CVqdqwLjUeWwVLitYWuV6uMRDbqnf9Wk3Y8pE?"
+        },
+        {
+          "text": "🤖I Built a Claude Skill That Makes AI Writing Sound 100% Human (Download The Skill File)",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=206932142&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjkzMjE0MiwiaWF0IjoxNzgzOTg0NzQyLCJleHAiOjE3ODY1NzY3NDIsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.1wbT4CxhBA6M65JSfpRcjRHOuHzjlDUti4ldRBwYP_s"
+        },
+        {
+          "text": "Abhijay Arora Vuyyuru",
+          "url": "https://substack.com/@abhijayaroravuyyuru"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/abhijayvuyyuru/p/i-built-a-claude-skill-that-makes?redirect=app-store"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRmFiaGlqYXl2dXl5dXJ1LnN1YnN0YWNrLmNvbSUyRnAlMkZpLWJ1aWx0LWEtY2xhdWRlLXNraWxsLXRoYXQtbWFrZXMmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjNE16azRORGMwTWl3aVpYaHdJam94TnpnMk5UYzJOelF5TENKcGMzTWlPaUp3ZFdJdE5UZzRNamc0TXlJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLnpHZU9YQ3NJUm00U3BwSFNEWUNiYUg5blZuWUZiQ0JGSGp6THN4dElTOFUiLCJwIjoyMDY5MzIxNDIsInMiOjU4ODI4ODMsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzOTg0NzQyLCJleHAiOjIwOTk1NjA3NDIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.9Ue7vURo2QO1BLvZu8f2IrAx4IBFAuYh8PwNL1-m0vA"
+        },
+        {
+          "text": "Claim my free post",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vcC9pLWJ1aWx0LWEtY2xhdWRlLXNraWxsLXRoYXQtbWFrZXM_dXRtX2NhbXBhaWduPWVtYWlsLXBvc3Qmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0luQnZjM1JmYVdRaU9qSXdOamt6TWpFME1pd2lhV0YwSWpveE56Z3pPVGcwTnpReUxDSmxlSEFpT2pFM09EWTFOelkzTkRJc0ltbHpjeUk2SW5CMVlpMDFPRGd5T0Rneklpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LjF3YlQ0Q3hoQkE2TTY1SlNmcFJjalJIT3VIempsRFV0aTRsZFJCd1lQX3MiLCJwIjoyMDY5MzIxNDIsInMiOjU4ODI4ODMsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzgzOTg0NzQyLCJleHAiOjIwOTk1NjA3NDIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.TGYPecuMj-qI_wwN2Pq49oMNH214fTS0Rhj6kcg7sqI?&launch_post_unlock_offer=true"
+        },
+        {
+          "text": "Or upgrade your subscription. Upgrade to paid",
+          "url": "https://substack.com/redirect/adcd430a-11c5-4141-a545-4d46c84e5eaf?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=206932142&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjkzMjE0MiwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODM5ODQ3NDIsImV4cCI6MTc4NjU3Njc0MiwiaXNzIjoicHViLTU4ODI4ODMiLCJzdWIiOiJyZWFjdGlvbiJ9.LVWASma7oT_AFKhOVQUNq3dh-fkTkNZfuE2NH5NHw_I&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=206932142&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjkzMjE0MiwiaWF0IjoxNzgzOTg0NzQyLCJleHAiOjE3ODY1NzY3NDIsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.1wbT4CxhBA6M65JSfpRcjRHOuHzjlDUti4ldRBwYP_s&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://open.substack.com/pub/abhijayvuyyuru/p/i-built-a-claude-skill-that-makes?action=restack-comment&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjkzMjE0MiwiaWF0IjoxNzgzOTg0NzQyLCJleHAiOjE3ODY1NzY3NDIsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.1wbT4CxhBA6M65JSfpRcjRHOuHzjlDUti4ldRBwYP_s"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖I Built a Claude Skill That Makes AI Writing Sound 100% Human (Download The Skill File)![](https://eotrx.substackcdn.com/o/c76efec6a5eff067/p.gif?token=eyJtIjoiPDIwMjYwNzEzMjMxODM5LjMuM2YxYTM4YTBlYTQ2MmI1ZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwNjkzMjE0MiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoib25seV9wYWlkIiwicyI6NTg4Mjg4MywiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4Mzk4NDc0MiwiZXhwIjoxNzg2NTc2NzQyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.69HFJ_ETu5CYoZXcoc6y5i20YinyxOpsxq-RAamkWo4)\n\nAI Action Letter #50: How do AI Writing Detectors Work, & How to Setup A\"Humanizer\" Skill That Strips the AI Smell Out of Anything You Write\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    }
+  ],
+  "tldr": [
+    "Apple sues OpenAI for trade secret theft.",
+    "Grok 4.5 release promises Opus-level power.",
+    "Demis Hassabis predicts AGI in 2-5 years.",
+    "GPT-5.6 Sol Ultra solves math problem.",
+    "SK Hynix makes $28-29 billion Nasdaq debut."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Grok (xAI)",
+        "context": "Grok is a large-scale AI model family and assistant developed by Elon Musk’s xAI, positioned as a direct competitor to systems like Claude, GPT-4, and Gemini.[3][7] Initially launched as a chatbot inside X (Twitter), Grok has evolved into a full multimodal platform with standalone web and mobile apps, enterprise APIs, voice agents, image generation (Aurora), and video capabilities via Grok Imagine.[3][4][6] It is designed to be maximally truthful and deeply integrated with Musk’s ecosystem, including X, SpaceX, Tesla, and government/enterprise deployments.[2][3][4][7]\n\nThe most recent major development is **Grok 4.5**, a new frontier model built on a 1.5 trillion-parameter V9 foundation and released publicly on July 8, 2026.[3][6] According to xAI and reporting, Grok 4.5 improves reasoning and coding performance, incorporates data from the AI coding platform Cursor, and is accessible through Grok Build, the Cursor editor, and the xAI API console (with EU availability following later).[3] This follows rapid iteration across the Grok 4.x line (4.0–4.4), where Grok 4 achieved top benchmark scores and 4.1 significantly reduced hallucinations, making the system more viable for enterprise use.[1][3][4][5] In parallel, xAI has expanded generative media capabilities: Grok Imagine now produces full video clips with synchronized audio, while Grok Voice enables natural spoken interaction and multimodal use cases.[3][4][6]\n\nIndustry impact is significant on several fronts. Technically, Grok 4.5’s scale and performance place it among the most capable publicly discussed frontier models, reinforcing xAI as a leading lab in large-model training and multimodal generation.[3][4][5][6] Strategically, Grok’s integration into U.S. Department of Defense systems under “Grok for Government” and the GenAI.mil platform signals one of the largest government AI deployments to date, alongside Anthropic, Google, and OpenAI.[1][3][5] The SpaceX–xAI relationship and access to massive compute infrastructure (including large GPU clusters) further strengthen Grok’s competitive position and enable fast iteration at frontier scale.[4][5][6] In the broader AI/ML landscape, Grok is now viewed as a top-tier rival to Claude and other frontier models, particularly in reasoning, real-time web integration, and high-throughput multimodal generation, with implications for both commercial AI products and national-level AI capabilities.[1][3][4][7]",
+        "source": "web search"
+      },
+      {
+        "topic": "Claude",
+        "context": "{\"topic\":\"Claude\",\"context\":\"Claude is Anthropic’s family of large language models and chatbot products, used for conversation, coding, research, and increasingly agentic software workflows. It matters because Claude is one of the main competitors to ChatGPT in frontier AI, and Anthropic emphasizes “constitutional AI” and strong coding/reasoning performance as differentiators.[2][4]\n\nThe most recent developments point to a fast-moving expansion of Claude into higher-capability models and task automation. Anthropic recently introduced Claude Opus 4 and Sonnet 4, highlighting stronger coding, advanced reasoning, and long-running agent workflows, and later rolled out Sonnet 4.6 with improved computer use, programming, design, and knowledge-work capabilities.[4][6] Anthropic also announced computer-use features that let Claude operate apps, browse the web, and fill spreadsheets under user oversight, signaling a broader push toward AI agents that can execute real work rather than just gener",
+        "source": "web search"
+      },
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is a leading artificial intelligence research and deployment company best known for its **ChatGPT** conversational model and the underlying GPT series, which have helped define the modern generative AI market and catalyzed widespread adoption across consumer and enterprise applications.[6] Its technology sits at the center of major platform integrations, including a high‑profile but increasingly contentious partnership with Apple to embed ChatGPT into Siri and visual intelligence features on iPhones.[5][6] Because OpenAI’s models are widely viewed as among the most capable general‑purpose AI systems, the company plays an outsized role in setting technical benchmarks, shaping regulatory debates, and influencing how AI is commercialized at global scale.[6][7]\n\nThe most significant recent development is a **blockbuster lawsuit filed by Apple against OpenAI** in U.S. federal court, alleging systematic trade‑secret theft to accelerate OpenAI’s push into consumer hardware.[3][4] Apple claims OpenAI and its chief hardware officer orchestrated a campaign to solicit confidential information, components, drawings, and other materials from Apple employees and job candidates, including proprietary details about upcoming devices and manufacturing processes.[2][3][4][9] Apple is seeking damages, injunctions, and a court order forcing OpenAI to stop using any Apple trade secrets and to redesign its planned hardware so it no longer incorporates Apple technology.[3][4] This suit lands on top of already strained relations: OpenAI has been **exploring legal action against Apple** over a ChatGPT integration that it says has not delivered the visibility or revenue it expected, and is working with an outside law firm on breach‑of‑contract options as its partnership with Apple deteriorates.[5][6][7]\n\nThese intertwined disputes amplify OpenAI’s broader **industry impact**. The Apple lawsuit could delay or reshape OpenAI’s hardware ambitions and raises precedent‑setting questions about how aggressively AI firms can recruit from incumbents and leverage supplier ecosystems without crossing into trade‑secret misappropriation.[2][3][9] At the same time, the erosion of the Apple‑OpenAI relationship—and parallel antitrust claims by Elon Musk‑backed firms that the partnership unlawfully favored ChatGPT over rivals—highlights how central OpenAI has become to competition policy in the generative AI market.[6][8] OpenAI is also navigating Musk’s separate suit over its evolution from a nonprofit mission to a profit‑driven company and reported tensions with Microsoft as it seeks more independence ahead of a potential IPO.[6][7] Collectively, these legal and strategic battles underscore that OpenAI is not just a technology leader but a focal point for disputes over data, platform power, and the future structure of the AI industry.[6][8]",
+        "source": "web search"
+      },
+      {
+        "topic": "AI Automation Society",
+        "context": "AI Automation Society is a global community focused on learning, building, and deploying real-world AI automations and intelligent systems, designed to be accessible regardless of coding background or prior experience.[1] It positions itself as a supportive, resource-rich space for both beginners exploring AI for the first time and entrepreneurs looking to scale their operations with automation, typically organized around online community infrastructure and educational content.[1]  \n\nThis community matters in the current AI/ML landscape because it targets the growing segment of non-technical and semi-technical professionals who want to operationalize AI agents and automation in business workflows but lack formal machine learning training.[1] By lowering the barrier to entry and emphasizing practical deployment, groups like AI Automation Society help translate frontier AI advances into usable, repeatable playbooks for small businesses, indie builders, and operators, complementing the broader industry trend where enterprises are investing heavily in AI automation, agents, and ROI-focused deployments.[3][4]  \n\nRecent developments around AI Automation Society are primarily community-oriented: branding updates such as a new logo and notification features signal an effort to formalize its identity and engagement model, aligning with a wider movement of AI automation communities that share news, tools, and implementation strategies.[1] In industry terms, its impact is ecosystem-driven rather than headline-driven: it functions as a bridge between rapidly evolving automation technologies and practitioners who need practical guidance, contributing to the diffusion of AI automation practices beyond large tech companies and into everyday professional workflows.[1][3][4]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is OpenAI’s flagship **conversational AI** interface built on large language models, offering text, voice, and vision capabilities to consumers and enterprises across web, mobile, and desktop.[7][1] It has evolved from a simple chatbot into a broader **AI work platform**, with tiers for free, Plus, Pro, Team, Enterprise, and specialized deployments such as ChatGPT Gov for U.S. government agencies that need stronger security and compliance controls.[7][8] In messaging environments like WhatsApp, it matters because it brings advanced reasoning, multimodal input (text, images, and increasingly voice), and task automation directly into everyday communication tools, turning chat apps into front-ends for powerful AI assistants.[1][5]\n\nRecent updates focus on three main directions: **better models, agentic capabilities, and richer productivity features**. OpenAI has begun rolling out GPT-5.5 Instant as ChatGPT’s new default model, with improvements in accuracy, clarity, image understanding, STEM questions, and web search behavior, and added GPT-5.5 Instant Mini as a fallback for more reliable intent tracking and tone control.[1][5] On the agent side, the new **deep research** mode lets ChatGPT carry out multi-step, autonomous internet research using an o3-based model, synthesizing hundreds of sources into analyst-level reports and supporting file and spreadsheet attachments; this is initially available to Pro users and is being expanded to other paid tiers.[6] At the same time, ChatGPT is gaining a more robust voice experience (GPT-Live-1 for paid users and GPT-Live-1 mini for free users), interactive charts, full-screen writing blocks, memory controls, and direct email sending, positioning it as a central hub for work and communication rather than just a Q&A tool.[5][1]\n\nLooking ahead, industry impact is shaped by ChatGPT’s move toward **task and workflow management** and deeper integration with external apps and local data. Leaked features such as the “Salute” task manager, inline-editable code and math blocks, secure tunnels for internal servers, and better local-business search indicate a shift from one-off chat to persistent, structured task handling.[4] On the enterprise and productivity front, OpenAI’s new **ChatGPT Work** offering, paired with the GPT-5.6 “Sol/Terra/Luna” model family, is designed to operate across documents and spreadsheets in the cloud and via a desktop app that can work with local files and applications, and has been positioned as a preferred model in Microsoft 365 Copilot.[7] Together, these developments mean that when ChatGPT appears inside apps like WhatsApp or office suites, it is increasingly a general-purpose **AI work agent** capable of research, planning, and execution, rather than just a conversational assistant.",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Google, Microsoft, Salesforce, Snowflake and ServiceNow form shared AI backend alliance",
+        "summary": "A group of major enterprise vendors including Google, Microsoft, Salesforce, Snowflake and ServiceNow agreed to support a common AI backend-software protocol aimed at standardizing how enterprises integrate AI into their software stacks.[1] The move is explicitly framed as a way to counter Anthropic and OpenAI’s dominance in enterprise AI offerings.[1]",
+        "whyItMatters": "For AI practitioners, a shared backend protocol could significantly change integration patterns, API design, and deployment strategies across enterprise environments, potentially reducing fragmentation but also shifting power toward a new interoperability standard. Understanding this alliance is key to anticipating which platforms and interfaces will become default in large-scale corporate AI deployments.",
+        "source": "The Information via BuildFastWithAI AI News Today July 13 2026"
+      },
+      {
+        "headline": "Senate AI Safety and Security Committee advances Framework for AI Governance Act",
+        "summary": "In the United States, the Senate AI Safety and Security Committee advanced the Framework for AI Governance Act, a bipartisan bill that would create a national AI incident database and impose baseline disclosure requirements for high‑risk AI applications.[3] The bill now heads toward a floor vote after the August recess.[3]",
+        "whyItMatters": "The creation of a formal AI incident database and new disclosure rules would directly affect how practitioners log, report, and mitigate safety failures, bias incidents, and security breaches in deployed systems. Teams building or operating high‑risk AI will need to adapt compliance workflows, model monitoring, and documentation to meet these new statutory obligations if enacted.",
+        "source": "SkyCrumbs AI News July 2026"
+      },
+      {
+        "headline": "EU publishes final Transparency Code of Practice ahead of AI Act obligations",
+        "summary": "The European Union released its final Transparency Code of Practice in advance of the August deadline for compliance with AI Act transparency requirements.[4] The EU also proposed a new Cloud and AI Development Act to further regulate infrastructure and development practices around AI systems.[4]",
+        "whyItMatters": "EU transparency rules will shape how practitioners disclose model capabilities, training data characteristics, and deployment contexts, especially for foundation and high‑risk systems. Engineering and product teams building for EU markets must adjust technical documentation, user-facing explanations, and audit trails to align with the Code, or risk non‑compliance and potential enforcement under the AI Act.",
+        "source": "TLT's AI Brief: July 2026"
+      },
+      {
+        "headline": "Stanford study finds 15–30% benchmark contamination in frontier AI models",
+        "summary": "A Stanford University study on \"Benchmark Contamination in 2026\" reported that many frontier models are trained on benchmark data, with contamination rates estimated between 15% and 30% across common evaluations.[3] The findings call into question the reliability of performance claims based on widely used benchmarks.[3]",
+        "whyItMatters": "Benchmark contamination undermines the validity of evaluation pipelines that practitioners rely on to compare models and track progress. Teams will need to revisit their benchmarking strategies, adopt contamination‑resistant tests, and be more cautious when interpreting leaderboard results or marketing claims, especially for safety‑critical or regulated applications.",
+        "source": "Stanford University via SkyCrumbs AI News July 2026"
+      },
+      {
+        "headline": "NVIDIA releases Nemotron-Labs-TwoTower high-throughput open-weight diffusion language model",
+        "summary": "NVIDIA introduced Nemotron-Labs-TwoTower, an open-weight diffusion language model that generates text in parallel and delivers roughly 2.42× higher throughput while retaining about 98.7% of baseline quality.[6] The model is positioned as an efficient, open alternative for large-scale text generation workloads.[6]",
+        "whyItMatters": "Higher-throughput, open-weight models give practitioners more control over deployment, cost, and customization compared to closed APIs. Nemotron-Labs-TwoTower can materially lower inference costs for large language workloads and enable experimentation with diffusion-based text generation architectures, which may influence future model design and tooling in high-volume production environments.",
+        "source": "AIApps Top AI News for July 2026"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Grok",
+        "type": "product",
+        "context": "Mentioned as a competitor to Claude, with a new version 4.5 being released"
+      },
+      {
+        "name": "Claude",
+        "type": "product",
+        "context": "Mentioned as a AI model, with various updates and integrations being announced"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as a company facing a lawsuit from Apple, and lifting usage caps"
+      },
+      {
+        "name": "AI Automation Society",
+        "type": "organization",
+        "context": "Mentioned as a community with a new notification and logo"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as a AI model returning to WhatsApp"
+      },
+      {
+        "name": "Apple",
+        "type": "company",
+        "context": "Mentioned as a company suing OpenAI"
+      },
+      {
+        "name": "Demis Hassabis",
+        "type": "person",
+        "context": "Mentioned as a person predicting AGI arrival in 2 to 5 years"
+      },
+      {
+        "name": "AGI",
+        "type": "technology",
+        "context": "Mentioned as a technology predicted to arrive in 2 to 5 years"
+      },
+      {
+        "name": "xAI",
+        "type": "company",
+        "context": "Mentioned as a company releasing Grok 4.5"
+      },
+      {
+        "name": "Gamma",
+        "type": "product",
+        "context": "Mentioned as a platform with a new update and a call for user feedback"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-07-14T00:30:45.829Z",
+  "dateString": "2026-07-14"
+}
