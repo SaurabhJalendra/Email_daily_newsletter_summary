@@ -12,6 +12,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[amazon]] — AWS provider; $38B OpenAI; Nova 2 + Trainium 3; Rufus 805% YoY Black Friday
 - [[amd]] — chipmaker; OpenAI and Oracle partnerships *(stale)*
 - [[anduril]] — defense-tech prime; $8B at $60B valuation Mar 2026; ExoAnalytic Solutions acquisition doubled space unit *(stale)*
+- [[ant-group]] — Alibaba-affiliated Chinese fintech + AI lab; open-source trillion-parameter Ling-2.6 (fast) + Ring-2.6 (agentic reasoning) (Jul 2026)
 - [[anthropic]] — Claude maker; Opus 4.7/4.8, Claude Design, Routines, $965B confidential IPO, Fable 5 release
 - [[apple]] — solo-AI strategy abandoned; Siri+Gemini deal; M5 chip; Subramanya new AI VP
 - [[assemblyai]] — voice/speech AI vendor; Voice Agent API collapses pipeline into a single WebSocket (Jun 2026)
@@ -42,6 +43,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
+- [[helsing]] — German defense-AI startup; military autonomy software; $1.8B at $18B valuation Jul 2026 — Europe's biggest defense-tech round ever
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
 - [[ibm]] — enterprise-software incumbent; watsonx + Granite; launches [[ibm-bob]] AI coding partner for enterprise SDLC (Jul 2026)
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*

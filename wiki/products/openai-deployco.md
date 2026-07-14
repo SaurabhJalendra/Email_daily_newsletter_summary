@@ -8,7 +8,8 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-05-13
-> **Last updated**: 2026-05-15
+> **Last updated**: 2026-07-14-evening (**DeployCo acquires Northslope — adds embedded engineers for enterprise AI builds**. Evolving AI Insights HIGH: ***"OpenAI's Deployment Company acquired Northslope, adding embedded engineers for enterprise AI builds"***. First publicly framed *Northslope acquisition* on DeployCo in this wiki + first cycle-2 M&A event since the May 2026 Tomoro (London) acquisition. Structurally significant two ways: (a) **Second FDE-tier acquihire** productizes DeployCo's Palantir-borrowed Forward-Deployed-Engineer scale-up playbook — cycle-2 acquisition after Tomoro (~150 engineers) implies DeployCo is now on a rolling-acquisition cadence to hit its 2,000-firm initial target; (b) **Embedded-engineers-for-enterprise-AI-builds framing** re-emphasizes DeployCo's *deployment-side professional-services* thesis vs Anthropic's [[claude-managed-agents]] *managed-runtime* thesis. Body-recovery items: (a) Northslope size/geography, (b) named enterprise-AI-build vertical focus, (c) acquisition price + DeployCo's total FDE headcount post-acquisition — *source: data/summaries/2026-07-14-evening.json (Evolving AI Insights HIGH "⏳ 200 Economists Put the AI's Job Shock on Countdown")*)
+> **Previously updated**: 2026-05-15
 > **Status**: active
 > **Related**: [[openai]], [[anthropic]], [[chatgpt]], [[openai-codex]], [[enterprise-ai]], [[ai-jobs-displacement]]
 
@@ -20,6 +21,7 @@ The launch crystallizes a frontier-lab pattern shift: enterprise AI is no longer
 
 ## Timeline
 
+- **2026-07-14-evening**: **DeployCo acquires Northslope, adding embedded engineers for enterprise AI builds** — first M&A event since Tomoro (~150 engineers) in May 2026; extends DeployCo's rolling-acquisition cadence toward the 2,000-firm initial target — *source: data/summaries/2026-07-14-evening.json (Evolving AI Insights HIGH — OpenAI Deployment Company acquired Northslope adding embedded engineers for enterprise AI builds)*
 - **2026-05-15**: DeployCo recirculates in coverage with the FDE-everywhere framing — every major AI lab (OpenAI, Anthropic, Google) now hiring forward-deployed engineers; Tomoro acquisition emphasized — *source: 2026-05-15 cycle (The Code — Anthropic faces developers backlash; Superhuman — Forward Deployed Engineers; AI Breakfast — Codex from your phone)*
 - **2026-05-13**: DeployCo announced — $4B backing, $10B valuation, OpenAI majority-owned, 2,000-firm initial target across finance/supply-chains/customer support/operations/internal systems; Tomoro (London) acquired for ~150 engineers; framed as direct response to Anthropic's $1.5B JV (eight days prior); coverage notes parallel "OpenAI hires humans to scale the bots" reframing — *source: 2026-05-13 cycle (TAAFT — AI Reads Your Mind; Uncovering AI — zero-day AI built / DeployCo $4B; AINews — DeployCo; The Rundown AI — OpenAI launches $14B [sic] Deployment Company; Evolving AI Insights — OpenAI's $4B Bet on Enterprise AI; Forward Future — OpenAI hires humans to scale the bots; Technology News — OpenAI Deployment Company; AlphaSignal — DeployCo; FutureTools — Cowboy Space Corporation + DeployCo)*
 
