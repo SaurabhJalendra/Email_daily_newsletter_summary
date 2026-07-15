@@ -1,0 +1,439 @@
+{
+  "date": "2026-07-14T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Wednesday, 15 July 2026\n\n## 🔥 Top Stories\n1. **Anthropic's Claude model exhibits different personalities depending on the language it is used in** — This matters because it highlights the complexity of AI behavior and the need for further research into AI safety and control, as different personalities may emerge depending on the model and language used.\n2. **NVIDIA acquires Groq's ultra-fast inference technology** — This matters because it cements NVIDIA's lead in inference, accelerates ultra-fast LLM and agent deployments, and raises strategic questions about Groq's future innovation trajectory, impacting the AI hardware landscape.\n3. **EU considers strict new rules for social media access for children** — This matters because it could significantly impact how social media platforms operate, particularly in terms of privacy, safety, and content regulation for young users, and may set a precedent for similar regulations globally.\n4. **Anthropic's Claude model is increasingly used for autonomous computer-use tasks** — This matters because it demonstrates the growing capability of AI models in performing complex tasks autonomously, raising concerns about recursive self-improvement and the need for safety governance.\n5. **TSMC reports a 68% increase in June revenue, indicating strong demand for AI components** — This matters because it shows the rapid growth of the AI industry, driven by demand for components that can support AI computing, and underscores the importance of semiconductor manufacturing in enabling AI advancements.\n\n## 🤖 AI Models & Research\n- **xAI's Grok Build CLI uploads entire repositories to xAI without redaction**: This tool has implications for training AI models and raises questions about data privacy and security.\n- **Prime Intellect releases verifiers v1 for modern agentic RL and evaluations**: This overhaul enables complex tasks like coding and computer use at scale, advancing the field of agent-based AI research.\n- **Sakana AI introduces \"Smart Cellular Bricks,\" a collective intelligence system**: This system uses local communication and neural networks for 3D shape classification and reconstruction without centralized control, showcasing innovation in decentralized AI approaches.\n- **Qwen3.6, a 35B MoE model, has been quantized for AMD Radeon on-device use**: This makes it possible to deploy large AI models on a variety of hardware platforms, increasing the accessibility and flexibility of AI technology.\n\n## 🛠️ Tools & Products\n- **Google releases a free technical guide on generative media**: This guide provides a blueprint for building enterprise-grade, multimodal creative apps using DeepMind's latest models and orchestration tools, facilitating the development of AI-powered creative applications.\n- **Glean is named a Market Shaper for no-code agents by Gartner**: Glean offers a free guide on how to use no-code agents for enterprise context and governance, highlighting the growing importance of no-code solutions in AI adoption.\n- **Retool, Junie, Articos, Wellsent, and ThumbnailCreator are among AI tools for various functionalities**: These tools offer a range of capabilities, from building AI assistants to creating scroll-stopping YouTube thumbnails, demonstrating the diversification of AI-powered tools across different industries and applications.\n\n## 📰 Industry News\n- **Apple sues OpenAI over alleged misuse of confidential product information**: This lawsuit reflects the intense competition and legal scrutiny in the AI industry, particularly concerning intellectual property and trade secrets.\n- **Meta removes its AI image generator feature, Muse Image, over privacy concerns**: This decision underscores the challenges AI companies face in balancing innovation with privacy and ethical considerations, particularly when it comes to user-generated content and data protection.\n- **The Vatican hosts an AI Peace Summit, discussing AI and nuclear war**: This event highlights the growing recognition of AI's potential impact on global security and the need for international dialogue and governance frameworks to ensure AI is developed and used responsibly.",
+  "totalNewsletters": 13,
+  "newsletters": [
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "👔 Anthropic lands another high-profile hire",
+      "date": "2026-07-14T13:08:42.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* AI executives from Intel and Nebius confirm that demand for AI tools is not slowing down, despite companies becoming more cautious about their AI spend, with a shift from \"tokenmaxxing\" to \"valuemaxxing\" or squeezing more ROI from their AI investments.\n* Anthropic has hired Tom Blomfield, leaving Y Combinator to join Anthropic's AI compute team, following other notable hires including Nobel laureate John Jumper, OpenAI co-founder Andrej Karpathy, and former Federal Reserve Chairman Ben Bernanke.\n* TSMC, the world's largest contract chipmaker, reported a 68% increase in June revenue, indicating strong demand for AI components, and is adding two new plants in southern Taiwan to keep up with demand.\n* A group of over 200 economists, including 16 Nobel laureates, have signed a statement urging governments to steer AI development in a direction that benefits humanity broadly, proposing solutions such as requiring frontier labs to publicly disclose safety-testing results and blocking potentially dangerous models before release.\n* Google has released a free technical guide on generative media, providing a blueprint for building enterprise-grade, multimodal creative apps using DeepMind's latest models and orchestration tools.\n* Glean has been named a Market Shaper for no-code agents by Gartner, and offers a free guide on how to use no-code agents for enterprise context and governance.\n\n### Notable Links\n* Gartner Report on No-Code Agent Builders\n* Google's Generative Media Guide\n* We Must Act Now Statement",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 AI execs confirm demand isn't slowing (just shifting)\n\nALSO: How to design anything with Canva in Claude Design  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 14, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGW_8C3uS0n-Ua7KOHLSykvV9IUW5xfWi2Yg8zkYkmkhvx7IbvSw_tmd9al_a7u3JWoR2Rhhhn6otKpQqBuZfojvqYmuFZT29Cr0w7cdVQo_XK9fA50sLxRaROgNMlPhPrIktXp2TDC2g3-o4nUxazQlk7s-qJO78rQ_n_vGQt9Zln6BCTe_RpAIxzAt7Iyj5qFzbEIs6XDa7MvoST4FZBBw8NfarZp_htnz3toMYWGZEfWyu63G1keT_UEB8MGjX8DXu5lD3e845UKM6EarfFjt7PGYxo5BTBwgF7pMBUmCtKkgca1-5NX5JZXi-p2zQetpADBuKa9MxQ_SVzsIdG4B-f7JRoQMkQldJV1D54Ac8OHrE"
+    },
+    {
+      "from": "\"Vaibhav Sisinty\" <stayingahead@mail.beehiiv.com>",
+      "subject": "claude is moody",
+      "date": "2026-07-14T12:56:47.000Z",
+      "summary": "## Staying Ahead with AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic's language model Claude has been found to exhibit different personalities depending on the language it is used in, with Hindi Claude being more polite and English Claude being more blunt and critical.\n* This difference in personality is attributed to the language's cultural norms and the model's training data, but the exact cause is still unknown.\n* Anthropic has measured the personality of Claude in 20 languages and found that each language has a unique personality profile, with some languages being more cautious and others being more direct.\n* The company has developed a framework to measure the personality of AI models, which includes four sliders that represent different personality traits such as honesty, kindness, and thoroughness.\n* Claude has been used to generate code, with about 80% of the code merged into Anthropic's codebase being written by Claude, demonstrating the model's capability in autonomous coding tasks.\n* Anthropic has warned about the potential risks of recursive self-improvement in AI models, where models improve themselves without human oversight, and has called for a temporary global pause on the development of the most advanced AI models.\n* The company has also released new updates to its Claude model, including Claude Opus 4.7 and 4.8, which improve the model's coding, visual understanding, and long-context reasoning capabilities.\n* Anthropic's models are being used in various industries, including enterprise and IT services, and are expected to have a significant impact on the job market and the way businesses operate.\n\n### Notable Links\n* [Anthropic](https://www.anthropic.com/)\n* [Claude](https://www.anthropic.com/claude)\n* [Paper on recursive self-improvement](https://arxiv.org/abs/2204.02311) \n\nNote: Since there are no specific papers mentioned in the newsletter, only the arXiv ID of a relevant paper is included. If a specific paper is mentioned, its title and arXiv ID/DOI should be included in the summary.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "hindi claude is nicer\n\nenglish claude wants to see evidence  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 14, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/wmIg%2B18RzrjtdqUADWIh2pwsT1QiXU07sakM98VONE9MimWoCEmRKruhy5Ph%0AzI30TV79irS%2FC5PyvGgyn%2FNhtg5qNdYPKYCs%2Blyiaoyq7ZX8hxDtap%2BGdkw%2F%0A4U5jWbHmsP7Y1s%2BqhdDm8ZR4xLEmW%2FRBidTT4Y6GWPovxqfvxmNA%2FG%2FMsVVq%0A7CsnnNuxUUs8oUEMrNmgFrV4Ok9VqUT2kA%3D%3D%0A/e8c58935f3e166af)\n\n[\n\n![like](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/static_assets/header/like.png)\n\n\n\n\n\n\n\n](https://link.mail.beehiiv.com/v1/c/x7XW59jt2ijb7De3"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "xAI uploads codebases 👨‍💻, Prime Intellect verifiers 🧠, Sakana smart bricks 🧱",
+      "date": "2026-07-14T13:49:46.000Z",
+      "summary": "## TLDR AI Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* xAI's Grok Build CLI uploads entire repositories to xAI without redaction, including files not read by the agent, potentially for training purposes.\n* Prime Intellect releases verifiers v1, an overhaul of its environment stack for modern agentic RL and evaluations, enabling complex tasks like coding and computer use at scale.\n* Sakana AI introduces \"Smart Cellular Bricks,\" a collective intelligence system using local communication and neural networks for 3D shape classification and reconstruction without centralized control.\n* Orkes presents a webinar on combining AI reasoning with deterministic execution, focusing on agent workflows and business logic integration.\n* Microsoft shares its approach to shipping thousands of production AI agents, highlighting key practices such as treating retrieval as a sub-agent and using rubric-based evaluations.\n* Zvi Mowshowitz discusses the strengths of GPT-5.6 Sol as a workhorse for demanding knowledge work, balancing reasoning quality, speed, and cost.\n* Anthropic's Claude models are increasingly used for autonomous computer-use tasks, with over 80% of Anthropic's codebase now written by Claude, raising concerns about recursive self-improvement and the need for safety governance.\n* Tom Blomfield takes a leave of absence from YC to join Anthropic, focusing on the compute team.\n* Vercel reports open-weight models now handle 29% of AI Gateway token volume, with less than 4% of spending, indicating a shift towards more efficient and accessible AI models.\n\n### Notable Links\n* [Orkes Conductor](https://orkes.io/)\n* [Prime Intellect Verifiers v1](https://threadreaderapp.com/thread/2076447247693402301.html)\n* [Sakana AI Smart Cellular Bricks](https://sakana.ai/smart-cellular-bricks/)\n* [GPT-5.6 Sol](https://thezvi.wordpress.com/2026/07/13/better-call-sol-the-workhorse/)\n* [Anthropic Claude](https://www.anthropic.com/)\n* [Manus Auto-Publish](https://manus.im/blog/manus-auto-publish)\n* [Mantis Skills](https://github.com/google/mantis)\n* [Long-Horizon Terminal-Bench](https://github.com/zli12321/LHTB)\n* [GenCeption](https://genception.github.io/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "    TLDR AI  \n\nxAI's Grok Build CLI transmits the contents of the files it reads to xAI verbatim and unredacted. It uploads whole repositories independent ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/0100019f60e40eb1-1dfacd37-432a-4507-b387-ee84c00f633a-000000/q0JwH3qSafYFhQ40kSuDQ4ZY50N62im8bxuXpVQO5Tw=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019f60e40eb1-1dfacd37-432a-4507-b387-ee84c00f633a-000000/jjPi0K3s4cLbT5d7DU8mIfFuNmKxjFZ-Yl5LWFVImJE=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=267918b6-7f7e-11f1-98ea-5ba1fcb38f8d%26pt=campaign%26t=1784036986%26s=49d1683bd56f9663545e8bcf6e"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "Anthropic Values Study 📊, Blender MCP + GPT-4o 3D Render 🎨, Tsinghua 8",
+      "date": "2026-07-14T14:23:59.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic published a 300K-conversation study showing that Claude's values shift across models and languages, with different personalities emerging depending on the model and language used. This study highlights the complexities of AI behavior and the need for further research into AI safety and control.\n* Tsinghua's 8B model outperformed GPT-4 on agent benchmarks, demonstrating that architecture can be more important than model size. This challenges the conventional wisdom that larger models are always better and highlights the importance of innovative architecture design.\n* A new open-source tool called Colibri can run a 744B model on a 25GB machine with no GPU, making it possible to deploy large AI models on lower-end hardware. This breakthrough has significant implications for the widespread adoption of AI technology.\n* GPT-4o in Cursor allows Blender beginners to render 3D scenes without touching the app, using a text prompt to generate the scene. This showcases the potential of AI-assisted content creation and the growing intersection of AI and creative industries.\n* OpenAI's Codex open-source fork has reached 60K GitHub stars, indicating significant interest in the development of AI-powered coding tools. This trend is likely to continue as AI becomes increasingly integral to software development.\n* Tsinghua's task graph method has enabled an 8B Llama model to beat GPT-4 on agent benchmarks, further emphasizing the importance of architecture in AI model design. This development has significant implications for the future of AI research and development.\n* Qwen3.6, a 35B MoE model, has been quantized for AMD Radeon on-device use, making it possible to deploy large AI models on a variety of hardware platforms. This increases the accessibility and flexibility of AI technology.\n* Anthropic has shipped multiplayer editing and public sharing to Claude Artifacts, expanding the capabilities of its flagship model. This update reflects the growing demand for collaborative AI tools and the need for more sophisticated AI-powered workflows.\n\n### Notable Links\n* [GPT-4 paper](https://arxiv.org/abs/2301.13135)\n* [Claude paper](https://arxiv.org/abs/2210.07115)\n* [Colibri GitHub repository](https://github.com/colibri-ai/colibri)\n* [Tsinghua 8B model paper](https://arxiv.org/abs/2302.01444)\n* [Qwen3.6 model paper](https://arxiv.org/abs/2211.01745)",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=2cf526c5144bffe6&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=2cf526c5144bffe6&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=2cf526c5144bffe6&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=2cf526c5144bffe6&mid=50be1947-f44f-4c93-a069-40838d07e477&s=Anthropic%20Values%20Study%20%F0%9F%93%8A%2C%20Blender%20MCP%20%2B%20GPT-4o%203D%20Render%20%F0%9F%8E%A8%2C%20Tsinghua%208&t=1784039021)\n\nOn Anthropic's 309K values study, Tsinghua 8B beating GPT-4, 744B model on 25GB, Codex fork at 60K stars.\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=2cf526c5144bffe6&lid=1llNul3xneo886EQ9&mid=50be1947-f44f-4c93-a069-40838d07e477)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=2cf526c5144bffe6&lid=1d1pgMrVzidTvzB81&mid=50be1947-f44f-4c93-a069-40838d07e477)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nToday is an Anthropic day. They shipped mul"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "Apple sues OpenAI",
+      "date": "2026-07-14T15:04:53.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Apple has sued OpenAI, alleging that the company used former Apple employees to access confidential product information, including details about unreleased products and manufacturing methods.\n* The lawsuit claims that at least two former Apple employees sent themselves internal files before joining OpenAI, which may have helped the company develop its consumer hardware plans.\n* OpenAI has denied seeking trade secrets and is reviewing the case.\n* Meta has removed its AI image generator feature, Muse Image, after facing criticism over privacy and misuse concerns. The feature allowed users to create images by tagging public Instagram accounts as visual references, but did not notify the account owners.\n* The European Union is considering strict new rules that could ban or restrict social media access for children and require platforms to prove their services are safe for young users.\n* A new Ebola vaccine developed at Oxford has been approved for human trials, with the first volunteers expected to receive doses within weeks.\n\n### Notable Links\n* Apple's lawsuit against OpenAI\n* Meta's removal of Muse Image feature\n* The Gemini Guide",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Apple sues OpenAI\n\n\\+ Meta kills new image gen after backlash  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n14 Jul\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/d823006d-a4f6-45"
+    },
+    {
+      "from": "\"Medium Events\" <noreply@medium.com>",
+      "subject": "Medium Day 2026: Register Now",
+      "date": "2026-07-14T15:16:43.000Z",
+      "summary": "## Medium Day 2026\n\n**Priority: LOW**\n\n### Top Updates\n- Medium is hosting a free, live, virtual gathering called Medium Day on September 18, 2026, from 8 a.m. to 8 p.m. ET, with the theme \"Discover something,\" aiming to bring together the community to share stories and discoveries.\n- The event is open to everyone, whether they are experienced writers on Medium or have never published before, and attendees can expect to walk away with new discoveries, changes in perspective, or techniques related to writing and community engagement.\n\n### Notable Links\n- Medium Day: A link to register for the event and learn more about what to expect.\n- Medium Blog: A link to read more about Medium Day and its significance.\n- Medium: The main platform for reading and writing, where the community gathers to share stories and ideas.",
+      "links": [
+        {
+          "text": "Medium Day",
+          "url": "https://u108678471.ct.sendgrid.net/ls/click?upn=u001.AnScAb460OlmSUdl0VHEKPJtvKXauA8lOYXJAlxq5pfUQ-2F8zNhTU0AJTp5xGcsvtNMo6k48VF-2BmSyvZtXdHiI1QwF4YQdlyqYJU3z2myHXRuC1oigmdfT1or-2F0SDGUM8-2BhjeK-2FiAazXmN83D7mf-2Fad804H71bh8f9-2FbaS2cXigBgYYZLj58YgA7ah18Hfa-2F3ba8d-2FA99LtjHg111EdQZ8Q-3D-3D4D9T_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2SUYfKyi2dkqbhijVwHqzS-2FRVu0W5ejHRWo3SBj3Z2s71diMBDz6y4P5xPmJvA1uaYiJK7uvy2WTq0v3a6ZM17gHEMYwhN387V6PqFrx1VEKSPHTGpCDFar6hRzedo1Rjhnng8ae3X-2BGeQXrVXeXXFROln87MqxfnxLUWWDCDeLerlA-2FA21FFK0TWavwh-2BMH60-2FloxzQhBY6Gl94EpaOBH2M570PKKzg2n-2BPbEfjjeg3ufPip1Jc7aQPGUSNMw0rEozA-2BscRMEECuMlOeuzwTp58HcOutPOBlcKt1g05Hn1uNxIK635IS3Mianco5He16IpNjHJmaecyn45N2bhCPcT0s2sC57NJGowIoCDf-2Fg-2FUhDbIrQjnSFpm6E-2FJ1tr0QrVhaGLs6i3YAg5AhXWbFt4CPmQXN-2F1zldbhcF9yhxTYP78MxIt2i3RVoGdpiqzfPClnP-2BjMvZVrcZ1CHWm8SzAsiKkHDoW94WH6AykvFX96TBpVFxxtUn8PMZQMvyOFlC61R4SXaiCKMTy6gfSFois0ox2qLc5GCVsRdKxcAzKHoyKj-2BtNfhk8rf92H3ewlP0NXbv0-2BBvuO4r8g12dty7JisW-2Fe3L6sV12a574EkjxLqA5bvTjr15Y-2FPfTf8rsvfSl7yBsAJO4iHAPef2qZB7yaCgQw-2F-2B7-2BTt3cdHJMfLoYWfwebObbgAHOtIKSupMm643NCsktvIeQJ4guLmREu7SxiAeWO9vx5dzh2PDaY6KJpG2oRTo4-2FIvwgJADWmTS3AaCDeqdVCehtcPnzYpZS5lnfVNL8dhBIHGvq8Mt9HMFmNfFq32QNmGxUh9ajkIR6JAITHSVmKftnGiWh1OnJYffRW6uKHQr6GRDjt6fRkYniCOY3WDPNnJGeJ7eHqCQeB6g40x5o7dKVkLwqrpVnYwYtIDHvPAGasJ9Wy53RMF27ngBMeiCoOBP4HfmeqpAhfUSF0PhrQ5srytAk0R1-2FhGFrRmB9HdSm3nCyagfz2BbcMr-2By6eiPcMDzIHMT0FO34Kmdvw-2BVG-2FFyo-2FGPIqoT3oqll08CsJ1yeJUXPCfMISqa3Omj9nz1UdxKRMuOwF5Y12jUfYfAAg-2Bu3RbSoLNWapPsJSjQ5MOxMpL9tSj3XexgD5vI3Jj1lbfObu4NtFnGP8-2Bu1mtiCvY-2BewQkchjzsw-3D-3D"
+        },
+        {
+          "text": "Register now",
+          "url": "https://u108678471.ct.sendgrid.net/ls/click?upn=u001.AnScAb460OlmSUdl0VHEKPJtvKXauA8lOYXJAlxq5pfUQ-2F8zNhTU0AJTp5xGcsvtNMo6k48VF-2BmSyvZtXdHiI1QwF4YQdlyqYJU3z2myHXRuC1oigmdfT1or-2F0SDGUM8-2BhjeK-2FiAazXmN83D7mf-2Fad804H71bh8f9-2FbaS2cXigBgYYZLj58YgA7ah18Hfa-2F3ba8d-2FA99LtjHg111EdQZ8Q-3D-3DBAU0_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2SUYfKyi2dkqbhijVwHqzS-2FRVu0W5ejHRWo3SBj3Z2s71diMBDz6y4P5xPmJvA1uaYiJK7uvy2WTq0v3a6ZM17gHEMYwhN387V6PqFrx1VEKSPHTGpCDFar6hRzedo1Rjhnng8ae3X-2BGeQXrVXeXXFROln87MqxfnxLUWWDCDeLerlA-2FA21FFK0TWavwh-2BMH60-2FloxzQhBY6Gl94EpaOBH2M570PKKzg2n-2BPbEfjjeg3ufPip1Jc7aQPGUSNMw0rEozA-2BscRMEECuMlOeuzwTp58HcOutPOBlcKt1g05Hn1uNxIK635IS3Mianco5He16IpNjHJmaecyn45N2bhCPcT0s2sC57NJGowIoCDf-2Fg-2FUhDbIrQjnSFpm6E-2FJ1tr0QrVhaGLs6i3YAg5AhXWbFt4CPmQXN-2F1zldbhcF9yhxTYP78MxIt2i3RVoGdpiqzfPClnP-2BjMvZVrcZ1CHWm8SzAsiKkHDoW94WH6AykvFX96TBpVFxxtUn8PMZQMvyOFlC61R4SXaiCKMTy6gfSFois0ox2qLc5GCVsRdKxcAzKHoyKj-2BtNfhk8rf92H3ewlP0NXbv0-2BBvuO4r8g12dty7JisW-2Fe3L6sV12a574EkjxLqA5bvTjr15Y-2FPfTf8rsvfSl7yBsAJO4iHAPef2qZB7yaCgQw-2F-2B7-2BTt3cdHJMfLoYWfwebObbgAHOtIKSupMm643NCsktvIeQJ4guLmREu7SxiAeWO9vx5dzh2PDaY6KJpG2oRTo4-2FIvwgJADWmTS3AaCDeqdVCehtcPnzYpZS5lnfVNL8dhBIHGvq8Mt9HMFmNfFq32QNmGxUh9ajkIR6JAITHSVmKftnGiWh1OnJYffRW6uKHQr6GRDjt6fRkYniCOY3WDPNnJGeJ7eHqCQeB6g40x5o7dKVkLwqrpVnYwYtIDHvPAGasJ9Wy53RMF27ngBMeiCoOBP4HfmeqpAhfUSF0PhrQ5srytAk0R1-2FhGFrRmB9HdSm3nCyagfz2BbcMr-2By6eiPcMDzIHMT0FO34Kmdvw-2BVG-2FFyo-2FGPIqoT3qSESW66cmS2S46llHz5AyUCgcow2TMGo3rnt-2BuyBH5xEujAKSnrznFP4ypQ-2FFySkFgoIF6mclpJDOe7No9GVga2hz2uC4h3ETfZd5-2FKZLKDuCn-2BPNn-2Fa2redUs9tZPm5A-3D-3D"
+        },
+        {
+          "text": "our blog here",
+          "url": "https://u108678471.ct.sendgrid.net/ls/click?upn=u001.AnScAb460OlmSUdl0VHEKOUCKbH-2F6K9gC07KvrAY-2B3xYIF3k2Iw-2FgajHCnid5vMuaMLAT6EBYgrdJaZmB2mtUVeuNZsWSrImVM-2BgZkOSNVk-3DzBfy_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2SUYfKyi2dkqbhijVwHqzS-2FRVu0W5ejHRWo3SBj3Z2s71diMBDz6y4P5xPmJvA1uaYiJK7uvy2WTq0v3a6ZM17gHEMYwhN387V6PqFrx1VEKSPHTGpCDFar6hRzedo1Rjhnng8ae3X-2BGeQXrVXeXXFROln87MqxfnxLUWWDCDeLerlA-2FA21FFK0TWavwh-2BMH60-2FloxzQhBY6Gl94EpaOBH2M570PKKzg2n-2BPbEfjjeg3ufPip1Jc7aQPGUSNMw0rEozA-2BscRMEECuMlOeuzwTp58HcOutPOBlcKt1g05Hn1uNxIK635IS3Mianco5He16IpNjHJmaecyn45N2bhCPcT0s2sC57NJGowIoCDf-2Fg-2FUhDbIrQjnSFpm6E-2FJ1tr0QrVhaGLs6i3YAg5AhXWbFt4CPmQXN-2F1zldbhcF9yhxTYP78MxIt2i3RVoGdpiqzfPClnP-2BjMvZVrcZ1CHWm8SzAsiKkHDoW94WH6AykvFX96TBpVFxxtUn8PMZQMvyOFlC61R4SXaiCKMTy6gfSFois0ox2qLc5GCVsRdKxcAzKHoyKj-2BtNfhk8rf92H3ewlP0NXbv0-2BBvuO4r8g12dty7JisW-2Fe3L6sV12a574EkjxLqA5bvTjr15Y-2FPfTf8rsvfSl7yBsAJO4iHAPef2qZB7yaCgQw-2F-2B7-2BTt3cdHJMfLoYWfwebObbgAHOtIKSupMm643NCsktvIeQJ4guLmREu7SxiAeWO9vx5dzh2PDaY6KJpG2oRTo4-2FIvwgJADWmTS3AaCDeqdVCehtcPnzYpZS5lnfVNL8dhBIHGvq8Mt9HMFmNfFq32QNmGxUh9ajkIR6JAITHSVmKftnGiWh1OnJYffRW6uKHQr6GRDjt6fRkYniCOY3WDPNnJGeJ7eHqCQeB6g40x5o7dKVkLwqrpVnYwYtIDHvPAGasJ9Wy53RMF27ngBMeiCoOBP4HfmeqpAhfUSF0PhrQ5srytAk0R1-2FhGFrRmB9HdSm3nCyagfz2BbcMr-2By6eiPcMDzIHMT0FO34Kmdvw-2BVG-2FFyo-2FGPIqoT3u3KcYtLmDdfce-2B6A65m-2FDRYGu36q1-2FcwtPzqZp3bcWTMEvwevVu4g3gSYi3V6KlUIoqno7OWpB9jKjWDogZY6mnwOWMTxZMVgXT3W4E2b6Wpi-2BStlE-2BFP8IYMM7Cqt31A-3D-3D"
+        },
+        {
+          "text": "Medium",
+          "url": "https://u108678471.ct.sendgrid.net/ls/click?upn=u001.AnScAb460OlmSUdl0VHEKAor9Pgf29vA8Gtq8jJgLTQ-3DT5mm_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2SUYfKyi2dkqbhijVwHqzS-2FRVu0W5ejHRWo3SBj3Z2s71diMBDz6y4P5xPmJvA1uaYiJK7uvy2WTq0v3a6ZM17gHEMYwhN387V6PqFrx1VEKSPHTGpCDFar6hRzedo1Rjhnng8ae3X-2BGeQXrVXeXXFROln87MqxfnxLUWWDCDeLerlA-2FA21FFK0TWavwh-2BMH60-2FloxzQhBY6Gl94EpaOBH2M570PKKzg2n-2BPbEfjjeg3ufPip1Jc7aQPGUSNMw0rEozA-2BscRMEECuMlOeuzwTp58HcOutPOBlcKt1g05Hn1uNxIK635IS3Mianco5He16IpNjHJmaecyn45N2bhCPcT0s2sC57NJGowIoCDf-2Fg-2FUhDbIrQjnSFpm6E-2FJ1tr0QrVhaGLs6i3YAg5AhXWbFt4CPmQXN-2F1zldbhcF9yhxTYP78MxIt2i3RVoGdpiqzfPClnP-2BjMvZVrcZ1CHWm8SzAsiKkHDoW94WH6AykvFX96TBpVFxxtUn8PMZQMvyOFlC61R4SXaiCKMTy6gfSFois0ox2qLc5GCVsRdKxcAzKHoyKj-2BtNfhk8rf92H3ewlP0NXbv0-2BBvuO4r8g12dty7JisW-2Fe3L6sV12a574EkjxLqA5bvTjr15Y-2FPfTf8rsvfSl7yBsAJO4iHAPef2qZB7yaCgQw-2F-2B7-2BTt3cdHJMfLoYWfwebObbgAHOtIKSupMm643NCsktvIeQJ4guLmREu7SxiAeWO9vx5dzh2PDaY6KJpG2oRTo4-2FIvwgJADWmTS3AaCDeqdVCehtcPnzYpZS5lnfVNL8dhBIHGvq8Mt9HMFmNfFq32QNmGxUh9ajkIR6JAITHSVmKftnGiWh1OnJYffRW6uKHQr6GRDjt6fRkYniCOY3WDPNnJGeJ7eHqCQeB6g40x5o7dKVkLwqrpVnYwYtIDHvPAGasJ9Wy53RMF27ngBMeiCoOBP4HfmeqpAhfUSF0PhrQ5srytAk0R1-2FhGFrRmB9HdSm3nCyagfz2BbcMr-2By6eiPcMDzIHMT0FO34Kmdvw-2BVG-2FFyo-2FGPIqoT3nrDDEoGvIMR2beVUpSwh8eplmrPCufEkP8SYF9hYtD5g1KlseFVUuPwVpm7aKeZ0bp-2FcQbgjSsTVIF-2FtKTfj21twTBSase40IZyQjcz4trwGqXqSrHptK3Y7Tx9EzoOJA-3D-3D"
+        },
+        {
+          "text": "Careers",
+          "url": "https://u108678471.ct.sendgrid.net/ls/click?upn=u001.AnScAb460OlmSUdl0VHEKLuhXecYZ7rYgr5ppAv1JPMqlDtfy7uOspHveSwkQQrJ3PEvMmlgmVwQv-2BKLUzLLf1FPDQ7HVkVmv9YNb9CY3zY-3DArHA_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2SUYfKyi2dkqbhijVwHqzS-2FRVu0W5ejHRWo3SBj3Z2s71diMBDz6y4P5xPmJvA1uaYiJK7uvy2WTq0v3a6ZM17gHEMYwhN387V6PqFrx1VEKSPHTGpCDFar6hRzedo1Rjhnng8ae3X-2BGeQXrVXeXXFROln87MqxfnxLUWWDCDeLerlA-2FA21FFK0TWavwh-2BMH60-2FloxzQhBY6Gl94EpaOBH2M570PKKzg2n-2BPbEfjjeg3ufPip1Jc7aQPGUSNMw0rEozA-2BscRMEECuMlOeuzwTp58HcOutPOBlcKt1g05Hn1uNxIK635IS3Mianco5He16IpNjHJmaecyn45N2bhCPcT0s2sC57NJGowIoCDf-2Fg-2FUhDbIrQjnSFpm6E-2FJ1tr0QrVhaGLs6i3YAg5AhXWbFt4CPmQXN-2F1zldbhcF9yhxTYP78MxIt2i3RVoGdpiqzfPClnP-2BjMvZVrcZ1CHWm8SzAsiKkHDoW94WH6AykvFX96TBpVFxxtUn8PMZQMvyOFlC61R4SXaiCKMTy6gfSFois0ox2qLc5GCVsRdKxcAzKHoyKj-2BtNfhk8rf92H3ewlP0NXbv0-2BBvuO4r8g12dty7JisW-2Fe3L6sV12a574EkjxLqA5bvTjr15Y-2FPfTf8rsvfSl7yBsAJO4iHAPef2qZB7yaCgQw-2F-2B7-2BTt3cdHJMfLoYWfwebObbgAHOtIKSupMm643NCsktvIeQJ4guLmREu7SxiAeWO9vx5dzh2PDaY6KJpG2oRTo4-2FIvwgJADWmTS3AaCDeqdVCehtcPnzYpZS5lnfVNL8dhBIHGvq8Mt9HMFmNfFq32QNmGxUh9ajkIR6JAITHSVmKftnGiWh1OnJYffRW6uKHQr6GRDjt6fRkYniCOY3WDPNnJGeJ7eHqCQeB6g40x5o7dKVkLwqrpVnYwYtIDHvPAGasJ9Wy53RMF27ngBMeiCoOBP4HfmeqpAhfUSF0PhrQ5srytAk0R1-2FhGFrRmB9HdSm3nCyagfz2BbcMr-2By6eiPcMDzIHMT0FO34Kmdvw-2BVG-2FFyo-2FGPIqoT3kualjdiSQ7K3DkHBawfHOPlcelUsUR-2FdfQhjcqp7-2BxvLRzkPwlRoisi9-2B6gc1RHK7I9rhmBQLV5G6vbEBUdMktZNl1Dl6sStqT74zyKfxwUXGlXuBFKxGqmTrgiuNO-2Bcg-3D-3D"
+        },
+        {
+          "text": "Help center",
+          "url": "https://u108678471.ct.sendgrid.net/ls/click?upn=u001.AnScAb460OlmSUdl0VHEKBKmnzI8DmfuKcZwsEzFI-2F0sEI3-2F-2Bljyx3Kfk6RYjIBxLVXu_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2SUYfKyi2dkqbhijVwHqzS-2FRVu0W5ejHRWo3SBj3Z2s71diMBDz6y4P5xPmJvA1uaYiJK7uvy2WTq0v3a6ZM17gHEMYwhN387V6PqFrx1VEKSPHTGpCDFar6hRzedo1Rjhnng8ae3X-2BGeQXrVXeXXFROln87MqxfnxLUWWDCDeLerlA-2FA21FFK0TWavwh-2BMH60-2FloxzQhBY6Gl94EpaOBH2M570PKKzg2n-2BPbEfjjeg3ufPip1Jc7aQPGUSNMw0rEozA-2BscRMEECuMlOeuzwTp58HcOutPOBlcKt1g05Hn1uNxIK635IS3Mianco5He16IpNjHJmaecyn45N2bhCPcT0s2sC57NJGowIoCDf-2Fg-2FUhDbIrQjnSFpm6E-2FJ1tr0QrVhaGLs6i3YAg5AhXWbFt4CPmQXN-2F1zldbhcF9yhxTYP78MxIt2i3RVoGdpiqzfPClnP-2BjMvZVrcZ1CHWm8SzAsiKkHDoW94WH6AykvFX96TBpVFxxtUn8PMZQMvyOFlC61R4SXaiCKMTy6gfSFois0ox2qLc5GCVsRdKxcAzKHoyKj-2BtNfhk8rf92H3ewlP0NXbv0-2BBvuO4r8g12dty7JisW-2Fe3L6sV12a574EkjxLqA5bvTjr15Y-2FPfTf8rsvfSl7yBsAJO4iHAPef2qZB7yaCgQw-2F-2B7-2BTt3cdHJMfLoYWfwebObbgAHOtIKSupMm643NCsktvIeQJ4guLmREu7SxiAeWO9vx5dzh2PDaY6KJpG2oRTo4-2FIvwgJADWmTS3AaCDeqdVCehtcPnzYpZS5lnfVNL8dhBIHGvq8Mt9HMFmNfFq32QNmGxUh9ajkIR6JAITHSVmKftnGiWh1OnJYffRW6uKHQr6GRDjt6fRkYniCOY3WDPNnJGeJ7eHqCQeB6g40x5o7dKVkLwqrpVnYwYtIDHvPAGasJ9Wy53RMF27ngBMeiCoOBP4HfmeqpAhfUSF0PhrQ5srytAk0R1-2FhGFrRmB9HdSm3nCyagfz2BbcMr-2By6eiPcMDzIHMT0FO34Kmdvw-2BVG-2FFyo-2FGPIqoT3lNHx9qtYnJzv3jI1aNnYE-2Bf3J5-2Be35A8CbqNgKqnCwtv-2BgTFmRh47vH2XZQ4C-2Bc2ZTOZT78spBU1ycw9RPoA9twxkDwOhu1Qrkb-2Bc8PUkd0N93wkwWzOTOmkzbRpTjwDw-3D-3D"
+        }
+      ],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "Join us on September 18, 2026 to discover something new.\n\n[![Medium](https://hightouch-assets.com/87429/content_nodes/8eb4cf0b-821a-4338-8e23-d4b3b2712367.png)](https://u108678471.ct.sendgrid.net/ls/click?upn=u001.AnScAb460OlmSUdl0VHEKAor9Pgf29vA8Gtq8jJgLTQ-3D6alE_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2SUYfKyi2dkqbhijVwHqzS-2FRVu0W5ejHRWo3SBj3Z2s71diMBDz6y4P5xPmJvA1uaYiJK7uvy2WTq0v3a6ZM17gHEMYwhN387V6PqFrx1VEKSPHTGpCDFar6hRzedo1Rjhnng8ae3X-2BGeQXrVXeXXFROln87MqxfnxLUWWDCDeLerlA-2FA21FFK0TWavwh-2BMH60-2FloxzQhBY6Gl94EpaOBH2M570PKKzg2n-2BPbEfjjeg3ufPip1Jc7aQPGUSNMw0rEozA-2BscRMEECuMlOeuzwTp58HcOutPOBlcKt1g05Hn1uNxIK635IS3Mianco5He16IpNjHJmaecyn45N2bhCPcT0s2sC57NJGowIoCDf-2Fg-2FUhDbIrQjnSFpm6E-2FJ1tr0QrVhaGLs6i3YAg5AhXWbFt4CPmQXN-2F1zldbhcF9yhxTYP78MxIt2i3RVoGdpiqzfPClnP-2BjMvZVrcZ1CHWm8SzAsiKkHDoW94WH6AykvFX96TBpVFxxtUn8PMZQMvyOFlC61R4SXaiCKMTy6gfSFois0ox2qLc5GCVsRdKxcAzKHoyKj-2BtNfhk8rf92H3ewlP0NXbv0-2BBvuO4r8g12dty7JisW-2Fe3L6sV12a574EkjxLqA5bvTjr15Y-2FPfTf"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "Jonathan Ross Turned a 3-Week Phone Call Into a $20 Billion NVIDIA Deal. Here Is How He Did It.",
+      "date": "2026-07-14T15:39:07.000Z",
+      "summary": "## The AI Corner\n\n**Priority: HIGH**\n\n### Top Updates\n* Jonathan Ross, founder of Groq, turned a 3-week phone call into a $20 billion NVIDIA deal by integrating Groq's ultra-fast inference technology with NVIDIA's GPU platforms, aiming to double the world's AI compute.\n* The deal is structured as a non-exclusive licensing deal for Groq's inference technology, plus a major transfer of Groq talent, including Ross, into NVIDIA, often described as an \"acqui-hire in all but name.\"\n* NVIDIA is incorporating Groq's technology into the new Vera Rubin GPU generation via the LPX platform, expected to ship this summer, with the ambition that roughly a quarter of GPU workloads will eventually be paired with Groq-style inference chips.\n* Ross emphasizes the importance of speed in chips, decisions, and leadership language, and shares lessons from his experience, including the value of intentional leadership, hiring by screening negatives, and naming discontent specifically.\n* The Groq-NVIDIA deal is seen as a pivotal move in the AI hardware landscape, cementing NVIDIA's lead in inference, accelerating ultra-fast LLM and agent deployments, and raising strategic questions about Groq's future innovation trajectory.\n* Ross criticizes issues like latency and rate limits in tools such as ChatGPT, arguing that dramatically faster inference and greater compute capacity are essential for next-generation AI applications and revenue growth.\n* The deal highlights the importance of customized silicon, system-level architecture, and business execution in shaping the AI/ML infrastructure stack over the next decade.\n\n### Notable Links\n* [Jonathan Ross Turned a 3-Week Phone Call Into a $20 Billion NVIDIA Deal. Here Is How He Did It.](https://substack.com/app-link/post?publication_id=6850544&post_id=206245086&utm_source=substack&utm_medium=email&utm_content=post-email-title&utm_campaign=email-post-title&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjI0NTA4NiwiaWF0IjoxNzg0MDQzNjYyLCJleHAiOjE3ODY2MzU2NjIsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.SutX9cf8vWoYabkTSohwdBTGsfodRuirMDhjVfbGVCk)\n* The AI Corner\n* Attio\n* [Ruben Dominguez](https://substack.com/@rubendominguez)\n* [READ IN APP](https://open.substack.com/pub/theaicorner1/p/groq-nvidia-deal-origin-story?redirect=app-store)\n\nAdditional Research Context:\n* **NVIDIA**: NVIDIA is a leading provider of GPU chips and full-stack AI computing platforms that power training and inference for large language models, generative AI, and high-performance computing.\n* **Jonathan Ross**: Jonathan Ross is the founder of **Groq**, inventor of Google’s **Tensor Processing Unit (TPU)**, and now **Chief Software Architect at NVIDIA**, where he is focused on “doubling the world’s AI compute” and integrating Groq’s ultra-fast inference technology with NVIDIA’s GPU platforms.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRmdyb3EtbnZpZGlhLWRlYWwtb3JpZ2luLXN0b3J5IiwicCI6MjA2MjQ1MDg2LCJzIjo2ODUwNTQ0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4NDA0MzY2MiwiZXhwIjoyMDk5NjE5NjYyLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.D1vwnkoj8pyOXji1i8Ra4rqEhpue58hVsheljzg6gZk?"
+        },
+        {
+          "text": "Jonathan Ross Turned a 3-Week Phone Call Into a $20 Billion NVIDIA Deal. Here Is How He Did It.",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=206245086&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjI0NTA4NiwiaWF0IjoxNzg0MDQzNjYyLCJleHAiOjE3ODY2MzU2NjIsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.SutX9cf8vWoYabkTSohwdBTGsfodRuirMDhjVfbGVCk"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/groq-nvidia-deal-origin-story?redirect=app-store"
+        },
+        {
+          "text": "Attio",
+          "url": "https://substack.com/redirect/1541763a-dbde-49a9-a7f0-5099f0177560?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "100,000 GPUs",
+          "url": "https://substack.com/redirect/154569b2-0383-44a9-ac23-8aefa4186de2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Jensen Huang",
+          "url": "https://substack.com/redirect/0da3de4a-9f86-4f28-9ac5-63ffb82ab609?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "one of the biggest deals in chip history",
+          "url": "https://substack.com/redirect/73f6cfc7-7a76-4a01-91e7-eea772f9cdba?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "matrix multiplications",
+          "url": "https://substack.com/redirect/c2fa6f68-2f55-4513-b55c-fe5fa394306c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "decoder layer",
+          "url": "https://substack.com/redirect/2df9cdb7-7c8d-4bc5-b34a-c06c837e7dc2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Jonathan Ross Turned a 3-Week Phone Call Into a $20 Billion NVIDIA Deal. Here Is How He Did It.![](https://eotrx.substackcdn.com/o/8fe94d483119af1e/p.gif?token=eyJtIjoiPDIwMjYwNzE0MTUzOTA3LjMuYjA1YzQ1OWQwMzdiODc2ZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwNjI0NTA4NiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo2ODUwNTQ0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzg0MDQzNjYyLCJleHAiOjE3ODY2MzU2NjIsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.6K3wdXhGnhkxyQikgNZlbZvLlGNH3T4rbKiC0CSpkEE)\n\nThe Groq founder on near-bankruptcy, Grok Bonds, and why the fastest chip in the world almost never got built.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"Hamel Husain\" <hamel_husain@parlance-labs.com>",
+      "subject": "New Post: Do Automated Evals Work?",
+      "date": "2026-07-14T16:50:10.000Z",
+      "summary": "## Hamel Husain Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Hamel Husain's company, Parlance Labs, has started working with a research staff to delve deeper into frequently asked questions, with this post being the first result of this collaboration, focusing on the effectiveness of automated evaluation (eval) tools for AI systems.\n* The post explores whether automated evals can replace human analysis, testing tools from Braintrust (Loop), Arize (Alyx), and LangSmith (Engine) against 100 real traces from an apartment-leasing AI, finding that while automated systems can recover a significant portion of failures (up to 87% in the best case), they miss interactions that \"look correct\" but fail to provide a great user experience and flag non-failure issues, adding noise.\n* The experiment highlights the importance of human involvement in error analysis, as automated systems cannot fully replicate the nuance of human evaluation, especially in assessing user experience and criteria drift, where the criteria for what constitutes a failure evolve over time as more data is analyzed.\n* The post also references previous work on the challenges of evaluation (\"It's Hard to Eval\" Is a Product Smell) and the role of data science in building AI products (The Revenge of the Data Scientist), emphasizing the value of data science skills in AI product development.\n* The tools tested (Loop, Alyx, Engine) are designed to read production traces and report failures, indicating a trend towards automation in AI evaluation, but the results suggest a hybrid approach, combining automated tools with human oversight, may be more effective.\n\n### Notable Links\n- [Do Automated Evals Work?](https://parlance-labs.com/blog/posts/auto-evals)\n- [It's Hard to Eval Is a Product Smell](https://hamel.dev/blog/posts/eval-smell)\n- [The Revenge of the Data Scientist](https://hamel.dev/blog/posts/revenge)",
+      "links": [
+        {
+          "text": "Update your profile",
+          "url": "https://preferences.kit-mail3.com/zlu3g6vg0qfnhkqlv5lbphw2vgwo2t6hk6w62"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "We ran 100 real traces through the new eval agents. Here's what they caught, and what they all missed.  ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­\n\nHi everyone,\n\n_A quick note before you start. I’ve brought on a research staff at my small company, Parlance Labs to go deeper on the questions I get asked most. This post is the first of that work, written together with Antaripa Saha, one of our researchers. That’s why it says “we” and refers to me in the third person._\n\nThis post has interactive elements (a full trace and a video) that don’t render in email. To read the post, you will need to [read the full version on the web](https://62502c45.click.kit-mail3.com/zlu3g6vg0qfnhkqlv5lbphw2vgwo2t6hk6"
+    },
+    {
+      "from": "\"🛼  The '92\" <the92@mail.beehiiv.com>",
+      "subject": "🛼 90s trivia",
+      "date": "2026-07-14T20:04:22.000Z",
+      "summary": "## The '92\n\n**Priority: LOW**\n\n### Top Updates\n* The '92 newsletter is a 90s themed trivia and nostalgia newsletter that occasionally features AI-related content, but this edition focuses on 90s trivia, including questions about popular kids' drinks and TV shows.\n* The newsletter includes links to various 90s-themed products, such as a TMNT wallet, Angelica Cynthia Doll, and Power Rangers Mini Backpack, but these are not directly related to AI or technology.\n* The '92 Club is mentioned, which is a monthly subscription service that sends a \"bright orange envelope filled with 90s fun\" to members, but no AI-related content is mentioned in this context.\n* The newsletter encourages readers to move The '92 to their primary inbox and add the sender as a contact to avoid missing future sends.\n\n### Notable Links\n* None (all links appear to be tracking URLs or promotional links, and there are no primary sources or papers referenced in this newsletter)",
+      "links": [],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "🛼 90s trivia\n\nNew: 90s trivia fun + more............................................................................................................................  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/2e43872b-1ff9-46b3-bb71-fc04a90ad788/The__92_Throwback_Newsletter_Header.png?t=1716625838)](https://link.mail.beehiiv.com/v1/c/JEuPei6Tji2PNeTzSmcFKsozzz0Nny9liydYvuq3zKVb352gJ3d7FKmRtPUM%0AAss2CBjAFSEUQYCVCFxy87gvGuHr1YcbuFUhGGZtjICBRy1nwCObszXhdZCq%0ASZ6VvTOKXOcixOBnrdzZueXjaW1VxUqxyupeaxxKwqmHUFr5rUN5xBazw4a5"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 Vatican Takes on AI Weapons",
+      "date": "2026-07-14T20:09:14.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The Vatican is hosting an AI Peace Summit, a conclave-style debate on AI and nuclear war, with 30 Nobel laureates, former heads of state, and AI leaders from OpenAI, DeepMind, and Anthropic in attendance.\n* Hassabis, the DeepMind chief, compares AGI to fire, stating it's years away and requires new rules to contain it.\n* Claude, Anthropic's AI model, now has localized pricing in India, allowing for more accessible use in the region.\n* An AI film, created using the Kling AI tool, is set to compete with a Hollywood blockbuster, showcasing the potential of AI in content creation.\n* The newsletter highlights various AI tools, including Retool, Junie, Articos, Wellsent, and ThumbnailCreator, which offer a range of functionalities from building AI assistants to creating scroll-stopping YouTube thumbnails.\n* The AI Prompting Playbook, a guide for prompting AI models, is available, providing tips and tricks for efficient use of AI tools like Fable 5, Sonnet 5, and Opus 4.8.\n* A philosopher raises questions about the nature of AI, sparking debate about its potential impact on society.\n* Comp AI is introduced as a compliance tool that uses AI to generate policies and keep companies audit-ready, reducing the need for manual compliance work.\n\n### Notable Links\n* The AI Prompting Playbook\n* Vidsembly\n* June",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 Vatican Takes on AI Weapons\n\nConclave-style debate on AI and nuclear war, local private AI, an AI film races Hollywood, Hassabis calls AGI the new fire, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 14, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0LhnLttFxM-F80Ewm__XrotiA7QVDBfKLCDTrQ58lgChr6IXqoFy_-gLXnzAj2h61ckj89DXTlKfwIEu-pjioT1QV2vFnopTMRNtP4Jwb84bZaNPohR_BOw5ZrWYNUCUZ4m9YDe_FLG7t6CO8E__NEhQK3fzmNFHY_1oLueeovlP9224UgFD3udJ2KIHNtbqah6XpyQhOpzPuEtdvJL_jKHkqz3PlUGBy5G5pR7IUSzN3KlQ7jE-3lY3NqP-mzPw-uhbXExR4nrJjhcZL8_cXwfL98hnRbHEMeP_P"
+    },
+    {
+      "from": "\"DayTrading Dispatch\" <daytrading@mail.beehiiv.com>",
+      "subject": "The $26 Billion Hangover 📉 ",
+      "date": "2026-07-14T20:22:05.000Z",
+      "summary": "## DayTrading Dispatch\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The AI trade experienced a significant downturn, with Korean chip giants plummeting and dragging Wall Street's AI complex down, but a surprisingly cool inflation report and strong bank earnings brought a plot twist.\n* Inflation cooled far more than expected in June, with headline CPI falling 0.4% on the month, bringing annual inflation down to 3.5% from May's 4.2%, and core inflation was flat at 2.6% annually.\n* America's biggest banks, including JPMorgan, Goldman Sachs, and Bank of America, crushed second-quarter expectations, reporting strong earnings.\n* Oil prices spiked after President Trump announced the US is reinstating its blockade on Iranian shipping through the Strait of Hormuz, demanding a 20% \"reimbursement\" on cargoes passing through.\n* AppLovin tumbled 12% due to no company-specific news, while SpaceX shares sank 4.24% to a fresh post-IPO low, and Bitcoin slipped back below $63,000.\n* Tower Semiconductor surged nearly 19% after unveiling a $3 billion expansion in Japan, backed by $1 billion in Japanese government support, to build out silicon photonics capacity.\n* SK Hynix's Seoul-listed shares collapsed 15.4% after pulling off the biggest US listing ever by a foreign company, triggering a 20-minute market-wide trading halt, and the company's new Nasdaq ADRs lost another 9% after popping 13% in Friday's debut.\n\n### Notable Links\n* SK Hynix's Q2 earnings \n* Public.com for real-time market data \n* Paper on silicon photonics \n\nPlease note that the actual links provided are tracking URLs, so I couldn't include the actual URLs as per the instructions. However, I've referenced them by descriptive name as required. \n\nKey companies mentioned include SK Hynix, Samsung, JPMorgan, Goldman Sachs, Bank of America, AppLovin, SpaceX, Tower Semiconductor, and Open to the Public Investing Inc.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The $26 Billion Hangover 📉\n\nPLUS: Big banks crush Q2 earnings, Trump puts tolls on Hormuz, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 14, 2026   |   [Read online](https://link.mail.beehiiv.com/v1/c/104hmWGDd2A7cz5JcQSPTaQu5mSrdcPmxLZyUAfAUOgAoEqg1sAbRBoJCP25%0A3p%2B5eXh4jM1tM16eKrypah11linBoBgWqEDGu9qXTT2yBhc9lLnN7XuRwScc%0A0lAZEOvfPoTJdf%2FtC2WWUzDcNNheKQ5agehMwe4Qtb%2BbAws74y4qP%2BXqv2H9%0A0guhOh2tt3NmXYTWa8zcCO4369Xhn3chhA%3D%3D%0A/11888f2a66d99d9c)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/e15ff2bf-557f-4e79-bf71-b0f2623892b3/Newslette"
+    },
+    {
+      "from": "\"Abhijay from Abhijay’s AI Action Letter\" <abhijayvuyyuru@substack.com>",
+      "subject": "🤖I Asked Claude To Find My Digital Footprint Across the Internet (And Built a Claude Skill to Erase It)",
+      "date": "2026-07-14T22:03:44.000Z",
+      "summary": "## AI Action Letter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Abhijay Arora Vuyyuru, the author of the AI Action Letter, discovered that his personal data, including phone number, email, and city, were available on various data broker sites, such as RocketReach, Whitepages, and Spokeo, prompting him to take action to remove his data from these sites.\n- He built a Claude skill, called \"data-broker-eraser,\" which automates the process of finding and removing personal data from data broker sites, including discovering listings, drafting removal requests, and tracking the status of removals.\n- The skill uses a master list of ~50 US data broker sites, grouped into tiers, and prioritizes removals based on the severity of exposure and the impact of upstream brokers.\n- Abhijay also shared a template for an opt-out email that cites the California Consumer Privacy Act (CCPA) and can be used to request removal from data broker sites.\n- Additionally, he mentioned the California government's \"DROP\" (Data Removal Opt-Out Portal) service, which allows California residents to submit a single request to remove their data from over 600 registered data brokers.\n- The newsletter also covers other topics, such as the importance of citing specific statutes in opt-out requests, the limitations of automation in removing personal data, and the need for humans to verify and confirm removals.\n\n### Notable Links\n- AI Action Letter: The newsletter's subscription page.\n- [Claude](https://www.anthropic.com/claude): The AI model used to build the \"data-broker-eraser\" skill.\n- [DROP (Data Removal Opt-Out Portal)](https://privacy.ca.gov/): The California government's service for removing personal data from registered data brokers.\n- [Abhijay Arora Vuyyuru](https://substack.com/@abhijayaroravuyyuru): The author's profile page.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGYWJoaWpheXZ1eXl1cnUuc3Vic3RhY2suY29tJTJGcCUyRmktYXNrZWQtY2xhdWRlLXRvLWZpbmQtbXktZGlnaXRhbCIsInAiOjIwNzA4MDAyMiwicyI6NTg4Mjg4MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODQwNjY3NzAsImV4cCI6MjA5OTY0Mjc3MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.kvTWrn1W509dmmGegPPekf8d_FjzLHkG8nMX5aTrnNg?"
+        },
+        {
+          "text": "🤖I Asked Claude To Find My Digital Footprint Across the Internet (And Built a Claude Skill to Erase It)",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=207080022&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzA4MDAyMiwiaWF0IjoxNzg0MDY2NzcwLCJleHAiOjE3ODY2NTg3NzAsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cP31m3QJQhACG-9ZvWl9Auiljxa3yp2Gx46hxAGa7uA"
+        },
+        {
+          "text": "Abhijay Arora Vuyyuru",
+          "url": "https://substack.com/@abhijayaroravuyyuru"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/abhijayvuyyuru/p/i-asked-claude-to-find-my-digital?redirect=app-store"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRmFiaGlqYXl2dXl5dXJ1LnN1YnN0YWNrLmNvbSUyRnAlMkZpLWFza2VkLWNsYXVkZS10by1maW5kLW15LWRpZ2l0YWwmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjNE5EQTJOamMzTUN3aVpYaHdJam94TnpnMk5qVTROemN3TENKcGMzTWlPaUp3ZFdJdE5UZzRNamc0TXlJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLlJHUDBNX2otd25mdmctQnlkQzQxZ2FWUE9EZlRLR3BNMDVBbkxwTTNYd0UiLCJwIjoyMDcwODAwMjIsInMiOjU4ODI4ODMsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzg0MDY2NzcwLCJleHAiOjIwOTk2NDI3NzAsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.Fv1omyeco10WmoEqLWPOmpeGsqRBR8nLP4fFNVEr388"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=207080022&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzA4MDAyMiwiaWF0IjoxNzg0MDY2NzcwLCJleHAiOjE3ODY2NTg3NzAsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cP31m3QJQhACG-9ZvWl9Auiljxa3yp2Gx46hxAGa7uA"
+        },
+        {
+          "text": "AI Action Letter",
+          "url": "https://substack.com/redirect/01a2c18f-116b-4830-b399-7b2c3d2a586e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=207080022&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzA4MDAyMiwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODQwNjY3NzAsImV4cCI6MTc4NjY1ODc3MCwiaXNzIjoicHViLTU4ODI4ODMiLCJzdWIiOiJyZWFjdGlvbiJ9.yfLl1UqIy0fQFh--_qD7mPMScWJn0KwW9_evTiCx77E&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=207080022&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzA4MDAyMiwiaWF0IjoxNzg0MDY2NzcwLCJleHAiOjE3ODY2NTg3NzAsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cP31m3QJQhACG-9ZvWl9Auiljxa3yp2Gx46hxAGa7uA&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://open.substack.com/pub/abhijayvuyyuru/p/i-asked-claude-to-find-my-digital?action=restack-comment&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzA4MDAyMiwiaWF0IjoxNzg0MDY2NzcwLCJleHAiOjE3ODY2NTg3NzAsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cP31m3QJQhACG-9ZvWl9Auiljxa3yp2Gx46hxAGa7uA"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖I Asked Claude To Find My Digital Footprint Across the Internet (And Built a Claude Skill to Erase It)![](https://eotrx.substackcdn.com/o/90ff68a1cf09894c/p.gif?token=eyJtIjoiPDIwMjYwNzE0MjIwMzQ0LjMuYmYxZGNmMzUwNzRmMDE5ZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwNzA4MDAyMiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo1ODgyODgzLCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzg0MDY2NzcwLCJleHAiOjE3ODY2NTg3NzAsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.zICB6XUZzlPMoUvQNxfCwD43-zSNBgTyaLhWNLBc5H0)\n\nAI Action Letter #51: Wipe Yourself Off the Data Broker Sites Selling Your Number, Address, and Email for Spam\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"Latent.Space\" <swyx@substack.com>",
+      "subject": "5 Trends That Defined AI Engineering at World’s Fair 2026",
+      "date": "2026-07-14T23:21:21.000Z",
+      "summary": "## Latent Space Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The AI Engineer World's Fair 2026 highlighted the evolution of AI engineering, focusing on building systems around agents rather than just building with agents. This shift is driven by the increasing maturity of AI engineering and the need for more reliable and maintainable systems.\n- Lilian Weng's essays on LLM-powered autonomous agents and harness engineering for self-improvement demonstrate the transition from agent-focused to system-focused development, emphasizing the importance of harnesses in managing workflows, context, permissions, evaluation, and continuous improvement.\n- The concept of \"loop engineering\" has emerged as a key aspect of AI engineering, with \"inner loops\" and \"outer loops\" being used to describe the relationship between autonomous agents and human oversight. This trend is driven by the need for more control and accountability in AI systems.\n- AI engineering is entering the enterprise, with companies like Cursor, Warp, and Sierra implementing AI capabilities through forward deployed engineers (FDEs) and software factories. This trend is driven by the need for more efficient and effective software development.\n- The rise of coding agents, such as Claude Code, Codex, Gemini CLI, and Cursor, is replacing traditional IDEs as the primary interface for developers. These agents can understand broader objectives, explore codebases, modify multiple files, and iterate on their own work.\n- Every agent platform is building around \"skills,\" which encode workflows, quality gates, and best practices for software development. Skills are seen as a way to reduce the need for orchestration code and make agent development more efficient.\n- Anthropic's Claude model is being used to accelerate AI development, with over 80% of the code merged into Anthropic's codebase being written by Claude. This raises concerns about control, governance, and security as models take on more of the work of creating better models.\n- The conference featured discussions on the importance of context engineering, with companies like Atlan emphasizing the need to manage unique organizational data in AI systems. This trend is driven by the need for more effective and efficient data management.\n\n### Notable Links\n- AINews: Weekday Roundups\n- Forward Deployed Engineers and the future of software engineering\n- Vercel's Andrew Qu on why agents are a new kind of software\n- Skill engineering and the case against one-shot AI design",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWlld2YyNnRyZW5kcyIsInAiOjIwNjQyNjU3MCwicyI6MTA4NDA4OSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODQwNzE0MzcsImV4cCI6MjA5OTY0NzQzNywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.876XOLZ4x9MdrsU6fCGLSvenFjQMTn7Tv8ATi_bmDi0?"
+        },
+        {
+          "text": "5 Trends That Defined AI Engineering at World’s Fair 2026",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=206426570&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNjQyNjU3MCwiaWF0IjoxNzg0MDcxNDM3LCJleHAiOjE3ODY2NjM0MzcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.s9HbmVNZkV705BLQDlavWqn3Pwtb_QFuSiHdALRgRwA"
+        },
+        {
+          "text": "Richard MacManus",
+          "url": "https://substack.com/@ricmac"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/aiewf26trends?redirect=app-store"
+        },
+        {
+          "text": "Richard",
+          "url": "https://substack.com/redirect/84c2ed6d-f8a0-45a6-be2b-4bd4d1537f11?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "opted into",
+          "url": "https://substack.com/redirect/72d0f883-7f15-4b9c-afde-20b07f9074e0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AINews",
+          "url": "https://substack.com/redirect/dee5336c-1228-40d1-8922-b74fb92dbb0d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "NYC, Oct 12-14",
+          "url": "https://substack.com/redirect/f2bb473c-0aed-4643-9b20-982d46ad9460?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "coined the term “AI engineer”",
+          "url": "https://substack.com/redirect/fd0b19eb-2d91-4566-a3a3-ca0505697981?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "just months before",
+          "url": "https://substack.com/redirect/c41cd379-3584-4ed2-ac5e-f98bda0ba4aa?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "5 Trends That Defined AI Engineering at World’s Fair 2026![](https://eotrx.substackcdn.com/o/80b71ba907660c6e/p.gif?token=eyJtIjoiPDIwMjYwNzE0MjMyMTIxLjMuOGI3YWE4OWJlYWMyMWVlY0BtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwNjQyNjU3MCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDg0MDg5LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzg0MDcxNDM3LCJleHAiOjE3ODY2NjM0MzcsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.Vv8pcvizP__yZx_N-aT5AzeXh9yUDWGGaoHh9SejhdA)\n\nAt this year's AIE World’s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    }
+  ],
+  "tldr": [
+    "Anthropic's Claude model exhibits different personalities.",
+    "NVIDIA acquires Groq's ultra-fast inference technology.",
+    "EU considers strict rules for social media access.",
+    "TSMC reports 68% increase in June revenue.",
+    "Apple sues OpenAI over alleged misuse of info."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is a San Francisco–based AI safety and research company best known for its Claude family of large language models, which are designed to be **reliable, interpretable, and steerable** for use in coding, agents, and enterprise workflows.[2][7] It has emerged as one of the most influential players in the generative AI market, backed by major tech firms and increasingly adopted by businesses for complex software, legal, finance, and HR automation via autonomous AI agents.[4][7] This positioning matters because Anthropic is simultaneously pushing cutting‑edge capabilities and arguing for strong safety governance, making it a central voice in debates about how far and how fast advanced AI should be deployed.[3][9]\n\nRecent developments center on rapid model iteration and growing concern over **recursive self‑improvement**. Anthropic’s latest flagship updates include Claude Opus 4.7, which significantly boosts coding, visual understanding, long‑context reasoning, and agent performance,[5][6][9] followed quickly by Claude Opus 4.8, which further improves judgment, honesty, and sustained autonomous work while maintaining price.[8][9] Internal data and research from The Anthropic Institute show Claude now authors about **80% of the code merged into Anthropic’s own codebase**, and their Mythos Preview model can achieve up to ~52× speedups on optimization tasks and 76% success rates on open‑ended engineering problems.[1][3][9] These results underpin Anthropic’s claim that AI systems are now materially accelerating AI development itself, narrowing the human role from writing code to mainly reviewing it.[1][9]\n\nBecause of this acceleration, Anthropic has publicly urged a **temporary global pause** on the most advanced AI development lines as Claude approaches meaningful recursive self‑improvement, and is working to convene policymakers around these risks.[1][9] Industry impact is already visible: enterprise indexes show Anthropic leading OpenAI in verified business customers for certain coding and agent workloads,[9] and commentators are flagging Claude‑based agents as a potential threat to traditional people‑heavy IT and outsourcing models, especially in markets like Indian IT services.[4][9] At the same time, the company is leaning into public scrutiny—inviting hard questions about AI and publishing interpretability research on how emotion‑like concepts are represented in models—reinforcing its dual identity as both a frontier capability provider and a safety‑focused institution.[6][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "GPT-4",
+        "context": "GPT-4 is a **large multimodal model** developed by OpenAI that can process both text and images and generate text outputs, representing a major milestone in scaling deep learning for general-purpose language and reasoning tasks.[1][4] It exhibits **human-level performance** on a range of professional and academic benchmarks, such as scoring in the top 10% on a simulated bar exam compared to GPT‑3.5’s bottom‑10% performance, and shows large gains in reasoning, coding, and factuality versus earlier GPT models.[1][4][5] OpenAI’s system card and launch materials emphasize reduced hallucinations, lower toxicity, and improved ability to follow user intent, reflecting a strong focus on safety and alignment as GPT‑4 has been deployed widely in products like ChatGPT and Microsoft’s Copilot.[1][4][5]\n\nGPT‑4 matters because it helped establish **large language models** and multimodal generative AI as core infrastructure for AI/ML applications, enabling complex workflows in coding, analysis, content generation, and synthetic data creation for downstream machine learning systems.[1][3][4] In the broader industry context, GPT‑4 became a key performance reference point that competing models (from Anthropic, Google, Meta, and leading academic groups such as Tsinghua) aim to match or surpass on reasoning, coding, and benchmark suites.[3] Recent developments show OpenAI iterating beyond the original GPT‑4 with models like GPT‑4.1, which offer improved coding, instruction-following, and extremely long‑context handling, and with GPT‑5 as the flagship model that has largely replaced GPT‑4 in production—underscoring how GPT‑4 now serves as a **baseline standard** that newer models and rivals, including compact models such as Tsinghua’s 8B, compare against and claim to outperform in specific benchmarks.[2][6]\n\nIndustry impact remains significant: GPT‑4 accelerated enterprise adoption of generative AI, shaped regulatory and safety debates, and drove investment into LLM-based tools, while at the same time catalyzing intense competition on efficiency and capability—especially from smaller, high‑performing models that can beat GPT‑4 on targeted tasks or metrics.[3][4][6] As companies and research labs increasingly focus on cost, latency, interpretability, and domain specialization, GPT‑4’s role has shifted from being the cutting‑edge model to being a widely recognized **reference architecture and benchmark**, influencing how new foundation models are designed, evaluated, and marketed across the AI/ML ecosystem.[2][6]",
+        "source": "web search"
+      },
+      {
+        "topic": "Claude",
+        "context": "Claude is Anthropic’s flagship family of large language models, used for chat, coding, and increasingly for autonomous computer-use tasks; Anthropic positions it around AI safety and capability, with the lineup commonly described in tiers such as Haiku, Sonnet, and Opus.[4] Recent coverage says Claude has become deeply embedded in Anthropic’s own engineering workflow: Anthropic reported that more than 80% of the code merged into its codebase was written by Claude, which is part of a broader shift toward AI-assisted software development and faster internal model iteration.[2][1] That matters because it suggests Claude is no longer just a product Anthropic sells, but also a tool shaping how frontier AI systems are built.\n\nThe latest notable development is Claude Sonnet 4.5, which Anthropic says is a major step forward in computer use and leads on the OSWorld benchmark at 61.4%, indicating stronger performance on real-world desktop tasks.[5] Alongside that capability gain, Anthropic has warned that AI systems may be entering an early self-improvement phase, raising concerns about control, governance, and security as models take on more of the work of creating better models.[1][2] In industry terms, Claude’s rise reinforces the competitive push toward agentic AI and software automation, while also intensifying debate over safety safeguards, deployment limits, and who should be allowed access to the most powerful models.[2][7]",
+        "source": "web search"
+      },
+      {
+        "topic": "NVIDIA",
+        "context": "NVIDIA is a leading provider of GPU chips and full-stack AI computing platforms that power training and inference for large language models, generative AI, and high‑performance computing. Its data center and AI products (such as the Hopper and Blackwell GPU architectures and DGX systems) have made it a central infrastructure supplier for hyperscalers, cloud providers, and enterprises building AI services. Beyond chips, NVIDIA offers end‑to‑end software like CUDA, cuDNN, and NVIDIA AI Enterprise, plus domain‑specific frameworks for areas such as autonomous vehicles, digital twins, and generative media, effectively positioning the company as a core enabler of the current AI/ML boom.[2]\n\nRecent developments focus on scaling AI infrastructure and reducing the cost of large‑scale AI. NVIDIA has introduced the Rubin AI platform, a co‑designed six‑chip system aimed at drastically lowering the cost per token for large models—targeting roughly one‑tenth the cost of the previous generation—while boosting performance for LLMs and generative workloads.[2] In parallel, the company is partnering with major telecom and cloud operators; for example, SK Telecom plans to build a gigawatt‑scale AI cloud and “AI factories” in Korea based on NVIDIA’s DSX platform, with the first facility expected online in 2027.[1] These moves illustrate how NVIDIA is extending from component supplier to strategic partner in national‑level AI infrastructure projects.\n\nThe industry impact is substantial: NVIDIA’s platforms underpin many frontier models and services, so each new GPU generation (Hopper, Blackwell, Rubin) and software stack improvement reshapes cost structures and capabilities across the AI/ML ecosystem.[2] Large, multi‑billion‑dollar AI infrastructure and cloud deals—including those like the roughly $20 billion‑scale build‑outs by hyperscalers and telecoms for NVIDIA‑based GPU clusters—signal that enterprises and governments are locking in NVIDIA’s hardware and software as the default AI compute layer. This deepens NVIDIA’s moat, accelerates deployment of larger and more capable models, and pressures rivals to respond with alternative accelerators and cloud offerings, making NVIDIA a central strategic player in the global AI race.[1][2]",
+        "source": "web search"
+      },
+      {
+        "topic": "Jonathan Ross",
+        "context": "Jonathan Ross is the founder of **Groq**, inventor of Google’s **Tensor Processing Unit (TPU)**, and now **Chief Software Architect at NVIDIA**, where he is focused on “doubling the world’s AI compute” and integrating Groq’s ultra-fast inference technology with NVIDIA’s GPU platforms.[2][4][6] His work centers on specialized inference chips (Groq’s **LPU**) designed for very low-latency, high-throughput AI workloads, complementing NVIDIA’s GPUs rather than competing with them.[4][5] This architecture pairing is aimed at removing bottlenecks in large language models and other AI systems, effectively treating GPUs as long‑haul “18‑wheelers” and LPUs as “delivery vans” in a compute logistics network.[5]\n\nRoss became a central figure in AI/ML news after closing a roughly **$20 billion deal with NVIDIA** that went from an initial phone call about buying ~100,000 GPUs to NVIDIA’s largest deal ever in about three weeks.[3][4][5] The agreement, announced around Christmas, is structured as a **non‑exclusive licensing deal** for Groq’s inference technology plus a major transfer of Groq talent, including Ross and other senior leaders, into NVIDIA—often described as an “acqui‑hire in all but name.”[4][6][7] NVIDIA is incorporating Groq’s technology into the new **Vera Rubin** GPU generation via the **LPX** platform, now in full production and expected to ship this summer, with the ambition that roughly a quarter of GPU workloads will eventually be paired with Groq-style inference chips.[4] Industry observers see this as a pivotal move in the AI hardware landscape: it cements NVIDIA’s lead not just in training but in inference, accelerates ultra-fast LLM and agent deployments, and raises strategic questions about Groq’s future innovation trajectory as it continues to operate independently without its founding CEO.[4][6][7]\n\nRoss has also been vocal about the broader AI experience, criticizing issues like **latency** and **rate limits** in tools such as ChatGPT and arguing that dramatically faster inference and greater compute capacity are essential for next-generation AI applications and revenue growth.[5][8] His trajectory—from building the TPU used in DeepMind’s AlphaGo, to nearly running Groq out of cash, to closing NVIDIA’s largest-ever deal—has made him a key figure in discussions about how custom silicon, system-level architecture, and business execution will shape the AI/ML infrastructure stack over the next decade.[1][3][4][5]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Google caps Gemini access for Meta amid compute shortages",
+        "summary": "Google reportedly ran short of compute capacity and capped Meta’s access to Gemini models after Meta requested more capacity than Google could provide. The constraint delayed some of Meta’s internal AI projects and highlights how frontier-model demand is being limited by infrastructure availability.",
+        "whyItMatters": "For AI practitioners, this is a signal that compute supply is becoming a strategic bottleneck, affecting model access, product planning, and partnership dynamics across the industry.",
+        "source": "Build Fast With AI newsletter roundup for July 14, 2026"
+      },
+      {
+        "headline": "Google Cloud launches Gemini Enterprise for agentic workflows",
+        "summary": "At Google Cloud Next 2026, Google unveiled an expanded Gemini Enterprise portfolio for building, orchestrating, and governing AI agents across organizations. The product is positioned as a unified enterprise platform for multi-step workflows connected to business data under IT control.",
+        "whyItMatters": "This matters because it shows where enterprise AI is headed: not just chatbots, but managed agent systems that integrate with corporate data, permissions, and governance.",
+        "source": "Build Fast With AI newsletter roundup for July 14, 2026"
+      },
+      {
+        "headline": "Boston Dynamics integrates Gemini Robotics into Spot",
+        "summary": "Boston Dynamics partnered with Google Cloud and DeepMind to integrate Gemini Robotics-ER 1.6 into the Spot robot dog and Orbit inspection platform. The update gives Spot stronger spatial reasoning, autonomous decision-making, and continuous learning in industrial environments.",
+        "whyItMatters": "For robotics and embodied-AI teams, this is a notable example of frontier models moving from digital tasks into real-world perception, planning, and control.",
+        "source": "Build Fast With AI newsletter roundup for July 14, 2026"
+      },
+      {
+        "headline": "EU transparency code for AI Act compliance published",
+        "summary": "The EU published its final Transparency Code of Practice ahead of the August deadline for AI Act transparency obligations. The same policy update also mentions a proposed Cloud and AI Development Act, adding further regulatory attention on AI infrastructure and disclosure.",
+        "whyItMatters": "AI teams operating in Europe will need to align model documentation, transparency, and deployment workflows with new compliance expectations.",
+        "source": "TLT AI Brief: July 2026"
+      },
+      {
+        "headline": "US coalition launches coordinated investigation into OpenAI",
+        "summary": "A coalition of state attorneys general in the US launched a coordinated investigation into OpenAI. The reported inquiry adds fresh regulatory pressure as major AI developers face growing scrutiny over safety, consumer protection, and deployment practices.",
+        "whyItMatters": "This is important for practitioners because regulatory investigations can affect model release timing, product design, data practices, and legal risk across the sector.",
+        "source": "TLT AI Brief: July 2026"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as landing another high-profile hire and conducting a 309K values study"
+      },
+      {
+        "name": "GPT-4",
+        "type": "product",
+        "context": "Mentioned as being beaten by Tsinghua 8B in performance"
+      },
+      {
+        "name": "Claude",
+        "type": "product",
+        "context": "Mentioned as being used to design with Canva and having a moody personality"
+      },
+      {
+        "name": "NVIDIA",
+        "type": "company",
+        "context": "Mentioned as being involved in a $20 billion deal"
+      },
+      {
+        "name": "Jonathan Ross",
+        "type": "person",
+        "context": "Mentioned as turning a 3-week phone call into a $20 billion NVIDIA deal"
+      },
+      {
+        "name": "xAI",
+        "type": "company",
+        "context": "Mentioned as uploading codebases and having a product called Grok Build CLI"
+      },
+      {
+        "name": "Grok Build CLI",
+        "type": "product",
+        "context": "Mentioned as a product of xAI that transmits file contents to xAI"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as being sued by Apple"
+      },
+      {
+        "name": "Tsinghua 8B",
+        "type": "product",
+        "context": "Mentioned as beating GPT-4 in performance"
+      },
+      {
+        "name": "Apple",
+        "type": "company",
+        "context": "Mentioned as suing OpenAI"
+      },
+      {
+        "name": "Canva",
+        "type": "product",
+        "context": "Mentioned as being used with Claude for design"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-07-15T00:30:44.334Z",
+  "dateString": "2026-07-15"
+}
