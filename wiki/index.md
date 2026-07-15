@@ -337,6 +337,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[humanoid-robotics]] — embodied-AI arms race: NVIDIA Isaac GR00T + OpenAI Robotics restart + Altman/Alfred + Amazon warehouse + Serve + China IPOs (Jun 2026)
 - [[j-space]] — Anthropic interpretability finding — emergent internal workspace inside Claude for silent reasoning + planning + multi-step reasoning; J-lens open-source tool + Content Seal watermarking pairing; "A Global Workspace in Language Models" paper (Jul 2026)
 - [[john-jumper]] — Google DeepMind VP and 2024 Nobel Chemistry laureate (AlphaFold co-creator); departs for Anthropic in June 2026
+- [[jonathan-ross]] — Groq founder + Google TPU inventor; now NVIDIA Chief Software Architect after Dec 2025 $20B Groq-NVIDIA deal — 3-week phone call into NVIDIA's largest deal ever (Jul 2026)
 - [[loop-engineering]] — named developer discipline of designing autonomous agent loops (triggers + actions + verification gates) for self-check + self-correct execution cycles; sibling to prompt-engineering / context-engineering / harness-design; "autonomous software assembly lines" per AlphaSignal (Jul 2026)
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
 - [[model-routers]] — the "missing middleware" for scaling AI apps — heuristic + learned + cascade + ensemble/fusion architectures; OpenRouter Fusion Router + Not Diamond + NadirClaw + ACRouter reference implementations (Jul 2026, AlphaSignal essay)

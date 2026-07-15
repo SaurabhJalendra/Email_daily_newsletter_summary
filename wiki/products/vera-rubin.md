@@ -8,9 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-11-20
-> **Last updated**: 2026-04-16 (+ 2026-03-18 GTC backfill)
-> **Status**: stale
-> **Related**: [[nvidia]], [[anthropic]], [[meta]], [[ai-hardware]]
+> **Last updated**: 2026-07-15-morning
+> **Status**: active
+> **Related**: [[nvidia]], [[groq]], [[jonathan-ross]], [[anthropic]], [[meta]], [[ai-hardware]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ Vera Rubin is [[nvidia]]'s next-generation AI chip/system architecture, succeedi
 
 ## Timeline
 
+- **2026-07-15-morning**: **Vera Rubin generation integrates Groq inference technology via the LPX platform — ships summer 2026 with ~25% of GPU workloads target for Groq-style inference pairing**. The AI Corner HIGH ([[jonathan-ross]] narrated origin story): NVIDIA is incorporating Groq's technology into the new Vera Rubin GPU generation via the **LPX platform**, expected to ship this summer, with the stated ambition that roughly a quarter of GPU workloads will eventually be paired with Groq-style inference chips. Positions Vera Rubin as the *first NVIDIA GPU generation with a purpose-built inference-tier companion* (LPX = Groq-derived inference tech, likely rebranded LPU) — extends Vera Rubin from a *training-and-inference* generational upgrade into a *training-plus-companion-inference-chip* dual-substrate architecture — *source: data/summaries/2026-07-15-morning.json (The AI Corner HIGH — Jonathan Ross Turned a 3-Week Phone Call Into a $20 Billion NVIDIA Deal)*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-03-18**: GTC 2026 centers Vera Rubin as NVIDIA's production flagship; Space-1 Vera Rubin Module announced (data-center-class AI in orbit) and new Vera CPU launched alongside for agentic-AI workloads — *source: 2026-03-18 cycle (NVIDIA Newsletter; GTC keynote coverage)*
 - **2026-01-12**: Rubin unveiled as "next-gen AI computing platform" — NVIDIA continues to push hardware frontier — *source: 2026-01-12 cycle*
@@ -50,3 +51,4 @@ Vera Rubin is [[nvidia]]'s next-generation AI chip/system architecture, succeedi
 - data/summaries/2026-01-12.json (Rubin framing)
 - data/summaries/2026-03-18.json (GTC 2026 — Vera Rubin + Space-1 Module; Vera CPU)
 - data/summaries/2026-04-16.json (InstaByte — CoreWeave deployment)
+- data/summaries/2026-07-15-morning.json (The AI Corner HIGH — LPX platform integration + summer 2026 ship + ~25% GPU workloads target)
