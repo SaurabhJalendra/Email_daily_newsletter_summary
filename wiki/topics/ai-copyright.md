@@ -8,9 +8,10 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-11-05
-> **Last updated**: 2026-03-19
-> **Status**: stale
-> **Related**: [[openai]], [[ai-regulation]], [[sora-2]], [[perplexity]], [[google]], [[disney]], [[chatgpt]], [[ai-video-generation]], [[ai-slop]]
+> **Last updated**: 2026-07-15-evening (**Publishers-vs-Google-Gemini pirated-book-training suit — Hachette + Elsevier + Cengage + author Scott Turow four-named-plaintiff cluster; first publicly framed scholarly-journal training-corpus allegation on [[gemini]] in this wiki**)
+> **Previously updated**: 2026-03-19
+> **Status**: active
+> **Related**: [[openai]], [[ai-regulation]], [[sora-2]], [[perplexity]], [[google]], [[gemini]], [[disney]], [[chatgpt]], [[ai-video-generation]], [[ai-slop]]
 
 ## Summary
 
@@ -18,6 +19,7 @@ AI copyright moved from background concern to concrete case law through November
 
 ## Timeline
 
+- **2026-07-15-evening**: **Hachette, Elsevier, Cengage, and author Scott Turow sue [[google]] alleging [[gemini]] was trained on pirated books and journal articles**. Evolving AI Insights HIGH: ***"Hachette, Elsevier, Cengage, and author Scott Turow have sued Google, alleging that Gemini was trained on pirated books and journal articles"***. First publicly framed four-named-plaintiff cluster (three publishers + one individual-author) + first publicly framed *"journal articles"* training-corpus scope on Gemini in this wiki (Elsevier's presence makes this a *scholarly-publishing IP* case rather than just a trade-book case, structurally distinct from prior NYT-vs-OpenAI + Britannica-vs-OpenAI + Warner-vs-Suno-vs-Udio arcs). Lands same-cycle as Hassabis' *"A Framework for Frontier AI"* governance-blueprint — dual regulatory-and-legal-pressure narrative on Google DeepMind — *source: data/summaries/2026-07-15-evening.json (Evolving AI Insights HIGH "🤖 OpenAI's First Device Won't Be a Phone")*
 - **2026-03-19**: Encyclopedia Britannica + Merriam-Webster sue [[openai]] alleging massive copyright infringement for training on their reference content without permission — extends publisher-vs-lab litigation pattern to reference-work publishers — *source: 2026-03-19 cycle*
 - **2025-12-16**: Disney granted 1-year exclusivity for Sora characters (clarification of OpenAI deal); coverage continues — *source: TLDR AI "OpenAI adopts Skills"; AlphaSignal*
 - **2025-12-13**: [[disney]] sues [[google]] over AI usage of its IP — counterpart to the same-day [[disney]]–[[openai]] $1B partnership — *source: The Rundown AI "Disney chooses OpenAI"*

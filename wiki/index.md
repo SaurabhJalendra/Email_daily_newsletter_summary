@@ -136,6 +136,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills *(stale)*
 - [[claude-for-legal]] — Anthropic's vertical Claude package for law firms; 20+ MCP connectors + 12 plugins (May 2026)
 - [[claude-for-small-business]] — Anthropic's SMB Claude package; QuickBooks/PayPal/HubSpot/Canva/Google Workspace/Microsoft 365 (May 2026)
+- [[claude-for-teachers]] — Anthropic's free-year Claude Pro for verified US K-12 educators; teaching toolkit + 50-state academic-standards learning commons (Jul 2026)
 - [[claude-for-word]] — Anthropic's Microsoft Word integration; AI-driven redlining and content creation (Apr 2026) *(stale)*
 - [[claude-platform-aws]] — Anthropic's Claude Platform natively inside AWS account with full API parity (May 2026)
 - [[claude-reflect]] — Anthropic's mindful-use / anti-over-reliance Reflections dashboard for Free/Pro/Max accounts with memory on (Jul 2026)
@@ -247,8 +248,9 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
-- [[openai-deployco]] — OpenAI's $4B enterprise-deployment subsidiary at $10B (May 2026)
+- [[openai-companion]] — OpenAI's first consumer device: screenless, movable smart speaker, $200-300, early 2027 ship, GPT-Live inside, Jony Ive design team, "humanlike AI companion for the home" (Jul 2026)
 - [[openai-daybreak]] — OpenAI's frontier cyber-defense platform pairing GPT-5.5 + Codex Security (May 2026)
+- [[openai-deployco]] — OpenAI's $4B enterprise-deployment subsidiary at $10B (May 2026)
 - [[openai-guaranteed-capacity]] — OpenAI's enterprise compute-reservation program; 1-3 year commitments (May 2026)
 - [[qwen-3-7-max]] — Alibaba's flagship Qwen 3.7; 35h continuous autonomous reasoning, 1M context (May 2026)
 - [[robostral-navigate]] — Mistral's Jul 2026 first robotics-tier model for factories/warehouses/industrial automation; cross-supplier hardware portability
