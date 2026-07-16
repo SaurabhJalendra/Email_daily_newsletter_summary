@@ -1,40 +1,55 @@
 ---
 name: Codex Micro
-description: OpenAI's keyboard-form developer gadget for Codex agents — debuted at AI Engineer World Fair (Jun 2026)
+description: OpenAI's first-ever hardware device — a $230 limited-run programmable mechanical keypad built with Work Louder for controlling Codex AI agents; Agent Keys with live RGB status + joystick + rotary encoder for reasoning-level control
 type: product
 ---
 
 # Codex Micro
 
 > **Type**: product
-> **Vendor**: [[openai]]
+> **Vendor**: [[openai]] (in collaboration with Work Louder)
 > **First mentioned**: 2026-06-30-evening
-> **Last updated**: 2026-06-30-evening (created; TLDR cycle headline "iPhone 18 leaks 📱, Codex Micro ⌨️, verifiable outputs 👨‍💻" surfaces Codex Micro at the AI Engineer World Fair as a keyboard-form developer device for Codex agents)
-> **Status**: announced / showcased (AI Engineer World Fair display)
-> **Related**: [[openai]], [[openai-codex]], [[gpt-5-3-codex]], [[gpt-5-6]]
+> **Last updated**: 2026-07-16-evening (**Cycle-2 evening-cohort launch saturation — Codex Micro formally ships as **OpenAI's first-ever hardware product** at **$230** in a limited-run Work Louder collaboration** — 7-newsletter cross-tier saturation confirms concrete specs: **13 mechanical switches** + **dedicated "Agent Keys" that glow with live RGB status** (thinking / running / waiting / done) + **touch sensor** + **rotary encoder for reasoning-level tweaking** + **joystick for toggling jobs** + **one aluminum deck** + runs over **Bluetooth or USB-C on Mac and Windows** + integrated with **Codex** for at-a-glance agent-status visibility. The Rundown AI MEDIUM cycle headline framing: ***"OpenAI has launched its first hardware device, the Codex Micro, a $230 AI agent control pad that lets users control coding agents via a sleek mechanical keyboard device"***. Evolving AI Insights HIGH lands the fullest spec sheet: ***"$230 programmable keyboard designed to run AI agents. The keyboard features dedicated Agent Keys that glow with live RGB status from Codex, showing which agents are thinking, running, waiting, or done ... built in partnership with Work Louder and packs 13 mechanical switches, a touch sensor, a rotary encoder, and a joystick into one aluminum deck. It runs over Bluetooth or USB-C on Mac and Windows and is designed to work seamlessly with Codex"***. Superhuman MEDIUM: ***"customizable mini keypad ... lets users prompt Codex verbally with a button, launch common workflows with a joystick, and adjust the AI's reasoning power with a knob"***. Forward Future MEDIUM: ***"$230 limited-edition desktop keypad designed to help developers monitor and control multiple AI coding agents, with customizable backlit keys, a rotary dial, a joystick, and real-time status indicators for AI agents"***. TLDR MEDIUM anchors the launch as a *"physical keypad for controlling AI agents"* alongside the day's Stripe-PayPal / Inkling / Kimi K3 news beats. Evening cycle also lands the **Apple-lawsuit-may-threaten-first-consumer-device stakes framing** (see [[apple]] cycle-6): The Rundown AI notes ***"OpenAI is facing a lawsuit from Apple over trade secrets, which the company has responded to by shipping its first hardware device just seven days later"*** — first publicly framed *"first hardware device seven days after Apple's trade-secret lawsuit"* posture in this wiki, extending the [[apple]]-v-[[openai]] cycle-6 arc into a *material product-launch-response to legal-tension* framing. Structurally significant four ways: (i) **OpenAI's first-ever consumer hardware ship** — sits alongside the multi-cycle [[openai-companion]] screenless-speaker arc ($200-300, early 2027) as the *two-form-factor consumer-hardware roadmap*: Codex Micro (developer/desktop-tier, $230, ships now) + OpenAI Companion (consumer/home-tier, $200-300, ships 2027); productizes the June 2026 AI Engineer World Fair showcase (cycle-1) into a *concrete shipping SKU* seven months earlier than the Companion; (ii) **Agent Keys with live RGB status as first publicly framed dedicated-hardware-tier agent-orchestration input surface** — 13 mechanical switches + agent-status RGB is structurally novel; treats *agent monitoring* as a *first-class hardware I/O concern* rather than a screen-based dashboard, structurally consistent with the *"software factories"* / *"loop engineering"* discipline consolidation ([[loop-engineering]] + [[software-factories]] + [[claude-code-agent-view]]); (iii) **$230 price + Work Louder limited-run** — positions Codex Micro as a *developer-enthusiast-tier premium input peripheral* rather than mass-consumer hardware; the Work Louder collaboration (a boutique mechanical-keyboard maker) implies *limited quantity + high margin* rather than *scale-to-millions* — reads as OpenAI's first-hardware SKU is a *market-validation trial-balloon* for the consumer-hardware roadmap; (iv) **Rotary encoder for "reasoning power" tuning as first publicly framed dedicated-hardware reasoning-slider surface** — Superhuman + Forward Future both describe *"adjust the AI's reasoning power with a knob"* — first publicly framed *analog-input reasoning-level control* on a coding-agent workflow in this wiki; parallel to Cursor's software-tier reasoning-slider settings but productizes it as a *tactile hardware control*. Same-cycle context: [[gpt-red]] self-hacking model + [[inkling]] 975B open-weight + [[honeycomb]] Anthropic Cursor leak + [[kimi-k3]] Moonshot pulled-page leak + [[ode-with-anthropic]] $1.5B implementation firm + [[anthropic]] 32-role safety-hiring push + Alibaba-Apple Intelligence China partnership. Body-recovery items: (a) unit-count of the "limited run" (100? 1,000? 10,000?), (b) whether Codex Micro requires an OpenAI subscription tier, (c) firmware-update model (over-the-air? USB tethered?), (d) SDK for third-party integrations beyond Codex (Cursor? Claude Code? Gemini CLI?), (e) whether Codex Micro will graduate to a mass-market SKU or remain limited-collectible-tier — *source: data/summaries/2026-07-16-evening.json (The Rundown AI MEDIUM "🕹️ OpenAI's hardware debut controls Codex"; Evolving AI Insights HIGH "⌨️ OpenAI Launches First Ever Gadget to Run AI AGENTS"; Superhuman MEDIUM "🇺🇸 America's best open-weight model yet"; Forward Future MEDIUM "China's memory giant makes its move"; TLDR MEDIUM "Stripe's PayPal bid 💰, Uber vs Waymo 🚗, against SDKs 👨‍💻"; daily-digest Top Stories — OpenAI launches Codex Micro AI agent control pad)*
+> **Previously updated**: 2026-06-30-evening (**Created — TLDR cycle headline** surfaces Codex Micro at the AI Engineer World Fair display as a keyboard-form Codex device; body-text corrupted; form-factor / pricing / ship-date / peripheral-vs-standalone status left as open questions — resolved evening 2026-07-16 with concrete $230 Work Louder ship — *source: data/summaries/2026-06-30-evening.json*)
+> **Status**: shipping (limited-run, launched 2026-07-16 evening at $230)
+> **Related**: [[openai]], [[openai-codex]], [[openai-companion]], [[gpt-5-6]], [[gpt-5-3-codex]], [[claude-code-agent-view]], [[loop-engineering]], [[software-factories]], [[ai-hardware]], [[apple]]
 
 ## Summary
 
-Codex Micro is an [[openai]] developer gadget displayed at the AI Engineer World Fair (Jun 2026) — described as a **keyboard-form device designed to supercharge Codex workflows**. Specifics on form factor, pricing, ship date, and whether it is a peripheral, a standalone box, or an integrated input device remain undisclosed in this wiki's coverage. The TLDR newsletter that surfaced it (heavily corrupted summary text) framed it alongside iPhone 18 leaks and "verifiable outputs" coding tooling — placing Codex Micro inside the broader hardware-form-factor-for-AI-coding wave alongside Snap Specs and the wave of voice-first interfaces ([[wispr-flow]]).
+Codex Micro is [[openai]]'s **first-ever consumer hardware product** — a **$230 limited-run programmable mechanical keypad** built in collaboration with boutique keyboard maker **Work Louder** and designed as an *"AI agent control pad"* for the [[openai-codex]] developer workflow. The device packs **13 mechanical switches**, **dedicated "Agent Keys"** that glow with **live RGB status** from Codex (indicating which agents are thinking / running / waiting / done), a **touch sensor**, a **rotary encoder for reasoning-power tuning**, and a **joystick for toggling between jobs** — all into a single aluminum deck. It runs over **Bluetooth or USB-C on Mac and Windows** and is tightly integrated with Codex for at-a-glance parallel-agent monitoring.
+
+Codex Micro sits alongside the multi-cycle [[openai-companion]] screenless-speaker arc ($200-300, early 2027) as the *two-form-factor consumer-hardware roadmap* — Codex Micro is the *developer/desktop-tier* ship-now SKU while OpenAI Companion is the *home/consumer-tier* ship-2027 SKU. First surfaced at the AI Engineer World Fair in late June 2026 (cycle-1); formally launched at $230 on **2026-07-16**, notably just **seven days after Apple filed its trade-secret lawsuit against OpenAI over consumer-hardware plans** — reading as a deliberate product-motion response to the multi-cycle [[apple]]-v-OpenAI legal-tension arc. The Agent-Keys-with-live-RGB + rotary-encoder-for-reasoning-level design canonicalizes *agent monitoring as a first-class hardware I/O concern*, structurally consistent with the [[loop-engineering]] + [[software-factories]] + [[claude-code-agent-view]] discipline-consolidation cycle.
 
 ## Timeline
 
-- **2026-06-30-evening**: **Created — TLDR cycle headline "iPhone 18 leaks 📱, Codex Micro ⌨️, verifiable outputs 👨‍💻"** surfaces Codex Micro at the AI Engineer World Fair: ***"OpenAI's Codex Micro gadget is currently being displayed at the AI Engineer World Fair. The device is a keyboard designed to supercharge Codex"*** workflows (TLDR's body text is heavily corrupted; the headline-tier framing is the most reliable artifact). Lands the same cycle as Cursor iOS app + remote agents, framing 2026-06-30 as a *form-factor-experiment* cycle across multiple coding-tool vendors. Body-recovery items: (a) is Codex Micro a standalone hardware product or a Codex-specific peripheral?, (b) pricing tier (consumer vs developer-only), (c) availability date, (d) whether it ships with [[gpt-5-6]] / Sol integration on-device — *source: data/summaries/2026-06-30-evening.json (TLDR "iPhone 18 leaks 📱, Codex Micro ⌨️, verifiable outputs 👨‍💻" — Codex Micro displayed at AI Engineer World Fair as keyboard-form Codex device)*
+- **2026-07-16-evening**: **Formal launch — $230, Work Louder collaboration, ships now** — 13 mechanical switches + Agent Keys with live RGB + touch sensor + rotary encoder + joystick + aluminum deck + Bluetooth/USB-C + Mac/Windows + Codex-integrated; The Rundown AI + Evolving AI Insights + Superhuman + Forward Future + TLDR seven-newsletter cross-tier saturation; The Rundown AI frames it as OpenAI's response to the Apple lawsuit *"just seven days later"* — *source: data/summaries/2026-07-16-evening.json (The Rundown AI MEDIUM "🕹️ OpenAI's hardware debut controls Codex"; Evolving AI Insights HIGH "⌨️ OpenAI Launches First Ever Gadget"; Superhuman MEDIUM "🇺🇸 America's best open-weight model yet"; Forward Future MEDIUM "China's memory giant makes its move"; TLDR MEDIUM "Stripe's PayPal bid 💰")*
+
+- **2026-06-30-evening**: **Created — displayed at the AI Engineer World Fair as a keyboard-form Codex device**; TLDR headline "iPhone 18 leaks 📱, Codex Micro ⌨️, verifiable outputs 👨‍💻" — form factor / pricing / ship date left as open questions (resolved 2026-07-16) — *source: data/summaries/2026-06-30-evening.json*
 
 ## Key Facts
 
-- Vendor: [[openai]]
-- Surface: AI Engineer World Fair display (Jun 2026)
-- Form factor: keyboard-form developer device
-- Purpose: supercharge / accelerate Codex workflows
+- Vendor: [[openai]] (with Work Louder)
+- **Price: $230** (limited-run collaboration)
+- Ship date: **2026-07-16** (formally shipping now)
+- Form factor: **mechanical keypad + aluminum deck**
+- Inputs: **13 mechanical switches** + **touch sensor** + **rotary encoder** + **joystick**
+- Special: **"Agent Keys" with live RGB status** (thinking / running / waiting / done)
+- Connectivity: **Bluetooth** or **USB-C**
+- Platforms: **Mac + Windows**
+- Software integration: **[[openai-codex]]** (parallel agents)
+- Category: OpenAI's **first-ever hardware product**
 
 ## Open Questions
 
-- Form factor specifics — peripheral, standalone, or integrated computer?
-- Pricing, ship date, distribution
-- Relationship to OpenAI's other hardware bets (Jony Ive device line)
-- Whether Codex Micro hosts a local model or routes to cloud Codex
+- Unit count of the "limited run" (100? 1,000? 10,000?)
+- Whether Codex Micro requires a specific OpenAI subscription tier
+- Firmware-update model (over-the-air vs USB tethered)
+- Third-party SDK for other coding agents (Cursor, Claude Code, Gemini CLI)
+- Whether Codex Micro graduates to a mass-market SKU or stays a limited-collectible tier
+- Whether Work Louder is exclusive OEM or one of multiple hardware partners
 
 ## Sources
 
 - data/summaries/2026-06-30-evening.json (TLDR "iPhone 18 leaks 📱, Codex Micro ⌨️, verifiable outputs 👨‍💻" — Codex Micro gadget at AI Engineer World Fair)
+- data/summaries/2026-07-16-morning.json (tokens& MEDIUM "Weekly 7/15 - 🎛️ OpenAI's $230 gadget: Codex Micro" — first surfacing of $230 pricing)
+- data/summaries/2026-07-16-evening.json (The Rundown AI MEDIUM "🕹️ OpenAI's hardware debut controls Codex"; Evolving AI Insights HIGH "⌨️ OpenAI Launches First Ever Gadget to Run AI AGENTS"; Superhuman MEDIUM "🇺🇸 America's best open-weight model yet"; Forward Future MEDIUM "China's memory giant makes its move"; TLDR MEDIUM "Stripe's PayPal bid 💰")

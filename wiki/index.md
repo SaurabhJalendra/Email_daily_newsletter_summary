@@ -67,6 +67,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nvidia]] — AI GPUs; Cosmos physical AI; Ising quantum; Vera Rubin; $57B record quarter; Alpamayo-R1
 - [[ollama]] — local-model runtime; launches Pi coding agent behind OpenClaw with Pro/Max cloud tiers Mar 2026
 - [[openai]] — ChatGPT/Sora; Atlas browser; Aardvark; "Code Red" vs Gemini 3; first device w/ Jony Ive
+- [[ode-with-anthropic]] — $1.5B AI implementation firm co-founded by Anthropic + Blackstone + Hellman & Friedman; 100 engineers; custom AI systems for enterprise core-operations integration (Jul 2026)
 - [[oracle]] — enterprise cloud; AMD partnership *(stale)*
 - [[palantir]] — data-analytics + AI-defense platform; CEO Alex Karp critiques "tokenmaxxing" token-priced AI as national-security issue; NVIDIA-partnered model-agnostic own-your-weights product (Jul 2026)
 - [[perplexity]] — AI search; Comet browser; AI Browser w/ shopping + virtual try-on
@@ -217,11 +218,14 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[grok-4-1]] — xAI's mid-Nov 2025 Grok upgrade; personality overhaul, EQ lead, top of LMArena *(stale)*
 - [[grok-4-20]] — xAI's Feb 2026 Grok upgrade; four-agent parallel research workflow, public beta *(stale)*
 - [[grok-4-5]] — xAI/SpaceXAI's Jul 2026 Opus-class Grok; $2/$6 pricing "cheapest smart model on the market"; Word/Excel/PowerPoint plugins; 21 multilingual Grok Voice voices with 1-min cloning
+- [[gpt-red]] — OpenAI's dedicated adversarial red-team AI trained via self-play at compute-scale of largest model runs; 84% test-scenario success vs 13% human red-teamers (Jul 2026)
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours *(stale)*
 - [[harnessx]] — Xiaomi Darwin Agent Team's "agent foundry" framework; nine-component behavior pipeline with self-contained lego-swappable processors (Jul 2026)
+- [[honeycomb]] — Anthropic's unreleased research model briefly visible in Cursor as "Claude Honeycomb EAP"; 1M context, "extra high effort" reasoning tier, safety fallback to Opus 4.8; widely speculated Claude Opus 5 preview (Jul 2026)
 - [[hy3]] — Tencent Hunyuan's 295B / 21B-active open-source MoE model; Apache 2.0; competitive with larger systems on reasoning, coding, and agentic tasks (Jul 2026)
+- [[inkling]] — Thinking Machines Lab's first foundation model — 975B-A41B multimodal open-weight LLM (Apache 2.0) with 276B-A12B "Inkling-Small" sibling; 1M context; text/image/audio inputs; day-0 vLLM + NVIDIA GB300 NVL72 + Tinker support; hailed as "best American open model" (Jul 2026)
 - [[ibm-bob]] — IBM's AI coding partner for enterprise teams coordinating planning + coding + testing + validation across the SDLC (Jul 2026)
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference *(stale)*
 - [[ideogram-4]] — Ideogram's first open-weight text-to-image model; structured JSON prompting + native 2K + multilingual text rendering (Jun 2026)
@@ -230,6 +234,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kimi-k2-5]] — Moonshot AI's 1T MoE + 400M MoonViT multimodal agentic model with Agent Swarm (Jan 2026) *(stale)*
 - [[kimi-k2-6]] — Moonshot AI's Apr 2026 open-source trillion-parameter multimodal model; Agent Swarm; outperforms GPT-5.4 / Opus 4.6 on several benchmarks
 - [[kimi-k2-7-code]] — Moonshot AI's Jun 2026 coding-specialized K2.7-series Kimi variant; launches on Ollama's US-hosted cloud (Jun 2026)
+- [[kimi-k3]] — Moonshot AI's leaked next-gen ~2.5T-parameter Kimi model; 1M context, long-horizon-agents-tuned, new "Kimi Linear" attention hybrid, projected ~8× cheaper than GPT-5.5; likely Apache 2.0 open-weight (Jul 2026, leak)
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
 - [[leanstral]] — Mistral's Jul 2026 open-source 119B-parameter theorem-proving + code-verification agent; 587/672 Putnam problems at "significantly lower cost"; verify proofs + test logic + catch errors before software ships (Jul 2026)
