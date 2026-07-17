@@ -49,6 +49,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*
 - [[jpmorgan-chase]] — investment bank; LLM Suite aggregates OpenAI + Anthropic; "fully AI-powered megabank" commitment; $18B/yr tech (Jun 2026)
 - [[kling-ai]] — Kuaishou spin-off Chinese AI video-generation company; $15B valuation Jul 2026 (~$2.8B round led by Alibaba + Tencent); short-form AI video focus
+- [[lila-sciences]] — AI-run science startup building a "lab as data center"; automated experiments 24/7 → 10T experimentally validated scientific tokens; CTO Andy Beam + CSO Rafa Gómez-Bombarelli (Jul 2026)
 - [[liquid-ai]] — MIT-spinout efficient-model lab; LFM2 family; LFM2-2.6B-Exp Dec 2025 *(stale)*
 - [[lovable]] — Swedish vibe-coding startup; $330M @ $6.6B Dec 2025
 - [[luma]] — AI video startup; Ray3 Modify video-model update *(stale)*
@@ -111,6 +112,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[anthropic-fellows]] — Anthropic's AI-safety research fellowship; 4mo / $3,850/wk / ~$15K/mo compute / 40% hire + 80% papers (Jun 2026)
 - [[apple-m5]] — Apple's M5 silicon with per-core Neural Accelerators *(stale)*
 - [[audex]] — NVIDIA's 30B / 3B active MoE unified text + audio model — preserves text intelligence while adding broad audio generation and understanding (Jul 2026)
+- [[bonsai-27b]] — PrismML's 27B on-device model; 3.9 GB footprint via 1-bit binary + ternary quantization; retains ~89.5% of FP16 base; first 27B-class model that fits on a phone (Jul 2026)
 - [[aws-blocks]] — Amazon's open-source framework for building modular, reusable cloud apps from composable software components (Jun 2026)
 - [[brain2qwerty-v2]] — Meta FAIR's non-invasive brain-to-text system that decodes typed sentences from MEG brain signals; ~61% word accuracy / 78% best-participant (Jun 2026)
 - [[canva-ai-2]] — Canva's Apr 2026 AI-native creative environment; fully editable generated designs *(stale)*
@@ -230,6 +232,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference *(stale)*
 - [[ideogram-4]] — Ideogram's first open-weight text-to-image model; structured JSON prompting + native 2K + multilingual text rendering (Jun 2026)
 - [[isaac-groot]] — NVIDIA's research-grade humanoid robot reference design (Unitree H2 body + Blackwell GPU); US/Europe/South Korea partners (Jun 2026)
+- [[jetson-thor]] — NVIDIA's Blackwell-powered edge modules (T3000 + T2000) for robotics, visual AI, and agent workloads on compact edge systems (Jul 2026)
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
 - [[kimi-k2-5]] — Moonshot AI's 1T MoE + 400M MoonViT multimodal agentic model with Agent Swarm (Jan 2026) *(stale)*
 - [[kimi-k2-6]] — Moonshot AI's Apr 2026 open-source trillion-parameter multimodal model; Agent Swarm; outperforms GPT-5.4 / Opus 4.6 on several benchmarks
