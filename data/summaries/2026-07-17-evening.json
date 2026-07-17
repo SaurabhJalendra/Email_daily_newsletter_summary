@@ -1,0 +1,375 @@
+{
+  "date": "2026-07-16T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Friday, 17 July 2026\n\n## 🔥 Top Stories\n1. **Moonshot AI releases Kimi K3, a 2.8 trillion parameter open model** — This matters because Kimi K3 achieves state-of-the-art performance on several benchmarks, rivaling proprietary models like Anthropic's Claude Fable 5 and OpenAI's GPT-5.6 Sol, and is available at a lower price point, marking a significant milestone in the advancement of open-source AI models.\n2. **OpenAI introduces GPT-Live, a new family of real-time voice models** — This matters because GPT-Live enables conversational dialogue with AI, allowing for simultaneous listening and speaking, interruptions, and live translation, which could revolutionize the way humans interact with AI systems.\n3. **Google delays the launch of Gemini 3.5 Pro due to performance issues** — This matters because the delay highlights the challenges faced by tech companies in developing and deploying AI models that meet internal goals and expectations, and could impact the competitive landscape of the AI industry.\n4. **China's Xi Jinping endorses open-source AI models and criticizes US dominance** — This matters because Xi's statement reflects the growing global interest in open-source AI and the potential for China to play a larger role in the development and deployment of AI technologies.\n5. **Researchers demonstrate emergent multi-step planning in large language models** — This matters because the discovery suggests that planning capabilities can emerge from scale and training data, rather than requiring explicit planning modules or specialized training, which could lead to significant advancements in AI research and development.\n\n## 🤖 AI Models & Research\n- Kimi K3 boasts a 1M token context window, native visual understanding, and a hybrid attention architecture, making it suitable for long-horizon coding, knowledge work, and complex reasoning tasks.\n- OpenAI's GPT-5.6 has solved a two-decade-old statistics problem in 90 minutes, demonstrating the potential of AI in resolving complex mathematical challenges.\n- Anthropic's Claude Fable 5 is a frontier model designed for long-horizon reasoning, complex knowledge work, and agentic coding.\n\n## 🛠️ Tools & Products\n- NVIDIA announces several events and sessions at SIGGRAPH 2026, including keynotes, labs, and special events, highlighting the company's commitment to advancing AI technologies in computer graphics and simulation.\n- Wispr Flow is a tool that turns speech into clean text on every device, allowing users to start tasks on one device and finish on another.\n- Bun's codebase was rewritten from Zig to Rust using Fable, an AI tool, in just 11 days, demonstrating the potential of AI in code migration.\n\n## 📰 Industry News\n- Moonshot AI receives significant funding and is positioning itself as a leading player in the AI ecosystem.\n- NVIDIA unveils a new AI model, Cosmos 3 Edge, designed to help systems perceive and navigate physical environments in real time.\n- TSMC adds $100 billion to its US spending plan, and Meta considers hiring a top Amazon computing executive as it weighs a cloud push.\n- Linus Torvalds expresses support for using AI tools to improve the Linux open-source project.",
+  "totalNewsletters": 8,
+  "newsletters": [
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+      "date": "2026-07-17T01:46:37.000Z",
+      "summary": "## AINews\n\n**Priority: HIGH**\n\n### Top Updates\n* **Kimi K3 Release**: Moonshot AI has released Kimi K3, a 2.8 trillion parameter open model, which is the largest open model ever released. Kimi K3 is designed for long-horizon reasoning, complex knowledge work, and agentic coding, offering a 1 million token context window and native visual understanding. It is considered a significant development in the open model landscape, with performance comparable to top closed models like Opus 4.8 and GPT-5.5.\n* **Technical Details**: Kimi K3 uses a hybrid attention architecture called Kimi Delta Attention (KDA) and Attention Residuals, allowing it to scale more than 2x over prior Kimi models while maintaining high performance. The model's architecture is notable for combining KDA, LatentMoE, and AttnRes, with a long incubation cycle starting in January 2025 and taking around 1.5 years to reach frontier scale.\n* **Benchmark Performance**: Kimi K3 has achieved strong results on various benchmarks, including the Artificial Analysis Intelligence Index, where it scored 57, comparable to Opus 4.8 and GPT-5.5. It also performed well on the GDPval v2 and AA-Briefcase benchmarks, with a cost per task of $0.94, lower than GPT-5.6 Sol and Opus 4.8.\n* **Inference and Serving**: Kimi K3 is available through the Kimi API, with a pricing model of $3 per 1 million input tokens and $15 per 1 million output tokens. The model requires significant computational resources, with recommended deployment on supernode configurations with 64+ accelerators.\n* **Community Reaction**: The release of Kimi K3 has sparked a lively discussion in the AI community, with many considering it a major milestone in the development of open models. Some have noted that the model's performance is impressive, but its slow inference speed and high computational requirements may limit its practical applications.\n* **GPT-5.6 and Claude Fable 5**: OpenAI's GPT-5.6 and Anthropic's Claude Fable 5 are also significant models in the current AI landscape. GPT-5.6 is a frontier model family with three capability tiers: Luna, Terra, and Sol, offering state-of-the-art performance and efficiency. Claude Fable 5 is Anthropic's latest Mythos-class frontier model, designed for long-horizon reasoning, complex knowledge work, and agentic coding.\n* **Moonshot AI**: Moonshot AI is a Beijing-based AI startup that has developed Kimi K3 and other large foundation models. The company has grown rapidly, with significant funding and a global presence, and is considered a key player in the AI ecosystem.\n\n### Notable Links\n* Kimi K3\n* GPT-5.6\n* Claude Fable 5\n* Moonshot AI",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWluZXdzLWtpbWktazMtMjh0LWE1MGItdGhlLWxhcmdlc3QiLCJwIjoyMDczNjUxNzEsInMiOjEwODQwODksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzg0MjUyOTg1LCJleHAiOjIwOTk4Mjg5ODUsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.N4exNklZX8Xr7YlKilzd5xNwcTwuQgnSEs8Ttt6viR0?"
+        },
+        {
+          "text": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=207365171&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzM2NTE3MSwiaWF0IjoxNzg0MjUyOTg1LCJleHAiOjE3ODY4NDQ5ODUsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.QoR2dy69LEyFElJogKHty6M0neSmiJ4R9Z0SUk1f7x4"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ainews-kimi-k3-28t-a50b-the-largest?redirect=app-store"
+        },
+        {
+          "text": "a bit too much love recently",
+          "url": "https://substack.com/redirect/7fc5ecf2-e917-4ba0-abc8-aebeac93fdbc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Moonshot AI did it for us",
+          "url": "https://substack.com/redirect/3c2a6654-62bf-40a9-b4a3-96285a3ea5b3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "entirely edited by Kimi K3",
+          "url": "https://substack.com/redirect/307e37fc-59e9-4cb3-a362-5e870b1bc0df?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Kimi.ai@Kimi_Moonshot10:33 PM · Jul 15, 2026 · 1.89M Views634 Replies · 931 Reposts · 11.5K Likes",
+          "url": "https://substack.com/redirect/053abc94-0e5d-4c01-91f7-b210e48f7f6a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "read SimonW",
+          "url": "https://substack.com/redirect/141ffa8d-a719-48bf-970d-1cc354b0d2e2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Arena",
+          "url": "https://substack.com/redirect/f76d79e8-98ff-40fc-b6c8-c0660a997d5b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Artificial Analysis@ArtificialAnlysKimi K3 scores 57 on the Artificial Analysis Intelligence Index. Its intelligence is comparable to Opus 4.8 and GPT-5.5 but remains behind Fable 5 and GPT-5.6 Sol. Moonshot AI has expressed plans to release the 2.8T parameter model's weights, which would make it the leading open7:08 PM · Jul 16, 2026 · 139K Views66 Replies · 191 Reposts · 1.91K Likes",
+          "url": "https://substack.com/redirect/134590cc-fb00-4161-bf38-202c7abe41c6?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "\\[AINews\\] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing![](https://eotrx.substackcdn.com/o/054aea1f462777d2/p.gif?token=eyJtIjoiPDIwMjYwNzE3MDE0NjM3LjMuZWYxZjdjZmQzZGQxNjFjMUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDczNjUxNzEsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjEwODQwODksImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODQyNTI5ODYsImV4cCI6MTc4Njg0NDk4NiwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.YpymdP0nf12tnxxioRyiPYkyARabj0nA-BqV9Bc6zNQ)\n\na great week for open models continues.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"World of AI\" <newsletter@intheworldofai.com>",
+      "subject": "Kimi K3 Is OUT 🌙 + Biggest Open Model EVER 👀",
+      "date": "2026-07-17T02:21:54.000Z",
+      "summary": "## World of AI Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* Moonshot AI has released Kimi K3, a 2.8-trillion-parameter open model that benchmarks near Fable 5 and GPT-5.6 Sol at a fraction of the price, with open weights expected by July 27.\n* Kimi K3 is a Mixture-of-Experts model with a 1-million-token context window, new efficiency tricks called Kimi Delta Attention and Attention Residuals, and native vision input, positioned as a serious frontier option.\n* The release of Kimi K3 collapses the old trade-off between closed US quality and cheap Chinese open weights, offering a self-hostable model that rivals top closed models.\n* Other notable developments include the World AI Conference opening in Shanghai, Qualcomm reportedly in talks to buy chip startup Tenstorrent, PyTorch 2.13 shipping with a roughly 12x sparse-attention speedup on Apple Silicon, and SpaceX's $60 billion acquisition of coding editor Cursor.\n* Google's Gemini 3.5 Pro is expected to launch imminently, potentially resetting the benchmark race.\n* Frontend code benchmarks via Arena.ai are available, and the Kimi app and Kimi web offer free chat access with a Kimi account.\n* The newsletter also mentions Superhuman AI, a handbook for using AI to cut work hours in half, and provides links to various resources, including the Kimi K3 announcement, Superhuman AI, and frontend code benchmarks.\n\n### Notable Links\n* Kimi K3 Is Out, and It's Enormous: https://elink9ea.intheworldofai.com/ss/c/u001.-EQ1HC9_Lrek26gTpN5xpHcMYuCEaUo188efGMB1q3SuOuBNq5ldszMAvWNU5-tZNpQeqvaHu6kMtr2t6reWMQ2y5WZVYTW6_EaSg08QTvP3C8cO5DqBqpQ4V3T346yVD3ZfNy7om53HowIK-17A19ZanKIpDkTDU_a2AuWXUdhRaPjOoEgItDv8Lp_eEHIeylKXOfA_9tStGQSNZR-0Y5oFnQ7KHDQMwLivFkyRqqiRG_1Ea0pcmKhdg87X-rYX_DZzyMgGN9rOHn5c7btUe-GH8Rn5OlQ8Yi7uMaNZDT0\n* Kimi K3 Announcement Via Moonshot: https://elink9ea.intheworldofai.com/ss/c/u001.-EQ1HC9_Lrek26gTpN5xpHcMYuCEaUo188efGMB1q3QdQ-gFaKld1pOh9xB6HlIpnpvkg27R-XS--WH1PjwyJCxCSiuRX_Y8ZYPHHZzTGBdOea4aCNWZFxZ9iXRhfLAsk3lC005WPa5slUDxtJr2Kn8-tmem4gv0tU-9D5eBvavKwqDUB3On3248g3YxnPiegTcJqGGod7uhtq4ARB8NBSdSlvR-Glm9aQZWTqhq3VnzI3uXlerdFXEMwA3Tw9Vsy4oVkpPfm3ODj0O6ef0Q8_ckPbCYqZgW_cA7_DwUQig\n* Superhuman AI: https://elink9ea.intheworldofai.com/ss/c/u001.nveyZT5WXC8nu3H7vNsg-bdbaY_EuuGogsaHh_-i8JiyGlaR3HND_CWxms_5ZfNF0Az8YrllqXLQB6tC7gaVZxuueGRgtBb1LrIteLk10AiUKGPcuT37uHNQb1uCN0QG4VE6J1nhPpfWGNJE0LHHojA_lXuAJ01KRkYCFPxispyofl-7NBzgKtTitcTL3P4kvOXkLTzW34KAPklAXEoTcbEHKr6KEBnt_zdxqb8Ymy73vgLVJ3FBILEaNyHhWlCk775I2B8EN2N0_9lzx_GPyivOAJeWokJk3fFU9Pc32bmIcJIfz_ARifliozps98eCeWN1siFQ0uS4ujHfa7kaJobb9jcsSIIOZPbyShBss-Pfv13wJ1JxoGfLJla0MyKlW3fdGOc8SVhIL139oIwVzdAB9MtyEyqL3gcS5XlP-LhWizFijfur1Y_UTgwPbj_IwQMYZX6d6b9vczwOWOf6_6n-XbatJuIDRqOI8UxHyX9Fod9yMUkUZexv43oKV6qMU54k9RFSODKjziqjxDJAcobfVLbSvZjCzbgL7ZC8uqJ7mRdIkOHPmAosR1VPxHj3_McjTdoiGhIzMbF4FEhNhqiMAbfMpSF9GtFZwty3QeCJTKcAht6GplglWZkzxdo4\n* Frontend Code Benchmarks Via Arena.ai: https://elink9ea.intheworldofai.com/ss/c/u001.-EQ1HC9_Lrek26gTpN5xpEElOdqfVMv7yeMaSh1yWFJBOmvXvT2JE5k0eFNQSMQnYz4KxnxE2DQJCjwKRltS40lBzObAtMl1JkQd6JAUK3Y9l-CsbwVyaZCZUx1e3kHvsxc3a1oJK7NeGRSHOmD63s_q4QORMg-dJxBkvtQpGq3T_dPjHjTNHTIeZ6xa0YeCn8kuFVYbgTEo58bXlu8Tym6GjoH6FsbF4CPRocQEm78If3OQZu17cf0oXID2VXDgiExpc6otulvo1GOEs54jDjgipiJT7iXsiFcyUmVgKtA",
+      "links": [
+        {
+          "text": "Kimi K3 Is Out, and It's Enormous",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.-EQ1HC9_Lrek26gTpN5xpHcMYuCEaUo188efGMB1q3SuOuBNq5ldszMAvWNU5-tZNpQeqvaHu6kMtr2t6reWMQ2y5WZVYTW6_EaSg08QTvP3C8cO5DqBqpQ4V3T346yVD3ZfNy7om53HowIK-17A19ZanKIpDkTDU_a2AuWXUdhRaPjOoEgItDv8Lp_eEHIeylKXOfA_9tStGQSNZR-0Y5oFnQ7KHDQMwLivFkyRqqiRG_1Ea0pcmKhdg87X-rYX_DZzyMgGN9rOHn5c7btUe-GH8Rn5OlQ8Yi7uMaNZDT0/4se/m0ejf3AnSWWsk8CYvzGaXQ/h2/h001.YiiSX83lc_zKqbldugtRTfpY5ZQrqBJcFe5Bhf5nWSo"
+        },
+        {
+          "text": "Kimi K3 Announcement Via Moonshot",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.-EQ1HC9_Lrek26gTpN5xpHcMYuCEaUo188efGMB1q3QdQ-gFaKld1pOh9xB6HlIpnpvkg27R-XS--WH1PjwyJCxCSiuRX_Y8ZYPHHZzTGBdOea4aCNWZFxZ9iXRhfLAsk3lC005WPa5slUDxtJr2Kn8-tmem4gv0tU-9D5eBvavKwqDUB3On3248g3YxnPiegTcJqGGod7uhtq4ARB8NBSdSlvR-Glm9aQZWTqhq3VnzI3uXlerdFXEMwA3Tw9Vsy4oVkpPfm3ODj0O6ef0Q8_ckPbCYqZgW_cA7_DwUQig/4se/m0ejf3AnSWWsk8CYvzGaXQ/h4/h001.8fXRzzCEMJ5pdeUC7LmYsX8fP_cbu-7QFIzUmzLsEHw"
+        },
+        {
+          "text": "Superhuman AI",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.nveyZT5WXC8nu3H7vNsg-bdbaY_EuuGogsaHh_-i8JiyGlaR3HND_CWxms_5ZfNF0Az8YrllqXLQB6tC7gaVZxuueGRgtBb1LrIteLk10AiUKGPcuT37uHNQb1uCN0QG4VE6J1nhPpfWGNJE0LHHojA_lXuAJ01KRkYCFPxispyofl-7NBzgKtTitcTL3P4kvOXkLTzW34KAPklAXEoTcbEHKr6KEBnt_zdxqb8Ymy73vgLVJ3FBILEaNyHhWlCk775I2B8EN2N0_9lzx_GPyivOAJeWokJk3fFU9Pc32bmIcJIfz_ARifliozps98eCeWN1siFQ0uS4ujHfa7kaJobb9jcsSIIOZPbyShBss-Pfv13wJ1JxoGfLJla0MyKlW3fdGOc8SVhIL139oIwVzdAB9MtyEyqL3gcS5XlP-LhWizFijfur1Y_UTgwPbj_IwQMYZX6d6b9vczwOWOf6_6n-XbatJuIDRqOI8UxHyX9Fod9yMUkUZexv43oKV6qMU54k9RFSODKjziqjxDJAcobfVLbSvZjCzbgL7ZC8uqJ7mRdIkOHPmAosR1VPxHj3_McjTdoiGhIzMbF4FEhNhqiMAbfMpSF9GtFZwty3QeCJTKcAht6GplglWZkzxdo4/4se/m0ejf3AnSWWsk8CYvzGaXQ/h6/h001.nAQGI-8USVCqGsnxgv_0s4D1R2eB62UFQe2Y47cmX1c"
+        },
+        {
+          "text": "Claim your AI playbook",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.nveyZT5WXC8nu3H7vNsg-bdbaY_EuuGogsaHh_-i8JiyGlaR3HND_CWxms_5ZfNF0Az8YrllqXLQB6tC7gaVZxuueGRgtBb1LrIteLk10AiUKGPcuT37uHNQb1uCN0QG4VE6J1nhPpfWGNJE0LHHojA_lXuAJ01KRkYCFPxispyofl-7NBzgKtTitcTL3P4kvOXkLTzW34KAPklAXEoTcbEHKr6KEBnt_zdxqb8Ymy73vgLVJ3FBILEaNyHhWlCk775I2B8EN2N0_9lzx_GPyivOAJeWokJk3fFU9Pc32bmIcJIfz_ARifliozps98eCeWN1siFQ0uS4ujHfa7kaJobb9jcsSIIOZPbyShBss-Pfv13wJ1JxoGfLJla0MyKlW3fdGOc8SVhIL139oIwVzdAB9MtyEyqL3gcS5XlP-LhWizFijfur1Y_UTgwPbj_IwQMYZX6d6b9vczwOWOf6_6n-XbatJuIDRqOI8UxHyX9Fod9yMUkUZexv43oKV6qMU54k9RFSODKjziqjxDJAcobfVLbSvZjCzbgL7ZC8uqJ7mRdIkOHPmAosR1VPxHj3iR8SzrAj7F2cuR-P4j5k4_OWvXJPDNrpFkW2wYvrzP_1gI9WCIfOAmxzP6nm95Dx/4se/m0ejf3AnSWWsk8CYvzGaXQ/h7/h001.drX8znIMIZ92ylLkCYkDG3VvMVqLit9ImumDTBJ2FCM"
+        },
+        {
+          "text": "Frontend Code Benchmarks Via Arena.ai",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.-EQ1HC9_Lrek26gTpN5xpEElOdqfVMv7yeMaSh1yWFJBOmvXvT2JE5k0eFNQSMQnYz4KxnxE2DQJCjwKRltS40lBzObAtMl1JkQd6JAUK3Y9l-CsbwVyaZCZUx1e3kHvsxc3a1oJK7NeGRSHOmD63s_q4QORMg-dJxBkvtQpGq3T_dPjHjTNHTIeZ6xa0YeCn8kuFVYbgTEo58bXlu8Tym6GjoH6FsbF4CPRocQEm78If3OQZu17cf0oXID2VXDgiExpc6otulvo1GOEs54jDjgipiJT7iXsiFcyUmVgKtA/4se/m0ejf3AnSWWsk8CYvzGaXQ/h9/h001.vBpRim0puR69T0qT1_2jb21q4tqOuC09DnyZn3949Nk"
+        },
+        {
+          "text": "Kimi app and Kimi web: free chat access with a Kimi account, the fastest way to try it.",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.n8RlCFhtSzgGlsKGTVOyMevJmBUkBwHyG60ZxE6XoYp_lPxu8tUR3R15x9zrylLZwbxIqad70GQOetOIUiLdVxsv-Yv9xwhdGuzpaunqsPmgRNyxReHBurA7plH2sY83m8OfOiEaxZhWEGzsZDcgxbQiyNYRqWhmWL64c2qmpO-snc6zMaRjoWBAKtJmC0dEGcmr6wAkWaAEM4IIuwqR-BoiwHPcgQpjk-xOA3AgVQUya4L7lR4ZAEJNB0X_nNBw/4se/m0ejf3AnSWWsk8CYvzGaXQ/h10/h001.6z_hnNFDDQ0egRzObW9bYl71pT8sWmRUtHIDXKNkZoQ"
+        },
+        {
+          "text": "The World AI Conference opened in Shanghai",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaQ6Bo7kTABp4Ft05Zr62vhS5RWfTxzOezOouV9Fi8axMTmJYsEmkuhdPFoPFv9CO_71K-VWOQ7uXF8toqJ-mQoZffMBM8M_3TjC4_eqpq-J_VqfKyasliJFwa7dBr_N_QFM2GvhojOO43JVaSfqalZYKHIBkfDm58UQpl2BNhpBBGzv9PYsaUyeFZ8XW83dbwfv-cnpDiSiUCuxzTllNVVbtjNR-qna4Dc-PqUKNDLlFLDKxxHIDkXGnWfHptTkOtGM0Vy6RjQZu7P6opaEcXnA/4se/m0ejf3AnSWWsk8CYvzGaXQ/h11/h001.uDwb16xyoDZuIrfGdDHEpRWnjTOvJNq119n11Ax2R_E"
+        },
+        {
+          "text": "Qualcomm is reportedly in talks to buy chip startup Tenstorrent",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaULpMCJ6BKIXLQvZ81gVf1OfVg1cochMVVjlfArufCthcGCynFy6JCG6JFl9l_HFqvHHhaz7u2dBnGOks6ytyqMuyjWS5LlDbR8-111g23wz4SuLdqIiWGE7NmZpusFgUaSPRqtR-Idr_l95JB1nUAua0aG3vqXblYtqNJgzPZijgc4lUHnsgUULcb5yjT799nRNDJu-cd_NcqFBkpMHONMhuyVHnhtk3UH2OLWZVrq7S6vqiGY41GapJgO-WZ2VuG8leJBxBhHE-iYh4UteMhY/4se/m0ejf3AnSWWsk8CYvzGaXQ/h12/h001.1LMe-JpB_1wxsWDJCEEwR0p55oPuyE1hNeDWyCnO_Hg"
+        },
+        {
+          "text": "PyTorch 2.13 shipped with a roughly 12x sparse-attention speedup on Apple Silicon",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaYQhSV_-KmkVsTIWlUZWSaOunU7Cd0t0U3HEkB35fqZ8s_AolI0qw7sAb9OzoRgyJ2seJgiUFTeW927ZN-JoXifjUEU4xLjY42TOjAF0KD130hVobjgrhsbyJ7jHy_RONrx8zVKE-Uts30kuf6YcVnI_28XOdwcXERMUP5MvFUeB_d9cEuAmpma84O7r-Y03WE0SboHa-oFBztnwXaN3MhFqIyzXMOURTKOIvVZGhZtWTkOJv4WXkBwYK_ULZDJ8Il4iZ7Eq9-nlmmpSMywQC3KfrZ1avDMl1lgnpVSridpQ/4se/m0ejf3AnSWWsk8CYvzGaXQ/h13/h001.tKzP7m_cxIfvli6OMCAVPqFnMkgNwNEyjP8fkaYypRU"
+        },
+        {
+          "text": "SpaceX's $60 billion acquisition of the coding editor Cursor",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.3_sEOzUr887e5bFOjeUEj8avvjDMmMt2qfAEOdpb3Em6-xD99MUcpMBCjctegLyyoHrmrxupH24tOs-tkCJhNHMqkqlyvvwFt8QA8wBsoH6ZYw6Mb7WqJ1STtLm1UYwrCr4ZJEoC2y1DbfLhRlc8T7plLAlBJCcL2FrrUZeWUFTJJ7Muw_H5JcMBk08L1Dk9sWtqfcHJlvPlKd6t6rpcipo9NZVpVw__zWOMoNZebka-IYwVjwSFH2YDM4ngAabjS2EE453ZoEwV7T7kzrLz4KsDXyD-bwp3KZFC9qXblqQ/4se/m0ejf3AnSWWsk8CYvzGaXQ/h14/h001.rFUNZReqpILbipQwC4EMPEFgSf0r_FouCOYyjTsRTok"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Kimi K3 Is OUT 🌙 + Biggest Open Model EVER 👀\n\nMoonshot just dropped Kimi K3, a 2.8-trillion-parameter open model that benchmarks near Fable 5 and GPT-5.6 Sol at a fraction of the price. The open weights land July 27.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 16, 2026   |   [Read online](https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIsRsePT8W5An2TO1KjwEuJHYzqNxdkfRvVUwJngqY9ECv5eDeFaK2SgCF4yHxIS4XWTXabxPSmjab0Jr-DqfNtz5YlQL9vzBKuXOkcqvExiQvD9ALWl9oxOZJQM5ecdOyCHC2TSMQFSq_84Ra5idUqzFohI5bHwL0L6QaiVF762iI4N2TY2dzfvNCNYrBDwaEfgwPKlmxrC_MmHH7Q5nADaqqwam8R1g2Vfh9ZDlC6_78JzxzYITzb1QgNcOogJS03"
+    },
+    {
+      "from": "\"The Batch @ DeepLearning.AI\" <thebatch@deeplearning.ai>",
+      "subject": "AI Overviews Land Google In Hot Water, GPT-Live Puts Reasoning in the Background, How to Tell If Your Model is Manipulative",
+      "date": "2026-07-17T06:30:12.000Z",
+      "summary": "## The Batch @ DeepLearning.AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI released GPT-Live, a new family of real-time voice models that power ChatGPT Voice, designed to make speaking with an AI feel like a natural human conversation. GPT-Live features a full-duplex architecture, enabling simultaneous listening and speaking, interruptions, and live translation.\n* GPT-Live models (GPT-Live-1 and GPT-Live-1 mini) process audio continuously, deciding actions (talk, listen, wait, break in, or backchannel) multiple times per second, and can hand deeper tasks to a separate model (GPT-5.5) for processing while maintaining a fluid conversation.\n* OpenAI's GPT-Live is being rolled out globally, replacing the older \"Advanced Voice Mode,\" with GPT-Live-1 as the standard for paid ChatGPT plans and GPT-Live-1 mini for free users.\n* A German court ruled that Google can be held liable for defamatory statements generated by the AI Overview that appears at the top of its search results, shifting search engines' liability for false statements and potentially altering how Google presents its AI Overview.\n* Researchers introduced Robin, an open-source AI agent that proposes new medical uses for established drugs, nearly autonomously, with human input limited to naming diseases to be treated and running AI-proposed lab experiments. Robin identified two drugs that proved effective in treating dry age-related macular degeneration (dAMD).\n* A study measured the effect of OpenAI GPT-4o on users' beliefs, testing various LLMs' ability to estimate changes in users' beliefs after conversing with GPT-4o. The study found that LLMs can estimate changes in users' beliefs moderately accurately but that earlier manipulation detectors did not correlate with actual belief shifts.\n\n### Notable Links\n* [GPT-Live](https://www.openai.com/blog/gpt-live/)\n* [Robin](https://www_futurehouse.ai/robin)\n* [GPT-4o](https://www.openai.com/blog/gpt-4)\n* [ChatGPT Voice](https://www.openai.com/blog/chatgpt-voice)\n* [Google AI Overview](https://www.google.com/overview)\n\nAdditional context: The newsletter discusses various AI-related topics, including the release of GPT-Live, a new family of real-time voice models, and a German court ruling on Google's liability for defamatory AI-generated statements. It also covers research on AI agents like Robin, which proposes new medical uses for established drugs, and a study on the effect of LLMs on users' beliefs. These updates highlight the ongoing development and impact of AI technologies in various fields.",
+      "links": [
+        {
+          "text": "Subscribe",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/DWNZL0ZdCjW6HhL8Q6_sn5rW5ZD33c5Rz-w2M1--jT3lYM-W7lCdLW6lZ3mhW3tY-MW8z6W-HW5PLwpb3PjrRFW5cLnB83MWJ_sN6WzHWkxzdY5W48XkMQ1b94X3W2Z0xFG8W2RsBW4t2W5j55mMQtW8VrBPg1vD1J2W6C8H0L7hMCt3W7Yfftr270VRlVQ8d744jydJkW4N6c6590mkMTW8qQj9q1_84mGW4nT8Vb3VwwdSN44LNc8ZTCJrW96hNqm8vQ38NW3KFHz118mM3ZW37jp3k5RCW48W7zZS1d85wvyLW3QG5dj6FrPx3W6D3Pq53vd8tGW2M0KJF3yBvLtW4qbpZG52fQMcW5Js7n14QHVXsf4RBXBP04"
+        },
+        {
+          "text": "jobpocalypse",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/DWNZL0ZdCjW6HhL8Q6_sn5rW5ZD33c5Rz-w2M1--ks3qgz0W8wLKSR6lZ3q6VXSS5r3fk84nW1_P_wP3GcmLfW4WXqKX1xlTJ8W2h0lgT3YThK-W7-kYRh2TNVRKW8JjBvf6wCr8dW4FlCnZ58q4pxW1k0jDS8gX_K4VCGPPH1p2qkFM5XFQYfjH3yVG7Psn536_MvW1fpSJv3wBNJcW5XdLXW5l-WTFW6jtFtX1BRqf-W2Ps8hT6dKKbBW1QdhJY47QddSW7bbP9B3NnplDN3b0XPj-dcQrW9f9PP07psY8-W8LJqPX82wSRmW3qbZ616DzqkXW55HSXB63BZtkW6pFcMn6gw0TGW66m2X682TmLYW3Hgft96PH0JkV9sB3R3nxnr6W5LtYBD8XYHBjW34Xfsj8HWsp8f3jWdYH04"
+        },
+        {
+          "text": "DEEPLEARNING.AI",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/DWNZL0ZdCjW6HhL8Q6_sn5rW5ZD33c5Rz-w2M1--jz3qgz0W6N1vHY6lZ3lQW3sNwm22GDFvwW5qrgjw203KZdW1Sp5_w8x0_GfN2Bnz5k6_Y8BW9by4NZ5sjB7ZW96hKfH34fwRZW7JWKd76WS2pvN5wcYYcVYr8mW5TDHc01JwpdGVbVd885m2NdBW66P_bT7vNqNLW7lPVLG5cSgS2W3rs6-T3wgYHCW38JvMn6gzZTPW5-P2Pd21V_xHW7491Wc8X3rK-W1xlPWQ87NSsJW1ngWf58Dg8PqW7Sb-4q8sR0gyVXTF011n4Sq9W27-dYH7HcGlcW27X16n2DqzpMf5Cnr1g04"
+        },
+        {
+          "text": "Enroll for free",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/DWNZL0ZdCjW6HhL8Q6_sn5rW5ZD33c5Rz-w2M1--ks3qgz0W8wLKSR6lZ3l3W5RTjFb6pBVsPW1hsNSN31h2grW5L5xym3FYt3KVp-PB91VT9YVW5VNv9Q5LBzQ3W8qxPWD7W0zYhW6B9GjN30Xh9zW27_1FH1SrSPMV9mvsn55QNptW3wcKQr41-16cW8p9dWx1ytnMhW7VsxqF6F5gN4W3_mlqx7jD0kSN540KSpxvgYpW3fFBSb2WjPLYW3BmC0L1CY2LtN8BgjpCFJBrgW15kx6J26bYj_W83wMJq83VR5XW3n_r3p1cHTbdW4DQpm11TpTLfW2Gslyb2CNbs4W68MrYF1NNlMhW8hvggs706nBWW20f-3s3mmfDHVDww7k2bzgXMW9gSwk-37l8XwW3khx471lS59XdN8g1204"
+        },
+        {
+          "text": "released",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/DWNZL0ZdCjW6HhL8Q6_sn5rW5ZD33c5Rz-w2M1--k83qgz0W7Y8-PT6lZ3lzW6DjdDz30Lc_bW98_2Hm8ZJSYDW7Xbgck1MmP60W3DyQxB3f_NhFW4-gnqk19Ly_kW55N8PD5H1MZ-W4S3Gpw89fRWLMR1ZJjVBxLjW6CwfNt3mD4TMW3hN6g23PWWV8W8crjPf51l5DBW3ZC9bk16F9nQW8Xx3hv584XwtW5p6cNW8tRf6nW13hXMQ2NdyMrW36DWPN3FSvTvW3P3rb-3Hy2SsN26W20L3NBBnW2ThpJ913MDMGW6wTT5j4LZxzTW4qNZhZ8kKyw5W3vYz6w6MKyXdW2mJsjK6vFJlCW5gDnWw7zTms8W49z0sW2KWZGqN2ZTcGRd4C9jf7XZKYH04"
+        },
+        {
+          "text": "user-selectable",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/DWNZL0ZdCjW6HhL8Q6_sn5rW5ZD33c5Rz-w2M1--k83qgz0W7Y8-PT6lZ3lcW87jvpw6k4pQ6W2Dhn9f6MFkm2VBNWPt2sJB9nW28M9Mt4Nw-B8W2FC-wZ88dSfrW8PnpBn7ZPSJpW5Rk6gQ3F_34vW3YlDP56g_5GxW4D7-Gk4sNCxzVklwSS4w4XVzW23ZYFF3Dmn_GW2m6ftC5d3PWVW6pVh-_8fZ0sKW78b3SC42-vZPW27Nh6p16rjw3N1M0v6f2sDcvW8PJsvy27Lfq0W5GN3HW6r3pvpW2qFHWB3msdwjW1gVkGT7Y080kW8kRt2M3JgTLJW2BTMgd5QCGLrW2RRs3q783yZwW7B_vyS3PPqXbW5-FLmv95C9v1W7v9_tV4c2RvKf2l8XbC04"
+        },
+        {
+          "text": "GPQA",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/DWNZL0ZdCjW6HhL8Q6_sn5rW5ZD33c5Rz-w2M1--jT3qgz0W7lCdLW6lZ3lfW9k40908dYFFzW6RWWM78sw95YW1g_xyY6MfRT-W8dD-Pp88Z_SJW4MQ--z22VNVWW2TjwBR4jyGXFW1mBBYJ6LzvDsW8DztGg1NkkfMW1Q_8zH6qP9JyW8SF9Rb13xw6jW5SQhMK5k1JsRW6hHkHv24N8Z4W6KFcCS7PXN5xW22-1z-1Js5NXW86R7VR3vkYj3W4mgvnJ58Qbj8W1Pw6K_3BsGD4N7vMM7CvFGQFW2CptSj86gRcGW7P5xP01QfWXwN56wrWrMY9t_W80klmL3KGD5CVYJ8hK6hh9CRW7L4Lcx7plgXcf7K2sRM04"
+        },
+        {
+          "text": "GPT-Realtime-2",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/DWNZL0ZdCjW6HhL8Q6_sn5rW5ZD33c5Rz-w2M1--kM3qgz0W95jsWP6lZ3q7W709gMK5hKf98W83bzXn2GMNztW70XjHg7_vcl-W2F9Ynq1qK_GdW3Jy29Y4CSXHSW8LD6Wk5zVjmfW8CqHQr5cMcdfW3VVsjt3bzHrxN2Hxq-P8PrP4W3BRD-681Rmd-W4m1vFL1twZrmW8bBx-S8BqhJbW8fgp3S6CJf0sW96Jpp18xcqmQW2V3YC063cn6PVg9WPg5Pglp1W6xbmTc9l2360VV5NgR8RSCzPN2P-3yl6q-80N6WGRB_LK3SkVjF6Zv4MpWyxW8YH3hx9hNrSbVwgtGG96D6jjW2JmDW_10RkL4W8C4xMJ2DYjMkW8xY2xz96CxZsW177sfz6j5K0wW6MQqQl4JDZgzW3LNzgt4xC4z5N7S695kv_dpqf7Ng0v404"
+        },
+        {
+          "text": "system card",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/DWNZL0ZdCjW6HhL8Q6_sn5rW5ZD33c5Rz-w2M1--jT3qgz0W7lCdLW6lZ3msW61fty275Y4y8W2-5t7C2hfM0zW4sjf8S3b_M6yMTChSVLlzqMW2Qt_jC72yc_4W5k92508P8Zr2W7CsngH6dFKY-W5FQHNV2Fnm6sW2LZp1s4fDzj8W8m5MBh6Hzh39W8nPLZG1X6L4hW1TVnRD8_bzm9N8DQl2fg0375VysGQG8kcShJW12xG4S5n5hzYVpCct06mtPTQW1zyykW3cpx50W3gJKZJ29qkRcW1yPDhZ41dbb_W1kfgyh6zD3w6W5Fs96H2X_KBMW77FmHP6-Xl1TW3vFfTm8lNnl-N608YJxGh51tdC_7nn04"
+        },
+        {
+          "text": "backchannel",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/DWNZL0ZdCjW6HhL8Q6_sn5rW5ZD33c5Rz-w2M1--hH5nR3bW50kH_H6lZ3kTW5GM1_T1mDwL4W2wXfVp19ny2HW8LHgNC22tzWXW1ryGbw6fNGyTW3Y8WbY45NZV1VKVFj32KXcqBW6F5DmB15pF80N5-mklLc03m2W10-Xts3zw3KBW6ZSMSf3y3zCGN8FtvLrZwSXVW5cmhF-8YT8WZW8fl9R6713dNgW7vnRGL31PnbhVkBMvK25hnYmW31LBL16W3YsRW3GGCMp6hz17sW2QzkTV5CSQdzW8hfsb57JJtmlW4dfYKQ7_850-W5vz1L-4B-w9xW69y7GX6mZnwqV2q1yk76Qw8sW1S9-WN9cKnHFW8LyNgj4L-3JzW3ycZg63LCzHXW1sL_sC6z4bRFW9dpppD1j2Cy_W8wSRCX3dxXNMW7fDTmM84W_TbW2ckvbV96vfDYW2grcy48yLFqpf2hPVrP04"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "AI Overviews Land Google In Hot Water, GPT-Live Puts Reasoning in the Background, How to Tell If Your Model is Manipulative       \n\nJust as AI is turning many specialized developers into full-stack developers, it is turning many more marketers, recruiters, and other fields into full-stack versions. ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­"
+    },
+    {
+      "from": "\"NVIDIA\" <news@nvidia.com>",
+      "subject": "SIGGRAPH 2026 is just days away. See what’s ahead.",
+      "date": "2026-07-17T08:38:45.000Z",
+      "summary": "## NVIDIA Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* NVIDIA is attending SIGGRAPH 2026, a conference on computer graphics and simulation, from July 19-23 in Los Angeles, and will feature keynotes, labs, and special events, including a keynote on the latest advances in neural rendering techniques, progress in developing world models, and simulation methods for AI.\n* The NVIDIA keynote will be live-streamed and will explore how technologies like neural rendering, world models, and simulation are changing the way digital worlds are built, rendered, and used across various domains, with examples and demos from recent research.\n* NVIDIA will also host several featured programs at SIGGRAPH, including Educators' Day, Physical AI Day, RTX Rendering Day, and AI in Production, which will cover topics like AI in education, physical AI, rendering, and generative AI in production.\n* The company will also offer hands-on labs for developers to learn about AI, research, OpenUSD, and more, and will feature a \"Build-a-Claw\" event where attendees can build and take home a working agent.\n* NVIDIA has announced several notable events and sessions, including:\n\t+ Educators' Day on Monday, July 20, 11:45 a.m.–12:15 p.m. PT, which will focus on how AI is reshaping education.\n\t+ Physical AI Day on Tuesday, July 21, 9 a.m.–5 p.m. PT, which will connect developers and researchers to learn about physical AI.\n\t+ RTX Rendering Day on Wednesday, July 22, 9 a.m.–5 p.m. PT, which will explore the latest advancements in neural, real-time, and production rendering with NVIDIA RTX PRO.\n\t+ AI in Production on Thursday, July 23, 9 a.m.–3 p.m. PT, which will cover how developers and industry pioneers are using generative and agentic AI for real-world production.\n\n### Notable Links\n* Learn More: NVIDIA's SIGGRAPH 2026 page\n* Learn More: Educators' Day\n* Learn More: Physical AI Day\n* Learn More: RTX Rendering Day\n* Learn More: AI in Production\n* NVIDIA Blog: For more information on NVIDIA's news and updates\n* Privacy Center: For information on NVIDIA's privacy policies\n* Contact Us: For general inquiries and support\n* View Online: To view the newsletter online",
+      "links": [
+        {
+          "text": "Learn More",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGjDjMTUMnqM___-yi__Q1X6eySdBi7sjW4NlGLS2V3twWino0t3rKxmDKE-YdE-THS-cuWhyA="
+        },
+        {
+          "text": "Learn More ❯",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGjDjMTUEPMo3-aWxQzVwe6TZhdjq92nuYF_PHHy8JTp9vFSpWRR21Uj3uqyrrJ91MeVBVdT7Y="
+        },
+        {
+          "text": "Learn More ❯",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGjDjMTUH4Rtc_iF2mH2WnxaEKt1XmNsAFlnuP3ZlDkHU6GnYDIftadFzu5b3Y3LOqhTIfNzRE="
+        },
+        {
+          "text": "Learn More ❯",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGjDjMTUAxyLRLiaRUEacjqHqjtyYxcMTElHmaA3FNBUpISBkslhVqCawsYhJ2jUlYG8dbHD0c="
+        },
+        {
+          "text": "Learn More ❯",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGjDjMTUM5RBtPnE-tECYRvjHhC226pxMLXdi6QjtwkqQGMw_H7_f5iuQJGrcokFfHb3JTmLEk="
+        },
+        {
+          "text": "Learn More ❯",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGjDjMTUA_jKwDpF1nqOQFP9LF3Bc2QmVYgg3QtF7_WMHiddFUzEMGhXPaiKVVBxoiNEF2deSQ="
+        },
+        {
+          "text": "Privacy Center",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGjDjMTUFDPCRjjnsr1DMWNx5WkNUO-mLWK_zywSTh7v1uL1lfaonHRdnmxa460w54IzmgGfUo="
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGjDjMTUGTTz3HV-NVLt0TFBQEvbgTw4z15aJtpEwHgHsJR8p_27vvSyXNsHnqR291XD-6wtQs="
+        },
+        {
+          "text": "View Online",
+          "url": "https://go.nvidianews.com/v/MTU2LU9GTi03NDIAAAGjDjMTUPjtjrgaIMYR5Rgg1YELsKLVTTwnUL8y0MEjAZldadAGHTi51M2WXP84UkM7puCpLDQ="
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "NVIDIA         \n\nJoin us July 19-23 in LA for keynotes, labs, and special events.\n\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n [![NVIDIA Logo](https://info.nvidia.com/rs/156-OFN-742/images/NVIDIA-Logo-3.3.png)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGjDjMTUQEf9c6_r0SeAkdhbTfbibP7oWRPSSMcHJIzmhfYJl7tmBN_25-C7PcjiaRrnZsbcAM= \"NVIDIA\")[![NVIDIA Logo](https://info.nvidia.com/rs/156-OFN-742/images/nv-black-top-bar-logo-small.png)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGjDjMTUQEf9c6_r0SeAkdhbTfbibP7oWRPSSMcHJIzmhfYJl7tmBN_25-C7PcjiaRrnZsbcAM= \"NVIDIA\")\n\n[![NVIDIA](https://info.nvidia.com/rs/nvidia/images/email-builder-SIGGRAPH-2026-Activation-Plans-1-1784074232708-cslwj0.jpg)](https://go.nvidianews.com/MTU2LU9GTi0"
+    },
+    {
+      "from": "\"Anna Eisenberg\" <annas-daybreak-news@mail.beehiiv.com>",
+      "subject": "Starship Stalls and Mouth-Heart Link",
+      "date": "2026-07-17T10:05:18.000Z",
+      "summary": "## Anna's Daybreak News\n\n**Priority: MEDIUM**\n\n### Top Updates\n* **Starship Stalls**: SpaceX's Starship experienced a delay in its 13th test flight due to engine ignition issues, with 4 out of 33 engines failing to ignite. Despite this, Elon Musk is optimistic about the mission's prospects and expects another launch attempt soon.\n* **Mouth-Heart Link**: Researchers discovered a potential link between the gum bacterium Porphyromonas gingivalis and calcific aortic valve stenosis, a condition where the aortic valve becomes calcified. The study found that repeated exposure to live P. gingivalis increased valve calcium buildup and aortic stenosis signs in mice.\n* **Bridge Attacks**: The US launched a series of strikes against Iran, targeting coastal surveillance, air defense, logistics, and maritime assets, as well as bridges used to supply Bandar Abbas near the Strait of Hormuz. The attacks have resulted in significant disruptions to shipping and a rise in oil prices.\n* **Lettuce Link**: A cyclospora outbreak has been linked to shredded iceberg lettuce served at Taco Bell, with over 1,600 people affected across several states. The CDC is investigating the outbreak and has identified a single supplier in Mexico as the likely source.\n* **Kimi K3**: Moonshot AI released Kimi K3, an open-weight model with 2.7 trillion to 2.8 trillion parameters, a 1 million-token context window, and support for text, image, and video inputs. Kimi K3 has been shown to match or outperform other models like Anthropic's Fable 5 and OpenAI's GPT-5.6 Sol on certain tasks.\n* **GPT-5.6**: OpenAI's latest frontier model family, GPT-5.6, has been introduced with three capability tiers: Luna, Terra, and Sol. GPT-5.6 Sol is the strongest model in the family and has been shown to set new state-of-the-art benchmarks while improving efficiency and cost.\n\n### Notable Links\n* [Kimi K3](https://www.moonshot.ai/kimi-k3)\n* [GPT-5.6](https://www.openai.com/gpt-5-6)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Starship Stalls and Mouth-Heart Link\n\nStarship stalls on the pad, and SpaceX slips below its IPO price.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Listen online](https://link.mail.beehiiv.com/v1/c/4kvTLqApxTWQRmK43XqJC%2Bx0ubf%2BBE0JiUzzm9lxaDkDrPTT1Oy6QFxIfiAG%0Aqd8eoobrG3xRZKK4sQQ0eWuUkGPLZVWsku5inbWD7bomMfKyqeQw3Wg1HnhJ%0A4rTiSnfsepv0FS%2FzX3LJRbJECIqS9RfAMqJ4135sCXj%2B3nEFnw8oeJy7I7rG%0A0llkrpmh7h5%2B0pRQnmlU2ckYp0FYW%2F2MbA%3D%3D%0A/bee68514b559c707)   |   [Read online](https://link.mail.beehiiv.com/v1/c/KvUAwQw8Ge9Q5xuuISsJHySnVA5abaG4t3JKC7X7KpUAfiyudn8%2F6KYQ8QFN%0AeJRiO4CC0ZnuJZXhpLHffcjYVGuIaa7hB5HtsLegxlDiK62TTqO0osyeeU"
+    },
+    {
+      "from": "\"The Rundown AI\" <news@daily.therundown.ai>",
+      "subject": "🌝 Kimi K3 joins AI’s frontier conversation",
+      "date": "2026-07-17T10:07:03.000Z",
+      "summary": "## The Rundown AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Moonshot AI has released Kimi K3, a new open-source model that achieves state-of-the-art performance on several benchmarks, rivaling Anthropic's Claude Fable 5 and OpenAI's GPT-5.6 Sol, and is available at a lower price point. This development is significant because it marks a major milestone in the advancement of open-source AI models and poses a challenge to the dominance of proprietary models.\n* The Kimi K3 model boasts 2.8 trillion parameters, a 1M token context window, native visual understanding, and a hybrid attention architecture, making it suitable for long-horizon coding, knowledge work, and complex reasoning tasks. Its performance on benchmarks such as SWE-Bench Pro and AECV-Bench for construction drawings has been impressive, with scores of around 80% and 0.901, respectively.\n* OpenAI has introduced GPT-Live, a new family of real-time voice models that enable conversational dialogue with AI, allowing for simultaneous listening and speaking, interruptions, and live translation. GPT-Live is being rolled out globally, with GPT-Live-1 as the standard for paid ChatGPT plans and GPT-Live-1 mini for free users.\n* Google's AI upgrade, Gemini 3.5 Pro, has been delayed due to performance issues, with the company reportedly facing internal clashes and employee departures to other AI startups. This delay has significant implications for the AI industry, as Google's Gemini models are widely used in various applications.\n* Rowan, a contributor to The Rundown, has emphasized the importance of developing AI intuition, which involves knowing when to use AI and when not to, and highlighted the success of The Rundown's human-centered approach to journalism.\n* The Rundown has provided a guide on using OpenAI's GPT-Live to plan trips, with step-by-step instructions and examples of how to use the model for research and planning.\n\n### Notable Links\n* Kimi K3\n* GPT-Live",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🌝 Moonshot’s Kimi K3 closes the frontier gap\n\nPLUS: Use OpenAI's GPT-Live to plan any trip fast  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Read online](https://link.mail.beehiiv.com/ss/c/u001.dSnm3kaGd0BkNqLYPjeMf75St_4h4uVDlb2B1USeB_E2IBva1Mee4Np-hrUbIAcqQlgJBBW9ixV8qRHGRvdnQSw9U6ZyZFXpjtDyCtaWnzPHx2npShDePLLcwQN9ae1wPiFob7Oz8N_qks8E3CnWi97mKKMNJCPUuctTt2al0BWYQmh7hzqscDlPg1EKVhI4LhT55LDAaxBdSEo0G1m1VNPRuZkbuCMFsOnnr50pIBJ89HUKxoOXG7Sk9e-UnzKCl3fYijYalN8vfakmXpeeqA-SzWZ30e6hMne4QstSS7aTqnglyiK3twBuhxIeaqlt41oMh0CAuRXjIOC7T-NDsruHokPGUCuu9dAXpNXp6dkFd9Eg3LsW_KcemxK2XEeAS0kW7CQG6CsFX4Lmny_DxpNWhffSMXpmNvVyQSVrSeqNF8glInN3djpR6gJwJ"
+    },
+    {
+      "from": "\"Evolving AI Insights\" <evolvingai@mail.beehiiv.com>",
+      "subject": "🐉 China's Open Source Model Beat Fable 5 and GPT-5.6",
+      "date": "2026-07-17T10:29:35.000Z",
+      "summary": "## Evolving AI Insights\n\n**Priority: HIGH**\n\n### Top Updates\n* China's Open Source Model **Kimi K3** has beaten **Fable 5** and **GPT-5.6** in coding benchmarks, marking a significant achievement in the AI landscape. Kimi K3 is a 2.8 trillion parameter model, the largest open-weight model ever released, and is available on the Kimi API and website. It is notable for its sparse architecture, which allows it to run at about a third the cost of Fable 5.\n* **Google** has introduced a new feature in **Google Vids** that allows users to create talking videos from a single selfie and a short voice clip. This feature is powered by **Gemini Omni**, a text-to-video generation and conversational editing tool. Gemini Omni can generate clips from written prompts and reference images, and includes features like spoken requests to reshape lighting or backgrounds.\n* **OpenAI's GPT-5.6** has solved a two-decade-old statistics problem in 90 minutes, demonstrating the potential of AI in resolving complex mathematical challenges. The problem, related to the Benjamini-Hochberg method, was previously unsolved for 20 years.\n* **Moonshot AI**, the developer of Kimi K3, has received significant funding and is positioning itself as a leading player in the AI ecosystem. The company is committed to releasing full model weights and technical reports for Kimi K3, enabling broad open-source use and research.\n* Other notable updates include **Xi Jinping's** first-ever WAIC keynote, where he called for global AI cooperation, and **Hyundai workers** striking over the deployment of **Atlas robots**.\n\n### Notable Links\n* Kimi K3\n* Google Vids\n* GPT-5.6",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🐉 China's Open Source Model Beat Fable 5 and GPT-5.6\n\nAlso: Google Shrinks a Whole Video Shoot To One Selfie  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 17, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.UL8z_frrzVFXbrsJOFh-kMJOn4HwAMJd584RF3IXXpKUdlrgBQ9jXcL8QtBmzU35Ydl6ks-yeCTYYjxi0DKJIFmNzAc2ymOxaDR5jtn5OD7R1Cy7HwNdLTbTA-eizi8f05MnMfaSomtV11DRV1yshT6i_y89aKpbWs5WbJ7tI4bM85l4I1EJkP7hNiTe_e7XX-Ju9JmfaCvGDVtoKUYHroslBdvtJy_LVH6H7h-KTdV5wK0R3nVPIDLYCOaocTtOCg8L1wSzj_9DxHyvqMqrbYlKE4wKLqk_fHz7rEc_hZxXCs8C8iVOBH61TRbHQBqK7aKoIEfBNrl6JUcdgH5dAyYk5MtjdJPXh0jl_Da9JBVxhO_qCWfKKz78WNDU5T62Y7nrSX4V9FE9Ze-HoCiBHUSnYefS_T"
+    },
+    {
+      "from": "\"TLDR\" <dan@tldrnewsletter.com>",
+      "subject": "xAI chaos 🔥, Gemini delays ⏳, earning judgement 👨‍💻",
+      "date": "2026-07-17T11:04:49.000Z",
+      "summary": "## TLDR Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* SpaceXAI is working to improve its Grok model to catch up with Anthropic's Claude, releasing a new coding tool and expanding its sales team, despite facing internal chaos and being behind competitors in several measures.\n* Google has delayed the launch of Gemini 3.5 Pro due to the model not meeting internal goals, particularly in coding capabilities, and is currently testing it with partners and the US government.\n* Researchers have successfully restored hand movement and touch to a paralyzed man using a 'double neural bypass' system combining brain-computer interface, AI, and electrical stimulation, with improvements lasting over two years.\n* The FDA has approved a new pill, enlicitide, that can lower cholesterol levels beyond what statins can achieve, with a list price of $315 for a 30-day supply.\n* Wispr Flow, a tool that turns speech into clean text on every device, has been introduced, allowing users to start tasks on one device and finish on another, with 89% of text sent with zero edits.\n* Bun's codebase was rewritten from Zig to Rust using Fable, an AI tool, in just 11 days, demonstrating the potential of AI in code migration.\n* Microsoft CEO Satya Nadella has criticized Anthropic's Fable for being too editorially controlled, while China's Xi Jinping has endorsed open-source AI models and taken a swipe at US dominance in the field.\n* Visa is expanding its crypto push with a new stablecoin platform, and Nvidia has unveiled a new AI model, Cosmos 3 Edge, designed to help systems perceive and navigate physical environments in real time.\n* TSMC has added $100 billion to its US spending plan, and Meta is considering hiring a top Amazon computing executive as it weighs a cloud push.\n* Linus Torvalds has expressed support for using AI tools to improve the Linux open-source project, telling critics to \"fork it\" or walk away if they disagree.\n\n### Notable Links\n* [The Identity Crisis at Elon Musk's Chaotic AI Outfit](https://thenextweb.com/news/feinstein-double-neural-bypass-bci-paralysis-nature-medicine)\n* [Google Gemini Launch Delayed as Tech Falls Short of Internal Goals](https://www.cnbc.com/2026/07/16/microsoft-ceo-says-anthropic-fable-request-policy-doesnt-make-sense.html)\n* [AI and a brain implant restored a paralysed man's movement and touch](https://thenextweb.com/news/feinstein-double-neural-bypass-bci-paralysis-nature-medicine)\n* [Visa Is Expanding Its Crypto Push With New Stablecoin Platform](https://links.tldrnewsletter.com/tOIeS2)\n* [Nvidia unveils new AI model and expands Japan's physical AI ecosystem](https://www.cnbc.com/2026/07/16/nvidia-reveals-new-ai-model-and-expands-japans-physical-ai-ecosystem.html)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR\n\nOne of SpaceXAI's goals is to get Grok to catch up to Anthropic's Claude. The company recently released a coding tool and beefed up its sales team ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=tldr/1/0100019f6fc01ef8-b12a6a8b-4f19-4e27-a04b-bf2f011897e5-000000/6FIwUt1ZJanvyIa-eqkaJes2cafwbF5zCgDSnQxUnGU=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldr%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/0100019f6fc01ef8-b12a6a8b-4f19-4e27-a04b-bf2f011897e5-000000/Tf4J6oZ1u5vg5mH8nVRC87hHz7MeeiZ_rb-X8MY_rkc=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=d3324c64-5f8e-11f0-b1c3-7f12249efa1c%26p=5ba63194-81b4-11f1-ac44-f3b12e142ead%26pt=campaign%26t=1784286289%26s=56234e86d3df26a4dd02775b0c79"
+    }
+  ],
+  "tldr": [
+    "Moonshot AI releases Kimi K3 model.",
+    "OpenAI introduces GPT-Live voice models.",
+    "Google delays Gemini 3.5 Pro launch.",
+    "China's Xi endorses open-source AI models.",
+    "Researchers demonstrate AI planning capabilities."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Kimi K3",
+        "context": "Kimi K3 is a frontier-class large language model developed by Chinese startup Moonshot AI as the latest flagship in its Kimi chatbot/model series.[1][4][5] It has **2.8 trillion parameters**, making it the largest open model ever released and the first open-source model in the ~3-trillion-parameter class.[1][2][5] The model is built on Kimi Delta Attention (a hybrid linear attention mechanism) and Attention Residuals, offers native visual understanding, and supports a **1 million token context window** for long-horizon tasks such as large-scale software engineering, complex knowledge work, and deep reasoning.[2][5][6][7]\n\nKimi K3 matters because it pushes open-weight model scale and performance close to the strongest proprietary systems from Anthropic and OpenAI.[1][5] On multiple benchmarks compiled by Artificial Analysis and Kimi’s own evaluations, K3 ranks just behind Anthropic’s Claude Fable 5 and OpenAI’s GPT‑5.6 Sol, while outperforming or matching them in several long-horizon automation, browsing, and coding tasks.[1][2][6] It debuted near the top of public leaderboards and is reported to beat mainstream models like Opus 4.8 and GPT 5.5 on challenging coding and kernel-optimization tasks, positioning it as one of the first open models to seriously rival the latest closed frontier models in real-world software and knowledge workflows.[1][6]\n\nRecent developments include the official release of Kimi K3 in mid-July 2026, its availability through the Kimi API/Code platform under the `kimi-k3` model ID, and Moonshot AI’s commitment to release full model weights and a detailed technical report, enabling broad open-source use and research.[4][5][6][7][8] Industry impact is centered on the combination of unprecedented open scale, a 1M-token context window with flat pay-as-you-go pricing, and strong performance on agentic, long-horizon benchmarks, which collectively raise expectations for what open models can do in areas like automated coding, complex information retrieval, and enterprise knowledge work.[1][5][6] By maintaining a sustained lead in open model scale and aligning closely with inference partners and the open-source ecosystem, Kimi K3 is accelerating competition between open and closed frontier models and expanding practical access to very large, high-context AI systems.[1][5][8]",
+        "source": "web search"
+      },
+      {
+        "topic": "GPT-5.6",
+        "context": "GPT-5.6 is OpenAI’s latest **frontier model family**, introduced as a next-generation large language model line with three capability tiers: **Luna** (fastest and most affordable), **Terra** (mid-tier, similar to GPT‑5.5 but cheaper), and **Sol** (the flagship, highest‑capability model).[2][5][6][9] The models are designed to scale across enterprise productivity, coding, scientific research, and cybersecurity, with Sol positioned as OpenAI’s strongest model to date for complex reasoning, agents, and high‑risk domains like cyber and biosecurity.[1][2][6][9] OpenAI has also introduced a clearer naming scheme where the numeric version (5.6) denotes the generation and the names (Sol/Terra/Luna) represent capability tiers that can evolve independently.[9]\n\nGPT‑5.6 matters because it sets new **state-of-the-art benchmarks** while significantly improving efficiency and cost, which is why other models such as Kimi K3 are now being compared against it as a performance reference point.[1][4][9] Sol beats leading competitors like Anthropic’s Fable/Claude 5 line on key agent and coding benchmarks while using fewer tokens and completing tasks faster, meaning better performance per dollar for real-world workloads.[1][4] The family introduces new features such as adjustable **reasoning-effort settings** and advanced agent modes (e.g., multi‑subagent \"ultra\" configurations), alongside OpenAI’s most robust safety stack to date combining model‑level refusals, real‑time misuse classifiers, and tiered access controls calibrated to risk.[2][9]\n\nThe latest developments include a staged rollout: GPT‑5.6 Sol was initially released in a limited preview to a small group of trusted partners at the request of the U.S. government due to its high capabilities in cybersecurity and biological/chemical risk, and is now being expanded to general availability globally.[2][3][7] OpenAI is also deploying GPT‑5.6 Sol on specialized hardware such as Cerebras systems to deliver extremely high token throughput for enterprise users.[8] On the industry side, GPT‑5.6 underpins new products like **ChatGPT Work**, a desktop and browser agent aimed at automating multi-hour knowledge work (spreadsheets, presentations, websites, complex project execution), signaling a shift toward agentic, task-oriented AI assistants that can operate across user environments.[4] Because GPT‑5.6 offers a strong mix of capability and cost efficiency, it is becoming a key benchmark model against which both proprietary and upcoming open-source systems (such as GLM and Kimi K3) are being evaluated in terms of reasoning quality, speed, and total cost of ownership.[1][3][4][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "Claude Fable 5",
+        "context": "Claude Fable 5 is Anthropic’s latest **Mythos‑class frontier model** made safe for general use, positioned as the company’s most powerful generally available model to date.[1] It is designed for long‑horizon reasoning, advanced software engineering, complex knowledge work, vision, scientific research, tool use, and extended autonomous tasks, with a safety setup that routes sensitive cybersecurity, bio, or large‑scale distillation queries to the more restricted Mythos 5 / Opus 4.8 stack.[1][7] Anthropic describes Fable 5 as state‑of‑the‑art on nearly all tested capability benchmarks, and it ships with new classifier systems to aggressively detect misuse and jailbreak attempts.[1][3]\n\nFable 5 matters in the AI/ML space because it currently sits at or near the top of many public benchmarks, reshaping expectations for agentic coding, complex reasoning, and multimodal document understanding. On SWE‑Bench Pro, it scores around **80%**, substantially ahead of GPT‑5.5 (≈59%) and Gemini 3.1 Pro (≈54%), and clearly above Anthropic’s own Opus 4.8 (≈69%).[7][8] Independent and third‑party evaluations report similarly strong results: Every’s engineering benchmark rated it **91/100**, comparable to a senior human engineer, and ArtificialAnalysis gives it an Intelligence Index of **60**, well above the peer average of 30.[2][4] In domain‑specific tests such as AECV‑Bench for construction drawings, Fable 5 achieves 0.901 on document QA and is the first model to clear 80% across all four QA task types (spatial, OCR/text, comparative, counting), marking a new high‑water line for vision‑heavy enterprise workflows.[9]\n\nRecent developments underscore both its capabilities and its safety trade‑offs. Fable 5 and Mythos 5 were temporarily taken offline following a U.S. export‑control order tied to a jailbreak incident; the relaunched version adds a more aggressive safety classifier that catches the exploit in over 99% of cases but may sometimes misclassify routine coding tasks, silently falling back to Opus 4.8.[3] Despite this, industry adoption has been rapid: Fable 5 is integrated into GitHub Copilot and Microsoft Foundry, and is available on several commercial Anthropic plans, initially at no extra cost before shifting to usage‑based credits.[8] Early production reports highlight large‑scale code migration (e.g., tens of millions of lines of Ruby at Stripe) and sophisticated agentic use cases, reinforcing Fable 5’s impact as a new benchmark for high‑end reasoning and coding models—against which newer systems like Kimi K3 are now being compared.[1][7][8]",
+        "source": "web search"
+      },
+      {
+        "topic": "GPT-Live",
+        "context": "GPT-Live is OpenAI’s new family of **real-time voice models** that power ChatGPT Voice, designed to make speaking with an AI feel like a natural human conversation.[1][8] The core innovation is a **full-duplex architecture**, meaning the model can listen and speak simultaneously instead of in discrete turns, enabling interruptions, back-and-forth dialogue, filler acknowledgements like “mm-hmm,” and **live translation** while someone is still talking.[1][6][10] GPT-Live-1 and GPT-Live-1 mini run inside ChatGPT on web, iOS, and Android, replacing the older “Advanced Voice Mode,” and can handle speech recognition, language understanding, and speech synthesis in a single integrated system.[1][2][9]\n\nA key design choice is that GPT-Live focuses on being fast and conversational, while delegating heavier tasks—such as web search, complex reasoning, planning, and more “agentic” workflows—to OpenAI’s latest text **frontier model (currently GPT-5.5)** in the background.[1][3][9][10] This lets it keep talking fluidly while a more powerful model thinks, then seamlessly brings the deeper answer back into the dialogue, which is exactly the pattern highlighted in use cases like **trip planning** and other multi-step tasks: the user experiences a smooth voice conversation while the heavy reasoning is effectively hidden under the hood.[1][3][4] GPT-Live is being rolled out globally with GPT-Live-1 as the standard for paid ChatGPT plans and GPT-Live-1 mini for free users, with API access promised but not yet generally available.[2][5][7][9] In the broader AI/ML ecosystem, GPT-Live is seen as a major step toward **real-time, multimodal AI assistants** that feel more like interactive agents than chatbots, and it is likely to influence how consumer apps, productivity tools, and future voice-first interfaces are designed around continuous interaction rather than message-by-message exchanges.[1][6][9][10]",
+        "source": "web search"
+      },
+      {
+        "topic": "Moonshot AI",
+        "context": "Moonshot AI is a Beijing-based AI startup founded in 2023 that develops large foundation models and products under the **Kimi** brand, including chatbots, coding assistants, agents, and multimodal tools, with an explicit ambition to build AGI-level systems.[4] It has grown rapidly both technically and commercially: Kimi's overseas paid users and API revenue have reportedly risen 400%, with usage in over 200 countries and across sectors such as internet, finance, manufacturing, education, and healthcare.[6] Significant venture funding, including a $500 million Series C round earmarked for compute expansion and next-generation model development, has positioned Moonshot as one of China's leading frontier model labs.[7]\n\nThe latest major development is **Kimi K3**, Moonshot’s new flagship foundation model and the successor to the K2.x series.[1][4] Kimi K3 is described as the first open(-weight) model in the roughly **3-trillion-parameter class**, with 2.8 trillion parameters, a 1M-token context window, native visual understanding, and a hybrid attention architecture (Kimi Delta Attention plus Attention Residuals) designed for long-horizon coding, knowledge work, and complex reasoning.[1][4] Benchmarks cited in public materials and commentary indicate that K3 outperforms models such as Claude Opus 4.8 max and GPT‑5.5 high, and reaches coding performance comparable to even more advanced systems like Claude Fable 5 and GPT‑5.6 Sol, while targeting price points closer to mid-tier models like Claude Sonnet.[3][4] This combination of very large scale, open weights, multimodal capabilities, and strong reasoning performance makes Kimi K3 a prominent contender in the global frontier-model landscape and a focal point for discussions about open vs. closed approaches.\n\nIndustry impact centers on two fronts: **competition with Western frontier labs** and **the role of large open(-weight) models in enterprise and research workflows**. Reporting from outlets such as the Financial Times and TechCrunch indicates that Kimi K3 is explicitly aimed at closing the performance gap with leading proprietary models from Anthropic and OpenAI, with expectations that it will match or surpass models like Claude Opus 4.8, and that Moonshot is pursuing new funding rounds at valuations above $30 billion on the strength of this roadmap.[2] At the same time, Moonshot’s strategy of releasing powerful open models—alongside specialized variants like K2.7Code for improved programming and logical reasoning—has broadened access to near-frontier capabilities for developers, agents, and long-context applications.[1][6] This positions Moonshot and Kimi K3 as key drivers of both technical progress in very-large-scale open models and strategic realignment in the global AI ecosystem, where Chinese labs are increasingly seen as peers to established US and UK players.[2][4]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "UN panel warns of urgent need for global AI safety architecture",
+        "summary": "A new United Nations-backed report from the Independent International Scientific Panel on Artificial Intelligence calls for stronger independent evaluation, common standards, and international cooperation to keep AI systems safe, transparent, and accountable.[8] The report outlines an emerging global governance architecture intended to help countries make informed decisions about AI deployment and regulation.[8]",
+        "whyItMatters": "AI practitioners will increasingly need to navigate and comply with international norms around evaluation, safety, and transparency as global governance structures solidify. The report signals that independent audits, standardized benchmarks, and cross-border coordination may become baseline expectations for deploying frontier and high-impact models.",
+        "source": "United Nations report and press coverage"
+      },
+      {
+        "headline": "US Senate committee advances bipartisan Framework for AI Governance Act",
+        "summary": "The US Senate AI Safety and Security Committee has advanced the Framework for AI Governance Act, a bipartisan bill that would create a national AI incident database and establish baseline disclosure requirements for high-risk AI applications.[7] The bill is set to face a floor vote after the August recess.[7]",
+        "whyItMatters": "If enacted, this framework would significantly change compliance obligations for AI developers and deployers, especially around incident reporting and transparency. Practitioners building or operating high‑risk systems must anticipate new documentation, monitoring, and disclosure workflows that could become mandatory across the US and influence global best practices.",
+        "source": "Skycrumbs AI regulation roundup and US Senate reporting"
+      },
+      {
+        "headline": "Google quietly ships Gemini 2.5 Flash for high-throughput enterprise workloads",
+        "summary": "Google has released Gemini 2.5 Flash, a cost-optimized model designed for high-throughput enterprise applications, focusing on speed and efficiency over frontier-level capabilities.[7] The model targets use cases that need large-scale inference at lower cost while staying within the Gemini ecosystem.[7]",
+        "whyItMatters": "Gemini 2.5 Flash provides a new option for practitioners who need to scale LLM-powered services economically, such as support bots, content generation pipelines, and internal automation. Its focus on throughput and cost efficiency could reshape model selection strategies for production systems where latency and unit economics matter more than state-of-the-art benchmarks.",
+        "source": "Skycrumbs AI model update coverage"
+      },
+      {
+        "headline": "Nature Machine Intelligence: DeepMind shows emergent multi-step planning in LLMs",
+        "summary": "A DeepMind team has published \"Emergent Planning in LLMs\" in Nature Machine Intelligence, demonstrating that large language models can exhibit coherent multi-step planning behavior without explicit planning modules or specialized training.[7] The work suggests that planning capabilities emerge from scale and training data, rather than requiring architectural changes.[7]",
+        "whyItMatters": "This research challenges assumptions about the need for explicit planning architectures and may influence how practitioners design agentic systems and tool-using models. It supports the idea that scaling and careful prompting can unlock complex planning behaviors, guiding future work on agents, workflow orchestration, and autonomous task execution.",
+        "source": "Nature Machine Intelligence and Skycrumbs research roundup"
+      },
+      {
+        "headline": "Stanford study finds widespread benchmark contamination in frontier model training",
+        "summary": "A Stanford University study, \"Benchmark Contamination in 2026,\" reports that 15–30% of common evaluation benchmarks show signs of contamination in frontier model training data.[7] The findings raise doubts about the reliability of published performance claims across the AI industry and call for more robust, contamination-resistant evaluation methods.[7]",
+        "whyItMatters": "Benchmark contamination directly affects how practitioners interpret model scores and compare systems, especially for safety-critical or regulated use cases. The study underscores the need for fresh, well-controlled test sets and more rigorous evaluation pipelines, pushing teams to rethink their benchmarking practices and external claims about model superiority.",
+        "source": "Stanford University research and Skycrumbs analysis"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Kimi K3",
+        "type": "product",
+        "context": "Mentioned as the largest open model ever released, benchmarking near Fable 5 and GPT-5.6 Sol"
+      },
+      {
+        "name": "GPT-5.6",
+        "type": "product",
+        "context": "Mentioned as a benchmark for Kimi K3's performance"
+      },
+      {
+        "name": "Fable 5",
+        "type": "product",
+        "context": "Mentioned as a benchmark for Kimi K3's performance"
+      },
+      {
+        "name": "GPT-Live",
+        "type": "product",
+        "context": "Mentioned as a tool for planning trips and putting reasoning in the background"
+      },
+      {
+        "name": "Moonshot",
+        "type": "company",
+        "context": "Mentioned as the company that released Kimi K3"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as the company that developed GPT-Live"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as a company that is facing issues due to AI overviews"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as a company that developed Claude, a goal for SpaceXAI's Grok to catch up to"
+      },
+      {
+        "name": "SpaceX",
+        "type": "company",
+        "context": "Mentioned as a company that is working on AI and faced delays with Starship"
+      },
+      {
+        "name": "NVIDIA",
+        "type": "company",
+        "context": "Mentioned as a company that is hosting the SIGGRAPH 2026 event"
+      },
+      {
+        "name": "SIGGRAPH 2026",
+        "type": "event",
+        "context": "Mentioned as an upcoming event hosted by NVIDIA"
+      }
+    ]
+  },
+  "edition": "evening",
+  "savedAt": "2026-07-17T12:30:34.891Z",
+  "dateString": "2026-07-17"
+}
