@@ -163,6 +163,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[copilot-cowork]] — Microsoft 365 Copilot's Claude-powered multi-step task agent across Office apps (Mar 2026) *(stale)*
 - [[cohere-command-a-plus]] — Cohere's first open-weights frontier model; 218B Apache 2.0 (May 2026)
 - [[cursor]] — AI IDE; 1.7, Plan Mode, 2.0 with Composer and multi-agent UI; $3B ARR + SpaceX $60B option
+- [[databricks]] — data-lakehouse + AI platform; $188B Series M funding (Jul 2026); third-party benchmark authority for coding agents
 - [[cursor-composer]] — Cursor's first in-house coding model; ~4× faster, sub-30-second tasks *(stale)*
 - [[cursor-composer-2-5]] — Cursor's May 2026 RL-trained model; 79.8% SWE-Bench Multilingual at ~10× efficiency
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier *(stale)*
@@ -315,6 +316,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[sora-2]] — OpenAI's video model; physics, audio, monetization, Hollywood pushback *(stale)*
 - [[spatialclaw]] — NVIDIA's spatial reasoning model for coding and robotics tasks (Jun 2026)
 - [[swe-1-7]] — Cognition's cheap near-frontier coding model built on China's Kimi K2.7 substrate; $1.97/task; RL-pipeline improvements + long-horizon-task techniques (Jul 2026)
+- [[tabfm]] — Google's zero-shot foundation model purpose-built for tabular data; enables spreadsheet analysis/summarization/transformation/quality checks without task-specific training (Jul 2026)
 - [[tesla-megapod]] — Tesla's modular AI data center hardware system; self-contained compute pod bundling servers/networking/power/cooling; bid into AI-infrastructure-vendor market against NVIDIA DGX
 - [[tinker-api]] — Thinking Machines' LLM fine-tuning API *(stale)*
 - [[tml-interaction-small]] — Thinking Machines' 276B-A12B native real-time interaction model; 200ms audio/video/text micro-turns (May 2026)
@@ -346,6 +348,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ethan-mollick]] — Wharton professor / One Useful Thing author; "co-intelligence" framer; *Co-Existence* book Oct 20 2026
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[forward-deployed-engineer]] — customer-embedded software/ML engineer role owning AI-solution lifecycle; from Palantir → OpenAI + Anthropic + AWS ($1B org) + Microsoft (Jul 2026)
+- [[ghostcommit]] — PNG-hidden prompt-injection attack that hides instructions in PR-attached images and coerces coding agents to leak `.env` credentials (Jul 2026)
 - [[humanoid-robotics]] — embodied-AI arms race: NVIDIA Isaac GR00T + OpenAI Robotics restart + Altman/Alfred + Amazon warehouse + Serve + China IPOs (Jun 2026)
 - [[j-space]] — Anthropic interpretability finding — emergent internal workspace inside Claude for silent reasoning + planning + multi-step reasoning; J-lens open-source tool + Content Seal watermarking pairing; "A Global Workspace in Language Models" paper (Jul 2026)
 - [[john-jumper]] — Google DeepMind VP and 2024 Nobel Chemistry laureate (AlphaFold co-creator); departs for Anthropic in June 2026
