@@ -38,6 +38,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[etched]] — AI inference chip startup; exits stealth Jul 2026 at $5B valuation ($800M raised, $1B+ in contracts, first inference racks shipping summer 2026)
 - [[extropic]] — TSU thermodynamic-sampling chip; ~10,000× energy-efficiency claim *(stale)*
 - [[figure]] — humanoid robots; Figure 03; sued by former product-safety head Nov 2025 *(stale)*
+- [[fireworks]] — NVIDIA-backed AI inference-and-fine-tuning startup at $17.5B valuation; positioned as cheap alternative for hosting open-source frontier models (Jul 2026)
 - [[friendliai]] — "Frontier Inference Cloud for agents" serving frontier open-weight models; powers [[claude-code]] + [[cursor]] + Kilo Code + Hermes Agents + [[ollama]] (Jul 2026)
 - [[general-intuition-ai]] — Neo Lab building Large Action Models (LAMs) and world models that perceive/predict/act across virtual and physical spaces (Jun 2026)
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
@@ -183,6 +184,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-1-pro]] — Google's Mar 2026 flagship; 77.1% ARC-AGI-2; successor to Gemini 3 Pro *(stale)*
 - [[gemini-3-5-flash]] — Google's I/O 2026 agent-and-coding-tuned flagship; 1M context, 4× faster, 76.2% Terminal-Bench 2.1
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence *(stale)*
+- [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella; grounded summarization + citation + multi-source synthesis with deeper Gemini-app + Google-Search integration (Jul 2026)
 - [[gemini-omni]] — Google's I/O 2026 conversational video model; any-input → editable video; "Nano Banana for video"
 - [[gemini-spark]] — Google's I/O 2026 24/7 personal agent on Google Cloud VMs; AI Ultra $100/mo
 - [[gemini-embedding-2]] — Google's multimodal embedding model across text/image/video/audio/PDF (Mar 2026) *(stale)*

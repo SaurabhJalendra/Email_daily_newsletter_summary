@@ -4,6 +4,38 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-07-18-morning
+**Ingested**: data/summaries/2026-07-18-morning.json (12 newsletters)
+
+**Pages updated**:
+- [[kimi-k3]] — cycle-4 saturation lands 76% pairwise-win-rate over Fable 5 on front-end coding + Kimi Delta Attention 6.3× decoding cost cut at 1M-context + 2-3× cheaper than Western frontier models for heavy coding workloads
+- [[moonshot-ai]] — cycle-4 recoverage of Kimi K3 with new coding-benchmark superiority framing
+- [[gpt-red]] — cycle-3 saturation + Top-Story-#2 daily-digest lock-in: 84% vs 13% humans + "fake chain of thought" attack sub-class + GPT-5.6 Sol 0.05% direct-prompt-injection failure rate post-adversarial-training
+- [[codex-micro]] — cycle-3 recoverage: dual-joystick count resolved + "accept-or-reject-changes" workflow-verb canonicalized
+- [[inkling]] — cycle-4 recoverage: "first in-house AI model" canonical framing + Top-Story-#5 daily-digest anchor + Tinker-customization
+- [[thinking-machines]] — Inkling cycle-4 canonical lock-in
+- [[openai]] — triple-signal: GPT-Red cycle-3 + Codex Micro cycle-3 + GPT-5.6 5-hour-restriction removed for all paid plans
+- [[anthropic]] — Claude Fable 5 availability extended to July 19 on all paid plans + Claude Code weekly rate limits held 50% higher
+- [[google]] — Gemini Notebook rebrand (Top-Story-#3) + Gemini 3.5 Pro delay cycle-3 (Alphabet -4%) + Gemma 4 update (70% faster prefill)
+- [[grok-build]] — xAI open-sources Grok Build codebase in response to repo-upload security incident; Google Cloud bucket destination confirmed
+- [[ai-bubble-concerns]] — "$1T market-cap loss in under two months" canonical framing; Micron -30% / CoreWeave halved / NVIDIA -$1T; Michael Burry newly-disclosed shorts
+- [[ai-regulation]] — World AI Cooperation Organization formed with 29 founding member countries (China + Russia + Global South); Hassabis regulatory blueprint cycle-3 recoverage
+- [[open-source-models]] — Kimi K3 cycle-4 saturation + Inkling Top-Story-#5 + World AI Cooperation Org + Fireworks $17.5B same-cycle
+
+**Pages created**:
+- [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella with deeper Gemini-app + Google-Search integration; part of brand-cleanup ahead of Gemini 3.5 rollout
+- [[fireworks]] — NVIDIA-backed AI inference-and-fine-tuning startup at $17.5B valuation; positioned as cheap alternative for hosting open-source frontier models
+
+**Notable patterns**:
+- **Chinese-open-weight-ascendance vs Western-flagship-slip competitive-simultaneity intensifies** — Kimi K3 cycle-4 (76% Fable 5 win rate + 6.3× decoding speedup + 2-3× cheaper) lands the same cycle as Gemini 3.5 Pro delay (Alphabet -4%) + Inkling Apache 2.0 US-open-weights response
+- **Twin usage-limit-relief cycle at OpenAI + Anthropic** — GPT-5.6 5-hour-restriction removed for all paid Plus/Business/Pro + Claude Fable 5 extended to July 19 on all paid plans + Claude Code rate limits held 50% higher — reads as *user-side-cost-relief coordination* under Chinese-open-weight competitive-pressure
+- **AI-bubble narrative sharpens with $1T market-cap loss in 2 months** vs demand-data-strong ($725B 2026 hyperscaler capex + TSMC 40%+ growth + Goldman $1T 2027 capex forecast); Michael Burry newly-disclosed shorts anchor bear-tier
+- **AI-governance regime multipolarity** — World AI Cooperation Organization (29 countries: China + Russia + Global South) formalizes the non-Western intergovernmental counter-forum to Western-led Altman/Hassabis/G7/FLI substrates
+- **Open-weight-inference-hosting cohort tops multi-billion valuation tier** — Fireworks $17.5B joins Baseten $13B + Together $8.3B + SambaNova $11B as NVIDIA-adjacent inference cohort; extends the demand-side substitution thesis from *model-side* into *hosting-infrastructure-side*
+- **GPT-Red discovers "fake chain of thought" novel prompt-injection sub-class** — spoofed-reasoning-step attack becomes canonical named-attack pattern; GPT-5.6 Sol post-adversarial-training reaches 0.05% direct-prompt-injection failure rate (first sub-tenth-of-a-percent metric on a production frontier model)
+
+---
+
 ## 2026-07-17-evening
 **Ingested**: data/summaries/2026-07-17-evening.json (8 newsletters — 7 AI/ML in-scope + 1 mixed general-news MEDIUM (Anna's Daybreak) with Kimi K3 + GPT-5.6 anchors. AI/ML cohort: **AINews HIGH** ("Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing" — full technical spec: 2.8T-A50B MoE + Kimi Delta Attention + Attention Residuals + LatentMoE + 1M-token context + native visual understanding + 1.5-year incubation from January 2025 + $3/M input + $15/M output pricing + Artificial Analysis Intelligence Index 57 + GDPval v2 + AA-Briefcase cost per task $0.94 + 64+ accelerator supernode deployment requirement + slow inference speed constraint); **World of AI HIGH** ("Kimi K3 Is OUT 🌙 + Biggest Open Model EVER 👀" — *"collapses the old trade-off between closed US quality and cheap Chinese open weights"* + open weights July 27 + PyTorch 2.13 12× sparse-attention speedup on Apple Silicon + Qualcomm-Tenstorrent talks + SpaceX $60B Cursor acquisition + Gemini 3.5 Pro imminent-launch-reset framing + World AI Conference Shanghai); **The Batch @ DeepLearning.AI MEDIUM** ("AI Overviews Land Google In Hot Water, GPT-Live Puts Reasoning in the Background" — GPT-Live-1 + GPT-Live-1 mini tier-split + GPT-5.5 background handoff + replaces Advanced Voice Mode + full-duplex + live translation + German court holds Google liable for AI Overviews defamation + Robin open-source AI drug-repurposing agent + LLM-manipulation-detection study on GPT-4o belief shifts); **NVIDIA MEDIUM** ("SIGGRAPH 2026 is just days away. See what's ahead." — Jul 19-23 LA + neural rendering + world models + simulation keynote + Educators' Day + Physical AI Day + RTX Rendering Day + AI in Production + Build-a-Claw); **Anna's Daybreak MEDIUM** (Starship stalls + Kimi K3 recap + GPT-5.6 Luna/Terra/Sol recap); **The Rundown AI HIGH** ("🌝 Kimi K3 joins AI's frontier conversation" — Kimi K3 + GPT-Live + Gemini 3.5 Pro delay + GPT-Live trip-planning tutorial); **Evolving AI Insights HIGH** ("🐉 China's Open Source Model Beat Fable 5 and GPT-5.6" — Kimi K3 coding-benchmark beat of Fable 5 + GPT-5.6 + Gemini Omni video from selfie + GPT-5.6 solves 20-year-old Benjamini-Hochberg statistics problem in 90 minutes + Xi Jinping first-ever WAIC keynote endorses open-source AI + criticizes US dominance + Hyundai workers strike over Atlas robots); **TLDR MEDIUM** ("xAI chaos 🔥, Gemini delays ⏳, earning judgement 👨‍💻" — SpaceXAI Grok Build chaos + Gemini 3.5 Pro launch delayed as tech falls short of internal goals + Bun Zig→Rust rewrite in 11 days via Fable + Wispr Flow + Satya Nadella criticizes Anthropic Fable editorial control + Linus Torvalds endorses AI for Linux + NVIDIA Cosmos 3 Edge + TSMC $100B US spending + Meta hires Amazon cloud exec + Visa stablecoin + double neural bypass BCI). Out-of-scope skipped: none this cycle.
 
