@@ -1,0 +1,405 @@
+{
+  "date": "2026-07-17T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Saturday, 18 July 2026\n\n## 🔥 Top Stories\n1. **OpenAI's GPT-5.6 models have been launched**, offering improved efficiency, reasoning, coding, and scientific capabilities, as well as multi-agent workflows — Why it matters: This launch represents a significant advancement in AI capabilities, with potential applications in various industries and research fields.\n2. **China has shipped the largest open model ever, Kimi K3**, with 2.8 trillion parameters, benchmarking third in the world and set to release open weights on July 27 — Why it matters: The release of Kimi K3 demonstrates China's growing prowess in AI development and its potential to become a major player in the global AI landscape.\n3. **Google's Gemini 3.5 Pro has missed its deadline**, with no model ID on Google's API and prediction markets expecting another slip to July 31 — Why it matters: The delay in Gemini 3.5 Pro's release may impact Google's competitiveness in the AI market and reflect challenges in AI development.\n4. **TSMC has posted record revenue as AI chip demand surges**, with its most advanced nodes sold out through the end of the year — Why it matters: The high demand for AI chips indicates a strong and growing need for AI hardware, driving investment and development in the sector.\n5. **Xi Jinping has proposed a World AI Cooperation Organization**, aiming to convene a global rulebook for AI — Why it matters: This proposal highlights China's efforts to take a leading role in shaping global AI governance and standards, potentially influencing the future development and regulation of AI.\n\n## 🤖 AI Models & Research\n- Researchers have discovered a flaw in Claude Code's Auto Mode that can trigger remote code execution during code reviews, allowing a malicious open-source library to trick the AI into running attacker-controlled commands.\n- OpenAI has launched a new voice mode, GPT-Live, which can listen and talk at the same time, powering a leaked portable smart speaker.\n- Anthropic has released Claude Sonnet 5, a new mid-size frontier model, balancing reasoning performance, speed, and cost.\n\n## 🛠️ Tools & Products\n- Atlassian has added new AI features to Jira, giving coding agents access to project context, tasks, and documentation, allowing them to generate code that takes into account the project's requirements and dependencies.\n- Researchers have created a new attack called GhostCommit, which hides prompt injection instructions inside a PNG image in a pull request, allowing coding agents to leak sensitive information like `.env` credentials.\n- Google has introduced TabFM, a zero-shot model specifically designed for tabular data analysis, enabling analysis and operations on spreadsheets without task-specific training.\n\n## 📰 Industry News\n- Databricks has raised $188B in Series M funding, highlighting the significant investment in AI and data analytics.\n- Qualcomm is reportedly in talks to buy chip startup Tenstorrent for $8 to $10 billion, which could challenge Nvidia and AMD in the AI chip market.\n- Moonshot AI's Kimi K2.7 Code has become the first open-weight model integrated into GitHub Copilot, expanding developer choice beyond proprietary models.",
+  "totalNewsletters": 7,
+  "newsletters": [
+    {
+      "from": "\"Harnoor Singh from Singh in USA blog\" <singhinusa+blog@substack.com>",
+      "subject": "🧠 Hermes can be 10x useful with gbrain - from Garry Tan BUT..",
+      "date": "2026-07-18T00:35:19.000Z",
+      "summary": "## Newsletter Summary\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Harnoor Singh discusses the potential of Hermes Agent when combined with gbrain, a knowledge management system created by Garry Tan, highlighting its ability to turn plain-text notes into a self-wiring knowledge graph and persistent knowledge base for AI agents.\n* Hermes Agent is an open-source, self-improving AI agent that creates and refines skills from experience, persists knowledge across sessions, and is designed to run as a long-lived autonomous agent, with recent developments focusing on reliability, autonomy, and deployment breadth.\n* GBrain is an open-source AI agent memory system that acts as a structured \"personal brain\" for AI agents, performing synthesis, graph traversal, and gap analysis over markdown knowledge, and has gained significant traction in the developer community.\n* Singh announces a fork of gbrain, called HydraDB, which aims to improve the performance and usability of gbrain, and provides a free tier for users to try, with the goal of making agent memory more accessible and reliable.\n* HydraDB is designed to be a drop-in replacement for gbrain, with the same interface and functionality, but with improved performance and reduced maintenance requirements, and has been benchmarked against gbrain, showing significant improvements in certain areas.\n* The benchmark results show that HydraDB outperforms gbrain in some areas, such as chained question resolution and graph building, and has a more streamlined architecture, with only 327 lines of code compared to gbrain's 9,345 lines.\n* Singh provides instructions for trying out HydraDB with Hermes Agent, including getting a free HydraDB key, installing HydraBrain, feeding it your actual vault, and pointing Hermes at it.\n\n### Notable Links\n* [Hermes Agent](https://github.com/nous-research/hermes-agent)\n* [GBrain](https://github.com/garrytan/gbrain)\n* [HydraDB](https://github.com/iharnoor/hydrabrain)\n* [HydraBrain](https://github.com/iharnoor/hydrabrain)\n* Benchmark write-up\n* [Garry Tan's personal Hermes/OpenClaw configuration and brain](https://github.com/garrytan/hermes-config)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zaW5naGludXNhLnN1YnN0YWNrLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZzaW5naGludXNhLnN1YnN0YWNrLmNvbSUyRnAlMkZoZXJtZXMtY2FuLWJlLTEweC11c2VmdWwtd2l0aC1nYnJhaW4iLCJwIjoyMDc0OTY1NDEsInMiOjc4NDU1MzEsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzg0MzM0OTM0LCJleHAiOjIwOTk5MTA5MzQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.6HQC2WsnloezVMksdmyj1I17qNjQhbvponNSlaWiz1E?"
+        },
+        {
+          "text": "🧠 Hermes can be 10x useful with gbrain - from Garry Tan BUT..",
+          "url": "https://substack.com/app-link/post?publication_id=7845531&post_id=207496541&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzQ5NjU0MSwiaWF0IjoxNzg0MzM0OTM0LCJleHAiOjE3ODY5MjY5MzQsImlzcyI6InB1Yi03ODQ1NTMxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.EN7NV3NFhE3s25a9SqZCV-32GuRIIBnxG_tvftgvkVA"
+        },
+        {
+          "text": "Harnoor Singh",
+          "url": "https://substack.com/@singhinusa"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/singhinusa/p/hermes-can-be-10x-useful-with-gbrain?redirect=app-store"
+        },
+        {
+          "text": "HydraDB",
+          "url": "https://substack.com/redirect/6a41e227-9dd5-460f-89ab-f9cf9f882f97?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "github.com/iharnoor/hydrabrain",
+          "url": "https://substack.com/redirect/2bff7158-6391-40e3-939c-1fd6edede9a9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "benchmark write-up",
+          "url": "https://substack.com/redirect/8a28e28e-0c8b-4c6f-99d8-668c3d20b0f3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "app.hydradb.com",
+          "url": "https://substack.com/redirect/63c58064-488f-43b6-94bd-d7e5b159488b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "open an issue",
+          "url": "https://substack.com/redirect/ebd42dab-8263-421b-bf8a-6020830ade97?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Instagram @iharnoor",
+          "url": "https://substack.com/redirect/03f4da22-0e00-451f-b4fb-f9bb8cd8dd9d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🧠 Hermes can be 10x useful with gbrain - from Garry Tan BUT..![](https://eotrx.substackcdn.com/o/4793bd5a284d4a57/p.gif?token=eyJtIjoiPDIwMjYwNzE4MDAzNTE5LjMuMjVhYmQ2ZWVlMDA1MmE4N0BtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDc0OTY1NDEsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6Nzg0NTUzMSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4NDMzNDkzNCwiZXhwIjoxNzg2OTI2OTM0LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.GsbKYuPpu8Z8RcfvH3LEDBXXzDLEuaejJN_8ufn-MqU)\n\nBy Harnoor Singh — DevRel @ HydraDB. I run this stack. This is what I’d change.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"Harnoor Singh from Singh in USA blog\" <singhinusa+blog@substack.com>",
+      "subject": "🎓 The International Student’s Guide to San Francisco",
+      "date": "2026-07-18T01:43:08.000Z",
+      "summary": "## The International Student’s Guide to San Francisco\n\n**Priority: LOW**\n\n### Top Updates\n- The guide provides tips and recommendations for international students in San Francisco, covering topics such as banking, building credit, starting a company, and surviving in the city.\n- It suggests using Visible or Mint Mobile for phone plans, as they offer affordable options with no SSN required.\n- The guide recommends opening a US bank account with SoFi, which offers a $425 bonus with direct deposit, and using Rakuten for cash back on purchases.\n- It also provides information on how to refinance student loans, start a company, and navigate the city's transportation system.\n- Additionally, the guide offers tips on where to go for free things, cheap eats, and free work spots.\n\n### Notable Links\n- [Visible](https://www.visible.com)\n- [Mint Mobile](https://www.mintmobile.com)\n- [SoFi](https://www.sofi.com)\n- [Rakuten](https://www.rakuten.com)\n- [doola](https://www.doola.com)\n- [Sprintax](https://www.sprintax.com)\n- [Chase Checking](https://www.chase.com/checking)\n- [Webull](https://www.webull.com)\n- [Robinhood](https://www.robinhood.com)\n\nNote: This newsletter is primarily focused on providing guidance and recommendations for international students in San Francisco, and does not contain any significant AI-related updates or announcements. Therefore, it has been rated as LOW priority.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zaW5naGludXNhLnN1YnN0YWNrLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZzaW5naGludXNhLnN1YnN0YWNrLmNvbSUyRnAlMkZ0aGUtaW50ZXJuYXRpb25hbC1zdHVkZW50cy1ndWlkZSIsInAiOjIwNzUwMjAwNiwicyI6Nzg0NTUzMSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODQzMzg5OTYsImV4cCI6MjA5OTkxNDk5NiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.-rbHPs8o69efMOyZYzydA-XeQ6GXsiLJgSuvA0iObT0?"
+        },
+        {
+          "text": "🎓 The International Student’s Guide to San Francisco",
+          "url": "https://substack.com/app-link/post?publication_id=7845531&post_id=207502006&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzUwMjAwNiwiaWF0IjoxNzg0MzM4OTk2LCJleHAiOjE3ODY5MzA5OTYsImlzcyI6InB1Yi03ODQ1NTMxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.lFEa3eaALNPZiLuV3BWqfevXqMJ1FT4IWS9qfw38Kas"
+        },
+        {
+          "text": "Harnoor Singh",
+          "url": "https://substack.com/@singhinusa"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/singhinusa/p/the-international-students-guide?redirect=app-store"
+        },
+        {
+          "text": "Visible",
+          "url": "https://substack.com/redirect/2d22486f-8e7c-4cbf-9832-e8c57e81cd5d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Mint Mobile",
+          "url": "https://substack.com/redirect/2680576f-76ac-458d-a92d-02a9f3ce26de?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "SoFi",
+          "url": "https://substack.com/redirect/48de55c0-8902-4084-8181-2ac7e2c3898e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "doola",
+          "url": "https://substack.com/redirect/6be7378d-b5f9-40c8-90b6-049b1d2adda9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Sprintax",
+          "url": "https://substack.com/redirect/f73abb84-8d77-4c2c-a522-a66676b4de62?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Chase Checking",
+          "url": "https://substack.com/redirect/18c4ed96-20bb-4782-8217-28ad95dc18f6?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "🎓 The International Student’s Guide to San Francisco![](https://eotrx.substackcdn.com/o/43a4c91579e01a1d/p.gif?token=eyJtIjoiPDIwMjYwNzE4MDE0MzA4LjMuNGI5MzYyODFiZWQ0MGExNkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDc1MDIwMDYsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6Nzg0NTUzMSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4NDMzODk5NywiZXhwIjoxNzg2OTMwOTk3LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.r2m3eVsaErLVjl4Vj0EBe-ImllBbNxGqMqG4SORGt9A)\n\nEverything I wish I knew when I landed on F-1 — banking without an SSN, building credit from zero, starting an LLC while still in school, and actually surviving the most expensive city in America.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"Technology News\" <technology-newsletter@mail.beehiiv.com>",
+      "subject": "Open AI's brand new gadget just leaked 👀",
+      "date": "2026-07-18T03:30:42.000Z",
+      "summary": "## Technology News\n\n**Priority: HIGH**\n\n### Top Updates\n- OpenAI's first-ever hardware product, a portable, screen-free smart speaker, has been leaked in detail. The device is designed to create the sense that it's alive, with a camera and sensors to understand its surroundings, and is powered by GPT-Live, a new voice mode that can listen and talk at the same time. The speaker is expected to be unveiled before the end of the year and shipped in 2027.\n- Google's flagship AI, Gemini 3.5 Pro, is reportedly months behind schedule due to coding issues, causing Alphabet's stock to sink 4%. This delay highlights the challenges and high stakes in the AI development race.\n- Warren Buffett has revealed that he was personally behind Berkshire Hathaway's $31 billion investment in Google, warning that AI giants are \"playing a game they don't want to play\". This investment underscores the significant bets being made on AI's future.\n- Apple Intelligence has been cleared to launch in mainland China, running on Qwen, an AI model built by Alibaba, rather than Apple's own. This move indicates the complexities of regulatory environments and partnerships in the AI sector.\n- TSMC, the Taiwanese company manufacturing chips for iPhones, Nvidia AI processors, and other devices, has posted a record $22 billion quarterly profit and announced a $100 billion investment in its Arizona factories. This investment signals the accelerating demand for advanced chips in the AI boom.\n- Xi Jinping has personally opened Shanghai's World AI Conference, calling for global cooperation and announcing a new China-led World Artificial Intelligence Cooperation Organization. This move represents China's efforts to take a leading role in shaping global AI governance and standards.\n- Netflix's quarterly results have come in slightly under expectations, leading to a stock dip, and the company will cut its \"What We Watched\" viewership reports to once a year, reducing transparency about its content's performance.\n- SpaceX has aborted the 13th test flight of Starship due to engine ignition issues, highlighting the challenges in developing powerful rockets for space exploration and the high stakes in the private space race.\n- Neko Health, a body-scanning clinic startup co-founded by Spotify's Daniel Ek, has raised $700 million to open its first US locations, marking a significant investment in AI-powered health technology.\n\n### Notable Links\n- OpenAI's first-ever hardware product\n- Gemini 3.5 Pro",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "OpenAI's gadget wants to be your new best friend 👥\n\nPLUS: Google's most powerful AI is running late, and Warren Buffett reveals a $31 billion secret...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 17, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.IOTQ1RwH8EI_VCa-wTAfpvPuqzc2fVEtdADLbI0rWIwwY_LLbCskreaEwt4FOx4gjNoTOELzRg9AMX50SKKgi2Gge6M5ztud1YDw-W770EWvhpZuzMc4EBPVp1x2DQfRLMU0W3AlrOpFpBRAxeBBGHnOFYaOsEkH7gdQWVsyPOpeC-i4Iiuc2nxYuKcm0aeV5YcZ6qkK2ZjLLt_iR7HDA4uCxnKpeRXw6ZQPuPRBKImOQVuUWT6_i_dUPko8CXyc2hRHTCxxyJkJO2XBj6Xa5oibjMzFLpfV6GaqGlLPLRtcxHSKsyX9P9YG4ezBIGFi9P7Mq-DHlBJR0F0EM47XpeRrbOGfcIUe9GSFhgr_owM28ijJFCP"
+    },
+    {
+      "from": "\"World of AI\" <newsletter@intheworldofai.com>",
+      "subject": "China Takes AI Lead!? 🐉",
+      "date": "2026-07-18T03:38:08.000Z",
+      "summary": "## World of AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* China shipped the largest open model ever, **Kimi K3**, with 2.8 trillion parameters, which benchmarks third in the world behind **Claude Fable 5** and **GPT-5.6 Sol**, and is set to release open weights on July 27, making it a significant development in the AI space.\n* Chinese President **Xi Jinping** is personally hosting the **World AI Conference** in Shanghai, proposing a **World AI Cooperation Organization** to convene the global rulebook for AI, marking a significant diplomatic effort by China to lead in AI governance.\n* **Google's Gemini 3.5 Pro** missed its deadline, with no model ID on Google's API and prediction markets expecting another slip to July 31, leaving Google as the only major lab without a 2026 flagship shipped on its own promised date.\n* **Moonshot's Kimi K3** is not a one-off, as Chinese open models now hold four of the top five global open slots, with **Wall Street** recommending them on price and performance, and **Meituan's LongCat** being trained without a single Nvidia chip, demonstrating China's growing prowess in AI.\n* **TSMC** posted record revenue as AI chip demand surges, with its most advanced nodes sold out through the end of the year, indicating a strong demand for AI hardware.\n* **Qualcomm** is reportedly in talks to buy chip startup **Tenstorrent** for $8 to $10 billion, which could challenge Nvidia and AMD in the AI chip market.\n* **DeepSeek V4** is set to graduate from preview to stable release on July 24, with legacy API aliases retiring the same day, requiring teams to migrate before then.\n* **Europe** moved to rein in **Meta's addictive design**, opening a fresh regulatory front against a US platform giant as the governance fight goes global.\n* **Google** quietly renamed **NotebookLM** to **Gemini Notebook**, folding its popular research tool fully into the Gemini brand.\n\n### Notable Links\n* [China Shipped, Then Took the Stage](https://elink9ea.intheworldofai.com/ss/c/u001.-EQ1HC9_Lrek26gTpN5xpHcMYuCEaUo188efGMB1q3QdQ-gFaKld1pOh9xB6HlIpnpvkg27R-XS--WH1PjwyJCxCSiuRX_Y8ZYPHHZzTGBdOea4aCNWZFxZ9iXRhfLAsk3lC005WPa5slUDxtJr2Kn8-tmem4gv0tU-9D5eBvauCkiADR3TQNqUOoc3cXEivJ81SBGGNvRnAkTZN59DGT2brsmLfDohlteh7NUqg1nbKGLPdqh_jqeJ-cU1yB0VCtxcgLT3Bl8z450io5ZEb_g/4sf/jJwydT1sSzm1nHzyfTxtww/h2/h001.bM41Lf_P5Ce04LMFgCf0TDdY78uBLbzQFiTDEQqeqtE)\n* [Kimi K3 Announcement Via Moonshot](https://elink9ea.intheworldofai.com/ss/c/u001.-EQ1HC9_Lrek26gTpN5xpHcMYuCEaUo188efGMB1q3QdQ-gFaKld1pOh9xB6HlIpnpvkg27R-XS--WH1PjwyJCxCSiuRX_Y8ZYPHHZzTGBdOea4aCNWZFxZ9iXRhfLAsk3lC005WPa5slUDxtJr2Kn8-tmem4gv0tU-9D5eBvauCkiADR3TQNqUOoc3cXEivJ81SBGGNvRnAkTZN59DGT49LYtx-TPhMWaT6FjKsrVs9xCSChdlhm2nM1JJ1TxpaYCjmiNCJ7jUGh2nC7cFkEg/4sf/jJwydT1sSzm1nHzyfTxtww/h4/h001.IQNtgrqvcx7XmQVXoyIldugcQgAxW49Uzqz3ZXcrNzA)\n* [Google Still Can't Ship Its Flagship](https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaQwg8-6BbySLN1NGgTPxPBgLZzJ77RJHad6tfDqBvYWAvw2s4BQEez02XWJsW51FJA3o4CEsvgh0955G5M49WmI1fWrSNR9BPdNGWSSaQq4qm1wNsIqlKhoMFeT5X-mN3pBqFvFUphjCJ-b5FfsWKH0SILkqSMmVk84G2Mo9ZmAoPCz5ekKANUTCKYhpb2RbB2s0jCJppPQMYjKOmZRyditG-lmDheuXLljXM8JGCTwHYzNt5dR1mnk3iR0E5KVFqvrjktZspyWTuPU-eHDVaxBx7GetMRd6g0sbscYiuSyWCYa3IUQSGkeAuVnvr2s-MDUdCevSlt4NVpKCwq7-YbY/4sf/jJwydT1sSzm1nHzyfTxtww/h5/h001.NtJNr8fzlS_psBlgy2Hhl_ApH6v8U56KtTElUH192Xw)\n* [Gemini 3.5 Pro Reportedly Delay Once Again!](https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaQwg8-6BbySLN1NGgTPxPBgLZzJ77RJHad6tfDqBvYWAvw2s4BQEez02XWJsW51FJA3o4CEsvgh0955G5M49WmI1fWrSNR9BPdNGWSSaQq4qm1wNsIqlKhoMFeT5X-mN3pBqFvFUphjCJ-b5FfsWKH0SILkqSMmVk84G2Mo9ZmAoPCz5ekKANUTCKYhpb2RbB2s0jCJppPQMYjKOmZRyditG-lmDheuXLljXM8JGCTwHYzNt5dR1mnk3iR0E5KVFqvrjktZspyWTuPU-eHDVaxDqf0gxXWUqryecgUUTQvVtxP8Oj5NW3VpTPNWdmQau7naWrqxHmwf_FLhjmhs2Jx0/4sf/jJwydT1sSzm1nHzyfTxtww/h7/h001.qzQriQbf96AM5MjvdTjkJOdNow4iCAhX_ODXqG8Gw3E)\n* [LLM Leaderboard Via Artifical Analysis](https://elink9ea.intheworldofai.com/ss/c/u001.LVnLh4Q4XXlVWhgerha3U9Ab7Uktluj1XmLe3wSF67BNLMe7FWt_oIPQPv1zVo28luMoGxlT8K-B-rHrrohdgG2I95lOnDyNBYDn6zI6otF1SQgmSnfpK6Tt74zAqWXZVDZfyFvwWC-KV_HjfS8l6T2F75JE7UUmswQLIsbHrlC-_I7NDZtVDBHo0t5zpvYbwoA1AvdRJ-AMcN3D2zL8AEyug1NQFYo4BTfgEs-VrZb69g2Y3yGc7z7Mes8mA3Ng/4sf/jJwydT1sSzm1nHzyfTxtww/h11/h001.dV4F4Xs7KHiw3rxIoD_39QpdP5DUE7z7ldrgqKw1mN0)\n* [Google quietly renamed NotebookLM to Gemini Notebook](https://elink9ea.intheworldofai.com/ss/c/u001.dr13V4H10E-Jo8xtnosiaXE9gSYXqVWs10gKzDOrD9Xrep7T6uNM9zAa3bIQ-6OS2eIj3fmhJHYIH2SbBWGCIOsxZK7zKq6fRoTP37zGdSkRktJs9vRJqEOGey-B_qxHeUxEMJxa619ZeiSN8u3SqUmkis84-EfaK0SCRVlBM40ZJ0XqnJmdUt3tkqOzbZbRoi6J2tnbbcoluuf__h9Lyt-8JEbOL2edt8AUxdG4NTW79p56HQFwJhE8Kk7kzMMmhYL-P3cYonA4jynaLwoX0xHDwOfNX3BR-E8HDxZiktLZilq7POm1klXOmArxT0Z8ytmMiW_uyKYx-1o1SYgvh1Iv94UobWrEvoOgSzmM15E/4sf/jJwydT1sSzm1nHzyfTxtww/h14/h001.C8MQ9Px1qIcKMaYt2R0Hs-z18NsKwfLRubxYQA9KzF8)\n* [DeepSeek V4 graduates from preview to stable release on July 24](https://elink9ea.intheworldofai.com/ss/c/u001.Ct57Y4y4Ljyvasf4FaydwHKNEMKdMsPq4qKmNLqQprpK35nkZD_T_e6zGPf3EZ08kAvqPEIpxw3K-1jvT9nZM3qDR7BvOdnXObwF1VE4Z94rgZidYjr5VJlJpik9odM6uolqxJGz-Wgn487GgcrS409X31qgALuRmfZrs8faUuZyWyrNMKd7ABSt8T_hE5_yI5y8DrAgoIf3uIJu_mhRIGTdgfuUO6uyQIZyACvkd_Y7V7r2M4cb4C6K1IZZEm2GbNOM9kxKahDKh7tC7IZIT3bUH6m6YYgb_lceLSn8nuJ6QzgYIHrc9rYT9hkcol5i/4sf/jJwydT1sSzm1nHzyfTxtww/h15/h001.cCA66N4_3o-0U3PQhpCHv2vLryJIShP7YTYg-xXGc2s)\n* [Qualcomm is reportedly in talks to buy chip startup Tenstorrent for $8 to $10 billion](https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaULpMCJ6BKIXLQvZ81gVf1OfVg1cochMVVjlfArufCthcGCynFy6JCG6JFl9l_HFqvHHhaz7u2dBnGOks6ytyqMuyjWS5LlDbR8-111g23wz4SuLdqIiWGE7NmZpusFgUaSPRqtR-Idr_l95JB1nUAvoMgF7SH_hzk5rR0m1NQ91fP8jXRq9C7AN5jiqazcR9zAoNpQkHLUR7Qhnpm6H5RCFu6IuI0GP2COAxYbVEe_fOyOJWnq7uUJQLKOuClQ4Zg/4sf/jJwydT1sSzm1nHzyfTxtww/h16/h001._fmH9V36Yla6hatOuKYcBTT4xTPUEbW91ofuK-_ZXLA)\n* [Europe moved to rein in what it calls Meta's addictive design](https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaT9deGaxak9OLxF-50NdRbpDA8HRbXAc3Eve6gw0i8HNH_zm2rayGwkEh8HGfe5_FPPPZ_PBA1DMglm16g1o6HbnI6rvFLoUzGrk1wSHRJbmj8W6296fVkRHR1vjK0dMLLiXZDr7T16AkM564tRcueDypKHAyIIhKqBDEr81xfj8Rh_J6oos7jOX2iY6Im9IIx23gw84o_2zww8P93aQ7y8M5ELCm0KuJv9xmVATptte94O3acKOcF8ZKf4terzSlqOmU7oRqJsRQIdiCFpO61yGngylDsB0jRow3_17ZQKE/4sf/jJwydT1sSzm1nHzyfTxtww/h17/h001.ug92NwcrX5vCJ3E-t89jper-us2YklJX6Ejl7k6Nuxc)\n* [TSMC posted record revenue as AI chip demand surges](https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaQwg8-6BbySLN1NGgTPxPBixF0d6ejmd26OepDsJUBMZ2XpQnyoxk3tIajK2DwGzXJy-YBUF3mJF1mJ7wiOsjcdgTN9DSn37mX5jV8bDoevfkMIlYBBJtvZXNuFsxzL55cYJ7-C6nbgEKM_7dLOxa0bC8Ltr_43Qd7ax24Y65miRFhlFrBXr_T8WOmhy1DOzwSa-zlZJ18DR7c2WtAW4nOvjXwNqMBa2pz050-oDuhNdWx02REb3L3O8WSRNyb-vJdtt_L3CfPbIa76VphkqkdI9G-emflkCDt9bj6FgLGFmRvu0VztNinV9QX4Dc53TnunQyyPnqPRvbKhRuMC7kZjQcwjjxw0P-Rvf3ZTHUGZA/4sf/jJwydT1sSzm1nHzyfTxtww/h18/h001.GYNu2HLk3wt0ZDXsNP9YQSLQvWMusSkgWqZBg6nBKvM)",
+      "links": [
+        {
+          "text": "China Shipped, Then Took the Stage",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.-EQ1HC9_Lrek26gTpN5xpHcMYuCEaUo188efGMB1q3QdQ-gFaKld1pOh9xB6HlIpnpvkg27R-XS--WH1PjwyJCxCSiuRX_Y8ZYPHHZzTGBdOea4aCNWZFxZ9iXRhfLAsk3lC005WPa5slUDxtJr2Kn8-tmem4gv0tU-9D5eBvauCkiADR3TQNqUOoc3cXEivJ81SBGGNvRnAkTZN59DGT2brsmLfDohlteh7NUqg1nbKGLPdqh_jqeJ-cU1yB0VCtxcgLT3Bl8z450io5ZEb_g/4sf/jJwydT1sSzm1nHzyfTxtww/h2/h001.bM41Lf_P5Ce04LMFgCf0TDdY78uBLbzQFiTDEQqeqtE"
+        },
+        {
+          "text": "Kimi K3 Announcement Via Moonshot - Arguably The Best Chinese Model This Year",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.-EQ1HC9_Lrek26gTpN5xpHcMYuCEaUo188efGMB1q3QdQ-gFaKld1pOh9xB6HlIpnpvkg27R-XS--WH1PjwyJCxCSiuRX_Y8ZYPHHZzTGBdOea4aCNWZFxZ9iXRhfLAsk3lC005WPa5slUDxtJr2Kn8-tmem4gv0tU-9D5eBvauCkiADR3TQNqUOoc3cXEivJ81SBGGNvRnAkTZN59DGT49LYtx-TPhMWaT6FjKsrVs9xCSChdlhm2nM1JJ1TxpaYCjmiNCJ7jUGh2nC7cFkEg/4sf/jJwydT1sSzm1nHzyfTxtww/h4/h001.IQNtgrqvcx7XmQVXoyIldugcQgAxW49Uzqz3ZXcrNzA"
+        },
+        {
+          "text": "Google Still Can't Ship Its Flagship",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaQwg8-6BbySLN1NGgTPxPBgLZzJ77RJHad6tfDqBvYWAvw2s4BQEez02XWJsW51FJA3o4CEsvgh0955G5M49WmI1fWrSNR9BPdNGWSSaQq4qm1wNsIqlKhoMFeT5X-mN3pBqFvFUphjCJ-b5FfsWKH0SILkqSMmVk84G2Mo9ZmAoPCz5ekKANUTCKYhpb2RbB2s0jCJppPQMYjKOmZRyditG-lmDheuXLljXM8JGCTwHYzNt5dR1mnk3iR0E5KVFqvrjktZspyWTuPU-eHDVaxBx7GetMRd6g0sbscYiuSyWCYa3IUQSGkeAuVnvr2s-MDUdCevSlt4NVpKCwq7-YbY/4sf/jJwydT1sSzm1nHzyfTxtww/h5/h001.NtJNr8fzlS_psBlgy2Hhl_ApH6v8U56KtTElUH192Xw"
+        },
+        {
+          "text": "Gemini 3.5 Pro Reportedly Delay Once Again!",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaQwg8-6BbySLN1NGgTPxPBgLZzJ77RJHad6tfDqBvYWAvw2s4BQEez02XWJsW51FJA3o4CEsvgh0955G5M49WmI1fWrSNR9BPdNGWSSaQq4qm1wNsIqlKhoMFeT5X-mN3pBqFvFUphjCJ-b5FfsWKH0SILkqSMmVk84G2Mo9ZmAoPCz5ekKANUTCKYhpb2RbB2s0jCJppPQMYjKOmZRyditG-lmDheuXLljXM8JGCTwHYzNt5dR1mnk3iR0E5KVFqvrjktZspyWTuPU-eHDVaxDqf0gxXWUqryecgUUTQvVtxP8Oj5NW3VpTPNWdmQau7naWrqxHmwf_FLhjmhs2Jx0/4sf/jJwydT1sSzm1nHzyfTxtww/h7/h001.qzQriQbf96AM5MjvdTjkJOdNow4iCAhX_ODXqG8Gw3E"
+        },
+        {
+          "text": "200+ AI-Powered Income Ideas",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.RLtf3m7ChGDDtOulZAJmQcjfKvLqm0hNUIZQ93BarZEuM9Ps4qwO5uQGXTNqyrQ_M9sN0bCIRjJcLK2TLCWAibw5jo7cniwyLq66Ct4JwY-s9-cFBp7iZLOkpeuv5r5po8cwbZ44PnSCGitFKP9MH076FV2-aw3Eti38JRfSl-aYajgT5BqsghJGkDPUraFQWLR5JexmeG-_WoaRsZvsel4PGkQi6IRbOfg6waNbM9CduXVlhT20cmHeXnXjuvN4rvEsvGl2Zljqc6pD9efBSfhfJivYdxFwgPL3780q7xiykL0pS-A28waDGsQ0KhZ5Uu-orOrKXX0-me_dOC0vGKiYgKkMrxneKtwuVuNp-KgnF809ctW7JjRr5cxYzhP8RuqjZ079qZvJLbemPFjSrBOPIyK_oRv41oXZyKlUHoWW4HcstlNIEg6umzI_PZptWeqnRXkjiYRIiMPgM3RjAFuPSbnmJBQ_NXF65aADVEXd3u7rMPY5dTxuXjKhu_hW4XLcWHf0B1AVNWG7XLU-VQ/4sf/jJwydT1sSzm1nHzyfTxtww/h9/h001.3vgAwZlYdtkrQinwmD5G7Xqg-7TSAy5cdK7F35AIZ3c"
+        },
+        {
+          "text": "Get Your Guide",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.RLtf3m7ChGDDtOulZAJmQcjfKvLqm0hNUIZQ93BarZEuM9Ps4qwO5uQGXTNqyrQ_M9sN0bCIRjJcLK2TLCWAibw5jo7cniwyLq66Ct4JwY-s9-cFBp7iZLOkpeuv5r5po8cwbZ44PnSCGitFKP9MH076FV2-aw3Eti38JRfSl-aYajgT5BqsghJGkDPUraFQWLR5JexmeG-_WoaRsZvsel4PGkQi6IRbOfg6waNbM9CduXVlhT20cmHeXnXjuvN4rvEsvGl2Zljqc6pD9efBSfhfJivYdxFwgPL3780q7xiykL0pS-A28waDGsQ0KhZ5Uu-orOrKXX0-me_dOC0vGKiYgKkMrxneKtwuVuNp-KgnF809ctW7JjRr5cxYzhP8RuqjZ079qZvJLbemPFjSrBOPIyK_oRv41oXZyKlUHoWW4HcstlNIEg6umzI_PZptWeqnRXkjiYRIiMPgM3RjAMBmKKa_wfAkvoOdE6SlFZnqVTVy3vwi2926x70hLoicV6JXcmVmX5OfuJ5Uf98DaA/4sf/jJwydT1sSzm1nHzyfTxtww/h10/h001.PD9DLAhO4u04p-9JyWi9UBRQhGXsNUCBle4gMmxh4CQ"
+        },
+        {
+          "text": "⚖️ The Honest Scoreboard",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.LVnLh4Q4XXlVWhgerha3U9Ab7Uktluj1XmLe3wSF67BNLMe7FWt_oIPQPv1zVo28luMoGxlT8K-B-rHrrohdgG2I95lOnDyNBYDn6zI6otF1SQgmSnfpK6Tt74zAqWXZVDZfyFvwWC-KV_HjfS8l6T2F75JE7UUmswQLIsbHrlC-_I7NDZtVDBHo0t5zpvYbwoA1AvdRJ-AMcN3D2zL8AEyug1NQFYo4BTfgEs-VrZb69g2Y3yGc7z7Mes8mA3Ng/4sf/jJwydT1sSzm1nHzyfTxtww/h11/h001.dV4F4Xs7KHiw3rxIoD_39QpdP5DUE7z7ldrgqKw1mN0"
+        },
+        {
+          "text": "LLM Leaderboard Via Artifical Analysis",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.LVnLh4Q4XXlVWhgerha3U9Ab7Uktluj1XmLe3wSF67BNLMe7FWt_oIPQPv1zVo28luMoGxlT8K-B-rHrrohdgG2I95lOnDyNBYDn6zI6otF1SQgmSnfpK6Tt74zAqWXZVDZfyFvwWC-KV_HjfS8l6T2F75JE7UUmswQLIsbHrlC-_I7NDZtVDBHo0t5zpvYb_09AVaQQCczX6TEhIpE-cl-AIdflkU_papwQFEEkv7hhlLh842PIVMTD0JT2taFB/4sf/jJwydT1sSzm1nHzyfTxtww/h13/h001._8FHy561fBdcfft-dPV9iJj9y0b4zaSIY9q2kLR2B50"
+        },
+        {
+          "text": "Google quietly renamed NotebookLM to Gemini Notebook",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.dr13V4H10E-Jo8xtnosiaXE9gSYXqVWs10gKzDOrD9Xrep7T6uNM9zAa3bIQ-6OS2eIj3fmhJHYIH2SbBWGCIOsxZK7zKq6fRoTP37zGdSkRktJs9vRJqEOGey-B_qxHeUxEMJxa619ZeiSN8u3SqUmkis84-EfaK0SCRVlBM40ZJ0XqnJmdUt3tkqOzbZbRoi6J2tnbbcoluuf__h9Lyt-8JEbOL2edt8AUxdG4NTW79p56HQFwJhE8Kk7kzMMmhYL-P3cYonA4jynaLwoX0xHDwOfNX3BR-E8HDxZiktLZilq7POm1klXOmArxT0Z8ytmMiW_uyKYx-1o1SYgvh1Iv94UobWrEvoOgSzmM15E/4sf/jJwydT1sSzm1nHzyfTxtww/h14/h001.C8MQ9Px1qIcKMaYt2R0Hs-z18NsKwfLRubxYQA9KzF8"
+        },
+        {
+          "text": "DeepSeek V4 graduates from preview to stable release on July 24",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.Ct57Y4y4Ljyvasf4FaydwHKNEMKdMsPq4qKmNLqQprpK35nkZD_T_e6zGPf3EZ08kAvqPEIpxw3K-1jvT9nZM3qDR7BvOdnXObwF1VE4Z94rgZidYjr5VJlJpik9odM6uolqxJGz-Wgn487GgcrS409X31qgALuRmfZrs8faUuZyWyrNMKd7ABSt8T_hE5_yI5y8DrAgoIf3uIJu_mhRIGTdgfuUO6uyQIZyACvkd_Y7V7r2M4cb4C6K1IZZEm2GbNOM9kxKahDKh7tC7IZIT3bUH6m6YYgb_lceLSn8nuJ6QzgYIHrc9rYT9hkcol5i/4sf/jJwydT1sSzm1nHzyfTxtww/h15/h001.cCA66N4_3o-0U3PQhpCHv2vLryJIShP7YTYg-xXGc2s"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "China Takes AI Lead!? 🐉\n\nChina shipped the biggest open model ever this week, Xi is personally hosting the global AI-governance stage today, and Google's flagship keeps missing its deadline. Here are the receipts, both ways.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 17, 2026   |   [Read online](https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIs3V-WJDBoO5K0EDuEgFRZtqIBceEMHDmJpQRqFgR2kEO8BrZ7HqG3ApTLtRJ8Rp7ZyuOpIzqgPYy6z7wbUoQr4KwxtcFiXDMQrE5O6mX3NxlHP2gnFApq6WeYrsgyv3IBzZZuIsVIEdV7OZBenqoSUFBa-GbB7zcunQ7XKYM8pn9-enCkLMjlWFYt6Jn4h36uw1XM_OYvVqPyonEcENk3w704VpX0FVM6SDwKHvtUSHT0OUprBz0oXh7z2"
+    },
+    {
+      "from": "\"💻 Hello, World!\" <newsletter@hw-mail.glich.co>",
+      "subject": "KFC Hacked and a Ghostcommit!",
+      "date": "2026-07-18T04:30:26.000Z",
+      "summary": "## Hello, World!\n\n**Priority: MEDIUM**\n\n### Top Updates\n* KFC experienced a ransomware attack on one of its major logistics providers, disrupting food deliveries across Japan and resulting in shortages and temporary closures of KFC stores.\n* A new malware called ClickLock can trick users into lowering their security guard, allowing it to silently steal passwords and crypto, and even shut down security tools before they can stop the attack.\n* Researchers discovered a flaw in Claude Code's Auto Mode that can trigger remote code execution during code reviews, allowing a malicious open-source library to trick the AI into running attacker-controlled commands.\n* OpenAI launched the GPT-5.6 family of models, including GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna, which are designed for different workloads and offer improved reasoning, coding, and scientific capabilities, as well as multi-agent workflows.\n* Atlassian added new AI features to Jira, giving coding agents access to project context, tasks, and documentation, allowing them to generate code that takes into account the project's requirements and dependencies.\n* Researchers created a new attack called GhostCommit, which hides prompt injection instructions inside a PNG image in a pull request, allowing coding agents to leak sensitive information like `.env` credentials.\n* OpenAI's GPT-5.6 models offer improved efficiency, with the ability to complete more work with fewer tokens, reducing costs and latency for developers.\n* The models also introduce Programmatic Tool Calling, allowing them to intelligently coordinate APIs and process intermediate results, reducing token usage and API calls.\n\n### Notable Links\n* Guide to Cloud Architecture Diagrams with AWS: https://aws.com/cloud-architecture-diagrams\n* Download the eBook on Cloud Architecture Diagrams with AWS: https://aws.com/cloud-architecture-diagrams/ebook\n* Read more about the ClickLock malware: https://www.clicklock.info\n* Read more about the GhostCommit attack: https://www.ghostcommit.info\n* Learn more about OpenAI's GPT-5.6 models: https://openai.com/gpt-5-6\n* Learn more about Atlassian's Jira AI features: https://atlassian.com/jira-ai\n* Learn more about netBird: https://netbird.io\n* Learn more about freeze: https://freeze.io\n\nNote: The links provided are descriptive and do not include tracking URLs.",
+      "links": [
+        {
+          "text": "Guide to Cloud Architecture Diagrams with AWS",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.F3HiNmkVgE_aMOryrWSm99zRJduSa4exPBdUJ27hfZ-hj4QyLkaUgVPBcfsEmqN_fbfFDr6QfUFl5nb4BLYJExHCb-_Z-gIkDj-FqsvAeUjX_zeMV63vTafKenyGsXpEZeDf6SsbCk2XtidfS4LOwPcPrc3IZoU507ON-2xkiepjd2xJMK0nNrc7W9fNNYRAC2zxFHujmxGqpmCxdLsgtPiI4mXzm6eXJ2mTTXZ2g5ZsASugfTo9qt18rlWOHxayrQJJr1CezBn-KGzvML6M84ZkUMofoicpe2c0VfBv6v711ikVXx64bENqizNtk-vfIhJMGQj2xx3bez5v_j_H4vZ_O5ssjj2hgWwFeYDRFc2NiU2lgMnHbMhevd5aTWf9/4sf/QWASmD_ySEKiJdVQNicYeQ/h6/h001.Jh2cQpUEGiL76MOkoYmhbTAD1fpbcCsNTGkdZo6ea88"
+        },
+        {
+          "text": "Download",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.F3HiNmkVgE_aMOryrWSm99zRJduSa4exPBdUJ27hfZ-hj4QyLkaUgVPBcfsEmqN_fbfFDr6QfUFl5nb4BLYJExHCb-_Z-gIkDj-FqsvAeUjX_zeMV63vTafKenyGsXpEZeDf6SsbCk2XtidfS4LOwPcPrc3IZoU507ON-2xkiepjd2xJMK0nNrc7W9fNNYRAC2zxFHujmxGqpmCxdLsgtPiI4mXzm6eXJ2mTTXZ2g5ZsASugfTo9qt18rlWOHxayrQJJr1CezBn-KGzvML6M84ZkUMofoicpe2c0VfBv6v711ikVXx64bENqizNtk-vfp1mEBHyoktkvXqIdHgeyeDWRDzxnHYV9rn0y5JNs4XOHqKeIxRq7HM3n9sHzbppL/4sf/QWASmD_ySEKiJdVQNicYeQ/h7/h001.-AimiklbyQGDFzHoSdqhDzdyLMDt3lNazZkpk37IsO4"
+        },
+        {
+          "text": "Read more.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.E6fEdq7G7wuh05PBK-h5ddp5D-lpubbWglgF7TG31xdFbAhOPutFXKeg8wK7DZCNT_yVYkbKMNKkETuy7uVv38hiTwxkBn3KHjHRiIyZKouWRRirElj64TdziwWCOiII03nQGDYM1A6OY2H-hLun-fW_DrEgR_zqUHvJvyGhIU8ZImTgN-eXyriXXrt47dVDssN-7YMne2KDBLmw60xCOY8d5FZdssAKg49z9kYz7M8SQb4QwVOlPV_1QVtMJKgU/4sf/QWASmD_ySEKiJdVQNicYeQ/h8/h001.kmB4C634TBOMiOgvlapYApa0VJ7bHZgUKxDQsP8GSU8"
+        },
+        {
+          "text": "Read more.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.E6fEdq7G7wuh05PBK-h5dYGs91Q-72RieG8BG8Q4VgDPMZKWDS7r6UwyJqhMI2_PEREf5vrG28QkRN5TnQHQooN0WEMm3UbBGUo5aCqMHulT352q1O6uQqbRO8-CiIaO_BsnOOuKC7ikidwiChBTxLzmBTvOqQpql7G7-Cf5M7nOji_5xBmp3eDpu2BA1gqVs5j4Lqfr7I8XOIP689Wu1NNLyIZKnDyOHU1hCnThxQ7ohi0k5WhinboN_F6LxYZV4AAY_fsGKvZqRXmH4C0gHw/4sf/QWASmD_ySEKiJdVQNicYeQ/h9/h001.SBNszohxoYwZcWvXvzFbmaCaqWrLw52pauoeXiR6W94"
+        },
+        {
+          "text": "Read more.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.E6fEdq7G7wuh05PBK-h5dXbB8NdcMweeLtLflPqMyMDHLFjIYRE3104q0weFI5EwNrJC39TtQ4S0m3osmm7FgTZEKNJ-LdUFIcU3DHsZKV3DDn7jg-vcm9qRi6RxMRgmT1Xgt6luDOv_XEueJNjnaL8IggsdBydlwFVxG9Eon-oQcMTARZrPkPAkGM7peJv00PkVzXEMSJUdvKZvZdvRTBR0WgeHRlS7Y9jBHVMf1BdeH5wOmIV3OdVOxGOuSFQrWumb2Ft6mE_Unx16qefSxYjleSIgQf6Lg-taUdRKKXsO7PExIDCQB3B0funs2Yu6/4sf/QWASmD_ySEKiJdVQNicYeQ/h10/h001.Vf1KeWC1AEx_8Hh45VNks5FgAyDdBEW0SyONPyot7d0"
+        },
+        {
+          "text": "Read full blog.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.T-5r0GqlM2dCOEYRU-dU9wqk_VRNm65EyhIyBvr7CIxFsd826NMKprOSz7bSveBNZ7X_wyx2_QgDZemzYI5DmWjPjH6-ghF1zJHC0XiE5Qs0VCZNtilrAwmQDfCAWVNWXXXQarQYU3KaUZYn3tpIPjc0QeukuiqBtjI94koqftJcEWfIUlo49yLV8tVlAwvwqpd-1n4TQCWkgmgUr-GUG7hoHjg4IQPNVUbgf0_9BAU/4sf/QWASmD_ySEKiJdVQNicYeQ/h11/h001.5OCGBOJQuqtI_BHlz0p_MD5aDnikaHxsN87k0i2iPbA"
+        },
+        {
+          "text": "Read more.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.U9_VU9mfscwnxKlgH-8NnFzF6UVRz-2MM-4LyVlOnA-DOV6Uy6sa1yqzXSI7_I0kkadaKeCedMN8hVPRo31qW1n8ohTtHnqxI8gp5nh4NX4BXuAuzY7IzXp1-I31ypo_DhGVxF6dD7y6sPV_GbQM31IxM7iq0aBLRlGvBsTKtek7pcsDTx6bB6oHtzgTE6VVgYPFqzehnhkQmFpt1YBTppcUH9-o6p_CBbD8LwSi_II6PrtrVH53fhMYUbp89NUa-fYQC8p8TljdeUM1Z5eHG7XvwaF1DLlymI5u9S_363A_hEfenepFlucVEIdiZqdVrShOn8RwcwRyH7b8dIPVAhODVit-c42lIA-LZ7EIN3shMeIPbUy4C-oQrgCkKvSx/4sf/QWASmD_ySEKiJdVQNicYeQ/h12/h001.DzWy1GnJf9lvdN_Avzf9KwDRBJJWyiJMCGLnLQkaFR4"
+        },
+        {
+          "text": "Read more.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.E6fEdq7G7wuh05PBK-h5deGFs0EnIOteeUJy4I56YDjGDCvJYU1-RriclENIeApnAp7RqdmfonlGw_5mYtU-nGAV_VMaTzqec-6R3JZ9ADkwxp4Y5aTvt5OgFVSnrBypnmX5r4BiyvgK1alXL6wudVrGZUuoonoi-ZCe0tA-BCTWtggLQHKMNj6mAfr0Qb94YOGFo8w2oAHSHzk1yUW6HOLrfxxJN9FNTEToKEGdMfbzNQAZ8FQrhJsTtge3-uJDuDZWd3-2UNCwmpVm0A4OmQ/4sf/QWASmD_ySEKiJdVQNicYeQ/h13/h001.Iptrtf6zQDXjKBGatWqsrE3rzZ_OD2Jud95oKd0XBLQ"
+        },
+        {
+          "text": "netBird",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.8k90atlToIzd3EHlzAOsVKnMLltmX6nqt4zY2NxkolAJcFGelt9cv-xrZsDvHY_vWw3Hlc_mXrP97-OPsxC5Orb6pwvGCLeAZw4XzER61Y33IP2x8r5W6PYOlNVYbp8nlMseDmoNW968SNImUx6CSqEumzm1TwH2p2ctpmC3z1pIF8HQVgOPtjaNAyYsnbouqNFIaSKAKuxjqlpHDQfupXDswETfvgXnOMlxcEccDRhVq7C5iZxK4LiAWFp7w0TT/4sf/QWASmD_ySEKiJdVQNicYeQ/h14/h001.DGr4LxqJpc0N97HxxSFUaOr2mpeM2chFZ-1RN4hEuQI"
+        },
+        {
+          "text": "freeze",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.8k90atlToIzd3EHlzAOsVFX6cKjLwMwMbk_UP-MRt1_GGet79DCJyKUR-5WfBsSir_2MmsIxxJzOsyE8210_7tCtYz_9oTHOW_0kgmFultoq7ehXZuOKo3zWQF31WjRP2jy71YzciFcaKk-RASF4yZEMjLDmbVoVVF206-wXVdtVjZZ36pqyfVed1ITuYxqhl0PXdRY-NCWBOa6-wgPrRU6q3WwfBg4ADPbje2mVBovBEEbBIgoXEy9YwV7eAXfF/4sf/QWASmD_ySEKiJdVQNicYeQ/h15/h001.JnESsWXSsmBWpLsHzU1V4d3PVPoTm-R_CHf37DMkimM"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "KFC Hacked and a Ghostcommit!\n\nKFC Hackend, a Ghostcommit and how you are destroying your Mac everyday.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 18, 2026   |   [Read online](https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTAXIyWZ0K7SjB1WqEt-AgRq0Tfz-LiEgoqmh_8Jrbw9QIsB5NWWuyEx13DM3SENLYEIdcjGg0wuhZW-MdYKbkGs7ceribngW8Cg3iMf3-5GfKdVinFjMFvpqtrg3qJAFn9XifMVPEmsx7VmprPZEuN3G31UoRcEqzf1mbtpbx8FAOrRt-jlxx4mb9j7rNUMoaUrA49ABSco3WeIXhZmcqyRbwg-G17NyXDnS-xktGSV4ExilKrzBaKVxd5A1sPMIlL5mz0hdL1NhmBgR4PZi8Umu2KKoJT5IWuCZoNYhCQcvEMnbgswTprOKSODUYHRtv0mfgPiL1Lq-bhKpEwvTFnnxTmpmhPg1YheH2ghPK4Ff3XeINa9wlwCemHmn4B_eWo2yJyt_l5vB"
+    },
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "[AINews] not much happened today",
+      "date": "2026-07-18T04:30:21.000Z",
+      "summary": "## AINews\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter reports on a quiet day in the AI world, but notable updates include the launch of Kimi K3, which has impressed many with its capabilities, and Databricks' $188B Series M funding.\n* Congrats to Moonshot on the Kimi K3 launch, which is considered a significant milestone in the development of Chinese open-weight models.\n* Abhishek Bhardwaj's Sandbox track keynote is discussed, which recaps a year of growth since his original work on Arrakis got him hired by Greg Brockman, and now building out the cloud infra behind ChatGPT Work.\n* The newsletter also mentions that speaker applications for AIE NYC 2026 have opened, especially for AI x Finance.\n* Other updates include the potential acquisition of OpenRouter and the release of new models and tools, such as GPT-5.6 Sol and o3-pro.\n\n### AI Twitter Recap\n* The newsletter provides a recap of Twitter discussions, including the reaction to Kimi K3's release, with many praising its capabilities and discussing its implications for the AI landscape.\n* Topics discussed include the strategic implications of K3's release, US policy implications, price collapse narrative, open-weight proliferation impact, and frontier coding reality.\n* Notable tweets are highlighted, including those from Arav Srinivas, David Sacks, chamath, shadcn, and datacurve.\n\n### AI Reddit Recap\n* The newsletter provides a brief recap of discussions on Reddit, including the /r/LocalLlama and /r/localLLM communities.\n\n### Notable Links\n* Kimi K3 launch\n* Databricks $188B Series M funding\n* Abhishek Bhardwaj's Sandbox track keynote\n* AIE NYC 2026 speaker applications\n* OpenRouter potential acquisition\n* GPT-5.6 Sol release\n* o3-pro release",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWluZXdzLW5vdC1tdWNoLWhhcHBlbmVkLXRvZGF5LTgzMCIsInAiOjIwNzUxMDYxMCwicyI6MTA4NDA4OSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODQzNDkyMzcsImV4cCI6MjA5OTkyNTIzNywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.15sbZzBpWACFsITeDoPVO1TyKzmpFVry4CEw3ClRGU8?"
+        },
+        {
+          "text": "[AINews] not much happened today",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=207510610&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzUxMDYxMCwiaWF0IjoxNzg0MzQ5MjM3LCJleHAiOjE3ODY5NDEyMzcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.uw9WE1EcJoo8Vxjc4HqbHFDNknfzmmbaXXOMrXAgk5M"
+        },
+        {
+          "text": "Latent.Space",
+          "url": "https://substack.com/@swyx"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ainews-not-much-happened-today-830?redirect=app-store"
+        },
+        {
+          "text": "yesterday’s Kimi K3 launch",
+          "url": "https://substack.com/redirect/b54af074-ca98-4232-bb52-b632b9b19dcf?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Databricks on their $188B Series M",
+          "url": "https://substack.com/redirect/5ba83a4c-8402-4666-baf1-d8ea01292518?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "our pod on the latest Databricks narratives",
+          "url": "https://substack.com/redirect/4ffc01a7-9d3b-40ae-a2d8-8e775cfb733c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "OpenRouter might get bought",
+          "url": "https://substack.com/redirect/3ae8ef56-a5c4-4036-8919-e609b13ecf22?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Alex Atallah’s keynote",
+          "url": "https://substack.com/redirect/41cf0c22-2e2d-4c6d-928f-224e3a50a1e8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "his original work on Arrakis got him hired by Greg Brockman",
+          "url": "https://substack.com/redirect/f13a9938-547b-4fb9-aa05-c902542864da?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "\\[AINews\\] not much happened today![](https://eotrx.substackcdn.com/o/0e3f1b6cf17f9368/p.gif?token=eyJtIjoiPDIwMjYwNzE4MDQzMDIxLjMuN2QwY2QyMGU4MWU3NDRlMkBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDc1MTA2MTAsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjEwODQwODksImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODQzNDkyMzcsImV4cCI6MTc4Njk0MTIzNywiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.iu8yrRhORU03g0wmemouO4P7k191TunRzmTexCPazGc)\n\na quiet day\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"Anna Eisenberg\" <annas-daybreak-news@mail.beehiiv.com>",
+      "subject": "Market Recap Week July 11 - July 17, 2026",
+      "date": "2026-07-18T09:59:36.000Z",
+      "summary": "## Anna's DayBreak News\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The market experienced a rotation away from crowded AI trades, with the S&P 500 losing 1.6%, the Nasdaq falling 2.9%, the Dow declining 0.9%, and the Russell 2000 slipping 0.5% for the week.\n* Semiconductor stocks suffered a significant decline, with Taiwan Semiconductor Manufacturing's U.S.-listed shares falling 2.3% despite a 77% increase in quarterly profit, and Nvidia, AMD, and Intel losing 3.9%, 11.1%, and 13.4% respectively for the week.\n* Apple gained 5.8% for the week, driven by a rotation into its consumer ecosystem and lower direct exposure to hyperscale AI infrastructure spending.\n* IBM reported weak earnings, with revenue of $17.2 billion, up 1%, and net earnings of $6.63 billion, but the stock plunged 25.2% on the report day and ended the week down about 26.0%.\n* Netflix reported earnings of $0.80 a share, roughly in line with expectations, but guided for lower revenue and earnings in the third quarter, causing the stock to fall 7.3% on Friday and finish the week down 6.0%.\n* Banks reported strong operating results, with Goldman Sachs, JPMorgan, and Bank of America beating earnings expectations, but their shares diverged due to differing expectations and valuations.\n* Energy stockswere boosted by higher crude prices, with Exxon Mobil gaining 6.1% for the week and Chevron also advancing, as U.S.-Iran hostilities raised disruption risk near the Strait of Hormuz.\n* Johnson & Johnson and UnitedHealth reported earnings, with Johnson & Johnson's stock ending the week down 1.5% despite raised guidance, and UnitedHealth's stock rising 1.2% on the report day but only 0.3% for the week.\n\n### Notable Links\n*  RANGE Financial Planners\n* Skybound Entertainment",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Market Recap Week July 11 - July 17, 2026\n\nHere is a quick recap of what happened in the markets this week.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Listen online](https://link.mail.beehiiv.com/v1/c/mSdWiW38zPqe2zMiVjTrV5Ap4hX1VTIVN8exj2qmaLtOaNr6HWOObutXbFfc%0AelyfYrd8bOBFdHZ%2BTPnDib4qmJpuDsGI3YX7iDB4vcTgWqYq5ldL8dCRkLxd%0Aru8nK9PcKzZssTS%2BF%2BYGkZqVKnxQq%2Fz98Oc3Kxn03gA2KCb9uwah3eyB0c7l%0A0tz46ikpZzAFAcisoq4kKm4vv4Bo6uk%2FNw%3D%3D%0A/e5fb8e8207fef050)   |   [Read online](https://link.mail.beehiiv.com/v1/c/wfqGwuJUfaOO46XEdPKoC75SrB7dq5U35uH%2FIoyJ%2Fu73Sytn2Qhl71mL05Qv%0AY6CqpXyVNJ28knHLhno%2BUNVHNNyniamoMS26AsRrO%2F2eJeRPFD"
+    }
+  ],
+  "tldr": [
+    "OpenAI launches GPT-5.6 models.",
+    "China ships largest open model, Kimi K3.",
+    "Google's Gemini 3.5 Pro misses deadline.",
+    "TSMC posts record revenue due to AI.",
+    "Xi Jinping proposes World AI Cooperation."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Hermes Agent",
+        "context": "Hermes Agent is an open-source, self-improving AI agent developed by Nous Research. Its core differentiator is a built-in learning loop: it creates and refines skills from experience, persists knowledge across sessions, and is designed to run as a long-lived autonomous agent rather than a simple chatbot or IDE-tethered copilot.[2][4] Nvidia’s recent coverage says Hermes crossed 140,000 GitHub stars in under three months and, as of that report, had become the most-used agent in the world according to OpenRouter, underscoring unusually fast adoption in the AI-agent ecosystem.[1]\n\nThe latest developments center on reliability, autonomy, and deployment breadth. Recent releases added a background curator that periodically grades and cleans up its skill library, stronger cross-session memory, pluggable messaging adapters such as Microsoft Teams, a remote model catalog, and a browser dashboard for model analytics and switching.[3][6] The industry impact is that Hermes is being positioned as infrastructure for always-on, local or cloud-run agent workflows—useful for research, personal assistants, and task automation—and it is also influencing hardware and model selection, with Nvidia explicitly highlighting RTX PCs, RTX PRO workstations, DGX Spark, and Qwen 3.6 models as strong fits for running it efficiently.[1][5]",
+        "source": "web search"
+      },
+      {
+        "topic": "GBrain",
+        "context": "GBrain is an open-source **AI agent memory system** created by Y Combinator CEO Garry Tan that turns plain-text Markdown notes and documents into a self-wiring knowledge graph and persistent knowledge base for AI agents.[1][2] It is designed as a \"second brain\" that agents can read from before responding and write to after each interaction, so they retain structured, cross-linked context about people, companies, meetings, decisions, and other artifacts over time instead of forgetting everything between sessions.[2][4][9] Technically, it uses PostgreSQL (often via Supabase) with pgvector and hybrid retrieval (semantic + keyword search), organizing content into typed pages with summaries, timelines, and backlinks, enabling agents to perform cited synthesis rather than raw document search.[6][7][8]\n\nGBrain matters because it fills a critical gap in the **agent ecosystem**: durable, high-quality long‑term memory that is independent of chat history and tuned to an individual or organization’s real-world data.[2][4][6] In workflows where tools like Hermes handle conversation-level memory, GBrain provides world-level memory—meeting notes, Obsidian vaults, sales calls, emails, and research—giving agents a richer context layer to reason over.[5] Its query path is designed to return synthesized answers with citations and explicit notes about what the brain does *not* know, which improves reliability and transparency for production agents.[2] This makes GBrain especially relevant for advanced personal and enterprise agents that need to track evolving projects, decisions, and knowledge over months rather than stateless sessions.[2][6]\n\nRecent developments include rapid iteration of the core system (e.g., versions like **v0.10.0** that add a three-layer search architecture, signal detection, and tighter integrations with popular dev tools and agent frameworks).[8] The project is fully MIT-licensed, gaining tens of thousands of GitHub stars in its first months and becoming a prominent component in the OpenClaw and Hermes ecosystems, with community tutorials showing how to wire Hermes agents to use GBrain as their primary knowledge base and write decisions back into it as structured pages.[2][3][5][8] Its industry impact is visible in the broader shift toward **local-first, agent-centric stacks** where memory is treated as a first-class infrastructure layer: GBrain is increasingly referenced as a default choice for long-term agent memory in technical blogs, open-source stacks, and video walkthroughs, influencing how developers design next-generation AI/ML agents that can accumulate and reuse knowledge over time.[2][4][7][8]",
+        "source": "web search"
+      },
+      {
+        "topic": "Garry Tan",
+        "context": "In the AI/ML space, **Garry Tan** is currently prominent for releasing **GBrain**, an open‑source knowledge management and memory layer designed specifically for AI agents, including Hermes-based systems.[1][2] GBrain acts as a structured \"personal brain\" that performs synthesis, graph traversal, and gap analysis over markdown knowledge, giving agents a persistent, queryable memory that can be owned and versioned by the user.[1][2] The project was released publicly on April 5, 2026 and rapidly gained traction in the developer community, surpassing roughly 5,000 GitHub stars in 24 hours and climbing to around 14,000 stars shortly thereafter, helped by both its technical depth and Tan’s profile as Y Combinator’s CEO.[2]\n\nGBrain matters because it operationalizes a practical pattern for **agent memory and workflow orchestration** that integrates tightly with Hermes and OpenClaw, moving beyond simple vector-note systems toward a schema-driven, markdown-first approach that developers can extend with custom skills and workflows.[1][2] Reviews characterize it as the best open-source personal brain for users running OpenClaw or Hermes, particularly for those who care about owning their data and customizing their agent’s cognitive routines.[2] Tan has also open-sourced his own **personal Hermes/OpenClaw configuration and brain**, giving the community a real-world reference implementation for how a high-frequency knowledge worker sets up and uses AI agents in production, which has further accelerated experimentation and adoption in the Hermes ecosystem.[3]\n\nIndustry impact is emerging along several axes: GBrain is influencing how developers think about long-term memory, retrieval quality, and structured workflows for LLM-based agents, with reported performance metrics like **P@5: 49.1% and R@5: 97.9%** for the full system pointing to competitive retrieval quality in practical use.[2] Its popularity and Tan’s active advocacy around Hermes and agent workflows are helping to normalize the idea of open, user-owned \"brains\" as a standard layer in AI stacks, encouraging more work on interoperable agent infrastructures rather than closed, proprietary assistants.[1][2][3] As a result, GBrain and Tan’s Hermes-focused setups are becoming reference points for startups, tool builders, and power users who are designing next-generation AI agents that must continuously learn from, and act on, a growing personal and organizational corpus.",
+        "source": "web search"
+      },
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is a leading artificial intelligence research and product company best known for its GPT series of large language models and the ChatGPT assistant, which have become core infrastructure for many AI applications in consumer, enterprise, and developer ecosystems.[4] It matters in the AI/ML space because its frontier models and tooling (from GPT-3 and GPT-4 to the GPT-5 and o‑series) have repeatedly set performance benchmarks in language, reasoning, and multimodal tasks, influencing how organizations design AI workflows and how regulators think about advanced AI capabilities.[4]\n\nThe latest wave of developments centers on OpenAI’s **GPT‑5.x** line and its **reasoning-focused o‑series** models. In 2025, OpenAI released GPT‑5, followed by GPT‑5.1 and GPT‑5.2, each improving reasoning speed, real‑world task performance, and conversational control for both consumer and enterprise users.[4] More recently, OpenAI has moved toward GPT‑5.6 and related variants (such as GPT‑5.6 Sol, Terra, and Luna), described as its most capable model suite so far and cleared for broader public rollout, positioning these models as general agents for complex business and developer tasks.[3][5] Parallel to this, the o3 and o3‑pro reasoning models and smaller variants like 04‑mini focus on stronger math, coding, science, and visual reasoning, making them attractive as backends for \"thinking\" assistants and autonomous agents in productivity tools and specialized gadgets.[4] Azure OpenAI’s updates (such as new o‑series and multimodal GPT models) show tight integration with Microsoft’s cloud stack, further entrenching OpenAI as a de facto standard in enterprise AI deployments.[2]\n\nIndustry impact is visible on several fronts: OpenAI’s models are embedded in productivity suites, developer platforms, and custom hardware, including emerging AI gadgets and assistants that rely on its APIs for conversation, reasoning, and multimodal understanding.[2][4] Its shift to releasing some open‑weight models and more flexible deployment options is reshaping how enterprises view AI cost, governance, and vendor lock‑in, while its frontier proprietary models continue to drive competition with other AI labs such as Meta and newer entrants like SpaceXAI.[3][4] Overall, OpenAI’s latest releases reinforce its role as a central technical and strategic player in the AI/ML ecosystem, accelerating the adoption of AI agents, reasoning models, and integrated AI hardware/software products.[3][4]",
+        "source": "web search"
+      },
+      {
+        "topic": "Google",
+        "context": "Google’s current AI/ML strategy centers on its **Gemini family of frontier models** and a broader push to embed these models across consumer products, developer tools, and Google Cloud services.[1][2][3] Gemini is positioned as Google’s flagship large-scale AI system, spanning lightweight “Flash” variants for speed and cost efficiency, more capable “Pro” models for reasoning-intensive tasks, and multimodal “Omni” and Live/Audio models for rich input-output (text, image, video, audio) and real-time interactions.[1][2] This matters because Gemini is Google’s answer to leading general-purpose AI systems from rivals like OpenAI and Anthropic, and it underpins Google’s attempt to retain leadership in search, productivity software, and cloud AI as the industry standardizes around powerful, general models.\n\nRecent developments highlight both **technical progress and platformization**. On the consumer side, Google has expanded **Search Live** globally wherever AI Mode is available and rolled out more ways to access “Personal Intelligence,” integrating Gemini’s capabilities directly into search, mobile, and hardware experiences such as Pixel devices and a new Gemini-focused Google Home Speaker.[1][3] On the developer and enterprise side, Google Cloud now offers **Gemini 3.5 Flash** and **Gemini Omni** for multimodal generation and editing, **Gemini Embedding 2** for unified text–image–video–audio embeddings, and **Gemini 3.1 Pro** for deeper reasoning, all accessible through Vertex AI, Gemini Enterprise, and Google AI Studio.[2] Google has also released **Gemini 3.1 Flash-Lite** and **3.1 Flash Live**, emphasizing low latency, cost efficiency, and more natural audio interactions for voice-first agents, and introduced new coding and app-building experiences (e.g., the Antigravity coding agent in Google AI Studio) to streamline building production-ready applications.[1][2]\n\nThe **industry impact** is twofold. First, Google is using Gemini to reinforce and modernize its core products—search, education tools (Classroom, Chromebooks), research assistants (NotebookLM), and translation—thereby normalizing AI-assisted workflows for hundreds of millions of users.[1][3] For example, **Gemini 3.5 Live Translate** supports natural, near–real-time speech-to-speech translation in over 70 languages, aimed at breaking down language barriers in calls, meetings, and travel, while NotebookLM adds advanced reasoning and automatic generation of structured outputs like charts, spreadsheets, and slide decks for research.[3] Second, by making advanced Gemini models and third-party frontier systems (such as Anthropic’s Claude Fable and Claude Opus/Sonnet variants) available through Google Cloud’s agent platform, Google is positioning its cloud as a central hub for enterprises that want access to a portfolio of leading models with strong integration into data, analytics, and productivity ecosystems.[2] This broad, model-centric strategy—despite earlier criticisms around missed timelines for flagship releases—signals Google’s aim to remain a top-tier AI infrastructure provider and a key competitive force shaping how powerful general AI is deployed across industries.",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "U.S. Government Blocks Public Release of OpenAI’s Frontier Model GPT-5.6",
+        "summary": "OpenAI’s most powerful model to date, GPT-5.6, was unveiled in three tiers (Soul, Terra, Luna) but was blocked from broad public access by the U.S. government over national security concerns. The model is now only available to vetted partners with approved credentials, signaling a major shift in how frontier AI capabilities are controlled.[2][6]",
+        "whyItMatters": "Access constraints on top-tier models will shape what practitioners can realistically deploy, pushing many teams toward open-weight or mid-tier models. It also highlights emerging compliance and security expectations that AI engineers must account for when planning products, infrastructure, and research workflows.[6]",
+        "source": "Reuters, AIGetFree AI News"
+      },
+      {
+        "headline": "Federal AI Executive Order Deadline Triggers New Compliance Requirements",
+        "summary": "A key deadline under the U.S. Federal AI Executive Order arrives in July 2026, tightening oversight of advanced AI systems and expanding reporting, risk assessment, and identity verification requirements. The move accelerates a trend where access to high-capability models increasingly requires institutional vetting and formal compliance processes.[6]",
+        "whyItMatters": "Regulatory constraints are becoming a core design factor for AI systems, especially for models classified as frontier or high-risk. Practitioners must integrate governance, safety documentation, and user verification into their pipelines, and benchmark models not just on performance and cost but also on regulatory posture.[6]",
+        "source": "AIGetFree AI News"
+      },
+      {
+        "headline": "Anthropic Releases Claude Sonnet 5, A New Mid-Size Frontier Model",
+        "summary": "Anthropic launched Claude Sonnet 5, described as one of the most interesting model releases of July 2026 due to its balance of reasoning performance, speed, and cost.[6] Positioned below Anthropic’s largest models, Sonnet 5 targets everyday enterprise and developer use cases while retaining strong safety and alignment features.[6]",
+        "whyItMatters": "Mid-size, high-quality models like Sonnet 5 often hit the best trade-off curve for production workloads, enabling richer reasoning without frontier-level costs or access restrictions. Engineers can use such models to upgrade existing applications with better reliability and tool use while staying within realistic latency and budget constraints.[6]",
+        "source": "AIGetFree AI News"
+      },
+      {
+        "headline": "Moonshot AI’s Kimi K2.7 Code Becomes First Open-Weight Model Integrated into GitHub Copilot",
+        "summary": "Moonshot AI’s coding-focused model Kimi K2.7 Code is now available directly in GitHub Copilot’s model picker, marking the first time an open-weight model has been integrated into the widely used AI coding assistant.[6] This expands developer choice beyond proprietary models and highlights the growing maturity of open-weight coding LLMs.[6]",
+        "whyItMatters": "For AI practitioners and tool builders, this is a pivotal signal that open-weight models can compete in mainstream, high-traffic environments. It opens paths for more transparent, customizable coding assistants, simplifies enterprise governance around data use, and encourages experimentation with self-hosted or hybrid Copilot-like systems using open models.[6]",
+        "source": "AIGetFree AI News"
+      },
+      {
+        "headline": "Google Launches TabFM, a Zero-Shot Model for Tabular Data Analysis",
+        "summary": "Google introduced TabFM, a zero-shot model specifically designed for tabular data, enabling analysis and operations on spreadsheets without task-specific training.[6] Users can point the model at a table and immediately perform tasks such as summarization, transformation, or quality checks, dramatically reducing setup overhead for data workflows.[6]",
+        "whyItMatters": "Tabular data is ubiquitous but historically required bespoke feature engineering or fine-tuning to use ML effectively. A robust zero-shot table model changes the workflow for data scientists and ML engineers, making it easier to prototype analytics, automate reporting, and embed intelligent spreadsheet operations directly into business tools.[6]",
+        "source": "AIGetFree AI News"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Hermes",
+        "type": "product",
+        "context": "Mentioned as being 10x useful with gbrain by Garry Tan"
+      },
+      {
+        "name": "gbrain",
+        "type": "product",
+        "context": "Mentioned as a tool that can enhance Hermes' functionality"
+      },
+      {
+        "name": "Garry Tan",
+        "type": "person",
+        "context": "Mentioned as the person discussing the potential of Hermes with gbrain"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as the developer of a new gadget and a leader in AI technology"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as having a powerful AI and missing deadlines for its flagship AI model"
+      },
+      {
+        "name": "China",
+        "type": "country",
+        "context": "Mentioned as taking the lead in AI and shipping the biggest open model"
+      },
+      {
+        "name": "Xi",
+        "type": "person",
+        "context": "Mentioned as personally hosting the global AI-governance stage"
+      },
+      {
+        "name": "KFC",
+        "type": "company",
+        "context": "Mentioned as being hacked"
+      },
+      {
+        "name": "Ghostcommit",
+        "type": "event",
+        "context": "Mentioned as a relevant event in the context of KFC's hack"
+      },
+      {
+        "name": "San Francisco",
+        "type": "location",
+        "context": "Mentioned as the subject of an international student's guide"
+      }
+    ]
+  },
+  "edition": "evening",
+  "savedAt": "2026-07-18T12:30:33.062Z",
+  "dateString": "2026-07-18"
+}
