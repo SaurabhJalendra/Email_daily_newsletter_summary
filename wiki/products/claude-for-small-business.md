@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-05-14
 > **Last updated**: 2026-05-16
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[claude-managed-agents]], [[claude-for-excel]], [[claude-for-word]], [[claude-for-legal]], [[claude-skills]], [[enterprise-ai]]
 
 ## Summary

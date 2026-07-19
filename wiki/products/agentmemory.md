@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-05-18
 > **Last updated**: 2026-05-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[claude-code]], [[openai-codex]], [[cursor]], [[ai-memory]], [[agent-frameworks]], [[andrej-karpathy]]
 
 ## Summary

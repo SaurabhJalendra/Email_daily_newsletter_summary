@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-05-14
 > **Last updated**: 2026-05-15
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[gemini]], [[apple]], [[apple-m5]]
 
 ## Summary

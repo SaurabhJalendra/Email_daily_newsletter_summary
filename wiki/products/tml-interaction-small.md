@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-05-13
 > **Last updated**: 2026-05-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[thinking-machines]], [[gemini-3-1-flash-live]], [[chatgpt]], [[agent-frameworks]]
 
 ## Summary
