@@ -4,6 +4,24 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-07-19-evening
+**Ingested**: data/summaries/2026-07-19-evening.json (2 newsletters — both from AI Automation Society (Skool): weekly community digest + Q&A event invitation. Low-signal edition: the newsletter cohort covers community activity, member project showcases (lead-gen via [[claude-code]] + Clay, voice dictation systems, luxury-real-estate automations, scraper tools), and a July 20 Plus-tier Q&A with Nate Herk. The daily-digest Top-5 stories at the top of the summary (GPT-5.6 restricted access + Claude Sonnet 5 mid-tier pricing + Kimi K2.7 Code in GitHub Copilot + NVIDIA Nemotron-Labs-TwoTower + Google TabFM + Reflection AI $6.3B compute) come from `researchFindings.missingStories` (external web research), NOT from the actual newsletters ingested — so this ingest synthesizes only from the community newsletter content itself. The event invitation is explicitly ephemeral per WIKI.md rules and was NOT page-ified. New pages carry the persistent-substrate signal from the weekly digest (community + platform + tools + trend).
+
+**Pages updated**: none (all four pages surfaced here are new — this is a first-cycle appearance of the no-code AI automation cohort in the wiki)
+
+**Pages created**:
+- [[ai-automation-society]] — Nate Herk's Skool-hosted community focused on no-code AI automation with [[n8n]] + [[claude-code]]; ~305,600–420,000 members; free tier + paid "Plus" tier with weekly Nate Q&As
+- [[skool]] — community + course-hosting platform functioning as default surface for AI-education communities like [[ai-automation-society]]; framed as *AI-education distribution infrastructure* alongside YouTube / Substack / Discord
+- [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer wiring LLM APIs + coding agents into business SaaS for the [[no-code-ai-automation]] cohort; heavy adoption inside AI Automation Society
+- [[no-code-ai-automation]] — freelancer/agency/SMB pattern of building AI-powered business workflows via [[n8n]] + LLM APIs + [[claude-code]] with Skool-community education as the discovery + training layer; structurally distinct from developer-tier [[agent-frameworks]] and [[vibe-coding]]
+
+**Notable patterns observed**:
+- **First-cycle surfacing of the no-code AI automation *demand-side layer*** — prior wiki coverage of the AI-automation stack has focused on the *supply-side* ([[agent-frameworks]] SDKs, [[claude-code]] and [[cursor]] IDE tier, [[chatgpt-work]] agentic ChatGPT). The [[ai-automation-society]] + [[skool]] + [[n8n]] triad establishes the *demand-side* cohort — non-technical operators buying education from creator communities and shipping paid AI-automation services. This closes a structural gap in the wiki's coverage of who actually deploys AI at the SMB tier.
+- **Community-tier education as distribution infrastructure** — [[skool]] hosting a ~305K+ member Nate-Herk community, monetized via Plus-tier weekly Q&As, mirrors the pattern seen with [[ethan-mollick]] (One Useful Thing) at the writing tier and Andrej Karpathy at the developer tier. The wiki now tracks three named community-tier education substrates for AI adoption across three practitioner cohorts (writers / developers / no-code operators).
+- **Low-signal community-newsletter cycle contrasts with same-day W29-LINT peak** — this evening edition lands on the same day as the [[digests/2026-W29]] LINT that documented 20 new pages across the highest-frontier-cycle week of the quarter (Kimi K3 + Inkling + Anthropic IPO + GPT-Live + OpenAI Companion + Apple v OpenAI). The Sunday-evening two-community-newsletter minimum is the counterpart to the Monday–Friday high-frontier saturation cycle — worth watching whether Sunday-evening editions consistently surface *practitioner-tier* rather than *lab-tier* content.
+
+---
+
 ## LINT 2026-07-19 (week 2026-W29)
 
 **Lint actions**:

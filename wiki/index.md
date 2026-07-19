@@ -5,6 +5,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 ## Companies
 - [[adobe]] — creative-software giant; Firefly AI Assistant across 6 apps
 - [[ai2]] — Allen Institute for AI nonprofit; PreScience open scientific-forecasting benchmark + LACERScore Feb 2026 *(stale)*
+- [[ai-automation-society]] — Nate Herk's Skool-hosted AI-automation community (~305K–420K members); no-code AI + n8n education with paid "Plus" tier for weekly Q&As (Jul 2026)
 - [[alfred-robotics]] — stealth robotics-software startup at $40M valuation; Sam Altman invests via Hydrazine Capital alongside Khosla Ventures + SV Angel (Jun 2026)
 - [[ai21-labs]] — Israeli foundation-model lab; Jamba family; NVIDIA reported $3B acquisition talks Jan 2026 *(stale)*
 - [[alibaba]] — Qwen model family; Qwen3-Max-Thinking 100% AIME 2025; Quark S1 Smart Specs; 14.2% China open-AI share *(stale)*
@@ -82,6 +83,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[sambanova]] — AI-computing-solutions vendor for data centers; $1B Series F at $11B valuation Jul 2026
+- [[skool]] — community/course-hosting platform; default surface for AI-education communities like [[ai-automation-society]] (Jul 2026)
 - [[slack]] — Salesforce-owned enterprise collaboration; Slack AI + RTS API + MCP server for third-party agents; anchor surface for [[claude-tag]] (Jun 2026)
 - [[softbank]] — Japanese investment group; OpenAI's largest single capital backer (Vision Fund + Stargate JV + ~11% stake); 2026-06-28 strategic-partnership announcement for AI infrastructure + telecom/enterprise deployment with [[openai]]
 - [[spacex]] — Musk's space company; xAI parent; S-1 filed at $1.7T (SPCX); orbital DCs + Anthropic Colossus 1 lease
@@ -274,6 +276,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mistral-studio]] — Mistral's production-AI platform *(stale)*
 - [[muse-image]] — Meta's first proprietary AI image-generation model; Muse family replaces Llama era; Muse Spark agentic integration; #2 Image Arena at launch (Jul 2026)
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
+- [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer for [[no-code-ai-automation]] cohorts wiring LLM APIs + agents into business SaaS (Jul 2026)
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*
 - [[nemotron-labs-twotower]] — NVIDIA's Jul 2026 open-weight parallel text diffusion model; dual 30B-copy pipelined-role architecture generating chunks of text in parallel at 2.42× throughput + 98.7% baseline quality
 - [[nano-banana-pro]] — Google's Gemini 3 Pro Image; 4K, 14-input, 5-character consistency, SynthID+C2PA *(stale)*
@@ -384,6 +387,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-slop]] — AI-content flood quality concerns; YouTube 20%+, Instagram Mosseri commentary *(stale)*
 - [[enterprise-ai]] — AI moving into workplace software; PwC + Accenture 30K-staff Claude Code rollouts; Goldman Sachs Claude (May 2026)
 - [[neo-labs]] — cohort of narrow-thesis AI labs founded 2025-26 by elite researchers from Anthropic/OpenAI/DeepMind/Google Brain: self-improvement / memory / world models / physical / continual learning (Jun 2026)
+- [[no-code-ai-automation]] — freelancer/agency/SMB pattern of building AI-powered business workflows via [[n8n]] + LLM APIs + [[claude-code]], with Skool-community education (e.g., [[ai-automation-society]]) as the discovery + training layer (Jul 2026)
 - [[vibe-coding]] — Karpathy-framed agent-first coding movement; Lovable, Cursor, Claude Code; generalizing into writing (Mollick, Jun 2026)
 
 ## Queries
