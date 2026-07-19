@@ -92,6 +92,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[trajectory]] — Neo Lab building a continual-learning platform that lets AI products keep learning from real-world user interactions (Jun 2026)
 - [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
 - [[warp]] — AI-terminal startup; ships Oz agent-orchestration platform; CEO Zach Lloyd "software factories are the next phase of coding" (Jul 2026)
+- [[walden-robotics]] — Toyota's humanoid-robotics spinoff; emerges from stealth at $1.1B valuation Jul 2026 (Toyota + Nvidia + Boeing + Samsung Ventures); robots performing real production work at Toyota plant since Feb 2026
 - [[waymo]] — Alphabet's autonomous-driving subsidiary; $16B raise at $126B valuation Jun 2026; 500K paid rides/week across 11 US cities; sixth-gen Driver + Premier subscription
 - [[world-labs]] — Fei-Fei Li's "spatial intelligence" startup; ships Marble world model; $1B raise Feb 2026 *(stale)*
 - [[xai]] — Elon Musk's AI lab; Grok 4.1 dialog modes; $15B @ $230B; Memphis solar farm
