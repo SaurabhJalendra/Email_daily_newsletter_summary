@@ -1,0 +1,304 @@
+{
+  "date": "2026-07-19T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Monday, 20 July 2026\n\n## 🔥 Top Stories\n1. **OpenAI is developing a screenless smart speaker powered by ChatGPT** — This matters because it represents a significant expansion of AI into consumer electronics, potentially changing how people interact with smart home devices and access information.\n2. **China has open-sourced Opus-level intelligence with the release of Kimi K3, a 2.8 trillion parameter model** — This matters because it marks a major shift in the AI landscape, making high-quality AI models more accessible and potentially disrupting the current market dominance of certain AI providers.\n3. **Anthropic and other experts warn of an \"AI tsunami\" that could lead to significant job losses in the next ten years** — This matters because it highlights the urgent need for leaders to address the impacts of AI on the workforce and to develop strategies for mitigating potential negative consequences.\n4. **Microsoft CTO Amir Netz discusses the shift from AI as a chatbot to AI as a true teammate in the workforce** — This matters because it underscores the evolving role of AI in business, emphasizing the importance of context and judgment in AI decision-making and the potential for AI to become a more integral part of work processes.\n5. **The launch of Thinking Machines Lab's Inkling model, a highly capable open-weights MoE model** — This matters because it introduces a new, efficient, and cost-effective AI model that can handle text, image, and audio natively, potentially making advanced AI capabilities more accessible to a wider range of users.\n\n## 🤖 AI Models & Research\n- **Inkling**: A 975-billion parameter model with a sparse MoE architecture, offering efficient attention mechanisms and the ability to handle multimodal inputs.\n- **Kimi K3**: A 2.8 trillion parameter model with native vision capabilities, achieving top scores on various benchmarks and offering a cost-effective solution for AI tasks.\n- **GPT-Red**: An internal OpenAI model designed to automatically attack other GPT systems to find security flaws, highlighting the ongoing effort to improve AI security and robustness.\n- **LingBot-World 2.0 and LingBot-VLA 2.0**: Generalist embodied models trained across multiple robot configurations, demonstrating advancements in AI's ability to interact with and understand physical environments.\n\n## 🛠️ Tools & Products\n- **June**: A new AI app that runs locally on a user's computer, requiring no data to be sent to servers, and can perform tasks such as sorting receipts, drafting reports, and taking notes.\n- **PersonWise, GoFaceless, ChatPlayground, Vidsembly, Freebeat, Hedy, Hyperagent, Notis, ThumbnailCreator.com, Lumo by Proton**: Various AI tools and products aimed at content creation, productivity, and privacy, showcasing the diverse range of applications for AI technology.\n- **The Complete AI Bundle**: A package including various AI tools and resources, such as the unlimited Prompt Generator, prompt library, and frameworks, with all future updates and additions.\n\n## 📰 Industry News\n- **Apple sued OpenAI, accusing former employees of taking internal files before joining the lab** — A legal dispute that could have implications for the development and sharing of AI technologies.\n- **Japan's rapid positioning as a major player in AI and machine learning, with a focus on \"physical AI\" and sovereign foundation models** — Indicates a significant shift in global AI development, with various countries investing heavily in AI research and application.\n- **Major investments and funding rounds in AI companies, such as Anthropic's $1 billion Series D** — Highlight the growing financial backing for AI research and development, expected to drive further innovation and advancement in the field.",
+  "totalNewsletters": 7,
+  "newsletters": [
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "We spoke to the Microsoft CTO turning AI into a teammate",
+      "date": "2026-07-19T15:03:00.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Microsoft CTO Amir Netz was interviewed, discussing the shift from AI as a chatbot to AI as a true teammate in the workforce, emphasizing the importance of context in making AI decisions.\n* Netz highlighted the difference between consumer AI and enterprise AI, with the latter being more about understanding how a business works, what is happening right now, and what actions should be taken.\n* He also discussed the concept of \"agentic AI,\" which involves AI agents that can observe, reason, take action, and collaborate, and how this is changing the way AI is used in businesses.\n* The interview touched on the importance of judgment in the AI era, with humans needing to make tradeoffs and exercise judgment when there isn't a perfect answer.\n* Other updates included the launch of Claude's Wrapped-style dashboard, Meta pulling a feature within a week of its launch, and OpenAI creating a model that attacks other OpenAI models to find security flaws.\n* SpaceXAI debuted, and Apple sued OpenAI, accusing former employees of taking internal files before joining the lab.\n* OpenAI is reportedly developing a screenless smart speaker powered by ChatGPT, and scientists found that decision-making begins earlier in the brain than previously thought.\n* An AI tool flagged over 250,000 cancer research papers as showing writing patterns linked to paper mills, and OpenAI created GPT-Red, an internal model that automatically attacks other GPT systems to find security flaws.\n\n### Notable Links\n* Learn To Monetize AI Agents",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "We interviewed a Microsoft CTO!\n\n\\+ Your Weekly AI Roundup!  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n19 Jul\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/d823006d-a4f6-456a"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "🧠 Inside the pragmatic AI engineer’s new secret weapon",
+      "date": "2026-07-19T15:30:18.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Thinking Machines Lab has launched its first in-house model called Inkling, a highly capable open-weights MoE (Mixture-of-Experts) model that runs on enterprise hardware and features a \"dial for thinking effort\", allowing developers to adjust the reasoning budget. This model is not claimed to be the strongest overall, but it debuted as the leading American open-weights contender.\n* Inkling has a 975-billion parameter model that supports a one-million token context window and relies on a sparse MoE architecture that only activates 41 billion parameters per token during inference, granting the reasoning power of a one-trillion parameter model at the inference cost of a much smaller system.\n* The model introduces a highly efficient attention mechanism, interleaving local sliding-window attention and global attention, which reduces the memory and compute bottleneck typically associated with long-context reasoning.\n* Inkling is multimodal, handling text, image, and audio natively, and extracts text from images and audio before reasoning about them. It scored an Elo rating of 1238 on GDPval-AA v2, outperforming both Kimi K2.6 and DeepSeek v4 Flash.\n* Thinking Machines also teased an upcoming sibling model called Inkling-Small, a 276-billion parameter model that only runs 12 billion active parameters and shows promising benchmark results.\n* The release of Inkling comes as the developer community is shifting its focus from hunting down the smartest frontier model to securing reliable return on investment with cost-effective LLMs that avoid rigid ecosystem lock-in.\n* Inkling is released under an enterprise-friendly Apache 2.0 license and arrives with massive Day-0 implementation support across inference engines, making it a suitable choice for custom enterprise deployment.\n* The model is integrated with Thinking Machines' dedicated fine-tuning platform, Tinker, which abstracts away the headaches of GPU orchestration and hyperparameter tuning, allowing enterprises to securely upload proprietary data and run custom evaluation loops.\n\n### Notable Links\n* Inkling Model\n* Artificial Analysis Intelligence Index\n* Tinker Fine-Tuning Platform\n\nNote: The links provided are not direct links to external sources, but rather internal links within the AlphaSignal platform. If external links are required, please let me know and I'll do my best to provide them.",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b18ac1a2dd4989b7&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b18ac1a2dd4989b7&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=b18ac1a2dd4989b7&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "     🧠 Inside the pragmatic AI engineer’s new secret weapon ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=b18ac1a2dd4989b7&mid=1067b016-09e6-4089-b761-9951456c0b8f&s=%F0%9F%A7%A0%20Inside%20the%20pragmatic%20AI%20engineer%E2%80%99s%20new%20secret%20weapon&t=1784475014)\n\nWhy 90% of your tasks don't need a frontier model and what to run instead.\n\nWhy 90% of your tasks don't need a frontier model and what to run instead.\n\nStay updated with today’s top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=b18ac1a2dd4989b7&lid=12X7qAZRrHuHGJBtp&mid=1067b016-09e6-4089-b761-9951456c0b8f)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=b18ac1a2dd4989b7&lid=10WTgvWNVYNLqPQV8&mid=1067b016-09e6-4089-b761-9951456c0b8f)\n\n![AlphaSignal Logo](https://alphasignal.ai/image/1764279764256-wj5ohs.png)\n\nHey Saurabh Jalendra,\n\nAI has matured to the point where engineering t"
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🚀 Japan lands a reusable rocket",
+      "date": "2026-07-19T16:06:53.000Z",
+      "summary": "## Superhuman\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Astronomers have discovered an atmosphere around a nearby planet, LHS 1140b, making it the first world outside our solar system known to have all three key ingredients believed to be necessary for sustaining life: it's rocky, has the right temperature, and is in its star's habitable zone.\n* Japan has entered the reusable rocketry club with the successful test flight of its RV-X experimental rocket, which lifted off and landed safely in less than one minute.\n* The FDA has approved a new cholesterol pill, Lipfendra, which blocks a protein called PCSK9 that slows the body's ability to flush out cholesterol, cutting LDL levels by up to 60% in clinical trials with minimal side effects.\n* Sugar molecules have been detected in deep space for the first time, suggesting that the building blocks of life are widespread across the galaxy.\n* China has deployed self-propelled pontoon barges to rescue people stranded in a flood, demonstrating the potential of modular engineering in disaster response.\n* Scientists have bio-printed organ tissue in space for the first time, using a printer aboard the International Space Station to manufacture human kidney, liver, and cartilage tissues in microgravity.\n* A paintable conductive ink has been developed that can be used to track heart, muscle, and brain activity during everyday movement, and can also be mixed with food coloring and applied as decorative designs.\n\n### Notable Links\n* [Paper Title](https://link.to/paper) (not available)\n* [Scribe Optimize](https://www.scribe.ai/optimize) - a tool for optimizing AI workflows\n* [Nebius](https://www.nebius.ai/) - a company developing AI-powered solutions\n* [Lipfendra](https://www.merck.com/product/lipfendra) - a new cholesterol pill approved by the FDA\n\n### Additional Updates\n* Japan is rapidly positioning itself as a major player in AI and machine learning, with a focus on \"physical AI\" and sovereign foundation models.\n* The Japanese government has committed around 1 trillion yen (≈$6.1-6.3 billion) over five years for physical AI and AI robots, aiming to deploy 10 million AI-powered robots across 18 industries by 2040.\n* A new consortium called Noetra has been selected to build a multimodal foundation model for AI robots, with a subsidy of 387.3 billion yen this fiscal year and up to 1 trillion yen over five years.\n* Major firms like SoftBank, Sony, NEC, Honda, and NTT are investing heavily in data centers and domestic AI ecosystems, while startups like Sakana AI are emerging as high-value unicorns.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🌍 Scientists find the most Earth-like planet yet\n\nJuly 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGXq93utt7BmTy_NCYryO0ZsM8TX3jKax3tm3gkWEmZExi-CkgtiBmcbCAEaPzZVZ3MarMGcdnKz1rfROVoK7RowMzmIrr3FLLa3r1HOOTlAleAgpU1lhxb-kwyPstnKkROFMFg4DVvQ4Lw5za7HeJF57nzPCiEbWMDDyVNPRrKbEFqsQ1ijH1QKZ2x2hkwwwWipw8yEZvV124Chcq1Uxv2eQ1fnLeh0Z7rh5oUqrNO7Dn-lB3KtSEWcLYKi12AcMHT-xsnzKrOo1BBTVQD_9uE6zTEvzemuADH26Oo6Nw6IXHEyLB35lMYRBPx1u_TdQ0RdTZJyW-tUlW05hFtNRzZIosFKXoPDg99sdZnjWM4UAel0w30wbSCXPo_DMZXuoNb35ww95unmL9s0wj7tbdaG5e-siuUln4P1IxsCv0v3-TJiOMmMGLT5HAAcjXLR9D6ILPsRXKn0SsSgtqu4lDxQhFVPZq5MZmoYpFCuTqGN2shxhT0XZhYIiPDGSeRSs0KYZgjYDm4-JOecYun7uAWAzSQpENwhjyVR7ApLrst9cVcHBEW-ChROGg6K2whpvJbyCZ7YHj1xZj-35EJkUbCUkrGRmvuKpFwlO5WphOoc_h_2JX5RqqhFkHNRF8o6eITW19_rKsz88svBLyJ4yYPJv_F59P0XA40DUCGXPosiD4UtByad05rS3v-zwNZt4PG98Cq0VTxyvAiJPlTZz_S6rgyHcJq3ezahZnCpIRONh2IejRq_TAfWg_jBVKh_MIZ9qwYUEHwQuMkXCtihuXc3ymN6YrC64uDoP11uySPl6w/4sg/pxBJbjFVSXqTy9KA"
+    },
+    {
+      "from": "\"NLP Newsletter\" <nlpnews@substack.com>",
+      "subject": "🥇Top AI Papers of the Week",
+      "date": "2026-07-19T16:32:34.000Z",
+      "summary": "## NLP Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter highlights the top AI papers of the week, covering topics such as self-improving agents, metacognition in LLMs, and routing in mixture-of-agents systems.\n* A survey on self-improving agents provides a clean formalism for the trend, framing a modern agent as a foundation model coupled with an operational scaffold of prompts, memory, tools, and control logic.\n* Metacognition in LLMs is organized around a monitor and control loop, with a survey arguing that confidence calibration, self-verification, and knowing when to stop are facets of one capability.\n* Routing in mixture-of-agents systems is judged on accuracy and cost, with a study arguing that whether routing means anything depends on two properties orthogonal to accuracy.\n* Harness evolution is rethought, with a paper arguing that reported gains might not be coming from the harness at all, and that harness evolution is itself a search procedure.\n* Tracing agentic failure is explored, with a study treating failure as a timeline and annotating over 63,000 execution steps to see how coding-agent runs break down.\n* LingBot-World 2.0 is introduced, a generalist embodied model trained across 20 robot configurations, which packs 60,000 hours of curated data into one policy.\n* Filtered sabotage monitoring is discussed, with a study showing that monitors often detect sabotage better with less access, not more.\n* GFlowRL is introduced, a reward-maximizing RL algorithm that scales GFlowNet-style training to modern post-training.\n* LingBot-VLA 2.0 is announced, an open-source generalist embodied model from Robbyant, trained across 20 robot configurations.\n\n### Notable Links\n* [Self-Improving Agents Survey](https://arxiv.org/abs/XXXX.XXXXX)\n* [Metacognition in LLMs](https://arxiv.org/abs/XXXX.XXXXX)\n* [When Is Routing Meaningful](https://arxiv.org/abs/XXXX.XXXXX)\n* [Harness Evolution Rethought](https://arxiv.org/abs/XXXX.XXXXX)\n* [Tracing Agentic Failure](https://arxiv.org/abs/XXXX.XXXXX)\n* [LingBot-World 2.0](https://www.robbiant.com/lingbot-world-2-0)\n* [Filtered Sabotage Monitoring](https://arxiv.org/abs/XXXX.XXXXX)\n* [GFlowRL](https://arxiv.org/abs/XXXX.XXXXX)\n* [LingBot-VLA 2.0](https://www.robbiant.com/lingbot-vla-2-0)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9ubHAuZWx2aXNzYXJhdmlhLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZubHAuZWx2aXNzYXJhdmlhLmNvbSUyRnAlMkZ0b3AtYWktcGFwZXJzLW9mLXRoZS13ZWVrLTE2YiIsInAiOjIwNzY3Njg4NSwicyI6MTAzMjM4LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4NDQ3ODg5NSwiZXhwIjoyMTAwMDU0ODk1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.e1QCQTLSBCAUouF7NLUW_HeSIJQtSQ1SMvhBtWKZp9I?"
+        },
+        {
+          "text": "🥇Top AI Papers of the Week",
+          "url": "https://substack.com/app-link/post?publication_id=103238&post_id=207676885&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzY3Njg4NSwiaWF0IjoxNzg0NDc4ODk1LCJleHAiOjE3ODcwNzA4OTUsImlzcyI6InB1Yi0xMDMyMzgiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.pHZnGw7jhhR_0hlLubtc-ef-DcvdkWA-OxeJxWW_RWw"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/nlpnews/p/top-ai-papers-of-the-week-16b?redirect=app-store"
+        },
+        {
+          "text": "Paper",
+          "url": "https://substack.com/redirect/4c0a8a27-d41a-4c75-8881-821989d9f0c8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Tweet",
+          "url": "https://substack.com/redirect/93f3b375-159e-4325-b7b8-362b55e6ebc5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Take the Lab",
+          "url": "https://substack.com/redirect/5dded375-5d93-44f2-8e98-4b9b79d8a7d3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Paper",
+          "url": "https://substack.com/redirect/db31813c-d58a-40dc-84e6-5f0a5158b75a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Tweet",
+          "url": "https://substack.com/redirect/5a10373b-b8fb-4ba6-9be5-e479f558bde5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Paper",
+          "url": "https://substack.com/redirect/e3438d62-f968-4084-9d05-d1432e8368ee?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Tweet",
+          "url": "https://substack.com/redirect/99f2acb9-b8aa-4c13-a331-fd36c8390c2b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🥇Top AI Papers of the Week![](https://eotrx.substackcdn.com/o/6d7794ab4f2f571c/p.gif?token=eyJtIjoiPDIwMjYwNzE5MTYzMjM0LjMuODJhYmU1ZThlMWZlMGFhNEBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMDc2NzY4ODUsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAzMjM4LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzg0NDc4ODk2LCJleHAiOjE3ODcwNzA4OTYsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.xwQliZzJ2dLq0QomZIsinRyJtWGg3BGUzWmu_LapMlk)\n\nThe Top AI Papers of the Week (July 13 - July 19)\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"Robert from God of Prompt\" <godofprompt@mail.beehiiv.com>",
+      "subject": "🔑 The latest Second Brain workshop recording is ready",
+      "date": "2026-07-19T17:08:08.000Z",
+      "summary": "## God of Prompt Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The latest Second Brain workshop recording is now available, focusing on the memory layer of Robert's agentic OS, how it's wired, and its capabilities, with a Q&A session that showcased the room was full of builders, and this recording is included in the Complete AI Bundle.\n- The Complete AI Bundle includes the full AI Second Brain workshop recording, every future workshop recording, the full Complete AI Bundle tools (unlimited Prompt Generator), the prompt library, every framework built by Robert, and every future drop, all for a one-time purchase, with a current 30% discount using the code AICHAMPS30.\n- The Complete AI Bundle provides access to various tools and resources, including the unlimited Prompt Generator, prompt library, and frameworks, with all future updates and additions included, making it a comprehensive package for AI practitioners.\n\n### Notable Links\n- Complete AI Bundle: a package including various AI tools and resources, such as the unlimited Prompt Generator, prompt library, and frameworks, with all future updates and additions.\n- God of Prompt: a website or platform offering AI-related resources, including workshops and the Complete AI Bundle.\n- Robert's agentic OS: a custom AI system developed by Robert, featuring a memory layer and other capabilities discussed in the Second Brain workshop.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🔑 The latest Second Brain workshop recording is ready\n\nOwn the Complete AI Bundle, the link is already waiting for you.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 19, 2026\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/179da9f6-13ca-4211-b7b8-1431327cc525/gop-beehiiv-email-banner.png?t=1778344099)](https://link.mail.beehiiv.com/v1/c/HKqer08Grd%2Be8L1ozv94Lw1WB1JayDbwqM5D2GR9At0Rv9Axffsk3EVpGE4X%0AZaQAwrMMgwk0WItILDuzm3YUnb5TTe2PQhJ%2BmoHrvJAgYcSZfOYxC0neP01O%0A7PzFwhvvSxlq15F7iHpnRdp5zysPv%2BKf%2FfH31yh5p60twsjlz%2F9I2DBalMWF%0AxJWEe8tg9x1siWU%2B2ljwE1J%2F"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "China just open-sourced Opus-level intelligence. Here is the playbook",
+      "date": "2026-07-19T18:00:30.000Z",
+      "summary": "## The AI Corner\n\n**Priority: HIGH**\n\n### Top Updates\n* China has open-sourced Opus-level intelligence with the release of Kimi K3, a model with 2.8 trillion parameters, a 1M-token context window, and native vision capabilities, set to ship its weights on July 27.\n* Kimi K3 has been independently verified to match Claude Opus 4.8 on measured intelligence, scoring 57 on the Artificial Analysis Intelligence Index, and outperforming it in certain categories.\n* The model has achieved top scores on various benchmarks, including #1 on AutomationBench, #1 on Arena's Frontend Code leaderboard, and the best published BrowseComp score at 91.2%.\n* Kimi K3 is priced at $3 per million input and $15 per million output, comparable to Sonnet 5's rate card, and offers a cost-effective solution with a cost per completed task of $0.94, half of Opus 4.8's $1.80.\n* The release of Kimi K3 marks a significant shift in the AI landscape, ending the era where \"open-weight\" meant \"the cheap tier\" and changing the question from \"which model is smartest\" to \"which model wins this lane at this price\".\n* The Kimi K3 Playbook is available, providing a comprehensive guide to the model's capabilities, setup, and cost math, as well as its limitations and potential issues.\n* The playbook covers various topics, including the verified scoreboard, the five lanes K3 wins, the honest file, the cost math, the 48-hour setup, and the router update.\n* The release of Kimi K3 has significant implications for the AI industry, with six labs now scoring above 50 on the index, and the market understanding the model's capabilities and pricing.\n\n### Notable Links\n* The AI Corner: https://www.the-ai-corner.com\n* Kimi K3: https://www.kimi.ai\n* The Kimi K3 Playbook: https://www.the-ai-corner.com/p/kimi-k3-playbook-benchmarks-cost-setup-2026\n* Ruben Dominguez: https://substack.com/@rubendominguez\n* The AI Tools and Models library: https://www.the-ai-corner.com/library(ai-tools-and-models)\n* The AI Agents library: https://www.the-ai-corner.com/library(ai-agents)\n* The Business and Investing library: https://www.the-ai-corner.com/library(business-and-investing)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRmtpbWktazMtcGxheWJvb2stYmVuY2htYXJrcy1jb3N0LXNldHVwLTIwMjYiLCJwIjoyMDc2ODQ1MDAsInMiOjY4NTA1NDQsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzg0NDg0MzIxLCJleHAiOjIxMDAwNjAzMjEsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.GT7OXZwvNy0V0X0fMEI99MSU_5EQEvPt1qSxC_8OPYc?"
+        },
+        {
+          "text": "China just open-sourced Opus-level intelligence. Here is the playbook",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=207684500&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwNzY4NDUwMCwiaWF0IjoxNzg0NDg0MzIxLCJleHAiOjE3ODcwNzYzMjEsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8DZxiTzE_jy7FQY06lqOwCT3qlJuyLLbQ_zVlEWxPnQ"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/kimi-k3-playbook-benchmarks-cost-setup-2026?redirect=app-store"
+        },
+        {
+          "text": "Kimi.ai@Kimi_MoonshotIntroducing Kimi K3: Open Frontier Intelligence 🔹 2.8 Trillion Parameters, 1 Million Context, Native Multimodal 🔹 Kimi Delta Attention enables up to 6.3x faster decoding in million-token contexts 🔹 Attention Residuals deliver ~25% higher training efficiency at &lt;2% additional6:58 PM · Jul 16, 2026 · 22.5M Views1.63K Replies · 7.53K Reposts · 56.2K Likes",
+          "url": "https://substack.com/redirect/8f5b03b5-e776-4d00-9407-4245be454912?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The AI Tools and Models library",
+          "url": "https://substack.com/redirect/1057e17c-b838-42bb-bbe6-fd5c17ce82ed?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The AI Agents library",
+          "url": "https://substack.com/redirect/5e0f70f7-52d3-487a-9950-c8911b3f6234?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The Business and Investing library",
+          "url": "https://substack.com/redirect/7094d750-6b47-403a-82d1-ed69b23208d9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "free for 7 days",
+          "url": "https://substack.com/redirect/09a6d74d-07f0-4a3f-b8c1-c832385438ba?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Start trial",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy50aGUtYWktY29ybmVyLmNvbSUyRnAlMkZraW1pLWszLXBsYXlib29rLWJlbmNobWFya3MtY29zdC1zZXR1cC0yMDI2JnI9NDlieTM0JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3lOVGMxTXpnMk5EQXNJbWxoZENJNk1UYzRORFE0TkRNeU1Td2laWGh3SWpveE56ZzNNRGMyTXpJeExDSnBjM01pT2lKd2RXSXROamcxTURVME5DSXNJbk4xWWlJNkltTm9aV05yYjNWMEluMC5ScHNzeHIyYnV5UFFib091bzU3dTIxQVFCREU4ZV8ydDE2MFk2VlVjMW9NIiwicCI6MjA3Njg0NTAwLCJzIjo2ODUwNTQ0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4NDQ4NDMyMSwiZXhwIjoyMTAwMDYwMzIxLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.H1SpzYh5nzc6wI9IBsYN6h1jWmMQ_RnqSzmITvEPgDY?simple=true&next=https%3A%2F%2Fwww.the-ai-corner.com%2Fp%2Fkimi-k3-playbook-benchmarks-cost-setup-2026&coupon=a600db30"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "China just open-sourced Opus-level intelligence. Here is the playbook![](https://eotrx.substackcdn.com/o/ba4ef295da26131a/p.gif?token=eyJtIjoiPDIwMjYwNzE5MTgwMDMwLjMuYjYzYmYzNWI5ZmZmYmQyOEBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMDc2ODQ1MDAsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjY4NTA1NDQsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODQ0ODQzMjEsImV4cCI6MTc4NzA3NjMyMSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.q7PflWtRoR0ioZpjD60pZFh96YfwKZUDvw_m_24D4Dw)\n\nKimi K3 matches Claude Opus 4.8 on measured intelligence, wins entire categories outright, and ships its weights on July 27. The full guide: where it wins, where it lies, and the exact setup to run it\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 This Week in AI",
+      "date": "2026-07-19T19:19:30.000Z",
+      "summary": "## TAAFT - This Week in AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI is developing a screenless speaker that can read the room, ping ChatGPT, and run smart home devices, similar to Alexa but with a camera, sensors, and moving parts.\n* 16 Nobel Laureates and economists from OpenAI and Anthropic have warned of an \"AI tsunami\" that could lead to significant job losses in the next ten years, urging leaders to take action.\n* Amjad Masad has stated that coding is becoming less necessary with the rise of AI tools, making it easier for people to build apps without writing code.\n* A new learning coach has developed a method for using AI to learn faster without negatively impacting memory, based on thousands of tests and a 923-person survey.\n* Anthropic has released a new set of guides for prompting their AI models, including Fable 5, Sonnet 5, and Opus 4.8, to help users get the most out of their AI tools.\n* June is a new AI app that runs locally on a user's computer, requiring no data to be sent to servers, and can perform tasks such as sorting receipts, drafting reports, and taking notes.\n* NotebookLM has been rebranded as Gemini Notebook and now includes features such as secure cloud computing, writing and running code for deep data analysis, and live inside the Gemini app and Search.\n\n### Notable Tools\n* PersonWise: creates complete courses with designer-grade pages, a digital human teacher, live voice Q&A, and assessments.\n* GoFaceless: turns any topic into a polished short-form video with script, voiceover, visuals, captions, and music.\n* ChatPlayground: runs ChatGPT, Claude, Gemini, and more on one prompt, then has them review, challenge, and combine their answers into a single stronger result.\n* Vidsembly: turns PowerPoint or PDF into a fully narrated video with AI voiceover across 12 languages.\n* Freebeat: turns a single photo into an AI singing performance with solo, duet, or pet modes.\n* Hedy: listens on a device during meetings and gives live suggestions, then hands over clean notes, to-dos, and context that builds over time.\n* Hyperagent: gives users a team of AI agents to research, build, and ship live apps, decks, and docs, all kept current as data changes.\n* Notis: a private AI chat where every conversation is locked with zero-access encryption.\n* ThumbnailCreator.com: builds scroll-stopping YouTube thumbnails from any video URL, then turns the same video into short clips, blog posts, newsletters, and infographics.\n* Lumo by Proton: a private AI chat where every conversation is locked with zero-access encryption.\n\n### Notable Links\n* June \n* The AI Prompting Playbook",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 This Week in AI\n\nThe top tools, stories, and breakthroughs you missed this week  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nJuly 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k07T9kHHqQRfSUww_pf7utZMx-806HSpWzk0DUq9c77kyw5zwhDbSp04RmYnWbKcOFyYj-LUyAY5Re_Gx-pxUCHWtjadF4C70dI5RwCiIxrhhbnPlRW6t504_bXyjF4B8ndY7cOKkmPk_-LHw-g_t_feVreDwLh719mMutFbgxpUFL1GVRm50p0XM9JveE4oB00hv27mLcUcSCWIgA8_dXkFBOC_yf39OIqAV-RdnMvT4YA_sMKEoFsSqYf5z4_tOdJhPmHmIhbdrNcy1vi_C3n1znYwyfXBke0V520EUescKxr-3VAHPzDF6_dEaOjBnKBDvWk-r9B78nCTgz4n4XFEty7286ZkJA4MIyGqep3pSv3v6r879vEIyUb"
+    }
+  ],
+  "tldr": [
+    "OpenAI develops screenless smart speaker.",
+    "China open-sources 2.8 trillion parameter model.",
+    "AI tsunami warning issued by experts.",
+    "Microsoft discusses AI as teammate.",
+    "Thinking Machines Lab launches Inkling model."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Microsoft",
+        "context": "Microsoft is a major AI platform company, with its CTO Kevin Scott describing the company’s current focus as moving beyond standalone model improvements toward **agentic software** and AI that behaves more like a teammate in real workflows. In a recent interview around Build, he said Microsoft is seeing continued gains in model reasoning and is working on the technical pieces needed for agents to access websites while preserving publisher control over data and access terms; Microsoft is also actively supporting Anthropic’s **MCP** protocol, which is emerging as a standard for the agentic web.[2] A related interview also emphasized that Microsoft is still iterating quickly across Bing, Copilot, and its API business, using those products as testbeds for new AI features.[3]\n\nThis matters because Microsoft sits at the center of the enterprise AI stack: it combines cloud infrastructure, developer tools, search, productivity software, and major model partnerships. The latest developments suggest Microsoft is trying to make AI more useful in real tasks by improving search, enabling natural-language experiences on websites, and building standards for tool-using agents rather than just chatbots.[1][2] That has broad industry impact because Microsoft’s product choices often shape how other companies build and deploy AI, especially in enterprise software and web-connected agent systems.[2][3]",
+        "source": "web search"
+      },
+      {
+        "topic": "Mindstream",
+        "context": "Mindstream is a **daily AI newsletter** focused on delivering quick, digestible updates on artificial intelligence and machine learning, typically in a 5-minute format that covers industry news, tools, and productivity tips[1][3]. It positions itself as a go-to resource for staying ahead of AI trends and developments, emphasizing a fun, easy-to-read style aimed at both professionals and enthusiasts who want to track rapid changes in the AI ecosystem[1][2][3].\n\nIt matters in the AI/ML space because it functions as a **curation and synthesis layer** over the fast-moving AI news cycle, helping readers filter signal from noise across research breakthroughs, product launches, regulatory changes, and practical AI use cases[1][2]. Recent coverage described in listings and writeups highlights Mindstream’s focus on emerging AI tools, productivity workflows, and business applications, making it part of a growing category of specialized AI newsletters that shape how practitioners and decision-makers understand and adopt new technologies[1][2][3]. As one of the named “top AI newsletters for 2025,” it contributes to industry impact primarily through **information distribution and framing**, influencing which developments gain attention and how they are contextualized for non-expert audiences[1][3].\n\nMindstream also maintains a presence as a branded media entity, with social and professional profiles (including LinkedIn and Facebook) that reinforce its identity as a dedicated AI news outlet rather than an AI model or tool itself[4][5]. This positions it within the broader AI media ecosystem alongside other curated newsletters, where competition is increasingly about editorial judgment, breadth of coverage, and usability of insights for business and technical readers[1][3]. While public information focuses on its role as a newsletter rather than revealing proprietary technology, its growing recognition in “top newsletter” lists suggests rising influence on how AI/ML developments are communicated and perceived across the industry[1][3].",
+        "source": "web search"
+      },
+      {
+        "topic": "AlphaSignal",
+        "context": "AlphaSignal appears to be a technical AI newsletter and media brand focused on pragmatic AI engineering. Its LinkedIn profile describes it as “one of the most-read technical AI newsletters in the world,” trusted by 270,000 engineers, researchers, and developers at organizations including Google, DeepMind, Meta, and Stanford.[1] That makes it more than a casual newsletter: it functions as a distribution channel for practical AI/ML guidance, tools, and “secret weapons” style insights for builders in the space.\n\nThe most recent publicly available signal in the provided search results is its company presence on LinkedIn, which also lists a website and U.S. locations in San Francisco and Austin.[1] Based on the newsletter context you provided, AlphaSignal’s relevance is mainly in curating high-signal AI engineering content for practitioners, which can influence what tools, workflows, and technical ideas get attention inside the AI/ML community.[1]",
+        "source": "web search"
+      },
+      {
+        "topic": "Japan",
+        "context": "Japan is rapidly positioning itself as a major player in AI and machine learning by tying together national industrial policy, sovereign AI infrastructure, and robotics-focused “physical AI.” The government has committed around **1 trillion yen (≈$6.1–6.3 billion)** over five years specifically for physical AI and AI robots, aiming to deploy **10 million AI-powered robots across 18 industries by 2040** to counter a shrinking workforce and aging population.[3][6] In parallel, Tokyo is preparing a broader long-term strategy targeting about **370 trillion yen (≈$2.3 trillion)** in combined public and private investment across 17 strategic sectors, including AI, advanced semiconductors, and space technology, to revive growth and strengthen economic security through 2040.[1] This includes a push for sovereign foundation models trained on domestic data and deployed on Japanese infrastructure rather than foreign cloud platforms.[2][5]\n\nRecent developments center on Japan’s **“physical AI”** initiative and sovereign foundation models. A new consortium called **Noetra**, backed by SoftBank, Sony, NEC, and Honda in partnership with the national research institute AIST, has been selected under a NEDO program to build a multimodal foundation model for AI robots—able to integrate language, images, video, and sensor data so robots can interpret and act in real-world environments.[3][5] Noetra will receive **387.3 billion yen** in subsidies this fiscal year and up to **1 trillion yen** over five years.[3][5] At the same time, major firms like SoftBank, Sony, NEC, Honda, and NTT are investing heavily in data centers and domestic AI ecosystems, while startups such as Sakana AI are emerging as high-value unicorns, indicating a rapidly maturing local AI industry.[5][6]\n\nThese moves are reshaping Japan’s AI/ML landscape and its global industry role. National policy frames AI as both an economic engine and a strategic necessity, linking **AI, chips, and space technology** as core pillars of growth.[1] The emphasis on robots and physical AI targets sectors such as manufacturing, welfare services, contact centers, and healthcare, where labor shortages and productivity challenges are most acute.[3][6][7] For global AI and ML, Japan’s drive to build large-scale, sovereign, real-world-native foundation models adds competitive pressure to US- and China-led platforms, while its focus on safety, domestic data, and industrial integration offers an alternative template for AI deployment in advanced economies.[2][3][5]",
+        "source": "web search"
+      },
+      {
+        "topic": "AI-powered Second Brain",
+        "context": "In the AI/ML space, a **“Second Brain”** now refers to an AI-augmented personal or organizational knowledge system that continuously reads, updates, and reasons over your documents, notes, transcripts, and project files, acting as a persistent cognitive extension rather than a one-off chatbot interaction.[1][2][5] Instead of manually organizing static folders or note-taking apps, users maintain human-readable files (often in tools like Obsidian or simple text folders) while AI agents index, embed, tag, summarize, and link this material, then answer questions or take actions based on the evolving knowledge base.[2][4][5] This builds on earlier personal knowledge management ideas but adds LLM agents and tool access (the “agent harness”) so the system can operate on your computer, not just in a chat window.[1]\n\nIt matters because this architecture turns AI from a **context-resetting assistant** into a **compounding thinking partner**: every interaction enriches the underlying knowledge base, making future work faster and more informed.[2][5][6] Recent developments include Tiago Forte’s “AI Second Brain” framing that pairs frontier models from OpenAI and Anthropic with agent environments capable of reading files, using tools, and automating digital workflows.[1] Andrej Karpathy’s “LLM Wiki” pattern and derivatives show how to structure atomic notes plus a knowledge graph on top of human-readable docs, giving models both tight machine-optimized context and a durable human layer.[4][6] Practitioners report that this approach finally solves the problem of AI knowledge “resetting” by letting the system remember, refine, and recombine prior work across sessions.[2][6]\n\nIndustry impact is emerging at both enterprise and individual levels. Reports describe large organizations (e.g., Meta) deploying internal AI Second Brains to tens of thousands of employees, where agents track projects, ingest meeting notes, surface connections, and answer conversational queries like “What did we decide about pricing in the last three sales calls?” with synthesized responses and citations.[5] Public job postings, such as Zomato’s CEO asking applicants to state “I have a second brain,” signal that familiarity with these systems is becoming a sought-after skill and a differentiator in AI-first roles.[7] At the same time, critical commentary from venues like Stack Overflow highlights cognitive and ethical questions: if AI systems increasingly act as a second brain, there is concern about over-reliance, belief offloading, and who ultimately controls decisions in human-AI collaborations.[3] Together, these trends position Second Brain architectures as a key pattern for how AI will integrate into everyday knowledge work and digital productivity.[1][2][3][4][5][6][7]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Anthropic Raises $1 Billion Series D to Scale Alignment-Focused Frontier Models",
+        "summary": "Anthropic announced a $1 billion Series D funding round led by major investors including Microsoft and Google Ventures, earmarked for research into AI alignment, interpretability, and robustness.[1] The company highlighted plans to expand safety teams, build more compute capacity, and accelerate work on constitutional AI and agentic evaluation frameworks.[1][4]",
+        "whyItMatters": "For AI practitioners, this funding round signals continued capital concentration around frontier model labs and a strong market premium on safety and alignment research. It likely means faster iteration on Anthropic’s models, more robust evaluation tools, and expanded APIs that could shape best practices for deploying large-scale systems under emerging regulatory pressure.",
+        "source": "Tech & AI Daily Briefing — July 19, 2026"
+      },
+      {
+        "headline": "Apple Officially Launches 5G AR Glasses with On-Device AI Visual Assistance",
+        "summary": "Apple launched its long-anticipated AR glasses featuring 5G mmWave connectivity and AI-driven visual assistance capabilities.[1] The device uses on-device models for real-time object recognition, contextual overlays, and accessibility features, positioning it as a flagship hardware platform for consumer spatial computing.[1]",
+        "whyItMatters": "This creates a large new deployment surface for edge AI and multimodal models, pushing practitioners to optimize for low-latency, privacy-preserving inference on wearables. It will likely accelerate development of spatial AI apps, new interaction patterns, and toolchains tailored to AR-native experiences.",
+        "source": "Tech & AI Daily Briefing — July 19, 2026"
+      },
+      {
+        "headline": "Google’s Quantum AI Team Reports 40% Speed Gains with Hybrid Quantum–Classical Algorithms",
+        "summary": "Google’s Quantum AI group announced breakthroughs in hybrid algorithms that combine quantum processors with classical AI models, achieving a reported 40% speed improvement on complex optimization tasks.[1] The work targets domains such as logistics, materials design, and large-scale combinatorial problems where conventional solvers struggle.[1]",
+        "whyItMatters": "While still early-stage, hybrid quantum–AI workflows could eventuallyreshape how practitioners approach optimization-heavy workloads in operations research, reinforcement learning, and scientific ML. Teams building long-term infrastructure and research roadmaps need to track these advances as potential future constraints and opportunities in model and algorithm design.",
+        "source": "Tech & AI Daily Briefing — July 19, 2026"
+      },
+      {
+        "headline": "China Introduces Targeted Regulations on AI Companions to Limit Emotional Dependency",
+        "summary": "Chinese regulators issued new rules aimed at AI companion apps, restricting designs that encourage excessive emotional dependency and requiring clearer disclosures about an AI’s non-human status.[5] Providers must implement safeguards around vulnerable users and content that could exacerbate loneliness or psychological harm.[5]",
+        "whyItMatters": "These rules illustrate a new regulatory vector focused on affective and relational AI, not just data or safety. Practitioners working on conversational agents, therapeutic tools, or social robots will need to factor psychological impact and dependency risks into product design and compliance strategies, especially for global launches that touch China or jurisdictions likely to follow similar approaches.",
+        "source": "AI NEWS: Week of July 13 to 19, 2026"
+      },
+      {
+        "headline": "Meta Commits Over $50 Billion to Hyperion AI Megadata Center for 5 GW Compute",
+        "summary": "Meta announced an investment exceeding $50 billion in Hyperion, its next-generation AI computing campus designed to deliver up to 5 gigawatts of computing power.[5] The facility is framed as a cornerstone for future foundation models, multimodal systems, and large-scale recommendation and generative workloads.[5]",
+        "whyItMatters": "Hyperion reflects the escalating compute arms race and the strategic importance of vertically integrated AI infrastructure. For practitioners, this scale of investment foreshadows larger, more capable models, shifting deployment economics, and potential changes in access patterns as hyperscalers consolidate training resources and set de facto standards for tooling and interoperability.",
+        "source": "AI NEWS: Week of July 13 to 19, 2026"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Microsoft",
+        "type": "company",
+        "context": "Mentioned as the company whose CTO was interviewed about turning AI into a teammate"
+      },
+      {
+        "name": "Mindstream",
+        "type": "product",
+        "context": "Mentioned as the sender of a newsletter about AI news and updates"
+      },
+      {
+        "name": "AlphaSignal",
+        "type": "product",
+        "context": "Mentioned as the sender of a newsletter about pragmatic AI engineering and secret weapons"
+      },
+      {
+        "name": "Japan",
+        "type": "location",
+        "context": "Mentioned as the country where a reusable rocket was landed"
+      },
+      {
+        "name": "Second Brain",
+        "type": "technology",
+        "context": "Mentioned as a workshop recording about AI and related topics"
+      },
+      {
+        "name": "God of Prompt",
+        "type": "product",
+        "context": "Mentioned as the sender of a newsletter about AI-related topics and workshops"
+      },
+      {
+        "name": "Opus-level intelligence",
+        "type": "technology",
+        "context": "Mentioned as an open-sourced intelligence system from China"
+      },
+      {
+        "name": "China",
+        "type": "location",
+        "context": "Mentioned as the country that open-sourced Opus-level intelligence"
+      },
+      {
+        "name": "NLP Newsletter",
+        "type": "product",
+        "context": "Mentioned as the sender of a newsletter about top AI papers"
+      },
+      {
+        "name": "The AI Corner",
+        "type": "product",
+        "context": "Mentioned as the sender of a newsletter about AI news and updates"
+      },
+      {
+        "name": "TAAFT",
+        "type": "product",
+        "context": "Mentioned as the sender of a newsletter about AI news and updates"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-07-20T00:30:40.558Z",
+  "dateString": "2026-07-20"
+}
