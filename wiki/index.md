@@ -49,6 +49,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
 - [[ibm]] — enterprise-software incumbent; watsonx + Granite; launches [[ibm-bob]] AI coding partner for enterprise SDLC (Jul 2026)
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*
+- [[interpositive]] — Ben Affleck's 16-person AI-post-production startup (project-specific dailies-trained tools); acquired by [[netflix]] for $587M+ (Jul 2026)
 - [[jpmorgan-chase]] — investment bank; LLM Suite aggregates OpenAI + Anthropic; "fully AI-powered megabank" commitment; $18B/yr tech (Jun 2026)
 - [[kling-ai]] — Kuaishou spin-off Chinese AI video-generation company; $15B valuation Jul 2026 (~$2.8B round led by Alibaba + Tencent); short-form AI video focus
 - [[lila-sciences]] — AI-run science startup building a "lab as data center"; automated experiments 24/7 → 10T experimentally validated scientific tokens; CTO Andy Beam + CSO Rafa Gómez-Bombarelli (Jul 2026)
@@ -65,6 +66,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mirendil-ai]] — New AI lab founded by ex-Anthropic/OpenAI/Google/xAI employees; $200M seed; building self-improving science research AI (Jun 2026)
 - [[mistral]] — French frontier lab; Mistral Studio + Mistral 3 open-weights; HSBC + Airbus/BMW/CMA CGM; Vibe Work/Code Mode (Jun 2026)
 - [[moonshot-ai]] — Chinese frontier lab; ships Kimi K2 Thinking open-source reasoning model
+- [[netflix]] — streaming platform; acquires [[interpositive]] for $587M+ (Jul 2026) for internal AI post-production tooling
 - [[notion]] — workspace app; Custom Agents autonomous AI teammates Feb 2026 *(stale)*
 - [[nous-research]] — open-source AI research collective; Hermes Agent self-improving AI agent Feb 2026
 - [[nvidia]] — AI GPUs; Cosmos physical AI; Ising quantum; Vera Rubin; $57B record quarter; Alpamayo-R1
@@ -202,6 +204,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[glm-4-7]] — Zhipu AI open-source WebDev model topping open leaderboards Dec 2025 *(stale)*
 - [[glm-5]] — Zhipu AI's Feb 2026 open-source 754B MIT-licensed flagship; sparse attention + async RL *(stale)*
 - [[glm-5-2]] — Zhipu AI's June 2026 minor-version successor to GLM-5; "the top Frontend Coding model in the world" per AINews + IndexShare for Speculative Decoding; released opportunistically into the Fable ban window (Jun 2026)
+- [[glm-5-5]] — Zhipu AI's upcoming open-weight successor to GLM-5.2; targeted for August 2026 release; Hugging Face expected to host weights; extends monthly Chinese-frontier-lab release cadence (Jul 2026)
 - [[glm-ocr]] — Zhipu AI's open-source SOTA OCR model; #1 OmniDocBench, handwriting/tables/code layouts *(stale)*
 - [[gpt-5-1]] — OpenAI's mid-Nov 2025 ChatGPT upgrade; Instant/Thinking modes, 8 personalities *(stale)*
 - [[gpt-5-1-codex-max]] — OpenAI's coding model; 24+ hour sessions via compaction; 77.9% SWE-bench Verified *(stale)*
