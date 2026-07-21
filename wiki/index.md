@@ -18,7 +18,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[apple]] — solo-AI strategy abandoned; Siri+Gemini deal; M5 chip; Subramanya new AI VP
 - [[assemblyai]] — voice/speech AI vendor; Voice Agent API collapses pipeline into a single WebSocket (Jun 2026)
 - [[auth0]] — identity platform; Auth0 for AI Agents *(stale)*
-- [[baidu]] — Chinese search/cloud giant; ERNIE-4.5-VL-Thinking open-source multimodal reasoning *(stale)*
+- [[baidu]] — Chinese search/cloud giant; ships Unlimited-OCR 3B open-source (93.23% OmniDocBench, R-SWA attention, 8GB VRAM) Jul 2026 + ERNIE-4.5-VL-Thinking multimodal reasoning
 - [[baseten]] — AI inference + post-trained-open-models compute company; $1.5B Series F at $13B valuation Jun 2026; "owned intelligence" infrastructure thesis
 - [[black-forest-labs]] — German image-gen lab; ships FLUX.2 *(stale)*
 - [[block]] — Square/Cash App parent; cut ~half of employees citing internal AI agent "Goose" Mar 2026 *(stale)*
@@ -177,6 +177,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
 - [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(stale)*
+- [[frozen-v2]] — Google's next-gen server chip embedding pieces of Gemini's model design into silicon; projected 6-10× more efficient than current TPUs; target ship as early as 2028 (Jul 2026)
 - [[frontiercode]] — Cognition's code-quality benchmark (corrected 2026-06-10 — initially framed as AINews/Latent Space); mergeability over unit-tests; Opus 4.8 13/100 score (Jun 2026)
 - [[function-gemma]] — Google 270M on-device function-calling model *(stale)*
 - [[gemini]] — Google's flagship model family
@@ -243,6 +244,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kimi-k2-5]] — Moonshot AI's 1T MoE + 400M MoonViT multimodal agentic model with Agent Swarm (Jan 2026) *(stale)*
 - [[kimi-k2-6]] — Moonshot AI's Apr 2026 open-source trillion-parameter multimodal model; Agent Swarm; outperforms GPT-5.4 / Opus 4.6 on several benchmarks
 - [[kimi-k2-7-code]] — Moonshot AI's Jun 2026 coding-specialized K2.7-series Kimi variant; launches on Ollama's US-hosted cloud (Jun 2026)
+- [[kimi-code-cli]] — Moonshot AI's terminal-tier AI coding agent; reads/edits code + runs shell + searches files + fetches web + chooses next step from feedback; open-sourced at github.com/MoonshotAI/kimi-code (Jul 2026)
 - [[kimi-k3]] — Moonshot AI's leaked next-gen ~2.5T-parameter Kimi model; 1M context, long-horizon-agents-tuned, new "Kimi Linear" attention hybrid, projected ~8× cheaper than GPT-5.5; likely Apache 2.0 open-weight (Jul 2026, leak)
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
