@@ -8,7 +8,8 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-05-19
-> **Last updated**: 2026-05-27
+> **Last updated**: 2026-07-22-evening (**[[gemini-3-6-flash]] available on Antigravity — Google's new workhorse Flash tier ships across the Antigravity agent platform alongside Gemini API + AI Studio + Vertex AI + Gemini app + rolling into [[github-copilot]]**. World of AI MEDIUM ***"Gemini 3.6 Flash Is Out! 👀 + Still No Flagship"***: ***"Gemini 3.6 Flash is available across the Gemini API, AI Studio, Vertex AI, Google's Antigravity agent platform, and the Gemini app"***. First publicly framed *Antigravity gets a Flash-tier successor* on the Antigravity 2 platform in this wiki since the 2026-05-19 [[gemini-3-5-flash]] launch as the initial engine. Structurally significant: Antigravity's underlying model substrate transitions from [[gemini-3-5-flash]] to [[gemini-3-6-flash]] as the workhorse tier — with 17% fewer output tokens, parallel-agent orchestration on Antigravity 2 gets a *cost-and-efficiency upgrade for high-volume agentic or coding workloads* framing. See [[gemini-3-6-flash]] + [[google]] — *source: data/summaries/2026-07-22-evening.json (World of AI MEDIUM "Gemini 3.6 Flash Is Out! 👀 + Still No Flagship")*)
+> **Previously updated**: 2026-05-27
 > **Status**: active
 > **Related**: [[google]], [[antigravity]], [[gemini-3-5-flash]], [[gemini-spark]], [[claude-code]], [[claude-code-agent-view]], [[openai-codex]], [[cursor]], [[agent-frameworks]]
 

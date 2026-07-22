@@ -191,6 +191,9 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-1-flash-tts]] — Google's low-latency TTS (70+ languages, multi-speaker) *(stale)*
 - [[gemini-3-1-pro]] — Google's Mar 2026 flagship; 77.1% ARC-AGI-2; successor to Gemini 3 Pro *(stale)*
 - [[gemini-3-5-flash]] — Google's I/O 2026 agent-and-coding-tuned flagship; 1M context, 4× faster, 76.2% Terminal-Bench 2.1
+- [[gemini-3-5-flash-cyber]] — Google's Jul 2026 gated cybersecurity-tuned Gemini; fine-tuned to find/validate/patch software vulnerabilities; access restricted to governments + trusted partners; underpins CodeMender autonomous security agent
+- [[gemini-3-5-flash-lite]] — Google's Jul 2026 budget-workhorse Gemini tier; $0.30/M input + $2.50/M output; beats older Gemini 3 Flash on several evaluations; configurable thinking levels
+- [[gemini-3-6-flash]] — Google's Jul 2026 workhorse Gemini Flash successor to 3.5 Flash; 17% fewer output tokens; efficiency-tuned for high-volume agentic and coding workloads; rolls into GitHub Copilot
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence *(stale)*
 - [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella; grounded summarization + citation + multi-source synthesis with deeper Gemini-app + Google-Search integration (Jul 2026)
 - [[gemini-omni]] — Google's I/O 2026 conversational video model; any-input → editable video; "Nano Banana for video"

@@ -8,8 +8,10 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-04-19
-> **Last updated**: 2026-04-28
-> **Status**: stale
+> **Last updated**: 2026-07-22-evening (**Stable-release recoverage — World of AI MEDIUM ***"Gemini 3.6 Flash Is Out! 👀 + Still No Flagship"***: ***"DeepSeek V4 has moved to its stable release"***. Cross-cohort recoverage of the 2026-07-18-evening V4 preview→stable graduation announcement (Jul 24 stable-release + legacy-API-alias retirement). Two days out from the stable-tier cutover this cycle, the DeepSeek V4 stable-release framing now appears as *settled-fact* in a Gemini-launch-headline newsletter. Structurally significant: pairs cycle-structurally with same-cycle Google flagship-slip narrative (Google drops out of top 5 AI labs + 3.5 Pro third missed deadline + Gemini 4 pre-training begins skipping Pro) — reads as *Chinese-open-weight competitive stable-release cadence maintained while Western frontier-lab flagship-timings slip*. See [[deepseek]] + [[open-source-models]] + [[google]] — *source: data/summaries/2026-07-22-evening.json (World of AI MEDIUM "Gemini 3.6 Flash Is Out! 👀 + Still No Flagship")*)
+> **Previously updated**: 2026-07-18-evening (**Preview → stable graduation on July 24 announced + legacy API aliases retire same day (see [[deepseek]] cycle-N)**)
+> **Earlier**: 2026-04-28
+> **Status**: active
 > **Related**: [[deepseek]], [[deepseek-v3-2]], [[gpt-5-5]], [[claude-opus-4-7]], [[kimi-k2-6]], [[qwen-3-6]]
 
 ## Summary
