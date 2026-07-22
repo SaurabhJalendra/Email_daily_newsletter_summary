@@ -113,6 +113,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-edge-gallery]] — Google on-device AI runtime for Android *(stale)*
 - [[alpamayo]] — NVIDIA open 10B autonomous-driving model family (Jan 2026 CES) *(stale)*
 - [[alphaevolve]] — Google DeepMind's teased Alpha-series extension into complex evolving/dynamic environments — long-horizon multi-step optimization across science + engineering (Jul 2026)
+- [[amd-helios]] — AMD's first rack-scale AI system; deployed in Microsoft Azure with Meta/OpenAI/Oracle as early customers; NVIDIA GB200 NVL72 alternative (Jul 2026)
 - [[antigravity]] — Google's free agent-first VSCode-forked IDE built for Gemini 3 *(stale)*
 - [[antigravity-2]] — Google's I/O 2026 rebuilt parallel-agent desktop app + CLI + SDK powered by Gemini 3.5 Flash
 - [[anthropic-fellows]] — Anthropic's AI-safety research fellowship; 4mo / $3,850/wk / ~$15K/mo compute / 40% hire + 80% papers (Jun 2026)
@@ -244,12 +245,14 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[isaac-groot]] — NVIDIA's research-grade humanoid robot reference design (Unitree H2 body + Blackwell GPU); US/Europe/South Korea partners (Jun 2026)
 - [[jetson-thor]] — NVIDIA's Blackwell-powered edge modules (T3000 + T2000) for robotics, visual AI, and agent workloads on compact edge systems (Jul 2026)
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
+- [[kat-coder-v2-5]] — Kwaipilot two-tier coding-agent model family on OpenRouter: Pro V2.5 ($0.74/$2.96 per M, 256K ctx, native tool calling, structured outputs) + Air V2.5 ($0.15/$0.60 per M with free variant) (Jul 2026)
 - [[kimi-k2-5]] — Moonshot AI's 1T MoE + 400M MoonViT multimodal agentic model with Agent Swarm (Jan 2026) *(stale)*
 - [[kimi-k2-6]] — Moonshot AI's Apr 2026 open-source trillion-parameter multimodal model; Agent Swarm; outperforms GPT-5.4 / Opus 4.6 on several benchmarks
 - [[kimi-k2-7-code]] — Moonshot AI's Jun 2026 coding-specialized K2.7-series Kimi variant; launches on Ollama's US-hosted cloud (Jun 2026)
 - [[kimi-code-cli]] — Moonshot AI's terminal-tier AI coding agent; reads/edits code + runs shell + searches files + fetches web + chooses next step from feedback; open-sourced at github.com/MoonshotAI/kimi-code (Jul 2026)
 - [[kimi-k3]] — Moonshot AI's leaked next-gen ~2.5T-parameter Kimi model; 1M context, long-horizon-agents-tuned, new "Kimi Linear" attention hybrid, projected ~8× cheaper than GPT-5.5; likely Apache 2.0 open-weight (Jul 2026, leak)
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
+- [[kimi-work]] — Moonshot AI's Windows/macOS desktop agent — local files + browser automation + multi-step web tasks; 24/7 automation tier alongside [[chatgpt-work]] and [[claude-cowork]] (Jul 2026)
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
 - [[leanstral]] — Mistral's Jul 2026 open-source 119B-parameter theorem-proving + code-verification agent; 587/672 Putnam problems at "significantly lower cost"; verify proofs + test logic + catch errors before software ships (Jul 2026)
 - [[longcat-2]] — Meituan's Jul 2026 open-source 1.6-trillion-parameter model — first publicly framed Meituan-frontier-AI-lab entrant; one of the largest publicly disclosed open-source parameter counts
