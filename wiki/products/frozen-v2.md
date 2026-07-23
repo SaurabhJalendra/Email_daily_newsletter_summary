@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[google]]
 > **First mentioned**: 2026-07-21-morning
-> **Last updated**: 2026-07-21-morning
+> **Last updated**: 2026-07-23-morning (**Cycle-2 morning cross-newsletter confirmation** — AI Breakfast HIGH + Future Tools MEDIUM + Mindstream MEDIUM + Superhuman MEDIUM re-anchor Frozen v2 as *"custom inference processor planned for 2028 data center deployment"* to support Google's **$190 billion infrastructure expansion**. AI Breakfast HIGH: ***"Google is designing Frozen v2, a custom inference processor planned for 2028 data center deployment, to support its $190 billion infrastructure expansion"***. Future Tools MEDIUM canonicalizes the 6-10× efficiency claim and 2028 ship window. First publicly framed on this cycle: (a) *"inference processor"* explicit classification — narrows Frozen v2 from generic *"server chip"* into *inference-tier* silicon (distinct from training-tier TPU family); (b) *"$190B infrastructure expansion"* concrete Google-capex anchor — Frozen v2 positioned as substrate underlying Google's largest-ever infrastructure buildout; (c) *"embed pieces of Gemini's model design into silicon"* now confirmed across four independent newsletters — sharpens the model-hardware-co-design canonical framing. Structurally significant: **inference-tier-specific-silicon** — pairs cycle-structurally with [[openai-jalapeno]] (also inference-focused) as *2026-mid dual-frontier-lab inference-silicon-co-design cohort* — *source: data/summaries/2026-07-23-morning.json (AI Breakfast HIGH "Claude Cowork records user screens to build custom automation skills"; Future Tools MEDIUM "Claude wants your passwords"; Mindstream MEDIUM "Google is launching a security model"; Superhuman MEDIUM "💻 Claude Cowork gets screen memorization skills")*)
+> **Previously updated**: 2026-07-21-morning
 > **Status**: in development (target ship 2028)
 > **Related**: [[google]], [[gemini]], [[ironwood-tpu]], [[google-tpu-v8]], [[nvidia]], [[ai-hardware]], [[openai-jalapeno]]
 
@@ -20,6 +21,8 @@ Frozen v2 is Google's next-generation server chip, first surfaced in July 2026 a
 If Frozen v2 lands the projected efficiency gain, it structurally shifts the *TPU vs GPU vs custom-silicon* competitive frame — Google would run its own frontier models on hardware co-designed with the model architecture rather than on general-purpose accelerators, sharpening the [[ai-hardware]] arc's *model-hardware-co-design* thesis.
 
 ## Timeline
+
+- **2026-07-23-morning**: **Cycle-2 cross-newsletter confirmation** — AI Breakfast HIGH classifies Frozen v2 as *"custom inference processor planned for 2028 data center deployment"* supporting Google's **$190B infrastructure expansion**; Future Tools + Mindstream + Superhuman + Matt-from-FutureTools reconfirm 6-10× efficiency vs current AI chips + 2028 arrival. First publicly framed *inference-tier classification* + *$190B Google-capex anchor* on Frozen v2. Pairs with [[openai-jalapeno]] as mid-2026 dual-frontier-lab inference-silicon-co-design cohort — *source: data/summaries/2026-07-23-morning.json (AI Breakfast HIGH "Claude Cowork records user screens to build custom automation skills"; Future Tools MEDIUM "Claude wants your passwords"; Mindstream MEDIUM "Google is launching a security model")*
 
 - **2026-07-21-morning**: **Frozen v2 first surfaced — Google's next-gen server chip embedding pieces of Gemini's model design into silicon; projected 6-10× more efficient than current TPUs; ship as early as 2028**. Uncovering AI HIGH: ***"Google is developing a new server chip, Frozen v2, which could ship as soon as 2028 and is projected to run six to ten times more efficiently than Google's current TPUs. The chip will embed pieces of Gemini's model design directly into it, reducing data movement and increasing efficiency"*** — *source: data/summaries/2026-07-21-morning.json (Uncovering AI HIGH "🧠 Google just fused Gemini into silicon"; daily-digest Top Story #3)*
 
@@ -45,3 +48,4 @@ If Frozen v2 lands the projected efficiency gain, it structurally shifts the *TP
 ## Sources
 
 - data/summaries/2026-07-21-morning.json (Uncovering AI HIGH "🧠 Google just fused Gemini into silicon" — Google is developing a new server chip Frozen v2 which could ship as soon as 2028 and is projected to run six to ten times more efficiently than Google's current TPUs; daily-digest Top Story #3)
+- data/summaries/2026-07-23-morning.json (AI Breakfast HIGH "Claude Cowork records user screens to build custom automation skills"; Future Tools MEDIUM "Claude wants your passwords"; Mindstream MEDIUM "Google is launching a security model"; Superhuman MEDIUM "💻 Claude Cowork gets screen memorization skills")
