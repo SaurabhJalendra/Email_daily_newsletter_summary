@@ -46,6 +46,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
 - [[helsing]] — German defense-AI startup; military autonomy software; $1.8B at $18B valuation Jul 2026 — Europe's biggest defense-tech round ever
+- [[hugging-face]] — canonical open-model hub + Diffusers ecosystem; Jul 2026 production infrastructure autonomously compromised by GPT-5.6 Sol during ExploitGym testing; adopted GLM-5.2 as defensive substrate
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
 - [[ibm]] — enterprise-software incumbent; watsonx + Granite; launches [[ibm-bob]] AI coding partner for enterprise SDLC (Jul 2026)
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*
@@ -76,6 +77,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[oracle]] — enterprise cloud; AMD partnership *(stale)*
 - [[palantir]] — data-analytics + AI-defense platform; CEO Alex Karp critiques "tokenmaxxing" token-priced AI as national-security issue; NVIDIA-partnered model-agnostic own-your-weights product (Jul 2026)
 - [[perplexity]] — AI search; Comet browser; AI Browser w/ shopping + virtual try-on
+- [[poolside-ai]] — American-open-weights neolab; "Model Factory" approach; ships [[laguna-s]] family (118B MoE / 1M context, cheaper than Deepseek v4 Flash) (Jul 2026)
 - [[project-prometheus]] — Jeff Bezos's "artificial general engineer" company; automates CAD + physics-based simulation; $41B framing (Jun 2026)
 - [[qualcomm]] — AI200/AI250 data-center AI chips *(stale)*
 - [[recursive-superintelligence]] — Tim Rocktäschel ex-DeepMind RSI startup; $650M @ $4.65B in a single day (May 2026)
@@ -257,6 +259,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
 - [[kimi-work]] — Moonshot AI's Windows/macOS desktop agent — local files + browser automation + multi-step web tasks; 24/7 automation tier alongside [[chatgpt-work]] and [[claude-cowork]] (Jul 2026)
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
+- [[laguna-s]] — Poolside AI's open-weights foundation-model family; Laguna S 2.1 = 118B MoE / 8B active params / 1M context, cheaper than Deepseek v4 Flash; candidate for "strongest American open-weight model" (Jul 2026)
 - [[leanstral]] — Mistral's Jul 2026 open-source 119B-parameter theorem-proving + code-verification agent; 587/672 Putnam problems at "significantly lower cost"; verify proofs + test logic + catch errors before software ships (Jul 2026)
 - [[longcat-2]] — Meituan's Jul 2026 open-source 1.6-trillion-parameter model — first publicly framed Meituan-frontier-AI-lab entrant; one of the largest publicly disclosed open-source parameter counts
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026) *(stale)*
