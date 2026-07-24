@@ -66,6 +66,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[minimax]] — Chinese frontier-model lab; M2.1 coding model
 - [[mirendil-ai]] — New AI lab founded by ex-Anthropic/OpenAI/Google/xAI employees; $200M seed; building self-improving science research AI (Jun 2026)
 - [[mistral]] — French frontier lab; Mistral Studio + Mistral 3 open-weights; HSBC + Airbus/BMW/CMA CGM; Vibe Work/Code Mode (Jun 2026)
+- [[nebius]] — AI cloud company climbing from compute to inference + agentic platforms; Token Factory managed inference platform; Eigen AI/Clarifai/Tavily acquisitions in 6 weeks; CTO Danila Shtan on execution-speed-as-moat (Jul 2026)
 - [[moonshot-ai]] — Chinese frontier lab; ships Kimi K2 Thinking open-source reasoning model
 - [[netflix]] — streaming platform; acquires [[interpositive]] for $587M+ (Jul 2026) for internal AI post-production tooling
 - [[notion]] — workspace app; Custom Agents autonomous AI teammates Feb 2026 *(stale)*
@@ -174,6 +175,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[databricks]] — data-lakehouse + AI platform; $188B Series M funding (Jul 2026); third-party benchmark authority for coding agents
 - [[cursor-composer]] — Cursor's first in-house coding model; ~4× faster, sub-30-second tasks *(stale)*
 - [[cursor-composer-2-5]] — Cursor's May 2026 RL-trained model; 79.8% SWE-Bench Multilingual at ~10× efficiency
+- [[cursor-router]] — Cursor's intelligent per-request model router (Intelligence/Balance/Cost modes); 60% AI coding cost cut vs single-premium-model default; 600K+ live-coding-request classifier (Jul 2026)
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier *(stale)*
 - [[deepseek-ocr]] — open-source OCR with 10× vision-token compression, 97% accuracy *(stale)*
 - [[diffusion-gemma]] — Google's diffusion-based Gemma-family variant; first surfaced TLDR AI 2026-06-11-evening + second-cohort NLP Newsletter digest 2026-06-14-morning
@@ -227,6 +229,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-live]] — OpenAI's Jul 2026 full-duplex voice model — listens + speaks simultaneously with mid-sentence handoff to larger models; rebuild of ChatGPT voice mode
 - [[google-ai-studio]] — Google's free playground for testing/comparing AI models incl. Gemini 3.5 Flash; side-by-side runs + prompt-builder; Google login (Jun 2026)
 - [[googlebook]] — Google's Gemini-native premium AI laptop category; Magic Pointer AI cursor; ships fall 2026 *(stale)*
+- [[granola]] — AI notepad turning months of meeting notes into a searchable memory with cited answers; canonical *accumulation*-archetype [[ai-moats]] example (Jul 2026)
 - [[grok-build]] — xAI's CLI coding agent for SuperGrok Heavy subscribers (May 2026)
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding *(stale)*
 - [[gpt-bidi]] — OpenAI's pre-launch bidirectional voice architecture for ChatGPT voice mode; first surfaced via AI Breakfast (Jun 2026)
@@ -304,6 +307,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-codex]] — OpenAI's Codex-as-superapp (ChatGPT + Atlas + Codex) *(stale)*
 - [[openai-for-healthcare]] — OpenAI's HIPAA-compliant enterprise health offering *(stale)*
 - [[openai-frontier]] — OpenAI's Feb 2026 enterprise AI-Employee platform (personas + skills + memory) *(stale)*
+- [[openai-presence]] — OpenAI's Jul 2026 enterprise agent platform for controlled voice/chat agents; permissions + policies + evaluations + escalation rules + Codex-powered improvement loop; direct competitor to [[claude-managed-agents]]
 - [[openai-jalapeno]] — OpenAI's first custom AI inference chip co-designed with [[broadcom]]; built from scratch in nine months; better performance-per-watt + lower operating costs than current GPU-based systems (Jun 2026)
 - [[openai-prism]] — OpenAI's free AI-native workspace powered by [[gpt-5-2]] — converts whiteboard sketches into code + manuscript-context chat for researchers (Jun 2026)
 - [[openai-workspace-agents]] — OpenAI's Apr 2026 ChatGPT feature for shared team agents handling complex tasks + long-running workflows
@@ -324,6 +328,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwen-agentworld]] — Alibaba's family of language world models for agents — 10M+ environment-interaction trajectories simulating MCP/Search/Terminal envs (Jun 2026)
 - [[qwen-image]] — Alibaba open-source image model called "open-source king" Jan 2026 *(superseded)*
 - [[qwen-image-2]] — Alibaba's Feb 2026 unified image gen + editing model; #2/#3 AI Arena Elo *(stale)*
+- [[qwen-image-3]] — Alibaba's Jul 2026 image model; 4,500-token prompts + 10px legible text + 12-language rendering + real-looking UI mockups; invite-only, no open weights, mixed vs GPT Image 2
 - [[qwen3-coder-next]] — Alibaba's Feb 2026 open-weights 80B MoE coding-agent model (800K coding tasks) *(stale)*
 - [[rtx-spark]] — NVIDIA's 1-petaflop consumer-PC superchip for running frontier-scale AI models locally on laptops and desktops; ships fall 2026
 - [[runway-dev]] — Runway's Jul 2026 developer API serving frontier video models + bundled third-party image and audio generators
