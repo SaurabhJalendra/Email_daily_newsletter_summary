@@ -373,6 +373,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[forward-deployed-engineer]] — customer-embedded software/ML engineer role owning AI-solution lifecycle; from Palantir → OpenAI + Anthropic + AWS ($1B org) + Microsoft (Jul 2026)
 - [[ghostcommit]] — PNG-hidden prompt-injection attack that hides instructions in PR-attached images and coerces coding agents to leak `.env` credentials (Jul 2026)
+- [[graph-engineering]] — Harnoor Singh's named discipline for building production-grade agents as networks (workers/routers/tools/verifiers); seven-stage roadmap; orchestration graphs (temporary) vs memory graphs (durable) binary; HydraDB/HydraBrain/Neo4j/GraphRAG substrate (Jul 2026)
 - [[humanoid-robotics]] — embodied-AI arms race: NVIDIA Isaac GR00T + OpenAI Robotics restart + Altman/Alfred + Amazon warehouse + Serve + China IPOs (Jun 2026)
 - [[j-space]] — Anthropic interpretability finding — emergent internal workspace inside Claude for silent reasoning + planning + multi-step reasoning; J-lens open-source tool + Content Seal watermarking pairing; "A Global Workspace in Language Models" paper (Jul 2026)
 - [[john-jumper]] — Google DeepMind VP and 2024 Nobel Chemistry laureate (AlphaFold co-creator); departs for Anthropic in June 2026

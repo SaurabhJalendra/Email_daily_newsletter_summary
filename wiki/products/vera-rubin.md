@@ -8,7 +8,7 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-11-20
-> **Last updated**: 2026-07-15-morning
+> **Last updated**: 2026-07-24-evening
 > **Status**: active
 > **Related**: [[nvidia]], [[groq]], [[jonathan-ross]], [[anthropic]], [[meta]], [[ai-hardware]]
 
@@ -18,6 +18,7 @@ Vera Rubin is [[nvidia]]'s next-generation AI chip/system architecture, succeedi
 
 ## Timeline
 
+- **2026-07-24-evening**: **Vera Rubin reconfirmed as canonical CPU+GPU platform for large-scale AI + scientific computing in NVIDIA-direct retrospective newsletter** — NVIDIA Developer Relations MEDIUM *"Your Personalized Developer News from NVIDIA"* frames Vera Rubin as *"CPU+GPU platform for large-scale AI and scientific computing... designed to converge high-performance computing (HPC) and AI, giving enterprises and research institutions a standardized way to deploy very large models and AI clusters"* + reconfirms the Groq 3 LPX multi-chip-supercomputer integration at *"racks of heterogeneous chips as one big supercomputer"* deployment-tier framing. First publicly framed on this cycle: (a) *HPC+AI convergence-canonical* positioning for Vera Rubin (extends the 2026-01 CES *"5× inference over Blackwell"* framing with an *HPC-plus-AI convergence* enterprise-adoption narrative); (b) *"standardized way to deploy very large models and AI clusters"* enterprise-canonical framing. Recap-tier signal — no new product announcement — *source: data/summaries/2026-07-24-evening.json (NVIDIA Developer Relations MEDIUM "Your Personalized Developer News from NVIDIA"; researchFindings.additionalContext — NVIDIA)*
 - **2026-07-15-morning**: **Vera Rubin generation integrates Groq inference technology via the LPX platform — ships summer 2026 with ~25% of GPU workloads target for Groq-style inference pairing**. The AI Corner HIGH ([[jonathan-ross]] narrated origin story): NVIDIA is incorporating Groq's technology into the new Vera Rubin GPU generation via the **LPX platform**, expected to ship this summer, with the stated ambition that roughly a quarter of GPU workloads will eventually be paired with Groq-style inference chips. Positions Vera Rubin as the *first NVIDIA GPU generation with a purpose-built inference-tier companion* (LPX = Groq-derived inference tech, likely rebranded LPU) — extends Vera Rubin from a *training-and-inference* generational upgrade into a *training-plus-companion-inference-chip* dual-substrate architecture — *source: data/summaries/2026-07-15-morning.json (The AI Corner HIGH — Jonathan Ross Turned a 3-Week Phone Call Into a $20 Billion NVIDIA Deal)*
 - **2026-04-16**: Vera Rubin GPUs deploy early inside [[meta]]'s $21B CoreWeave deal — *source: InstaByte "Snap cuts 1,000 jobs, blames AI"*
 - **2026-03-18**: GTC 2026 centers Vera Rubin as NVIDIA's production flagship; Space-1 Vera Rubin Module announced (data-center-class AI in orbit) and new Vera CPU launched alongside for agentic-AI workloads — *source: 2026-03-18 cycle (NVIDIA Newsletter; GTC keynote coverage)*
@@ -52,3 +53,4 @@ Vera Rubin is [[nvidia]]'s next-generation AI chip/system architecture, succeedi
 - data/summaries/2026-03-18.json (GTC 2026 — Vera Rubin + Space-1 Module; Vera CPU)
 - data/summaries/2026-04-16.json (InstaByte — CoreWeave deployment)
 - data/summaries/2026-07-15-morning.json (The AI Corner HIGH — LPX platform integration + summer 2026 ship + ~25% GPU workloads target)
+- data/summaries/2026-07-24-evening.json (NVIDIA Developer Relations MEDIUM — HPC+AI convergence canonical framing + Groq 3 LPX multi-chip supercomputer reconfirmation)
