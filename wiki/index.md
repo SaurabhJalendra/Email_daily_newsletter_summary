@@ -183,7 +183,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek-v4]] — DeepSeek's Apr 2026 frontier MoE family (V4-Pro + V4-Flash); open-sourced; triggers AI-pricing collapse *(stale)*
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
-- [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(stale)*
+- [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(superseded by [[flux-3]])*
+- [[flux-3]] — Black Forest Labs' Jul 2026 multimodal foundation model (image + video + audio + robotics); powers real-world factory robots at Audi
 - [[frozen-v2]] — Google's next-gen server chip embedding pieces of Gemini's model design into silicon; projected 6-10× more efficient than current TPUs; target ship as early as 2028 (Jul 2026)
 - [[frontiercode]] — Cognition's code-quality benchmark (corrected 2026-06-10 — initially framed as AINews/Latent Space); mergeability over unit-tests; Opus 4.8 13/100 score (Jun 2026)
 - [[function-gemma]] — Google 270M on-device function-calling model *(stale)*

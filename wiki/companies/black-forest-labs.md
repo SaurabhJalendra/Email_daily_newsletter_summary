@@ -8,16 +8,18 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-11-27
-> **Last updated**: 2025-11-27
-> **Status**: stale
-> **Related**: [[flux-2]], [[nano-banana-pro]], [[ai-video-generation]]
+> **Last updated**: 2026-07-25-morning (**Ships [[flux-3]] — multimodal (image + video + audio + robotics) foundation model, powering real-world factory robots at Audi.** Superhuman/AlphaSignal/FutureTools tri-newsletter cohort canonicalizes FLUX 3 as a unified multimodal-first substrate; graduates BFL from *image-generation lab* into *multimodal + physical-AI lab* — first publicly framed BFL production-factory-robotics deployment in this wiki. See [[flux-3]] + [[audex]] — *source: data/summaries/2026-07-25-morning.json*)
+> **Previously updated**: 2025-11-27
+> **Status**: active
+> **Related**: [[flux-2]], [[flux-3]], [[nano-banana-pro]], [[audex]], [[ai-video-generation]], [[world-models]]
 
 ## Summary
 
-Black Forest Labs is the German image-generation research lab behind the FLUX model family. It surfaced in late-November 2025 newsletter coverage with the [[flux-2]] release — focused on realism, text rendering, and character consistency for creative production — landing into the same competitive window as Google's [[nano-banana-pro]] and Anthropic's [[claude-opus-4-5]].
+Black Forest Labs is the German image-generation research lab behind the FLUX model family. It surfaced in late-November 2025 with the [[flux-2]] release (realism + text rendering + character consistency), and in July 2026 shipped [[flux-3]] — a unified multimodal foundation model that combines image, video, audio, and robotics control in a single system, with a production deployment inside Audi factory robots.
 
 ## Timeline
 
+- **2026-07-25-morning**: Ships [[flux-3]] — multimodal (image + video + audio + robotics) foundation model; "already powering real-world robots deployed at Audi" — *source: data/summaries/2026-07-25-morning.json (Superhuman MEDIUM; AlphaSignal MEDIUM; FutureTools MEDIUM)*
 - **2025-11-27**: Releases [[flux-2]] — better realism, text writing, character consistency for creative production — *source: 2025-11-27 cycle*
 
 ## Key Facts

@@ -9,8 +9,8 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-27
 > **Last updated**: 2026-01-17
-> **Status**: stale
-> **Related**: [[black-forest-labs]], [[nano-banana-pro]], [[ai-video-generation]], [[niji-7]], [[gpt-image-1-5]], [[qwen-image-2]], [[ideogram-4]]
+> **Status**: superseded by [[flux-3]] (Jul 2026 — multimodal image + video + audio + robotics unified model)
+> **Related**: [[black-forest-labs]], [[flux-3]], [[nano-banana-pro]], [[ai-video-generation]], [[niji-7]], [[gpt-image-1-5]], [[qwen-image-2]], [[ideogram-4]]
 
 ## Summary
 
