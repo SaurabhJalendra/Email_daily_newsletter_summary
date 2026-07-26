@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-02-04
 > **Last updated**: 2026-05-25
-> **Status**: active (macOS + Windows; phone via ChatGPT mobile app; on-prem via Dell)
+> **Status**: stale
 > **Related**: [[openai]], [[openai-codex]], [[gpt-5-2-codex]], [[gpt-5-3-codex]], [[chatgpt]], [[agent-frameworks]], [[claude-code]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2025-10-14
 > **Last updated**: 2026-05-26
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nanochat]], [[openai]], [[anthropic]], [[recursive-architectures]], [[recursive-superintelligence]], [[agent-frameworks]], [[vibe-coding]]
 
 ## Summary

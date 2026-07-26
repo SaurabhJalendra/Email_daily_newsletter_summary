@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-05-19
 > **Last updated**: 2026-05-22
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[openai-codex]], [[openai-deployco]], [[enterprise-ai]], [[ai-hardware]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-05-14
 > **Last updated**: 2026-05-19
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ineffable-intelligence]], [[reflection]], [[ai-funding-rounds]], [[andrej-karpathy]], [[anthropic]]
 
 ## Summary

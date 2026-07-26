@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-05-19
 > **Last updated**: 2026-05-23
-> **Status**: active
+> **Status**: stale
 > **Related**: [[cursor]], [[cursor-composer]], [[claude-opus-4-7]], [[gpt-5-5]], [[kimi-k2-6]], [[spacex]], [[agent-frameworks]]
 
 ## Summary

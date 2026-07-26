@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-03-28
 > **Last updated**: 2026-05-23
-> **Status**: active
+> **Status**: stale
 > **Related**: [[cohere-command-a-plus]], [[mistral]], [[elevenlabs]], [[deepseek-v4]], [[gemma-4]], [[kimi-k2-6]]
 
 ## Summary

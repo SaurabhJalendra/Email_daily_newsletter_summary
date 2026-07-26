@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-04-24
 > **Last updated**: 2026-04-26
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[openai-codex]], [[gpt-5-5]], [[agent-frameworks]], [[claude-managed-agents]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2026-05-18
 > **Last updated**: 2026-05-23
-> **Status**: active
+> **Status**: stale
 > **Related**: [[agent-frameworks]], [[fine-tuning]], [[andrej-karpathy]], [[recursive-superintelligence]], [[ineffable-intelligence]]
 
 ## Summary

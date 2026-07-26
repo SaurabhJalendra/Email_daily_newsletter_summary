@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-04-22
 > **Last updated**: 2026-04-27
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[moonshot-ai]], [[kimi-k2-thinking]], [[kimi-k2-5]], [[deepseek-v4]], [[claude-opus-4-7]], [[gpt-5-5]]
 
 ## Summary
