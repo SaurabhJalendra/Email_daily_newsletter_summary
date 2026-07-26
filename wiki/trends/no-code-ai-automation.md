@@ -8,9 +8,9 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2026-07-19-evening
-> **Last updated**: 2026-07-19-evening
+> **Last updated**: 2026-07-26-evening (**Cycle-2 — [[ai-automation-society]] Jul 19 weekly digest sharpens the *"Claude-as-monetization-substrate"* framing: Nate Herk's new video *"How I'd Make Money with Claude if my life depended on it"* frames Claude as the tier-1 revenue anchor for AIS members; concrete member wins — Aamir Mustafa's first $1K client from a video-generation tool + Muskan Ahlawat's Business Growth Automation build + Sk Hossain's #AISChallenge Firecrawl scraping deployment — validate the *"template → paid client"* monetization loop; [[claude-opus-5]] adoption already surfacing in AIS with *"outperforms Fable 5 at half the cost"* framing, positioning Opus 5 as the trend's new default LLM substrate. Reinforces the trend's *practitioner-tier community-education → business-workflow-automation revenue* pipeline.**)
 > **Status**: active
-> **Related**: [[ai-automation-society]], [[skool]], [[n8n]], [[claude-code]], [[agent-frameworks]], [[vibe-coding]]
+> **Related**: [[ai-automation-society]], [[skool]], [[n8n]], [[claude-code]], [[claude-opus-5]], [[agent-frameworks]], [[vibe-coding]]
 
 ## Summary
 
@@ -19,6 +19,8 @@ No-code AI automation is the practitioner-tier pattern of assembling AI-powered 
 The trend is structurally distinct from the developer-tier [[agent-frameworks]] and [[vibe-coding]] arcs: it targets business-workflow automation rather than software authoring, monetizes through service revenue and templates rather than IDE seats, and depends on community-tier education (weekly Q&As, cohorts, YouTube walkthroughs) rather than SDK documentation. Its lasting relevance to the wiki is as the *demand-side layer* that turns LLM-API pricing pressure and open-weight cost reductions into actual small-business adoption.
 
 ## Timeline
+
+- **2026-07-26-evening**: **Cycle-2 — AIS Jul 19 weekly digest sharpens *"Claude-as-monetization-substrate"* framing**. Nate Herk's *"How I'd Make Money with Claude if my life depended on it"* anchors Claude as the community's tier-1 revenue substrate; member wins (Aamir Mustafa $1K first client from a video-gen tool, Muskan Ahlawat Business Growth Automation build, Sk Hossain #AISChallenge Firecrawl scraping) validate the *template → paid client* monetization loop; [[claude-opus-5]] surfaces inside AIS with *"outperforms Fable 5 at half the cost"* framing — positions Opus 5 as the trend's new default LLM substrate (cost pressure that had made the trend LLM-agnostic now consolidates around the cheapest Opus-tier flagship) — *source: data/summaries/2026-07-26-evening.json (AI Automation Society (Skool) MEDIUM "Weekly digest for Sun, Jul 19 2026")*
 
 - **2026-07-19-evening**: **Created** — [[ai-automation-society]] (Nate Herk, 305K+ Skool members) weekly digest surfaces the cohort's canonical tool-mix (n8n + Claude Code + Hermes + Clay), member project types (lead gen, voice dictation, scraping, luxury-real-estate), and monetization framing ("$200K AI job that didn't exist last year"); paid Plus tier + weekly Q&As identified as retention primitives — *source: data/summaries/2026-07-19-evening.json (AI Automation Society (Skool) weekly digest + event invitation)*
 
