@@ -264,6 +264,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kimi-k3]] — Moonshot AI's leaked next-gen ~2.5T-parameter Kimi model; 1M context, long-horizon-agents-tuned, new "Kimi Linear" attention hybrid, projected ~8× cheaper than GPT-5.5; likely Apache 2.0 open-weight (Jul 2026, leak)
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
 - [[kimi-work]] — Moonshot AI's Windows/macOS desktop agent — local files + browser automation + multi-step web tasks; 24/7 automation tier alongside [[chatgpt-work]] and [[claude-cowork]] (Jul 2026)
+- [[kumorfm]] — Nvidia's tabular foundation model; models relational data as graphs of interconnected tables for zero-shot predictions across complex enterprise schemas (Jul 2026)
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
 - [[laguna-s]] — Poolside AI's open-weights foundation-model family; Laguna S 2.1 = 118B MoE / 8B active params / 1M context, cheaper than Deepseek v4 Flash; candidate for "strongest American open-weight model" (Jul 2026)
 - [[leanstral]] — Mistral's Jul 2026 open-source 119B-parameter theorem-proving + code-verification agent; 587/672 Putnam problems at "significantly lower cost"; verify proofs + test logic + catch errors before software ships (Jul 2026)
@@ -345,6 +346,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[spatialclaw]] — NVIDIA's spatial reasoning model for coding and robotics tasks (Jun 2026)
 - [[swe-1-7]] — Cognition's cheap near-frontier coding model built on China's Kimi K2.7 substrate; $1.97/task; RL-pipeline improvements + long-horizon-task techniques (Jul 2026)
 - [[tabfm]] — Google's zero-shot foundation model purpose-built for tabular data; enables spreadsheet analysis/summarization/transformation/quality checks without task-specific training (Jul 2026)
+- [[tabicl]] — Inria/SODA Team's open-source tabular foundation model; two-stage distribution-aware column embedding + row-wise attention; TabICL v2 SOTA on TabArena (Jul 2026)
+- [[tabpfn]] — Prior Labs' Nature-paper tabular foundation model; transformer trained on synthetic tabular tasks; outperforms XGBoost/AutoGluon on ≤10K-sample datasets with ~1000× speedup (Jul 2026)
 - [[tesla-megapod]] — Tesla's modular AI data center hardware system; self-contained compute pod bundling servers/networking/power/cooling; bid into AI-infrastructure-vendor market against NVIDIA DGX
 - [[tinker-api]] — Thinking Machines' LLM fine-tuning API *(stale)*
 - [[tml-interaction-small]] — Thinking Machines' 276B-A12B native real-time interaction model; 200ms audio/video/text micro-turns (May 2026) *(stale)*
@@ -390,6 +393,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[orbital-data-centers]] — space-based AI compute initiatives; SpaceX, Project Suncatcher, Cowboy Space Corp, Starcloud (May 2026)
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026) *(stale)*
 - [[software-factories]] — cross-vendor thesis (Warp Oz + Cursor FDE + Factory) that every major software project will soon run on an automated main-loop factory (triage → spec → implement → review → verify → ship → monitor) (Jul 2026)
+- [[tabular-foundation-models]] — new pretrained model class for structured/tabular data (spreadsheets, CSVs, DB tables); zero-shot in-context learning replaces per-dataset training; canonical cohort TabFM/TabPFN/KumoRFM/TabICL (Jul 2026)
 - [[project-glasswing]] — Anthropic-led cybersecurity coalition (AWS, Apple, Google, Microsoft, NVIDIA) using Claude Mythos Preview
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures *(stale)*
 - [[recursive-self-improvement]] — Anthropic's "Sparks of RSI" essay; 80% of Anthropic code Claude-authored, 8× engineer output, coordinated-pause ask (Jun 2026)
