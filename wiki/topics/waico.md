@@ -8,7 +8,8 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2026-07-18-morning (World AI Cooperation Organization formation context via [[ai-regulation]])
-> **Last updated**: 2026-07-23-morning
+> **Last updated**: 2026-07-27-evening (**Cycle-N reconfirmation via researchFindings.missingStories** — canonicalizes WAICO as *"international body headquartered in Shanghai"* with *"29 founding countries, including Pakistan, Russia, and Kazakhstan"* + reconfirms *Xi Jinping keynote emphasized global cooperation in AI development and governance*. researchFindings.missingStories: ***"At the World AI Conference in Shanghai, leaders announced the creation of WAICO, the World Artificial Intelligence Cooperation Organization, an international body headquartered in Shanghai. WAICO launched with 29 founding countries, including Pakistan, Russia, and Kazakhstan, alongside a keynote from Xi Jinping that emphasized global cooperation in AI development and governance"***. First publicly framed on this cycle: (a) *"headquartered in Shanghai"* explicit HQ-location confirmation (extends prior *"in Shanghai at WAIC"* framing into *institutional HQ-address*); (b) *researchFindings cross-cohort validation* — extends the 2026-07-23-morning God-of-Prompt canonical framing into a *neutral-web-search-validated tier* recoverage; (c) *"WAICO's formation adds a new axis in global AI governance that is not centered in the U.S. or EU, which could influence standards, data-sharing norms, and cross-border AI projects"* practitioner-framing on cross-border-AI-project implications for developers working with jurisdictions in the WAICO founding cohort. See [[ai-regulation]] (updated) + [[open-source-models]] (updated) — *source: data/summaries/2026-07-27-evening.json (researchFindings.missingStories — WAICO launched as new international AI governance body at World AI Conference)*)
+> **Previously updated**: 2026-07-23-morning
 > **Status**: active
 > **Related**: [[ai-regulation]], [[open-source-models]], [[google]], [[anthropic]], [[nvidia]]
 
@@ -45,3 +46,4 @@ Xi Jinping's WAIC opening keynote framed WAICO as promoting *"a people-centered 
 
 - data/summaries/2026-07-23-morning.json (God of Prompt HIGH "🔑 The world just got its first AI Governor"; daily-digest Industry News)
 - data/summaries/2026-07-18-morning.json (via [[ai-regulation]] — World AI Cooperation Organization forms with 29 founding member countries)
+- data/summaries/2026-07-27-evening.json (researchFindings.missingStories — WAICO launched as new international AI governance body at World AI Conference / headquartered in Shanghai / 29 founding countries including Pakistan Russia Kazakhstan / Xi Jinping keynote emphasized global cooperation in AI development and governance)
