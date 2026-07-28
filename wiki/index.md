@@ -85,6 +85,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[reflection]] — NVIDIA-backed US open-source lab founded by ex-Google DeepMind researchers; $6.3B SpaceX Colossus 2 / GB300 compute deal (Jun 2026)
 - [[replit]] — browser IDE; non-coder pivot *(stale)*
 - [[runway]] — AI video; Gen-4.5 tops Veo 3 and Sora; ships [[runway-dev]] developer-API Jul 2026
+- [[safe-superintelligence]] — Ilya Sutskever's frontier lab; Nvidia $5B partnership + Vera Rubin access + 10× compute uplift + co-develops future AI hardware (Jul 2026)
 - [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[sambanova]] — AI-computing-solutions vendor for data centers; $1B Series F at $11B valuation Jul 2026
@@ -272,6 +273,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026) *(stale)*
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark *(stale)*
 - [[lyria-3]] — Google's music-generation model in Gemini; 30-sec tracks, 8 languages, SynthID *(stale)*
+- [[mai-cyber-1-flash]] — Microsoft's Jul 2026 cost-optimized AI cybersecurity model; 96% CyberGym paired with GPT-5.4; half the cost of previous MAI cyber system; integrated into Microsoft MDASH agent system
 - [[mai-thinking-1]] — Microsoft's first internally-built reasoning + Codex-competitor model family (MAI-Thinking-1 35B-active + MAI-Code-1-Flash 5B); Build 2026 (Jun 2026)
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video *(stale)*
 - [[medgemma]] — Google open medical-imaging model family (Jan 2026) *(stale)*
@@ -390,6 +392,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
 - [[model-routers]] — the "missing middleware" for scaling AI apps — heuristic + learned + cascade + ensemble/fusion architectures; OpenRouter Fusion Router + Not Diamond + NadirClaw + ACRouter reference implementations (Jul 2026, AlphaSignal essay)
 - [[omar-yaghi]] — Nobel-laureate chemist (reticular chemistry / MOFs); departs UC Berkeley to lead Tsinghua University's new AI for Chemistry and Materials Science Research Center in Beijing (announced Jul 4 2026)
+- [[open-secure-ai-alliance]] — Nvidia-led cross-vendor AI-safety coalition launched Jul 2026 after Sol/HF breach; 30+ orgs including Microsoft/HF/IBM/Cloudflare/Cisco/Red Hat/Salesforce/SAP; OpenAI + Google + Anthropic notably absent
 - [[orbital-data-centers]] — space-based AI compute initiatives; SpaceX, Project Suncatcher, Cowboy Space Corp, Starcloud (May 2026)
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026) *(stale)*
 - [[software-factories]] — cross-vendor thesis (Warp Oz + Cursor FDE + Factory) that every major software project will soon run on an automated main-loop factory (triage → spec → implement → review → verify → ship → monitor) (Jul 2026)
