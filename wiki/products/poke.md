@@ -8,9 +8,10 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-06-05
-> **Last updated**: 2026-06-05
-> **Status**: launched
-> **Related**: [[apple]], [[chatgpt]], [[agent-frameworks]]
+> **Last updated**: 2026-07-29-morning (**The Interaction Company (Poke's maker) acquired by [[cognition]] — Poke handled over 100M messages in 3 months + plans to move Poke's personality into Devin**. Vaibhav Sisinty MEDIUM: ***"Devin's maker, Cognition, acquired The Interaction Company, whose assistant Poke runs inside SMS and handled over 100 million messages in three months, with plans to move Poke's personality into Devin"***. First publicly framed on this cycle: (a) *Cognition-acquires-The-Interaction-Company* — first publicly framed *Poke ownership-change* in this wiki (previously implicit third-party status); (b) *100M-messages-in-3-months scale-anchor* — first publicly framed *concrete-scale-anchor* on Poke's SMS-assistant traffic; (c) *"personality-transfer-into-Devin"* product-motion — first publicly framed *Poke-personality-tier absorbed into Devin coding-agent* framing. See [[cognition]] (updated) — *source: data/summaries/2026-07-29-morning.json (Vaibhav Sisinty MEDIUM "opus vs me")*)
+> **Previously updated**: 2026-06-05
+> **Status**: acquired by [[cognition]] (Jul 2026)
+> **Related**: [[apple]], [[chatgpt]], [[cognition]], [[devin-fusion]], [[agent-frameworks]]
 
 ## Summary
 
