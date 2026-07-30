@@ -40,6 +40,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[extropic]] — TSU thermodynamic-sampling chip; ~10,000× energy-efficiency claim *(stale)*
 - [[figure]] — humanoid robots; Figure 03; sued by former product-safety head Nov 2025 *(stale)*
 - [[fireworks]] — NVIDIA-backed AI inference-and-fine-tuning startup at $17.5B valuation; positioned as cheap alternative for hosting open-source frontier models (Jul 2026)
+- [[fish-audio]] — Voice-AI company; ships S2.1 Pro (Jul 2026) real-time voice-cloning across 83 languages; positioned against ElevenLabs on cost
 - [[friendliai]] — "Frontier Inference Cloud for agents" serving frontier open-weight models; powers [[claude-code]] + [[cursor]] + Kilo Code + Hermes Agents + [[ollama]] (Jul 2026)
 - [[general-intuition-ai]] — Neo Lab building Large Action Models (LAMs) and world models that perceive/predict/act across virtual and physical spaces (Jun 2026)
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
@@ -329,6 +330,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[poke]] — first third-party AI agent approved for Apple Messages for Business / iMessage (Jun 2026)
 - [[qwen-robot-suite]] — Alibaba's open-source trio of robotics AI models for humanoids/robotic arms/quadrupeds (Jun 2026)
 - [[project-genie]] — Google DeepMind's interactive 3D-world generator powered by Genie 3 model *(stale)*
+- [[project-panama]] — Anthropic initiative to digitize "all the books in the world" for AI training; surged demand for pre-2022 printed books (Jul 2026)
 - [[project-perception]] — Microsoft's forthcoming multi-model AI security tool framed as competitive undercut of Anthropic's Claude Mythos-tier cybersecurity positioning (Jul 2026)
 - [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO *(stale)*
 - [[qwen-3-5]] — Alibaba's Feb 2026 vision-language MoE family; 397B-A17B Max, Medium MoE, Small tiny-model tier *(stale)*
