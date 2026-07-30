@@ -269,12 +269,14 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kumorfm]] — Nvidia's tabular foundation model; models relational data as graphs of interconnected tables for zero-shot predictions across complex enterprise schemas (Jul 2026)
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
 - [[laguna-s]] — Poolside AI's open-weights foundation-model family; Laguna S 2.1 = 118B MoE / 8B active params / 1M context, cheaper than Deepseek v4 Flash; candidate for "strongest American open-weight model" (Jul 2026)
+- [[lamem-vla]] — dual-latent-memory-vault vision-language-action model; SOTA on long-horizon manipulation (97.6% LIBERO / 73.9% SimplerEnv-Bridge, +16.6pt over CogACT) (Jul 2026)
 - [[leanstral]] — Mistral's Jul 2026 open-source 119B-parameter theorem-proving + code-verification agent; 587/672 Putnam problems at "significantly lower cost"; verify proofs + test logic + catch errors before software ships (Jul 2026)
 - [[ling-3-0-flash]] — Ant Group's efficient AI-agent-powering model that "rivals systems 2-3× its size"; workload-optimized "Flash" SKU in the version-3 Ling line (Jul 2026)
 - [[longcat-2]] — Meituan's Jul 2026 open-source 1.6-trillion-parameter model — first publicly framed Meituan-frontier-AI-lab entrant; one of the largest publicly disclosed open-source parameter counts
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026) *(stale)*
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark *(stale)*
 - [[lyria-3]] — Google's music-generation model in Gemini; 30-sec tracks, 8 languages, SynthID *(stale)*
+- [[lyria-3-5]] — Google's Lyria 3.5 music-generation upgrade — more human-sounding vocals + control (Jul 2026)
 - [[mai-cyber-1-flash]] — Microsoft's Jul 2026 cost-optimized AI cybersecurity model; 96% CyberGym paired with GPT-5.4; half the cost of previous MAI cyber system; integrated into Microsoft MDASH agent system
 - [[mai-thinking-1]] — Microsoft's first internally-built reasoning + Codex-competitor model family (MAI-Thinking-1 35B-active + MAI-Code-1-Flash 5B); Build 2026 (Jun 2026)
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video *(stale)*
@@ -293,6 +295,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-deployco]] — OpenAI's $4B enterprise-deployment subsidiary at $10B (May 2026)
 - [[openai-guaranteed-capacity]] — OpenAI's enterprise compute-reservation program; 1-3 year commitments (May 2026) *(stale)*
 - [[qwen-3-7-max]] — Alibaba's flagship Qwen 3.7; 35h continuous autonomous reasoning, 1M context (May 2026)
+- [[raft]] — Botiverse's multi-agent collaboration platform (Raft 1.0); turns ChatGPT into coordinated teams of persistent specialized agents in shared workspaces; BYO-model + per-agent-seat billing (Jul 2026)
 - [[robostral-navigate]] — Mistral's Jul 2026 first robotics-tier model for factories/warehouses/industrial automation; cross-supplier hardware portability
 - [[ministral-3]] — Mistral dense small-model line (3B/8B) for on-device inference *(stale)*
 - [[mistral-3]] — Mistral's open-weight lineup; flagship Large 3 (41B active / 675B total MoE) *(stale)*
@@ -395,6 +398,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
 - [[model-routers]] — the "missing middleware" for scaling AI apps — heuristic + learned + cascade + ensemble/fusion architectures; OpenRouter Fusion Router + Not Diamond + NadirClaw + ACRouter reference implementations (Jul 2026, AlphaSignal essay)
 - [[omar-yaghi]] — Nobel-laureate chemist (reticular chemistry / MOFs); departs UC Berkeley to lead Tsinghua University's new AI for Chemistry and Materials Science Research Center in Beijing (announced Jul 4 2026)
+- [[ontologies-for-agents]] — Semantic-Web ontology revival as deterministic guardrails for probabilistic agents; Neo4j "smarter shared substrate" + OpenLink Software "agent engineering stack"; Frank Coyle + Emil Eifrem + Kingsley Idehen (Jul 2026)
 - [[open-secure-ai-alliance]] — Nvidia-led cross-vendor AI-safety coalition launched Jul 2026 after Sol/HF breach; 30+ orgs including Microsoft/HF/IBM/Cloudflare/Cisco/Red Hat/Salesforce/SAP; OpenAI + Google + Anthropic notably absent
 - [[orbital-data-centers]] — space-based AI compute initiatives; SpaceX, Project Suncatcher, Cowboy Space Corp, Starcloud (May 2026)
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026) *(stale)*
