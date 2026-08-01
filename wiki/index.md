@@ -276,6 +276,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[leanstral]] — Mistral's Jul 2026 open-source 119B-parameter theorem-proving + code-verification agent; 587/672 Putnam problems at "significantly lower cost"; verify proofs + test logic + catch errors before software ships (Jul 2026)
 - [[ling-3-0-flash]] — Ant Group's efficient AI-agent-powering model that "rivals systems 2-3× its size"; workload-optimized "Flash" SKU in the version-3 Ling line (Jul 2026)
 - [[longcat-2]] — Meituan's Jul 2026 open-source 1.6-trillion-parameter model — first publicly framed Meituan-frontier-AI-lab entrant; one of the largest publicly disclosed open-source parameter counts
+- [[longcat-avatar]] — Meituan's Aug 2026 open-source 13.6B photo+audio-to-talking-video model; long-form stability + lip sync; extends Meituan open-weights arc from LLM-tier into multimodal-video-generation-tier
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026) *(stale)*
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark *(stale)*
 - [[lyria-3]] — Google's music-generation model in Gemini; 30-sec tracks, 8 languages, SynthID *(stale)*
