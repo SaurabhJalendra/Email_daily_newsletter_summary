@@ -1,0 +1,57 @@
+---
+name: AI Supply-Chain Attacks
+description: Supply-chain attacks targeting developer package ecosystems (npm, PyPI, Packagist, marketplaces) as vectors into AI-toolchain compromise — DPRK campaigns, malicious open-source packages, and Dependabot / registry-tier defensive responses
+type: topic
+---
+
+# AI Supply-Chain Attacks
+
+> **Type**: topic
+> **First mentioned**: 2026-05-14
+> **Last updated**: 2026-08-01-evening (Created — Hello, World! MEDIUM ***"Github cools down and North Korea's hacking spree!"***: *"North Korean threat actors have been linked to the compromises of Axios, Chalk, Debug, and typo-crypto, suggesting a coordinated software supply chain campaign using social engineering to inject malware into widely used open-source packages"* + *"Github's Dependabot now waits three days before opening version update pull requests, giving maintainers and security researchers time to detect malicious package releases, reducing supply chain risk without delaying critical patches"*. First publicly framed on this cycle: (a) *four-package DPRK campaign naming (Axios + Chalk + Debug + typo-crypto)* — extends the [[ai-cybersecurity-arms-race]] arc from prior single-ecosystem DPRK compromise (Mini Shai-Hulud npm 2026-05-14 / Glassworm GitHub 2026-05-29 / JetBrains Marketplace 2026-06-20 / PolinRider Packagist 2026-07-04) into a *widely-used-open-source-package cohort target-list* where Axios (HTTP client, 100M+ weekly downloads) + Chalk (terminal-styling, 300M+ weekly) + Debug (250M+ weekly) are *foundational npm dependencies* buried transitively inside almost every JavaScript project — including AI-toolchain packages; (b) *social-engineering-first* attack-vector framing — sharpens the DPRK-tier compromise pattern from *credential-theft* (JetBrains AI-API-key theft) into *maintainer-persuasion-tier* attacks that inject malware through legitimate publish channels; (c) *Dependabot 3-day-delay registry-tier defensive response* — first publicly framed *registry-side hold-and-observe defensive pattern* on the developer-toolchain-supply-chain attack cohort; productizes *time-to-detection as first-class safety-primitive* at the package-registry layer without delaying critical patches. Structurally significant three ways: (i) **Foundational-package DPRK targeting extends the AI-supply-chain blast-radius to almost every JS project** — Axios/Chalk/Debug sit transitively inside AI SDKs, agent frameworks, dashboards, and dev tools; a compromise of any one reaches deep into the AI-tooling ecosystem downstream; (ii) **Registry-tier defensive response productizes hold-and-observe** — Dependabot's 3-day-delay pattern gives maintainers + security researchers a detection window before automated dependency-update PRs propagate a malicious release; likely to be copied by Renovate + other dependency-update automation vendors; (iii) **DPRK-tier attacker canonicalization as durable supply-chain-attack cohort** — Mini Shai-Hulud → Glassworm → JetBrains → PolinRider → Axios/Chalk/Debug/typo-crypto forms a 6-cycle multi-ecosystem DPRK campaign arc, structurally validating the *state-actor + developer-toolchain + AI-tools-as-eventual-target* threat-model. See [[ai-cybersecurity-arms-race]] + [[claude-code]] + [[prompt-injection]] — *source: data/summaries/2026-08-01-evening.json (Hello, World! MEDIUM "Github cools down and North Korea's hacking spree!")*)
+> **Status**: active
+> **Related**: [[ai-cybersecurity-arms-race]], [[claude-code]], [[prompt-injection]], [[ghostcommit]], [[akrites]], [[open-secure-ai-alliance]]
+
+## Summary
+
+AI supply-chain attacks target the developer-package ecosystems (npm, PyPI, Packagist, IDE marketplaces) that underpin AI toolchains. Since May 2026, coverage has centered on **DPRK-affiliated campaigns** (Mini Shai-Hulud, Glassworm, JetBrains Marketplace, PolinRider Packagist) that compromise open-source packages to reach downstream developers and AI-tool users. The August 2026 Axios / Chalk / Debug / typo-crypto npm compromises escalate the target profile from *opportunistic packages* into *foundational dependencies used by virtually every JavaScript project* — including AI SDKs and agent frameworks — dramatically expanding blast radius. Defensive responses have emerged at the **registry tier** (Github Dependabot's 3-day hold-and-observe delay on version-update PRs) and at the **coalition tier** ([[akrites]] Linux Foundation + tech-giants initiative). The attack surface is structurally distinct from [[prompt-injection]] (input-tier attacks on running models) and from AI-generated-exploit-code arcs ([[ai-cybersecurity-arms-race]]): it targets the *developer clone-and-run workflow* before the AI system is ever invoked.
+
+## Timeline
+
+- **2026-08-01-evening**: **Created — DPRK-linked compromise of Axios + Chalk + Debug + typo-crypto npm packages + Github Dependabot 3-day-delay registry-tier defensive response**. Hello, World! MEDIUM ***"Github cools down and North Korea's hacking spree!"***: *"North Korean threat actors have been linked to the compromises of Axios, Chalk, Debug, and typo-crypto, suggesting a coordinated software supply chain campaign using social engineering to inject malware into widely used open-source packages"* + *"Github's Dependabot now waits three days before opening version update pull requests, giving maintainers and security researchers time to detect malicious package releases, reducing supply chain risk without delaying critical patches"*. Foundational npm packages targeted (Axios 100M+ weekly / Chalk 300M+ weekly / Debug 250M+ weekly) expand DPRK-campaign blast-radius transitively into virtually every AI SDK, agent framework, dashboard, and dev tool built on npm. Dependabot's 3-day hold-and-observe delay productizes *time-to-detection at the registry layer* as first-class defensive primitive. See [[ai-cybersecurity-arms-race]] — *source: data/summaries/2026-08-01-evening.json (Hello, World! MEDIUM "Github cools down and North Korea's hacking spree!")*
+
+- **2026-07-04-evening**: **PolinRider DPRK malware campaign expands into Packagist / PHP ecosystem** — extends language-ecosystem-supply-chain-attack surface from prior npm/GitHub/JetBrains-Marketplace patterns; first publicly framed *cross-ecosystem persistence* signal on a single DPRK campaign — *source: data/summaries/2026-07-04-evening.json (Hello, World! MEDIUM "Kim Jong Un hacks npm and Apple planning major changes to iphone design!")*
+
+- **2026-07-11-evening**: **npm + PyPI dual-ecosystem payment-SDK supply-chain worm** — coordinated compromise targeting *fake payment SDKs* (highest-value target — payment credentials + CI/CD secrets); [[akrites]] Linux Foundation + tech-giants defensive coalition launches same cycle — *source: data/summaries/2026-07-11-evening.json (Hello, World! MEDIUM "Accenture Hacked and a Bug Impacting left hand users!")*
+
+- **2026-06-20-evening**: **JetBrains Marketplace compromised extension targeting AI-API keys** — DPRK-tier attacker expands into IDE-marketplace ecosystem — *source: 2026-06-20-evening cycle*
+
+- **2026-05-29**: **Glassworm GitHub botnet — 300+ compromised repositories** — DPRK-tier campaign extends to GitHub-side supply-chain compromise — *source: 2026-05-29 cycle*
+
+- **2026-05-14**: **Mini Shai-Hulud worm — 84 TanStack npm packages compromised, reaching two OpenAI-employee devices** — first publicly framed *AI-employee-tier developer-toolchain compromise* — *source: 2026-05-14 cycle*
+
+## Key Facts
+
+- Ecosystems targeted (through 2026-08): npm, PyPI, Packagist, JetBrains Marketplace, GitHub
+- Attacker cohort: DPRK-affiliated state-linked hacking units (per Anthropic 2026-06-22 letter-to-Congress + Sysdig JADEPUFFER research)
+- Attack vectors: package compromise (malicious releases), maintainer social engineering, marketplace-extension injection, deceptive setup-instructions (with [[claude-code]] indirect-prompt-injection)
+- Defensive responses: Github Dependabot 3-day hold-and-observe (Aug 2026), [[akrites]] Linux Foundation coalition (Jul 2026), Sysdig runtime-detection (containers)
+- Downstream AI-tooling impact: Axios/Chalk/Debug sit transitively in nearly every JS-based AI SDK, agent framework, dashboard
+
+## Open Questions
+
+- Specific Axios / Chalk / Debug / typo-crypto compromise dates + affected version ranges + attribution methodology
+- Total downstream downloads affected across the four packages in the DPRK campaign window
+- Whether Dependabot's 3-day-delay applies to critical CVE-scored security patches or only to routine version-updates
+- Renovate / other dependency-update automation vendor response
+- Whether package registries will adopt AI-based malicious-release detection (npm audit + AI-model classifier)
+- Extent of DPRK-attacker cross-ecosystem tooling reuse (single infrastructure? multiple teams?)
+
+## Sources
+
+- data/summaries/2026-05-14.json (Mini Shai-Hulud npm worm reaching OpenAI-employee devices)
+- data/summaries/2026-05-29.json (Glassworm GitHub botnet 300+ repos)
+- data/summaries/2026-06-20-evening.json (JetBrains Marketplace AI-API-key theft)
+- data/summaries/2026-07-04-evening.json (Hello, World! MEDIUM — PolinRider Packagist / PHP DPRK expansion + Claude Code indirect-prompt-injection)
+- data/summaries/2026-07-11-evening.json (Hello, World! MEDIUM — npm + PyPI payment-SDK worm + Akrites coalition)
+- data/summaries/2026-08-01-evening.json (Hello, World! MEDIUM "Github cools down and North Korea's hacking spree!" — Axios/Chalk/Debug/typo-crypto DPRK campaign + Github Dependabot 3-day-delay)

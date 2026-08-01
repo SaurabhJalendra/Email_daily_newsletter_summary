@@ -291,6 +291,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[microsoft-scout]] — Microsoft's always-on Scout agent tab inside the Microsoft Super App framing; Build 2026 (Jun 2026)
 - [[midjourney-scan]] — Midjourney's first hardware: full-body ultrasonic CT scanner; "first new whole-body medical imaging modality in 50 years" per Holz; Midjourney Spa SF deployment (Jun 2026)
 - [[mimo-code]] — Xiaomi's coding-specialized model; three-cycle cross-newsletter convergence (TLDR AI → Hello World "Claude vs Mimo" → NLP Newsletter AI Agents Weekly digest, Jun 2026)
+- [[minimax-h3]] — MiniMax's Jul 2026 next-generation multimodal video model — native 30-second + consistent three-minute videos + interactive frame editing + up to 50 multimodal references
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
@@ -386,6 +387,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-memory]] — persistent context across sessions; Claude Memory, ChatGPT→Claude migration, GPT-5.4 Stateful AI *(stale)*
 - [[ai-military]] — frontier-lab AI inside DoW/Pentagon systems; Pentagon-Anthropic ultimatum, xAI switch-out, OpenAI contract revision *(stale)*
 - [[ai-music-generation]] — generative music models; Google Lyria 3 in Gemini *(stale)*
+- [[ai-supply-chain-attacks]] — DPRK-linked npm/PyPI/Packagist/marketplace package compromises + registry-tier defensive responses (Github Dependabot 3-day hold-and-observe); foundational-dependency targeting reaches AI-toolchain transitively (Aug 2026 creation, covers 2026-05 → 2026-08 arc)
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad *(stale)*
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
 - [[computer-use]] — models that drive GUIs directly *(stale)*
