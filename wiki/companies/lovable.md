@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-12-23
 > **Last updated**: 2026-05-30
-> **Status**: active
+> **Status**: stale
 > **Related**: [[vibe-coding]], [[claude-code]], [[cursor]], [[ai-funding-rounds]], [[agent-frameworks]]
 
 ## Summary

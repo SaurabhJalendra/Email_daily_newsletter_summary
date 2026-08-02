@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-05-19
 > **Last updated**: 2026-05-31
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[gemini]], [[gemini-3-5-flash]], [[antigravity-2]], [[claude-managed-agents]], [[openai-workspace-agents]], [[agent-frameworks]]
 
 ## Summary

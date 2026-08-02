@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-04-23
 > **Last updated**: 2026-04-24
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[gpt-image-1-5]], [[nano-banana-pro]], [[ai-video-generation]]
 
 ## Summary

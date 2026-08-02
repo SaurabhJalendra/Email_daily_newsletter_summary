@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-05-21
 > **Last updated**: 2026-05-28
-> **Status**: active
+> **Status**: stale
 > **Related**: [[alibaba]], [[qwen-3-5]], [[claude-opus-4-7]], [[gpt-5-5]], [[gemini-3-5-flash]], [[agent-frameworks]]
 
 ## Summary

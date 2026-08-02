@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-10
 > **Last updated**: 2026-05-28
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-hardware]], [[ai-regulation]]
 
 ## Summary

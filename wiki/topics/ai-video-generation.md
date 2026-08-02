@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2025-10-01
-> **Last updated**: 2026-02-19
+> **Last updated**: 2026-08-01-evening (Meituan LongCat-Avatar + MiniMax H3 3-minute-consistent-video cross-refs added during 2026-W31 LINT to resolve [[longcat-avatar]] orphan)
 > **Status**: stale
-> **Related**: [[sora-2]], [[veo-3]], [[seedance-2]], [[marble]], [[world-models]], [[openai]], [[google]], [[bytedance]], [[world-labs]], [[ai-regulation]], [[ai-copyright]], [[luma]], [[ltx-2]], [[runway]], [[runway-gen-4-5]], [[kling-ai]]
+> **Related**: [[sora-2]], [[veo-3]], [[seedance-2]], [[minimax-h3]], [[longcat-avatar]], [[marble]], [[world-models]], [[openai]], [[google]], [[bytedance]], [[world-labs]], [[minimax]], [[ai-regulation]], [[ai-copyright]], [[luma]], [[ltx-2]], [[runway]], [[runway-gen-4-5]], [[kling-ai]]
 
 ## Summary
 
@@ -18,6 +18,8 @@ AI video generation in October 2025 was dominated initially by [[sora-2]] — [[
 
 ## Timeline
 
+- **2026-08-01-evening**: **[[minimax]] [[minimax-h3]]** launches with **native 30-sec + consistent 3-min video + interactive frame editing + up to 50 multimodal references** — first *3-minute consistent-video tier* on any AI-video model in this wiki, materially longer than mid-2026 sub-minute frontier; twin Chinese-open-lab video-cycle with same-day [[seedance-2]] 2.5 recoverage — *source: data/summaries/2026-08-01-evening.json (AINews Multimodal Product Launches)*
+- **2026-08-01-morning**: **Meituan open-sources [[longcat-avatar]]** — 13.6B photo+audio-to-talking-video model with long-form stability + lip sync; extends Meituan open-weights arc from LLM-tier ([[longcat-2]]) into multimodal-video-generation-tier — *source: data/summaries/2026-08-01-morning.json*
 - **2026-02-19**: [[disney]] threatens legal action against [[bytedance]] over [[seedance-2]] — first major Western IP friction for the model — *source: 2026-02-19 cycle*
 - **2026-02-17**: [[seedance-2]] family (Seed 2.0) extended — coherent storyline, realistic voice-overs, complex character actions — *source: 2026-02-17 cycle*
 - **2026-02-14**: [[seedance-2]] "anchor" system enables sophisticated multi-shot consistency — *source: 2026-02-14 cycle*

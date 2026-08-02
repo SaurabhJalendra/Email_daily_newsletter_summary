@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-05-21
 > **Last updated**: 2026-05-23
-> **Status**: active
+> **Status**: stale
 > **Related**: [[cohere]], [[deepseek-v4]], [[gemma-4]], [[kimi-k2-6]], [[mistral-3]], [[agent-frameworks]]
 
 ## Summary

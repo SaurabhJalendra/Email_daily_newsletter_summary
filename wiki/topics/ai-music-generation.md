@@ -8,9 +8,9 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2026-02-20
-> **Last updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
+> **Last updated**: 2026-07-30-evening (Lyria 3.5 cross-ref added during 2026-W31 LINT to resolve [[lyria-3-5]] orphan)
 > **Status**: stale
-> **Related**: [[lyria-3]], [[google]], [[gemini]], [[ai-copyright]]
+> **Related**: [[lyria-3]], [[lyria-3-5]], [[suno]], [[google]], [[gemini]], [[ai-copyright]]
 
 ## Summary
 
@@ -18,6 +18,7 @@ AI music generation entered the main Gemini surface in late February 2026 when [
 
 ## Timeline
 
+- **2026-07-30-evening**: [[google]] ships [[lyria-3-5]] music-generation upgrade — more human-sounding vocals + control; ~5-month cadence after Lyria 3 Pro; sustains AI-music-generation category cadence in same edition as Sol-autonomous-GPU-optimization + Gemini Robotics 2 launch — *source: data/summaries/2026-07-30-evening.json (The Rundown AI MEDIUM)*
 - **2026-02-20**: [[google]] integrates [[lyria-3]] into Gemini — 30-sec tracks from text or images; 8 languages; SynthID watermarking — *source: 2026-02-20 cycle*
 
 ## Key Facts

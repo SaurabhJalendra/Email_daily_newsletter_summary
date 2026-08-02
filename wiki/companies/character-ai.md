@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2025-10-30
 > **Last updated**: 2026-06-01
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-mental-health-safety]], [[ai-regulation]]
 
 ## Summary
