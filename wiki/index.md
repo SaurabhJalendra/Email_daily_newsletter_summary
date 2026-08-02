@@ -44,6 +44,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[friendliai]] — "Frontier Inference Cloud for agents" serving frontier open-weight models; powers [[claude-code]] + [[cursor]] + Kilo Code + Hermes Agents + [[ollama]] (Jul 2026)
 - [[general-intuition-ai]] — Neo Lab building Large Action Models (LAMs) and world models that perceive/predict/act across virtual and physical spaces (Jun 2026)
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
+- [[greptile]] — Y Combinator–backed AI code review platform; full-codebase graph index + swarm of specialized AI reviewers; ships [[trex]] runtime-validation extension (Aug 2026)
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
 - [[helsing]] — German defense-AI startup; military autonomy software; $1.8B at $18B valuation Jul 2026 — Europe's biggest defense-tech round ever
