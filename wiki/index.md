@@ -5,7 +5,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 ## Companies
 - [[adobe]] — creative-software giant; Firefly AI Assistant across 6 apps
 - [[ai2]] — Allen Institute for AI nonprofit; PreScience open scientific-forecasting benchmark + LACERScore Feb 2026 *(stale)*
-- [[ai-automation-society]] — Nate Herk's Skool-hosted AI-automation community (~305K–420K members); no-code AI + n8n education with paid "Plus" tier for weekly Q&As (Jul 2026)
+- [[ai-automation-society]] — Nate Herk's Skool-hosted AI-automation community (100K+ own-reported / ~305K–420K third-party members, 2K+ paying Plus); n8n + Claude Code education; first hackathon launched Aug 1 2026 with $6K prizes + beginner track (Aug 2026)
 - [[alfred-robotics]] — stealth robotics-software startup at $40M valuation; Sam Altman invests via Hydrazine Capital alongside Khosla Ventures + SV Angel (Jun 2026)
 - [[ai21-labs]] — Israeli foundation-model lab; Jamba family; NVIDIA reported $3B acquisition talks Jan 2026 *(stale)*
 - [[alibaba]] — Qwen model family; Qwen3-Max-Thinking 100% AIME 2025; Quark S1 Smart Specs; 14.2% China open-AI share *(stale)*
@@ -92,7 +92,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[sambanova]] — AI-computing-solutions vendor for data centers; $1B Series F at $11B valuation Jul 2026
 - [[simile]] — AI market-research startup; $200M @ $2B valuation; enables companies to survey "agentic twins" of real consumers for synthetic-consumer insights (Jul 2026)
-- [[skool]] — community/course-hosting platform; default surface for AI-education communities like [[ai-automation-society]] (Jul 2026)
+- [[skool]] — community/course-hosting platform; default surface for AI-education communities like [[ai-automation-society]]; discovery/distribution #1 focus (1M+ daily searches) + platform-level AI moderation + Link.skool.com URL-shortener/tracking layer (Aug 2026)
 - [[slack]] — Salesforce-owned enterprise collaboration; Slack AI + RTS API + MCP server for third-party agents; anchor surface for [[claude-tag]] (Jun 2026)
 - [[softbank]] — Japanese investment group; OpenAI's largest single capital backer (Vision Fund + Stargate JV + ~11% stake); 2026-06-28 strategic-partnership announcement for AI infrastructure + telecom/enterprise deployment with [[openai]]
 - [[spacex]] — Musk's space company; xAI parent; S-1 filed at $1.7T (SPCX); orbital DCs + Anthropic Colossus 1 lease
