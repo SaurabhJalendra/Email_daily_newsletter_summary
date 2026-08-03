@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: Tencent (Hunyuan)
 > **First mentioned**: 2026-07-07-evening
-> **Last updated**: 2026-07-07-evening
+> **Last updated**: 2026-08-03-morning (**Interconnects HIGH #23 (Nathan Lambert) Sunday-essay recoverage — *"Hy3, a 295B-A21B MoE from Tencent, improves over its predecessor across all metrics"* + places Hy3 in the mid-2026 five-lab Pareto-frontier open-weights cohort alongside [[kimi-k3]] + [[inkling]] + [[laguna-s]] + [[deepseek-v4]] V4-Flash-0731**. First publicly framed on this cycle: *"improves over its predecessor across all metrics"* explicit-versioned-improvement anchor — sharpens the 2026-07-07-evening release-cycle framing with a *cross-generation-improvement anchor* validated by Nathan Lambert's canonical Sunday-essay (implies Hy3 is generation-3 in Tencent's Hy-series lineage with concrete-generational-progression). Structurally significant: **Interconnects tier canonical validation** graduates Hy3 from *cycle-1 release-cohort* into *canonical-Pareto-frontier-cohort validation* alongside four other open-frontier labs (TML + Moonshot + Poolside + DeepSeek); pairs cycle-structurally with the same-essay's *"China is emerging as a central player in the global AI/ML landscape"* macro-framing — Hy3 (Tencent) is one of the *"domestic firms releasing frontier-scale foundation models that rival leading US offerings"* concrete-artifact. See [[open-source-models]] + [[kimi-k3]] + [[inkling]] + [[laguna-s]] + [[deepseek-v4]] — *source: data/summaries/2026-08-03-morning.json (Interconnects HIGH "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier")*)
+> **Previously updated**: 2026-07-07-evening
 > **Status**: released (Apache 2.0)
 > **Related**: [[glm-5-2]], [[deepseek-v4]], [[kimi-k2-6]], [[kimi-k2-7-code]], [[qwen-3-7-max]], [[longcat-2]], [[claude-fable-5]], [[gpt-5-6]], [[ai-regulation]], [[ai-distillation-attacks]]
 
