@@ -296,6 +296,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
+- [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; internal version solved 10 previously-open math/theoretical-CS problems at ~$2K token cost, Lean-verified; GPT-6 vs GPT-5.x variant branding undecided (Aug 2026)
 - [[openai-companion]] — OpenAI's first consumer device: screenless, movable smart speaker, $200-300, early 2027 ship, GPT-Live inside, Jony Ive design team, "humanlike AI companion for the home" (Jul 2026)
 - [[openai-daybreak]] — OpenAI's frontier cyber-defense platform pairing GPT-5.5 + Codex Security (May 2026)
 - [[openai-deployco]] — OpenAI's $4B enterprise-deployment subsidiary at $10B (May 2026)
