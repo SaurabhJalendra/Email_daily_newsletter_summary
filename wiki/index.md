@@ -173,6 +173,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-sonnet-4-6]] — Anthropic's Feb 2026 mid-tier; Opus-class perf at 40% lower cost; 79.6% SWE-Bench *(stale)*
 - [[claude-sonnet-5]] — Anthropic's Jul 2026 mid-tier ("most agentic Sonnet yet"); 1M context, $3/M input + $15/M output (promo $2/$10), default for Free/Pro; adopted by Cursor + Cognition + Cline + FactoryAI + Perplexity + VS Code
 - [[claude-tag]] — Anthropic's multiplayer proactive persistent AI agent inside Slack as a shared team member; beta for Enterprise/Team customers (Jun 2026)
+- [[cloudflare-computer]] — Cloudflare's virtual file system inside a Durable Object with pluggable execution surface; edge-tier agent-execution substrate (Aug 2026)
 - [[codex-app]] — OpenAI's native macOS app for Codex; parallel agents, Skills library, Automations *(stale)*
 - [[codex-micro]] — OpenAI's keyboard-form developer gadget for Codex agents debuted at AI Engineer World Fair (Jun 2026)
 - [[codex-security]] — OpenAI's autonomous appsec agent inside Codex; scans repos, builds threat models, proposes patches (Mar 2026) *(stale)*
@@ -184,6 +185,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cursor-composer-2-5]] — Cursor's May 2026 RL-trained model; 79.8% SWE-Bench Multilingual at ~10× efficiency *(stale)*
 - [[cursor-router]] — Cursor's intelligent per-request model router (Intelligence/Balance/Cost modes); 60% AI coding cost cut vs single-premium-model default; 600K+ live-coding-request classifier (Jul 2026)
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier *(stale)*
+- [[deepstream-9-1]] — NVIDIA's Aug 2026 edge vision AI SDK update; agentic "skills" architecture — Multi-View 3D Tracking (MV3DT) + AutoMagicCalib camera calibration; natural-language-prompt-driven multi-camera pipelines
 - [[deepseek-ocr]] — open-source OCR with 10× vision-token compression, 97% accuracy *(stale)*
 - [[diffusion-gemma]] — Google's diffusion-based Gemma-family variant; first surfaced TLDR AI 2026-06-11-evening + second-cohort NLP Newsletter digest 2026-06-14-morning
 - [[deepseek-v3-2]] — DeepSeek V3.2 matches GPT-5; V3.2-Speciale rivals Gemini 3 Pro w/ IMO/IOI/ICPC gold *(stale)*
