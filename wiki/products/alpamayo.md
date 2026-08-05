@@ -8,15 +8,18 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2025-12-03
-> **Last updated**: 2026-01-11
-> **Status**: stale
-> **Related**: [[nvidia]], [[nvidia-cosmos]], [[ai-hardware]], [[world-models]]
+> **Last updated**: 2026-08-05-evening (**Alpamayo 2 Super released commercially under open license — NVIDIA's most advanced autonomous-driving reasoning model, targeting robotaxis and autonomous vehicles with inspectable reasoning for complex driving scenarios**. Forward Future MEDIUM: ***"NVIDIA has made its most advanced autonomous driving reasoning model, Alpamayo 2 Super, commercially available under an open license, supporting robotaxis and other autonomous vehicles with inspectable reasoning for complex driving scenarios"***. First publicly framed *Alpamayo 2 Super* named version + first publicly framed *commercially-available open license* on Alpamayo in this wiki (resolves the Jan 2026 CES 10B-model "license terms?" open question with an open-license commercial release). Structurally novel: (a) *"inspectable reasoning for complex driving scenarios"* framing productizes explainable-AV-reasoning as a differentiator vs black-box AV stacks (Tesla FSD end-to-end + Waymo integrated stack); (b) *robotaxi + autonomous-vehicle explicit targeting* graduates Alpamayo from research-tier reference-implementation into *commercially-deployable AV substrate*; (c) sits alongside [[isaac-groot]] humanoid + [[gemini-robotics-2]] whole-body-control + [[audex]] audio-tier as NVIDIA's [[nvidia-cosmos]] physical-AI family productization arc. See [[nvidia]] + [[nvidia-cosmos]] + [[world-models]] — *source: data/summaries/2026-08-05-evening.json (Forward Future MEDIUM "Korea's AI gold rush + Smarter AI harnesses")*)
+> **Previously updated**: 2026-01-11
+> **Status**: active
+> **Related**: [[nvidia]], [[nvidia-cosmos]], [[ai-hardware]], [[world-models]], [[waymo]], [[isaac-groot]], [[gemini-robotics-2]]
 
 ## Summary
 
 Alpamayo is [[nvidia]]'s open-source foundation-model family for autonomous driving, announced December 2025 and expanded at CES 2026. Alpamayo-R1 (announced December 2025) targeted "human-like perception and reasoning" for AVs; the January 2026 wave added a 10-billion-parameter open model plus datasets and simulators, positioning Alpamayo as NVIDIA's counterpart to [[nvidia-cosmos]] (physical AI) but specifically for the AV stack.
 
 ## Timeline
+
+- **2026-08-05-evening**: **Alpamayo 2 Super released commercially under an open license — NVIDIA's most advanced autonomous-driving reasoning model to date, positioned for robotaxis and autonomous vehicles with inspectable reasoning for complex driving scenarios**. Forward Future MEDIUM anchors the release as productizing explainable-AV-reasoning as a differentiator vs black-box end-to-end AV stacks; extends the [[nvidia-cosmos]] physical-AI family productization arc alongside [[isaac-groot]] + [[gemini-robotics-2]]. Resolves the Jan 2026 CES 10B open-model "license terms?" open question with an explicit open-license commercial release — *source: data/summaries/2026-08-05-evening.json (Forward Future MEDIUM "Korea's AI gold rush + Smarter AI harnesses")*
 
 - **2026-01-11**: Alpamayo highlighted as major AV advancement — open-source enables car navigation via reasoning — *source: 2026-01-11 cycle*
 - **2026-01-10**: Alpamayo reframed as 10B-parameter AI model for autonomous vehicles with enhanced reasoning — *source: 2026-01-10 cycle*
@@ -31,7 +34,9 @@ Alpamayo is [[nvidia]]'s open-source foundation-model family for autonomous driv
 - Flagship size: 10B parameters (open weights)
 - Components: models + datasets + simulators
 - Sibling: [[nvidia-cosmos]] (broader physical AI)
-- First version: Alpamayo-R1 (Dec 2025); 10B open models (Jan 2026)
+- Versions: Alpamayo-R1 (Dec 2025) → 10B open models (Jan 2026 CES) → **Alpamayo 2 Super** (Aug 2026, commercial open license, "most advanced autonomous-driving reasoning model" per NVIDIA)
+- Differentiator: inspectable reasoning for complex driving scenarios
+- Target deployment: robotaxis + broader autonomous vehicles
 
 ## Open Questions
 
@@ -41,6 +46,7 @@ Alpamayo is [[nvidia]]'s open-source foundation-model family for autonomous driv
 
 ## Sources
 
+- data/summaries/2026-08-05-evening.json (Forward Future MEDIUM "Korea's AI gold rush + Smarter AI harnesses" — Alpamayo 2 Super commercially available under open license, robotaxis + AV target, inspectable reasoning for complex driving scenarios)
 - data/summaries/2025-12-03.json (DRIVE Alpamayo-R1 open source)
 - data/summaries/2025-12-04.json (Alpamayo-R1 announcement)
 - data/summaries/2026-01-07.json (CES 2026 unveil)

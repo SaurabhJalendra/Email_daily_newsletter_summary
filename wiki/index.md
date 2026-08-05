@@ -101,6 +101,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[terawulf]] — US-listed compute-infrastructure operator (former Bitcoin miner pivoting to AI-DC hosting); $19B multi-year Anthropic AI-infrastructure lease deal + initial capacity 2H 2027 (Jul 2026)
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
 - [[together-ai]] — open-source AI infrastructure company; $800M @ $8.3B (Jul 2026) — "cheap open-source plumbing" thesis for making frontier AI accessible
+- [[volta]] — NVIDIA-backed AI-infrastructure startup emerging from stealth at $2.4B valuation; six-year $10B Anthropic capacity deal (133MW Vera Rubin alongside Bitdeer Technologies) (Aug 2026)
 - [[trajectory]] — Neo Lab building a continual-learning platform that lets AI products keep learning from real-world user interactions (Jun 2026)
 - [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
 - [[warp]] — AI-terminal startup; ships Oz agent-orchestration platform; CEO Zach Lloyd "software factories are the next phase of coding" (Jul 2026)
@@ -250,6 +251,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[grok-4-1]] — xAI's mid-Nov 2025 Grok upgrade; personality overhaul, EQ lead, top of LMArena *(stale)*
 - [[grok-4-20]] — xAI's Feb 2026 Grok upgrade; four-agent parallel research workflow, public beta *(stale)*
 - [[grok-4-5]] — xAI/SpaceXAI's Jul 2026 Opus-class Grok; $2/$6 pricing "cheapest smart model on the market"; Word/Excel/PowerPoint plugins; 21 multilingual Grok Voice voices with 1-min cloning
+- [[grok-4-6]] — xAI's ~Aug 7 2026 1.5T-parameter Grok successor to 4.5 with improved SFT+RL; Kimi K3-tier target; Grok 4.7 (2.1T) queued a few weeks behind + Arena.ai eval slot
 - [[gpt-red]] — OpenAI's dedicated adversarial red-team AI trained via self-play at compute-scale of largest model runs; 84% test-scenario success vs 13% human red-teamers (Jul 2026)
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
