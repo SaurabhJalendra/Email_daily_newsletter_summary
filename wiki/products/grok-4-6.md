@@ -8,7 +8,8 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-08-05-evening
-> **Last updated**: 2026-08-05-evening
+> **Last updated**: 2026-08-06-evening (**Cycle-2 evening recoverage — World of AI restates Grok 4.6 launch target as around August 7 with 1.5T parameters + improved SFT and RL, sustaining the compressed 4.5→4.6→4.7 rollout narrative from the previous evening**)
+> **Previously updated**: 2026-08-05-evening
 > **Status**: active
 > **Related**: [[xai]], [[spacex]], [[grok-4-5]], [[grok-build]], [[cursor]], [[claude-opus-5]], [[kimi-k3]], [[gpt-5-6]]
 
@@ -17,6 +18,8 @@ type: product
 Grok 4.6 is [[xai]]'s next major Grok iteration, positioned as a fully-trained refinement of the 4.5 foundation model with significantly improved supervised fine-tuning (SFT) and reinforcement learning (RL). At 1.5-trillion parameters, it targets Kimi K3–level intelligence while preserving [[grok-4-5]]'s speed and token efficiency — an "Opus-class" competitor optimized for coding, agentic workflows, and knowledge work. Launch is targeted around **August 7, 2026**, with Grok 4.7 at **2.1 trillion parameters** queued approximately four weeks behind. Arena.ai (LMArena) has confirmed Grok 4.6 will be evaluated on its Agent Arena leaderboard (live agentic sessions) the following week, giving the community an independent benchmarking venue even without official specs.
 
 ## Timeline
+
+- **2026-08-06-evening**: **Cycle-2 evening recoverage — World of AI MEDIUM sustains the Aug 7 target-launch anchor**. World of AI MEDIUM: *"Grok 4.6 is targeted for release around August 7, with a 1.5-trillion-parameter model and improved SFT and RL"* — sharpens the 2026-08-05-evening cycle-headline framing into a *cross-cycle sustained-anchor* posture; positions the compressed 4.5 → 4.6 → 4.7 rollout as *canonical near-term xAI product cadence* — *source: data/summaries/2026-08-06-evening.json (World of AI MEDIUM "Meta DROPS Muse Code! 🔮🤖")*
 
 - **2026-08-05-evening**: World of AI HIGH cycle-headline "Grok 4.6 Lands Friday" — xAI ships Grok 4.6 around August 7, 1.5T parameters with improved SFT and RL following Grok 4.5 (~4th on Artificial Analysis index at $2/$6 per M tokens); Grok 4.7 at 2.1T parameters "a few weeks behind." Arena.ai confirmed Grok 4.6 evaluation slot on Agent Arena leaderboard the following week. Compressed 4.5→4.6→4.7 rollout reads as strategic push to outpace rivals on capability + efficiency + deeper X-platform integration — *source: data/summaries/2026-08-05-evening.json (World of AI HIGH "AI Is Going to SPACE! 🚀, Grok 4.6 Lands Friday 👀"; researchFindings.additionalContext — Grok 4.6)*
 
