@@ -8,7 +8,8 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2026-08-07-morning
-> **Last updated**: 2026-08-07-morning
+> **Last updated**: 2026-08-07-evening (**OpenAI ships [[agent-plugins]] as branded open standard for bundling agent skills + MCP server configs — pairs with the AI Plugin Standard multi-vendor cohort framing since OpenAI is co-signer on both; suggests Agent Plugins is either OpenAI's implementation of the multi-vendor spec or a distinct spec being harmonized with it**. AINews HIGH: *"OpenAI has launched Agent Plugins, an open standard for bundling agent skills and MCP server configs"*. Daily-digest Top Story #2. Extends the morning-cycle five-vendor AI Plugin Standard cohort framing (Amazon + Cursor + Microsoft + OpenAI + Vercel) with a *vendor-branded implementation-tier or harmonized-companion spec* on OpenAI's side. First publicly framed on this cycle: *twin cross-vendor plugin standards emerging in same week from same cohort* — the AI Plugin Standard (Amazon + Cursor + Microsoft + OpenAI + Vercel) + OpenAI's own Agent Plugins spec sit alongside [[model-context-protocol]] as the *mid-2026 canonical assistant-plugin ecosystem substrates*. Structurally significant: raises the open question of *"is Agent Plugins the OpenAI-branded implementation of AI Plugin Standard, or a competing spec being harmonized?"* — likely resolves in future cycles. See [[agent-plugins]] (NEW) + [[openai]] + [[model-context-protocol]] — *source: data/summaries/2026-08-07-evening.json (AINews HIGH "[AINews] AMD buys Taalas"; daily-digest Top Story #2)*)
+> **Previously updated**: 2026-08-07-morning
 > **Status**: active
 > **Related**: [[model-context-protocol]], [[agentic-ai-foundation]], [[agent-frameworks]], [[amazon]], [[cursor]], [[microsoft]], [[openai]], [[vercel]]
 

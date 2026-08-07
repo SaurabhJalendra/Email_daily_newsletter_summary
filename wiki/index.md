@@ -98,6 +98,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[spacex]] — Musk's space company; xAI parent; S-1 filed at $1.7T (SPCX); orbital DCs + Anthropic Colossus 1 lease
 - [[stripe]] — US payments infrastructure company; ships [[stripe-kai]] enterprise Knowledge AI Platform for employee data-warehouse queries + account research + incident triage + revenue modeling + compliance reviews (Jul 2026)
 - [[suno]] — Cambridge-based AI music-generation startup; $400M Series D at $5.4B led by Bond Capital (Jun 2026); Warner settled, Universal/Sony lawsuits ongoing
+- [[taalas]] — AI inference silicon startup — hardware designed around the model, world's fastest + most cost-effective inference silicon per own framing; acquired by [[amd]] (Aug 2026)
 - [[terawulf]] — US-listed compute-infrastructure operator (former Bitcoin miner pivoting to AI-DC hosting); $19B multi-year Anthropic AI-infrastructure lease deal + initial capacity 2H 2027 (Jul 2026)
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
 - [[together-ai]] — open-source AI infrastructure company; $800M @ $8.3B (Jul 2026) — "cheap open-source plumbing" thesis for making frontier AI accessible
@@ -116,6 +117,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[1password-for-claude]] — 1Password + Anthropic integration letting Claude sign into websites + use one-time passcodes without exposing credentials to the model (Jul 2026)
 - [[aardvark]] — OpenAI's GPT-5 code-security agent (92% vulnerability identification, 10 CVEs) *(stale)*
 - [[agent-composer]] — Contextual AI's agent framework for expert engineering workflows (Feb 2026) *(stale)*
+- [[agent-plugins]] — OpenAI's open standard for bundling agent skills + MCP server configs into distributable, portable units; ships alongside unlimited GPT-5.6 Luna text chats for free + Go tiers (Aug 2026)
 - [[agent-skills]] — Anthropic open standard for reusable agent capabilities *(stale)*
 - [[agentforce]] — Salesforce's enterprise agent platform *(stale)*
 - [[agentkit]] — OpenAI's DevDay 2025 agent toolkit *(stale)*
@@ -273,6 +275,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kimi-k2-7-code]] — Moonshot AI's Jun 2026 coding-specialized K2.7-series Kimi variant; launches on Ollama's US-hosted cloud (Jun 2026)
 - [[kimi-code-cli]] — Moonshot AI's terminal-tier AI coding agent; reads/edits code + runs shell + searches files + fetches web + chooses next step from feedback; open-sourced at github.com/MoonshotAI/kimi-code (Jul 2026)
 - [[kimi-k3]] — Moonshot AI's leaked next-gen ~2.5T-parameter Kimi model; 1M context, long-horizon-agents-tuned, new "Kimi Linear" attention hybrid, projected ~8× cheaper than GPT-5.5; likely Apache 2.0 open-weight (Jul 2026, leak)
+- [[kitesurf]] — Cloudflare's stateless browser running entirely on Workers; designed for AI-agent use cases where full Chromium is overkill (Aug 2026)
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
 - [[kimi-work]] — Moonshot AI's Windows/macOS desktop agent — local files + browser automation + multi-step web tasks; 24/7 automation tier alongside [[chatgpt-work]] and [[claude-cowork]] (Jul 2026)
 - [[kumorfm]] — Nvidia's tabular foundation model; models relational data as graphs of interconnected tables for zero-shot predictions across complex enterprise schemas (Jul 2026)
@@ -377,10 +380,12 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[trex]] — [[greptile]]'s runtime-validation extension — autonomously writes + executes tests for each PR in a dynamic sandbox, returning screenshots + logs as concrete proof of failure; claims 4× faster merges + 3× more production-blocking bugs caught vs static-only review (Aug 2026)
 - [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell) *(stale)*
 - [[watermelon]] — Meta's upcoming internal frontier-tier model per Meta Superintelligence Chief Alexandr Wang; caught up with OpenAI's GPT-5.5 on closely followed AI benchmarks; still in training, no release timeline (Jul 2026)
+- [[weathernext-2]] — Google DeepMind's open-source high-impact weather model; ~1 extra day of lead time on tropical cyclone forecasting (Aug 2026)
 - [[weave-isaac-1]] — Weave Robotics's home humanoid at $8K upfront / $449/mo subscription; folds clothes/tidies/makes beds; adjusts 3ft-6ft; California fall-2026 rollout with remote-teleoperation fallback (Jul 2026)
 - [[veo-3]] — Google's Veo 3 / 3.1 video-generation model; Jun 2026 resurfaces as image-to-video chained step with [[nano-banana-pro]]
 - [[vercel-eve]] — Vercel's open-source agent framework; durable execution + sandboxed compute + approvals + subagents + evaluations; "production infrastructure for AI agents" (Jun 2026)
 - [[wispr-flow]] — voice-dictation + AI-editing product letting devs prompt agents in [[cursor]] / VS Code / JetBrains ~4× faster than typing; Bloomberg-reported $260M @ ~$2B Menlo Ventures lead (Jun 2026)
+- [[world-action-models]] — NVIDIA's model family for robot manipulation with generalization beyond training scenes; part of NVIDIA physical-AI stack alongside [[isaac-groot]] + [[alpamayo]] (Aug 2026)
 - [[zcode]] — [[zhipu-ai]]'s cross-platform (macOS/Windows/Linux) agentic-coding IDE; ships with [[glm-5-2]] tuned specifically for ZCode's plan → code → review → deploy loop (Jul 2026)
 - [[zero-language]] — Vercel Labs' Jul 2026 experimental language storing programs as a graph database (not text); agents patch nodes not text; <10 KiB native binaries; borrow-checker; structured JSON compiler errors with stable codes; version-pinned `zero skills` command
 

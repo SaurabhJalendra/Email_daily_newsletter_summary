@@ -8,7 +8,8 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-06-28-morning
-> **Last updated**: 2026-06-28-morning
+> **Last updated**: 2026-08-07-evening (**Cross-cohort recoverage — World of AI MEDIUM highlights Wispr Flow as a tool for speaking prompts to AI models, allowing more natural interaction and detailed prompts without the need for typing**. World of AI MEDIUM: *"Wispr Flow, a tool for speaking prompts to AI models, was highlighted, allowing for more natural interaction and detailed prompts without the need for typing"*. First publicly framed on this cycle: *"speaking prompts" framing at newsletter-headline tier* — sharpens the multi-cycle "voice-input-to-AI" positioning with a *canonical newsletter-tier framing* on Wispr Flow's role as *prompt-input substrate for AI-model interaction*. Reads as *cross-cohort settled-fact* framing that Wispr Flow is now the *canonical voice-input tool* for AI-model prompting in mid-2026. See [[cursor]] + [[vibe-coding]] — *source: data/summaries/2026-08-07-evening.json (World of AI MEDIUM "GPT-6! 🔥 DeepSeek-V4-Flash & Qwen 3.8-Max Drop")*)
+> **Previously updated**: 2026-06-28-morning
 > **Status**: active
 > **Related**: [[cursor]], [[vibe-coding]], [[ai-funding-rounds]], [[agent-frameworks]]
 
