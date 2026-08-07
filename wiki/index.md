@@ -253,6 +253,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[grok-4-5]] — xAI/SpaceXAI's Jul 2026 Opus-class Grok; $2/$6 pricing "cheapest smart model on the market"; Word/Excel/PowerPoint plugins; 21 multilingual Grok Voice voices with 1-min cloning
 - [[grok-4-6]] — xAI's ~Aug 7 2026 1.5T-parameter Grok successor to 4.5 with improved SFT+RL; Kimi K3-tier target; Grok 4.7 (2.1T) queued a few weeks behind + Arena.ai eval slot
 - [[gpt-red]] — OpenAI's dedicated adversarial red-team AI trained via self-play at compute-scale of largest model runs; 84% test-scenario success vs 13% human red-teamers (Jul 2026)
+- [[hark-handoff]] — Hark's Aug 2026 first product — computer-use agent for everyday tasks (food ordering, shopping, recruiting talent); lifestyle-tier entrant in the [[computer-use]] category
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours *(stale)*
@@ -342,6 +343,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[perplexity-personal-computer]] — Perplexity's always-on local AI agent on a dedicated Mac mini (Mar 2026) *(stale)*
 - [[plandex]] — open-source AI coding agent designed for large engineering tasks and multi-file changes (Jun 2026)
 - [[poke]] — first third-party AI agent approved for Apple Messages for Business / iMessage (Jun 2026)
+- [[prime-agent]] — Prime Intellect's Aug 2026 open-source coding agent — 95.5% on ARC-AGI-3 (surpasses human expert baseline); Recursive Language Model + Continual Harness self-modifying architecture
 - [[qwen-robot-suite]] — Alibaba's open-source trio of robotics AI models for humanoids/robotic arms/quadrupeds (Jun 2026)
 - [[project-genie]] — Google DeepMind's interactive 3D-world generator powered by Genie 3 model *(stale)*
 - [[project-panama]] — Anthropic initiative to digitize "all the books in the world" for AI training; surged demand for pre-2022 printed books (Jul 2026)
@@ -394,10 +396,11 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-memory]] — persistent context across sessions; Claude Memory, ChatGPT→Claude migration, GPT-5.4 Stateful AI *(stale)*
 - [[ai-military]] — frontier-lab AI inside DoW/Pentagon systems; Pentagon-Anthropic ultimatum, xAI switch-out, OpenAI contract revision *(stale)*
 - [[ai-music-generation]] — generative music models; Google Lyria 3 in Gemini *(stale)*
+- [[ai-plugin-standard]] — Aug 2026 shared plugin spec agreed by Amazon + Cursor + Microsoft + OpenAI + Vercel — build-once, run-anywhere; sits alongside [[model-context-protocol]] as second cross-vendor plugin interop primitive
 - [[ai-supply-chain-attacks]] — DPRK-linked npm/PyPI/Packagist/marketplace package compromises + registry-tier defensive responses (Github Dependabot 3-day hold-and-observe); foundational-dependency targeting reaches AI-toolchain transitively (Aug 2026 creation, covers 2026-05 → 2026-08 arc)
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad *(stale)*
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
-- [[computer-use]] — models that drive GUIs directly *(stale)*
+- [[computer-use]] — models that drive GUIs directly; Aug 2026 [[hark-handoff]] launch adds consumer/lifestyle-tier entrant (food ordering, shopping, recruiting) alongside prior coding-agent + browser-agent tiers
 - [[ethan-mollick]] — Wharton professor / One Useful Thing author; "co-intelligence" framer; *Co-Existence* book Oct 20 2026
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[forward-deployed-engineer]] — customer-embedded software/ML engineer role owning AI-solution lifecycle; from Palantir → OpenAI + Anthropic + AWS ($1B org) + Microsoft (Jul 2026)

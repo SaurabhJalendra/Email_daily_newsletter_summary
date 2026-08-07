@@ -4,6 +4,28 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-08-07-morning
+**Ingested**: data/summaries/2026-08-07-morning.json (13 newsletters — 1 HIGH + 11 MEDIUM + 1 LOW — morning cohort recovering Aug 6 evening-cycle stories: Discovery Loop / DeepMind reshuffle + Anthropic-Irregular breach + Meta Muse Code; plus NEW anchors on ChatGPT unlimited free tier + DeepMind hurricane model + AI plugin standard + Prime Agent + FLUX 3 Video variant + Hark Handoff)
+
+**Pages updated**:
+- [[chatgpt]] — Drops message caps for free-tier users → unlimited text chats; adds "Think" button on free tier + paid-tier "thinking slider" + "Sol" pushback feature (anti-sycophancy consumer-tier motion, structurally reverses 2026-06-28 warmer-and-friendlier persona); Sol name overloads [[gpt-5-6]] Sol tier — unclear if same product
+- [[openai]] — ChatGPT unlimited free tier + Think button + thinking slider + Sol pushback as consumer-tier motion; market-share-defense-via-generosity framing pairs with mid-2026 Sensor Tower share-dip context
+- [[google]] — DeepMind ships new unified track + intensity hurricane forecasting model providing full extra day of warning; already accurately predicted Hurricane Melissa's landfall; model is public — first publicly framed *life-safety-tier AI-for-science concrete-life-impact anchor* on DeepMind; ships same week as Hassabis-to-chair leadership transition
+- [[flux-3]] — FLUX 3 Video variant ships with concrete specs: 1080p up to 20 seconds + native audio/dialogue/sound-effects + draft mode for cheap preview-before-full-render; positions against [[sora-2]] + [[veo-3]] + [[gemini-omni]] at conversational-video-with-audio tier
+- [[black-forest-labs]] — Ships FLUX 3 Video variant; draft mode introduces cheap-preview + full-render two-tier video-generation UX primitive
+- [[computer-use]] — Revived from stale via [[hark-handoff]] launch; adds consumer/lifestyle-tier alongside prior coding-agent + browser-agent tiers
+- [[muse-code]] — Morning-cohort AlphaSignal + TLDR AI cross-newsletter recoverage — canonical "1,000+ tool calls autonomously" framing + explicit two-tier training-data-usage contract (standard tier prompts excluded from training; contributor tier grants training-data usage)
+- [[project-glasswing]] — God of Prompt HIGH morning-cohort recoverage of Anthropic-Irregular incident + first publicly framed researchFindings cross-context tying incident explicitly to Project Glasswing ("misconfigurations in a supposedly isolated test environment allowed Claude-based agents to connect to the broader internet"); METR independent review + "blameless postmortem" SRE-style incident-response first-in-wiki
+
+**Pages created**:
+- [[hark-handoff]] — Hark's first product; computer-use agent for everyday tasks (food ordering, shopping, recruiting talent); lifestyle-tier entrant in the [[computer-use]] category
+- [[prime-agent]] — Prime Intellect's open-source coding agent; 95.5% on ARC-AGI-3 (surpasses human expert baseline); Recursive Language Model + Continual Harness self-modifying architecture
+- [[ai-plugin-standard]] — Amazon + Cursor + Microsoft + OpenAI + Vercel shared plugin spec; build-once, run-anywhere; sits alongside [[model-context-protocol]] as second cross-vendor plugin interop primitive (notably [[anthropic]] + [[google]] absent)
+
+**Notable**: (a) *Twin cross-vendor plugin standards emerging* — the AI plugin standard cohort (OpenAI + Microsoft + Amazon + Cursor + Vercel) sits alongside MCP (Anthropic + Google + Linux Foundation coalition), suggesting the assistant-plugin ecosystem is settling into a *two-standard* posture rather than either monopolizing; watch whether these bridge, compete, or eventually converge. (b) *AI-for-natural-disaster-safety concrete-life-impact anchor* — DeepMind's public hurricane-forecast model with day-earlier warning + validated Hurricane Melissa landfall prediction extends the AlphaFold/AlphaMissense/WeatherNext AI-for-science arc into a *directly-life-saving concrete-forecast-impact tier*; DeepMind ships this the same week Hassabis moves to chair, reading as *DeepMind's-science-mission continues despite leadership-turmoil*. (c) *Sol overloading* — ChatGPT's new "Sol" pushback feature shares a name with [[gpt-5-6]]'s Sol model tier; unclear whether same product-line or coincidental naming; worth tracking in next cycles for disambiguation. (d) *Self-modifying-harness cohort* — Prime Agent's Recursive Language Model + Continual Harness architecture joins [[self-harness]] (Shanghai AI Lab) as second entrant in the *agent-writes-its-own-harness* substrate — a distinct architectural bet from the frontier-lab coding-agent orthodoxy.
+
+---
+
 ## 2026-08-05-evening
 **Ingested**: data/summaries/2026-08-05-evening.json (6 newsletters — 2 HIGH + 4 MEDIUM — evening cycle spanning orbital-DC race canonicalization + Grok 4.6 launch confirmation + Alpamayo 2 Super release + Anthropic-Volta $10B deal + UK AISI rogue-agent report)
 
