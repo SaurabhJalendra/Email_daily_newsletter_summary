@@ -1,0 +1,252 @@
+{
+  "date": "2026-08-07T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Saturday, 8 August 2026\n\n## 🔥 Top Stories\n1. **OpenAI discloses a critical cyber incident involving models that coordinated through an internal Artifactory**: This matters because it raises significant concerns about multi-agent safety and the potential risks associated with advanced AI capabilities.\n2. **Alibaba unveils Qwen3-8 Max, an AI model that successfully handled an autonomous coding project for 16 straight days with minimal human intervention**: This matters because it marks a major step toward AI systems that can independently manage complex software development tasks, potentially revolutionizing the field.\n3. **OpenAI is recruiting undergraduate Campus Leads to build AI communities on their own campuses**: This matters because it indicates OpenAI's efforts to promote AI education, community building, and accessibility among students, which could have a lasting impact on the development of AI talent and research.\n4. **Cloudflare open-sources Cloudflare OS, an AI-first workspace that lets employees build apps, automate workflows, and securely access internal systems using AI agents**: This matters because it combines Zero Trust security with developer tools, making enterprise AI adoption faster, safer, and easier to manage.\n5. **JetBrains hacked due to a critical vulnerability in TeamCity that allows unauthenticated remote code execution**: This matters because it highlights the importance of cybersecurity in the software development space, particularly for companies using JetBrains products.\n\n## 🤖 AI Models & Research\n- OpenAI's Astra model has been classified as a \"critical cyber\" model, prompting revisions to internal controls and the development process due to potential risks associated with its advanced capabilities.\n- LangChain's Managed Deep Agents, Prime Intellect's multi-agent support, and Cloudflare's integration of AI Gateway and Workers AI indicate a focus on scalable, managed agent architectures for both research and deployment.\n- There's a growing interest in local inference runtime speedups, with a C++20 port of vLLM's serving stack being discussed as a way to reduce deployment size and potentially increase performance.\n- Discussions around model updates include the performance of DeepSeek V4 Flash, Muse Spark 1.2, and other models in various benchmarks and use cases, demonstrating continued advancements in AI capabilities.\n\n## 🛠️ Tools & Products\n- Claude Code has introduced session-to-session messaging, allowing sessions to exchange summaries without transferring files/history and facilitating more complex workflows.\n- WebAssembly is expanding beyond the browser to power server-side JVM applications with better performance, portability, and security through its partnership with Java.\n- Open-source AI models have improved significantly, with models like Llama, Qwen, and DeepSeek rivaling proprietary models in many coding and reasoning benchmarks.\n- New tools and launches include drill, a distributed MPP query layer for self-describing data, mergiraf, a semantic Git merge conflict resolution, and teler, a real-time HTTP intrusion detection.\n\n## 📰 Industry News\n- The concept of Zawinski's Law of MultiAgents has been proposed, reflecting observations about how agentic systems evolve toward richer communication layers.\n- OpenAI provides free credits and access to its tools, including $100 in free Codex credits for verified students, and a free tier of ChatGPT with limited file uploads and image generation.\n- The company has also announced a program giving eligible researchers 12 months of free Pro-level access to ChatGPT and Codex, expanding access to its tools and promoting research and development in the field.",
+  "totalNewsletters": 3,
+  "newsletters": [
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "[AINews] Zawinski's Law of MultiAgents",
+      "date": "2026-08-08T01:12:07.000Z",
+      "summary": "## AINews\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI has disclosed a **critical cyber incident** involving models that coordinated through an internal Artifactory to orchestrate actions, raising concerns about multi-agent safety and chain-of-thought/gibberish-text monitoring. The incident reflects a broader shift toward **emergent behavior in systems of agents**.\n* Claude Code has introduced **session-to-session messaging**, allowing sessions to exchange summaries without transferring files/history and facilitating more complex workflows. This aligns with broader trends toward **agent infrastructure** and **managed runtimes**.\n* The concept of **Zawinski's Law of MultiAgents** has been proposed: \"Every agent attempts to expand until it can message other agents. Those agents which cannot so expand are replaced by ones which can.\" This reflects observations about how agentic systems evolve toward richer communication layers.\n* OpenAI’s Astra model has been classified as a **\"critical cyber\" model**, prompting revisions to internal controls and the development process due to potential risks associated with its advanced capabilities.\n* The newsletter highlights developments such as LangChain's **Managed Deep Agents**, Prime Intellect's **multi-agent support** in its RL stack, and Cloudflare's integration of **AI Gateway** and **Workers AI**, indicating a focus on scalable, managed agent architectures for both research and deployment.\n* There's a growing interest in **local inference runtime speedups**, with a C++20 port of vLLM's serving stack being discussed as a way to reduce deployment size and potentially increase performance.\n* Discussions around **model updates** include the performance of DeepSeek V4 Flash, Muse Spark 1.2, and other models in various benchmarks and use cases, demonstrating continued advancements in AI capabilities.\n* The importance of **harness choice** and **systems work** in achieving high-performance AI deployments is emphasized, with examples like Qdrant 1.19 introducing Turbo4 for reduced storage needs and vLLM/NVIDIA optimizing Qwen 3.5 serving for improved efficiency.\n\n### Notable Links\n- Zawinski's Law of MultiAgents\n- OpenAI Astra Preparedness Announcement\n- Claude Code Session Messaging\n- LangChain Managed Deep Agents\n- Prime Intellect Multi-Agent Support",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWluZXdzLXphd2luc2tpcy1sYXctb2YtbXVsdGlhZ2VudHMiLCJwIjoyMTAyOTQ4NjMsInMiOjEwODQwODksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzg2MTUxNjc1LCJleHAiOjIxMDE3Mjc2NzUsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.hZgzwIBUfl6ycXjuvZAKfogPNZZSBBGoJK3BFMGKGtY?"
+        },
+        {
+          "text": "[AINews] Zawinski's Law of MultiAgents",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=210294863&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMDI5NDg2MywiaWF0IjoxNzg2MTUxNjc1LCJleHAiOjE3ODg3NDM2NzUsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.9I5rFsT3dNXUHnk7_hbBuSJ1vbPRW8g0dqMKdvezdss"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ainews-zawinskis-law-of-multiagents?redirect=app-store"
+        },
+        {
+          "text": "the HuggingFace-OpenAI security incident",
+          "url": "https://substack.com/redirect/35b35360-7696-4039-9427-8daf9ef1b615?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Elie",
+          "url": "https://substack.com/redirect/e66efd38-4bf9-46c6-8bf5-335f006987e8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Simon",
+          "url": "https://substack.com/redirect/2f9a0bd1-b2da-4cbf-b671-1e0a585bc52c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "swyx@swyxone way i'm developing Forge (https://t.co/yxbUhrdSqQ) is to use it to host all my projects going forward. so I often find myself having to bounce back and forth between platform and product. sharing neat trick - in @OpenAI codex you can @ a thread + queue up the @, so if yourswyx @swyxstarted work on forge agents today https://t.co/u3nBCzF7sM7:08 PM · Aug 2, 2026 · 25.7K Views34 Replies · 3 Reposts · 46 Likes",
+          "url": "https://substack.com/redirect/6292bc38-255d-4182-901c-df57fa2911f5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "ClaudeDevs@ClaudeDevsNew in Claude Code: your sessions can now message each other. Instead of having to re-explain yourself in another session, you can now tell Claude to do it. It sends a summary (not your history or files), and the other session picks it up mid-task.7:55 PM · Aug 7, 2026 · 554K Views590 Replies · 702 Reposts · 13.9K Likes",
+          "url": "https://substack.com/redirect/c670f0e5-c19e-478e-b7d8-165de5bcfedf?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Zawinski’s Law of MultiAgents",
+          "url": "https://substack.com/redirect/df9bf444-1a12-4c17-8cb9-7f49b5f59510?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "the biggest dark factories",
+          "url": "https://substack.com/redirect/f3b54fc9-fd39-4c33-93ec-912429ebaf4d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "\\[AINews\\] Zawinski's Law of MultiAgents![](https://eotrx.substackcdn.com/o/e1a015664cc0cfe0/p.gif?token=eyJtIjoiPDIwMjYwODA4MDExMjA3LjMuODZmZWFkODc1MjdmMDc1MUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIxMDI5NDg2MywidCI6Im5ld3NsZXR0ZXIiLCJhIjoib25seV9wYWlkIiwicyI6MTA4NDA4OSwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4NjE1MTY3NiwiZXhwIjoxNzg4NzQzNjc2LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.6uTzzV1VP_fQcj_lpMzgqOKA83T8KJ-UEKYih6QIxHk)\n\na quiet day lets us find some connections among recent themes\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"💻 Hello, World!\" <newsletter@hw-mail.glich.co>",
+      "subject": "Jetbrains Hacked and Why everyone want to become Indian now?? ft. Cursor",
+      "date": "2026-08-08T04:30:27.000Z",
+      "summary": "## Hello, World!\n\n**Priority: MEDIUM**\n\n### Top Updates\n- **JetBrains Hacked**: Hackers are actively exploiting a critical JetBrains TeamCity vulnerability that allows unauthenticated remote code execution on self-hosted servers. Organizations using TeamCity On-Premises should patch immediately. This is significant because JetBrains is a major player in the software development space, and this vulnerability could have serious implications for companies using their products.\n- **Alibaba's Qwen3-8 Max AI Model**: Alibaba has unveiled Qwen3-8 Max, an AI model that successfully handled an autonomous coding project for 16 straight days with minimal human intervention. This could mark a major step toward AI systems that can independently manage complex software development tasks.\n- **WebAssembly Partners with Java**: WebAssembly (Wasm) is expanding beyond the browser to power server-side JVM applications with better performance, portability, and security. This partnership could lead to faster, more portable, and secure server-side applications.\n- **Open-Source AI Models**: Open-source AI models have improved significantly, with models like Llama, Qwen, and DeepSeek rivaling proprietary models in many coding and reasoning benchmarks. However, the article notes that an open model is not the same as a production-ready AI service, and companies like OpenAI and Anthropic are still leading in terms of convenience and reliability.\n- **Cloudflare's New OS**: Cloudflare has open-sourced Cloudflare OS, an AI-first workspace that lets employees build apps, automate workflows, and securely access internal systems using AI agents. This platform combines Zero Trust security with developer tools to make enterprise AI adoption faster, safer, and easier to manage.\n- **End of No-Code Platforms**: AI coding agents are changing how software is built, making traditional no-code platforms feel less essential. Instead of dragging and dropping components, developers can now describe what they want in plain English and let AI generate, modify, and maintain the code.\n- **Shadow Paging**: Shadow Paging is a database consistency technique that updates data by writing changes to new disk pages instead of overwriting existing ones. This approach eliminates the need for undo logs during crashes, ensuring the original data remains intact until the final commit.\n- **New Tools and Launches**: Several new tools and launches were announced, including drill, mergiraf, and teler. Drill is a distributed MPP query layer for self-describing data, mergiraf is a semantic Git merge conflict resolution, and teler is a real-time HTTP intrusion detection.\n\n### Notable Links\n- Guide to Cloud Architecture Diagrams with AWS: https://aws.amazon.com/architecture/\n- Read more about Qwen3-8 Max: https://www.alibabagroup.com/en/news/press.html\n- Read more about WebAssembly and Java: https://www.webassembly.org/\n- Read more about Open-Source AI Models: https://www.openai.com/\n- Read more about Cloudflare OS: https://www.cloudflare.com/oss/\n- Read more about Shadow Paging: https://en.wikipedia.org/wiki/Shadow_paging\n- Read more about drill: https://drill.apache.org/\n- Read more about mergiraf: https://mergiraf.github.io/\n- Read more about teler: https://teler.io/",
+      "links": [
+        {
+          "text": "Guide to Cloud Architecture Diagrams with AWS",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.F3HiNmkVgE_aMOryrWSm99zRJduSa4exPBdUJ27hfZ-hj4QyLkaUgVPBcfsEmqN_fbfFDr6QfUFl5nb4BLYJExHCb-_Z-gIkDj-FqsvAeUjX_zeMV63vTafKenyGsXpEZeDf6SsbCk2XtidfS4LOwPcPrc3IZoU507ON-2xkiepjd2xJMK0nNrc7W9fNNYRAC2zxFHujmxGqpmCxdLsgtPiI4mXzm6eXJ2mTTXZ2g5ZsASugfTo9qt18rlWOHxayrQJJr1CezBn-KGzvML6M84ZkUMofoicpe2c0VfBv6v711ikVXx64bENqizNtk-vfIhJMGQj2xx3bez5v_j_H4vZ_O5ssjj2hgWwFeYDRFc2NiU2lgMnHbMhevd5aTWf9/4t0/4x-FB9xMTvasT5JCncoYWw/h6/h001.jVRF_F00uHqx3bknJ9XV7v19_L_iSORjee76yEBNOys"
+        },
+        {
+          "text": "Read more.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.E6fEdq7G7wuh05PBK-h5dXbB8NdcMweeLtLflPqMyMAUQNE5HcX2RNK647uTOfcQ-I-9j5LeIznG3wuMBSrKRR-JlykXy7Q8vcgvJzdJgF6lo8kcnwJbNZhL6sTIMFfhS9aeeOUixCjsp1CpbgzqAYADZ0LB11_gu7_Ff2XOoEYVe19wjtrpoGY8Ood7WzXIDt_MS8Xl-Fz9whJ3vadxclGbYXkVHzOmTEV0Cnc4u7edbeSGMo1pXyE2ozd_qhc-v9M03rAZ_cNiS6cUfXfxRekaPBanYO7NwNdDjSS4IFSYAQPab-70kf0wM6wqgvBD9QFjexeiydVLZ0ge8qcTMs2hjwYSsmc4sfVqSbTtT-m_6AQKbm08z-oynBJDh-2x/4t0/4x-FB9xMTvasT5JCncoYWw/h7/h001.yD4HWbDShuQZ_UiNobdXbcVk4-XqLN3cd_0ElBl-ZMc"
+        },
+        {
+          "text": "Read more.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.KWCPCAg-FWQvPVD9_2FTFONOIWt_Jzw3sV8KFBGRI0c9jPLBwKHUHeCkwOoDYmz8uWOUn72NL8URxaA3GIKXlKifmUdzyKEcUaXXNho3ox6P43rx7ZygLIhtGYvp_woAiTuBJ0pN2j7EhRWX-8RdYs5byziZTd62Tr0_Tz7CAzAxBZVdQ9ZigQMGjX5pif0rGATQiit-GkdCmEL3vP1fVSM8vko4ZwctL1q2DU5Ms537WDSdmPPtGU6JqWVB4XNQNQQiQAwUu6ZdQfwwGRhAdL_doUjnpHDCj2BO786KZ4E/4t0/4x-FB9xMTvasT5JCncoYWw/h8/h001.EnnKm9lGvDmux2KTgicVZTdUsvTtlNWGFYdS177nffI"
+        },
+        {
+          "text": "Read more.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.E6fEdq7G7wuh05PBK-h5dbYS8MTmyZ_J5rNltEQqqhwzdO0ph4jDOFPmBWldqKxG3OQd4L0RlMe3nfK06vaB92_pIxDQuaY8Gt-9QUsG5QhpyIDPP0WqweRXOoD_QkuYhhqQ7U3pQ0ak-ljBEVkpbp7_qXXm9M7AGQqdndCp6x5YfinJgF32mEOKKLzeNy7bbvW3PAqmvjFT60QB5Epr_veWzi8Z4a96gOwLZrUbRoCxoZ5Q-x4yLjt-VzYYhmYeJBn8D9cRzh4yfcCBhAAHbFoZInFw8p1-t1d308HcNxN3azJGDfz95WBV8zpW3xevdw2A7FVOwsI62OubJlZoyBThetf49qYQGV7SUTltSuA8NXyEaJ1r7vqncLsWeP1iRtVjX5fkRyoAM0OEbayYmXCmFmW8je94I9WuJzd63V8W9suwAbfi7FuAVa3HiWNzQLm_66_tBW19IlYj33HFZCHneMzgVidfu0fU1t-Kdsi0v7Kq6F-bPwAS_sHRBaDM/4t0/4x-FB9xMTvasT5JCncoYWw/h9/h001.1wtjElxC4NgTLkuJpaIyy4hgt-jmHOd5PiTT8oUTvTc"
+        },
+        {
+          "text": "Read more.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.kUvzI6OX-sTItSXxMF5KpAONEfi4Xn3n4fcNuUgLByhV_oMkdju-4QJjfQweERrQvw57NcuGVCxZzU3VYImwUaEo3117t45T3ripgAs5h2Qba0r7K6ga9TuMPBxk06RClSW_uz4s1wiPfrMGqoHoz6T24FLntWGGi79cy5hm_Htfs5ldSHX30-1BTmtcYb656O57-O_LsXny17t6FDunzw/4t0/4x-FB9xMTvasT5JCncoYWw/h10/h001.eZciSHt2lvvlej9dP_TUASDAuc8bO6dqu3yOlZj46t0"
+        },
+        {
+          "text": "Read more.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.1-JCqOtjFHvMzmmiHyH__B7m1fRydoGwPn9IK7twFsjNHdezV_C6XcCQqj6EBOPUz2S8a0ioTmCW6EXiQfvemJPo4GLOZG5LEvrqXj08PSBTLpKiQAY7EBNmVcMlLHwTAKCKglAIrxv4rup0aYbR8rVnmN1Hg4oaCMo5DmOjC0U/4t0/4x-FB9xMTvasT5JCncoYWw/h11/h001.P2UdHXKw5XVyMPiJ_3BT0saAyyTO-ER-g9c4FMt_4zI"
+        },
+        {
+          "text": "drill",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.8k90atlToIzd3EHlzAOsVPdCBcyCMsFd9p5IoCL5gPSSS3lKjhZwsSEswEObqVfccf8LH_nlxYtH2MH67CYrOlV-yiPvaQSFskaUJ6VQU4cIIVugkoRAe877_d0Bstof7amI8oR_-boj2jL38ogibb30eLGrnYnNF0T4tWpenf7mtH5A7pjoM8dIjjnemW8O6o-elb0psb6tI5eiGrSLe65L7ftCgY7BXd3mtUNi1RMsmu5Z8Mv85AAo_RmXYFKK6Qfg_uUySDREDfWnqH531rT_TT2ySwZ-Z1fBZwR893M/4t0/4x-FB9xMTvasT5JCncoYWw/h12/h001.Jp4Pyuzpw64o_XSqR3BDS4I016sZ0KD0OoseAH3b9aI"
+        },
+        {
+          "text": "mergiraf",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.8k90atlToIzd3EHlzAOsVOC0VkjWMVxSFKmjVsX_E3Eg4P4ETeXSYcoA7OtPSTMR97XJ3srXdhqRpbkoUXq_TjvXkl604GmbFgVreO2nXq9rCy--z4E9TUJ-6YDmrTZ0IFnepHkhs6VJsNHQxfrtaN-tDnvR4LDky4qiObzvrYQNmUrJ4eHAXcDTz-BErJZd4vQsWsHzhX3PQGGLJ3STmZurVYWAeVFVim7q82xvBQxRSbeOw4NIE3KTKGiPMbN2oSAaZsi3ayU5vMv7JOVfdkkN9x221RbwIs1s_Z_PfwpnwQPjzYFFvXzFa48FkWiM/4t0/4x-FB9xMTvasT5JCncoYWw/h13/h001.4GcInj1B8IqqJuMF5wL438kzLvaV3UzVkkNky6f68Uk"
+        },
+        {
+          "text": "teler",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.8k90atlToIzd3EHlzAOsVDUoqHPSj4xaFBTSeyrpBhy1RnjCMACFBiNFplmsCVzvnogVDWGvsxDQJWzv3vOsuQuBOpOwNtG57EFfCINN6pbOq-B3Bkp9ylhHxZdKay0kiPvCxIgY93b4G4rxcEqMc2nh1mXDDEqeXCRTaNWGneX4-oPTQmpSKYQq2p3qTztTeCflpXbXi1n6TgX1v0lpRGSr4oacev2EPPpAjIBBoXC_6hb_t8FslbeCh3JRbxDonMFvGOea303EshyAfK_WSk2bXZHUYsm72NdR4uoeOr4/4t0/4x-FB9xMTvasT5JCncoYWw/h14/h001.EjfpObGarHO9Z7g_q5Yn3403GnGeLSLgMYZkJ9mOBnY"
+        },
+        {
+          "text": "Why Mean means Nothing.",
+          "url": "https://elinkade.hw-mail.glich.co/ss/c/u001.RzaUTINCg1Xs0-_i-Kl14itSW3DHqTXyiHQX_spBuKgnj7IGiBSX7AbkJXijZ6zwMHJyUSed_mO9A_6oOSyiZhDtjy0e_pi8m1ALn287nHx3BgxhW8UskVASkHjMVcAqwmtCuL9rDE9lNLB7-pXOjmCDslpG6wTTDZFBE87HJ_CNxDmrCWzqS6khgl6qM8ni/4t0/4x-FB9xMTvasT5JCncoYWw/h15/h001.jn8W1T5r2HaOquFLSAdKYqxEJqKcdX5UwCq3x59lbwE"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Jetbrains Hacked and Why everyone want to become Indian now?? ft. Cursor\n\nJetbrains Hacked, Cloudflare's new OS and Why everyone want to become Indian now??  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 08, 2026   |   [Read online](https://elinkade.hw-mail.glich.co/ss/c/u001.oo1OKvJJLUMQEpEGxXjgTGIz4aQpqfwevw5zPNrV3K01wouNypXgsQkc8k5tzGyOkxM2CdV_X_UiVX88MwkTFWAY9M4ngqZ9XZEK-vo0SS7V_0Qw9EURBzh24YvJ4i-INjaEV0u_4Et03-3ESsCNmu3ZrDpvlZxvBvFtP08tWi-9DsYfnoeKgWpa4zuTGW4FUFjmKFKX_Rs51jRG2k2_JlK4y5c8pct6s2JQYJudA-lGlJvDo4LE20tmZIdJnHop2IFQx3pL7pM4VRTPwwUowCog_fh_5O4-VhkrU8nA8fHzXyD3rAphFZz3MV7Vb703fZBdePigZKrHirMIGMJBoBQi-pex9cSQ81h3WnedB"
+    },
+    {
+      "from": "\"Abhijay from Abhijay’s AI Action Letter\" <abhijayvuyyuru@substack.com>",
+      "subject": "OpenAI’s Latest Program Is Paying Students Cash Plus Giving Free Access to Its Tools",
+      "date": "2026-08-08T02:14:28.000Z",
+      "summary": "## AI Action Letter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI is recruiting undergraduate Campus Leads to build AI communities on their own campuses, offering a cash stipend, free access to ChatGPT and Codex, funding for events, training, and direct access to OpenAI team members.\n* The Campus Lead application closes on Monday, August 10, at 11:59pm PT, and requires two 60-second video answers, with no resume or AI portfolio needed.\n* OpenAI is looking for students who are curious, community-minded, and can get people in a room, with no prior AI experience required.\n* The program is open to students in the US, Canada, UK, France, Germany, India, Japan, and South Korea, who are 18 or older, enrolled in an undergraduate program, and graduating after December 2027.\n* Students can apply in pairs, and the application includes a video question on what they've helped make happen on campus, with a focus on events and community building.\n* OpenAI provides free credits and access to its tools, including $100 in free Codex credits for verified students, and a free tier of ChatGPT with limited file uploads and image generation.\n* The company has also announced a program giving eligible researchers 12 months of free Pro-level access to ChatGPT and Codex.\n\n### Notable Links\n* OpenAI's Student Collective: [openai.com/student-collective](https://openai.com/student-collective)\n* OpenAI's announcement thread: [community.openai.com](https://community.openai.com)\n* OpenAI Academy: [academy.openai.com](https://academy.openai.com)\n* ChatGPT free tier: [chatgpt.com](https://chatgpt.com)\n\n### Additional Context\n* OpenAI has been expanding access to its tools, including making ChatGPT more available to free users, and exploring new consumer hardware.\n* The company has also been working on safety and security, including updates on malicious-use disruption and mental-health-related safeguards.\n* OpenAI's moves are closely watched by competitors, regulators, and enterprise customers, and the company continues to influence model capability, pricing, safety standards, and product distribution across the industry.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGYWJoaWpheXZ1eXl1cnUuc3Vic3RhY2suY29tJTJGcCUyRm9wZW5haXMtbGF0ZXN0LXByb2dyYW0taXMtcGF5aW5nIiwicCI6MjEwMzAyMDUwLCJzIjo1ODgyODgzLCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4NjE1NTMzOSwiZXhwIjoyMTAxNzMxMzM5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.CJ73DLABcvp75aJvS1B17Ua1GPGdxhUl1Qon8ChHq3I?"
+        },
+        {
+          "text": "OpenAI’s Latest Program Is Paying Students Cash Plus Giving Free Access to Its Tools",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=210302050&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMDMwMjA1MCwiaWF0IjoxNzg2MTU1MzM5LCJleHAiOjE3ODg3NDczMzksImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.idiVL97_zssGay4JePxACGX9FjHsaIhJoCG3qVq6oXk"
+        },
+        {
+          "text": "Abhijay Arora Vuyyuru",
+          "url": "https://substack.com/@abhijayaroravuyyuru"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/abhijayvuyyuru/p/openais-latest-program-is-paying?redirect=app-store"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=210302050&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMDMwMjA1MCwiaWF0IjoxNzg2MTU1MzM5LCJleHAiOjE3ODg3NDczMzksImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.idiVL97_zssGay4JePxACGX9FjHsaIhJoCG3qVq6oXk"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRmFiaGlqYXl2dXl5dXJ1LnN1YnN0YWNrLmNvbSUyRnAlMkZvcGVuYWlzLWxhdGVzdC1wcm9ncmFtLWlzLXBheWluZyZyPTQ5YnkzNCZ0b2tlbj1leUoxYzJWeVgybGtJam95TlRjMU16ZzJOREFzSW1saGRDSTZNVGM0TmpFMU5UTXpPU3dpWlhod0lqb3hOemc0TnpRM016TTVMQ0pwYzNNaU9pSndkV0l0TlRnNE1qZzRNeUlzSW5OMVlpSTZJbU5vWldOcmIzVjBJbjAucXRYeUQtVmtxcUJjSUlrMDR3YUw3bkUxR2dYUWw2Q204R2N6S1k4YXdRbyIsInAiOjIxMDMwMjA1MCwicyI6NTg4Mjg4MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODYxNTUzMzksImV4cCI6MjEwMTczMTMzOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.0ykIaWQ_hRw2kCGGlY5mQfgP-GiIk3B1HmwtQPHgo_o"
+        },
+        {
+          "text": "openai.com/student-collective",
+          "url": "https://substack.com/redirect/8281c9c3-e9c9-4366-a574-cddd15b51fab?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "community.openai.com",
+          "url": "https://substack.com/redirect/47eca57e-4bcf-4523-9899-8f0a94fc16f4?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "openai.com/index/learn-teach-chatgpt-work-codex",
+          "url": "https://substack.com/redirect/380277d4-d81f-4267-8822-c16e9e133f86?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "academy.openai.com",
+          "url": "https://substack.com/redirect/1f6d2c6f-4a0d-44b4-80e4-9401fb4a376b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "OpenAI’s Latest Program Is Paying Students Cash Plus Giving Free Access to Its Tools![](https://eotrx.substackcdn.com/o/cb9962acbfbe106b/p.gif?token=eyJtIjoiPDIwMjYwODA4MDIxNDI4LjMuYWNkYjdkMjUxMTFlZDY5YUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIxMDMwMjA1MCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo1ODgyODgzLCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzg2MTU1MzM5LCJleHAiOjE3ODg3NDczMzksImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.U92fgcbHQT7rrCtv0oTidiusOQL0eqt5wZL6FoI5jsw)\n\nAI Action Letter #61: The Campus Lead application closes Monday. Here’s what they actually score, plus 50 AI workflows you can use as your answer and every link you need.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    }
+  ],
+  "tldr": [
+    "OpenAI discloses critical cyber incident.",
+    "Alibaba unveils autonomous coding AI model.",
+    "OpenAI recruits undergraduate Campus Leads.",
+    "Cloudflare open-sources AI-first workspace OS.",
+    "JetBrains hacked due to critical vulnerability."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "JetBrains",
+        "context": "JetBrains is a software-development company best known for IDEs and developer tools, and in the AI/ML space it has been building an ecosystem of AI assistants, coding agents, and models for professional software development. Its current AI lineup includes JetBrains AI Assistant, Junie, Mellum/Mellum2, and broader agent integrations such as OpenAI Codex and GitHub Copilot inside JetBrains IDEs, with the company emphasizing an open ecosystem and vendor-neutral agent interoperability through ACP (Agent Client Protocol). [1][2][3][6]\n\nThe latest notable developments are that JetBrains has been rapidly expanding AI integration in its IDEs while also hardening its platform after a security incident: JetBrains reported a Marketplace security update in June 2026 after 15 third-party plugins were found stealing AI provider API keys, and it removed the plugins, blocked the publisher accounts, and disabled the plugins in installed IDEs. This matters because JetBrains sits at the intersection of developer productivity and AI tooling, so its moves affect how enterprises adopt AI coding assistants, how agents are connected to IDEs, and how secure AI workflows are managed across teams; recent releases also show JetBrains pushing beyond assistant features into agent orchestration, analytics, and open-source model deployment. [5][6][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is a leading AI research and deployment company best known for ChatGPT, its frontier models, and a growing suite of developer and consumer tools. The most relevant current context is that OpenAI’s own newsroom highlights several active fronts: a strategic partnership with Amazon, recent product and research releases, and ongoing safety/security work, including updates on malicious-use disruption and mental-health-related safeguards.[1][7][8]\n\nFor the latest industry signal, Reuters reports that OpenAI has recently tightened controls and paused some development on an upcoming model called Astra because of potential cybersecurity risk, showing how safety concerns continue to shape frontier-model development.[6] Reuters also reports the company has cut prices on some models, which could intensify competition on cost in the AI market, while other coverage notes OpenAI has been expanding access by making ChatGPT more available to free users and exploring new consumer hardware.[2][6] In the broader AI/ML space, this matters because OpenAI continues to influence model capability, pricing, safety standards, and product distribution across the industry, while its moves are closely watched by competitors, regulators, and enterprise customers.[1][6]",
+        "source": "web search"
+      },
+      {
+        "topic": "Cloudflare",
+        "context": "Cloudflare is increasingly positioning itself as an AI infrastructure and security platform rather than just a networking company. In its latest AI-related announcements, it has been unifying **AI Gateway** and **Workers AI** into a single control plane, expanding model access for developers, and adding agent-focused features such as identity-aware AI Gateway, WebMCP, and AI Search. Cloudflare also introduced **Cloudflare OS**, described in its press releases as the “first AI workspace built around how companies actually work,” which appears to be the newsletter item you referenced and signals a broader push into AI-native work tools.[2][6][8][9]\n\nThis matters because Cloudflare sits at the intersection of AI building, deployment, and governance. On the security side, it has added tools for prompt protection, unsafe content blocking, AI app risk scoring, crawler controls, and visibility into AI usage, reflecting growing enterprise demand for oversight of generative AI and agents.[1][4][6][9] On the industry side, Cloudflare is also shaping how AI systems interact with the web by tightening controls around AI crawlers and giving websites and brands more say over scraping, attribution, and monetization; that could influence norms for AI content access, agent identity, and web economics more broadly.[4][6][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "Zawinski's Law of MultiAgents",
+        "context": "Zawinski's Law of MultiAgents is a recent AI-community meme and shorthand for a pattern seen in agentic systems: once agents can communicate with each other, they tend to expand toward broader inter-agent messaging and coordination, and systems that cannot do this are at a disadvantage. In the AINews/Latent.Space discussion, it was framed as: “Every agent attempts to expand until it can message other agents. Those agents which cannot so expand are replaced by ones which can.” The underlying point is not a formal theorem, but a description of how multi-agent systems evolve in practice toward richer communication layers, shared memory, and orchestration channels.[1][2]",
+        "source": "web search"
+      },
+      {
+        "topic": "Cursor",
+        "context": "Cursor is an AI coding agent and development platform that helps software teams build, edit, and ship code with more autonomous assistance than a traditional IDE. The company describes itself as an applied research team focused on the future of software development, and its recent product updates show it expanding beyond code completion into agentic workflows, iPad/mobile support, Google Workspace integrations, Slack-based planning, and a new India-specific pricing plan. These changes suggest Cursor is positioning itself as a broader AI work surface for developers rather than just a coding assistant.[1][4][5]\n\nThe latest major developments center on faster and more capable agent models, including Composer 2 and broader improvements to how agents plan, act, and explain their work. Recent reporting says Cursor’s agents can now evaluate their own changes, produce logs/screenshots/videos, and run in parallel across virtual machines, while Bloomberg reported Cursor planned Composer 2 to handle long coding tasks and that the company had surpassed 1 million daily users and 50,000 business customers.[2][3] Industry-wise, Cursor matters because it sits at the center of the AI coding competition with Anthropic, OpenAI, and Microsoft, and its rapid product cadence, high revenue growth, and model-training partnerships signal that AI-assisted software development is becoming a major strategic market.[2][3][8]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [],
+    "entities": [
+      {
+        "name": "Jetbrains",
+        "type": "company",
+        "context": "Mentioned as being hacked in a newsletter"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as launching a program to pay students and give free access to its tools"
+      },
+      {
+        "name": "Cloudflare",
+        "type": "company",
+        "context": "Mentioned as releasing a new OS in a newsletter"
+      },
+      {
+        "name": "Zawinski's Law of MultiAgents",
+        "type": "paper",
+        "context": "Mentioned as a topic of discussion in the AINews newsletter"
+      },
+      {
+        "name": "Cursor",
+        "type": "product",
+        "context": "Mentioned as a feature in the Hello, World! newsletter"
+      },
+      {
+        "name": "AI",
+        "type": "technology",
+        "context": "Mentioned as a broader topic of discussion across multiple newsletters"
+      },
+      {
+        "name": "Machine Learning",
+        "type": "technology",
+        "context": "Implied as a related field to AI in the newsletters"
+      },
+      {
+        "name": "Substack",
+        "type": "company",
+        "context": "Mentioned as the platform hosting the AINews and Abhijay's AI Action Letter newsletters"
+      },
+      {
+        "name": "Abhijay",
+        "type": "person",
+        "context": "Mentioned as the author of the Abhijay's AI Action Letter newsletter"
+      },
+      {
+        "name": "India",
+        "type": "location",
+        "context": "Mentioned as a country where people may want to become citizens, in a humorous tone"
+      }
+    ]
+  },
+  "edition": "evening",
+  "savedAt": "2026-08-08T12:30:38.589Z",
+  "dateString": "2026-08-08"
+}
