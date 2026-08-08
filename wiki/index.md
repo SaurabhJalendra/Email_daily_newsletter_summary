@@ -134,6 +134,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[bonsai-27b]] — PrismML's 27B on-device model; 3.9 GB footprint via 1-bit binary + ternary quantization; retains ~89.5% of FP16 base; first 27B-class model that fits on a phone (Jul 2026)
 - [[aws-blocks]] — Amazon's open-source framework for building modular, reusable cloud apps from composable software components (Jun 2026)
 - [[brain2qwerty-v2]] — Meta FAIR's non-invasive brain-to-text system that decodes typed sentences from MEG brain signals; ~61% word accuracy / 78% best-participant (Jun 2026)
+- [[buzz]] — [[block]]'s Aug 2026 open-source, self-hosted workspace unifying chat + search + Git events + YAML-based automation where humans and AI agents share the same rooms
 - [[canva-ai-2]] — Canva's Apr 2026 AI-native creative environment; fully editable generated designs *(stale)*
 - [[career-ops]] — Open-source AI system by Santiago Fernández de Valderrama that automates end-to-end job search (~50K+ GitHub stars at launch, Jun 2026)
 - [[canva-design-model]] — Canva's in-house multimodal foundation model *(stale)*
@@ -406,6 +407,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad *(stale)*
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
 - [[computer-use]] — models that drive GUIs directly; Aug 2026 [[hark-handoff]] launch adds consumer/lifestyle-tier entrant (food ordering, shopping, recruiting) alongside prior coding-agent + browser-agent tiers
+- [[continual-learning]] — Aug 2026 topic — models that keep learning from user interactions after deployment; Dwarkesh Patel's 8-prediction essay reframes AI-safety-regulation baseline + productizes user-lock-in as moat + shifts alignment methodology
 - [[ethan-mollick]] — Wharton professor / One Useful Thing author; "co-intelligence" framer; *Co-Existence* book Oct 20 2026
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[forward-deployed-engineer]] — customer-embedded software/ML engineer role owning AI-solution lifecycle; from Palantir → OpenAI + Anthropic + AWS ($1B org) + Microsoft (Jul 2026)
