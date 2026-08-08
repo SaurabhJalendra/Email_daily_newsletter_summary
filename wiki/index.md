@@ -53,6 +53,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ibm]] — enterprise-software incumbent; watsonx + Granite; launches [[ibm-bob]] AI coding partner for enterprise SDLC (Jul 2026)
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*
 - [[interpositive]] — Ben Affleck's 16-person AI-post-production startup (project-specific dailies-trained tools); acquired by [[netflix]] for $587M+ (Jul 2026)
+- [[jetbrains]] — Czech developer-tools company (IDEs, TeamCity CI, AI Assistant, Junie, Mellum2); Aug 2026 unauthenticated RCE in TeamCity On-Premises actively exploited
 - [[jpmorgan-chase]] — investment bank; LLM Suite aggregates OpenAI + Anthropic; "fully AI-powered megabank" commitment; $18B/yr tech (Jun 2026)
 - [[kling-ai]] — Kuaishou spin-off Chinese AI video-generation company; $15B valuation Jul 2026 (~$2.8B round led by Alibaba + Tencent); short-form AI video focus
 - [[lila-sciences]] — AI-run science startup building a "lab as data center"; automated experiments 24/7 → 10T experimentally validated scientific tokens; CTO Andy Beam + CSO Rafa Gómez-Bombarelli (Jul 2026)
