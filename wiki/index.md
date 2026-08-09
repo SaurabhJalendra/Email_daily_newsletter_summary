@@ -357,6 +357,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwen-3-5]] — Alibaba's Feb 2026 vision-language MoE family; 397B-A17B Max, Medium MoE, Small tiny-model tier *(stale)*
 - [[qwen-3-vl]] — Alibaba's compact vision-language models *(stale)*
 - [[qwen-agentworld]] — Alibaba's family of language world models for agents — 10M+ environment-interaction trajectories simulating MCP/Search/Terminal envs (Jun 2026)
+- [[qwen-cua]] — Alibaba's Aug 2026 computer-use agent — operates GUIs via screenshots + native keyboard/mouse events; claims 86.2 OSWorld-Verified SOTA + strong WebArena results
 - [[qwen-image]] — Alibaba open-source image model called "open-source king" Jan 2026 *(superseded)*
 - [[qwen-image-2]] — Alibaba's Feb 2026 unified image gen + editing model; #2/#3 AI Arena Elo *(stale)*
 - [[qwen-image-3]] — Alibaba's Jul 2026 image model; 4,500-token prompts + 10px legible text + 12-language rendering + real-looking UI mockups; invite-only, no open weights, mixed vs GPT Image 2
