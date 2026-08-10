@@ -130,7 +130,7 @@ jobs:
             - Be specific: names, dollar amounts, dates, version numbers. No vague summaries.
             - Do NOT commit — the next workflow step handles commits.
           claude_args: |
-            --max-turns 80
+            --max-turns 120
             --model claude-opus-4-7
             --allowedTools Read,Write,Edit,Glob,Grep
 
@@ -217,7 +217,7 @@ jobs:
             - `critical` = send should be blocked, `warning` = ok but notable, `info` = nit.
             - Be specific: cite page numbers for visual issues, line numbers for content issues.
           claude_args: |
-            --max-turns 40
+            --max-turns 60
             --model claude-opus-4-7
             --allowedTools Read,Write,Glob,Grep
 

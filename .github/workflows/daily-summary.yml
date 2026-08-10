@@ -131,7 +131,7 @@ jobs:
             - Be concise. Timeline entries are one line each. Summary sections are 1-2 paragraphs.
             - If you encounter a contradiction between new info and existing page content, resolve it by checking the source JSON — the newer source wins unless clearly wrong.
           claude_args: |
-            --max-turns 50
+            --max-turns 80
             --model claude-opus-4-7
             --allowedTools Read,Write,Edit,Glob,Grep
 
@@ -242,7 +242,7 @@ jobs:
             - Be specific: cite newsletter subjects, byte counts, etc.
             - If all checks pass, report PASS with empty issues array.
           claude_args: |
-            --max-turns 25
+            --max-turns 50
             --model claude-opus-4-7
             --allowedTools Read,Write,Glob,Grep
 
