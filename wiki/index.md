@@ -18,6 +18,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[apple]] — solo-AI strategy abandoned; Siri+Gemini deal; M5 chip; Subramanya new AI VP
 - [[assemblyai]] — voice/speech AI vendor; Voice Agent API collapses pipeline into a single WebSocket (Jun 2026)
 - [[auth0]] — identity platform; Auth0 for AI Agents *(stale)*
+- [[backflip-ai]] — AI startup building scan-to-editable-CAD generation for engineering, architecture, and product design (Aug 2026)
 - [[baidu]] — Chinese search/cloud giant; ships Unlimited-OCR 3B open-source (93.23% OmniDocBench, R-SWA attention, 8GB VRAM) Jul 2026 + ERNIE-4.5-VL-Thinking multimodal reasoning
 - [[baseten]] — AI inference + post-trained-open-models compute company; $1.5B Series F at $13B valuation Jun 2026; "owned intelligence" infrastructure thesis
 - [[black-forest-labs]] — German image-gen lab; ships FLUX.2 *(stale)*
@@ -187,6 +188,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cursor]] — AI IDE; 1.7, Plan Mode, 2.0 with Composer and multi-agent UI; $3B ARR + SpaceX $60B option
 - [[databricks]] — data-lakehouse + AI platform; $188B Series M funding (Jul 2026); third-party benchmark authority for coding agents
 - [[cursor-composer]] — Cursor's first in-house coding model; ~4× faster, sub-30-second tasks *(stale)*
+- [[cursor-composer-2]] — Cursor's coding-specialized model built via CPT + RL on Kimi-K2.5 base; canonical mid-2026 [[midtraining]] landing example (Aug 2026)
 - [[cursor-composer-2-5]] — Cursor's May 2026 RL-trained model; 79.8% SWE-Bench Multilingual at ~10× efficiency *(stale)*
 - [[cursor-router]] — Cursor's intelligent per-request model router (Intelligence/Balance/Cost modes); 60% AI coding cost cut vs single-premium-model default; 600K+ live-coding-request classifier (Jul 2026)
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier *(stale)*
@@ -306,7 +308,9 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
-- [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; internal version solved 10 previously-open math/theoretical-CS problems at ~$2K token cost, Lean-verified; GPT-6 vs GPT-5.x variant branding undecided (Aug 2026)
+- [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; formally designated "critical" cybersecurity-capable AI (weights locked + sandbox-restricted), split-flagship pair to [[openai-doug]]; internal version solved 10 previously-open math problems (Aug 2026)
+- [[openai-doug]] — OpenAI's massive pre-training frontier run targeting base capabilities through raw scaling; sibling to Astra in a two-model frontier split (Aug 2026)
+- [[openai-nextslide]] — OpenAI-acquired presentation startup turning raw model outputs into polished slide decks; step toward a full office suite inside ChatGPT (Aug 2026)
 - [[openai-companion]] — OpenAI's first consumer device: screenless, movable smart speaker, $200-300, early 2027 ship, GPT-Live inside, Jony Ive design team, "humanlike AI companion for the home" (Jul 2026)
 - [[openai-daybreak]] — OpenAI's frontier cyber-defense platform pairing GPT-5.5 + Codex Security (May 2026)
 - [[openai-deployco]] — OpenAI's $4B enterprise-deployment subsidiary at $10B (May 2026)
@@ -319,6 +323,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mistral-ocr-3]] — Mistral's OCR model; ~97% accuracy, strong on European documents *(stale)*
 - [[mistral-ocr-4]] — Mistral's OCR successor — bounding boxes + confidence scores + 170 languages + single-container deployment; built specifically for RAG pipelines (Jun 2026)
 - [[mistral-studio]] — Mistral's production-AI platform *(stale)*
+- [[muse-glimmer]] — Meta's open-source 30B model optimized for "always-on" agents; fourth Muse-family product-line (Aug 2026)
 - [[muse-image]] — Meta's first proprietary AI image-generation model; Muse family replaces Llama era; Muse Spark agentic integration; #2 Image Arena at launch (Jul 2026)
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
 - [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer for [[no-code-ai-automation]] cohorts wiring LLM APIs + agents into business SaaS (Jul 2026)
@@ -421,6 +426,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[jonathan-ross]] — Groq founder + Google TPU inventor; now NVIDIA Chief Software Architect after Dec 2025 $20B Groq-NVIDIA deal — 3-week phone call into NVIDIA's largest deal ever (Jul 2026)
 - [[latent-space-reasoning]] — training-free open-weight capability lift via embedding-space vector injection ("perturbation"); Devansh reports 4B model 32%→72% accuracy, ~56× cheaper than scaling to GPT-5.6 Sol; open-sourced (Jul 2026)
 - [[loop-engineering]] — named developer discipline of designing autonomous agent loops (triggers + actions + verification gates) for self-check + self-correct execution cycles; sibling to prompt-engineering / context-engineering / harness-design; "autonomous software assembly lines" per AlphaSignal (Jul 2026)
+- [[midtraining]] — intermediate LLM training stage between pretraining and post-training; includes Continued Pretraining (CPT) and mid-training data-mixture adaptation; canonicalized by Cameron R. Wolfe (Aug 2026)
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
 - [[model-routers]] — the "missing middleware" for scaling AI apps — heuristic + learned + cascade + ensemble/fusion architectures; OpenRouter Fusion Router + Not Diamond + NadirClaw + ACRouter reference implementations (Jul 2026, AlphaSignal essay)
 - [[omar-yaghi]] — Nobel-laureate chemist (reticular chemistry / MOFs); departs UC Berkeley to lead Tsinghua University's new AI for Chemistry and Materials Science Research Center in Beijing (announced Jul 4 2026)
