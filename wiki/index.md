@@ -102,6 +102,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[suno]] — Cambridge-based AI music-generation startup; $400M Series D at $5.4B led by Bond Capital (Jun 2026); Warner settled, Universal/Sony lawsuits ongoing
 - [[taalas]] — AI inference silicon startup — hardware designed around the model, world's fastest + most cost-effective inference silicon per own framing; acquired by [[amd]] (Aug 2026)
 - [[terawulf]] — US-listed compute-infrastructure operator (former Bitcoin miner pivoting to AI-DC hosting); $19B multi-year Anthropic AI-infrastructure lease deal + initial capacity 2H 2027 (Jul 2026)
+- [[tesla]] — Elon Musk's EV + AI-hardware company; Optimus + Cybercab + Dojo + [[terafab]] JV with SpaceX; five-tier vertical AI stack (silicon-fab → compute → chip → robotics/AV → consumer) (Aug 2026)
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
 - [[together-ai]] — open-source AI infrastructure company; $800M @ $8.3B (Jul 2026) — "cheap open-source plumbing" thesis for making frontier AI accessible
 - [[volta]] — NVIDIA-backed AI-infrastructure startup emerging from stealth at $2.4B valuation; six-year $10B Anthropic capacity deal (133MW Vera Rubin alongside Bitdeer Technologies) (Aug 2026)
@@ -382,6 +383,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[tabicl]] — Inria/SODA Team's open-source tabular foundation model; two-stage distribution-aware column embedding + row-wise attention; TabICL v2 SOTA on TabArena (Jul 2026)
 - [[tabpfn]] — Prior Labs' Nature-paper tabular foundation model; transformer trained on synthetic tabular tasks; outperforms XGBoost/AutoGluon on ≤10K-sample datasets with ~1000× speedup (Jul 2026)
 - [[tesla-megapod]] — Tesla's modular AI data center hardware system; self-contained compute pod bundling servers/networking/power/cooling; bid into AI-infrastructure-vendor market against NVIDIA DGX
+- [[terafab]] — Tesla + SpaceX jointly-developed AI chip factory in Grimes County, Texas outside Houston; $16.8B initial investment; logic + memory chips for Optimus + Cybercab + SpaceX orbital DCs; >100M sq ft + 3,000+ employees (Aug 2026)
 - [[tinker-api]] — Thinking Machines' LLM fine-tuning API *(stale)*
 - [[tml-interaction-small]] — Thinking Machines' 276B-A12B native real-time interaction model; 200ms audio/video/text micro-turns (May 2026) *(stale)*
 - [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B) *(stale)*
