@@ -199,6 +199,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek-v3-2]] — DeepSeek V3.2 matches GPT-5; V3.2-Speciale rivals Gemini 3 Pro w/ IMO/IOI/ICPC gold *(stale)*
 - [[deepseek-v4]] — DeepSeek's Apr 2026 frontier MoE family (V4-Pro + V4-Flash); open-sourced; triggers AI-pricing collapse *(stale)*
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
+- [[dyna-2]] — Dyna Robotics's world-action model pre-trained on 1M+ hours of human video; 87% real-world zero-shot pass rate on unseen robot hardware; scaling-laws-for-robotics anchor (Aug 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
 - [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(superseded by [[flux-3]])*
 - [[flux-3]] — Black Forest Labs' Jul 2026 multimodal foundation model (image + video + audio + robotics); powers real-world factory robots at Audi
@@ -244,6 +245,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-5-4-cyber]] — OpenAI's defensive-cybersecurity fine-tune of GPT-5.4 under expanded Trusted Access for Cyber program (Apr 2026) *(stale)*
 - [[gpt-5-5]] — OpenAI's late-Apr 2026 flagship; "new class of intelligence for real work" — agentic computing, long-horizon tasks
 - [[gpt-5-5-cyber]] — OpenAI's cybersecurity-specialist variant of GPT-5.5; record 85.6% on CyberGym; for verified defenders via OpenAI Daybreak (Jun 2026)
+- [[gpt-5-6-cyber]] — OpenAI's Aug 2026 hacking-tuned GPT-5.6 variant inside expanded [[openai-daybreak]]; answers 95% of advanced cyberattack requests; vetted-defender access only
 - [[gpt-5-6]] — OpenAI's Jul 2026 flagship; Sol ($5/$30 pricing) / Terra (2× cheaper than GPT-5.5, balanced) / Luna (fast/low-cost); Thursday July 9 GA under "robust safety stack" + Terminal-Bench 2.1 SOTA
 - [[gpt-live]] — OpenAI's Jul 2026 full-duplex voice model — listens + speaks simultaneously with mid-sentence handoff to larger models; rebuild of ChatGPT voice mode
 - [[google-ai-studio]] — Google's free playground for testing/comparing AI models incl. Gemini 3.5 Flash; side-by-side runs + prompt-builder; Google login (Jun 2026)
