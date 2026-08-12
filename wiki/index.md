@@ -88,6 +88,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[recursive-superintelligence]] — Tim Rocktäschel ex-DeepMind RSI startup; $650M @ $4.65B in a single day (May 2026) *(stale)*
 - [[reflection]] — NVIDIA-backed US open-source lab founded by ex-Google DeepMind researchers; $6.3B SpaceX Colossus 2 / GB300 compute deal (Jun 2026)
 - [[replit]] — browser IDE; non-coder pivot *(stale)*
+- [[river-ai]] — Igor Babuschkin's home-computer AI startup; $1.1B raise; user-owned trainable/tuned/controlled AI; open-source technology commitment (Aug 2026)
 - [[runway]] — AI video; Gen-4.5 tops Veo 3 and Sora; ships [[runway-dev]] developer-API Jul 2026
 - [[safe-superintelligence]] — Ilya Sutskever's frontier lab; Nvidia $5B partnership + Vera Rubin access + 10× compute uplift + co-develops future AI hardware (Jul 2026)
 - [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
@@ -251,6 +252,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[google-ai-studio]] — Google's free playground for testing/comparing AI models incl. Gemini 3.5 Flash; side-by-side runs + prompt-builder; Google login (Jun 2026)
 - [[googlebook]] — Google's Gemini-native premium AI laptop category; Magic Pointer AI cursor; ships fall 2026 *(stale)*
 - [[granola]] — AI notepad turning months of meeting notes into a searchable memory with cited answers; canonical *accumulation*-archetype [[ai-moats]] example (Jul 2026)
+- [[grok-bot]] — SpaceXAI's iMessage-style team-of-agents product; per-agent dedicated cloud computer + app sign-in + cross-agent context sharing (Aug 2026)
 - [[grok-build]] — xAI's CLI coding agent for SuperGrok Heavy subscribers (May 2026)
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding *(stale)*
 - [[gpt-bidi]] — OpenAI's pre-launch bidirectional voice architecture for ChatGPT voice mode; first surfaced via AI Breakfast (Jun 2026)
@@ -438,6 +440,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ontologies-for-agents]] — Semantic-Web ontology revival as deterministic guardrails for probabilistic agents; Neo4j "smarter shared substrate" + OpenLink Software "agent engineering stack"; Frank Coyle + Emil Eifrem + Kingsley Idehen (Jul 2026)
 - [[open-secure-ai-alliance]] — Nvidia-led cross-vendor AI-safety coalition launched Jul 2026 after Sol/HF breach; 30+ orgs including Microsoft/HF/IBM/Cloudflare/Cisco/Red Hat/Salesforce/SAP; OpenAI + Google + Anthropic notably absent
 - [[orbital-data-centers]] — space-based AI compute initiatives; SpaceX, Project Suncatcher, Cowboy Space Corp, Starcloud (May 2026)
+- [[reasoning-trace-extraction]] — cross-vendor API vulnerability disclosed by Alexander Panfilov et al. that enables extraction of hidden reasoning tokens from frontier LLM APIs (Claude, GPT, Gemini); reasoning-token count matches billed thinking-tokens 1:1 (Aug 2026)
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026) *(stale)*
 - [[software-factories]] — cross-vendor thesis (Warp Oz + Cursor FDE + Factory) that every major software project will soon run on an automated main-loop factory (triage → spec → implement → review → verify → ship → monitor) (Jul 2026)
 - [[tabular-foundation-models]] — new pretrained model class for structured/tabular data (spreadsheets, CSVs, DB tables); zero-shot in-context learning replaces per-dataset training; canonical cohort TabFM/TabPFN/KumoRFM/TabICL (Jul 2026)
