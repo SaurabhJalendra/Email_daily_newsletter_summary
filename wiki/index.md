@@ -300,6 +300,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mai-cyber-1-flash]] — Microsoft's Jul 2026 cost-optimized AI cybersecurity model; 96% CyberGym paired with GPT-5.4; half the cost of previous MAI cyber system; integrated into Microsoft MDASH agent system
 - [[mai-thinking-1]] — Microsoft's first internally-built reasoning + Codex-competitor model family (MAI-Thinking-1 35B-active + MAI-Code-1-Flash 5B); Build 2026 (Jun 2026)
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video *(stale)*
+- [[matraix]] — Harvard-MIT digital world simulating Earth's population with 8.3B agents mirroring real humans; large-scale multi-agent social simulation substrate (Aug 2026)
 - [[medgemma]] — Google open medical-imaging model family (Jan 2026) *(stale)*
 - [[melius]] — node-based creative canvas for AI-generated digital assets; bulk team generation via top image + video models; positions against chat-tier AI creative-tool excessive-prompting + inconsistency (Jul 2026)
 - [[meta-compute]] — Meta's forthcoming cloud infrastructure business selling AI compute + hosted models from $183B surplus data-center capacity; challenges AWS/Azure/GCP (Jul 2026)
