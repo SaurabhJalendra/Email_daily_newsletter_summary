@@ -419,6 +419,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-plugin-standard]] — Aug 2026 shared plugin spec agreed by Amazon + Cursor + Microsoft + OpenAI + Vercel — build-once, run-anywhere; sits alongside [[model-context-protocol]] as second cross-vendor plugin interop primitive
 - [[ai-supply-chain-attacks]] — DPRK-linked npm/PyPI/Packagist/marketplace package compromises + registry-tier defensive responses (Github Dependabot 3-day hold-and-observe); foundational-dependency targeting reaches AI-toolchain transitively (Aug 2026 creation, covers 2026-05 → 2026-08 arc)
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad *(stale)*
+- [[ai-watermarking]] — frontier-lab invisible-signature systems for detecting AI-generated content; Anthropic Aug 2026 Claude text watermark + Text Detection API, tied to EU AI Act transparency code applied worldwide (Aug 2026)
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
 - [[computer-use]] — models that drive GUIs directly; Aug 2026 [[hark-handoff]] launch adds consumer/lifestyle-tier entrant (food ordering, shopping, recruiting) alongside prior coding-agent + browser-agent tiers
 - [[continual-learning]] — Aug 2026 topic — models that keep learning from user interactions after deployment; Dwarkesh Patel's 8-prediction essay reframes AI-safety-regulation baseline + productizes user-lock-in as moat + shifts alignment methodology
@@ -465,7 +466,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-pace-letter]] — 1,000+ frontier-lab staffers (OpenAI + Anthropic + GDM + Meta + Thinky) cosign July 2026 open letter urging US government to develop "technical and governance tools to deliberately pace" automated AI research; official @OpenAI account amplifies (Jul 2026)
 - [[ai-regulation]] — government / judicial / labor / safety pressure on AI labs
 - [[open-source-models]] — mid-2026 open-weights (GLM / Qwen / DeepSeek / MiniMax / Kimi K2) frontier-parity at 1/6-1/10 cost + Nathan Lambert Interconnects "6 months to live" regulatory-threat framing (Jul 2026)
-- [[ai-slop]] — AI-content flood quality concerns; YouTube 20%+, Instagram Mosseri commentary *(stale)*
+- [[ai-slop]] — AI-content flood quality concerns; YouTube 20%+, Instagram Mosseri commentary; Anthropic Claude watermarking as first frontier-lab mitigation-response (Aug 2026)
 - [[enterprise-ai]] — AI moving into workplace software; PwC + Accenture 30K-staff Claude Code rollouts; Goldman Sachs Claude (May 2026)
 - [[neo-labs]] — cohort of narrow-thesis AI labs founded 2025-26 by elite researchers from Anthropic/OpenAI/DeepMind/Google Brain: self-improvement / memory / world models / physical / continual learning (Jun 2026)
 - [[no-code-ai-automation]] — freelancer/agency/SMB pattern of building AI-powered business workflows via [[n8n]] + LLM APIs + [[claude-code]], with Skool-community education (e.g., [[ai-automation-society]]) as the discovery + training layer (Jul 2026)
