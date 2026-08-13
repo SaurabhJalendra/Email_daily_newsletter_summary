@@ -263,6 +263,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[grok-4-20]] — xAI's Feb 2026 Grok upgrade; four-agent parallel research workflow, public beta *(stale)*
 - [[grok-4-5]] — xAI/SpaceXAI's Jul 2026 Opus-class Grok; $2/$6 pricing "cheapest smart model on the market"; Word/Excel/PowerPoint plugins; 21 multilingual Grok Voice voices with 1-min cloning
 - [[grok-4-6]] — xAI's ~Aug 7 2026 1.5T-parameter Grok successor to 4.5 with improved SFT+RL; Kimi K3-tier target; Grok 4.7 (2.1T) queued a few weeks behind + Arena.ai eval slot
+- [[grok-4-7]] — xAI/SpaceXAI's Grok 4.6 successor; ships in 3-4 weeks (early-Sept 2026); supplemental training on SpaceX internal data; Musk claims "exceed all current models"
 - [[gpt-red]] — OpenAI's dedicated adversarial red-team AI trained via self-play at compute-scale of largest model runs; 84% test-scenario success vs 13% human red-teamers (Jul 2026)
 - [[hark-handoff]] — Hark's Aug 2026 first product — computer-use agent for everyday tasks (food ordering, shopping, recruiting talent); lifestyle-tier entrant in the [[computer-use]] category
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
