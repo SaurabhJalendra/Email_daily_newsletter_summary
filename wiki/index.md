@@ -193,6 +193,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cursor-composer-2]] — Cursor's coding-specialized model built via CPT + RL on Kimi-K2.5 base; canonical mid-2026 [[midtraining]] landing example (Aug 2026)
 - [[cursor-composer-2-5]] — Cursor's May 2026 RL-trained model; 79.8% SWE-Bench Multilingual at ~10× efficiency *(stale)*
 - [[cursor-router]] — Cursor's intelligent per-request model router (Intelligence/Balance/Cost modes); 60% AI coding cost cut vs single-premium-model default; 600K+ live-coding-request classifier (Jul 2026)
+- [[deepseek-harness]] — DeepSeek's Aug 2026 open-source plugin-first agent framework under MIT license; four ready modes (Standard, Code, Minimal, Creator); commercial use with zero restrictions
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier *(stale)*
 - [[deepstream-9-1]] — NVIDIA's Aug 2026 edge vision AI SDK update; agentic "skills" architecture — Multi-View 3D Tracking (MV3DT) + AutoMagicCalib camera calibration; natural-language-prompt-driven multi-camera pipelines
 - [[deepseek-ocr]] — open-source OCR with 10× vision-token compression, 97% accuracy *(stale)*
@@ -218,6 +219,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-5-flash-cyber]] — Google's Jul 2026 gated cybersecurity-tuned Gemini; fine-tuned to find/validate/patch software vulnerabilities; access restricted to governments + trusted partners; underpins CodeMender autonomous security agent
 - [[gemini-3-5-flash-lite]] — Google's Jul 2026 budget-workhorse Gemini tier; $0.30/M input + $2.50/M output; beats older Gemini 3 Flash on several evaluations; configurable thinking levels
 - [[gemini-3-6-flash]] — Google's Jul 2026 workhorse Gemini Flash successor to 3.5 Flash; 17% fewer output tokens; efficiency-tuned for high-volume agentic and coding workloads; rolls into GitHub Copilot
+- [[gemini-3-7-flash]] — Google's Aug 2026 GA workhorse Flash-tier for coding + agents; 16-point DeepSWE jump + near-doubling AutomationBench; 1M context + tunable thinking; $0.75/$3.75 introductory pricing through Dec 31 2026 (doubles Jan 1 2027); third Flash release in three weeks
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence *(stale)*
 - [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella; grounded summarization + citation + multi-source synthesis with deeper Gemini-app + Google-Search integration (Jul 2026)
 - [[gemini-omni]] — Google's I/O 2026 conversational video model; any-input → editable video; "Nano Banana for video"
@@ -392,6 +394,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[terafab]] — Tesla + SpaceX jointly-developed AI chip factory in Grimes County, Texas outside Houston; $16.8B initial investment; logic + memory chips for Optimus + Cybercab + SpaceX orbital DCs; >100M sq ft + 3,000+ employees (Aug 2026)
 - [[tinker-api]] — Thinking Machines' LLM fine-tuning API *(stale)*
 - [[tml-interaction-small]] — Thinking Machines' 276B-A12B native real-time interaction model; 200ms audio/video/text micro-turns (May 2026) *(stale)*
+- [[ultrafast-api]] — OpenAI's Aug 2026 new API tier for GPT-5.6 Sol; up to 14× faster than Standard + up to 750 output tokens/sec; Cerebras-powered limited preview; paired with Priority Processing→Fast mode rename + Terra/Luna price cuts
 - [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B) *(stale)*
 - [[trex]] — [[greptile]]'s runtime-validation extension — autonomously writes + executes tests for each PR in a dynamic sandbox, returning screenshots + logs as concrete proof of failure; claims 4× faster merges + 3× more production-blocking bugs caught vs static-only review (Aug 2026)
 - [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell) *(stale)*
