@@ -1,0 +1,53 @@
+---
+name: GLM 5.3
+description: Zhipu AI (Z.ai)'s Aug 2026 open-weight GLM successor to GLM-5.2 — ~750B parameters (~⅓ of Kimi K3's), beats Kimi K3 + Claude Fable 5 + GPT-5.6 Sol on many benchmarks; available now in Z.ai coding plan; Hugging Face open-weights release in two weeks under staged safety review
+type: product
+---
+
+# GLM 5.3
+
+> **Type**: product
+> **Vendor**: [[zhipu-ai]] (Z.ai)
+> **First mentioned**: 2026-08-15-morning
+> **Last updated**: 2026-08-15-morning
+> **Status**: coding-plan-available; open weights release scheduled ~2 weeks (staged safety review)
+> **Related**: [[zhipu-ai]], [[glm-5-2]], [[glm-5-5]], [[glm-5]], [[glm-4-7]], [[kimi-k3]], [[qwen-3-8-max]], [[claude-fable-5]], [[gpt-5-6]], [[deepseek-v4]], [[open-source-models]], [[open-fable]]
+
+## Summary
+
+GLM 5.3 is [[zhipu-ai]]'s Aug 2026 open-weight successor to [[glm-5-2]], announced by Nathan Lambert / [[interconnects]] on 2026-08-14 in a dedicated post *"GLM-5.3: How Chinese labs keep stride with the frontier."* The model achieves exceptional benchmark results with only **~750B parameters** — roughly **one-third the parameter count of [[moonshot-ai]]'s [[kimi-k3]]** — while surpassing K3 and matching or beating **[[claude-fable-5]]** and **[[gpt-5-6]] Sol** on many benchmarks. Z.ai attributes the leap to *"more environments, more diverse tasks, and more compute spent training on them,"* framing it as a post-training + RL-environments win rather than a scaling story.
+
+Structurally, GLM-5.3 is the intermediate release between [[glm-5-2]] (Jun 2026) and the previously-forecast [[glm-5-5]] (Aug 2026), landing in ~2 months after 5.2 and sustaining Z.ai's *~monthly Chinese-frontier-lab release cadence* alongside [[kimi-k3]] + [[qwen-3-8-max]] + [[deepseek-v4]]. Lambert's post explicitly argues this is *"really not a distillation story"* — Z.ai's success stems from a strong team with close ties to Tsinghua University, a faster release cycle (days rather than months), and public-benchmark discipline. Z.ai is taking a **staged approach to release**, giving selected security partners access to evaluate the model in controlled settings before broader API availability, with **complete open weights on Hugging Face in two weeks** once safety evaluations complete.
+
+## Timeline
+
+- **2026-08-15-morning**: **Z.ai announces GLM-5.3 with ~750B parameters (⅓ of Kimi K3) beating K3 + Fable 5 + Sol on many benchmarks; available now in Z.ai coding plan; open weights on Hugging Face in two weeks under staged safety-partner review**. Interconnects MEDIUM cycle-headline *"GLM-5.3: How Chinese labs keep stride with the frontier"*: *"Z.ai announced the release of their GLM-5.3 model, which has achieved exceptional results, surpassing Moonshot AI's Kimi K3 and Claude Fable 5 or GPT-5.6-Sol on many benchmarks, with only ~750B parameters, a third of Kimi K3's parameters"* + *"the company citing 'more environments, more diverse tasks, and more compute spent training on them' as the reason for its success"* + *"the simplest explanation is that Z.ai is very good at what they do, with a strong team and close ties to Tsinghua University, and that the company's focus on public benchmarks and faster release cycle may contribute to their success"* + *"time to release of days, not months"* + *"Z.ai has acknowledged the potential dual-use risks of their model and is taking a staged approach to release, with selected security partners evaluating the model in controlled settings before broader access and API availability"* + *"the company will publish the complete model weights once the necessary safety evaluations and release preparations are complete"* (*~2 weeks per Lambert*). Daily-digest AI Models & Research anchor: *"Z.ai announces the release of its GLM-5.3 model, achieving exceptional results on many benchmarks. This model's success, despite having fewer parameters than its competitors, underscores the importance of effective training strategies and post-training processes in AI model development"*. First publicly framed on this cycle: (a) **GLM-5.3 as concrete named release** — resolves the [[glm-5-5]] pre-announcement thesis with an **intermediate 5.3 landing before the forecast 5.5** (5.5 was targeted per 07-21 Z.ai roadmap); canonicalizes Z.ai's *~2-month minor-version cadence* pattern (5.2 Jun → 5.3 Aug); (b) **~750B parameters / one-third of Kimi K3** — first concrete parameter-count anchor + first cross-lab parameter-count-differential anchor on the mid-2026 open-frontier cohort (Kimi K3 ~2.5T + GLM-5.3 ~750B); productizes the *smaller-model-beats-larger-model* pattern that Interconnects has canonicalized as *post-training-drives-frontier-improvement*; (c) **beats Kimi K3 + Claude Fable 5 or GPT-5.6-Sol on many benchmarks** — first publicly framed *open-model-beats-both-open-leader (K3) + closed-frontier-leaders (Fable 5 + Sol)* on Z.ai in this wiki; sharpens the multi-cycle [[open-source-models]] *"6 months to live"* thesis with a *concrete open-model-beats-both-Fable-and-Sol anchor* at ~⅓ the parameter count of K3; (d) **"more environments, more diverse tasks, and more compute spent training on them"** — first publicly framed *Z.ai official attribution* for the training win — extends the [[midtraining]] + post-training-innovation thesis with a *diverse-RL-environments + more-compute-on-post-training* anchor; explicitly contrasts with distillation-story explanations (Lambert: *"really not a distillation story"*); (e) **staged safety-partner release + 2-week Hugging Face timeline** — first publicly framed *staged safety-review-before-open-weights posture* on a Chinese-frontier-lab open-weights release in this wiki; structurally parallel to Western-frontier-lab dangerous-capability-eval pipelines (Anthropic Preparedness + OpenAI Trusted-Access), but from Z.ai — first publicly framed *Chinese-open-frontier-lab dual-use-risk acknowledgement + staged-safety-partner-review* substrate; (f) **"time to release of days, not months"** — first publicly framed *concrete Chinese-lab-release-cycle-tempo advantage* anchor; Lambert argues this cycle-speed + public-benchmark-discipline is *structural moat* rather than benchmark-gaming. Structurally significant three ways: (i) **GLM-5.3 lands as third pillar of mid-2026 Chinese-open-frontier-tier alongside [[kimi-k3]] + [[qwen-3-8-max]]** — three-model open-cohort now beats or matches every Western closed-frontier flagship (Fable 5 + Opus 5 + Sol Max) on many benchmarks; canonicalizes the *Chinese-open-frontier-cohort as frontier-parity substrate* thesis into concrete Aug 2026 anchor; (ii) **Parameter-efficiency-tier-leadership from Z.ai** — 750B beating 2.5T Kimi K3 productizes the *smaller-post-trained-model-can-beat-larger-model* pattern into a *concrete cross-vendor parameter-count-differential canonical anchor*; likely template for future frontier-open-weights vendor announcements (*"our smaller model beats their larger model"* becomes the canonical positioning); (iii) **Z.ai staged safety-partner release + 2-week HF timeline** — first Chinese-frontier-lab publicly framed *dual-use-risk acknowledgement + staged-safety-review-before-open-weights* posture, structurally analogous to Anthropic Preparedness Framework + OpenAI Trusted-Access + Google Frontier Safety Framework Western-lab-tier safety-posture patterns; validates the multi-cycle *Chinese-open-frontier-lab-adopts-safety-substrate* arc (parallel to earlier [[claude-mythos]] Chinese-copycat-risk framings). See [[zhipu-ai]] + [[glm-5-2]] + [[glm-5-5]] + [[kimi-k3]] + [[claude-fable-5]] + [[gpt-5-6]] + [[open-source-models]] + [[midtraining]] — *source: data/summaries/2026-08-15-morning.json (Interconnects MEDIUM "GLM-5.3: How Chinese labs keep stride with the frontier"; daily-digest AI Models & Research anchor)*
+
+## Key Facts
+
+- **Vendor**: [[zhipu-ai]] (Z.ai) — close ties to Tsinghua University Data Mining / Knowledge Engineering group
+- **Predecessor**: [[glm-5-2]] (Jun 2026, MIT license, 754B parameters)
+- **Parameter count**: **~750B** — roughly one-third of [[kimi-k3]]'s ~2.5T parameters
+- **Benchmark posture**: surpasses Kimi K3 and matches or beats [[claude-fable-5]] and [[gpt-5-6]]-Sol on *many benchmarks* (specific benchmark list not enumerated by Interconnects)
+- **Attribution**: *"more environments, more diverse tasks, and more compute spent training on them"* — post-training + diverse-RL-environments win, not scaling story
+- **Distribution**:
+  - **Available now** via Z.ai's paid coding plan
+  - **Open weights on Hugging Face in ~2 weeks** — after staged safety-partner evaluation completes
+- **Release posture**: staged safety review — selected security partners evaluate in controlled settings before broader API availability; dual-use risks acknowledged
+- **Release cadence advantage**: *"time to release of days, not months"* per Lambert — cycle-speed + public-benchmark discipline framed as structural moat
+
+## Open Questions
+
+- **Concrete benchmark deltas**: which specific benchmarks does GLM-5.3 beat K3/Fable 5/Sol on, and by how much? Lambert's post says *"many benchmarks"* without enumerating
+- **Architecture details**: MoE vs dense? Active parameter count? Attention mechanism (sustains GLM-5.2's sparse-attention indexer + IndexShare?)
+- **License**: MIT continuation from GLM-5.2? Any dual-use / commercial-use restrictions given the staged-release posture?
+- **Training data / environments**: which RL environments were used? Any overlap with distillation-adjacent techniques despite Lambert's *"not a distillation story"* framing?
+- **Concrete open-weights release date within the 2-week window**
+- **Which security partners** are running the controlled-setting evaluations pre-open-weights release
+- **Pricing tier** on Z.ai coding plan vs GLM-5.2 pricing
+- **Whether GLM-5.3 supersedes [[glm-5-5]] entirely** or 5.5 remains queued as later-cycle successor
+- **Relationship to [[open-fable]]** — is GLM-5.3 the delivery of Z.ai's June 2026 *"Fable-class open-weights model within ~6 months"* commitment, or does Open Fable remain a separate higher-tier target?
+
+## Sources
+
+- data/summaries/2026-08-15-morning.json (Interconnects MEDIUM "GLM-5.3: How Chinese labs keep stride with the frontier" by Nathan Lambert — GLM-5.3 ~750B parameters, one-third of Kimi K3, surpasses K3 and matches/beats Fable 5 + Sol on many benchmarks, *"more environments, more diverse tasks, and more compute spent training on them"*, close ties to Tsinghua, *"time to release of days, not months"*, staged safety-partner review, complete weights on Hugging Face in ~2 weeks; daily-digest AI Models & Research anchor)

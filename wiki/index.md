@@ -235,6 +235,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[glm-4-7]] — Zhipu AI open-source WebDev model topping open leaderboards Dec 2025 *(stale)*
 - [[glm-5]] — Zhipu AI's Feb 2026 open-source 754B MIT-licensed flagship; sparse attention + async RL *(stale)*
 - [[glm-5-2]] — Zhipu AI's June 2026 minor-version successor to GLM-5; "the top Frontend Coding model in the world" per AINews + IndexShare for Speculative Decoding; released opportunistically into the Fable ban window (Jun 2026)
+- [[glm-5-3]] — Zhipu AI's Aug 2026 open-weight GLM successor to GLM-5.2; ~750B parameters (~⅓ of Kimi K3); beats K3 + Claude Fable 5 + GPT-5.6 Sol on many benchmarks per Interconnects (Nathan Lambert); staged safety-partner review; HF open weights ~2 weeks
 - [[glm-5-5]] — Zhipu AI's upcoming open-weight successor to GLM-5.2; targeted for August 2026 release; Hugging Face expected to host weights; extends monthly Chinese-frontier-lab release cadence (Jul 2026)
 - [[glm-ocr]] — Zhipu AI's open-source SOTA OCR model; #1 OmniDocBench, handwriting/tables/code layouts *(stale)*
 - [[gpt-5-1]] — OpenAI's mid-Nov 2025 ChatGPT upgrade; Instant/Thinking modes, 8 personalities *(stale)*

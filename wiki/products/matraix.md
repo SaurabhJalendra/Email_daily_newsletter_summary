@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: Harvard + MIT (research collaboration)
 > **First mentioned**: 2026-08-12-morning
-> **Last updated**: 2026-08-12-morning (**Created — Harvard + MIT researchers unveil MatrAIx, a digital world simulating Earth's population with 8.3B agents mirroring real humans + built from real public-records profiles supplemented with synthetic agent personas**)
+> **Last updated**: 2026-08-15-morning (**Cycle-2 morning cross-cohort recoverage — Superhuman MEDIUM restates *"Researchers from Harvard and MIT have built a digital world to simulate Earth's population, called MatrAIx, which includes 8.3 billion agents built from real public-record human profiles and synthetic personas"*. Cross-newsletter recoverage sustains the 08-12-morning canonical anchors on 8.3B-agent-scale + real-public-records + synthetic-persona-augmented substrate framing; validates MatrAIx as *durable cross-cohort canonical anchor* on the mid-2026 planet-scale-multi-agent-social-simulation substrate axis rather than one-cycle novelty. No new detail-tier anchors; canonical framing sustained. See [[agent-frameworks]] + [[world-models]] — *source: data/summaries/2026-08-15-morning.json (Superhuman MEDIUM "🧠 ChatGPT remembers your screen history")*)
+> **Previously updated**: 2026-08-12-morning (**Created — Harvard + MIT researchers unveil MatrAIx, a digital world simulating Earth's population with 8.3B agents mirroring real humans + built from real public-records profiles supplemented with synthetic agent personas**)
 > **Status**: released (research)
 > **Related**: [[agent-frameworks]], [[world-models]], [[world-action-models]]
 

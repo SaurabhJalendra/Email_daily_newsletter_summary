@@ -9,9 +9,10 @@ type: product
 > **Type**: product
 > **Vendor**: [[zhipu-ai]]
 > **First mentioned**: 2026-07-21-evening
-> **Last updated**: 2026-07-21-evening
-> **Status**: pre-release (targeted August 2026)
-> **Related**: [[zhipu-ai]], [[glm-5-2]], [[glm-5]], [[glm-4-7]], [[open-fable]], [[kimi-k3]], [[qwen-3-8-max]], [[deepseek-v4]], [[open-source-models]]
+> **Last updated**: 2026-08-15-morning (**[[glm-5-3]] lands as intermediate Aug release before GLM-5.5 — Interconnects Nathan Lambert canonicalizes GLM-5.3 (~750B parameters, beats [[kimi-k3]] + [[claude-fable-5]] + [[gpt-5-6]]-Sol on many benchmarks) as Z.ai's next public shipping event; positions GLM-5.5 as *forecast-still-pending post-5.3 successor* rather than *August-target-2026-first-shipping successor*; sharpens the Z.ai release cadence into a *~2-month minor-version cadence* (5.2 Jun → 5.3 mid-Aug → 5.5 forecast still pending) rather than a *~4-month major-version cadence*. See [[glm-5-3]] (NEW) + [[zhipu-ai]] — *source: data/summaries/2026-08-15-morning.json (Interconnects MEDIUM "GLM-5.3: How Chinese labs keep stride with the frontier")*)
+> **Previously updated**: 2026-07-21-evening
+> **Status**: pre-release (target August 2026 — pending after GLM-5.3 lands mid-Aug 2026)
+> **Related**: [[zhipu-ai]], [[glm-5-2]], [[glm-5-3]], [[glm-5]], [[glm-4-7]], [[open-fable]], [[kimi-k3]], [[qwen-3-8-max]], [[deepseek-v4]], [[open-source-models]]
 
 ## Summary
 
