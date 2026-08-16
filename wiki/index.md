@@ -32,6 +32,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cloudflare]] — CDN/edge platform; 1,100 layoffs (~20%) for "agentic AI-first operating model" May 2026
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf; $1B Series D at $26B + Devin writes 89% of own code (May 2026)
 - [[coinbase]] — US-listed crypto exchange; 1,200 full-time AI agents in production + 2× YoY code-per-developer + Coinbase Advisor SEC-registered AI investment advice + SpaceX pre-IPO perps + "bank for the agentic economy" thesis (Jul 2026)
+- [[conviction]] — Sarah Guo's AI-focused VC firm (~$1B AUM); bets on the AI application/inference layer above foundation models; six portfolio companies past $10B including [[baseten]] and Harvey (Aug 2026)
 - [[cohere]] — Toronto enterprise LLM vendor; open-source Transcribe ASR tops HuggingFace leaderboard across 14 languages *(stale)*
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale *(stale)*
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025 *(stale)*
@@ -203,6 +204,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
 - [[dyna-2]] — Dyna Robotics's world-action model pre-trained on 1M+ hours of human video; 87% real-world zero-shot pass rate on unseen robot hardware; scaling-laws-for-robotics anchor (Aug 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
+- [[flue]] — Fred Schott's (Astro creator) React-style meta-harness for agents; 16 Agent Hooks (`useSkill()` / `useTool()` / `useSubagent()`) atop Pi minimal-harness substrate; host-portable open-source competitor to [[vercel-eve]]; agent-defined-by-harness thesis (Aug 2026)
 - [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(superseded by [[flux-3]])*
 - [[flux-3]] — Black Forest Labs' Jul 2026 multimodal foundation model (image + video + audio + robotics); powers real-world factory robots at Audi
 - [[frozen-v2]] — Google's next-gen server chip embedding pieces of Gemini's model design into silicon; projected 6-10× more efficient than current TPUs; target ship as early as 2028 (Jul 2026)
