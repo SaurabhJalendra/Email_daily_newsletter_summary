@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-06-12-evening
 > **Last updated**: 2026-06-14-morning
-> **Status**: surfaced (subject-only data — three-cycle cross-newsletter convergence on the product name, but body content unavailable across all sighting cycles due to OpenRouter pipeline outage; substantive details — vendor confirmation, model size, license, benchmark numbers — to be re-anchored on the next successful summarization pass)
+> **Status**: stale (surfaced only — subject-only data across three-cycle cross-newsletter convergence on the product name, but body content unavailable across all sighting cycles due to OpenRouter pipeline outage; substantive details — vendor confirmation, model size, license, benchmark numbers — to be re-anchored on the next successful summarization pass)
 > **Related**: [[claude-fable-5]], [[claude-code]], [[kimi-k2-7-code]], [[ollama]]
 
 ## Summary

@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[cognition]] (per AlphaSignal 2026-06-10-morning attribution); previously framed in this wiki as AINews / Latent Space (swyx) — *attribution corrected 2026-06-10-morning: AINews / Latent Space's "[AINews] FrontierCode: Benchmarking for Code Quality over Slop" 2026-06-09-evening coverage appears to be the publication/feature surface, while Cognition is the actual benchmark builder*
 > **First mentioned**: 2026-06-09-evening
 > **Last updated**: 2026-06-15-evening (**Import AI 461 / Jack Clark — "Alignment is not on track"; FrontierCode; and synthetic research interns**; first publicly framed Jack-Clark-tier coverage of FrontierCode in this wiki — body links explicitly reference "Introducing FrontierCode (Cognition)" alongside Timaeus + Sequent alignment-research references; Import AI is the wiki's most-cited Anthropic-policy-adjacent essay newsletter, so Jack Clark naming FrontierCode in a "Alignment is not on track" cycle reframes the benchmark from a *code-quality* signal into an *alignment-evaluation-substrate* signal — first publicly framed FrontierCode-as-alignment-evidence framing; pipeline summaries unavailable — tenth consecutive cycle with OpenRouter 403 key-limit-exceeded blocker)
-> **Status**: launched
+> **Status**: stale (launched)
 > **Related**: [[cognition]], [[claude-opus-4-8]], [[claude-fable-5]], [[recursive-self-improvement]], [[vibe-coding]], [[agent-frameworks]], [[claude-code]], [[openai-codex]]
 
 ## Summary

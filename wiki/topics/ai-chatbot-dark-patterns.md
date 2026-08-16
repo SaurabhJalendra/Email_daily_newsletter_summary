@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2026-06-08
 > **Last updated**: 2026-06-08
-> **Status**: active
+> **Status**: stale
 > **Related**: [[ai-regulation]], [[openai]], [[chatgpt]], [[anthropic]], [[character-ai]], [[ai-memory]]
 
 ## Summary

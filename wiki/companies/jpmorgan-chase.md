@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-06-06-morning
 > **Last updated**: 2026-06-06
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[anthropic]], [[claude-mythos]], [[enterprise-ai]], [[ai-jobs-displacement]]
 
 ## Summary

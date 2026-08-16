@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[microsoft]]
 > **First mentioned**: 2026-06-05
 > **Last updated**: 2026-06-05
-> **Status**: launched (preview)
+> **Status**: stale (launched — preview)
 > **Related**: [[microsoft]], [[mai-thinking-1]], [[openclaw]], [[claude-managed-agents]], [[copilot-cowork]], [[agent-frameworks]], [[claude-code]]
 
 ## Summary

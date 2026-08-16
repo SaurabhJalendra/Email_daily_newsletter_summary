@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-06-07
 > **Last updated**: 2026-06-07
-> **Status**: active
+> **Status**: stale
 > **Related**: [[openai]], [[humanoid-robotics]], [[ineffable-intelligence]], [[ai-funding-rounds]]
 
 ## Summary

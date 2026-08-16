@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-06-07
 > **Last updated**: 2026-06-07
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nvidia]], [[nvidia-cosmos]], [[humanoid-robotics]], [[vera-rubin]], [[world-models]], [[ai-hardware]]
 
 ## Summary

@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[nvidia]]
 > **First mentioned**: 2026-06-02
 > **Last updated**: 2026-06-06 (evening edition: Computex-unveil rally faded into broader chip-stock rotation on Broadcom AI-guidance miss)
-> **Status**: announced (ships fall 2026)
+> **Status**: stale (announced — ships fall 2026)
 > **Related**: [[nvidia]], [[microsoft]], [[ai-hardware]], [[openclaw]], [[vera-rubin]], [[gemma-4]]
 
 ## Summary

@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2026-01-08
 > **Last updated**: 2026-06-06 (morning edition adds first AI-designed vaccine into human trials + Google smartphone-camera pulse reading)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[chatgpt-health]], [[openai-for-healthcare]], [[openai]], [[anthropic]], [[google]], [[nvidia]], [[enterprise-ai]]
 
 ## Summary

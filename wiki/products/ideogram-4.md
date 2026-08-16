@@ -10,7 +10,7 @@ type: product
 > **Vendor**: Ideogram
 > **First mentioned**: 2026-06-05
 > **Last updated**: 2026-06-05
-> **Status**: launched (open-weight)
+> **Status**: stale (launched, open-weight)
 > **Related**: [[flux-2]], [[nano-banana-pro]], [[qwen-image-2]], [[gpt-image-1-5]], [[ai-video-generation]]
 
 ## Summary

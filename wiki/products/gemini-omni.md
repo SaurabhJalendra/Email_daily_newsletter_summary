@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-05-13
 > **Last updated**: 2026-06-08 (evening edition — Vaibhav Sisinty three-test review: Likeness 6/10, Multi-turn Ceiling 7/10, Physics 5/10; positioned as edit-loop workflow upgrade *not* a [[veo-3]] replacement)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[gemini]], [[gemini-3-5-flash]], [[veo-3]], [[nano-banana-pro]], [[project-genie]], [[ai-video-generation]], [[world-models]]
 
 ## Summary

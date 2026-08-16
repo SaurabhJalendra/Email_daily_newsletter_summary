@@ -9,8 +9,10 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-05-26 (surfaced on [[openai]] timeline as a Bezos-funded peer-program to the major-lab autoresearch agenda)
 > **Last updated**: 2026-06-15-evening (**Forward Future / Matthew Berman "Bezos just placed a $12B bet on AI engineers"** — second framing-cycle on Bezos-AI-engineer capital with a *different* dollar figure ($12B vs the 2026-06-12-evening $41B framing); body-recovery needed to disambiguate whether $12B is a discrete capital commitment / round size, $41B is a total target / valuation, the figures are different reportings of the same underlying number, or one of them refers to a different Bezos-funded program; pipeline summaries unavailable — tenth consecutive cycle with OpenRouter 403 key-limit-exceeded blocker)
-> **Status**: active (subject-only data — pipeline summaries unavailable due to OpenRouter 403 key-limit-exceeded error)
-> **Related**: [[openai]], [[recursive-self-improvement]], [[humanoid-robotics]], [[ineffable-intelligence]], [[ai-funding-rounds]], [[alfred-robotics]]
+> **Status**: stale (subject-only data — pipeline summaries unavailable due to OpenRouter 403 key-limit-exceeded error)
+> **Related**: [[openai]], [[recursive-self-improvement]], [[humanoid-robotics]], [[ineffable-intelligence]], [[ai-funding-rounds]], [[alfred-robotics]], [[backflip-ai]]
+
+*Cross-reference note (LINT 2026-08-16)*: [[backflip-ai]] — the Aug 2026-launched *scan-to-editable-CAD* generative-AI startup — sits alongside Project Prometheus in the AI-for-mechanical-engineering cohort as a *narrower-scope specialist product* to Prometheus's *artificial-general-engineer* framing.
 
 ## Summary
 
