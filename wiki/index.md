@@ -152,6 +152,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-tasks]] — OpenAI's scheduled-tasks hub inside ChatGPT — one-off + recurring tasks; replaces Pulse (sunset within 14 days); agent-on-a-schedule shift (Jun 2026)
 - [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages) *(stale)*
 - [[chatgpt-work]] — OpenAI's agentic ChatGPT workspace — takes outcomes not prompts, works for hours, delivers finished materials; powered by [[gpt-5-6]] (Jul 2026)
+- [[computer-history]] — OpenAI feature that logs clicks + typing to give [[chatgpt]] + Codex a memory of recent work on the user's computer; desktop-context persistent-memory tier alongside [[chatgpt-work]] + [[claude-cowork]] + [[kimi-work]] (Aug 2026)
 - [[chandra-ocr-2]] — document-intelligence OCR model topping olmOCR on tables (92.1%) + tiny text (93.7%); up to $5K Textract-migration credits (Jul 2026)
 - [[claude-code]] — Anthropic's CLI coding agent; plugins, Routines, Web variant; $1B ARR
 - [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions (May 2026) *(stale)*
@@ -328,6 +329,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-deployco]] — OpenAI's $4B enterprise-deployment subsidiary at $10B (May 2026)
 - [[openai-guaranteed-capacity]] — OpenAI's enterprise compute-reservation program; 1-3 year commitments (May 2026) *(stale)*
 - [[qwen-3-7-max]] — Alibaba's flagship Qwen 3.7; 35h continuous autonomous reasoning, 1M context (May 2026) *(stale)*
+- [[qwen-3-8-27b]] — Alibaba's Aug 2026 27B vision-language open-weights model under Apache 2.0; 262K native context + Gated DeltaNet + gated-attention hybrid + ~61.7 SWE-bench Pro + fits high-end consumer hardware; defaults to xhigh reasoning effort (Simon Willison *"defaults to wildly overthinking"* framing)
 - [[raft]] — Botiverse's multi-agent collaboration platform (Raft 1.0); turns ChatGPT into coordinated teams of persistent specialized agents in shared workspaces; BYO-model + per-agent-seat billing (Jul 2026)
 - [[robostral-navigate]] — Mistral's Jul 2026 first robotics-tier model for factories/warehouses/industrial automation; cross-supplier hardware portability
 - [[ministral-3]] — Mistral dense small-model line (3B/8B) for on-device inference *(stale)*
@@ -358,6 +360,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-workspace-agents]] — OpenAI's Apr 2026 ChatGPT feature for shared team agents handling complex tasks + long-running workflows *(stale)*
 - [[open-fable]] — Zhipu AI's forecasted ~Dec 2026 open-weights Fable-class model; strategic open-source counter to the Fable/Mythos export-control regime (Jun 2026)
 - [[openclaw]] — open-source persistent assistant; team (incl. Steinberger) acquihired into OpenAI *(stale)*
+- [[openrouter]] — Model-routing platform with unified API access to 400+ AI models across vendors; acquired by [[stripe]] for over $7B (Aug 2026)
 - [[opera-neon]] — Opera's AI browser *(stale)*
 - [[perplexity-brain]] — Perplexity's self-improving memory system; persistent context graph across tasks/projects/decisions/files with origin-source linking (Jun 2026)
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
