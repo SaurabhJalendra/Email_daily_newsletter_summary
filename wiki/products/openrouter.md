@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[stripe]] (acquired Aug 2026)
 > **First mentioned**: 2026-08-17-evening
-> **Last updated**: 2026-08-17-evening
+> **Last updated**: 2026-08-18-morning (**Cycle-2 morning cross-cohort saturation on the [[stripe]] $7B acquisition — TAAFT + Technology News + AI Breakfast three-newsletter recoverage with **new concrete anchors**: (a) **~5× valuation runup** (~$1.4B May 2026 → $7B Aug 2026) — TAAFT: *"Stripe is reportedly paying over $7B for OpenRouter, a platform that provides access to over 400 AI models for 8 million users, roughly 5x what it was worth back in May"*; (b) **8M-user concrete scale anchor** — first user-count anchor on OpenRouter in this wiki; (c) **daily-digest Top Story #5** in AI Breakfast: *"Stripe acquires OpenRouter for over $7 billion, providing access to over 400 AI models for 8 million users"*. Second cross-cohort cycle validates the OpenRouter acquisition as durable cross-newsletter canonical anchor + productizes OpenRouter as *8M-user + 400+-model unified-access substrate* with concrete-user-and-model-count anchors. See [[stripe]] + [[model-routers]] — *source: data/summaries/2026-08-18-morning.json (TAAFT MEDIUM "🦾 AI Recorder That Lives in Your Wallet"; Technology News MEDIUM "The Amazon email you deleted changed your rights"; AI Breakfast MEDIUM "OpenAI adds opt-in desktop activity logging for context")*)
+> **Previously updated**: 2026-08-17-evening
 > **Status**: active (post-acquisition integration)
 > **Related**: [[stripe]], [[model-routers]], [[ai-plugin-standard]], [[deepseek-v4]], [[grok-bot]]
 

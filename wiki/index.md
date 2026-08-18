@@ -346,6 +346,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nano-banana-pro]] — Google's Gemini 3 Pro Image; 4K, 14-input, 5-character consistency, SynthID+C2PA *(stale)*
 - [[nanochat]] — Karpathy's end-to-end ChatGPT clone repo *(stale)*
 - [[nemotron-3]] — NVIDIA's open-source agentic model line; Nano (30B/3B active MoE), 4× throughput claim *(stale)*
+- [[nemotron-4]] — NVIDIA's in-development ~1-trillion-parameter open-source model family; rival to the most capable global open models (Aug 2026)
 - [[niji-7]] — Midjourney's anime-style image model (Jan 2026) *(stale)*
 - [[nitrogen]] — NVIDIA open-source gaming-agent model *(stale)*
 - [[nvidia-cosmos]] — NVIDIA's physical-AI foundation models (Cosmos 2.5 GA, 3 inbound) *(stale)*
