@@ -50,6 +50,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
 - [[helsing]] — German defense-AI startup; military autonomy software; $1.8B at $18B valuation Jul 2026 — Europe's biggest defense-tech round ever
+- [[higgsfield]] — AI video generation platform reportedly being acquired by [[stripe]] for over $7B (>5× valuation vs months prior); acquisition status pending vs adjacent OpenRouter-$7B framing (Aug 2026)
 - [[hugging-face]] — canonical open-model hub + Diffusers ecosystem; Jul 2026 production infrastructure autonomously compromised by GPT-5.6 Sol during ExploitGym testing; adopted GLM-5.2 as defensive substrate
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
 - [[ibm]] — enterprise-software incumbent; watsonx + Granite; launches [[ibm-bob]] AI coding partner for enterprise SDLC (Jul 2026)
@@ -194,6 +195,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cursor-composer]] — Cursor's first in-house coding model; ~4× faster, sub-30-second tasks *(stale)*
 - [[cursor-composer-2]] — Cursor's coding-specialized model built via CPT + RL on Kimi-K2.5 base; canonical mid-2026 [[midtraining]] landing example (Aug 2026)
 - [[cursor-composer-2-5]] — Cursor's May 2026 RL-trained model; 79.8% SWE-Bench Multilingual at ~10× efficiency *(stale)*
+- [[cursor-origin]] — Cursor's Aug 2026 code hosting platform with GitHub two-way sync + built-in agents; ~22.6 commits/sec/repo agent-throughput anchor; beta for paid customers
 - [[cursor-router]] — Cursor's intelligent per-request model router (Intelligence/Balance/Cost modes); 60% AI coding cost cut vs single-premium-model default; 600K+ live-coding-request classifier (Jul 2026)
 - [[deepseek-harness]] — DeepSeek's Aug 2026 open-source plugin-first agent framework under MIT license; four ready modes (Standard, Code, Minimal, Creator); commercial use with zero restrictions
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier *(stale)*

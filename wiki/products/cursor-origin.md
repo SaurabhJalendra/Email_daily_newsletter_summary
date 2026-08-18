@@ -1,0 +1,46 @@
+---
+name: Cursor Origin
+description: Cursor's code hosting platform with GitHub sync and built-in agents — launched in beta for Cursor's paid customers as GitHub-rival positioned for AI-agent-first workflows
+type: product
+---
+
+# Cursor Origin
+
+> **Type**: product
+> **Vendor**: [[cursor]]
+> **First mentioned**: 2026-08-18-morning (as *"Cursor Origin"* named product-tier surface via TAAFT MEDIUM; earlier referenced as "Cursor's GitHub rival" 2026-08-13-morning)
+> **Last updated**: 2026-08-18-evening (**Cross-cohort cycle-recoverage across three MEDIUM newsletters — The Rundown AI cycle-headline *"🚀 Cursor's Origin hits GitHub on its worst day"* (launched same day GitHub suffered massive outage, positioning Origin as opportunistic GitHub-rival launch); Evolving AI Insights HIGH restates *"Elon Musk's company, Cursor, has built a GitHub rival called Origin, which allows agents to work at high speeds and has been demonstrated to commit 22.6 changes per second to a single repository, with the goal of rivaling Microsoft's GitHub"* (Musk-ownership framing is factually incorrect — Cursor is not Musk-owned — but the *22.6-commits-per-second-single-repo agent-speed anchor* is first publicly framed in this wiki on Origin); World of AI daily-digest Tools & Products anchor confirms *"currently in beta and available to Cursor's paid customers"* distribution posture. First publicly framed on this cycle: (a) *22.6 changes per second to a single repository* concrete agent-throughput anchor — canonicalizes Origin as *agent-first-repo-hosting* substrate optimized for high-frequency AI-agent-driven commits rather than human-tier commit cadence; (b) *paid-customer-only beta distribution posture* — sharpens the 08-13-morning "Cursor's GitHub rival" first-mention into a *concrete beta-tier + paid-tier gating anchor*; (c) *GitHub-outage-day launch timing* — positions Origin's launch as opportunistic GitHub-rival move on the day GitHub suffered widespread outage. See [[cursor]] + [[claude-code]] + [[software-factories]] — *source: data/summaries/2026-08-18-evening.json (The Rundown AI MEDIUM "🚀 Cursor's Origin hits GitHub on its worst day"; Evolving AI Insights MEDIUM "📈 Anthropic Now Earns 60% More Than OpenAI"; daily-digest Tools & Products)*)
+> **Status**: beta (paid customers only)
+> **Related**: [[cursor]], [[cursor-composer-2]], [[claude-code]], [[software-factories]]
+
+## Summary
+
+Cursor Origin is [[cursor]]'s **code hosting platform with GitHub sync and built-in AI agents**, launched in beta for Cursor's paid customers. Origin is positioned as an *agent-first repository hosting* substrate — designed for AI-agent-driven workflows where autonomous agents can commit code at high speeds (demonstrated at ~22.6 changes per second to a single repository). Origin bidirectionally syncs with GitHub, letting teams continue existing GitHub workflows while adopting Origin's agent-native features. The August 2026 launch coincided with a widespread GitHub outage, generating substantial newsletter coverage under the framing *"hits GitHub on its worst day."*
+
+Origin extends the [[cursor]] product family beyond the IDE ([[cursor-composer-2]] + [[cursor-router]] tier) into the code-hosting-and-collaboration tier, directly competing with GitHub as the substrate layer for AI-agent-driven software development.
+
+## Timeline
+
+- **2026-08-18-evening**: **Cross-cohort cycle-recoverage across three MEDIUM newsletters** — The Rundown AI cycle-headline *"🚀 Cursor's Origin hits GitHub on its worst day"* framing (launched same day as major GitHub outage); Evolving AI Insights adds first publicly framed *22.6 commits per second to a single repository* agent-throughput anchor; World of AI daily-digest confirms *"currently in beta and available to Cursor's paid customers"* distribution posture — *source: data/summaries/2026-08-18-evening.json (The Rundown AI MEDIUM; Evolving AI Insights MEDIUM; daily-digest Tools & Products)*
+- **2026-08-13-morning**: **First surfaced as "Cursor's GitHub rival"** in TLDR AI framing — *source: data/summaries/2026-08-13-morning.json (TLDR AI MEDIUM)*
+
+## Key Facts
+
+- **Vendor**: [[cursor]]
+- **Positioning**: Code hosting platform with GitHub sync + built-in AI agents
+- **Distribution**: Beta, gated to Cursor's paid customers
+- **Notable throughput anchor**: ~22.6 changes per second demonstrated on a single repository (agent-first workflow)
+- **Competitive posture**: Positioned as a GitHub rival for AI-agent-driven software development
+- **Launch context**: Announced same day as widespread GitHub outage (opportunistic launch timing)
+
+## Open Questions
+
+- Full feature set beyond GitHub sync + agent-throughput anchor (issues? actions? packages?)
+- Pricing tier — bundled with existing Cursor paid tier or separate SKU?
+- General-availability timeline post-beta
+- How does Origin integrate with [[claude-code]] + Codex Cloud + other cross-vendor agent substrates?
+
+## Sources
+
+- data/summaries/2026-08-18-evening.json (The Rundown AI MEDIUM "🚀 Cursor's Origin hits GitHub on its worst day"; Evolving AI Insights MEDIUM "📈 Anthropic Now Earns 60% More Than OpenAI"; World of AI daily-digest Tools & Products)
+- data/summaries/2026-08-13-morning.json (TLDR AI MEDIUM "Cursor's GitHub rival 👨‍💻, OpenAI COO leaves 👋, Gemini 1B milestone 📈")

@@ -8,7 +8,8 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-12-26
-> **Last updated**: 2026-07-15-morning
+> **Last updated**: 2026-08-18-evening (**Cross-newsletter recoverage — Evolving AI Insights MEDIUM restates *"Groq has raised $350 million at a $3.5 billion valuation, with the company's tech being licensed by Nvidia and its founders being hired by the company"* + daily-digest Industry News: *"Groq raised $350 million at a $3.5 billion valuation, with its tech being licensed by Nvidia and its founders being hired by the company"*. First publicly framed *concrete $350M / $3.5B new round anchor + Nvidia-tech-license + founders-hired-by-Nvidia composite framing* in this wiki (contrasts with — and possibly supersedes / restates — the multi-cycle May 2026 $650M pivot-to-inference-cloud framing; the *founders-hired-by-Nvidia + tech-licensed-to-Nvidia composite framing* extends the Dec 2025 restructured-NVIDIA-deal arc). Reads structurally as *Groq-Nvidia relationship-tier canonical continuation* — Nvidia-tech-license + founder-migration + concurrent $350M/$3.5B external round productize Groq as *simultaneously Nvidia-strategic-partner + independent-funded-startup*. **NOTE**: The $350M/$3.5B round anchor differs from the multi-cycle prior $650M/$6.9B (May 2026 pivot-to-inference-cloud framing) — may indicate either (a) a smaller additional round on top of prior raise, or (b) newsletter-restatement error / cross-cycle confusion; captured as reported. See [[nvidia]] + [[jonathan-ross]] + [[ai-hardware]] + [[ai-funding-rounds]] — *source: data/summaries/2026-08-18-evening.json (Evolving AI Insights MEDIUM "📈 Anthropic Now Earns 60% More Than OpenAI"; daily-digest Industry News)*)
+> **Previously updated**: 2026-07-15-morning
 > **Status**: active
 > **Related**: [[nvidia]], [[jonathan-ross]], [[vera-rubin]], [[ai-hardware]]
 
