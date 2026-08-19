@@ -150,6 +150,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-company-knowledge]] — workplace-RAG ChatGPT over Slack/Drive/SharePoint/GitHub/Gmail *(stale)*
 - [[chatgpt-health]] — OpenAI's consumer health assistant (symptom guidance, lab-report reading, clinician review) *(stale)*
 - [[chatgpt-images-2]] — OpenAI's Apr 2026 image-gen upgrade; reasoning step before generation; non-Latin language support *(stale)*
+- [[chatgpt-for-teens]] — OpenAI's Aug 2026 age-segmented ChatGPT for users 13-17; powered by GPT-5.6 Luna + parental controls + auto-switch via age-prediction system + verify-age path
 - [[chatgpt-go]] — OpenAI's $8/mo ChatGPT entry-paid tier; launched globally Jan 2026 *(stale)*
 - [[chatgpt-tasks]] — OpenAI's scheduled-tasks hub inside ChatGPT — one-off + recurring tasks; replaces Pulse (sunset within 14 days); agent-on-a-schedule shift (Jun 2026)
 - [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages) *(stale)*
@@ -322,6 +323,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[midjourney-scan]] — Midjourney's first hardware: full-body ultrasonic CT scanner; "first new whole-body medical imaging modality in 50 years" per Holz; Midjourney Spa SF deployment (Jun 2026)
 - [[mimo-code]] — Xiaomi's coding-specialized model; three-cycle cross-newsletter convergence (TLDR AI → Hello World "Claude vs Mimo" → NLP Newsletter AI Agents Weekly digest, Jun 2026)
 - [[minimax-h3]] — MiniMax's Jul 2026 next-generation multimodal video model — native 30-second + consistent three-minute videos + interactive frame editing + up to 50 multimodal references
+- [[mojo]] — Modular's Python-superset AI/ML systems programming language; fully open-sourced under Apache 2.0 with LLVM exceptions (Aug 2026)
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
