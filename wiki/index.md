@@ -45,6 +45,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[fish-audio]] — Voice-AI company; ships S2.1 Pro (Jul 2026) real-time voice-cloning across 83 languages; positioned against ElevenLabs on cost
 - [[friendliai]] — "Frontier Inference Cloud for agents" serving frontier open-weight models; powers [[claude-code]] + [[cursor]] + Kilo Code + Hermes Agents + [[ollama]] (Jul 2026)
 - [[general-intuition-ai]] — Neo Lab building Large Action Models (LAMs) and world models that perceive/predict/act across virtual and physical spaces (Jun 2026)
+- [[glean]] — enterprise AI search/agent company co-founded by ex-Google Distinguished Engineer Arvind Jain; canonical enterprise implementer of model routing (three modes: explicit / admin / automatic); Waldo agentic-search model (50% latency + 25% token reduction); $150M Series F, ~$300M ARR (Aug 2026)
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
 - [[greptile]] — Y Combinator–backed AI code review platform; full-codebase graph index + swarm of specialized AI reviewers; ships [[trex]] runtime-validation extension (Aug 2026)
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
@@ -205,6 +206,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek-v3-2]] — DeepSeek V3.2 matches GPT-5; V3.2-Speciale rivals Gemini 3 Pro w/ IMO/IOI/ICPC gold *(stale)*
 - [[deepseek-v4]] — DeepSeek's Apr 2026 frontier MoE family (V4-Pro + V4-Flash); open-sourced; triggers AI-pricing collapse *(stale)*
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
+- [[dig-bench]] — agent benchmark measuring rule-discovery-through-experimentation; 70 text-based games (21 publicly released, ~49 held for anti-contamination) (Aug 2026)
 - [[dyna-2]] — Dyna Robotics's world-action model pre-trained on 1M+ hours of human video; 87% real-world zero-shot pass rate on unseen robot hardware; scaling-laws-for-robotics anchor (Aug 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
 - [[flue]] — Fred Schott's (Astro creator) React-style meta-harness for agents; 16 Agent Hooks (`useSkill()` / `useTool()` / `useSubagent()`) atop Pi minimal-harness substrate; host-portable open-source competitor to [[vercel-eve]]; agent-defined-by-harness thesis (Aug 2026)
@@ -437,6 +439,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[computer-use]] — models that drive GUIs directly; Aug 2026 [[hark-handoff]] launch adds consumer/lifestyle-tier entrant (food ordering, shopping, recruiting) alongside prior coding-agent + browser-agent tiers
 - [[continual-learning]] — Aug 2026 topic — models that keep learning from user interactions after deployment; Dwarkesh Patel's 8-prediction essay reframes AI-safety-regulation baseline + productizes user-lock-in as moat + shifts alignment methodology
 - [[ethan-mollick]] — Wharton professor / One Useful Thing author; "co-intelligence" framer; *Co-Existence* book Oct 20 2026
+- [[eu-ai-act]] — EU AI regulation; transparency obligations went into full enforcement across Europe Aug 2 2026; €47M in first fines to three companies; fines up to €15M or 3% of global turnover; some high-risk-system obligations deferred to 2027-2028 (Aug 2026)
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
 - [[forward-deployed-engineer]] — customer-embedded software/ML engineer role owning AI-solution lifecycle; from Palantir → OpenAI + Anthropic + AWS ($1B org) + Microsoft (Jul 2026)
 - [[ghostcommit]] — PNG-hidden prompt-injection attack that hides instructions in PR-attached images and coerces coding agents to leak `.env` credentials (Jul 2026)
