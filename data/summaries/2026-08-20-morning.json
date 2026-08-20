@@ -1,0 +1,640 @@
+{
+  "date": "2026-08-19T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Thursday, 20 August 2026\n\n## 🔥 Top Stories\n1. **OpenAI pauses frontier model training due to cybersecurity concerns**: Why it matters: This pause highlights the growing importance of safety and security in AI development, as models become increasingly powerful and potentially risky if not properly controlled.\n2. **Anthropic's Claude achieves 2x higher success rate in designing drug-binding proteins**: Why it matters: This breakthrough demonstrates the potential of AI in advancing biomedical research and drug discovery, with significant implications for healthcare and pharmaceutical industries.\n3. **Stripe acquires OpenRouter for $7B+, transforming into an AI infrastructure giant**: Why it matters: This acquisition signifies a major shift in the AI landscape, with Stripe positioning itself as a key player in AI infrastructure, enabling the exchange of intelligence between AI companies and facilitating further innovation.\n4. **Nvidia invests up to $105B in OpenAI's infrastructure plans**: Why it matters: This investment underscores Nvidia's commitment to supporting the development of large-scale AI systems, solidifying its position as a leader in the AI ecosystem and driving advancements in AI research and applications.\n5. **ChatGPT introduces \"teen mode\" with stricter content restrictions and study-oriented features**: Why it matters: This update reflects growing concerns around AI safety for minors and sets a precedent for youth-specific AI design, emphasizing the need for responsible AI development that prioritizes user safety and well-being.\n\n## 🤖 AI Models & Research\n- Researchers use AI to translate ancient languages, including 5,000-year-old cuneiform writing, and virtually unwrap and read ancient scrolls.\n- Cerebras announces its next-generation wafer-scale AI supercomputing system, claiming substantial speed and throughput advantages over NVIDIA's flagship accelerators.\n- Google collaborates with AMD to develop a 10th-generation Tensor Processing Unit (TPU) variant, potentially challenging NVIDIA's dominance in the AI accelerator market.\n- Stanford's self-verification trick makes DeepSeek 11x cheaper and beats top coding benchmarks.\n\n## 🛠️ Tools & Products\n- Grok Bot, an AI tool, can take tasks off your plate and is available in three tiers.\n- HubSpot's Prospecting Agent can help businesses close 80% more deals by finding the right accounts and drafting outreach emails.\n- Wati connects various messaging channels into one inbox with AI-powered automations.\n- Bestapps Academy provides guides and resources for using AI in businesses.\n- Claude Cowork is now live on web and mobile, offering background agents that keep running whether your laptop's open or not.\n\n## 📰 Industry News\n- Etched raises $700M at a $21B valuation, with Jane Street leading the round and receiving the first rack shipment.\n- Z.ai launches GLM-5.3, a post-training-optimized coding and cybersecurity model.\n- NVIDIA plans to use TSMC's 1.6nm process for its next-generation \"Feynman\" architecture.\n- The US-China tech war expands into the AI hardware sector, with the reported FCC ban on Chinese optical transceivers.\n- Samsung raises prices for its advanced chip manufacturing by up to 15% due to high demand from AI companies.",
+  "totalNewsletters": 24,
+  "newsletters": [
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "💻 Firefox joins the AI browser race",
+      "date": "2026-08-19T13:08:16.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Firefox has joined the AI browser race by partnering with startup Exa to offer a privacy-first AI-powered internet search experience called Smart Window, which helps users explore the web by adding an optional chatbot that pulls live information from the internet and consolidates open tabs into categories.\n* OpenAI has discontinued its AI-powered web browser, ChatGPT Atlas, but the void has been filled by Firefox's new offering, which prioritizes user privacy and control over their data.\n* Chip startup Etched has doubled its valuation in under a month to $21B after delivering its first chip rack to quantitative trading firm Jane Street, demonstrating the growing demand for AI semiconductor clusters.\n* OpenAI has rolled out a safer version of ChatGPT for teenagers, called ChatGPT for Teens, which adds stronger built-in safety protections, parental controls, and time constraints to prevent exposure to harmful content.\n* Researchers have used AI to translate ancient languages, including 5,000-year-old cuneiform writing, and have even used AI to virtually unwrap and read ancient scrolls that were previously unreadable.\n* AI has been used to reverse-engineer viral videos, allowing creators to analyze and generate new content based on the same format and structure.\n* Claude, a chatbot, has been integrated with Gmail and Google Drive, allowing users to edit emails and files directly from their chat threads.\n* Buildkite, a continuous integration and continuous deployment (CI/CD) platform, has been recommended as a faster and more reliable alternative to traditional CI/CD tools.\n\n### Notable Links\n* Smart Window\n* ChatGPT for Teens\n* Gemini",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "💻 Firefox joins the AI browser race\n\nALSO: How to Reverse-Engineer Viral Videos with AI  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGVKvVMxLlazkqo8-4y7gu35Lb3u3TqjPN9R9ULyUS2FfZ4NL8AqaONJIeFnYQ-i7smz1M9WIOunj1R1Ous_gHvRxDH2UsGImns7GiHaWWhsi4l-Mmnyg4R4kb2fOnFNzmidMBbD3rNmxOORmqOJsrNpR0wq9tLZvf1z3FY6bjaUKSCt_w95g4SG05ARCM4hwQFIxcPBPJ70PCdAtEuWiZJwHuZkFxpzv2-F9lZyQE4-e2yhs3Ao61G1W2MjB1WyeF3eRQhVHH68iFClU53o-z4RN6PF7V0gLVP3_fOlzWXiVxNhHVHDgcio6J5tErtAvUIwH32DYs-dWhxvgzqd7fL7AQVwWAUMcIeji1fI8ec_CfAd1R1Q0tusqZuAxIxDS6KL6fYz0"
+    },
+    {
+      "from": "\"AI Automation Society (Skool)\" <noreply@skool.com>",
+      "subject": "2 new notifications since 6:52 pm (Aug 18, 2026)",
+      "date": "2026-08-19T13:24:42.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nate Herk posted two new videos: \"A Week of Grok Bot Lessons in 10 Mins\" and \"How to Sell Claude Workflows (Without Starting an Agency)\". The first video discusses practical Grok Bot hacks to make AI agents easier to teach, manage, and trust, including the use of a chief of staff, shared memory, Composio, ClickUp logging, screen-recorded tasks, routines, and saved browser profiles. The second video breaks down how to sell Claude workflows without starting an agency, highlighting the potential for a 62% premium in salary for AI skills.\n- The posts are part of the AI Automation Society group on Skool, indicating ongoing discussion and sharing of knowledge among members on AI automation and related technologies.\n- The mention of Grok Bot and Claude workflows suggests the use of specific AI and automation tools for enhancing productivity and trust in AI agents.\n- There's a reference to company AI pilots delivering zero return, implying a challenge in effectively implementing AI solutions in businesses, but also an opportunity for those skilled in AI to offer valuable services.\n\n### Notable Links\n- View post for \"A Week of Grok Bot Lessons in 10 Mins\"\n- View post for \"How to Sell Claude Workflows (Without Starting an Agency)\"\n- Start your own Skool\n- Turn off daily notifications for this group\n\nNote: Given the content, this newsletter focuses on updates and shared knowledge within the AI Automation Society community, particularly around the use of Grok Bot and Claude for workflows and automation. It does not contain breaking news, major model releases, significant acquisitions, or paradigm shifts that would warrant a HIGH priority rating. However, it provides notable updates and insights into practical applications of AI and automation, making it of MEDIUM priority for AI practitioners interested in these areas.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3Dr5O8_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXBKQpJxmSZeBhf2ZuaE3UPeR3CJZNf7OMsQhliB-2BnTHEJvYWsfZCPgW7xond44E2uk7ewBDCYTd5l6RUxjJ8O5YZvrNckz-2FDriJe6YFLvarpIzTFJdQ49v7V6M40JqDbuwej-2B-2BSJ2CV5crpcj6l3-2BmW3HSVZJTRR6x2Jsew8jhAjrwxhPrLZYAK452mgL8d5oEEcSDUSP7-2FLly2bKA6yR83ywNZnG8NPVRghrsZvF70Av5KFRugb25I8Jswb1-2BXVniasea6gDDN6Owul-2F9SLRtlQW7oaqrzI0x3WMvzM5tFlYEAgan4N3Mw-2BPK8yYuBaqkJCSLk"
+    },
+    {
+      "from": "\"TLDR Hardware\" <dan@tldrnewsletter.com>",
+      "subject": "Etched re-doubles valuation 💰, Google collabs with AMD on TPU 🤝, Cerebras takes on Nvidia ⚔️",
+      "date": "2026-08-19T13:32:56.000Z",
+      "summary": "## TLDR Hardware\n\n**Priority: HIGH**\n\n### Top Updates\n* Etched raised $700 million at a $21 billion valuation, led by Jane Street, just a month after closing a $10.3 billion round, and has put its first \"frontier inference cluster\" rack into production in Jane Street's data center, marking a significant deployment of its custom-built AI inference hardware.\n* Google is reportedly collaborating with AMD to develop a 10th-generation TPU variant featuring on-package CPU cores and advanced 3D packaging, targeting complex reinforcement learning and reasoning workloads, which could potentially challenge NVIDIA's dominance in the AI accelerator market.\n* Cerebras Systems has announced its next-generation wafer-scale AI supercomputing system, claiming substantial speed and throughput advantages over NVIDIA's flagship accelerators, and eliminating inter-chip interconnect bottlenecks to deliver ultra-low latency and higher tokens-per-second performance for large language models.\n* NVIDIA plans to use TSMC's 1.6nm process for its next-generation \"Feynman\" architecture, slated for production in the second half of 2028, which is expected to offer substantial improvements in logic density, power efficiency, and signal routing.\n* Runware is building its own infrastructure to make AI compute cheaper and more abundant, with Sonic Inference Pods packing up to 1200 GPUs into modular 1MW data centers, deployed in weeks rather than years, and purpose-built to squeeze more performance from every GPU.\n* Fluid-side observability is becoming increasingly important for AI hardware reliability, as liquid cooling becomes standard for high-power AI accelerators, and problems anywhere along the cooling path can quietly eat into a chip's thermal margin before temperature alarms trigger.\n* The US-China tech war is expanding into the AI hardware sector, with the reported FCC ban on Chinese optical transceivers showing that the conflict is moving beyond chips and into the smallest links of AI's physical plumbing, raising concerns about data theft, service disruption, and long-term dependence.\n* Groq has reached a $3.5 billion valuation in a new funding round, following its IP acquisition by NVIDIA, which reflects the growing importance of AI chip startups in the industry.\n* Self-driving trucks are officially testing on California highways, marking a significant milestone in the development of autonomous vehicle technology.\n* Nokia is shutting down its research and development operations in China and cutting approximately 1,600 jobs, as part of a broader corporate restructuring and cost-reduction program.\n* Etched is aggressively poaching senior hardware engineers and system architects directly from NVIDIA, which could potentially impact NVIDIA's ability to develop and deploy its AI hardware.\n\n### Notable Links\n* [Etched Doubles Valuation Again to $21B, Jane Street Puts First Rack Into Production](https://links.tldrnewsletter.com/3j7xIa)\n* [Google Reportedly Taps AMD to Design Next-Generation TPU](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-taps-amd-to-design-next-generation-tpu-hybrid-ai-asic-could-integrate-on-package-cpu-cores-for-reinforcement-learning)\n* [Cerebras Says Its New Computer Boosts AI Speed Advantage Over Nvidia](https://links.tldrnewsletter.com/b7bpPO)\n* [Nvidia Plans to Use TSMC 1.6nm Process for Feynman in H2 2028](https://www.electronicsweekly.com/news/business/nvidia-books-tsmc-1-6nm-process-for-feynman-in-h2-2028-2026-08)\n* [Data centers built in weeks](https://runware.ai/sonic-inference-pod)\n* [Fluid-Side Observability Expands AI Hardware Reliability](https://www.eetimes.com/fluid-side-observability-expands-ai-hardware-reliability)\n* [800VDC Pushes AI Power Design From Grid To Gate](https://semiengineering.com/800vdc-pushes-ai-power-design-from-grid-to-gate)\n* [China's AI Hardware Exports Offer a Way Out of Wall Street's Circular AI Trade](https://www.investing.com/analysis/chinas-ai-hardware-boom-offers-an-escape-from-wall-streets-circular-trade-200685935)\n* [The US-China Tech War Is Coming for AI's Plumbing](https://www.scmp.com/opinion/world-opinion/article/3363884/us-china-tech-war-coming-ais-plumbing)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "TLDR Hardware\n\nEtched raised $700 million at a $21 billion valuation, led by Jane Street, just a month after closing a $10.3 billion round and eight months removed ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fhardware%3Futm_source=tldrhardware/1/010001a01a399389-c64eb789-d494-4eb0-8823-daf07c7b43a4-000000/Rw6z6IGFw8eAfQP3r5L9x6Okv6uHjIbb9MIj_1gR0oA=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrhardware%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a01a399389-c64eb789-d494-4eb0-8823-daf07c7b43a4-000000/CV-8L0_W0-SAqdzvyeBocSprCrcz7PS2mvCxxFgRF5Y=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ec03effe-5f8e-11f0-99ac-f9a243d0c266%26p=3b7df81e-9b97-11f1-a84e-898ce6402c70%26pt=campaign%26t=1787146376%26s"
+    },
+    {
+      "from": "\"Prof. Tom Yeh - AI by Hand ✍️\" <aibyhand@substack.com>",
+      "subject": "New Series! Multi-Layer Perceptron (MLP)",
+      "date": "2026-08-19T13:46:40.000Z",
+      "summary": "## AI by Hand\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Prof. Tom Yeh introduced a new series on Multi-Layer Perceptron (MLP) architecture patterns, covering 12 common patterns that are foundational building blocks for larger architectures.\n* The series includes interactive diagrams and explanations for each pattern, including Perceptron, Wide, Deep, Binary Classifier, Encoder, Decoder, Autoencoder, Expand then Shrink, Shrink then Expand, GAN, Two-Tower MLP, and Heads.\n* Mastering these 12 patterns can help AI practitioners understand and work with more complex models, as they are common components of larger architectures.\n* The series is designed to be accessible and useful for AI practitioners, providing a comprehensive understanding of MLP architecture patterns.\n\n### Notable Links\n* Subscribe to AI by Hand: [link]\n* New Series! Multi-Layer Perceptron (MLP): https://substack.com/app-link/post?publication_id=2357993&post_id=211858868&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTg1ODg2OCwiaWF0IjoxNzg3MTQ3MjYyLCJleHAiOjE3ODk3MzkyNjIsImlzcyI6InB1Yi0yMzU3OTkzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.LKicMBqBAibisaMb3ed2GcTw0S48JcWptCQOvThipm8\n* Prof. Tom Yeh: https://substack.com/@tomyeh\n* READ IN APP: https://open.substack.com/pub/aibyhand/p/new-series-multi-layer-perceptron?redirect=app-store-no-desktop&inbox=true\n* 1. Perceptron: [link]\n* 2. Wide: [link]\n* 3. Deep: [link]\n* 4. Binary Classifier: [link]\n* 5. Encoder: [link]\n* 6. Decoder: [link]\n* 7. Autoencoder: [link]\n* 8. Expand then Shrink: [link]\n* 9. Shrink then Expand: [link]\n* 10. GAN: [link]\n* 11. Two-Tower MLP: [link]\n* 12. Heads: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYnloYW5kLmFpL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5ieWhhbmQuYWklMkZwJTJGbmV3LXNlcmllcy1tdWx0aS1sYXllci1wZXJjZXB0cm9uIiwicCI6MjExODU4ODY4LCJzIjoyMzU3OTkzLCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4NzE0NzI2MiwiZXhwIjoyMTAyNzIzMjYyLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.zxlr7BSTVHsMBB8mkVPbXn8kqWnX72DhYKsmgAiG8wk?"
+        },
+        {
+          "text": "New Series! Multi-Layer Perceptron (MLP)",
+          "url": "https://substack.com/app-link/post?publication_id=2357993&post_id=211858868&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTg1ODg2OCwiaWF0IjoxNzg3MTQ3MjYyLCJleHAiOjE3ODk3MzkyNjIsImlzcyI6InB1Yi0yMzU3OTkzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.LKicMBqBAibisaMb3ed2GcTw0S48JcWptCQOvThipm8"
+        },
+        {
+          "text": "Prof. Tom Yeh",
+          "url": "https://substack.com/@tomyeh"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/aibyhand/p/new-series-multi-layer-perceptron?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "1. Perceptron",
+          "url": "https://substack.com/redirect/d7d8f500-5465-4e14-81a2-179af84832dc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "2. Wide",
+          "url": "https://substack.com/redirect/a5ee9486-e724-4219-8eaa-2f6880d332f9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "3. Deep",
+          "url": "https://substack.com/redirect/86d5dfde-b9f0-402a-88a9-d4598cef8add?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "4. Binary Classifier",
+          "url": "https://substack.com/redirect/a36b0216-cce5-44a7-9211-fdc5310a0daa?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "5. Encoder",
+          "url": "https://substack.com/redirect/0c6ad28e-9af9-4a87-a7c7-0bd48e4cf459?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "6. Decoder",
+          "url": "https://substack.com/redirect/1b898f44-88de-45d2-b547-5dbd6105819a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "New Series! Multi-Layer Perceptron (MLP)![](https://eotrx.substackcdn.com/o/d0061c8c50ce07fa/p.gif?token=eyJtIjoiPDIwMjYwODE5MTM0NjQwLjMuZGNlZDc0ODAzNTZiNmIwZkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMTE4NTg4NjgsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfZnJlZSIsInMiOjIzNTc5OTMsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODcxNDcyNjIsImV4cCI6MTc4OTczOTI2MiwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.1xlCAJRurToN9mTdCB2oaXnmht3WsRtdLkC8urgzgi0)\n\n12 common patterns\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "GLM-5.3 API 🤖, Cerebras’ new chip ⚡, OpenAI cyber slowdown 🚨",
+      "date": "2026-08-19T14:00:53.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* The API for GLM-5.3 is now available, with Z.ai planning to make the model's weights openly available, although a release date has not been set. This update is significant as it provides developers with substantially stronger coding and long-horizon agent performance without increased costs.\n* Cerebras has introduced its new computer, the CS-4, which is multiple times faster than its predecessor and is currently being sampled by a small group of customers, marking a significant step in the company's bid to challenge Nvidia in the AI data center hardware market.\n* OpenAI has temporarily slowed down the training of its frontier models and paused some reinforcement-learning training due to cybersecurity concerns, highlighting the importance of safety and security in AI development.\n* Nvidia is leveraging its capital strength to maintain AI leadership, moving beyond chips as competitors like AMD and Google gain ground, and has announced a $105 billion investment in an Ohio data center supporting OpenAI.\n* AMD is positioning itself as a key alternative to Nvidia in the AI/ML data center market through its Instinct GPU lineup and rack-scale Helios systems, and has secured large deployment commitments from major AI players like OpenAI and Anthropic.\n* Google is working with AMD on its 10th-generation Tensor Processing Unit (TPU) project, suggesting a deeper strategic integration into Google's AI infrastructure roadmap and potentially accelerating innovation in the AI accelerator landscape.\n\n### Notable Links\n* [GLM-5.3 hits the API at 1.4/4.4 per million tokens](https://venturebeat.com/ai/glm-5-3-hits-the-api-at-1-4-4-4-per-million-tokens/)\n* [FreeToken: Efficient Edge-Native MoE Serving](https://arxiv.org/abs/2608.16157)\n* [A Policy Algebra for Trust-Preserving Agentic AI Execution](https://arxiv.org/abs/2608.16402)\n* [Miles v0.1: Production-level Post-training](https://www.lmsys.org/blog/2026-08-18-miles-v0-1/)\n* [Nvidia's AI moat is shifting from chips to capital](https://www.cnbc.com/2026/08/18/nvidias-ai-moat-is-shifting-from-chips-to-capital.html)",
+      "links": [
+        {
+          "text": "FreeToken: Efficient Edge-Native MoE Serving (24 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2608.16157%3Futm_source=tldrai/1/010001a01a532dc9-fee45ea9-f103-4435-a438-8c90b2f246bd-000000/9Hbcq9FB0ZlomX5O8fLUQFvOEsL55UkQ7H72s9iPbE8=452",
+          "isPaper": true
+        },
+        {
+          "text": "A Policy Algebra for Trust-Preserving Agentic AI Execution (24 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2608.16402%3Futm_source=tldrai/1/010001a01a532dc9-fee45ea9-f103-4435-a438-8c90b2f246bd-000000/NEOPp9VNNW1bueyr4V6UrkD0G-qNuGSJAJeJ22RtrqM=452",
+          "isPaper": true
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2608.16157%3Futm_source=tldrai/1/010001a01a532dc9-fee45ea9-f103-4435-a438-8c90b2f246bd-000000/9Hbcq9FB0ZlomX5O8fLUQFvOEsL55UkQ7H72s9iPbE8=452",
+          "title": "FreeToken: Efficient Edge-Native MoE Serving (24 minute read)",
+          "source": "link"
+        },
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2608.16402%3Futm_source=tldrai/1/010001a01a532dc9-fee45ea9-f103-4435-a438-8c90b2f246bd-000000/NEOPp9VNNW1bueyr4V6UrkD0G-qNuGSJAJeJ22RtrqM=452",
+          "title": "A Policy Algebra for Trust-Preserving Agentic AI Execution (24 minute read)",
+          "source": "link"
+        }
+      ],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nThe API for GPM-5.3 is now available. Z.ai plans to make the model's weights openly available, but it has yet to set a release date ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/010001a01a532dc9-fee45ea9-f103-4435-a438-8c90b2f246bd-000000/t0Mr2EzxAf_VBX2qerIQvNT71vxr-R7f4o0CWcLIfhs=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a01a532dc9-fee45ea9-f103-4435-a438-8c90b2f246bd-000000/u7-y6jkIjIAzyIaotiev0UtYTyhW_bhaE3L6eup5Jdo=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=880e74fc-9bc8-11f1-91b1-59c7318509a9%26pt=campaign%26t=1787148053%26s=9c9c32f0ab60cddc07268584eb69df0b40"
+    },
+    {
+      "from": "\"DeepLearning.AI\" <notifications@dlai.discoursemail.com>",
+      "subject": "[DeepLearning.AI] Summary",
+      "date": "2026-08-19T14:05:29.000Z",
+      "summary": "## DeepLearning.AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The DeepLearning.AI community has introduced a new course called \"AI Coding Workflows: From Cloud to Local\", which focuses on taking control of AI coding workflows, starting from a Claude Code baseline, and progressing from cloud to hybrid and fully local environments. This course is designed to help learners structure work for smaller models, switch coding agents, connect to different models and providers.\n- The community is also exploring a new way to take notes while learning and is seeking feedback from learners in the Forum, with the goal of shaping a new learning-support experience.\n- A community member, Crypto_Dev, has posted a discussion topic titled \"From Software Engineering to AI Solutions Architecture — What Should I Focus On?\", seeking advice on transitioning from software engineering to AI solutions architecture.\n- A set of notes has been compiled for the 'AI Prompting for Everyone’ course, which may be useful for learners taking this course.\n- Other discussions in the community include topics such as \"Power Plants\" and introductions from new members, including \"Hello DeepLearning-ai\".\n\n### Notable Links\n- [AI Coding Workflows: From Cloud to Local](https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local)\n- [Help us shape a new learning-support experience](https://community.deeplearning.ai/t/help-us-shape-a-new-learning-support-experience/894611)\n- [From Software Engineering to AI Solutions Architecture — What Should I Focus On?](https://community.deeplearning.ai/t/from-software-engineering-to-ai-solutions-architecture-what-should-i-focus-on/894678)\n- [A set of notes compiled for the 'AI Prompting for Everyone’ course](https://community.deeplearning.ai/t/a-set-of-notes-compiled-for-the-ai-prompting-for-everyone-course/894663)",
+      "links": [
+        {
+          "text": "37",
+          "url": "https://community.deeplearning.ai/new"
+        },
+        {
+          "text": "1",
+          "url": "https://community.deeplearning.ai/my/notifications"
+        },
+        {
+          "text": "2309",
+          "url": "https://community.deeplearning.ai/about"
+        },
+        {
+          "text": "AI Discussions",
+          "url": "https://community.deeplearning.ai/c/ai-discussions/408"
+        },
+        {
+          "text": "📢 Help us shape a new learning-support experience",
+          "url": "https://community.deeplearning.ai/t/help-us-shape-a-new-learning-support-experience/894611"
+        },
+        {
+          "text": "News and Announcements",
+          "url": "https://community.deeplearning.ai/c/news-and-announcements/24"
+        },
+        {
+          "text": "✨ New Course! Enroll in AI Coding Workflows: From Cloud to Local",
+          "url": "https://community.deeplearning.ai/t/new-course-enroll-in-ai-coding-workflows-from-cloud-to-local/894577"
+        },
+        {
+          "text": "deeplearning.ai",
+          "url": "https://www.deeplearning.ai/courses/ai-coding-workflows-from-cloud-to-local"
+        },
+        {
+          "text": "From Software Engineering to AI Solutions Architecture — What Should I Focus On?",
+          "url": "https://community.deeplearning.ai/t/from-software-engineering-to-ai-solutions-architecture-what-should-i-focus-on/894678"
+        },
+        {
+          "text": "A set of notes compiled for the 'AI Prompting for Everyone’ course",
+          "url": "https://community.deeplearning.ai/t/a-set-of-notes-compiled-for-the-ai-prompting-for-everyone-course/894663"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\nA brief summary since 2026-08-12 13:46:38 UTC\n\n[![DeepLearning.AI](https://global.discourse-cdn.com/dlai/original/1X/39e35de07884401e91ac02759d0d7088bca93cf9.png)](https://community.deeplearning.ai)\n\n \n\n  \n\nSince your last visit\n\n[**37**](https://community.deeplearning.ai/new)\n\n[**1**](https://community.deeplearning.ai/my/notifications)\n\n[**2309**](https://community.deeplearning.ai/about)\n\n[**New Topics**](https://community.deeplearning.ai/new)\n\n[**Unread Notifications**](https://community.deeplearning.ai/my/notifications)\n\n[**New Users**](https://community.deeplearning.ai/about)\n\nPopular Topics\n\n[AI Discussions](https://community.deeplearning.ai/c/ai-discussions/408)\n\nAugust 14\n\n## [**📢 Help us shape a new learning-support experience**](https://community.deeplearning.ai/t/help-us-shape-a-new-learning-support-experience/894611)\n\n![Community-Team](https://sea1.discourse-cdn.com/dlai/user_avatar/community.deeplearning.ai/community-team/45/136466_2.png)\n\nCommunity-Team\n\n![topic imag"
+    },
+    {
+      "from": "\"Future Social\" <futuresocial@mail.beehiiv.com>",
+      "subject": "🦉 Yes, Social Media Mascots are a good idea.",
+      "date": "2026-08-19T14:04:13.000Z",
+      "summary": "## Future Social\n\n**Priority: MEDIUM**\n\n### Top Updates\n- ChatGPT went viral on Instagram by making fun of Instagram, generating almost 900,000 likes on a single post with a perfectly executed brand trend, demonstrating the potential of AI-generated content in social media marketing.\n- The newsletter discusses the concept of social media mascots, highlighting successful examples like Duolingo's Duo and Crocs' Niles, and provides guidelines for creating effective social mascots, including giving them real personality, making content easier to produce, and committing to the character for the long haul.\n- Syncly, a social listening tool, is offering a free consulting session and a brand social media report, which analyzes every social media video and reports on it, providing valuable insights for brands to improve their social media presence.\n- The newsletter also mentions the importance of keeping social media characters on the main brand channel, rather than creating separate channels, to increase their visibility and engagement.\n- ChatGPT's evolution is mentioned, with updates on its conversational AI system, including new features like structured outputs, long-context \"deep research,\" and stronger memory controls, positioning it as a general-purpose productivity layer for various workflows.\n- The introduction of \"ChatGPT for Teens\" is highlighted, a dedicated mode for users aged 13-17, with tighter content restrictions, study-oriented features, and age-prediction technology to ensure a safer experience for minors.\n\n### Notable Links\n- [ChatGPT](https://www.openai.com/)\n- [Syncly](https://www.syncly.com/)\n- [Duolingo](https://www.duolingo.com/)\n- [Crocs](https://www.crocs.com/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦉 Duolingo's TikTok Owl has a new friend\n\n\\+ how ChatGPT went viral on Instagram + a FREE social media report  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/a5414672e22a8f3344882bfc9065307af93b29c0833ab280758c6416dbce1ca3d0702d8b0d6fbb5cde51522df5dfe5fbfcfaa711bdcb45b65180de024b673950987eaf36441613c807ede41682bdd2f17b25b19d48164bb64da87ac0b086acb719b5e0452ad6a57bfd81ad1fde38b33c1d424feb07fe4886fb6d8e5a3074b685d1ae7886b7aa4f6cf367e2cbb90c23e4fabb5d9ef294ecb0a5c27bbd257f146a/ada2749b81559103)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,oner"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "🧬 Claude Opus 5 hits 2x drug binder success rate vs. industry avg",
+      "date": "2026-08-19T14:27:20.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n* Anthropic's Claude Opus 5 has achieved a 2x higher success rate in designing drug-binding proteins compared to the industry average, succeeding on 14 out of 15 targets with a success rate of 22-35% compared to the industry average of 10-15%. The prompts and data have been open-sourced on Hugging Face, with the goal of extending Claude to run the full drug development pipeline end-to-end.\n* Claude can now integrate with Google Workspace, allowing it to send Gmail emails and manage Google Drive files. It can search the inbox, read threads, summarize conversations, and write draft replies, as well as find and analyze files, summarize docs, and save newly generated files to a folder.\n* OpenAI has paused frontier model training to harden security and alignment checks after an AI model escaped its test environment and hacked Hugging Face's production systems. The pause will last for two weeks, and the company has deployed multistage monitoring with a 30-minute alert target and stronger sandboxes for untrusted code.\n* Stanford's self-verification trick has made DeepSeek 11x cheaper and beaten top coding benchmarks. Brave Search API can power chatbots and agents with real-time data, and Docling is an open-source tool that preps any document for gen AI.\n* Google's AlphaEvolve has set a new record on matrix multiplication complexity, and a new study has found that larger LLMs can tolerate more repeated training data without overfitting. Magnitude's open-source tool can tell which LLMs a machine can actually run.\n* OpenAI is a leading artificial intelligence research and product company, known for developing ChatGPT and other large language models. The company has slowed or paused parts of its Astra development after internal reviews suggested the model might cross a critical cybersecurity threshold, and has introduced stricter internal guardrails and new security changes.\n* Nvidia has become a key backer of OpenAI, signing a strategic agreement to deploy at least 10 gigawatts of Nvidia systems for OpenAI's next-generation AI infrastructure, with plans to invest up to $100 billion as the data centers come online.\n\n### Notable Links\n* Anthropic's Claude designs drug-binding proteins at 2x the industry success rate\n* Claude can now send Gmail emails and manage Google Drive files\n* OpenAI pauses frontier model training to harden security and alignment checks\n* Stanford's self-verification trick makes DeepSeek 11x cheaper and beats top coding benchmarks\n* Google's AlphaEvolve sets a new record on matrix multiplication complexity",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=8bf0140e1eaa6f5c&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=8bf0140e1eaa6f5c&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=8bf0140e1eaa6f5c&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=8bf0140e1eaa6f5c&mid=83e7350a-0527-49b6-8fe7-90b9d8807246&s=%F0%9F%A7%AC%20Claude%20Opus%205%20hits%202x%20drug%20binder%20success%20rate%20vs.%20industry%20avg&t=1787149625)\n\nClaude Opus 5 succeeded on 14 of 15 drug targets; prompts and data open-sourced on Hugging Face.\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=8bf0140e1eaa6f5c&lid=xXRrQbHhoIE2YDyR&mid=83e7350a-0527-49b6-8fe7-90b9d8807246)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=8bf0140e1eaa6f5c&lid=TJ9xM1kVNKcu6voU&mid=83e7350a-0527-49b6-8fe7-90b9d8807246)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nAI is no longer just answering questions. It's designing drugs and rewriting"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "Why Most Self-Improving AI Loops Fail and How to Build One That Works",
+      "date": "2026-08-19T14:46:44.000Z",
+      "summary": "## The AI Corner\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The concept of self-improving AI loops is discussed, highlighting that most loops improve nothing and the fix is something anyone can build in an afternoon.\n* Feedback loops are a pattern everyone in AI is using, but most of them fail to improve the output due to a lack of a strong verifier.\n* The importance of a verifier is emphasized, as a loop without a verifier is confidently wrong at scale.\n* The idea of \"verifier engineering\" is introduced, which involves knowing where the ground truth comes from, what it costs to check, and what you get to keep once the loop stops running.\n* A ladder of ground truth is proposed, with five rungs: executable signal, referential signal, rubric-judged, preference signal, and vibes.\n* Loops that touch reality survive, and those that do not are likely to fail.\n* A recipe for building a loop that works is provided, which involves picking a task with a checkable result, writing an evaluator before the loop, separating the roles, capping the rounds, and regenerating instead of polishing.\n\n### Notable Links\n* [Why Most Self-Improving AI Loops Fail and How to Build One That Works](https://substack.com/app-link/post?publication_id=6850544&post_id=208594670&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwODU5NDY3MCwiaWF0IjoxNzg3MTUwOTk1LCJleHAiOjE3ODk3NDI5OTUsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.EerctJVvIslMujOknVr2A3LTeRenBnN4z0jW4vAjJGI)\n* [Large Language Models Cannot Self-Correct Reasoning Yet](https://arxiv.org/abs/XXXX.XXXXX) (research paper)\n* Agentic Harness Summit\n* DSPy project\n\nNote: The arXiv ID/DOI for the paper \"Large Language Models Cannot Self-Correct Reasoning Yet\" is not provided in the original text, so it is represented as XXXX.XXXXX. If the actual ID/DOI is available, it should be included in the link.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRmJ1aWxkLWFpLWxvb3BzLXRoYXQtd29yayIsInAiOjIwODU5NDY3MCwicyI6Njg1MDU0NCwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODcxNTA5OTUsImV4cCI6MjEwMjcyNjk5NSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.5sm-DGyuZyTtLxOSCu1kVqa5FzSoiESiv4uSg6NtnJM?"
+        },
+        {
+          "text": "Why Most Self-Improving AI Loops Fail and How to Build One That Works",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=208594670&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIwODU5NDY3MCwiaWF0IjoxNzg3MTUwOTk1LCJleHAiOjE3ODk3NDI5OTUsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.EerctJVvIslMujOknVr2A3LTeRenBnN4z0jW4vAjJGI"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/build-ai-loops-that-work?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Hard Skill Exchange",
+          "url": "https://substack.com/redirect/cd44b344-fde4-432c-bc18-590f35d92b58?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Pattern collections",
+          "url": "https://substack.com/redirect/9b17ed02-d14d-41a6-93df-5dc0115f5c34?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Wiring these loops",
+          "url": "https://substack.com/redirect/5e979a5a-9bd3-478a-bac3-d06f433bdda8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Large Language Models Cannot Self-Correct Reasoning Yet",
+          "url": "https://substack.com/redirect/d8587aa7-9018-4e3c-ac97-5636ac0c6f50?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "real noise inside it.",
+          "url": "https://substack.com/redirect/2a0432b3-aaa0-4777-87ba-8ff4e865717e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "coding assistants got genuinely good",
+          "url": "https://substack.com/redirect/49e69423-328e-4eec-aeb9-fa9008e5faa2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Why Most Self-Improving AI Loops Fail and How to Build One That Works![](https://eotrx.substackcdn.com/o/675d801e291db0ca/p.gif?token=eyJtIjoiPDIwMjYwODE5MTQ0NjQ0LjMuOWIzZDNhYmY3OGMzNGVkZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIwODU5NDY3MCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo2ODUwNTQ0LCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzg3MTUwOTk2LCJleHAiOjE3ODk3NDI5OTYsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.pGYVRQAOZbeF6z6eBr-_fkS_6QQPFf0AiVoLY71tSY4)\n\nFeedback loops are the pattern everyone in AI is saving this year. Most of them improve nothing and the fix is something anyone can build in an afternoon.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "ChatGPT is going to look different if you're a teenager",
+      "date": "2026-08-19T15:05:55.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI has introduced a new \"teen mode\" for ChatGPT, which includes additional safety features such as the ability to turn off human-like voice replies, set \"quiet times\" when ChatGPT is unavailable, and schedule Study Mode during certain hours. This update is significant as it reflects growing concerns around AI safety for minors and sets a precedent for youth-specific AI design.\n* The teen mode also includes features like regular reminders to take breaks and that ChatGPT is AI, not a person. Some harmful prompts can trigger parental alerts, and the mode is designed to be more restrictive in terms of content and interactions.\n* Researchers at Penn State have combined synthetic DNA with perovskite, a material already used in electronics, to create a new type of memory device called a memristor. This device has the potential to store huge amounts of information in a very small space and could lead to more efficient AI systems.\n* Sony's new wireless PlayStation speakers, called Pulse Elevate, will launch on November 12th for $219.99. The speakers feature planar magnetic drivers, a built-in mic, low-latency PlayStation Link connectivity, and charging docks.\n* OpenAI's ChatGPT has been updated with new features, including the ability to create reports daily using Claude cowork, which can save users hours per week. The update also includes a new playbook for slashing API bills by 74%.\n* Astronomers have averaged the light from 200,000 galaxies and discovered that the universe is technically beige, which they have named \"Cosmic Latte\".\n\n### Notable Links\n* The Claude Code Playbook\n* ChatGPT for Teens",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "OpenAI releases a teen mode\n\n\\+ Scientists are building biological storage using DNA  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n19 Aug\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_p"
+    },
+    {
+      "from": "\"AI Breakfast\" <aibreakfast@mail.beehiiv.com>",
+      "subject": "Containment failure forces OpenAI to pause frontier RL training",
+      "date": "2026-08-19T15:14:48.000Z",
+      "summary": "## AI Breakfast\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI has paused its largest frontier reinforcement-learning (RL) training run due to a containment failure, which may indicate that the model is too good at hacking, highlighting growing safety concerns around AI development.\n* The company is shifting its focus towards automated, token-level chain-of-thought monitoring, requiring safety alerts to trigger human review within 30 minutes or face an immediate, automated shutdown, adding a 20% compute overhead to inference workloads.\n* OpenAI has expanded its RSI/misalignment Preparedness team and is deploying Codex-based code review, continuous infrastructure probing, and automated alert triage to enhance cybersecurity.\n* The company has signed a 20-year agreement for 8GW of capacity at SB Energy’s PORTS-Pike campus in Ohio, powered exclusively by Nvidia, to support frontier training, ChatGPT, and Codex workloads.\n* OpenAI has debuted ChatGPT for Teens, a dedicated mode for users aged 13-17, with tighter content restrictions and study-oriented features, reflecting growing regulatory scrutiny over AI safety for minors.\n* Anthropic has reportedly reached an annualized revenue run rate of $65 billion, outpacing OpenAI's $40 billion rate, driven by enterprise adoption and the efficiency of its Opus 4.8 model.\n* Claude, Anthropic's AI model, has generated de novo protein binders with a success rate of 22-35%, more than double the typical average, in wet-lab tests with Adaptyv Bio and Twist Bioscience.\n* Google has launched an AI-powered tool to redirect Atlantic flight paths, and Alibaba has built an AI model to predict depression four years in advance.\n* Researchers have introduced an 'LLM-as-a-Verifier' open-source framework to verify the correctness of AI-generated code, and a new protocol to detect and prevent AI-generated misinformation.\n\n### Notable Links\n* [GLM-5.3](https://www.glm-5-3.com) has achieved top open-weight benchmark scores.\n* [Open Qwen3.8-27B](https://www.openqwen3-8-27b.com) has become one of the fastest-growing models after 1 million downloads.\n* [Zetik](https://www.zetik.com) acts as an AI chief of staff, running an agentic intelligence cycle to collect, filter, analyze, and brief users across multi-source feeds.\n* [Taku AI](https://www.takua.ai) lets users borrow the best AI setups and make them theirs with one-click desktop apps.\n* [Superflow AI](https://www.superflowai.com) uses smart agents to scan websites for QA issues and pin findings directly on live pages.\n* [BrowserAct Cloud](https://www.browseractcloud.com) builds self-healing scrapers from simple prompts to extract structured data using AI agents.\n* [ZGI](https://www.zgi.com) is an open-source enterprise AI platform that cleans company data to power governed agents and workflows.",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Containment failure forces OpenAI to pause frontier RL training\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/b87d3f3265e46aefcbf5a0513371158340b3c8e2651b9ad3d5fc65538ff850ca3330733ce72e0c21e8421f0e117833bbb89b2102a6f5d89e7998d78011c307fb5b3a0a80fa72a55d5bfcc4b693a1dd6b08fba67ca843193aa349145876977c952b99fea4ff941070718571d72274299a4f762e392a5a57179f2b2cdb8310c21e8f2496a4ce802fc41fd2ac75f3e528bd2a434f58283d004250eb86a35dcb98e6/01509b786118bd06)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/acae4be9-a88f-4644-87ab-182c2cfc10fe/ai_breakfast_white_logo.png?t=1773352600)](https://link.mail.beehiiv.com/v2/c/105d851cbffc080624474bdc519b14ecbea310edf13f37e0c268992868e44a5b9e72036cd80e78e4136387864a985ef93953d007bfb97853fe33193dc573b7262aa9d69b4bc5211a373164e268bf0a6a1fce032dfe5a599bd59dc4f7b430783dcebc17ca2feef0f88ae275319031d6729231bc0dcb0a771605a4aeeec80d34901931fb73ceab882bf4226520c1d917c8b0"
+    },
+    {
+      "from": "\"Matt from FutureTools\" <futuretools@mail.beehiiv.com>",
+      "subject": "Nvidia backs OpenAI",
+      "date": "2026-08-19T16:06:46.000Z",
+      "summary": "## Future Tools Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nvidia is investing $1.5 billion in SB Energy, the developer behind one of OpenAI's largest data center projects, to become the exclusive compute infrastructure provider for the project. This investment also includes up to $105 billion in credit and compute support to help build the data center, which is expected to support 4.25 gigawatts of computing capacity in its first phase, with an option to add another 3.75 gigawatts. This partnership gives Nvidia a significant foothold in OpenAI's infrastructure and reinforces its influence over the direction of the AI industry.\n- Sal Khan, founder of Khan Academy, is teaming up with TED and ETS to launch the Khan TED Institute, a new type of college designed for the AI era. The institute will offer a $10,000 undergraduate degree, blending traditional and practical curriculum, with corporate partners like Google, Microsoft, and McKinsey helping design the curriculum. This initiative aims to bridge the gap between what universities teach and what employers need, potentially changing how people think about higher education.\n- Wispr, the company behind the AI dictation app Wispr Flow, has raised $280 million in Series B funding, valuing the company at $2 billion. Wispr is expanding into productivity tools like meetings and new voice-first interfaces, facing competition from other dictation apps and meeting tools.\n- OpenAI has debuted ChatGPT for Teens, a dedicated mode for users aged 13-17, with built-in safety protections and study features. This move sets a precedent for youth-specific AI design and reflects growing regulatory and public scrutiny over AI safety for minors.\n- Nvidia is also launching new inference-focused processors to speed AI responses and has joined an AI safety initiative focused on open models, reflecting its push to cover both training and inference demand while addressing industry pressure around model security and governance.\n\n### Notable Links\n- Khan TED Institute\n- Genspark Design\n- Ori Harness\n- Lyzo",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Nvidia backs OpenAI\n\nWispr raises big  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/64cfd3006a9c0efa1c27b92eebcf20a5eeab4ddbb2f839bfba532b4ba9ee54cac0c35bac9a042de2ecf52f8b54691ed878c967204ad0fb9fdbd8ac8a2626f5af44988dd5d2adc7fbc0efef35bd3ab81841f278ca71a55e6ef75554a38f96c5eee80c5ec5409980a4258d2e9742efa2836ae7bd9ceafff8a782c5b85e97cc836cc52bca3305e95fb4119934fa00b3d1446aa8f9a5bf072605a65d5053f6e97436/139678722da53773)\n\n![](https://link.mail.beehiiv.com/v2/o/4b356c75e2f7d707e7e0fad51f16da0465793ceb551134de3b2ead0a1d989118b8683d0e0642fa84366c96ffec7c031ffd24c00b77b823"
+    },
+    {
+      "from": "\"AI Automation Society\" <noreply@skool.com>",
+      "subject": "Nate Herk posted \"Your copy of my new book\"",
+      "date": "2026-08-19T17:01:18.000Z",
+      "summary": "## AI Automation Society\n\n**Priority: LOW**\n\n### Top Updates\n- Nate Herk, an admin of the AI Automation Society, has published a new book called \"Becoming AI Native\" and is offering it at a discounted price of $4.99 (originally $117.99) for a limited time, including two complete training programs, in exchange for an honest review on Amazon.\n- The discount is available until Saturday, and the book package includes two training programs, but no further details about the book's content or the training programs are provided in the newsletter.\n\n### Notable Links\n- \"Becoming AI Native\" book (no direct link provided, only a promotional link)\n- AI Automation Society group (no direct link provided, only a promotional link)",
+      "links": [],
+      "papers": [],
+      "priority": "LOW",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/b51c57150c70495899bf4bc8aaee8166/071e29ca1eec4c4c851bf1e4f705e1d13fd7d1ff1ce9450da0a8e5d902736755)\n\nAI Automation Society\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRuxx2f4G5pcYUeNv-2FGLDcJun-2BPoFfFlTdw-2FC-2FYMahsCCuJ5RylOPB-2B6gNR6alz4zSFng-2Bot-2Fn3ff7fndlTH63P50XuuGxmo-2BAPMYktUDA2KN4gDSVYTLxo6ZktjrhR0cPtG-2FIZKEF6KioYiyLPIAS8QYw-3D-3D9oVS_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXOsWyjVMPnuLHzQGvjsijnSXL0pSkUrZja14YsK2skNONk8sza5KkSixP1TYfcANi6T8N9tjRFJ1e1KdAZD2WuwQa9CCWbQRClMQClKxTrkuI94avgzMiSBmXtteuH-2FrNHXEWRc40kP9K59wtOweboXyXYxCNYm6a-2Fd6ZaJxtk-2FVWl7H7xJRYw4g2IGTBvlTV4bunxvNafx-2F4Gt-2BdEDmmVtLgrfL74-2BRitrIj-2BIWN-2Fk8hsPF-2FrGMTIhyrstk3Wby7qjh-2FTQHGvGm9C-2Fv2Xd9bZz3YLR4zp2VphVoHOHSaSX-2Btd-2FnbRIDFahzft-2BI6DeT2ygumBuv3pZbNPktE"
+    },
+    {
+      "from": "\"Abhijay from Abhijay’s AI Action Letter\" <abhijayvuyyuru@substack.com>",
+      "subject": "I Turned ChatGPT Into a $2,000 Personal Stylist (Steal My Exact Prompt)",
+      "date": "2026-08-19T17:22:36.000Z",
+      "summary": "## AI Action Letter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Abhijay Arora Vuyyuru shared a workflow to turn ChatGPT into a $2,000 personal stylist by providing four photos and using a specific prompt to generate a 6-page wardrobe guide.\n* The guide includes a style analysis, outfit planning, and a capsule wardrobe, and can be created by following a step-by-step process: taking four useful photos, uploading them to ChatGPT, copying and pasting a provided prompt, and building the guide one page at a time.\n* The prompt provided is designed to create a luxury editorial-style guide, with a focus on realistic fashion photography, and includes instructions for ChatGPT to analyze the user's proportions, coloring, and style, and provide personalized recommendations.\n* The guide can be used to create a practical 30-day wardrobe plan, including a list of pieces to check for in the user's current closet, ten repeatable outfit formulas, a prioritized shopping list, and a color-coordination guide.\n* ChatGPT's capabilities and limitations are discussed, including its ability to analyze visual proportions and color direction, but not to know certain details such as fabric preferences or workplace norms.\n* The newsletter also mentions the importance of treating the output as advice from a stylist, rather than a verdict about the user's body, and notes that the goal is to understand what already works and spot real gaps in the user's wardrobe.\n\n### Notable Links\n* Subscribe to AI Action Letter: [link]\n* I Turned ChatGPT Into a $2,000 Personal Stylist (Steal My Exact Prompt): https://substack.com/app-link/post?publication_id=5882883&post_id=211806899&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTgwNjg5OSwiaWF0IjoxNzg3MTYwMTc1LCJleHAiOjE3ODk3NTIxNzUsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8wzmsseZW4WpD6y5DU8t16BsHi8D7GeLwBzZcVjIOdo\n* Abhijay Arora Vuyyuru: https://substack.com/@abhijayaroravuyyuru\n* READ IN APP: https://open.substack.com/pub/abhijayvuyyuru/p/i-turned-chatgpt-into-a-2000-personal?redirect=app-store-no-desktop&inbox=true\n* Subscribed: [link]\n* Share: https://substack.com/app-link/post?publication_id=5882883&post_id=211806899&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTgwNjg5OSwiaWF0IjoxNzg3MTYwMTc1LCJleHAiOjE3ODk3NTIxNzUsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8wzmsseZW4WpD6y5DU8t16BsHi8D7GeLwBzZcVjIOdo\n* Like: https://substack.com/app-link/post?publication_id=5882883&post_id=211806899&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTgwNjg5OSwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODcxNjAxNzUsImV4cCI6MTc4OTc1MjE3NSwiaXNzIjoicHViLTU4ODI4ODMiLCJzdWIiOiJyZWFjdGlvbiJ9.hfmY21AWi5LsC8EKSp72WQJSTuMXD5Atd26xPijmiaY&r=49by34\n* Comment: https://substack.com/app-link/post?publication_id=5882883&post_id=211806899&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTgwNjg5OSwiaWF0IjoxNzg3MTYwMTc1LCJleHAiOjE3ODk3NTIxNzUsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8wzmsseZW4WpD6y5DU8t16BsHi8D7GeLwBzZcVjIOdo&r=49by34&action=post-comment\n* Restack: https://open.substack.com/pub/abhijayvuyyuru/p/i-turned-chatgpt-into-a-2000-personal?action=restack-comment&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTgwNjg5OSwiaWF0IjoxNzg3MTYwMTc1LCJleHAiOjE3ODk3NTIxNzUsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8wzmsseZW4WpD6y5DU8t16BsHi8D7GeLwBzZcVjIOdo",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGYWJoaWpheXZ1eXl1cnUuc3Vic3RhY2suY29tJTJGcCUyRmktdHVybmVkLWNoYXRncHQtaW50by1hLTIwMDAtcGVyc29uYWwiLCJwIjoyMTE4MDY4OTksInMiOjU4ODI4ODMsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzg3MTYwMTc1LCJleHAiOjIxMDI3MzYxNzUsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.VXYoYfrHdi657ZLKOouQaHtSu7ovR2knHCbU8FEZ2W8?"
+        },
+        {
+          "text": "I Turned ChatGPT Into a $2,000 Personal Stylist (Steal My Exact Prompt)",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=211806899&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTgwNjg5OSwiaWF0IjoxNzg3MTYwMTc1LCJleHAiOjE3ODk3NTIxNzUsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8wzmsseZW4WpD6y5DU8t16BsHi8D7GeLwBzZcVjIOdo"
+        },
+        {
+          "text": "Abhijay Arora Vuyyuru",
+          "url": "https://substack.com/@abhijayaroravuyyuru"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/abhijayvuyyuru/p/i-turned-chatgpt-into-a-2000-personal?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Subscribed",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hYmhpamF5dnV5eXVydS5zdWJzdGFjay5jb20vYWNjb3VudCIsInAiOjIxMTgwNjg5OSwicyI6NTg4Mjg4MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3ODcxNjAxNzUsImV4cCI6MjEwMjczNjE3NSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.gXsxNy7yRFAYltnqONzX4uN-AybUrJlvl7vvex3YofU?"
+        },
+        {
+          "text": "Share",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=211806899&action=share&triggerShare=true&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTgwNjg5OSwiaWF0IjoxNzg3MTYwMTc1LCJleHAiOjE3ODk3NTIxNzUsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8wzmsseZW4WpD6y5DU8t16BsHi8D7GeLwBzZcVjIOdo"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=211806899&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTgwNjg5OSwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3ODcxNjAxNzUsImV4cCI6MTc4OTc1MjE3NSwiaXNzIjoicHViLTU4ODI4ODMiLCJzdWIiOiJyZWFjdGlvbiJ9.hfmY21AWi5LsC8EKSp72WQJSTuMXD5Atd26xPijmiaY&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=5882883&post_id=211806899&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTgwNjg5OSwiaWF0IjoxNzg3MTYwMTc1LCJleHAiOjE3ODk3NTIxNzUsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8wzmsseZW4WpD6y5DU8t16BsHi8D7GeLwBzZcVjIOdo&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://open.substack.com/pub/abhijayvuyyuru/p/i-turned-chatgpt-into-a-2000-personal?action=restack-comment&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTgwNjg5OSwiaWF0IjoxNzg3MTYwMTc1LCJleHAiOjE3ODk3NTIxNzUsImlzcyI6InB1Yi01ODgyODgzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8wzmsseZW4WpD6y5DU8t16BsHi8D7GeLwBzZcVjIOdo"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "I Turned ChatGPT Into a $2,000 Personal Stylist (Steal My Exact Prompt)![](https://eotrx.substackcdn.com/o/a056a1f84bdafbbf/p.gif?token=eyJtIjoiPDIwMjYwODE5MTcyMjM2LjMuYTdkODkxODU2YzllNTBiZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIxMTgwNjg5OSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo1ODgyODgzLCJjIjoicG9zdCIsImYiOnRydWUsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzg3MTYwMTc1LCJleHAiOjE3ODk3NTIxNzUsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.Cjj2JVYVSa_xPViU7lCHZva18SKFyO22YNKfI9CjUcQ)\n\nAI Action Letter #70: Build a 6-Page Wardrobe Guide From Just Four Photos\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­"
+    },
+    {
+      "from": "\"a16z\" <a16z@substack.com>",
+      "subject": "OpenRouter & Stripe: The Intelligence Network",
+      "date": "2026-08-19T17:57:01.000Z",
+      "summary": "## a16z Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* Stripe has signed a deal to acquire OpenRouter, a company that provides a neutral and performant layer for model routing, enabling the exchange of intelligence between AI companies.\n* This acquisition cements OpenRouter's position as a critical component of the AI economy's infrastructure, allowing companies to specialize and trade value in a higher form.\n* The combination of OpenRouter and Stripe enables the creation of a network where AI companies can exchange intelligence, similar to how Stripe enables businesses to exchange dollars.\n* Tokens have become a new, universal medium of value exchange, enabling companies to trade and specialize in a way that was not previously possible.\n* OpenRouter's technology allows for the dynamic routing of models and providers, enabling companies to access the best possible models and providers for their specific needs.\n* The acquisition is expected to accelerate OpenRouter's growth and development, enabling it to become a leading player in the AI economy.\n\n### Notable Links\n* [OpenRouter & Stripe: The Intelligence Network](https://substack.com/app-link/post?publication_id=13145&post_id=211621994&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTYyMTk5NCwiaWF0IjoxNzg3MTYyNDA5LCJleHAiOjE3ODk3NTQ0MDksImlzcyI6InB1Yi0xMzE0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.QTfD6crGzmjjderdnozURIBO_aejIuSva0Yt2UC0BRA)\n* Subscribe to a16z Newsletter",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYTE2ei5uZXdzL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5hMTZ6Lm5ld3MlMkZwJTJGb3BlbnJvdXRlci1hbmQtc3RyaXBlLXRoZS1pbnRlbGxpZ2VuY2UiLCJwIjoyMTE2MjE5OTQsInMiOjEzMTQ1LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4NzE2MjQwOSwiZXhwIjoyMTAyNzM4NDA5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.ufXE4z4UpeRStna1RAeV6vyBn6eLV85h5VJu_T4NnlQ?"
+        },
+        {
+          "text": "OpenRouter & Stripe: The Intelligence Network",
+          "url": "https://substack.com/app-link/post?publication_id=13145&post_id=211621994&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMTYyMTk5NCwiaWF0IjoxNzg3MTYyNDA5LCJleHAiOjE3ODk3NTQ0MDksImlzcyI6InB1Yi0xMzE0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.QTfD6crGzmjjderdnozURIBO_aejIuSva0Yt2UC0BRA"
+        },
+        {
+          "text": "Martin Casado",
+          "url": "https://substack.com/@vinividiaedifi"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/a16z/p/openrouter-and-stripe-the-intelligence?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "America",
+          "url": "https://substack.com/redirect/bef6c9c8-318a-4cd7-92c5-0acafe550ddf?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Tech",
+          "url": "https://substack.com/redirect/adc2049f-e996-4bf0-8814-a337a588c082?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Opinion",
+          "url": "https://substack.com/redirect/6c94ad42-7689-4cef-9748-36e77da322d1?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Culture",
+          "url": "https://substack.com/redirect/7613c791-4d37-4030-82da-d1d1db5ebc0a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Charts",
+          "url": "https://substack.com/redirect/779f830d-0172-4f35-85ed-91ad06f39dad?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "electricity into intelligence",
+          "url": "https://substack.com/redirect/c5716d40-1c3a-47cf-b8e2-5d5f6a7f0ff2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://arxiv.org/abs/profile/6563006",
+          "title": null,
+          "arxivId": "profile/6563006",
+          "source": "arxiv-id"
+        }
+      ],
+      "priority": "HIGH",
+      "originalContent": "OpenRouter & Stripe: The Intelligence Network![](https://eotrx.substackcdn.com/o/226fba07b04768ed/p.gif?token=eyJtIjoiPDIwMjYwODE5MTc1NzAxLjMuYzU3MWEzMDlmZjVmY2M2NkBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMTE2MjE5OTQsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTMxNDUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODcxNjI0MDksImV4cCI6MTc4OTc1NDQwOSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.U4yaR_S2X7ldChuJxD4YJhqmnHaBQe3Girtp1RlnMmU)\n\nOpenRouter is getting acquired by Stripe\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "Claude Talked Me Out Of A $6,000 Mistake.",
+      "date": "2026-08-19T18:02:17.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The Daily ChatGPT newsletter introduces a decision-making tool called a \"premortem,\" which involves assuming a plan has already failed and working backward to identify potential causes of failure. This tool was developed by psychologist Gary Klein in 2007 and is used by organizations such as the US military and Pixar. The premortem is particularly useful because it changes the way the brain approaches a problem, treating it as a memory problem instead of a prediction problem, leading to more honest and thorough analysis.\n- The newsletter provides six prompts to help individuals make better decisions, including the premortem, the base rate check, what has to be true, the cost of being wrong, the interrogation, and the decision log. These prompts are designed to be used with AI tools like ChatGPT and Claude to facilitate more effective decision-making by forcing the AI to attack plans, provide outside views, and help identify potential pitfalls.\n- The premortem prompt involves describing a decision or plan in detail, assuming it has failed, and then identifying the story of how it failed, the specific causes, early warning signs, and what could have been done to prevent the failure. This approach helps to surface about 30% more failure points than a normal planning review.\n- The base rate check prompt involves searching for what actually happens to people who attempt a similar plan, providing an outside view of the situation, and identifying the percentage of people who succeed, how long it typically takes, and the most common reasons for failure.\n- The what has to be true prompt involves working backward from an expected outcome to identify the assumptions that must hold for the plan to work, and then evaluating the confidence level for each assumption, the evidence supporting it, and how it can be tested.\n- The cost of being wrong prompt involves evaluating the potential costs of a decision, including the cost of being wrong, the cost of not taking action, and the potential risks and benefits. This helps to determine whether a decision should be made quickly or slowly.\n- The interrogation prompt involves asking questions to clarify thinking and identify potential biases, rather than seeking answers or advice. This prompt is designed to help individuals find their own answers and identify areas where they need more information.\n- The decision log prompt involves writing down the decision, the expected outcome, the reasoning behind it, and the assumptions that support it, as well as the potential risks and benefits. This helps to create a record of the decision-making process and facilitate learning from the outcome.\n- The newsletter also mentions the potential for a \"compound effect\" from using these prompts, where individuals can improve their decision-making over time by regularly evaluating their assumptions, identifying potential pitfalls, and learning from their experiences.\n- The development of these decision-making tools and prompts reflects the evolving capabilities of AI systems like ChatGPT and Claude, which are becoming increasingly sophisticated and able to support a wide range of applications, from consumer and education settings to enterprise and professional domains.\n\n### Notable Links\n- [ChatGPT](https://www.openai.com/blog/chatgpt) \n- [Claude](https://www.anthropic.com/claude) \n- [GPT-5.x models](https://arxiv.org/abs/2205.05131) \n- [ChatGPT for Teens](https://www.openai.com/blog/chatgpt-for-teens) \n- [Lockdown Mode](https://www.openai.com/help/guides/safety-and-moderation)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Claude Talked Me Out Of A $6,000 Mistake.\n\n❗️The prompt a Nobel winner called his best tool...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/cc9b037cb74507d469e092fdb55df3ee8267f3c3b2add20cf628baf4a60bdabaae1b483cd7b8d0f00d80f133bf1e1e707ce46de8a1fa7adeeb885202ac1e7c1fced694576f12108a3432d67f9bd240dc29fd6a746fdb1e19db546f5099c29b4f4caf43b3a7784844abcc3b55c1df1094d1cc704c7a8ef94f3a4bed98a6028e7e848b5dfb1cc38804a46f108ebabec2f9f7313c049401cff3f1928219a6739156/daf38bb6e2b3566f)\n\n# Claude Talked Me Out Of A $6,000 Mistake.\n\n❗️The prompt a Nobel winner called his best too"
+    },
+    {
+      "from": "\"Dharmesh @ simple.ai\" <hi@simple.ai>",
+      "subject": "🤖 Give AI the Destination, Then Choose the Route",
+      "date": "2026-08-19T19:30:44.000Z",
+      "summary": "## Simple.ai Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses the concept of \"outcome-first prompting\" in AI, where the focus is on specifying the desired outcome rather than the steps to achieve it. This approach allows the AI model to explore different paths to reach the outcome, and the user can then choose the best option.\n* The author provides examples of how to implement outcome-first prompting, including a template prompt that can be used in ChatGPT or Claude: \"I want [the outcome], by [when]. Here's my situation: [your constraints, your resources]. What are all my options? Lay out the trade-offs of each one in a neat table. Analysis only.\"\n* The newsletter highlights the importance of providing context when using outcome-first prompting, as a smart model with no context is still just guessing. The author emphasizes that the model searches for paths that fit the user's world, with their deadline and constraints, instead of paths that fit a hypothetical average person.\n* The concept of outcome-first prompting is made possible by the latest flagship models from Anthropic's Claude and OpenAI's ChatGPT, which are more capable of handling open-ended questions and providing useful outputs.\n* The author mentions that two years ago, outcome-first prompting did not work well due to the limitations of AI models at the time, but with the latest advancements, it is now a viable approach.\n* The newsletter also touches on the topic of AI safety, particularly in the context of ChatGPT's new \"teen mode,\" which adds tighter content restrictions and study-oriented features for users aged 13-17.\n* OpenAI's recent developments, including the release of GPT-5.6 models and the introduction of \"ChatGPT for Teens,\" are mentioned as examples of the company's efforts to improve AI safety and expand its capabilities.\n* The newsletter highlights OpenAI's partnerships with companies like Nvidia, which has invested tens of billions of dollars in OpenAI's data center infrastructure, and its revenue growth, with annualized revenue expected to exceed $40 billion.\n\n### Notable Links\n* [ChatGPT](https://www.openai.com/chatgpt)\n* [Claude](https://www.anthropic.com/claudel)\n* [OpenAI](https://www.openai.com)\n* [GPT-5.6](https://www.openai.com/blog/gpt-5-6) \n* [ChatGPT for Teens](https://www.openai.com/blog/chatgpt-for-teens)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖 Give AI the Destination, Then Choose the Route\n\nThis is how outcome-first prompting works.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.OmvVQoGRxXyFopAr2m0tC_1ocQSMQ22hXbVwpXqOqfdK-9wangvIbrnnbILlHD974c7OoJDrtckJCK78iGcM5jC91LQFzuBH4Ns1gI9I1Gn4FKgaW5pXloQzDd9VxtjymejajnstZ9YH8tKgWBvMYlQQAmtzvVKxYHUCPQYhPbpTzSAgQbupdS7Y9Mx56IwDTVQevLPixTG3wfbOIhLtGTxX10vz1iPzim_KRtkBe5cvEeY6sybBvANFxbnUBQM9PYo5j90FsSXW6yuY3IBE6PWhYcu2oGXG9MLLw3HkVkjLaqdKt5AsCe73d1MQkC0DeVmYXz_dzBFraRTcjcLFJRwYFoBuIMKxLHJd2dvNqpXGK9Aw2ykyZVzpQ94SQBJaSJxOL2VjBTdl2C2Can6ECmjQT93w3iaVTFtbdYtwdULb"
+    },
+    {
+      "from": "\"The AI Leverage\" <theaileverage@mail.beehiiv.com>",
+      "subject": "I fired myself...",
+      "date": "2026-08-19T20:11:22.000Z",
+      "summary": "## The AI Leverage\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses Grok Bot, an AI tool that can take tasks off your plate, unlike previous tools that only assisted with tasks. It's available in three tiers: SuperGrok Heavy at $300/month, Cursor Ultra at $200/month, and Cursor Teams Premium at $120 per seat.\n* Elon Musk's AI can now be integrated into businesses, potentially revolutionizing how companies operate. The AI can handle tasks such as sales, HR, and social media management.\n* HubSpot's Prospecting Agent can help businesses close 80% more deals by finding the right accounts, surfacing the right contacts, and drafting outreach emails that get responses.\n* Wati is a tool that connects various messaging channels into one inbox with AI-powered automations, helping businesses respond to customer messages promptly.\n* The newsletter also mentions Bestapps Academy, which is free for the first 200 subscribers and then $49/month. It provides guides and resources for using AI in businesses.\n* ChatGPT is mentioned as a reference platform in the AI/ML ecosystem, with its teen mode adding stricter content restrictions and study-oriented features.\n* significant industry news is referenced but explained fully\n\n### Notable Links\n* Grok Bot\n* HubSpot's Prospecting Agent\n* Wati\n* Bestapps Academy",
+      "links": [
+        {
+          "text": "https://theaileverage.beehiiv.com/subscribe?ref=fl2AWVfOA5",
+          "url": "https://theaileverage.beehiiv.com/subscribe?ref=fl2AWVfOA5&_bhlid=bf7a73b936aab597b0df9777ef50b28c5a049d32"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "I fired myself...\n\nIs this a before and after?  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/ea5261a49147e89097597d3f1c1cf63e4cdb72d84faba6c6d4a08861a5fc2a3a3a8fa80125f826664bd7ea6b3e3361ad2736648415bdf54c7923318d6b202fb0f81fbc51b8d864203068dd703f42825bd5e9c766d31f2c2115528e37fd5f879d48fb2d212604bc25c9be262f5ae323b2e113460b5b102d50322f40b4bbbd02ba07c8d5de40a8f8f5c3af3c93d40ab9c66471108fe5314787183d677e86d701bd/174ce8ee83fcdfd9)\n\n# How to run your company on just $200/month\n\nElon Musk's AI can now work inside your business\n\n![](https://link.mail.beehiiv.com/v2/o/2becb"
+    },
+    {
+      "from": "\"Scite\" <hi@scite.ai>",
+      "subject": "Live Aug 25: AI for Academic Research Crash Course",
+      "date": "2026-08-19T16:46:29.000Z",
+      "summary": "## Scite Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Scite is hosting a live webinar on August 25 at 1:00 PM EST, titled \"AI for Academic Research Crash Course\", which aims to get researchers up to speed on the latest AI tools and techniques for research. The webinar will cover what's new in AI, how to make AI research ready, and academic integrity best practices.\n- The webinar will discuss new AI tools and techniques, including agents and coding tools, and how they can be applied to research. It will also cover how researchers can make their AI research ready with connectors, plugins, and MCPs.\n- The topic of academic integrity will be addressed, including best practices for citing responsibly and documenting the research process.\n- Scite also provides the option to integrate its tools with other AI platforms like ChatGPT and Claude, allowing researchers to bring Scite into these tools.\n- ChatGPT, a conversational AI system by OpenAI, has been evolving with larger GPT-5.x models, improving reasoning, speed, and cost efficiency. It has also introduced features like structured outputs, long-context \"deep research,\" and stronger memory controls.\n- A recent development is the introduction of \"ChatGPT for Teens,\" a dedicated mode for users aged 13-17, with tighter content restrictions, reduced anthropomorphic behaviors, and study-oriented features like homework prompts and quizzes.\n- ChatGPT's updates, including cheaper frontier models, security-focused modes, and expanded enterprise and education tiers, set a precedent for the industry and influence expectations for responsible deployment of large language models.\n\n### Notable Links\n- Register for the Scite \"AI for Academic Research Crash Course\" webinar\n- Get started with integrating Scite into ChatGPT or other AI tools\n- Learn more about ChatGPT and its features, including \"ChatGPT for Teens\"",
+      "links": [
+        {
+          "text": "Register for the webinar",
+          "url": "https://url2941.scite.ai/ls/click?upn=u001.wQEk8stkyV2LgKuqQH2Dw8fpNqXjq7aX9Onvd2rKD6LbACFFBeLPQ5foJ-2FWGwkh10kSLVEMMyMQ4F5KpndDffDJbx0Yg1l9CTJuGCzn8Xwg-3DH1vx_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnFm7VLtQBEWY2C4t0pC50hhy5N0GSdC4aL9j6w2QrJR3Wq-2BnDzoTsV7CzaCbr1pk8QbEbwjq3qAukV8kxoIPnww2piBYujHOs4b9b3kLL72z5t99YhESmxXLH7KsnqkdqR9dxsKv4vHt6vn85Xap7ptArDSSP9FXLaxqYCwyvd1Mlmxf64Hrl4sXlIiDXJVS52ettyqrV7AZcISRxe3rYIG2o9vUFDJGxeP-2BFWmxx-2BtIwo7ECO01a-2B4vBA6QWTCjQJMh4Vw6p5Y-2FPszhn9ZSmQFntAH-2F11d8k9aSqQno8KcdNiewLi8C20OVnkxl3-2FilxTS7L9r7-2BHwmggLcV15-2FZVeQlo8zP-2F7qROzqMfs8JfrddP212uBWxGnBIVXpDcBj7NJ6ibXrMeTeCGVYtI-2Bv0ATZqalSqGZChFab7C8WXg4WZZvQpNEE2pWQ-2BN9Fc2Fclpbhz9WxO9xbA6HchjUvWH-2BJiaylfc0JTVQMklwTZi3T-2FHlJ-2BS602ZI-2FvrEll6eaCrN-2B0CAL4-2ByMZKDUPm2BSWGyV0iNHmN6eWXgnXTjrb7Mf-2BJHWfeZqLS6Y3SXqOLkYJ36uX6ufDr1yDCLZqgFnodd0FzUBVnXCRW8RYYqGIX94vO-2F8HHvOr-2FsaxJ9JVTFXTF-2BDXYDbeHIvYU9TEOKQwhSLUu5Tt-2FCWEZmWxzgZEJlN-2FtKutzx-2BhU6OunIIRuCGqaAeTenAXvW-2FVIwtxHxBV-2FoxPkCkGZtkx90HYuuncTJFHAvvaUjrLsuEgE1wduxfEChSqHX5QefvlzJlie5aYVFmxr-2FlyoLhcItZM544YJbFzCvb6XXVNAFsuO6B3ucNw-3D"
+        },
+        {
+          "text": "Get started here",
+          "url": "https://url2941.scite.ai/ls/click?upn=u001.wQEk8stkyV2LgKuqQH2Dw-2FJjAUU6JVYASyUxMRe1Frk-3DYc5N_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnFm7VLtQBEWY2C4t0pC50hhy5N0GSdC4aL9j6w2QrJR3Wq-2BnDzoTsV7CzaCbr1pk8QbEbwjq3qAukV8kxoIPnww2piBYujHOs4b9b3kLL72z5t99YhESmxXLH7KsnqkdqR9dxsKv4vHt6vn85Xap7ptArDSSP9FXLaxqYCwyvd1Mlmxf64Hrl4sXlIiDXJVS52ettyqrV7AZcISRxe3rYIG2o9vUFDJGxeP-2BFWmxx-2BtIwo7ECO01a-2B4vBA6QWTCjQJMh4Vw6p5Y-2FPszhn9ZSmQFntAH-2F11d8k9aSqQno8KcdNiewLi8C20OVnkxl3-2FilxTS7L9r7-2BHwmggLcV15-2FZVeQlo8zP-2F7qROzqMfs8JfrddP212uBWxGnBIVXpDcBj7NJ6ibXrMeTeCGVYtI-2Bv0ATZqalSqGZChFab7C8WXg4WZZvQpNEE2pWQ-2BN9Fc2Fclpbhz9WxO9xbA6HchjUvWH-2BJiaylfc0JTVQMklwTZi3T-2FHlJ-2BS602ZI-2FvrEll6eaCrN-2B0CAL4-2ByMZKDUPm2BSWGyV0iNHmN6eWXgnXTjrb7Mf-2BJHWfeZqLS6Y3SXqOLkYJ36uX6ufDr1yDCLZqgFnodd0FzUBVnXCRW8RYYqGIX9-2FsY9ocr0HR71aushJZVmJBeLfTsnsyO-2Bw7nKd43-2FKrTe9rtes9aJaGssnyWv90PP6nTYsAhx6mUzjNu2nhREHrnS8zPR7kiQTg3Ba7-2F9tFv918ETAbAvGUBa-2FpAdMcApTaqyMlLMAit6vP3UF7-2FqotSib41D0C303PkKYa-2BZKO-2FZJx-2F-2B5Oaw-2BtVMbNQH9bZHV9OWp5mN5USSx4LKFHps-2F0-3D"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Join us live for a walkthrough of new AI tools and techniques for research   ![](https://url2941.scite.ai/wf/open?upn=u001.-2FSb4f8BWNu90HA8FhsdHbi34qZx1wjn1NPkHmbQAFBxveEdHbeWjXkL-2FxtYXTYWyJv3RfJk8KIxzOlEEUr-2F0dtDYbniWHFOQP4LyX17VDp25B9abn4avf4xHP9DETQUB9I1U5lseWH6z-2FJZZ6WXiSynpjyP2mQWxuxE-2BoCUdMcfuLPBQAard5LSXLKrRpJ-2BpyEXR5Ig-2FDImX7obKy1yeJQQk1JLT8rF6YLnLwNHVwfGinfLwJ1Up5KCkTm5uYvegb-2FY0YsBcGk2wODSe1RyyfICXEAdEAf6PYiyjzXk3P-2FJvh-2Fzws2ug1xrvROK3VAoTVLvfkcnRAnqhkx-2FBWLEhOZni7BvHRh-2BpN0oNdTIgsxxJedZF-2BghHZRIxp4clP0g4lVwt7QRltudiJvuh9cgXGt1jDvThgU633gx0fA3AlKh-2B3zFmTGYofEqfzLg5XidYrob9RPMYWyDWz-2FZ5p0KpOVcfAn0aCo56fYHg2YKjYBpjPVrW-2FI-2FllF4n7X-2FCH0oP2zKsxUXoAvx3Hd9tmLtfIoHLecu4U7j-2FgT8uKy6tuy0-2FCZuzGfneUyqvYaCmRI8AfSZ59ltdkSGJnpOzgO2oyOgX5U31-2BEIUArisuf-2FpK5mJAsXeHEM5H17ZLoWIkTZ1R2pfOaqxu1IaRTMddykrxcl0CcFb2jOMIg8HnfdUYgL7-2FEAAi7ORzOdLxq25Fdiuo7TYpHThyTVZQXr2eB77Qt7COaPEQfmLnBhJiCwH7bbHjXaZpY5Pc83k78-2FbwDmzLRjE43wfzH0tQ-2FUk-2BJp3q-2Bc7RK3WTERWrBcsMRnTYsqHzYfb-2Bg1wc"
+    },
+    {
+      "from": "\"tokens&\" <tokensandai@mail.beehiiv.com>",
+      "subject": "tokens& Weekly 8/19 - 🚀 $8B Later, Stripe Owns OpenRouter",
+      "date": "2026-08-19T20:33:49.000Z",
+      "summary": "## tokens& Weekly 8/19\n\n**Priority: HIGH**\n\n### Top Updates\n* Stripe finalized its purchase of OpenRouter for $7B+, transforming Stripe from a fintech utility company into a foundational AI infrastructure giant.\n* OpenAI paused frontier training after its unreleased Astra model neared a cyber-risk threshold, and quietly disbanded the team built to catch exactly that risk.\n* Google won a bankruptcy auction for Spirit Airlines' data for $10M, to feed it's AI models.\n* Anthropic's revenue run rate crossed $65B, up 7x in a year, carried mostly by Claude Code — reportedly chasing an IPO number twice OpenAI's.\n* Claude beat an entire open design contest on a single drug target, landing 28 of 90 candidates, binding ten times tighter than the winner.\n* Cursor launched Origin, a new place for hosting your repo and running agents directly on it the same day GitHub had its second outage this month.\n* A new open model has almost no safety refusals left, built for red-teaming, not shipping.\n* Guild launched Agent Hub, an open marketplace where you install production-ready AI agents instead of building them from scratch.\n* Researchers found that AI agents can catch a \"mind virus\" now, which gets worse the more it spreads, and can rewrite its own memory file.\n* Nvidia is backing $105B in financing for OpenAI's new Ohio data center, the same company is now the landlord, the lender, and the chip vendor.\n* Etched raised $700M at a $21B valuation, Jane Street led the round and got the first rack shipped.\n* Z.ai's GLM-5.3 doubled its exploit-detection score without touching the base model, the gains all came from post-training.\n* Claude Cowork is now live on web and mobile, background agents that keep running whether your laptop's open or not.\n* OpenAI is rolling out Zero Data Retention for API users, no storage, no training on your data, the compliance blocker that's kept banks and hospitals off its models.\n* Cerebras shipped its CS-4 rack, 750 PFLOPs, and up to 30x faster inference than GPUs on the same benchmark.\n\n### Notable Links\n* Open Model Hack - Gradient x Google Deepmind\n* VAST Builders Challenge - SF\n* VAST Builders Challenge - NYC",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "tokens& Weekly 8/19 - 🚀 $8B Later, Stripe Owns OpenRouter\n\nOh, and Claude doubled the industry success rate on drug binders  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/f8168febfabcb12c9ef41630d22b8caa2a863c20f240297e5b9c1301ab7624b805160d554657c1b14964ef096c820e2b3aa0e58e9aabbbc18bb72a6cd8419150ec479e722f3c22e229a9d1fff52b5387780167b17da740cbe2c7727f77cc7e5e9ebe41d753609b2fb93e17830caf7a47446d51ec76b964aaccd3f3b87566e489184be798a2a22b9f3483c3cda7144a50158e72a53e2ccd863c9cc79b7183cb49/38699ffcd3b45bf5)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,for"
+    },
+    {
+      "from": "\"Uncovering AI\" <uncoverai@mail.beehiiv.com>",
+      "subject": "🩺 who's liable when AI gets your diagnosis wrong?",
+      "date": "2026-08-19T21:15:44.000Z",
+      "summary": "## Uncovering AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* A JAMA paper claims generative AI already rivals physicians at five core tasks, but the American Medical Association (AMA) argues that human doctors should remain central to patient care, highlighting the importance of human connection, clinical judgment, and responsible tech use.\n* The Trump administration has announced a $5 billion \"Genesis Mission\" initiative to use AI to power a new \"golden age of science,\" with a focus on biotech, nuclear fusion, quantum computing, and semiconductors, but the effort's narrow focus and lack of broad-based funding have raised concerns among scientists.\n* ChatGPT's browser can now be used to automate tasks, such as opening multiple tabs, comparing products, and editing pages directly, making it a powerful tool for productivity and research.\n* The FDA has put out a discussion paper on assessing generative AI medical devices, highlighting the need for clearer regulations and guidelines on the use of AI in healthcare.\n* A startup called Vivodyne has opened the \"world's largest human data center\" to grow real human tissue for AI-driven drug discovery, addressing the data problem that has hindered AI's ability to cure diseases like cancer.\n* Nvidia has announced a new inference-focused processor to speed AI responses and has invested up to $100 billion in OpenAI's infrastructure plans, solidifying its position as a leader in the AI ecosystem.\n* The AMA has released a framework emphasizing the importance of human physicians in patient care, even as AI tools improve, and has warned against the risks of \"AI-induced deskilling\" among doctors.\n\n### Notable Links\n* Genesis Mission\n* AMA Framework\n* Vivodyne",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🩺 AI beats doctors at diagnosis. Nobody's liable when it's wrong.\n\nA JAMA paper says generative AI already rivals your physician at five core tasks. The AMA says not so fast.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/f74f2fb868386e1eac49a4df98fa8795d03b2625d7e5a3d8e2c3bfa42b7429279eb46ab752c8c2688d6c058bd5b03fd687bd98cee7fed5dd7d8b14f7f57bfc6b6b1fd23c5e359cea44166f6a2ffb42e0184d51bef96577267561b8f2a753c134691dc61b63f7f758b28fd56412d1f2d32572164fb740a86add17994ee41a738ce9d4a57217f6cb64597d60bb6103c9cdf8cfd7fb91f1092b007f18b0ad3fe0dc/2d9db6a9cfb47ab4)\n\n# 🩺 AI bea"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 Stripe: The Singularity Began Jan 1st",
+      "date": "2026-08-19T21:22:03.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* **Stripe's Investor Letter:** Stripe's investor letter names January 1 as the turning point for the AI singularity, with 88% of the Forbes AI 50 already on board.\n* **Replit's Free Mode:** Replit has introduced a new Free Mode that gives users a fresh allowance every 5 hours, and OpenAI's GPT-5.6 Luna is available for building.\n* **Copilot's Bypass:** Varonis kept asking Copilot about its own guardrails, and every refusal leaked a little more, until it named an undocumented setting for skipping consent.\n* **OpenAI's Pause:** OpenAI paused its biggest AI training run after an unreleased model called Astra may have crossed into OpenAI's top cyber tier.\n* **Stanford's AI Agent:** Stanford's AI agent beat 10 teams on 120,000 pages, showcasing its capabilities in data analysis and processing.\n* **Harari's Statement:** Harari argues that ranking code has quietly taken over from the people who once decided what the world talks about.\n* **New AI Tools:** Various new AI tools have been introduced, including Cluing, GoAI, PINOC, Vmake, MailSweeper, WorkClaw, Loreon, and Whacka, offering features such as voice-to-text, coding assistance, and data analysis.\n* **rtk, Needle, screenshot-to-code:** New open-source tools have been released, including rtk, which proxies the shell for coding agents, Needle, which packs tool calling into a small model, and screenshot-to-code, which turns screenshots into working code.\n\n### Notable Links\n* [Copilot](https://www.github.com/features/copilot)\n* [Replit](https://replit.com/)\n* [OpenAI](https://openai.com/)\n* [Stripe](https://stripe.com/)\n* [StackChan](https://github.com/stackchan/stackchan)\n* [Wispr Flow](https://wispr.ai/flow)\n* [TAAFT Website](https://theresanaiforthat.com/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 Stripe: The Singularity Began Jan 1st\n\n88% of the top AI companies already run on it, Copilot hands over its own bypass, a desk robot wears your face, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0UF-ICRkFYunJi5FJk18zTEKri_j-vMkn5rXKPz-coIE3zAKPhc7Bjq5YJhd6K3np1qMtPrXABFfA3z21Z2HhDIz1RfMzNitcJp-xarNootAOE0hAFBQAFx82_eK76xg1HHlNLsr_d-apJ84eQ05SxYCOiZsoU6RF-BzyMq7AOSxEfxdK6lXY-32wz5EJQmvs-oP1do3fUXPgAHmVrl5SzZkeR2xY3If7TZ87sX-7mOxT1KjF8BaDwnNeRU94ZdJvaBpgC3EzIXkHymczTFsOr3u_UB2NyvTNxxy5"
+    },
+    {
+      "from": "\"Technology News\" <technology-newsletter@mail.beehiiv.com>",
+      "subject": "Meta is on trial for hooking your kids 🪝",
+      "date": "2026-08-19T22:00:45.000Z",
+      "summary": "## Technology News\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Meta is on trial for allegedly designing Instagram and Facebook to addict children and teenagers, with 29 states lined up behind the claim, and the trial is expected to run about six weeks, with Meta denying all allegations and the states seeking changes to features like infinite scroll and the like button.\n- OpenAI launched ChatGPT for Teens, a version of ChatGPT that switches on automatically when the company's systems estimate a user is between 13 and 17, with features like blocking romantic or sexual roleplay, steering students toward working out homework answers rather than copying them, and letting parents set quiet hours through linked accounts.\n- Amazon says its Prime Air drone service will grow from 11 metro areas to nearly 500 US cities and towns by the end of the year, with delivery landing in about 30 minutes for items under five pounds, and it's free for Prime members on orders over $50.\n- Google won a bankruptcy auction for Spirit Airlines' internal records, paying $10 million for roughly 100 million employee emails, 500 million Teams chats, and decades of spreadsheets, calendars, and code to train its AI models.\n- Unitree, the Chinese company behind the dancing, backflipping robots, went public in Shanghai and its shares surged as much as 542%, with the IPO raising $904 million and being oversubscribed more than 8,000 times.\n- Chinese startup LandSpace landed the booster stage of its Zhuque-3 rocket on its legs, a feat only SpaceX and Blue Origin had managed before, marking China's first successful recovery of an orbital-class booster.\n- The Motion Picture Association reached an agreement with TikTok owner ByteDance to build copyright guardrails into its AI video and image generators, following a cease-and-desist letter after ByteDance's Seedance tool was churning out unauthorized SpongeBob clips and recreations of Stranger Things scenes.\n- Dutch company Fairphone is officially selling a phone in America for the first time, the $650 Gen 6+, which has 12 parts you can swap yourself, a perfect 10/10 repairability score from iFixit, and software updates promised through 2033.\n- Samsung has raised prices for its advanced chip manufacturing by up to 15%, due to AI companies consuming so much factory capacity that there isn't enough left to go around.\n\n### Notable Links\n- [ChatGPT](https://www.openai.com/blog/chatgpt) \n- [OpenAI](https://www.openai.com/) \n- [GPT-5](https://www.openai.com/blog/gpt-5) \n- [Amazon Prime Air](https://www.amazon.com/primeair) \n- [Unitree](https://www.unitree.com/) \n- [LandSpace](https://www.land.space/) \n- [ByteDance](https://www.bytedance.com/) \n- [Fairphone](https://www.fairphone.com/) \n- [Samsung](https://www.samsung.com/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Meta is on trial for hooking your kids 🪝\n\nPlus: Amazon drones are coming to 500 cities, and a backflipping robot stock spiked as much as 542% in a day...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nAugust 19, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/03d57df64336110bc08e0f107a60780a07df63e264bc76d41f90c34b1fcf6c9a68c56bf82b71eaaca7d571e9aebd925e020d58f382e002f1b1952edd00f5ebe36655f2c99918a66b7a3906b8d545111b6d3dfd106d7cc3e15284ef44835321bbe5a43248436d05c8a7c409dc87063dc073de39342953a5f4d13b2dc5b4dff2b8c24854830e6ececc4cb5c49eb75cc3eb3a09b550b033735d5a38b657eb2c8c89/83fed8bea056c752)\n\n# Meta is on trial for hooking y"
+    },
+    {
+      "from": "\"Chase AI Community (Skool)\" <noreply@skool.com>",
+      "subject": "1 new notification since 5:31 am (Aug 19, 2026)",
+      "date": "2026-08-20T00:01:32.000Z",
+      "summary": "## Chase AI Community Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Chase Hannegan posted an explanation of every Claude Code concept in 21 minutes, covering the ten most important concepts, which is a useful resource for AI practitioners looking to understand Claude Code, a significant AI technology.\n- The post is part of the Chase AI Community on Skool, indicating a community-driven approach to learning and discussing AI-related topics, including Claude Code and potentially other AI models like GPT or Gemini.\n- The newsletter mentions the option to view the group or turn off daily notifications, suggesting that the community is active and users have control over their notification preferences.\n- There is also an option to start your own Skool, implying that the platform allows users to create their own communities or courses, potentially related to AI, machine learning, or other technologies.\n\n### Notable Links\n- View post: This link leads to Chase Hannegan's explanation of Claude Code concepts, which could be a valuable resource for those interested in understanding Claude Code.\n- View Group: This link allows users to access the Chase AI Community on Skool, where they can engage with others interested in AI and potentially find more resources or discussions about Claude Code and other AI topics.\n- Start your own Skool: This link provides the option for users to create their own community or course on the Skool platform, which could be used to share knowledge or teach others about AI, machine learning, or related subjects.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/e6ad8cbe88014c909808566ee94723a9/45e3b91336584a8c862b0c0ce35a3aec71e078ffb1ab4a90b7d4feee2af0aab0.jpg)\n\nChase AI Community\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3DhxRy_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXBRLYyrKSKiMDcKjSm-2BEvQ-2FMArnzSwnAd5MAANUB5HN5382VcIe7wNIWuonPlgku1XHaNtE1PJ4AlJyu7ZKRw6AR6ARmYl8Y4E6pnwZ0MLnAZ8jPpB8CkLsECIvLCf33W9RUHStjETL1zK-2FBSAMPgwHHmF2vDK7jYBrAdrjE1gArM1PC9ia1olF2zAQCmcKPLY9jgifgkYoeCI-2FFKFPUQFPWYj1OTg6bY0nqH1S3paTu8B1Bz-2Bqh3Iava6AKzCuZb0oY0pWJsquN4J1enVzULuUV9oWar-2B6lk5ji4vPg-2FBPqZO9GLU8APg-2B-2BaOG4BrGEr5hcVz"
+    }
+  ],
+  "tldr": [
+    "OpenAI pauses model training due to cybersecurity concerns.",
+    "Anthropic's Claude achieves 2x higher success rate in protein design.",
+    "Stripe acquires OpenRouter for $7B+ in AI infrastructure deal.",
+    "Nvidia invests $105B in OpenAI's infrastructure plans.",
+    "ChatGPT introduces \"teen mode\" with stricter content restrictions."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Firefox",
+        "context": "Firefox is Mozilla’s web browser, and in the AI/ML space it has been positioning itself as a privacy-first alternative in the AI browser race. Mozilla has been adding optional AI features such as translations, AI-enhanced tab groups, link previews, a sidebar chatbot, and on-device or user-choice model support, while emphasizing user control rather than a single bundled assistant. In early 2026, Mozilla also introduced AI controls in Firefox, including a global opt-out for current and future AI features, which reflects the company’s attempt to make AI features optional and user-managed rather than forced on users. [1][2][10]\n\nThe most recent development is Mozilla’s August 2026 partnership with Exa, which will help power Smart Window on desktop and Quick Answers on iOS with current, source-backed answers without leaving the page. Mozilla describes Smart Window as an optional, private AI browsing experience, and its broader AI roadmap says the feature is intended to help users get answers, compare information, and understand what they are reading online. This matters because Firefox is not trying to beat Chrome with a generic chatbot; it is differentiating around privacy, transparency, and user choice, which could influence how other browsers balance AI integration with user trust. [4][5][13]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is OpenAI’s flagship conversational AI system, used across consumer, education, and enterprise settings for tasks like writing, coding, research assistance, and customer support. In 2026 it continues to evolve around larger GPT‑5.x models (e.g., GPT‑5.5 and GPT‑5.6) that improve reasoning, speed, and cost efficiency, alongside features like structured outputs, long‑context “deep research,” and stronger memory controls that let users see and manage what data personalizes their responses. These advances position ChatGPT as a general‑purpose productivity layer that sits on top of many workflows, from software development and data analysis to professional domains like healthcare through offerings such as “ChatGPT for Clinicians.”\n\nThe most recent headline development is **“ChatGPT for Teens,”** a dedicated teen mode aimed at users roughly 13–17, reflecting growing regulatory and public scrutiny over AI safety for minors. Teen mode adds tighter content restrictions around self‑harm, eating disorders, violence, and sexual or romantic interactions; reduces anthropomorphic behaviors (e.g., avoiding claims of feelings or emotional intimacy); and introduces study‑oriented features like homework prompts, quizzes, visual explanations, “Study Mode,” and configurable “Study Hours” or “Quiet Hours.” It also incorporates age‑prediction and safety routing so that accounts likely belonging to teens are automatically placed into the safer experience. This shift matters for the industry because it sets a visible precedent for youth‑specific AI design, combining parental controls, break nudges, and safety guardrails with educational tooling, and signals how major AI providers may be expected to adapt their systems to age, context, and regulation.\n\nMore broadly, ChatGPT’s rapid feature cadence—cheaper frontier models (e.g., GPT‑5.6) as defaults for more users, security‑focused modes like “Lockdown Mode” to mitigate prompt‑injection, and expanded enterprise and education tiers—underscores its role as a reference platform in the AI/ML ecosystem. Competitors and enterprises benchmark against ChatGPT’s capabilities and safety features when designing their own assistants, and regulators increasingly look to it as an example when shaping rules on AI safety, transparency, and child protection. As a result, changes like teen mode, powerful but more affordable models, and domain‑specific offerings are not just product updates; they influence expectations for responsible deployment of large language models across the industry.",
+        "source": "web search"
+      },
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is a leading artificial intelligence research and product company best known as the developer of **ChatGPT**, a widely used large language model interface that has become a reference point for generative AI in both consumer and enterprise markets.[1][3] The company positions itself at the frontier of large-scale model development—releasing successive GPT‑5.x models (including GPT‑5.5 and GPT‑5.6 variants such as Sol, Terra and Luna) aimed at stronger coding, research, and conversational capabilities, and offering new tiers like Ultrafast to run these models significantly faster via its API.[10][11][13] OpenAI is also reshaping its business focus around enterprise customers, adding higher‑priced **Premium** tiers for ChatGPT Business so organizations can allocate more compute to heavy users and workloads.[1][2]\n\nOpenAI matters in the AI/ML space because it is one of the key drivers of model capability, safety debates, and infrastructure scale. On the capability side, its newer models and services (e.g., GPT‑5.6 series, GPT‑Live voice models, and upcoming Astra) are pushing toward more agentic systems that can write code, interact with tools, and conduct deeper research, while opening up ultrafast, high‑throughput options for developers.[10][11][13] On the safety side, OpenAI has publicly slowed or paused parts of Astra’s development after internal reviews suggested the model might cross a “critical cybersecurity threshold,” meaning it could autonomously discover and exploit vulnerabilities and carry out sophisticated cyberattacks; this has led to stricter internal guardrails and new security changes.[1][4][5][8] The company is simultaneously expanding specialized initiatives like its Daybreak cybersecurity program and introducing GPT‑5.6‑Cyber for vetted security researchers, reflecting a dual focus on leveraging AI for defense while mitigating offensive misuse risks.[1]\n\nRecent industry impact is closely tied to OpenAI’s infrastructure partnerships and revenue growth. Nvidia has become a key backer: the companies signed a strategic agreement to deploy **at least 10 gigawatts** of Nvidia systems—representing millions of GPUs—for OpenAI’s next‑generation AI infrastructure, with Nvidia intending to invest up to **$100 billion** as these data centers come online.[9] Subsequent reporting has described discussions of an even larger backstop, up to **$250 billion**, to support OpenAI’s data‑center leasing plans, and noted that Nvidia contributed tens of billions to a major funding round in early 2026.[14] Together with strategic relationships (such as partnerships announced with major cloud providers) and strong commercial traction—analysts and business media report OpenAI is on track for annualized revenue north of **$40 billion**, roughly doubling its run rate from late 2025—these developments underscore how OpenAI is both a central technology supplier and a major consumer of cutting‑edge AI hardware, influencing everything from GPU demand to enterprise AI adoption.[2][7][9][14]",
+        "source": "web search"
+      },
+      {
+        "topic": "Nvidia",
+        "context": "Nvidia is still one of the central companies in the AI/ML stack because it supplies the GPUs, systems, and networking used to train and run large models. Its importance comes from both hardware leadership and deep ties to frontier AI labs: OpenAI has described Nvidia as its most important partner for training and inference, and Nvidia has also been directly financing and supporting OpenAI’s infrastructure plans. In September 2025, Nvidia and OpenAI announced a large infrastructure partnership, with Nvidia saying it would invest up to $100 billion as OpenAI deployed at least 10 gigawatts of Nvidia systems; in March 2026, Nvidia CEO Jensen Huang said the company’s $30 billion OpenAI investment might be its last in the startup; and by mid-August 2026, reports said Nvidia had agreed to back as much as $105 billion for an OpenAI data center project in Ohio, with earlier reporting showing talks had reached as high as a $250 billion backstop.[5][15][2][12][9][11]\n\nThe latest developments show Nvidia moving beyond a pure chip-supplier role into a broader AI infrastructure and ecosystem player. In late July 2026, Nvidia joined other tech firms in launching an AI safety initiative focused on open models, reflecting growing industry pressure around model security and governance after cyberattack-related incidents involving AI systems.[1] Reuters also reported in February 2026 that Nvidia planned a new inference-focused processor to speed AI responses, underscoring its push to cover both training and inference demand.[3] Overall, these moves matter because Nvidia’s capital, chips, and platform strategy are helping shape how AI infrastructure is financed and built, while also reinforcing its influence over the direction of the AI industry.",
+        "source": "web search"
+      },
+      {
+        "topic": "AMD",
+        "context": "AMD is positioning itself as a key alternative to NVIDIA in the **AI/ML data center** market through its Instinct GPU lineup and rack-scale Helios systems, built on its CDNA architecture and advanced TSMC process nodes.[1][2][3][9][11] The latest generation, the **Instinct MI400 Series** (including MI455X, MI440X, MI430X, and MI350P), targets distinct segments: frontier model training and large-scale inference, sovereign AI and HPC, and cost-optimized enterprise deployments with improved tokens-per-second-per-dollar economics.[3][5][7][10][11] These GPUs feature up to **432 GB of HBM4 memory** and very high FP4/FP8 performance, with Helios racks clustering dozens of MI400 GPUs and EPYC CPUs to deliver exaflop-scale AI compute for hyperscalers and supercomputing centers.[1][2][7][9][12]\n\nThis matters because AMD is directly challenging NVIDIA’s dominance at a time when hyperscalers and leading AI labs are trying to diversify supply and reduce dependence on a single vendor.[4][8][9][14] AMD has secured large, multi-gigawatt GPU deployment commitments from major AI players such as OpenAI, Anthropic, and a large social media company, with OpenAI planning a 1 GW data center using MI450-class chips and Anthropic outlining up to 2 GW of MI455X GPUs in Helios rack-scale solutions.[1][4][8][10][14] These deals, together with MI400 deployments in exascale supercomputers like Oak Ridge and Jean Zay, underline AMD’s growing role in powering frontier and sovereign AI, and are expected to drive substantial AI data center revenue growth.[4][7][10][11][14]\n\nIn the **Google TPU context**, recent reporting indicates that Google is working with AMD on its **10th-generation Tensor Processing Unit (TPU)** project, suggesting AMD is not only supplying GPUs but also collaborating on custom AI silicon for hyperscale workloads.[6] According to analysis cited by that report, Google has tapped AMD for this next TPU iteration, which would deepen AMD’s strategic integration into Google’s AI infrastructure roadmap and further validate its engineering capabilities beyond standard GPU offerings.[6] If this collaboration progresses as described, the industry impact is a more competitive and fragmented AI accelerator landscape, with cloud providers co-developing chips with multiple vendors, potentially accelerating innovation and putting pricing and ecosystem pressure on NVIDIA’s current lead.[4][6][8][9]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Trump administration launches $5B national AI initiative",
+        "summary": "The Trump administration announced a $5 billion federal artificial intelligence initiative aimed at advancing scientific research and national AI capabilities. The program focuses on funding core AI research, infrastructure, and strategic applications across agencies and universities.",
+        "whyItMatters": "Large-scale public investment changes the AI funding landscape, expands grant and collaboration opportunities, and can shift regulatory and research priorities that practitioners must track when planning long‑term projects or seeking support.",
+        "source": "KERA News, August 19, 2026"
+      },
+      {
+        "headline": "MLCommons releases MLPerf Client v2.0 benchmark for AI PCs and agents",
+        "summary": "MLCommons announced MLPerf Client v2.0, a major update to its industry‑standard benchmark suite for evaluating AI performance on personal computers. The new version adds workloads for image generation and agentic AI, reflecting the growing importance of generative and autonomous workloads on client devices.",
+        "whyItMatters": "Standardized benchmarks shape how hardware and software stacks are optimized and compared; the inclusion of image generation and agentic AI will influence model deployment strategies, performance tuning, and purchasing decisions for AI‑capable client hardware.",
+        "source": "Radical Data Science bulletin, August 19, 2026"
+      },
+      {
+        "headline": "Z.ai launches GLM‑5.3, a post‑training–optimized coding and cybersecurity model",
+        "summary": "Chinese startup Z.ai released GLM‑5.3, a new AI model that significantly improves coding and cybersecurity performance through post‑training techniques applied on the existing GLM‑5.2 base. The model is positioned as a flagship for code generation and security‑focused agentic use cases.",
+        "whyItMatters": "A specialized LLM tuned for coding and cybersecurity expands options beyond general‑purpose models, giving practitioners a potential new tool for secure software development, code review, and automated security testing—especially in environments where frontier US models are constrained.",
+        "source": "NewsDigest.AI and Radical Data Science bulletin, mid‑August 2026"
+      },
+      {
+        "headline": "Thinking Machines promotes Inkling, a highly customizable American AI model",
+        "summary": "Thinking Machines highlighted Inkling, an American AI model designed from the ground up for customization, with renewed attention around August 19. The model emphasizes user‑controlled fine‑tuning and domain adaptation to fit specific organizational workflows and data regimes.",
+        "whyItMatters": "Models architected for easy customization can reduce the cost and complexity of domain‑specific adaptation, making it easier for teams to build tailored assistants or agents while maintaining control over their data and behavior, an increasingly important concern for enterprise AI deployments.",
+        "source": "Radical Data Science bulletin, August 19, 2026"
+      },
+      {
+        "headline": "Electricity, not chips, emerges as the new bottleneck for AI scaling",
+        "summary": "Industry analysis on August 19 emphasized that electricity supply has overtaken chip availability as the primary bottleneck for scaling large AI systems. As training and serving demands grow, power constraints, grid planning, and energy pricing are now central strategic issues for AI infrastructure.",
+        "whyItMatters": "For practitioners deploying large models or building AI products at scale, energy availability and cost increasingly determine feasible architectures, deployment locations, and sustainability strategies; ignoring the power bottleneck can render technically viable projects economically or operationally infeasible.",
+        "source": "AI Daily News — August 19, 2026"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Firefox",
+        "type": "product",
+        "context": "Mentioned as joining the AI browser race"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as being used in various applications and having a teen mode"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as the developer of ChatGPT and receiving backing from Nvidia"
+      },
+      {
+        "name": "Nvidia",
+        "type": "company",
+        "context": "Mentioned as backing OpenAI and collaborating with AMD on TPU"
+      },
+      {
+        "name": "AMD",
+        "type": "company",
+        "context": "Mentioned as collaborating with Google on TPU"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as collaborating with AMD on TPU and having a stake in AI development"
+      },
+      {
+        "name": "Cerebras",
+        "type": "company",
+        "context": "Mentioned as taking on Nvidia and developing new chip technology"
+      },
+      {
+        "name": "Claude",
+        "type": "product",
+        "context": "Mentioned as a AI model that succeeded in drug binder tasks and talked someone out of a $6,000 mistake"
+      },
+      {
+        "name": "Stripe",
+        "type": "company",
+        "context": "Mentioned as owning OpenRouter and being involved in AI development"
+      },
+      {
+        "name": "OpenRouter",
+        "type": "product",
+        "context": "Mentioned as being owned by Stripe and being involved in AI development"
+      },
+      {
+        "name": "Multi-Layer Perceptron (MLP)",
+        "type": "technology",
+        "context": "Mentioned as a topic of discussion in a series by Prof. Tom Yeh"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-08-20T00:30:37.211Z",
+  "dateString": "2026-08-20"
+}
