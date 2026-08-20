@@ -210,6 +210,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[dig-bench]] — agent benchmark measuring rule-discovery-through-experimentation; 70 text-based games (21 publicly released, ~49 held for anti-contamination) (Aug 2026)
 - [[dyna-2]] — Dyna Robotics's world-action model pre-trained on 1M+ hours of human video; 87% real-world zero-shot pass rate on unseen robot hardware; scaling-laws-for-robotics anchor (Aug 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
+- [[firefox]] — Mozilla's browser joins the AI browser race with Aug 2026 Exa partnership powering *Smart Window* on desktop + *Quick Answers* on iOS; privacy-first + optional-AI + user-choice posture; fills [[chatgpt-atlas]] void (Aug 2026)
 - [[flue]] — Fred Schott's (Astro creator) React-style meta-harness for agents; 16 Agent Hooks (`useSkill()` / `useTool()` / `useSubagent()`) atop Pi minimal-harness substrate; host-portable open-source competitor to [[vercel-eve]]; agent-defined-by-harness thesis (Aug 2026)
 - [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(superseded by [[flux-3]])*
 - [[flux-3]] — Black Forest Labs' Jul 2026 multimodal foundation model (image + video + audio + robotics); powers real-world factory robots at Audi
