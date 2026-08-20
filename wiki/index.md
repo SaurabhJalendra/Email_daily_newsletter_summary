@@ -331,6 +331,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; formally designated "critical" cybersecurity-capable AI (weights locked + sandbox-restricted), split-flagship pair to [[openai-doug]]; internal version solved 10 previously-open math problems (Aug 2026)
 - [[openai-doug]] — OpenAI's massive pre-training frontier run targeting base capabilities through raw scaling; sibling to Astra in a two-model frontier split (Aug 2026)
 - [[openai-nextslide]] — OpenAI-acquired presentation startup turning raw model outputs into polished slide decks; step toward a full office suite inside ChatGPT (Aug 2026)
+- [[openai-private-safety-processing]] — OpenAI's Aug 2026 zero-data-retention misuse-detection substrate for API sessions; hunts patterns across a whole run of requests to catch rogue agents without staff seeing content (safety AND privacy dual-property design)
 - [[openai-companion]] — OpenAI's first consumer device: screenless, movable smart speaker, $200-300, early 2027 ship, GPT-Live inside, Jony Ive design team, "humanlike AI companion for the home" (Jul 2026)
 - [[openai-daybreak]] — OpenAI's frontier cyber-defense platform pairing GPT-5.5 + Codex Security (May 2026)
 - [[openai-deployco]] — OpenAI's $4B enterprise-deployment subsidiary at $10B (May 2026)
@@ -452,6 +453,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[john-jumper]] — Google DeepMind VP and 2024 Nobel Chemistry laureate (AlphaFold co-creator); departs for Anthropic in June 2026
 - [[jonathan-ross]] — Groq founder + Google TPU inventor; now NVIDIA Chief Software Architect after Dec 2025 $20B Groq-NVIDIA deal — 3-week phone call into NVIDIA's largest deal ever (Jul 2026)
 - [[latent-space-reasoning]] — training-free open-weight capability lift via embedding-space vector injection ("perturbation"); Devansh reports 4B model 32%→72% accuracy, ~56× cheaper than scaling to GPT-5.6 Sol; open-sourced (Jul 2026)
+- [[llm-inference-optimization]] — canonical mid-2026 practitioner-tier framework for reasoning about LLM inference cost/latency — prefill vs decode, KV cache, arithmetic intensity, ridge point (A100 ~153 FLOP/byte @ BF16), batching, quantization/pruning/distillation (Aug 2026, Jam with AI)
 - [[loop-engineering]] — named developer discipline of designing autonomous agent loops (triggers + actions + verification gates) for self-check + self-correct execution cycles; sibling to prompt-engineering / context-engineering / harness-design; "autonomous software assembly lines" per AlphaSignal (Jul 2026)
 - [[midtraining]] — intermediate LLM training stage between pretraining and post-training; includes Continued Pretraining (CPT) and mid-training data-mixture adaptation; canonicalized by Cameron R. Wolfe (Aug 2026)
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
@@ -482,6 +484,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-ipo-wave]] — OpenAI $500B / Anthropic $350B IPO prep and frontier-lab public-market path *(stale)*
 - [[ai-jobs-displacement]] — labor-market impact studies + flagship AI-driven layoffs (Anthropic Economic Index, Block, Snowflake) *(stale)*
 - [[ai-moats]] — Ruben Dominguez / The AI Corner mid-2026 thesis: competitive advantage shifted from *the model* to five archetypes (accumulation + depth + trust + orchestration + cost-routing); Granola / Cursor / Hugging Face / MiniMax as canonical examples (Jul 2026)
+- [[mrna-cancer-vaccines]] — AI-driven personalized cancer immunotherapies where ML models select tumor-specific neoantigens and mRNA encodes them; Moderna + Merck V940/mRNA-4157 becomes first mRNA cancer treatment to succeed in Phase 3 (melanoma, Aug 2026)
 - [[ai-pace-letter]] — 1,000+ frontier-lab staffers (OpenAI + Anthropic + GDM + Meta + Thinky) cosign July 2026 open letter urging US government to develop "technical and governance tools to deliberately pace" automated AI research; official @OpenAI account amplifies (Jul 2026)
 - [[ai-regulation]] — government / judicial / labor / safety pressure on AI labs
 - [[open-source-models]] — mid-2026 open-weights (GLM / Qwen / DeepSeek / MiniMax / Kimi K2) frontier-parity at 1/6-1/10 cost + Nathan Lambert Interconnects "6 months to live" regulatory-threat framing (Jul 2026)
