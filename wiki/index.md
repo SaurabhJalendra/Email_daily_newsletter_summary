@@ -89,6 +89,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[poolside-ai]] — American-open-weights neolab; "Model Factory" approach; ships [[laguna-s]] family (118B MoE / 1M context, cheaper than Deepseek v4 Flash) (Jul 2026)
 - [[project-prometheus]] — Jeff Bezos's "artificial general engineer" company; automates CAD + physics-based simulation; $41B framing (Jun 2026)
 - [[qualcomm]] — AI200/AI250 data-center AI chips *(stale)*
+- [[ramp]] — US corporate-finance platform; Aug 2026 ships Router.com single-endpoint LLM aggregator (~40% inference cost reduction; free through 2026 + $26 launch credit)
 - [[recursive-superintelligence]] — Tim Rocktäschel ex-DeepMind RSI startup; $650M @ $4.65B in a single day (May 2026) *(stale)*
 - [[reflection]] — NVIDIA-backed US open-source lab founded by ex-Google DeepMind researchers; $6.3B SpaceX Colossus 2 / GB300 compute deal (Jun 2026)
 - [[replit]] — browser IDE; non-coder pivot *(stale)*
@@ -158,6 +159,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-work]] — OpenAI's agentic ChatGPT workspace — takes outcomes not prompts, works for hours, delivers finished materials; powered by [[gpt-5-6]] (Jul 2026)
 - [[computer-history]] — OpenAI feature that logs clicks + typing to give [[chatgpt]] + Codex a memory of recent work on the user's computer; desktop-context persistent-memory tier alongside [[chatgpt-work]] + [[claude-cowork]] + [[kimi-work]] (Aug 2026)
 - [[chandra-ocr-2]] — document-intelligence OCR model topping olmOCR on tables (92.1%) + tiny text (93.7%); up to $5K Textract-migration credits (Jul 2026)
+- [[claude-academy]] — Anthropic's free-for-everyone AI-fluency school; 4D AI Fluency Framework + mindsets-over-prompting-tricks curriculum (Aug 2026)
 - [[claude-code]] — Anthropic's CLI coding agent; plugins, Routines, Web variant; $1B ARR
 - [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions (May 2026) *(stale)*
 - [[claude-code-security]] — Anthropic's security scanner inside Claude Code (Feb 2026) *(stale)*
@@ -395,11 +397,13 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwen-image-3]] — Alibaba's Jul 2026 image model; 4,500-token prompts + 10px legible text + 12-language rendering + real-looking UI mockups; invite-only, no open weights, mixed vs GPT Image 2
 - [[qwen3-coder-next]] — Alibaba's Feb 2026 open-weights 80B MoE coding-agent model (800K coding tasks) *(stale)*
 - [[rtx-spark]] — NVIDIA's 1-petaflop consumer-PC superchip for running frontier-scale AI models locally on laptops and desktops; ships fall 2026
+- [[router-ramp]] — Ramp's Aug 2026 single-endpoint LLM aggregator across OpenAI/Anthropic/DeepSeek/xAI; benchmark/cost/difficulty routing; ~40% inference cost claim; free through 2026 + $26 launch credit
 - [[runway-dev]] — Runway's Jul 2026 developer API serving frontier video models + bundled third-party image and audio generators
 - [[runway-gen-4-5]] — Runway's text-to-video; tops Veo 3 and Sora on Artificial Analysis benchmark *(stale)*
 - [[sakana-fugu]] — Sakana AI's multi-agent orchestration platform; behaves like single model from API consumer's perspective; claimed parity with Fable/Mythos (Jun 2026)
 - [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2.5 weeks away with longer clips + 4K imminent + Seedance 2.0 mini lower-cost variant released (Jun 2026)
 - [[self-harness]] — Shanghai AI Lab framework enabling an agent to autonomously rewrite its own operating harness (~60% perf boost); three-stage iterative loop (weakness mining → harness proposal → proposal validation) (Jul 2026)
+- [[slack-code]] — Slack's Aug 2026 shared-room coding surface — AI agents author code while human teammates watch/steer/direct across teams; live previews + human-approval gate for deploy
 - [[snap-specs]] — Snap's $2,195 standalone AI AR glasses for the post-phone era; 51° FOV, 7ms latency, two Snapdragon chips, contextual AI (Jun 2026)
 - [[sora-2]] — OpenAI's video model; physics, audio, monetization, Hollywood pushback *(stale)*
 - [[spatialclaw]] — NVIDIA's spatial reasoning model for coding and robotics tasks (Jun 2026)
@@ -490,6 +494,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-moats]] — Ruben Dominguez / The AI Corner mid-2026 thesis: competitive advantage shifted from *the model* to five archetypes (accumulation + depth + trust + orchestration + cost-routing); Granola / Cursor / Hugging Face / MiniMax as canonical examples (Jul 2026)
 - [[mrna-cancer-vaccines]] — AI-driven personalized cancer immunotherapies where ML models select tumor-specific neoantigens and mRNA encodes them; Moderna + Merck V940/mRNA-4157 becomes first mRNA cancer treatment to succeed in Phase 3 (melanoma, Aug 2026)
 - [[ai-pace-letter]] — 1,000+ frontier-lab staffers (OpenAI + Anthropic + GDM + Meta + Thinky) cosign July 2026 open letter urging US government to develop "technical and governance tools to deliberately pace" automated AI research; official @OpenAI account amplifies (Jul 2026)
+- [[data-center-opposition]] — Bipartisan US backlash against AI data centers; governors restricting new projects; >60% Americans oppose nearby data centers; centerpiece of Ohio Senate race; Pennsylvania local-approval + NDA-ban law (Aug 2026)
 - [[ai-regulation]] — government / judicial / labor / safety pressure on AI labs
 - [[open-source-models]] — mid-2026 open-weights (GLM / Qwen / DeepSeek / MiniMax / Kimi K2) frontier-parity at 1/6-1/10 cost + Nathan Lambert Interconnects "6 months to live" regulatory-threat framing (Jul 2026)
 - [[ai-slop]] — AI-content flood quality concerns; YouTube 20%+, Instagram Mosseri commentary; Anthropic Claude watermarking as first frontier-lab mitigation-response (Aug 2026)
