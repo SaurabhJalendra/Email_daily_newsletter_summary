@@ -49,6 +49,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
 - [[greptile]] — Y Combinator–backed AI code review platform; full-codebase graph index + swarm of specialized AI reviewers; ships [[trex]] runtime-validation extension (Aug 2026)
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
+- [[h-company]] — computer-use agents on desktop + browser plugging into Claude Code, Cursor, and Hermes (Aug 2026)
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
 - [[helsing]] — German defense-AI startup; military autonomy software; $1.8B at $18B valuation Jul 2026 — Europe's biggest defense-tech round ever
 - [[higgsfield]] — AI video generation platform reportedly being acquired by [[stripe]] for over $7B (>5× valuation vs months prior); acquisition status pending vs adjacent OpenRouter-$7B framing (Aug 2026)
@@ -191,6 +192,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[codex-micro]] — OpenAI's keyboard-form developer gadget for Codex agents debuted at AI Engineer World Fair (Jun 2026)
 - [[codex-security]] — OpenAI's autonomous appsec agent inside Codex; scans repos, builds threat models, proposes patches (Mar 2026) *(stale)*
 - [[copilot-cowork]] — Microsoft 365 Copilot's Claude-powered multi-step task agent across Office apps (Mar 2026) *(stale)*
+- [[cs-4]] — Cerebras's fourth-gen wafer-scale AI system; 3 wafer-scale chips per rack + 750 PFLOPS + 129.6 PB/s bandwidth + ~10× efficiency vs CS-3 + up to 30× faster inference than GPUs (Aug 2026)
 - [[cohere-command-a-plus]] — Cohere's first open-weights frontier model; 218B Apache 2.0 (May 2026) *(stale)*
 - [[cursor]] — AI IDE; 1.7, Plan Mode, 2.0 with Composer and multi-agent UI; $3B ARR + SpaceX $60B option
 - [[databricks]] — data-lakehouse + AI platform; $188B Series M funding (Jul 2026); third-party benchmark authority for coding agents
@@ -348,6 +350,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-glimmer]] — Meta's open-source 30B model optimized for "always-on" agents; fourth Muse-family product-line (Aug 2026)
 - [[muse-image]] — Meta's first proprietary AI image-generation model; Muse family replaces Llama era; Muse Spark agentic integration; #2 Image Arena at launch (Jul 2026)
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
+- [[muse-video]] — Meta's first generative video model with native synchronized audio; text/image/existing-footage → short clips; closed beta (Aug 2026)
 - [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer for [[no-code-ai-automation]] cohorts wiring LLM APIs + agents into business SaaS (Jul 2026)
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*
 - [[nemotron-labs-twotower]] — NVIDIA's Jul 2026 open-weight parallel text diffusion model; dual 30B-copy pipelined-role architecture generating chunks of text in parallel at 2.42× throughput + 98.7% baseline quality
@@ -411,6 +414,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[tml-interaction-small]] — Thinking Machines' 276B-A12B native real-time interaction model; 200ms audio/video/text micro-turns (May 2026) *(stale)*
 - [[ultrafast-api]] — OpenAI's Aug 2026 new API tier for GPT-5.6 Sol; up to 14× faster than Standard + up to 750 output tokens/sec; Cerebras-powered limited preview; paired with Priority Processing→Fast mode rename + Terra/Luna price cuts
 - [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B) *(stale)*
+- [[trueforge]] — TrueFoundry's open-source agent harness; up to 75% cost reduction vs vendor-neutral agents (Aug 2026)
 - [[trex]] — [[greptile]]'s runtime-validation extension — autonomously writes + executes tests for each PR in a dynamic sandbox, returning screenshots + logs as concrete proof of failure; claims 4× faster merges + 3× more production-blocking bugs caught vs static-only review (Aug 2026)
 - [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell) *(stale)*
 - [[watermelon]] — Meta's upcoming internal frontier-tier model per Meta Superintelligence Chief Alexandr Wang; caught up with OpenAI's GPT-5.5 on closely followed AI benchmarks; still in training, no release timeline (Jul 2026)
