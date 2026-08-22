@@ -42,6 +42,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[extropic]] — TSU thermodynamic-sampling chip; ~10,000× energy-efficiency claim *(stale)*
 - [[figure]] — humanoid robots; Figure 03; sued by former product-safety head Nov 2025 *(stale)*
 - [[fireworks]] — NVIDIA-backed AI inference-and-fine-tuning startup at $17.5B valuation; positioned as cheap alternative for hosting open-source frontier models (Jul 2026)
+- [[fractile]] — UK-based specialized inference-processor startup building in-memory-computing chips; targets up to 25× LLM-inference speedup + fraction-of-cost vs conventional GPUs; ~$6.5B potential valuation (Aug 2026)
 - [[fish-audio]] — Voice-AI company; ships S2.1 Pro (Jul 2026) real-time voice-cloning across 83 languages; positioned against ElevenLabs on cost
 - [[friendliai]] — "Frontier Inference Cloud for agents" serving frontier open-weight models; powers [[claude-code]] + [[cursor]] + Kilo Code + Hermes Agents + [[ollama]] (Jul 2026)
 - [[general-intuition-ai]] — Neo Lab building Large Action Models (LAMs) and world models that perceive/predict/act across virtual and physical spaces (Jun 2026)
@@ -111,6 +112,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[tesla]] — Elon Musk's EV + AI-hardware company; Optimus + Cybercab + Dojo + [[terafab]] JV with SpaceX; five-tier vertical AI stack (silicon-fab → compute → chip → robotics/AV → consumer) (Aug 2026)
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
 - [[together-ai]] — open-source AI infrastructure company; $800M @ $8.3B (Jul 2026) — "cheap open-source plumbing" thesis for making frontier AI accessible
+- [[unitree]] — Chinese humanoid + quadruped robot manufacturer; first humanoid maker on China's stock market (Shanghai IPO Aug 2026 at ~$9B); Aug 2026 unveils "Superman" humanoid that runs faster than Usain Bolt but has no working hands
 - [[volta]] — NVIDIA-backed AI-infrastructure startup emerging from stealth at $2.4B valuation; six-year $10B Anthropic capacity deal (133MW Vera Rubin alongside Bitdeer Technologies) (Aug 2026)
 - [[trajectory]] — Neo Lab building a continual-learning platform that lets AI products keep learning from real-world user interactions (Jun 2026)
 - [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
@@ -333,6 +335,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
 - [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; formally designated "critical" cybersecurity-capable AI (weights locked + sandbox-restricted), split-flagship pair to [[openai-doug]]; internal version solved 10 previously-open math problems (Aug 2026)
+- [[ox-alpha]] — Anonymous free reasoning model surfacing on OpenRouter Aug 2026; 1M context / 131K output / text+image+video; 8/10 deterministic DeepSWE subset (beats Fable 5 + GLM-5.3 + Grok 4.6 + GPT-5.6 Sol); GLM-5V-Turbo tokenization fingerprint suggests Zhipu-AI-adjacent origin
 - [[openai-doug]] — OpenAI's massive pre-training frontier run targeting base capabilities through raw scaling; sibling to Astra in a two-model frontier split (Aug 2026)
 - [[openai-nextslide]] — OpenAI-acquired presentation startup turning raw model outputs into polished slide decks; step toward a full office suite inside ChatGPT (Aug 2026)
 - [[openai-private-safety-processing]] — OpenAI's Aug 2026 zero-data-retention misuse-detection substrate for API sessions; hunts patterns across a whole run of requests to catch rogue agents without staff seeing content (safety AND privacy dual-property design)
@@ -346,6 +349,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[robostral-navigate]] — Mistral's Jul 2026 first robotics-tier model for factories/warehouses/industrial automation; cross-supplier hardware portability
 - [[ministral-3]] — Mistral dense small-model line (3B/8B) for on-device inference *(stale)*
 - [[mistral-3]] — Mistral's open-weight lineup; flagship Large 3 (41B active / 675B total MoE) *(stale)*
+- [[mistral-agentic-search]] — Mistral's five-op agentic search framework (search + open + navigate + read + grep); FinanceBench correctness 26.7% → 86% + reduced tail latency (Aug 2026)
 - [[mistral-ocr-3]] — Mistral's OCR model; ~97% accuracy, strong on European documents *(stale)*
 - [[mistral-ocr-4]] — Mistral's OCR successor — bounding boxes + confidence scores + 170 languages + single-container deployment; built specifically for RAG pipelines (Jun 2026)
 - [[mistral-studio]] — Mistral's production-AI platform *(stale)*
@@ -385,6 +389,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[prime-agent]] — Prime Intellect's Aug 2026 open-source coding agent — 95.5% on ARC-AGI-3 (surpasses human expert baseline); Recursive Language Model + Continual Harness self-modifying architecture
 - [[qwen-robot-suite]] — Alibaba's open-source trio of robotics AI models for humanoids/robotic arms/quadrupeds (Jun 2026)
 - [[project-genie]] — Google DeepMind's interactive 3D-world generator powered by Genie 3 model *(stale)*
+- [[project-parka]] — Anthropic's Mac-first meeting-recorder — captures system + microphone audio, streams speaker-attributed transcripts, creates runnable Claude-agent work; turns meetings into full implementation prompts (Aug 2026)
 - [[project-panama]] — Anthropic initiative to digitize "all the books in the world" for AI training; surged demand for pre-2022 printed books (Jul 2026)
 - [[project-perception]] — Microsoft's forthcoming multi-model AI security tool framed as competitive undercut of Anthropic's Claude Mythos-tier cybersecurity positioning (Jul 2026)
 - [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO *(stale)*
