@@ -1,0 +1,51 @@
+---
+name: Agent Harness
+description: Everything besides the model weights that makes an agent work — environment, tools, context, guardrails; canonicalized by Latent Space's "Evolution of the Agent Harness" essay into three eras (Bolt-On 1.0 → Co-Training 2.0 → Attention 3.0)
+type: topic
+---
+
+# Agent Harness
+
+> **Type**: topic
+> **First mentioned**: 2026-08-22-evening
+> **Last updated**: 2026-08-22-evening (**Created — Latent Space HIGH cycle-headline *"The Evolution of the Agent Harness"* canonicalizes the *harness = everything besides the model weights that makes the agent work (environment + tools + context + guardrails)* definition and productizes a **three-era canonical framework** for how the harness evolves relative to the model**. Latent Space HIGH: *"The evolution of the agent harness is a crucial aspect of AI development, as it enables models to interact with the real digital information space and break free from their training data confinement. The harness is everything besides the model weights that makes the agent work, including the environment, tools, context, and guardrails"* + *"The gap between the model and harness curves is equal to the effectiveness of an agent, and the closing of that gap led to the tangible improvement in agents. This improvement was noticed by Lukasz Kaiser, one of the inventors of the Transformer, who mentioned a 'big jump' in agent capabilities around Christmas 2025"* + *"The agent harness has gone through several stages of evolution, including the 'Bolt-On Era' (Harness 1.0), where the harness was added to the model, and the 'Co-Training Era' (Harness 2.0), where the model and harness are trained together. The next stage is expected to be the 'Attention Era' (Harness 3.0), where the harness becomes an interface to human attention"* + *"Models are absorbing the harness capabilities into their weights, and the harness is shedding its scaffold. This process is expected to continue, with the model absorbing more capabilities and the harness becoming more focused on human attention"* + *"The attention-interface will tell the agent how to work with humans, governing when it's allowed to interrupt, when it should keep working, and which decisions it can make alone. This interface will become a learnable component of the system that can learn with more data"*. First publicly framed on this cycle: (a) **"Harness = everything besides the model weights" canonical definition** — first publicly framed *canonical definition of agent-harness scope* in this wiki; sharpens the multi-cycle harness-engineering + loop-engineering + graph-engineering + context-engineering discipline arc into a *concrete-inclusion-list definition* (environment + tools + context + guardrails) that isolates *what changes when* between model + harness; (b) **Bolt-On / Co-Training / Attention three-era canonical framework** — first publicly framed *canonical three-era canonical taxonomy on agent-harness evolution* in this wiki; sharpens the multi-cycle harness-arc into a *versioned Harness 1.0 → 2.0 → 3.0 canonical framework* likely to become widely-cited framework; (c) **Lukasz Kaiser "big jump around Christmas 2025" agent-capability-inflection anchor** — first publicly framed *Christmas-2025-tier concrete agent-capability-inflection anchor* attributed to a Transformer co-inventor in this wiki; canonicalizes late-2025 as *the inflection point when Harness 1.0-era gap closed to enable Harness 2.0 co-training era*; (d) **"Gap between model and harness curves = agent effectiveness" canonical equation** — first publicly framed *quantitative-tier framing on agent effectiveness* in this wiki; positions harness-vs-model gap as *primary agent-effectiveness metric*; (e) **"Models absorb harness capabilities into weights + harness sheds scaffold" secular-arc framing** — first publicly framed *secular-direction-of-evolution* framing on the harness arc; sharpens the [[recursive-self-improvement]] harness-improvements-get-internalized-into-core-model pattern (Lilian Weng 2026-07-08) with a *scaffold-shedding-inversely-proportional-to-model-absorption* co-evolution framing; (f) **"Attention Era" Harness 3.0 prediction with concrete attention-interface substrate** — first publicly framed *harness-becomes-interface-to-human-attention* prediction in this wiki; positions the next harness generation as *governing agent-human interaction protocol* (when to interrupt / keep working / decide alone) rather than *governing agent-tool interaction protocol* (Harness 1.0/2.0); (g) **"Harness-Bench" evaluation-substrate reference** — Latent Space links to Harness-Bench as *test from the team at Answer.AI* for measuring harness effectiveness; first publicly framed *harness-tier evaluation-benchmark* in this wiki. See [[loop-engineering]] + [[recursive-self-improvement]] + [[self-harness]] + [[harnessx]] + [[graph-engineering]] + [[anthropic]] + [[claude]] — *source: data/summaries/2026-08-22-evening.json (Latent.Space HIGH "The Evolution of the Agent Harness")*)
+> **Status**: active
+> **Related**: [[loop-engineering]], [[recursive-self-improvement]], [[self-harness]], [[harnessx]], [[graph-engineering]], [[anthropic]], [[claude]], [[claude-code]], [[agent-frameworks]], [[trueforge]], [[vercel-eve]], [[flue]], [[deepseek-harness]]
+
+## Summary
+
+The **Agent Harness** is *everything besides the model weights that makes an agent work* — the environment it runs in, the tools it can call, the context it's fed, and the guardrails that constrain it. Latent Space's *"Evolution of the Agent Harness"* essay (2026-08-22) canonicalizes the discipline into three eras:
+
+- **Harness 1.0 — the Bolt-On Era**: the harness is *added to* a model that was trained without knowing anything about it. ReAct, Toolformer, and early agent frameworks fit here. The model and harness are separately optimized, and the gap between what the model can do alone and what the harnessed agent can do is large.
+- **Harness 2.0 — the Co-Training Era**: the model and harness are *trained together*, so the model's weights internalize what the harness is going to look like at inference time. The gap between raw-model and harnessed-agent effectiveness shrinks dramatically. Latent Space cites Lukasz Kaiser's *"big jump in agent capabilities around Christmas 2025"* as the visible inflection when Harness 2.0 became the mainstream substrate. Anthropic Claude is framed as the *leading example* of this era, alongside OpenAI's parallel work.
+- **Harness 3.0 — the Attention Era** (predicted): as models continue to absorb tool-use, planning, and memory into their weights, the harness *sheds its scaffold* and becomes an interface to **human attention** — governing when the agent may interrupt, when it should keep working autonomously, and which decisions it can make alone. This interface itself becomes a *learnable component* that improves with data.
+
+The secular arc is *"models absorb harness capabilities into their weights, and the harness sheds its scaffold"* — a co-evolutionary loop where each generation of models makes the previous generation's harness code redundant, while pushing the *remaining* harness surface toward higher-level human coordination. This framing subsumes the mid-2026 [[loop-engineering]], [[graph-engineering]], [[self-harness]], and [[harnessx]] canonicalizations into a single evolutionary trajectory, and connects the harness discipline to the [[recursive-self-improvement]] auto-research arc (Lilian Weng: *harness improvements get internalized into the core model over time*).
+
+## Timeline
+
+- **2026-08-22-evening**: Created — Latent Space HIGH essay canonicalizes the three-era Bolt-On / Co-Training / Attention framework + Lukasz Kaiser Christmas-2025 agent-capability-inflection anchor + *"gap between model and harness curves = agent effectiveness"* canonical equation + *"models absorb / harness sheds"* secular co-evolution framing + Harness 3.0 attention-interface prediction (governing when agent interrupts / keeps working / decides alone) + Harness-Bench Answer.AI evaluation-substrate reference. Anthropic Claude cited as leading example of Harness 2.0 co-training era. — *source: data/summaries/2026-08-22-evening.json (Latent.Space HIGH "The Evolution of the Agent Harness")*
+
+## Key Facts
+
+- Canonical definition: *harness = environment + tools + context + guardrails* (everything besides model weights)
+- Author of framework: Latent Space (swyx) — *"The Evolution of the Agent Harness"* (2026-08-22)
+- Three eras: Bolt-On (Harness 1.0) → Co-Training (Harness 2.0) → Attention (Harness 3.0, predicted)
+- Effectiveness equation: *"gap between model and harness curves = agent effectiveness"*
+- Inflection anchor: Lukasz Kaiser (Transformer co-inventor) *"big jump in agent capabilities around Christmas 2025"* → Harness 2.0 mainstream
+- Leading Harness 2.0 exemplar: [[anthropic]] Claude family (per Latent Space essay)
+- Related eval substrate: **Harness-Bench** by Answer.AI
+- Related essay: Lilian Weng's 35-paper *Harness Engineering for RSI* survey (2026-07-08) — established the academic-substrate for harness-level [[recursive-self-improvement]]
+
+## Open Questions
+
+- Full author list on the Latent Space essay + Dan McAteer's specific contribution (linked at essay top)
+- Concrete Harness-Bench methodology + top-of-leaderboard results + which harnesses/models tested
+- Whether Attention-Era Harness 3.0 already has published concrete artifacts or is still forward-projection
+- How the Bolt-On → Co-Training → Attention framework maps onto specific product releases (Cursor Composer 2 → co-trained; Claude Code → co-trained; etc.)
+- Interaction between the "attention-interface" prediction and Anthropic's approval-gate vs auto-execute [[computer-use]] discourse
+- Whether OpenAI (referenced in essay body) has an equivalent Harness 2.0 canonical anchor beyond Codex
+
+## Sources
+
+- data/summaries/2026-08-22-evening.json (Latent.Space HIGH "The Evolution of the Agent Harness")

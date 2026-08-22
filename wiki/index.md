@@ -76,6 +76,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mirendil-ai]] — New AI lab founded by ex-Anthropic/OpenAI/Google/xAI employees; $200M seed; building self-improving science research AI (Jun 2026)
 - [[mistral]] — French frontier lab; Mistral Studio + Mistral 3 open-weights; HSBC + Airbus/BMW/CMA CGM; Vibe Work/Code Mode (Jun 2026)
 - [[nebius]] — AI cloud company climbing from compute to inference + agentic platforms; Token Factory managed inference platform; Eigen AI/Clarifai/Tavily acquisitions in 6 weeks; CTO Danila Shtan on execution-speed-as-moat (Jul 2026)
+- [[mongodb]] — document-database vendor; Atlas Managed MCP Server + Voyage AI Automated Embedding + Atlas Embedding/Reranking API + LangGraph.js persistent agent memory + expanded Vercel partnership; "agentic era" positioning turns Atlas into data layer for AI agents (Aug 2026)
 - [[moonshot-ai]] — Chinese frontier lab; ships Kimi K2 Thinking open-source reasoning model
 - [[netflix]] — streaming platform; acquires [[interpositive]] for $587M+ (Jul 2026) for internal AI post-production tooling
 - [[notion]] — workspace app; Custom Agents autonomous AI teammates Feb 2026 *(stale)*
@@ -438,6 +439,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 
 ## Topics
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
+- [[agent-harness]] — Latent Space canonicalizes *harness = everything besides the model weights that makes an agent work (environment + tools + context + guardrails)* + three-era framework: Bolt-On 1.0 → Co-Training 2.0 → Attention 3.0 (Aug 2026)
 - [[agentic-ai-foundation]] — Linux Foundation project for open agentic-AI standards; OpenAI/Anthropic/Block + MCP *(stale)*
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser *(stale)*
 - [[akrites]] — Linux Foundation + tech-giants cross-vendor initiative to protect critical open-source software from AI-powered cyberattacks (Jul 2026)
