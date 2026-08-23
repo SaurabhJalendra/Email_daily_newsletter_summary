@@ -4,6 +4,22 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## LINT 2026-08-23 (week 2026-W34)
+
+**Lint actions**:
+- Fixed contradictions: none surfaced above prior week's coverage; the [[openai-astra]] team-restructuring-contradiction (tokens& *"quietly disbanded"* vs AI Breakfast *"expanded"*) is preserved as an open question on the [[openai-astra]] page rather than resolved unilaterally.
+- Resolved orphans: 0 net (all 23 newly-created pages this week already carry cross-references via Related frontmatter + inbound links from at least one other page).
+- Merged duplicates: none — checked new pages for near-duplicates against existing wiki; [[nvidia-avo]] vs [[prime-agent]] distinct (scaffold-tier vs product-tier), [[trueforge]] vs [[deepseek-harness]] distinct (open-source-vendor vs open-source-substrate), [[router-ramp]] vs [[openrouter]] distinct (fintech-vs-marketplace positioning).
+- Stale pages marked: 0 (no additional 60+ day untouched pages surfaced beyond those already carrying `> **Status**: stale`).
+
+**Index actions**:
+- Verified all 23 newly-created pages this week are present in `wiki/index.md` under Companies/Products/Topics/Trends sections.
+- Added digest entry for `wiki/digests/2026-W34.md` at the top of the Digests section.
+
+**Digest generated**: wiki/digests/2026-W34.md (~5,921 words) covering 7 daily ingests (2026-08-20-morning → 2026-08-23-morning) and ~55 unique pages across 91 total page-touches. Digest is prose-heavy per template: If-You-Only-Read-One-Thing + Top 10 Stories (paragraph-form) + By the Numbers + New Pages (grouped) + Biggest Updates (paragraph-form arc summaries) + Cross-Cutting Patterns (7 themes) + Featured Deep-Dive on [[anthropic]] + Stories Worth Watching Next Week + Notable Quotes.
+
+---
+
 ## 2026-08-22-evening
 **Ingested**: data/summaries/2026-08-22-evening.json (6 newsletters — 2 HIGH-priority (Latent.Space + AINews) + 4 MEDIUM — Saturday-evening cadence dominated by four canonical anchors: (1) **Latent Space "The Evolution of the Agent Harness" essay canonicalizes a three-era framework (Bolt-On 1.0 → Co-Training 2.0 → Attention 3.0) + Lukasz Kaiser Christmas-2025 agent-capability-inflection anchor + *"gap between model and harness curves = agent effectiveness"* canonical equation + Claude as leading Harness 2.0 exemplar** — spawns [[agent-harness]] topic page; (2) **AINews HIGH "Why Simulation is taking over" canonicalizes seven-component AI-pipeline-substrate-flip framework** (reward + data + teacher + curriculum + researcher + environment + human subject each flipping from human-made to model-made one component per year since 2022) — extends [[recursive-self-improvement]] arc into pipeline-wide multi-component-substitution canonical framework; (3) **MongoDB launches Managed MCP Server for Atlas + "agentic era" positioning + Voyage AI Automated Embedding + LangGraph.js persistent agent memory + Vercel partnership** — spawns [[mongodb]] company page + extends [[model-context-protocol]] into operational-database-tier substrate coverage; (4) **Sebastian Raschka Ahead-of-AI 48-minute technical walkthrough on Claude token-sampling watermarking canonicalizes concrete four-primitive architecture** (secret-key + random-seed-generator deterministic-sampling + tournament-sampling detection + edit-to-remove attack cost analysis + local-model-strip countermeasure prediction) — resolves multi-cycle *"technical details not published yet"* body-recovery items on [[ai-watermarking]] arc.
 
