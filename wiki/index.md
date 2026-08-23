@@ -88,6 +88,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[oracle]] — enterprise cloud; AMD partnership *(stale)*
 - [[palantir]] — data-analytics + AI-defense platform; CEO Alex Karp critiques "tokenmaxxing" token-priced AI as national-security issue; NVIDIA-partnered model-agnostic own-your-weights product (Jul 2026)
 - [[perplexity]] — AI search; Comet browser; AI Browser w/ shopping + virtual try-on
+- [[pinecone]] — vector-DB + retrieval-infrastructure company; Aug 2026 Nexus retrieval layer beats frontier-model agents on enterprise-knowledge benchmark
 - [[poolside-ai]] — American-open-weights neolab; "Model Factory" approach; ships [[laguna-s]] family (118B MoE / 1M context, cheaper than Deepseek v4 Flash) (Jul 2026)
 - [[project-prometheus]] — Jeff Bezos's "artificial general engineer" company; automates CAD + physics-based simulation; $41B framing (Jun 2026)
 - [[qualcomm]] — AI200/AI250 data-center AI chips *(stale)*
@@ -109,6 +110,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[stripe]] — US payments infrastructure company; ships [[stripe-kai]] enterprise Knowledge AI Platform for employee data-warehouse queries + account research + incident triage + revenue modeling + compliance reviews (Jul 2026)
 - [[suno]] — Cambridge-based AI music-generation startup; $400M Series D at $5.4B led by Bond Capital (Jun 2026); Warner settled, Universal/Sony lawsuits ongoing
 - [[taalas]] — AI inference silicon startup — hardware designed around the model, world's fastest + most cost-effective inference silicon per own framing; acquired by [[amd]] (Aug 2026)
+- [[tencent]] — Chinese tech giant; Aug 2026 released Hy-MT2 specialized multilingual translation models (Hy-MT2-30B-A3B + Hy-MT2-1.8B)
 - [[terawulf]] — US-listed compute-infrastructure operator (former Bitcoin miner pivoting to AI-DC hosting); $19B multi-year Anthropic AI-infrastructure lease deal + initial capacity 2H 2027 (Jul 2026)
 - [[tesla]] — Elon Musk's EV + AI-hardware company; Optimus + Cybercab + Dojo + [[terafab]] JV with SpaceX; five-tier vertical AI stack (silicon-fab → compute → chip → robotics/AV → consumer) (Aug 2026)
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
@@ -244,6 +246,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-spark]] — Google's I/O 2026 24/7 personal agent on Google Cloud VMs; AI Ultra $100/mo *(stale)*
 - [[gemini-embedding-2]] — Google's multimodal embedding model across text/image/video/audio/PDF (Mar 2026) *(stale)*
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
+- [[gemini-enterprise-agent-platform]] — Google Cloud's Aug 2026 consolidated platform for building/scaling/governing enterprise-grade AI agents grounded in corporate data; merges Vertex AI + Agentspace; announced at Cloud Next 2026
 - [[gemma-3-270m]] — Google's 270M small model for edge / on-device use (Jun 2026)
 - [[gen-1-5]] — Generalist AI's Aug 2026 one-shot robot learning model — new physical skill from single 3-12s demo, 59% first-try / 83% after few minutes of practice
 - [[gemma-4]] — Google's open-weights family (E2B/E4B/12B encoder-free multimodal/26B MoE/31B Dense); 256K context; Apache 2.0; QAT weights for all sizes (Jun 2026)
@@ -287,6 +290,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[grok-4-7]] — xAI/SpaceXAI's Grok 4.6 successor; ships in 3-4 weeks (early-Sept 2026); supplemental training on SpaceX internal data; Musk claims "exceed all current models"
 - [[gpt-red]] — OpenAI's dedicated adversarial red-team AI trained via self-play at compute-scale of largest model runs; 84% test-scenario success vs 13% human red-teamers (Jul 2026)
 - [[hark-handoff]] — Hark's Aug 2026 first product — computer-use agent for everyday tasks (food ordering, shopping, recruiting talent); lifestyle-tier entrant in the [[computer-use]] category
+- [[hy-mt2]] — Tencent's Aug 2026 specialized multilingual translation model family — Hy-MT2-30B-A3B + Hy-MT2-1.8B — released ~2026-08-20 for high-quality machine translation across multiple languages
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours *(stale)*
@@ -382,8 +386,10 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-workspace-agents]] — OpenAI's Apr 2026 ChatGPT feature for shared team agents handling complex tasks + long-running workflows *(stale)*
 - [[open-fable]] — Zhipu AI's forecasted ~Dec 2026 open-weights Fable-class model; strategic open-source counter to the Fable/Mythos export-control regime (Jun 2026)
 - [[openclaw]] — open-source persistent assistant; team (incl. Steinberger) acquihired into OpenAI *(stale)*
+- [[openjarvis]] — open-source framework for a local personal AI assistant — local chat + document memory + tools (search/calculations) + Google Drive/Gmail connectors + voice I/O + scheduled agents; alpha status; Iron Man Jarvis as design metaphor (Aug 2026)
 - [[openrouter]] — Model-routing platform with unified API access to 400+ AI models across vendors; acquired by [[stripe]] for over $7B (Aug 2026)
 - [[opera-neon]] — Opera's AI browser *(stale)*
+- [[pinecone-nexus]] — Pinecone's Aug 2026 GA retrieval layer; tops open enterprise-knowledge benchmark, beats agents built on OpenAI/Anthropic/Google frontier models on corporate-data grounding
 - [[perplexity-brain]] — Perplexity's self-improving memory system; persistent context graph across tasks/projects/decisions/files with origin-source linking (Jun 2026)
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
 - [[perplexity-computer]] — Perplexity's 19-model orchestration platform for end-to-end workflows (Feb 2026)
@@ -504,6 +510,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-moats]] — Ruben Dominguez / The AI Corner mid-2026 thesis: competitive advantage shifted from *the model* to five archetypes (accumulation + depth + trust + orchestration + cost-routing); Granola / Cursor / Hugging Face / MiniMax as canonical examples (Jul 2026)
 - [[mrna-cancer-vaccines]] — AI-driven personalized cancer immunotherapies where ML models select tumor-specific neoantigens and mRNA encodes them; Moderna + Merck V940/mRNA-4157 becomes first mRNA cancer treatment to succeed in Phase 3 (melanoma, Aug 2026)
 - [[ai-pace-letter]] — 1,000+ frontier-lab staffers (OpenAI + Anthropic + GDM + Meta + Thinky) cosign July 2026 open letter urging US government to develop "technical and governance tools to deliberately pace" automated AI research; official @OpenAI account amplifies (Jul 2026)
+- [[benchmark-integrity]] — LLM evaluation results are materially sensitive to harness/middleware/gateway/judge configuration, not just the base model; NHI Management Group Aug 2026 shows LLM-"judge" configs can silently shift benchmark rankings — raises comparability + reproducibility concerns for widely cited leaderboards
 - [[data-center-opposition]] — Bipartisan US backlash against AI data centers; governors restricting new projects; >60% Americans oppose nearby data centers; centerpiece of Ohio Senate race; Pennsylvania local-approval + NDA-ban law (Aug 2026)
 - [[ai-regulation]] — government / judicial / labor / safety pressure on AI labs
 - [[open-source-models]] — mid-2026 open-weights (GLM / Qwen / DeepSeek / MiniMax / Kimi K2) frontier-parity at 1/6-1/10 cost + Nathan Lambert Interconnects "6 months to live" regulatory-threat framing (Jul 2026)
