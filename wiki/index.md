@@ -198,6 +198,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[codex-security]] — OpenAI's autonomous appsec agent inside Codex; scans repos, builds threat models, proposes patches (Mar 2026) *(stale)*
 - [[copilot-cowork]] — Microsoft 365 Copilot's Claude-powered multi-step task agent across Office apps (Mar 2026) *(stale)*
 - [[cs-4]] — Cerebras's fourth-gen wafer-scale AI system; 3 wafer-scale chips per rack + 750 PFLOPS + 129.6 PB/s bandwidth + ~10× efficiency vs CS-3 + up to 30× faster inference than GPUs (Aug 2026)
+- [[chroma-foundation]] — Chroma's Aug 2026 shared-memory system for AI agents; ChromaDB + Context-1 20B GPT-OSS backing; integrates with Codex + Claude Code + Cursor + Slack; ~400 tok/s, ~25× cheaper than Opus for agentic search; self-improving system prompt
 - [[cohere-command-a-plus]] — Cohere's first open-weights frontier model; 218B Apache 2.0 (May 2026) *(stale)*
 - [[cursor]] — AI IDE; 1.7, Plan Mode, 2.0 with Composer and multi-agent UI; $3B ARR + SpaceX $60B option
 - [[databricks]] — data-lakehouse + AI platform; $188B Series M funding (Jul 2026); third-party benchmark authority for coding agents
@@ -244,6 +245,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-embedding-2]] — Google's multimodal embedding model across text/image/video/audio/PDF (Mar 2026) *(stale)*
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
 - [[gemma-3-270m]] — Google's 270M small model for edge / on-device use (Jun 2026)
+- [[gen-1-5]] — Generalist AI's Aug 2026 one-shot robot learning model — new physical skill from single 3-12s demo, 59% first-try / 83% after few minutes of practice
 - [[gemma-4]] — Google's open-weights family (E2B/E4B/12B encoder-free multimodal/26B MoE/31B Dense); 256K context; Apache 2.0; QAT weights for all sizes (Jun 2026)
 - [[genpage]] — Netflix's single-model end-to-end generative homepage (rows + titles + layout from viewing history; 20% serving-latency reduction) (Jul 2026)
 - [[github-agent-hq]] — GitHub's multi-agent control plane *(stale)*
@@ -334,6 +336,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mojo]] — Modular's Python-superset AI/ML systems programming language; fully open-sourced under Apache 2.0 with LLVM exceptions (Aug 2026)
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
+- [[nvidia-avo]] — NVIDIA's Agentic Variation Operators general-purpose coding-agent architecture; achieved perfect 100.00 on ARC-AGI-3 (183 levels / 25 environments) powered by Claude Opus 5 using ~12% fewer actions than the prior leader (Aug 2026)
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
 - [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; formally designated "critical" cybersecurity-capable AI (weights locked + sandbox-restricted), split-flagship pair to [[openai-doug]]; internal version solved 10 previously-open math problems (Aug 2026)
 - [[ox-alpha]] — Anonymous free reasoning model surfacing on OpenRouter Aug 2026; 1M context / 131K output / text+image+video; 8/10 deterministic DeepSWE subset (beats Fable 5 + GLM-5.3 + Grok 4.6 + GPT-5.6 Sol); GLM-5V-Turbo tokenization fingerprint suggests Zhipu-AI-adjacent origin

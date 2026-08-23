@@ -8,9 +8,10 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-08-19-morning
-> **Last updated**: 2026-08-19-morning
+> **Last updated**: 2026-08-23-morning (**daily-digest Tools & Products lands **$0.45-per-task + 4× more cost-effective than [[claude-cowork]]** concrete cost-anchor on Glean's enterprise AI substrate**. Daily-digest Tools & Products: *"Glean is a new AI tool that uses enterprise context, intelligent routing, and efficient retrieval to average $0.45 per task, making it 4x more cost-effective than Claude Cowork"*. First publicly framed on this cycle: (a) **$0.45-per-task concrete-dollar anchor** — sharpens the 08-19-morning *"2-4× prior model cost"* + *automatic-mode-dominance* framing into a *concrete-per-task-dollar cost-anchor* on Glean's own product; validates Glean's Waldo + three-mode model-routing as *demonstrable-cost-lever tier*; (b) **4× cost-effective vs [[claude-cowork]] cross-vendor comparator** — first publicly framed *Glean-vs-Claude-Cowork concrete-cost-ratio comparator* in this wiki; positions Glean as *canonical enterprise-cost-first Cowork-tier competitor* (sits alongside [[openai-presence]] + [[claude-managed-agents]] enterprise-agent-substrate cohort with a *cost-lever axis*); (c) **"Enterprise context + intelligent routing + efficient retrieval" three-primitive stack** — canonicalizes Glean's cost-lever architecture as *context-aware + router-based + retrieval-optimized* enterprise-substrate posture. See [[model-routers]] + [[claude-cowork]] + [[openai-presence]] + [[claude-managed-agents]] + [[enterprise-ai]] — *source: data/summaries/2026-08-23-morning.json (Superhuman MEDIUM "⚡ Unitree's robot breaks Usain Bolt's speed record" — Glean 4x more cost-effective; daily-digest Tools & Products)*)
+> **Previously updated**: 2026-08-19-morning
 > **Status**: active
-> **Related**: [[model-routers]], [[openrouter]], [[cursor-router]], [[enterprise-ai]], [[open-source-models]]
+> **Related**: [[model-routers]], [[openrouter]], [[cursor-router]], [[enterprise-ai]], [[open-source-models]], [[claude-cowork]], [[openai-presence]], [[claude-managed-agents]]
 
 ## Summary
 
