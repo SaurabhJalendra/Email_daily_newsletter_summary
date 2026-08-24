@@ -220,6 +220,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[dig-bench]] — agent benchmark measuring rule-discovery-through-experimentation; 70 text-based games (21 publicly released, ~49 held for anti-contamination) (Aug 2026)
 - [[dyna-2]] — Dyna Robotics's world-action model pre-trained on 1M+ hours of human video; 87% real-world zero-shot pass rate on unseen robot hardware; scaling-laws-for-robotics anchor (Aug 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
+- [[evals-skills]] — Hamel Husain + Shreya Shankar's free open-source eval skills bundle for coding agents; v2 launched Aug 2026 with new `error-discovery` + `start` skills; installs via `npx skills add ai-evals-course/evals-skills`
 - [[firefox]] — Mozilla's browser joins the AI browser race with Aug 2026 Exa partnership powering *Smart Window* on desktop + *Quick Answers* on iOS; privacy-first + optional-AI + user-choice posture; fills [[chatgpt-atlas]] void (Aug 2026)
 - [[flue]] — Fred Schott's (Astro creator) React-style meta-harness for agents; 16 Agent Hooks (`useSkill()` / `useTool()` / `useSubagent()`) atop Pi minimal-harness substrate; host-portable open-source competitor to [[vercel-eve]]; agent-defined-by-harness thesis (Aug 2026)
 - [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(superseded by [[flux-3]])*
@@ -416,6 +417,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[runway-dev]] — Runway's Jul 2026 developer API serving frontier video models + bundled third-party image and audio generators
 - [[runway-gen-4-5]] — Runway's text-to-video; tops Veo 3 and Sora on Artificial Analysis benchmark *(stale)*
 - [[sakana-fugu]] — Sakana AI's multi-agent orchestration platform; behaves like single model from API consumer's perspective; claimed parity with Fable/Mythos (Jun 2026)
+- [[scrollcraft]] — Nate Herk's free Claude Code skill for transforming ordinary landing pages into premium scroll-driven websites; interviews the user about the journey and works with existing or AI-generated assets (Aug 2026)
 - [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2.5 weeks away with longer clips + 4K imminent + Seedance 2.0 mini lower-cost variant released (Jun 2026)
 - [[self-harness]] — Shanghai AI Lab framework enabling an agent to autonomously rewrite its own operating harness (~60% perf boost); three-stage iterative loop (weakness mining → harness proposal → proposal validation) (Jul 2026)
 - [[slack-code]] — Slack's Aug 2026 shared-room coding surface — AI agents author code while human teammates watch/steer/direct across teams; live previews + human-approval gate for deploy
@@ -472,6 +474,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[forward-deployed-engineer]] — customer-embedded software/ML engineer role owning AI-solution lifecycle; from Palantir → OpenAI + Anthropic + AWS ($1B org) + Microsoft (Jul 2026)
 - [[ghostcommit]] — PNG-hidden prompt-injection attack that hides instructions in PR-attached images and coerces coding agents to leak `.env` credentials (Jul 2026)
 - [[graph-engineering]] — Harnoor Singh's named discipline for building production-grade agents as networks (workers/routers/tools/verifiers); seven-stage roadmap; orchestration graphs (temporary) vs memory graphs (durable) binary; HydraDB/HydraBrain/Neo4j/GraphRAG substrate (Jul 2026)
+- [[hamel-husain]] — independent AI-evals practitioner + founder of Parlance Labs; co-teaches AI Evals for Engineers & PMs Maven course with Shreya Shankar; co-maintains [[evals-skills]] open-source bundle (Aug 2026)
 - [[humanoid-robotics]] — embodied-AI arms race: NVIDIA Isaac GR00T + OpenAI Robotics restart + Altman/Alfred + Amazon warehouse + Serve + China IPOs (Jun 2026)
 - [[j-space]] — Anthropic interpretability finding — emergent internal workspace inside Claude for silent reasoning + planning + multi-step reasoning; J-lens open-source tool + Content Seal watermarking pairing; "A Global Workspace in Language Models" paper (Jul 2026)
 - [[john-jumper]] — Google DeepMind VP and 2024 Nobel Chemistry laureate (AlphaFold co-creator); departs for Anthropic in June 2026

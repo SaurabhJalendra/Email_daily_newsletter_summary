@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[alibaba]] (Qwen team)
 > **First mentioned**: 2026-08-17-evening
-> **Last updated**: 2026-08-17-evening
+> **Last updated**: 2026-08-24-morning (**Simon Willison MEDIUM daily-digest AI Models & Research anchor: *"Qwen 3.8 27B achieves a score of 52 on the Artificial Analysis Intelligence Index, comparable to GPT-5.6 Luna. This highlights the rapid progress in AI model development and the increasing competition in the market"*; daily-digest AI Models & Research restates the AA-II 52 anchor and the GPT-5.6 Luna parity framing. First publicly framed on this cycle: (a) **AA-Intelligence-Index score of 52** — first publicly framed *third-party AA-II benchmark placement anchor* on Qwen 3.8 27B in this wiki (resolves the 08-17-evening open question *"Full third-party benchmark placement (Artificial Analysis Intelligence Index, Vals Index) beyond self-reported and Willison hands-on"*); (b) **Parity with GPT-5.6 Luna at the AA-II 52 point** — first publicly framed *concrete cross-vendor open-weights-vs-closed-model AA-II parity anchor* on Qwen 3.8 27B (positions the 27B open-weights against OpenAI's cheapest-tier closed model at same benchmark score); (c) **"Rapid progress + increasing competition" market-narrative framing** — sustains the mid-2026 [[open-source-models]] narrowing-frontier-gap arc with a *third-party-index concrete-data-point anchor*. See [[alibaba]] + [[gpt-5-6]] + [[open-source-models]] — *source: data/summaries/2026-08-24-morning.json (Simon Willison MEDIUM "Conceptual integrity and counting lines of code"; daily-digest AI Models & Research)*)
+> **Previously updated**: 2026-08-17-evening
 > **Status**: released (open-weights, Apache 2.0)
 > **Related**: [[alibaba]], [[qwen-3-8-max]], [[open-source-models]], [[muse-glimmer]], [[glm-5-3]], [[claude-code]], [[gemini-3-7-flash]]
 
@@ -21,6 +22,7 @@ What makes 3.8-27B notable is that it delivers **frontier-level coding and reaso
 
 ## Timeline
 
+- **2026-08-24-morning**: Simon Willison cross-cohort recoverage lands *AA-Intelligence-Index score of 52 comparable to GPT-5.6 Luna* — first third-party benchmark-index placement on Qwen 3.8 27B in this wiki; resolves the 08-17-evening open question on third-party benchmark placement; positions open-weights 27B against OpenAI's cheapest-tier closed model at parity — *source: data/summaries/2026-08-24-morning.json (Simon Willison MEDIUM "Conceptual integrity and counting lines of code"; daily-digest AI Models & Research)*
 - **2026-08-17-evening**: **Qwen3.8-27B released — Apache 2.0, vision-capable, effective tool calling, competent code generation; Simon Willison canonical write-up frames it as "excellent, but defaults to wildly overthinking things"; TLDR / Rundown AI / Evolving AI Insights cross-cohort saturation into daily-digest Top Story #3**. Simon Willison MEDIUM cycle-headline: *"Qwen 3.8 27B is a new 27B parameter vision-capable LLM from Alibaba's Qwen research lab, released under the Apache 2.0 license. It has a long context, effective tool calling, strong vision ability, and competent code generation, making it suitable for local deployment on high-end consumer hardware"* + *"defaults to 'xhigh' reasoning effort, which can lead to overthinking and slow performance; users are recommended to adjust the reasoning effort to 'low' or 'medium'"*. Concrete comparisons drawn to [[claude-code]] and [[gemini-3-7-flash]]. researchFindings.additionalContext locks in: 262K native context (~1M path), Gated DeltaNet + gated-attention hybrid, ~61.7 on SWE-bench Pro, competitive with Claude Opus 4.6 Max on certain code-heavy tasks, vLLM recipes + GGUF + local launchers integrated. Daily-digest Top Story #3: *"Qwen 3.8 27B, a new 27B parameter vision-capable LLM, is released under the Apache 2.0 license, offering a competitive model for local deployment on high-end consumer hardware"*. First publicly framed on this cycle: (a) **Apache 2.0 open-weights + 27B parameters + vision-capable + long context** — resolves 08-15-evening [[qwen-3-8-max]] *"27B smaller-model missing-in-action"* open thread; (b) **xhigh default reasoning effort as a UX fault-line** — first publicly framed *reasoning-effort-default configuration causing overthinking* on a Chinese-open-weights release; sharpens the *tunable-thinking* Gemini/Opus/GPT-5.6 API-surface arc with a *default-too-high-out-of-box* companion observation; (c) **Fits on high-end consumer hardware as canonical positioning** — extends the [[muse-glimmer]] *fits-on-24GB-consumer-GPU* framing from 30B tier into a 27B tier open-weights *frontier-coding-in-consumer-envelope* substrate; (d) **Simon Willison as canonical open-weights evaluator** — his direct testing (SVG generation, image annotation, coding-agent driving) provides a canonical framing on new open-weights releases. See [[alibaba]] + [[qwen-3-8-max]] + [[open-source-models]] + [[muse-glimmer]] + [[glm-5-3]] — *source: data/summaries/2026-08-17-evening.json (Simon Willison MEDIUM "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things"; TLDR MEDIUM; The Rundown AI MEDIUM; daily-digest Top Story #3; researchFindings.additionalContext for Qwen3.8-27B)*
 
 ## Key Facts
@@ -32,7 +34,7 @@ What makes 3.8-27B notable is that it delivers **frontier-level coding and reaso
 - **Context window**: 262K tokens native, path to ~1M advertised
 - **Architecture**: hybrid attention backbone — Gated DeltaNet-style linear attention + full gated-attention blocks (shared with larger Qwen3.8 family)
 - **Reasoning effort**: tunable — defaults to xhigh (causes overthinking); low / medium / high available per-message
-- **Benchmarks**: ~61.7 SWE-bench Pro; high DeepSWE and LiveCodeBench scores; competitive with Claude Opus 4.6 Max on certain code-heavy tasks (self-reported + independent)
+- **Benchmarks**: ~61.7 SWE-bench Pro; high DeepSWE and LiveCodeBench scores; competitive with Claude Opus 4.6 Max on certain code-heavy tasks (self-reported + independent); **AA-Intelligence-Index score 52 comparable to GPT-5.6 Luna** (per Simon Willison 2026-08-24)
 - **Deployment**: fits on high-end consumer hardware; vLLM recipes + GGUF builds + local launchers integrated day-0
 - **Positioning**: long-context agentic model for software engineering + professional work + research
 - **Sibling model**: [[qwen-3-8-max]] (2.4T-A95B, HF/ModelScope open-weights with text-only + reduced-context caveats)
@@ -40,7 +42,7 @@ What makes 3.8-27B notable is that it delivers **frontier-level coding and reaso
 ## Open Questions
 
 - Concrete per-message performance overhead when reasoning-effort is left at xhigh default
-- Full third-party benchmark placement (Artificial Analysis Intelligence Index, Vals Index) beyond self-reported and Willison hands-on
+- Full Vals Index placement (AA-II resolved at 52 on 2026-08-24 via Simon Willison)
 - Exact VRAM footprint at BF16 / quantized variants (Willison notes "high-end consumer hardware" but no specific tier)
 - License nuances vs [[qwen-3-8-max]]'s new revenue-share license — is 27B fully permissive Apache 2.0 or does it carry additional restrictions?
 - Whether 27B supports the same 1M-token context path advertised for the Max tier
@@ -48,4 +50,5 @@ What makes 3.8-27B notable is that it delivers **frontier-level coding and reaso
 
 ## Sources
 
+- data/summaries/2026-08-24-morning.json (Simon Willison MEDIUM "Conceptual integrity and counting lines of code" — AA-Intelligence-Index score 52 parity with GPT-5.6 Luna; daily-digest AI Models & Research anchor)
 - data/summaries/2026-08-17-evening.json (Simon Willison MEDIUM "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things" — Apache 2.0, vision-capable, long context, effective tool calling, competent code gen, defaults to xhigh reasoning effort, compared to Claude Code and Gemini 3.7 Flash; TLDR MEDIUM "Stripe buys OpenRouter 🔀, Anthropic Model 2 🤖"; The Rundown AI MEDIUM "✍️ Dario Amodei logs on to answer the critics"; daily-digest Top Story #3; researchFindings.additionalContext for Qwen3.8-27B — 262K context, Gated DeltaNet hybrid, 61.7 SWE-bench Pro, competitive with Claude Opus 4.6 Max, vLLM/GGUF/local-launcher integrations)

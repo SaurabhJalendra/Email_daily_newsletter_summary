@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: Modular
 > **First mentioned**: 2026-08-19-evening
-> **Last updated**: 2026-08-19-evening (**Mojo now fully open source under Apache 2.0 with LLVM exceptions** — TLDR MEDIUM: *"Mojo, a novel general-purpose programming language, is now fully open source under the Apache 2.0 license with LLVM exceptions"*)
+> **Last updated**: 2026-08-24-morning (**Simon Willison MEDIUM cross-cohort recoverage in *"Conceptual integrity and counting lines of code"* daily-digest Industry News anchor: *"Mojo, a programming language, has been open-sourced, allowing developers to use and contribute to the language. Mojo is designed to make GPU programming more accessible and efficient"*; daily-digest re-anchor: *"Mojo programming language is open-sourced — Allowing developers to use and contribute to the language, making GPU programming more accessible and efficient"*. First publicly framed on this cycle: **GPU-programming-accessibility positioning** — the Willison-cohort framing sharpens the 08-19-evening *general-purpose programming language* framing into a *GPU-programming-tier accessibility narrative* that positions Mojo directly against Triton (OpenAI) + CUTLASS (NVIDIA) as the *permissive-license GPU-kernel-programming substrate*. See [[ai-hardware]] + [[open-source-models]] — *source: data/summaries/2026-08-24-morning.json (Simon Willison MEDIUM "Conceptual integrity and counting lines of code"; daily-digest Industry News anchor)*)
+> **Previously updated**: 2026-08-19-evening (**Mojo now fully open source under Apache 2.0 with LLVM exceptions** — TLDR MEDIUM: *"Mojo, a novel general-purpose programming language, is now fully open source under the Apache 2.0 license with LLVM exceptions"*)
 > **Status**: active (open source)
 > **Related**: [[open-source-models]], [[ai-hardware]]
 
@@ -21,6 +22,7 @@ The open-sourcing matters because it removes the licensing overhang that had con
 
 ## Timeline
 
+- **2026-08-24-morning**: Simon Willison MEDIUM cross-cohort recoverage sharpens the framing into *GPU-programming-accessibility* positioning; daily-digest Industry News anchor: *"Mojo programming language is open-sourced — making GPU programming more accessible and efficient"* — *source: data/summaries/2026-08-24-morning.json (Simon Willison MEDIUM "Conceptual integrity and counting lines of code"; daily-digest Industry News)*
 - **2026-08-19-evening**: **Mojo fully open source under Apache 2.0 with LLVM exceptions** — TLDR MEDIUM: *"Mojo, a novel general-purpose programming language, is now fully open source under the Apache 2.0 license with LLVM exceptions"*; first publicly framed *concrete Apache-2.0-with-LLVM-exceptions* licensing anchor on Mojo in this wiki — canonical *permissive-with-LLVM-lineage-exceptions* open-source posture matching LLVM/Rust ecosystem conventions; removes prior source-availability constraints — *source: data/summaries/2026-08-19-evening.json (TLDR MEDIUM "OpenAI pauses training 🤖, Meta landmark trial ⚖️, git on s3 👨‍💻")*
 
 ## Key Facts
@@ -42,3 +44,4 @@ The open-sourcing matters because it removes the licensing overhang that had con
 ## Sources
 
 - data/summaries/2026-08-19-evening.json (TLDR MEDIUM "OpenAI pauses training 🤖, Meta landmark trial ⚖️, git on s3 👨‍💻")
+- data/summaries/2026-08-24-morning.json (Simon Willison MEDIUM "Conceptual integrity and counting lines of code"; daily-digest Industry News anchor — GPU-programming-accessibility framing)
