@@ -4,6 +4,29 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-08-24-evening
+
+**Ingested**: data/summaries/2026-08-24-evening.json (8 newsletters)
+
+**Pages updated**:
+- [[apple]] — added iMessage PQ3 post-quantum cryptographic protocol shipping timeline entry + top-line summary anchor
+- [[anthropic]] — added Sonnet 5 pricing-permanent motion + Mythos 5 expanded access + $100B+ raise at $2T IPO valuation bankers-narrative
+- [[claude-sonnet-5]] — added permanent $2/M input + $10/M output pricing (planned Aug 31 increase canceled); updated Key Facts with permanent pricing
+- [[hugging-face]] — added $13B+ sale exploration anchor (~2.9× step-up vs 2023's $4.5B valuation)
+- [[nvidia]] — added third-cycle recoverage of NVIDIA-Poolside $6B non-exclusive license via daily-digest Top Story #4 condensed framing
+- [[poolside-ai]] — third-cycle daily-digest-anchor condensed recoverage of NVIDIA license deal
+- [[cloudflare]] — added canonical "browser + wallet + payment protocol" three-primitive triad framing ([[kitesurf]] + Wallets + Monetization Gateway) for autonomous AI agents
+- [[amazon]] — added [[zoox]] robotaxi paid-commercial launch in Las Vegas (first without steering wheels/pedals/driver; Austin + Miami expansion)
+- [[ox-alpha]] — added new benchmark anchors (80% DeepSWE subset + 63% full-test), Microsoft MAI attribution candidate, 100T tokens/day free quota, near-Fable-5-at-fewer-tokens-per-task positioning
+
+**Pages created**:
+- [[imessage-pq3]] — Apple's third-generation cryptographic protocol for iMessage; hybrid Kyber post-quantum KEM + classical ECC + double-ratchet + periodic PQ rekeying + formal verification
+- [[post-quantum-cryptography]] — topic page on PQC as class of algorithms resistant to quantum attacks; Kyber / ML-KEM canonical primitive; harvest-now-decrypt-later threat framing
+
+**Notable**: **Dual-M&A daily-digest cluster** ([[hugging-face]] $13B+ sale exploration + NVIDIA-[[poolside-ai]] $6B license) canonicalizes mid-2026 AI-M&A cohort at daily-digest Top-Story tier — signals frontier-lab consolidation-cycle has entered developer-newsletter canonical-reference tier. **[[cloudflare]] three-primitive triad** (browser + wallet + payment protocol) productizes multi-cycle agent-infra suite into daily-digest Top-Story-tier canonical framing for *economic activity by software agents infrastructure layer*. **[[claude-sonnet-5]] permanent-price-lock** is first canonical *cancels-a-planned-price-increase* motion on a frontier-lab Claude model — reads as competitive-response to unlimited free tiers + Opus 5 undercut + open-weights pressure. **[[apple]] PQ3** productizes at-scale consumer post-quantum-cryptography deployment as canonical shipping-tier reality (rather than speculative-future migration).
+
+---
+
 ## LINT 2026-08-23 (week 2026-W34)
 
 **Lint actions**:

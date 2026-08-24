@@ -302,6 +302,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ibm-bob]] — IBM's AI coding partner for enterprise teams coordinating planning + coding + testing + validation across the SDLC (Jul 2026)
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference *(stale)*
 - [[ideogram-4]] — Ideogram's first open-weight text-to-image model; structured JSON prompting + native 2K + multilingual text rendering (Jun 2026)
+- [[imessage-pq3]] — Apple's third-generation cryptographic protocol for iMessage; hybrid Kyber post-quantum KEM + classical ECC + double-ratchet + periodic PQ rekeying; first messaging protocol to achieve "Level 3 security"; formally verified; shipped in iOS 17.4 / iPadOS 17.4 / macOS 14.4 / watchOS 14.4 (canonicalized Aug 2026)
 - [[isaac-groot]] — NVIDIA's research-grade humanoid robot reference design (Unitree H2 body + Blackwell GPU); US/Europe/South Korea partners (Jun 2026)
 - [[jetson-thor]] — NVIDIA's Blackwell-powered edge modules (T3000 + T2000) for robotics, visual AI, and agent workloads on compact edge systems (Jul 2026)
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
@@ -489,6 +490,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ontologies-for-agents]] — Semantic-Web ontology revival as deterministic guardrails for probabilistic agents; Neo4j "smarter shared substrate" + OpenLink Software "agent engineering stack"; Frank Coyle + Emil Eifrem + Kingsley Idehen (Jul 2026)
 - [[open-secure-ai-alliance]] — Nvidia-led cross-vendor AI-safety coalition launched Jul 2026 after Sol/HF breach; 30+ orgs including Microsoft/HF/IBM/Cloudflare/Cisco/Red Hat/Salesforce/SAP; OpenAI + Google + Anthropic notably absent
 - [[orbital-data-centers]] — space-based AI compute initiatives; SpaceX, Project Suncatcher, Cowboy Space Corp, Starcloud (May 2026)
+- [[post-quantum-cryptography]] — algorithms designed to remain secure against large-scale quantum computers ("harvest now, decrypt later" defensive posture); Kyber / ML-KEM canonical primitive; canonical at-scale consumer deployment via Apple [[imessage-pq3]] (Aug 2026)
 - [[reasoning-trace-extraction]] — cross-vendor API vulnerability disclosed by Alexander Panfilov et al. that enables extraction of hidden reasoning tokens from frontier LLM APIs (Claude, GPT, Gemini); reasoning-token count matches billed thinking-tokens 1:1 (Aug 2026)
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026) *(stale)*
 - [[software-factories]] — cross-vendor thesis (Warp Oz + Cursor FDE + Factory) that every major software project will soon run on an automated main-loop factory (triage → spec → implement → review → verify → ship → monitor) (Jul 2026)
