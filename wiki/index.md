@@ -58,6 +58,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
 - [[ibm]] — enterprise-software incumbent; watsonx + Granite; launches [[ibm-bob]] AI coding partner for enterprise SDLC (Jul 2026)
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*
+- [[inherent]] — DeepMind-alumni-founded AI research-automation startup; ships [[faraday-27b]] that outperforms Anthropic + OpenAI frontier models at replicating scientific research papers (Aug 2026)
 - [[interpositive]] — Ben Affleck's 16-person AI-post-production startup (project-specific dailies-trained tools); acquired by [[netflix]] for $587M+ (Jul 2026)
 - [[jetbrains]] — Czech developer-tools company (IDEs, TeamCity CI, AI Assistant, Junie, Mellum2); Aug 2026 unauthenticated RCE in TeamCity On-Premises actively exploited
 - [[jpmorgan-chase]] — investment bank; LLM Suite aggregates OpenAI + Anthropic; "fully AI-powered megabank" commitment; $18B/yr tech (Jun 2026)
@@ -213,6 +214,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier *(stale)*
 - [[deepstream-9-1]] — NVIDIA's Aug 2026 edge vision AI SDK update; agentic "skills" architecture — Multi-View 3D Tracking (MV3DT) + AutoMagicCalib camera calibration; natural-language-prompt-driven multi-camera pipelines
 - [[deepseek-ocr]] — open-source OCR with 10× vision-token compression, 97% accuracy *(stale)*
+- [[deepseek-v4-flash-vision]] — DeepSeek's Aug 2026 experimental multimodal vision-language variant of V4-Flash; nearly matches Claude Opus 4.8 on multimodal agent benchmarks at Flash-tier pricing
 - [[diffusion-gemma]] — Google's diffusion-based Gemma-family variant; first surfaced TLDR AI 2026-06-11-evening + second-cohort NLP Newsletter digest 2026-06-14-morning
 - [[deepseek-v3-2]] — DeepSeek V3.2 matches GPT-5; V3.2-Speciale rivals Gemini 3 Pro w/ IMO/IOI/ICPC gold *(stale)*
 - [[deepseek-v4]] — DeepSeek's Apr 2026 frontier MoE family (V4-Pro + V4-Flash); open-sourced; triggers AI-pricing collapse *(stale)*

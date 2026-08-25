@@ -8,7 +8,8 @@ type: trend
 
 > **Type**: trend
 > **First mentioned**: 2026-08-21-evening
-> **Last updated**: 2026-08-21-evening
+> **Last updated**: 2026-08-25-morning (**Texas freezes 1,800 data-center projects — sweeping state-level restrictions on new data-center development across Texas potentially choking new AI-infrastructure builds**. Cerebral Valley MEDIUM: *"Texas has imposed sweeping restrictions on new data-center development across the state, potentially choking new projects"* + link *"Texas freezes 1,800 data-center projects"*. First publicly framed on this cycle: (a) **Texas 1,800-project data-center-freeze concrete anchor** — first publicly framed *concrete state-level data-center-project-freeze count-tier anchor* in this wiki; canonicalizes Texas as *fourth-state-level anti-data-center regulatory-tier motion* alongside Pennsylvania local-approval + Ohio Senate-race community-tier + governors-general restriction cohort; (b) **"Sweeping restrictions across the state" scope-tier anchor** — first publicly framed *statewide scope-tier data-center-freeze anchor* on Texas in this wiki (structurally significant — Texas as canonical mid-2026 AI-hardware-hosting-tier + power-abundance-tier state, so the Texas-freeze reads as *most-consequential state-level anti-data-center motion to date*; structurally distinct from Pennsylvania local-tier + Ohio political-tier motions). Extends the multi-cycle bipartisan-anti-data-center backlash arc into a *statewide-legal-freeze concrete-project-count tier*. See [[ai-regulation]] + [[ai-hardware]] — *source: data/summaries/2026-08-25-morning.json (Cerebral Valley MEDIUM "Cerebral Valley – Week of August 24")*)
+> **Previously updated**: 2026-08-21-evening
 > **Status**: active
 > **Related**: [[ai-regulation]], [[ai-bubble-concerns]], [[ai-hardware]], [[eu-ai-act]], [[nvidia]], [[openai]]
 

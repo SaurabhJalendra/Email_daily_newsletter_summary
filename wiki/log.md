@@ -4,6 +4,32 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-08-25-morning
+
+**Ingested**: data/summaries/2026-08-25-morning.json (14 newsletters)
+
+**Pages updated**:
+- [[openai]] — added Sam Altman $500B Stargate + $5T future cluster + 100x-cheaper-intelligence + 10x-per-year price-decline canonical framework + "5% of all economic tasks" + "AI hasn't had its iPhone moment" self-tempering framing
+- [[anthropic]] — added $100B IPO raise-target daily-digest recoverage + Mythos 5 in Claude Security public beta + access-gated-tiered-productization + former Google custom-silicon executive hire concrete-origin anchor
+- [[nvidia]] — added >15% AI-server-price-hike on 2027 shipments (Vera Rubin + Grace Blackwell) + "AI-flation isn't slowing down" canonical framing + Perplexity $30B+ investment-talks + Grace Blackwell explicitly named as affected 2027-shipment cohort
+- [[hugging-face]] — added cross-cohort morning recoverage of $13B+ sale exploration + Nvidia $500M investment declined earlier in 2026 + "fielding acquisition offers" framing
+- [[deepseek]] — added cross-cohort morning cluster of V4-Flash-Vision-Exp launch with concrete new anchors — nearly matches Opus 4.8 on agent benchmarks + "read screenshots/charts/documents/act-on-them" concrete-agentic-use-case framing + Flash pricing preservation
+- [[claude-code]] — added Remote Control upgrade (faster reconnects + phone-to-machine session start substrate) + seamless cross-device transitions
+- [[claude-mythos]] — added Mythos 5 in Claude Security public beta canonical anchor + tiered-access substrate (Enterprise-full-access vs partner-tool-alerts-only) + "trace data flows across files/understand component interactions/catch bugs pattern-matching misses" concrete-capability anchors
+- [[cursor-origin]] — added Vaibhav Sisinty deep-dive canonicalizing Origin's MCP-less design + wrap-Origin-CLI-as-MCP-server Node.js community pattern + 5-Origin-subcommand enumeration (repo create/list/view/clone + auth status)
+- [[apple]] — added 200+ Vision-Pro + Siri + software-engineering cross-division layoffs + "effectively shelved Vision Pro" canonical framing + Ray-Ban-Meta-line-similar smart-glasses form-factor pivot
+- [[alibaba]] — added Wan3.0 30-second-single-pass video-generation canonical anchor + document-substrate-directly-to-video generative pattern (spreadsheets/slide-decks/PDFs/live-webpages) + $10.2B share placement + 10% stock drop
+- [[perplexity]] — added Nvidia $30B+ investment-talks tier + $750M+ annualized revenue tripled-since-January + first publicly framed valuation-tier and revenue-tier anchors on Perplexity
+- [[data-center-opposition]] — added Texas 1,800-project data-center-freeze + statewide scope-tier anchor + fourth-state-level anti-data-center regulatory-tier motion
+
+**Pages created**:
+- [[deepseek-v4-flash-vision]] — DeepSeek's Aug 2026 experimental multimodal vision-language variant of V4-Flash — nearly matches Claude Opus 4.8 on multimodal agent benchmarks at Flash-tier pricing; supports JPEG/PNG/GIF/WebP; "Exp" preview-tier release cadence
+- [[inherent]] — DeepMind-alumni-founded AI research-automation startup; ships Faraday 27B "AI teammate" that reportedly outperforms Anthropic + OpenAI frontier models at replicating scientific research papers (TechCrunch 2026-08-22 primary source)
+
+**Notable**: **Sam Altman $5T future cluster + 100x-cheaper-in-2-years + 10x-per-year-continues quad-anchor framework** productizes Altman's decade-forward compute + pricing thesis at a single-podcast level — this is the most-durable single-cycle Altman-frame in this wiki, likely to become widely-cited investor-narrative-tier canonical framing. **Anthropic $100B raise-target + Mythos 5 public beta + Google custom-silicon executive hire triple-anchor cluster** consolidates the mid-August-2026 Anthropic pre-IPO strategic-positioning trajectory (capital-raise + productization + silicon-independence) into a single-cycle canonical anchor. **Nvidia >15%-price-hike + Perplexity $30B+ investment-talks pair** signals Nvidia's cross-tier mid-2026 posture — pricing-power passthrough on the supply side + equity-tie strategy on the demand/application side. **Chinese-open-weights multimodal convergence anchor** — V4-Flash-Vision-Exp nearly matches Opus 4.8 at Flash pricing productizes Chinese-open-weights-vs-Western-frontier competitive-substitution arc into a *multimodal-agent-benchmark canonical tier*.
+
+---
+
 ## 2026-08-24-evening
 
 **Ingested**: data/summaries/2026-08-24-evening.json (8 newsletters)
