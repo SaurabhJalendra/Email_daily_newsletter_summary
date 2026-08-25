@@ -115,6 +115,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[terawulf]] — US-listed compute-infrastructure operator (former Bitcoin miner pivoting to AI-DC hosting); $19B multi-year Anthropic AI-infrastructure lease deal + initial capacity 2H 2027 (Jul 2026)
 - [[tesla]] — Elon Musk's EV + AI-hardware company; Optimus + Cybercab + Dojo + [[terafab]] JV with SpaceX; five-tier vertical AI stack (silicon-fab → compute → chip → robotics/AV → consumer) (Aug 2026)
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
+- [[thomson-reuters]] — legal + professional-services publisher; ships proprietary legal AI model retooled from Alibaba Qwen open-weights ($40M total / $450K latest run) benchmarked ahead of Claude Opus 4.8 + Gemini 3.1 Pro + GPT-5.5 on legal-domain tasks (Aug 2026)
 - [[together-ai]] — open-source AI infrastructure company; $800M @ $8.3B (Jul 2026) — "cheap open-source plumbing" thesis for making frontier AI accessible
 - [[unitree]] — Chinese humanoid + quadruped robot manufacturer; first humanoid maker on China's stock market (Shanghai IPO Aug 2026 at ~$9B); Aug 2026 unveils "Superman" humanoid that runs faster than Usain Bolt but has no working hands
 - [[volta]] — NVIDIA-backed AI-infrastructure startup emerging from stealth at $2.4B valuation; six-year $10B Anthropic capacity deal (133MW Vera Rubin alongside Bitdeer Technologies) (Aug 2026)
@@ -394,6 +395,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openrouter]] — Model-routing platform with unified API access to 400+ AI models across vendors; acquired by [[stripe]] for over $7B (Aug 2026)
 - [[opera-neon]] — Opera's AI browser *(stale)*
 - [[pinecone-nexus]] — Pinecone's Aug 2026 GA retrieval layer; tops open enterprise-knowledge benchmark, beats agents built on OpenAI/Anthropic/Google frontier models on corporate-data grounding
+- [[pipette]] — Liquid AI + Artificial Analysis open-source on-device benchmark stack; measures quality/speed/latency/memory across model × quantization × runtime × device combinations (Aug 2026)
 - [[perplexity-brain]] — Perplexity's self-improving memory system; persistent context graph across tasks/projects/decisions/files with origin-source linking (Jun 2026)
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
 - [[perplexity-computer]] — Perplexity's 19-model orchestration platform for end-to-end workflows (Feb 2026)
@@ -469,6 +471,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad *(stale)*
 - [[ai-watermarking]] — frontier-lab invisible-signature systems for detecting AI-generated content; Anthropic Aug 2026 Claude text watermark + Text Detection API, tied to EU AI Act transparency code applied worldwide (Aug 2026)
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
+- [[andrew-ng]] — Google Brain / Coursera / DeepLearning.AI co-founder; publishes AI Engineering Skills Map (4 core skill areas from 10K+ job posting analysis) + Coursera-backed LearnVector $100M; canonical mid-2026 educator for AI-engineering discipline (Aug 2026)
 - [[computer-use]] — models that drive GUIs directly; Aug 2026 [[hark-handoff]] launch adds consumer/lifestyle-tier entrant (food ordering, shopping, recruiting) alongside prior coding-agent + browser-agent tiers
 - [[continual-learning]] — Aug 2026 topic — models that keep learning from user interactions after deployment; Dwarkesh Patel's 8-prediction essay reframes AI-safety-regulation baseline + productizes user-lock-in as moat + shifts alignment methodology
 - [[ethan-mollick]] — Wharton professor / One Useful Thing author; "co-intelligence" framer; *Co-Existence* book Oct 20 2026
