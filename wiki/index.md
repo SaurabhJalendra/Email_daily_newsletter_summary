@@ -280,6 +280,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[google-ai-studio]] — Google's free playground for testing/comparing AI models incl. Gemini 3.5 Flash; side-by-side runs + prompt-builder; Google login (Jun 2026)
 - [[googlebook]] — Google's Gemini-native premium AI laptop category; Magic Pointer AI cursor; ships fall 2026 *(stale)*
 - [[granola]] — AI notepad turning months of meeting notes into a searchable memory with cited answers; canonical *accumulation*-archetype [[ai-moats]] example (Jul 2026)
+- [[groq-3-lpx]] — NVIDIA's AI inference accelerator chip; full-production Aug 2026; extends Vera Rubin platform; delivers 4× boost in response times vs nearest alternative for ultra-fast token generation in response-sensitive agentic workloads
 - [[grok-bot]] — SpaceXAI's iMessage-style team-of-agents product; per-agent dedicated cloud computer + app sign-in + cross-agent context sharing (Aug 2026)
 - [[grok-build]] — xAI's CLI coding agent for SuperGrok Heavy subscribers (May 2026)
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding *(stale)*
@@ -442,7 +443,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B) *(stale)*
 - [[trueforge]] — TrueFoundry's open-source agent harness; up to 75% cost reduction vs vendor-neutral agents (Aug 2026)
 - [[trex]] — [[greptile]]'s runtime-validation extension — autonomously writes + executes tests for each PR in a dynamic sandbox, returning screenshots + logs as concrete proof of failure; claims 4× faster merges + 3× more production-blocking bugs caught vs static-only review (Aug 2026)
-- [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell) *(stale)*
+- [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell); Groq 3 LPX ships as extension in full production (Aug 2026)
+- [[wan-3-0]] — Alibaba's Aug 2026 long-form AI video model; up to 30-second single-pass clips from text/documents; $0.20/sec at 1080p; #1 with-audio on Artificial Analysis arena at 1,240 Elo
 - [[watermelon]] — Meta's upcoming internal frontier-tier model per Meta Superintelligence Chief Alexandr Wang; caught up with OpenAI's GPT-5.5 on closely followed AI benchmarks; still in training, no release timeline (Jul 2026)
 - [[weathernext-2]] — Google DeepMind's open-source high-impact weather model; ~1 extra day of lead time on tropical cyclone forecasting (Aug 2026)
 - [[weave-isaac-1]] — Weave Robotics's home humanoid at $8K upfront / $449/mo subscription; folds clothes/tidies/makes beds; adjusts 3ft-6ft; California fall-2026 rollout with remote-teleoperation fallback (Jul 2026)
@@ -499,6 +501,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[reasoning-trace-extraction]] — cross-vendor API vulnerability disclosed by Alexander Panfilov et al. that enables extraction of hidden reasoning tokens from frontier LLM APIs (Claude, GPT, Gemini); reasoning-token count matches billed thinking-tokens 1:1 (Aug 2026)
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026) *(stale)*
 - [[software-factories]] — cross-vendor thesis (Warp Oz + Cursor FDE + Factory) that every major software project will soon run on an automated main-loop factory (triage → spec → implement → review → verify → ship → monitor) (Jul 2026)
+- [[synthetic-consensus]] — AI swarms (coordinated LLM+multi-agent networks) infiltrating online communities to create illusion of broad public agreement; researcher-recommended four-primitive defense playbook; first-in-wiki canonical anchor (Aug 2026)
 - [[tabular-foundation-models]] — new pretrained model class for structured/tabular data (spreadsheets, CSVs, DB tables); zero-shot in-context learning replaces per-dataset training; canonical cohort TabFM/TabPFN/KumoRFM/TabICL (Jul 2026)
 - [[project-glasswing]] — Anthropic-led cybersecurity coalition (AWS, Apple, Google, Microsoft, NVIDIA) using Claude Mythos Preview
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures *(stale)*
