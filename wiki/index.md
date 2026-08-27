@@ -104,6 +104,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[sambanova]] — AI-computing-solutions vendor for data centers; $1B Series F at $11B valuation Jul 2026
 - [[simile]] — AI market-research startup; $200M @ $2B valuation; enables companies to survey "agentic twins" of real consumers for synthetic-consumer insights (Jul 2026)
+- [[skild-ai]] — robotics foundation-model startup; S1 performs in-context learning of 10-min robot tasks from a single video without fine-tuning (Aug 2026)
 - [[skool]] — community/course-hosting platform; default surface for AI-education communities like [[ai-automation-society]]; discovery/distribution #1 focus (1M+ daily searches) + platform-level AI moderation + Link.skool.com URL-shortener/tracking layer (Aug 2026)
 - [[slack]] — Salesforce-owned enterprise collaboration; Slack AI + RTS API + MCP server for third-party agents; anchor surface for [[claude-tag]] (Jun 2026)
 - [[softbank]] — Japanese investment group; OpenAI's largest single capital backer (Vision Fund + Stargate JV + ~11% stake); 2026-06-28 strategic-partnership announcement for AI infrastructure + telecom/enterprise deployment with [[openai]]
@@ -349,6 +350,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nvidia-avo]] — NVIDIA's Agentic Variation Operators general-purpose coding-agent architecture; achieved perfect 100.00 on ARC-AGI-3 (183 levels / 25 environments) powered by Claude Opus 5 using ~12% fewer actions than the prior leader (Aug 2026)
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
 - [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; formally designated "critical" cybersecurity-capable AI (weights locked + sandbox-restricted), split-flagship pair to [[openai-doug]]; internal version solved 10 previously-open math problems (Aug 2026)
+- [[openai-bel]] — OpenAI's 10T-parameter pre-training run; foundation-tier substrate for GPT-6 / Astra; pre-training reported complete (Aug 2026)
 - [[ox-alpha]] — Anonymous free reasoning model surfacing on OpenRouter Aug 2026; 1M context / 131K output / text+image+video; 8/10 deterministic DeepSWE subset (beats Fable 5 + GLM-5.3 + Grok 4.6 + GPT-5.6 Sol); GLM-5V-Turbo tokenization fingerprint suggests Zhipu-AI-adjacent origin
 - [[openai-doug]] — OpenAI's massive pre-training frontier run targeting base capabilities through raw scaling; sibling to Astra in a two-model frontier split (Aug 2026)
 - [[openai-nextslide]] — OpenAI-acquired presentation startup turning raw model outputs into polished slide decks; step toward a full office suite inside ChatGPT (Aug 2026)
@@ -401,6 +403,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[perplexity-comet]] — Perplexity's AI browser *(stale)*
 - [[perplexity-computer]] — Perplexity's 19-model orchestration platform for end-to-end workflows (Feb 2026)
 - [[perplexity-personal-computer]] — Perplexity's always-on local AI agent on a dedicated Mac mini (Mar 2026) *(stale)*
+- [[perplexity-portable-computer]] — Perplexity+Nvidia's fully local AI agent on DGX Spark; zero token costs, model/data/work on-device, Linux launch + Windows Sept 2026 (Aug 2026)
 - [[plandex]] — open-source AI coding agent designed for large engineering tasks and multi-file changes (Jun 2026)
 - [[poke]] — first third-party AI agent approved for Apple Messages for Business / iMessage (Jun 2026)
 - [[prime-agent]] — Prime Intellect's Aug 2026 open-source coding agent — 95.5% on ARC-AGI-3 (surpasses human expert baseline); Recursive Language Model + Continual Harness self-modifying architecture
@@ -426,6 +429,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[scrollcraft]] — Nate Herk's free Claude Code skill for transforming ordinary landing pages into premium scroll-driven websites; interviews the user about the journey and works with existing or AI-generated assets (Aug 2026)
 - [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2.5 weeks away with longer clips + 4K imminent + Seedance 2.0 mini lower-cost variant released (Jun 2026)
 - [[self-harness]] — Shanghai AI Lab framework enabling an agent to autonomously rewrite its own operating harness (~60% perf boost); three-stage iterative loop (weakness mining → harness proposal → proposal validation) (Jul 2026)
+- [[skild-s1]] — Skild AI's robot foundation model; in-context learning of 10-min robot tasks from a single demonstration video with no fine-tuning (Aug 2026)
 - [[slack-code]] — Slack's Aug 2026 shared-room coding surface — AI agents author code while human teammates watch/steer/direct across teams; live previews + human-approval gate for deploy
 - [[snap-specs]] — Snap's $2,195 standalone AI AR glasses for the post-phone era; 51° FOV, 7ms latency, two Snapdragon chips, contextual AI (Jun 2026)
 - [[sora-2]] — OpenAI's video model; physics, audio, monetization, Hollywood pushback *(stale)*
