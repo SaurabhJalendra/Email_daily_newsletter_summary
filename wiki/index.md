@@ -242,6 +242,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-5-flash]] — Google's I/O 2026 agent-and-coding-tuned flagship; 1M context, 4× faster, 76.2% Terminal-Bench 2.1
 - [[gemini-3-5-flash-cyber]] — Google's Jul 2026 gated cybersecurity-tuned Gemini; fine-tuned to find/validate/patch software vulnerabilities; access restricted to governments + trusted partners; underpins CodeMender autonomous security agent
 - [[gemini-3-5-flash-lite]] — Google's Jul 2026 budget-workhorse Gemini tier; $0.30/M input + $2.50/M output; beats older Gemini 3 Flash on several evaluations; configurable thinking levels
+- [[gemini-3-5-transcribe]] — Google AI Studio's Aug 27 2026 speech-to-text model; real-time streaming + pre-recorded multi-speaker diarization + smart transcription + 1,000-term custom vocabulary across 85+ languages
 - [[gemini-3-6-flash]] — Google's Jul 2026 workhorse Gemini Flash successor to 3.5 Flash; 17% fewer output tokens; efficiency-tuned for high-volume agentic and coding workloads; rolls into GitHub Copilot
 - [[gemini-3-7-flash]] — Google's Aug 2026 GA workhorse Flash-tier for coding + agents; 16-point DeepSWE jump + near-doubling AutomationBench; 1M context + tunable thinking; $0.75/$3.75 introductory pricing through Dec 31 2026 (doubles Jan 1 2027); third Flash release in three weeks
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence *(stale)*
@@ -262,6 +263,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[glm-5]] — Zhipu AI's Feb 2026 open-source 754B MIT-licensed flagship; sparse attention + async RL *(stale)*
 - [[glm-5-2]] — Zhipu AI's June 2026 minor-version successor to GLM-5; "the top Frontend Coding model in the world" per AINews + IndexShare for Speculative Decoding; released opportunistically into the Fable ban window (Jun 2026)
 - [[glm-5-3]] — Zhipu AI's Aug 2026 open-weight GLM successor to GLM-5.2; ~750B parameters (~⅓ of Kimi K3); beats K3 + Claude Fable 5 + GPT-5.6 Sol on many benchmarks per Interconnects (Nathan Lambert); staged safety-partner review; HF open weights ~2 weeks
+- [[glm-5-3-flash]] — Zhipu AI's Aug 26 2026 natively multimodal MoE flagship-tier open-weights model (320B total / 18B active); 1M context; MIT license day-0; ~$0.15/$0.50 per M tokens; identified as the anonymous [[ox-alpha]] after ~6 days of OpenRouter stealth-testing
 - [[glm-5-5]] — Zhipu AI's upcoming open-weight successor to GLM-5.2; targeted for August 2026 release; Hugging Face expected to host weights; extends monthly Chinese-frontier-lab release cadence (Jul 2026)
 - [[glm-ocr]] — Zhipu AI's open-source SOTA OCR model; #1 OmniDocBench, handwriting/tables/code layouts *(stale)*
 - [[gpt-5-1]] — OpenAI's mid-Nov 2025 ChatGPT upgrade; Instant/Thinking modes, 8 personalities *(stale)*
