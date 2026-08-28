@@ -68,6 +68,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[lovable]] — Swedish vibe-coding startup; $330M @ $6.6B Dec 2025 *(stale)*
 - [[luma]] — AI video startup; Ray3 Modify video-model update *(stale)*
 - [[manus]] — Singapore-HQ Chinese-roots agent startup; China formally blocks Meta's $2B acquisition Jul 2026 (~3 months after co-founder Chinese-review)
+- [[mechanize]] — AI coding startup building virtual environments + benchmarks + training data for AI agents; reportedly in advanced $1.5B acquisition talks with Google (Aug 2026)
 - [[mercor]] — talent-marketplace AI; $350M raise at $10B valuation *(stale)*
 - [[merge-labs]] — Sam Altman BCI startup; $250M raise at $850M valuation Jan 2026 *(stale)*
 - [[meta]] — Muse Spark + open-weights pivot; $21B CoreWeave; SAM 3/3D; WorldGen
@@ -82,6 +83,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[netflix]] — streaming platform; acquires [[interpositive]] for $587M+ (Jul 2026) for internal AI post-production tooling
 - [[notion]] — workspace app; Custom Agents autonomous AI teammates Feb 2026 *(stale)*
 - [[nous-research]] — open-source AI research collective; Hermes Agent self-improving AI agent Feb 2026
+- [[nscale]] — UK-based AI infrastructure/cloud-compute provider; $45B / ~6-year / ~460MW West Virginia deal with Anthropic (Aug 2026)
 - [[nvidia]] — AI GPUs; Cosmos physical AI; Ising quantum; Vera Rubin; $57B record quarter; Alpamayo-R1
 - [[ollama]] — local-model runtime; launches Pi coding agent behind OpenClaw with Pro/Max cloud tiers Mar 2026
 - [[openai]] — ChatGPT/Sora; Atlas browser; Aardvark; "Code Red" vs Gemini 3; first device w/ Jony Ive
@@ -197,6 +199,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-sonnet-4-6]] — Anthropic's Feb 2026 mid-tier; Opus-class perf at 40% lower cost; 79.6% SWE-Bench *(stale)*
 - [[claude-sonnet-5]] — Anthropic's Jul 2026 mid-tier ("most agentic Sonnet yet"); 1M context, $3/M input + $15/M output (promo $2/$10), default for Free/Pro; adopted by Cursor + Cognition + Cline + FactoryAI + Perplexity + VS Code
 - [[claude-tag]] — Anthropic's multiplayer proactive persistent AI agent inside Slack as a shared team member; beta for Enterprise/Team customers (Jun 2026)
+- [[claudeforce]] — Salesforce + Anthropic joint-branded Claude chatbot plugin with 37 pre-built sales skills; ships alongside Claude-as-default-in-Slack rollout (Aug 2026)
 - [[cloudflare-computer]] — Cloudflare's virtual file system inside a Durable Object with pluggable execution surface; edge-tier agent-execution substrate (Aug 2026)
 - [[codex-app]] — OpenAI's native macOS app for Codex; parallel agents, Skills library, Automations *(stale)*
 - [[codex-micro]] — OpenAI's keyboard-form developer gadget for Codex agents debuted at AI Engineer World Fair (Jun 2026)

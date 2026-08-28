@@ -8,9 +8,10 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2025-10-10
-> **Last updated**: 2026-05-28
-> **Status**: stale
-> **Related**: [[ai-hardware]], [[ai-regulation]]
+> **Last updated**: 2026-08-28-morning (**Figure launches **robot training dataset with 16M real-world videos from 108 countries** — first-in-wiki *concrete-16M-video + 108-country robot-training-data canonical anchor* on the mid-2026 humanoid-training-substrate cycle**. AlphaSignal HIGH: *"Figure has launched a robot training dataset with 16M real-world videos from 108 countries, which is a significant development in the field of robotics and AI"*. First publicly framed on this cycle: (a) **16M real-world videos concrete-count canonical anchor** — first-in-wiki *concrete-video-count-tier canonical anchor* on Figure's robot-training-data substrate; sharpens the multi-cycle humanoid-training-data arc ([[unitree]] production line + [[skild-ai]] cross-embodiment + [[isaac-groot]] reference-design + China 53 national training centers) with a *concrete-16M-video Western-tier substrate anchor*; (b) **108-country geographic-diversity anchor** — first-in-wiki *cross-cultural + cross-geographic Western-tier robot-training-data anchor*; sharpens the humanoid-training-data arc from *lab-collected + factory-collected substrates* into a *globally-sourced-real-world-video substrate* — structurally analogous to internet-scale-language-model training-data cross-culturality thesis; (c) **Same-cycle AlphaSignal MEDIUM anchors — "new training trick that boosts robot success rate from 25% to 80% with no extra human data"** — first-in-wiki *concrete-25→80%-robot-success-rate-with-no-extra-human-data training-trick canonical anchor* (paired with Figure's dataset as *humanoid-training-substrate saturation cycle*); Page rescued from >3-month stale status. See [[humanoid-robotics]] + [[skild-ai]] + [[isaac-groot]] + [[world-action-models]] — *source: data/summaries/2026-08-28-morning.json (AlphaSignal HIGH "🤖 Z.ai 320B MoE beats Claude coding at $0.50/1M tokens")*)
+> **Previously updated**: 2026-05-28
+> **Status**: active (reactivated 2026-08-28-morning on 16M-video / 108-country robot-training-dataset canonical anchor)
+> **Related**: [[ai-hardware]], [[ai-regulation]], [[humanoid-robotics]], [[skild-ai]], [[isaac-groot]], [[world-action-models]]
 
 ## Summary
 
