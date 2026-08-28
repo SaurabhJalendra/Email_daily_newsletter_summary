@@ -8,8 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-05-13
-> **Last updated**: 2026-06-08 (evening edition — Vaibhav Sisinty three-test review: Likeness 6/10, Multi-turn Ceiling 7/10, Physics 5/10; positioned as edit-loop workflow upgrade *not* a [[veo-3]] replacement)
-> **Status**: stale
+> **Last updated**: 2026-08-28-evening (**Gemini Omni 1.1 Flash officially launches with 40s scene extension + first/last frame control + 3-second video references + 360p draft mode + 4K upscaling + #1 on Arena's text-to-image leaderboard** — AINews HIGH: *"Google released Gemini Omni 1.1 Flash, a multimodal video generation/editing model with several developer-facing controls, including scene extension to 40s, first/last frame control, 3-second video references, 360p draft mode, and 4K upscaling"*. The Rundown AI MEDIUM: *"Google released Gemini Omni 1.1 Flash, an upgraded video model that adds 40-sec scene extensions and 4K upscaling, moving to the top spot on Arena's text-to-image leaderboard"*. Daily-digest Top Story #5. First-in-wiki *#1-on-Arena-text-to-image canonical leaderboard-tier anchor + 40s-scene-extension + first/last-frame-control + 3-second-video-references + 360p-draft-mode + 4K-upscaling five-primitive canonical anchor* — page rescued from stale status; extends the multi-cycle Gemini-Omni arc from *10-second-clip-tier* (May 2026) into *40-second-scene-extension + 4K-upscaling substrate tier* (~4× duration + resolution-tier upgrade); positions Gemini Omni against [[wan-3-0]] Alibaba + [[muse-video]] Meta + [[minimax-h3]] MiniMax + Sora 2 competitive-cohort as *canonical mid-2026 video-generation-tier leaderboard-topper*. See [[google]] + [[wan-3-0]] + [[muse-video]] + [[minimax-h3]] + [[ai-video-generation]] — *source: data/summaries/2026-08-28-evening.json (AINews HIGH; The Rundown AI MEDIUM "🦾 Every machine is about to speak Claude"; daily-digest Top Story #5)*)
+> **Previously updated**: 2026-06-08 (evening edition — Vaibhav Sisinty three-test review: Likeness 6/10, Multi-turn Ceiling 7/10, Physics 5/10; positioned as edit-loop workflow upgrade *not* a [[veo-3]] replacement)
+> **Status**: active
 > **Related**: [[google]], [[gemini]], [[gemini-3-5-flash]], [[veo-3]], [[nano-banana-pro]], [[project-genie]], [[ai-video-generation]], [[world-models]]
 
 ## Summary

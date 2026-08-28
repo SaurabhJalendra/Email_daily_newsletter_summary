@@ -59,6 +59,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ibm]] — enterprise-software incumbent; watsonx + Granite; launches [[ibm-bob]] AI coding partner for enterprise SDLC (Jul 2026)
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*
 - [[inherent]] — DeepMind-alumni-founded AI research-automation startup; ships [[faraday-27b]] that outperforms Anthropic + OpenAI frontier models at replicating scientific research papers (Aug 2026)
+- [[instinct]] — Viral AI startup; $350M @ $2.5B valuation (Aug 2026); consumer-tier positioning per cross-newsletter recoverage
 - [[interpositive]] — Ben Affleck's 16-person AI-post-production startup (project-specific dailies-trained tools); acquired by [[netflix]] for $587M+ (Jul 2026)
 - [[jetbrains]] — Czech developer-tools company (IDEs, TeamCity CI, AI Assistant, Junie, Mellum2); Aug 2026 unauthenticated RCE in TeamCity On-Premises actively exploited
 - [[jpmorgan-chase]] — investment bank; LLM Suite aggregates OpenAI + Anthropic; "fully AI-powered megabank" commitment; $18B/yr tech (Jun 2026)
@@ -346,6 +347,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[meta-compute]] — Meta's forthcoming cloud infrastructure business selling AI compute + hosted models from $183B surplus data-center capacity; challenges AWS/Azure/GCP (Jul 2026)
 - [[microsoft-frontier-company]] — Microsoft's AI-deployment unit; $2.5B budget, 6,000 engineers, embeds AI engineers inside customer teams with explicit "no train on client data or IP" commitment (Jul 2026)
 - [[microsoft-scout]] — Microsoft's always-on Scout agent tab inside the Microsoft Super App framing; Build 2026 (Jun 2026)
+- [[microduck]] — Hugging Face + Pollen Robotics's $399 open-source retrainable bipedal duck-style robot; 25cm tall, 15 actuators, 50Hz onboard policy loop, 7 pre-trained moves, retrainable in simulation and publishable behaviors (Aug 2026)
 - [[midjourney-scan]] — Midjourney's first hardware: full-body ultrasonic CT scanner; "first new whole-body medical imaging modality in 50 years" per Holz; Midjourney Spa SF deployment (Jun 2026)
 - [[mimo-code]] — Xiaomi's coding-specialized model; three-cycle cross-newsletter convergence (TLDR AI → Hello World "Claude vs Mimo" → NLP Newsletter AI Agents Weekly digest, Jun 2026)
 - [[minimax-h3]] — MiniMax's Jul 2026 next-generation multimodal video model — native 30-second + consistent three-minute videos + interactive frame editing + up to 50 multimodal references
@@ -501,6 +503,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[loop-engineering]] — named developer discipline of designing autonomous agent loops (triggers + actions + verification gates) for self-check + self-correct execution cycles; sibling to prompt-engineering / context-engineering / harness-design; "autonomous software assembly lines" per AlphaSignal (Jul 2026)
 - [[midtraining]] — intermediate LLM training stage between pretraining and post-training; includes Continued Pretraining (CPT) and mid-training data-mixture adaptation; canonicalized by Cameron R. Wolfe (Aug 2026)
 - [[model-context-protocol]] — Anthropic-originated open protocol for connecting tools/data to LLMs; donated to Agentic AI Foundation *(stale)*
+- [[model-hardware-standard]] — Anthropic's Aug 2026 open research-preview specification enabling AI agents to interface with and control arbitrary real-world hardware via natural-language reference files; Tecan + QIAGEN + AWS launch partners; second cross-vendor Anthropic interoperability primitive after MCP
 - [[model-routers]] — the "missing middleware" for scaling AI apps — heuristic + learned + cascade + ensemble/fusion architectures; OpenRouter Fusion Router + Not Diamond + NadirClaw + ACRouter reference implementations (Jul 2026, AlphaSignal essay)
 - [[omar-yaghi]] — Nobel-laureate chemist (reticular chemistry / MOFs); departs UC Berkeley to lead Tsinghua University's new AI for Chemistry and Materials Science Research Center in Beijing (announced Jul 4 2026)
 - [[ontologies-for-agents]] — Semantic-Web ontology revival as deterministic guardrails for probabilistic agents; Neo4j "smarter shared substrate" + OpenLink Software "agent engineering stack"; Frank Coyle + Emil Eifrem + Kingsley Idehen (Jul 2026)
