@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[perplexity]] (co-launched with [[nvidia]])
 > **First mentioned**: 2026-08-27-morning
-> **Last updated**: 2026-08-27-morning
+> **Last updated**: 2026-08-29-morning (**Cycle-N+2 morning cross-cohort recoverage sustains Portable Computer through 3-day post-launch window** — TLDR Hardware MEDIUM canonical framing: *"Perplexity has partnered with Nvidia to launch Portable Computer, an agentic Computer platform designed to execute advanced AI agent workflows entirely on-device without continuous cloud API dependency or recurring token costs, powered by Nvidia's compact edge silicon architecture"* + daily-digest Top Story (Tools & Products). First-in-wiki *"Nvidia's compact edge silicon architecture"* explicit-hardware-substrate framing (sharpens prior "DGX Spark" hardware substrate anchor with *edge-silicon-tier* categorization) + *"advanced AI agent workflows entirely on-device"* canonical framing + *"without continuous cloud API dependency or recurring token costs"* explicit-cost-elimination anchor — validates Portable Computer as *durable canonical mid-2026 on-device-agent-substrate* through three-day post-launch cross-cohort recoverage. See [[perplexity]] + [[nvidia]] — *source: data/summaries/2026-08-29-morning.json (TLDR Hardware MEDIUM "Anthropic previews hardware control 🔨, Perplexity's portable computer 🖥️, NVMe 2.4 spec 🧠"; daily-digest Tools & Products)*)
+> **Previously updated**: 2026-08-27-morning
 > **Status**: launched (Linux); Windows support September 2026
 > **Related**: [[perplexity]], [[perplexity-computer]], [[perplexity-personal-computer]], [[perplexity-comet]], [[nvidia]], [[computer-use]], [[apple]]
 

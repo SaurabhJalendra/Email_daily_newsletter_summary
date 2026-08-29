@@ -209,6 +209,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cs-4]] — Cerebras's fourth-gen wafer-scale AI system; 3 wafer-scale chips per rack + 750 PFLOPS + 129.6 PB/s bandwidth + ~10× efficiency vs CS-3 + up to 30× faster inference than GPUs (Aug 2026)
 - [[chroma-foundation]] — Chroma's Aug 2026 shared-memory system for AI agents; ChromaDB + Context-1 20B GPT-OSS backing; integrates with Codex + Claude Code + Cursor + Slack; ~400 tok/s, ~25× cheaper than Opus for agentic search; self-improving system prompt
 - [[cohere-command-a-plus]] — Cohere's first open-weights frontier model; 218B Apache 2.0 (May 2026) *(stale)*
+- [[cohere-parse]] — Cohere's Aug 2026 enterprise document-intelligence tool converting complex files to structured machine-readable data; $1.50 per 1,000 pages via Cohere API
 - [[cursor]] — AI IDE; 1.7, Plan Mode, 2.0 with Composer and multi-agent UI; $3B ARR + SpaceX $60B option
 - [[databricks]] — data-lakehouse + AI platform; $188B Series M funding (Jul 2026); third-party benchmark authority for coding agents
 - [[cursor-composer]] — Cursor's first in-house coding model; ~4× faster, sub-30-second tasks *(stale)*
@@ -268,6 +269,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[glm-5-2]] — Zhipu AI's June 2026 minor-version successor to GLM-5; "the top Frontend Coding model in the world" per AINews + IndexShare for Speculative Decoding; released opportunistically into the Fable ban window (Jun 2026)
 - [[glm-5-3]] — Zhipu AI's Aug 2026 open-weight GLM successor to GLM-5.2; ~750B parameters (~⅓ of Kimi K3); beats K3 + Claude Fable 5 + GPT-5.6 Sol on many benchmarks per Interconnects (Nathan Lambert); staged safety-partner review; HF open weights ~2 weeks
 - [[glm-5-3-flash]] — Zhipu AI's Aug 26 2026 natively multimodal MoE flagship-tier open-weights model (320B total / 18B active); 1M context; MIT license day-0; ~$0.15/$0.50 per M tokens; identified as the anonymous [[ox-alpha]] after ~6 days of OpenRouter stealth-testing
+- [[glucofm]] — Google's Aug 2026 lightweight foundation model for glucose-pattern prediction and diabetes risk; trained on 109,066 hours of real glucose data from 477 people; outperforms existing glucose AI models by 4.1 points
 - [[glm-5-5]] — Zhipu AI's upcoming open-weight successor to GLM-5.2; targeted for August 2026 release; Hugging Face expected to host weights; extends monthly Chinese-frontier-lab release cadence (Jul 2026)
 - [[glm-ocr]] — Zhipu AI's open-source SOTA OCR model; #1 OmniDocBench, handwriting/tables/code layouts *(stale)*
 - [[gpt-5-1]] — OpenAI's mid-Nov 2025 ChatGPT upgrade; Instant/Thinking modes, 8 personalities *(stale)*
@@ -329,6 +331,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kumorfm]] — Nvidia's tabular foundation model; models relational data as graphs of interconnected tables for zero-shot predictions across complex enterprise schemas (Jul 2026)
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
 - [[laguna-s]] — Poolside AI's open-weights foundation-model family; Laguna S 2.1 = 118B MoE / 8B active params / 1M context, cheaper than Deepseek v4 Flash; candidate for "strongest American open-weight model" (Jul 2026)
+- [[laion-10m-hour-video]] — LAION's Aug 2026 open 10-million-hour video dataset for multimodal training; canonical mid-2026 largest-open-video-training-substrate
 - [[lamem-vla]] — dual-latent-memory-vault vision-language-action model; SOTA on long-horizon manipulation (97.6% LIBERO / 73.9% SimplerEnv-Bridge, +16.6pt over CogACT) (Jul 2026)
 - [[leanstral]] — Mistral's Jul 2026 open-source 119B-parameter theorem-proving + code-verification agent; 587/672 Putnam problems at "significantly lower cost"; verify proofs + test logic + catch errors before software ships (Jul 2026)
 - [[ling-3-0-flash]] — Ant Group's efficient AI-agent-powering model that "rivals systems 2-3× its size"; workload-optimized "Flash" SKU in the version-3 Ling line (Jul 2026)
