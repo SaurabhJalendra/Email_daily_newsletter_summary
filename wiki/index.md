@@ -311,6 +311,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[harnessx]] — Xiaomi Darwin Agent Team's "agent foundry" framework; nine-component behavior pipeline with self-contained lego-swappable processors (Jul 2026)
 - [[honeycomb]] — Anthropic's unreleased research model briefly visible in Cursor as "Claude Honeycomb EAP"; 1M context, "extra high effort" reasoning tier, safety fallback to Opus 4.8; widely speculated Claude Opus 5 preview (Jul 2026)
 - [[hy3]] — Tencent Hunyuan's 295B / 21B-active open-source MoE model; Apache 2.0; competitive with larger systems on reasoning, coding, and agentic tasks (Jul 2026)
+- [[hy4-preview]] — Tencent Hunyuan's 770B-parameter open-source AI model (~49B active per token via sparse/modular activation); released Aug 28 2026 as preview, positioned as high-capacity alternative to Western frontier models
 - [[inkling]] — Thinking Machines Lab's first foundation model — 975B-A41B multimodal open-weight LLM (Apache 2.0) with 276B-A12B "Inkling-Small" sibling; 1M context; text/image/audio inputs; day-0 vLLM + NVIDIA GB300 NVL72 + Tinker support; hailed as "best American open model" (Jul 2026)
 - [[ibm-bob]] — IBM's AI coding partner for enterprise teams coordinating planning + coding + testing + validation across the SDLC (Jul 2026)
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference *(stale)*
