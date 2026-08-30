@@ -3,6 +3,7 @@
 This is the catalog of all wiki pages. Updated automatically by the LLM during ingest and lint operations.
 
 ## Companies
+- [[1x-technologies]] — Norwegian humanoid-robotics vendor; Aug 2026 SoftBank in talks to buy majority stake at $6B valuation
 - [[adobe]] — creative-software giant; Firefly AI Assistant across 6 apps
 - [[ai2]] — Allen Institute for AI nonprofit; PreScience open scientific-forecasting benchmark + LACERScore Feb 2026 *(stale)*
 - [[ai-automation-society]] — Nate Herk's Skool-hosted AI-automation community (100K+ own-reported / ~305K–420K third-party members, 2K+ paying Plus); n8n + Claude Code education; first hackathon launched Aug 1 2026 with $6K prizes + beginner track (Aug 2026)
@@ -151,6 +152,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[anthropic-fellows]] — Anthropic's AI-safety research fellowship; 4mo / $3,850/wk / ~$15K/mo compute / 40% hire + 80% papers (Jun 2026)
 - [[apple-m5]] — Apple's M-series (M5, M5 Ultra, M6) on-device AI silicon
 - [[audex]] — NVIDIA's 30B / 3B active MoE unified text + audio model — preserves text intelligence while adding broad audio generation and understanding (Jul 2026)
+- [[beni-robot]] — Aug 2026 consumer follow-and-film robot; tracks users at 17.9 mph, navigates obstacles, cuts footage into a reel, all on-device (no cloud)
 - [[bonsai-27b]] — PrismML's 27B on-device model; 3.9 GB footprint via 1-bit binary + ternary quantization; retains ~89.5% of FP16 base; first 27B-class model that fits on a phone (Jul 2026)
 - [[aws-blocks]] — Amazon's open-source framework for building modular, reusable cloud apps from composable software components (Jun 2026)
 - [[brain2qwerty-v2]] — Meta FAIR's non-invasive brain-to-text system that decodes typed sentences from MEG brain signals; ~61% word accuracy / 78% best-participant (Jun 2026)
