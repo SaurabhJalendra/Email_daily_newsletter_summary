@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-06-30-evening
 > **Last updated**: 2026-06-30-evening (created; AI Supremacy "Neo Labs" surfaces Trajectory as a single-thesis continual-learning Neo Lab — first publicly framed *continual-learning-from-user-interactions productized platform thesis* in this wiki)
-> **Status**: active (early-stage)
+> **Status**: stale (early-stage)
 > **Related**: [[neo-labs]], [[fine-tuning]], [[ai-memory]], [[recursive-self-improvement]]
 
 ## Summary

@@ -31,7 +31,7 @@ type: company
 > **Earlier**: 2026-06-24-evening (researchFindings.missingStories — Alibaba Announces New Qwen3 Model Family as It Ramps Global AI Push)
 > **Earlier**: 2026-06-21-morning (Superhuman + NLP Newsletter cross-cohort — Alibaba open-sources [[qwen-robot-suite]] trio of robotics AI models deployable across humanoids + robotic arms + quadruped robots)
 > **Status**: active
-> **Related**: [[qwen-3-vl]], [[qwen-image]], [[qwen-image-2]], [[qwen-3-5]], [[qwen3-coder-next]], [[qwen-robot-suite]], [[qwen-agentworld]], [[anthropic]], [[openai]], [[meta]], [[deepseek]], [[ai-hardware]], [[humanoid-robotics]]
+> **Related**: [[qwen-3-vl]], [[qwen-image]], [[qwen-image-2]], [[qwen-3-5]], [[qwen3-coder-next]], [[qwen-robot-suite]], [[qwen-agentworld]], [[anthropic]], [[openai]], [[meta]], [[deepseek]], [[ai-hardware]], [[humanoid-robotics]], [[thomson-reuters]], [[wan-3-0]]
 
 ## Summary
 

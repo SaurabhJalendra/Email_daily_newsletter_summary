@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[google]]
 > **First mentioned**: 2026-06-22-evening
 > **Last updated**: 2026-06-22-evening (The AI Field "GPT-5.6 is already inside ChatGPT Pro" lead Top Story #3: ***"Google introduced AI Studio, a free playground for testing and comparing AI models"*** — first publicly framed cross-newsletter coverage of AI Studio as a *free model-comparison playground* in this wiki, positioned as a developer-onboarding surface for Gemini 3.5 Flash and the broader Gemini API stack)
-> **Status**: launched (free with Google login)
+> **Status**: stale
 > **Related**: [[google]], [[gemini]], [[gemini-3-5-flash]], [[gemini-3-1-pro]], [[gemini-3-1-flash-lite]], [[gemini-3-1-flash-live]], [[gemma-4]], [[chatgpt-pro-tier]]
 
 ## Summary

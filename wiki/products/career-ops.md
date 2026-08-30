@@ -10,7 +10,7 @@ type: product
 > **Vendor**: Santiago Fernández de Valderrama (independent / open-source)
 > **First mentioned**: 2026-06-30-morning
 > **Last updated**: 2026-06-30-morning
-> **Status**: open-source release on GitHub; ~50,000+ stars at launch per author claim
+> **Status**: stale
 > **Related**: [[claude-code]], [[ollama]], [[agent-frameworks]], [[ai-jobs-displacement]], [[vibe-coding]]
 
 ## Summary

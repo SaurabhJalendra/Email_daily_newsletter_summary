@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-06-30-evening
 > **Last updated**: 2026-06-30-evening (created; AI Supremacy "Neo Labs" surfaces Engram as a single-thesis "persistent learned memory layer" Neo Lab)
-> **Status**: active (early-stage, pre-product details)
+> **Status**: stale (early-stage, pre-product details)
 > **Related**: [[neo-labs]], [[ai-memory]], [[agentmemory]], [[perplexity-brain]], [[chatgpt-tasks]]
 
 ## Summary

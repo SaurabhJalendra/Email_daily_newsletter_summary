@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2025-11-22
 > **Last updated**: 2026-06-28-morning (**Mindstream cycle "Nano Banana is underrated" — framing as one of the strongest competitors in the AI image generation market 7 months after launch; full editing-capability tour (enhance colors, change styles, remove backgrounds, fix imperfections, upscale resolution); preserves unique characters/objects across multiple scenes for series/storyboards/campaigns; pairs in same cycle with [[veo-3]] image-to-video step and Notis voice-to-notes as part of Mindstream's "content creation workflow stack" framing — productizes Nano Banana Pro as Gemini-ecosystem default image surface for content creators**)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[google]], [[gemini-3]], [[gemini]], [[ai-video-generation]], [[veo-3]], [[adobe]], [[canva]]
 
 ## Summary

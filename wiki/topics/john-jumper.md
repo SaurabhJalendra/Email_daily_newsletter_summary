@@ -10,7 +10,7 @@ type: topic
 > **First mentioned**: 2026-06-21-morning
 > **Last updated**: 2026-06-23-morning (**Superhuman + TLDR AI + Interconnects + AI Breakfast fourth-cohort cross-newsletter confirmation; TLDR AI lands the "DeepMind exodus" canonical cycle-headline framing + first publicly framed *"struggles at DeepMind in selling coding tools to businesses"* causal attribution for Jumper's departure** — sharpens the prior cycles' talent-retention / compensation-parity framings into a *commercial-product-failure indicator* on Google's coding-tools enterprise distribution; Superhuman frames Jumper as "Another high-profile exit from DeepMind" implying additional unnamed exits expected to follow)
 > **Previously updated**: 2026-06-22-evening (**The Rundown AI + Evolving AI Insights + researchFindings third-cohort confirmation** — The Rundown AI cycle headline ***"✌️ Google's Nobel winner jumps to Anthropic"*** with first publicly framed *recharge-before-joining* detail: ***"Jumper, the lead developer of AlphaFold, will be taking some time to recharge before joining Anthropic"*** — Jumper does not immediately start at Anthropic; researchFindings.additionalContext consolidates the timeline: *announced in mid-June 2026 after nearly nine years at Google DeepMind*; underscores escalating AI talent war + Anthropic's intent to deepen AI-for-science capabilities)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[google]], [[openai]], [[ai-healthcare]]
 
 ## Summary

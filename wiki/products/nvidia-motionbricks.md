@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-06-20-evening
 > **Last updated**: 2026-06-20-evening
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nvidia]], [[nvidia-cosmos]], [[ai-video-generation]]
 
 ## Summary

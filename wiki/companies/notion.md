@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2026-02-26
 > **Last updated**: 2026-06-27-evening (**Hello, World! ***"Notion has integrated with Claude, allowing users to build and run Claude-powered AI agents directly inside their workspace without needing a separate Anthropic account"*** — first publicly framed *Anthropic-Notion native Claude integration* in this wiki + first publicly framed *no-separate-Anthropic-account* commercial-bundle posture; productizes Notion's prior Custom Agents framework into a *Claude-native agent workspace* and structurally pairs Notion with [[claude-code]] / [[claude-cowork]] as enterprise-AI deployment surfaces**)
 > **Previously updated**: 2026-03-06 (backfill 2026-02-20..2026-03-06)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[anthropic]], [[claude-code]], [[claude-cowork]], [[agent-frameworks]], [[enterprise-ai]]
 
 ## Summary

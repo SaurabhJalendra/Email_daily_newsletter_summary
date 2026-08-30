@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-10-10
 > **Last updated**: 2026-06-23-evening (**AINews HIGH-priority cycle-headline lands first publicly framed Reflection deal payment terms: $150M/month from July 1, 2026 through 2029 + immediate access to GB300s + Andrew Curran CNBC-sourced framing + Rundown AI: building open frontier systems for government and enterprise + Evolving AI Insights: "SpaceX's first open-source customer"** — sharpens the morning-cycle $6.3B headline into concrete monthly run-rate, contract duration, operational start date (July 1, 2026), and target customer verticals; positions Reflection as the open-source-tier flagship-customer category-opener for SpaceX's Neocloud business)
 > **Previously updated**: 2026-06-23-morning (Uncovering AI HIGH-priority cycle headline reactivates Reflection from stale via the SpaceX $6.3B compute deal at Colossus 2 with Nvidia GB300 chips)
-> **Status**: active (reactivated 2026-06-23-morning after >3-month stale window via the SpaceX $6.3B Colossus 2 deal)
+> **Status**: stale (reactivated 2026-06-23-morning after >3-month stale window via the SpaceX $6.3B Colossus 2 deal)
 > **Related**: [[spacex]], [[nvidia]], [[google]], [[anthropic]], [[openai]], [[ai-funding-rounds]], [[ai-hardware]]
 
 ## Summary

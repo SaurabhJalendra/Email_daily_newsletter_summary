@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[google]]
 > **First mentioned**: 2026-06-06
 > **Last updated**: 2026-06-24-evening (**researchFindings.missingStories canonical re-anchor framing — "new baseline for 'good enough' local intelligence in mobile, embedded, and privacy-preserving scenarios" + "sets expectations for what sub-billion-parameter models can achieve"** — first publicly framed positioning-tier canonical framing on the sub-billion-parameter on-device-AI category in this wiki; cycle-pairs with [[xai]] Grok-4 free-access + [[openai]] GPT-4o restoration + Mistral Medium 3.1 + Alibaba Qwen3 as the post-Fable/Mythos-suspension multi-frontier-lab competitive-rebalancing wave)
-> **Status**: released (open-source)
+> **Status**: stale
 > **Related**: [[google]], [[gemma-4]], [[function-gemma]], [[medgemma]], [[translategemma]], [[ai-hardware]]
 
 ## Summary

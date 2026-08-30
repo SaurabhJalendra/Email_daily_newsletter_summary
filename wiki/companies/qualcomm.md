@@ -10,7 +10,7 @@ type: company
 > **First mentioned**: 2025-10-08
 > **Last updated**: 2026-06-25-evening (**TLDR: Qualcomm lands [[meta]] as first named customer for **Dragonfly** data-center chips — **Dragonfly C1000** expected available in 2028 as a general-purpose server processor; first publicly framed *Meta-as-Qualcomm-data-center-customer* in this wiki + first publicly framed *Dragonfly C1000* naming + general-purpose server-processor positioning (vs the prior AI200 / AI250 inference-only framing); structurally productizes Qualcomm's data-center-AI ambitions into a *first marquee customer* commercial event**)
 > **Previously updated**: 2026-06-21-morning (Uncovering AI "🧠 Anthropic just added a Nobel winner — from Google" — Qualcomm's CEO declared the app era over, announcing that agents will replace apps across 40+ new device designs)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[nvidia]], [[amd]], [[apple]], [[gemini]], [[snap-specs]], [[ai-hardware]], [[ai-browsers]]
 
 ## Summary

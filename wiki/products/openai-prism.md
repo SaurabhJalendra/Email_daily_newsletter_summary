@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[openai]]
 > **First mentioned**: 2026-06-25-morning
 > **Last updated**: 2026-06-25-morning
-> **Status**: launched (free tier)
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[gpt-5-2]], [[chatgpt-company-knowledge]], [[claude-cowork]]
 
 ## Summary

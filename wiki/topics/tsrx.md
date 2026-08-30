@@ -9,7 +9,7 @@ type: topic
 > **Type**: topic
 > **First mentioned**: 2026-06-20-evening
 > **Last updated**: 2026-06-20-evening
-> **Status**: active
+> **Status**: stale
 > **Related**: [[agent-frameworks]], [[ai-cybersecurity-arms-race]]
 
 ## Summary

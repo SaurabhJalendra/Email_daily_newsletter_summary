@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-06-27-evening
 > **Last updated**: 2026-06-27-evening
-> **Status**: launched (open-source per Hello, World!)
+> **Status**: stale
 > **Related**: [[claude-code]], [[cursor]], [[agent-frameworks]], [[vibe-coding]]
 
 ## Summary

@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[openai]]
 > **First mentioned**: 2026-06-17-evening
 > **Last updated**: 2026-06-17-evening (AI Breakfast "OpenAI readies bidirectional voice upgrade with new 'GPT-Bidi' architecture" — first publicly framed surface in this wiki; subject-line-only data — pipeline summaries unavailable across all 4 newsletters due to thirteenth-consecutive-cycle OpenRouter 403 key-limit-exceeded blocker)
-> **Status**: pre-launch (AI Breakfast "readies" framing — architecture named, product not yet shipped)
+> **Status**: stale
 > **Related**: [[openai]], [[chatgpt]], [[gpt-5-5]], [[gemini-3-1-flash-live]], [[tml-interaction-small]], [[gemini-omni]]
 
 ## Summary

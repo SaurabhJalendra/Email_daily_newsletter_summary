@@ -10,7 +10,7 @@ type: topic
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-08-05-morning ([[minimax-h3]] cycle-2 *"first open model to top an AI video ranking"* (VE #1 / T2V #2 / I2V #3) + [[grok-imagine]] cycle-N returns to frontier with text-to-video + reference-clip face+voice-locking + native 1080p — cross-vendor AI-video-generation cycle-simultaneity)
 > **Status**: active
-> **Related**: [[sora-2]], [[veo-3]], [[seedance-2]], [[minimax-h3]], [[longcat-avatar]], [[marble]], [[world-models]], [[openai]], [[google]], [[bytedance]], [[world-labs]], [[minimax]], [[ai-regulation]], [[ai-copyright]], [[luma]], [[ltx-2]], [[runway]], [[runway-gen-4-5]], [[kling-ai]], [[grok-imagine]], [[xai]]
+> **Related**: [[sora-2]], [[veo-3]], [[seedance-2]], [[minimax-h3]], [[longcat-avatar]], [[marble]], [[world-models]], [[openai]], [[google]], [[bytedance]], [[world-labs]], [[minimax]], [[ai-regulation]], [[ai-copyright]], [[luma]], [[ltx-2]], [[runway]], [[runway-gen-4-5]], [[kling-ai]], [[grok-imagine]], [[xai]], [[wan-3-0]], [[laion-10m-hour-video]]
 
 ## Summary
 

@@ -10,7 +10,7 @@ metadata:
 > **Type**: product
 > **First mentioned**: 2026-06-18-evening
 > **Last updated**: 2026-06-18-evening (launch via World of AI; replaces Pulse, which sunsets within 14 days)
-> **Status**: launched (rollout in progress; replaces and sunsets Pulse within 14 days)
+> **Status**: stale
 > **Related**: [[chatgpt]], [[openai]], [[agent-frameworks]], [[claude-code]]
 
 ## Summary

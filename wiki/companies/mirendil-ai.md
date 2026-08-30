@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-06-25-evening
 > **Last updated**: 2026-06-25-evening
-> **Status**: stealth / newly launched
+> **Status**: stale
 > **Related**: [[anthropic]], [[openai]], [[google]], [[xai]], [[ineffable-intelligence]], [[recursive-superintelligence]], [[reflection]], [[recursive-self-improvement]], [[ai-funding-rounds]]
 
 ## Summary

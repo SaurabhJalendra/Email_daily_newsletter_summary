@@ -10,7 +10,7 @@ type: topic
 > **First mentioned**: 2026-08-24-morning
 > **Last updated**: 2026-08-24-morning
 > **Status**: active
-> **Related**: [[parlance-labs]], [[evals-skills]], [[agent-skills]], [[claude-code]]
+> **Related**: [[parlance-labs]], [[evals-skills]], [[agent-skills]], [[claude-code]], [[andrew-ng]], [[claude-academy]]
 
 ## Summary
 

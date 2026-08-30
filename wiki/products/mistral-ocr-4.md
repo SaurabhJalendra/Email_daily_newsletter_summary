@@ -11,7 +11,7 @@ type: product
 > **First mentioned**: 2026-06-25-morning
 > **Last updated**: 2026-06-26-morning (**AlphaSignal HIGH cycle-2 — first publicly framed concrete *72% win rate across 600+ real-world documents* benchmark + first publicly framed *returns a full map of the document* output-format framing**)
 > **Previously updated**: 2026-06-25-morning
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[mistral]], [[mistral-ocr-3]], [[deepseek-ocr]], [[glm-ocr]], [[mistral-studio]], [[chandra-ocr-2]]
 
 ## Summary

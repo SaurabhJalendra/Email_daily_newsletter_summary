@@ -10,7 +10,7 @@ type: topic
 > **First mentioned**: 2025-10-01
 > **Last updated**: 2026-01-02 (backfill 2025-12-20..2026-01-04)
 > **Status**: stale
-> **Related**: [[opera-neon]], [[perplexity-comet]], [[chatgpt-atlas]], [[perplexity]], [[openai]], [[google]], [[gemini-3]], [[computer-use]], [[prompt-injection]]
+> **Related**: [[opera-neon]], [[perplexity-comet]], [[chatgpt-atlas]], [[perplexity]], [[openai]], [[google]], [[gemini-3]], [[computer-use]], [[prompt-injection]], [[firefox]]
 
 ## Summary
 

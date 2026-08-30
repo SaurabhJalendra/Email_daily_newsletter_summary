@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[zhipu-ai]]
 > **First mentioned**: 2026-06-19-evening
 > **Last updated**: 2026-06-19-evening
-> **Status**: forecasted / roadmap (target window: December 2026 per Z.ai forecast)
+> **Status**: stale
 > **Related**: [[zhipu-ai]], [[glm-5-2]], [[claude-fable-5]], [[claude-mythos]], [[ai-regulation]]
 
 ## Summary

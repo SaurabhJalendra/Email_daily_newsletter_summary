@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-06-11-evening
 > **Last updated**: 2026-06-23-morning (**TLDR AI HIGH-priority — Inception Labs' Mercury 2 AI beats DiffusionGemma at ~1,000 tokens per second** — first publicly framed *competitor speed-tier comparison* on DiffusionGemma in this wiki; sharpens DiffusionGemma's prior "subject-only / TBD architecture" framing into a *speed-tier comparable* benchmark anchor by establishing Mercury 2 as the head-to-head speed competitor in the diffusion-text-model category)
-> **Status**: surfaced (architecture remains TBD; first publicly framed competitor-speed comparison via Mercury 2 / Inception Labs 2026-06-23-morning)
+> **Status**: stale
 > **Related**: [[google]], [[gemma-4]], [[gemma-3-270m]], [[function-gemma]], [[medgemma]], [[translategemma]], [[deepseek-ocr]]
 
 ## Summary

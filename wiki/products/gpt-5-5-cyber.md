@@ -12,7 +12,7 @@ type: product
 > **Last updated**: 2026-06-27-evening (**Hello, World! Top Story ***"OpenAI has deployed GPT-5.5 Cyber to help identify and fix vulnerabilities in open-source software projects, demonstrating the model's capability in security remediation workflows"*** — first publicly framed *OSS-vulnerability-identification-AND-fixing security-remediation-workflow* canonical-framing on GPT-5.5-Cyber in this wiki; productizes the prior Patch the Planet OSS-focus into a *fixing-workflow* posture (not just discovery), sharpening the deployment-tier framing from *verified-defenders embedded OEM use* into a *direct OSS-project remediation* mode; pairs with the same-day [[gpt-5-6]] cycle-3 launch + [[claude-mythos]] reversal under the broader US-government export-style-controls regulatory regime**)
 > **Previously updated**: 2026-06-24-morning (Second-cohort cross-newsletter recoverage via TLDR AI HIGH + The AI Field HIGH + Superhuman — Trail of Bits + HackerOne named-security-firm partner roster on Patch the Planet)
 > **Previously updated**: 2026-06-23-evening (AINews HIGH + Evolving AI Insights cycle-cohort first publicly framed GPT-5.5-Cyber product surface: full GPT-5.5-Cyber model for trusted defenders + record 85.6% on CyberGym test + verified-defender deployment tier inside [[openai-daybreak]] / Patch the Planet / Codex Security plugin / Cyber Partner Program expansion)
-> **Status**: launched (generally available to verified defenders via [[openai-daybreak]] / Cyber Partner Program)
+> **Status**: stale
 > **Related**: [[openai]], [[gpt-5-5]], [[gpt-5-4-cyber]], [[openai-daybreak]], [[codex-security]], [[aardvark]], [[claude-mythos]], [[project-glasswing]], [[ai-cybersecurity-arms-race]]
 
 ## Summary

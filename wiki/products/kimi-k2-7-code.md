@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-06-13-evening
 > **Last updated**: 2026-06-17-morning (**second-cohort confirmation + first publicly framed *High Speed* qualifier on K2.7 Code** — World of AI YouTube body link "Fable 5 COMING BACK! Deepseek v4.1, GPT-5.6 Leaks, Fusion API, & **Kimi K2.7 Code High Speed**!" extends the K2.7 Code surface from the [[ollama]] launch / NLP Newsletter digest into a *consumer-AI-news YouTube* cohort with an explicit *High Speed* qualifier — suggests K2.7 Code is now positioned in consumer-AI-news coverage on a *speed/throughput* axis specifically (continues the 2026-06-13-morning AlphaSignal "Kimi 30% Faster Coding" framing); pipeline summaries unavailable across all 9 newsletters — twelfth consecutive cycle with the OpenRouter 403 key-limit-exceeded blocker)
-> **Status**: launched
+> **Status**: stale
 > **Related**: [[moonshot-ai]], [[kimi-k2-6]], [[kimi-k2-5]], [[ollama]], [[claude-code]], [[claude-fable-5]], [[mimo-code]], [[diffusion-gemma]], [[openclaw]]
 
 ## Summary

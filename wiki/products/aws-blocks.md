@@ -10,7 +10,7 @@ type: product
 > **Vendor**: [[amazon]]
 > **First mentioned**: 2026-06-27-evening
 > **Last updated**: 2026-06-27-evening
-> **Status**: launched (open-source release per Hello, World!)
+> **Status**: stale
 > **Related**: [[amazon]], [[agent-frameworks]], [[enterprise-ai]]
 
 ## Summary
