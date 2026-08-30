@@ -8,7 +8,8 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-07-19-evening
-> **Last updated**: 2026-08-02-evening (**Platform-level AI moderation + 24/7 moderation team rolled out to manage content and community safety at scale — first Skool AI-native feature surfaced in this wiki; **"discovery and distribution are its #1 focus"** posture with **1M+ people searching Skool daily** to find communities per company framing; **Link.skool.com** identified as Skool's custom URL shortener + tracking layer routing traffic into specific communities, sign-up flows, and promotional funnels — the growth/tracking infrastructure behind AI-education communities like [[ai-automation-society]] Aug 1 hackathon.** — *source: data/summaries/2026-08-02-evening.json (AI Automation Society (Skool) MEDIUM "1 event happening tomorrow")*)
+> **Last updated**: 2026-08-30-evening (**Platform feature drop surfaces via [[ai-automation-society]] Aug 23 weekly digest: native video hosting + improved search/discovery + enhanced community management tools** — first-in-wiki *native-video-hosting* + *enhanced-community-management-tooling* platform-tier anchors on Skool (extends the Aug 2 *"discovery + distribution as #1 focus"* + platform-level-AI-moderation framings with a *concrete-feature-tier upgrade cycle*). Positions Skool as continuing to invest in *native-media + discoverability + creator-ops* as its three-substrate platform-tier moat against Discord/YouTube/Substack for AI-education creators. — *source: data/summaries/2026-08-30-evening.json (AI Automation Society (Skool) MEDIUM "Weekly digest for Sun, Aug 23 2026")*)
+> **Previously updated**: 2026-08-02-evening (platform-level AI moderation + 24/7 team + discovery/distribution #1 focus + 1M+ daily searches + Link.skool.com URL shortener/tracking layer)
 > **Previously updated**: 2026-07-19-evening (initial creation)
 > **Status**: active
 > **Related**: [[ai-automation-society]], [[no-code-ai-automation]]
@@ -20,6 +21,8 @@ Skool is an online community and course-hosting platform that has become a defau
 Skool matters less as a technical AI product and more as a *venue signal*: the platform's rapid adoption by AI-automation creators suggests that AI-adjacent education is consolidating away from generic social platforms into purpose-built community/course environments. That in turn shapes how non-technical users encounter and learn to deploy AI tools. The company has publicly framed **discovery and distribution as its #1 focus** — with over **1 million people searching Skool daily** to find communities — and rolled out **platform-level AI moderation** combined with a 24/7 moderation team to manage content and community safety at scale, indicating Skool itself is now using AI for trust/safety/automation on top of hosting AI-education tenants.
 
 ## Timeline
+
+- **2026-08-30-evening**: **Platform feature-drop cycle surfaces via [[ai-automation-society]] Aug 23 digest**: **native video hosting** + **improved search & discovery** + **enhanced community management tools** — first-in-wiki *native-video-hosting anchor* + *enhanced-community-management-tooling anchor* on Skool. Extends the Aug 2 *discovery-and-distribution-as-#1-focus* + platform-level-AI-moderation framings with a *concrete platform-feature upgrade cycle*; validates Skool's *native-media + discoverability + creator-ops* three-substrate platform-tier investment posture against Discord/YouTube/Substack for AI-education tenants. — *source: data/summaries/2026-08-30-evening.json (AI Automation Society (Skool) MEDIUM "Weekly digest for Sun, Aug 23 2026")*
 
 - **2026-08-02-evening**: **Platform-level AI moderation + 24/7 moderation team** framed as first Skool-native AI feature surfaced in this wiki — used to manage content + community safety at scale; **"discovery and distribution are its #1 focus"** posture with **1M+ people searching Skool daily** to find communities; **Link.skool.com** identified as Skool's *custom URL shortener + tracking layer* routing traffic into specific Skool communities, sign-up flows, and promotional funnels — the growth/tracking infrastructure behind AI-education tenants like [[ai-automation-society]]'s Aug 1 hackathon — *source: data/summaries/2026-08-02-evening.json (AI Automation Society (Skool) MEDIUM "1 event happening tomorrow")*
 
@@ -34,6 +37,7 @@ Skool matters less as a technical AI product and more as a *venue signal*: the p
 - Stated strategic priority: **discovery + distribution as #1 focus** (Aug 2026); 1M+ daily searches to find communities
 - AI features shipped: **platform-level AI moderation** paired with 24/7 human moderation team (surfaced Aug 2026)
 - Internal infra surfaces: **Link.skool.com** — custom URL shortener + tracking layer for routing traffic into communities/signup flows/promotional funnels
+- Recent platform features (Aug 2026): **native video hosting** + **improved search & discovery** + **enhanced community management tooling** (surfaced via AI Automation Society Aug 23 digest)
 
 ## Open Questions
 
@@ -46,5 +50,6 @@ Skool matters less as a technical AI product and more as a *venue signal*: the p
 
 ## Sources
 
+- data/summaries/2026-08-30-evening.json (AI Automation Society (Skool) MEDIUM "Weekly digest for Sun, Aug 23 2026" — Skool platform feature-drop: native video hosting + improved search/discovery + enhanced community management tools)
 - data/summaries/2026-08-02-evening.json (AI Automation Society (Skool) MEDIUM "1 event happening tomorrow" — platform-level AI moderation + 24/7 moderation team + discovery/distribution #1 focus + 1M+ daily searches + Link.skool.com URL shortener/tracking layer)
 - data/summaries/2026-07-19-evening.json (AI Automation Society (Skool) — "Weekly digest for Sun, Jul 12 2026" + "1 event happening tomorrow"; researchFindings context on Skool as AI-community hosting layer)
