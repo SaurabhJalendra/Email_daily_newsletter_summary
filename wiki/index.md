@@ -289,6 +289,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-5-6]] — OpenAI's Jul 2026 flagship; Sol ($5/$30 pricing) / Terra (2× cheaper than GPT-5.5, balanced) / Luna (fast/low-cost); Thursday July 9 GA under "robust safety stack" + Terminal-Bench 2.1 SOTA
 - [[gpt-live]] — OpenAI's Jul 2026 full-duplex voice model — listens + speaks simultaneously with mid-sentence handoff to larger models; rebuild of ChatGPT voice mode
 - [[google-ai-studio]] — Google's free playground for testing/comparing AI models incl. Gemini 3.5 Flash; side-by-side runs + prompt-builder; Google login (Jun 2026)
+- [[google-wikiskill]] — Google framework for persistent agent learning — co-evolves reusable agent skills alongside a persistent wiki that consolidates knowledge from previous experience (arXiv 2608.27454, Sep 2026)
 - [[googlebook]] — Google's Gemini-native premium AI laptop category; Magic Pointer AI cursor; ships fall 2026 *(stale)*
 - [[granola]] — AI notepad turning months of meeting notes into a searchable memory with cited answers; canonical *accumulation*-archetype [[ai-moats]] example (Jul 2026)
 - [[groq-3-lpx]] — NVIDIA's AI inference accelerator chip; full-production Aug 2026; extends Vera Rubin platform; delivers 4× boost in response times vs nearest alternative for ultra-fast token generation in response-sensitive agentic workloads
@@ -344,6 +345,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark *(stale)*
 - [[lyria-3]] — Google's music-generation model in Gemini; 30-sec tracks, 8 languages, SynthID *(stale)*
 - [[lyria-3-5]] — Google's Lyria 3.5 music-generation upgrade — more human-sounding vocals + control (Jul 2026)
+- [[machine-age-fund]] — a16z's $1.1B AI-hardware / physical-infrastructure fund for chips, memory, interconnects, data centers, cooling, power-efficient edge devices, and robotics (Sep 2026)
 - [[mai-cyber-1-flash]] — Microsoft's Jul 2026 cost-optimized AI cybersecurity model; 96% CyberGym paired with GPT-5.4; half the cost of previous MAI cyber system; integrated into Microsoft MDASH agent system
 - [[mai-thinking-1]] — Microsoft's first internally-built reasoning + Codex-competitor model family (MAI-Thinking-1 35B-active + MAI-Code-1-Flash 5B); Build 2026 (Jun 2026)
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video *(stale)*
@@ -494,6 +496,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[andrew-ng]] — Google Brain / Coursera / DeepLearning.AI co-founder; publishes AI Engineering Skills Map (4 core skill areas from 10K+ job posting analysis) + Coursera-backed LearnVector $100M; canonical mid-2026 educator for AI-engineering discipline (Aug 2026)
 - [[computer-use]] — models that drive GUIs directly; Aug 2026 [[hark-handoff]] launch adds consumer/lifestyle-tier entrant (food ordering, shopping, recruiting) alongside prior coding-agent + browser-agent tiers
 - [[continual-learning]] — Aug 2026 topic — models that keep learning from user interactions after deployment; Dwarkesh Patel's 8-prediction essay reframes AI-safety-regulation baseline + productizes user-lock-in as moat + shifts alignment methodology
+- [[dwarkesh-patel]] — AI/tech interviewer and essayist; long-form Dwarkesh Podcast; canonical framer of the OpenAI 1,200-agent "Rise and Fall of Agent Civilizations" post-mortem + mid-2026 continual-learning thesis (Sep 2026)
 - [[ethan-mollick]] — Wharton professor / One Useful Thing author; "co-intelligence" framer; *Co-Existence* book Oct 20 2026
 - [[eu-ai-act]] — EU AI regulation; transparency obligations went into full enforcement across Europe Aug 2 2026; €47M in first fines to three companies; fines up to €15M or 3% of global turnover; some high-risk-system obligations deferred to 2027-2028 (Aug 2026)
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
