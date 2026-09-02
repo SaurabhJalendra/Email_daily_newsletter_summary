@@ -181,6 +181,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-cowork]] — Anthropic's local-file agent for organizing digital work; anchor surface in PwC 30K-staff deployment (May 2026)
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
 - [[claude-fable-5]] — Anthropic's June 2026 frontier Claude release; "Beats Opus" per TAAFT; introduces "Fable" as a new versioned Claude tier alongside Haiku/Sonnet/Opus/Mythos (Jun 2026)
+- [[claude-fable-5-1]] — Anthropic's Sep 2026 frontier successor to Claude Fable 5 — same $10/$50 base pricing, 75% cheaper cache reads ($0.25/M), ~25% typical / up to 45% agentic cost savings, doubled benchmark scores, coding+research focus, enterprise privacy mode, reduced safety false alarms
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills *(stale)*
 - [[claude-for-legal]] — Anthropic's vertical Claude package for law firms; 20+ MCP connectors + 12 plugins (May 2026) *(stale)*
 - [[claude-for-small-business]] — Anthropic's SMB Claude package; QuickBooks/PayPal/HubSpot/Canva/Google Workspace/Microsoft 365 (May 2026) *(stale)*
@@ -192,6 +193,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-managed-agents]] — Anthropic's fully-managed agent runtime; composable APIs for cloud-hosted agents + Ultraplan (Apr 2026)
 - [[claude-marketplace]] — Anthropic's enterprise marketplace for Claude-powered third-party tools (Mar 2026) *(stale)*
 - [[claude-mythos]] — unreleased Anthropic Claude tier above Opus 4.7; release delayed over cybersecurity risk
+- [[claude-mythos-5-1]] — Anthropic's Sep 2026 restricted-access twin of Claude Fable 5.1; same underlying model with more-permissive safeguards; invitation only via Project Glasswing for cybersecurity + life-sciences work
 - [[claude-opus-4-5]] — Anthropic's Nov 2025 flagship; 80.9% SWE-bench Verified; T2 Retail 88.9% / Telecom 98.2% *(stale)*
 - [[claude-opus-4-6]] — Anthropic's Feb 2026 flagship; 1M context, agent teams, fast mode 2.5× *(stale)*
 - [[claude-opus-4-7]] — Anthropic's Apr 2026 flagship; 3.75 MP vision, xhigh effort, file memory
@@ -447,6 +449,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[skild-s1]] — Skild AI's robot foundation model; in-context learning of 10-min robot tasks from a single demonstration video with no fine-tuning (Aug 2026)
 - [[slack-code]] — Slack's Aug 2026 shared-room coding surface — AI agents author code while human teammates watch/steer/direct across teams; live previews + human-approval gate for deploy
 - [[snap-specs]] — Snap's $2,195 standalone AI AR glasses for the post-phone era; 51° FOV, 7ms latency, two Snapdragon chips, contextual AI (Jun 2026)
+- [[solaris]] — Runway's Sep 2026 "Interface World Model" — generates interactive website/app UIs frame-by-frame as live AI video conditioned on user input; built on Gen-4.5, ~720p, sub-500ms latency target
 - [[sora-2]] — OpenAI's video model; physics, audio, monetization, Hollywood pushback *(stale)*
 - [[spatialclaw]] — NVIDIA's spatial reasoning model for coding and robotics tasks (Jun 2026)
 - [[stripe-kai]] — Stripe's Jul 2026 Knowledge AI Platform for enterprise employees — queries data warehouses, researches accounts, triages incidents, models revenue scenarios, prepares compliance reviews
@@ -456,6 +459,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[tabpfn]] — Prior Labs' Nature-paper tabular foundation model; transformer trained on synthetic tabular tasks; outperforms XGBoost/AutoGluon on ≤10K-sample datasets with ~1000× speedup (Jul 2026)
 - [[tesla-megapod]] — Tesla's modular AI data center hardware system; self-contained compute pod bundling servers/networking/power/cooling; bid into AI-infrastructure-vendor market against NVIDIA DGX
 - [[terafab]] — Tesla + SpaceX jointly-developed AI chip factory in Grimes County, Texas outside Houston; $16.8B initial investment; logic + memory chips for Optimus + Cybercab + SpaceX orbital DCs; >100M sq ft + 3,000+ employees (Aug 2026)
+- [[timesfm-3]] — Google's Sep 2026 zero-shot multivariate time-series foundation model; 330M params, pretrained on 1T time points; #1 on GIFT-Eval + FEV-Bench + TIME; non-commercial license; on Hugging Face + GitHub
 - [[tinker-api]] — Thinking Machines' LLM fine-tuning API *(stale)*
 - [[tml-interaction-small]] — Thinking Machines' 276B-A12B native real-time interaction model; 200ms audio/video/text micro-turns (May 2026) *(stale)*
 - [[ultrafast-api]] — OpenAI's Aug 2026 new API tier for GPT-5.6 Sol; up to 14× faster than Standard + up to 750 output tokens/sec; Cerebras-powered limited preview; paired with Priority Processing→Fast mode rename + Terra/Luna price cuts
