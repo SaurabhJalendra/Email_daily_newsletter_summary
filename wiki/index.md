@@ -254,6 +254,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-5-transcribe]] — Google AI Studio's Aug 27 2026 speech-to-text model; real-time streaming + pre-recorded multi-speaker diarization + smart transcription + 1,000-term custom vocabulary across 85+ languages
 - [[gemini-3-6-flash]] — Google's Jul 2026 workhorse Gemini Flash successor to 3.5 Flash; 17% fewer output tokens; efficiency-tuned for high-volume agentic and coding workloads; rolls into GitHub Copilot
 - [[gemini-3-7-flash]] — Google's Aug 2026 GA workhorse Flash-tier for coding + agents; 16-point DeepSWE jump + near-doubling AutomationBench; 1M context + tunable thinking; $0.75/$3.75 introductory pricing through Dec 31 2026 (doubles Jan 1 2027); third Flash release in three weeks
+- [[gemini-3-8-flash]] — Google DeepMind's Sep 2026 Flash-tier successor to 3.7 Flash — smaller/cheaper/faster with significantly boosted coding; internal testers prefer over Anthropic's Opus for coding; tested on Jetski internal-coding platform
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence *(stale)*
 - [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella; grounded summarization + citation + multi-source synthesis with deeper Gemini-app + Google-Search integration (Jul 2026)
 - [[gemini-omni]] — Google's I/O 2026 conversational video model; any-input → editable video; "Nano Banana for video"
@@ -390,6 +391,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-image]] — Meta's first proprietary AI image-generation model; Muse family replaces Llama era; Muse Spark agentic integration; #2 Image Arena at launch (Jul 2026)
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
 - [[muse-video]] — Meta's first generative video model with native synchronized audio; text/image/existing-footage → short clips; closed beta (Aug 2026)
+- [[muse-voice-transcribe]] — Meta's Sep 2026 live speech-to-text model in the Muse family — production-ready ASR with 20+ speaker tracking; sixth Muse-family substrate (voice)
 - [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer for [[no-code-ai-automation]] cohorts wiring LLM APIs + agents into business SaaS (Jul 2026)
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*
 - [[nemotron-labs-twotower]] — NVIDIA's Jul 2026 open-weight parallel text diffusion model; dual 30B-copy pipelined-role architecture generating chunks of text in parallel at 2.42× throughput + 98.7% baseline quality
