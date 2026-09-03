@@ -390,6 +390,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-glimmer]] — Meta's open-source 30B model optimized for "always-on" agents; fourth Muse-family product-line (Aug 2026)
 - [[muse-image]] — Meta's first proprietary AI image-generation model; Muse family replaces Llama era; Muse Spark agentic integration; #2 Image Arena at launch (Jul 2026)
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
+- [[muse-spark-1-3]] — Meta's Sep 2026 flagship — matches [[gpt-5-6]] Sol on coding+agentic, #3 world on AAII, "almost too cheap to meter" pricing, canonicalizes Meta Superintelligence as newest Frontier Lab
 - [[muse-video]] — Meta's first generative video model with native synchronized audio; text/image/existing-footage → short clips; closed beta (Aug 2026)
 - [[muse-voice-transcribe]] — Meta's Sep 2026 live speech-to-text model in the Muse family — production-ready ASR with 20+ speaker tracking; sixth Muse-family substrate (voice)
 - [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer for [[no-code-ai-automation]] cohorts wiring LLM APIs + agents into business SaaS (Jul 2026)
