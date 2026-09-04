@@ -177,6 +177,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions (May 2026) *(stale)*
 - [[claude-code-security]] — Anthropic's security scanner inside Claude Code (Feb 2026) *(stale)*
 - [[claude-code-web]] — browser/cloud Claude Code for dev work outside the terminal *(stale)*
+- [[claude-commerce-agents]] — Anthropic's open-source (Apache 2.0) AI shopping-agent + merchant-agent suite; 35% cart-size boost + 60% higher purchase-completion; four vertical demos + Claude Code plugin (Sep 2026)
 - [[claude-corps]] — Anthropic's paid AI-learning fellowship ($85K stipend); anthropic.com/claude-corps/fellow (Jun 2026)
 - [[claude-cowork]] — Anthropic's local-file agent for organizing digital work; anchor surface in PwC 30K-staff deployment (May 2026)
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
