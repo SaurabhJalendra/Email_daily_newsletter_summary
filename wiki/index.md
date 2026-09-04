@@ -474,6 +474,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[wan-3-0]] — Alibaba's Aug 2026 long-form AI video model; up to 30-second single-pass clips from text/documents; $0.20/sec at 1080p; #1 with-audio on Artificial Analysis arena at 1,240 Elo
 - [[watermelon]] — Meta's upcoming internal frontier-tier model per Meta Superintelligence Chief Alexandr Wang; caught up with OpenAI's GPT-5.5 on closely followed AI benchmarks; still in training, no release timeline (Jul 2026)
 - [[weathernext-2]] — Google DeepMind's open-source high-impact weather model; ~1 extra day of lead time on tropical cyclone forecasting (Aug 2026)
+- [[weathernext-3]] — Google DeepMind's live-satellite-image-driven weather-forecasting model — refreshes forecasts every hour; tops scoreboards vs rival models + US and European weather services (Sep 2026)
 - [[weathernext-cyclones]] — Google DeepMind's tropical-cyclone-specific model — joint track + intensity + size forecast; Nature study reports ≥1-day advantage over leading operational models on certain forecast types (Aug 2026)
 - [[weave-isaac-1]] — Weave Robotics's home humanoid at $8K upfront / $449/mo subscription; folds clothes/tidies/makes beds; adjusts 3ft-6ft; California fall-2026 rollout with remote-teleoperation fallback (Jul 2026)
 - [[veo-3]] — Google's Veo 3 / 3.1 video-generation model; Jun 2026 resurfaces as image-to-video chained step with [[nano-banana-pro]]
