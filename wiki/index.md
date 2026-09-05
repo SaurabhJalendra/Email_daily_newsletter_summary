@@ -156,6 +156,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[bonsai-27b]] — PrismML's 27B on-device model; 3.9 GB footprint via 1-bit binary + ternary quantization; retains ~89.5% of FP16 base; first 27B-class model that fits on a phone (Jul 2026)
 - [[aws-blocks]] — Amazon's open-source framework for building modular, reusable cloud apps from composable software components (Jun 2026)
 - [[brain2qwerty-v2]] — Meta FAIR's non-invasive brain-to-text system that decodes typed sentences from MEG brain signals; ~61% word accuracy / 78% best-participant (Jun 2026)
+- [[broadcom-truesource]] — Broadcom's Sep 2026 enterprise suite for securely managing + supporting open-source software; verified, human-checked code + enterprise support tier
 - [[buzz]] — [[block]]'s Aug 2026 open-source, self-hosted workspace unifying chat + search + Git events + YAML-based automation where humans and AI agents share the same rooms
 - [[canva-ai-2]] — Canva's Apr 2026 AI-native creative environment; fully editable generated designs *(stale)*
 - [[career-ops]] — Open-source AI system by Santiago Fernández de Valderrama that automates end-to-end job search (~50K+ GitHub stars at launch, Jun 2026)
@@ -538,6 +539,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[synthetic-consensus]] — AI swarms (coordinated LLM+multi-agent networks) infiltrating online communities to create illusion of broad public agreement; researcher-recommended four-primitive defense playbook; first-in-wiki canonical anchor (Aug 2026)
 - [[tabular-foundation-models]] — new pretrained model class for structured/tabular data (spreadsheets, CSVs, DB tables); zero-shot in-context learning replaces per-dataset training; canonical cohort TabFM/TabPFN/KumoRFM/TabICL (Jul 2026)
 - [[project-glasswing]] — Anthropic-led cybersecurity coalition (AWS, Apple, Google, Microsoft, NVIDIA) using Claude Mythos Preview
+- [[prompt-compression]] — techniques to compress long prompts into smaller representations preserving task-relevant info; Shopify "gisting" as named canonical technique for reducing agent-loop context/cost/latency (Sep 2026)
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures *(stale)*
 - [[recursive-self-improvement]] — Anthropic's "Sparks of RSI" essay; 80% of Anthropic code Claude-authored, 8× engineer output, coordinated-pause ask (Jun 2026)
 - [[tsrx]] — TypeScript language extension + JSX successor by Dominic Gannaway; statically analyzable for LLMs; multi-target compile (React/Solid/Preact/Vue) (Jun 2026)
