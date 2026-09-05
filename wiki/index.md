@@ -335,6 +335,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kimi-k3]] — Moonshot AI's leaked next-gen ~2.5T-parameter Kimi model; 1M context, long-horizon-agents-tuned, new "Kimi Linear" attention hybrid, projected ~8× cheaper than GPT-5.5; likely Apache 2.0 open-weight (Jul 2026, leak)
 - [[kitesurf]] — Cloudflare's stateless browser running entirely on Workers; designed for AI-agent use cases where full Chromium is overkill (Aug 2026)
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
+- [[k2-horizon]] — MBZUAI's Sep 2026 fully-open model fleet — six models spanning 0.9B → 375B parameters; Abu Dhabi's flagship open-weights contribution
 - [[kimi-work]] — Moonshot AI's Windows/macOS desktop agent — local files + browser automation + multi-step web tasks; 24/7 automation tier alongside [[chatgpt-work]] and [[claude-cowork]] (Jul 2026)
 - [[kumorfm]] — Nvidia's tabular foundation model; models relational data as graphs of interconnected tables for zero-shot predictions across complex enterprise schemas (Jul 2026)
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
@@ -352,6 +353,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[machine-age-fund]] — a16z's $1.1B AI-hardware / physical-infrastructure fund for chips, memory, interconnects, data centers, cooling, power-efficient edge devices, and robotics (Sep 2026)
 - [[mai-cyber-1-flash]] — Microsoft's Jul 2026 cost-optimized AI cybersecurity model; 96% CyberGym paired with GPT-5.4; half the cost of previous MAI cyber system; integrated into Microsoft MDASH agent system
 - [[mai-thinking-1]] — Microsoft's first internally-built reasoning + Codex-competitor model family (MAI-Thinking-1 35B-active + MAI-Code-1-Flash 5B); Build 2026 (Jun 2026)
+- [[mai-transcribe-2]] — Microsoft's Sep 2026 speech-recognition model at $0.10/hour across 60 languages; positioned as fastest + most accurate + cheapest in market
 - [[marble]] — World Labs' commercial world model; persistent 3D environments from text/images/video *(stale)*
 - [[matraix]] — Harvard-MIT digital world simulating Earth's population with 8.3B agents mirroring real humans; large-scale multi-agent social simulation substrate (Aug 2026)
 - [[medgemma]] — Google open medical-imaging model family (Jan 2026) *(stale)*
@@ -367,6 +369,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-avo]] — NVIDIA's Agentic Variation Operators general-purpose coding-agent architecture; achieved perfect 100.00 on ARC-AGI-3 (183 levels / 25 environments) powered by Claude Opus 5 using ~12% fewer actions than the prior leader (Aug 2026)
+- [[nvidia-pair]] — NVIDIA's Sep 2026 free Virtual Inference Router that turns idle RTX GPUs (+ DGX Spark + Apple M4+ devices) on a home/local network into a distributed personal AI compute cluster
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
 - [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; formally designated "critical" cybersecurity-capable AI (weights locked + sandbox-restricted), split-flagship pair to [[openai-doug]]; internal version solved 10 previously-open math problems (Aug 2026)
 - [[openai-bel]] — OpenAI's 10T-parameter pre-training run; foundation-tier substrate for GPT-6 / Astra; pre-training reported complete (Aug 2026)
