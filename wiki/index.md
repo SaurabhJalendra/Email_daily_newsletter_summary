@@ -261,7 +261,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella; grounded summarization + citation + multi-source synthesis with deeper Gemini-app + Google-Search integration (Jul 2026)
 - [[gemini-omni]] — Google's I/O 2026 conversational video model; any-input → editable video; "Nano Banana for video"
 - [[gemini-robotics-2]] — Google DeepMind's Jul 2026 single-model whole-body robot control; adapts to new hardware in hours + 89.6% precise-insertion success; ships with Gemini Robotics ER 2 embodied-reasoning planning-brain sibling
-- [[gemini-spark]] — Google's I/O 2026 24/7 personal agent on Google Cloud VMs; AI Ultra $100/mo *(stale)*
+- [[gemini-spark]] — Google's I/O 2026 24/7 personal agent on Google Cloud VMs; AI Ultra $100/mo; Sep 2026 integrated with Google Photos (search + edit + curate + collages/videos)
 - [[gemini-embedding-2]] — Google's multimodal embedding model across text/image/video/audio/PDF (Mar 2026) *(stale)*
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
 - [[gemini-enterprise-agent-platform]] — Google Cloud's Aug 2026 consolidated platform for building/scaling/governing enterprise-grade AI agents grounded in corporate data; merges Vertex AI + Agentspace; announced at Cloud Next 2026
