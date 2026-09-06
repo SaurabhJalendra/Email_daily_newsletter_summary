@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-07-03-morning
 > **Last updated**: 2026-07-03-morning (created — TLDR AI surfaces FriendliAI as *"Frontier Inference Cloud for agents"* serving frontier open-weight models with speed + reliability + cost efficiency; named customer cohort includes [[claude-code]] + [[cursor]] + Kilo Code + Hermes Agents + [[ollama]] — positions FriendliAI at the inference-substrate layer of the agent-tooling ecosystem alongside Baseten + Together AI + Fireworks + Groq)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[baseten]], [[together-ai]], [[groq]], [[cerebras]], [[ollama]], [[claude-code]], [[cursor]], [[nous-research]], [[ai-hardware]]
 
 ## Summary

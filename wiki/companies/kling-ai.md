@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-07-04-evening
 > **Last updated**: 2026-07-04-evening (**Created — Kling AI first publicly framed in this wiki as Kuaishou spin-off valued at $15B pre-money in a major funding round with investors including Alibaba and Tencent injecting over 19 billion yuan (~$2.8B); focus on short-form AI video positions Kling AI as a major generative-media platform**)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[alibaba]], [[bytedance]], [[ai-video-generation]], [[ai-funding-rounds]], [[runway]], [[luma]], [[seedance-2]]
 
 ## Summary

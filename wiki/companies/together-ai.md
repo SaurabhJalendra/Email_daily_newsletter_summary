@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-07-02-morning
 > **Last updated**: 2026-07-02-morning (first publicly framed *Together AI* company page in this wiki — tokens& weekly HIGH-priority headline lands the $800M raise at $8.3B valuation with the ***"Make Frontier AI Accessible to All"*** thesis; positions the company as the *"cheap open-source plumbing"* other models rely on, competing with Baseten / Fireworks / Anyscale + the AI-inference-cloud tier)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[baseten]], [[ai-funding-rounds]], [[ai-hardware]], [[open-source-models]], [[nvidia]]
 
 ## Summary

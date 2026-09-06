@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-07-06-morning
 > **Last updated**: 2026-07-06-morning
-> **Status**: active
+> **Status**: stale
 > **Related**: [[agent-frameworks]], [[loop-engineering]], [[recursive-self-improvement]], [[harnessx]], [[claude-code]], [[openclaw]], [[nous-research]]
 
 ## Summary

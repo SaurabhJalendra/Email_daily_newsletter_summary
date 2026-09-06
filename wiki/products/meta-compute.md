@@ -11,7 +11,7 @@ type: product
 > **First mentioned**: 2026-07-02-evening (as unnamed "cloud infrastructure business")
 > **Last updated**: 2026-07-03-morning (**Cycle-2 recoverage — "Meta Compute" surfaces as a working name across Superhuman + TLDR AI + DayTrading Dispatch cohort; Meta stock jumped ~9% on the report; framed as challenger to AWS + Azure + Google Cloud + [[coreweave]]; concrete framing: Meta has committed $183B to AI infrastructure but hasn't seen significant demand for its own models and services — Meta Compute is the *revenue-diversification response* to model-side under-monetization**)
 > **Previously updated**: 2026-07-02-evening (initial disclosure via TLDR + The Rundown AI — cloud service to rent out spare data-center capacity + provide access to hosted models; framed as "second path to returns" on $182.9B infrastructure investment; see [[meta]] timeline for full detail)
-> **Status**: in development (working name)
+> **Status**: stale (in development, working name)
 > **Related**: [[meta]], [[amazon]], [[microsoft]], [[google]], [[muse-spark]], [[ai-hardware]], [[enterprise-ai]]
 
 ## Summary

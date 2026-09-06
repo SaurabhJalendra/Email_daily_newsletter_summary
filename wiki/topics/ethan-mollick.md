@@ -10,7 +10,7 @@ type: topic
 > **First mentioned**: 2026-06-04
 > **Last updated**: 2026-07-01-morning (**publishes ***"The twilight of the chatbots"*** in One Useful Thing — first publicly framed *"chatbots-to-agents" epochal-transition* canonical Mollick essay in this wiki; anchors Opus 4.7 building "software packages that would take 2-17 weeks of human engineering work" in 14 hours (Epoch), METR + UK AI Security Institute better-than-exponential human-programmer-hours-per-prompt growth curves, and a quarter of OpenAI workers running ≥4 agents concurrently every week + domain-expertise-not-technical-expertise as the key determinant of agent output quality — the essay is the cycle's canonical *co-existence-book-thesis-in-a-blog-post* delivery vehicle**)
 > **Previously updated**: 2026-06-10-morning (publishes "What it feels like to work with Mythos" in One Useful Thing — first hands-on essay naming [[claude-mythos]] directly)
-> **Status**: active
+> **Status**: stale
 > **Related**: [[claude-code]], [[chatgpt]], [[claude-mythos]], [[claude-fable-5]], [[vibe-coding]], [[ai-jobs-displacement]], [[andrej-karpathy]], [[enterprise-ai]]
 
 ## Summary

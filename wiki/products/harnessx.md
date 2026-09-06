@@ -9,7 +9,7 @@ type: product
 > **Type**: product
 > **First mentioned**: 2026-07-06-morning
 > **Last updated**: 2026-07-06-morning
-> **Status**: active
+> **Status**: stale
 > **Related**: [[xiaomi]], [[agent-frameworks]], [[loop-engineering]], [[self-harness]], [[recursive-self-improvement]], [[mimo-code]]
 
 ## Summary

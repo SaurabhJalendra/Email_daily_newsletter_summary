@@ -9,7 +9,7 @@ type: company
 > **Type**: company
 > **First mentioned**: 2026-03-29 (OpenClaw on Xiaomi devices)
 > **Last updated**: 2026-07-06-morning
-> **Status**: active
+> **Status**: stale
 > **Related**: [[mimo-code]], [[harnessx]], [[agent-frameworks]], [[loop-engineering]], [[openclaw]]
 
 ## Summary
