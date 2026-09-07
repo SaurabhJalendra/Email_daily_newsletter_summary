@@ -107,6 +107,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[sambanova]] — AI-computing-solutions vendor for data centers; $1B Series F at $11B valuation Jul 2026
+- [[shopify]] — Canadian e-commerce platform; ships [[shopify-sidekick]] AI merchant assistant + Storefront Model Context Protocol (Anthropic co-built) + Universal Commerce Protocol (Google co-built); canonical mid-2026 self-improving-AI-pipeline case-study via GraphQL agent 0.8B Qwen fine-tune vs GPT-5.6 Sol xhigh (Sep 2026)
 - [[simile]] — AI market-research startup; $200M @ $2B valuation; enables companies to survey "agentic twins" of real consumers for synthetic-consumer insights (Jul 2026)
 - [[skild-ai]] — robotics foundation-model startup; S1 performs in-context learning of 10-min robot tasks from a single video without fine-tuning (Aug 2026)
 - [[skool]] — community/course-hosting platform; default surface for AI-education communities like [[ai-automation-society]]; discovery/distribution #1 focus (1M+ daily searches) + platform-level AI moderation + Link.skool.com URL-shortener/tracking layer (Aug 2026)
@@ -454,6 +455,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[scrollcraft]] — Nate Herk's free Claude Code skill for transforming ordinary landing pages into premium scroll-driven websites; interviews the user about the journey and works with existing or AI-generated assets (Aug 2026)
 - [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2.5 weeks away with longer clips + 4K imminent + Seedance 2.0 mini lower-cost variant released (Jun 2026)
 - [[self-harness]] — Shanghai AI Lab framework enabling an agent to autonomously rewrite its own operating harness (~60% perf boost); three-stage iterative loop (weakness mining → harness proposal → proposal validation) (Jul 2026)
+- [[shopify-sidekick]] — Shopify's AI-enabled commerce assistant embedded in the Shopify admin; voice + screen-sharing + 20 languages + action-execution (reports/segments/store-settings); trained via continual-learning-loop + daily fine-tuning + GRPO; "AI co-founder" framing (Sep 2026)
 - [[skild-s1]] — Skild AI's robot foundation model; in-context learning of 10-min robot tasks from a single demonstration video with no fine-tuning (Aug 2026)
 - [[slack-code]] — Slack's Aug 2026 shared-room coding surface — AI agents author code while human teammates watch/steer/direct across teams; live previews + human-approval gate for deploy
 - [[snap-specs]] — Snap's $2,195 standalone AI AR glasses for the post-phone era; 51° FOV, 7ms latency, two Snapdragon chips, contextual AI (Jun 2026)
