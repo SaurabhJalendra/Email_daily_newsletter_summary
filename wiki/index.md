@@ -387,6 +387,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwen-3-8-27b]] — Alibaba's Aug 2026 27B vision-language open-weights model under Apache 2.0; 262K native context + Gated DeltaNet + gated-attention hybrid + ~61.7 SWE-bench Pro + fits high-end consumer hardware; defaults to xhigh reasoning effort (Simon Willison *"defaults to wildly overthinking"* framing)
 - [[raft]] — Botiverse's multi-agent collaboration platform (Raft 1.0); turns ChatGPT into coordinated teams of persistent specialized agents in shared workspaces; BYO-model + per-agent-seat billing (Jul 2026)
 - [[robostral-navigate]] — Mistral's Jul 2026 first robotics-tier model for factories/warehouses/industrial automation; cross-supplier hardware portability
+- [[minicpm5-2b]] — OpenBMB's Sep 2026 open-source 2B model; ranks first among open models under 4B on Artificial Analysis Intelligence Index
 - [[ministral-3]] — Mistral dense small-model line (3B/8B) for on-device inference *(stale)*
 - [[mistral-3]] — Mistral's open-weight lineup; flagship Large 3 (41B active / 675B total MoE) *(stale)*
 - [[mistral-agentic-search]] — Mistral's five-op agentic search framework (search + open + navigate + read + grep); FinanceBench correctness 26.7% → 86% + reduced tail latency (Aug 2026)
