@@ -368,6 +368,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mimo-code]] — Xiaomi's coding-specialized model; three-cycle cross-newsletter convergence (TLDR AI → Hello World "Claude vs Mimo" → NLP Newsletter AI Agents Weekly digest, Jun 2026)
 - [[minimax-h3]] — MiniMax's Jul 2026 next-generation multimodal video model — native 30-second + consistent three-minute videos + interactive frame editing + up to 50 multimodal references
 - [[mojo]] — Modular's Python-superset AI/ML systems programming language; fully open-sourced under Apache 2.0 with LLVM exceptions (Aug 2026)
+- [[motif-3]] — Motif Technologies (South Korea) 314B/13.2B-active MoE MIT-licensed open-weight LLM; ~256K context; ~44 Artificial Analysis Intelligence Index; strongest open-weight MoE LLM outside US/China ecosystem; Dokpamo sovereign-AI program (Sep 2026)
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-avo]] — NVIDIA's Agentic Variation Operators general-purpose coding-agent architecture; achieved perfect 100.00 on ARC-AGI-3 (183 levels / 25 environments) powered by Claude Opus 5 using ~12% fewer actions than the prior leader (Aug 2026)
