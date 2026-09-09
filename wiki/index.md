@@ -374,6 +374,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nvidia-avo]] — NVIDIA's Agentic Variation Operators general-purpose coding-agent architecture; achieved perfect 100.00 on ARC-AGI-3 (183 levels / 25 environments) powered by Claude Opus 5 using ~12% fewer actions than the prior leader (Aug 2026)
 - [[nvidia-pair]] — NVIDIA's Sep 2026 free Virtual Inference Router that turns idle RTX GPUs (+ DGX Spark + Apple M4+ devices) on a home/local network into a distributed personal AI compute cluster
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
+- [[astra-next]] — OpenAI's Sep 2026 unreleased successor to GPT-6 Astra; "significantly more capable"; produced OpenAI's claimed Navier-Stokes Millennium Prize proof via 10,000-agent swarm × 88 hours × 130B tokens × >$40M compute; ~50% vs Astra's ~10% on internal difficult-math benchmark
 - [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; formally designated "critical" cybersecurity-capable AI (weights locked + sandbox-restricted), split-flagship pair to [[openai-doug]]; internal version solved 10 previously-open math problems (Aug 2026)
 - [[openai-bel]] — OpenAI's 10T-parameter pre-training run; foundation-tier substrate for GPT-6 / Astra; pre-training reported complete (Aug 2026)
 - [[ox-alpha]] — Anonymous free reasoning model surfacing on OpenRouter Aug 2026; 1M context / 131K output / text+image+video; 8/10 deterministic DeepSWE subset (beats Fable 5 + GLM-5.3 + Grok 4.6 + GPT-5.6 Sol); GLM-5V-Turbo tokenization fingerprint suggests Zhipu-AI-adjacent origin
@@ -400,6 +401,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
 - [[muse-spark-1-3]] — Meta's Sep 2026 flagship — matches [[gpt-5-6]] Sol on coding+agentic, #3 world on AAII, "almost too cheap to meter" pricing, canonicalizes Meta Superintelligence as newest Frontier Lab
 - [[muse-video]] — Meta's first generative video model with native synchronized audio; text/image/existing-footage → short clips; closed beta (Aug 2026)
+- [[meta-muse-agent]] — Meta's Sep 2026 always-on personal AI agent with its own cloud browser; text-message-style UI + Gmail/Spotify/OpenTable integration + booking/emails/shopping; muse.ai + iOS/Android/WhatsApp/AI-glasses quintuple-surface
 - [[muse-voice-transcribe]] — Meta's Sep 2026 live speech-to-text model in the Muse family — production-ready ASR with 20+ speaker tracking; sixth Muse-family substrate (voice)
 - [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer for [[no-code-ai-automation]] cohorts wiring LLM APIs + agents into business SaaS (Jul 2026)
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*

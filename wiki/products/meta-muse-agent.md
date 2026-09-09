@@ -1,0 +1,56 @@
+---
+name: Meta Muse (Personal AI Agent)
+description: Meta's always-on personal AI agent with its own cloud browser — handles booking, email, shopping via text-message-style UI + integrates Gmail, Spotify, OpenTable, WhatsApp
+type: product
+---
+
+# Meta Muse (Personal AI Agent)
+
+> **Type**: product
+> **Vendor**: [[meta]]
+> **First mentioned**: 2026-09-04-morning (iOS waitlist teaser)
+> **Last updated**: 2026-09-09-evening
+> **Status**: active
+> **Related**: [[meta]], [[muse-spark]], [[muse-spark-1-3]], [[muse-code]], [[muse-glimmer]], [[chatgpt-work]], [[claude-cowork]], [[gemini-spark]], [[instinct]], [[computer-use]], [[agent-frameworks]]
+
+## Summary
+
+Meta Muse is [[meta]]'s always-on **personal AI agent product** — distinct from the Muse-family *models* ([[muse-spark]], [[muse-spark-1-3]], [[muse-code]], [[muse-glimmer]], [[muse-video]], [[muse-voice-transcribe]]), which are the underlying model substrate. Muse operates via **its own cloud computer / browser** that users can watch, override, or leave to run unattended. It presents through a **text-message-style interface** and handles day-to-day personal tasks — booking restaurants, sending emails, shopping — across native web (muse.ai), iOS/Android apps, WhatsApp, and later Meta's AI glasses. Integrations at launch include **Gmail, Spotify, and OpenTable**. Muse is free with optional paid subscriptions for additional features and productizes Zuckerberg's multi-cycle *"personal superintelligence for everyone"* thesis into a shipped, cross-surface consumer product.
+
+## Timeline
+
+- **2026-09-09-evening**: **Muse launches — text-message-style UI + own-cloud-computer substrate + Gmail/Spotify/OpenTable integration + booking/emails/shopping three-use-case canonical anchor cluster**. The Rundown AI HIGH: *"Meta debuts Muse, a new always-on personal AI agent that can handle tasks via its own cloud computer, including booking tables, sending emails, and shopping, with a text message-style interface and integration with apps like Gmail, Spotify, and OpenTable"*. Evolving AI Insights HIGH: *"Meta has launched a new AI-powered personal tasks agent called Muse, which can handle tasks such as email management, calendar organization, and data entry. Muse is available for free, with optional paid subscriptions for additional features"*. researchFindings.missingStories: *"Meta introduced Muse, a personal AI agent designed to act autonomously on behalf of users, equipped with its own browser that can be watched, overridden, or left to run unattended. Muse is positioned as an always-on assistant capable of performing complex multi-step tasks across the web and Meta's services"*. Also framed by AINews HIGH as *"Meta's Muse agent launch"* alongside GPT Image 2.5 + Cognition $48B round + Mistral $24B round in the *"most jam packed, feel the AGI day in the history of AI"* daily anchor. First-in-wiki: (a) **"Its own cloud computer/browser" concrete-runtime-substrate canonical anchor** — first-in-wiki *concrete cloud-computer + cloud-browser own-runtime-substrate canonical anchor* on a personal-AI-agent product (structurally significant — parallels [[chatgpt-work]] chatgpt.com/computer + [[claude-cowork]] Claude Managed Agents Codex-runtime + [[openai-presence]] personal-desktop-substrate cohort but is Meta-branded first-party runtime rather than user-managed local computer; canonicalizes Meta as *fourth frontier-lab-owned personal-AI-agent runtime-substrate vendor* alongside OpenAI, Anthropic, Google); (b) **"Watch, override, or leave to run unattended" three-mode user-control canonical anchor** — first-in-wiki *concrete three-mode observation-override-autonomous user-control canonical anchor* on a personal-AI-agent product (extends [[computer-use]] arc with a *user-oversight-mode-tier canonical anchor*); (c) **"Text message-style interface" concrete-UI-metaphor canonical anchor** — first-in-wiki *SMS-metaphor-tier UI canonical anchor* on a frontier-lab personal-AI-agent (structurally parallel to [[poke]] SMS-native-assistant substrate acquired by [[cognition]] 07-29-morning — Meta productizes the *SMS-metaphor UI-tier* natively rather than acquiring an existing SMS-assistant); (d) **Gmail + Spotify + OpenTable three-app integration canonical launch-partner cluster** — first-in-wiki *concrete three-cross-vendor-app-integration canonical launch-partner cluster* on Muse (structurally significant — canonicalizes Meta's *cross-ecosystem-agent-substrate posture* — integrates non-Meta apps [Gmail = Google, OpenTable = Booking Holdings, Spotify = independent] rather than restricting to Meta-native surfaces only, contrasts with Meta's historic walled-garden posture); (e) **Booking-restaurants + sending-emails + shopping three-use-case canonical anchor cluster** — first-in-wiki *concrete three-primitive-use-case canonical anchor* on Muse (structurally parallel to [[instinct]] booking-doctors + calling-service-providers + vendor-negotiation four-use-case cohort — canonicalizes *transactional-personal-agent tier* as canonical mid-2026 consumer-AI-agent substrate). Sustains 09-09-morning muse.ai + iOS + Android + WhatsApp + AI-glasses quintuple-surface distribution anchor cluster with *concrete-integration + concrete-UI-metaphor + concrete-runtime-substrate three-tier anchor cluster*. See [[meta]] + [[muse-spark]] + [[muse-spark-1-3]] + [[chatgpt-work]] + [[claude-cowork]] + [[gemini-spark]] + [[instinct]] + [[computer-use]] — *source: data/summaries/2026-09-09-evening.json (The Rundown AI HIGH; Evolving AI Insights HIGH; AINews HIGH; researchFindings.missingStories — Meta unveils Muse a personal autonomous AI agent with built-in browser)*
+
+- **2026-09-09-morning**: **muse.ai web-domain + iOS/Android/WhatsApp/AI-glasses quintuple-surface distribution canonical anchor cluster + "unified entry point for conversational AI + task automation + Meta-ecosystem integration" positioning-tier canonical anchor** — researchFindings.missingStories daily-digest Industry News: *"Meta has introduced Muse, a personal AI agent available via the web, mobile, and messaging, positioning it as a general assistant that can operate across devices and contexts"* + *"Muse is presented as a unified entry point for conversational AI, task automation, and integration with Meta's broader ecosystem"* + *"Meta introduced Muse, a personal AI agent available via the web (muse.ai), dedicated iOS and Android apps, WhatsApp, and later its AI glasses"*. First-in-wiki *muse.ai web-domain canonical distribution-surface anchor* + *concrete four-surface distribution enumeration + "unified entry point" three-primitive positioning-tier canonical anchor*. See [[meta]] — *source: data/summaries/2026-09-09-morning.json (researchFindings.missingStories; daily-digest Industry News)*
+
+- **2026-09-04-morning**: **Muse agent-super-app iOS waitlist canonical distribution-tier anchor** — TLDR AI HIGH: *"Meta is moving closer to launching its agent super app under the launch name Muse. A waitlist is now available for the iOS app"* — first-in-wiki *dedicated Muse-branded standalone-app substrate distinct from WhatsApp/Messenger native surface canonical anchor* (splits Meta's agent-substrate into *dedicated-app tier + embedded-messenger tier*). See [[meta]] — *source: data/summaries/2026-09-04-morning.json (TLDR AI HIGH)*
+
+## Key Facts
+
+- **Vendor**: Meta
+- **Distribution surfaces**: muse.ai (web) + iOS app + Android app + WhatsApp + AI glasses (later)
+- **Runtime substrate**: Meta-owned cloud computer + cloud browser
+- **UI metaphor**: Text-message-style
+- **User-control modes**: Watch / override / autonomous
+- **Launch-partner app integrations**: Gmail, Spotify, OpenTable
+- **Canonical use-cases at launch**: Booking restaurants, sending emails, shopping, email management, calendar organization, data entry
+- **Pricing tier**: Free base tier + optional paid subscriptions for additional features
+- **Underlying model**: Presumed [[muse-spark-1-3]] and/or [[muse-code]] substrate (not explicitly disclosed at launch)
+- **Positioning**: "Unified entry point for conversational AI + task automation + Meta-ecosystem integration" / Zuckerberg's *"personal superintelligence for everyone"* thesis productized
+
+## Open Questions
+
+- Which specific Muse-family model powers the agent — [[muse-spark-1-3]] flagship, [[muse-code]], [[muse-glimmer]], or a blend via multi-model routing?
+- Concrete pricing tiers for paid subscriptions?
+- Distribution timeline for AI glasses surface — same-day, weeks, months?
+- Which paid-subscription features are gated (higher context window? more integrations? higher throughput?)?
+- International rollout timeline vs US-only launch?
+- Native computer-use / browser-automation depth vs [[chatgpt-work]] Presence-tier + [[claude-cowork]] Managed Agents Codex-runtime peers?
+- How Muse-the-agent relates to prior [[muse-spark]] product-family SDK / Meta Model API distribution surfaces — does Meta expose Muse-agent-as-API for third-party embedding?
+- Data-retention posture for user email/messaging/browsing behavior processed through Muse cloud runtime?
+
+## Sources
+
+- data/summaries/2026-09-04-morning.json (TLDR AI HIGH — Muse agent super-app iOS waitlist)
+- data/summaries/2026-09-09-morning.json (researchFindings.missingStories — Meta launches Muse across web/mobile/messaging + muse.ai + iOS/Android/WhatsApp/AI-glasses quintuple-surface)
+- data/summaries/2026-09-09-evening.json (The Rundown AI HIGH "🧮 OpenAI's secret model settles a $1M math problem"; Evolving AI Insights HIGH "🏆 OpenAI Cracks One of Math's Hardest Problem of the Century"; AINews HIGH "OpenAI reports Navier-Stokes singularity find in 88 hours"; researchFindings.missingStories — Meta unveils Muse personal autonomous AI agent with built-in browser)
