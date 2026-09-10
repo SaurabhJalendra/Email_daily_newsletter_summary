@@ -326,6 +326,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference *(stale)*
 - [[ideogram-4]] — Ideogram's first open-weight text-to-image model; structured JSON prompting + native 2K + multilingual text rendering (Jun 2026)
 - [[imessage-pq3]] — Apple's third-generation cryptographic protocol for iMessage; hybrid Kyber post-quantum KEM + classical ECC + double-ratchet + periodic PQ rekeying; first messaging protocol to achieve "Level 3 security"; formally verified; shipped in iOS 17.4 / iPadOS 17.4 / macOS 14.4 / watchOS 14.4 (canonicalized Aug 2026)
+- [[iphone-duo]] — Apple's Sep 2026 first foldable iPhone; $1,999 starting price; 7.6-inch inner display + 5.4-inch outer; A20 Pro chip + C2 modem; preorders Oct 16 / sales Oct 23; first flagship designed from outset around Apple Intelligence + Siri AI + Visual Intelligence stack
 - [[isaac-groot]] — NVIDIA's research-grade humanoid robot reference design (Unitree H2 body + Blackwell GPU); US/Europe/South Korea partners (Jun 2026)
 - [[jetson-thor]] — NVIDIA's Blackwell-powered edge modules (T3000 + T2000) for robotics, visual AI, and agent workloads on compact edge systems (Jul 2026)
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
