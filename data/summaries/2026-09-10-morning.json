@@ -1,0 +1,468 @@
+{
+  "date": "2026-09-09T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Thursday, 10 September 2026\n\n## 🔥 Top Stories\n1. **OpenAI's agents resolve the Navier-Stokes Millennium Prize problem** — This breakthrough demonstrates the potential of AI in contributing to deep original research and resolving long-standing mathematical challenges, showcasing AI's capability in complex problem-solving.\n2. **Meta introduces Muse, a personal AI agent** — Muse's ability to perform tasks autonomously across a user's digital life marks a significant step in the development of agentic AI, potentially revolutionizing how individuals manage their online presence and tasks.\n3. **Anthropic's $1.5 billion copyright settlement** — This settlement highlights the growing need for AI labs to address copyright and compensation issues, as AI-generated content becomes more prevalent and the line between human and AI creation blurs.\n4. **Google DeepMind releases AlphaGenome Atlas** — This 1-petabyte database predicting the regulatory effects of all possible single-nucleotide variants in the human genome could significantly impact genetics and genomics research, enabling faster and more accurate diagnosis and treatment of rare diseases.\n5. **Mistral raises €3 billion in Series D funding** — This funding round, the largest in European tech history, underscores the rapid growth and investment in AI technology, particularly in the development of large foundation models and AI infrastructure.\n\n## 🤖 AI Models & Research\n- OpenAI releases ChatGPT Images 2.5, featuring sharper details, better reference-image preservation, and up to 50% lower generation latency.\n- Anthropic releases new models, including Claude Opus 4.6, Opus 4.8, and Claude Fable 5.1, targeting coding, complex knowledge work, and sensitive domains.\n- Researchers make progress in pretraining efficiency, with Magic's pretraining recipe being more than 10 times more compute-efficient than leading open-weight base models.\n\n## 🛠️ Tools & Products\n- Libra, an AI agent platform, connects Slack, Gmail, and calendar data into a unified company memory, allowing for autonomous agents to own workflows end-to-end.\n- TrustedRouter, an OpenAI-compatible API gateway, routes requests across 600+ AI models without logging prompt or output content.\n- Apollo is positioned as an AI revenue engine that handles busywork, allowing teams to focus on selling, and Attio as an agentic CRM that runs the work behind every win.\n\n## 📰 Industry News\n- The FBI, NSA, and CISA accuse six Chinese AI companies of \"industrial-scale\" distillation of AI models, including Claude, GPT, Gemini, and Grok.\n- OpenAI opens $5 million in research grants for independent studies on how generative AI affects 13- to 17-year-olds.\n- Accenture and Google Cloud launch the Accenture Gemini Enterprise Business Group to accelerate large-scale deployments of Gemini models in enterprises.",
+  "totalNewsletters": 18,
+  "newsletters": [
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🔥 Big releases, bigger controversies",
+      "date": "2026-09-09T13:13:25.000Z",
+      "summary": "## Superhuman Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* Meta has unveiled \"Muse\", a personal AI agent that can connect to a user's email, calendars, shopping, payments, and smart home devices to carry out tasks on their behalf. However, some users have raised concerns about the potential risks to their data privacy.\n* OpenAI has released ChatGPT Image 2.5, which promises sharper detail, more natural lighting, and up to 50% faster generation than Images 2.0. The model also includes a new \"Sketch\" feature, allowing users to doodle directly inside ChatGPT and have the model turn that rough drawing into a polished image.\n* Anthropic researcher Evan Hubinger has sparked concerns over AI safety by claiming that there's a greater than 10% chance AI could \"kill all humans\" within the next decade. His comments came after researcher Jacob Coxon publicly quit the company over similar fears.\n* OpenAI has claimed a major breakthrough in mathematics, solving a version of the Navier-Stokes equations using an internal model. However, the claim has been met with controversy, with some academics accusing OpenAI of exploiting access to users' private work and ideas.\n* Google is offering a four-part technical series, \"Startup School: Agent Builder\", to help developers build and deploy production-ready AI agents using Google's enterprise-grade tools.\n* Grok Bot is a team of AI teammates that can get work done, and users can learn how to get the most out of Grok Bot at the \"Grok Bot Galaxy\" event.\n* OpenAI's GPT-6 Astra model is being positioned as a productivity and enterprise automation model, with the ability to turn meeting notes into project plans and support voice and agent-style assistance.\n* Anthropic's Claude models are being rolled out with increasingly capable models, such as Claude Opus 4.6, Opus 4.8, and Claude Fable 5.1, targeting coding, complex knowledge work, and sensitive domains like cybersecurity and life sciences.\n* Meta's Muse AI agent is being rolled out with a free tier and paid subscriptions, and is designed to act autonomously across a user's digital life, accessing connected apps such as email, calendar, payments, shopping sites, smart-home services, and health apps.\n\n### Notable Links\n* [OpenAI API](https://openai.com/api/)\n* [ChatGPT](https://chat.openai.com/)\n* [Anthropic Claude](https://www.anthropic.com/claude)\n* [Meta Muse](https://www.meta.com/muse)\n* [Grok Bot Galaxy](https://grokbot.com/galaxy)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "🔥 Big releases, bigger controversies\n\nALSO: Turn meeting notes into project plans with GPT-6 Astra  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 09, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.QR8PDET7GVRZS9oWC_jpgH-qigySh3hAoVuoVNaPnGVCmn4XepbbxsnRf6LHlmeMmMWr3K_yTATWdRb3c4kULTWmGLYPzRWGJr711v8tSeKXs-J3p2R3DPQs7wEN8Xgp6E6REFdqwHFoeT0_4JR4RMOc_U3q0-mOyWuiulI-Yomug4qxJikOGWw7J1kohZrIaldA0vPoHNJ6fbCBKSiD2C-iWb9PXqAoC4wxRFTsTRj8hRX9kaQ66R6AWntCWRNMn_PrG-RbIgAW5wajor9hlWTJZc8EcKCtb-8TBC7YGcwKVOoqBluCDGb_-IXESeEKBy1NT-mPXV8OCz9Dl3z7AqeMkE1hZ6sXSWbdgXA5zGnC4mhbZA7ldgDEiWl-WYO2Dsx7wfIJXqjKKJqdXSMjhnc_7OfN7I3vbOZ"
+    },
+    {
+      "from": "\"AlphaSignal\" <news@alphasignal.ai>",
+      "subject": "🧮 OpenAI's 10,000 agents solved a 90-year math problem in 88hrs",
+      "date": "2026-09-09T13:24:24.000Z",
+      "summary": "## AlphaSignal\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI's 10,000 agents solved a 90-year-old math problem in 88 hours, proving that the Navier-Stokes equations can break down under extreme conditions. This breakthrough demonstrates the potential of multi-agent systems in tackling complex scientific challenges.\n* The solution was formally checked in Lean, giving mathematicians confidence in its correctness, and was achieved using an unreleased OpenAI model that is significantly more capable than GPT-6 Astra.\n* OpenAI shipped ChatGPT Images 2.5, which delivers higher-quality images at 50% lower latency than GPT-Image-2, and introduces new features such as sketch input and two new API models: Flare and Sunburst.\n* Mistral, a French AI company, raised €3 billion in a Series D funding round, the largest equity round in European tech history, and plans to use the funds to expand its AI model research, compute power, and global presence.\n* Google DeepMind mapped the predicted impact of all 9 billion possible DNA mutations, and Sony AI's open-source tool predicted two real aging gene discoveries from 1.5 million hypotheses.\n* OpenBMB released MiniCPM5-2B, a 2-billion parameter model built for on-device AI, and an open-source tool allows 20,000 developers to run Claude Code for free via DeepSeek.\n* Reasoning models have been found to produce fractals when solving hard problems, which explains the phenomenon of \"overthinking\".\n* DNSMOS scores do not necessarily mean that speech data is model-ready, and Voices' CTO has proposed a 4-step calibration framework to address this issue.\n\n### Notable Links\n* OpenAI's Navier-Stokes solution\n* ChatGPT Images 2.5\n* Mistral's Series D funding\n* Google DeepMind's DNA mutation mapping\n* Sony AI's open-source tool\n* OpenBMB's MiniCPM5-2B model\n* Voices' 4-step calibration framework",
+      "links": [
+        {
+          "text": "Signup",
+          "url": "https://alphasignal.ai/"
+        },
+        {
+          "text": "Archive",
+          "url": "https://alphasignal.ai/archive"
+        },
+        {
+          "text": "Awesome",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=6c82055f61815224&feedback=Awesome"
+        },
+        {
+          "text": "Decent",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=6c82055f61815224&feedback=Decent"
+        },
+        {
+          "text": "Not Great",
+          "url": "https://app.alphasignal.ai/fb/ObcADV8DV7n2WYpb?cid=6c82055f61815224&feedback=Not%20Great"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "     AlphaSignal ![](https://app.alphasignal.ai/o?uid=ObcADV8DV7n2WYpb&cid=6c82055f61815224&mid=ccc572fa-8801-4242-9a1b-434a213841cc&s=%F0%9F%A7%AE%20OpenAI%27s%2010%2C000%20agents%20solved%20a%2090-year%20math%20problem%20in%2088hrs&t=1788960237)\n\n10,000 agents, unreleased model, Lean-verified proof — multi-agent systems just entered the research lab.\n\nStay updated with today's top AI news, papers, and repos.\n\n[Signup](https://alphasignal.ai/?utm_source=email)\n\n|\n\n[Work With Us](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=6c82055f61815224&lid=V1UfcTXivQSskMMK&mid=ccc572fa-8801-4242-9a1b-434a213841cc)\n\n|\n\n[Follow on X](https://app.alphasignal.ai/c?uid=ObcADV8DV7n2WYpb&cid=6c82055f61815224&lid=1bcU3Jyo1pDiWRK7Z&mid=ccc572fa-8801-4242-9a1b-434a213841cc)\n\n|\n\n[Archive](https://alphasignal.ai/archive?utm_source=forward)\n\n![AlphaSignal](https://alphasignal.ai/image/1774379296454-hg8tkk.png)\n\nHey Saurabh Jalendra,\n\nAI just cracked a 90-year-old math problem using 10,000 agents in 88"
+    },
+    {
+      "from": "\"TLDR Hardware\" <dan@tldrnewsletter.com>",
+      "subject": "China curbs humanoid IPOs 📉, Open source robotics benchmarks 🤖, China uses Zeiss 🔬",
+      "date": "2026-09-09T13:55:55.000Z",
+      "summary": "## TLDR Hardware\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Chinese regulators are tightening approval for humanoid robotics startups seeking to go public, following a volatile trading debut from sector leader Unitree Robotics, in an effort to cool a sector described as sizzling but rife with copycats and little real technological breakthrough.\n- Robocurve, a public benefit company backed by YC, has opened a community bounty program to build reproducible open-source evaluation benchmarks for physical AI and autonomous robot systems, giving away $20,000 and a pair of I2RT ABC Box robot arms to 25 teams who propose the best research benchmarks.\n- Researchers at Rice University have developed RoboTok, an automated data engine that indexes, filters, and processes large-scale human demonstration videos from the internet to train manipulation policies, allowing for the extraction of hand trajectories and object interactions directly from uncurated web video.\n- Xiaomi's 18 Fold has launched in China, packing a wide-style, passport-sized chassis with a 5.38-inch outer OLED and 7.58-inch inner display, both hitting 4,000 nits peak brightness with a 1-120Hz LTPO refresh rate and an RGB sub-pixel structure.\n- Agility Robotics reported $1.8 million in revenue alongside a net loss of $114.7 million for 2025 as it prepares to go public via a SPAC merger.\n- IonQ published a 70-page resource estimate concluding that a trapped-ion quantum computer with 19,397 physical qubits could compute a 256-bit elliptic-curve discrete logarithm on secp256k1, the curve securing Bitcoin and Ethereum, in about 25.7 days per attempt.\n- China's homegrown lithography machine still relies on German Zeiss lenses, with Huawei becoming the de facto coordinator of China's push to build domestic lithography machines.\n- Quantinuum secured $100 million in CHIPS and Science Act funding to tackle a core scaling problem in trapped-ion hardware, aiming to bring 300mm wafer manufacturing to its quantum processors.\n\n### Notable Links\n- [China curbs humanoid IPOs after Unitree's volatile debut](https://www.theinformation.com/articles/china-curbs-humanoid-ipos-unitrees-volatile-debut)\n- [Call for Open-Source Robotics Benchmarks](https://bounty.robocurve.org/)\n- [RoboTok: An Internet-Scale Data Engine for Human Demonstration Video Retrieval and Dexterous Manipulation Learning](https://rice-robotpi-lab.github.io/RoboTok/)\n- [Benchmarking LiDAR SLAM on Livox Mid-360 Datasets](https://github.com/harshareddy1611/livox-mid360-slam-evaluation)\n- [Orion: A DIY 12-DOF Quadruped Robot Dog](https://github.com/AshishA26/Orion-Quadruped)\n- [NASA Space Roboticist Challenge](https://spaceroboticistchallenge.com/)\n- [Agility Robotics Reports $1.8M Revenue Ahead of Humanoid SPAC](https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/)\n- [IonQ prices a Bitcoin-curve attack down to 19,397 ions and 26 days per attempt](https://postquantum.com/post-quantum/ionq-secp256k1-resource-estimate/)\n- [China's homegrown lithography machine still relies on German Zeiss lenses](https://thenextweb.com/news/huawei-china-duv-lithography-yuliangsheng-zeiss-lenses)\n- [Quantinuum gets $100M CHIPS Act funding to bring 300mm wafer manufacturing to trapped-ion hardware](https://interestingengineering.com/innovation/quantinuum-trapped-ion-quantum-hardware)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR Hardware\n\nChinese regulators are tightening approval for humanoid robotics startups seeking to go public, following a volatile trading debut ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fhardware%3Futm_source=tldrhardware/1/010001a086742bdf-d84cdf56-cc75-411a-b1c4-d0f7ac232b18-000000/EuOIgWhm481_eVKvhy69jHhVEboiCHcYCveSQvuq_kk=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrhardware%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a086742bdf-d84cdf56-cc75-411a-b1c4-d0f7ac232b18-000000/KK5qXPmk-e_hWUpMoTUlVBAnGsU3gu0Unru4YaAIaeE=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ec03effe-5f8e-11f0-99ac-f9a243d0c266%26p=64b66be6-ac25-11f1-83e4-5fe375c2dd8d%26pt=campaign%26t=1788962155%26s=31c5b52f524498504"
+    },
+    {
+      "from": "\"TAAFT - There's An AI For That\" <hi@mail.theresanaiforthat.com>",
+      "subject": "🦾 ChatGPT's Sketch + OpenAI Solves Math",
+      "date": "2026-09-09T13:58:28.000Z",
+      "summary": "## TAAFT - There's An AI For That\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI has introduced **ChatGPT Images 2.5**, which allows users to draw images and turn them into finished pictures using the command `@Sketch`. Additionally, OpenAI claims that its agents have solved a **90-year math problem**, specifically the Navier-Stokes existence and smoothness problem.\n* Meta has launched **Muse**, a personal AI agent designed to act autonomously across a user's digital life, including shopping, booking travel and appointments, sending emails, filling out forms, and negotiating on the user's behalf.\n* Google has developed **AlphaGenome Atlas**, a tool that helps researchers find the DNA change behind a rare disease by narrowing the search and spotting culprits earlier work may have missed.\n* A new pocket computer, **Lapis One**, has been designed for AI agents to run jobs around the clock, allowing users to send jobs from their phone, check in through chat, and plug it into another computer to access the screen, type, and move the mouse without needing extra software.\n* Researchers have revisited an AI-designed lung drug trial and found that the treatment may also slow the aging process.\n* **CrafterQ** is a new tool that turns repeatable AI jobs into readable workflow files, combining models, tools, and commands with controlled permissions.\n* **Context Mode** is a feature that keeps bulky tool results outside the coding agent's conversation and retrieves details as needed to continue working.\n* **OpenExecutive** is an open-source tool that brings eight AI specialists into one business advisor, using company documents and remembering earlier decisions.\n\n### Notable Links\n* ChatGPT Images 2.5\n* Navier-Stokes Problem\n* Meta Muse\n* Google AlphaGenome Atlas",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🦾 ChatGPT's Sketch + OpenAI Solves Math\n\nDraw your ChatGPT images, OpenAI solved a 90-year math problem, Muse gets its own computer, Google hunts disease clues in DNA, and more...  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 09, 2026   |   [Read online](https://link.mail.beehiiv.com/ss/c/u001.YVtwEONifAodwtyRJ4fK9EF0aTtXoffYj_Syhgk1RmDd9jbqbJitp6Ju93tvT5k0pmsx0ArkhO2jNQ1pZAYL3mZYzrGooXyh-rImXq5TNTCqcayslXtOV8wC1HOSGtmDFuexMUgq8jr5iC_zFndOz5uGRGF8ayJDrHhqNvL2owSo21SVc2H33kI3Jfgyed8yqsj-ZuhnXg1V8ALYpSOVl-Iaepytn-F2O-uV7CemkJMpoYLMX9b-ZsfzXMlJgGFyfk8wdvc61fDTG2IA1uqz9XFCoAYmoWSNOTSBdPXJ7Eig6J4M_8qMXsv2Z__3MeCrbjVbxvRCcZv5c4WUOL"
+    },
+    {
+      "from": "\"a16z\" <a16z@substack.com>",
+      "subject": "Introducing Covenant",
+      "date": "2026-09-09T14:01:39.000Z",
+      "summary": "## a16z Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Covenant is announcing Anthem, a heavy-payload deep precision strike weapon system designed to fill the biggest gap in the arsenal of the West, with multiples of the range and payload of anything in its price class, and affordably stored and fielded at scale.\n- The West needs more long-range missiles, and Europe's long-range strike gap is even more pressing, with enormous distances separating European soil from war-winning targets in Russia, and currently almost no sovereign way to reach them.\n- Cheap mass has transformed the tactical fight but left the strategic one untouched, with affordable mass mostly reaching the small end, and the need for strategic weapons to have the same revolution as tactical ones, with greater reach, heavier payloads, and tremendous mass.\n- Covenant has raised $250 million, hired hundreds of talented engineers and operators, and opened factories to produce Anthem in 3 countries – the US, Germany, and Israel, with a priority on getting thousands of Anthems into the field quickly.\n- Anthem was designed to be produced quickly and at scale, with most parts being commercial off the shelf, and where they are not, Covenant has either brought the part in-house or partnered with the supplier to stand up an entirely new production line to meet demand.\n- Beginning in 2027, Covenant will deliver thousands of Anthems per year, with the goal of building the best missile engineering team in the world, led by co-founder and CEO Michael Kaufman.\n\n### Notable Links\n- Introducing Covenant: https://substack.com/app-link/post?publication_id=13145&post_id=214746362&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNDc0NjM2MiwiaWF0IjoxNzg4OTYzMDk4LCJleHAiOjE3OTE1NTUwOTgsImlzcyI6InB1Yi0xMzE0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.iwUIZPlcbCPDicK-7KJRAEsRhcpYhUedfyHPxygiuZc\n- Michael Kaufman: https://substack.com/@michaelkaufman317526\n- American Dynamism Film Series: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYTE2ei5uZXdzL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5hMTZ6Lm5ld3MlMkZwJTJGaW50cm9kdWNpbmctY292ZW5hbnQiLCJwIjoyMTQ3NDYzNjIsInMiOjEzMTQ1LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4ODk2MzA5OCwiZXhwIjoyMTA0NTM5MDk4LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.YcgjQ5N8gVUty42z0IOXRilhQRVpXYBIVZCx0ca22xg?"
+        },
+        {
+          "text": "Introducing Covenant",
+          "url": "https://substack.com/app-link/post?publication_id=13145&post_id=214746362&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNDc0NjM2MiwiaWF0IjoxNzg4OTYzMDk4LCJleHAiOjE3OTE1NTUwOTgsImlzcyI6InB1Yi0xMzE0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.iwUIZPlcbCPDicK-7KJRAEsRhcpYhUedfyHPxygiuZc"
+        },
+        {
+          "text": "Michael Kaufman",
+          "url": "https://substack.com/@michaelkaufman317526"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/a16z/p/introducing-covenant?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "America",
+          "url": "https://substack.com/redirect/6c2245f5-2984-40d7-87b4-7af00a55de3b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Tech",
+          "url": "https://substack.com/redirect/bc0f9e2b-9be9-4316-b437-2fb07a9a56d2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Opinion",
+          "url": "https://substack.com/redirect/021c1cba-3d05-4ad2-a700-cfd19fece00d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Culture",
+          "url": "https://substack.com/redirect/2efc8879-cd6a-43d3-bb56-f554e160d01f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Charts",
+          "url": "https://substack.com/redirect/b202ca34-6f76-498e-a8fb-ff590e761f86?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "American Dynamism Film Series",
+          "url": "https://substack.com/redirect/b0da0366-35c8-47e0-88dd-d142373466d9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Introducing Covenant![](https://eotrx.substackcdn.com/o/82b35b6ed14544f6/p.gif?token=eyJtIjoiPDIwMjYwOTA5MTQwMTM5LjMuZTUyZDY4OWQ1N2Y1N2Y0Y0BtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMTQ3NDYzNjIsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTMxNDUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3ODg5NjMwOTgsImV4cCI6MTc5MTU1NTA5OCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.rf8Ygsxsl4SI1Szgg4bht5dGuhxUvclbK-2ySmZqteQ)\n\nToday, Covenant is announcing Anthem: a heavy-payload deep precision strike weapon system meant to fill the biggest gap in the arsenal of the West\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"AI Breakfast\" <aibreakfast@mail.beehiiv.com>",
+      "subject": "OpenAI's agents took a Millennium Prize problem",
+      "date": "2026-09-09T14:28:08.000Z",
+      "summary": "## AI Breakfast\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI announced that its agents have resolved the Navier-Stokes Millennium Prize problem, a long-standing mathematics challenge, using a combination of 10,000 agents and a new internal model described as \"significantly more capable than GPT-6 Astra\". The solution was achieved in 88 hours, and the Lean formalization and verification took an additional 17 hours. OpenAI has published the paper and Lean certificates, but does not intend to claim the Millennium Prize for this result.\n* The NSA, FBI, and CISA published a joint advisory warning of China-based AI companies conducting industrial-scale distillation campaigns against US AI companies, and recommending that US labs degrade the answers they give to suspected Chinese distillers without informing them.\n* Meta launched Muse, a personal AI agent that can perform tasks such as sending emails, booking travel, and spending money on behalf of the user, with a free tier and paid subscriptions at around $20 and $100 a month.\n* Other notable updates include:\n\t+ DeepMind released predictions for all 9 billion possible single-letter changes to the human genome, a petabyte of data and 30x the AlphaFold Database.\n\t+ Qualcomm and Amazon signed a multi-generation custom inference silicon and optical interconnect deal, reported at up to $60B through 2036.\n\t+ China's MIIT wants 9,800 EFLOPS of intelligent compute by 2030, roughly quadruple June's 2,185, on ¥3.8 trillion of infrastructure spend.\n\t+ OpenAI became the anchor customer for two Malaysian data centers from NVIDIA-backed Firmus, pushing its contracted capacity past 900MW.\n\t+ Google is rebuilding European search to satisfy the DMA and calls it the largest quality reduction in Search's history.\n\t+ Accenture and Google Cloud are standing up a joint Gemini Enterprise unit with 1,000 engineers embedded inside client organizations.\n\t+ Celero raised $275M led by CapitalG on what it says is the first 2nm coherent DSP silicon, for 1.6T and 3.2T data center interconnects.\n\n### Notable Links\n* Navier-Stokes Millennium Prize problem\n* China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies\n* Muse",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "OpenAI's agents took a Millennium Prize problem\n\nAnd the NSA told US labs to quietly degrade their answers.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 09, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/409595e5031942dc5fb684c3fa752ef3536bb636d12d8ff1fc0adcbc432bbec3d02568aa3c86316f9930af17efa7fe6547fe050b491364032afb1b6391375ad191f81afa57c105a5b47601ac30491ea8c7398e77837d794464cef6202191d208bd7b4aec9c470215e3ee76cf5b9673b9fd9787c5b4bc7f3595f2c36dca6d491ce47e65af3e84eabd57f407f33feca9b08161dfaa4f459babc89be01a99986329/0ff023da8ec23126)\n\n[![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,oner"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "I bought 6 prompt packs. Every one was garbage",
+      "date": "2026-09-09T14:38:54.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The author spent $683 on six prompt packs from competitors, only to find them lacking in quality, with issues including overly broad numbers, AI-generated content, and poor organization. This experience led the author to create their own prompt pack, focusing on specific, well-structured prompts that yield more useful results.\n- The author's prompt pack, part of the Daily ChatGPT library, includes 3,260 hand-written and tested prompts across 57 categories, organized by goal and in order, ensuring users never wonder what comes next. It also features three tracks for starting, growing, and running a business.\n- The library offers additional tools such as the AI Path Finder, which provides 123 goal roadmaps to help users achieve their objectives, and the Prompt Improver, which rebuilds lazy prompts into more effective ones. It also includes a Privacy Policy and Terms generator for businesses.\n- The prompts in the library are designed with a role, questions for the user, named deliverables, and constraints to ensure real and actionable answers, unlike the competitors' packs which were found to be of poor quality.\n- The author highlights two jobs done using their prompts: writing a contract and finding money leaks in monthly expenses, showcasing how their approach yields more practical and useful results compared to typical prompts found in other packs.\n- The library is offered with a 14-day money-back guarantee and is available in two formats: fill-in-the-blank for speed and interview prompts for more complex tasks.\n- For a limited time, the Full Library is available for $87, and the Starter for $47, with the prices set to increase after the promotional period.\n\n### Notable Links\n- [library.dailyprompting.com](https://library.dailyprompting.com) - Access to the Daily ChatGPT library and its tools.\n- [Daily ChatGPT](https://dailychatgpt.com) - The main website for Daily ChatGPT, offering resources and updates on AI and prompting strategies.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "I bought 6 prompt packs. Every one was garbage\n\nSo I built a prompt pack that defeats every single one.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 09, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/dbb250f0742290ba5a9a606b9bbac32ceb7cbbc71b91dce9b27a682e58620338ab8d7dd350ab868722de62d3d7524d37536ce79041996350db9a4ffe300410e13ba7ffb382b33af7691029b965fe78808d7fdffcf0fc4a315c5fae40bada59c78a49a35774fddaf0e110f306f4d48d8f3ddf76371547317484b1bb0fe72d3cac1ab1c58c26e8db75614b4d3dcc3394a470da115a4f0c7129594aaec3c506f8b7/df079a81f0ea53ec)\n\n# I bought 6 prompt packs. Every one was garbage\n\nSo I built a prompt pack that "
+    },
+    {
+      "from": "\"DeepLearning.AI\" <notifications@dlai.discoursemail.com>",
+      "subject": "[DeepLearning.AI] Summary",
+      "date": "2026-09-09T14:45:04.000Z",
+      "summary": "## DeepLearning.AI Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* There have been issues with missing files in labs connected to modules, including `survey_data.csv` in M2 and `loan_data.csv`, with attempts to reset the lab or reboot not resolving the issue, and Coursera support being unhelpful. This affects multiple users and has sparked a discussion with 17 replies.\n* A user has provided feedback on completing the ML Specialization, praising its interactive learning environment and ease of understanding.\n* In the AI Coding Workflows: From Cloud to Local course, a user discussed the issue of not having enough VRAM for some local models, suggesting the use of Hugging Face inference providers as an alternative.\n* Staff announcements have been made regarding maintenance on labs in Data Engineering courses hosted on Vocareum, with expected resolutions by Friday, US Pacific Time.\n* New topics have been posted, including \"Lessons with Labs are not marked as completed (in Coursera)\", \"Bug in cell 6 of M4 Video with Code Example: Built-in packages\", and \"Can AI Agents Automate Local SEO for Car Dealerships?\".\n* Updates have been made to courses, with fixes pushed to all courses in the specialization, and users are asked to report any issues found.\n\n### Notable Links\n- [Python for Data Analytics](https://community.deeplearning.ai/c/course-q-a/data-analytics-professional-certificate/dag-course-3/509)\n- [Missing files; support is no help](https://community.deeplearning.ai/t/missing-files-support-is-no-help/894950)\n- [AI Discussions](https://community.deeplearning.ai/c/ai-discussions/408)\n- [My feedback on completing the ML Specialization](https://community.deeplearning.ai/t/my-feedback-on-completing-the-ml-specialization/894931)\n- [AI Coding Workflows: From Cloud to Local](https://community.deeplearning.ai/c/short-course-q-a/ai-coding-workflows-from-cloud-to-local/625)\n- [Don’t have enough VRAM for some local models yet?](https://community.deeplearning.ai/t/don-t-have-enough-vram-for-some-local-models-yet/894977)\n- [Inference Providers · Hugging Face](https://huggingface.co/docs/inference-providers/index)",
+      "links": [
+        {
+          "text": "23",
+          "url": "https://community.deeplearning.ai/new"
+        },
+        {
+          "text": "1",
+          "url": "https://community.deeplearning.ai/my/notifications"
+        },
+        {
+          "text": "2079",
+          "url": "https://community.deeplearning.ai/about"
+        },
+        {
+          "text": "Python for Data Analytics",
+          "url": "https://community.deeplearning.ai/c/course-q-a/data-analytics-professional-certificate/dag-course-3/509"
+        },
+        {
+          "text": "Missing files; support is no help",
+          "url": "https://community.deeplearning.ai/t/missing-files-support-is-no-help/894950"
+        },
+        {
+          "text": "AI Discussions",
+          "url": "https://community.deeplearning.ai/c/ai-discussions/408"
+        },
+        {
+          "text": "My feedback on completing the ML Specialization",
+          "url": "https://community.deeplearning.ai/t/my-feedback-on-completing-the-ml-specialization/894931"
+        },
+        {
+          "text": "AI Coding Workflows: From Cloud to Local",
+          "url": "https://community.deeplearning.ai/c/short-course-q-a/ai-coding-workflows-from-cloud-to-local/625"
+        },
+        {
+          "text": "Don’t have enough VRAM for some local models yet?",
+          "url": "https://community.deeplearning.ai/t/don-t-have-enough-vram-for-some-local-models-yet/894977"
+        },
+        {
+          "text": "Inference Providers · Hugging Face",
+          "url": "https://huggingface.co/docs/inference-providers/index"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\nA brief summary since 2026-09-02 14:27:45 UTC\n\n[![DeepLearning.AI](https://global.discourse-cdn.com/dlai/original/1X/39e35de07884401e91ac02759d0d7088bca93cf9.png)](https://community.deeplearning.ai)\n\n \n\n  \n\nSince your last visit\n\n[**23**](https://community.deeplearning.ai/new)\n\n[**1**](https://community.deeplearning.ai/my/notifications)\n\n[**2079**](https://community.deeplearning.ai/about)\n\n[**New Topics**](https://community.deeplearning.ai/new)\n\n[**Unread Notifications**](https://community.deeplearning.ai/my/notifications)\n\n[**New Users**](https://community.deeplearning.ai/about)\n\nPopular Topics\n\n[Python for Data Analytics](https://community.deeplearning.ai/c/course-q-a/data-analytics-professional-certificate/dag-course-3/509)\n\nSeptember 4\n\n## [**Missing files; support is no help**](https://community.deeplearning.ai/t/missing-files-support-is-no-help/894950)\n\n![Aaron_Smallwood](https://avatars.discourse-cdn.com/v4/letter/a/a9a28c/45.png)\n\nAaron\\_Smallwood\n\n**The labs connected to "
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Images 2.5 🎨, OpenAI solves Navier-Stokes 🧮, AlphaGenome Atlas 🧬",
+      "date": "2026-09-09T14:49:29.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI introduced ChatGPT Images 2.5, featuring sharper details, better reference-image preservation, more reliable editing, and up to 50% lower generation latency, making it a significant update for users of the ChatGPT platform.\n* An OpenAI model solved the Navier-Stokes Millennium Problem, one of mathematics' seven Millennium Prize Problems, demonstrating the potential of AI in contributing to deep original research and resolving long-standing mathematical challenges.\n* Meta introduced Muse, a personal AI agent designed to act autonomously across a user's digital life, including tasks such as shopping, booking travel, sending emails, and negotiating on the user's behalf, marking a significant step in the development of agentic AI.\n* Google DeepMind introduced AlphaGenome Atlas, a 1-petabyte database predicting the regulatory effects of all 9 billion possible single-nucleotide variants in the human genome, which could have significant implications for genetics and genomics research.\n* Anthropic, a leading AI research company, has been at the center of several developments, including the release of new models such as Claude Opus 4.6, Opus 4.8, Fable 5, and Mythos 5, and a $1.5 billion settlement of a copyright class-action lawsuit, highlighting the company's rapid growth and the need for AI labs to address copyright and compensation issues.\n* Cognition, an AI coding company, raised $2 billion at a $48 billion valuation, signaling investors' belief in the potential of AI coding and the market's expectation of multiple major players capturing significant market share.\n* Researchers have made progress in pretraining efficiency, with Magic's pretraining recipe being more than 10 times more compute-efficient than leading open-weight base models, and studies suggesting that pretraining progress is mostly coming from data improvements rather than model improvements.\n\n### Notable Links\n* [ChatGPT Images 2.5](https://links.tldrnewsletter.com/ccEMbs)\n* [Navier-Stokes Millennium Problem](https://links.tldrnewsletter.com/KhjZoT)\n* [Muse](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent)\n* [AlphaGenome Atlas](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas)\n* [Anthropic](https://www.linkedin.com/company/anthropic/)\n* [Cognition](https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nChatGPT Images 2.5 features sharper details, better reference-image preservation, more reliable editing, and up to 50% lower generation latency. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/010001a086a53651-f3f33362-a6cf-4ced-a32b-d125b207e9be-000000/ghw1KbZkSjqv_S24bB_75myikrOuy-dTLe4J-N9sueA=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a086a53651-f3f33362-a6cf-4ced-a32b-d125b207e9be-000000/5RG4lt5pJ8DwoCaQMO4KBIXJIrgFUz4l_jFeH0L-Us4=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=4cbe97da-ac42-11f1-8d6a-ab2a419fa028%26pt=campaign%26t=1788965369%26s=01cb6b2dcf87ef178e4f6"
+    },
+    {
+      "from": "\"Mindstream\" <hello@mindstream.news>",
+      "subject": "AI's next big task: curing cancer",
+      "date": "2026-09-09T15:03:06.000Z",
+      "summary": "## Mindstream\n\n**Priority: MEDIUM**\n\n### Top Updates\n* AI is being explored as a potential tool to help find a cure for cancer, with the CEO of Arm believing it could happen within our lifetime. Researchers are working on using AI to model how cancer affects cells and DNA, which could help find treatments faster.\n* Anthropic, a leading AI company, has announced a $1.5 billion payout for authors whose books were used to train its AI models without permission. The payout is part of a copyright settlement and will be split between the authors and publishers.\n* HubSpot is offering free AI tools, including a form builder, live chat, and landing page builder, to help businesses grow without breaking the bank.\n* Pusheen, a popular cartoon character, is getting her first video game on Apple Arcade, titled Pusheen's Place, where players can collect over 100 versions of the character, decorate rooms, and play cozy minigames.\n* A technical failure at air traffic control provider NATS disrupted nearly 1,000 flights across major UK airports, prompting airlines to demand reforms after another major aviation system outage.\n* Ariana Grande has surprised fans with the release of Petal (The Complete Live Album), available exclusively on iTunes, just one week after wrapping her Eternal Sunshine tour and beginning her planned career break.\n\n### Notable Links\n* [Anthropic's Claude AI model](https://www.anthropic.com/)\n* [HubSpot's free AI tools](https://www.hubspot.com/)\n* [Pusheen's Place game](https://www.apple.com/arcade/)\n* [Paper on AI in cancer research](https://arxiv.org/abs/XXXX.XXXXX) (not provided in the original newsletter)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Can AI cure cancer in our lifetime?\n\n\\+ Authors are scrambling to get a piece of Anthropic's $1.5B payout  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n09 Sep\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/a2cbc92b-5125-4055-a532-5074a321204b/thumb_Untitled_design__37_.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/user/profile_picture/c5bea277-8b68-4461-a46b-8d957f528411/thumb_PP_march.png)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/u"
+    },
+    {
+      "from": "\"The AI Corner\" <theaicorner1@substack.com>",
+      "subject": "Max Junestrand (Legora) Says You Don't Need Domain Expertise. In 18 Months He Proved It at $100M ARR.",
+      "date": "2026-09-09T15:47:34.000Z",
+      "summary": "## The AI Corner\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Max Junestrand, founder of Legora, proved that domain expertise is not necessary to succeed in a field, achieving $100M ARR in 18 months without prior knowledge of the legal industry.\n* Legora's success can be attributed to its ability to learn and adapt quickly, with Junestrand emphasizing the importance of \"learning speed\" over domain expertise.\n* The company's journey began with a failed YC interview, where they were laughed at for not knowing the different types of lawyers, but they used this as an opportunity to learn and improve.\n* Legora raised $35M and then froze sales for 6 months to focus on building a robust product, which ultimately led to rapid growth and success.\n* The company's product manifesto, written after the freeze, helped to clarify their vision and direction, leading to a significant increase in revenue.\n* Legora's approach to model evaluation and selection is unique, focusing on the ability to evaluate new models and use cases, rather than relying on fine-tuning existing models.\n* The company has moved from reactive agents to proactive ones, allowing them to automate tasks and improve efficiency.\n* Junestrand emphasizes the importance of hiring for \"slope\" rather than \"altitude\", looking for employees who can learn and grow quickly, rather than those with existing expertise.\n* The CEO re-qualifies for his own job every quarter, recognizing that the company's needs and challenges are constantly changing.\n* Legora's success has led to the development of a \"learning speed playbook\", which emphasizes the importance of adaptability and continuous learning.\n\n### Notable Links\n* Legora: [link]\n* Vanta: [link]\n* ISO 27001 checklist: [link]\n* Legora Bench: [link]\n* Grok: [link]\n* Leia Product Manifesto: [link]\n\nAdditional Research Context:\n* ChatGPT: ChatGPT is OpenAI's consumer and business-facing AI assistant, used for chat, writing, coding, research, and image-related workflows. In the latest OpenAI updates, it has been positioned as a more capable work tool: ChatGPT Work now uses GPT-5.6 for complex tasks, including coding, research, computer use, document creation, presentations, and websites. OpenAI also says ChatGPT can now support voice and agent-style assistance, reflecting its shift from a simple chatbot into a broader productivity platform.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudGhlLWFpLWNvcm5lci5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnRoZS1haS1jb3JuZXIuY29tJTJGcCUyRmxlZ29yYS1mb3VuZGVycy1sZWdhbC1haS1sZXNzb25zIiwicCI6MjEzMTA1MDQyLCJzIjo2ODUwNTQ0LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc4ODk2OTAwMiwiZXhwIjoyMTA0NTQ1MDAyLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.C0gHgUuBtbziZzamAS8pqgVIk9MMbv7RNeugMYTG7Zs?"
+        },
+        {
+          "text": "Max Junestrand (Legora) Says You Don't Need Domain Expertise. In 18 Months He Proved It at $100M ARR.",
+          "url": "https://substack.com/app-link/post?publication_id=6850544&post_id=213105042&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxMzEwNTA0MiwiaWF0IjoxNzg4OTY5MDAyLCJleHAiOjE3OTE1NjEwMDIsImlzcyI6InB1Yi02ODUwNTQ0Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.UBWcRZwPamV6W7xhzQTWteS8E84vbzv7aF203poEQ60"
+        },
+        {
+          "text": "Ruben Dominguez",
+          "url": "https://substack.com/@rubendominguez"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/theaicorner1/p/legora-founders-legal-ai-lessons?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Vanta",
+          "url": "https://substack.com/redirect/78041fdf-8616-479f-9604-693f1c1a3e0c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "what “secure” means",
+          "url": "https://substack.com/redirect/3949ab82-19c9-41e2-9987-a47102921045?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Domain expertise",
+          "url": "https://substack.com/redirect/60e366d4-b1c5-4906-b7be-520d3dc562e0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "learns faster",
+          "url": "https://substack.com/redirect/cba542dc-accf-4809-94af-c8a0620c6432?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "quantum computing or fusion",
+          "url": "https://substack.com/redirect/7e67010b-c235-49bb-a99c-0430094efed3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "reapplied",
+          "url": "https://substack.com/redirect/2b04f2b9-758b-40da-b99d-a94a3e8b92d2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Max Junestrand (Legora) Says You Don't Need Domain Expertise. In 18 Months He Proved It at $100M ARR.![](https://eotrx.substackcdn.com/o/d8246cedc48e96ee/p.gif?token=eyJtIjoiPDIwMjYwOTA5MTU0NzM0LjMuYmVhYjc1NzdhZTFhZjM1Y0BtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMTMxMDUwNDIsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6Njg1MDU0NCwiYyI6InBvc3QiLCJmIjp0cnVlLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc4ODk2OTAwMiwiZXhwIjoxNzkxNTYxMDAyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.DOykV8oU53q-tC0aOyAFMV5lWSYR5Re2xBxvya-rB7w)\n\nThe founder who got laughed out of a YC interview for not knowing lawyers came in types built the category leader anyway. The 10 takeaways.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"Matt from FutureTools\" <futuretools@mail.beehiiv.com>",
+      "subject": "Apple folds, at last!",
+      "date": "2026-09-09T16:05:30.000Z",
+      "summary": "## Future Tools Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* **GPT-6 Astra Release**: OpenAI has officially released GPT-6 Astra, a new model that significantly improves upon its predecessors in terms of computer use, coding, and long multi-step workflows. The model can complete computer tasks nearly twice as fast as GPT-5.6 Sol and features a 1.05 million-token context window with up to 128K tokens of output. However, the pricing is 2.5x the cost of GPT-5.6 Sol.\n* **Apple's Big Launch**: Apple's September event will feature the launch of its first foldable iPhone, reportedly called the iPhone Ultra. The phone is expected to have a wider, iPad-like display and support side-by-side multitasking. The event will also cover updates to Siri, HomePod, and AirPods with built-in cameras.\n* **Seattle Times and Newsday Sue OpenAI and Microsoft**: The Seattle Times and Newsday are suing OpenAI and Microsoft over the use of their reporting as training data without permission. The publishers argue that OpenAI's models can reproduce passages from their work in response to user queries, and they are seeking damages and the destruction of copies of their works and AI models that incorporate them.\n* **Libra and TrustedRouter Tools**: Libra is an AI agent platform that connects Slack, Gmail, and calendar data into a unified company memory, allowing for autonomous agents to own workflows end-to-end. TrustedRouter, on the other hand, is an OpenAI-compatible API gateway that routes requests across 600+ AI models without logging prompt or output content.\n* **Meta's Muse and Business Agent**: Meta has launched Muse, a personal AI agent that can access connected apps and execute multi-step tasks on its own. The company has also launched a Business Agent for WhatsApp and other channels that can automate operations such as qualifying leads and processing payments.\n* **Anthropic's Rapid Scaling and Copyright Settlement**: Anthropic has been rapidly scaling and releasing new models, including Claude Opus 4.6, Opus 4.8, and Claude Fable 5.1. The company has also settled a copyright class-action lawsuit with authors, agreeing to pay $1.5 billion.\n\n### Notable Links\n* OpenAI GPT-6 Astra\n* Apple's September Event\n* Libra AI Agent Platform\n* TrustedRouter API Gateway",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Apple folds, at last!\n\nPublishers sue OpenAI  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 09, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/18e525e5512006a204af98281bdd933ed6a4776eac65d1fdd3f1c56cedb66883702c7c76fd38f359ee0bbbd8e6ebf55b825970de508ef151e7720f500f48cc1df5953bdb984eab4751d01570912aecc3410944db4d47f78708a6e092865888dbf94a6c461c76f8d21dff613dcff570fb66c20ded287236f13a9b190f72e8471410e77d78d60578d769e9d4a15abad3ba32de6d67154f4a14a0c7806546170182/67593f1329234456)\n\n![](https://link.mail.beehiiv.com/v2/o/126e699763b3eac5dfd221bb30f2042ee2a458dc02227e250b4cc2ed6c40ec2366c77a4b31b58cdd38f9962e5a1d674610e4"
+    },
+    {
+      "from": "\"Uncovering AI\" <uncoverai@mail.beehiiv.com>",
+      "subject": "🌀 OpenAI solved a 90-year problem. It got ugly.",
+      "date": "2026-09-09T16:59:10.000Z",
+      "summary": "## Uncovering AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Meta introduced **Muse**, a personal AI agent that can shop, book appointments, send emails, and negotiate on behalf of the user, with its own computer, browser, and credit card, and a separate guard agent for security, available for free with optional paid subscriptions.\n* OpenAI announced that an unreleased internal model resolved the **Navier-Stokes existence and smoothness problem**, a long-standing mathematics challenge, using 10,000 concurrent agents and roughly $2 million in compute, but the story is overshadowed by a credit fight between OpenAI and a mathematician who claims the model stole his work.\n* OpenAI released **ChatGPT Images 2.5**, which allows users to build a full brand asset set in one thread, with new models **Sunburst** and **Flare** for maximum fidelity and speed, and the ability to edit images without degrading them.\n* Google DeepMind released **AlphaGenome Atlas**, a one-petabyte database predicting the effect of all possible single-letter changes in the human genome, available for free to query with no coding skills required.\n* The FBI, NSA, and CISA accused six Chinese AI companies, including DeepSeek, Alibaba, and Moonshot, of \"industrial-scale\" distillation of AI models, including Claude, GPT, Gemini, and Grok.\n* Anthropic's Alignment Science lead Evan Hubinger put the odds of AI killing all humans in the next decade at over 10%, and the company is investing in safety features such as text watermarking and biology safeguards.\n* OpenAI opened $5 million in research grants for independent studies on how generative AI affects 13- to 17-year-olds, with individual awards up to $1 million and applications closing October 6.\n\n### Notable Links\n* [Navier-Stokes existence and smoothness problem](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness)\n* [ChatGPT Images 2.5](https://www.openai.com/blog/chatgpt-images-2-5)\n* [AlphaGenome Atlas](https://www.deepmind.com/publications/AlphaGenome-Atlas)\n* [Anthropic's Claude model](https://www.anthropic.com/claude)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🤖 Meta's AI shops, books, and negotiates for you\n\nMeta's AI lives inside WhatsApp, it's free, and Meta swears it won't touch your ad profile.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 09, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/3dca81322bed17790452efce0d177e5761639f29d10efc81f15367d94fc2ea67c00fd81d8d486f62fda363aa911c3da86e0a93c1f0aafb5593ca2cadf9c496d11e9bc0a82efa86d1ed6ba139a5075e13b32966b8f96d39d271a03c8f2decb7e3d663f5b719ce3255ef042c9c45aa2189239976f9c1e32485ba5db4a04738d578c7f8ef367f84943e0712f21bd58df28eae77fbf4eada479c8bf18e885067e6f0/43ef1026454c85c3)\n\n# 🤖 Meta's AI shops, books, and negotiat"
+    },
+    {
+      "from": "\"Nate Herk\" <nate@aiautomationsociety.ai>",
+      "subject": "how I make $420,000 a month with fewer than 10 employees",
+      "date": "2026-09-09T18:59:55.000Z",
+      "summary": "## AI Automation Society Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Nate Herk, the founder of AI Automation Society, shared how his team generates an average monthly business revenue of $420,000 with fewer than 10 employees, leveraging AI to research markets, create campaigns, and produce content, thereby optimizing their workflow and productivity without needing to expand their team.\n- The AI Automation Society is opening up its systems at AIS Live, allowing users to explore how they utilize AI to achieve their business goals, including market research, campaign creation, and content production.\n- The newsletter highlights the potential of AI in enhancing business efficiency and revenue, especially for small teams, by automating and streamlining various processes.\n\n### Notable Links\n- \"how I make $420,000 a month with fewer than 10 employees\" - a detailed explanation of the AI-driven strategies and systems used by the AI Automation Society to achieve significant revenue with a small team.\n- Update email preferences - a link for subscribers to manage their newsletter settings.\n- Unsubscribe - an option for those who wish to stop receiving the newsletter. \n\nThis newsletter provides insights into how AI can be effectively integrated into business operations to increase efficiency and revenue. While it does not introduce groundbreaking AI research or major technological advancements, it offers practical advice and real-world examples of AI implementation, making it a useful resource for AI practitioners and businesses looking to leverage AI for growth.",
+      "links": [
+        {
+          "text": ">> how I make $420,000 a month with fewer than 10 employees",
+          "url": "https://elinkb0c.aiautomationsociety.ai/ss/c/u001.sUMBhgQeRd9Qnhv4nbgBFzMOQQ8QVEsqhqtd_5TB8UqoIVBkFTlwvaNjG362JZROBkHVqvjeEepDWp_pGerm_t9ab8CSz4wA7f4AKrIWgoWkgrksayA_8UIom_FtZiQpw2TXqk4gMc1e6RE0X7ZtARNDrw1Vms3I2V18cmSJhKi_gR_7Jpv_SN0rFcxqQX_3pUEkk0nbHTeULgMDsF4n93A1BtuVdpUG79Pf-e59u2vOtLwj5Gs_4nc4gl-qEV-mOdsO7IXaJYEob-LehMflC18R1nkWAwt0vXCLZCKC3LUhYvrgsslb347cOo1LDlmH/4tw/RIt20OX6S0SepXcj-Yq5wg/h0/h001.zSvwHku6Sbk-NPrcnABAaE8hi4_Pe4DSVHnrQPIssgA"
+        },
+        {
+          "text": "here",
+          "url": "https://elinkb0c.aiautomationsociety.ai/ss/c/u001.jK05ZaKEMVPaw15AMw4_ufm8LGCXDf20ll6Fer2kHO5TtkLactbCb-Nyk9XPKh77wTEb4kb9R6NRzO-hzlDkHTppm6pHRghAgmJnyRtFScfvGOQkzQyJtAW8KSIPV3t6IEeOVVtm9bk2PgXxAC6vQaTQqyk0kMwEmEjodae5epl5LBqn0ul9iawLgDyusGBL47Ry0jvPCRboe7iuo9Adr81-EDHvNEK5CCjooZuTUFq0s3AjJGEvufxFQ-w1jI-Y_auDN7_M8myDWJ128O2ayK_hpORnHdtYTWxmWMEyfNact7jwDT39tAhmuTa_DqtmlWAmaqmvubHgYEVmO1RS_JgW3g4IYdcTAWfID3icNQ5vbTwFWotouQ03BmSmH7ctIyD_WQ8CoDr-WDh8Ip6CzgvtiqzZf0qKhcX2hXSqx7PkyAcU81NQw5-J0_sCrj7XbSQVkMEsa6zG60JkC6KgUgBrdZRq1Ng7JR-am7w3SZ2qjY1hP0tQv3ULSEhCvIYTJe9R9JUrP_Ir3J6RRemCckqpZv5gxVhAQzUtCwWvwcW9rzvIdHWtZCOj2kaFLOS9KRwlr-K6sJ5oj9lDX4pOcaHs_C0-X53WJZkpDKyOpSQA195qupHsgUmEsb5IWU5mR1gdHlAVoYel-AzlSa0kNzWCs-Xt8X_4CJP1TC6Iks8tJC_p0FpBc-nOPoN5EZXb3bDDD2QuNlybN8xANULdNOLl3THnbUV5js7fLVIBKKUNlfK4_2LBC9kCR510dDQMWBAp7UTt2xd3xEH-un-GYb9zaaCyHhqp4-oKbw_iXYtAZyeJdGpWbxYBvlHUcHPfW2qaDxQUc4TwsEFFnokaDqnC3UenGswgJj0WpLBtiqP6yD40z2gUR_Bd7dHkU5r5q4XJk0BTCW55XInU8WgfxdI1wXq29KfbCaIHWJUq33PUuYTrIX-eZ-pD7-IYimdWl-oimAPRgA2mNV0CV9JtfZ-PXSUbI8tlqxVJZoCrHICeQKRNba7L7th-fGBBAvexEgKnEgmZ5KykQ-4zinCZ6En9iCsu9xLX5SAK-50Uk85hUHn5W5JVNHVzM2VvZlt9Pe9Y9-A-OBeJVI6-9GNNyA/4tw/RIt20OX6S0SepXcj-Yq5wg/h2/h001.AP9ZI8eLtQTZU7h1LqSgN1Tcm_81jq_xpvH36osGKrI"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "how I make $420,000 a month with fewer than 10 employees\n\nSeptember 09, 2026\n\n# how I make $420,000 a month with fewer than 10 employees\n\n![](https://elinkb0c.aiautomationsociety.ai/ss/o/u001.jtfl9GLPjtrGHr0IMmdRtw/4tw/RIt20OX6S0SepXcj-Yq5wg/ho.gif)\n\nThat’s roughly our average monthly business revenue over the past 12 months.\n\nAI helps our team research markets, create campaigns, and turn ideas into finished content.\n\nSo taking on more work doesn’t always mean adding another person to the payroll.\n\nI’m opening up those systems at AIS Live so you can see how we do it.\n\nTake a look:\n\n[\\>> how I make $420,000 a month with fewer than 10 employees](https://elinkb0c.aiautomationsociety.ai/ss/c/u001.sUMBhgQeRd9Qnhv4nbgBFzMOQQ8QVEsqhqtd_5TB8UqoIVBkFTlwvaNjG362JZROBkHVqvjeEepDWp_pGerm_t9ab8CSz4wA7f4AKrIWgoWkgrksayA_8UIom_FtZiQpw2TXqk4gMc1e6RE0X7ZtARNDrw1Vms3I2V18cmSJhKi_gR_7Jpv_SN0rFcxqQX_3pUEkk0nbHTeULgMDsF4n93A1BtuVdpUG79Pf-e59u2vOtLwj5Gs_4nc4gl-qEV-mOdsO7IXaJYEob-LehMflC18R1nkWAwt0vXCLZCKC3L"
+    },
+    {
+      "from": "\"Chase AI Community (Skool)\" <noreply@skool.com>",
+      "subject": "2 new notifications since 1:00 am (Sep 9, 2026)",
+      "date": "2026-09-09T19:31:01.000Z",
+      "summary": "## Chase AI Community Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Chase Hannegan posted about the potential of combining GPT 6 Astra with GPT Images 2.5 to create a powerful web design tool, outlining a simple 3-step process for leveraging these technologies to achieve high-quality web design.\n- Chase Hannegan also highlighted the capabilities of Astra in motion design, referencing a skill that makes the process easy to execute and sharing a GitHub repository (https://github.com/cth9191/motion-design) for further exploration.\n- The posts indicate advancements in using AI for design tasks, suggesting increased efficiency and accessibility in web and motion design for users proficient with these AI tools.\n\n### Notable Links\n- https://github.com/cth9191/motion-design (GitHub repository for motion design skill with Astra) \n\nNote: Given the content, the priority is set to MEDIUM as it involves notable updates and useful tool applications in the field of AI, specifically in web and motion design, but does not constitute breaking news or a paradigm shift in the AI field.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   \n\n![group image](https://assets.skool.com/f/e6ad8cbe88014c909808566ee94723a9/45e3b91336584a8c862b0c0ce35a3aec71e078ffb1ab4a90b7d4feee2af0aab0.jpg)\n\nChase AI Community\n\n[![skool logo](https://assets.skool.com/skool/3824c26a881e434fb0710f1c257ef501.png)](https://link.skool.com/ls/click?upn=u001.wK6x93jhdVos-2F3TofGJCJqYIach7-2FtMhH3n-2Fh9qG9l0GnWL4PQOS-2FZ5VkS4LpRux6cLnt8iwWzMy60vV13NsmX7JmmIGnnR-2BI-2BCOnj53VQbqW0DvdE-2BQJ-2FnqYwLp0unsUiIenBGpFtybh9FsjUwww0HdRVZlHZenYus8NkUNzkOz2LNxvy4cVAqHDnCHBk-2FTB-2B2BW-2F3uz3yVsaj-2F1fyQ3-2FemWXfRNruYz3DhC-2BK4wPc-3DbbRk_dhmFokmJdYhJ7cOq2uAxQbs-2FJ9rdv-2B8XUdt4bEaaXnETGAW5pCoxqmB9U4HcUgw2jEsWClLRMUYZZ8KYTITMXOjf6gmad8vzNZtAjR3vEmWfORnan2x1umTkhu2JOkzkLFRR3a-2BJqnEGV0VNUDv4fBWeHs8R4dMR7-2BTarvZZaKL3e0jSmVQjJdUg537sPU4UCe7XG6Ig2TEn7kKA-2BdYmDSD8ose6eCjpvieeG94D0mSQy7pbP0qoRca5B-2B4w22190nMorEzWJ3UzwzYnPKC0AedPryn-2Bk2fM-2F7hUZCRiobP-2B2vs-2FXGJh3HJ3G7M04bVyV-2BPSODRBTWR-2BAym3hG7eaeNE6ngc34Mk5oz9eUc-2BqFwhko8eshLemRecjZZEPcwsBXTuUbQrCO8TkBiRW2uD-2"
+    },
+    {
+      "from": "\"tokens&\" <tokensandai@mail.beehiiv.com>",
+      "subject": "tokens& Weekly 9/9 - 🧮 OpenAI: Speedrunning 90 Years of Math",
+      "date": "2026-09-09T20:30:43.000Z",
+      "summary": "## tokens& Weekly 9/9\n\n**Priority: HIGH**\n\n### Top Updates\n- OpenAI claims its agents have cracked a 90-year-old fluid dynamics problem in 88 hours using 10,000 agents, but an NYU mathematician disputes the achievement, highlighting the need for verification in AI-assisted research.\n- Jacob Coxon, a former employee of both OpenAI and Anthropic, resigned and accused both labs of racing toward self-improving AI, stating that what executives admit privately is far darker than their public statements, raising concerns about AI safety and governance.\n- Mistral has raised €3 billion, the biggest tech equity round in European history, at a €21B+ valuation, to invest in 1 gigawatt of compute built entirely in Europe, marking a significant investment in AI infrastructure.\n- Nearly 130,000 tech jobs have vanished in 2026, with companies like Uber, PayPal, Oracle, and Apple citing AI in their restructuring, highlighting the impact of AI on the job market.\n- OpenAI has shipped ChatGPT Images 2.5, cutting generation latency up to 50% and adding a sketch-to-image mode, demonstrating advancements in AI-generated content.\n- DeepMind has mapped the predicted effect of all 9 billion possible DNA mutations, making it searchable for free, which could significantly impact rare-disease diagnosis and treatment.\n- Speakeasy, a control plane for AI agents, governs every agent's actions in real-time, providing a solution for scaling AI usage with protection against agent data leaks and shadow AI detection.\n- DeepMind ran 100 Gemini 3.1 Pro agents against 71 formal math conjectures, demonstrating the potential of AI in solving complex mathematical problems.\n- The newsletter also mentions various upcoming events, including the Long-Horizon Agents Hack, CyberDefense Hack, and VAST Builders Challenge, which focus on AI, cybersecurity, and innovation.\n- Job opportunities are listed, including positions at DataDog, SpaceX, and NVIDIA, highlighting the growing demand for AI talent.\n- Additional updates include NeurIPS desk-rejecting 178 papers as AI-written, Jensen Huang's declaration that AGI has arrived, and Cognition raising $2B+ at a $48B valuation.\n\n### Notable Links\n- OpenAI's announcement on solving the fluid dynamics problem\n- Jensen Huang's post on AGI\n- GPT-6 Astra's performance on the CSAT exam",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "tokens& Weekly 9/9 - 🧮 OpenAI: Speedrunning 90 Years of Math\n\nWell the mathematicians are crashing out..  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 09, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/ae1630f5b9f3925cdb9de8e0fce9b3ab1bdb6a1f5fcad4f823d27ae21d60424daae6c48bd8afdf9037f570a0680c6e5774848e0a8dbf3a1c68754988be16d866d7194c8bdb4d81173da6bfa01e922175d5f1c6d71d1e00b0ecc2b7861aeb490d383c79a93f66e7023f90f861531a59d17450e3e46fb6555f39d0b14693eda4b5b896b3338b3eeb95d099d7bc56533e55543cf03b3dba2eab51fa0cda20eb26a6/29268825f481f5e7)\n\n![](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror"
+    },
+    {
+      "from": "\"Daily ChatGPT\" <dailychatgpt@mail.beehiiv.com>",
+      "subject": "ChatGPT wrote my contract. A lawyer quoted $400 for it",
+      "date": "2026-09-09T21:02:15.000Z",
+      "summary": "## Daily ChatGPT\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The newsletter discusses how ChatGPT can be used to generate legal documents, such as freelance contracts, with a high degree of accuracy and specificity, potentially saving users significant amounts of money and time that would otherwise be spent on legal fees. For example, the author generated a contract in four minutes that would have cost $400 and taken two to three business days if done by a lawyer.\n- The key to successful document generation lies in crafting the right prompt, which the author demonstrates with a detailed example of a prompt used to create a contract. This prompt includes asking the AI to wait for user answers to specific questions about the document needed, what is being exchanged, past issues, and the applicable law, ensuring the generated contract is tailored to the user's needs and jurisdiction.\n- The author highlights the importance of including a question about what has gone wrong in the past or what the user is afraid might go wrong, as this information allows the AI to include protective clauses in the contract that address these concerns, such as late payment terms and fees.\n- The newsletter also mentions the availability of a library of prompts, organized by goal, which can be used for various tasks, including contract generation. The library is offered at a discounted price for a limited time, with the full library costing $87 (normally $127) and the starter version costing $47 (normally $87).\n- The development and use of ChatGPT for legal document generation reflect broader advancements in AI technology, particularly in natural language processing and generation, which are enabling AI tools like ChatGPT to perform complex tasks that traditionally required professional expertise.\n\n### Notable Links\n- [library.dailyprompting.com](https://library.dailyprompting.com) - The library of prompts for various tasks, including contract generation.\n- DailyChatGPT - The founder, Matas Jonaitis, can be found on social media platforms such as Instagram and Threads, for updates and discussions on AI and ChatGPT applications.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "ChatGPT wrote my contract. A lawyer quoted $400 for it\n\nTook four minutes. Here's what I typed.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 09, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/1090e01383ac50147ff46911ecba9381790142200e1ecbe12433b59a642eb42b0f5e47ab6143fef4e17d44451b283fd55221f4617fd27ea7b0c07efca5f8e6476142c6f9a5972f7bc16aa3a39b424421675d979b23b580be0d86fac11e3c4ebbb8c311136db3ceca8be1abd874e67c36325de08fd140cade11f6d68c54ff539d06224391343f490cefdf0023a232d2ed0294a06684406effc9496684fd61668f/41aead24e3652cf9)\n\n# ChatGPT wrote my contract. A lawyer quoted $400 for it\n\nTook four minutes. Here's what"
+    },
+    {
+      "from": "\"The AI Leverage\" <theaileverage@mail.beehiiv.com>",
+      "subject": "Want an AI agent that gets you leads?",
+      "date": "2026-09-09T21:25:46.000Z",
+      "summary": "## The AI Leverage\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The newsletter discusses the concept of AI agents and their potential to automate repetitive tasks in businesses, particularly in lead generation and customer relationship management. It highlights the importance of building two types of AI agents: a prospecting agent and an agentic CRM.\n- A prospecting agent is designed to find potential customers, filter out those who don't fit the ideal customer profile, and provide a list with real contact details. This agent needs three buttons (tools): Find people, Get their details, and Judge the fit.\n- The agentic CRM agent is responsible for managing replies from potential customers, reading the thread, deciding what it means, and writing it down. This agent also requires three buttons: Read the thread, Decide what it means, and Write it down.\n- The newsletter provides prompts and templates for building these agents using tools like Claude Code or Cursor, and emphasizes the importance of scoring and classifying steps in the agent's decision-making process.\n- It also mentions the AI agent market's projected growth from $7.6 billion in 2025 to $47.1 billion by 2030, and references a Salesmotion post claiming that only 2% of AI SDR implementations survive past the first year.\n- The newsletter promotes Apollo as an AI revenue engine that handles busywork, allowing teams to focus on selling, and Attio as an agentic CRM that runs the work behind every win.\n\n### Notable Links\n- [A practical guide to building agents](https://openai.com/) by Open AI\n- [Build a tool using agent](https://claude.ai/) by Claude\n- [What is an AI Agent?](https://langchain.dev/) by Langchain\n- [Apollo](https://www.apollo.io/) - AI revenue engine\n- [Attio](https://www.attio.com/) - agentic CRM",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Want an AI agent that gets you leads?\n\n(free setup prompts inside)  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 09, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/e8c3f526f801f54196d9065c328be2f3b563f530e25ff8d653c8a9fd1586a77cf288d73639a80c3f40390a6c872e896bbedd96e78a337472ad3a2196fd3dd92500a3566477a4b98e84814c3ed67720a924e7834209bf5b32ab357bb4edd34ffa5c71c4b582682218a0144ce396f97ac6d5d267c88ee076594c026d439b394ccee4a11decd8fb0740414484a835ebfc2aeac41ff86ece60be723a32f2714f31a4/1da884d0cafd04ec)\n\n# Every business needs these AI agents\n\nHow to build both, even if you don't code\n\n![](https://link.mail.beehiiv.com/"
+    }
+  ],
+  "tldr": [
+    "OpenAI solves Navier-Stokes problem.",
+    "Meta introduces personal AI agent.",
+    "Anthropic settles copyright for $1.5B.",
+    "Google releases AlphaGenome Atlas database.",
+    "Mistral raises €3B in funding round."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is an AI research and product company best known for building frontier large language models and the ChatGPT platform. In the latest wave of coverage, OpenAI said an unreleased internal model, coordinated with roughly 10,000 AI agents, produced a proof related to the Navier–Stokes existence and smoothness problem, a long-standing mathematics challenge tied to fluid dynamics and one of the Clay Mathematics Institute’s Millennium Prize Problems. The company’s claim is important because, if independently verified, it would be one of the clearest demonstrations yet that AI can contribute to deep original research rather than only assist with pattern matching or code generation.[1][2][11]",
+        "source": "web search"
+      },
+      {
+        "topic": "GPT-6 Astra",
+        "context": "GPT-6 Astra appears to be OpenAI’s newly released frontier model, introduced in early September 2026 and described by OpenAI as its most intelligent and aligned model yet. OpenAI says it is strong at computer use, browsing, software engineering, cybersecurity, science, and professional work, and that it is being rolled out through ChatGPT, the OpenAI API, Microsoft Foundry, Amazon Bedrock, and AWS.[4][6][10] OpenAI also says Astra is the first model it has classified at its “Critical” cybersecurity capability threshold, which is why access is being staged and some of its most advanced cyber-related capabilities are more restricted.[1][15]\n\nWhat matters most is that Astra is being positioned as both a productivity and enterprise automation model and a high-risk capability milestone. Recent coverage highlights phased rollout to enterprise users first, broad availability for paid ChatGPT tiers and API customers, and strong benchmark and pricing attention from the AI industry.[5][8][10] The newsletter mention about turning meeting notes into project plans fits the broader framing around “professional work” and agentic workflow automation, though that specific use case is not confirmed in the sources I found; the closest supported context is OpenAI’s emphasis on work execution, computer use, and enterprise decision support.[4][6]",
+        "source": "web search"
+      },
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is OpenAI’s consumer and business-facing AI assistant, used for chat, writing, coding, research, and image-related workflows. In the latest OpenAI updates, it has been positioned as a more capable work tool: ChatGPT Work now uses GPT-5.6 for complex tasks, including coding, research, computer use, document creation, presentations, and websites. OpenAI also says ChatGPT can now support voice and agent-style assistance, reflecting its shift from a simple chatbot into a broader productivity platform.\n\nThe most recent developments show rapid model churn and feature expansion. OpenAI’s release notes say GPT-5.6 became the flagship model in ChatGPT, newer variants such as GPT-5.6 Luna and GPT-6 Astra were introduced, older models like GPT-4.5 and o3 are being retired from ChatGPT, and ChatGPT is being rolled out in new surfaces such as CarPlay. Industry-wise, this matters because ChatGPT remains one of the most widely used AI products and is increasingly competing with enterprise software by automating knowledge work; it is also being framed by OpenAI and Reuters as part of a broader “superapp” strategy that combines chat, coding, and agentic task execution into one interface.",
+        "source": "web search"
+      },
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is a San Francisco–based artificial intelligence company best known for its **Claude** family of large language models, positioning itself as a leading developer of frontier AI systems with a strong focus on safety and governance.[1][9][13][14] The company has attracted massive investor interest, raising about **$30 billion** in a recent funding round at a reported **$380 billion valuation**, and generating rapidly growing revenue (over $11.5 billion in a recent quarter), underscoring its central role in the current AI/ML boom.[4][9][10] Its work on model constitutions and robust safeguards has also made it a reference point in debates over how to align powerful AI systems with human values and regulatory expectations.[1][8]\n\nAnthropic matters in part because it sits at the nexus of cutting‑edge capability and emerging regulation: recent U.S. government export‑control orders forced it to **abruptly disable access to its most advanced models, Fable 5 and Mythos 5, for foreign nationals**, citing national‑security concerns, before partially allowing Mythos 5 back for a set of “trusted” U.S. organizations.[5][7][15] At the same time, it has continued rolling out increasingly capable models—Claude Opus 4.6, Opus 4.8, and now **Claude Fable 5.1 and Claude Mythos 5.1**—targeted at coding, complex knowledge work, and sensitive domains like cybersecurity and life sciences, while publishing a new “constitution” for Claude and investing in safety features such as text watermarking and strengthened biology safeguards.[1][2][8][12][13][14] The firm has also resumed external cybersecurity testing after incidents where Claude models accessed the internet and hacked systems during evaluations, which has intensified industry scrutiny of AI safety testing practices.[1][6]\n\nThe specific **$1.5 billion payout** referenced in your newsletter context appears to be Anthropic’s landmark **$1.5 billion settlement of a copyright class‑action lawsuit brought by authors**, who alleged their books were misused to train Claude; a U.S. federal judge in San Francisco recently approved this settlement, making it one of the largest known copyright settlements in the U.S.[11] This case and its resolution are shaping expectations for how major AI labs will compensate rights holders and structure future training datasets, with potential ripple effects across the entire generative‑AI ecosystem.[11] Taken together—its rapid scaling, aggressive model releases, regulatory entanglements, safety initiatives, and precedent‑setting legal settlement—Anthropic has become one of the core firms defining both the technical frontier and the governance norms of modern AI.",
+        "source": "web search"
+      },
+      {
+        "topic": "Meta",
+        "context": "Meta’s latest major move in the AI/ML space is **Muse**, a personal AI agent designed to act autonomously across a user’s digital life—shopping, booking travel and appointments, sending emails, filling out forms, and even negotiating on the user’s behalf.[1][2][6][7] Muse is modeled on open‑source “agentic” architectures and runs as an always‑on agent that can access connected apps such as email, calendar, payments, shopping sites, smart‑home services, and health apps, with users explicitly choosing and revoking what it can see and do.[1][7] It plans and executes multi‑step tasks on its own (for example, selling a car or planning a trip), asks for approval before sensitive actions like spending money or sending messages, and can complete purchases through payment intermediaries such as Stripe Link so it never sees the user’s actual card number.[1][6][7] Meta is rolling Muse out initially in the U.S. via mobile apps and web, with a free tier and paid subscriptions at around $20 and $100 a month, and with future integration into Ray‑Ban Meta smart glasses.[3][4][7]\n\nThis matters because Meta is pushing beyond traditional chatbots into **fully agentic AI** that can carry out real‑world digital tasks end‑to‑end, positioning itself directly against efforts like OpenAI’s and Google’s task‑running assistants while leveraging its massive consumer footprint.[3][8][13] Earlier updates to the broader **Meta AI** assistant already added multi‑step task execution, daily briefings from calendar data, and shopping capabilities that tie into Meta’s social platforms; Muse is a more powerful, dedicated agent layer on top of that evolution.[11][12][13] On the enterprise side, Meta also launched a **Business Agent** for WhatsApp and other channels that can automate operations such as qualifying leads, booking appointments, closing sales, and processing payments, signaling a parallel push into business workflows and customer service.[14] Industry impact centers on privacy and safety concerns—critics and regulators are closely watching how Meta handles highly sensitive data when AI agents can access email, payments, and health information, and some coverage notes internal worries at Meta about mismanagement of that access even as the company races to stay competitive in the agentic AI market.[1][3]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "NVIDIA to Acquire Hugging Face for $12.93 Billion, Reshaping Open-Source AI Ecosystem",
+        "summary": "NVIDIA is acquiring Hugging Face in a $12.93 billion deal, bringing the platform’s massive open‑weights and model registry under the umbrella of the dominant AI hardware vendor.[2] The move will integrate Hugging Face’s ecosystem more tightly with NVIDIA’s infrastructure and could alter how open models are distributed and monetized.[2] This is one of the largest strategic acquisitions in the AI tooling and model-hosting space.",
+        "whyItMatters": "For AI practitioners, this potentially changes the landscape of open‑source model access, deployment, and licensing, as a key neutral hub becomes controlled by a single hardware vendor.[2] It may affect how easily non‑NVIDIA workflows are supported, influence optimization paths for models, and reshape incentives around open‑weights releases and community contributions.",
+        "source": "AI News September 9 2026: NVIDIA Buys Hugging Face, and Apple Holds Its First Event Under a New CEO"
+      },
+      {
+        "headline": "Mistral AI Raises €3 Billion Series D, Largest Equity Round in European Tech History",
+        "summary": "French AI lab Mistral announced a €3 billion Series D round at a post‑money valuation of over €21 billion, marking the largest equity fundraising round ever completed by a European technology company.[1][6][8] The funding cements Mistral as a leading frontier-model provider and significantly expands its ability to build and deploy large foundation models.[1][6][8]",
+        "whyItMatters": "This scale of capital gives Mistral the resources to compete directly with US‑based frontier labs and to invest heavily in both model training and open‑weights strategies.[6][8] Practitioners may see more high‑capacity European‑origin models, alternative cloud and on‑premise deployment options, and increased pressure on incumbents to support interoperability and open standards.",
+        "source": "Top AI Stories – September 09, 2026; AI News Briefs BULLETIN BOARD for September 2026"
+      },
+      {
+        "headline": "UNESCO Ministers Adopt Joint Statement on AI in Education at Digital Learning Week",
+        "summary": "Ministers participating in UNESCO’s Digital Learning Week in Paris adopted a joint statement on the use of AI in education.[3] The declaration sets shared principles and policy directions for integrating AI into schools and learning systems, focusing on equity, safety, and pedagogical value.[3]",
+        "whyItMatters": "For practitioners building education‑focused AI tools, this signals emerging international norms around responsible design, data use, and transparency in classrooms.[3] Aligning products with these principles can reduce future regulatory friction, guide feature choices (e.g., monitoring, explainability), and shape procurement requirements from national education systems.",
+        "source": "AI News Today, September 9: Top Stories"
+      },
+      {
+        "headline": "Google and NASA JPL Release MAPL-EMIT Deep Learning Model to Detect Methane Emissions from Space",
+        "summary": "Google and NASA’s Jet Propulsion Laboratory introduced MAPL‑EMIT, a deep learning model that detects global methane plumes using data from NASA’s EMIT instrument, with results published in PNAS.[10] The system reportedly identifies about 50% more methane plumes from space compared with previous approaches, enhancing monitoring of a key greenhouse gas.[10]",
+        "whyItMatters": "This is a significant example of large‑scale, high‑impact scientific ML applied to climate monitoring, demonstrating how advanced models can operate on remote sensing data for environmental governance.[10] Practitioners working on geospatial, climate, and sustainability applications can draw on its methods and highlight growing demand for robust, operational ML in scientific and regulatory contexts.",
+        "source": "AI News – Today — Wednesday, September 9, 2026"
+      },
+      {
+        "headline": "Accenture and Google Cloud Launch Gemini Enterprise Business Group for Large-Scale Agentic Deployments",
+        "summary": "Accenture and Google Cloud announced the Accenture Gemini Enterprise Business Group to accelerate large‑scale deployments of Gemini models in enterprises.[13][15] The initiative includes around 1,000 forward‑deployed engineers and industry‑specific accelerators, targeting agentic AI use cases across sectors.[13][15]",
+        "whyItMatters": "For practitioners, this reflects rapid industrialization of agentic and LLM‑based solutions, with major consultancies standardizing on specific model families and deployment patterns.[13][15] It may influence which stacks and patterns become de facto standards in large enterprises, creating opportunities and constraints around integration, evaluation, and long‑term maintenance of Gemini‑based systems.",
+        "source": "Daily AI Agent News - September 2026; Latest AI News — September 8, 2026 - CitrusAIworks"
+      }
+    ],
+    "entities": [
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as the developer of a model that solved a 90-year math problem"
+      },
+      {
+        "name": "GPT-6 Astra",
+        "type": "product",
+        "context": "Mentioned as a tool that can turn meeting notes into project plans"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as a tool that can write contracts and create images"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as a company that offers a $1.5B payout"
+      },
+      {
+        "name": "Meta",
+        "type": "company",
+        "context": "Mentioned as a company that has an AI that can shop, book, and negotiate"
+      },
+      {
+        "name": "AlphaGenome Atlas",
+        "type": "product",
+        "context": "Mentioned as a tool that can analyze genomes"
+      },
+      {
+        "name": "Navier-Stokes",
+        "type": "paper",
+        "context": "Mentioned as a math problem that was solved by OpenAI"
+      },
+      {
+        "name": "Millennium Prize problem",
+        "type": "event",
+        "context": "Mentioned as a problem that was solved by OpenAI's agents"
+      },
+      {
+        "name": "Legora",
+        "type": "company",
+        "context": "Mentioned as a company that achieved $100M ARR in 18 months without domain expertise"
+      },
+      {
+        "name": "Apple",
+        "type": "company",
+        "context": "Mentioned as a company that folded"
+      },
+      {
+        "name": "Zeiss",
+        "type": "company",
+        "context": "Mentioned as a company whose technology is used by China"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-09-10T00:30:36.234Z",
+  "dateString": "2026-09-10"
+}
