@@ -167,6 +167,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-company-knowledge]] — workplace-RAG ChatGPT over Slack/Drive/SharePoint/GitHub/Gmail *(stale)*
 - [[chatgpt-health]] — OpenAI's consumer health assistant (symptom guidance, lab-report reading, clinician review) *(stale)*
 - [[chatgpt-images-2]] — OpenAI's Apr 2026 image-gen upgrade; reasoning step before generation; non-Latin language support *(stale)*
+- [[chatgpt-for-financial-services]] — OpenAI's Sep 2026 vertical ChatGPT-Work edition with PitchBook + Crunchbase + LSEG data baked in for valuation models + pitch decks
 - [[chatgpt-for-teens]] — OpenAI's Aug 2026 age-segmented ChatGPT for users 13-17; powered by GPT-5.6 Luna + parental controls + auto-switch via age-prediction system + verify-age path
 - [[chatgpt-go]] — OpenAI's $8/mo ChatGPT entry-paid tier; launched globally Jan 2026 *(stale)*
 - [[chatgpt-tasks]] — OpenAI's scheduled-tasks hub inside ChatGPT — one-off + recurring tasks; replaces Pulse (sunset within 14 days); agent-on-a-schedule shift (Jun 2026)
@@ -232,6 +233,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[diffusion-gemma]] — Google's diffusion-based Gemma-family variant; first surfaced TLDR AI 2026-06-11-evening + second-cohort NLP Newsletter digest 2026-06-14-morning
 - [[deepseek-v3-2]] — DeepSeek V3.2 matches GPT-5; V3.2-Speciale rivals Gemini 3 Pro w/ IMO/IOI/ICPC gold *(stale)*
 - [[deepseek-v4]] — DeepSeek's Apr 2026 frontier MoE family (V4-Pro + V4-Flash); open-sourced; triggers AI-pricing collapse *(stale)*
+- [[deepseek-v4-1-flash]] — DeepSeek's Sep 2026 efficient open-weight MoE (552B total / 8-16B active); ~33× cheaper than GPT-6 Astra; 98% of Astra score at 1.4% cost; edges Claude Opus 5 + GPT-5.6 Sol on agentic/coding/cyber benchmarks; native image understanding
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
 - [[dig-bench]] — agent benchmark measuring rule-discovery-through-experimentation; 70 text-based games (21 publicly released, ~49 held for anti-contamination) (Aug 2026)
 - [[dyna-2]] — Dyna Robotics's world-action model pre-trained on 1M+ hours of human video; 87% real-world zero-shot pass rate on unseen robot hardware; scaling-laws-for-robotics anchor (Aug 2026)
@@ -377,6 +379,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nvidia-pair]] — NVIDIA's Sep 2026 free Virtual Inference Router that turns idle RTX GPUs (+ DGX Spark + Apple M4+ devices) on a home/local network into a distributed personal AI compute cluster
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
 - [[astra-next]] — OpenAI's Sep 2026 unreleased successor to GPT-6 Astra; "significantly more capable"; produced OpenAI's claimed Navier-Stokes Millennium Prize proof via 10,000-agent swarm × 88 hours × 130B tokens × >$40M compute; ~50% vs Astra's ~10% on internal difficult-math benchmark
+- [[openai-agents-api]] — OpenAI's Sep 2026 developer public-beta bringing the Codex harness (context management + tool use + subagent coordination + multi-day reliability + file/code/intermediate-result execution environments) to third-party developers
 - [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; formally designated "critical" cybersecurity-capable AI (weights locked + sandbox-restricted), split-flagship pair to [[openai-doug]]; internal version solved 10 previously-open math problems (Aug 2026)
 - [[openai-bel]] — OpenAI's 10T-parameter pre-training run; foundation-tier substrate for GPT-6 / Astra; pre-training reported complete (Aug 2026)
 - [[ox-alpha]] — Anonymous free reasoning model surfacing on OpenRouter Aug 2026; 1M context / 131K output / text+image+video; 8/10 deterministic DeepSWE subset (beats Fable 5 + GLM-5.3 + Grok 4.6 + GPT-5.6 Sol); GLM-5V-Turbo tokenization fingerprint suggests Zhipu-AI-adjacent origin
