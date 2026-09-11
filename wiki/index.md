@@ -304,6 +304,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding *(stale)*
 - [[gpt-bidi]] — OpenAI's pre-launch bidirectional voice architecture for ChatGPT voice mode; first surfaced via AI Breakfast (Jun 2026)
 - [[gpt-image-1-5]] — OpenAI's Dec 2025 image-gen upgrade; 4× faster, sharper detail, Likeness Retention *(stale)*
+- [[gpt-image-2-5]] — OpenAI's Sep 2026 image-gen successor to Images 2.0 — 50% lower latency + sharper editing + sketch + templates + shared-images canonical five-anchor feature-cluster (Sep 2026)
 - [[gpt-rosalind]] — OpenAI's first Life Sciences model; drug discovery, genomics, translational medicine (Apr 2026) *(stale)*
 - [[google-tpu-v8]] — Google's 8th-gen TPU; cost-efficient full-stack AI infra positioned against NVIDIA (Apr 2026) *(stale)*
 - [[grok-4-1]] — xAI's mid-Nov 2025 Grok upgrade; personality overhaul, EQ lead, top of LMArena *(stale)*
@@ -461,6 +462,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2.5 weeks away with longer clips + 4K imminent + Seedance 2.0 mini lower-cost variant released (Jun 2026)
 - [[self-harness]] — Shanghai AI Lab framework enabling an agent to autonomously rewrite its own operating harness (~60% perf boost); three-stage iterative loop (weakness mining → harness proposal → proposal validation) (Jul 2026)
 - [[shopify-sidekick]] — Shopify's AI-enabled commerce assistant embedded in the Shopify admin; voice + screen-sharing + 20 languages + action-execution (reports/segments/store-settings); trained via continual-learning-loop + daily fine-tuning + GRPO; "AI co-founder" framing (Sep 2026)
+- [[siri-ai]] — Apple's Sep 2026 generative-AI-rebuilt Siri — conversational assistant across iPhone/iPad/Mac/Watch/Vision Pro under Apple Intelligence; iOS 27 beta from Sep 14 with daily usage caps + future paid access; Gemini foundation-model backend (~1.2T params) via Private Cloud Compute (Sep 2026)
 - [[skild-s1]] — Skild AI's robot foundation model; in-context learning of 10-min robot tasks from a single demonstration video with no fine-tuning (Aug 2026)
 - [[slack-code]] — Slack's Aug 2026 shared-room coding surface — AI agents author code while human teammates watch/steer/direct across teams; live previews + human-approval gate for deploy
 - [[snap-specs]] — Snap's $2,195 standalone AI AR glasses for the post-phone era; 51° FOV, 7ms latency, two Snapdragon chips, contextual AI (Jun 2026)
