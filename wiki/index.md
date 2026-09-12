@@ -477,6 +477,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[tabfm]] — Google's zero-shot foundation model purpose-built for tabular data; enables spreadsheet analysis/summarization/transformation/quality checks without task-specific training (Jul 2026)
 - [[tabicl]] — Inria/SODA Team's open-source tabular foundation model; two-stage distribution-aware column embedding + row-wise attention; TabICL v2 SOTA on TabArena (Jul 2026)
 - [[tabpfn]] — Prior Labs' Nature-paper tabular foundation model; transformer trained on synthetic tabular tasks; outperforms XGBoost/AutoGluon on ≤10K-sample datasets with ~1000× speedup (Jul 2026)
+- [[tailwind-css]] — utility-first CSS framework; ~110M installs/week; used by ChatGPT, Reddit, X, Cloudflare; acquired by [[shopify]] (via Tailwind Labs) Sep 2026; remains MIT-licensed open source
 - [[tesla-megapod]] — Tesla's modular AI data center hardware system; self-contained compute pod bundling servers/networking/power/cooling; bid into AI-infrastructure-vendor market against NVIDIA DGX
 - [[terafab]] — Tesla + SpaceX jointly-developed AI chip factory in Grimes County, Texas outside Houston; $16.8B initial investment; logic + memory chips for Optimus + Cybercab + SpaceX orbital DCs; >100M sq ft + 3,000+ employees (Aug 2026)
 - [[timesfm-3]] — Google's Sep 2026 zero-shot multivariate time-series foundation model; 330M params, pretrained on 1T time points; #1 on GIFT-Eval + FEV-Bench + TIME; non-commercial license; on Hugging Face + GitHub
