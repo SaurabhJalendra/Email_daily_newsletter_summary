@@ -507,6 +507,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agentic-ai-foundation]] — Linux Foundation project for open agentic-AI standards; OpenAI/Anthropic/Block + MCP *(stale)*
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser *(stale)*
 - [[akrites]] — Linux Foundation + tech-giants cross-vendor initiative to protect critical open-source software from AI-powered cyberattacks (Jul 2026)
+- [[ai-as-normal-technology]] — Narayanan + Kapoor Sep-14-2026 essay proposing a middle ground between AI-safety-community and cybersecurity-community views on loss-of-control incidents; Guidelight AI-control-standards; "AI control should become a job" canonical framing
 - [[ai-chatbot-dark-patterns]] — CDT 37-pattern taxonomy of deceptive/manipulative chatbot-UX behaviors; first chatbot-UX-as-regulatory-surface artifact (Jun 2026)
 - [[ai-cybersecurity-arms-race]] — first AI-built zero-day in wild, Daybreak/Mythos/MDASH defender platforms, Mini Shai-Hulud worm (May 2026)
 - [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals *(stale)*
