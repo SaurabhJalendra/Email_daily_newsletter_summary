@@ -498,10 +498,12 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[vercel-eve]] — Vercel's open-source agent framework; durable execution + sandboxed compute + approvals + subagents + evaluations; "production infrastructure for AI agents" (Jun 2026)
 - [[wispr-flow]] — voice-dictation + AI-editing product letting devs prompt agents in [[cursor]] / VS Code / JetBrains ~4× faster than typing; Bloomberg-reported $260M @ ~$2B Menlo Ventures lead (Jun 2026)
 - [[world-action-models]] — NVIDIA's model family for robot manipulation with generalization beyond training scenes; part of NVIDIA physical-AI stack alongside [[isaac-groot]] + [[alpamayo]] (Aug 2026)
+- [[xcode-27]] — Apple's Sep 2026 Xcode release with model-agnostic coding agents + workflow customization + Device Hub for unified device management
 - [[zcode]] — [[zhipu-ai]]'s cross-platform (macOS/Windows/Linux) agentic-coding IDE; ships with [[glm-5-2]] tuned specifically for ZCode's plan → code → review → deploy loop (Jul 2026)
 - [[zero-language]] — Vercel Labs' Jul 2026 experimental language storing programs as a graph database (not text); agents patch nodes not text; <10 KiB native binaries; borrow-checker; structured JSON compiler errors with stable codes; version-pinned `zero skills` command
 
 ## Topics
+- [[aef-1-standard]] — voluntary Sep 2026 standard from the AI Evaluator Forum defining minimum operating conditions for independent third-party AI evaluations (access, COIs, autonomy, transparency, sensitive-info protection); co-signed by [[xai]] + [[openai]] + [[anthropic]]
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
 - [[agent-harness]] — Latent Space canonicalizes *harness = everything besides the model weights that makes an agent work (environment + tools + context + guardrails)* + three-era framework: Bolt-On 1.0 → Co-Training 2.0 → Attention 3.0 (Aug 2026)
 - [[agentic-ai-foundation]] — Linux Foundation project for open agentic-AI standards; OpenAI/Anthropic/Block + MCP *(stale)*

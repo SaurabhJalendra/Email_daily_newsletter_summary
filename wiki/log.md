@@ -2,6 +2,28 @@
 
 Append-only chronological record of all wiki edits. Newest entries at the top.
 
+## 2026-09-15-evening
+**Ingested**: data/summaries/2026-09-15-evening.json (5 newsletters — AINews MEDIUM "AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign" + Anna's Daybreak News MEDIUM "Mail Ballot Block, Power Play and Tumor Escape Blocked" (partial: only Jensen Huang AI-in-farming + DIT AgTech signal in scope; mail-ballot/EPA/Abbott/xanthelasma off-scope) + The Rundown AI MEDIUM "👎 Trump, China both shoot down the AI slowdown" + Evolving AI Insights HIGH "🇺🇸 Trump: Only Guardrail AI needs is a High-IQ President" + TLDR MEDIUM "Siri AI 📱, Zuckerberg profile 🧍‍♂️, Xcode 27 👨‍💻" (Zuckerberg profile off-scope; Xcode 27 + iOS 27 Siri AI + Nvidia/Palantir restrictions in scope))
+
+**Pages updated**:
+- [[anthropic]] — AEF-1 co-signed alongside xAI + OpenAI + first-in-wiki concrete embedded-third-party-evaluators-with-desks-badges-company-laptops canonical anchor (employee-like access commitment) + first-in-wiki concrete Anthropic-authored three-step slowdown plan canonical anchor + first-in-wiki concrete Nvidia + Palantir + Booz Allen enterprise-restriction canonical anchor cluster + Palantir zero-data-retention gating condition
+- [[openai]] — AEF-1 co-signed alongside xAI + Anthropic + first-in-wiki concrete Glass Imaging $300M+ acquisition canonical anchor (ex-Apple Portrait-Mode founders now doing AI photo-sharpening) + enterprise-restriction pushback from Nvidia/Palantir/Booz Allen + first-in-wiki concrete Musk-drops-Apple-continues-OpenAI antitrust-lawsuit-status canonical anchor pair + OpenAI-matches-Anthropic-steps including outside-evaluator access
+- [[xai]] — first-in-wiki concrete xAI-side third-party-evaluator-governance co-signature canonical anchor via [[aef-1-standard]] alongside OpenAI + Anthropic
+- [[nvidia]] — first-in-wiki concrete NVIDIA-restricts-Anthropic + OpenAI-models-on-proprietary-work canonical customer-side pushback anchor + concrete-Nemotron-preferred-for-proprietary-workloads own-model-substitution anchor + Jensen Huang concrete-AI-in-farming productivity-and-efficiency canonical framing + concrete DIT AgTech livestock-production-AI investment canonical anchor
+- [[palantir]] — first-in-wiki concrete Palantir-side zero-data-retention gating condition on shipping Anthropic + OpenAI models inside Palantir software; operationalizes multi-cycle Karp data-harvesting/ownership-and-control critique into concrete-product-gating enforcement
+- [[apple]] — [[xcode-27]] with model-agnostic coding agents + Device Hub canonical productization anchor + concrete Siri-AI-can-be-swapped-for-Claude-or-ChatGPT user-facing rival-model-substitution canonical anchor + concrete Musk-drops-Apple-antitrust-lawsuit canonical anchor (case continues vs OpenAI only)
+- [[microsoft]] — first-in-wiki concrete Microsoft-AI Code-of-Conduct for MAI model family canonical published-artifact anchor + concrete Mustafa Suleyman-attributed "Humanist AI" named-vision canonical anchor + concrete "keep models subordinate to people" + "not to hack systems or deceive humans" two-clause directive canonical anchor pair
+- [[siri-ai]] — sharpens 09-15-morning "potential hooks for Claude and ChatGPT" anticipatory framing into concrete-user-facing-model-swap canonical productization tier; canonicalizes Siri AI as actively-supports-rival-frontier-lab-model-substitution tier rather than Gemini-locked-in tier
+- [[ai-pace-letter]] — evening restatement adds concrete Trump "hoax" verbatim-quote canonical anchor (alongside 09-15-morning "SICK conspiracy") + concrete Beijing "fear-mongering" concrete-state-quote canonical anchor + concrete Anthropic-published three-step-plan artifact tier + concrete OpenAI-matches-including-outside-evaluator-access parallel-adoption canonical anchor + [[aef-1-standard]] as concrete industry-standard-artifact of the Amodei-slowdown arc
+
+**Pages created**:
+- [[aef-1-standard]] — voluntary Sep 2026 standard published by the AI Evaluator Forum defining minimum operating conditions for independent third-party AI evaluations across five principles: sufficient access + resources, minimized COIs, analytic autonomy, transparent methods/results, and sensitive-info protection; co-signed by xAI + OpenAI + Anthropic on 2026-09-15
+- [[xcode-27]] — Apple's Sep 2026 Xcode release with model-agnostic coding agents (BYO model like [[siri-ai]] can be swapped for Claude/ChatGPT), workflow customization, and Device Hub for unified developer-device management; positions Apple's IDE as canonical answer to [[claude-code]] + [[cursor]] + [[jules]] within Xcode itself
+
+**Notable**: The evening cycle's dominant pattern is *concrete-industry-standard-artifact-plus-enterprise-pushback twin substrate cluster* — AEF-1 formalizes the third-party-evaluator layer with three frontier labs co-signing on the same day that Nvidia + Palantir + Booz Allen publicly restrict those same labs' models over data-retention concerns. The Musk-Apple antitrust drop leaves OpenAI as sole-remaining Musk-antitrust-target on the ChatGPT-default-on-Apple-devices arc. Microsoft-AI's Code of Conduct + Humanist-AI vision joins the mid-Sep-2026 published-governance-artifact cluster alongside Anthropic's three-step plan and OpenAI's automated-shutdown productization. Watch for: (i) additional AEF-1 co-signers (Google DeepMind, Meta, Mistral, Chinese labs), (ii) enterprise-customer-pushback expanding beyond Nvidia + Palantir + Booz Allen to more Fortune 500 restrict-frontier-labs framings, (iii) whether the Anthropic three-step plan formally aligns with the AEF-1 evaluator commitments.
+
+---
+
 ## LINT 2026-09-13 (week 2026-W37)
 
 **Lint actions**:
