@@ -196,6 +196,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-haiku-4-5]] — Anthropic's fast, low-cost coding model *(stale)*
 - [[claude-managed-agents]] — Anthropic's fully-managed agent runtime; composable APIs for cloud-hosted agents + Ultraplan (Apr 2026)
 - [[claude-marketplace]] — Anthropic's enterprise marketplace for Claude-powered third-party tools (Mar 2026) *(stale)*
+- [[claude-money]] — Anthropic personal-finance product (Sep 2026, in preparation) — link bank accounts, ask Claude about spending/plans/financial questions
 - [[claude-mythos]] — unreleased Anthropic Claude tier above Opus 4.7; release delayed over cybersecurity risk
 - [[claude-mythos-5-1]] — Anthropic's Sep 2026 restricted-access twin of Claude Fable 5.1; same underlying model with more-permissive safeguards; invitation only via Project Glasswing for cybersecurity + life-sciences work
 - [[claude-opus-4-5]] — Anthropic's Nov 2025 flagship; 80.9% SWE-bench Verified; T2 Retail 88.9% / Telecom 98.2% *(stale)*
@@ -378,7 +379,9 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nvidia-avo]] — NVIDIA's Agentic Variation Operators general-purpose coding-agent architecture; achieved perfect 100.00 on ARC-AGI-3 (183 levels / 25 environments) powered by Claude Opus 5 using ~12% fewer actions than the prior leader (Aug 2026)
 - [[nvidia-pair]] — NVIDIA's Sep 2026 free Virtual Inference Router that turns idle RTX GPUs (+ DGX Spark + Apple M4+ devices) on a home/local network into a distributed personal AI compute cluster
 - [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
+- [[artemis]] — Google's Sep 2026 open-source tool letting AI assistants + test suites drive real Android phones from natural-language instructions (`github.com/google/artemis`)
 - [[astra-next]] — OpenAI's Sep 2026 unreleased successor to GPT-6 Astra; "significantly more capable"; produced OpenAI's claimed Navier-Stokes Millennium Prize proof via 10,000-agent swarm × 88 hours × 130B tokens × >$40M compute; ~50% vs Astra's ~10% on internal difficult-math benchmark
+- [[atria-dawn]] — Shanghai AI Lab's Sep 2026 744B agentic MoE (open weights) built on GLM-5.2 with Verifiable Experience Pipeline for grounding tool use in executable environments; claims to rival Claude Opus 5
 - [[openai-agents-api]] — OpenAI's Sep 2026 developer public-beta bringing the Codex harness (context management + tool use + subagent coordination + multi-day reliability + file/code/intermediate-result execution environments) to third-party developers
 - [[openai-astra]] — OpenAI's next-generation multi-agent frontier model family; formally designated "critical" cybersecurity-capable AI (weights locked + sandbox-restricted), split-flagship pair to [[openai-doug]]; internal version solved 10 previously-open math problems (Aug 2026)
 - [[openai-bel]] — OpenAI's 10T-parameter pre-training run; foundation-tier substrate for GPT-6 / Astra; pre-training reported complete (Aug 2026)
@@ -478,6 +481,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[tabicl]] — Inria/SODA Team's open-source tabular foundation model; two-stage distribution-aware column embedding + row-wise attention; TabICL v2 SOTA on TabArena (Jul 2026)
 - [[tabpfn]] — Prior Labs' Nature-paper tabular foundation model; transformer trained on synthetic tabular tasks; outperforms XGBoost/AutoGluon on ≤10K-sample datasets with ~1000× speedup (Jul 2026)
 - [[tailwind-css]] — utility-first CSS framework; ~110M installs/week; used by ChatGPT, Reddit, X, Cloudflare; acquired by [[shopify]] (via Tailwind Labs) Sep 2026; remains MIT-licensed open source
+- [[tau]] — Hugging Face's Sep 2026 open-source terminal-native coding agent — reads files, edits code, runs commands, keeps durable session history (`github.com/huggingface/tau`)
 - [[tesla-megapod]] — Tesla's modular AI data center hardware system; self-contained compute pod bundling servers/networking/power/cooling; bid into AI-infrastructure-vendor market against NVIDIA DGX
 - [[terafab]] — Tesla + SpaceX jointly-developed AI chip factory in Grimes County, Texas outside Houston; $16.8B initial investment; logic + memory chips for Optimus + Cybercab + SpaceX orbital DCs; >100M sq ft + 3,000+ employees (Aug 2026)
 - [[timesfm-3]] — Google's Sep 2026 zero-shot multivariate time-series foundation model; 330M params, pretrained on 1T time points; #1 on GIFT-Eval + FEV-Bench + TIME; non-commercial license; on Hugging Face + GitHub
