@@ -333,6 +333,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[iphone-duo]] — Apple's Sep 2026 first foldable iPhone; $1,999 starting price; 7.6-inch inner display + 5.4-inch outer; A20 Pro chip + C2 modem; preorders Oct 16 / sales Oct 23; first flagship designed from outset around Apple Intelligence + Siri AI + Visual Intelligence stack
 - [[isaac-groot]] — NVIDIA's research-grade humanoid robot reference design (Unitree H2 body + Blackwell GPU); US/Europe/South Korea partners (Jun 2026)
 - [[jetson-thor]] — NVIDIA's Blackwell-powered edge modules (T3000 + T2000) for robotics, visual AI, and agent workloads on compact edge systems (Jul 2026)
+- [[jev]] — Diogo Almeida's Sep 2026 decision-making AI model — can't hallucinate; typed decisions with confidence scores; ~400× cheaper than ChatGPT/Claude; built for high-volume automation
 - [[jules]] — Google's coding agent; CLI and API *(stale)*
 - [[kat-coder-v2-5]] — Kwaipilot two-tier coding-agent model family on OpenRouter: Pro V2.5 ($0.74/$2.96 per M, 256K ctx, native tool calling, structured outputs) + Air V2.5 ($0.15/$0.60 per M with free variant) (Jul 2026)
 - [[kimi-k2-5]] — Moonshot AI's 1T MoE + 400M MoonViT multimodal agentic model with Agent Swarm (Jan 2026) *(stale)*
@@ -344,6 +345,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
 - [[k2-horizon]] — MBZUAI's Sep 2026 fully-open model fleet — six models spanning 0.9B → 375B parameters; Abu Dhabi's flagship open-weights contribution
 - [[kimi-work]] — Moonshot AI's Windows/macOS desktop agent — local files + browser automation + multi-step web tasks; 24/7 automation tier alongside [[chatgpt-work]] and [[claude-cowork]] (Jul 2026)
+- [[koa]] — Salesforce + NVIDIA Sep 2026 enterprise reasoning model post-trained on NVIDIA Nemotron 3 Super for sales/marketing/customer-support; alternative to Claude and ChatGPT
 - [[kumorfm]] — Nvidia's tabular foundation model; models relational data as graphs of interconnected tables for zero-shot predictions across complex enterprise schemas (Jul 2026)
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
 - [[laguna-s]] — Poolside AI's open-weights foundation-model family; Laguna S 2.1 = 118B MoE / 8B active params / 1M context, cheaper than Deepseek v4 Flash; candidate for "strongest American open-weight model" (Jul 2026)
@@ -410,6 +412,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-spark-1-3]] — Meta's Sep 2026 flagship — matches [[gpt-5-6]] Sol on coding+agentic, #3 world on AAII, "almost too cheap to meter" pricing, canonicalizes Meta Superintelligence as newest Frontier Lab
 - [[muse-video]] — Meta's first generative video model with native synchronized audio; text/image/existing-footage → short clips; closed beta (Aug 2026)
 - [[meta-muse-agent]] — Meta's Sep 2026 always-on personal AI agent with its own cloud browser; text-message-style UI + Gmail/Spotify/OpenTable integration + booking/emails/shopping; muse.ai + iOS/Android/WhatsApp/AI-glasses quintuple-surface
+- [[meta-one]] — Meta's Sep 2026 paid tier across Facebook/Instagram/WhatsApp — $2.99–$499/month bundle of expanded Meta AI usage + creator tools; monetizes Muse-family models following $14.3B Scale AI investment
 - [[muse-voice-transcribe]] — Meta's Sep 2026 live speech-to-text model in the Muse family — production-ready ASR with 20+ speaker tracking; sixth Muse-family substrate (voice)
 - [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer for [[no-code-ai-automation]] cohorts wiring LLM APIs + agents into business SaaS (Jul 2026)
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*
@@ -423,6 +426,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nvidia-cosmos]] — NVIDIA's physical-AI foundation models (Cosmos 2.5 GA, 3 inbound) *(stale)*
 - [[nvidia-ising]] — NVIDIA's open AI models for quantum computing; Ising Calibration + Verification automate quantum-processor workflows (Apr 2026) *(stale)*
 - [[nvidia-motionbricks]] — NVIDIA's real-time AI character-motion framework; 350K+ motion skills with low latency for game animation (Jun 2026)
+- [[odyssey-3]] — Odyssey's Sep 2026 general-purpose world model that controls robot arms + humanoids + self-driving cars + drones + games from a single substrate
 - [[openai-codex]] — OpenAI's Codex-as-superapp (ChatGPT + Atlas + Codex) *(stale)*
 - [[openai-for-healthcare]] — OpenAI's HIPAA-compliant enterprise health offering *(stale)*
 - [[openai-frontier]] — OpenAI's Feb 2026 enterprise AI-Employee platform (personas + skills + memory) *(stale)*
