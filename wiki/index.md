@@ -7,6 +7,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[adobe]] — creative-software giant; Firefly AI Assistant across 6 apps
 - [[ai2]] — Allen Institute for AI nonprofit; PreScience open scientific-forecasting benchmark + LACERScore Feb 2026 *(stale)*
 - [[ai-automation-society]] — Nate Herk's Skool-hosted AI-automation community (100K+ own-reported / ~305K–420K third-party members, 2K+ paying Plus); n8n + Claude Code education; first hackathon launched Aug 1 2026 with $6K prizes + beginner track (Aug 2026)
+- [[agility-robotics]] — humanoid-robotics vendor; ships Digit humanoid for factory/warehouse work; Digit 5 unveiled Sep 2026 (50-lb payload + swappable end-effectors + 9-min recharge + >20h/day + unfenced human-robot collaboration + >65K production hours + >$300M multi-year orders + Toyota + EU/UK expansion + anticipated SPAC listing)
 - [[alfred-robotics]] — stealth robotics-software startup at $40M valuation; Sam Altman invests via Hydrazine Capital alongside Khosla Ventures + SV Angel (Jun 2026)
 - [[ai21-labs]] — Israeli foundation-model lab; Jamba family; NVIDIA reported $3B acquisition talks Jan 2026 *(stale)*
 - [[alibaba]] — Qwen model family; Qwen3-Max-Thinking 100% AIME 2025; Quark S1 Smart Specs; 14.2% China open-AI share *(stale)*
@@ -237,6 +238,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek-v4-1-flash]] — DeepSeek's Sep 2026 efficient open-weight MoE (552B total / 8-16B active); ~33× cheaper than GPT-6 Astra; 98% of Astra score at 1.4% cost; edges Claude Opus 5 + GPT-5.6 Sol on agentic/coding/cyber benchmarks; native image understanding
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
 - [[dig-bench]] — agent benchmark measuring rule-discovery-through-experimentation; 70 text-based games (21 publicly released, ~49 held for anti-contamination) (Aug 2026)
+- [[digit-5]] — Agility Robotics' Sep 2026 next-gen humanoid; 50-lb payload + swappable end-effectors (paddle/pincher/claw/five-finger) + 9-min recharge + ~90-min runtime + >20 working h/24 + unfenced cooperatively safe operation + early access H1 2027 → broader end-2027
 - [[dyna-2]] — Dyna Robotics's world-action model pre-trained on 1M+ hours of human video; 87% real-world zero-shot pass rate on unseen robot hardware; scaling-laws-for-robotics anchor (Aug 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
 - [[evals-skills]] — Hamel Husain + Shreya Shankar's free open-source eval skills bundle for coding agents; v2 launched Aug 2026 with new `error-discovery` + `start` skills; installs via `npx skills add ai-evals-course/evals-skills`
