@@ -185,6 +185,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-corps]] — Anthropic's paid AI-learning fellowship ($85K stipend); anthropic.com/claude-corps/fellow (Jun 2026)
 - [[claude-cowork]] — Anthropic's local-file agent for organizing digital work; anchor surface in PwC 30K-staff deployment (May 2026)
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
+- [[claude-docs]] — Anthropic's Sep 2026 beta document-authoring product surface bundled into the unified Claude app; competitive with Google Docs + Microsoft Word
 - [[claude-fable-5]] — Anthropic's June 2026 frontier Claude release; "Beats Opus" per TAAFT; introduces "Fable" as a new versioned Claude tier alongside Haiku/Sonnet/Opus/Mythos (Jun 2026)
 - [[claude-fable-5-1]] — Anthropic's Sep 2026 frontier successor to Claude Fable 5 — same $10/$50 base pricing, 75% cheaper cache reads ($0.25/M), ~25% typical / up to 45% agentic cost savings, doubled benchmark scores, coding+research focus, enterprise privacy mode, reduced safety false alarms
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills *(stale)*
@@ -207,6 +208,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-opus-5]] — Anthropic's Jul 24 2026 Opus-tier flagship — near-frontier at half the price of Fable 5 ($5/$25, 1M context), effort setting + Fast mode + automatic safety fallbacks to lower-tier models; new default on Claude Max; AA-Briefcase +150 Elo over Fable 5 at -20% Cost per Task
 - [[claude-science]] — Anthropic's Jul 2026 science hub — unified research platform (paper review + databases + figure-making + computing jobs) with result-provenance-tracking (traces every result back to code and data)
 - [[claude-skills]] — Anthropic's reusable capabilities + Agent Skills *(stale)*
+- [[claude-slides]] — Anthropic's Sep 2026 beta presentation-authoring product surface bundled into the unified Claude app; competitive with Google Slides + Microsoft PowerPoint
 - [[claude-sonnet-4-6]] — Anthropic's Feb 2026 mid-tier; Opus-class perf at 40% lower cost; 79.6% SWE-Bench *(stale)*
 - [[claude-sonnet-5]] — Anthropic's Jul 2026 mid-tier ("most agentic Sonnet yet"); 1M context, $3/M input + $15/M output (promo $2/$10), default for Free/Pro; adopted by Cursor + Cognition + Cline + FactoryAI + Perplexity + VS Code
 - [[claude-tag]] — Anthropic's multiplayer proactive persistent AI agent inside Slack as a shared team member; beta for Enterprise/Team customers (Jun 2026)
@@ -298,8 +300,10 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-5-5-cyber]] — OpenAI's cybersecurity-specialist variant of GPT-5.5; record 85.6% on CyberGym; for verified defenders via OpenAI Daybreak (Jun 2026)
 - [[gpt-5-6-cyber]] — OpenAI's Aug 2026 hacking-tuned GPT-5.6 variant inside expanded [[openai-daybreak]]; answers 95% of advanced cyberattack requests; vetted-defender access only
 - [[gpt-5-6]] — OpenAI's Jul 2026 flagship; Sol ($5/$30 pricing) / Terra (2× cheaper than GPT-5.5, balanced) / Luna (fast/low-cost); Thursday July 9 GA under "robust safety stack" + Terminal-Bench 2.1 SOTA
+- [[gas-town]] — Steve Yegge's coding-agent orchestrator; shut down Sep 2026 after Yegge admitted he had "never successfully built anything" with it despite thousands spent on subscriptions
 - [[gpt-live]] — OpenAI's Jul 2026 full-duplex voice model — listens + speaks simultaneously with mid-sentence handoff to larger models; rebuild of ChatGPT voice mode
 - [[google-ai-studio]] — Google's free playground for testing/comparing AI models incl. Gemini 3.5 Flash; side-by-side runs + prompt-builder; Google login (Jun 2026)
+- [[google-home-mcp]] — Google's Sep 2026 early-access Model Context Protocol server for Google Home; Claude + ChatGPT can control Nest cameras + thermostats + other smart-home devices
 - [[google-wikiskill]] — Google framework for persistent agent learning — co-evolves reusable agent skills alongside a persistent wiki that consolidates knowledge from previous experience (arXiv 2608.27454, Sep 2026)
 - [[googlebook]] — Google's Gemini-native premium AI laptop category; Magic Pointer AI cursor; ships fall 2026 *(stale)*
 - [[granola]] — AI notepad turning months of meeting notes into a searchable memory with cited answers; canonical *accumulation*-archetype [[ai-moats]] example (Jul 2026)
@@ -437,6 +441,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-prism]] — OpenAI's free AI-native workspace powered by [[gpt-5-2]] — converts whiteboard sketches into code + manuscript-context chat for researchers (Jun 2026)
 - [[openai-workspace-agents]] — OpenAI's Apr 2026 ChatGPT feature for shared team agents handling complex tasks + long-running workflows *(stale)*
 - [[open-fable]] — Zhipu AI's forecasted ~Dec 2026 open-weights Fable-class model; strategic open-source counter to the Fable/Mythos export-control regime (Jun 2026)
+- [[open-lovable]] — Firecrawl team's Sep 2026 open-source Lovable-clone; 28,000+ GitHub stars; requires Firecrawl + a model provider (Gemini/Anthropic/OpenAI/Groq) + Vercel sandbox to self-host
 - [[openclaw]] — open-source persistent assistant; team (incl. Steinberger) acquihired into OpenAI *(stale)*
 - [[openjarvis]] — open-source framework for a local personal AI assistant — local chat + document memory + tools (search/calculations) + Google Drive/Gmail connectors + voice I/O + scheduled agents; alpha status; Iron Man Jarvis as design metaphor (Aug 2026)
 - [[openrouter]] — Model-routing platform with unified API access to 400+ AI models across vendors; acquired by [[stripe]] for over $7B (Aug 2026)
@@ -535,6 +540,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[andrew-ng]] — Google Brain / Coursera / DeepLearning.AI co-founder; publishes AI Engineering Skills Map (4 core skill areas from 10K+ job posting analysis) + Coursera-backed LearnVector $100M; canonical mid-2026 educator for AI-engineering discipline (Aug 2026)
 - [[computer-use]] — models that drive GUIs directly; Aug 2026 [[hark-handoff]] launch adds consumer/lifestyle-tier entrant (food ordering, shopping, recruiting) alongside prior coding-agent + browser-agent tiers
 - [[continual-learning]] — Aug 2026 topic — models that keep learning from user interactions after deployment; Dwarkesh Patel's 8-prediction essay reframes AI-safety-regulation baseline + productizes user-lock-in as moat + shifts alignment methodology
+- [[deepmind-institute]] — Google DeepMind's Sep 2026 in-house think tank for AGI-preparedness research; directed by Demis Hassabis + Shane Legg + James Manyika; publishes on safe AGI development + economic/social effects + institutional adaptation
 - [[dwarkesh-patel]] — AI/tech interviewer and essayist; long-form Dwarkesh Podcast; canonical framer of the OpenAI 1,200-agent "Rise and Fall of Agent Civilizations" post-mortem + mid-2026 continual-learning thesis (Sep 2026)
 - [[ethan-mollick]] — Wharton professor / One Useful Thing author; "co-intelligence" framer; *Co-Existence* book Oct 20 2026
 - [[eu-ai-act]] — EU AI regulation; transparency obligations went into full enforcement across Europe Aug 2 2026; €47M in first fines to three companies; fines up to €15M or 3% of global turnover; some high-risk-system obligations deferred to 2027-2028 (Aug 2026)
