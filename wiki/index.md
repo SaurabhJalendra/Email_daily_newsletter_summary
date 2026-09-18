@@ -53,6 +53,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[greptile]] — Y Combinator–backed AI code review platform; full-codebase graph index + swarm of specialized AI reviewers; ships [[trex]] runtime-validation extension (Aug 2026)
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
 - [[h-company]] — computer-use agents on desktop + browser plugging into Claude Code, Cursor, and Hermes (Aug 2026)
+- [[hacktron-ai]] — ethical AI-assisted offensive-security research firm; used Anthropic's Claude to chain two OpenAI vulnerabilities and compromise multiple OpenAI-employee ChatGPT/Codex accounts (Jul 2026, $6,500 bounty)
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
 - [[helsing]] — German defense-AI startup; military autonomy software; $1.8B at $18B valuation Jul 2026 — Europe's biggest defense-tech round ever
 - [[higgsfield]] — AI video generation platform reportedly being acquired by [[stripe]] for over $7B (>5× valuation vs months prior); acquisition status pending vs adjacent OpenRouter-$7B framing (Aug 2026)
@@ -115,6 +116,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[slack]] — Salesforce-owned enterprise collaboration; Slack AI + RTS API + MCP server for third-party agents; anchor surface for [[claude-tag]] (Jun 2026)
 - [[softbank]] — Japanese investment group; OpenAI's largest single capital backer (Vision Fund + Stargate JV + ~11% stake); 2026-06-28 strategic-partnership announcement for AI infrastructure + telecom/enterprise deployment with [[openai]]
 - [[spacex]] — Musk's space company; xAI parent; S-1 filed at $1.7T (SPCX); orbital DCs + Anthropic Colossus 1 lease
+- [[speechmatics]] — UK speech-recognition vendor; ships [[linden-stt]] purpose-built for voice agents (Sep 2026) — 55+ languages, 350ms latency, 1000+ custom-word support, $0.30/hr
 - [[stripe]] — US payments infrastructure company; ships [[stripe-kai]] enterprise Knowledge AI Platform for employee data-warehouse queries + account research + incident triage + revenue modeling + compliance reviews (Jul 2026)
 - [[suno]] — Cambridge-based AI music-generation startup; $400M Series D at $5.4B led by Bond Capital (Jun 2026); Warner settled, Universal/Sony lawsuits ongoing
 - [[taalas]] — AI inference silicon startup — hardware designed around the model, world's fastest + most cost-effective inference silicon per own framing; acquired by [[amd]] (Aug 2026)
@@ -151,6 +153,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[amd-helios]] — AMD's first rack-scale AI system; deployed in Microsoft Azure with Meta/OpenAI/Oracle as early customers; NVIDIA GB200 NVL72 alternative (Jul 2026)
 - [[antigravity]] — Google's free agent-first VSCode-forked IDE built for Gemini 3 *(stale)*
 - [[antigravity-2]] — Google's I/O 2026 rebuilt parallel-agent desktop app + CLI + SDK powered by Gemini 3.5 Flash
+- [[apex-agents]] — Mercor's Sep 2026 AI Productivity Index for Agents — public leaderboard ranking frontier models by productivity on long-horizon multistep economically-valuable work
 - [[anthropic-fellows]] — Anthropic's AI-safety research fellowship; 4mo / $3,850/wk / ~$15K/mo compute / 40% hire + 80% papers (Jun 2026)
 - [[apple-m5]] — Apple's M-series (M5, M5 Ultra, M6) on-device AI silicon
 - [[audex]] — NVIDIA's 30B / 3B active MoE unified text + audio model — preserves text intelligence while adding broad audio generation and understanding (Jul 2026)
@@ -266,6 +269,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-7-flash]] — Google's Aug 2026 GA workhorse Flash-tier for coding + agents; 16-point DeepSWE jump + near-doubling AutomationBench; 1M context + tunable thinking; $0.75/$3.75 introductory pricing through Dec 31 2026 (doubles Jan 1 2027); third Flash release in three weeks
 - [[gemini-3-8-flash]] — Google DeepMind's Sep 2026 Flash-tier successor to 3.7 Flash — smaller/cheaper/faster with significantly boosted coding; internal testers prefer over Anthropic's Opus for coding; tested on Jetski internal-coding platform
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence *(stale)*
+- [[gemini-4-pro]] — Google DeepMind's next flagship Gemini (codename "argon"); internal-checkpoint leaked Sep 2026 (2M-token context, 2.4-min high-thinking-effort first output, October target)
 - [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella; grounded summarization + citation + multi-source synthesis with deeper Gemini-app + Google-Search integration (Jul 2026)
 - [[gemini-omni]] — Google's I/O 2026 conversational video model; any-input → editable video; "Nano Banana for video"
 - [[gemini-robotics-2]] — Google DeepMind's Jul 2026 single-model whole-body robot control; adapts to new hardware in hours + 89.6% precise-insertion success; ships with Gemini Robotics ER 2 embodied-reasoning planning-brain sibling
@@ -358,6 +362,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[laion-10m-hour-video]] — LAION's Aug 2026 open 10-million-hour video dataset for multimodal training; canonical mid-2026 largest-open-video-training-substrate
 - [[lamem-vla]] — dual-latent-memory-vault vision-language-action model; SOTA on long-horizon manipulation (97.6% LIBERO / 73.9% SimplerEnv-Bridge, +16.6pt over CogACT) (Jul 2026)
 - [[leanstral]] — Mistral's Jul 2026 open-source 119B-parameter theorem-proving + code-verification agent; 587/672 Putnam problems at "significantly lower cost"; verify proofs + test logic + catch errors before software ships (Jul 2026)
+- [[linden-stt]] — Speechmatics's Sep 2026 STT model purpose-built for voice agents; 55+ languages, 350ms latency, 1000+ custom-word jargon support, $0.30/hr ($0.15/hr discounted)
 - [[ling-3-0-flash]] — Ant Group's efficient AI-agent-powering model that "rivals systems 2-3× its size"; workload-optimized "Flash" SKU in the version-3 Ling line (Jul 2026)
 - [[longcat-2]] — Meituan's Jul 2026 open-source 1.6-trillion-parameter model — first publicly framed Meituan-frontier-AI-lab entrant; one of the largest publicly disclosed open-source parameter counts
 - [[longcat-avatar]] — Meituan's Aug 2026 open-source 13.6B photo+audio-to-talking-video model; long-form stability + lip sync; extends Meituan open-weights arc from LLM-tier into multimodal-video-generation-tier
@@ -474,6 +479,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[router-ramp]] — Ramp's Aug 2026 single-endpoint LLM aggregator across OpenAI/Anthropic/DeepSeek/xAI; benchmark/cost/difficulty routing; ~40% inference cost claim; free through 2026 + $26 launch credit
 - [[runway-dev]] — Runway's Jul 2026 developer API serving frontier video models + bundled third-party image and audio generators
 - [[runway-gen-4-5]] — Runway's text-to-video; tops Veo 3 and Sora on Artificial Analysis benchmark *(stale)*
+- [[safari-mcp]] — Apple's Sep 2026 WebKit-native MCP server shipped in Safari 27.0; lets any coding agent (Claude/ChatGPT/etc.) take control of the browser window
 - [[sakana-fugu]] — Sakana AI's multi-agent orchestration platform; behaves like single model from API consumer's perspective; claimed parity with Fable/Mythos (Jun 2026)
 - [[scrollcraft]] — Nate Herk's free Claude Code skill for transforming ordinary landing pages into premium scroll-driven websites; interviews the user about the journey and works with existing or AI-generated assets (Aug 2026)
 - [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2.5 weeks away with longer clips + 4K imminent + Seedance 2.0 mini lower-cost variant released (Jun 2026)
