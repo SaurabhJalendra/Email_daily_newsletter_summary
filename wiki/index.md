@@ -327,6 +327,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[grok-4-7]] — xAI/SpaceXAI's Grok 4.6 successor; ships in 3-4 weeks (early-Sept 2026); supplemental training on SpaceX internal data; Musk claims "exceed all current models"
 - [[gpt-red]] — OpenAI's dedicated adversarial red-team AI trained via self-play at compute-scale of largest model runs; 84% test-scenario success vs 13% human red-teamers (Jul 2026)
 - [[hark-handoff]] — Hark's Aug 2026 first product — computer-use agent for everyday tasks (food ordering, shopping, recruiting talent); lifestyle-tier entrant in the [[computer-use]] category
+- [[helix-2-5]] — Figure's Sep-2026 humanoid control model — pretrained on a crowdsourced human-video dataset and shown zero-shot across 30 unseen homes on household tasks (tidying rooms + folding towels)
 - [[hy-mt2]] — Tencent's Aug 2026 specialized multilingual translation model family — Hy-MT2-30B-A3B + Hy-MT2-1.8B — released ~2026-08-20 for high-quality machine translation across multiple languages
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
@@ -408,6 +409,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-guaranteed-capacity]] — OpenAI's enterprise compute-reservation program; 1-3 year commitments (May 2026) *(stale)*
 - [[qwen-3-7-max]] — Alibaba's flagship Qwen 3.7; 35h continuous autonomous reasoning, 1M context (May 2026) *(stale)*
 - [[qwen-3-8-27b]] — Alibaba's Aug 2026 27B vision-language open-weights model under Apache 2.0; 262K native context + Gated DeltaNet + gated-attention hybrid + ~61.7 SWE-bench Pro + fits high-end consumer hardware; defaults to xhigh reasoning effort (Simon Willison *"defaults to wildly overthinking"* framing)
+- [[qwen-3-8-omni-flash]] — Alibaba's Sep-2026 omnimodal Qwen model — 1M-token context window + audio-visual performance reportedly close to Google's Gemini 3.8 Flash
 - [[raft]] — Botiverse's multi-agent collaboration platform (Raft 1.0); turns ChatGPT into coordinated teams of persistent specialized agents in shared workspaces; BYO-model + per-agent-seat billing (Jul 2026)
 - [[robostral-navigate]] — Mistral's Jul 2026 first robotics-tier model for factories/warehouses/industrial automation; cross-supplier hardware portability
 - [[minicpm5-2b]] — OpenBMB's Sep 2026 open-source 2B model; ranks first among open models under 4B on Artificial Analysis Intelligence Index
@@ -531,6 +533,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser *(stale)*
 - [[akrites]] — Linux Foundation + tech-giants cross-vendor initiative to protect critical open-source software from AI-powered cyberattacks (Jul 2026)
 - [[ai-as-normal-technology]] — Narayanan + Kapoor Sep-14-2026 essay proposing a middle ground between AI-safety-community and cybersecurity-community views on loss-of-control incidents; Guidelight AI-control-standards; "AI control should become a job" canonical framing
+- [[ai-overhang]] — Ethan Mollick's Sep-19-2026 One Useful Thing essay canonicalizing the *AI-capability-vs-user-adoption gap* + four-tier human-advantage framework (deep knowledge + wide knowledge + taste + agency); pairs with *Co-Existence* book Oct 20 2026
 - [[ai-chatbot-dark-patterns]] — CDT 37-pattern taxonomy of deceptive/manipulative chatbot-UX behaviors; first chatbot-UX-as-regulatory-surface artifact (Jun 2026)
 - [[ai-cybersecurity-arms-race]] — first AI-built zero-day in wild, Daybreak/Mythos/MDASH defender platforms, Mini Shai-Hulud worm (May 2026)
 - [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals *(stale)*
@@ -598,6 +601,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mrna-cancer-vaccines]] — AI-driven personalized cancer immunotherapies where ML models select tumor-specific neoantigens and mRNA encodes them; Moderna + Merck V940/mRNA-4157 becomes first mRNA cancer treatment to succeed in Phase 3 (melanoma, Aug 2026)
 - [[ai-pace-letter]] — 1,000+ frontier-lab staffers (OpenAI + Anthropic + GDM + Meta + Thinky) cosign July 2026 open letter urging US government to develop "technical and governance tools to deliberately pace" automated AI research; official @OpenAI account amplifies (Jul 2026)
 - [[benchmark-integrity]] — LLM evaluation results are materially sensitive to harness/middleware/gateway/judge configuration, not just the base model; NHI Management Group Aug 2026 shows LLM-"judge" configs can silently shift benchmark rankings — raises comparability + reproducibility concerns for widely cited leaderboards
+- [[eu-kids-act]] — European Commission's Sep-19-2026 proposed law banning social-media accounts for under-13s + turning off AI chatbots by default for minors + strict social-media design rules + 6%-global-revenue fines
 - [[data-center-opposition]] — Bipartisan US backlash against AI data centers; governors restricting new projects; >60% Americans oppose nearby data centers; centerpiece of Ohio Senate race; Pennsylvania local-approval + NDA-ban law (Aug 2026)
 - [[ai-regulation]] — government / judicial / labor / safety pressure on AI labs
 - [[open-source-models]] — mid-2026 open-weights (GLM / Qwen / DeepSeek / MiniMax / Kimi K2) frontier-parity at 1/6-1/10 cost + Nathan Lambert Interconnects "6 months to live" regulatory-threat framing (Jul 2026)
