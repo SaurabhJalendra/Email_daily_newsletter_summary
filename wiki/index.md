@@ -10,6 +10,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agility-robotics]] — humanoid-robotics vendor; ships Digit humanoid for factory/warehouse work; Digit 5 unveiled Sep 2026 (50-lb payload + swappable end-effectors + 9-min recharge + >20h/day + unfenced human-robot collaboration + >65K production hours + >$300M multi-year orders + Toyota + EU/UK expansion + anticipated SPAC listing)
 - [[alfred-robotics]] — stealth robotics-software startup at $40M valuation; Sam Altman invests via Hydrazine Capital alongside Khosla Ventures + SV Angel (Jun 2026)
 - [[ai21-labs]] — Israeli foundation-model lab; Jamba family; NVIDIA reported $3B acquisition talks Jan 2026 *(stale)*
+- [[aleph-alpha]] — European sovereign-AI LLM vendor (Heidelberg-origin); merged with Cohere Sep 2026 into a 1,000-plus-person cross-Atlantic company with Toronto + Berlin HQs
 - [[alibaba]] — Qwen model family; Qwen3-Max-Thinking 100% AIME 2025; Quark S1 Smart Specs; 14.2% China open-AI share *(stale)*
 - [[ami-labs]] — Yann LeCun's world-models startup spun out of Meta FAIR; €3B raise target *(stale)*
 - [[amazon]] — AWS provider; $38B OpenAI; Nova 2 + Trainium 3; Rufus 805% YoY Black Friday
@@ -129,6 +130,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[unitree]] — Chinese humanoid + quadruped robot manufacturer; first humanoid maker on China's stock market (Shanghai IPO Aug 2026 at ~$9B); Aug 2026 unveils "Superman" humanoid that runs faster than Usain Bolt but has no working hands
 - [[volta]] — NVIDIA-backed AI-infrastructure startup emerging from stealth at $2.4B valuation; six-year $10B Anthropic capacity deal (133MW Vera Rubin alongside Bitdeer Technologies) (Aug 2026)
 - [[trajectory]] — Neo Lab building a continual-learning platform that lets AI products keep learning from real-world user interactions (Jun 2026)
+- [[typesafe-ai]] — Diogo Almeida-founded vendor behind [[jev]] "System One Model" decision-substrate (Sep 2026); 13% AI-Gateway teams first-day adoption + 6 open clones within 48h of launch
 - [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
 - [[warp]] — AI-terminal startup; ships Oz agent-orchestration platform; CEO Zach Lloyd "software factories are the next phase of coding" (Jul 2026)
 - [[walden-robotics]] — Toyota's humanoid-robotics spinoff; emerges from stealth at $1.1B valuation Jul 2026 (Toyota + Nvidia + Boeing + Samsung Ventures); robots performing real production work at Toyota plant since Feb 2026
