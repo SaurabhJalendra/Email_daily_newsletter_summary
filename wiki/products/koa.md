@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[salesforce]] + [[nvidia]] (joint)
 > **First mentioned**: 2026-09-16-evening
-> **Last updated**: 2026-09-16-evening
+> **Last updated**: 2026-09-20-morning (**NLP Newsletter (Elvis Saravia) MEDIUM AI Agents Weekly cross-cohort restatement productizes concrete architectural + benchmark canonical anchor cluster — Koa is 120B parameters + post-trained from NVIDIA's Nemotron-3-Super-120B + aimed at multi-turn tool use in CRM workflows + simulation-to-reward pipeline with task-resolution rewards grounded in successful tool use + 66.63% BFCL + 69.41% Tau2Bench canonical benchmark-tier anchor pair**. NLP Newsletter MEDIUM: *"Salesforce released Koa, a 120B enterprise model post-trained from NVIDIA's Nemotron-3-Super-120B, aimed at multi-turn tool use in CRM workflows. Koa uses a simulation-to-reward pipeline, with task-resolution rewards grounded in successful tool use, and reports 66.63% on BFCL and 69.41% on Tau2Bench"*. First-in-wiki: (a) **120B parameter count concrete-scale canonical anchor** — resolves the 09-16-evening Open-Question "Concrete Nemotron 3 Super parameter count (30B active MoE? 100B+?)" with a *concrete-120B canonical anchor* — this is the "120B" SKU of the Nemotron 3 Super line; (b) **Simulation-to-reward-pipeline + task-resolution-rewards-grounded-in-successful-tool-use canonical training-substrate anchor pair** — first-in-wiki *concrete Salesforce-authored training-methodology canonical anchor* on Koa (structurally significant — pairs cycle-structurally with the multi-cycle Anthropic RSI-training + OpenAI Astra-verifiable-rewards + Shanghai AI Lab Verifiable-Experience-Pipeline substrate cluster as *canonical mid-2026 verifiable-reward-training-substrate cluster*); (c) **66.63% BFCL + 69.41% Tau2Bench concrete-benchmark-metric canonical anchor pair** — first-in-wiki *concrete-tool-use-benchmark-metric canonical anchor pair* on Koa (structurally significant — canonicalizes Koa as *tool-use-CRM-specialist-benchmark-tier substrate operator*); (d) **"Multi-turn tool use in CRM workflows" concrete-target-workflow canonical anchor** — sharpens 09-16-evening *"sales/marketing/customer-support workflows"* framing into a *concrete multi-turn-tool-use canonical anchor*. See [[salesforce]] + [[nvidia]] + [[nemotron-3]] + [[agentforce]] + [[claudeforce]] + [[enterprise-ai]] — *source: data/summaries/2026-09-20-morning.json (NLP Newsletter MEDIUM "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More")*)
+> **Previously updated**: 2026-09-16-evening
 > **Status**: active
 > **Related**: [[salesforce]], [[nvidia]], [[nemotron-3]], [[agentforce]], [[claudeforce]], [[claude-opus-5]], [[chatgpt]], [[enterprise-ai]]
 
@@ -21,20 +22,25 @@ Structurally significant as *Salesforce's first named own-branded reasoning mode
 
 ## Timeline
 
+- **2026-09-20-morning**: **NLP Newsletter AI Agents Weekly restatement — 120B params + Nemotron-3-Super-120B base + multi-turn tool use in CRM workflows + simulation-to-reward pipeline + 66.63% BFCL + 69.41% Tau2Bench benchmark-metric canonical anchor cluster**. First-in-wiki concrete-parameter-count + concrete-training-methodology + concrete-benchmark-metric anchor pair. See [[salesforce]] + [[nvidia]] + [[nemotron-3]] — *source: data/summaries/2026-09-20-morning.json (NLP Newsletter MEDIUM "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More")*
+
 - **2026-09-16-evening**: **Launch — Salesforce and NVIDIA introduce Koa, reasoning model built on NVIDIA's open-weight Nemotron 3 Super, post-trained for sales/marketing/customer-support**. Forward Future MEDIUM: *"Salesforce and NVIDIA introduced Koa, a reasoning model built on NVIDIA's open-weight Nemotron and post-trained for sales, marketing, and customer-support tasks, providing an enterprise-focused alternative to frontier models like Anthropic's Claude and OpenAI's ChatGPT"*. The Rundown AI MEDIUM: *"Salesforce trains its own reasoning model called Koa, built on Nvidia's open Nemotron 3 Super model, for its sales and support agents, which can update deals, route tickets, and perform other tasks"*. Daily-digest AI Models & Research: *"Salesforce and NVIDIA introduce Koa, a reasoning model built on NVIDIA's open-weight Nemotron, for sales, marketing, and customer-support tasks"*. See [[salesforce]] + [[nvidia]] + [[nemotron-3]] + [[agentforce]] + [[claudeforce]] + [[enterprise-ai]] — *source: data/summaries/2026-09-16-evening.json (Forward Future MEDIUM "Salesforce gives enterprise AI a new brain"; The Rundown AI MEDIUM "⚡ ChatGPT co-creator launches new kind of AI model")*
 
 ## Key Facts
 
 - **Joint vendors**: [[salesforce]] + [[nvidia]]
-- **Base model**: [[nemotron-3]] Super (NVIDIA open-weight)
-- **Training**: post-trained by Salesforce for sales/marketing/customer-support domains
+- **Base model**: [[nemotron-3]] Super **120B** (NVIDIA open-weight; concrete SKU confirmed 2026-09-20-morning)
+- **Parameter count**: **120B**
+- **Training**: post-trained by Salesforce using a **simulation-to-reward pipeline** with task-resolution rewards grounded in successful tool use
+- **Target workflow**: multi-turn tool use in CRM workflows (sales/marketing/customer-support)
 - **Concrete actions**: deal updates, ticket routing, structured CRM tasks
+- **Benchmarks**: **66.63% on BFCL** (Berkeley Function-Calling Leaderboard) + **69.41% on Tau2Bench**
 - **Positioning**: enterprise-tier alternative to [[claude-opus-5]] + [[chatgpt]] for CRM workflows
 - **Deployment surface**: powers Salesforce sales and support agents (likely [[agentforce]]-adjacent)
 
 ## Open Questions
 
-- Concrete Nemotron 3 Super parameter count (30B active MoE? 100B+?) — Nemotron 3 line has multiple SKUs
+- ~~Concrete Nemotron 3 Super parameter count~~ **RESOLVED 2026-09-20-morning: 120B (Nemotron-3-Super-120B SKU)**
 - Whether Koa is offered outside Salesforce (via NVIDIA NIM catalog or Salesforce API) or locked to Agentforce
 - Benchmark comparison vs [[claude-opus-5]] / [[chatgpt]] on CRM-specific workflows
 - Relationship to [[claudeforce]] — replacement, parallel option, or task-router-routed
@@ -44,3 +50,4 @@ Structurally significant as *Salesforce's first named own-branded reasoning mode
 ## Sources
 
 - data/summaries/2026-09-16-evening.json (Forward Future MEDIUM "Salesforce gives enterprise AI a new brain"; The Rundown AI MEDIUM "⚡ ChatGPT co-creator launches new kind of AI model"; daily-digest AI Models & Research)
+- data/summaries/2026-09-20-morning.json (NLP Newsletter MEDIUM "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More" — 120B params + Nemotron-3-Super-120B + simulation-to-reward pipeline + 66.63% BFCL + 69.41% Tau2Bench)
