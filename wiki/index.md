@@ -149,6 +149,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agentforce]] — Salesforce's enterprise agent platform *(stale)*
 - [[agentkit]] — OpenAI's DevDay 2025 agent toolkit *(stale)*
 - [[agentmemory]] — Tom Dörr open-source persistent-memory layer for AI coding agents; 92% token reduction (May 2026) *(stale)*
+- [[agora]] — NVIDIA's Sep 2026 multi-agent coding-collaboration platform; records each result/hypothesis/verification as immutable Git commit for transparent audit trail
 - [[ai-edge-gallery]] — Google on-device AI runtime for Android *(stale)*
 - [[alpamayo]] — NVIDIA open 10B autonomous-driving model family (Jan 2026 CES) *(stale)*
 - [[alphaevolve]] — Google DeepMind's teased Alpha-series extension into complex evolving/dynamic environments — long-horizon multi-step optimization across science + engineering (Jul 2026)

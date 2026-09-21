@@ -19,6 +19,35 @@ Append-only chronological record of all wiki edits. Newest entries at the top.
 
 ---
 
+## 2026-09-21 (morning)
+
+**Ingested**: data/summaries/2026-09-21-morning.json (12 newsletters — AI Automation Society (Skool) MEDIUM "3 new notifications" [ephemeral AIS Live promo, folded into cross-refs on [[jev]]/[[typesafe-ai]]] + Programmable Mutter (Henry Farrell) MEDIUM "International relations has a problem with the future" [off-scope political-science essay] + Nate Herk MEDIUM "today is your last day to save $50 on AIS Live" [ephemeral ticket-price promo — skipped] + Mindstream MEDIUM "We spoke with an AI Engineer building the future of agents" + AlphaSignal MEDIUM "🧩 Understanding the 'harness tax' behind coding agents" + The AI Corner MEDIUM "TypeSafe Shipped a Model That Never Writes a Word. Here's the Decision-Layer Playbook" + TAAFT MEDIUM "🦾 This Week in AI" + Superhuman MEDIUM "🦖 The T. rex detail scientists got badly wrong" + God of Prompt MEDIUM "🔑 my claude code limit died before lunch" + NLP Newsletter MEDIUM "🥇Top AI Papers of the Week" + DeepLearning.AI LOW receipt [ephemeral Stripe receipt — skipped] + Nate Herk MEDIUM "the guarantee makes AIS Live free to try" [ephemeral event promo — skipped])
+
+**Pages updated**:
+- [[anthropic]] — Blocked 35 dangerous-research attempts using Claude (bird flu transmissibility + immune evasion) canonical concrete-blocked-count biosafety anchor
+- [[claude-code]] — HarnessTax study 21 model-harness combinations tested + 5×-cost-variance canonical multiplier + minimal-harness-competitive + cross-vendor-mismatch three-rule canonical anchor triple + God of Prompt Claude Code Starter Guide community-tier restatement
+- [[nvidia]] — Agora multi-agent coding platform + Fuse simulation-based social-advice-assistant eval + Model-Pool-Selection multi-agent-system research + $680B FY revenue projection + 70% growth quadruple morning motion
+- [[meta]] — Muse #1 on US App Store one week after launch surpassing ChatGPT + byte-vs-token-model scaling research (byte catches up + surpasses as compute increases) twin morning motion
+- [[google]] — Google Home Speaker Gemini-native smart-speaker + Stellar Colosseum many-agent math-proof harness + DreamBeans AI-generated-artwork cross-cohort triple morning motion
+- [[microsoft]] — Capability-laundering attack research + bash-alone-beats-typed-tools 5-interface enterprise-agent research + Humanist AI Code of Conduct 6-week public consultation 10-principle triple morning motion
+- [[salesforce]] — Koa "trained from declarative configuration files that define Agentforce agents" concrete training-source-attribution canonical anchor
+- [[koa]] — Declarative-Agentforce-config-file training-source substrate canonical anchor + "using existing artifacts to train models" concrete framing
+- [[jev]] — The AI Corner Decision-Layer Playbook + $0.042/M-input-tokens + output-free concrete pricing + four independent-builder demos with concrete receipts (Browser Use flight-search 7s/$0.0039 + Tamara Tran ~1M→86K compaction 1s + Hassan 1,018 papers/24 topics/$0.08) + ten-decision map + six question-writing rules + guardrail set three-primitive playbook substrate anchor
+- [[typesafe-ai]] — The AI Corner Jev Decision-Layer Playbook practitioner-tier canonical anchor + concrete pricing + four independent-builder receipts
+- [[agent-harness]] — HarnessTax 21-combination + 5×-cost-variance + minimalist-substrate-viability + vendor-harness-mismatch three-rule canonical anchor triple + Microsoft bash-alone-beats-typed-tools 5-interface enterprise-agent research canonical anchor
+
+**Pages created**: [[agora]] (NVIDIA multi-agent coding platform with immutable Git-commit audit trail)
+
+**Notable**:
+- **Twin cost-optimization research canonical anchor cluster** (HarnessTax + Microsoft bash-vs-typed-tools) canonicalizes mid-Sep-2026 as an inflection point where coding-agent-cost + agent-tool-interface become empirically-studied substrates rather than practitioner-folklore. HarnessTax's *"model doesn't necessarily perform best in its own vendor's harness"* rule is a *first-in-wiki concrete cross-vendor harness-model-mismatch canonical anchor* — likely durable reference-anchor for future coding-agent-selection discussion.
+- **Many-agent-collaboration substrate cluster** (NVIDIA Agora + Google Stellar Colosseum + Google Research Fuse + NVIDIA Model-Pool-Selection) — four same-cycle frontier-lab many-agent-research canonical anchors in a single NLP Newsletter roundup — canonicalizes mid-Sep-2026 as the point at which multiple frontier labs simultaneously canonicalize immutable-log-driven and simulation-based many-agent collaboration substrates.
+- **Meta Muse dethrones ChatGPT** at #1 on US App Store one week post-launch — most-decisive concrete beats-ChatGPT canonical anchor to date on Meta's mid-Sep-2026 consumer-tier substrate; likely durable reference-anchor for future consumer-chat-app-ranking discussion.
+- **Anthropic blocks 35 dangerous-research attempts** — first-in-wiki concrete count of blocked biological-misuse attempts (bird flu transmissibility + immune evasion) — validates the Life Sciences Verification Program's credentialed-lab-access-with-safeguards framing as materially enforcing biology-misuse gating rather than nominal-only.
+- **Meta byte-level LM scaling research** — first-in-wiki *concrete byte-level-vs-token-level scaling-crossover canonical anchor* ("byte catches up + surpasses token as compute increases") — likely durable reference-anchor for future tokenization/byte-level LM discussion.
+- Skipped: DeepLearning.AI Stripe receipt (ephemeral); two Nate Herk AIS Live promotional emails (ephemeral event pricing); Henry Farrell IR essay (off-scope). Superhuman TAAFT non-AI content (T. rex thermoregulation, tilcayo cat, human-brain mouse organoids, VIPR gene-editing, Neuralink thought-to-audible) not page-ified.
+
+---
+
 ## 2026-09-20 (morning)
 
 **Ingested**: data/summaries/2026-09-20-morning.json (8 newsletters — AI Automation Society MEDIUM "Nate Herk posted 'heads up, AIS Live costs $50 more tomorrow'" [off-scope event promo] + Mindstream MEDIUM "How we write pro-level proposals with Claude" [below page-durability threshold — Claude proposal-writing use-case tier] + Interconnects by Nathan Lambert MEDIUM "Where I stand on RSI" + Superhuman MEDIUM "🚑 Robots now have their own 'ambulance' services" + NLP Newsletter MEDIUM "🤖 AI Agents Weekly: Jev, Salesforce Koa, Claude Code Projects, Anthropic R&D Metrics, Periodic Neon, Gemini 3.8 Live, and More" + TAAFT MEDIUM "🦾 Meta Takes ChatGPT's Crown" + Uncovering AI HIGH "🔓 Gemini hacks 3 companies. Calls it a mix-up." + Programmable Mutter (Henry Farrell) MEDIUM "AI Was Supposed to Perfect Authoritarian Control. Repression Is Getting in the Way." [political-science essay — below page-durability threshold as own page, folded as cross-cutting context])
