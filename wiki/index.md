@@ -389,6 +389,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[microduck]] — Hugging Face + Pollen Robotics's $399 open-source retrainable bipedal duck-style robot; 25cm tall, 15 actuators, 50Hz onboard policy loop, 7 pre-trained moves, retrainable in simulation and publishable behaviors (Aug 2026)
 - [[midjourney-scan]] — Midjourney's first hardware: full-body ultrasonic CT scanner; "first new whole-body medical imaging modality in 50 years" per Holz; Midjourney Spa SF deployment (Jun 2026)
 - [[mimo-code]] — Xiaomi's coding-specialized model; three-cycle cross-newsletter convergence (TLDR AI → Hello World "Claude vs Mimo" → NLP Newsletter AI Agents Weekly digest, Jun 2026)
+- [[mimo-v2-6]] — Xiaomi's Sep 2026 open-weights AI series (1.02T MoE Pro + Flash + UltraSpeed + 9B distilled); MIT license; $3M training cost; top open-weights on AA-II 46 at $0.13/task Pareto frontier
 - [[minimax-h3]] — MiniMax's Jul 2026 next-generation multimodal video model — native 30-second + consistent three-minute videos + interactive frame editing + up to 50 multimodal references
 - [[mojo]] — Modular's Python-superset AI/ML systems programming language; fully open-sourced under Apache 2.0 with LLVM exceptions (Aug 2026)
 - [[motif-3]] — Motif Technologies (South Korea) 314B/13.2B-active MoE MIT-licensed open-weight LLM; ~256K context; ~44 Artificial Analysis Intelligence Index; strongest open-weight MoE LLM outside US/China ecosystem; Dokpamo sovereign-AI program (Sep 2026)
