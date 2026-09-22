@@ -37,6 +37,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[coinbase]] — US-listed crypto exchange; 1,200 full-time AI agents in production + 2× YoY code-per-developer + Coinbase Advisor SEC-registered AI investment advice + SpaceX pre-IPO perps + "bank for the agentic economy" thesis (Jul 2026)
 - [[conviction]] — Sarah Guo's AI-focused VC firm (~$1B AUM); bets on the AI application/inference layer above foundation models; six portfolio companies past $10B including [[baseten]] and Harvey (Aug 2026)
 - [[cohere]] — Toronto enterprise LLM vendor; open-source Transcribe ASR tops HuggingFace leaderboard across 14 languages *(stale)*
+- [[crusoe]] — US AI-infrastructure company; $3.9B raise (Sep 2026) to build massive DCs plus truck-transportable modular "Spark" AI factories that connect to power almost anywhere
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale *(stale)*
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025 *(stale)*
 - [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace, in-platform LLM hosting *(stale)*
