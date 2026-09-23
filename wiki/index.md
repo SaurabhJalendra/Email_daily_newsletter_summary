@@ -212,7 +212,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-opus-4-6]] — Anthropic's Feb 2026 flagship; 1M context, agent teams, fast mode 2.5× *(stale)*
 - [[claude-opus-4-7]] — Anthropic's Apr 2026 flagship; 3.75 MP vision, xhigh effort, file memory
 - [[claude-opus-4-8]] — Anthropic's May 30 2026 flagship; 4× less unflagged-code-flaw rate; fast mode 2.5×/1/3 cost; 1M context; SWE-Bench Pro / Terminal-Bench 2.1 SOTA *(superseded by [[claude-opus-5]] Jul 2026)*
-- [[claude-opus-5]] — Anthropic's Jul 24 2026 Opus-tier flagship — near-frontier at half the price of Fable 5 ($5/$25, 1M context), effort setting + Fast mode + automatic safety fallbacks to lower-tier models; new default on Claude Max; AA-Briefcase +150 Elo over Fable 5 at -20% Cost per Task
+- [[claude-opus-5]] — Anthropic's Jul 24 2026 Opus-tier flagship — near-frontier at half the price of Fable 5 ($5/$25, 1M context), effort setting + Fast mode + automatic safety fallbacks to lower-tier models; new default on Claude Max; AA-Briefcase +150 Elo over Fable 5 at -20% Cost per Task *(superseded by [[claude-opus-5-5]] Sep 2026)*
+- [[claude-opus-5-5]] — Anthropic's Sep 22 2026 Opus-tier launch; first model in the Claude 5.5 family; matches Fable 5.1 performance at $4/$20 pricing; 40% cheaper + 30% faster than Opus 5; 1M context / 128K output; Anthropic-attributed "best behavioral audit scores of any model the company has tested"
 - [[claude-science]] — Anthropic's Jul 2026 science hub — unified research platform (paper review + databases + figure-making + computing jobs) with result-provenance-tracking (traces every result back to code and data)
 - [[claude-skills]] — Anthropic's reusable capabilities + Agent Skills *(stale)*
 - [[claude-slides]] — Anthropic's Sep 2026 beta presentation-authoring product surface bundled into the unified Claude app; competitive with Google Slides + Microsoft PowerPoint
@@ -308,6 +309,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-5-5-cyber]] — OpenAI's cybersecurity-specialist variant of GPT-5.5; record 85.6% on CyberGym; for verified defenders via OpenAI Daybreak (Jun 2026)
 - [[gpt-5-6-cyber]] — OpenAI's Aug 2026 hacking-tuned GPT-5.6 variant inside expanded [[openai-daybreak]]; answers 95% of advanced cyberattack requests; vetted-defender access only
 - [[gpt-5-6]] — OpenAI's Jul 2026 flagship; Sol ($5/$30 pricing) / Terra (2× cheaper than GPT-5.5, balanced) / Luna (fast/low-cost); Thursday July 9 GA under "robust safety stack" + Terminal-Bench 2.1 SOTA
+- [[gpt-6-luna]] — OpenAI's Sep 22 2026 GPT-6-family low-cost high-volume tier; $0.10/M input + $0.50/M output; text+image input, ~1.05M context; +5.4pp AutomationBench uplift vs GPT-5.6 Luna at 58% lower cost per task; API `gpt-6-luna` + Free/Go desktop app
+- [[gpt-6-sol]] — OpenAI's Sep 22 2026 GPT-6-family professional-and-coding tier; built on Astra's advances; $2/M input + $10/M output; ~half as many mistakes as GPT-5.6 Sol; beats Claude Opus 5 on AutomationBench at ~91% less cost per completed task; API `gpt-6-sol`, ChatGPT Work, Codex
 - [[gas-town]] — Steve Yegge's coding-agent orchestrator; shut down Sep 2026 after Yegge admitted he had "never successfully built anything" with it despite thousands spent on subscriptions
 - [[gpt-live]] — OpenAI's Jul 2026 full-duplex voice model — listens + speaks simultaneously with mid-sentence handoff to larger models; rebuild of ChatGPT voice mode
 - [[google-ai-studio]] — Google's free playground for testing/comparing AI models incl. Gemini 3.5 Flash; side-by-side runs + prompt-builder; Google login (Jun 2026)
