@@ -65,6 +65,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*
 - [[inherent]] — DeepMind-alumni-founded AI research-automation startup; ships [[faraday-27b]] that outperforms Anthropic + OpenAI frontier models at replicating scientific research papers (Aug 2026)
 - [[instinct]] — Viral AI startup; $350M @ $2.5B valuation (Aug 2026); consumer-tier positioning per cross-newsletter recoverage
+- [[intrinsic]] — Alphabet's industrial-robotics software subsidiary; open-sourced Intrinsic Core stack at ROSCon 2026 (hardware-agnostic real-time control + 6-DoF pose estimation + auto motion/grasp planning + pre-tuned ROS drivers) (Sep 2026)
 - [[interpositive]] — Ben Affleck's 16-person AI-post-production startup (project-specific dailies-trained tools); acquired by [[netflix]] for $587M+ (Jul 2026)
 - [[jetbrains]] — Czech developer-tools company (IDEs, TeamCity CI, AI Assistant, Junie, Mellum2); Aug 2026 unauthenticated RCE in TeamCity On-Premises actively exploited
 - [[jpmorgan-chase]] — investment bank; LLM Suite aggregates OpenAI + Anthropic; "fully AI-powered megabank" commitment; $18B/yr tech (Jun 2026)
@@ -101,6 +102,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[poolside-ai]] — American-open-weights neolab; "Model Factory" approach; ships [[laguna-s]] family (118B MoE / 1M context, cheaper than Deepseek v4 Flash) (Jul 2026)
 - [[project-prometheus]] — Jeff Bezos's "artificial general engineer" company; automates CAD + physics-based simulation; $41B framing (Jun 2026)
 - [[qualcomm]] — AI200/AI250 data-center AI chips *(stale)*
+- [[radical-numerics]] — Bio-security AI company building Genomic Language Models (GLMs); CEO Eric Nguyen frames bio-defense as an AI arms race + "defense is currently losing"; GLMs can generate entire bacteriophage genomes synthesized into functional viruses (Sep 2026)
 - [[ramp]] — US corporate-finance platform; Aug 2026 ships Router.com single-endpoint LLM aggregator (~40% inference cost reduction; free through 2026 + $26 launch credit)
 - [[recursive-superintelligence]] — Tim Rocktäschel ex-DeepMind RSI startup; $650M @ $4.65B in a single day (May 2026) *(stale)*
 - [[reflection]] — NVIDIA-backed US open-source lab founded by ex-Google DeepMind researchers; $6.3B SpaceX Colossus 2 / GB300 compute deal (Jun 2026)
@@ -273,6 +275,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-6-flash]] — Google's Jul 2026 workhorse Gemini Flash successor to 3.5 Flash; 17% fewer output tokens; efficiency-tuned for high-volume agentic and coding workloads; rolls into GitHub Copilot
 - [[gemini-3-7-flash]] — Google's Aug 2026 GA workhorse Flash-tier for coding + agents; 16-point DeepSWE jump + near-doubling AutomationBench; 1M context + tunable thinking; $0.75/$3.75 introductory pricing through Dec 31 2026 (doubles Jan 1 2027); third Flash release in three weeks
 - [[gemini-3-8-flash]] — Google DeepMind's Sep 2026 Flash-tier successor to 3.7 Flash — smaller/cheaper/faster with significantly boosted coding; internal testers prefer over Anthropic's Opus for coding; tested on Jetski internal-coding platform
+- [[gemini-3-8-flash-tts]] — Google's Sep 2026 voice-design tool — custom voice design + voice cloning + two-speaker scene staging; #1 on Hume AI's voice-design benchmark; top rankings across Japanese/Hindi/Arabic blind listening tests
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence *(stale)*
 - [[gemini-4-pro]] — Google DeepMind's next flagship Gemini (codename "argon"); internal-checkpoint leaked Sep 2026 (2M-token context, 2.4-min high-thinking-effort first output, October target)
 - [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella; grounded summarization + citation + multi-source synthesis with deeper Gemini-app + Google-Search integration (Jul 2026)
@@ -335,6 +338,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-red]] — OpenAI's dedicated adversarial red-team AI trained via self-play at compute-scale of largest model runs; 84% test-scenario success vs 13% human red-teamers (Jul 2026)
 - [[hark-handoff]] — Hark's Aug 2026 first product — computer-use agent for everyday tasks (food ordering, shopping, recruiting talent); lifestyle-tier entrant in the [[computer-use]] category
 - [[helix-2-5]] — Figure's Sep-2026 humanoid control model — pretrained on a crowdsourced human-video dataset and shown zero-shot across 30 unseen homes on household tasks (tidying rooms + folding towels)
+- [[horowitz-andreessen-academy]] — a16z's Sep 2026 SF-based alternative to college; Gagan Biyani co-founder; "Nashville for Nerds"; ~$42M academy; founding partner co-ops with Anthropic + OpenAI + NVIDIA + Google + Stripe
 - [[hy-mt2]] — Tencent's Aug 2026 specialized multilingual translation model family — Hy-MT2-30B-A3B + Hy-MT2-1.8B — released ~2026-08-20 for high-quality machine translation across multiple languages
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
