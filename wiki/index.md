@@ -438,6 +438,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-video]] — Meta's first generative video model with native synchronized audio; text/image/existing-footage → short clips; closed beta (Aug 2026)
 - [[meta-muse-agent]] — Meta's Sep 2026 always-on personal AI agent with its own cloud browser; text-message-style UI + Gmail/Spotify/OpenTable integration + booking/emails/shopping; muse.ai + iOS/Android/WhatsApp/AI-glasses quintuple-surface
 - [[meta-one]] — Meta's Sep 2026 paid tier across Facebook/Instagram/WhatsApp — $2.99–$499/month bundle of expanded Meta AI usage + creator tools; monetizes Muse-family models following $14.3B Scale AI investment
+- [[meta-vr-glasses]] — Meta's Sep 2026 lightweight VR headset — $1,299 + spring-2027 launch + ~100g glasses with external compute pack + IMAX-grade display + Meta AI/Muse integration + voice/eye-tracking/hand-gestures (Meta Connect 2026)
+- [[muse-charm]] — Meta's Sep 2026 dedicated handheld companion device for the Muse AI assistant; unveiled at Meta Connect 2026 alongside Meta VR Glasses
 - [[muse-voice-transcribe]] — Meta's Sep 2026 live speech-to-text model in the Muse family — production-ready ASR with 20+ speaker tracking; sixth Muse-family substrate (voice)
 - [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer for [[no-code-ai-automation]] cohorts wiring LLM APIs + agents into business SaaS (Jul 2026)
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*
@@ -451,6 +453,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nvidia-cosmos]] — NVIDIA's physical-AI foundation models (Cosmos 2.5 GA, 3 inbound) *(stale)*
 - [[nvidia-ising]] — NVIDIA's open AI models for quantum computing; Ising Calibration + Verification automate quantum-processor workflows (Apr 2026) *(stale)*
 - [[nvidia-motionbricks]] — NVIDIA's real-time AI character-motion framework; 350K+ motion skills with low latency for game animation (Jun 2026)
+- [[nv-reason-ct]] — NVIDIA's Sep 2026 vision-language model for analyzing 3D CT scans; reportedly validated by NIH radiologists for CT-analysis tasks
 - [[odyssey-3]] — Odyssey's Sep 2026 general-purpose world model that controls robot arms + humanoids + self-driving cars + drones + games from a single substrate
 - [[openai-codex]] — OpenAI's Codex-as-superapp (ChatGPT + Atlas + Codex) *(stale)*
 - [[openai-for-healthcare]] — OpenAI's HIPAA-compliant enterprise health offering *(stale)*
