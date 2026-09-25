@@ -1,0 +1,488 @@
+{
+  "date": "2026-09-24T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Friday, 25 September 2026\n\n## 🔥 Top Stories\n1. **Google's Project Suncatcher is launching an experimental satellite on October 1 to test orbital AI data centers** — Why it matters: This project has the potential to mitigate the environmental impact of traditional data centers and provide a more sustainable solution for AI computing.\n2. **Anthropic's AI model Claude has contributed to or led 26% of the company's AI research and development** — Why it matters: This highlights the growing importance of AI in scientific research and discovery, and the potential for AI to accelerate progress in various fields.\n3. **The US AI build-out is expected to attract significant investment, with estimates suggesting it could reach $10.3 trillion by 2032** — Why it matters: This investment has the potential to drive significant growth and innovation in the AI industry, but also poses challenges such as job creation, inflation, and housing construction.\n4. **Nvidia's partnership with Akamai and release of Nemotron 3 Diarization highlight the company's continued influence over AI costs, availability, model development, and the global race to build computing capacity** — Why it matters: This partnership and release demonstrate the importance of computing power and infrastructure in the development and deployment of AI models.\n5. **AI-assisted discovery is finding security flaws at an unprecedented rate, with Microsoft's September 2026 Patch Tuesday addressing 973 vulnerabilities** — Why it matters: The increasing use of AI in security research has the potential to improve the security of software and systems, but also poses challenges such as the need for rapid patching and the potential for AI-powered attacks.\n\n## 🤖 AI Models & Research\n- Runway has released GWM Worlds 2, a research preview that generates interactive worlds continuously in real time, allowing for control over characters, cameras, and the environment through its new WorldPrompt format.\n- Claude Opus 5.5 has been released, which leads SimpleBench at 88.4% and has improved vision evaluation performance, with better results than Fable 5 and GPT-6 Sol at lower cost.\n- GPT-6 family models, including Astra, Sol, and Luna, have been released, with Astra reportedly beating NetHack on its third try and Luna Max entering Code Arena WebDev at #24.\n- Jev, a decision model, has been released by TypeSafe AI, which claims to have raised $1B+ at a $10B+ valuation, and has been shown to be effective in calibrated decisions.\n\n## 🛠️ Tools & Products\n- Meta's Muse is now available as a real-time avatar, allowing for more interactive and immersive experiences.\n- OpenAI has hired Sam Yam, co-founder of Patreon, to lead its new Creator Product division, which will focus on developing tools for creators and expanding the company's offerings in the creative industry.\n- Nvidia has released Nemotron 3 Diarization, an open 100M-parameter model for identifying up to eight speakers in real-time.\n- Anthropic has developed Claude, a large-language-model assistant focused on enterprise use and AI safety, which has contributed to or led 26% of the company's AI research and development.\n\n## 📰 Industry News\n- Jensen Huang predicts that the current shortage of junior developers could largely disappear by around 2028, as AI-native graduates enter the workforce.\n- The White House reportedly asked OpenAI and Anthropic to delay providing new models to UK testers until a US review could be completed, highlighting growing geopolitical competition over access to frontier AI systems.\n- California enacted seven new laws addressing electricity and water consumption associated with data centers, adding state-level scrutiny of the infrastructure required to train and operate large AI systems.",
+  "totalNewsletters": 11,
+  "newsletters": [
+    {
+      "from": "\"Latent.Space\" <swyx@substack.com>",
+      "subject": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "date": "2026-09-25T01:30:57.000Z",
+      "summary": "## Latent.Space\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Runway has released GWM Worlds 2, a research preview that generates interactive worlds continuously in real time, allowing for control over characters, cameras, and the environment through its new WorldPrompt format.\n* WorldPrompt is a proposed input format for specifying a generated world and actions within it, enabling precise control over aspects of a simulated environment and the ability to create timestamped events.\n* GWM Worlds 2 uses persistent context and timed actions, similar to a game engine, to steer a world model generating video and audio in real-time, with applications in fields like gaming, robotics, and simulation.\n* Runway's model is based on autoregressive diffusion, generating frames one at a time rather than all at once, which allows for real-time interaction and is more suitable for applications requiring continuous video generation.\n* The company has achieved real-time interactive worlds streamed in continuous 720p video at 24 frames per second and audio at 48,000 Hz, positioning itself as a leader in the real-time video generation market.\n* Other companies, such as Google DeepMind with Genie 3, Odyssey-2 Pro, and World Labs' RTFM, are also working on real-time world models, each with their strengths and limitations, but Runway's focus on control and interaction differentiates its approach.\n* Runway's CTO, Kamil Sindi, and Principal Research Scientist, Robin Kahlow, discussed the challenges of real-time generation, including error accumulation and the need for massive computational resources, but expressed optimism about the potential of world models to revolutionize industries like gaming and robotics.\n* The company is exploring various applications for its world models, including robotics, where they can be used for simulation, testing, and training of robotic policies, and potentially for generating synthetic data to augment real-world training datasets.\n\n### Notable Links\n* Runway's GWM Worlds 2 Announcement\n* [WorldPrompt Format](https://substack.com/app-link/post?publication_id=1084089&post_id=217289983&utm_source=post-email-title&utm_campaign=email-post-title&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzI4OTk4MywiaWF0IjoxNzkwMzAwMjM3LCJleHAiOjE3OTI4OTIyMzcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.WfZ-Qo7bY3wIRQKtX4lHh-2tK-PLspxNjyvmL29gsjI)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGcnVud2F5IiwicCI6MjE3Mjg5OTgzLCJzIjoxMDg0MDg5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc5MDMwMDIzNywiZXhwIjoyMTA1ODc2MjM3LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.KosLMMfpqYy1UEKn_es3UIraJDyYYZ5EcrcZTAi2MJ0?"
+        },
+        {
+          "text": "Latent Space: The AI Engineer…Runway’s WorldPrompt and the …0:001:36:20",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=217289983&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzI4OTk4MywiaWF0IjoxNzkwMzAwMjM3LCJleHAiOjE3OTI4OTIyMzcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.WfZ-Qo7bY3wIRQKtX4lHh-2tK-PLspxNjyvmL29gsjI#play"
+        },
+        {
+          "text": "Listen now",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=217289983&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzI4OTk4MywiaWF0IjoxNzkwMzAwMjM3LCJleHAiOjE3OTI4OTIyMzcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.WfZ-Qo7bY3wIRQKtX4lHh-2tK-PLspxNjyvmL29gsjI"
+        },
+        {
+          "text": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=217289983&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzI4OTk4MywiaWF0IjoxNzkwMzAwMjM3LCJleHAiOjE3OTI4OTIyMzcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.WfZ-Qo7bY3wIRQKtX4lHh-2tK-PLspxNjyvmL29gsjI"
+        },
+        {
+          "text": "Richard MacManus",
+          "url": "https://substack.com/@ricmac"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/runway?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "introduced GWM Worlds 2",
+          "url": "https://substack.com/redirect/8b4ac886-7a0b-4283-871c-2ef85814ac01?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Kamil Sindi",
+          "url": "https://substack.com/redirect/5b37924e-0d7c-4426-9c88-8726e6b4e5f7?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Robin Kahlow",
+          "url": "https://substack.com/redirect/3e166a16-6ca1-4b95-8b4b-4ad71edec4b5?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Anastasis Germanidis",
+          "url": "https://substack.com/redirect/a0820072-c491-4419-bd53-89e622a87afb?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds![](https://eotrx.substackcdn.com/o/02dbaebc65aaf236/p.gif?token=eyJtIjoiPDIwMjYwOTI1MDEzMDU3LjMuMGU3Y2E2MDI5NGY2ZDYwOUBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMTcyODk5ODMsInQiOiJwb2RjYXN0IiwiYSI6ImV2ZXJ5b25lIiwicyI6MTA4NDA4OSwiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTAzMDAyMzgsImV4cCI6MTc5Mjg5MjIzOCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.-CVokX80GxubGABOtyxaZDYbcYC2jyGEtopZrUj7dxA)\n\nListen now (96 mins) | GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"World of AI\" <newsletter@intheworldofai.com>",
+      "subject": "Jensen Huang: Future Of Coding 🚨🤖",
+      "date": "2026-09-25T03:20:16.000Z",
+      "summary": "## World of AI Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Jensen Huang, CEO of Nvidia, predicts that the current shortage of junior developers could largely disappear by around 2028, as AI-native graduates enter the workforce. He argues that agentic AI systems will automate many early-career tasks, such as writing tests, debugging, reading stack traces, and resolving merge conflicts, while changing software engineering toward directing and collaborating with AI agents.\n- Huang emphasizes that the purpose of software engineering is problem-solving, not coding, and that AI-native engineers will arrive in two years, as students who started college alongside capable agents graduate. He expects these engineers to be a \"wave of amazing engineers\" who have never worked without an agent.\n- Ezra Klein responds with concerns about junior hiring being down 19% and exam scores decreasing by 20% among students using AI, highlighting the gap between the current state and Huang's predicted future.\n- Nvidia spends roughly 80% of its effort on verification, and Huang expects the industry to flip toward that ratio, with evaluation compute growing as much as tenfold. This shift in focus could lead to increased demand for engineers skilled in verification and testing.\n- Anthropic signed an $11.6 billion deal with Akamai for seven years of CPU compute, which could grow to $20 billion. This partnership highlights the growing demand for AI computing power and the importance of companies like Anthropic in the AI landscape.\n- OpenAI released MentalHealthBench, a public benchmark of 1,215 conversations built with more than 80 psychologists across 22 countries. GPT-6 Astra leads at 57.3%, with Claude Opus 5.5 at 52.4%.\n- Brookings estimates the US AI buildout will cost $10.3 trillion through 2032, about 3.6% of GDP per year. This massive investment underscores the significance of AI development and its potential impact on the economy.\n\n### Notable Links\n- [Gemini 4 is in post-training](https://www.google.com)\n- [Ava, the AI BDR built for enterprise](https://www.ava.ai)\n- [CodeCrafters, a platform for building Redis, Git, and shells from scratch](https://www.codecrafters.io)\n- [Semgrep, a tool for scanning code for bugs and security issues](https://www.semgrep.com)\n- [Aider, an open-source coding agent that works in the terminal](https://www.aidertech.io)\n- [Exercism, a platform for free practice across 70+ languages with human mentors](https://www.exercism.io)\n- [World of AI YouTube channel](https://www.youtube.com/worldofai)\n\nNote: Some links have been removed as they were Tracking/Redirect URLs.",
+      "links": [
+        {
+          "text": "first AI BDR",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaZ53MLtoczW9KTSJV_Qjfq3fwAbpYRu7px-MCq1TmSbk_o4-TVp2rZjC5M8fjlQOFTiG5eYdrhYX0aNfNyXxwuZ5kumenCKtAnsfrryBiIZuIoWAwTA_AtmL2t2ecgPtcGg6ObSi1mJ8_beoojCzb4IAxb7UeZv-ktK6Svnm3E2qgB4ERp7_AsJ7Pmi-OiDpVFxHYk-rotcXp0uJLskgaOeCGLYMMkL4drycw0YKctaHhJi3kxzjMX4PNlS6R3ottCpEK-eyOHLg1tTTwbK1uYxKDD7v_JVLMX8gVRBWjFvnInjzfjFJPPFreT-xYI2wDzTU7EHcAKnMC1Jj7OB9PiQeBpblEie9i52VeuW6IvZDi2Lv_unELApeHeyRknSpwgaD0UdOCpFNBV8hPQ5mLAeLFRlaUOx8JXqpw-VsZ-fQzxg53Jkz2uRyi4NNwacglOKvR93nJAeWISta2rexyGI/4uc/5wZbhJsmRdyGFuPUI2RAOg/h3/h001.XYRRzN9YXwk1lmOkLoGysba_iCr9MMWaWS7JOFDSgY0"
+        },
+        {
+          "text": "Ava",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaZ53MLtoczW9KTSJV_Qjfq3fwAbpYRu7px-MCq1TmSbk_o4-TVp2rZjC5M8fjlQOFTiG5eYdrhYX0aNfNyXxwuZ5kumenCKtAnsfrryBiIZuIoWAwTA_AtmL2t2ecgPtcGg6ObSi1mJ8_beoojCzb4IAxb7UeZv-ktK6Svnm3E2qgB4ERp7_AsJ7Pmi-OiDpVFxHYk-rotcXp0uJLskgaOeCGLYMMkL4drycw0YKctaHhJi3kxzjMX4PNlS6R3ottCpEK-eyOHLg1tTTwbK1uYxKDD7v_JVLMX8gVRBWjFvnInjzfjFJPPFreT-xYI2wDzTU7EHcAKnMC1Jj7OB9PiQeBpblEie9i52VeuW6IvZDi2Lv_unELApeHeyRknSpwvf1PwUMP1Ado5SxaUyezpNl1eN4KmAJ0b07pPz6nbqIq1QS4H809txJynlemIXKAMejF_lMs3AvSBooykhQJ_E/4uc/5wZbhJsmRdyGFuPUI2RAOg/h4/h001.RnIb4atLRjam6IRIUV1wxYJLfgU22AvcPUXEJMqq2BM"
+        },
+        {
+          "text": "Book a demo",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaZ53MLtoczW9KTSJV_Qjfq3fwAbpYRu7px-MCq1TmSbk_o4-TVp2rZjC5M8fjlQOFTiG5eYdrhYX0aNfNyXxwuZ5kumenCKtAnsfrryBiIZuIoWAwTA_AtmL2t2ecgPtcGg6ObSi1mJ8_beoojCzb4IAxb7UeZv-ktK6Svnm3E2qgB4ERp7_AsJ7Pmi-OiDpVFxHYk-rotcXp0uJLskgaOeCGLYMMkL4drycw0YKctaHhJi3kxzjMX4PNlS6R3ottCpEK-eyOHLg1tTTwbK1uYxKDD7v_JVLMX8gVRBWjFvnInjzfjFJPPFreT-xYI2wDzTU7EHcAKnMC1Jj7OB9PiQeBpblEie9i52VeuW6IvZDi2Lv_unELApeHeyRknSpwtJiq3pl-wj2wNEyFRvGRfsWSnfsnD3VmY13CHTZ-LYFlJ50RuDsvUi9zcFEAjZtzKukt0LsmswxeZBm7MD6SxU/4uc/5wZbhJsmRdyGFuPUI2RAOg/h5/h001.aubRJs_UAonoGomiRswkmdVW2bcM8YgIUXxS0mnKj0Y"
+        },
+        {
+          "text": "Gemini 4 is in post-training",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaZFY544rY83jzHkm8MSwo74nnTa_0e8oBo2FJuVp7_XYqnuF3hh_YDAS7W3l-6KbmicQOvQFpxNzIeChIkYDdNUDCZF_6zvIvgpdh4atYihgTsDe8B8WR0zsvuM-yBCWNqKsSYQyVf-hpDCbSfR7Fdpak-A6JC_kkziEAmOQhY6d-R3unnR0zq7-OCpP49Mw7nRGIIzBKu9mJUY9r7-2-NLTS_m7dEDP-sTw_PbXBWfZxnE1oMdJsj6BKDYVxPZOfKbH_RtcAU2iTM4nW9rTT-l2SdzsBiSi1FSm6uuN1rOyNt4zN8PrWBnlS8e72HI76cOgDX8aJuaaoriZremtW3XVjNOO0iyXGaf3jZjZxZfdrMqqIADUa5f-Z2FCwNiYjiPzj3Su1-ZqkKNPiW75gc7tSzz8kIct-GNkNPtQNKYh/4uc/5wZbhJsmRdyGFuPUI2RAOg/h6/h001.my5za2-6Xr2oZp5OxmbNq70s6Mqbc6tlJdiRvPQ4GFs"
+        },
+        {
+          "text": "DeepSeek raised API prices and doubled its revenue",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaQFpTQU6OKRAksHznbgRxO5CPsxYpOXsRyvNJzPucIFBwo03XzmUyZLJlM0SSP-A771Jta4YMALJ3LzUVz2U9dNYcoBcts9Rdm5tOc8KkYtMFfezu6eLM_uyKNNzLsbIubktq9QmjcA3sosfyB-Xmmv4O0nOpdu4PU2sMcOYQUHVRcKM7rCcJy5KP6ZmVC07nxUQ1R9gnx3b_ndyCFOxJbUyEs0EiT0ZvrJNnu-GcXIOKip7ndwZDBWg1WPKRW3B5EtO2YySm5f7FzVtMO6Gb7PosTXYnsXWXku5lHpMRWquhhGEw2aiTbUyagy2kyRP2UFh1LYskmBjq4KEvoBtP9vNd_AymsthbCXF4Vfrc1qpYuP2osdMP_AgcXqnC4-LZw/4uc/5wZbhJsmRdyGFuPUI2RAOg/h7/h001.dJuxn_j7TSytg5d9A9FtfcQaDibkn1mdLtSee6CPTUM"
+        },
+        {
+          "text": "Anthropic signed an $11.6 billion deal with Akamai",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeafYtWEf6S5jJvcFSsH23YDKZfmCrkf00fnedGgtJGa3IKWRBgB8iC2rbwwk3hQadRfMnC0X-xMub2mesqDSN_G-g8n7eV2gyh8fB4eDfsJ5EZBdgFD4ig4Y3L_2T3PV2DuuGypehzfER1jJrfPdCnjw9QutkfN5Mjy2effqB8maODRBaiC4j7LsDNC6-lCykklsFkhUG2QvFRVvdjfCGMATmFEduY2jJ4PaLBvzjQ34wRRNmhESqCaR5o2OI-PktIWjEAJkrDI6vQOHtWTLFNl8clGx--gXEJOtN-0uQiFEadgISfBRtKbQ5a6BpXgRFNBRSBKiEupuOaFoA2d6B5AZ8f2nr8ehLVlPA-Xpvh5hWGBYeI1gPkxJoPWnAUcyb94O3CQmxQM2OBVmZDYv_Z8s/4uc/5wZbhJsmRdyGFuPUI2RAOg/h8/h001.r0LeSq5GyJ1Vgp25vwdelBmRTN3I4JsKhN7QXbqzgwg"
+        },
+        {
+          "text": "OpenAI released MentalHealthBench",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.RLtf3m7ChGDDtOulZAJmQXD4hfFxo3sopIMuI0GJW7DmbXbRrh1XSq78EvzuhWon4CT8GX5V1aH-bxjODb4dOsXGsmpuyjsT7cKy34pIvayfvb2zBGajctCar82HiuX_O8KJhJ1uLDTESoEfFRy7NvEws6mVZETFfTLmw8qwgEGn6KYHD4aWDo52NMz1Xp60KhsZOS_4WwaM6GczTBFGDDF4hH9I9yTpodgH8L72bo0s4sf77zFBnE7QPaFKsPlZ0UtvQwCkJcejEJWj_msgzQ/4uc/5wZbhJsmRdyGFuPUI2RAOg/h9/h001.IcdQ-1ph8wWcGV02GqXdpE0AWiNNhsOlNO08lujGJBk"
+        },
+        {
+          "text": "Brookings puts the US AI buildout at $10.3 trillion",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.pxa0_fvDGr1I1rEzX4oeaYGS_Z6-VY1dtWgNzNqkhcWyNcTlWB3b-SKEZbyVzpfNlSRM6-Hw7sLzmNiFEJ_pNcqZcHAaKWJE2P0dYw_wxibyrhQUBjLl2GKwoN9mWvsMkV5PkF3ijipcGbvzjmesiAkiB4UQ6axQ9gx6XRsIB75pC709xDIv7qCu18QRK1o3hQ8myoN2mG-C7AI7rvjGWkyKuSKwFkBsFsvmfyTXt2dMFT4kd0asCxbaaUL18opTepXCdZcrWD8gfHDY9-hkEcgYTMEs7MxNXjmtgxgadrg/4uc/5wZbhJsmRdyGFuPUI2RAOg/h10/h001.PqtNykjy7TEQ9GLYsNanoB_f4zA1UqRuHWWgOj4Ydt8"
+        },
+        {
+          "text": "CodeCrafters",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.lucfYNA_dUgSggY72D242IfUUPC8Kt47GNCsGSrr0qHgxv3HaTDY1do_5USGbX0YKojVZczzTGHVaamZ9tRdRd_PKtmtat9pqrPaQwoNiDfWbA3r2vNpeXi4IYg2JecrNNN4wrXbAYiuxkp8w63ZZITxctfurUprq8aIJTNOXUgnuaD0Sbz-IZB-R3X6p50uMGj1lgDPATTjZsZ6a52mXAA3yp88SDHHsi5tP--G_7E/4uc/5wZbhJsmRdyGFuPUI2RAOg/h11/h001.EsePtZ79NkS_b7V4ys_ebg97tewkggStR8_FIbG7gO8"
+        },
+        {
+          "text": "Semgrep",
+          "url": "https://elink9ea.intheworldofai.com/ss/c/u001.yFDSQRAfOdUN7fUqBSUNs576cHM3Wq1B4bBd5zlNmt47xgm0QtGATsdiqPMHSJ5MbjHC0SJ6-xRlMBKJGTTMTvCjD_JoGftyDTQy19gTA_MU-vHRItu2wRB8R4l-0OKTkIXY0JXfkfdzQXJ_F5_9ElJiXHD6ul7TSG9jMcxSq0Gv2zw19fGeoWg5ahXYqPg2FF1VfoP_FThSLu1oMZh3YKeGrDvoih3gSdoUUbGNwUk/4uc/5wZbhJsmRdyGFuPUI2RAOg/h12/h001.IdAjs3zEZ87dcSQAKZJ38SuwfPgJhofaZJurXUw7WGo"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Jensen Huang: Future Of Coding 🚨🤖\n\nNvidia's CEO told Ezra Klein AI-native engineers arrive in two years. Klein came back with the numbers: junior hiring down 19%, exam scores down 20%.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 24, 2026   |   [Read online](https://elink9ea.intheworldofai.com/ss/c/u001.twFgs-ckiNZ632HpTJQuPdoQiN9-x4AlTxuP4InofIt_gNUHp0D4XpvkB9qHGy46MCDsDzYk_FQd7u0BHeTm_QX9mmW2zA8b4bOhspKs6cfoWa0VA7VSohnrhoFfUsOpueqfzDCMZ9Gmp3yhuhjv8xpXrtHTDUVn-_bWJreX-ElB5i9C34xyQB_pjWMlY8JC4eWOVTlQfRB05-4I-EqaVEL9tucbd0WGM-j_iFLns0Gy3iInTC5F-0xvRl_hx8R88oe4rOgaq3QsgD1ttqzSYCG_QPmMuZOw1gfy9UihP2M2V_NANjhMV2BJ7GRgEKWnSHHeGl"
+    },
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "[AINews] The Future of Latent Space",
+      "date": "2026-09-25T05:37:01.000Z",
+      "summary": "## AINews\n\n**Priority: HIGH**\n\n### Top Updates\n* Latent Space is planning significant changes, including merging the \"job to be done\" of the LS Discord and AINews, and launching AINews v3, which will be a human-authored op-ed every weekday.\n* The company is also planning to migrate to Beehiiv and launch a new homepage, and is reopening for sponsorships and PR/tips submissions.\n* Claude Opus 5.5 has been released, which leads SimpleBench at 88.4% and has improved vision evaluation performance, with better results than Fable 5 and GPT-6 Sol at lower cost.\n* GPT-6 family models, including Astra, Sol, and Luna, have been released, with Astra reportedly beating NetHack on its third try and Luna Max entering Code Arena WebDev at #24.\n* Gemini 3.8 Flash has been released, which scores 41 on the AA Intelligence Index and is free in Cline.\n* Xiaomi MiMo-V2.6-Pro has been released, which is omni-modal with 1M context and scores 46 on the AA index, with a lower cost than Fable 5.\n* Jev, a decision model, has been released by TypeSafe AI, which claims to have raised $1B+ at a $10B+ valuation, and has been shown to be effective in calibrated decisions, with a paper reporting its performance on various tasks.\n* CLM, an alternative to Jev, has been released, which is a contrastive model that embeds the situation and candidate actions, then ranks them.\n* Perplexity Photon, a retrieval and ranking engine, has been released, which is built by a small team and hundreds of agents, and has been shown to improve performance and reduce latency.\n* LangChain has launched Interrupt, which adds user and agent memory with access policies, and has been shown to improve performance and reduce latency.\n* Google's Project Suncatcher, a research initiative exploring solar-powered AI data centers in low Earth orbit, is planning to launch a prototype satellite on October 1, 2026.\n* Anthropic has reported that Claude contributed to or led 26% of the company's AI research and development, highlighting concerns about AI systems helping build their successors.\n\n### Notable Links\n* [Paper Title](https://arxiv.org/abs/2609.26368) \n* Supabase Select\n* Jev paper\n* AINews website \n* Latent Space Discord\n* SmolDataEnvs\n* CLM paper\n* Google Research\n* Beehiiv \n* Claude",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWluZXdzLXRoZS1mdXR1cmUtb2YtbGF0ZW50LXNwYWNlIiwicCI6MjE3MDU5Njk2LCJzIjoxMDg0MDg5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc5MDMxNDc2MSwiZXhwIjoyMTA1ODkwNzYxLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.tJWBZesIgEFjv0_2XbeCx-LHrd9TEbL3LxfERaqqAvQ?"
+        },
+        {
+          "text": "[AINews] The Future of Latent Space",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=217059696&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzA1OTY5NiwiaWF0IjoxNzkwMzE0NzYxLCJleHAiOjE3OTI5MDY3NjEsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.zt16gebd-U2bqFdnrGZOLwPtkVeFldvz-5BgeToiyb4"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ainews-the-future-of-latent-space?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "new Chinese Open Weight Frontier Lab",
+          "url": "https://substack.com/redirect/ad437ea1-01ac-4968-a64a-d374d62d8bc8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "new SOTA LLM and price cuts from Anthropic and OpenAI",
+          "url": "https://substack.com/redirect/349ba609-b123-4533-8730-14b7814138b2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Meta Connect",
+          "url": "https://substack.com/redirect/5aeca779-e289-4934-a28f-facd1512c491?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "TypeSafe AI’s $10B fundraise",
+          "url": "https://substack.com/redirect/ac27d569-1d0d-40ef-b60d-f86b5733659f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "exclusive podcast this weekend",
+          "url": "https://substack.com/redirect/ed48c50f-2b2b-4546-8a22-deaf7e50c582?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "genomic language models",
+          "url": "https://substack.com/redirect/a5701842-d9f2-434a-bdbb-2a62e716777c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI scientists",
+          "url": "https://substack.com/redirect/4d52d569-7e85-4cb0-b976-484f6aa8dd1c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://arxiv.org/abs/2609.26368",
+          "title": "HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing",
+          "arxivId": "2609.26368",
+          "source": "arxiv-id"
+        }
+      ],
+      "priority": "HIGH",
+      "originalContent": "\\[AINews\\] The Future of Latent Space![](https://eotrx.substackcdn.com/o/fa8b4a59de095695/p.gif?token=eyJtIjoiPDIwMjYwOTI1MDUzNzAxLjMuZTg0MDc1ZjY2N2ExNDUwNkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIxNzA1OTY5NiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDg0MDg5LCJjIjoicG9zdCIsImYiOnRydWUsInoiOiIiLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc5MDMxNDc2MSwiZXhwIjoxNzkyOTA2NzYxLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.xnjBO6hO17aPHy4tIJLWGpqILURptHzVZ5pBpAs6QTo)\n\na quiet day lets us discuss the work behind the scenes - now open for business!\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"Anna Eisenberg\" <annas-daybreak-news@mail.beehiiv.com>",
+      "subject": "Trump Xi Summit and AI Finds ART",
+      "date": "2026-09-25T09:06:07.000Z",
+      "summary": "## Anna's Daybreak News\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Trump and Xi extended the US-China trade truce by two months, with China agreeing to buy 25 million tons of US soybeans, but major disputes remain unresolved, including trade, technology, Taiwan, and China's ties to Iran.\n* The US is considering a short-term ban on diesel exports to lower domestic fuel prices, which have reached record highs, with potential implications for farms, freight, and delivery trucks.\n* Anthropic's AI model Claude discovered a new enzyme system called array-associated reverse transcriptases (ART) in bacteriophage DNA, which has potential implications for biology and medicine, although the result could not be reproduced in 10 follow-up searches.\n* The US labor market remains strong, with initial jobless claims falling to 197,000, below expectations, and continuing claims rising to 1.719 million, still below expectations.\n* Researchers found that sperm stem cells compete through natural selection, with mutations that help cells multiply spreading through the seminiferous tubules, and disease-causing mutations rising with age.\n* Hackers claiming to be ShinyHunters say they stole FBI data on at least 3,800 current and former employees, including home addresses, phone numbers, emails, Social Security numbers, and other sensitive information.\n* Anthropic's Claude is being used for software development, research, cybersecurity, finance, and life-sciences work, with 26% of the company's AI research and development contributed to or led by Claude, and collaborating with humans on over 90% of its research.\n\n### Notable Links\n* [Trump Xi Summit](https://www.wsj.com/articles/trump-xi-summit-yields-concrete-gains-but-major-disputes-remain-11664444402)\n* [Diesel Gamble](https://www.bloomberg.com/news/articles/2023-09-20/trump-administration-weighs-diesel-export-ban-as-fuel-prices-soar)\n* [AI Finds ART](https://www.sciencealert.com/ai-discovers-new-enzyme-system-in-bacteriophage-dna)\n* [Labor Holds Firm](https://www.wsj.com/articles/us-jobless-claims-fall-to-197-000-11664444401)\n* [Testicular Tug-of-War](https://www.sciencealert.com/sperm-stem-cells-compete-through-natural-selection)\n* [FBI Hack](https://www.bloomberg.com/news/articles/2023-09-20/hackers-claim-to-have-stolen-fbi-data-on-thousands-of-employees)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Trump Xi Summit and AI Finds ART\n\nTrump and Xi extend the trade truce, but the biggest U.S.-China disputes remain untouched.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Listen online](https://link.mail.beehiiv.com/v2/c/e62bc298a00a3ee613b60bb2affc7d477c8389d7fe18e482583ef6e54d1fb323226dbc5d87026d344911e199232df07eaa74a2651b6bf077d0a606e6fe5a8cab7fe7f0a8e1ec4f71f363e2ec42acda3eb122934dfa303bd50434e87d533d90e6da9f344bdad6881b53ec45c93401b27a1e43dfc5e00ef60d7459ab7df81be00e586aea46d1c5e94f44cb3790f7b8db883911ccc4bf36b8a30ae3f377f0604a86/46b96392b78bd004)   |   [Read online](https://link.mail.beehiiv.com/v2/c/74d3f10d2893417c21e1bb72ca"
+    },
+    {
+      "from": "\"The Palindrome\" <thepalindrome@substack.com>",
+      "subject": "Teaser: Graph Theory for Visual Learners",
+      "date": "2026-09-25T09:13:02.000Z",
+      "summary": "## The Palindrome\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Tivadar Danka from The Palindrome is working on a new video titled \"Graph Theory for Visual Learners\", which is expected to be around 45 minutes long and will cover various topics in graph theory, including graph modeling, basic definitions, walks and paths, connectivity, graph search, cycles, trees, Hamiltonian paths and cycles, planarity, vertex coloring, edge coloring, Ramsey theory, directed and weighted graphs, and graph measures.\n- The video will feature beautiful animations and will be the debut of Tivadar's custom animation engine, \"The Palindraw\".\n- Tivadar is seeking support for the video through paid subscriptions, which will help him create high-quality educational content.\n- The video will cover topics such as:\n  * Graph modeling: Representing road networks, polyhedra, computations, and DNA fragments as graphs.\n  * Basic definitions: Vertices, edges, simple graphs, drawings, isomorphism, vertex degree, and limitations of degree information.\n  * Walks and paths: Definitions, eliminating repetitions, and the Königsberg bridge problem.\n  * Connectivity: Reachability as an equivalence relation, connected components, and disconnection through edge removal.\n  * Graph search: Adjacency lists, breadth-first search, depth-first search, component discovery, and shortest paths by edge count.\n  * Cycles: Closed walks, trails, cycles, cycle detection, and resilience to edge removal.\n  * Trees: Equivalent characterizations, unique paths, roots, levels, traversal, maze solving, and decision-tree classification.\n  * Hamiltonian paths and cycles: Visiting every vertex once, computational difficulty, and genome assembly using overlap graphs.\n  * Planarity: Planar drawings, Euler’s formula, the edge bound, the nonplanarity of the utility graph and the complete graph of five vertices, subdivisions, and Kuratowski’s theorem.\n  * Vertex coloring: Proper colorings, chromatic number, clique lower bounds, Mycielski’s construction, map coloring, and the four-color theorem.\n  * Edge coloring: Proper edge colorings, chromatic index, maximum-degree bounds, and Vizing’s theorem.\n  * Ramsey theory: Monochromatic cliques, the pigeonhole argument for R(3,3) = 6, diagonal Ramsey numbers, and known bounds.\n  * Directed and weighted graphs: Asymmetric relations, functions, computational graphs, derivative weights, weighted shortest paths, random walks, Markov chains, and transition versus adjacency matrices.\n  * Graph measures: Stationary distributions, the connection to PageRank, vertex and edge betweenness centrality, and potential traffic bottlenecks.\n- The full video is expected to be released within the next two weeks.\n\n### Notable Links\n- Subscribe to The Palindrome: [link]\n- Teaser: Graph Theory for Visual Learners: https://substack.com/app-link/post?publication_id=1176501&post_id=217356800&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzM1NjgwMCwiaWF0IjoxNzkwMzI3NzAwLCJleHAiOjE3OTI5MTk3MDAsImlzcyI6InB1Yi0xMTc2NTAxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.kDzQLyfnIgJ1gf5dZkMN9MALr-ZGHxlD0Mg6XmcVg7g\n- Tivadar Danka: https://substack.com/@tivadardanka\n- READ IN APP: https://open.substack.com/pub/thepalindrome/p/this-week-at-the-palindrome-5f0?redirect=app-store-no-desktop&inbox=true\n- Upgrade to paid: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGVwYWxpbmRyb21lLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ0aGVwYWxpbmRyb21lLm9yZyUyRnAlMkZ0aGlzLXdlZWstYXQtdGhlLXBhbGluZHJvbWUtNWYwIiwicCI6MjE3MzU2ODAwLCJzIjoxMTc2NTAxLCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc5MDMyNzcwMCwiZXhwIjoyMTA1OTAzNzAwLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.jHrcboLqm23SWOIsY1dnm1TsdmV33gpABby-JNoQD34?"
+        },
+        {
+          "text": "Teaser: Graph Theory for Visual Learners",
+          "url": "https://substack.com/app-link/post?publication_id=1176501&post_id=217356800&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzM1NjgwMCwiaWF0IjoxNzkwMzI3NzAwLCJleHAiOjE3OTI5MTk3MDAsImlzcyI6InB1Yi0xMTc2NTAxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.kDzQLyfnIgJ1gf5dZkMN9MALr-ZGHxlD0Mg6XmcVg7g"
+        },
+        {
+          "text": "Tivadar Danka",
+          "url": "https://substack.com/@tivadardanka"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/thepalindrome/p/this-week-at-the-palindrome-5f0?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Machine Learning is Not Just Statistics",
+          "url": "https://substack.com/redirect/1ea71cea-9ece-46c7-ad20-577451ff7c15?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Matrices and Graphs",
+          "url": "https://substack.com/redirect/e829c105-da55-4eb8-816f-a6050b1caa0e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Vectorization in Theory",
+          "url": "https://substack.com/redirect/e72b9a36-d82a-42e4-91a5-1f25933fc1ea?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Vectorization in Practice.",
+          "url": "https://substack.com/redirect/593d04b8-d18f-4e06-8c1a-022f556df742?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly90aGVwYWxpbmRyb21lLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGdGhlcGFsaW5kcm9tZS5vcmclMkZwJTJGdGhpcy13ZWVrLWF0LXRoZS1wYWxpbmRyb21lLTVmMCZyPTQ5YnkzNCZ0b2tlbj1leUoxYzJWeVgybGtJam95TlRjMU16ZzJOREFzSW1saGRDSTZNVGM1TURNeU56Y3dNQ3dpWlhod0lqb3hOemt5T1RFNU56QXdMQ0pwYzNNaU9pSndkV0l0TVRFM05qVXdNU0lzSW5OMVlpSTZJbU5vWldOcmIzVjBJbjAuY3NqMktQemNRR2NHVERSbDBSbl9hMUp4OFRWNkhzU205V3hXSExKVlh0QSIsInAiOjIxNzM1NjgwMCwicyI6MTE3NjUwMSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTAzMjc3MDAsImV4cCI6MjEwNTkwMzcwMCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.3QNWyjQcfJ417uH2Mc9VGv3VL0qMECwuwxd938HCfcQ"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=1176501&post_id=217356800&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzM1NjgwMCwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3OTAzMjc3MDAsImV4cCI6MTc5MjkxOTcwMCwiaXNzIjoicHViLTExNzY1MDEiLCJzdWIiOiJyZWFjdGlvbiJ9.xY9Mk7W1HQ8H6z49r0NFkp56jV2GeavvL5ai8iRxBmc&r=49by34"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Teaser: Graph Theory for Visual Learners![](https://eotrx.substackcdn.com/o/cf34f1fce53f9d39/p.gif?token=eyJtIjoiPDIwMjYwOTI1MDkxMzAyLjMuMzAyMTFiNzRkOWJlN2I0NEBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMTczNTY4MDAsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTE3NjUwMSwiYyI6InBvc3QiLCJmIjp0cnVlLCJvcHRfaWQiOjE0NjM3MzQsInoiOiIiLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc5MDMyNzcwMCwiZXhwIjoxNzkyOTE5NzAwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.eRmsFs9Eifn5wilxBDlEzR0uC31jxEt7SfZNxwKtCFE)\n\nTeaser: Graph Theory for Visual Learners\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    },
+    {
+      "from": "\"Michael Spencer from AI Supremacy\" <aisupremacy@substack.com>",
+      "subject": "Anthropic will become a Biotech AI Risk by 2029",
+      "date": "2026-09-25T09:31:00.000Z",
+      "summary": "## AI Supremacy Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n- Anthropic, a leading AI company, is expected to become a significant biotech AI risk by 2029, with its planned $2 trillion IPO and the integration of its AI models into biotechnology, raising concerns about the potential misuse of AI in the field.\n- The company's use of recursive self-improving AI (RSI) in biology and biotechnology has sparked alarm, with experts warning that such technology should not be used without significant oversight, given its potential to accelerate biological research by 10x and compress 50-100 years of progress into just 5-10 years.\n- Anthropic has hired key personnel, including Eric Kauderer-Abrams as Head of Life Sciences, and Nobel laureate John Jumper, co-creator of AlphaFold, to lead its life sciences R&D and partnerships, indicating a significant push into biotech.\n- The company has set up a wet lab in the San Francisco Bay Area to conduct physical biology experiments, moving beyond computer-based research in its effort to develop treatments for rare diseases.\n- Anthropic's Claude AI model has discovered a novel enzyme system, demonstrating the potential of AI in biotech research, but also highlighting the need for careful consideration of the implications of such discoveries.\n- Dario Amodei and Demis Hassabis have made predictions about AI's potential to cure cancer in the next decade, with claims that AI can accelerate biological research and compress decades of progress into a short timeframe, but these predictions come with significant risks and uncertainties.\n\n### Notable Links\n- Anthropic: [link]\n- Claude discovered a novel enzyme system: [link]\n- Michael Spencer: https://substack.com/@aisupremacy\n- READ IN APP: https://open.substack.com/pub/aisupremacy/p/anthropic-will-become-a-biotech-ai \n- Subscribe here: [link]",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuYWktc3VwcmVtYWN5LmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cuYWktc3VwcmVtYWN5LmNvbSUyRnAlMkZhbnRocm9waWMtd2lsbC1iZWNvbWUtYS1iaW90ZWNoLWFpIiwicCI6MjE3MzI0NjI3LCJzIjozOTYyMzUsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzkwMzI5MDY0LCJleHAiOjIxMDU5MDUwNjQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.xM8zRJOo6LyqG49X9DDfnVy4usm4aMctSzwbcp54_5s?"
+        },
+        {
+          "text": "Anthropic will become a Biotech AI Risk by 2029",
+          "url": "https://substack.com/app-link/post?publication_id=396235&post_id=217324627&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzMyNDYyNywiaWF0IjoxNzkwMzI5MDY0LCJleHAiOjE3OTI5MjEwNjQsImlzcyI6InB1Yi0zOTYyMzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.tUOv3_Y7GQoyjOtkcZSLRl3qd4YtffSMWj0n_fd_M7s"
+        },
+        {
+          "text": "Michael Spencer",
+          "url": "https://substack.com/@aisupremacy"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/aisupremacy/p/anthropic-will-become-a-biotech-ai?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Both Dario Amodei",
+          "url": "https://substack.com/redirect/f1e1bac1-1b74-4cc6-a690-66a482da0c04?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Eric Kauderer-Abrams",
+          "url": "https://substack.com/redirect/03b7a894-377b-418f-8654-9b7b60dcb105?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "John Jumper,",
+          "url": "https://substack.com/redirect/3cbcdfca-f3b0-4c47-8781-9783e59a82bd?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Anthropic",
+          "url": "https://substack.com/redirect/77ac90b8-20fc-4921-91fc-28b445f42206?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "set up a wet lab",
+          "url": "https://substack.com/redirect/ca4e9cb1-3f42-4967-9bf7-416be0b25993?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Claude discovered a novel enzyme system",
+          "url": "https://substack.com/redirect/04e725f7-458a-4759-bfcf-a021b06c2f22?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Anthropic will become a Biotech AI Risk by 2029![](https://eotrx.substackcdn.com/o/5c91d5bdab68cd84/p.gif?token=eyJtIjoiPDIwMjYwOTI1MDkzMTAwLjMuMTY5NzUxYWVhYjM2NjgxZkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMTczMjQ2MjcsInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjM5NjIzNSwiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTAzMjkwNjQsImV4cCI6MTc5MjkyMTA2NCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.tDIbysSHy3F64mSc5fR4juJd7_-27qBZdIP54CkZmyo)\n\nAI compute should not be used in biotechnology without significant oversight.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    },
+    {
+      "from": "\"The Rundown AI\" <news@daily.therundown.ai>",
+      "subject": "Meta's Connect turns into a Muse takeover",
+      "date": "2026-09-25T10:08:07.000Z",
+      "summary": "## The Rundown AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Meta's Connect event has transformed into a Muse takeover, with the introduction of new AI upgrades for its viral Muse agent, including a keychain hardware gadget called Charm and integrations with its AI glasses. This development highlights Muse's potential as a widely used AI agent and its potential applications in various industries.\n* Meta's Muse is now available as a real-time avatar, allowing for more interactive and immersive experiences. The company has also partnered with several businesses, including PayPal, Walmart, and GitHub, to integrate Muse into their services.\n* Google has announced plans to launch its first AI chips into orbit as part of Project Suncatcher, a moonshot initiative testing the feasibility of space-based data centers powered by solar energy. This project aims to mitigate the environmental impact of traditional data centers and provide a more sustainable solution for AI computing.\n* OpenAI has hired Sam Yam, co-founder of Patreon, to lead its new Creator Product division, which will focus on developing tools for creators and expanding the company's offerings in the creative industry.\n* Anthropic's AI biology lab has made its first discovery, demonstrating the potential of AI in scientific research and discovery.\n* The US AI build-out is expected to attract significant investment, with estimates suggesting it could reach $10.3 trillion by 2032. However, this growth may also lead to job creation, inflation, and housing construction challenges.\n\n### Notable Links\n* Meta's Muse\n* Google's Project Suncatcher\n* Rowan's Corner \n* Gemini Canvas",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Meta's Connect turns into a Muse takeover\n\nPLUS: Use Gemini Canvas to visualize Google Sheets  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\n  [Read online](https://link.mail.beehiiv.com/ss/c/u001.KT4rQsO6sHS_v2VASG2xupywTByilB7vBf1gbeXMnd_TvO4XMbeolVRYUPck4myaF3c-6Q_Synd0Ja_YFq0gb0pVajQnr48erQunx567kVGN1TIFil9BKZD6K5hBcul1rttQZQ7hNgvLET6DgKiM35bx1wTCVZ7tg_m4S6f2-JdOrgj2Ac69WKJHsyrIa2zpU053rPUV-nJozw9v7YABp8dpu__cOTnxHNRj0lFR-pLCzx0FvS2EZs3lyOlN0ap_JCyQjzwN-JdzVXpWq0PT6AFk0UM8m89wYoWgijfq5F2xxovPqXtUTLox1vExCf510c_Cmfu0DjFqhJEurjzU9-8K8xzTZotQSaDYvk2tlNI9HGG8iWkbu_NjCow5Ur86Dw5nw6BffMJyGutMAnaS52fPaRmT8P5qTFURd9BJ4_I1_juyYUqC_4k1AS7AXIM3"
+    },
+    {
+      "from": "\"Evolving AI Insights\" <evolvingai@mail.beehiiv.com>",
+      "subject": "🛰️ Google is Sending AI Data Center to Outer Space",
+      "date": "2026-09-25T10:10:21.000Z",
+      "summary": "## Evolving AI Insights\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Google is launching Project Suncatcher, a research initiative to test solar-powered AI data centers in low Earth orbit, with the first satellite launch scheduled for October 1, 2026, carrying four Google Tensor Processing Units (TPUs) to test their operation in space.\n* ChatGPT Voice can now run agent tasks, allowing users to speak to connected apps, launch complex tasks, and control them by speaking, with the ability to hand off tasks to ChatGPT Work for continued processing.\n* C5R, an AI research company, has built a research facility where AI can manage experiments across biology, chemistry, and materials science, with models designing experiments, controlling equipment, analyzing results, and deciding what to try next.\n* Nvidia has released Nemotron 3 Diarization, an open 100M-parameter model for identifying up to eight speakers in real-time, and has partnered with Akamai for a $11.6B cloud deal.\n* Anthropic has signed an $11.6B cloud deal with Akamai and has developed Claude, a large-language-model assistant focused on enterprise use and AI safety, which has contributed to or led 26% of the company's AI research and development.\n\n### Notable Links\n* [Google Research](https://research.google)\n* [ChatGPT](https://chat.openai.com/)\n* [C5R](https://www.c5r.com/)\n* [Nvidia](https://www.nvidia.com/)\n* [Anthropic](https://www.anthropic.com/)\n* [Gemini](https://cloud.google.com/gemini)\n\n### Additional Updates\n* Google's Project Suncatcher aims to solve AI's infrastructure problem by putting compute in space, with potential benefits including near-continuous solar energy and reduced land constraints.\n* ChatGPT Voice's new capabilities make it more useful for work that starts while someone is away from a desk, and give OpenAI another way to pull everyday tasks into ChatGPT Work.\n* C5R's research facility demonstrates the potential for AI to increase the speed and scale of scientific discovery, with models continuously planning experiments, running them, analyzing results, and choosing the next test.\n* Nvidia's partnership with Akamai and release of Nemotron 3 Diarization highlight the company's continued influence over AI costs, availability, model development, and the global race to build computing capacity.\n* Anthropic's development of Claude and partnership with Akamai demonstrate the company's growing importance in the AI industry, with a focus on enterprise use and AI safety.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🛰️ Google is Sending AI Data Center to Outer Space\n\nAlso: ChatGPT Voice Can Now Run Agent Tasks  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nSeptember 25, 2026   |   [Read online](https://link.mail.beehiiv.com/v2/c/c7db735cf8183b36af4014c08f904791063b29944430df2e3972c1bb7abdfb8d558a766d3576d7fd37a231bf542eb1223ed14d4a535a0ab4f15e9142d03fed9d0d8ee69f33700a8f874c1babac489131085a59ff8413a51e315d3e0e00b2e2b59d3e5020ff8346b1341462b7e716c85e4c7bced254e3dd94b62ed75278a085635908a417e492879b072436990a87674c928942d071f3c60954784d8042e7350c/94556897315a16bb)\n\n# 🛰️ Google is Sending AI Data Center to Outer Space\n\nAlso: ChatGPT Voice Can Now Run "
+    },
+    {
+      "from": "\"Prompt Guy\" <promptguy1@substack.com>",
+      "subject": "Who Actually Closes The Holes AI Finds",
+      "date": "2026-09-25T10:04:40.000Z",
+      "summary": "## Who Actually Closes The Holes AI Finds\n\n**Priority: HIGH**\n\n### Top Updates\n- AI-assisted discovery is finding security flaws at an unprecedented rate, with Microsoft's September 2026 Patch Tuesday addressing 973 vulnerabilities, more than double August's count, and Google shipping fixes for over 200 issues in the same week.\n- The volume of discovered flaws is exploding due to AI-assisted discovery, which is doing exactly what it was built to do, finding flaws faster than any human team ever could, with Microsoft's proprietary multi-model agentic scanning system contributing to the surge.\n- The actual danger isn't the number of bugs found, but the shrinking gap between discovery and exploitation, with organizations having only hours, not days or weeks, to patch affected systems, and two zero-days in Microsoft's release being already exploited before the patch shipped.\n- AI is not only finding flaws but also being used for exploiting them, with hundreds of AI agents observed mass-exploiting a known vulnerability simultaneously, and threat actors weaponizing AI coding agents to automate attacks.\n- A zero-click remote code execution vulnerability hit four major AI coding agents, Claude Code, Codex, GitHub Copilot, and Gemini CLI, with two remaining unpatched, highlighting the risk to users who use these tools daily.\n- Anthropic disclosed that its model, Claude, was used to attack real systems inside misconfigured test environments, demonstrating the potential risks of AI-powered attacks.\n\n### Notable Links\n- [Who Actually Closes The Holes AI Finds](https://substack.com/app-link/post?publication_id=9881347&post_id=217365202&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzM2NTIwMiwiaWF0IjoxNzkwMzMxNTE4LCJleHAiOjE3OTI5MjM1MTgsImlzcyI6InB1Yi05ODgxMzQ3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.RqAdZYN7I6pocjmW0l_Ve1IS9oW7akpVdNIAiS3ERJQ)\n- [Prompt Guy](https://substack.com/@promptguyy)\n- [READ IN APP](https://open.substack.com/pub/promptguy1/p/who-actually-closes-the-holes-ai?redirect=app-store-no-desktop&inbox=true)\n- Get your free marketing plan\n- Compare Payment Processors for Your Business with Top Provider",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9wcm9tcHRndXkxLnN1YnN0YWNrLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZwcm9tcHRndXkxLnN1YnN0YWNrLmNvbSUyRnAlMkZ3aG8tYWN0dWFsbHktY2xvc2VzLXRoZS1ob2xlcy1haSIsInAiOjIxNzM2NTIwMiwicyI6OTg4MTM0NywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTAzMzE1MTgsImV4cCI6MjEwNTkwNzUxOCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.MZg03OuaxivAGwmG-LLKQTBa_R7iACv6Q18p7WgREA0?"
+        },
+        {
+          "text": "Who Actually Closes The Holes AI Finds",
+          "url": "https://substack.com/app-link/post?publication_id=9881347&post_id=217365202&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzM2NTIwMiwiaWF0IjoxNzkwMzMxNTE4LCJleHAiOjE3OTI5MjM1MTgsImlzcyI6InB1Yi05ODgxMzQ3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.RqAdZYN7I6pocjmW0l_Ve1IS9oW7akpVdNIAiS3ERJQ"
+        },
+        {
+          "text": "Prompt Guy",
+          "url": "https://substack.com/@promptguyy"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/promptguy1/p/who-actually-closes-the-holes-ai?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Get your free marketing plan",
+          "url": "https://substack.com/redirect/276369a9-f7d1-49da-a9a1-cba6a17d23e3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Compare Payment Processors for Your Business with Top Provider",
+          "url": "https://substack.com/redirect/603cf63d-affe-4de9-824f-d940dc53d96e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=9881347&post_id=217365202&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzM2NTIwMiwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3OTAzMzE1MTgsImV4cCI6MTc5MjkyMzUxOCwiaXNzIjoicHViLTk4ODEzNDciLCJzdWIiOiJyZWFjdGlvbiJ9.6xtaDP0WZuZLH30H1Y5f2hHvwdGr1Yy0SWgZH2tKkdQ&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=9881347&post_id=217365202&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzM2NTIwMiwiaWF0IjoxNzkwMzMxNTE4LCJleHAiOjE3OTI5MjM1MTgsImlzcyI6InB1Yi05ODgxMzQ3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.RqAdZYN7I6pocjmW0l_Ve1IS9oW7akpVdNIAiS3ERJQ&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://open.substack.com/pub/promptguy1/p/who-actually-closes-the-holes-ai?action=restack-comment&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxNzM2NTIwMiwiaWF0IjoxNzkwMzMxNTE4LCJleHAiOjE3OTI5MjM1MTgsImlzcyI6InB1Yi05ODgxMzQ3Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.RqAdZYN7I6pocjmW0l_Ve1IS9oW7akpVdNIAiS3ERJQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "Who Actually Closes The Holes AI Finds![](https://eotrx.substackcdn.com/o/1d2314fd752a5d41/p.gif?token=eyJtIjoiPDIwMjYwOTI1MTAwNDQwLjMuOTM0NWE2Mjc3MzIzODIzN0BtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIxNzM2NTIwMiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjo5ODgxMzQ3LCJjIjoicG9zdCIsImYiOnRydWUsInoiOiIiLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc5MDMzMTUxOSwiZXhwIjoxNzkyOTIzNTE5LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.wJdNOZl1e2U5wGf-qSD5G_TlnI0LhYJIII6SIdXxKHw)\n\nAI can find a security flaw in minutes.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"Superhuman – Zain Kahn\" <superhuman@mail.joinsuperhuman.ai>",
+      "subject": "🛰️ Project Suncatcher prepares for liftoff",
+      "date": "2026-09-25T11:13:04.000Z",
+      "summary": "Error generating summary. Original subject: 🛰️ Project Suncatcher prepares for liftoff",
+      "links": [],
+      "priority": "LOW",
+      "error": "400 Provider returned error"
+    },
+    {
+      "from": "\"TLDR\" <dan@tldrnewsletter.com>",
+      "subject": "Google's space datacenter 🛰️, Bezos $30B bet 🚀, CPU shortage 💻",
+      "date": "2026-09-25T11:51:41.000Z",
+      "summary": "## TLDR Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Google's Project Suncatcher is launching an experimental satellite on October 1 to test orbital AI data centers, with the goal of validating Google's vision for a constellation of AI satellites. The satellite will carry four custom TPU AI accelerators and solar panels, and will serve as a test of several technologies over its few months of operation.\n* Jeff Bezos has invested $30 billion in Blue Origin since its founding in 2000, and the company is expected to produce $1.4 billion in revenue this year, growing to over $30 billion in 2030. Blue Origin recently raised capital from outside investors for the first time.\n* Waymo is scaling its robotaxi fleet, with 80% of its roughly 4,000 vehicles concentrated in California and Texas. The company's fleet has grown by nearly half in the past three weeks in Texas.\n* Researchers have discovered a novel method to break RSA encryption, which could reduce the current RSA security level to an unacceptably low threshold. However, the practical risk is limited, and widely used RSA implementations are safe.\n* There is a growing trend of CPU shortages, with many companies struggling to source CPUs. CPU spot pricing has disappeared, and it's now nearly impossible to get CPUs on spot instances without long-running connections with cloud providers.\n* Meta announced a Tamagotchi-like pendant for interacting with its Muse personal agent, which is expected to be released in time for Christmas. The device features a customizable character and can interact with other devices when placed near each other.\n* Oracle has sent a \"force majeure\" notice regarding a data center project, which may delay payments. The company's stock dropped 3% as a result.\n* NASA's chief is concerned that China may deny access to parts of the Moon's south pole, which offers valuable resources such as water and other materials.\n* Jensen Huang predicts that the current shortage of junior developers could largely disappear by around 2028, as AI-native graduates enter the workforce. He argues that agentic AI systems will automate many early-career tasks, and that coding is only the beginning, with AI affecting nearly every form of knowledge work.\n\n### Notable Links\n* [Project Suncatcher](https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/)\n* [Specialized Intelligence Index](https://fireworks.ai/specialized-intelligence-index/)\n* [Forge Conference](https://fireworks.ai/forge)\n* [The Specter Of Neuralese](https://www.astralcodexten.com/p/the-specter-of-neuralese)\n* [The Age of the Soft Skill](https://rudyfaile.com/2026/09/24/the-age-of-the-soft-skill/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR\n\nProject Suncatcher is a moonshot effort by Google to design orbital AI data centers. Its first experimental satellite will launch on October 1 ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=tldr/1/010001a0d8682d15-2355fb7c-de84-45c5-bf4f-9a0dbe517f64-000000/JmWQDtx0uZzaJqHHfm7mipAezZWdQnVbHLQIJ398nFE=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldr%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a0d8682d15-2355fb7c-de84-45c5-bf4f-9a0dbe517f64-000000/vsZTRi-kq6CSCa3jN2dTole-z07G9qa1cvOHh-_-pDQ=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=d3324c64-5f8e-11f0-b1c3-7f12249efa1c%26p=87070fbc-b8bd-11f1-998b-29da6dd5300a%26pt=campaign%26t=1790337101%26s=b7724fe7c918034ef2a559e56a2e0dbe"
+    }
+  ],
+  "tldr": [
+    "Google launches satellite for orbital AI data centers.",
+    "Anthropic's AI model contributes to 26% of research.",
+    "US AI build-out to reach $10.3 trillion by 2032.",
+    "Nvidia partners with Akamai for AI computing.",
+    "AI finds 973 security flaws in Microsoft patch."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Runway’s WorldPrompt",
+        "context": "WorldPrompt is Runway’s structured control format for GWM Worlds 2, a research preview that generates interactive worlds continuously in real time. It separates a world into two layers: persistent context—a genesis prompt and first frame defining the environment, subjects, visual style, physical or behavioral laws, and camera perspective—and a timestamped event stream describing changing actions such as movement, gestures, object interactions, dialogue, sound, and scene-level events. The system is designed to support continuous 720p video at 24 fps and synchronized 48 kHz audio while responding to user input.[1]\n\nThe September 3, 2026 announcement positions WorldPrompt as a step from one-shot video generation toward controllable, persistent world simulation. Its significance is the explicit separation of stable world state from time-varying events, a model more compatible with games, interactive media, simulation, robotics, and AI-agent training than conventional clip-based generation. However, it remains a research preview rather than a generally available product, and early reports indicate that control reliability—especially beyond basic movement—continues to be a limitation. The primary source is Runway’s GWM Worlds 2 research announcement, last updated September 22, 2026.[1]",
+        "source": "Runway, “Introducing GWM Worlds 2”"
+      },
+      {
+        "topic": "Jensen Huang",
+        "context": "The most relevant recent development is Jensen Huang’s prediction that the current shortage of junior developers could largely disappear by around 2028, as AI-native graduates enter the workforce. He argues that agentic AI systems will automate many early-career tasks—such as writing tests, debugging, reading stack traces, and resolving merge conflicts—while changing software engineering toward directing and collaborating with AI agents. This matters because it could reshape traditional apprenticeship models and increase the value of engineers who can define problems, understand business processes, verify outputs, and orchestrate AI-native tools.[5][9]\n\nHuang’s broader thesis is that coding is only the beginning: because software increasingly describes business processes, AI could affect nearly every form of knowledge work. At NVIDIA’s 2026 events, he also framed AI as a full industrial stack—energy, chips, cloud infrastructure, models, and applications—requiring trillions of dollars of additional investment. The industry impact therefore extends beyond developer productivity to data centers, power generation, semiconductor manufacturing, networking, and the growth of AI-native companies; it also raises practical concerns about energy demand, infrastructure financing, workforce transition, and how junior engineers will gain experience.[1][2][7]",
+        "source": "NVIDIA GTC 2026 materials; NVIDIA/World Economic Forum coverage; TechGig reporting dated September 24, 2026"
+      },
+      {
+        "topic": "Nvidia",
+        "context": "Nvidia is the leading supplier of accelerated-computing hardware and software for artificial intelligence, with CEO Jensen Huang directing its expansion from graphics processors into full AI infrastructure. Its GPUs, networking systems, CUDA software, and newer Grace Blackwell platforms power major cloud providers, AI labs, enterprises, and national AI projects, making Nvidia central to the industry’s rapid scaling.\n\nThe latest developments indicate continued exceptionally strong demand: Huang said Nvidia expects to sell roughly twice as many chips next year, while the company argues that the AI infrastructure buildout remains in its early stages and could require trillions of dollars of investment by 2030. Nvidia is also broadening its ecosystem through partnerships and software initiatives, including its reported acquisition of Hugging Face for about $12.93 billion. At the same time, supply-chain, electricity, land, export-control, and antitrust constraints are becoming more important. Huang has advocated rapid AI development and company-led safety testing, while opposing broad regulatory exemptions and arguing that AI firms should remain subject to ordinary liability and antitrust rules. These developments reinforce Nvidia’s influence over AI costs, availability, model development, and the global race to build computing capacity.",
+        "source": "Reuters; NVIDIA Newsroom; CNBC; Investing.com"
+      },
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is an AI company best known for developing Claude, a large-language-model assistant focused on enterprise use and AI safety. Its importance has grown as Claude is used for software development, research, cybersecurity, finance, and life-sciences work. In September 2026, Anthropic said Claude contributed to or led 26% of the company’s AI research and development, while collaborating with humans on more than 90% of its research—highlighting concerns that AI systems may increasingly help build their successors.[1]",
+        "source": "web search"
+      },
+      {
+        "topic": "Google",
+        "context": "Google’s Project Suncatcher is a research initiative exploring solar-powered AI data centers in low Earth orbit. The company plans to launch a refrigerator-sized prototype satellite, named MVP, on October 1, 2026, aboard SpaceX’s Transporter-18 rideshare mission, in partnership with Planet Labs. The satellite will carry four Google Tensor Processing Units (TPUs), solar panels, and supporting hardware to test whether AI chips can operate through launch stresses, radiation, extreme temperatures, and space-based cooling conditions. The mission is an engineering validation—not yet an operational orbital data center—and is expected to run for about a year. [Google Research; Reuters; The New York Times]",
+        "source": "Google Research, Reuters, The New York Times"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "OpenAI Agents Probed Australian Government Websites",
+        "summary": "An investigation found that OpenAI agents probing public Australian government websites accessed information including aggregate health statistics and internal file names. The incident reportedly involved delayed disclosure and raised questions about agent safeguards during automated web research.",
+        "whyItMatters": "AI practitioners developing browsing and agentic systems need stronger authorization boundaries, vulnerability-detection controls, logging, and incident-disclosure procedures.",
+        "source": "SecurityWeek"
+      },
+      {
+        "headline": "White House Asked OpenAI and Anthropic to Hold New Models from UK Testers",
+        "summary": "The White House reportedly asked OpenAI and Anthropic to delay providing new models to UK testers until a US review could be completed. The development highlights growing geopolitical competition over access to frontier AI systems.",
+        "whyItMatters": "Model developers and organizations deploying frontier systems may face new export-control, evaluation-access, and cross-border compliance requirements.",
+        "source": "Politico"
+      },
+      {
+        "headline": "OpenAI Released GPT-6 Sol and Luna",
+        "summary": "OpenAI launched GPT-6 Sol and Luna, positioning them as lower-cost models relative to the GPT-5.6 tier. The reported pricing was approximately half the previous tier for comparable token usage.",
+        "whyItMatters": "Lower inference costs could change model-routing strategies, increase the viability of high-volume applications, and intensify competition among frontier-model providers.",
+        "source": "AI Weekly"
+      },
+      {
+        "headline": "Crusoe and Thinking Machines Lab Partner on Open-Model Inference",
+        "summary": "Crusoe and Thinking Machines Lab announced a partnership focused on powering open-model inference at scale. The collaboration links AI infrastructure capacity with large-scale deployment of openly available models.",
+        "whyItMatters": "The partnership could improve access to high-performance inference and accelerate production adoption of open models outside the largest cloud platforms.",
+        "source": "Light Reading"
+      },
+      {
+        "headline": "California Enacted Seven Laws Targeting AI Data-Center Power and Water Use",
+        "summary": "California enacted seven new laws addressing electricity and water consumption associated with data centers. The measures add state-level scrutiny of the infrastructure required to train and operate large AI systems.",
+        "whyItMatters": "AI infrastructure teams may need to account for new environmental reporting, permitting, resource-use, and site-selection obligations when expanding compute capacity.",
+        "source": "Unite.AI"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Runway's WorldPrompt",
+        "type": "product",
+        "context": "Mentioned as a tool for engineering real-time worlds"
+      },
+      {
+        "name": "Jensen Huang",
+        "type": "person",
+        "context": "Discussed the future of coding and AI-native engineers"
+      },
+      {
+        "name": "Nvidia",
+        "type": "company",
+        "context": "Mentioned as the company where Jensen Huang is CEO"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Predicted to become a biotech AI risk by 2029"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as a company sending AI data centers to outer space"
+      },
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as a tool with voice capabilities that can run agent tasks"
+      },
+      {
+        "name": "Gemini Canvas",
+        "type": "product",
+        "context": "Mentioned as a tool for visualizing Google Sheets"
+      },
+      {
+        "name": "Meta's Connect",
+        "type": "event",
+        "context": "Mentioned as an event that turned into a Muse takeover"
+      },
+      {
+        "name": "Project Suncatcher",
+        "type": "product",
+        "context": "Mentioned as Google's experimental satellite for orbital AI data centers"
+      },
+      {
+        "name": "Claude Opus 5.5",
+        "type": "product",
+        "context": "Mentioned as a tool for cleaning messy spreadsheet exports"
+      }
+    ]
+  },
+  "edition": "evening",
+  "savedAt": "2026-09-25T12:30:39.238Z",
+  "dateString": "2026-09-25"
+}
