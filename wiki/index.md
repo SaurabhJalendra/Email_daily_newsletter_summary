@@ -323,6 +323,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[granola]] — AI notepad turning months of meeting notes into a searchable memory with cited answers; canonical *accumulation*-archetype [[ai-moats]] example (Jul 2026)
 - [[groq-3-lpx]] — NVIDIA's AI inference accelerator chip; full-production Aug 2026; extends Vera Rubin platform; delivers 4× boost in response times vs nearest alternative for ultra-fast token generation in response-sensitive agentic workloads
 - [[grok-bot]] — SpaceXAI's iMessage-style team-of-agents product; per-agent dedicated cloud computer + app sign-in + cross-agent context sharing (Aug 2026)
+- [[gwm-worlds-2]] — Runway's Sep 2026 real-time interactive world model driven by structured WorldPrompt format; 720p/24fps + 48kHz audio; autoregressive-diffusion frame-by-frame architecture
 - [[grok-build]] — xAI's CLI coding agent for SuperGrok Heavy subscribers (May 2026)
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding *(stale)*
 - [[gpt-bidi]] — OpenAI's pre-launch bidirectional voice architecture for ChatGPT voice mode; first surfaced via AI Breakfast (Jun 2026)
@@ -483,7 +484,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[project-parka]] — Anthropic's Mac-first meeting-recorder — captures system + microphone audio, streams speaker-attributed transcripts, creates runnable Claude-agent work; turns meetings into full implementation prompts (Aug 2026)
 - [[project-panama]] — Anthropic initiative to digitize "all the books in the world" for AI training; surged demand for pre-2022 printed books (Jul 2026)
 - [[project-perception]] — Microsoft's forthcoming multi-model AI security tool framed as competitive undercut of Anthropic's Claude Mythos-tier cybersecurity positioning (Jul 2026)
-- [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO *(stale)*
+- [[project-suncatcher]] — Google's research program for TPU AI compute on solar-powered satellites in LEO; refrigerator-sized MVP satellite with 4 TPUs launches Oct 1 2026 on SpaceX Transporter-18 in partnership with Planet Labs
 - [[qwen-3-5]] — Alibaba's Feb 2026 vision-language MoE family; 397B-A17B Max, Medium MoE, Small tiny-model tier *(stale)*
 - [[qwen-3-vl]] — Alibaba's compact vision-language models *(stale)*
 - [[qwen-agentworld]] — Alibaba's family of language world models for agents — 10M+ environment-interaction trajectories simulating MCP/Search/Terminal envs (Jun 2026)
