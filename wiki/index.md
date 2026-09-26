@@ -180,6 +180,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-for-financial-services]] — OpenAI's Sep 2026 vertical ChatGPT-Work edition with PitchBook + Crunchbase + LSEG data baked in for valuation models + pitch decks
 - [[chatgpt-for-teens]] — OpenAI's Aug 2026 age-segmented ChatGPT for users 13-17; powered by GPT-5.6 Luna + parental controls + auto-switch via age-prediction system + verify-age path
 - [[chatgpt-go]] — OpenAI's $8/mo ChatGPT entry-paid tier; launched globally Jan 2026 *(stale)*
+- [[chatgpt-pro-max]] — OpenAI's reportedly-in-preparation $500/month premium ChatGPT tier (2.5× current $200 Pro plan); surfaced via unreleased frontend Sep 24 2026 with "Fastest Work and Codex" leaked positioning; 100GB storage + priority frontier-model access + max memory (Sep 2026)
 - [[chatgpt-tasks]] — OpenAI's scheduled-tasks hub inside ChatGPT — one-off + recurring tasks; replaces Pulse (sunset within 14 days); agent-on-a-schedule shift (Jun 2026)
 - [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages) *(stale)*
 - [[chatgpt-work]] — OpenAI's agentic ChatGPT workspace — takes outcomes not prompts, works for hours, delivers finished materials; powered by [[gpt-5-6]] (Jul 2026)
@@ -206,7 +207,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-reflect]] — Anthropic's mindful-use / anti-over-reliance Reflections dashboard for Free/Pro/Max accounts with memory on (Jul 2026)
 - [[claude-haiku-4-5]] — Anthropic's fast, low-cost coding model *(stale)*
 - [[claude-managed-agents]] — Anthropic's fully-managed agent runtime; composable APIs for cloud-hosted agents + Ultraplan (Apr 2026)
-- [[claude-marketplace]] — Anthropic's enterprise marketplace for Claude-powered third-party tools (Mar 2026) *(stale)*
+- [[claude-marketplace]] — Anthropic's enterprise marketplace for Claude-powered third-party tools; relaunched Sep 2026 at 2,000+ plugins with MCP connectors (Google Drive/Slack/Salesforce) + Cursor/CrowdStrike agents + Accenture integration + unified billing against Anthropic budget
 - [[claude-money]] — Anthropic personal-finance product (Sep 2026, in preparation) — link bank accounts, ask Claude about spending/plans/financial questions
 - [[claude-mythos]] — unreleased Anthropic Claude tier above Opus 4.7; release delayed over cybersecurity risk
 - [[claude-mythos-5-1]] — Anthropic's Sep 2026 restricted-access twin of Claude Fable 5.1; same underlying model with more-permissive safeguards; invitation only via Project Glasswing for cybersecurity + life-sciences work
