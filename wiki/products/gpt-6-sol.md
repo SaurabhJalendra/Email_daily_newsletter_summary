@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[openai]]
 > **First mentioned**: 2026-09-23-evening
-> **Last updated**: 2026-09-23-evening
+> **Last updated**: 2026-09-27-morning (**Cross-cohort morning saturation — Uncovering AI HIGH canonical *"9% of the cost per task"* competitive-differential restatement anchor + NLP Newsletter MEDIUM Sol/Luna cross-cohort restatement of "similar training methods to GPT-6 Astra" + "available through the API and selected ChatGPT Work and Codex plans" canonical distribution restatement**. Uncovering AI HIGH: *"OpenAI launched GPT-6 Sol and Luna, cutting API prices by 50%, and claims that Sol beats Claude Opus 5 on a business-workflow benchmark at 9% of the cost per task, increasing pressure on competitors to improve capability and efficiency"*. NLP Newsletter MEDIUM: *"OpenAI has launched GPT-6 Sol and GPT-6 Luna, which are trained with methods similar to GPT-6 Astra and offer improved efficiency and lower inference costs. Sol and Luna are available through the API and selected ChatGPT Work and Codex plans"*. Sustains 09-23-evening AutomationBench-beat-Opus-5-at-91%-less-cost canonical anchor with *cross-newsletter cycle-N+2 restatement* + *concrete "9% of the cost per task" reciprocal-framing canonical anchor tier* — 9% cost-per-task is the reciprocal expression of the ~91%-cheaper canonical anchor. See [[openai]] + [[claude-opus-5]] + [[claude-opus-5-5]] + [[gpt-6-luna]] — *source: data/summaries/2026-09-27-morning.json (Uncovering AI HIGH "🧠 the Godfather of AI says the labs are bluffing"; NLP Newsletter MEDIUM "🤖 AI Agents Weekly")*)
+> **Previously updated**: 2026-09-23-evening
 > **Status**: active
 > **Related**: [[openai]], [[openai-astra]], [[gpt-6-luna]], [[chatgpt-work]], [[chatgpt]], [[claude-opus-5]], [[claude-opus-5-5]], [[claude-fable-5-1]], [[ai-pace-letter]]
 

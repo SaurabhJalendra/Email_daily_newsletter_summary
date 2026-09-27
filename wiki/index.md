@@ -56,6 +56,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
 - [[h-company]] — computer-use agents on desktop + browser plugging into Claude Code, Cursor, and Hermes (Aug 2026)
 - [[hacktron-ai]] — ethical AI-assisted offensive-security research firm; used Anthropic's Claude to chain two OpenAI vulnerabilities and compromise multiple OpenAI-employee ChatGPT/Codex accounts (Jul 2026, $6,500 bounty)
+- [[hando-labs]] — crowdsourced humanoid-training-data-network startup where users record physical tasks for robotics teams to license; pays contributors in tokenized exposure to public stocks like Nvidia and Apple (Sep 2026)
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
 - [[helsing]] — German defense-AI startup; military autonomy software; $1.8B at $18B valuation Jul 2026 — Europe's biggest defense-tech round ever
 - [[higgsfield]] — AI video generation platform reportedly being acquired by [[stripe]] for over $7B (>5× valuation vs months prior); acquisition status pending vs adjacent OpenRouter-$7B framing (Aug 2026)
@@ -318,6 +319,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gas-town]] — Steve Yegge's coding-agent orchestrator; shut down Sep 2026 after Yegge admitted he had "never successfully built anything" with it despite thousands spent on subscriptions
 - [[gpt-live]] — OpenAI's Jul 2026 full-duplex voice model — listens + speaks simultaneously with mid-sentence handoff to larger models; rebuild of ChatGPT voice mode
 - [[google-ai-studio]] — Google's free playground for testing/comparing AI models incl. Gemini 3.5 Flash; side-by-side runs + prompt-builder; Google login (Jun 2026)
+- [[google-ax]] — Google's open-source (Apache 2.0) declarative orchestrator (Agent Executor) for running autonomous AI-agent workloads at scale; Kubernetes-style control plane for agent fleets; v0.3.1 released Sep 25 2026; runs on Google Agent Substrate with Redis Streams task queue
 - [[google-home-mcp]] — Google's Sep 2026 early-access Model Context Protocol server for Google Home; Claude + ChatGPT can control Nest cameras + thermostats + other smart-home devices
 - [[google-wikiskill]] — Google framework for persistent agent learning — co-evolves reusable agent skills alongside a persistent wiki that consolidates knowledge from previous experience (arXiv 2608.27454, Sep 2026)
 - [[googlebook]] — Google's Gemini-native premium AI laptop category; Magic Pointer AI cursor; ships fall 2026 *(stale)*

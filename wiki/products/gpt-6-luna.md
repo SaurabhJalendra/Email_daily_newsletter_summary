@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[openai]]
 > **First mentioned**: 2026-09-23-evening
-> **Last updated**: 2026-09-23-evening
+> **Last updated**: 2026-09-27-morning (**Cross-cohort morning saturation restatement — NLP Newsletter MEDIUM: *"OpenAI has launched GPT-6 Sol and GPT-6 Luna, which are trained with methods similar to GPT-6 Astra and offer improved efficiency and lower inference costs. Sol and Luna are available through the API and selected ChatGPT Work and Codex plans"*. Uncovering AI HIGH: *"OpenAI launched GPT-6 Sol and Luna, cutting API prices by 50%"*. Sustains the 09-23-evening Luna canonical launch-anchor cluster ($0.10/M input + $0.50/M output + 1.05M-context + Free/Go availability + AutomationBench +5.4pp uplift at 58% lower cost per task) with a *cycle-N+2 cross-newsletter saturation canonical anchor tier*. See [[openai]] + [[gpt-6-sol]] + [[openai-astra]] — *source: data/summaries/2026-09-27-morning.json (NLP Newsletter MEDIUM; Uncovering AI HIGH)*)
+> **Previously updated**: 2026-09-23-evening
 > **Status**: active
 > **Related**: [[openai]], [[openai-astra]], [[gpt-6-sol]], [[chatgpt]], [[claude-opus-5-5]], [[claude-fable-5-1]], [[ai-pace-letter]]
 

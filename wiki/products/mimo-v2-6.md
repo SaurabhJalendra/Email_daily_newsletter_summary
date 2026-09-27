@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[xiaomi]]
 > **First mentioned**: 2026-09-22-evening
-> **Last updated**: 2026-09-22-evening
+> **Last updated**: 2026-09-27-morning (**Cross-cohort morning restatement — NLP Newsletter MEDIUM: *"Xiaomi has open-sourced MiMo-V2.6, and StepFun has previewed Step 5"*. Sustains the 09-22-evening MiMo-V2.6 launch canonical anchor cluster (1.02T-parameter Pro + Flash + UltraSpeed variants + MIT license + AA-II 46 + $0.13/task Pareto frontier + $3M training cost) with a *cycle-N+5 cross-newsletter open-source-reconfirmation canonical anchor tier* alongside StepFun's Step 5 preview. See [[xiaomi]] + [[stepfun]] + [[open-source-models]] — *source: data/summaries/2026-09-27-morning.json (NLP Newsletter MEDIUM "🤖 AI Agents Weekly")*)
+> **Previously updated**: 2026-09-22-evening
 > **Status**: shipped (open weights + technical report + RL code + >7,000 training environments; MIT-licensed)
 > **Related**: [[xiaomi]], [[mimo-code]], [[open-source-models]], [[grok-4-7]], [[qwen-3-8-max]], [[kimi-k3]], [[deepseek-v4]], [[hugging-face]]
 
