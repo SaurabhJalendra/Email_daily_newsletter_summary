@@ -556,6 +556,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-chatbot-dark-patterns]] — CDT 37-pattern taxonomy of deceptive/manipulative chatbot-UX behaviors; first chatbot-UX-as-regulatory-surface artifact (Jun 2026)
 - [[ai-cybersecurity-arms-race]] — first AI-built zero-day in wild, Daybreak/Mythos/MDASH defender platforms, Mini Shai-Hulud worm (May 2026)
 - [[ai-copyright]] — court rulings and disputes over AI training data and outputs; Munich, Japan, publisher deals *(stale)*
+- [[ai-deanonymization]] — using LLMs to unmask anonymous online users via stylometric + attribute-inference profile-matching; ETH Zurich + Nicholas Carlini (Anthropic) Sep 2026 paper: ~90% success at $1–$4 per person via GPT-5.2 + Gemini 3
 - [[ai-healthcare]] — AI push into clinical, consumer-health, and pharma workflows; ChatGPT Health, OpenAI for Healthcare, Lilly-Insilico *(stale)*
 - [[ai-memory]] — persistent context across sessions; Claude Memory, ChatGPT→Claude migration, GPT-5.4 Stateful AI *(stale)*
 - [[ai-military]] — frontier-lab AI inside DoW/Pentagon systems; Pentagon-Anthropic ultimatum, xAI switch-out, OpenAI contract revision *(stale)*
@@ -597,6 +598,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026) *(stale)*
 - [[software-factories]] — cross-vendor thesis (Warp Oz + Cursor FDE + Factory) that every major software project will soon run on an automated main-loop factory (triage → spec → implement → review → verify → ship → monitor) (Jul 2026)
 - [[synthetic-consensus]] — AI swarms (coordinated LLM+multi-agent networks) infiltrating online communities to create illusion of broad public agreement; researcher-recommended four-primitive defense playbook; first-in-wiki canonical anchor (Aug 2026)
+- [[system-one-models]] — emerging decision-only model class returning typed structured judgments (choices, scores, probabilities) with calibrated confidence rather than free text; coined by TypeSafe AI for the Jev launch, canonicalized by Simon Willison; heterogeneous stack framing (code + decision models + generative models)
 - [[tabular-foundation-models]] — new pretrained model class for structured/tabular data (spreadsheets, CSVs, DB tables); zero-shot in-context learning replaces per-dataset training; canonical cohort TabFM/TabPFN/KumoRFM/TabICL (Jul 2026)
 - [[project-glasswing]] — Anthropic-led cybersecurity coalition (AWS, Apple, Google, Microsoft, NVIDIA) using Claude Mythos Preview
 - [[prompt-compression]] — techniques to compress long prompts into smaller representations preserving task-relevant info; Shopify "gisting" as named canonical technique for reducing agent-loop context/cost/latency (Sep 2026)
