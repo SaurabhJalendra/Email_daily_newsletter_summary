@@ -250,6 +250,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek-v3-2]] — DeepSeek V3.2 matches GPT-5; V3.2-Speciale rivals Gemini 3 Pro w/ IMO/IOI/ICPC gold *(stale)*
 - [[deepseek-v4]] — DeepSeek's Apr 2026 frontier MoE family (V4-Pro + V4-Flash); open-sourced; triggers AI-pricing collapse *(stale)*
 - [[deepseek-v4-1-flash]] — DeepSeek's Sep 2026 efficient open-weight MoE (552B total / 8-16B active); ~33× cheaper than GPT-6 Astra; 98% of Astra score at 1.4% cost; edges Claude Opus 5 + GPT-5.6 Sol on agentic/coding/cyber benchmarks; native image understanding
+- [[dsec]] — DeepSeek's Sep 2026 production sandbox infrastructure (arXiv:2609.22978); 380K+ concurrent + 5K+/s + 3M/day sandboxes; four backends (function/container/microVM/full-VM); AppArmor + eBPF security
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
 - [[dig-bench]] — agent benchmark measuring rule-discovery-through-experimentation; 70 text-based games (21 publicly released, ~49 held for anti-contamination) (Aug 2026)
 - [[digit-5]] — Agility Robotics' Sep 2026 next-gen humanoid; 50-lb payload + swappable end-effectors (paddle/pincher/claw/five-finger) + 9-min recharge + ~90-min runtime + >20 working h/24 + unfenced cooperatively safe operation + early access H1 2027 → broader end-2027
@@ -446,6 +447,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-charm]] — Meta's Sep 2026 dedicated handheld companion device for the Muse AI assistant; unveiled at Meta Connect 2026 alongside Meta VR Glasses
 - [[muse-voice-transcribe]] — Meta's Sep 2026 live speech-to-text model in the Muse family — production-ready ASR with 20+ speaker tracking; sixth Muse-family substrate (voice)
 - [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer for [[no-code-ai-automation]] cohorts wiring LLM APIs + agents into business SaaS (Jul 2026)
+- [[naive-n0-5-flash]] — NaiveAI's Sep 27 2026 MIT-licensed MoE open-weights model — 309B total / 15.5B active + native 1M-token context; new Beijing-based Chinese-open-frontier entrant
 - [[nano-banana-2]] — Google's next-gen image model; successor to Nano Banana Pro (Feb–Mar 2026) *(stale)*
 - [[nemotron-labs-twotower]] — NVIDIA's Jul 2026 open-weight parallel text diffusion model; dual 30B-copy pipelined-role architecture generating chunks of text in parallel at 2.42× throughput + 98.7% baseline quality
 - [[nano-banana-pro]] — Google's Gemini 3 Pro Image; 4K, 14-input, 5-character consistency, SynthID+C2PA *(stale)*
@@ -468,6 +470,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-workspace-agents]] — OpenAI's Apr 2026 ChatGPT feature for shared team agents handling complex tasks + long-running workflows *(stale)*
 - [[open-fable]] — Zhipu AI's forecasted ~Dec 2026 open-weights Fable-class model; strategic open-source counter to the Fable/Mythos export-control regime (Jun 2026)
 - [[open-lovable]] — Firecrawl team's Sep 2026 open-source Lovable-clone; 28,000+ GitHub stars; requires Firecrawl + a model provider (Gemini/Anthropic/OpenAI/Groq) + Vercel sandbox to self-host
+- [[open-agent-safety-platform]] — NVIDIA's Sep 2026 open platform for controlling + monitoring AI agents; OpenShell (CPU-side containment) + Sentry (network safeguards); Microsoft + Cisco + Oracle + Intel ecosystem
 - [[openclaw]] — open-source persistent assistant; team (incl. Steinberger) acquihired into OpenAI *(stale)*
 - [[openjarvis]] — open-source framework for a local personal AI assistant — local chat + document memory + tools (search/calculations) + Google Drive/Gmail connectors + voice I/O + scheduled agents; alpha status; Iron Man Jarvis as design metaphor (Aug 2026)
 - [[openrouter]] — Model-routing platform with unified API access to 400+ AI models across vendors; acquired by [[stripe]] for over $7B (Aug 2026)

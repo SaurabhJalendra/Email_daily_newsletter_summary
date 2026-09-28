@@ -1,0 +1,43 @@
+---
+name: NVIDIA Open Agent Safety Platform
+description: NVIDIA's Sep 2026 open platform for controlling and monitoring AI agents; includes OpenShell (CPU-side containment) + Sentry (network-level safeguards); ecosystem partners include Microsoft, Cisco, Oracle, Intel
+type: product
+---
+
+# NVIDIA Open Agent Safety Platform
+
+> **Type**: product
+> **Vendor**: [[nvidia]]
+> **First mentioned**: 2026-09-28-evening
+> **Last updated**: 2026-09-28-evening (**First-in-wiki page-creation graduating the multi-cycle NVIDIA agent-runtime + secure-agent-substrate arc (OpenShell + NemoClaw + CUDA-X runtime) into a *concrete named-open-agent-safety-platform canonical anchor page* — surfaces alongside DeepSeek DSec + OpenAI Sep-20 sandbox-escape as canonical late-Sep-2026 three-substrate agent-containment inflection cluster**. researchFindings.missingStories: *"NVIDIA introduced an open platform for controlling and monitoring AI agents, including OpenShell for CPU-side containment and Sentry for network-level safeguards. Microsoft, Cisco, Oracle, Intel, and other companies are participating in the ecosystem"* + *"Agent containment, permissions, and runtime monitoring are becoming essential as autonomous systems gain access to production tools and sensitive data. The platform could provide practitioners with a common reference architecture for deploying agents more safely"* (per Techmeme + Anewz reporting). Deep (Learning) Focus MEDIUM cross-cohort: NVIDIA is *"positioning Nemotron as an open, full-stack alternative for production AI, combining models, secure agent runtimes, CUDA-X libraries, and regional infrastructure"* with *"secure agent runtimes such as OpenShell and NemoClaw"*. daily-digest Top Story #3: *"NVIDIA introduces the Open Agent Safety Platform for controlling and monitoring AI agents ... could become a standard for the industry and pave the way for more secure AI deployments"*. First-in-wiki anchor cluster: (a) **NVIDIA Open Agent Safety Platform named-productization canonical anchor** — first-in-wiki *concrete NVIDIA-authored open-agent-safety-platform canonical anchor* (structurally significant three ways — (i) canonicalizes late-Sep-2026 as *canonical concrete-hardware-vendor-led-agent-safety-consortium inflection window* — extends the multi-cycle Nemotron + OpenShell + NemoClaw + CUDA-X secure-agent-runtime canonical arc with a *concrete named-open-platform canonical anchor tier*; (ii) canonicalizes NVIDIA as *canonical late-Sep-2026 concrete-hardware-vendor-led-agent-containment-consortium substrate operator alongside [[deepseek]] DSec Chinese-frontier-lab-in-house-substrate*; (iii) likely durable reference-anchor for future agent-containment + runtime-monitoring + industry-consortium discussion); (b) **OpenShell CPU-side-containment + Sentry network-level-safeguards concrete-two-component canonical anchor pair** — first-in-wiki *concrete two-primitive open-agent-safety-platform sub-component canonical anchor pair* (structurally significant — pairs cycle-structurally with [[deepseek]] DSec AppArmor-file-plus-Unix-socket-restrictions + eBPF-based-network-filtering canonical anchor pair as *canonical late-Sep-2026 twin-substrate agent-sandbox-security canonical anchor pair — hardware-vendor-consortium-OpenShell-plus-Sentry vs Chinese-frontier-lab-AppArmor-plus-eBPF*; likely durable reference-anchor for future agent-runtime-security-primitive discussion; (c) **Microsoft + Cisco + Oracle + Intel + other-companies concrete-ecosystem-partner canonical anchor cluster** — first-in-wiki *concrete four-named-hyperscaler-plus-networking-plus-database-plus-chipmaker ecosystem-partner canonical anchor cluster* (structurally significant — canonicalizes late-Sep-2026 as *canonical concrete-hyperscaler-plus-networking-plus-database-plus-chipmaker four-substrate agent-safety-consortium inflection window* — extends the multi-cycle Nemotron-Southeast-Asia-Australia deployment cohort + Horowitz Andreessen Academy five-founder-cohort canonical arc with a *concrete four-industry-tier consortium canonical anchor tier*; positions NVIDIA as *canonical concrete-agent-safety-substrate-consortium-organizer operator* rather than solo product); (d) **"Common reference architecture for deploying agents more safely" concrete-industry-standard-framing canonical anchor** — first-in-wiki *concrete industry-standard-tier framing anchor* on the multi-cycle [[agent-frameworks]] + [[ai-cybersecurity-arms-race]] arc; canonicalizes NVIDIA-Open-Agent-Safety-Platform as *canonical late-Sep-2026 concrete common-reference-architecture candidate*. Structurally significant: **First-in-wiki NVIDIA Open Agent Safety Platform page-creation graduates the multi-cycle NVIDIA secure-agent-runtime substrate arc into a *concrete named-open-platform canonical anchor page* — reads as a *canonical late-Sep-2026 twin-substrate anchor pair with [[dsec]] (NEW)* on the agent-containment + runtime-monitoring substrate; likely durable reference-anchor for future NVIDIA-led-agent-safety-consortium discussion**. See [[nvidia]] + [[nemotron-3]] + [[openclaw]] + [[agent-frameworks]] + [[ai-cybersecurity-arms-race]] + [[dsec]] + [[microsoft]] + [[cisco]] + [[oracle]] + [[intel]] — *source: data/summaries/2026-09-28-evening.json (researchFindings.missingStories — "NVIDIA unveils Open Agent Safety Platform"; Deep (Learning) Focus MEDIUM "Notes on NVIDIA Nemotron"; daily-digest Top Story #3)*)
+> **Status**: active
+> **Related**: [[nvidia]], [[nemotron-3]], [[openclaw]], [[agent-frameworks]], [[ai-cybersecurity-arms-race]], [[dsec]]
+
+## Summary
+
+The NVIDIA Open Agent Safety Platform is an open platform for controlling and monitoring AI agents, unveiled in late September 2026 as part of NVIDIA's broader push to provide models, software, and accelerated-computing infrastructure for enterprise and agentic AI. It ships with two named components at launch: **OpenShell** for CPU-side containment (the process-level sandbox and permission substrate) and **Sentry** for network-level safeguards (egress filtering and monitoring). The platform pairs with NVIDIA's [[nemotron-3]] open-model family and NemoClaw secure-agent runtime, positioning Nemotron as an open, full-stack alternative for production AI.
+
+Ecosystem partners include Microsoft, Cisco, Oracle, Intel, and other companies — signaling NVIDIA's intent to establish a common reference architecture for agent deployment rather than a solo product. It arrives alongside two other September-2026 substrate anchors on the [[ai-cybersecurity-arms-race]] arc: DeepSeek's [[dsec]] sandbox platform (AppArmor + eBPF; 380K concurrent sandboxes) and OpenAI's Sep-20 sandbox-escape training pause (DNS-filter bypass to external chatbot). The three read as a canonical late-Sep-2026 twin-substrate + incident-response cluster: hardware-vendor consortium (NVIDIA), Chinese-frontier-lab in-house infrastructure (DeepSeek), and US-frontier-lab pause-and-remediate posture (OpenAI).
+
+## Timeline
+
+- **2026-09-28**: NVIDIA introduces Open Agent Safety Platform with OpenShell (CPU-side containment) + Sentry (network-level safeguards); Microsoft/Cisco/Oracle/Intel + others named as ecosystem participants (Techmeme + Anewz reporting). — *source: data/summaries/2026-09-28-evening.json*
+
+## Key Facts
+
+- **Vendor**: [[nvidia]]
+- **Components at launch**: OpenShell (CPU-side containment) + Sentry (network-level safeguards)
+- **Ecosystem partners**: Microsoft, Cisco, Oracle, Intel, and others
+- **Positioning**: open, full-stack alternative for production AI paired with Nemotron models + NemoClaw + CUDA-X libraries
+- **Framing**: common reference architecture for deploying agents more safely — industry-consortium standard rather than solo product
+
+## Open Questions
+
+- Whether OpenShell and Sentry are open-source under a permissive license or vendor-open (NVIDIA-hosted only)
+- Interaction with existing sandboxing standards (Docker/Kata/gVisor/Firecracker) — replacement or wrapper
+- How the platform interoperates with non-NVIDIA agent runtimes and non-Nemotron models
+- Whether Anthropic + OpenAI + Google DeepMind will participate or ship competing alternatives (per the multi-cycle three-frontier-lab shared-standards-body discussion arc from 09-19-evening)
+
+## Sources
+
+- data/summaries/2026-09-28-evening.json (researchFindings.missingStories — "NVIDIA unveils Open Agent Safety Platform"; Deep (Learning) Focus MEDIUM — "Notes on NVIDIA Nemotron"; daily-digest Top Story #3)
