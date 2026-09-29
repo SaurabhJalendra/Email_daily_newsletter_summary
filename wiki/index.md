@@ -223,6 +223,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-slides]] — Anthropic's Sep 2026 beta presentation-authoring product surface bundled into the unified Claude app; competitive with Google Slides + Microsoft PowerPoint
 - [[claude-sonnet-4-6]] — Anthropic's Feb 2026 mid-tier; Opus-class perf at 40% lower cost; 79.6% SWE-Bench *(stale)*
 - [[claude-sonnet-5]] — Anthropic's Jul 2026 mid-tier ("most agentic Sonnet yet"); 1M context, $3/M input + $15/M output (promo $2/$10), default for Free/Pro; adopted by Cursor + Cognition + Cline + FactoryAI + Perplexity + VS Code
+- [[claude-sonnet-5-5]] — Anthropic's Sep 2026 second Claude-5.5-family model; up to 30% faster + 30% cheaper per task than Sonnet 5 at same listed token prices; "the everyday model"
 - [[claude-tag]] — Anthropic's multiplayer proactive persistent AI agent inside Slack as a shared team member; beta for Enterprise/Team customers (Jun 2026)
 - [[claudeforce]] — Salesforce + Anthropic joint-branded Claude chatbot plugin with 37 pre-built sales skills; ships alongside Claude-as-default-in-Slack rollout (Aug 2026)
 - [[cloudflare-computer]] — Cloudflare's virtual file system inside a Durable Object with pluggable execution surface; edge-tier agent-execution substrate (Aug 2026)
