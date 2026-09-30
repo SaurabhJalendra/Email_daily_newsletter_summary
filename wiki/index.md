@@ -232,6 +232,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[codex-security]] — OpenAI's autonomous appsec agent inside Codex; scans repos, builds threat models, proposes patches (Mar 2026) *(stale)*
 - [[copilot-cowork]] — Microsoft 365 Copilot's Claude-powered multi-step task agent across Office apps (Mar 2026) *(stale)*
 - [[cs-4]] — Cerebras's fourth-gen wafer-scale AI system; 3 wafer-scale chips per rack + 750 PFLOPS + 129.6 PB/s bandwidth + ~10× efficiency vs CS-3 + up to 30× faster inference than GPUs (Aug 2026)
+- [[cue]] — [[manus]]'s Sep 2026 standalone personal-AI-agent app launched with Manus 2.0; per-agent email + phone + digital wallet + computer with user-defined-budget payment authority; invite-code `MEETCUE` early access; iOS pending App Store review
 - [[chroma-foundation]] — Chroma's Aug 2026 shared-memory system for AI agents; ChromaDB + Context-1 20B GPT-OSS backing; integrates with Codex + Claude Code + Cursor + Slack; ~400 tok/s, ~25× cheaper than Opus for agentic search; self-improving system prompt
 - [[cohere-command-a-plus]] — Cohere's first open-weights frontier model; 218B Apache 2.0 (May 2026) *(stale)*
 - [[cohere-parse]] — Cohere's Aug 2026 enterprise document-intelligence tool converting complex files to structured machine-readable data; $1.50 per 1,000 pages via Cohere API
