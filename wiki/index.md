@@ -284,6 +284,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-8-flash]] — Google DeepMind's Sep 2026 Flash-tier successor to 3.7 Flash — smaller/cheaper/faster with significantly boosted coding; internal testers prefer over Anthropic's Opus for coding; tested on Jetski internal-coding platform
 - [[gemini-3-8-flash-tts]] — Google's Sep 2026 voice-design tool — custom voice design + voice cloning + two-speaker scene staging; #1 on Hume AI's voice-design benchmark; top rankings across Japanese/Hindi/Arabic blind listening tests
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence *(stale)*
+- [[gemini-4-argon]] — Google's Sep 30 2026 cybersecurity-vertical Gemini 4 variant for cyber defenders + security firms; claims coding ahead of GPT-6 Astra; first Gemini-4-family variant to ship; Wiz as first customer
 - [[gemini-4-pro]] — Google DeepMind's next flagship Gemini (codename "argon"); internal-checkpoint leaked Sep 2026 (2M-token context, 2.4-min high-thinking-effort first output, October target)
 - [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella; grounded summarization + citation + multi-source synthesis with deeper Gemini-app + Google-Search integration (Jul 2026)
 - [[gemini-omni]] — Google's I/O 2026 conversational video model; any-input → editable video; "Nano Banana for video"
@@ -333,8 +334,9 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[granola]] — AI notepad turning months of meeting notes into a searchable memory with cited answers; canonical *accumulation*-archetype [[ai-moats]] example (Jul 2026)
 - [[groq-3-lpx]] — NVIDIA's AI inference accelerator chip; full-production Aug 2026; extends Vera Rubin platform; delivers 4× boost in response times vs nearest alternative for ultra-fast token generation in response-sensitive agentic workloads
 - [[grok-bot]] — SpaceXAI's iMessage-style team-of-agents product; per-agent dedicated cloud computer + app sign-in + cross-agent context sharing (Aug 2026)
-- [[gwm-worlds-2]] — Runway's Sep 2026 real-time interactive world model driven by structured WorldPrompt format; 720p/24fps + 48kHz audio; autoregressive-diffusion frame-by-frame architecture
 - [[grok-build]] — xAI's CLI coding agent for SuperGrok Heavy subscribers (May 2026)
+- [[grok-team-bots]] — xAI's Sep 30 2026 shared AI coworkers that learn a team's workflow over time; team-tier evolution of per-user Grok Bot substrate
+- [[gwm-worlds-2]] — Runway's Sep 2026 real-time interactive world model driven by structured WorldPrompt format; 720p/24fps + 48kHz audio; autoregressive-diffusion frame-by-frame architecture
 - [[gpt-5-codex-mini]] — OpenAI's cost-efficient Codex variant; 4× more usage, near-parity coding *(stale)*
 - [[gpt-bidi]] — OpenAI's pre-launch bidirectional voice architecture for ChatGPT voice mode; first surfaced via AI Breakfast (Jun 2026)
 - [[gpt-image-1-5]] — OpenAI's Dec 2025 image-gen upgrade; 4× faster, sharper detail, Likeness Retention *(stale)*
@@ -453,6 +455,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[meta-one]] — Meta's Sep 2026 paid tier across Facebook/Instagram/WhatsApp — $2.99–$499/month bundle of expanded Meta AI usage + creator tools; monetizes Muse-family models following $14.3B Scale AI investment
 - [[meta-vr-glasses]] — Meta's Sep 2026 lightweight VR headset — $1,299 + spring-2027 launch + ~100g glasses with external compute pack + IMAX-grade display + Meta AI/Muse integration + voice/eye-tracking/hand-gestures (Meta Connect 2026)
 - [[muse-charm]] — Meta's Sep 2026 dedicated handheld companion device for the Muse AI assistant; unveiled at Meta Connect 2026 alongside Meta VR Glasses
+- [[muse-for-small-business]] — Meta's Sep 29 2026 SMB-tier expansion of the Muse personal AI agent; Shopify + QuickBooks + Stripe + Canva + Asana + Zoom + Box + Slack + FB/IG analytics integrations; direct challenger to OpenAI Dots in enterprise-agent market
 - [[muse-voice-transcribe]] — Meta's Sep 2026 live speech-to-text model in the Muse family — production-ready ASR with 20+ speaker tracking; sixth Muse-family substrate (voice)
 - [[n8n]] — open-source no-code / low-code workflow-automation platform; canonical glue layer for [[no-code-ai-automation]] cohorts wiring LLM APIs + agents into business SaaS (Jul 2026)
 - [[naive-n0-5-flash]] — NaiveAI's Sep 27 2026 MIT-licensed MoE open-weights model — 309B total / 15.5B active + native 1M-token context; new Beijing-based Chinese-open-frontier entrant
