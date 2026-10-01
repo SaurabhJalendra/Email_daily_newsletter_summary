@@ -284,7 +284,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-8-flash]] — Google DeepMind's Sep 2026 Flash-tier successor to 3.7 Flash — smaller/cheaper/faster with significantly boosted coding; internal testers prefer over Anthropic's Opus for coding; tested on Jetski internal-coding platform
 - [[gemini-3-8-flash-tts]] — Google's Sep 2026 voice-design tool — custom voice design + voice cloning + two-speaker scene staging; #1 on Hume AI's voice-design benchmark; top rankings across Japanese/Hindi/Arabic blind listening tests
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence *(stale)*
-- [[gemini-4-argon]] — Google's Sep 30 2026 cybersecurity-vertical Gemini 4 variant for cyber defenders + security firms; claims coding ahead of GPT-6 Astra; first Gemini-4-family variant to ship; Wiz as first customer
+- [[gemini-4-argon]] — Google's Sep 30 2026 flagship Gemini 4 frontier model; 1M output tokens, $2/$10 intro pricing (→ $4/$20), DeepSWE v1.1 77.9% + Vals Index leader + 68% CWE-bench v1 tie; leads 13/18 benchmarks; Fairwind-Program-gated; Google uses internally to free 300 TiB DC memory + migrate 800K lines C/C++→Rust (Oct 2026)
 - [[gemini-4-pro]] — Google DeepMind's next flagship Gemini (codename "argon"); internal-checkpoint leaked Sep 2026 (2M-token context, 2.4-min high-thinking-effort first output, October target)
 - [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella; grounded summarization + citation + multi-source synthesis with deeper Gemini-app + Google-Search integration (Jul 2026)
 - [[gemini-omni]] — Google's I/O 2026 conversational video model; any-input → editable video; "Nano Banana for video"
@@ -615,15 +615,17 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[system-one-models]] — emerging decision-only model class returning typed structured judgments (choices, scores, probabilities) with calibrated confidence rather than free text; coined by TypeSafe AI for the Jev launch, canonicalized by Simon Willison; heterogeneous stack framing (code + decision models + generative models)
 - [[tabular-foundation-models]] — new pretrained model class for structured/tabular data (spreadsheets, CSVs, DB tables); zero-shot in-context learning replaces per-dataset training; canonical cohort TabFM/TabPFN/KumoRFM/TabICL (Jul 2026)
 - [[project-glasswing]] — Anthropic-led cybersecurity coalition (AWS, Apple, Google, Microsoft, NVIDIA) using Claude Mythos Preview
+- [[project-meridian]] — Pentagon's 120-day AI-weapons futures study introduced Oct 1 2026 by Pete Hegseth; co-led by Elon Musk, Newt Gingrich, Palmer Luckey; aims to identify which AI technologies the US military should develop (Oct 2026)
 - [[prompt-compression]] — techniques to compress long prompts into smaller representations preserving task-relevant info; Shopify "gisting" as named canonical technique for reducing agent-loop context/cost/latency (Sep 2026)
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures *(stale)*
 - [[recursive-self-improvement]] — Anthropic's "Sparks of RSI" essay; 80% of Anthropic code Claude-authored, 8× engineer output, coordinated-pause ask (Jun 2026)
 - [[tsrx]] — TypeScript language extension + JSX successor by Dominic Gannaway; statically analyzable for LLMs; multi-target compile (React/Solid/Preact/Vue) (Jun 2026)
-- [[universal-commerce-protocol]] — Shopify + Google open protocol for agent-commerce (Jan 2026) *(stale)*
+- [[universal-commerce-protocol]] — Shopify + Google open protocol for agent-commerce; canonical substrate for Shopify Agentic Storefronts into ChatGPT + Gemini + Copilot (Oct 2026)
 - [[waico]] — World Artificial Intelligence Cooperation Organization; China-led intergovernmental AI governance body launched Jul 16 2026 in Shanghai; 29 founding countries (US/UK/Canada/EU absent)
 - [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos *(stale)*
 
 ## Trends
+- [[agentic-commerce]] — Late-2026 shift from traditional website-based retail to AI-agent-mediated purchasing; AI traffic to US retail sites +393% Q1 2026; Shopify Agentic Storefronts into ChatGPT + Gemini + Copilot + Universal Commerce Protocol + Adobe/ChatGPT + DoorDash text-to-order (Oct 2026)
 - [[agi-timelines]] — cross-lab AGI-arrival-prediction pattern; Hassabis 2-5 years + Altman + Amodei publicly canonicalize timelines as strategic anchors for investment/regulation/workforce planning (Jul 2026)
 - [[ai-biosecurity]] — pandemic-uplift-warning + bioweapon-uplift capability concerns on frontier LLMs + emerging AI-safety subdiscipline of biological threat model interpretability + refusal-training + evaluation (Jul 2026)
 - [[ai-bubble-concerns]] — institutional warnings vs $1T/$5T deal flow; AI token costs +65% YoY; AIDE 4-of-500 S&P perfect-AI-usage score (Jun 2026)
