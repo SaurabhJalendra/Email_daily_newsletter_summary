@@ -40,6 +40,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[crusoe]] — US AI-infrastructure company; $3.9B raise (Sep 2026) to build massive DCs plus truck-transportable modular "Spark" AI factories that connect to power almost anywhere
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale *(stale)*
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025 *(stale)*
+- [[earendil]] — vendor of Pi — open-source MIT-licensed minimal AI coding-agent harness; shipped [[pi-1-0]] stable + [[pi-durable]] TypeScript port Oct 1 2026
 - [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace, in-platform LLM hosting *(stale)*
 - [[engram]] — Neo Lab building a persistent, learned memory layer for AI to improve efficiency and reduce inference costs (Jun 2026)
 - [[etched]] — AI inference chip startup; exits stealth Jul 2026 at $5B valuation ($800M raised, $1B+ in contracts, first inference racks shipping summer 2026)
@@ -125,6 +126,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[stripe]] — US payments infrastructure company; ships [[stripe-kai]] enterprise Knowledge AI Platform for employee data-warehouse queries + account research + incident triage + revenue modeling + compliance reviews (Jul 2026)
 - [[suno]] — Cambridge-based AI music-generation startup; $400M Series D at $5.4B led by Bond Capital (Jun 2026); Warner settled, Universal/Sony lawsuits ongoing
 - [[taalas]] — AI inference silicon startup — hardware designed around the model, world's fastest + most cost-effective inference silicon per own framing; acquired by [[amd]] (Aug 2026)
+- [[tavus]] — vendor of [[tavus-griffin]] "Human Interaction Model" — real-time video+voice avatar that ~48% of live-call test participants mistook for a human (Oct 2026)
 - [[tencent]] — Chinese tech giant; Aug 2026 released Hy-MT2 specialized multilingual translation models (Hy-MT2-30B-A3B + Hy-MT2-1.8B)
 - [[terawulf]] — US-listed compute-infrastructure operator (former Bitcoin miner pivoting to AI-DC hosting); $19B multi-year Anthropic AI-infrastructure lease deal + initial capacity 2H 2027 (Jul 2026)
 - [[tesla]] — Elon Musk's EV + AI-hardware company; Optimus + Cybercab + Dojo + [[terafab]] JV with SpaceX; five-tier vertical AI stack (silicon-fab → compute → chip → robotics/AV → consumer) (Aug 2026)
@@ -493,6 +495,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[perplexity-computer]] — Perplexity's 19-model orchestration platform for end-to-end workflows (Feb 2026)
 - [[perplexity-personal-computer]] — Perplexity's always-on local AI agent on a dedicated Mac mini (Mar 2026) *(stale)*
 - [[perplexity-portable-computer]] — Perplexity+Nvidia's fully local AI agent on DGX Spark; zero token costs, model/data/work on-device, Linux launch + Windows Sept 2026 (Aug 2026)
+- [[pi-1-0]] — [[earendil]]'s Oct 1 2026 first stable release of open-source MIT-licensed AI coding-agent harness — native MCP + Codemode + image-model support + virtual-model extensions + deferred tool loading + Anthropic cache warming
+- [[pi-durable]] — [[earendil]]'s Oct 1 2026 TypeScript port of Pi — adds crash survival + portability + concurrency + extensibility + context management + multiplayer/state sync
 - [[plandex]] — open-source AI coding agent designed for large engineering tasks and multi-file changes (Jun 2026)
 - [[poke]] — first third-party AI agent approved for Apple Messages for Business / iMessage (Jun 2026)
 - [[prime-agent]] — Prime Intellect's Aug 2026 open-source coding agent — 95.5% on ARC-AGI-3 (surpasses human expert baseline); Recursive Language Model + Continual Harness self-modifying architecture
@@ -529,11 +533,13 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[spatialclaw]] — NVIDIA's spatial reasoning model for coding and robotics tasks (Jun 2026)
 - [[stripe-kai]] — Stripe's Jul 2026 Knowledge AI Platform for enterprise employees — queries data warehouses, researches accounts, triages incidents, models revenue scenarios, prepares compliance reviews
 - [[swe-1-7]] — Cognition's cheap near-frontier coding model built on China's Kimi K2.7 substrate; $1.97/task; RL-pipeline improvements + long-horizon-task techniques (Jul 2026)
+- [[synthid-bio]] — Google DeepMind's Oct 2 2026 proof-of-concept AI watermarking for tracing unfamiliar DNA designs — bio-domain extension of SynthID aimed at preventing synthetic-biology misuse
 - [[tabfm]] — Google's zero-shot foundation model purpose-built for tabular data; enables spreadsheet analysis/summarization/transformation/quality checks without task-specific training (Jul 2026)
 - [[tabicl]] — Inria/SODA Team's open-source tabular foundation model; two-stage distribution-aware column embedding + row-wise attention; TabICL v2 SOTA on TabArena (Jul 2026)
 - [[tabpfn]] — Prior Labs' Nature-paper tabular foundation model; transformer trained on synthetic tabular tasks; outperforms XGBoost/AutoGluon on ≤10K-sample datasets with ~1000× speedup (Jul 2026)
 - [[tailwind-css]] — utility-first CSS framework; ~110M installs/week; used by ChatGPT, Reddit, X, Cloudflare; acquired by [[shopify]] (via Tailwind Labs) Sep 2026; remains MIT-licensed open source
 - [[tau]] — Hugging Face's Sep 2026 open-source terminal-native coding agent — reads files, edits code, runs commands, keeps durable session history (`github.com/huggingface/tau`)
+- [[tavus-griffin]] — [[tavus]]'s Oct 2 2026 "Human Interaction Model" — real-time video+voice avatar; ~48% of live-call test participants mistook it for a human; Griffin-Lite in trusted-user safety-and-disclosure testing
 - [[tesla-megapod]] — Tesla's modular AI data center hardware system; self-contained compute pod bundling servers/networking/power/cooling; bid into AI-infrastructure-vendor market against NVIDIA DGX
 - [[terafab]] — Tesla + SpaceX jointly-developed AI chip factory in Grimes County, Texas outside Houston; $16.8B initial investment; logic + memory chips for Optimus + Cybercab + SpaceX orbital DCs; >100M sq ft + 3,000+ employees (Aug 2026)
 - [[timesfm-3]] — Google's Sep 2026 zero-shot multivariate time-series foundation model; 330M params, pretrained on 1T time points; #1 on GIFT-Eval + FEV-Bench + TIME; non-commercial license; on Hugging Face + GitHub
