@@ -23,6 +23,8 @@ The Ultrafast launch sits alongside a rename of **Priority Processing to Fast mo
 
 ## Timeline
 
+- **2026-10-02-morning**: **AlphaSignal HIGH cycle-N+2 cross-cohort morning restatement — concrete-"300 tokens per second" + concrete-"8x faster generation in Codex" + concrete-"6x in the API" three-concrete-multiplier canonical anchor restatement**. AlphaSignal HIGH: *"OpenAI has also introduced a new speed tier, Ultrafast, which provides up to 300 tokens per second, with 8x faster generation in Codex and 6x in the API"*. Sustains 09-30-evening Astra-Ultrafast $60/$300 + Sol-Ultrafast-coming-soon canonical anchor cluster into cross-cohort morning cycle-N+2 saturation. — *source: data/summaries/2026-10-02-morning.json (AlphaSignal HIGH "🚀 Google Gemini 4 Argon hits 1M output tokens, restricted launch")*
+
 - **2026-08-14-evening**: **Ultrafast tier launched in limited preview — 14× faster than Standard + up to 750 output tokens/sec for GPT-5.6 Sol, powered by Cerebras hardware; access expanding as capacity grows**. Same-cycle: **Priority Processing renamed to Fast mode** (up to 2.5× faster on Sol) + **price cuts on Terra and Luna**. Daily-digest Top Story #2. The Rundown AI framing: *"pushes OpenAI's most capable model into real-time, low-latency workflows, extending its API strategy around tiered performance and targeting use cases where latency is a competitive advantage."* — *source: data/summaries/2026-08-14-evening.json (The Rundown AI HIGH "💨 OpenAI feels the frontier need for speed"; TLDR MEDIUM "OpenAI Ultrafast ⚡, X open sources algo 📱, DeepSeek Harness 🐋"; AlphaSignal MEDIUM "🤖 xAI Grok Bot logs into your tools autonomously, $120/seat"; researchFindings.additionalContext — Ultrafast API + OpenAI + GPT-5.6)*
 
 ## Key Facts
