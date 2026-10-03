@@ -9,6 +9,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-automation-society]] — Nate Herk's Skool-hosted AI-automation community (100K+ own-reported / ~305K–420K third-party members, 2K+ paying Plus); n8n + Claude Code education; first hackathon launched Aug 1 2026 with $6K prizes + beginner track (Aug 2026)
 - [[agility-robotics]] — humanoid-robotics vendor; ships Digit humanoid for factory/warehouse work; Digit 5 unveiled Sep 2026 (50-lb payload + swappable end-effectors + 9-min recharge + >20h/day + unfenced human-robot collaboration + >65K production hours + >$300M multi-year orders + Toyota + EU/UK expansion + anticipated SPAC listing)
 - [[alfred-robotics]] — stealth robotics-software startup at $40M valuation; Sam Altman invests via Hydrazine Capital alongside Khosla Ventures + SV Angel (Jun 2026)
+- [[airbnb]] — travel-stay marketplace undergoing AI-native rebuild under CTO Ahmad Al-Dahle (ex-Meta Llama); ~60% AI-authored code + ~1.6× engineer PR throughput + ~50% support tickets AI-resolved + internal AirChat agent + Everest context graph (Oct 2026)
 - [[ai21-labs]] — Israeli foundation-model lab; Jamba family; NVIDIA reported $3B acquisition talks Jan 2026 *(stale)*
 - [[aleph-alpha]] — European sovereign-AI LLM vendor (Heidelberg-origin); merged with Cohere Sep 2026 into a 1,000-plus-person cross-Atlantic company with Toronto + Berlin HQs
 - [[alibaba]] — Qwen model family; Qwen3-Max-Thinking 100% AIME 2025; Quark S1 Smart Specs; 14.2% China open-AI share *(stale)*
@@ -136,6 +137,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[unitree]] — Chinese humanoid + quadruped robot manufacturer; first humanoid maker on China's stock market (Shanghai IPO Aug 2026 at ~$9B); Aug 2026 unveils "Superman" humanoid that runs faster than Usain Bolt but has no working hands
 - [[volta]] — NVIDIA-backed AI-infrastructure startup emerging from stealth at $2.4B valuation; six-year $10B Anthropic capacity deal (133MW Vera Rubin alongside Bitdeer Technologies) (Aug 2026)
 - [[trajectory]] — Neo Lab building a continual-learning platform that lets AI products keep learning from real-world user interactions (Jun 2026)
+- [[trillium-labs]] — Nathan Lambert + Tom Zick's new (Oct 2 2026) non-profit for open science of frontier AI; fully open post-training recipes + planned open infrastructure for RSI/reward-hacking/multi-agent research; backed by Halcyon Futures + Schmidt Sciences
 - [[typesafe-ai]] — Diogo Almeida-founded vendor behind [[jev]] "System One Model" decision-substrate (Sep 2026); 13% AI-Gateway teams first-day adoption + 6 open clones within 48h of launch
 - [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
 - [[warp]] — AI-terminal startup; ships Oz agent-orchestration platform; CEO Zach Lloyd "software factories are the next phase of coding" (Jul 2026)
@@ -191,6 +193,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[computer-history]] — OpenAI feature that logs clicks + typing to give [[chatgpt]] + Codex a memory of recent work on the user's computer; desktop-context persistent-memory tier alongside [[chatgpt-work]] + [[claude-cowork]] + [[kimi-work]] (Aug 2026)
 - [[chandra-ocr-2]] — document-intelligence OCR model topping olmOCR on tables (92.1%) + tiny text (93.7%); up to $5K Textract-migration credits (Jul 2026)
 - [[claude-academy]] — Anthropic's free-for-everyone AI-fluency school; 4D AI Fluency Framework + mindsets-over-prompting-tricks curriculum (Aug 2026)
+- [[clef]] — Cloudflare's Oct 2 2026 open-source Jev-API-compatible decision model family (Clef + Clef-flash) + companion RL fine-tuning platform; Apache 2.0 on Hugging Face, locally-runnable
 - [[claude-code]] — Anthropic's CLI coding agent; plugins, Routines, Web variant; $1B ARR
 - [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions (May 2026) *(stale)*
 - [[claude-code-security]] — Anthropic's security scanner inside Claude Code (Feb 2026) *(stale)*
