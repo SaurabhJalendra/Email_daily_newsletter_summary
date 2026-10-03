@@ -1,5 +1,22 @@
 import dotenv from 'dotenv';
+import { readFileSync, existsSync } from 'fs';
 dotenv.config();
+
+/**
+ * Senders from the NEWSLETTER_SENDERS secret plus config/extra-senders.txt.
+ * The secret cannot be read back once set, so additions live in a committed file instead.
+ * An empty secret keeps its old meaning (fetch ALL mail), so extras are merged only when the secret has entries.
+ */
+function loadSenders() {
+  const fromEnv = (process.env.NEWSLETTER_SENDERS || '').split(',').map(s => s.trim()).filter(Boolean);
+  const file = new URL('../../config/extra-senders.txt', import.meta.url);
+  const extra = existsSync(file)
+    ? readFileSync(file, 'utf8').split(/\r?\n/).map(l => l.replace(/#.*/, '').trim()).filter(Boolean)
+    : [];
+  if (fromEnv.length === 0) return [];
+  const seen = new Set(fromEnv.map(s => s.toLowerCase()));
+  return [...fromEnv, ...extra.filter(s => !seen.has(s.toLowerCase()))];
+}
 
 export const config = {
   email: {
@@ -26,7 +43,7 @@ export const config = {
     }
   },
   newsletters: {
-    senders: process.env.NEWSLETTER_SENDERS?.split(',').map(s => s.trim()) || []
+    senders: loadSenders()
   },
   ai: {
     openRouterApiKey: process.env.OPENROUTER_API_KEY,
