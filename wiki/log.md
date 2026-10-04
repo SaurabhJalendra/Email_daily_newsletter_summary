@@ -2,6 +2,19 @@
 
 Append-only chronological record of all wiki edits. Newest entries at the top.
 
+## LINT 2026-10-04 (week 2026-W40)
+
+**Lint actions**:
+- Fixed contradictions: none surfaced during spot-check across the week's heavily touched pages ([[openai]], [[anthropic]], [[google]], [[gemini-4-argon]], [[dots]], [[claude-sonnet-5-5]], [[openai-astra]], [[gpt-6-1-astra]], [[clef]], [[ai-regulation]]); the Pentagon-blacklist-upheld + Claude-for-Government-FedRAMP-High-GA posture-pair on [[anthropic]] was preserved as a canonical contradictory-federal-posture anchor pair (not a contradiction, both facts hold)
+- Resolved orphans: 0 — all 13 new pages created this week ([[meta-enterprise-platform]], [[atlas-omni-model]], [[gpt-6-1-astra]], [[dots]], [[gpt-6-1-sol]], [[chatgpt-spaces]], [[gemini-4-argon]], [[grok-team-bots]], [[muse-for-small-business]], [[agentic-commerce]], [[trillium-labs]], [[clef]], [[airbnb]]) already have multiple cross-references via ingest-cycle Related: + Timeline: anchors
+- Merged duplicates: none; the [[gpt-6-1-astra]] (cancelled Sep 29) vs [[astra-next]] vs [[openai-astra]] three-page cluster was verified distinct per ingest-time disambiguation rather than merged
+- Stale pages marked: 162 pages across the wiki already carry `Status: stale` markers from prior cycles (30 companies + 127 products + 5 topics); no additional stale marking performed this cycle — the ingest process maintains the staleness state continuously
+
+**Digest generated**: wiki/digests/2026-W40.md (~5155 words)
+
+Covered ingest range: 2026-09-29-evening → 2026-10-04-morning (7 cohorts). Most-active pages: [[openai]] (7 cycles), [[anthropic]] (7 cycles), [[gemini-4-argon]] (5 cycles, created mid-week), [[ai-regulation]] (6 cycles), [[dots]] (5 cycles, created mid-week). Index.md Digests section updated with 2026-W40 entry.
+
+
 ## 2026-10-04-morning
 **Ingested**: data/summaries/2026-10-04-morning.json (1 newsletter — Ollama MEDIUM "Clef and Clef Flash Decision Models are now on Ollama"; researchFindings.missingStories cross-cohort: Gemini 4 Argon cycle-N+6 restatement, AWS Strands Decider 2B cycle-N+1 restatement, Ant Group Ling-3.1-flash net-new, Nvidia + SoftBank $20B OpenAI investment cross-cohort restatement, US appeals court pauses Minnesota AI nude image ban net-new)
 
