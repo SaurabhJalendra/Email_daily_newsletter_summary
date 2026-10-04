@@ -6,6 +6,13 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Changed
+- **Emails and PDFs restyled to the reference-sheet house style** (paper and ink, lettered panels A/B/C, IBM Plex, square corners, 1.25 px rules, blue = data/explanation). One rule table in `src/utils/sheet-style.js` drives both: the PDF gets a `<style>` block (Plex from Google Fonts), the emails get the same rules inlined (Gmail strips `<style>`; fonts fall back to Arial / system mono). Content, links and logic unchanged. Priority labels are now glyph + word (`● HIGH`, `◐ MED`, `○ LOW`) instead of emoji; leading emoji dropped from headings. The daily PDF now actually shows its cover page and contents (the old rules only applied under `@media print`, which never ran because `html-to-pdf` emulates screen media; set `PDF_COVER_AND_TOC = false` in `src/notifier/email.js` to hide them). The weekly attachment note no longer promises serif type and drop caps.
+- `src/weekly-digest-email.js` exports `buildWeeklyDigest()` and only sends when run directly.
+
+### Added
+- `scripts/preview-styles.js` -- renders daily email, weekly email and both PDF sources to `preview/` (git-ignored) without sending; `--pdf` also renders the PDFs, exit 1 if the daily email is >= 102 KB.
+
+### Changed
 - **`config/senders.txt` is now the authoritative sender list** (renamed from `extra-senders.txt`); the `NEWSLETTER_SENDERS` secret is only a fallback when the file is empty. Curated 2026-10-04 from 73 senders seen in the last 40 digests down to 26: research/depth newsletters (Import AI, Ahead of AI, Interconnects, Epoch AI, Deep Learning Focus, ...), one daily roundup (AINews/Latent Space) and TLDR. Daily hype roundups (Mindstream, Superhuman, Rundown, beehiiv lists, Skool) and stray matches (Stripe, Medium, Coursera) are gone.
 
 ### Fixed

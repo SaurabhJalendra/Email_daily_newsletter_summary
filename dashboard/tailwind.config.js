@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+// Reference-sheet house style (design/reference-sheet/sheet.css). Tokens live as CSS variables in
+// styles/globals.css (light default, dark via prefers-color-scheme); Tailwind only maps names onto them.
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -6,21 +8,23 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    borderRadius: { none: '0', DEFAULT: '0' }, // square corners everywhere
     extend: {
       colors: {
-        primary: {
-          50: '#f5f7ff',
-          100: '#ebf0fe',
-          200: '#d6e0fd',
-          300: '#b3c7fb',
-          400: '#8aa5f8',
-          500: '#667eea',
-          600: '#5568d3',
-          700: '#4553b8',
-          800: '#3a4694',
-          900: '#333d77',
-        },
+        paper: 'var(--paper)',
+        ink: 'var(--ink)',
+        muted: 'var(--muted)',
+        hair: 'var(--hair)',
+        zebra: 'var(--zebra)',
+        tint: 'var(--tint)',
+        sheetblue: 'var(--blue)',
+        sheetred: 'var(--red)',
       },
+      fontFamily: {
+        sans: ['var(--f-sans)'],
+        mono: ['var(--f-mono)'],
+      },
+      borderWidth: { sheet: '1.25px' },
     },
   },
   plugins: [],

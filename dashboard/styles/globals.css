@@ -2,146 +2,245 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ==========================================================================================================
+   Reference-sheet house style, adapted for this dashboard.
+   Source of truth: D:/Git repos/Personal-Agents/design/reference-sheet/ (sheet.css, 01-colour.md, 02-typography.md,
+   04-panel-anatomy.md, 05-tables.md). This file is a trimmed copy (the dashboard deploys alone, so it cannot
+   @import the master). Paper and ink, lettered panels, IBM Plex, colour only for meaning, square corners,
+   1.25 px rules. Light always by default, as sheet.css rules; dark only if data-theme="dark" is set on <html> (never follows the OS).
+   Colour meaning here: blue = a day that has a summary / a link / the selected edition mark, red = not used.
+   ========================================================================================================== */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  color-scheme: light;
+  --paper: #ffffff; --ink: #1b2430;
+  --muted: #6a7482; --muted-wash: #5f6977;
+  --rule: #1b2430; --rule-strong: #535a63; --rule-mid: #8d9197; --hair: #e4e7ea; --zebra: #f4f6f8;
+  --tint: #e3ecf7; --tint-edge: #82a5cc; --blue: #1f5fa8; --blue-line: #5687bd; --red: #b3261e;
+  --code: #f4f6f8; --dim: #b4b9c0;
+  --f-sans: "IBM Plex Sans Condensed", "IBM Plex Sans", "Roboto Condensed", "Arial Narrow", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --u: calc(1rem / 11);
+  --fs-tb-title: calc(16.25 * var(--u)); --fs-ptitle: calc(15 * var(--u)); --fs-lede: calc(12.5 * var(--u));
+  --fs-sub: calc(12 * var(--u)); --fs-note: calc(10 * var(--u)); --fs-aside: calc(9.5 * var(--u));
+  --fs-label: calc(9.25 * var(--u)); --fs-key: calc(8.25 * var(--u));
+  --head: calc(31.25 * var(--u)); --pad: calc(18.75 * var(--u));
+  --measure: 56ch;
+}
+@media screen {
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #12171e; --ink: #e3e8ee; --muted: #9ba5b3; --muted-wash: #9ba5b3; --rule: #e3e8ee;
+    --rule-strong: #afb4ba; --rule-mid: #7a8086; --hair: #2b3037; --zebra: #19202a; --tint: #1a2b40; --tint-edge: #4c688e;
+    --blue: #79a8e6; --blue-line: #5f84b4; --red: #f07a70; --code: #19202a; --dim: #565e68;
+  }
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html,
+* { box-sizing: border-box; }
+html { font-size: 16px; background: var(--paper); }
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  margin: 0; font: 500 1rem/1.6 var(--f-sans); font-synthesis: none;
+  background: var(--paper); color: var(--ink);
+  overflow-wrap: break-word; -webkit-text-size-adjust: 100%;
+}
+em, i { font-weight: 400; }
+b, strong { font-weight: 600; }
+a { color: var(--ink); text-decoration-color: var(--blue-line); text-decoration-thickness: 1.25px; text-underline-offset: 2px; }
+a:hover { text-decoration-color: var(--ink); }
+button { font: 500 var(--fs-label)/1.4 var(--f-mono); border-radius: 0; cursor: pointer; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+/* ---- the drawing frame: grey inner line, ink outer line 17.5 px outside, numbered strips between ---- */
+main.sheet {
+  position: relative; width: calc(100% - 74px); max-width: 2400px; margin: 37px auto 90px; padding: 25px;
+  background: var(--paper); border: 1.25px solid var(--rule-mid); outline: 1.25px solid var(--ink); outline-offset: 17.5px;
+}
+.ruler {
+  position: absolute; left: 0; right: 0; top: -18.75px; height: 17.5px; display: grid;
+  grid-template-columns: repeat(8, 1fr); pointer-events: none; user-select: none;
+}
+.ruler.bottom { top: auto; bottom: -18.75px; }
+.ruler span {
+  display: grid; place-items: center; line-height: 1; border-left: 1.25px solid var(--rule-mid);
+  font: 500 11px var(--f-mono); color: var(--muted);
+}
+.ruler span:first-child { border-left: 0; }
+
+/* ---- page header: crumbs, title, lede on the left, title block on the right ---- */
+header.top { display: flex; flex-wrap: wrap; gap: 14px 40px; align-items: flex-end; justify-content: space-between; margin-bottom: 14px; }
+.crumbs { font: 500 var(--fs-label) var(--f-mono); color: var(--muted); }
+header.top h1 { font-size: 1.5rem; font-weight: 600; line-height: 1.2; margin: 4px 0 6px; text-wrap: balance; }
+.lede { margin: 0; font-size: var(--fs-lede); color: var(--muted); }
+
+.titleblock {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); width: calc(475 * var(--u)); max-width: 100%;
+  border: 1.25px solid var(--rule-strong); border-top-color: var(--rule);
+}
+.titleblock > div {
+  display: flex; flex-direction: column; justify-content: space-between; gap: calc(6 * var(--u)); min-height: calc(47.5 * var(--u));
+  padding: calc(6.5 * var(--u)) calc(10.5 * var(--u)) calc(6 * var(--u)); border-top: 1.25px solid var(--rule);
+}
+.titleblock > div:first-child { border-top: 0; }
+.titleblock > div:nth-child(2) { border-top: 0; border-left: 1.25px solid var(--rule); }
+.titleblock .wide { grid-column: 1 / -1; }
+.titleblock .k { font: 500 var(--fs-key)/1.2 var(--f-mono); color: var(--muted); }
+.titleblock .v { font-size: calc(12.75 * var(--u)); font-weight: 500; line-height: 1.25; }
+.titleblock .wide .v { font-size: var(--fs-tb-title); font-weight: 600; }
+
+/* ---- layout: calendar rail + reading track; both fill the width ---- */
+.layout { display: grid; grid-template-columns: minmax(280px, 400px) minmax(0, 1fr); gap: 25px; align-items: start; }
+.layout > .rail { position: sticky; top: 20px; min-width: 0; }
+.layout > .rail > .panel { margin-top: 0; }
+.layout > .flow { min-width: 0; }
+.layout > .flow > .panel:first-child { margin-top: 0; }
+/* a day with two editions: the editions stand side by side when the screen is wide enough */
+.editions { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 34rem), 1fr)); gap: 25px; align-items: start; }
+.editions > section { min-width: 0; }
+.editions > section > .panel:first-child { margin-top: 0; }
+.editions > section > .panel:last-child { margin-bottom: 0; }
+@media (max-width: 1000px) {
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .layout > .rail { position: static; }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+/* ---- lettered panels: square ink tab over the header rule, title and caption on one baseline ---- */
+.panel { border: 1.25px solid var(--rule); margin: 25px 0; background: var(--paper); min-width: 0; }
+.ph { display: flex; align-items: baseline; min-height: var(--head); border-bottom: 1.25px solid var(--rule-strong); }
+.pl {
+  align-self: stretch; flex: none; width: var(--head); margin-bottom: -1.25px; display: grid; place-items: center;
+  background: var(--ink); color: var(--paper); font: 600 var(--fs-ptitle)/1 var(--f-sans);
 }
+.ph h2 {
+  flex: 1 1 auto; min-width: 0; margin: 0; padding: 0 0 0 calc(11.25 * var(--u)); font-size: var(--fs-ptitle); font-weight: 600;
+  line-height: calc(var(--head) - 1.25px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.pc {
+  flex: 0 1000 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; line-height: 1;
+  padding: 0 calc(10.6 * var(--u)) 0 12px; font: 500 var(--fs-label) var(--f-mono); color: var(--muted);
+}
+.pb { padding: calc(12.5 * var(--u)) var(--pad) calc(14 * var(--u)); }
+.pb > :first-child { margin-top: 0; }
+.pb > :last-child { margin-bottom: 0; }
+.pb.flush { padding: 0; }
 
-/* Prose styling for markdown content */
-.prose {
-  color: #374151;
-  max-width: 65ch;
-}
+.note { font-size: var(--fs-note); line-height: 1.6; color: var(--muted); }
+.pb > .note { border-top: 1.25px solid var(--hair); margin: calc(13 * var(--u)) calc(-1 * var(--pad)) calc(-4.5 * var(--u)); padding: calc(10.6 * var(--u)) calc(12.5 * var(--u)) 0; }
+.pb.empty p { margin: 0; max-width: var(--measure); }
+.pb.empty p + p { margin-top: calc(6 * var(--u)); color: var(--muted); }
 
-.prose h1 {
-  font-size: 2em;
-  font-weight: 800;
-  margin-top: 0;
-  margin-bottom: 0.8em;
-  line-height: 1.1;
-  color: #111827;
+/* ---- key-value table (edition details): full-bleed zebra, grey mono labels ---- */
+table.kv { width: 100%; border-collapse: collapse; font-size: 1rem; }
+.pb > table.kv { width: calc(100% + 2 * var(--pad)); margin: calc(-12.5 * var(--u)) calc(-1 * var(--pad)) calc(-14 * var(--u)); }
+table.kv th {
+  font: 500 var(--fs-label)/1.3 var(--f-mono); color: var(--muted-wash); text-align: left; white-space: nowrap; width: 1%;
+  padding: calc(6.8 * var(--u)) calc(12 * var(--u)) calc(6.8 * var(--u)) calc(12.5 * var(--u)); vertical-align: middle;
 }
+table.kv td { padding: calc(6.8 * var(--u)) calc(12.5 * var(--u)) calc(6.8 * var(--u)) calc(12 * var(--u)); vertical-align: middle; }
+table.kv tr:nth-child(odd) > * { background: var(--zebra); }
+table.kv td.num { font: 500 var(--fs-note) var(--f-mono); }
 
-.prose h2 {
-  font-size: 1.5em;
-  font-weight: 700;
-  margin-top: 2em;
-  margin-bottom: 1em;
-  line-height: 1.3;
-  color: #1f2937;
-}
+/* chip: mono label in a hairline box (edition mark) */
+.chip { display: inline-block; font: 500 var(--fs-label)/1.6 var(--f-mono); border: 1.25px solid var(--tint-edge); padding: 0 8px; color: var(--blue); background: var(--tint); }
 
-.prose h3 {
-  font-size: 1.25em;
-  font-weight: 600;
-  margin-top: 1.6em;
-  margin-bottom: 0.6em;
-  line-height: 1.6;
-  color: #374151;
-}
+/* ---- individual newsletters: numbered blocks split by hairlines ---- */
+.nl { padding: calc(12.5 * var(--u)) var(--pad) calc(14 * var(--u)); border-top: 1.25px solid var(--hair); }
+.nl:first-child { border-top: 0; }
+.nl-head { display: flex; gap: calc(12 * var(--u)); align-items: baseline; margin-bottom: calc(6 * var(--u)); }
+.nl-no { flex: none; font: 500 var(--fs-label) var(--f-mono); color: var(--muted); }
+.nl h3 { margin: 0; font-size: calc(14 * var(--u)); font-weight: 600; line-height: 1.3; }
+.nl-from { margin: 0 0 calc(8 * var(--u)) calc(30 * var(--u)); font: 500 var(--fs-label)/1.5 var(--f-mono); color: var(--muted); }
+.nl-body { margin-left: calc(30 * var(--u)); min-width: 0; }
+.nl-links { margin: calc(12 * var(--u)) 0 0 calc(30 * var(--u)); border-top: 1.25px solid var(--hair); padding-top: calc(8 * var(--u)); }
+.nl-links .lbl { font: 500 var(--fs-label) var(--f-mono); color: var(--muted); margin: 0 0 calc(4 * var(--u)); }
+.nl-links ul { margin: 0; padding: 0; list-style: none; }
+.nl-links li { position: relative; padding-left: 1.14em; font-size: var(--fs-sub); margin: 0; }
+.nl-links li::before { content: ""; position: absolute; left: 0; top: .58em; width: 0; height: 0; border: .225em solid var(--ink); }
+.nl-links a { color: var(--blue); overflow-wrap: anywhere; }
 
-.prose h4 {
-  font-size: 1.1em;
-  font-weight: 600;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-  color: #4b5563;
-}
+/* ---- markdown from the summariser (dangerouslySetInnerHTML): sheet typography, never wider than the panel ---- */
+.md { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+.md > :first-child { margin-top: 0; }
+.md > :last-child { margin-bottom: 0; }
+.md p { margin: 0 0 calc(10 * var(--u)); }
+.md h1, .md h2, .md h3, .md h4, .md h5, .md h6 { font-weight: 600; line-height: 1.3; margin: calc(14 * var(--u)) 0 calc(6 * var(--u)); }
+.md h1 { font-size: calc(14 * var(--u)); padding-bottom: calc(6 * var(--u)); border-bottom: 1.25px solid var(--hair); }
+.md h2 { font-size: var(--fs-ptitle); }
+.md h3 { font-size: var(--fs-sub); }
+.md h4, .md h5, .md h6 { font-size: var(--fs-sub); font-weight: 500; color: var(--muted); }
+.md ul, .md ol { margin: 0 0 calc(10 * var(--u)); padding-left: 1.6em; }
+.md ol { list-style: decimal; }
+.md ul { list-style: none; padding-left: 1.14em; }
+.md ul > li { position: relative; }
+.md ul > li::before { content: ""; position: absolute; left: -1.14em; top: .58em; width: 0; height: 0; border: .225em solid var(--ink); }
+.md li { margin: 0 0 .25em; }
+.md li > p { margin: 0; }
+.md li > p + p, .md li > ul, .md li > ol { margin-top: .25em; }
+.md a { color: var(--blue); }
+.md hr { border: 0; border-top: 1.25px solid var(--hair); margin: calc(12 * var(--u)) 0; }
+.md blockquote { margin: calc(12 * var(--u)) 0; padding: calc(8 * var(--u)) calc(12 * var(--u)); border: 1.25px solid var(--hair); background: var(--zebra); }
+.md blockquote > :first-child { margin-top: 0; }
+.md blockquote > :last-child { margin-bottom: 0; }
+.md code { font: 500 .88em var(--f-mono); background: var(--code); border: 1.25px solid var(--hair); padding: 0 .25em; }
+.md pre { background: var(--code); border: 1.25px solid var(--hair); padding: calc(10 * var(--u)) calc(12 * var(--u)); overflow-x: auto; font-size: var(--fs-note); line-height: 1.5; margin: calc(10 * var(--u)) 0; }
+.md pre code { background: none; border: 0; padding: 0; font-size: inherit; }
+.md img { max-width: 100%; height: auto; border: 1.25px solid var(--hair); }
+.md table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: calc(10 * var(--u)) 0; }
+.md th { font: 500 var(--fs-label) var(--f-mono); color: var(--muted); text-align: left; padding: calc(6 * var(--u)) calc(12 * var(--u)); border-bottom: 1.25px solid var(--rule-mid); white-space: nowrap; }
+.md td { padding: calc(6 * var(--u)) calc(12 * var(--u)); }
+.md tbody tr:nth-child(odd) td { background: var(--zebra); }
+/* overview and long summaries keep a readable line length; the panel itself fills the width */
+.panel .md { max-width: none; }
+@media (min-width: 1500px) { .md.cols { column-width: 34rem; column-gap: 50px; } .md.cols > * { break-inside: avoid-column; } .md.cols > h1 { column-span: all; } }
 
-.prose p {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
-  line-height: 1.75;
+/* ---- calendar (react-calendar). Selectors carry .cal so they outrank react-calendar/dist/Calendar.css ---- */
+.cal .react-calendar { width: 100%; max-width: 100%; background: var(--paper); border: 0; font-family: var(--f-sans); line-height: 1.3; color: var(--ink); }
+.cal .react-calendar button { margin: 0; border: 0; outline: none; background: none; border-radius: 0; }
+.cal .react-calendar__navigation { display: flex; height: auto; margin-bottom: calc(8 * var(--u)); border: 1.25px solid var(--rule); }
+.cal .react-calendar__navigation button { min-width: 0; padding: calc(7 * var(--u)) 0; font: 500 var(--fs-sub) var(--f-mono); background: var(--paper); color: var(--ink); }
+.cal .react-calendar__navigation button:enabled:hover,
+.cal .react-calendar__navigation button:enabled:focus { background: var(--ink); color: var(--paper); }
+.cal .react-calendar__navigation button:disabled { color: var(--dim); background: var(--zebra); }
+.cal .react-calendar__navigation__label { flex-grow: 1 !important; font-weight: 500; border-left: 1.25px solid var(--hair) !important; border-right: 1.25px solid var(--hair) !important; }
+.cal .react-calendar__navigation__arrow { flex: 0 0 15%; }
+.cal .react-calendar__month-view__weekdays { text-align: center; text-transform: none; font: 500 var(--fs-label) var(--f-mono); color: var(--muted); }
+.cal .react-calendar__month-view__weekdays__weekday { padding: calc(4 * var(--u)) 0; }
+.cal .react-calendar__month-view__weekdays abbr { text-decoration: none; }
+.cal .react-calendar__month-view__days { border-top: 1.25px solid var(--rule-strong); border-left: 1.25px solid var(--hair); }
+.cal .react-calendar__tile {
+  max-width: 100%; padding: calc(9 * var(--u)) 0; text-align: center; font: 500 calc(12.5 * var(--u))/1.3 var(--f-sans); color: var(--muted);
+  border-right: 1.25px solid var(--hair) !important; border-bottom: 1.25px solid var(--hair) !important; background: var(--paper);
 }
+.cal .react-calendar__tile:disabled { background: var(--zebra); color: var(--dim); }
+.cal .react-calendar__month-view__days__day--weekend { color: var(--muted); }
+.cal .react-calendar__month-view__days__day--neighboringMonth,
+.cal .react-calendar__decade-view__years__year--neighboringDecade,
+.cal .react-calendar__century-view__decades__decade--neighboringCentury { color: var(--dim); }
+.cal .react-calendar__tile:enabled:hover, .cal .react-calendar__tile:enabled:focus { background: var(--zebra); color: var(--ink); }
+/* today: an ink outline, no fill (a fill would read as data) */
+.cal .react-calendar__tile--now { background: var(--paper); box-shadow: inset 0 0 0 1.25px var(--ink); }
+/* a day with a summary: tint + ink text + weight, so it does not rely on colour alone */
+.cal .react-calendar__tile.has-summary { background: var(--tint); color: var(--ink); font-weight: 600; box-shadow: inset 0 0 0 1.25px var(--tint-edge); }
+.cal .react-calendar__tile.has-summary:hover { background: var(--paper); box-shadow: inset 0 0 0 1.25px var(--blue); }
+/* the selected day: solid ink, as the panel letter tabs */
+.cal .react-calendar__tile--active, .cal .react-calendar__tile--active:enabled:hover, .cal .react-calendar__tile--active:enabled:focus,
+.cal .react-calendar__tile--active.has-summary { background: var(--ink); color: var(--paper); box-shadow: none; }
+.cal .react-calendar__tile--hasActive { background: var(--tint); color: var(--ink); }
+.cal .react-calendar button:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
 
-.prose ul {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
-  list-style-type: disc;
-  padding-left: 1.625em;
-}
+/* legend: a swatch drawn exactly like a summary day */
+.legend { display: flex; align-items: center; gap: calc(10 * var(--u)); margin: calc(12 * var(--u)) 0 0; font: 500 var(--fs-label) var(--f-mono); color: var(--muted); }
+.legend i { flex: none; width: 1.1em; height: 1.1em; background: var(--tint); box-shadow: inset 0 0 0 1.25px var(--tint-edge); }
 
-.prose ol {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
-  list-style-type: decimal;
-  padding-left: 1.625em;
+/* ---- phones and narrow windows: no sideways scroll at 390 px ---- */
+@media (max-width: 640px) {
+  main.sheet { width: auto; max-width: none; margin: 8px; padding: 14px; outline-offset: 3px; }
+  .ruler { display: none; }
+  header.top h1 { font-size: 1.36rem; }
+  .titleblock { width: 100%; }
+  .ph h2 { white-space: normal; line-height: 1.25; padding-block: 6px; }
+  .pc { display: none; }
+  .panel { margin: 18px 0; }
+  .nl-from, .nl-body, .nl-links { margin-left: 0; }
+  .nl-head { gap: 8px; }
+  table.kv th { white-space: normal; }
 }
-
-.prose li {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-.prose a {
-  color: #2563eb;
-  text-decoration: underline;
-  font-weight: 500;
-}
-
-.prose a:hover {
-  color: #1d4ed8;
-}
-
-.prose strong {
-  color: #111827;
-  font-weight: 600;
-}
-
-.prose code {
-  color: #111827;
-  font-weight: 600;
-  font-size: 0.875em;
-}
-
-.prose pre {
-  background-color: #1f2937;
-  overflow-x: auto;
-  font-size: 0.875em;
-  line-height: 1.7;
-  margin-top: 1.7em;
-  margin-bottom: 1.7em;
-  border-radius: 0.375rem;
-  padding: 0.8em 1.2em;
-}
-
-.prose pre code {
-  background-color: transparent;
-  border-width: 0;
-  border-radius: 0;
-  padding: 0;
-  font-weight: inherit;
-  color: inherit;
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-}
-
-.prose blockquote {
-  font-weight: 500;
-  font-style: italic;
-  color: #111827;
-  border-left-width: 0.25rem;
-  border-left-color: #e5e7eb;
-  quotes: "\201C""\201D""\2018""\2019";
-  margin-top: 1.6em;
-  margin-bottom: 1.6em;
-  padding-left: 1em;
-}
+html, body { max-width: 100%; }
