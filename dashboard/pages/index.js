@@ -9,35 +9,73 @@ import { marked } from 'marked';
 const EDITION_ORDER = { morning: 0, evening: 1 };
 const editionRank = (s) => EDITION_ORDER[s.edition] ?? 2;
 
-export default function Home({ summaries }) {
-  const [selectedDate, setSelectedDate] = useState(null);
+export default function Home({ index, initialDay }) {
+  const [selectedDate, setSelectedDate] = useState(initialDay && initialDay.length > 0 ? initialDay[0].dateString : null);
+  // Loaded editions by calendar day; seeded with the latest day from getStaticProps.
+  const [loaded, setLoaded] = useState(() =>
+    initialDay && initialDay.length > 0 ? { [initialDay[0].dateString]: initialDay } : {}
+  );
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [attempt, setAttempt] = useState(0); // bumped to retry a failed fetch
 
-  // Group summaries by calendar day; a day may hold morning + evening editions.
+  // Group index entries by calendar day; a day may hold morning + evening editions.
   const byDate = useMemo(() => {
     const map = {};
-    for (const s of summaries || []) {
+    for (const s of index || []) {
       (map[s.dateString] ||= []).push(s);
     }
     for (const day of Object.values(map)) {
       day.sort((a, b) => editionRank(a) - editionRank(b));
     }
     return map;
-  }, [summaries]);
+  }, [index]);
 
   const availableDates = useMemo(() => Object.keys(byDate), [byDate]);
-  const selectedEditions = selectedDate ? (byDate[selectedDate] || []) : [];
+  const selectedEditions = selectedDate ? (loaded[selectedDate] || []) : [];
 
   useEffect(() => {
-    if (summaries && summaries.length > 0) {
-      // summaries arrive newest-first → first item's date is the latest day.
-      setSelectedDate(summaries[0].dateString);
+    if (index && index.length > 0) {
+      // index arrives newest-first → first item's date is the latest day.
+      setSelectedDate(index[0].dateString);
     }
-  }, [summaries]);
+  }, [index]);
+
+  // Fetch the selected day's summaries on demand (static files under /data/summaries).
+  useEffect(() => {
+    if (!selectedDate || loaded[selectedDate] || !byDate[selectedDate]) return undefined;
+    let cancelled = false;
+    setLoading(true);
+    setError(null);
+    Promise.all(
+      byDate[selectedDate].map(async (entry) => {
+        const res = await fetch(`/data/summaries/${entry.file}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status} for ${entry.file}`);
+        return res.json();
+      })
+    )
+      .then((editions) => {
+        if (cancelled) return;
+        editions.sort((a, b) => editionRank(a) - editionRank(b));
+        setLoaded((prev) => ({ ...prev, [selectedDate]: editions }));
+        setLoading(false);
+      })
+      .catch((err) => {
+        if (cancelled) return;
+        console.error('Failed to load summary:', err);
+        setError(`Could not load the summary for ${selectedDate}. Try selecting the date again.`);
+        setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [selectedDate, loaded, byDate, attempt]);
 
   const handleDateChange = (date) => {
     const dateStr = format(date, 'yyyy-MM-dd');
     if (byDate[dateStr]) {
       setSelectedDate(dateStr);
+      setAttempt((n) => n + 1); // re-selecting a date retries a failed load
     }
   };
 
@@ -124,6 +162,17 @@ export default function Home({ summaries }) {
                   <SummaryView key={summary.edition || idx} summary={summary} first={1 + idx * 3} letter={letter} />
                 ))}
               </div>
+            ) : loading || error ? (
+              <section className="panel" role="status" aria-live="polite">
+                <div className="ph">
+                  <span className="pl">{letter(1)}</span>
+                  <h2>{error ? 'Could not load summary' : 'Loading summary'}</h2>
+                  <span className="pc">{selectedDate}</span>
+                </div>
+                <div className="pb empty">
+                  <p>{error || 'Loading the summary for this date...'}</p>
+                </div>
+              </section>
             ) : (
               <section className="panel">
                 <div className="ph">
@@ -256,31 +305,48 @@ export async function getStaticProps() {
     const files = await fs.readdir(summariesDir);
     const jsonFiles = files.filter(f => f.endsWith('.json') && f !== 'index.json');
 
-    const summaries = await Promise.all(
+    // Index only: the minimal fields the calendar and edition ordering need.
+    // Full summaries are fetched per day from /data/summaries/<file> (public/, written by
+    // scripts/copy-data.js) so page data stays far below Vercel's ~19 MB ISR limit.
+    const entries = await Promise.all(
       jsonFiles.map(async (file) => {
-        const filePath = path.join(summariesDir, file);
-        const content = await fs.readFile(filePath, 'utf-8');
-        const data = JSON.parse(content);
-
-        // Strip originalContent to reduce page data size
-        // (not displayed in dashboard, was causing Vercel ISR oversized page errors)
-        if (data.newsletters) {
-          data.newsletters = data.newsletters.map(({ originalContent, ...rest }) => rest);
-        }
-
-        return data;
+        const data = JSON.parse(await fs.readFile(path.join(summariesDir, file), 'utf-8'));
+        return {
+          file,
+          dateString: data.dateString,
+          edition: data.edition ?? null,
+          date: data.date,
+          savedAt: data.savedAt ?? null,
+          totalNewsletters: data.totalNewsletters ?? 0,
+        };
       })
     );
 
     // Sort newest-first. Use savedAt (actual run time) so two same-day editions
     // order correctly (evening after morning); fall back to date for legacy files.
-    summaries.sort((a, b) =>
+    entries.sort((a, b) =>
       new Date(b.savedAt || b.date) - new Date(a.savedAt || a.date)
     );
 
+    // Latest day's full summaries so first paint has content.
+    const latest = entries.length > 0 ? entries[0].dateString : null;
+    const initialDay = await Promise.all(
+      entries
+        .filter((e) => e.dateString === latest)
+        .map(async (e) => {
+          const data = JSON.parse(await fs.readFile(path.join(summariesDir, e.file), 'utf-8'));
+          if (data.newsletters) {
+            data.newsletters = data.newsletters.map(({ originalContent, ...rest }) => rest);
+          }
+          return data;
+        })
+    );
+    initialDay.sort((a, b) => editionRank(a) - editionRank(b));
+
     return {
       props: {
-        summaries,
+        index: entries,
+        initialDay,
       },
       revalidate: 3600, // Revalidate every hour
     };
@@ -288,7 +354,8 @@ export async function getStaticProps() {
     console.error('Error loading summaries:', error);
     return {
       props: {
-        summaries: [],
+        index: [],
+        initialDay: [],
       },
       revalidate: 60,
     };
