@@ -39,20 +39,15 @@ export class EmailFetcher {
           return;
         }
 
-        // Build proper search criteria with nested ORs
-        const senderCriteria = this.buildSenderCriteria();
-        const searchCriteria = [
-          ['SINCE', sinceDate],
-          senderCriteria
-        ];
+        // Gmail rejects a FROM chain nested too deep ("Could not parse command" -- first seen 2026-10-03,
+        // the run after config/extra-senders.txt added 4 senders). Search in chunks and merge the UIDs.
+        const searchOne = (criteria) => new Promise((res, rej) =>
+          this.imap.search([['SINCE', sinceDate], criteria], (e, r) => (e ? rej(e) : res(r || []))));
 
-        this.imap.search(searchCriteria, (err, results) => {
-          if (err) {
-            reject(err);
-            return;
-          }
+        Promise.all(this.buildSenderCriteriaChunks().map(searchOne)).then((parts) => {
+          const results = [...new Set(parts.flat())];
 
-          if (!results || results.length === 0) {
+          if (results.length === 0) {
             console.log('No new newsletters found');
             resolve([]);
             return;
@@ -83,18 +78,30 @@ export class EmailFetcher {
             console.log(`✓ Fetched ${emails.length} newsletters`);
             resolve(emails);
           });
-        });
+        }).catch(reject);
       });
     });
+  }
+
+  /**
+   * Sender criteria split into chunks of at most `size` senders, each a nested-OR chain.
+   * One chain over every sender grows too deep for Gmail's IMAP parser.
+   */
+  buildSenderCriteriaChunks(size = 15) {
+    const senders = config.newsletters.senders;
+    if (senders.length === 0) return [['ALL']];
+    const chunks = [];
+    for (let i = 0; i < senders.length; i += size) {
+      chunks.push(this.buildSenderCriteria(senders.slice(i, i + size)));
+    }
+    return chunks;
   }
 
   /**
    * Build search criteria for newsletter senders
    * IMAP OR only accepts exactly 2 arguments, so we need to nest them
    */
-  buildSenderCriteria() {
-    const senders = config.newsletters.senders;
-
+  buildSenderCriteria(senders = config.newsletters.senders) {
     if (senders.length === 0) {
       return ['ALL'];
     }

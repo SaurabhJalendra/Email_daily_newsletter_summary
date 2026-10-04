@@ -5,6 +5,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Fixed
+- **IMAP "Could not parse command"** -- both runs since 2026-10-03 12:30 UTC failed after `extra-senders.txt` lengthened the sender list: one nested-OR `FROM` chain over every sender is too deep for Gmail. `src/email/fetcher.js` now searches in chunks of 15 senders and merges the UIDs.
+
 ### Changed
 - Edition times moved **08:00/20:00 IST → 06:00/18:00 IST** (crons `30 0` + `30 12` UTC) for earlier delivery. (Note: GitHub scheduled triggers can fire 1–4h late under load — the cron time is the *intended* fire time, not guaranteed delivery.)
 
