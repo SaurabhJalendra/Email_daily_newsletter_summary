@@ -6,9 +6,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Changed
+- **Emails and PDFs restyled to the reference-sheet house style** (paper and ink, lettered panels A/B/C, IBM Plex, square corners, 1.25 px rules, blue = data/explanation). One rule table in `src/utils/sheet-style.js` drives both: the PDF gets a `<style>` block (Plex from Google Fonts), the emails get the same rules inlined (Gmail strips `<style>`; fonts fall back to Arial / system mono). Content, links and logic unchanged. Priority labels are now glyph + word (`● HIGH`, `◐ MED`, `○ LOW`) instead of emoji; leading emoji dropped from headings. The daily PDF now actually shows its cover page and contents (the old rules only applied under `@media print`, which never ran because `html-to-pdf` emulates screen media; set `PDF_COVER_AND_TOC = false` in `src/notifier/email.js` to hide them). The weekly attachment note no longer promises serif type and drop caps.
+- `src/weekly-digest-email.js` exports `buildWeeklyDigest()` and only sends when run directly.
+
+### Added
+- `scripts/preview-styles.js` -- renders daily email, weekly email and both PDF sources to `preview/` (git-ignored) without sending; `--pdf` also renders the PDFs, exit 1 if the daily email is >= 102 KB.
+
+### Changed
 - **`config/senders.txt` is now the authoritative sender list** (renamed from `extra-senders.txt`); the `NEWSLETTER_SENDERS` secret is only a fallback when the file is empty. Curated 2026-10-04 from 73 senders seen in the last 40 digests down to 26: research/depth newsletters (Import AI, Ahead of AI, Interconnects, Epoch AI, Deep Learning Focus, ...), one daily roundup (AINews/Latent Space) and TLDR. Daily hype roundups (Mindstream, Superhuman, Rundown, beehiiv lists, Skool) and stray matches (Stripe, Medium, Coursera) are gone.
 
 ### Fixed
+- **Dashboard `/` page data was 39.3 MB** (all 478 summaries passed through `getStaticProps`, over Vercel's ~19 MB ISR limit). `getStaticProps` now passes only a small index (file, date, edition, saved time, newsletter count) plus the latest day's summaries (about 96 KB total). `dashboard/scripts/copy-data.js` also writes each summary with `originalContent` stripped to `dashboard/public/data/summaries/` (git-ignored, regenerated on `prebuild`), and the page fetches `/data/summaries/<file>.json` when a date is selected, with a loading state and an error message (re-select the date to retry). UI and styling unchanged.
 - **Emails silently dropped while parsing** -- `fetchNewsletters` resolved on the IMAP fetch `end` event, before the async `simpleParser` callbacks finished, so slow-to-parse emails were lost (2026-10-04 test run: 17 found, 13 kept). It now waits for every parse (`Promise.all`).
 - **IMAP "Could not parse command"** -- both runs since 2026-10-03 12:30 UTC failed after `extra-senders.txt` lengthened the sender list: one nested-OR `FROM` chain over every sender is too deep for Gmail. `src/email/fetcher.js` now searches in chunks of 15 senders and merges the UIDs.
 

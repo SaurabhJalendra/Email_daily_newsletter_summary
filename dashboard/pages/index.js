@@ -9,35 +9,73 @@ import { marked } from 'marked';
 const EDITION_ORDER = { morning: 0, evening: 1 };
 const editionRank = (s) => EDITION_ORDER[s.edition] ?? 2;
 
-export default function Home({ summaries }) {
-  const [selectedDate, setSelectedDate] = useState(null);
+export default function Home({ index, initialDay }) {
+  const [selectedDate, setSelectedDate] = useState(initialDay && initialDay.length > 0 ? initialDay[0].dateString : null);
+  // Loaded editions by calendar day; seeded with the latest day from getStaticProps.
+  const [loaded, setLoaded] = useState(() =>
+    initialDay && initialDay.length > 0 ? { [initialDay[0].dateString]: initialDay } : {}
+  );
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [attempt, setAttempt] = useState(0); // bumped to retry a failed fetch
 
-  // Group summaries by calendar day; a day may hold morning + evening editions.
+  // Group index entries by calendar day; a day may hold morning + evening editions.
   const byDate = useMemo(() => {
     const map = {};
-    for (const s of summaries || []) {
+    for (const s of index || []) {
       (map[s.dateString] ||= []).push(s);
     }
     for (const day of Object.values(map)) {
       day.sort((a, b) => editionRank(a) - editionRank(b));
     }
     return map;
-  }, [summaries]);
+  }, [index]);
 
   const availableDates = useMemo(() => Object.keys(byDate), [byDate]);
-  const selectedEditions = selectedDate ? (byDate[selectedDate] || []) : [];
+  const selectedEditions = selectedDate ? (loaded[selectedDate] || []) : [];
 
   useEffect(() => {
-    if (summaries && summaries.length > 0) {
-      // summaries arrive newest-first → first item's date is the latest day.
-      setSelectedDate(summaries[0].dateString);
+    if (index && index.length > 0) {
+      // index arrives newest-first → first item's date is the latest day.
+      setSelectedDate(index[0].dateString);
     }
-  }, [summaries]);
+  }, [index]);
+
+  // Fetch the selected day's summaries on demand (static files under /data/summaries).
+  useEffect(() => {
+    if (!selectedDate || loaded[selectedDate] || !byDate[selectedDate]) return undefined;
+    let cancelled = false;
+    setLoading(true);
+    setError(null);
+    Promise.all(
+      byDate[selectedDate].map(async (entry) => {
+        const res = await fetch(`/data/summaries/${entry.file}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status} for ${entry.file}`);
+        return res.json();
+      })
+    )
+      .then((editions) => {
+        if (cancelled) return;
+        editions.sort((a, b) => editionRank(a) - editionRank(b));
+        setLoaded((prev) => ({ ...prev, [selectedDate]: editions }));
+        setLoading(false);
+      })
+      .catch((err) => {
+        if (cancelled) return;
+        console.error('Failed to load summary:', err);
+        setError(`Could not load the summary for ${selectedDate}. Try selecting the date again.`);
+        setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [selectedDate, loaded, byDate, attempt]);
 
   const handleDateChange = (date) => {
     const dateStr = format(date, 'yyyy-MM-dd');
     if (byDate[dateStr]) {
       setSelectedDate(dateStr);
+      setAttempt((n) => n + 1); // re-selecting a date retries a failed load
     }
   };
 
@@ -51,6 +89,10 @@ export default function Home({ summaries }) {
     return null;
   };
 
+  // Panel letters run A, B, C... down the page (calendar first, then each edition's panels).
+  const letter = (n) => String.fromCharCode(65 + n);
+  const ruler = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => <span key={n}>{n}</span>);
+
   return (
     <>
       <Head>
@@ -60,181 +102,184 @@ export default function Home({ summaries }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50">
+      <main className="sheet">
+        <div className="ruler" aria-hidden="true">{ruler}</div>
+        <div className="ruler bottom" aria-hidden="true">{ruler}</div>
+
         {/* Header */}
-        <header className="bg-white shadow-sm border-b border-gray-200">
-          <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between">
-              <div>
-                <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  📰 AI Newsletter Digest
-                </h1>
-                <p className="mt-1 text-sm text-gray-600">
-                  Your daily AI & tech updates, summarized
-                </p>
-              </div>
-              <div className="text-right">
-                <p className="text-sm font-medium text-gray-900">
-                  {availableDates.length} Days Archived
-                </p>
-                <p className="text-xs text-gray-500">
-                  Updated twice daily — 6 AM & 6 PM IST
-                </p>
-              </div>
+        <header className="top">
+          <div>
+            <div className="crumbs">newsletter digest / dashboard</div>
+            <h1>AI Newsletter Digest</h1>
+            <p className="lede">Your daily AI &amp; tech updates, summarized</p>
+          </div>
+          <div className="titleblock">
+            <div>
+              <span className="k">days archived</span>
+              <span className="v">{availableDates.length}</span>
+            </div>
+            <div>
+              <span className="k">latest day</span>
+              <span className="v">{availableDates[0] || 'none'}</span>
+            </div>
+            <div className="wide">
+              <span className="k">schedule</span>
+              <span className="v">Updated twice daily — 6 AM &amp; 6 PM IST</span>
             </div>
           </div>
         </header>
 
         {/* Main Content */}
-        <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Calendar Sidebar */}
-            <div className="lg:col-span-1">
-              <div className="bg-white rounded-lg shadow-md p-6 sticky top-8">
-                <h2 className="text-lg font-semibold text-gray-900 mb-4">
-                  Select Date
-                </h2>
+        <div className="layout">
+          {/* Calendar Sidebar */}
+          <div className="rail">
+            <section className="panel">
+              <div className="ph">
+                <span className="pl">{letter(0)}</span>
+                <h2>Select date</h2>
+                <span className="pc">{selectedDate || 'no date'}</span>
+              </div>
+              <div className="pb cal">
                 <Calendar
                   onChange={handleDateChange}
                   value={selectedDate ? parseISO(selectedDate) : new Date()}
                   tileClassName={tileClassName}
                   className="border-0 w-full"
                 />
-                <div className="mt-4 p-3 bg-blue-50 rounded-md">
-                  <p className="text-xs text-gray-600 flex items-center">
-                    <span className="inline-block w-3 h-3 bg-blue-500 rounded-full mr-2"></span>
-                    Dates with summaries
-                  </p>
-                </div>
+                <p className="legend">
+                  <i aria-hidden="true"></i>
+                  Dates with summaries
+                </p>
               </div>
-            </div>
+            </section>
+          </div>
 
-            {/* Summary Display */}
-            <div className="lg:col-span-2">
-              {selectedEditions.length > 0 ? (
-                <div className="space-y-8">
-                  {selectedEditions.map((summary, idx) => (
-                    <SummaryView key={summary.edition || idx} summary={summary} />
-                  ))}
+          {/* Summary Display */}
+          <div className="flow">
+            {selectedEditions.length > 0 ? (
+              <div className="editions">
+                {selectedEditions.map((summary, idx) => (
+                  <SummaryView key={summary.edition || idx} summary={summary} first={1 + idx * 3} letter={letter} />
+                ))}
+              </div>
+            ) : loading || error ? (
+              <section className="panel" role="status" aria-live="polite">
+                <div className="ph">
+                  <span className="pl">{letter(1)}</span>
+                  <h2>{error ? 'Could not load summary' : 'Loading summary'}</h2>
+                  <span className="pc">{selectedDate}</span>
                 </div>
-              ) : (
-                <div className="bg-white rounded-lg shadow-md p-12 text-center">
-                  <div className="text-6xl mb-4">📭</div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    No Summary Available
-                  </h3>
-                  <p className="text-gray-600">
-                    Select a highlighted date to view the newsletter summary.
-                  </p>
+                <div className="pb empty">
+                  <p>{error || 'Loading the summary for this date...'}</p>
                 </div>
-              )}
-            </div>
+              </section>
+            ) : (
+              <section className="panel">
+                <div className="ph">
+                  <span className="pl">{letter(1)}</span>
+                  <h2>No summary available</h2>
+                  <span className="pc">nothing selected</span>
+                </div>
+                <div className="pb empty">
+                  <p>Select a highlighted date to view the newsletter summary.</p>
+                </div>
+              </section>
+            )}
           </div>
         </div>
       </main>
-
-      <style jsx global>{`
-        .react-calendar {
-          border: none !important;
-          font-family: inherit;
-        }
-        .react-calendar__tile--active {
-          background: #667eea !important;
-          color: white !important;
-        }
-        .react-calendar__tile--now {
-          background: #e0e7ff !important;
-        }
-        .has-summary {
-          background: #dbeafe !important;
-          font-weight: 600;
-        }
-        .has-summary:hover {
-          background: #bfdbfe !important;
-        }
-      `}</style>
     </>
   );
 }
 
 const EDITION_BADGE = {
-  morning: { label: '🌅 Morning', cls: 'bg-amber-100 text-amber-800' },
-  evening: { label: '🌆 Evening', cls: 'bg-indigo-100 text-indigo-800' }
+  morning: { label: 'Morning' },
+  evening: { label: 'Evening' }
 };
 
-function SummaryView({ summary }) {
+// One edition = three lettered panels: details table, daily overview, individual summaries.
+function SummaryView({ summary, first, letter }) {
   const date = new Date(summary.date);
   const formattedDate = format(date, 'EEEE, MMMM d, yyyy');
   const badge = EDITION_BADGE[summary.edition];
+  const count = summary.totalNewsletters;
 
   return (
-    <div className="space-y-6">
-      {/* Header Card */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg shadow-lg p-8 text-white">
-        <div className="flex items-center justify-between">
-          <div>
-            <div className="flex items-center gap-3 mb-2">
-              <h2 className="text-2xl font-bold">{formattedDate}</h2>
-              {badge && (
-                <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${badge.cls}`}>
-                  {badge.label}
-                </span>
-              )}
-            </div>
-            <p className="text-blue-100 text-lg">
-              {summary.totalNewsletters} Newsletter{summary.totalNewsletters !== 1 ? 's' : ''} Summarized
-            </p>
-          </div>
-          <div className="text-6xl">📊</div>
+    <section>
+      {/* Header: edition details */}
+      <div className="panel">
+        <div className="ph">
+          <span className="pl">{letter(first)}</span>
+          <h2>{formattedDate}</h2>
+          <span className="pc">{badge ? `${badge.label} edition` : 'edition'}</span>
+        </div>
+        <div className="pb">
+          <table className="kv">
+            <tbody>
+              <tr>
+                <th scope="row">date</th>
+                <td>{formattedDate}</td>
+              </tr>
+              <tr>
+                <th scope="row">edition</th>
+                <td>{badge ? <span className="chip">{badge.label}</span> : <span className="muted">Daily</span>}</td>
+              </tr>
+              <tr>
+                <th scope="row">newsletters</th>
+                <td>
+                  {count} Newsletter{count !== 1 ? 's' : ''} Summarized
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
       {/* Overall Summary */}
-      <div className="bg-white rounded-lg shadow-md p-6">
-        <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-          <span className="text-2xl mr-2">🔥</span>
-          Daily Overview
-        </h3>
-        <div
-          className="prose prose-blue max-w-none"
-          dangerouslySetInnerHTML={{ __html: marked(summary.summary) }}
-        />
+      <div className="panel">
+        <div className="ph">
+          <span className="pl">{letter(first + 1)}</span>
+          <h2>Daily overview</h2>
+          <span className="pc">{badge ? badge.label : 'summary'}</span>
+        </div>
+        <div className="pb">
+          <div
+            className="md"
+            dangerouslySetInnerHTML={{ __html: marked(summary.summary) }}
+          />
+        </div>
       </div>
 
       {/* Individual Newsletters */}
-      <div className="bg-white rounded-lg shadow-md p-6">
-        <h3 className="text-xl font-bold text-gray-900 mb-6 flex items-center">
-          <span className="text-2xl mr-2">📧</span>
-          Individual Summaries
-        </h3>
-        <div className="space-y-6">
+      <div className="panel">
+        <div className="ph">
+          <span className="pl">{letter(first + 2)}</span>
+          <h2>Individual summaries</h2>
+          <span className="pc">{summary.newsletters.length} newsletters</span>
+        </div>
+        <div className="pb flush">
           {summary.newsletters.map((newsletter, idx) => (
-            <div key={idx} className="border-l-4 border-blue-500 pl-6 py-4 bg-gray-50 rounded-r-lg">
-              <div className="mb-3">
-                <h4 className="font-semibold text-lg text-gray-900">
-                  {newsletter.subject}
-                </h4>
-                <p className="text-sm text-gray-600 mt-1">
-                  From: {newsletter.from}
-                </p>
+            <article key={idx} className="nl">
+              <div className="nl-head">
+                <span className="nl-no">{String(idx + 1).padStart(2, '0')}</span>
+                <h3>{newsletter.subject}</h3>
               </div>
+              <p className="nl-from">From: {newsletter.from}</p>
               <div
-                className="prose prose-sm prose-blue max-w-none"
+                className="md nl-body"
                 dangerouslySetInnerHTML={{ __html: marked(newsletter.summary) }}
               />
               {newsletter.links && newsletter.links.length > 0 && (
-                <div className="mt-4 pt-4 border-t border-gray-200">
-                  <p className="text-sm font-semibold text-gray-700 mb-2">Important Links:</p>
-                  <ul className="space-y-1">
+                <div className="nl-links">
+                  <p className="lbl">Important Links:</p>
+                  <ul>
                     {newsletter.links.slice(0, 5).map((link, linkIdx) => (
                       <li key={linkIdx}>
                         <a
                           href={link.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-blue-600 hover:text-blue-800 text-sm flex items-center"
                         >
-                          <span className="mr-1">🔗</span>
                           {link.text}
                         </a>
                       </li>
@@ -242,11 +287,11 @@ function SummaryView({ summary }) {
                   </ul>
                 </div>
               )}
-            </div>
+            </article>
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
@@ -260,31 +305,48 @@ export async function getStaticProps() {
     const files = await fs.readdir(summariesDir);
     const jsonFiles = files.filter(f => f.endsWith('.json') && f !== 'index.json');
 
-    const summaries = await Promise.all(
+    // Index only: the minimal fields the calendar and edition ordering need.
+    // Full summaries are fetched per day from /data/summaries/<file> (public/, written by
+    // scripts/copy-data.js) so page data stays far below Vercel's ~19 MB ISR limit.
+    const entries = await Promise.all(
       jsonFiles.map(async (file) => {
-        const filePath = path.join(summariesDir, file);
-        const content = await fs.readFile(filePath, 'utf-8');
-        const data = JSON.parse(content);
-
-        // Strip originalContent to reduce page data size
-        // (not displayed in dashboard, was causing Vercel ISR oversized page errors)
-        if (data.newsletters) {
-          data.newsletters = data.newsletters.map(({ originalContent, ...rest }) => rest);
-        }
-
-        return data;
+        const data = JSON.parse(await fs.readFile(path.join(summariesDir, file), 'utf-8'));
+        return {
+          file,
+          dateString: data.dateString,
+          edition: data.edition ?? null,
+          date: data.date,
+          savedAt: data.savedAt ?? null,
+          totalNewsletters: data.totalNewsletters ?? 0,
+        };
       })
     );
 
     // Sort newest-first. Use savedAt (actual run time) so two same-day editions
     // order correctly (evening after morning); fall back to date for legacy files.
-    summaries.sort((a, b) =>
+    entries.sort((a, b) =>
       new Date(b.savedAt || b.date) - new Date(a.savedAt || a.date)
     );
 
+    // Latest day's full summaries so first paint has content.
+    const latest = entries.length > 0 ? entries[0].dateString : null;
+    const initialDay = await Promise.all(
+      entries
+        .filter((e) => e.dateString === latest)
+        .map(async (e) => {
+          const data = JSON.parse(await fs.readFile(path.join(summariesDir, e.file), 'utf-8'));
+          if (data.newsletters) {
+            data.newsletters = data.newsletters.map(({ originalContent, ...rest }) => rest);
+          }
+          return data;
+        })
+    );
+    initialDay.sort((a, b) => editionRank(a) - editionRank(b));
+
     return {
       props: {
-        summaries,
+        index: entries,
+        initialDay,
       },
       revalidate: 3600, // Revalidate every hour
     };
@@ -292,7 +354,8 @@ export async function getStaticProps() {
     console.error('Error loading summaries:', error);
     return {
       props: {
-        summaries: [],
+        index: [],
+        initialDay: [],
       },
       revalidate: 60,
     };
