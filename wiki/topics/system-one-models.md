@@ -8,9 +8,10 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2026-09-17-morning (introduced alongside [[jev]] launch)
-> **Last updated**: 2026-09-28-morning
+> **Last updated**: 2026-10-04-morning (**[[cloudflare]]'s [[clef]] (27B) + Clef-flash (9B, Qwen3.5-9B fine-tune) land on [[ollama]] via `/v1/systemone` endpoint with concrete Cloudflare-reported 13×-faster-than-[[jev]] benchmark + hosted median latencies 209.3 ms (Clef) + 38.8 ms (Clef-flash) + image-input multimodal support canonical anchor cluster**. Graduates the System-One substrate into a *first-party frontier-infra-vendor-shipped multimodal (text + image) decision-model tier* with concrete-vendor-reported benchmark-advantage-at-Jev-API-surface. Ollama's `/v1/systemone` endpoint canonicalized as *multi-vendor local-runtime decision-model API standard* carrying Bespoke Nimble + Together AI Tev1 + Cloudflare Clef/Clef-flash within two weeks of 09-30 endpoint-launch. See [[clef]] + [[cloudflare]] + [[ollama]] + [[jev]] — *source: data/summaries/2026-10-04-morning.json (Ollama Newsletter MEDIUM "Clef and Clef Flash Decision Models are now on Ollama")*)
+> **Previously updated**: 2026-09-28-morning
 > **Status**: active
-> **Related**: [[jev]], [[typesafe-ai]], [[model-routers]], [[agent-frameworks]], [[llm-inference-optimization]], [[computer-use]]
+> **Related**: [[jev]], [[clef]], [[typesafe-ai]], [[cloudflare]], [[ollama]], [[model-routers]], [[agent-frameworks]], [[llm-inference-optimization]], [[computer-use]]
 
 ## Summary
 
@@ -21,6 +22,8 @@ System One outputs are typed values — categories, ratings, yes/no decisions, a
 The emerging "heterogeneous stack" framing pairs three tiers: **conventional code** for explicit rules, **decision models** for fuzzy structured choices, and **generative models** for open-ended tasks — leaving expensive frontier models to do what they are good at while cheaper decision models handle selection, routing, and verification.
 
 ## Timeline
+
+- **2026-10-04-morning**: **[[cloudflare]]'s [[clef]] (27B) + Clef-flash (9B, Qwen3.5-9B fine-tune) land on [[ollama]] via `/v1/systemone` endpoint** with concrete Cloudflare-reported 13×-faster-than-[[jev]] at median across 43 benchmark runs + hosted median latencies 209.3 ms (Clef) + 38.8 ms (Clef-flash) + image-input multimodal support. First-in-wiki *first-party frontier-infra-vendor-shipped multimodal (text + image) decision-model tier* with concrete-benchmarked advantage at Jev's own API-surface. Ollama's `/v1/systemone` endpoint canonicalized as *multi-vendor local-runtime decision-model API standard* — Bespoke Nimble + Together AI Tev1 + Cloudflare Clef/Clef-flash within two weeks of 09-30 endpoint-launch. See [[clef]] + [[cloudflare]] + [[ollama]] + [[jev]] — *source: data/summaries/2026-10-04-morning.json (Ollama Newsletter MEDIUM "Clef and Clef Flash Decision Models are now on Ollama")*
 
 - **2026-09-28-morning**: **AlphaSignal MEDIUM canonical "System One models are carving out a new layer in the AI stack" framing anchor + emerging three-tier heterogeneous stack canonical framing (code + decision models + generative models) + CLM-8B named contrastive-language-model alternative canonical anchor + Laya 421M ModernBERT ~33ms/T4 canonical benchmark anchor + heterogeneous-stack division-of-labor framing (generation for LLMs; selection/routing/verification for decision models)** — canonicalizes late-Sep-2026 as *canonical concrete-System-One-model-class-tier inflection window* — *source: data/summaries/2026-09-28-morning.json (AlphaSignal MEDIUM "🚀 System One models are carving out a new layer in the AI stack"; The AI Corner HIGH "Your AI Agent Might Be Paying $11,000 a Month to Answer Yes or No"; Abhijay's AI Action Letter MEDIUM)*
 
@@ -36,7 +39,8 @@ The emerging "heterogeneous stack" framing pairs three tiers: **conventional cod
 - **Architectural claim**: mathematically incapable of hallucinating values (Uncovering AI framing)
 - **Target workloads**: classification, routing, tool selection, approvals, retries, guardrails, verification, escalation
 - **Cost/latency envelope (Jev-reported)**: 70–500 ms; 40–200× lower latency; $0.042 per million input tokens with output free
-- **Named exemplars**: [[jev]] (TypeSafe AI, closed-weights) + Laya (Convai Innovations, 421M ModernBERT, Apache 2.0) + CLM-8B (contrastive language model, 9× faster than Jev on some workloads) + Bespoke Nimble (LoRA-Qwen3.5-9B) + Kev-0.5B (Qwen2.5-0.5B, MacBook-runnable) + DiffusionGemmaJev + SemIf/OpenJev + Jared Palmer's 0.5B open-source decision model
+- **Named exemplars**: [[jev]] (TypeSafe AI, closed-weights) + [[clef]] (Cloudflare, 27B Clef + 9B Clef-flash fine-tuned from Qwen3.5-9B, Apache 2.0, 13× faster than Jev at median across 43 benchmark runs, 38.8 ms hosted median latency for Clef-flash, multimodal text + image) + Laya (Convai Innovations, 421M ModernBERT, Apache 2.0) + CLM-8B (contrastive language model, 9× faster than Jev on some workloads) + Bespoke Nimble (LoRA-Qwen3.5-9B) + Tev1 (Together AI, 4B + 0.8B) + Kev-0.5B (Qwen2.5-0.5B, MacBook-runnable) + DiffusionGemmaJev + SemIf/OpenJev + Jared Palmer's 0.5B open-source decision model
+- **Canonical local-runtime endpoint**: Ollama `/v1/systemone` on Ollama v0.35.1+ carries three third-party vendors (Bespoke Nimble + Together AI Tev1 + Cloudflare Clef/Clef-flash) within two weeks of endpoint launch, canonicalizing it as *multi-vendor local-runtime decision-model API standard*
 - **Emerging-stack framing**: three-tier heterogeneous stack — conventional code (explicit rules) + decision models (fuzzy structured choices) + generative models (open-ended tasks)
 - **Third-party canonical framing**: Simon Willison — *"System One aka Decision Models"* (simonwillison.net/2026/Sep/21/jev)
 
