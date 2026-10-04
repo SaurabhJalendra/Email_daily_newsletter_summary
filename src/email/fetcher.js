@@ -56,17 +56,16 @@ export class EmailFetcher {
           console.log(`Found ${results.length} potential newsletters`);
 
           const fetch = this.imap.fetch(results, { bodies: '' });
-          const emails = [];
+          // 'end' fires when the download ends, not when parsing ends: wait for every parse
+          // (resolving on 'end' alone dropped 4 of 17 emails on 2026-10-04).
+          const parses = [];
 
           fetch.on('message', (msg) => {
             msg.on('body', (stream) => {
-              simpleParser(stream, (err, parsed) => {
-                if (err) {
-                  console.error('Error parsing email:', err);
-                  return;
-                }
-                emails.push(parsed);
-              });
+              parses.push(simpleParser(stream).catch((err) => {
+                console.error('Error parsing email:', err);
+                return null;
+              }));
             });
           });
 
@@ -75,8 +74,11 @@ export class EmailFetcher {
           });
 
           fetch.once('end', () => {
-            console.log(`✓ Fetched ${emails.length} newsletters`);
-            resolve(emails);
+            Promise.all(parses).then((all) => {
+              const emails = all.filter(Boolean);
+              console.log(`✓ Fetched ${emails.length} newsletters`);
+              resolve(emails);
+            });
           });
         }).catch(reject);
       });
