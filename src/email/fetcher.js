@@ -40,7 +40,7 @@ export class EmailFetcher {
         }
 
         // Gmail rejects a FROM chain nested too deep ("Could not parse command" -- first seen 2026-10-03,
-        // the run after config/extra-senders.txt added 4 senders). Search in chunks and merge the UIDs.
+        // the run after 4 senders were added to the list). Search in chunks and merge the UIDs.
         const searchOne = (criteria) => new Promise((res, rej) =>
           this.imap.search([['SINCE', sinceDate], criteria], (e, r) => (e ? rej(e) : res(r || []))));
 

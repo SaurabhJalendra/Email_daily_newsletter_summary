@@ -3,19 +3,17 @@ import { readFileSync, existsSync } from 'fs';
 dotenv.config();
 
 /**
- * Senders from the NEWSLETTER_SENDERS secret plus config/extra-senders.txt.
- * The secret cannot be read back once set, so additions live in a committed file instead.
- * An empty secret keeps its old meaning (fetch ALL mail), so extras are merged only when the secret has entries.
+ * Senders from config/senders.txt -- the authoritative, committed list (2026-10-04).
+ * The NEWSLETTER_SENDERS secret cannot be read back once set, so it is only a fallback when the file is
+ * missing or empty. An empty result keeps its old meaning: fetch ALL mail.
  */
 function loadSenders() {
-  const fromEnv = (process.env.NEWSLETTER_SENDERS || '').split(',').map(s => s.trim()).filter(Boolean);
-  const file = new URL('../../config/extra-senders.txt', import.meta.url);
-  const extra = existsSync(file)
+  const file = new URL('../../config/senders.txt', import.meta.url);
+  const fromFile = existsSync(file)
     ? readFileSync(file, 'utf8').split(/\r?\n/).map(l => l.replace(/#.*/, '').trim()).filter(Boolean)
     : [];
-  if (fromEnv.length === 0) return [];
-  const seen = new Set(fromEnv.map(s => s.toLowerCase()));
-  return [...fromEnv, ...extra.filter(s => !seen.has(s.toLowerCase()))];
+  if (fromFile.length) return [...new Set(fromFile)];
+  return (process.env.NEWSLETTER_SENDERS || '').split(',').map(s => s.trim()).filter(Boolean);
 }
 
 export const config = {

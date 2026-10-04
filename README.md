@@ -203,9 +203,12 @@ Email_daily_newsletter_summary/
 
 ### Adding More Newsletter Senders
 
-Edit the `NEWSLETTER_SENDERS` secret in GitHub Actions:
+Edit `config/senders.txt` (one FROM substring per line, `#` comments) and push. It is the authoritative list:
+when it has entries, the `NEWSLETTER_SENDERS` secret is ignored. The secret is only a fallback, because a
+GitHub secret cannot be read back to see what it holds.
 ```
-sender1@example.com,sender2@example.com,@substack.com
+importai@substack.com        # Import AI
+swyx                         # every swyx+*@substack.com section
 ```
 
 ### Changing Schedule Time
