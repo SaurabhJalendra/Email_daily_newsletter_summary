@@ -91,6 +91,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mongodb]] — document-database vendor; Atlas Managed MCP Server + Voyage AI Automated Embedding + Atlas Embedding/Reranking API + LangGraph.js persistent agent memory + expanded Vercel partnership; "agentic era" positioning turns Atlas into data layer for AI agents (Aug 2026)
 - [[moonshot-ai]] — Chinese frontier lab; ships Kimi K2 Thinking open-source reasoning model
 - [[netflix]] — streaming platform; acquires [[interpositive]] for $587M+ (Jul 2026) for internal AI post-production tooling
+- [[neuralink]] — Musk brain-computer-interface vendor; pretraining decoders on 50,000+ hours of unlabeled freeform neural data from clinical trials for more accurate + long-lived decoders (Oct 2026)
 - [[notion]] — workspace app; Custom Agents autonomous AI teammates Feb 2026 *(stale)*
 - [[nous-research]] — open-source AI research collective; Hermes Agent self-improving AI agent Feb 2026
 - [[nscale]] — UK-based AI infrastructure/cloud-compute provider; $45B / ~6-year / ~460MW West Virginia deal with Anthropic (Aug 2026)
@@ -127,6 +128,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[speechmatics]] — UK speech-recognition vendor; ships [[linden-stt]] purpose-built for voice agents (Sep 2026) — 55+ languages, 350ms latency, 1000+ custom-word support, $0.30/hr
 - [[stripe]] — US payments infrastructure company; ships [[stripe-kai]] enterprise Knowledge AI Platform for employee data-warehouse queries + account research + incident triage + revenue modeling + compliance reviews (Jul 2026)
 - [[suno]] — Cambridge-based AI music-generation startup; $400M Series D at $5.4B led by Bond Capital (Jun 2026); Warner settled, Universal/Sony lawsuits ongoing
+- [[synopsys]] — EDA incumbent; multiyear strategic partnership with OpenAI (Oct 2026) to co-develop [[gpt-synopsys]] specialized model operating semiconductor-design tools and automating chip-engineering workflows
 - [[taalas]] — AI inference silicon startup — hardware designed around the model, world's fastest + most cost-effective inference silicon per own framing; acquired by [[amd]] (Aug 2026)
 - [[tavus]] — vendor of [[tavus-griffin]] "Human Interaction Model" — real-time video+voice avatar that ~48% of live-call test participants mistook for a human (Oct 2026)
 - [[tencent]] — Chinese tech giant; Aug 2026 released Hy-MT2 specialized multilingual translation models (Hy-MT2-30B-A3B + Hy-MT2-1.8B)
@@ -330,6 +332,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-6-1-sol]] — OpenAI's Sep 29 2026 DevDay upgrade to GPT-6 Sol; lower-cost agentic-coding + computer-use + professional-work model at $2/M input + $10/M output (1/5 Astra cost); ties Astra on DeepSWE, beats Opus 5.5 on AutomationBench at 1/3 cost; ChatGPT Work + Codex + API + Microsoft Foundry
 - [[gpt-6-luna]] — OpenAI's Sep 22 2026 GPT-6-family low-cost high-volume tier; $0.10/M input + $0.50/M output; text+image input, ~1.05M context; +5.4pp AutomationBench uplift vs GPT-5.6 Luna at 58% lower cost per task; API `gpt-6-luna` + Free/Go desktop app
 - [[gpt-6-sol]] — OpenAI's Sep 22 2026 GPT-6-family professional-and-coding tier; built on Astra's advances; $2/M input + $10/M output; ~half as many mistakes as GPT-5.6 Sol; beats Claude Opus 5 on AutomationBench at ~91% less cost per completed task; API `gpt-6-sol`, ChatGPT Work, Codex
+- [[gpt-synopsys]] — OpenAI × [[synopsys]] multiyear-partnership specialized model to operate semiconductor-design tools and automate chip-engineering workflows (Oct 2026)
 - [[gas-town]] — Steve Yegge's coding-agent orchestrator; shut down Sep 2026 after Yegge admitted he had "never successfully built anything" with it despite thousands spent on subscriptions
 - [[gpt-live]] — OpenAI's Jul 2026 full-duplex voice model — listens + speaks simultaneously with mid-sentence handoff to larger models; rebuild of ChatGPT voice mode
 - [[google-ai-studio]] — Google's free playground for testing/comparing AI models incl. Gemini 3.5 Flash; side-by-side runs + prompt-builder; Google login (Jun 2026)
