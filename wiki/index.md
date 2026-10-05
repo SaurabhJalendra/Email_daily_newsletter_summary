@@ -100,6 +100,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ode-with-anthropic]] — $1.5B AI implementation firm co-founded by Anthropic + Blackstone + Hellman & Friedman; 100 engineers; custom AI systems for enterprise core-operations integration (Jul 2026)
 - [[oracle]] — enterprise cloud; AMD partnership *(stale)*
 - [[palantir]] — data-analytics + AI-defense platform; CEO Alex Karp critiques "tokenmaxxing" token-priced AI as national-security issue; NVIDIA-partnered model-agnostic own-your-weights product (Jul 2026)
+- [[parlance-labs]] — Hamel Husain's engineer-led AI-evals consultancy; publishes free open-source [[evals-skills]] bundle (w/ Shreya Shankar) + Maven *AI Evals for Engineers & PMs* course (5,000+ taught) + hamel.dev evals-FAQ + Oct 6 2026 free *Cracking the AI Evals Interview* lesson
 - [[perplexity]] — AI search; Comet browser; AI Browser w/ shopping + virtual try-on
 - [[pinecone]] — vector-DB + retrieval-infrastructure company; Aug 2026 Nexus retrieval layer beats frontier-model agents on enterprise-knowledge benchmark
 - [[poolside-ai]] — American-open-weights neolab; "Model Factory" approach; ships [[laguna-s]] family (118B MoE / 1M context, cheaper than Deepseek v4 Flash) (Jul 2026)
