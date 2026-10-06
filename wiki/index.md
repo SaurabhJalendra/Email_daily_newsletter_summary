@@ -171,6 +171,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[anthropic-fellows]] — Anthropic's AI-safety research fellowship; 4mo / $3,850/wk / ~$15K/mo compute / 40% hire + 80% papers (Jun 2026)
 - [[apple-m5]] — Apple's M-series (M5, M5 Ultra, M6) on-device AI silicon
 - [[audex]] — NVIDIA's 30B / 3B active MoE unified text + audio model — preserves text intelligence while adding broad audio generation and understanding (Jul 2026)
+- [[beam]] — Reflection AI's Oct 2026 open-weight flagship — 501B-total / 23B-active sparse MoE for coding, reasoning, and agentic workloads; US open-weight counter to DeepSeek + Qwen
 - [[beni-robot]] — Aug 2026 consumer follow-and-film robot; tracks users at 17.9 mph, navigates obstacles, cuts footage into a reel, all on-device (no cloud)
 - [[bonsai-27b]] — PrismML's 27B on-device model; 3.9 GB footprint via 1-bit binary + ternary quantization; retains ~89.5% of FP16 base; first 27B-class model that fits on a phone (Jul 2026)
 - [[aws-blocks]] — Amazon's open-source framework for building modular, reusable cloud apps from composable software components (Jun 2026)
@@ -209,6 +210,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-fable-5]] — Anthropic's June 2026 frontier Claude release; "Beats Opus" per TAAFT; introduces "Fable" as a new versioned Claude tier alongside Haiku/Sonnet/Opus/Mythos (Jun 2026)
 - [[claude-fable-5-1]] — Anthropic's Sep 2026 frontier successor to Claude Fable 5 — same $10/$50 base pricing, 75% cheaper cache reads ($0.25/M), ~25% typical / up to 45% agentic cost savings, doubled benchmark scores, coding+research focus, enterprise privacy mode, reduced safety false alarms
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills *(stale)*
+- [[claude-frontier-academy]] — Anthropic's Oct 2026 $100M AI-engineer training program targeting 10,000 engineers by 2027; Accenture + Morgan Stanley enterprise partners; AI-fluency + enterprise-tech-integration workforce pipeline
 - [[claude-for-legal]] — Anthropic's vertical Claude package for law firms; 20+ MCP connectors + 12 plugins (May 2026) *(stale)*
 - [[claude-for-small-business]] — Anthropic's SMB Claude package; QuickBooks/PayPal/HubSpot/Canva/Google Workspace/Microsoft 365 (May 2026) *(stale)*
 - [[claude-for-teachers]] — Anthropic's free-year Claude Pro for verified US K-12 educators; teaching toolkit + 50-state academic-standards learning commons (Jul 2026)
@@ -257,6 +259,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepstream-9-1]] — NVIDIA's Aug 2026 edge vision AI SDK update; agentic "skills" architecture — Multi-View 3D Tracking (MV3DT) + AutoMagicCalib camera calibration; natural-language-prompt-driven multi-camera pipelines
 - [[deepseek-ocr]] — open-source OCR with 10× vision-token compression, 97% accuracy *(stale)*
 - [[deepseek-v4-flash-vision]] — DeepSeek's Aug 2026 experimental multimodal vision-language variant of V4-Flash; nearly matches Claude Opus 4.8 on multimodal agent benchmarks at Flash-tier pricing
+- [[dgx-spark]] — NVIDIA's Oct 2026 $4,999 personal AI computer — 64GB GB10 Grace Blackwell variant of the 128GB SKU; two-unit cluster runs 200B-parameter models locally
 - [[diffusion-gemma]] — Google's diffusion-based Gemma-family variant; first surfaced TLDR AI 2026-06-11-evening + second-cohort NLP Newsletter digest 2026-06-14-morning
 - [[deepseek-v3-2]] — DeepSeek V3.2 matches GPT-5; V3.2-Speciale rivals Gemini 3 Pro w/ IMO/IOI/ICPC gold *(stale)*
 - [[deepseek-v4]] — DeepSeek's Apr 2026 frontier MoE family (V4-Pro + V4-Flash); open-sourced; triggers AI-pricing collapse *(stale)*
@@ -390,6 +393,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[k2-horizon]] — MBZUAI's Sep 2026 fully-open model fleet — six models spanning 0.9B → 375B parameters; Abu Dhabi's flagship open-weights contribution
 - [[kimi-work]] — Moonshot AI's Windows/macOS desktop agent — local files + browser automation + multi-step web tasks; 24/7 automation tier alongside [[chatgpt-work]] and [[claude-cowork]] (Jul 2026)
 - [[koa]] — Salesforce + NVIDIA Sep 2026 enterprise reasoning model post-trained on NVIDIA Nemotron 3 Super for sales/marketing/customer-support; alternative to Claude and ChatGPT
+- [[kolibri]] — Aleph Alpha's Oct 2026 open-weight 78.1B English-German MoE with 1M-token context + tool calling; Apache 2.0 on Hugging Face; first open-weight release post Cohere merger
 - [[kumorfm]] — Nvidia's tabular foundation model; models relational data as graphs of interconnected tables for zero-shot predictions across complex enterprise schemas (Jul 2026)
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
 - [[laguna-s]] — Poolside AI's open-weights foundation-model family; Laguna S 2.1 = 118B MoE / 8B active params / 1M context, cheaper than Deepseek v4 Flash; candidate for "strongest American open-weight model" (Jul 2026)
