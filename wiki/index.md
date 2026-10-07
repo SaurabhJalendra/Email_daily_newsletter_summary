@@ -119,6 +119,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[sambanova]] — AI-computing-solutions vendor for data centers; $1B Series F at $11B valuation Jul 2026
 - [[shopify]] — Canadian e-commerce platform; ships [[shopify-sidekick]] AI merchant assistant + Storefront Model Context Protocol (Anthropic co-built) + Universal Commerce Protocol (Google co-built); canonical mid-2026 self-improving-AI-pipeline case-study via GraphQL agent 0.8B Qwen fine-tune vs GPT-5.6 Sol xhigh (Sep 2026)
+- [[sierra]] — customer-service AI company; co-authors [[personal-agent-protocol]] open standard with [[meta]] (Oct 2026) for personal AI agent authentication + interaction with businesses
 - [[simile]] — AI market-research startup; $200M @ $2B valuation; enables companies to survey "agentic twins" of real consumers for synthetic-consumer insights (Jul 2026)
 - [[skild-ai]] — robotics foundation-model startup; S1 performs in-context learning of 10-min robot tasks from a single video without fine-tuning (Aug 2026)
 - [[skool]] — community/course-hosting platform; default surface for AI-education communities like [[ai-automation-society]]; discovery/distribution #1 focus (1M+ daily searches) + platform-level AI moderation + Link.skool.com URL-shortener/tracking layer (Aug 2026)
@@ -506,6 +507,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[perplexity-computer]] — Perplexity's 19-model orchestration platform for end-to-end workflows (Feb 2026)
 - [[perplexity-personal-computer]] — Perplexity's always-on local AI agent on a dedicated Mac mini (Mar 2026) *(stale)*
 - [[perplexity-portable-computer]] — Perplexity+Nvidia's fully local AI agent on DGX Spark; zero token costs, model/data/work on-device, Linux launch + Windows Sept 2026 (Aug 2026)
+- [[personal-agent-protocol]] — [[meta]] + [[sierra]] open standard (Oct 2026) for how personal AI agents authenticate with + interact with businesses across websites, applications, and customer-support systems
 - [[pi-1-0]] — [[earendil]]'s Oct 1 2026 first stable release of open-source MIT-licensed AI coding-agent harness — native MCP + Codemode + image-model support + virtual-model extensions + deferred tool loading + Anthropic cache warming
 - [[pi-durable]] — [[earendil]]'s Oct 1 2026 TypeScript port of Pi — adds crash survival + portability + concurrency + extensibility + context management + multiplayer/state sync
 - [[plandex]] — open-source AI coding agent designed for large engineering tasks and multi-file changes (Jun 2026)
