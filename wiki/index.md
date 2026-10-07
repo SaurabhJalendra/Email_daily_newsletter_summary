@@ -16,7 +16,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ami-labs]] — Yann LeCun's world-models startup spun out of Meta FAIR; €3B raise target *(stale)*
 - [[amazon]] — AWS provider; $38B OpenAI; Nova 2 + Trainium 3; Rufus 805% YoY Black Friday
 - [[amd]] — chipmaker; OpenAI and Oracle partnerships *(stale)*
-- [[anduril]] — defense-tech prime; $8B at $60B valuation Mar 2026; ExoAnalytic Solutions acquisition doubled space unit *(stale)*
+- [[anduril]] — defense-tech prime; $1.8B US Army NGC2 Lattice prime contract + $6.6B Baltimore shipbuilding mega-factory (Oct 2026); $8B at $60B valuation Mar 2026; ExoAnalytic Solutions acquisition doubled space unit
 - [[ant-group]] — Alibaba-affiliated Chinese fintech + AI lab; open-source trillion-parameter Ling-2.6 (fast) + Ring-2.6 (agentic reasoning) (Jul 2026)
 - [[anthropic]] — Claude maker; Opus 4.7/4.8, Claude Design, Routines, $965B confidential IPO, Fable 5 release
 - [[apple]] — solo-AI strategy abandoned; Siri+Gemini deal; M5 chip; Subramanya new AI VP
@@ -86,7 +86,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[midjourney]] — bootstrapped frontier AI lab; text-to-image core + V1 video + Midjourney Medical Scanner (full-body ultrasonic CT); CEO David Holz (Jun 2026)
 - [[minimax]] — Chinese frontier-model lab; M2.1 coding model
 - [[mirendil-ai]] — New AI lab founded by ex-Anthropic/OpenAI/Google/xAI employees; $200M seed; building self-improving science research AI (Jun 2026)
-- [[mistral]] — French frontier lab; Mistral Studio + Mistral 3 open-weights; HSBC + Airbus/BMW/CMA CGM; Vibe Work/Code Mode (Jun 2026)
+- [[mistral]] — French frontier lab; [[mistral-large-4]] "Le Chonk" trillion-parameter MoE flagship (Oct 2026); Mistral Studio + Mistral 3 open-weights; HSBC + Airbus/BMW/CMA CGM; Vibe Work/Code Mode (Jun 2026)
 - [[nebius]] — AI cloud company climbing from compute to inference + agentic platforms; Token Factory managed inference platform; Eigen AI/Clarifai/Tavily acquisitions in 6 weeks; CTO Danila Shtan on execution-speed-as-moat (Jul 2026)
 - [[mongodb]] — document-database vendor; Atlas Managed MCP Server + Voyage AI Automated Embedding + Atlas Embedding/Reranking API + LangGraph.js persistent agent memory + expanded Vercel partnership; "agentic era" positioning turns Atlas into data layer for AI agents (Aug 2026)
 - [[moonshot-ai]] — Chinese frontier lab; ships Kimi K2 Thinking open-source reasoning model
@@ -271,6 +271,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[dig-bench]] — agent benchmark measuring rule-discovery-through-experimentation; 70 text-based games (21 publicly released, ~49 held for anti-contamination) (Aug 2026)
 - [[digit-5]] — Agility Robotics' Sep 2026 next-gen humanoid; 50-lb payload + swappable end-effectors (paddle/pincher/claw/five-finger) + 9-min recharge + ~90-min runtime + >20 working h/24 + unfenced cooperatively safe operation + early access H1 2027 → broader end-2027
 - [[dyna-2]] — Dyna Robotics's world-action model pre-trained on 1M+ hours of human video; 87% real-world zero-shot pass rate on unseen robot hardware; scaling-laws-for-robotics anchor (Aug 2026)
+- [[embedding-gemma-2]] — Google's 740M-parameter open multimodal embedding model mapping text, code, images, video, and audio into a shared embedding space (Oct 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
 - [[evals-skills]] — Hamel Husain + Shreya Shankar's free open-source eval skills bundle for coding agents; v2 launched Aug 2026 with new `error-discovery` + `start` skills; installs via `npx skills add ai-evals-course/evals-skills`
 - [[firefox]] — Mozilla's browser joins the AI browser race with Aug 2026 Exa partnership powering *Smart Window* on desktop + *Quick Answers* on iOS; privacy-first + optional-AI + user-choice posture; fills [[chatgpt-atlas]] void (Aug 2026)
@@ -457,6 +458,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ministral-3]] — Mistral dense small-model line (3B/8B) for on-device inference *(stale)*
 - [[mistral-3]] — Mistral's open-weight lineup; flagship Large 3 (41B active / 675B total MoE) *(stale)*
 - [[mistral-agentic-search]] — Mistral's five-op agentic search framework (search + open + navigate + read + grep); FinanceBench correctness 26.7% → 86% + reduced tail latency (Aug 2026)
+- [[mistral-large-4]] — Mistral's "Le Chonk" trillion-parameter natively multimodal MoE flagship (~49B active); API-available at launch; trained on 4,000 Nvidia Grace Blackwell GPUs; GLM 5.3 parity (Oct 2026)
 - [[mistral-ocr-3]] — Mistral's OCR model; ~97% accuracy, strong on European documents *(stale)*
 - [[mistral-ocr-4]] — Mistral's OCR successor — bounding boxes + confidence scores + 170 languages + single-container deployment; built specifically for RAG pipelines (Jun 2026)
 - [[mistral-studio]] — Mistral's production-AI platform *(stale)*
@@ -487,6 +489,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nv-reason-ct]] — NVIDIA's Sep 2026 vision-language model for analyzing 3D CT scans; reportedly validated by NIH radiologists for CT-analysis tasks
 - [[odyssey-3]] — Odyssey's Sep 2026 general-purpose world model that controls robot arms + humanoids + self-driving cars + drones + games from a single substrate
 - [[openai-codex]] — OpenAI's Codex-as-superapp (ChatGPT + Atlas + Codex) *(stale)*
+- [[openai-decisions-api]] — OpenAI API that turns text and/or images into typed decisions (predicates/choices/scores); Luna-wrapper architecture; $0.10/M input + no output charges (Sep 2026 DevDay, pricing confirmed Oct 2026)
 - [[openai-for-healthcare]] — OpenAI's HIPAA-compliant enterprise health offering *(stale)*
 - [[openai-frontier]] — OpenAI's Feb 2026 enterprise AI-Employee platform (personas + skills + memory) *(stale)*
 - [[openai-presence]] — OpenAI's Jul 2026 enterprise agent platform for controlled voice/chat agents; permissions + policies + evaluations + escalation rules + Codex-powered improvement loop; direct competitor to [[claude-managed-agents]]
