@@ -25,6 +25,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[backflip-ai]] — AI startup building scan-to-editable-CAD generation for engineering, architecture, and product design (Aug 2026)
 - [[baidu]] — Chinese search/cloud giant; ships Unlimited-OCR 3B open-source (93.23% OmniDocBench, R-SWA attention, 8GB VRAM) Jul 2026 + ERNIE-4.5-VL-Thinking multimodal reasoning
 - [[baseten]] — AI inference + post-trained-open-models compute company; $1.5B Series F at $13B valuation Jun 2026; "owned intelligence" infrastructure thesis
+- [[biohub]] — Chan Zuckerberg Biohub nonprofit; Oct 2026 $1.8B DOE + NIH co-investment to build biological datasets for AI models driving disease prevention + treatment research
 - [[black-forest-labs]] — German image-gen lab; ships FLUX.2 *(stale)*
 - [[block]] — Square/Cash App parent; cut ~half of employees citing internal AI agent "Goose" Mar 2026 *(stale)*
 - [[broadcom]] — custom AI silicon partner for OpenAI
@@ -222,6 +223,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-platform-aws]] — Anthropic's Claude Platform natively inside AWS account with full API parity (May 2026) *(stale)*
 - [[claude-reflect]] — Anthropic's mindful-use / anti-over-reliance Reflections dashboard for Free/Pro/Max accounts with memory on (Jul 2026)
 - [[claude-haiku-4-5]] — Anthropic's fast, low-cost coding model *(stale)*
+- [[claude-haiku-5-5]] — Anthropic's Oct 7 2026 small-model third-tier of the Claude 5.5 family; $0.10/M input + $0.50/M output (≤100K prompts); 1M context + 128K output; first Haiku with effort settings + adaptive thinking; ~75% cheaper to run than Haiku 4.5; AA Intelligence Index 43 (up 26 pts)
 - [[claude-managed-agents]] — Anthropic's fully-managed agent runtime; composable APIs for cloud-hosted agents + Ultraplan (Apr 2026)
 - [[claude-marketplace]] — Anthropic's enterprise marketplace for Claude-powered third-party tools; relaunched Sep 2026 at 2,000+ plugins with MCP connectors (Google Drive/Slack/Salesforce) + Cursor/CrowdStrike agents + Accenture integration + unified billing against Anthropic budget
 - [[claude-money]] — Anthropic personal-finance product (Sep 2026, in preparation) — link bank accounts, ask Claude about spending/plans/financial questions
