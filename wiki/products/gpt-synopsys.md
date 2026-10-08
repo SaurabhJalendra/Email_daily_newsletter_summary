@@ -18,12 +18,15 @@ GPT-Synopsys is a specialized OpenAI model being co-developed with EDA incumbent
 
 ## Timeline
 
+- **2026-10-08-morning**: Cycle-2 recoverage sharpens scope — TLDR Hardware: GPT-Synopsys will **operate Synopsys' EDA tools directly, covering PPA optimization, timing closure, and verification** — *source: data/summaries/2026-10-08-morning.json (TLDR Hardware MEDIUM "Ghost launches AI PC 👻, SpaceX seeks Nvidia chips 🚀, Synopsys and OpenAI team up 🤝")*
+
 - **2026-10-05-evening**: Partnership announcement surfaces in the newsletter cohort — "multiyear strategic partnership to develop GPT-Synopsys" to "operate semiconductor-design tools and automate increasingly complex chip-engineering workflows" — *source: data/summaries/2026-10-05-evening.json (researchFindings.missingStories, citing Pulse2 partnership announcement; daily-digest Industry News)*
 
 ## Key Facts
 
 - Vendor: [[openai]] in multiyear strategic partnership with [[synopsys]]
 - Scope: "operate semiconductor-design tools and automate increasingly complex chip-engineering workflows"
+- Named workflows covered: PPA (power-performance-area) optimization, timing closure, verification (per TLDR Hardware 2026-10-08)
 - Positioning: links "frontier-model capabilities with one of the most technically demanding software domains" (per Pulse2)
 - Status at announcement: "to develop" — availability, pricing, access tiers not yet disclosed
 
@@ -38,3 +41,4 @@ GPT-Synopsys is a specialized OpenAI model being co-developed with EDA incumbent
 ## Sources
 
 - data/summaries/2026-10-05-evening.json (researchFindings.missingStories — OpenAI and Synopsys partner on AI for semiconductor design; daily-digest Industry News)
+- data/summaries/2026-10-08-morning.json (TLDR Hardware MEDIUM "Ghost launches AI PC 👻, SpaceX seeks Nvidia chips 🚀, Synopsys and OpenAI team up 🤝")

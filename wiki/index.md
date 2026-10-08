@@ -51,6 +51,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[fractile]] — UK-based specialized inference-processor startup building in-memory-computing chips; targets up to 25× LLM-inference speedup + fraction-of-cost vs conventional GPUs; ~$6.5B potential valuation (Aug 2026)
 - [[fish-audio]] — Voice-AI company; ships S2.1 Pro (Jul 2026) real-time voice-cloning across 83 languages; positioned against ElevenLabs on cost
 - [[friendliai]] — "Frontier Inference Cloud for agents" serving frontier open-weight models; powers [[claude-code]] + [[cursor]] + Kilo Code + Hermes Agents + [[ollama]] (Jul 2026)
+- [[ghost]] — San Francisco AI startup building [[core]], a $3,499 screenless personal AI computer for autonomous local agents; $11M a16z-led seed (Oct 2026)
 - [[general-intuition-ai]] — Neo Lab building Large Action Models (LAMs) and world models that perceive/predict/act across virtual and physical spaces (Jun 2026)
 - [[glean]] — enterprise AI search/agent company co-founded by ex-Google Distinguished Engineer Arvind Jain; canonical enterprise implementer of model routing (three modes: explicit / admin / automatic); Waldo agentic-search model (50% latency + 25% token reduction); $150M Series F, ~$300M ARR (Aug 2026)
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
@@ -127,6 +128,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[softbank]] — Japanese investment group; OpenAI's largest single capital backer (Vision Fund + Stargate JV + ~11% stake); 2026-06-28 strategic-partnership announcement for AI infrastructure + telecom/enterprise deployment with [[openai]]
 - [[spacex]] — Musk's space company; xAI parent; S-1 filed at $1.7T (SPCX); orbital DCs + Anthropic Colossus 1 lease
 - [[speechmatics]] — UK speech-recognition vendor; ships [[linden-stt]] purpose-built for voice agents (Sep 2026) — 55+ languages, 350ms latency, 1000+ custom-word support, $0.30/hr
+- [[stacklok]] — Kubernetes co-creators Craig McLuckie + Joe Beda; pivots to cloud-native agent infrastructure — Mecatl harness + ToolHive open-source MCP-server runtime + commercial AI Gateway; $17.5M Series A (Oct 2026)
 - [[stripe]] — US payments infrastructure company; ships [[stripe-kai]] enterprise Knowledge AI Platform for employee data-warehouse queries + account research + incident triage + revenue modeling + compliance reviews (Jul 2026)
 - [[suno]] — Cambridge-based AI music-generation startup; $400M Series D at $5.4B led by Bond Capital (Jun 2026); Warner settled, Universal/Sony lawsuits ongoing
 - [[synopsys]] — EDA incumbent; multiyear strategic partnership with OpenAI (Oct 2026) to co-develop [[gpt-synopsys]] specialized model operating semiconductor-design tools and automating chip-engineering workflows
@@ -196,6 +198,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages) *(stale)*
 - [[chatgpt-work]] — OpenAI's agentic ChatGPT workspace — takes outcomes not prompts, works for hours, delivers finished materials; powered by [[gpt-5-6]] (Jul 2026)
 - [[computer-history]] — OpenAI feature that logs clicks + typing to give [[chatgpt]] + Codex a memory of recent work on the user's computer; desktop-context persistent-memory tier alongside [[chatgpt-work]] + [[claude-cowork]] + [[kimi-work]] (Aug 2026)
+- [[core]] — [[ghost]]'s $3,499 screenless local AI computer; NVIDIA RTX Pro 4000 SFF Blackwell GPU (24GB) + Ryzen 5 7600 + 64GB RAM; phone-app-controlled autonomous personal agents (Oct 2026)
 - [[chandra-ocr-2]] — document-intelligence OCR model topping olmOCR on tables (92.1%) + tiny text (93.7%); up to $5K Textract-migration credits (Jul 2026)
 - [[claude-academy]] — Anthropic's free-for-everyone AI-fluency school; 4D AI Fluency Framework + mindsets-over-prompting-tricks curriculum (Aug 2026)
 - [[clef]] — Cloudflare's Oct 2 2026 open-source Jev-API-compatible decision model family (Clef + Clef-flash) + companion RL fine-tuning platform; Apache 2.0 on Hugging Face, locally-runnable
