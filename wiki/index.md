@@ -45,6 +45,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[earendil]] — vendor of Pi — open-source MIT-licensed minimal AI coding-agent harness; shipped [[pi-1-0]] stable + [[pi-durable]] TypeScript port Oct 1 2026
 - [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace, in-platform LLM hosting *(stale)*
 - [[engram]] — Neo Lab building a persistent, learned memory layer for AI to improve efficiency and reduce inference costs (Jun 2026)
+- [[epoch-ai]] — AI research org quantifying frontier-AI compute, cost, and capabilities; Oct 2026 Epoch Brief: ~2B AI agents on 2027-shipped chips, cost of AI performance falling ~47%/quarter (~13×/year), OpenAI median-researcher daily agent spend <$1 Jan → ~$600 Aug
 - [[etched]] — AI inference chip startup; exits stealth Jul 2026 at $5B valuation ($800M raised, $1B+ in contracts, first inference racks shipping summer 2026)
 - [[extropic]] — TSU thermodynamic-sampling chip; ~10,000× energy-efficiency claim *(stale)*
 - [[figure]] — humanoid robots; Figure 03; sued by former product-safety head Nov 2025 *(stale)*
@@ -104,6 +105,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[oracle]] — enterprise cloud; AMD partnership *(stale)*
 - [[palantir]] — data-analytics + AI-defense platform; CEO Alex Karp critiques "tokenmaxxing" token-priced AI as national-security issue; NVIDIA-partnered model-agnostic own-your-weights product (Jul 2026)
 - [[parlance-labs]] — Hamel Husain's engineer-led AI-evals consultancy; publishes free open-source [[evals-skills]] bundle (w/ Shreya Shankar) + Maven *AI Evals for Engineers & PMs* course (5,000+ taught) + hamel.dev evals-FAQ + Oct 6 2026 free *Cracking the AI Evals Interview* lesson
+- [[periodic-labs]] — "Synthesis superintelligence" AI-for-science startup co-led by Liam Fedus + Ekin Dogus Cubuk; automated materials discovery via simulations + high-throughput experiments + ML; targets room-temperature superconductors, new magnets, more efficient computing materials (Oct 2026)
 - [[perplexity]] — AI search; Comet browser; AI Browser w/ shopping + virtual try-on
 - [[pinecone]] — vector-DB + retrieval-infrastructure company; Aug 2026 Nexus retrieval layer beats frontier-model agents on enterprise-knowledge benchmark
 - [[poolside-ai]] — American-open-weights neolab; "Model Factory" approach; ships [[laguna-s]] family (118B MoE / 1M context, cheaper than Deepseek v4 Flash) (Jul 2026)
@@ -283,6 +285,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[flue]] — Fred Schott's (Astro creator) React-style meta-harness for agents; 16 Agent Hooks (`useSkill()` / `useTool()` / `useSubagent()`) atop Pi minimal-harness substrate; host-portable open-source competitor to [[vercel-eve]]; agent-defined-by-harness thesis (Aug 2026)
 - [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(superseded by [[flux-3]])*
 - [[flux-3]] — Black Forest Labs' Jul 2026 multimodal foundation model (image + video + audio + robotics); powers real-world factory robots at Audi
+- [[flux-3-action]] — Black Forest Labs' Oct 2026 7B-parameter world-action model turning camera feeds + text instructions into robot movements; tops Nvidia's RoboLab simulation benchmark; HF-hosted under FLUX Kommunity License
 - [[frozen-v2]] — Google's next-gen server chip embedding pieces of Gemini's model design into silicon; projected 6-10× more efficient than current TPUs; target ship as early as 2028 (Jul 2026)
 - [[frontiercode]] — Cognition's code-quality benchmark (corrected 2026-06-10 — initially framed as AINews/Latent Space); mergeability over unit-tests; Opus 4.8 13/100 score (Jun 2026)
 - [[function-gemma]] — Google 270M on-device function-calling model *(stale)*
@@ -552,6 +555,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[solaris]] — Runway's Sep 2026 "Interface World Model" — generates interactive website/app UIs frame-by-frame as live AI video conditioned on user input; built on Gen-4.5, ~720p, sub-500ms latency target
 - [[sora-2]] — OpenAI's video model; physics, audio, monetization, Hollywood pushback *(stale)*
 - [[spatialclaw]] — NVIDIA's spatial reasoning model for coding and robotics tasks (Jun 2026)
+- [[step-5-preview]] — StepFun's Oct 2026 preview LLM; near-Opus-5 intelligence at 80% lower input / 89% lower output pricing; 1M context; ahead of Kimi K3 + GLM-5.3 on DeepSWE; distributed via OpenRouter + OpenCode + Kilo Code + Cline + omp + Hermes Agent
 - [[stripe-kai]] — Stripe's Jul 2026 Knowledge AI Platform for enterprise employees — queries data warehouses, researches accounts, triages incidents, models revenue scenarios, prepares compliance reviews
 - [[swe-1-7]] — Cognition's cheap near-frontier coding model built on China's Kimi K2.7 substrate; $1.97/task; RL-pipeline improvements + long-horizon-task techniques (Jul 2026)
 - [[synthid-bio]] — Google DeepMind's Oct 2 2026 proof-of-concept AI watermarking for tracing unfamiliar DNA designs — bio-domain extension of SynthID aimed at preventing synthetic-biology misuse
@@ -620,6 +624,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[graph-engineering]] — Harnoor Singh's named discipline for building production-grade agents as networks (workers/routers/tools/verifiers); seven-stage roadmap; orchestration graphs (temporary) vs memory graphs (durable) binary; HydraDB/HydraBrain/Neo4j/GraphRAG substrate (Jul 2026)
 - [[hamel-husain]] — independent AI-evals practitioner + founder of Parlance Labs; co-teaches AI Evals for Engineers & PMs Maven course with Shreya Shankar; co-maintains [[evals-skills]] open-source bundle (Aug 2026)
 - [[humanoid-robotics]] — embodied-AI arms race: NVIDIA Isaac GR00T + OpenAI Robotics restart + Altman/Alfred + Amazon warehouse + Serve + China IPOs (Jun 2026)
+- [[intelligent-ui]] — OpenAI's Oct 2026 ChatGPT UX paradigm shifting from text-only chat to responses that dynamically compose text + visuals + diagrams + charts + forms + tappable buttons + calculators + bill-splitters + games; ships with GPT-6 to 1.2B+ ChatGPT users; Astra excluded from Intelligent UI in ChatGPT
 - [[j-space]] — Anthropic interpretability finding — emergent internal workspace inside Claude for silent reasoning + planning + multi-step reasoning; J-lens open-source tool + Content Seal watermarking pairing; "A Global Workspace in Language Models" paper (Jul 2026)
 - [[john-jumper]] — Google DeepMind VP and 2024 Nobel Chemistry laureate (AlphaFold co-creator); departs for Anthropic in June 2026
 - [[jonathan-ross]] — Groq founder + Google TPU inventor; now NVIDIA Chief Software Architect after Dec 2025 $20B Groq-NVIDIA deal — 3-week phone call into NVIDIA's largest deal ever (Jul 2026)
