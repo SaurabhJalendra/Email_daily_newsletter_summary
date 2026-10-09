@@ -1,0 +1,400 @@
+{
+  "date": "2026-10-08T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Friday, 9 October 2026\n\n## 🔥 Top Stories\n1. **OpenAI's GPT-6 introduces Intelligent UI, enhancing responses with text, visuals, and interactive elements** — This matters because it signifies a major leap in generative AI capabilities, moving beyond text-only interactions and improving answer quality for complex queries.\n2. **TypeSafe AI's Jev model achieves significant attention and adoption, with over 100,000 people joining the company's Discord and 2,000 projects on GitHub within a week of its release** — This matters because Jev's design allows for faster and cheaper serving of the model, making it a practical choice for developers and potentially paving the way for widespread adoption of similar models.\n3. **Anthropic's Claude Haiku 5.5 and OpenAI's GPT-6.1 Sol Ultrafast demonstrate rapid progress in AI model development, with significant improvements in performance and cost efficiency** — This matters because these advancements indicate a competitive landscape in the AI industry, driving innovation and pushing the boundaries of what AI models can achieve.\n4. **Researchers estimate nearly 2 billion AI agents could exist soon, with the cost of AI performance dropping faster than any other transformative technology in history** — This matters because the rapid growth of AI agents and decreasing costs could lead to widespread adoption and integration of AI into various industries and aspects of life.\n5. **NVIDIA and Microsoft collaborate to integrate AI agents into Windows PCs, leveraging RTX Spark technology and Microsoft's new Execution Containers** — This matters because this collaboration could enable secure and efficient deployment of AI agents on Windows PCs, potentially revolutionizing the way people interact with and use AI.\n\n## 🤖 AI Models & Research\n- TypeSafe AI's Jev model takes questions with a fixed set of possible answers and outputs the estimated probability that each option is the correct one, making it suitable for various use cases.\n- Claude Haiku 5.5 offers a 1M context window and 128K max output, priced at $0.10/$0.50 per million input/output tokens.\n- GPT-6.1 Sol Ultrafast claims \"near-Astra intelligence\" at up to 8x the speed of Sol Standard, with pricing at $12/$60 per million input/output tokens.\n- FLUX 3 Action, a 7 billion-parameter world-action model, turns camera feeds and text instructions into robot movements, topping Nvidia's RoboLab simulation benchmark.\n- HYSET, a method for constructing and scoring candidate tool sets for LLM agents, increased both the completeness of retrieved tool sets and end-to-end task success on the ToolBench dataset.\n\n## 🛠️ Tools & Products\n- Gemini universal work agent offers persistent memory, sub-agent orchestration, and routing across models.\n- LightOnOCR-3 is released in 0.8B, 1B, and 4B sizes under Apache 2.0, covering OCR, layout, and chart extraction.\n- Step 5 Preview is made available, scoring ahead of Kimi K3 and GLM-5.3 on DeepSWE.\n- OpenDocRouter is a new platform for document-to-Markdown parsing using the latest open-source and frontier models.\n\n## 📰 Industry News\n- OpenAI's internal AI spending is soaring, with the median researcher's daily coding-agent usage valued at API prices growing significantly.\n- Anthropic committed $150M to the Genesis Mission and is extending Claude access to more than 15 federal agencies.\n- Arena raised $200M at a $3.1B valuation, positioning itself as a neutral evaluator of alignment.\n- Google announced Gemini 4 Argon, a new vision-language model trained for complex software engineering, enterprise knowledge work, and cybersecurity defense.",
+  "totalNewsletters": 6,
+  "newsletters": [
+    {
+      "from": "\"Understanding AI\" <understandingai@substack.com>",
+      "subject": "Understanding Jev, the new model everyone is talking about",
+      "date": "2026-10-08T13:14:53.000Z",
+      "summary": "## Understanding AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* TypeSafe AI has released a new AI model called Jev, which takes questions with a fixed set of possible answers and outputs the estimated probability that each option is the correct one. This design allows for faster and cheaper serving of the model, making it suitable for various use cases.\n* Jev's output can be easily integrated into common software engineering patterns, such as if statements, making it a more practical choice for developers.\n* The model has gained significant attention, with over 100,000 people joining the company's Discord and 2,000 projects on GitHub using Jev within a week of its release.\n* TypeSafe AI's success has led to the creation of similar models by other companies, including Cloudflare, Amazon, and OpenAI, which have developed their own versions of Jev.\n* Jev's performance seems to be the strongest among its competitors, but it is unclear whether others will catch up soon.\n* OpenAI has announced the global rollout of GPT-6 in ChatGPT, including Sol and Luna variants, alongside \"Intelligent UI\", which combines text, visuals, diagrams, and interactive tools, moving generative AI beyond text-only chat.\n\n### Notable Links\n* Understanding Jev, the new model everyone is talking about\n* TypeSafe AI\n* OpenAI\n* GPT-6\n* ChatGPT\n\nNote: There are no specific academic papers or arXiv IDs mentioned in the newsletter, so no paper titles or DOIs are included in this summary.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudW5kZXJzdGFuZGluZ2FpLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cudW5kZXJzdGFuZGluZ2FpLm9yZyUyRnAlMkZ1bmRlcnN0YW5kaW5nLWpldi10aGUtbmV3LW1vZGVsLWV2ZXJ5b25lIiwicCI6MjE5MzYzNTg2LCJzIjoxNTAxNDI5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc5MTQ2NjAyNSwiZXhwIjoyMTA3MDQyMDI1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.jzacbokO6WdeUzgg2ETB6PCDXL_QgTSGb3vv5OuHCuU?"
+        },
+        {
+          "text": "Understanding Jev, the new model everyone is talking about",
+          "url": "https://substack.com/app-link/post?publication_id=1501429&post_id=219363586&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxOTM2MzU4NiwiaWF0IjoxNzkxNDY2MDI1LCJleHAiOjE3OTQwNTgwMjUsImlzcyI6InB1Yi0xNTAxNDI5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.uanFX1Mpe9ghddKZ1lL8V1ddOerNCC1_pLDfmQbnnwA"
+        },
+        {
+          "text": "Kai Williams",
+          "url": "https://substack.com/@chiwilliams"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/understandingai/p/understanding-jev-the-new-model-everyone?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "announcement",
+          "url": "https://substack.com/redirect/f147357f-2870-45c5-b3be-a678720c16bd?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "joined",
+          "url": "https://substack.com/redirect/a7e9a968-5d44-4fcf-8bfc-1d3ed4dc2e22?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "2,000 projects",
+          "url": "https://substack.com/redirect/0687e0ab-a4fb-42db-a086-5a76f903b0f1?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "paused them",
+          "url": "https://substack.com/redirect/e3d94b6f-4a8e-46a8-8666-29ae3fc113bc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "claimed",
+          "url": "https://substack.com/redirect/24f2a0d3-cff9-4a7c-97e1-2a813f1a22da?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "new",
+          "url": "https://substack.com/redirect/d76a261d-1531-400a-8c75-3964f0b38f22?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Understanding Jev, the new model everyone is talking about![](https://eotrx.substackcdn.com/o/ded5b5e321fdc7ca/p.gif?token=eyJtIjoiPDIwMjYxMDA4MTMxNDUzLjMuZjA0ZDM3YmNmODQxY2M5ZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIxOTM2MzU4NiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoib25seV9wYWlkIiwicyI6MTUwMTQyOSwiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTE0NjYwMjYsImV4cCI6MTc5NDA1ODAyNiwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.zw3CrTL7_Xres7K1zS5WHnFEnYDaRcyIM9JggZn0Ir8)\n\nOpenAI, CloudFlare, and Amazon have all copied this tiny startup.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "ChatGPT Intelligent UI 🧠, Claude Haiku 5.5 ⚡, Grok Bot 3rd party models 🤖",
+      "date": "2026-10-08T14:10:51.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI's GPT-6 introduces Intelligent UI to 1.2 billion ChatGPT users, enhancing responses with text, visuals, and interactive elements, combining UI with data for dynamic, custom responses, and improving answer quality for complex queries. GPT-6 also features enhanced safety, ensuring better risk recognition and adherence to safeguards.\n* Claude Haiku 5.5 is optimized for high-volume, cost-sensitive tasks, offering lower operating costs and faster performance for applications like summaries and customer support, with significant pricing advantages and enhanced safety and cybersecurity safeguards.\n* Grok Bot will integrate Anthropic's Claude Opus 5.5, Midjourney, and Suno, expanding beyond SpaceX's AI models to optimize task outcomes, competing with personal AI agents like Meta's Muse, despite privacy concerns from some early users.\n* StepFun's Step 5 Preview introduces near-Opus 5 intelligence, with 80% lower input and 89% lower output prices, built for coding agents, financial analysis, and long-running work, with a 1M-token context, and available on OpenRouter and in OpenCode, Kilo Code, Cline, omp, and Hermes Agent.\n* StepAudio 3 offers TTS streams with expressive, emotion-aware speech, and ASR ranks #1 in AA's non-streaming transcription, with Realtime ranking #1 in AA's Conversational Dynamics and Speech Reasoning.\n* Multimodal embeddings beyond a single vector are being explored, with the Perplexity team launching PPLX-EMBED-V2-LATE, providing multi-vector, multimodal embeddings for richer retrieval across text and images.\n* Anthropic's corporate structure is being scrutinized, with calls for transparency regarding control and governance of increasingly capable AI models.\n* OpenDocRouter is a new platform for document-to-Markdown parsing using the latest open-source and frontier models, with a versioned recipe consisting of prompts, processing, and settings.\n* Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models is a new benchmark for evaluating intuitive visual reasoning capabilities in multimodal models.\n* NVIDIA and Microsoft announced a collaboration to integrate AI agents into Windows PCs, leveraging RTX Spark technology and Microsoft's new Execution Containers for securely running agents.\n* Google expanded SynthID Detector globally, allowing anyone to check images, video, or audio for watermarks from Google and partners, including OpenAI and NVIDIA.\n* MAI-Code-1.1-Flash is a new AI model from Microsoft that is faster and costs a quarter of previous iterations.\n* Fired OpenAI researchers are asking the company to preserve visibility into AI reasoning, citing concerns about the potential loss of ability to monitor AI systems' chain-of-thought.\n\n### Notable Links\n* [GPT-6 and Intelligent UI for everyone](https://www.openai.com/blog/gpt-6-and-intelligent-ui-for-everyone)\n* [Introducing Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5)\n* [StepFun's Step 5 Preview](https://platform.stepfun.ai/)\n* [Multimodal embeddings beyond a single vector](https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector)\n* [Anthropic's corporate structure](https://www.lesswrong.com/posts/Hb5aCFtLuHc5uvAgX/anthropic-s-corporate-structure)\n* [OpenDocRouter](https://www.llamaindex.ai/blog/introducing-opendocrouter)\n* [Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models](https://labs.scale.com/papers/humanitys-sixth-sense)\n* [NVIDIA and Microsoft collaboration](https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/)\n* [Google SynthID Detector](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/)\n* [MAI-Code-1.1-Flash](https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/)\n* [Fired OpenAI researchers' request](https://links.tldrnewsletter.com/6X0FXh)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nOpenAI's GPT-6 introduces Intelligent UI to 1.2 billion ChatGPT users, enhancing responses with text, visuals, and interactive elements. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/010001a11bda44f7-d943537c-3816-4c81-97a7-e321d3878d69-000000/Fi4x1Njqhsej1mXjp7V80i7dS2ua3TfVPUkadQ6heDw=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a11bda44f7-d943537c-3816-4c81-97a7-e321d3878d69-000000/DEUL5dYwXKrP80LmR5jepNqi72XZ1ds8MAVnx3Fxc1Q=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=528391a8-c307-11f1-b59e-65cac403064e%26pt=campaign%26t=1791468651%26s=f053747374619f13a8b6a2cea2043"
+    },
+    {
+      "from": "\"Latent.Space\" <swyx@substack.com>",
+      "subject": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cub…",
+      "date": "2026-10-08T16:27:54.000Z",
+      "summary": "## Latent Space Newsletter\n\n**Priority: HIGH**\n\n### Top Updates\n* Periodic Labs' Liam Fedus and Ekin Dogus Cubuk discuss their work on synthesis superintelligence, which involves using AI to accelerate scientific discovery and materials development.\n* The company aims to create an AI scientist that can discover new materials and properties, with applications in fields like energy, computing, and manufacturing.\n* Periodic Labs uses a combination of simulations, experiments, and machine learning to develop new materials, with a focus on automation and high-throughput experimentation.\n* The company has developed a number of AI-powered tools, including a matter compiler, which can simulate and predict the properties of materials.\n* Periodic Labs has also developed a number of custom hardware solutions, including robotic arms and other equipment, to support their research and development efforts.\n* The company is working on a number of projects, including the development of room-temperature superconductors, new magnets, and more efficient computing materials.\n* Periodic Labs has received significant funding and has announced plans to expand its operations and hire new talent.\n* The company is also exploring the use of AI in other areas, such as materials characterization and analysis.\n\n### Notable Links\n* Periodic Labs\n* GPT-6\n* [Synthesis Superintelligence](https://substack.com/app-link/post?publication_id=1084089&post_id=219146438&utm_source=substack&utm_medium=email&utm_content=play_card_post_title#play)\n* [Latent Space](https://substack.com/app-link/post?publication_id=1084089&post_id=219146438&utm_source=substack&utm_medium=email&utm_content=play_card_show_title#play)\n\nNote: The newsletter discusses the work of Periodic Labs and their efforts to develop synthesis superintelligence. The company's goal is to create an AI scientist that can discover new materials and properties, with applications in fields like energy, computing, and manufacturing. The newsletter provides an overview of the company's work, including their use of simulations, experiments, and machine learning to develop new materials. It also discusses the company's custom hardware solutions and their plans for expansion and hiring.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGcGVyaW9kaWMiLCJwIjoyMTkxNDY0MzgsInMiOjEwODQwODksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzkxNDc3MDA3LCJleHAiOjIxMDcwNTMwMDcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.uvO1_UMk-bP-m0_xLO3O285fOVigj0CfYWH_I7uTZ6g?"
+        },
+        {
+          "text": "Latent Space: The AI Engineer…Synthesis Superintelligence: …0:001:23:59",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=219146438&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxOTE0NjQzOCwiaWF0IjoxNzkxNDc3MDA3LCJleHAiOjE3OTQwNjkwMDcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.-t5Vifrw85UiugldCifxsNIjdttVZ6m1g_vV-8v2LjI#play"
+        },
+        {
+          "text": "Listen now",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=219146438&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxOTE0NjQzOCwiaWF0IjoxNzkxNDc3MDA3LCJleHAiOjE3OTQwNjkwMDcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.-t5Vifrw85UiugldCifxsNIjdttVZ6m1g_vV-8v2LjI"
+        },
+        {
+          "text": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=219146438&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxOTE0NjQzOCwiaWF0IjoxNzkxNDc3MDA3LCJleHAiOjE3OTQwNjkwMDcsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.-t5Vifrw85UiugldCifxsNIjdttVZ6m1g_vV-8v2LjI"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/periodic?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Periodic",
+          "url": "https://substack.com/redirect/b1d9ab06-bb4e-4569-9c2f-2cc786158ca4?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "last September",
+          "url": "https://substack.com/redirect/5d742d56-b35a-4283-ad47-0d2964c931da?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "talent density",
+          "url": "https://substack.com/redirect/92fc7cbb-b5fe-4240-8db6-2726005af62f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "astonishing progress",
+          "url": "https://substack.com/redirect/14cb0b2b-ad2a-46f6-bf37-06e2c1fd2412?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "standard credentials of Liam and Dogus",
+          "url": "https://substack.com/redirect/d5dd4cb5-5a1f-4448-92a6-676eb660d6e3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk![](https://eotrx.substackcdn.com/o/cfdced77f88b04d1/p.gif?token=eyJtIjoiPDIwMjYxMDA4MTYyNzU0LjMuNWEwYjgyMjUzZjBjMTQxZEBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMTkxNDY0MzgsInQiOiJwb2RjYXN0IiwiYSI6ImV2ZXJ5b25lIiwicyI6MTA4NDA4OSwiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTE0NzcwMDcsImV4cCI6MTc5NDA2OTAwNywiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.2Z9DRaFhsrtk1DseBt43_FHGk3_tUIoUSs1sthoDf2o)\n\nListen now (84 mins) | A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"The Epoch Brief\" <epochai+the-epoch-brief@substack.com>",
+      "subject": "The Epoch Brief - October 8, 2026",
+      "date": "2026-10-08T19:30:50.000Z",
+      "summary": "## The Epoch Brief\n\n**Priority: HIGH**\n\n### Top Updates\n- The latest report from Epoch estimates that nearly 2 billion AI agents could exist in the world soon, assuming agents run on cheap models, with the cost of AI performance dropping faster than any other transformative technology in history.\n- Researchers David Roodman and Luke Emberson found that the cost of achieving a fixed level of AI performance has fallen about 47% per quarter over the past three years, around 13× per year, indicating rapid progress in AI development.\n- A new report shows that China's six leading AI companies collectively generate roughly one-tenth the AI-related revenue of OpenAI and Anthropic combined, highlighting the competitive landscape in the AI industry.\n- Epoch's economics team investigated global trade data and found evidence consistent with more than $3 billion of chips smuggled into China via Malaysia, highlighting potential supply chain risks.\n- The latest polling with Ipsos shows that the share of US adults reporting a cyber incident was essentially unchanged between June and September 2026, despite the spike in reported serious cyber vulnerabilities over the same period.\n- New data shows that AI assistance in math publications is increasing, with around 6% of math preprints crediting AI at the level of a coauthor, indicating AI's growing role in scientific research.\n- OpenAI's internal AI spending is soaring, with the median researcher's daily coding-agent usage valued at API prices growing from under $1 in January 2026 to about $600 by mid-August.\n- The Epoch Capabilities Index continues to show an upward trend, indicating steady progress in AI capabilities, with models getting better at spatial reasoning, continuous learning, and other tasks.\n\n### Notable Links\n- How many AI agents could run on the AI chips shipped through 2027?\n- The plunging price of thought\n- How do Chinese AI companies make money?\n- China is more exposed to semiconductor supply-chain disruptions than the US\n- ChatGPT Usage explorer\n- InnovationEval\n- Benchmark Reviews\n- Cyber Vulnerabilities explorer\n- FrontierMath: Open Problems",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcG9jaGFpLnN1YnN0YWNrLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZlcG9jaGFpLnN1YnN0YWNrLmNvbSUyRnAlMkZ0aGUtZXBvY2gtYnJpZWYtb2N0b2Jlci04LTIwMjYiLCJwIjoyMTkzMTc2NDksInMiOjM3NTU4NjEsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzkxNDg3OTA4LCJleHAiOjIxMDcwNjM5MDgsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.kURh44T95N0L_yKTIJ7rShXxEOqInpxBOMbd79xBP4k?"
+        },
+        {
+          "text": "The Epoch Brief - October 8, 2026",
+          "url": "https://substack.com/app-link/post?publication_id=3755861&post_id=219317649&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxOTMxNzY0OSwiaWF0IjoxNzkxNDg3OTA4LCJleHAiOjE3OTQwNzk5MDgsImlzcyI6InB1Yi0zNzU1ODYxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.cPRohqvuLvOKdL3hQ0Zm92DbAyVhYrbHzVwGawOxrww"
+        },
+        {
+          "text": "Elliot Stewart",
+          "url": "https://substack.com/@epochelliot"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/epochai/p/the-epoch-brief-october-8-2026?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "AI agents",
+          "url": "https://substack.com/redirect/4404f2f8-ee4b-4992-a1f4-d566e9865d6c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "are dropping faster",
+          "url": "https://substack.com/redirect/1733116c-34ce-42b3-8480-77f226d563a3?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "make money",
+          "url": "https://substack.com/redirect/21ef21bf-fcb5-4d36-a23a-120a9c17c987?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "exposed",
+          "url": "https://substack.com/redirect/ac64baf4-a5a2-4737-b05b-1397727f0dfb?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "smuggled to China through Malaysia",
+          "url": "https://substack.com/redirect/eacd9bd6-b380-42e3-87a5-91ecbb576a7a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "people's lives",
+          "url": "https://substack.com/redirect/192c3fa9-64f6-4f19-95fd-102ae00bc4d0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The Epoch Brief - October 8, 2026![](https://eotrx.substackcdn.com/o/1578363d34bd4901/p.gif?token=eyJtIjoiPDIwMjYxMDA4MTkzMDUwLjMuOWEzNDM3MThjMWIyNGI1NUBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMTkzMTc2NDksInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6Mzc1NTg2MSwiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTE0ODc5MDgsImV4cCI6MTc5NDA3OTkwOCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.gN7KqudvtJwWEHN9YNRHtKOrjdSGcI5LdSjRPs13Tvk)\n\nPlummeting AI costs, billions of agents, how Chinese labs make money, AI’s impact on behaviors, and our benchmark auditing initiative\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     "
+    },
+    {
+      "from": "\"AINews\" <swyx+ainews@substack.com>",
+      "subject": "[AINews] not much happened today",
+      "date": "2026-10-08T23:29:43.000Z",
+      "summary": "## AINews\n\n**Priority: MEDIUM**\n\n### Top Updates\n\n* OpenAI fired three safety researchers (Tomek Korbak, Mikita Balesni, and Jasmine Wang) linked to the METR/Hugging Face incident, with the researchers arguing they were dismissed for prioritizing safety over corporate interests.\n* OpenAI released GPT-6.1 Sol Ultrafast, claiming \"near-Astra intelligence\" at up to 8x the speed of Sol Standard, with pricing at $12/$60 per million input/output tokens.\n* Claude Haiku 5.5 was released, with a 1M context window and 128K max output, priced at $0.10/$0.50 per million input/output tokens.\n* Sonnet 5.5 cache reads were halved, reducing costs for many long-running workloads by approximately 20%.\n* Gemini universal work agent was launched, offering persistent memory, sub-agent orchestration, and routing across models.\n* LightOnOCR-3 was released in 0.8B, 1B, and 4B sizes under Apache 2.0, covering OCR, layout, and chart extraction.\n* Step 5 Preview was made available, scoring ahead of Kimi K3 and GLM-5.3 on DeepSWE.\n\n### Evaluations and Benchmarks\n\n* Harvey LAB-AA v1.1 was released, with Grok 4.7 (xhigh) leading at 9.4%, followed by Muse Spark 1.3 at 8.9% and GPT-6 Astra at 8.6%.\n* AA Cyber Index now includes trusted-access models, with GPT-6 Sol (Daybreak Blue) leading with no safety blocks.\n* Epoch Automation Reports tested models on Epoch's own open-ended work, with Claude Fable 5.1 and GPT-6 Astra leading.\n\n### Research and Development\n\n* NVIDIA's NeMo-DCR was announced, exploiting the fact that only 0.6–1.2% of weights change per RL step, reducing refit time from 87.5 minutes to 150 seconds.\n* Zyphra uses routing patterns to speed up token-to-expert communication by up to 2.63x on MI300X without changing the model.\n* turbopuffer prunes RaBitQ rescoring using error bounds gossiped across query threads, reporting up to 4.3x lower latency on low-memory VMs.\n\n### Industry and Policy\n\n* OpenAI's revenue was reported to be near $50B at end-September, not the reported $70B.\n* Arena raised $200M at a $3.1B valuation, positioning itself as a neutral evaluator of alignment.\n* Anthropic committed $150M to the Genesis Mission and is extending Claude access to more than 15 federal agencies.\n\n### Notable Links\n\n* [OpenAI's GPT-6 announcement](https://openai.com/blog/gpt-6)\n* [Claude Haiku 5.5 release](https://anthropic.com/blog/claude-haiku-5-5)\n* [Gemini universal work agent](https://cloud.google.com/gemini)\n* [LightOnOCR-3 release](https://lighton.ai/blog/lightonocr-3)\n* [Step 5 Preview](https://step.ai/blog/step-5-preview)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubGF0ZW50LnNwYWNlL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5sYXRlbnQuc3BhY2UlMkZwJTJGYWluZXdzLW5vdC1tdWNoLWhhcHBlbmVkLXRvZGF5LTYwZiIsInAiOjIxOTUwMjkyOCwicyI6MTA4NDA4OSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTE1MDIzODEsImV4cCI6MjEwNzA3ODM4MSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.35Tw4w3tTRHOPTs0OTxX76p9xshQg9KuKG7EJBRuvHI?"
+        },
+        {
+          "text": "[AINews] not much happened today",
+          "url": "https://substack.com/app-link/post?publication_id=1084089&post_id=219502928&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIxOTUwMjkyOCwiaWF0IjoxNzkxNTAyMzgxLCJleHAiOjE3OTQwOTQzODEsImlzcyI6InB1Yi0xMDg0MDg5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.4tH9IyBy7EnaymDB824bB_FDyKdQpBFc01_F5XEBkX0"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/swyx/p/ainews-not-much-happened-today-60f?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "AIE NYC",
+          "url": "https://substack.com/redirect/e625f72b-8f4a-4920-b4bb-8802269aa085?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AIE CODE",
+          "url": "https://substack.com/redirect/2d767429-9d35-4f42-ba78-376a20b3646e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "544 Twitters",
+          "url": "https://substack.com/redirect/aae167e9-9a0c-4d56-99ce-cf6eec0eb555?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AINews’ website",
+          "url": "https://substack.com/redirect/df177e04-8084-4b3b-9a83-74804537679c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AINews is now a section of Latent Space",
+          "url": "https://substack.com/redirect/a972c61b-7c0f-431e-804d-36f19edbd171?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "opt in/out",
+          "url": "https://substack.com/redirect/d9538a55-c4bf-4047-ab6e-48770a5ad61a?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Balesni",
+          "url": "https://substack.com/redirect/3ca76775-1788-4bb7-a4fd-672b78360623?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "\\[AINews\\] not much happened today![](https://eotrx.substackcdn.com/o/33d9825e3066b92f/p.gif?token=eyJtIjoiPDIwMjYxMDA4MjMyOTQzLjMuODA0M2I2N2NkYjMzYTkyZUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIxOTUwMjkyOCwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDg0MDg5LCJjIjoicG9zdCIsImYiOnRydWUsInoiOiIiLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc5MTUwMjM4MSwiZXhwIjoxNzk0MDk0MzgxLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.RtlN86ew3k1-iIJbCpE1wf2ViRJpuaCqNPlzRXEbGoI)\n\na quiet day.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"The Batch @ DeepLearning.AI\" <thebatch@deeplearning.ai>",
+      "subject": "OpenAI’s DevDay, Google’s First Gemini 4 Model, Black Forest Labs Dives Into Robots",
+      "date": "2026-10-09T00:02:49.000Z",
+      "summary": "## The Batch @ DeepLearning.AI\n\n**Priority: HIGH**\n\n### Top Updates\n* OpenAI announced GPT-6.1 Sol, a new mid-tier model that nearly matches GPT-6 Astra's performance on agentic coding, computer use, and professional work at one-fifth of Astra's standard per-token prices. GPT-6.1 Sol is available via API and in ChatGPT Work and Codex for Plus, Pro, Business, Enterprise, and Edu subscribers.\n* OpenAI introduced Dots, autonomous agents that run on GPT-6 Astra, can connect to over 4,000 apps, and learn user preferences over time. Dots are initially available to ChatGPT Pro and Business Premium subscribers.\n* Google announced Gemini 4 Argon, a new vision-language model trained for complex software engineering, enterprise knowledge work, and cybersecurity defense. Argon is initially available to trusted cyber defenders through Google's Fairwind Program and will be released to developers, enterprises, and consumers later.\n* Black Forest Labs (BFL) released FLUX 3 Action, a 7 billion-parameter world-action model that turns camera feeds and text instructions into robot movements. FLUX 3 Action tops Nvidia's RoboLab simulation benchmark and is available on Hugging Face under BFL's FLUX Kommunity License.\n* Researchers proposed HYSET, a method for constructing and scoring candidate tool sets for LLM agents. HYSET increased both the completeness of retrieved tool sets and end-to-end task success on the ToolBench dataset.\n\n### Notable Links\n* [GPT-6.1 Sol](https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824DzK3qgz0W7Y8-PT6lZ3nbW7z0WMm8gTm9gW71xvmS3D7y3JW63XYT-4799gPW182Hbx2b-PPXW36wSsR5-z2LFW1pvcKd6fj1bXV2fCcH41NxfmW5kRxY42wx5yYW35_Fyj7HKYK0N2FC8WlgKRkQW21G4dj5MvmdbW5y6zwR2xvZ4HV1KPhW8VXmrHW3zNT2j312CrQW48mMJm9dbWwSW4ws5HF3P9YpVW8H8JpC6yMCPMW98r5w43tz5DgW7k-WWt5XzxTyW96rvHJ8npbN7VkxFj_7pjcnVN2CPcX0h-bpHW1j8rXc47ykp3VpWdDh45hGdmW6b9rJD88zH0tW3-xxS42bbQ3Bf888bJb04)\n* [Gemini 4 Argon](https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824DBj3qgz0W95jsWP6lZ3lfW3Ty2SP9cJWqKW8z5ZD059wLpCW2BfSV57HwzC6W8Hphh114KQJCW45Mn2t2s7729W7fZq2559SVL_W5lw6fZ6zqQMXW7qRfk-4dd--PW1c9VSX7BZ5kMW30-fJH3DNsrqN9l_LTgbkrCbW7xV3M65V8wPKVL_Jtt3lfH0lW1x-J-72YYcRRN4jyS-m8BRJFW5CLDSN2BwTRtV17h6s8pDKGBW3J21cj7-7w7HN3RTv5xh0zWqW2tcVzb94BmR1W5rWRCj3_ZNkSW1q3TB35-Jhl-W8cQBPt5nKQHwW5BHfCS2bL9q8VGHCmx7HwHc5W7_n2s498w4j-V4NgYd1Smsc9W24FMLY206lLcW49P0xh95XsqxW2ckK651YmgK4f39-SP004)\n* [FLUX 3 Action](https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824DzK3qgz0W7Y8-PT6lZ3p7V9SQ7W6T0-5XW2rgccj7-KcgfW61BSjC5pwd4GW69n3Y73m8xnxW6zPB2g1-jfJMW5Hn7Zv7lx_rLW8mv7t08DsksWW6W_rH41sCl7zW5gX66M5-p2D7W40FHJx7qtkRpV4BLlV1C2PLNW1sXr1x6RkRH6W23wT9L37vqQdW2SpWSC7R-k54VNXNVq3tHbMyW8Wml1Z7S6_J_W57tR3t3pvhl4W1_Tcyr8yzBZcW3TlmgM3fD4ncW7nQxHx2SgKMFW6clrL18jzrjqW5SpKbV1_Jj1hW1-JWXg4Z3CJfVPXZXN2HRJmjW2lcR_z5zxbr3V4dgfX1zcLLgf7wDKHM04)\n* [HYSET](https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824Dzq3qgz0W7lCdLW6lZ3mXW49s8VW9gg6VsW8zFXY75_VTL8W3hSRFz1zJczYW4RqCPG8Kzpl3W90wqhF5mCwM2D1sj80LsTNW2V7Fhr4gGM3dN6yTtJTxJR3YW6WZvJ52BmbynW8Y1_2y1V95dpVWDFRq1M5TXXW2V15Xl52MmWYW31h0jt8wzThXN8tmbN4sHzwDW2rmq0w89Tv2yW5Hjqhs8LByH2VVZ4m84FH-3rW4Vm6FX6xmNnkW1tjx-t3czsYgW7X9q0h3mq1m4W3TqL6_5wqywBW3G5J48660ls1W98b9T01Mf67hVbFTTF1N1cyYf4k8Q4d04)",
+      "links": [
+        {
+          "text": "Subscribe",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824Dzq3lYM-W7lCdLW6lZ3msN39dC5g5ww5RW8J-glj8pVDH9W5rc-S67TtgqNW7Sj4YV8cB0L7W4K-lLW1MzdwnW4_9c8Q5ct4xDW5m5ffH6NTD0HW2s6NZg2qRd8QN1dTdlJqnXhNW4Rb7km14Bc7kN4p34nv_MjQyW6m7mgN22vQvDW7jGBBW8LJhYRVWfmzS10QHtyW6QB5vV8BjYqBW5RxmBS83XGWlW2ZJ8X_8DCZP_W6h1vM756zsgcW6PGvj94hZcxgN4fnNvjg-pHyN55TttP-rpjdW45_vB82MWHDJW3gDsBK1HBzMlW3cdsl01V8D7Qf8BFwLv04"
+        },
+        {
+          "text": "predicted",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824DB03qgz0W8wLKSR6lZ3p7W1gWhNn4Xc6ZQW29-6rd2kFY8KW72n7sD7PMpPkW2lWr088_P69HW4jMpqW42xngDW2_vBjs7cXdy2N33BYcJCrrKpW4dt9XJ2tZLPfN7PHwksN4vc7VKyrq_1LKX6rW8LXvyy2mK9-qW784wsS3T0GG9W8WSG9n8MM6zpW5Cg81R4yvdNCW6n3Pwz8XDlcqN723FBYGcVVWW5Gf97Y3x9dNJW8tygPt2_1qQbW5Wd5d24KdMxzW1XjHlR76kTgPW8rfYH728fr9zVkbx_y41ss_cW87dm3p5cZkhmW32rDSr1RlPDgW85_Csg8gMzqrW3wF37x2VY-0KW67Q1CC1KhV2JW8Dkv5P3r6Ghjf7xJcTM04"
+        },
+        {
+          "text": "paperreview.ai/",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824Dz63qgz0W6N1vHY6lZ3pxW3qNHXX7pMJNhN46hs-VzdRQ-W3dHsn7588h4XW2_Ds5f90Nh28W8tzywr8CR22sW8fT0sD2M7cTCW8phWgX8mL8fDW75W_zy4N5_TxW7qFwqg7wFqYdW5nH2tn4NSw6BW3QhCLV9lGWN4N498qTrQMpXcW52YYg04hGQ3DW8sR0nW6VhymqW44tlVK4WxNyvW5prmBP32992lN42b0knJJxpjW8WmBX43HPbw2W6JkfyC1c2dWbN2tDD2tJ6Z5YW5dSb7f7JjjMrW5ZXfYP7j7M2yf43jtxH04"
+        },
+        {
+          "text": "energy- and water-efficient",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824Dyd5nR3bW50kH_H6lZ3mHW2krZST1tHGGtW8yCbby1np3gMW2hMGj_95Vt4zW63F81K3rZyKkW5YpjFm3Mkgn0W1KD48Z4z9c1zW63x3DP4GbSqGW3HPbdQ7mzkc3W16b3hX7N-1JRW19LWb65GSHVlW8j_y4L3ntKMhVdfPZg46m4xFW1cxhY76zphyHW63ZX_-15mZbNW6MtQnc13qdhrW77s7F66vyxnPW8SgH7D8RPYF_W4M5Mxv4m7bnWW5xDCCQ2w5TcGN26zvgbSxy_cV9670Z74cH8FN6Y99sDd36pNV3sQZb7vYKQSW3lqQFV2KF3-nW9lvFJ65NLz-3W3R0YHv40Rfh-VSpWrJ98SbxSW3WJhcM7ZSRYdW241zf-2XVXS8W1K0X7R6MLfQSW2bDlLc42-nPnW60DTXm72JBqCf3N4Wh604"
+        },
+        {
+          "text": "DEEPLEARNING.AI",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824Dz63qgz0W6N1vHY6lZ3nFW55wztQ6bzfdYVt_mfn10W8sQW5JcGrT81XnzXW40MqmC8ybF0PW16r7V66dc-8pW63xz6C2_-W3tW7MvhXG22qkSdW4vJmBl2X9x3ZW6rGbMD21jV0yW3jCTmW82Jb05W2GTwHB7w7NFLW53NmYC5Nnl-RW42yY6W8kYSskW6X1fZs5cdmS7W3J1tVg7pSGMPV5ntVj4rw7cHW6zLqF81-Cd9nV5rpL07kcdb5W6Yl3fR10n2Q_W5tQBhf412f10W5HB4861KhXn-W103YlH4D0Rnrf1pbMkP04"
+        },
+        {
+          "text": "Purchase Tickets",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824DzK3qgz0W7Y8-PT6lZ3p3W3nKNC32-LRq7W2f8vcr2ZRRD-MSJr567dpnnW2GNNtw53sBdhW5gtg3r38nSfbW6YQjwk4YRWQrW6F6SG0695ZVtW2TxRhV6-0lCRW2RPsHT7CfGfqW46ktcV6X2WKVVZGqVf3xrn4nW2dKSgF6CwxnwW6ZXwnD6ft4NWW8lvt2K5MzFn-W76GhpZ90LKLxN6jt_JqrtVqzVFF6n14RQc1MW8m2Zpj8JbdpnVWdNmY8ftfJHW7KNRcV97c730VsBDh025KxN4W6_GQFl41sMb_Vfk3701sdrVTW10JfGw4qBY--W2gVV-y2cr6sBVbn0nN1Vl74Pf4jzvvd04"
+        },
+        {
+          "text": "GPT-6.1 Sol",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824DzK3qgz0W7Y8-PT6lZ3nbW7z0WMm8gTm9gW71xvmS3D7y3JW63XYT-4799gPW182Hbx2b-PPXW36wSsR5-z2LFW1pvcKd6fj1bXV2fCcH41NxfmW5kRxY42wx5yYW35_Fyj7HKYK0N2FC8WlgKRkQW21G4dj5MvmdbW5y6zwR2xvZ4HV1KPhW8VXmrHW3zNT2j312CrQW48mMJm9dbWwSW4ws5HF3P9YpVW8H8JpC6yMCPMW98r5w43tz5DgW7k-WWt5XzxTyW96rvHJ8npbN7VkxFj_7pjcnVN2CPcX0h-bpHW1j8rXc47ykp3VpWdDh45hGdmW6b9rJD88zH0tW3-xxS42bbQ3Bf888bJb04"
+        },
+        {
+          "text": "help page",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824Dyd5nR3bW50kH_H6lZ3lCW4jBvS887cKx_W81DS3v1B0d30W6qpFGJ7VbHvjW6lHSSz70H-d_W26SS3r3QrdW2W4Nc9NB1-yrTBW1zMp-q3xJf90W8HFGYS1z8l7DW8HXvhN1lqH6JW8jVGdv2mtQwxVM1B9S6yndR0W32gMKd1LVH3VN5RjFRWrrqQ1N37pVV4JS7hSW5_qC-T1ZRw9sW4Ddt_18nbYz0W7Wq_465kNncSW3tW1xq6dj2zxW7TkMkQ4988glW1NH6Q74XQtZ5W2T8Hrt3_DgRDW1yJc1M4v7jVkVN6rdL7fKbwBW5YBmVj6-Zx4DW1bQZSt8_sPDVW232crT4c-00VW19ZSDQ42NTkSW4NT3tp5b6sg9W8GKh9b60D5mpW5bLZkp2g-Pp3W2mhNlN2z5g0nW47jPP_2MvNlkf2wp8tY04"
+        },
+        {
+          "text": "tests",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824Dyx5nR3bW5BWr2F6lZ3m5W8LRb6T5sk4QRW5dypsH7v5l4mN2jXbfHQF24pMXtLRWhrFFPW1K0S9P5pk2NyW2lTYdd2s6-C6N46Rh0-BxsHVVdlLn02wYKtXW1_6_R08JlJy1W7tnfL73ypsY7W2jW7fd8kvxDsMmfXRwP0GRPW70ZghL5kCKLrW6mT3WY91L_15W8QTjGH72_P8FW2gn86833yKMFN7DxZlvlrTCfVY7Z6Q4jf1l4W12Pmyl6KhDHbW44q_H763t5VQVyMr4m5xybnMN4dsmZ92wJxfW5dXYlF4Slx4zW1X8vxv1r7jR5W8hVBbD9f9xf1W9kdlL37KB5fGVT0-P429zZxQW1Ftj2-8RyLK6W7-RYKQ2KvVKsW4yBQmX1nD27BW6_Pmgp1rQs3MW5bTVC36HHnflVx7b5_31X0sjW82wBkX4pTzKNf7rr-js04"
+        },
+        {
+          "text": "Artificial Analysis Intelligence Index",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824DzK3qgz0W7Y8-PT6lZ3kXW3_nDcF4fFgVSW2Jd9456wYqw-W6hdcBh5vqL9NW1p57R92kZd9vW97qKD88tvP_WW5fJKgL92Q4s-W7SNYQ885FX8SV3KHcp5w4f28W3b6hTM74vLWGVvmPtL1kNtClW38SxRh6sbHNzW4NP1874-pnLqM91kNhtjF0rVbmXwV7BPc5jW1-YM8m47QMTnW5DXf6G642T7sW667MpX39BB_PVGyWkT43c__HW3x-_--8VlwnSW1-Dpjd8MRTPXW1Xdx2M9gwpKnW5JJj_K1xXdc4W77YJQ42gwsRBW6NcstM3RskHJN99slcT_0TFSW3bjJJL6hkCQsf38PzHC04"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "OpenAI’s DevDay, Google’s First Gemini 4 Model, Black Forest Labs Dives Into Robots       \n\nScaling Up for Future AI Agents' Demands ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏  ͏ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­ ­  \n\n[View in browser](https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVNckX5tJ5cBW1G_Z196xv7xFW6TYKFS5VWry-N824DB0"
+    }
+  ],
+  "tldr": [
+    "OpenAI's GPT-6 introduces Intelligent UI.",
+    "TypeSafe AI's Jev model gains popularity.",
+    "AI agents may reach 2 billion soon.",
+    "NVIDIA and Microsoft collaborate on AI.",
+    "AI performance cost drops rapidly always"
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "ChatGPT",
+        "context": "ChatGPT is OpenAI’s conversational AI product, and its latest major update is GPT-6 with “Intelligent UI,” announced October 7–8, 2026. OpenAI says more than 1.2 billion people use ChatGPT each week. Intelligent UI allows responses to combine text with generated graphics, diagrams, charts, forms, tappable buttons, calculators, and other interactive components, selecting the format based on the user’s question. The rollout began globally for Plus, Pro, Business, and Enterprise users, with Free and Go tiers scheduled to follow.[1][2]\n\nThe update matters because it shifts ChatGPT from a primarily text-based assistant toward an interactive software interface that can explain concepts and help complete tasks within the conversation. OpenAI says GPT-6 can begin responding while it continues reasoning or using tools, potentially improving responsiveness. The scale of ChatGPT’s reported user base means this could accelerate broader adoption of AI-generated interfaces and increase competitive pressure on other AI assistants, productivity platforms, and search products. Coverage has also raised an important caveat: the practical value of the new interface will depend on accuracy, usability, and whether interactive presentation improves understanding rather than merely making answers more visually engaging.[2][6][8][13]",
+        "source": "OpenAI announcement and ChatGPT release notes; corroborating coverage from The Verge, TechCrunch, MacRumors, and WIRED"
+      },
+      {
+        "topic": "GPT-6",
+        "context": "OpenAI announced GPT-6 on October 7, 2026, as a new ChatGPT model family whose headline feature is “Intelligent UI.” Rather than returning only text, GPT-6 can dynamically compose answers from text, visuals, charts, buttons, forms, and interactive tools such as calculators or bill splitters. It can also begin responding while continuing to reason or use tools, allowing users to read partial results sooner. OpenAI describes this as a shift from conversational answers toward interfaces generated on demand for the task at hand.\n\nThe rollout began globally in ChatGPT for Plus, Pro, Business, and Enterprise users with GPT-6 Sol, followed by Free and Go users with GPT-6 Luna on October 8. GPT-6 is also available through OpenAI’s API in model variants including gpt-6-sol and gpt-6-luna, while GPT-6 Astra is positioned as a higher-end reasoning model and does not support Intelligent UI in ChatGPT. The broader significance is that OpenAI is making the chat window a programmable application surface: if adoption is strong, AI assistants may increasingly generate interactive workflows instead of merely explaining how users should perform them. The main available information comes from OpenAI’s product announcement and ChatGPT release notes, supplemented by industry coverage.",
+        "source": "OpenAI product announcement and ChatGPT release notes; industry coverage"
+      },
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI is the developer of ChatGPT and the GPT model family, whose latest reported release is GPT-6. On October 7, 2026, OpenAI announced the global rollout of GPT-6 in ChatGPT, including Sol and Luna variants, alongside “Intelligent UI”—an interface that can combine text, visuals, diagrams, and interactive tools. GPT-6 can also begin responding while continuing to reason or use tools, with availability expanding across paid and free plans.[1][2][7]\n\nThe release matters because it moves generative AI beyond text-only chat toward more interactive, tool-using software and reinforces OpenAI’s role as a major platform for consumer and enterprise AI. OpenAI also introduced GPT-6.1 Sol in late September, highlighting stronger agentic coding, computer use, professional workflows, and faster, lower-cost API performance. These developments are likely to intensify competition among frontier-model providers while encouraging developers to build more autonomous, multimodal applications.[4][11]",
+        "source": "OpenAI release notes and newsroom (web search)"
+      },
+      {
+        "topic": "Intelligent UI",
+        "context": "Intelligent UI is OpenAI’s new ChatGPT capability, introduced alongside GPT-6 in October 2026, that lets responses combine text with visuals and interactive elements based on the user’s question. Outputs can include diagrams, charts, graphics, forms, tappable buttons, calculators, bill splitters, games, and other tools that users can operate directly within the conversation. ChatGPT can still provide a conventional text answer when that is more appropriate.[10][4]\n\nThe feature matters because it shifts generative AI from producing primarily static text toward dynamically creating task-specific interfaces, making complex explanations more visual and enabling users to explore results without leaving the chat. OpenAI says Intelligent UI is rolling out globally with GPT-6, initially for Plus, Pro, Business, and Enterprise users and then for Go and free users; reporting also notes that users can adjust how visual responses appear.[10][11][12] Its broader industry impact is the movement toward AI systems that generate both content and usable software interfaces on demand, potentially changing how people learn, analyze data, complete calculations, and interact with digital tools.",
+        "source": "OpenAI, “GPT-6 and Intelligent UI for everyone”; OpenAI ChatGPT release notes; TechCrunch and The Verge reporting"
+      },
+      {
+        "topic": "Gemini 4",
+        "context": "Google announced Gemini 4 Argon on September 30, 2026, describing it as a new frontier model for complex software engineering, enterprise knowledge work, and cybersecurity defense. It is initially being provided to trusted cyber defenders through Google’s Fairwind Program, with a broader release for developers, enterprises, and consumers planned but not yet dated. Google highlights an industry-leading 1-million-token output limit, advanced reasoning, long-context performance, and autonomous vulnerability discovery and patching. [Google DeepMind][Google Blog]\n\nGemini 4 matters because it represents Google’s next major attempt to compete at the frontier against leading OpenAI and Anthropic systems, particularly in agentic and enterprise workloads. Early reports indicate strong benchmark performance and aggressive introductory pricing of $2 per million input tokens and $10 per million output tokens, but some Google employees and outside reporting have questioned its real-world coding performance and operating cost. Its staged cybersecurity-first rollout also reflects the growing emphasis on safety testing and controlled deployment for highly capable models; Google says Argon will eventually underpin many of its products, subject to further testing. [Axios][CNBC][Fortune]",
+        "source": "Google DeepMind and Google Blog; corroborating coverage from Axios, CNBC, and Fortune"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Australia develops frontier-AI safety standards legislation",
+        "summary": "Australia announced it is developing AI standards legislation focused on serious frontier-AI risks. The proposed systems-based approach would require companies to identify, test, report, and manage risks rather than follow a fixed list of technical safeguards.",
+        "whyItMatters": "This could establish a flexible regulatory model for frontier-AI developers and add compliance requirements around risk-management processes, evaluations, and incident reporting.",
+        "source": "Australian government announcement, reported by Let’s Data Science"
+      },
+      {
+        "headline": "GlobalFoundries and TSMC sign $2 billion AI-packaging deal",
+        "summary": "GlobalFoundries reportedly signed a five-year, $2 billion agreement with TSMC to manufacture CoWoS silicon interposers at its Malta, New York facility. The components sit between AI GPUs and high-bandwidth memory in advanced accelerator packages.",
+        "whyItMatters": "Advanced packaging is a major constraint on AI-compute supply, so expanding U.S.-based interposer production could reduce bottlenecks and diversify the semiconductor supply chain.",
+        "source": "GlobalFoundries announcement, reported by AI Weekly and Bloomberg"
+      },
+      {
+        "headline": "Arena launches an alignment benchmark based on real-world agent sessions",
+        "summary": "Arena introduced its Alignment Index, evaluating 27 AI models across 90,000 real-world agent sessions. The benchmark measures unauthorized actions, false attribution, and deceptive completion behavior.",
+        "whyItMatters": "The evaluation targets practical agent failures that conventional capability benchmarks often miss, giving developers a way to compare safety and reliability in deployment-like settings.",
+        "source": "Arena announcement, reported by AI Weekly"
+      },
+      {
+        "headline": "Researchers identify a potential sharpening tax from RL post-training",
+        "summary": "Researchers from Meta Superintelligence Labs, the University of Wisconsin–Madison, Stanford, and NYU reported that reinforcement-learning post-training systematically reduces sample diversity in language models. They describe this trade-off as the “sharpening tax.”",
+        "whyItMatters": "The finding could affect how practitioners balance answer consistency against diversity, creativity, robustness, and coverage when applying reinforcement learning to foundation models.",
+        "source": "Research paper by Meta Superintelligence Labs, UW–Madison, Stanford, and NYU, reported by AI Weekly"
+      },
+      {
+        "headline": "Illumina launches SpliceAI2 for genomic variant analysis",
+        "summary": "Illumina introduced SpliceAI2, a genomic AI model from its BioInsight AI Lab that predicts how genetic variants alter RNA splicing. The model is intended to support interpretation of variants linked to disease.",
+        "whyItMatters": "Improved splice-effect prediction could help researchers prioritize variants for functional studies and strengthen AI-assisted genomic medicine workflows.",
+        "source": "Illumina announcement, reported by Unite.AI"
+      }
+    ],
+    "entities": [
+      {
+        "name": "ChatGPT",
+        "type": "product",
+        "context": "Mentioned as having 1.2 billion users with the introduction of Intelligent UI"
+      },
+      {
+        "name": "GPT-6",
+        "type": "product",
+        "context": "Mentioned as the model introducing Intelligent UI to ChatGPT users"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as the developer of GPT-6 and ChatGPT"
+      },
+      {
+        "name": "Intelligent UI",
+        "type": "technology",
+        "context": "Mentioned as a new feature enhancing ChatGPT responses with text, visuals, and interactive elements"
+      },
+      {
+        "name": "Gemini 4",
+        "type": "product",
+        "context": "Mentioned as Google's first model of this series"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as the developer of the Gemini 4 model"
+      },
+      {
+        "name": "Black Forest Labs",
+        "type": "company",
+        "context": "Mentioned as a company diving into robots"
+      },
+      {
+        "name": "DevDay",
+        "type": "event",
+        "context": "Mentioned as an event hosted by OpenAI"
+      },
+      {
+        "name": "Jev",
+        "type": "product",
+        "context": "Mentioned as a new model that everyone is talking about"
+      },
+      {
+        "name": "Claude Haiku 5.5",
+        "type": "product",
+        "context": "Mentioned as a model with updates or releases"
+      },
+      {
+        "name": "Grok Bot",
+        "type": "product",
+        "context": "Mentioned in relation to 3rd party models"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-10-09T00:30:40.963Z",
+  "dateString": "2026-10-09"
+}
