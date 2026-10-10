@@ -170,6 +170,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-edge-gallery]] — Google on-device AI runtime for Android *(stale)*
 - [[alpamayo]] — NVIDIA open 10B autonomous-driving model family (Jan 2026 CES) *(stale)*
 - [[alphaevolve]] — Google DeepMind's teased Alpha-series extension into complex evolving/dynamic environments — long-horizon multi-step optimization across science + engineering (Jul 2026)
+- [[alphafold]] — Google DeepMind's protein-structure prediction system (AlphaFold 2 → AlphaFold 3); 2024 Nobel Chemistry anchor; Oct 2026 reframed on Latent.Space by Pushmeet Kohli + Sal Candido as "major starting point, not solution to protein biology" — next frontier is protein language models + molecular dynamics + world models of biology
 - [[amd-helios]] — AMD's first rack-scale AI system; deployed in Microsoft Azure with Meta/OpenAI/Oracle as early customers; NVIDIA GB200 NVL72 alternative (Jul 2026)
 - [[antigravity]] — Google's free agent-first VSCode-forked IDE built for Gemini 3 *(stale)*
 - [[antigravity-2]] — Google's I/O 2026 rebuilt parallel-agent desktop app + CLI + SDK powered by Gemini 3.5 Flash
@@ -676,6 +677,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[open-source-models]] — mid-2026 open-weights (GLM / Qwen / DeepSeek / MiniMax / Kimi K2) frontier-parity at 1/6-1/10 cost + Nathan Lambert Interconnects "6 months to live" regulatory-threat framing (Jul 2026)
 - [[ai-slop]] — AI-content flood quality concerns; YouTube 20%+, Instagram Mosseri commentary; Anthropic Claude watermarking as first frontier-lab mitigation-response (Aug 2026)
 - [[enterprise-ai]] — AI moving into workplace software; PwC + Accenture 30K-staff Claude Code rollouts; Goldman Sachs Claude (May 2026)
+- [[genesis-mission]] — US federal AI-for-science initiative; Oct 2026 five-vendor ~$2.4B compute + credits + model-access + training-support pledge from OpenAI + NVIDIA + Anthropic + Amazon + Google for energy + scientific discovery + national security + fusion + quantum-computing research
 - [[neo-labs]] — cohort of narrow-thesis AI labs founded 2025-26 by elite researchers from Anthropic/OpenAI/DeepMind/Google Brain: self-improvement / memory / world models / physical / continual learning (Jun 2026)
 - [[no-code-ai-automation]] — freelancer/agency/SMB pattern of building AI-powered business workflows via [[n8n]] + LLM APIs + [[claude-code]], with Skool-community education (e.g., [[ai-automation-society]]) as the discovery + training layer (Jul 2026)
 - [[vibe-coding]] — Karpathy-framed agent-first coding movement; Lovable, Cursor, Claude Code; generalizing into writing (Mollick, Jun 2026)
