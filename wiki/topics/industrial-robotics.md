@@ -1,0 +1,51 @@
+---
+name: Industrial Robotics
+description: Factory-and-manufacturing-floor robotics substrate — programmable robots + computer vision + sensors + AI models under strict cycle-time, uptime, safety, and quality constraints; distinct from humanoid-general-autonomy substrate by its emphasis on short-horizon tasks, reliable execution, and economic payback
+type: topic
+---
+
+# Industrial Robotics
+
+> **Type**: topic
+> **First mentioned**: 2026-10-11-morning
+> **Last updated**: 2026-10-11-morning
+> **Status**: active
+> **Related**: [[humanoid-robotics]], [[standard-bots]], [[standardos]], [[nvidia-cosmos]], [[isaac-groot]], [[world-models]], [[agent-frameworks]], [[walden-robotics]], [[agility-robotics]], [[figure]]
+
+## Summary
+
+Industrial robotics is the use of programmable robots, computer vision, sensors, and increasingly AI models to perform manufacturing, inspection, handling, and maintenance tasks with high repeatability. It differs structurally from the [[humanoid-robotics]] arc on three axes: (1) **short-horizon task focus** — cycle-time + reliability under strict production constraints rather than open-ended autonomy; (2) **targeted-data posture** — high-quality task-specific demonstrations beat large general datasets; (3) **on-premises inference** — edge-GPU action generation with safety-and-latency guarantees rather than cloud-tethered reasoning. This frames industrial robotics as a demanding substrate for reliable execution of AI models: the economic payback depends on measurable improvements to cycle time, uptime, and quality, not on model capability alone.
+
+As of early October 2026 the arc is dominated by (a) [[standard-bots]]' pretrained-plus-demonstration AI stack with on-premises inference streaming "action chunks" to robot control systems + failure-signal-plus-correction feedback loop + [[standardos]] developer platform + NASA/Amazon/Lockheed Martin production deployments + [[nvidia-cosmos]] external-adopter anchor; and (b) adjacent *physical-AI* framings from NVIDIA (Cosmos world-model family + VSS Blueprint + Isaac GR00T) and Google DeepMind (Gemini Robotics 2) at the robotics-foundation-model-vendor tier. The substrate's distinct editorial focus in AI-engineering media (e.g., Latent.Space "Building AI for Reliable Execution") is the gap between impressive AI demos and robust real-world production performance.
+
+## Timeline
+
+- **2026-10-11-morning**: **Latent.Space MEDIUM "Building AI for Reliable Execution: Lessons From Industrial Robotics"** — first dedicated topic-tier editorial anchor; [[standard-bots]] framed as case study + concrete *short-horizon-task + on-premises-edge-GPU-inference + pretrained-plus-correction-feedback-loop + targeted-data-over-large-datasets* four-primitive canonical anchor cluster; [[standardos]] developer platform first-in-wiki framing; [[nvidia-cosmos]] external-industrial-customer anchor. See [[standard-bots]] + [[standardos]] + [[nvidia-cosmos]] + [[world-models]] — *source: data/summaries/2026-10-11-morning.json (Latent.Space MEDIUM "Building AI for Reliable Execution: Lessons From Industrial Robotics"; researchFindings.additionalContext — Industrial Robotics)*
+
+## Key Facts
+
+- **Scale (reported)**: operational industrial-robot stock >5M units globally; >600K installations in the latest year (per researchFindings.additionalContext, 2026)
+- **Primary demand drivers**: AI adoption, labor shortages, reshoring, supply-chain resilience
+- **Task primitives**: machine tending, welding, assembly, inspection, handling, maintenance
+- **AI-era shift**: fixed automation → flexible systems that perceive variation and adapt
+- **Deployment constraints**: cycle-time + uptime + safety + quality drive economic payback more than raw model capability
+- **Reference stack (Standard Bots)**: pretrained models + conventional programming + edge-GPU on-premises inference + action-chunk streaming + failure-signal-plus-correction production feedback
+- **Reference training philosophy (Standard Bots)**: *targeted data, not large datasets* — short-horizon tasks with concrete production primitives
+- **Named vendors on this substrate**: [[standard-bots]] (manufacturing-arm + StandardOS platform); [[nvidia-cosmos]] + [[isaac-groot]] (foundation-model-tier); Google Gemini Robotics 2 (foundation-model-tier)
+- **Named enterprise customers (Standard Bots)**: NASA, Amazon, Lockheed Martin
+- **Editorial anchor**: Latent.Space (swyx + Alessio Fanelli) — "AI for reliable execution" framing distinct from benchmark-tier model-capability framing
+
+## Open Questions
+
+- Breakdown of AI-enabled vs classical-programmed robots in the >5M operational stock
+- Rate of AI-powered-robot shipment per quarter / per year (vs classical fixed automation)
+- Which vendors dominate at which task primitives — machine tending (Standard Bots?), welding, assembly, inspection, handling
+- Independent benchmarks for cycle-time + reliability across [[standard-bots]], [[figure]], [[agility-robotics]], [[walden-robotics]], [[skild-ai]], [[alfred-robotics]]
+- Structural overlap vs separation with the [[humanoid-robotics]] substrate — are fixed-arm manufacturing robots a different market segment than general-purpose humanoids, or converging product lines?
+- Role of simulation (digital twins, [[world-models]], [[nvidia-cosmos]]) vs real-world demonstrations in practitioner training pipelines
+- Standardization of robotics-developer surfaces — [[standardos]] (Standard Bots), [[isaac-groot]] (NVIDIA), Gemini Robotics 2 (Google) — convergence, divergence, interoperability
+- Which safety-and-certification regimes (ISO 10218, ISO/TS 15066, SEMI, SEMI S2) are being updated to cover AI-enabled industrial robots
+
+## Sources
+
+- data/summaries/2026-10-11-morning.json (Latent.Space MEDIUM "Building AI for Reliable Execution: Lessons From Industrial Robotics" — Standard Bots case study + short-horizon tasks + targeted-data + on-premises edge-GPU inference + StandardOS developer platform + NVIDIA Cosmos adoption + failure-signal-plus-correction feedback loop; researchFindings.additionalContext — Industrial Robotics 5M-unit operational stock + 600K annual installations + AI adoption + labor shortages + reshoring + supply-chain resilience demand drivers + physical-AI framing)
