@@ -8,8 +8,9 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-10-07-evening
-> **Last updated**: 2026-10-08-morning (cycle-2 recoverage — TLDR AI MEDIUM reframes positioning: *"Mistral Large 4 is a one-trillion-parameter multimodal model positioned as a European alternative to leading closed and open AI systems, marking a significant development in the global AI landscape"* — sustains the Oct 7-evening canonical anchors)
-> **Status**: launched (API-available)
+> **Last updated**: 2026-10-12-morning (**Cycle-3 Abu Dhabi public-preview restatement — NLP Newsletter MEDIUM researchFindings.missingStories canonicalizes *"Mistral previews one-trillion-parameter ML4 model"* with concrete Abu Dhabi launch venue + public preview access tier for developers and security researchers before planned full-weight release later in October**. researchFindings.missingStories: *"French AI company Mistral reportedly launched a public preview of ML4 in Abu Dhabi, describing it as a one-trillion-parameter open-weight model. Developers and security researchers can test the model before the planned full-weight release later in October"* + *"A model of this scale would be a major development for Europe's AI ecosystem and the open-weight model market. Early developer and security testing could provide important evidence about whether large open models can compete with leading proprietary systems"* (attribution: Mistral, as reported by Ground News). First-in-wiki: (a) **Abu Dhabi public-preview launch venue canonical concrete-geographic-launch anchor** — first-in-wiki *concrete Mistral-ML4-Abu-Dhabi-launch-venue canonical anchor* (structurally significant three ways — (i) extends the 10-07-evening + 10-08-morning Mistral-Large-4 trillion-parameter + 4,000-GPU-Grace-Blackwell + European-sovereign-alternative canonical anchor cluster with a *concrete Abu-Dhabi-Gulf-launch canonical anchor tier* — sharpens the European-sovereign-AI framing with a *concrete UAE/Gulf partnership-and-distribution canonical anchor pair*; (ii) pairs cycle-structurally with [[humain]] Saudi $3B-xAI-partnership canonical anchor + [[g42]] UAE-sovereign-AI canonical arc as *canonical late-2026 European-plus-Gulf open-weight-frontier substrate cluster*; (iii) likely durable reference-anchor for future European-Gulf AI-sovereignty-partnership discussion); (b) **"Open-weight model" framing resolves 10-07-evening Open Question** — researchFindings canonicalizes ML4 as *open-weight-at-launch* rather than *API-only distribution*, resolving the prior Open Question with a *concrete open-weight canonical answer-tier anchor*; (c) **"Public preview for developers and security researchers before planned full-weight release later in October" concrete-rollout-tier canonical anchor** — first-in-wiki *concrete preview-plus-full-weight-release two-stage canonical rollout anchor* on Mistral substrate. See [[mistral]] this cycle + [[open-source-models]] — *source: data/summaries/2026-10-12-morning.json (NLP Newsletter MEDIUM "🥇Top AI Papers of the Week"; researchFindings.missingStories — Mistral previews one-trillion-parameter ML4 model, Mistral via Ground News)*)
+> **Previously updated**: 2026-10-08-morning (cycle-2 recoverage — TLDR AI MEDIUM reframes positioning: *"Mistral Large 4 is a one-trillion-parameter multimodal model positioned as a European alternative to leading closed and open AI systems, marking a significant development in the global AI landscape"* — sustains the Oct 7-evening canonical anchors)
+> **Status**: launched (API-available + public preview in Abu Dhabi; full open weights planned later in October 2026)
 > **Related**: [[mistral]], [[mistral-3]], [[open-source-models]], [[zhipu-ai]], [[beam]], [[kolibri]], [[nvidia]]
 
 ## Summary
@@ -19,6 +20,8 @@ Mistral Large 4, codename "Le Chonk," is [[mistral]]'s October 2026 trillion-par
 Large 4 is positioned as "a major European alternative to leading American and Chinese systems," sustaining Mistral's multi-cycle European-sovereign-AI thesis against the backdrop of its mid-2026 neocloud pivot and the broader European-sovereign-AI tension arc (see [[mistral]] 09-10-evening "European Sovereign AI is Dying" deep-dive).
 
 ## Timeline
+
+- **2026-10-12-morning**: **Abu Dhabi public-preview launch venue canonical anchor + "open-weight model" framing resolves prior distribution Open Question + "public preview for developers and security researchers before planned full-weight release later in October" concrete-rollout-tier anchor**. NLP Newsletter MEDIUM researchFindings.missingStories canonicalizes Mistral ML4 public preview in Abu Dhabi; developers + security researchers can test ahead of planned full-weight release later in October. Pairs cycle-structurally with [[humain]] + [[g42]] Gulf-sovereign-AI canonical arc as *canonical late-2026 European-plus-Gulf open-weight-frontier cluster*. — *source: data/summaries/2026-10-12-morning.json (NLP Newsletter MEDIUM "🥇Top AI Papers of the Week"; researchFindings.missingStories — Mistral previews one-trillion-parameter ML4 model, Mistral via Ground News)*
 
 - **2026-10-08-morning**: Cycle-2 recoverage — TLDR AI MEDIUM positions Large 4 against both *closed* and *open* leading systems: *"Mistral Large 4 is a one-trillion-parameter multimodal model positioned as a European alternative to leading closed and open AI systems"* — *source: data/summaries/2026-10-08-morning.json (TLDR AI MEDIUM "Mistral Large 4 🧠, OpenAI Decisions API ❓, Nano Banana 2.1 🍌")*
 
@@ -40,12 +43,14 @@ Large 4 is positioned as "a major European alternative to leading American and C
 
 - Full benchmark table (coding, reasoning, multimodal, agentic)?
 - Pricing per million input/output tokens?
-- Open-weights or API-only distribution? (prior Mistral flagships have shipped open-weight; Large 4 framing to date is "API-available")
+- Full-weight release date — explicit date within "later in October 2026" window
 - Context window length?
 - Modality coverage detail (text + images only, or audio/video too)?
-- Named early-access customers or sovereign partners?
+- Named early-access customers or sovereign partners? (Abu Dhabi launch venue hints at UAE/Gulf partnership; details to confirm)
+- Named Gulf-sovereign partner (G42? UAE Technology Innovation Institute? sovereign fund?)
 
 ## Sources
 
+- data/summaries/2026-10-12-morning.json (NLP Newsletter MEDIUM "🥇Top AI Papers of the Week"; researchFindings.missingStories — Mistral previews one-trillion-parameter ML4 model, Mistral via Ground News)
 - data/summaries/2026-10-07-evening.json (AINews HIGH "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems"; researchFindings.missingStories — Mistral releases Large 4, a trillion-parameter multimodal model)
 - data/summaries/2026-10-08-morning.json (TLDR AI MEDIUM "Mistral Large 4 🧠, OpenAI Decisions API ❓, Nano Banana 2.1 🍌")
