@@ -177,11 +177,13 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[antigravity-2]] — Google's I/O 2026 rebuilt parallel-agent desktop app + CLI + SDK powered by Gemini 3.5 Flash
 - [[apex-agents]] — Mercor's Sep 2026 AI Productivity Index for Agents — public leaderboard ranking frontier models by productivity on long-horizon multistep economically-valuable work
 - [[anthropic-fellows]] — Anthropic's AI-safety research fellowship; 4mo / $3,850/wk / ~$15K/mo compute / 40% hire + 80% papers (Jun 2026)
+- [[apple-homeview]] — Apple's forthcoming smart-home hub as central command center for Apple-powered households; limited selection of supported Apple applications and no App Store for additional software (Oct 2026)
 - [[apple-m5]] — Apple's M-series (M5, M5 Ultra, M6) on-device AI silicon
 - [[audex]] — NVIDIA's 30B / 3B active MoE unified text + audio model — preserves text intelligence while adding broad audio generation and understanding (Jul 2026)
 - [[beam]] — Reflection AI's Oct 2026 open-weight flagship — 501B-total / 23B-active sparse MoE for coding, reasoning, and agentic workloads; US open-weight counter to DeepSeek + Qwen
 - [[beni-robot]] — Aug 2026 consumer follow-and-film robot; tracks users at 17.9 mph, navigates obstacles, cuts footage into a reel, all on-device (no cloud)
 - [[bonsai-27b]] — PrismML's 27B on-device model; 3.9 GB footprint via 1-bit binary + ternary quantization; retains ~89.5% of FP16 base; first 27B-class model that fits on a phone (Jul 2026)
+- [[bootloops]] — AI tool for interdisciplinary scientific problem-solving — spots and solves problems in seemingly unrelated fields that share mathematical structures; solutions found across 22 scientific fields (Oct 2026)
 - [[aws-blocks]] — Amazon's open-source framework for building modular, reusable cloud apps from composable software components (Jun 2026)
 - [[brain2qwerty-v2]] — Meta FAIR's non-invasive brain-to-text system that decodes typed sentences from MEG brain signals; ~61% word accuracy / 78% best-participant (Jun 2026)
 - [[broadcom-truesource]] — Broadcom's Sep 2026 enterprise suite for securely managing + supporting open-source software; verified, human-checked code + enterprise support tier
