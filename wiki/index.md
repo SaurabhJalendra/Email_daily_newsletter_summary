@@ -435,6 +435,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[melius]] — node-based creative canvas for AI-generated digital assets; bulk team generation via top image + video models; positions against chat-tier AI creative-tool excessive-prompting + inconsistency (Jul 2026)
 - [[meta-compute]] — Meta's forthcoming cloud infrastructure business selling AI compute + hosted models from $183B surplus data-center capacity; challenges AWS/Azure/GCP (Jul 2026)
 - [[meta-enterprise-platform]] — Meta's Sep 29 2026 enterprise-vertical business unit bundling Muse models + Meta Business Agent + Muse Code for companies; led by former MongoDB CEO CJ Desai
+- [[decision-3]] — Oct 2026 multimodal decision-model family (0.6B to 27B parameters); vendor unresolved — co-mentioned with [[qwengyre]] and Qwen-family-signature sizing; seventh vendor in decision-model product-category cohort
+- [[maia-300]] — Microsoft's Oct 2026 inference-targeted custom AI chip — 40% more tokens per megawatt than leading GPU-based systems; preparing multi-gigawatt data-center deployment
 - [[microsoft-decision-1]] — Microsoft's Oct 2026 decision model for fast decision-making — routing/classification/prioritization/verification/workflow-control; Microsoft Foundry distribution; Microsoft-side named-SKU in the five-vendor decision-model product-category day cohort alongside [[openai-decisions-api]] + [[clef]] + pplx-decider-v1.1-27b + Liquid d1
 - [[microsoft-frontier-company]] — Microsoft's AI-deployment unit; $2.5B budget, 6,000 engineers, embeds AI engineers inside customer teams with explicit "no train on client data or IP" commitment (Jul 2026)
 - [[microsoft-scout]] — Microsoft's always-on Scout agent tab inside the Microsoft Super App framing; Build 2026 (Jun 2026)
@@ -483,6 +485,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
 - [[muse-spark-1-3]] — Meta's Sep 2026 flagship — matches [[gpt-5-6]] Sol on coding+agentic, #3 world on AAII, "almost too cheap to meter" pricing, canonicalizes Meta Superintelligence as newest Frontier Lab
 - [[muse-video]] — Meta's first generative video model with native synchronized audio; text/image/existing-footage → short clips; closed beta (Aug 2026)
+- [[muse-wonder]] — Meta's Oct 2026 frontier model from Meta Superintelligence Labs; multimodal 1M+ context, agentic coding + long-horizon workflows; $4/M input + $20/M output; AII v4.3 score 52 at max reasoning
+- [[muse-wonder-full]] — Meta's Oct 2026 higher-capability variant of Muse Wonder; exclusive to Muse Code subscribers (Power + new Maximum Usage plans; 80x Everyday Usage limit); AII v4.3 score 56 at max reasoning; Personal Superintelligence Index 59.1 ahead of GPT-6 Astra + Claude Opus 5.5
 - [[meta-muse-agent]] — Meta's Sep 2026 always-on personal AI agent with its own cloud browser; text-message-style UI + Gmail/Spotify/OpenTable integration + booking/emails/shopping; muse.ai + iOS/Android/WhatsApp/AI-glasses quintuple-surface
 - [[meta-one]] — Meta's Sep 2026 paid tier across Facebook/Instagram/WhatsApp — $2.99–$499/month bundle of expanded Meta AI usage + creator tools; monetizes Muse-family models following $14.3B Scale AI investment
 - [[meta-vr-glasses]] — Meta's Sep 2026 lightweight VR headset — $1,299 + spring-2027 launch + ~100g glasses with external compute pack + IMAX-grade display + Meta AI/Muse integration + voice/eye-tracking/hand-gestures (Meta Connect 2026)
@@ -546,6 +550,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwen-image-2]] — Alibaba's Feb 2026 unified image gen + editing model; #2/#3 AI Arena Elo *(stale)*
 - [[qwen-image-3]] — Alibaba's Jul 2026 image model; 4,500-token prompts + 10px legible text + 12-language rendering + real-looking UI mockups; invite-only, no open weights, mixed vs GPT Image 2
 - [[qwen3-coder-next]] — Alibaba's Feb 2026 open-weights 80B MoE coding-agent model (800K coding tasks) *(stale)*
+- [[qwengyre]] — Oct 2026 "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents" (arxiv.org/abs/2609.33848); likely Alibaba Qwen team based on naming cohort
 - [[rtx-spark]] — NVIDIA's 1-petaflop consumer-PC superchip for running frontier-scale AI models locally on laptops and desktops; ships fall 2026
 - [[router-ramp]] — Ramp's Aug 2026 single-endpoint LLM aggregator across OpenAI/Anthropic/DeepSeek/xAI; benchmark/cost/difficulty routing; ~40% inference cost claim; free through 2026 + $26 launch credit
 - [[runway-dev]] — Runway's Jul 2026 developer API serving frontier video models + bundled third-party image and audio generators
@@ -664,6 +669,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[tsrx]] — TypeScript language extension + JSX successor by Dominic Gannaway; statically analyzable for LLMs; multi-target compile (React/Solid/Preact/Vue) (Jun 2026)
 - [[universal-commerce-protocol]] — Shopify + Google open protocol for agent-commerce; canonical substrate for Shopify Agentic Storefronts into ChatGPT + Gemini + Copilot (Oct 2026)
 - [[waico]] — World Artificial Intelligence Cooperation Organization; China-led intergovernmental AI governance body launched Jul 16 2026 in Shanghai; 29 founding countries (US/UK/Canada/EU absent)
+- [[webmcp]] — Web Model Communication Protocol — enables websites to expose direct JavaScript tools callable by AI agents, bypassing slow browser-automation + screen-scraping agent-site interaction (Oct 2026)
 - [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos *(stale)*
 
 ## Trends

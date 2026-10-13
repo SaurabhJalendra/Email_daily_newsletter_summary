@@ -1,0 +1,49 @@
+---
+name: Muse Wonder Full
+description: Meta's Oct 2026 higher-capability variant of Muse Wonder — exclusive to Muse Code subscribers (Power + new Maximum Usage plans, 80x Everyday Usage limit); reportedly matches or exceeds Claude Opus 5.5 on benchmarks
+type: product
+---
+
+# Muse Wonder Full
+
+> **Type**: product
+> **Vendor**: [[meta]] (Meta Superintelligence Labs)
+> **First mentioned**: 2026-10-13-evening
+> **Last updated**: 2026-10-13-evening
+> **Status**: active
+> **Related**: [[meta]], [[muse-wonder]], [[muse-code]], [[meta-muse-agent]], [[claude-opus-5-5]], [[gpt-6-astra]], [[agent-frameworks]]
+
+## Summary
+
+Muse Wonder Full is [[meta]]'s higher-capability frontier AI model from Meta Superintelligence Labs — the subscription-gated sibling of [[muse-wonder]]. Launched October 12 2026 **exclusively for [[muse-code]] subscribers on the Power Usage and new Maximum Usage plans** (the latter provides an 80× Everyday Usage limit). The model is designed for complex personal and professional agent tasks requiring **advanced reasoning and sustained execution** — long-running workflows, coding, memory, cross-application work, legal and financial analysis, and generating digital products.
+
+Independent evaluations reportedly place Muse Wonder Full among the top models on various benchmarks, scoring **56 on Artificial Analysis Intelligence Index v4.3 at max reasoning effort** (vs standard Wonder's 52 and [[muse-spark-1-3]] (max) 48) and **59.1 on the Personal Superintelligence Index — ahead of [[gpt-6-astra]] and [[claude-opus-5-5]]**. The strategic significance is Meta using its strongest model as a **subscription differentiator** rather than initially offering it broadly through the API, positioning Muse Code directly against premium coding and agent products from OpenAI and Anthropic.
+
+## Timeline
+
+- **2026-10-13-evening**: **Launch — Muse Wonder Full ships exclusively for Muse Code subscribers on Power Usage and new Maximum Usage plans + 80× Everyday Usage limit on Maximum Usage plan + Artificial Analysis Intelligence Index v4.3 score 56 at max reasoning + Personal Superintelligence Index 59.1 ahead of GPT-6 Astra + Claude Opus 5.5 + reportedly matches or exceeds Claude Opus 5.5 on several published benchmarks + "beating Fable and Astra on some benchmarks"**. AINews HIGH *"[AINews] Meta Muse Wonder & Wonder Full: MSL's Claude 5.5-tier Frontier Model"*: *"The models have been assessed by Artificial Analysis, achieving Artificial Analysis Intelligence Index v4.3 scores of 52 and 56 at max reasoning effort, with Wonder Full reportedly beating Fable and Astra on some benchmarks"* + *"Independent evaluations place Muse Wonder Full among the top models on various benchmarks, including the Artificial Analysis Intelligence Index and the AA Index, with strong performance on coding, long-horizon agent tasks, and complex professional workflows"*. TLDR MEDIUM: *"Muse Wonder Full is available exclusively to Muse Code subscribers"*. researchFindings.additionalContext canonicalizes Power Usage + Maximum Usage plan-tier gating + 80× Everyday Usage limit + "designed for tasks requiring advanced reasoning and sustained execution" + reported use for software development + legal and financial analysis + generating digital products + "soon power features in Meta's consumer Muse assistant, initially for subscribers, with capabilities such as active memory and improved persistence on longer tasks" + 59.1 Personal Superintelligence Index ahead of GPT-6 Astra + Claude Opus 5.5. First-in-wiki: (a) **Muse Wonder Full named-SKU subscription-exclusive frontier-model canonical productization anchor** — first-in-wiki *concrete Meta highest-capability model-as-subscription-differentiator canonical anchor* (structurally significant — productizes Meta frontier-tier distribution as *concrete-subscription-gated-not-API-first canonical anchor tier*; distinct from [[claude-opus-5-5]] API-first + [[gpt-6-astra]] API-first + [[gemini-4-argon]] API-first distribution-posture; pairs cycle-structurally with [[claude-max]] + [[gpt-max]] premium-coding-tier substrate as *canonical mid-Oct-2026 three-frontier-lab premium-coding-subscription-tier anchor cluster*); (b) **Personal Superintelligence Index 59.1 canonical first-in-wiki benchmark anchor + ahead of GPT-6 Astra + Claude Opus 5.5 concrete-comparator canonical anchor pair** — first-in-wiki *concrete Personal Superintelligence Index named-benchmark canonical anchor* on any mid-2026 frontier-model + concrete comparative tier anchor pair canonicalizing Muse Wonder Full as *tier-leading Personal Superintelligence Index operator*; (c) **80× Everyday Usage limit on Maximum Usage plan canonical concrete-plan-tier-usage-ceiling anchor** — first-in-wiki *concrete Meta subscription-plan-tier concrete-usage-multiplier canonical anchor* on Muse Code; (d) **"Soon power features in Meta's consumer Muse assistant, initially for subscribers, with capabilities such as active memory and improved persistence on longer tasks" canonical anchor** — first-in-wiki *concrete Muse Wonder Full → [[meta-muse-agent]] substrate-powering canonical anchor* with *concrete active-memory + improved-persistence-on-longer-tasks two-primitive capability-tier canonical anchor pair*. See [[muse-wonder]] + [[muse-code]] + [[meta]] + [[meta-muse-agent]] + [[claude-opus-5-5]] + [[gpt-6-astra]] + [[agent-frameworks]] — *source: data/summaries/2026-10-13-evening.json (AINews HIGH "[AINews] Meta Muse Wonder & Wonder Full: MSL's Claude 5.5-tier Frontier Model"; TLDR MEDIUM "Meta Wonder 🤖, X's resurgence 📈, why WebMCP matters 🌍"; researchFindings.additionalContext for Muse Wonder Full + Muse Code + MSL's Claude 5.5-tier Frontier Model)*
+
+## Key Facts
+
+- **Vendor**: [[meta]] / Meta Superintelligence Labs (MSL)
+- **Launch date**: October 12 2026 (alongside standard [[muse-wonder]])
+- **Distribution**: [[muse-code]] subscribers only — Power Usage and new Maximum Usage plans; **not available via Meta Model API**
+- **Maximum Usage plan**: 80× Everyday Usage limit
+- **Positioning**: Highest-capability frontier model from Meta — complex personal and professional agent tasks, legal/financial analysis, digital-product generation, long-running workflows
+- **Benchmark**: Artificial Analysis Intelligence Index v4.3 — 56 at max reasoning effort (vs [[muse-wonder]] 52, [[muse-spark-1-3]] (max) 48)
+- **Personal Superintelligence Index**: 59.1 — ahead of [[gpt-6-astra]] and [[claude-opus-5-5]]
+- **External framing**: AINews HIGH frames as "MSL's Claude 5.5-tier Frontier Model"
+- **Future use**: Soon powers features in [[meta-muse-agent]] consumer assistant, initially for subscribers, with active memory + improved persistence on longer tasks
+
+## Open Questions
+
+- Concrete max-reasoning-effort price impact for Wonder Full on Muse Code subscriber tiers
+- Whether Wonder Full ever ships via Meta Model API or remains permanently subscription-gated
+- Timeline for Wonder Full to power consumer Muse-Agent features — "soon" per researchFindings but no specific date
+- Independent benchmark validation beyond Artificial Analysis / Personal Superintelligence Index Meta-attributed framing
+- Weights release posture — closed-weights or eventual open-release path
+- Fine-tuning + customization surface
+
+## Sources
+
+- data/summaries/2026-10-13-evening.json (AINews HIGH "[AINews] Meta Muse Wonder & Wonder Full: MSL's Claude 5.5-tier Frontier Model" — Wonder Full exclusive to Muse Code subscribers + 80x Everyday Usage limit on Maximum Usage plan + AII v4.3 score 56 at max reasoning + beating Fable and Astra on some benchmarks + strong performance on coding + long-horizon agent tasks + complex professional workflows; TLDR MEDIUM "Meta Wonder 🤖, X's resurgence 📈, why WebMCP matters 🌍" — Wonder Full exclusively to Muse Code subscribers; researchFindings.additionalContext for Muse Wonder Full + Muse Code + MSL's Claude 5.5-tier Frontier Model + Meta — Power Usage + Maximum Usage plan + 80x Everyday Usage limit + "designed for tasks requiring advanced reasoning and sustained execution" + 59.1 Personal Superintelligence Index ahead of GPT-6 Astra and Claude Opus 5.5 + "soon power features in Meta's consumer Muse assistant, initially for subscribers, with capabilities such as active memory and improved persistence on longer tasks")
