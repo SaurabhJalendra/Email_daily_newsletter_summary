@@ -42,6 +42,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[crusoe]] — US AI-infrastructure company; $3.9B raise (Sep 2026) to build massive DCs plus truck-transportable modular "Spark" AI factories that connect to power almost anywhere
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale *(stale)*
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025 *(stale)*
+- [[dyna-robotics]] — robotics startup building World-Action Models + semi-humanoid physical agents for hour-long real-world workflows; [[dyna-2]] WAM pretrained on 1M+ hours of egocentric human video + [[dyna-2-1]] semi-humanoid system; Best Western + Din Tai Fung named deploy customers (Oct 2026)
 - [[earendil]] — vendor of Pi — open-source MIT-licensed minimal AI coding-agent harness; shipped [[pi-1-0]] stable + [[pi-durable]] TypeScript port Oct 1 2026
 - [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace, in-platform LLM hosting *(stale)*
 - [[engram]] — Neo Lab building a persistent, learned memory layer for AI to improve efficiency and reduce inference costs (Jun 2026)
@@ -282,7 +283,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
 - [[dig-bench]] — agent benchmark measuring rule-discovery-through-experimentation; 70 text-based games (21 publicly released, ~49 held for anti-contamination) (Aug 2026)
 - [[digit-5]] — Agility Robotics' Sep 2026 next-gen humanoid; 50-lb payload + swappable end-effectors (paddle/pincher/claw/five-finger) + 9-min recharge + ~90-min runtime + >20 working h/24 + unfenced cooperatively safe operation + early access H1 2027 → broader end-2027
-- [[dyna-2]] — Dyna Robotics's world-action model pre-trained on 1M+ hours of human video; 87% real-world zero-shot pass rate on unseen robot hardware; scaling-laws-for-robotics anchor (Aug 2026)
+- [[dyna-2]] — Dyna Robotics's World-Action Model pretrained on 1M+ hours of egocentric human video; 87% real-world zero-shot pass rate on unseen hardware; hour-long whole-body autonomy with Dyna agentic system (Oct 2026 update)
+- [[dyna-2-1]] — Dyna Robotics's Sep 29 2026 semi-humanoid physical agent combining in-house semi-humanoid hardware with the Dyna-2 World-Action Model agentic system; demonstrated with uncut commercial-laundry-shift footage
 - [[dynamic-workflows]] — Anthropic's Oct 2026 feature for Claude Managed Agents ("flows") — Claude writes an orchestration program that launches sub-agents, collects results, and manages information flow for projects larger than a single agent or roster; announced at AI Engineer New York 2026
 - [[embedding-gemma-2]] — Google's 740M-parameter open multimodal embedding model mapping text, code, images, video, and audio into a shared embedding space (Oct 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
@@ -380,6 +382,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-red]] — OpenAI's dedicated adversarial red-team AI trained via self-play at compute-scale of largest model runs; 84% test-scenario success vs 13% human red-teamers (Jul 2026)
 - [[hark-handoff]] — Hark's Aug 2026 first product — computer-use agent for everyday tasks (food ordering, shopping, recruiting talent); lifestyle-tier entrant in the [[computer-use]] category
 - [[helix-2-5]] — Figure's Sep-2026 humanoid control model — pretrained on a crowdsourced human-video dataset and shown zero-shot across 30 unseen homes on household tasks (tidying rooms + folding towels)
+- [[helix-world]] — Noiz's Oct 2026 real-time interactive audio-visual world model — generates explorable scenes with spatial soundtracks (unrelated to Figure's Helix humanoid control model)
 - [[horowitz-andreessen-academy]] — a16z's Sep 2026 SF-based alternative to college; Gagan Biyani co-founder; "Nashville for Nerds"; ~$42M academy; founding partner co-ops with Anthropic + OpenAI + NVIDIA + Google + Stripe
 - [[hy-mt2]] — Tencent's Aug 2026 specialized multilingual translation model family — Hy-MT2-30B-A3B + Hy-MT2-1.8B — released ~2026-08-20 for high-quality machine translation across multiple languages
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
