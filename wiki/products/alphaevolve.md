@@ -10,7 +10,7 @@ type: product
 > **First mentioned**: 2026-07-05-evening
 > **Last updated**: 2026-07-05-evening (initial teaser via The Neuron's "50+ Stories We Couldn't Fit in Today's Newsletter" surfaced in daily-digest Top Story #3)
 > **Status**: teased (pre-launch)
-> **Related**: [[google]], [[recursive-self-improvement]], [[world-models]], [[marble]]
+> **Related**: [[google]], [[recursive-self-improvement]], [[world-models]], [[marble]], [[bootloops]], [[alphafold]], [[gpt-rosalind]]
 
 ## Summary
 
