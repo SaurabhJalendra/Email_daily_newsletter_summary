@@ -487,6 +487,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[muse-image]] — Meta's first proprietary AI image-generation model; Muse family replaces Llama era; Muse Spark agentic integration; #2 Image Arena at launch (Jul 2026)
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
 - [[muse-spark-1-3]] — Meta's Sep 2026 flagship — matches [[gpt-5-6]] Sol on coding+agentic, #3 world on AAII, "almost too cheap to meter" pricing, canonicalizes Meta Superintelligence as newest Frontier Lab
+- [[muse-spark-open]] — Meta MSL's Oct 15 2026 open-weight natively-multimodal MoE — 816B total / 42B active, 1M context, text+images+video+audio input; strongest American-made open-weight model; narrows US-Chinese gap "roughly by half"
 - [[muse-video]] — Meta's first generative video model with native synchronized audio; text/image/existing-footage → short clips; closed beta (Aug 2026)
 - [[muse-wonder]] — Meta's Oct 2026 frontier model from Meta Superintelligence Labs; multimodal 1M+ context, agentic coding + long-horizon workflows; $4/M input + $20/M output; AII v4.3 score 52 at max reasoning
 - [[muse-wonder-full]] — Meta's Oct 2026 higher-capability variant of Muse Wonder; exclusive to Muse Code subscribers (Power + new Maximum Usage plans; 80x Everyday Usage limit); AII v4.3 score 56 at max reasoning; Personal Superintelligence Index 59.1 ahead of GPT-6 Astra + Claude Opus 5.5
@@ -503,6 +504,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nano-banana-pro]] — Google's Gemini 3 Pro Image; 4K, 14-input, 5-character consistency, SynthID+C2PA *(stale)*
 - [[nanochat]] — Karpathy's end-to-end ChatGPT clone repo *(stale)*
 - [[nemotron-3]] — NVIDIA's open-source agentic model line; Nano (30B/3B active MoE), 4× throughput claim *(stale)*
+- [[nemotron-3-5-super-vl]] — NVIDIA's Oct 15 2026 open customizable vision-language model — 120B MoE / ~12B active, hybrid Mamba-Transformer + RADIO/C-RADIO vision + native multi-token prediction + video support; text + images + video input (no audio)
 - [[nemotron-4]] — NVIDIA's in-development ~1-trillion-parameter open-source model family; rival to the most capable global open models (Aug 2026)
 - [[niji-7]] — Midjourney's anime-style image model (Jan 2026) *(stale)*
 - [[nitrogen]] — NVIDIA open-source gaming-agent model *(stale)*
@@ -523,6 +525,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[open-lovable]] — Firecrawl team's Sep 2026 open-source Lovable-clone; 28,000+ GitHub stars; requires Firecrawl + a model provider (Gemini/Anthropic/OpenAI/Groq) + Vercel sandbox to self-host
 - [[open-agent-safety-platform]] — NVIDIA's Sep 2026 open platform for controlling + monitoring AI agents; OpenShell (CPU-side containment) + Sentry (network safeguards); Microsoft + Cisco + Oracle + Intel ecosystem
 - [[openclaw]] — open-source persistent assistant; team (incl. Steinberger) acquihired into OpenAI *(stale)*
+- [[opencode]] — Anomaly's open-source AI coding agent; Oct 2026 OpenCode 2.0 overhaul with shared background server, embeddable TS SDK, hot-reloadable plugins, async shell commands, background subagents, and Code Mode (JavaScript-composed batched MCP + OpenAPI tool calls); breaking v1 upgrade
 - [[openjarvis]] — open-source framework for a local personal AI assistant — local chat + document memory + tools (search/calculations) + Google Drive/Gmail connectors + voice I/O + scheduled agents; alpha status; Iron Man Jarvis as design metaphor (Aug 2026)
 - [[openrouter]] — Model-routing platform with unified API access to 400+ AI models across vendors; acquired by [[stripe]] for over $7B (Aug 2026)
 - [[opera-neon]] — Opera's AI browser *(stale)*
