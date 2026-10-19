@@ -429,6 +429,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[lyria-3]] — Google's music-generation model in Gemini; 30-sec tracks, 8 languages, SynthID *(stale)*
 - [[lyria-3-5]] — Google's Lyria 3.5 music-generation upgrade — more human-sounding vocals + control (Jul 2026)
 - [[machine-age-fund]] — a16z's $1.1B AI-hardware / physical-infrastructure fund for chips, memory, interconnects, data centers, cooling, power-efficient edge devices, and robotics (Sep 2026)
+- [[mai-base-2]] — Microsoft AI's Oct 2026 second internally developed large-scale foundation model; pretraining reportedly completed around Oct 17-18 2026 as part of Microsoft's push to reduce dependence on OpenAI for frontier model access
 - [[mai-cyber-1-flash]] — Microsoft's Jul 2026 cost-optimized AI cybersecurity model; 96% CyberGym paired with GPT-5.4; half the cost of previous MAI cyber system; integrated into Microsoft MDASH agent system
 - [[mai-thinking-1]] — Microsoft's first internally-built reasoning + Codex-competitor model family (MAI-Thinking-1 35B-active + MAI-Code-1-Flash 5B); Build 2026 (Jun 2026)
 - [[mai-transcribe-2]] — Microsoft's Sep 2026 speech-recognition model at $0.10/hour across 60 languages; positioned as fastest + most accurate + cheapest in market
