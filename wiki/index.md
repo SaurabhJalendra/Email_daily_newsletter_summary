@@ -180,6 +180,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[antigravity-2]] — Google's I/O 2026 rebuilt parallel-agent desktop app + CLI + SDK powered by Gemini 3.5 Flash
 - [[apex-agents]] — Mercor's Sep 2026 AI Productivity Index for Agents — public leaderboard ranking frontier models by productivity on long-horizon multistep economically-valuable work
 - [[anthropic-fellows]] — Anthropic's AI-safety research fellowship; 4mo / $3,850/wk / ~$15K/mo compute / 40% hire + 80% papers (Jun 2026)
+- [[anthropic-oss-scanner]] — Anthropic's Oct 2026 AI-powered vulnerability scanner for critical open-source projects; 77 critical + 803 high model-rated findings in first week
 - [[anthropic-public-benefit-fund]] — Anthropic's Oct 2026 wholly-owned LLC vehicle for AI-safety + public-interest funding; 5% of shares (subject to stockholder approval) + 2%-per-50%-valuation-growth-above-baseline ratchet; targets economic + labor impacts of AI
 - [[apple-homeview]] — Apple's forthcoming smart-home hub as central command center for Apple-powered households; limited selection of supported Apple applications and no App Store for additional software (Oct 2026)
 - [[apple-m5]] — Apple's M-series (M5, M5 Ultra, M6) on-device AI silicon
@@ -452,6 +453,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mimo-code]] — Xiaomi's coding-specialized model; three-cycle cross-newsletter convergence (TLDR AI → Hello World "Claude vs Mimo" → NLP Newsletter AI Agents Weekly digest, Jun 2026)
 - [[mimo-v2-6]] — Xiaomi's Sep 2026 open-weights AI series (1.02T MoE Pro + Flash + UltraSpeed + 9B distilled); MIT license; $3M training cost; top open-weights on AA-II 46 at $0.13/task Pareto frontier
 - [[minimax-h3]] — MiniMax's Jul 2026 next-generation multimodal video model — native 30-second + consistent three-minute videos + interactive frame editing + up to 50 multimodal references
+- [[minimax-m3-1-flash]] — MiniMax's Oct 2026 Flash-tier model; ~3× faster + 70% cheaper vs predecessor + 1M-token context + text+image; Ollama day-0 free through Oct 22; open weights promised Oct 23
 - [[mojo]] — Modular's Python-superset AI/ML systems programming language; fully open-sourced under Apache 2.0 with LLVM exceptions (Aug 2026)
 - [[motif-3]] — Motif Technologies (South Korea) 314B/13.2B-active MoE MIT-licensed open-weight LLM; ~256K context; ~44 Artificial Analysis Intelligence Index; strongest open-weight MoE LLM outside US/China ecosystem; Dokpamo sovereign-AI program (Sep 2026)
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
