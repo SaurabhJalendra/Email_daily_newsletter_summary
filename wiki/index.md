@@ -141,6 +141,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[taalas]] — AI inference silicon startup — hardware designed around the model, world's fastest + most cost-effective inference silicon per own framing; acquired by [[amd]] (Aug 2026)
 - [[tavus]] — vendor of [[tavus-griffin]] "Human Interaction Model" — real-time video+voice avatar that ~48% of live-call test participants mistook for a human (Oct 2026)
 - [[tencent]] — Chinese tech giant; Aug 2026 released Hy-MT2 specialized multilingual translation models (Hy-MT2-30B-A3B + Hy-MT2-1.8B)
+- [[tenstorrent]] — Jim Keller-led AI-computing + semiconductor startup; Blackhole chips with native BlockFloat8 at ~$1,000/chip (~40× cheaper than GPU-native equivalent); $1.5B Series E at $6.2B valuation Oct 2026, chose independence over Intel/Qualcomm bids
 - [[terawulf]] — US-listed compute-infrastructure operator (former Bitcoin miner pivoting to AI-DC hosting); $19B multi-year Anthropic AI-infrastructure lease deal + initial capacity 2H 2027 (Jul 2026)
 - [[tesla]] — Elon Musk's EV + AI-hardware company; Optimus + Cybercab + Dojo + [[terafab]] JV with SpaceX; five-tier vertical AI stack (silicon-fab → compute → chip → robotics/AV → consumer) (Aug 2026)
 - [[thinking-machines]] — Mira Murati's lab; Tinker API + TML-Interaction-Small native interaction model (May 2026); $2B @ $12B
@@ -179,6 +180,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[antigravity-2]] — Google's I/O 2026 rebuilt parallel-agent desktop app + CLI + SDK powered by Gemini 3.5 Flash
 - [[apex-agents]] — Mercor's Sep 2026 AI Productivity Index for Agents — public leaderboard ranking frontier models by productivity on long-horizon multistep economically-valuable work
 - [[anthropic-fellows]] — Anthropic's AI-safety research fellowship; 4mo / $3,850/wk / ~$15K/mo compute / 40% hire + 80% papers (Jun 2026)
+- [[anthropic-public-benefit-fund]] — Anthropic's Oct 2026 wholly-owned LLC vehicle for AI-safety + public-interest funding; 5% of shares (subject to stockholder approval) + 2%-per-50%-valuation-growth-above-baseline ratchet; targets economic + labor impacts of AI
 - [[apple-homeview]] — Apple's forthcoming smart-home hub as central command center for Apple-powered households; limited selection of supported Apple applications and no App Store for additional software (Oct 2026)
 - [[apple-m5]] — Apple's M-series (M5, M5 Ultra, M6) on-device AI silicon
 - [[audex]] — NVIDIA's 30B / 3B active MoE unified text + audio model — preserves text intelligence while adding broad audio generation and understanding (Jul 2026)
@@ -437,6 +439,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[matraix]] — Harvard-MIT digital world simulating Earth's population with 8.3B agents mirroring real humans; large-scale multi-agent social simulation substrate (Aug 2026)
 - [[medgemma]] — Google open medical-imaging model family (Jan 2026) *(stale)*
 - [[melius]] — node-based creative canvas for AI-generated digital assets; bulk team generation via top image + video models; positions against chat-tier AI creative-tool excessive-prompting + inconsistency (Jul 2026)
+- [[mercury-3]] — Inception's Oct 2026 diffusion-based LLM; >1,000 tokens/sec on NVIDIA GPUs + up to 1M-token context; claims performance comparable to or better than GPT-6 Luna + Claude Haiku 5.5 (awaits independent benchmarking)
 - [[meta-compute]] — Meta's forthcoming cloud infrastructure business selling AI compute + hosted models from $183B surplus data-center capacity; challenges AWS/Azure/GCP (Jul 2026)
 - [[meta-enterprise-platform]] — Meta's Sep 29 2026 enterprise-vertical business unit bundling Muse models + Meta Business Agent + Muse Code for companies; led by former MongoDB CEO CJ Desai
 - [[decision-3]] — Oct 2026 multimodal decision-model family (0.6B to 27B parameters); vendor unresolved — co-mentioned with [[qwengyre]] and Qwen-family-signature sizing; seventh vendor in decision-model product-category cohort
