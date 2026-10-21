@@ -143,6 +143,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[taalas]] — AI inference silicon startup — hardware designed around the model, world's fastest + most cost-effective inference silicon per own framing; acquired by [[amd]] (Aug 2026)
 - [[tavus]] — vendor of [[tavus-griffin]] "Human Interaction Model" — real-time video+voice avatar that ~48% of live-call test participants mistook for a human (Oct 2026)
 - [[tencent]] — Chinese tech giant; Aug 2026 released Hy-MT2 specialized multilingual translation models (Hy-MT2-30B-A3B + Hy-MT2-1.8B)
+- [[tenex]] — applied-AI company helping Fortune 2000 enterprises transition to an AI-native SDLC; MetaHarness internal tool; ~75 people; output-based engineer compensation; CEO Alex Lieberman + CJ Hess (Oct 2026)
 - [[tenstorrent]] — Jim Keller-led AI-computing + semiconductor startup; Blackhole chips with native BlockFloat8 at ~$1,000/chip (~40× cheaper than GPU-native equivalent); $1.5B Series E at $6.2B valuation Oct 2026, chose independence over Intel/Qualcomm bids
 - [[terawulf]] — US-listed compute-infrastructure operator (former Bitcoin miner pivoting to AI-DC hosting); $19B multi-year Anthropic AI-infrastructure lease deal + initial capacity 2H 2027 (Jul 2026)
 - [[tesla]] — Elon Musk's EV + AI-hardware company; Optimus + Cybercab + Dojo + [[terafab]] JV with SpaceX; five-tier vertical AI stack (silicon-fab → compute → chip → robotics/AV → consumer) (Aug 2026)
@@ -273,6 +274,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cursor-composer-2-5]] — Cursor's May 2026 RL-trained model; 79.8% SWE-Bench Multilingual at ~10× efficiency *(stale)*
 - [[cursor-origin]] — Cursor's Aug 2026 code hosting platform with GitHub two-way sync + built-in agents; ~22.6 commits/sec/repo agent-throughput anchor; beta for paid customers
 - [[cursor-router]] — Cursor's intelligent per-request model router (Intelligence/Balance/Cost modes); 60% AI coding cost cut vs single-premium-model default; 600K+ live-coding-request classifier (Jul 2026)
+- [[deepinfer]] — DeepSeek's Oct 2026 open-sourced production-ready inference engine; 155T tokens/day/cluster + $22M/day at ~80% margin + 81-day payback; distributed inference + speculative decoding + SWA Bounded Replay + structured output; supports NVIDIA GB200 + Huawei Ascend 950DT
 - [[deepseek-harness]] — DeepSeek's Aug 2026 open-source plugin-first agent framework under MIT license; four ready modes (Standard, Code, Minimal, Creator); commercial use with zero restrictions
 - [[deepseek-math-v2]] — DeepSeek's open-source math model; IMO 2025 gold via generator+verifier *(stale)*
 - [[deepstream-9-1]] — NVIDIA's Aug 2026 edge vision AI SDK update; agentic "skills" architecture — Multi-View 3D Tracking (MV3DT) + AutoMagicCalib camera calibration; natural-language-prompt-driven multi-camera pipelines
@@ -634,6 +636,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-memory]] — persistent context across sessions; Claude Memory, ChatGPT→Claude migration, GPT-5.4 Stateful AI *(stale)*
 - [[ai-military]] — frontier-lab AI inside DoW/Pentagon systems; Pentagon-Anthropic ultimatum, xAI switch-out, OpenAI contract revision *(stale)*
 - [[ai-music-generation]] — generative music models; Google Lyria 3 in Gemini *(stale)*
+- [[ai-native-sdlc]] — software-delivery model with AI agents embedded across the full lifecycle (requirements → planning → design → build → test → ship → operate → handoff); humans set intent, agents execute scoped work on shared context; canonicalized Oct 2026 via Tenex + MetaHarness
 - [[ai-plugin-standard]] — Aug 2026 shared plugin spec agreed by Amazon + Cursor + Microsoft + OpenAI + Vercel — build-once, run-anywhere; sits alongside [[model-context-protocol]] as second cross-vendor plugin interop primitive
 - [[ai-supply-chain-attacks]] — DPRK-linked npm/PyPI/Packagist/marketplace package compromises + registry-tier defensive responses (Github Dependabot 3-day hold-and-observe); foundational-dependency targeting reaches AI-toolchain transitively (Aug 2026 creation, covers 2026-05 → 2026-08 arc)
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad *(stale)*
