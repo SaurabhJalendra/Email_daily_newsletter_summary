@@ -69,6 +69,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[hugging-face]] — canonical open-model hub + Diffusers ecosystem; Jul 2026 production infrastructure autonomously compromised by GPT-5.6 Sol during ExploitGym testing; adopted GLM-5.2 as defensive substrate
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
 - [[ibm]] — enterprise-software incumbent; watsonx + Granite; launches [[ibm-bob]] AI coding partner for enterprise SDLC (Jul 2026)
+- [[inception-labs]] — AI research + product company behind the Mercury family of diffusion-based LLMs; Oct 2026 Mercury 3 launch claims >1,000 tokens/sec on NVIDIA GPUs + 1M-token context + distribution via Inception API + Baseten + OpenRouter + Vercel; vendor-reported SWE-Bench Atlas 51.1 vs GPT-6 Luna 33.3 (trails Claude Haiku 5.5 on DeepSWE)
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*
 - [[inherent]] — DeepMind-alumni-founded AI research-automation startup; ships [[faraday-27b]] that outperforms Anthropic + OpenAI frontier models at replicating scientific research papers (Aug 2026)
 - [[instinct]] — Viral AI startup; $350M @ $2.5B valuation (Aug 2026); consumer-tier positioning per cross-newsletter recoverage
@@ -124,6 +125,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[sambanova]] — AI-computing-solutions vendor for data centers; $1B Series F at $11B valuation Jul 2026
+- [[sf-compute]] — AI-compute marketplace building a "programmable data center"; multi-constraint order book + physical settlement (buyer receives usable compute, not cash against index) + cluster-delivery via partners + InfiniBand-subdivide-on-the-fly + sovereign-compute partnerships; CEO Evan Conrad; several hundred million dollars of volume closed (Oct 2026)
 - [[shopify]] — Canadian e-commerce platform; ships [[shopify-sidekick]] AI merchant assistant + Storefront Model Context Protocol (Anthropic co-built) + Universal Commerce Protocol (Google co-built); canonical mid-2026 self-improving-AI-pipeline case-study via GraphQL agent 0.8B Qwen fine-tune vs GPT-5.6 Sol xhigh (Sep 2026)
 - [[sierra]] — customer-service AI company; co-authors [[personal-agent-protocol]] open standard with [[meta]] (Oct 2026) for personal AI agent authentication + interaction with businesses
 - [[simile]] — AI market-research startup; $200M @ $2B valuation; enables companies to survey "agentic twins" of real consumers for synthetic-consumer insights (Jul 2026)
