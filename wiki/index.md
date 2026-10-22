@@ -221,6 +221,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-code-agent-view]] — Anthropic's unified dashboard for parallel Claude Code sessions (May 2026) *(stale)*
 - [[claude-code-security]] — Anthropic's security scanner inside Claude Code (Feb 2026) *(stale)*
 - [[claude-code-web]] — browser/cloud Claude Code for dev work outside the terminal *(stale)*
+- [[claude-mods]] — Anthropic's user-authored TypeScript/JavaScript middleware for the Claude Code agent harness; concrete productization of the Harness 3.0 "Attention Interface" era; six-built-in-mods out-of-the-box + Next Steps Supervisor named-first-party-mod + distributed via [[modsmith]] (Oct 2026)
 - [[claude-commerce-agents]] — Anthropic's open-source (Apache 2.0) AI shopping-agent + merchant-agent suite; 35% cart-size boost + 60% higher purchase-completion; four vertical demos + Claude Code plugin (Sep 2026)
 - [[claude-corps]] — Anthropic's paid AI-learning fellowship ($85K stipend); anthropic.com/claude-corps/fellow (Jun 2026)
 - [[claude-cowork]] — Anthropic's local-file agent for organizing digital work; anchor surface in PwC 30K-staff deployment (May 2026)
@@ -426,9 +427,11 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[laguna-s]] — Poolside AI's open-weights foundation-model family; Laguna S 2.1 = 118B MoE / 8B active params / 1M context, cheaper than Deepseek v4 Flash; candidate for "strongest American open-weight model" (Jul 2026)
 - [[laion-10m-hour-video]] — LAION's Aug 2026 open 10-million-hour video dataset for multimodal training; canonical mid-2026 largest-open-video-training-substrate
 - [[lamem-vla]] — dual-latent-memory-vault vision-language-action model; SOTA on long-horizon manipulation (97.6% LIBERO / 73.9% SimplerEnv-Bridge, +16.6pt over CogACT) (Jul 2026)
+- [[laminar]] — Ramp's Oct 2026 managed agents platform — secure conversation history + session compaction + tool calling + message queuing/steering + subagents + multiplayer chat + observability; moves Ramp from inference-router tier into full agent-runtime tier
 - [[leanstral]] — Mistral's Jul 2026 open-source 119B-parameter theorem-proving + code-verification agent; 587/672 Putnam problems at "significantly lower cost"; verify proofs + test logic + catch errors before software ships (Jul 2026)
 - [[linden-stt]] — Speechmatics's Sep 2026 STT model purpose-built for voice agents; 55+ languages, 350ms latency, 1000+ custom-word jargon support, $0.30/hr ($0.15/hr discounted)
 - [[ling-3-0-flash]] — Ant Group's efficient AI-agent-powering model that "rivals systems 2-3× its size"; workload-optimized "Flash" SKU in the version-3 Ling line (Jul 2026)
+- [[llm-d]] — Kubernetes-native stack for distributed LLM inference running vLLM/SGLang/more across clusters; turns single-node engines into production-grade serving on local hardware (Oct 2026)
 - [[longcat-2]] — Meituan's Jul 2026 open-source 1.6-trillion-parameter model — first publicly framed Meituan-frontier-AI-lab entrant; one of the largest publicly disclosed open-source parameter counts
 - [[longcat-avatar]] — Meituan's Aug 2026 open-source 13.6B photo+audio-to-talking-video model; long-form stability + lip sync; extends Meituan open-weights arc from LLM-tier into multimodal-video-generation-tier
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026) *(stale)*
@@ -493,6 +496,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mistral-ocr-3]] — Mistral's OCR model; ~97% accuracy, strong on European documents *(stale)*
 - [[mistral-ocr-4]] — Mistral's OCR successor — bounding boxes + confidence scores + 170 languages + single-container deployment; built specifically for RAG pipelines (Jun 2026)
 - [[mistral-studio]] — Mistral's production-AI platform *(stale)*
+- [[modsmith]] — Anthropic's distribution platform for sharing and installing Claude Mods — the companion registry to the Claude Code mod ecosystem (Oct 2026)
 - [[muse-glimmer]] — Meta's open-source 30B model optimized for "always-on" agents; fourth Muse-family product-line (Aug 2026)
 - [[muse-image]] — Meta's first proprietary AI image-generation model; Muse family replaces Llama era; Muse Spark agentic integration; #2 Image Arena at launch (Jul 2026)
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
@@ -613,6 +617,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[weave-isaac-1]] — Weave Robotics's home humanoid at $8K upfront / $449/mo subscription; folds clothes/tidies/makes beds; adjusts 3ft-6ft; California fall-2026 rollout with remote-teleoperation fallback (Jul 2026)
 - [[veo-3]] — Google's Veo 3 / 3.1 video-generation model; Jun 2026 resurfaces as image-to-video chained step with [[nano-banana-pro]]
 - [[vercel-eve]] — Vercel's open-source agent framework; durable execution + sandboxed compute + approvals + subagents + evaluations; "production infrastructure for AI agents" (Jun 2026)
+- [[voxtral-3]] — Mistral's Oct 2026 voice-agent SDK — Small Transcribe 3 (STT, 50+ languages) + Mini TTS 3 (expressive TTS, 35 languages) + LiveKit-based streaming voice-agent pipeline; seventh vertical in Mistral's open-weight product ladder
 - [[wispr-flow]] — voice-dictation + AI-editing product letting devs prompt agents in [[cursor]] / VS Code / JetBrains ~4× faster than typing; Bloomberg-reported $260M @ ~$2B Menlo Ventures lead (Jun 2026)
 - [[world-action-models]] — NVIDIA's model family for robot manipulation with generalization beyond training scenes; part of NVIDIA physical-AI stack alongside [[isaac-groot]] + [[alpamayo]] (Aug 2026)
 - [[xcode-27]] — Apple's Sep 2026 Xcode release with model-agnostic coding agents + workflow customization + Device Hub for unified device management
@@ -623,6 +628,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[aef-1-standard]] — voluntary Sep 2026 standard from the AI Evaluator Forum defining minimum operating conditions for independent third-party AI evaluations (access, COIs, autonomy, transparency, sensitive-info protection); co-signed by [[xai]] + [[openai]] + [[anthropic]]
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
 - [[agent-harness]] — Latent Space canonicalizes *harness = everything besides the model weights that makes an agent work (environment + tools + context + guardrails)* + three-era framework: Bolt-On 1.0 → Co-Training 2.0 → Attention 3.0 (Aug 2026)
+- [[attention-interface]] — Harness 3.0 — the portion of the agent harness that faces the human (when to interrupt, what to show, which decisions require human input); predicted by Latent.Space (Aug 2026), productized via [[claude-mods]] (Oct 2026)
 - [[agentic-ai-foundation]] — Linux Foundation project for open agentic-AI standards; OpenAI/Anthropic/Block + MCP *(stale)*
 - [[ai-browsers]] — browsers as AI runtimes; Atlas, Comet, Opera Neon, Microsoft AI browser *(stale)*
 - [[akrites]] — Linux Foundation + tech-giants cross-vendor initiative to protect critical open-source software from AI-powered cyberattacks (Jul 2026)
