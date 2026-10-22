@@ -225,6 +225,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-commerce-agents]] — Anthropic's open-source (Apache 2.0) AI shopping-agent + merchant-agent suite; 35% cart-size boost + 60% higher purchase-completion; four vertical demos + Claude Code plugin (Sep 2026)
 - [[claude-corps]] — Anthropic's paid AI-learning fellowship ($85K stipend); anthropic.com/claude-corps/fellow (Jun 2026)
 - [[claude-cowork]] — Anthropic's local-file agent for organizing digital work; anchor surface in PwC 30K-staff deployment (May 2026)
+- [[claude-duet]] — Anthropic's Oct 2026 AI agent built for work tasks; takes actions and performs tasks on its own; explicitly less capable at personal errands vs OpenAI Dots and Meta Muse
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
 - [[claude-docs]] — Anthropic's Sep 2026 beta document-authoring product surface bundled into the unified Claude app; competitive with Google Docs + Microsoft Word
 - [[claude-fable-5]] — Anthropic's June 2026 frontier Claude release; "Beats Opus" per TAAFT; introduces "Fable" as a new versioned Claude tier alongside Haiku/Sonnet/Opus/Mythos (Jun 2026)
@@ -478,6 +479,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ox-alpha]] — Anonymous free reasoning model surfacing on OpenRouter Aug 2026; 1M context / 131K output / text+image+video; 8/10 deterministic DeepSWE subset (beats Fable 5 + GLM-5.3 + Grok 4.6 + GPT-5.6 Sol); GLM-5V-Turbo tokenization fingerprint suggests Zhipu-AI-adjacent origin
 - [[openai-doug]] — OpenAI's massive pre-training frontier run targeting base capabilities through raw scaling; sibling to Astra in a two-model frontier split (Aug 2026)
 - [[openai-nextslide]] — OpenAI-acquired presentation startup turning raw model outputs into polished slide decks; step toward a full office suite inside ChatGPT (Aug 2026)
+- [[patch-the-planet]] — OpenAI Daybreak initiative with Trail of Bits for AI-assisted vulnerability discovery and coordinated disclosure in critical OSS; first major outcome Oct 2026 — PHP2Shell
 - [[openai-private-safety-processing]] — OpenAI's Aug 2026 zero-data-retention misuse-detection substrate for API sessions; hunts patterns across a whole run of requests to catch rogue agents without staff seeing content (safety AND privacy dual-property design)
 - [[openai-companion]] — OpenAI's first consumer device: screenless, movable smart speaker, $200-300, early 2027 ship, GPT-Live inside, Jony Ive design team, "humanlike AI companion for the home" (Jul 2026)
 - [[openai-daybreak]] — OpenAI's frontier cyber-defense platform pairing GPT-5.5 + Codex Security (May 2026)
@@ -677,6 +679,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ontologies-for-agents]] — Semantic-Web ontology revival as deterministic guardrails for probabilistic agents; Neo4j "smarter shared substrate" + OpenLink Software "agent engineering stack"; Frank Coyle + Emil Eifrem + Kingsley Idehen (Jul 2026)
 - [[open-secure-ai-alliance]] — Nvidia-led cross-vendor AI-safety coalition launched Jul 2026 after Sol/HF breach; 30+ orgs including Microsoft/HF/IBM/Cloudflare/Cisco/Red Hat/Salesforce/SAP; OpenAI + Google + Anthropic notably absent
 - [[orbital-data-centers]] — space-based AI compute initiatives; SpaceX, Project Suncatcher, Cowboy Space Corp, Starcloud (May 2026)
+- [[php2shell]] — Oct 2026 pair of CVSS 9.2 unauthenticated RCE CVEs in core PHP (CVE-2026-109618 + CVE-2026-109619) discovered by OpenAI's Patch the Planet + independently by Google Wiz
 - [[post-quantum-cryptography]] — algorithms designed to remain secure against large-scale quantum computers ("harvest now, decrypt later" defensive posture); Kyber / ML-KEM canonical primitive; canonical at-scale consumer deployment via Apple [[imessage-pq3]] (Aug 2026)
 - [[reasoning-trace-extraction]] — cross-vendor API vulnerability disclosed by Alexander Panfilov et al. that enables extraction of hidden reasoning tokens from frontier LLM APIs (Claude, GPT, Gemini); reasoning-token count matches billed thinking-tokens 1:1 (Aug 2026)
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026) *(stale)*
