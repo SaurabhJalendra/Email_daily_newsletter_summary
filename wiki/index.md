@@ -73,6 +73,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ineffable-intelligence]] — David Silver's reinforcement-learning "superlearners" lab; $1.1B seed (Apr 2026) *(stale)*
 - [[inherent]] — DeepMind-alumni-founded AI research-automation startup; ships [[faraday-27b]] that outperforms Anthropic + OpenAI frontier models at replicating scientific research papers (Aug 2026)
 - [[instinct]] — Viral AI startup; $350M @ $2.5B valuation (Aug 2026); consumer-tier positioning per cross-newsletter recoverage
+- [[intel]] — US semiconductor incumbent; CTO Pushkar Ranade; AI-era roadmap of gate-all-around + backside-power + CFET + ruthenium-interconnects + hybrid-bonding; Terafab partnership (Oct 2026)
 - [[intrinsic]] — Alphabet's industrial-robotics software subsidiary; open-sourced Intrinsic Core stack at ROSCon 2026 (hardware-agnostic real-time control + 6-DoF pose estimation + auto motion/grasp planning + pre-tuned ROS drivers) (Sep 2026)
 - [[interpositive]] — Ben Affleck's 16-person AI-post-production startup (project-specific dailies-trained tools); acquired by [[netflix]] for $587M+ (Jul 2026)
 - [[jetbrains]] — Czech developer-tools company (IDEs, TeamCity CI, AI Assistant, Junie, Mellum2); Aug 2026 unauthenticated RCE in TeamCity On-Premises actively exploited
@@ -92,9 +93,11 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[minimax]] — Chinese frontier-model lab; M2.1 coding model
 - [[mirendil-ai]] — New AI lab founded by ex-Anthropic/OpenAI/Google/xAI employees; $200M seed; building self-improving science research AI (Jun 2026)
 - [[mistral]] — French frontier lab; [[mistral-large-4]] "Le Chonk" trillion-parameter MoE flagship (Oct 2026); Mistral Studio + Mistral 3 open-weights; HSBC + Airbus/BMW/CMA CGM; Vibe Work/Code Mode (Jun 2026)
-- [[nebius]] — AI cloud company climbing from compute to inference + agentic platforms; Token Factory managed inference platform; Eigen AI/Clarifai/Tavily acquisitions in 6 weeks; CTO Danila Shtan on execution-speed-as-moat (Jul 2026)
+- [[modal]] — serverless AI-infrastructure platform (CEO Erik Bernhardsson); $750M Series D at $16B valuation; ~3B sandboxes spun up; sandboxes ~1/3 of revenue (Oct 2026)
 - [[mongodb]] — document-database vendor; Atlas Managed MCP Server + Voyage AI Automated Embedding + Atlas Embedding/Reranking API + LangGraph.js persistent agent memory + expanded Vercel partnership; "agentic era" positioning turns Atlas into data layer for AI agents (Aug 2026)
+- [[monzo]] — UK digital bank; in-house "Agent Chip" coding-agent ecosystem authors ~10% of merged PRs + 1,800+ tasks/day; MCP-gateway + isolated-sandboxes + orchestration + human-review (Oct 2026)
 - [[moonshot-ai]] — Chinese frontier lab; ships Kimi K2 Thinking open-source reasoning model
+- [[nebius]] — AI cloud company climbing from compute to inference + agentic platforms; Token Factory managed inference platform; Eigen AI/Clarifai/Tavily acquisitions in 6 weeks; CTO Danila Shtan on execution-speed-as-moat (Jul 2026)
 - [[netflix]] — streaming platform; acquires [[interpositive]] for $587M+ (Jul 2026) for internal AI post-production tooling
 - [[neuralink]] — Musk brain-computer-interface vendor; pretraining decoders on 50,000+ hours of unlabeled freeform neural data from clinical trials for more accurate + long-lived decoders (Oct 2026)
 - [[notion]] — workspace app; Custom Agents autonomous AI teammates Feb 2026 *(stale)*
@@ -116,6 +119,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qualcomm]] — AI200/AI250 data-center AI chips *(stale)*
 - [[radical-numerics]] — Bio-security AI company building Genomic Language Models (GLMs); CEO Eric Nguyen frames bio-defense as an AI arms race + "defense is currently losing"; GLMs can generate entire bacteriophage genomes synthesized into functional viruses (Sep 2026)
 - [[ramp]] — US corporate-finance platform; Aug 2026 ships Router.com single-endpoint LLM aggregator (~40% inference cost reduction; free through 2026 + $26 launch credit)
+- [[recursive]] — AI lab shipping [[flint]] MoE coding model for local hardware; 40B total parameters; >125 tokens/sec on M4 Pro MacBook Pro (Oct 2026)
 - [[recursive-superintelligence]] — Tim Rocktäschel ex-DeepMind RSI startup; $650M @ $4.65B in a single day (May 2026) *(stale)*
 - [[reflection]] — NVIDIA-backed US open-source lab founded by ex-Google DeepMind researchers; $6.3B SpaceX Colossus 2 / GB300 compute deal (Jun 2026)
 - [[replit]] — browser IDE; non-coder pivot *(stale)*
@@ -299,6 +303,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
 - [[evals-skills]] — Hamel Husain + Shreya Shankar's free open-source eval skills bundle for coding agents; v2 launched Aug 2026 with new `error-discovery` + `start` skills; installs via `npx skills add ai-evals-course/evals-skills`
 - [[firefox]] — Mozilla's browser joins the AI browser race with Aug 2026 Exa partnership powering *Smart Window* on desktop + *Quick Answers* on iOS; privacy-first + optional-AI + user-choice posture; fills [[chatgpt-atlas]] void (Aug 2026)
+- [[flint]] — Recursive's mixture-of-experts model for fast agentic coding on local hardware; 40B total parameters; >125 tokens/sec on M4 Pro MacBook Pro (Oct 2026)
 - [[flue]] — Fred Schott's (Astro creator) React-style meta-harness for agents; 16 Agent Hooks (`useSkill()` / `useTool()` / `useSubagent()`) atop Pi minimal-harness substrate; host-portable open-source competitor to [[vercel-eve]]; agent-defined-by-harness thesis (Aug 2026)
 - [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(superseded by [[flux-3]])*
 - [[flux-3]] — Black Forest Labs' Jul 2026 multimodal foundation model (image + video + audio + robotics); powers real-world factory robots at Audi
@@ -463,6 +468,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[minimax-h3]] — MiniMax's Jul 2026 next-generation multimodal video model — native 30-second + consistent three-minute videos + interactive frame editing + up to 50 multimodal references
 - [[minimax-m3-1-flash]] — MiniMax's Oct 2026 Flash-tier model; ~3× faster + 70% cheaper vs predecessor + 1M-token context + text+image; Ollama day-0 free through Oct 22; open weights promised Oct 23
 - [[mojo]] — Modular's Python-superset AI/ML systems programming language; fully open-sourced under Apache 2.0 with LLVM exceptions (Aug 2026)
+- [[monzo-agent-chip]] — Monzo's in-house AI coding-agent ecosystem; Slack-triggered + MCP-gateway-controlled + sandboxed; ~10% of merged PRs + 1,800+ tasks/day (Oct 2026)
 - [[motif-3]] — Motif Technologies (South Korea) 314B/13.2B-active MoE MIT-licensed open-weight LLM; ~256K context; ~44 Artificial Analysis Intelligence Index; strongest open-weight MoE LLM outside US/China ecosystem; Dokpamo sovereign-AI program (Sep 2026)
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
@@ -540,6 +546,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[open-fable]] — Zhipu AI's forecasted ~Dec 2026 open-weights Fable-class model; strategic open-source counter to the Fable/Mythos export-control regime (Jun 2026)
 - [[open-lovable]] — Firecrawl team's Sep 2026 open-source Lovable-clone; 28,000+ GitHub stars; requires Firecrawl + a model provider (Gemini/Anthropic/OpenAI/Groq) + Vercel sandbox to self-host
 - [[open-agent-safety-platform]] — NVIDIA's Sep 2026 open platform for controlling + monitoring AI agents; OpenShell (CPU-side containment) + Sentry (network safeguards); Microsoft + Cisco + Oracle + Intel ecosystem
+- [[openshell]] — NVIDIA's open-source sandboxed runtime for agent containment; CPU-side component of [[open-agent-safety-platform]]; restated at GTC Berlin 2026 as a stand-alone reference architecture (Oct 2026)
 - [[openclaw]] — open-source persistent assistant; team (incl. Steinberger) acquihired into OpenAI *(stale)*
 - [[opencode]] — Anomaly's open-source AI coding agent; Oct 2026 OpenCode 2.0 overhaul with shared background server, embeddable TS SDK, hot-reloadable plugins, async shell commands, background subagents, and Code Mode (JavaScript-composed batched MCP + OpenAPI tool calls); breaking v1 upgrade
 - [[openjarvis]] — open-source framework for a local personal AI assistant — local chat + document memory + tools (search/calculations) + Google Drive/Gmail connectors + voice I/O + scheduled agents; alpha status; Iron Man Jarvis as design metaphor (Aug 2026)
