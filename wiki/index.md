@@ -179,6 +179,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agentmemory]] — Tom Dörr open-source persistent-memory layer for AI coding agents; 92% token reduction (May 2026) *(stale)*
 - [[agora]] — NVIDIA's Sep 2026 multi-agent coding-collaboration platform; records each result/hypothesis/verification as immutable Git commit for transparent audit trail
 - [[ai-edge-gallery]] — Google on-device AI runtime for Android *(stale)*
+- [[alexa-tablet]] — Amazon's Oct 8 2026 Android tablet line replacing Fire Tablet brand; 8"/11"/12" Pro SKUs at $229.99–$549.99; full Google Play Store + Alexa+ generative-AI assistant
 - [[alpamayo]] — NVIDIA open 10B autonomous-driving model family (Jan 2026 CES) *(stale)*
 - [[alphaevolve]] — Google DeepMind's teased Alpha-series extension into complex evolving/dynamic environments — long-horizon multi-step optimization across science + engineering (Jul 2026)
 - [[alphafold]] — Google DeepMind's protein-structure prediction system (AlphaFold 2 → AlphaFold 3); 2024 Nobel Chemistry anchor; Oct 2026 reframed on Latent.Space by Pushmeet Kohli + Sal Candido as "major starting point, not solution to protein biology" — next frontier is protein language models + molecular dynamics + world models of biology
@@ -586,6 +587,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[runway-gen-4-5]] — Runway's text-to-video; tops Veo 3 and Sora on Artificial Analysis benchmark *(stale)*
 - [[safari-mcp]] — Apple's Sep 2026 WebKit-native MCP server shipped in Safari 27.0; lets any coding agent (Claude/ChatGPT/etc.) take control of the browser window
 - [[sakana-fugu]] — Sakana AI's multi-agent orchestration platform; behaves like single model from API consumer's perspective; claimed parity with Fable/Mythos (Jun 2026)
+- [[scion]] — Anthropic's custom internal source control system; Oct 2026 reported as equivalent in scale to the custom VCS of a 35,000–70,000-staff company (Google/Meta tier)
 - [[scrollcraft]] — Nate Herk's free Claude Code skill for transforming ordinary landing pages into premium scroll-driven websites; interviews the user about the journey and works with existing or AI-generated assets (Aug 2026)
 - [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2.5 weeks away with longer clips + 4K imminent + Seedance 2.0 mini lower-cost variant released (Jun 2026)
 - [[self-harness]] — Shanghai AI Lab framework enabling an agent to autonomously rewrite its own operating harness (~60% perf boost); three-stage iterative loop (weakness mining → harness proposal → proposal validation) (Jul 2026)
@@ -665,6 +667,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ethan-mollick]] — Wharton professor / One Useful Thing author; "co-intelligence" framer; *Co-Existence* book Oct 20 2026
 - [[eu-ai-act]] — EU AI regulation; transparency obligations went into full enforcement across Europe Aug 2 2026; €47M in first fines to three companies; fines up to €15M or 3% of global turnover; some high-risk-system obligations deferred to 2027-2028 (Aug 2026)
 - [[fine-tuning]] — LLM adaptation to specific domains *(stale)*
+- [[formal-software-verification]] — Mathematical-proof-based code certification (Lean/Coq/F*); 2026 shift: LLMs make formal verification feasible at scale (Anthropic research + Mistral [[leanstral]]/[[shieldstral]])
 - [[forward-deployed-engineer]] — customer-embedded software/ML engineer role owning AI-solution lifecycle; from Palantir → OpenAI + Anthropic + AWS ($1B org) + Microsoft (Jul 2026)
 - [[ghostcommit]] — PNG-hidden prompt-injection attack that hides instructions in PR-attached images and coerces coding agents to leak `.env` credentials (Jul 2026)
 - [[graph-engineering]] — Harnoor Singh's named discipline for building production-grade agents as networks (workers/routers/tools/verifiers); seven-stage roadmap; orchestration graphs (temporary) vs memory graphs (durable) binary; HydraDB/HydraBrain/Neo4j/GraphRAG substrate (Jul 2026)
