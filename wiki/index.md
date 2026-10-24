@@ -8,6 +8,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai2]] — Allen Institute for AI nonprofit; PreScience open scientific-forecasting benchmark + LACERScore Feb 2026 *(stale)*
 - [[ai-automation-society]] — Nate Herk's Skool-hosted AI-automation community (100K+ own-reported / ~305K–420K third-party members, 2K+ paying Plus); n8n + Claude Code education; first hackathon launched Aug 1 2026 with $6K prizes + beginner track (Aug 2026)
 - [[agility-robotics]] — humanoid-robotics vendor; ships Digit humanoid for factory/warehouse work; Digit 5 unveiled Sep 2026 (50-lb payload + swappable end-effectors + 9-min recharge + >20h/day + unfenced human-robot collaboration + >65K production hours + >$300M multi-year orders + Toyota + EU/UK expansion + anticipated SPAC listing)
+- [[ahead-of-ai]] — Sebastian Raschka's technical newsletter on LLM research + reasoning models + post-training; >223K subscribers on Substack (Oct 2026)
 - [[alfred-robotics]] — stealth robotics-software startup at $40M valuation; Sam Altman invests via Hydrazine Capital alongside Khosla Ventures + SV Angel (Jun 2026)
 - [[airbnb]] — travel-stay marketplace undergoing AI-native rebuild under CTO Ahmad Al-Dahle (ex-Meta Llama); ~60% AI-authored code + ~1.6× engineer PR throughput + ~50% support tickets AI-resolved + internal AirChat agent + Everest context graph (Oct 2026)
 - [[ai21-labs]] — Israeli foundation-model lab; Jamba family; NVIDIA reported $3B acquisition talks Jan 2026 *(stale)*
@@ -200,6 +201,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[aws-blocks]] — Amazon's open-source framework for building modular, reusable cloud apps from composable software components (Jun 2026)
 - [[brain2qwerty-v2]] — Meta FAIR's non-invasive brain-to-text system that decodes typed sentences from MEG brain signals; ~61% word accuracy / 78% best-participant (Jun 2026)
 - [[broadcom-truesource]] — Broadcom's Sep 2026 enterprise suite for securely managing + supporting open-source software; verified, human-checked code + enterprise support tier
+- [[build-a-reasoning-model]] — Sebastian Raschka's 2026 book + 8-video / >11h Python/PyTorch video course for implementing a reasoning model end-to-end (evaluation + inference-time scaling + RL + distillation); shipped Oct 24 2026
 - [[buzz]] — [[block]]'s Aug 2026 open-source, self-hosted workspace unifying chat + search + Git events + YAML-based automation where humans and AI agents share the same rooms
 - [[canva-ai-2]] — Canva's Apr 2026 AI-native creative environment; fully editable generated designs *(stale)*
 - [[career-ops]] — Open-source AI system by Santiago Fernández de Valderrama that automates end-to-end job search (~50K+ GitHub stars at launch, Jun 2026)
@@ -691,6 +693,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[orbital-data-centers]] — space-based AI compute initiatives; SpaceX, Project Suncatcher, Cowboy Space Corp, Starcloud (May 2026)
 - [[php2shell]] — Oct 2026 pair of CVSS 9.2 unauthenticated RCE CVEs in core PHP (CVE-2026-109618 + CVE-2026-109619) discovered by OpenAI's Patch the Planet + independently by Google Wiz
 - [[post-quantum-cryptography]] — algorithms designed to remain secure against large-scale quantum computers ("harvest now, decrypt later" defensive posture); Kyber / ML-KEM canonical primitive; canonical at-scale consumer deployment via Apple [[imessage-pq3]] (Aug 2026)
+- [[reasoning-models]] — LLM subclass trading inference-time compute (CoT, verifier loops, inference-time search) for better math/coding/planning performance; four construction pillars (evaluation + inference-time scaling + RL + distillation) canonicalized by Raschka's Oct 2026 course; 2026 shift toward *configurable effort knob* on general-purpose models
 - [[reasoning-trace-extraction]] — cross-vendor API vulnerability disclosed by Alexander Panfilov et al. that enables extraction of hidden reasoning tokens from frontier LLM APIs (Claude, GPT, Gemini); reasoning-token count matches billed thinking-tokens 1:1 (Aug 2026)
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026) *(stale)*
 - [[software-factories]] — cross-vendor thesis (Warp Oz + Cursor FDE + Factory) that every major software project will soon run on an automated main-loop factory (triage → spec → implement → review → verify → ship → monitor) (Jul 2026)
@@ -702,6 +705,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[prompt-compression]] — techniques to compress long prompts into smaller representations preserving task-relevant info; Shopify "gisting" as named canonical technique for reducing agent-loop context/cost/latency (Sep 2026)
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures *(stale)*
 - [[recursive-self-improvement]] — Anthropic's "Sparks of RSI" essay; 80% of Anthropic code Claude-authored, 8× engineer output, coordinated-pause ask (Jun 2026)
+- [[sebastian-raschka]] — ML researcher + educator; author of [[ahead-of-ai]] newsletter (>223K subs) + `LLMs-from-scratch` repo (>100K stars) + 2026 *Build a Reasoning Model (From Scratch)* book + Oct 2026 companion video course
 - [[tsrx]] — TypeScript language extension + JSX successor by Dominic Gannaway; statically analyzable for LLMs; multi-target compile (React/Solid/Preact/Vue) (Jun 2026)
 - [[universal-commerce-protocol]] — Shopify + Google open protocol for agent-commerce; canonical substrate for Shopify Agentic Storefronts into ChatGPT + Gemini + Copilot (Oct 2026)
 - [[waico]] — World Artificial Intelligence Cooperation Organization; China-led intergovernmental AI governance body launched Jul 16 2026 in Shanghai; 29 founding countries (US/UK/Canada/EU absent)
