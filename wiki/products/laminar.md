@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: [[ramp]]
 > **First mentioned**: 2026-10-22-morning
-> **Last updated**: 2026-10-22-morning
+> **Last updated**: 2026-10-25-morning (**Cycle-N+3 NLP Newsletter HIGH weekly-digest cross-cohort recoverage** — slot anchors Laminar alongside the week's agent-cadence cohort ([[claude-duet]] + [[kimi-k3-1-pro]] + [[minimax-m3-1-flash]] + [[flint]] + [[deepinfer]] + [[mercury-3]]): *"Ramp has detailed its Laminar harness, and various AI developments and tool launches are announced"* + *"Ramp details its Laminar harness"*. First-in-wiki: **Elvis Saravia's NLP Newsletter weekly-digest-tier canonical placement** validates Laminar as part of the mid-to-late-Oct-2026 agent-runtime-productization cohort. See [[ramp]] + [[router-ramp]] + [[claude-duet]] + [[agent-frameworks]] — *source: data/summaries/2026-10-25-morning.json (NLP Newsletter HIGH "AI Agents Weekly: Claude Duet, Kimi K3.1 Pro, MiniMax M3.1 Flash, Recursive Flint, DeepSeek DeepInfer, Ramp Laminar, Mercury 3, and More")*)
+> **Previously updated**: 2026-10-22-morning
 > **Status**: active
 > **Related**: [[ramp]], [[router-ramp]], [[agent-frameworks]], [[agent-harness]], [[claude-code]], [[claude-mods]], [[mcp]]
 

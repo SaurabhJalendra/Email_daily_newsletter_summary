@@ -425,6 +425,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kimi-k2-7-code]] — Moonshot AI's Jun 2026 coding-specialized K2.7-series Kimi variant; launches on Ollama's US-hosted cloud (Jun 2026)
 - [[kimi-code-cli]] — Moonshot AI's terminal-tier AI coding agent; reads/edits code + runs shell + searches files + fetches web + chooses next step from feedback; open-sourced at github.com/MoonshotAI/kimi-code (Jul 2026)
 - [[kimi-k3]] — Moonshot AI's leaked next-gen ~2.5T-parameter Kimi model; 1M context, long-horizon-agents-tuned, new "Kimi Linear" attention hybrid, projected ~8× cheaper than GPT-5.5; likely Apache 2.0 open-weight (Jul 2026, leak)
+- [[kimi-k3-1-pro]] — Moonshot AI's Oct 2026 flagship 3T-class multimodal MoE successor to Kimi K3; 2.8T total / 104B active / 1M context; post-trained from K3 with substantially more RL compute; Terminal-Bench 4.0 65.7% ahead of GPT-6 Astra; full weights due Nov 4 2026
 - [[kitesurf]] — Cloudflare's stateless browser running entirely on Workers; designed for AI-agent use cases where full Chromium is overkill (Aug 2026)
 - [[kimi-k2-thinking]] — Moonshot AI's open-source reasoning model; tops GPT-5, Claude Sonnet 4.5 on several benchmarks *(stale)*
 - [[k2-horizon]] — MBZUAI's Sep 2026 fully-open model fleet — six models spanning 0.9B → 375B parameters; Abu Dhabi's flagship open-weights contribution
