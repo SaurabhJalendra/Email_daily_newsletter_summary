@@ -9,9 +9,10 @@ type: product
 > **Type**: product
 > **Vendor**: [[mistral]]
 > **First mentioned**: 2026-10-22-morning
-> **Last updated**: 2026-10-22-morning
+> **Last updated**: 2026-10-26-morning (**Cycle-N+4 cross-cohort speech-models cluster placement — paired with same-cycle [[phonon]] ([[gradium]]) [[ollama]]-TTS-launch + [[dessa]] ([[block]]) full-duplex-S2S-research-preview as *canonical late-Oct-2026 three-vendor open/local voice-AI productization cluster* — Ollama-local-TTS-tier + Mistral-SDK-tier + Block-research-S2S-tier three-anchor cohort. Validates Voxtral 3's SDK-tier positioning as *concrete integrated-STT-plus-TTS-plus-pipeline tier* distinct from Phonon's TTS-only + Dessa's duplex-S2S tiers. See [[speech-models]] (NEW) + [[phonon]] + [[dessa]] + [[ollama]] + [[block]] — *source: data/summaries/2026-10-26-morning.json (Ollama Newsletter MEDIUM "Speech models in Ollama"; researchFindings.additionalContext — Speech models)*)
+> **Previously updated**: 2026-10-22-morning
 > **Status**: active
-> **Related**: [[mistral]], [[elevenlabs]], [[assemblyai]], [[speechmatics]], [[fish-audio]], [[linden-stt]], [[voice-agents]]
+> **Related**: [[mistral]], [[elevenlabs]], [[assemblyai]], [[speechmatics]], [[fish-audio]], [[linden-stt]], [[voice-agents]], [[speech-models]], [[phonon]], [[gradium]], [[dessa]], [[block]], [[ollama]]
 
 ## Summary
 

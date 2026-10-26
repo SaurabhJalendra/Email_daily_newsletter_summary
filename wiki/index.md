@@ -59,6 +59,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[general-intuition-ai]] — Neo Lab building Large Action Models (LAMs) and world models that perceive/predict/act across virtual and physical spaces (Jun 2026)
 - [[glean]] — enterprise AI search/agent company co-founded by ex-Google Distinguished Engineer Arvind Jain; canonical enterprise implementer of model routing (three modes: explicit / admin / automatic); Waldo agentic-search model (50% latency + 25% token reduction); $150M Series F, ~$300M ARR (Aug 2026)
 - [[google]] — Gemini family; 3, 3.1 Flash TTS, Mac app, Chrome Skills, Jules, Veo, NATO Cloud
+- [[gradium]] — AI research company behind the Phonon family of small state-of-the-art text-to-speech (TTS) models; first speech-model vendor on [[ollama]] Oct 2026
 - [[greptile]] — Y Combinator–backed AI code review platform; full-codebase graph index + swarm of specialized AI reviewers; ships [[trex]] runtime-validation extension (Aug 2026)
 - [[groq]] — LPU inference-silicon company; $650M raise + pivot to inference cloud services (May 2026, contradicts Dec 2025 NVIDIA-acquired framing)
 - [[h-company]] — computer-use agents on desktop + browser plugging into Claude Code, Cursor, and Hermes (Aug 2026)
@@ -298,6 +299,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek-v4-1-flash]] — DeepSeek's Sep 2026 efficient open-weight MoE (552B total / 8-16B active); ~33× cheaper than GPT-6 Astra; 98% of Astra score at 1.4% cost; edges Claude Opus 5 + GPT-5.6 Sol on agentic/coding/cyber benchmarks; native image understanding
 - [[dots]] — OpenAI's Sep 29 2026 DevDay launch — persistent always-on AI agents powered by GPT-6 Astra; each has its own cloud computer + 4,000+ app integrations + Slack/Teams + user-defined boundary controls + consequential-actions-require-approval; free with Pro and Business Premium
 - [[dsec]] — DeepSeek's Sep 2026 production sandbox infrastructure (arXiv:2609.22978); 380K+ concurrent + 5K+/s + 3M/day sandboxes; four backends (function/container/microVM/full-VM); AppArmor + eBPF security
+- [[dessa]] — Block's unreleased full-duplex speech-to-speech model that listens and speaks simultaneously while modeling conversational cues (pauses, laughter, emotion); high-end consumer hardware; safety-research testing only (Oct 2026)
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
 - [[dig-bench]] — agent benchmark measuring rule-discovery-through-experimentation; 70 text-based games (21 publicly released, ~49 held for anti-contamination) (Aug 2026)
 - [[digit-5]] — Agility Robotics' Sep 2026 next-gen humanoid; 50-lb payload + swappable end-effectors (paddle/pincher/claw/five-finger) + 9-min recharge + ~90-min runtime + >20 working h/24 + unfenced cooperatively safe operation + early access H1 2027 → broader end-2027
@@ -566,6 +568,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[perplexity-personal-computer]] — Perplexity's always-on local AI agent on a dedicated Mac mini (Mar 2026) *(stale)*
 - [[perplexity-portable-computer]] — Perplexity+Nvidia's fully local AI agent on DGX Spark; zero token costs, model/data/work on-device, Linux launch + Windows Sept 2026 (Aug 2026)
 - [[personal-agent-protocol]] — [[meta]] + [[sierra]] open standard (Oct 2026) for how personal AI agents authenticate with + interact with businesses across websites, applications, and customer-support systems
+- [[phonon]] — [[gradium]]'s family of small state-of-the-art text-to-speech (TTS) models; first speech model supported in [[ollama]] Oct 2026; streams audio as generated; >100× real-time on Apple Silicon; five languages; dozens of voices
 - [[pi-1-0]] — [[earendil]]'s Oct 1 2026 first stable release of open-source MIT-licensed AI coding-agent harness — native MCP + Codemode + image-model support + virtual-model extensions + deferred tool loading + Anthropic cache warming
 - [[pi-durable]] — [[earendil]]'s Oct 1 2026 TypeScript port of Pi — adds crash survival + portability + concurrency + extensibility + context management + multiplayer/state sync
 - [[plandex]] — open-source AI coding agent designed for large engineering tasks and multi-file changes (Jun 2026)
@@ -700,6 +703,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[reasoning-trace-extraction]] — cross-vendor API vulnerability disclosed by Alexander Panfilov et al. that enables extraction of hidden reasoning tokens from frontier LLM APIs (Claude, GPT, Gemini); reasoning-token count matches billed thinking-tokens 1:1 (Aug 2026)
 - [[recursive-architectures]] — latent-space recurrent reasoning models — HRM, TRM, RecursiveMAS — token-free hierarchical reasoning (May 2026) *(stale)*
 - [[software-factories]] — cross-vendor thesis (Warp Oz + Cursor FDE + Factory) that every major software project will soon run on an automated main-loop factory (triage → spec → implement → review → verify → ship → monitor) (Jul 2026)
+- [[speech-models]] — AI systems that generate or understand spoken audio: TTS, STT, and full-duplex speech-to-speech; late-Oct-2026 trend toward lower-latency, more natural, and more locally deployable voice AI (Phonon + Dessa + Voxtral 3 three-vendor cohort)
 - [[synthetic-consensus]] — AI swarms (coordinated LLM+multi-agent networks) infiltrating online communities to create illusion of broad public agreement; researcher-recommended four-primitive defense playbook; first-in-wiki canonical anchor (Aug 2026)
 - [[system-one-models]] — emerging decision-only model class returning typed structured judgments (choices, scores, probabilities) with calibrated confidence rather than free text; coined by TypeSafe AI for the Jev launch, canonicalized by Simon Willison; heterogeneous stack framing (code + decision models + generative models)
 - [[tabular-foundation-models]] — new pretrained model class for structured/tabular data (spreadsheets, CSVs, DB tables); zero-shot in-context learning replaces per-dataset training; canonical cohort TabFM/TabPFN/KumoRFM/TabICL (Jul 2026)
