@@ -481,8 +481,10 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[moltbook]] — Reddit-style social network populated only by AI agents; 1.5M moltys at launch (Feb 2026)
 - [[moltbot]] — Open-source self-hosted personal AI assistant (formerly Clawdbot); 24/7 messaging-app agent *(stale)*
 - [[nvidia-avo]] — NVIDIA's Agentic Variation Operators general-purpose coding-agent architecture; achieved perfect 100.00 on ARC-AGI-3 (183 levels / 25 environments) powered by Claude Opus 5 using ~12% fewer actions than the prior leader (Aug 2026)
+- [[nvidia-hyperion]] — NVIDIA's Oct 2026 AV + robotaxi fleet-building platform; European mobility leaders use Hyperion to build, validate, and deploy safe autonomous vehicles at scale (GTC Berlin 2026 canonicalization)
+- [[nvidia-minerva]] — NVIDIA's Oct 2026 AIOps platform for monitoring AI-factory infrastructure and workloads (GTC Berlin 2026 launch, alongside expanded Cosmos tools + RTX Spark/DGX Spark/DGX Station local AI)
 - [[nvidia-pair]] — NVIDIA's Sep 2026 free Virtual Inference Router that turns idle RTX GPUs (+ DGX Spark + Apple M4+ devices) on a home/local network into a distributed personal AI compute cluster
-- [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026)
+- [[nvidia-vera-cpu]] — NVIDIA's first agent-tuned CPU; 88 Olympus cores; $200B TAM (May 2026); Oct 2026 Modal selects for AI-agent workloads with ~2× work-throughput vs comparable x86
 - [[artemis]] — Google's Sep 2026 open-source tool letting AI assistants + test suites drive real Android phones from natural-language instructions (`github.com/google/artemis`)
 - [[astra-next]] — OpenAI's Sep 2026 unreleased successor to GPT-6 Astra; "significantly more capable"; produced OpenAI's claimed Navier-Stokes Millennium Prize proof via 10,000-agent swarm × 88 hours × 130B tokens × >$40M compute; ~50% vs Astra's ~10% on internal difficult-math benchmark
 - [[atlas-omni-model]] — World Labs' Sep 2026 first-of-its-kind omni-model that solves the sparse reconstruction problem — predicts new camera views from 2D images, outperforming state-of-the-art specialized models; direct consequences for design/engineering/science/robotics; disclosed alongside $8.2B AMD acquisition
@@ -628,6 +630,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[trueforge]] — TrueFoundry's open-source agent harness; up to 75% cost reduction vs vendor-neutral agents (Aug 2026)
 - [[trex]] — [[greptile]]'s runtime-validation extension — autonomously writes + executes tests for each PR in a dynamic sandbox, returning screenshots + logs as concrete proof of failure; claims 4× faster merges + 3× more production-blocking bugs caught vs static-only review (Aug 2026)
 - [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell); Groq 3 LPX ships as extension in full production (Aug 2026)
+- [[vera-rubin-dsx-pod]] — NVIDIA's Oct 2026 modular, partner-built AI data-center design unveiled at GTC Berlin keynote; reduces AI-factory deployment time from six months to 14 days (~13× deployment-speed anchor)
 - [[wan-3-0]] — Alibaba's Aug 2026 long-form AI video model; up to 30-second single-pass clips from text/documents; $0.20/sec at 1080p; #1 with-audio on Artificial Analysis arena at 1,240 Elo
 - [[watermelon]] — Meta's upcoming internal frontier-tier model per Meta Superintelligence Chief Alexandr Wang; caught up with OpenAI's GPT-5.5 on closely followed AI benchmarks; still in training, no release timeline (Jul 2026)
 - [[weathernext-2]] — Google DeepMind's open-source high-impact weather model; ~1 extra day of lead time on tropical cyclone forecasting (Aug 2026)
