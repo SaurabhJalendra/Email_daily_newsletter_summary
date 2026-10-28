@@ -711,6 +711,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[synthetic-consensus]] — AI swarms (coordinated LLM+multi-agent networks) infiltrating online communities to create illusion of broad public agreement; researcher-recommended four-primitive defense playbook; first-in-wiki canonical anchor (Aug 2026)
 - [[system-one-models]] — emerging decision-only model class returning typed structured judgments (choices, scores, probabilities) with calibrated confidence rather than free text; coined by TypeSafe AI for the Jev launch, canonicalized by Simon Willison; heterogeneous stack framing (code + decision models + generative models)
 - [[tabular-foundation-models]] — new pretrained model class for structured/tabular data (spreadsheets, CSVs, DB tables); zero-shot in-context learning replaces per-dataset training; canonical cohort TabFM/TabPFN/KumoRFM/TabICL (Jul 2026)
+- [[tokenmaxxing]] — informal term for maximizing AI token consumption as proxy for productivity; Amazon Oct 27 2026 internal memo calls metrics "deeply flawed when turned into targets"; Palantir Alex Karp critique Jul 2026; "valuemaxxing" counter-framing
 - [[project-glasswing]] — Anthropic-led cybersecurity coalition (AWS, Apple, Google, Microsoft, NVIDIA) using Claude Mythos Preview
 - [[project-meridian]] — Pentagon's 120-day AI-weapons futures study introduced Oct 1 2026 by Pete Hegseth; co-led by Elon Musk, Newt Gingrich, Palmer Luckey; aims to identify which AI technologies the US military should develop (Oct 2026)
 - [[prompt-compression]] — techniques to compress long prompts into smaller representations preserving task-relevant info; Shopify "gisting" as named canonical technique for reducing agent-loop context/cost/latency (Sep 2026)
@@ -721,7 +722,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[universal-commerce-protocol]] — Shopify + Google open protocol for agent-commerce; canonical substrate for Shopify Agentic Storefronts into ChatGPT + Gemini + Copilot (Oct 2026)
 - [[waico]] — World Artificial Intelligence Cooperation Organization; China-led intergovernmental AI governance body launched Jul 16 2026 in Shanghai; 29 founding countries (US/UK/Canada/EU absent)
 - [[webmcp]] — Web Model Communication Protocol — enables websites to expose direct JavaScript tools callable by AI agents, bypassing slow browser-automation + screen-scraping agent-site interaction (Oct 2026)
-- [[world-models]] — AI systems that model physical/spatial environments; Marble, LeCun lab, NVIDIA Cosmos *(stale)*
+- [[world-models]] — AI systems that model physical/spatial environments; Marble, Atlas, Hydra-0, GWM Worlds 2, Odyssey-3, Google DeepMind Genie 4 (native audio Oct 2026)
 
 ## Trends
 - [[agentic-commerce]] — Late-2026 shift from traditional website-based retail to AI-agent-mediated purchasing; AI traffic to US retail sites +393% Q1 2026; Shopify Agentic Storefronts into ChatGPT + Gemini + Copilot + Universal Commerce Protocol + Adobe/ChatGPT + DoorDash text-to-order (Oct 2026)
