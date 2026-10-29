@@ -21,6 +21,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ant-group]] — Alibaba-affiliated Chinese fintech + AI lab; open-source trillion-parameter Ling-2.6 (fast) + Ring-2.6 (agentic reasoning) (Jul 2026)
 - [[anthropic]] — Claude maker; Opus 4.7/4.8, Claude Design, Routines, $965B confidential IPO, Fable 5 release
 - [[apple]] — solo-AI strategy abandoned; Siri+Gemini deal; M5 chip; Subramanya new AI VP
+- [[artificial-analysis]] — Independent AI-model benchmarking organization; Oct 2026 ships Intelligence Index v5 (four categories + 9 evals, 60% private test sets, adds Cognition's FrontierCode 2.0 + Terminal-Bench-Science)
 - [[assemblyai]] — voice/speech AI vendor; Voice Agent API collapses pipeline into a single WebSocket (Jun 2026)
 - [[auth0]] — identity platform; Auth0 for AI Agents *(stale)*
 - [[backflip-ai]] — AI startup building scan-to-editable-CAD generation for engineering, architecture, and product design (Aug 2026)
@@ -35,6 +36,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[canva]] — design platform; Video 2.0 and own foundation model *(stale)*
 - [[character-ai]] — companion chatbot; ban on minors effective Nov 25 2025; ships Stories interactive fiction; Pennsylvania psychiatrist-impersonation lawsuit (Jun 2026) *(stale)*
 - [[cisco]] — networking incumbent; AI agents absorbing ~80% of routine network-ops work Feb 2026 *(stale)*
+- [[classiq]] — Israeli quantum-computing software company developing hardware-agnostic automated quantum-algorithm synthesis; being acquired by Intel for a reported ~$2.3B (Oct 2026, close H1 2027)
 - [[cloudflare]] — CDN/edge platform; 1,100 layoffs (~20%) for "agentic AI-first operating model" May 2026
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf; $1B Series D at $26B + Devin writes 89% of own code (May 2026)
 - [[coinbase]] — US-listed crypto exchange; 1,200 full-time AI agents in production + 2× YoY code-per-developer + Coinbase Advisor SEC-registered AI investment advice + SpaceX pre-IPO perps + "bank for the agentic economy" thesis (Jul 2026)
@@ -439,6 +441,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[kolibri]] — Aleph Alpha's Oct 2026 open-weight 78.1B English-German MoE with 1M-token context + tool calling; Apache 2.0 on Hugging Face; first open-weight release post Cohere merger
 - [[kumorfm]] — Nvidia's tabular foundation model; models relational data as graphs of interconnected tables for zero-shot predictions across complex enterprise schemas (Jul 2026)
 - [[lfm-2-5]] — Liquid AI's 230M-parameter non-transformer foundation model on state-space + liquid-neural-network continuous-time formulations; parity with 3× larger transformers (Jun 2026)
+- [[lfm3]] — Liquid AI's Oct 2026 open-weight on-device family — text, vision, audio, omni, and decision models on a shared tri-hybrid backbone, starting ~2B parameters
 - [[laguna-s]] — Poolside AI's open-weights foundation-model family; Laguna S 2.1 = 118B MoE / 8B active params / 1M context, cheaper than Deepseek v4 Flash; candidate for "strongest American open-weight model" (Jul 2026)
 - [[laion-10m-hour-video]] — LAION's Aug 2026 open 10-million-hour video dataset for multimodal training; canonical mid-2026 largest-open-video-training-substrate
 - [[lamem-vla]] — dual-latent-memory-vault vision-language-action model; SOTA on long-horizon manipulation (97.6% LIBERO / 73.9% SimplerEnv-Bridge, +16.6pt over CogACT) (Jul 2026)
@@ -626,6 +629,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[timesfm-3]] — Google's Sep 2026 zero-shot multivariate time-series foundation model; 330M params, pretrained on 1T time points; #1 on GIFT-Eval + FEV-Bench + TIME; non-commercial license; on Hugging Face + GitHub
 - [[tinker-api]] — Thinking Machines' LLM fine-tuning API *(stale)*
 - [[tml-interaction-small]] — Thinking Machines' 276B-A12B native real-time interaction model; 200ms audio/video/text micro-turns (May 2026) *(stale)*
+- [[tpu]] — Google Tensor Processing Unit; 8th-gen TPU 8t (training) + TPU 8i (inference) coming to Oracle Cloud Infrastructure in 2027 as first non-Google hyperscaler to host TPUs (Oct 2026); up to 12.6 PFLOPS FP4/chip + 2× perf/watt
 - [[ultrafast-api]] — OpenAI's Aug 2026 new API tier for GPT-5.6 Sol; up to 14× faster than Standard + up to 750 output tokens/sec; Cerebras-powered limited preview; paired with Priority Processing→Fast mode rename + Terra/Luna price cuts
 - [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B) *(stale)*
 - [[trueforge]] — TrueFoundry's open-source agent harness; up to 75% cost reduction vs vendor-neutral agents (Aug 2026)
