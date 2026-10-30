@@ -1,0 +1,284 @@
+{
+  "date": "2026-10-29T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Friday, 30 October 2026\n\n## 🔥 Top Stories\n1. **Google introduces Gemini 4 Carbon, a new AI model focused on cybersecurity, coding, and long-horizon agentic tasks** — This matters because Gemini 4 Carbon has the potential to significantly improve vulnerability discovery and remediation, as well as generate secure code, which could enhance the overall security of digital systems.\n2. **Anthropic files S-1 form, revealing strong financial position and growth prospects** — This matters because Anthropic's financials provide insight into the company's ability to invest in AI research and development, and its potential to become a major player in the AI industry.\n3. **NVIDIA releases Nemotron 3.5 Transcribe, an open-weight model for multilingual transcription and translation** — This matters because Nemotron 3.5 Transcribe has the potential to improve language understanding and generation capabilities, enabling more accurate and efficient communication across languages.\n4. **OpenAI allows US Pro users to text Dot agents via iMessage and RCS** — This matters because this new feature expands the capabilities of OpenAI's Dot agents, making them more accessible and user-friendly for a wider range of applications.\n5. **GitHub Copilot Fusion enables intelligent routing and orchestration of models for each task** — This matters because Copilot Fusion has the potential to improve the efficiency and effectiveness of AI model deployment, allowing developers to focus on higher-level tasks.\n\n## 🤖 AI Models & Research\n- Anthropic announces Claude Opus 5.5 and Haiku 5.5, and commits $150 million to the federal Genesis Mission.\n- ElevenLabs introduces Cue, a forced alignment model for precise character-level timing in audio files.\n- Mirendil launches Lor, a system with agents that write code, run experiments, and iterate for days across hundreds of parallel workers.\n- Decagon's AutoResearch agents diagnose inference bottlenecks, test optimizations, and preserve findings across experiments.\n\n## 🛠️ Tools & Products\n- Google introduces a centralized platform for building and managing connected apps.\n- Agent Compute Engine is unveiled as the infrastructure behind the latest Gemini deployments.\n- GitHub Copilot Fusion leverages the benefits of Project HydraFusion's multi-model orchestration and Copilot auto model selection.\n\n## 📰 Industry News\n- NVIDIA and Meta expand AI infrastructure and model partnership, with NVIDIA investing $3 billion in Meta's capital offering.\n- Bedrock Robotics raises $600 million for autonomous machines.\n- New York expands restrictions on unsafe AI companion features for minors.\n- Mistral releases open Timestral time-series foundation models, consisting of four open probabilistic forecasting models.",
+  "totalNewsletters": 4,
+  "newsletters": [
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "Gemini 4 Carbon 🌱, Nemotron Transcribe 📝, benchmarker’s dilemma ❓",
+      "date": "2026-10-29T14:13:19.000Z",
+      "summary": "## TLDR AI\n\n**Priority: HIGH**\n\n### Top Updates\n* Google has introduced the Gemini 4 Carbon model, a new frontier AI model focused on cybersecurity, coding, and long-horizon agentic tasks, which can persist through complex, multi-step engineering work for days, improve vulnerability discovery and remediation, resist prompt-injection attacks, and generate secure code at more than twice the success rate of Gemini 4 Argon on internal benchmarks.\n* NVIDIA's Nemotron 3.5 Transcribe is an open-weight model for multilingual transcription, translation, speaker attribution, and audio Q&A, supporting up to 40 languages with low error rates, and is ranked first across several transcription and speaker attribution leaderboards.\n* Anthropic has launched reporting tools to help companies measure and optimize their AI spending with its products like Claude Code, offering detailed insights on productivity, costs, and recommendations.\n* GitHub Copilot Fusion lets Copilot intelligently route and orchestrate models for each task, leveraging the benefits of Project HydraFusion's multi-model orchestration and Copilot auto model selection's fine-tuned model selection to balance performance and cost efficiency.\n* Google has introduced a centralized platform for building and managing connected apps, and has also unveiled Agent Compute Engine, the infrastructure behind the latest Gemini deployments.\n* OpenAI now allows US Pro users to text their Dot agents via iMessage and RCS, enabling instructions through text, photos, and voice memos.\n* ElevenLabs' Cue is a forced alignment model for precise character-level timing in audio files.\n* Mirendil has introduced Lor, a system with agents that write code, run experiments, and iterate for days across hundreds of parallel workers.\n* Decagon's AutoResearch agents diagnose inference bottlenecks, test optimizations against production traffic replays, and preserve findings across experiments, reporting throughput gains up to 2.5x within endpoint latency requirements.\n\n### Notable Links\n* [Gemini 4 Carbon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)\n* [NVIDIA Nemotron 3.5 Transcribe](https://huggingface.co/blog/nvidia/nemotron-transcribe-granary)\n* [Anthropic Reporting Tools](https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/)\n* [GitHub Copilot Fusion](https://github.blog/changelog/2026-10-28-copilot-automations-now-learn-from-outcomes-and-self-improve/)\n* [Google Connected Apps](https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/)\n* [ElevenLabs Cue](https://elevenlabs.io/blog/cue-aligner)\n* [Mirendil Lor](https://links.tldrnewsletter.com/Gjr8EV)\n* [Decagon AutoResearch](https://links.tldrnewsletter.com/3vHagX)",
+      "links": [],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "    TLDR AI  \n\nGoogle has introduced the Gemini 4 Carbon model, advancing AI capabilities with improved energy efficiency. This model enhances ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/010001a188021315-1688753b-238c-4b72-8f6d-68d3b247eda1-000000/Si3Fdi5z5XOPk9_OjJAjs0tbvPYCAg_ug2hN1_N1ZWc=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a188021315-1688753b-238c-4b72-8f6d-68d3b247eda1-000000/Y_Wf0bz9-fM6tNzJEt7iIv23nEBZ-THoCTYP2uSSgAI=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=552b9132-d381-11f1-a079-a925364df888%26pt=campaign%26t=1793283199%26s=dfe71788a60666682999d5b17c30e00bf8c647"
+    },
+    {
+      "from": "\"Dwarkesh Patel\" <dwarkesh@substack.com>",
+      "subject": "What I learned about power from LBJ and Robert Moses",
+      "date": "2026-10-29T16:52:35.000Z",
+      "summary": "## AI Newsletter Summary\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The newsletter discusses what the author learned about power from Lyndon B. Johnson (LBJ) and Robert Moses, focusing on their strategies for accumulating and using power, and how these lessons can be applied to understanding the dynamics of power in various contexts, including AI and technology.\n- Robert Moses, known as the \"master builder\" of New York, built more of the physical city than anyone before or since, and his methods for gaining and maintaining power are highlighted, including writing laws that governed him, creating public authorities, and leveraging connections with powerful private interests.\n- Lyndon Johnson's story is also presented, showcasing how he transformed the Senate's rules and institutions to gain power, controlled committee assignments, set the agenda, and used his position to broker deals and pass significant legislation, such as the Civil Rights Act of 1957.\n- The author reflects on the lessons from Caro's books about power, including the importance of understanding how power works, the need for ideals to be backed by power to be effective, and the potential for power to corrupt even those who initially have good intentions.\n- The newsletter announces an upcoming interview with Robert Caro, which will be available on Thursday, and invites readers to watch and learn from Caro's insights on power and its application in various contexts.\n\n### Notable Links\n- Subscribe to the newsletter: [link]\n- Watch the interview with Robert Caro: https://substack.com/app-link/post?publication_id=69345&post_id=222663001&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyMjY2MzAwMSwiaWF0IjoxNzkzMjkyODE1LCJleHAiOjE3OTU4ODQ4MTUsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.JvkpsCHeKPyfCAS8NiPDJG_pA6ob-wcLZmxbpmwgB5A\n- Read the full article: https://substack.com/app-link/post?publication_id=69345&post_id=222663001&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyMjY2MzAwMSwiaWF0IjoxNzkzMjkyODE1LCJleHAiOjE3OTU4ODQ4MTUsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.JvkpsCHeKPyfCAS8NiPDJG_pA6ob-wcLZmxbpmwgB5A\n\nNote: The newsletter does not contain any direct updates on AI models, tools, or technologies, but rather uses historical figures and their strategies as analogies to understand the dynamics of power in various contexts, including AI and technology.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuZHdhcmtlc2guY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5kd2Fya2VzaC5jb20lMkZwJTJGbGVzc29ucy1pbi1wb3dlciIsInAiOjIyMjY2MzAwMSwicyI6NjkzNDUsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzkzMjkyODE1LCJleHAiOjIxMDg4Njg4MTUsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.wuHoSldeuigkixB9aJDDwmWK2Wv3UTjNpZp6eJz7neQ?"
+        },
+        {
+          "text": "Watch now",
+          "url": "https://substack.com/app-link/post?publication_id=69345&post_id=222663001&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyMjY2MzAwMSwiaWF0IjoxNzkzMjkyODE1LCJleHAiOjE3OTU4ODQ4MTUsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.JvkpsCHeKPyfCAS8NiPDJG_pA6ob-wcLZmxbpmwgB5A"
+        },
+        {
+          "text": "What I learned about power from LBJ and Robert Moses",
+          "url": "https://substack.com/app-link/post?publication_id=69345&post_id=222663001&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyMjY2MzAwMSwiaWF0IjoxNzkzMjkyODE1LCJleHAiOjE3OTU4ODQ4MTUsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.JvkpsCHeKPyfCAS8NiPDJG_pA6ob-wcLZmxbpmwgB5A"
+        },
+        {
+          "text": "Dwarkesh Patel",
+          "url": "https://substack.com/@dwarkesh"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/dwarkesh/p/lessons-in-power?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=69345&post_id=222663001&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyMjY2MzAwMSwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3OTMyOTI4MTUsImV4cCI6MTc5NTg4NDgxNSwiaXNzIjoicHViLTY5MzQ1Iiwic3ViIjoicmVhY3Rpb24ifQ.0NiH-TDOBlDwjxJAW9W0VvxLSNvSXnxrrj_b5vWqDTk&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=69345&post_id=222663001&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyMjY2MzAwMSwiaWF0IjoxNzkzMjkyODE1LCJleHAiOjE3OTU4ODQ4MTUsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.JvkpsCHeKPyfCAS8NiPDJG_pA6ob-wcLZmxbpmwgB5A&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://open.substack.com/pub/dwarkesh/p/lessons-in-power?action=restack-comment&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyMjY2MzAwMSwiaWF0IjoxNzkzMjkyODE1LCJleHAiOjE3OTU4ODQ4MTUsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.JvkpsCHeKPyfCAS8NiPDJG_pA6ob-wcLZmxbpmwgB5A"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "What I learned about power from LBJ and Robert Moses![](https://eotrx.substackcdn.com/o/0dcff2ebeac8b47f/p.gif?token=eyJtIjoiPDIwMjYxMDI5MTY1MjM1LjMuZWUwMDMzY2VkZDgxZmY1OEBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIyMjY2MzAwMSwidCI6InBvZGNhc3QiLCJhIjoiZXZlcnlvbmUiLCJzIjo2OTM0NSwiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTMyOTI4MTUsImV4cCI6MTc5NTg4NDgxNSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.EvjxBF0ijqLyDOWtTlr_NtcjZl6v11q7uElEClFvFeI)\n\nWatch now (25 mins) | Preparing to interview Robert Caro.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"Understanding AI\" <understandingai@substack.com>",
+      "subject": "Anthropic’s financials are surprisingly strong",
+      "date": "2026-10-29T19:10:42.000Z",
+      "summary": "## Understanding AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Anthropic, the AI company behind the Claude language model, has filed a public version of its S-1 form with the Securities and Exchange Commission, revealing its financial position and growth prospects. The company's revenue soared between 2025 and early 2026, allowing it to report its first-ever operating profit in the second quarter, with $4.7 billion in the first quarter and $11.6 billion in the second quarter.\n* Anthropic's financials show a strong position, with more cash reserves than all but two non-bank companies: Google and Berkshire Hathaway. However, the company has committed to spend hundreds of billions of dollars on compute from Amazon, Google, SpaceXAI, Broadcom, and other companies, which could be challenging to recoup through revenue growth.\n* The company's third-quarter revenue was $16.8 billion, suggesting a modest slowdown in revenue growth. This raises questions about the future growth prospects of Anthropic and its ability to make good on its spending commitments.\n* Google has announced a new AI model, Gemini 4 Carbon, designed for long-horizon coding and agentic workflows, which delivers major gains in cybersecurity, including vulnerability discovery, exploitation, and patching. The model is not yet broadly available but will be initially provided to a selected group of cybersecurity defenders through Google's Fairwind Program.\n* Anthropic has announced Claude Opus 5.5 and Haiku 5.5, and has committed $150 million over three years to the federal Genesis Mission, expanding its agreement with the U.S. General Services Administration.\n\n### Notable Links\n* Anthropic's S-1 form: https://www.sec.gov/ (not directly available, but can be searched on the SEC website)\n* Google's announcement of Gemini 4 Carbon: https://blog.google/ (not directly available, but can be searched on Google's blog)\n* Anthropic's website: https://www.anthropic.com/\n* Google's Fairwind Program: https://cloud.google.com/ (not directly available, but can be searched on Google Cloud's website)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudW5kZXJzdGFuZGluZ2FpLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cudW5kZXJzdGFuZGluZ2FpLm9yZyUyRnAlMkZhbnRocm9waWNzLWZpbmFuY2lhbHMtYXJlLXN1cnByaXNpbmdseSIsInAiOjIyMjY4MzUzMiwicyI6MTUwMTQyOSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTMzMDEyMTQsImV4cCI6MjEwODg3NzIxNCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.thZ1RENNcGHVSRAnPgRsX8CcwbX3IXZEoPZ5wB1nfBw?"
+        },
+        {
+          "text": "Anthropic’s financials are surprisingly strong",
+          "url": "https://substack.com/app-link/post?publication_id=1501429&post_id=222683532&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyMjY4MzUzMiwiaWF0IjoxNzkzMzAxMjE0LCJleHAiOjE3OTU4OTMyMTQsImlzcyI6InB1Yi0xNTAxNDI5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.yagh5xyiCZvKRDrOy1mhOkmG8zGAabF9iUFzPHow-LU"
+        },
+        {
+          "text": "Kai Williams",
+          "url": "https://substack.com/@chiwilliams"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/understandingai/p/anthropics-financials-are-surprisingly?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "filed a confidential draft",
+          "url": "https://substack.com/redirect/5aced13f-3982-4091-8c3d-445a34de6d9e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "announced",
+          "url": "https://substack.com/redirect/f5e76220-7c14-45cf-a1c4-972e0c921bb7?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "media",
+          "url": "https://substack.com/redirect/f927d33e-3bf8-4e48-bd17-2a30bb0d6bb7?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "reports",
+          "url": "https://substack.com/redirect/39a343cc-eedd-4bb1-ad44-29b0c9fcd1ad?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Start trial",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudW5kZXJzdGFuZGluZ2FpLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1wb3N0JnV0bV9jYW1wYWlnbj1lbWFpbC1jaGVja291dCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3LnVuZGVyc3RhbmRpbmdhaS5vcmclMkZwJTJGYW50aHJvcGljcy1maW5hbmNpYWxzLWFyZS1zdXJwcmlzaW5nbHkmcj00OWJ5MzQmdG9rZW49ZXlKMWMyVnlYMmxrSWpveU5UYzFNemcyTkRBc0ltbGhkQ0k2TVRjNU16TXdNVEl4TkN3aVpYaHdJam94TnprMU9Ea3pNakUwTENKcGMzTWlPaUp3ZFdJdE1UVXdNVFF5T1NJc0luTjFZaUk2SW1Ob1pXTnJiM1YwSW4wLnJmTTdqMkdIa0J3aUExd2pRUlhyQTdBNk9MUGlKYmN6QzNrZlQxNWxTUHMiLCJwIjoyMjI2ODM1MzIsInMiOjE1MDE0MjksImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzkzMzAxMjE0LCJleHAiOjIxMDg4NzcyMTQsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.G7foQ0Izc4nVUPe_ooZoDOgFU8GezW6RiiCQgbwrmDs?simple=true&next=https%3A%2F%2Fwww.understandingai.org%2Fp%2Fanthropics-financials-are-surprisingly&coupon=7c4d0010"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=1501429&post_id=222683532&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyMjY4MzUzMiwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3OTMzMDEyMTQsImV4cCI6MTc5NTg5MzIxNCwiaXNzIjoicHViLTE1MDE0MjkiLCJzdWIiOiJyZWFjdGlvbiJ9.aOx0qGAI5t8ds5eDLMIGdGo-8kK957SgUgEfDeZj4w4&r=49by34"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Anthropic’s financials are surprisingly strong![](https://eotrx.substackcdn.com/o/fb7dbaac31938999/p.gif?token=eyJtIjoiPDIwMjYxMDI5MTkxMDQyLjMuMzU3MzU5YTg3YzEzNmRlMEBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIyMjY4MzUzMiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoib25seV9wYWlkIiwicyI6MTUwMTQyOSwiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTMzMDEyMTQsImV4cCI6MTc5NTg5MzIxNCwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.ZQWm71EM3zYMMcXSHKfZ-sWMxd1KELMbhOeMyOKH1do)\n\nWhat I learned reading all 421 pages of the Anthropic S-1\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"The Batch @ DeepLearning.AI\" <thebatch@deeplearning.ai>",
+      "subject": "Halloween 2026: Face Your Darkest AI Fears (If You Dare)",
+      "date": "2026-10-30T00:03:41.000Z",
+      "summary": "Error generating summary. Original subject: Halloween 2026: Face Your Darkest AI Fears (If You Dare)",
+      "links": [
+        {
+          "text": "Subscribe",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVY4kK4h6ZnCW2ww6qf5qwVBGW430FVB5WLs9nN7dHCvl3lYM-W7lCdLW6lZ3l_W72sDxq3rBvqRN8b2vSc-5FRFW2FSvQ45L6tfjW5KssZN66Lh-CW1jhV721wnnr-VGd-RC8RDqsjW6tgjc836vmGZW2cKJ3w821g2JW9j-8fF6qBdqwW3KSN0G308jz6N7YHdx33Lcy0W3MJYpj767j35W4ZZCZX67hQzBW3sm6lP8gJrklW85ppPh3qqZS0W9kVlM06Bh4gqW85SVPh1JPr-DV9Jff35RvvwnW3WBjh-7KD_FMN6RgY7MZJyX8W3lC8Xh8-V8jtW7xWpjt8sTy-qW7TbPl78Xc22NW5Y8H0X7_X4nLf4yt-Dl04"
+        },
+        {
+          "text": "DEEPLEARNING.AI",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVY4kK4h6ZnCW2ww6qf5qwVBGW430FVB5WLs9nN7dHCv23qgz0W6N1vHY6lZ3mCW1cw7vQ5p_xx4W7PS9-68rxVxxW5mv5t544yh0VW1NzlnB2YJMGHN4VT5W9r56sSW25LjV03RSQyWW105XtH7xc3s2W3yjG4-6TYnYHW6mNf5c5Fc2TZW1p2_jl3cNvrdVLw1dy8WXQXhVMSKRl1Pp_NLW1kr3D61P45l-W7vTr_D9gMfBnW1mvLlw1dvgXDW74JzYX2F70mhW2Zy39P3QJSJTN6T496xC4l-WW3M6vvB9d0NmLW5MsFtr5plXVtW4T7z499k-YmpW2RY3cv8v2Ch1dvCj-M04"
+        },
+        {
+          "text": "Claim your discount",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVY4kK4h6ZnCW2ww6qf5qwVBGW430FVB5WLs9nN7dHCwd3qgz0W95jsWP6lZ3pwW342tbP69gRQ_Vf6MLt3BfKg9W8T-4XX6-44qFN1jms6Zv8JVxW1HX4kP8M6PnvW77yWCy3Bnzg-Vs11tG2BSNG8W2rSH0v1PH_sRN9gQ2vqSgcKBW71JG9z2Qr4BFW1bfb2c5Wq7NGW5fJvbP6sqty_W4Cmr505_HK1WW8SWMDP1nsW7qVQfhQD1PTB_gW5fD63l8Q90TFW8-Nfq6975ChRN7Vd-BjF-KkGW5-pGrH21LYzrW97sp23155mrcVb5PMn47ZcRlW4CQlT99l98ntN85gTW4NR-mcW5GzFB182CNb6N2jxjSv-gbrvN2YX8DgHRy7XW9chL6d3lBp8hW6T33W23lPmJdW9l-BHk2QP995W3WM-zv8dftZmdcswcY04"
+        },
+        {
+          "text": "tested",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVY4kK4h6ZnCW2ww6qf5qwVBGW430FVB5WLs9nN7dHCvY3qgz0W8wLKSR6lZ3kzW2kJXDR86GBsBW9hCM_F3lsFZsW7dlVDx16GdcNW8h8Z2b1XWJsqW9jKbMY30NsGWVdxmlX4_RC75W3_Dzbn7DQ9xdW5LmFjb2qXDDKN2rmqDVTSN8WW4293C13ZG9XzW2FWz6S55G2BRW6TLq7G66PnKcW8twpTB6SgpylW3Zfn977-7xQcW5mvH_B5V9DtVW6S3xpb7957R9W7lRTNH7vkKCXW6Sgsnt7KZGpfW8fB4GF1x2c9xW6mPS4g7ZtJT9W5wtF_z5WFlSrW82wCgW4F5C3JW6dNjT-2bR5VbW2Rgstx5D009kMDBgt1N7MGGW3vBk-f7Tds5BW6cxZ3y6sLzwWW4qLsmW6hxldcf2HxbM804"
+        },
+        {
+          "text": "help the collective",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVY4kK4h6ZnCW2ww6qf5qwVBGW430FVB5WLs9nN7dHCvY3qgz0W8wLKSR6lZ3lXW3fTm_75H8wDXW68wcYn3KpMR3VMzNbr5kmdp9W4g0mqR9c16jJW3KLtKD6sj7ZVW1mCz3B2SFHpwW2YJzBh4tJnj1W7R47f551fPPwW6sSk5-6ds2ZVW7hHJF_47lk9pW4Dqsdk5_kmtPW6W6KZw6hXRPKW6DCJb75-2Wy8W66VRNy5-R5DKW5RqcFN97mKpNW7kqHMr631J1FW40fpZd66BHqqN2fc_pjXLwK7W7RttYy7LhDwrW5ZnDhg4vMWRGW7Pdpsp989y00W5nTHHc3qcnqhN69pBngP1GfdW6ly0Md39tHWPVVwbVL1yjCxhW5m4Z6s4hlyRdW327B9L5H6VH_N93fdkttR4kBf6jb5Cx04"
+        },
+        {
+          "text": "breached systems of three organizations",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVY4kK4h6ZnCW2ww6qf5qwVBGW430FVB5WLs9nN7dHCvY3qgz0W8wLKSR6lZ3nZW4WDbGd2GF9nnW6k6LVn8gmDHPW2SJDNF4Z5NtGW6lxx6p1mFdMtW3YHKq-3QHS_CW4xdCTs1RGffGW1klRCm4GnrqmW7s9XW61BvFf-W1q-383443qNqW82LSFS4Gm-6kW7T8mhS8RlfTCW5qKV-b7xxTHMW2HlYf-8588L4W7b_QlC52RVh0W1knFxL7RrSdCW6b4GNZ2tw71zW3X36vm7szfPJW1lkkDV3WLM3sW6NWgvP1mPMWyW9gJZck1wQpq6W7q32t77J4WyLW7kjyL55kcCLJW6cDbMk7PSNNlW2ZfzJw90nj9-W2K1kV57c8B_DW8B-5bP4bm7VnW1_C-2D5KWMkSW2Gjzff6H2MmTf41c0j804"
+        },
+        {
+          "text": "tests run by Irregular",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVY4kK4h6ZnCW2ww6qf5qwVBGW430FVB5WLs9nN7dHCtM5nR3bW69t95C6lZ3l4W2F72yZ7yj8ssW2bZnJ27x9-g9W2DR_FM86Lm_qN4Y6cQ-3CRJ6N6Hq1ndjWBt2W60kxJJ4--L1lW1sr6Lr8d_LwZW2Kn3X46ZldfvVZ7Xmt8j8kpRW5m-Qqh2HmQPgW6sbycG70MbPBW5lV0Kj4fMvnsW7q-QRX6nXGJ1N4Btn5m9S4x0W5Sf6xj3_9zSPW2r5NM4829lHqN1gLDvWtgBwPVLRKMC34MWT9W3mfZCh7NL7H3W3ZSwY58PxMpcW6zlpjr3JMMR-W2z727s4p51RJVCybCb7HTv1PW2q5qgP8p-J80W5YrwCh6Mxy2pW63-9YQ3lff-WN7_jD6GP16tDW757C6y4qpSKrW1WCcg-7DS1B4W26dCwd34CrX0W4F-LT_54FM5dW10-yfc3ZpxzhN7RMnFv2s1l3W9jQHkZ4Y-yNXW2_Zhnd644JvTW3y_n0L8pSrPYf5hTmXz04"
+        },
+        {
+          "text": "disclosed",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVY4kK4h6ZnCW2ww6qf5qwVBGW430FVB5WLs9nN7dHCvY3qgz0W8wLKSR6lZ3p6W2DkVJF7ygh3HW2d3lwp4qNMT6W2SBRFQ3_qQpXW5_tTRw2-5CwvW8zgqqx97vw6mW7Lc90F1WPZlZW67MZd71yt5ZcW4ccwsv2vBcGxW411Z8W6CwmQLW8_3Hcz4p4GydW6NqQjy4TX5zjW1XmRj778DC-bW1WxVrl7R-Rd_MftHlMT8DxvN7SdzmK7wNbsW7nrcPH1PnCQSW84yv0Q3dC6slVQd_MS6szhktW6sRXpJ674ZHqW34VBRs2DZFQQW57STvQ8Z8lFLW8QQQyp4NL2gfVMqfSt96GnVgW2nHp0T5FJDpMW11Shy77vzwQGW4Bg5Yn39gQvjN7N_kcVhP8p2W2g-KDY9jD88Bf5-Wv1204"
+        },
+        {
+          "text": "reported",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVY4kK4h6ZnCW2ww6qf5qwVBGW430FVB5WLs9nN7dHCvF3qgz0W7Y8-PT6lZ3lvW71Rfjy83fDh5N6dF-gNmg5dRW2xBWzL75GQqqW7dVSy-4VZR3FV5ZHd_6Nd3wrW92fbgY4-g0_6VCqdCm6SbxXnW833kKN5ryhcvW2gRPZh8W5d5_VH390J7Xz7K4VRwffw2-d1xpW2pQh266B4LJPW4J3m8K2jMwgsW5cbKZM6Sysk1VfhcTY5VvZq9W2lZMxV5Gs2YJW35v4XN3hVw_2W6X77H14H49PKW93fh_t4cq17qVB7WJ-62hTjYW1-lpQD7_JyvKW5JMn7S3nj04DW22JbF03MHxbDVrpJmP3Vxxb6W5DSFP81cmCSsW3TpF1k25syMQdYZCYd04"
+        },
+        {
+          "text": "limiting their use of AI tools",
+          "url": "https://info.deeplearning.ai/e3t/Ctc/LX+113/cJhC404/VVY4kK4h6ZnCW2ww6qf5qwVBGW430FVB5WLs9nN7dHCvF3qgz0W7Y8-PT6lZ3ngW3D2DlR2hx_Z1W6mrLpP5PSY91W1Bvk6f5DNDdSN1Gw6DJX0By1W1yrJcm7gkctNV16csZ20zK4jW8Tbdwm6MjgdRVTnXYd5066CFW4Jfpr862hQ9sW8jngzd85p-vTVD2Sl45Z56wGW5gY5Yj4jJnl9W64cRLy5QyC_KW15dq3t2kltdmW3dqX6n43PWKYW74B_Z22mLs8XW2YBn2G2TrNYlW8rt4vJ8w0fJsW3nxq7X8DPlHNW4ZSPJ732TDhqW4Mq_y72-xxbQW8LW1jL40k7dBW4VtstF6DVHYCW8Xr5kp5BPvTZN6072QvWlfvYW1kR6lN5zlycjf5m_JS604"
+        }
+      ],
+      "priority": "LOW",
+      "error": "400 Provider returned error"
+    }
+  ],
+  "tldr": [
+    "Google introduces Gemini 4 Carbon AI model.",
+    "Anthropic files S-1 form, reveals strong finances.",
+    "NVIDIA releases Nemotron 3.5 Transcribe model.",
+    "OpenAI expands Dot agents to iMessage, RCS.",
+    "GitHub Copilot Fusion enables model orchestration."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Gemini 4 Carbon",
+        "context": "{\"topic\":\"Gemini 4 Carbon\",\"context\":\"Google introduced Gemini 4 Carbon on October 28, 2026, as a new frontier AI model focused on cybersecurity, coding, and long-horizon agentic tasks. Google says it can persist through complex, multi-step engineering work for days, improve vulnerability discovery and remediation, resist prompt-injection attacks, and generate secure code at more than twice the success rate of Gemini 4 Argon on internal benchmarks. Despite the newsletter’s energy-efficiency framing, the available reporting does not substantiate a specific energy-efficiency breakthrough; independent coverage instead highlights Carbon’s very high token consumption on some evaluations, which may increase inference costs and energy use.\",\"Latest access is limited to selected cybersecurity defenders through Google’s Fairwind Program, with broader availability for developers, businesses, and consumers not yet given a firm date. Google announced introductory API pricing of $2 per million inpu",
+        "source": "web search"
+      },
+      {
+        "topic": "Google",
+        "context": "Google is the developer of Gemini 4 Carbon, a new frontier AI model announced on October 28, 2026. Positioned above Gemini 4 Argon, Carbon is designed for long-horizon coding and agentic workflows—tasks requiring many steps, tool calls, recovery from failures, and sustained execution. Google says it delivers major gains in cybersecurity, including vulnerability discovery, exploitation, and patching, and reports leading results on SEC-bench Pro, ExploitGym, and CWE-bench. [Google announcement; Reuters]\n\nThe model is not yet broadly available. Google is initially providing access to a selected group of cybersecurity defenders through its Fairwind Program, with wider access for trusted partners and eventually developers, businesses, and consumers planned in stages. Its introductory API pricing matches Argon at $2 per million input tokens and $10 per million output tokens. The launch matters because it intensifies competition with OpenAI and Anthropic in coding and autonomous software agents, while the limited rollout reflects the security risks of models capable of finding and potentially exploiting software vulnerabilities. [Google announcement; The Verge; Reuters]",
+        "source": "Google official announcement, Reuters, and The Verge"
+      },
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is the AI company behind Claude, a family of large language models used for chat, coding, enterprise workflows, and autonomous “agentic” tasks. It matters because its rapid commercial growth is making it a central competitor in frontier AI, while its partnerships with major cloud providers and government agencies are expanding access to advanced models. Anthropic recently announced Claude Opus 5.5 and Haiku 5.5, and said it had filed a U.S. IPO registration statement; it also committed $150 million over three years to the federal Genesis Mission and expanded its agreement with the U.S. General Services Administration.[1][2][3]\n\nThe company’s financial performance is exceptionally strong but costly. Its IPO filing reportedly showed $16.3 billion in first-half 2026 revenue, up sharply from the prior year, and third-quarter revenue of about $16.8 billion, with adjusted profitability reported for the quarter.[4][5] However, Anthropic also reported an $80.7 billion first-half net loss, largely driven by a non-cash accounting charge tied to the rising value of convertible securities; infrastructure and computing costs approached $9 billion. The contrast—surging demand and improving operating economics alongside enormous AI infrastructure commitments—illustrates both the commercial potential and financial risks of the industry’s current model, in which leading labs depend heavily on cloud providers such as Google, Amazon, and Microsoft.[6][7]",
+        "source": "web search"
+      },
+      {
+        "topic": "LBJ",
+        "context": "“LBJ” most likely refers to the Lyndon B. Johnson School of Public Affairs at the University of Texas at Austin, rather than a new AI/ML model or company. Its most recent AI-related activity centers on governance and power: on October 28, 2026, the school hosted “Keeping Humans in Command,” a policy debate on catastrophic AI risk, innovation, regulation, geopolitical cooperation, and how to ensure human control as frontier capabilities advance. This reflects a broader shift in AI policy from asking how quickly the United States can develop AI to asking who controls its deployment and how institutions can keep pace.\n\nThe LBJ School is also examining the political economy of AI infrastructure, including data-center expansion, public power, municipal markets, economic growth, jobs, and distribution of productivity gains. In this context, the newsletter’s reference to LBJ as a historical figure likely invokes Lyndon Johnson’s use of governmental power and coalition-building as a framework for understanding how authority, public institutions, and concentrated private influence may shape AI. The immediate industry impact is policy-oriented: debates over AI safety, regulation, energy infrastructure, workforce transition, and public accountability are becoming central to determining who benefits from advanced AI and who sets its limits. Sources: LBJ School of Public Affairs and UT Austin Texas AI event pages, October 2026; LBJ School analysis of AI data centers and public power, October 2026.",
+        "source": "web search"
+      },
+      {
+        "topic": "Robert Moses",
+        "context": "In the AI/ML discussion, Robert Moses is being used as an analogy—not as an AI researcher or company. Moses, New York’s unelected mid-20th-century “master builder,” accumulated influence through control of infrastructure, public authorities, financing, and technical expertise. The comparison frames powerful AI systems and their builders as potentially “AI power brokers”: technically capable, difficult for the public to scrutinize, and able to reshape social infrastructure without direct democratic accountability. Recent commentary extends the analogy to algorithmic platforms and urban AI, warning that optimization and scale can reproduce bias, concentrate decision-making, and entrench whoever controls the systems.\n\nThe LBJ reference likely comes from Robert Caro’s treatment of power: Moses illustrates how unelected institutional power can transform cities, while Lyndon B. Johnson illustrates how political power can be used to pass major public legislation, including civil-rights and social-welfare measures. In AI/ML, the relevant takeaway is that capability alone does not determine outcomes; governance, accountability, and the purposes set by powerful actors do. The most directly relevant recent source found is a 2025 Nature commentary, “From the power broker to a(i) power broker,” which applies the Moses analogy to urban AI and calls for transparency about training data, model limitations, biases, and system updates. Earlier analyses similarly compare AI’s influence over the internet and culture to Moses’s influence over New York infrastructure.",
+        "source": "Nature commentary, “From the power broker to a(i) power broker” (2025); related context from Robert Caro discussions of Robert Moses and Lyndon B. Johnson"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "OpenAI releases GPT-6.1 Terra for large-scale computer use",
+        "summary": "OpenAI reportedly launched GPT-6.1 Terra, emphasizing faster and more capable computer-use workflows alongside improved writing quality. The model is priced at $1 per million input tokens and $5 per million output tokens.",
+        "whyItMatters": "A new low-cost computer-use model could accelerate production deployment of browser agents, desktop automation, and tool-using systems while materially lowering inference costs.",
+        "source": "Techmeme, October 29, 2026"
+      },
+      {
+        "headline": "Mistral releases open Timestral time-series foundation models",
+        "summary": "Mistral introduced the Timestral family, consisting of four open probabilistic forecasting models ranging from 5 million to 209 million parameters. The largest models reportedly led benchmarks including GIFT-Eval, TIME, and fev-bench.",
+        "whyItMatters": "Open, compact forecasting models give practitioners alternatives to proprietary general-purpose models for demand planning, finance, monitoring, and other time-series applications.",
+        "source": "AI Weekly, October 29, 2026"
+      },
+      {
+        "headline": "NVIDIA and Meta expand AI infrastructure and model partnership",
+        "summary": "NVIDIA and Meta announced an expanded collaboration covering Meta’s Muse model family and infrastructure for training and inference. NVIDIA also plans to invest $3 billion in Meta’s capital offering, while Meta will expand its use of NVIDIA Vera Rubin systems, processors, and Spectrum-X networking.",
+        "whyItMatters": "The agreement reinforces NVIDIA’s role across the AI stack and signals continued hyperscale demand for advanced training and inference infrastructure.",
+        "source": "NVIDIA announcement, reported October 29, 2026"
+      },
+      {
+        "headline": "Bedrock Robotics raises $600 million for autonomous machines",
+        "summary": "Bedrock Robotics reportedly secured $600 million in funding to build autonomous machines. The financing was among the major AI industry developments highlighted for October 29.",
+        "whyItMatters": "The round indicates strong investor interest in embodied AI and could accelerate deployment of autonomous systems in industrial and physical-world environments.",
+        "source": "AI Dapted, October 29, 2026"
+      },
+      {
+        "headline": "New York expands restrictions on unsafe AI companion features for minors",
+        "summary": "New York Governor Kathy Hochul signed legislation barring what the law describes as unsafe AI companion features when companion chatbots interact with people under 18. The measure adds to growing state-level scrutiny of emotionally engaging AI systems.",
+        "whyItMatters": "Developers of social, educational, and therapeutic chatbots may need stronger age assurance, safety controls, monitoring, and product-policy compliance for youth-facing deployments.",
+        "source": "The World of AI, October 29, 2026"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Gemini 4 Carbon",
+        "type": "product",
+        "context": "Introduced by Google as a new AI model with improved energy efficiency"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as the developer of the Gemini 4 Carbon model"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Discussed in relation to its strong financial performance"
+      },
+      {
+        "name": "LBJ",
+        "type": "person",
+        "context": "Mentioned as a historical figure in a discussion about power"
+      },
+      {
+        "name": "Robert Moses",
+        "type": "person",
+        "context": "Mentioned alongside LBJ in a discussion about power"
+      },
+      {
+        "name": "Nemotron Transcribe",
+        "type": "product",
+        "context": "Mentioned alongside Gemini 4 Carbon as a relevant AI development"
+      },
+      {
+        "name": "DeepLearning.AI",
+        "type": "company",
+        "context": "Sender of a newsletter about facing AI fears on Halloween"
+      },
+      {
+        "name": "TLDR AI",
+        "type": "company",
+        "context": "Sender of a newsletter about AI developments including Gemini 4 Carbon"
+      },
+      {
+        "name": "Understanding AI",
+        "type": "company",
+        "context": "Sender of a newsletter discussing Anthropic's financials"
+      },
+      {
+        "name": "AI",
+        "type": "technology",
+        "context": "Central theme across multiple newsletters discussing various AI-related topics"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-10-30T00:30:38.526Z",
+  "dateString": "2026-10-30"
+}
