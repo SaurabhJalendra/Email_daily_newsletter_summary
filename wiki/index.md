@@ -45,6 +45,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[crusoe]] — US AI-infrastructure company; $3.9B raise (Sep 2026) to build massive DCs plus truck-transportable modular "Spark" AI factories that connect to power almost anywhere
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale *(stale)*
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025 *(stale)*
+- [[doordash]] — US local-commerce + food/grocery delivery platform; Ask DoorDash + Text DoorDash + Model Context Protocol enterprise ordering AI agents; agrees Oct 29 2026 to acquire [[instacart]] for ~$17B ($65/share, late-2027-to-H1-2028 close, 50,000+ additional-stores combined-merchant-coverage)
 - [[dyna-robotics]] — robotics startup building World-Action Models + semi-humanoid physical agents for hour-long real-world workflows; [[dyna-2]] WAM pretrained on 1M+ hours of egocentric human video + [[dyna-2-1]] semi-humanoid system; Best Western + Din Tai Fung named deploy customers (Oct 2026)
 - [[earendil]] — vendor of Pi — open-source MIT-licensed minimal AI coding-agent harness; shipped [[pi-1-0]] stable + [[pi-durable]] TypeScript port Oct 1 2026
 - [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace + Eleven v4 + Eleven v4 Turbo (90+ languages) + Cue forced-alignment model (Oct 2026)

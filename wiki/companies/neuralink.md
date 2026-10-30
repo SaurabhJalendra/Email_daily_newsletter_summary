@@ -1,6 +1,6 @@
 ---
 name: Neuralink
-description: Elon Musk's brain-computer-interface vendor; pretraining decoders on 50,000+ hours of unlabeled neural data from clinical trials (Oct 2026)
+description: Elon Musk's brain-computer-interface vendor; pretraining decoders on 50,000+ hours of unlabeled neural data from clinical trials; Blindsight vision-restoration implant engineering-complete and awaiting FDA approval (Oct 2026)
 type: company
 ---
 
@@ -8,6 +8,7 @@ type: company
 
 > **Type**: company
 > **First mentioned**: 2026-10-05-evening (**Neuralink pretrains decoders on 50,000+ hours of unlabeled freeform neural data collected since start of clinical trials → canonical concrete "pretraining-on-unlabeled-neural-data" + concrete-dataset-scale + concrete "more accurate and long-lived decoders" three-primitive canonical anchor cluster on BCI-pretraining substrate** — TLDR MEDIUM: *"Neuralink has collected over 50,000 hours of unlabeled, freeform neural data since its clinical trials began, using this data to improve its decoders and make them more accurate and long-lived"* + daily-digest Top Story #1: *"Neuralink collects over 50,000 hours of unlabeled neural data to improve decoders"* + *"the large dataset will help Neuralink develop more accurate and long-lived decoders, potentially leading to breakthroughs in brain-machine interfaces and neurotechnology"* + source link neuralink.com/updates/pretraining-on-50000-hours/. First-in-wiki *concrete Neuralink-named-vendor canonical anchor + concrete 50K-hour-unlabeled-freeform-neural-data canonical dataset-scale anchor + concrete "pretraining-on-neural-data"-canonical-method anchor + concrete "more accurate and long-lived decoders" improvement-framing canonical anchor cluster* (structurally significant three ways — (i) productizes Neuralink into *canonical BCI-vendor-tier operator of a pretraining-scale foundation-model-for-neural-signals substrate* — pairs cycle-structurally with [[merge-labs]] + [[brain2qwerty-v2]] canonical BCI-adjacent anchor arc as *canonical late-2026 BCI-plus-foundation-model substrate cluster*; (ii) canonicalizes "pretraining on 50K hours of unlabeled freeform neural data" as *first-in-wiki concrete canonical BCI-foundation-model-tier dataset-scale anchor* — productizes the LLM-style "pretrain on large unlabeled corpus" canonical anchor arc into *neural-signal-tier substrate*; (iii) likely durable reference-anchor for future BCI-foundation-model + decoder-accuracy-and-longevity + neurotechnology-and-AI-convergence discussion — tracks structurally with the mid-2026 [[world-models]] + [[tabular-foundation-models]] substrate-generalization-of-pretraining-paradigm canonical arc)
+> **Last updated**: 2026-10-30-evening (**Blindsight implant engineering-complete-awaiting-FDA-regulatory-approval canonical anchor** — TLDR MEDIUM "DoorDash buys Instacart 🛒, Reddit requires login 👽, making agents faster ⚡": *"Neuralink's Blindsight implant, designed to help blind people see, is now ready from an engineering standpoint and is waiting on regulatory approval"* + notable link *"Elon Says Blindsight Is Ready 2 Years After FDA Breakthrough"*. First-in-wiki: (a) **Blindsight implant engineering-complete canonical anchor** — productizes Neuralink as *canonical late-Oct-2026 concrete-second-named-Neuralink-product-ready-for-regulatory-review substrate operator* alongside the 10-05-evening motor-decoder pretraining canonical anchor; (b) **FDA-approval-pending canonical regulatory-tier anchor** — productizes Neuralink as *canonical late-Oct-2026 concrete-engineering-complete-plus-regulatory-pending canonical anchor* on the BCI-productization arc; graduates Blindsight (first disclosed Sep 2024 with FDA "Breakthrough Device" designation) from *"two-years-after-breakthrough-designation" tier* into *concrete-engineering-complete-plus-awaiting-approval tier*; (c) **"Approval could revolutionize assistive technologies" canonical practitioner-impact framing anchor** — productizes Blindsight as *canonical late-Oct-2026 concrete-assistive-tech-tier canonical anchor* alongside motor-decoder arc. Likely durable reference-anchor for future BCI-vision-restoration-plus-regulatory-approval discussion. See [[merge-labs]] + [[xai]] — *source: data/summaries/2026-10-30-evening.json (TLDR MEDIUM "DoorDash buys Instacart 🛒, Reddit requires login 👽, making agents faster ⚡"; notable link "Elon Says Blindsight Is Ready 2 Years After FDA Breakthrough" via teslanorth.com)*)
 > **Status**: active
 > **Related**: [[merge-labs]], [[brain2qwerty-v2]], [[xai]], [[world-models]], [[tabular-foundation-models]]
 
@@ -17,6 +18,8 @@ Neuralink is Elon Musk's brain-computer-interface (BCI) company, developing impl
 
 ## Timeline
 
+- **2026-10-30-evening**: **Blindsight implant engineering-complete and awaiting FDA regulatory approval** — TLDR MEDIUM: *"Neuralink's Blindsight implant, designed to help blind people see, is now ready from an engineering standpoint and is waiting on regulatory approval"*; notable-link framing: *"Elon Says Blindsight Is Ready 2 Years After FDA Breakthrough"* (teslanorth.com). Productizes Blindsight as *canonical second-Neuralink-product-ready-for-regulatory-review* tier alongside the motor-decoder pretraining arc. — *source: data/summaries/2026-10-30-evening.json (TLDR MEDIUM "DoorDash buys Instacart 🛒, Reddit requires login 👽, making agents faster ⚡")*
+
 - **2026-10-05-evening**: Neuralink reports 50,000+ hours of unlabeled, freeform neural data collected since clinical trials began, used for pretraining decoders to be more accurate and long-lived — *source: data/summaries/2026-10-05-evening.json (TLDR MEDIUM; daily-digest Top Story #1; neuralink.com/updates/pretraining-on-50000-hours/)*
 
 ## Key Facts
@@ -25,6 +28,7 @@ Neuralink is Elon Musk's brain-computer-interface (BCI) company, developing impl
 - Dataset: 50,000+ hours of unlabeled, freeform neural data from clinical trials (2026-10-05 disclosure)
 - Method: pretraining on unlabeled neural data to improve decoder accuracy and longevity
 - Framing: "potentially leading to breakthroughs in brain-machine interfaces and neurotechnology" (per TLDR daily-digest)
+- Named product awaiting FDA approval (2026-10-30 disclosure): **Blindsight** — implant designed to help blind people see; engineering-complete; "ready 2 years after FDA Breakthrough designation"
 
 ## Open Questions
 
@@ -36,4 +40,5 @@ Neuralink is Elon Musk's brain-computer-interface (BCI) company, developing impl
 
 ## Sources
 
+- data/summaries/2026-10-30-evening.json (TLDR MEDIUM "DoorDash buys Instacart 🛒, Reddit requires login 👽, making agents faster ⚡" — Blindsight engineering-complete awaiting FDA)
 - data/summaries/2026-10-05-evening.json (TLDR MEDIUM "Apple CEO designs 💼, Muse's maker 🤖, using web standards 👨‍💻"; daily-digest Top Story #1; link to neuralink.com/updates/pretraining-on-50000-hours/)
