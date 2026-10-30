@@ -47,7 +47,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025 *(stale)*
 - [[dyna-robotics]] — robotics startup building World-Action Models + semi-humanoid physical agents for hour-long real-world workflows; [[dyna-2]] WAM pretrained on 1M+ hours of egocentric human video + [[dyna-2-1]] semi-humanoid system; Best Western + Din Tai Fung named deploy customers (Oct 2026)
 - [[earendil]] — vendor of Pi — open-source MIT-licensed minimal AI coding-agent harness; shipped [[pi-1-0]] stable + [[pi-durable]] TypeScript port Oct 1 2026
-- [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace, in-platform LLM hosting *(stale)*
+- [[elevenlabs]] — voice-AI company; Iconic Voice Marketplace + Eleven v4 + Eleven v4 Turbo (90+ languages) + Cue forced-alignment model (Oct 2026)
 - [[engram]] — Neo Lab building a persistent, learned memory layer for AI to improve efficiency and reduce inference costs (Jun 2026)
 - [[epoch-ai]] — AI research org quantifying frontier-AI compute, cost, and capabilities; Oct 2026 Epoch Brief: ~2B AI agents on 2027-shipped chips, cost of AI performance falling ~47%/quarter (~13×/year), OpenAI median-researcher daily agent spend <$1 Jan → ~$600 Aug
 - [[etched]] — AI inference chip startup; exits stealth Jul 2026 at $5B valuation ($800M raised, $1B+ in contracts, first inference racks shipping summer 2026)
@@ -276,8 +276,10 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[codex-micro]] — OpenAI's keyboard-form developer gadget for Codex agents debuted at AI Engineer World Fair (Jun 2026)
 - [[codex-security]] — OpenAI's autonomous appsec agent inside Codex; scans repos, builds threat models, proposes patches (Mar 2026) *(stale)*
 - [[copilot-cowork]] — Microsoft 365 Copilot's Claude-powered multi-step task agent across Office apps (Mar 2026) *(stale)*
+- [[copilot-fusion]] — GitHub's Oct 2026 intelligent model-routing + orchestration layer for Copilot combining Project HydraFusion multi-model orchestration + Copilot auto model selection to balance performance and cost per task
 - [[cs-4]] — Cerebras's fourth-gen wafer-scale AI system; 3 wafer-scale chips per rack + 750 PFLOPS + 129.6 PB/s bandwidth + ~10× efficiency vs CS-3 + up to 30× faster inference than GPUs (Aug 2026)
 - [[cue]] — [[manus]]'s Sep 2026 standalone personal-AI-agent app launched with Manus 2.0; per-agent email + phone + digital wallet + computer with user-defined-budget payment authority; invite-code `MEETCUE` early access; iOS pending App Store review
+- [[elevenlabs-cue]] — ElevenLabs's Oct 2026 forced-alignment model for precise character-level timing in audio files (unrelated to Manus's [[cue]] despite the shared name)
 - [[chroma-foundation]] — Chroma's Aug 2026 shared-memory system for AI agents; ChromaDB + Context-1 20B GPT-OSS backing; integrates with Codex + Claude Code + Cursor + Slack; ~400 tok/s, ~25× cheaper than Opus for agentic search; self-improving system prompt
 - [[cohere-command-a-plus]] — Cohere's first open-weights frontier model; 218B Apache 2.0 (May 2026) *(stale)*
 - [[cohere-parse]] — Cohere's Aug 2026 enterprise document-intelligence tool converting complex files to structured machine-readable data; $1.50 per 1,000 pages via Cohere API
@@ -542,6 +544,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nanochat]] — Karpathy's end-to-end ChatGPT clone repo *(stale)*
 - [[nemotron-3]] — NVIDIA's open-source agentic model line; Nano (30B/3B active MoE), 4× throughput claim *(stale)*
 - [[nemotron-3-5-super-vl]] — NVIDIA's Oct 15 2026 open customizable vision-language model — 120B MoE / ~12B active, hybrid Mamba-Transformer + RADIO/C-RADIO vision + native multi-token prediction + video support; text + images + video input (no audio)
+- [[nemotron-3-5-transcribe]] — NVIDIA's Oct 30 2026 open-weight unified multilingual speech model — transcription + translation + speaker attribution + audio Q&A, up to 40 languages, vendor-reported #1 across several transcription + speaker-attribution leaderboards; distributed via Hugging Face `nvidia/nemotron-transcribe-granary`
 - [[nemotron-4]] — NVIDIA's in-development ~1-trillion-parameter open-source model family; rival to the most capable global open models (Aug 2026)
 - [[niji-7]] — Midjourney's anime-style image model (Jan 2026) *(stale)*
 - [[nitrogen]] — NVIDIA open-source gaming-agent model *(stale)*
