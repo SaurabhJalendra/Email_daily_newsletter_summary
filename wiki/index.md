@@ -733,6 +733,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures *(stale)*
 - [[recursive-self-improvement]] — Anthropic's "Sparks of RSI" essay; 80% of Anthropic code Claude-authored, 8× engineer output, coordinated-pause ask (Jun 2026)
 - [[sebastian-raschka]] — ML researcher + educator; author of [[ahead-of-ai]] newsletter (>223K subs) + `LLMs-from-scratch` repo (>100K stars) + 2026 *Build a Reasoning Model (From Scratch)* book + Oct 2026 companion video course
+- [[tivadar-danka]] — mathematician + ML educator; creator of The Palindrome newsletter on Substack (>48K subs); mathematics-of-ML + from-scratch-implementations specialization; Oct 2026 expansion into YouTube + *Machine Learning From Zero* book + workshops
 - [[tsrx]] — TypeScript language extension + JSX successor by Dominic Gannaway; statically analyzable for LLMs; multi-target compile (React/Solid/Preact/Vue) (Jun 2026)
 - [[universal-commerce-protocol]] — Shopify + Google open protocol for agent-commerce; canonical substrate for Shopify Agentic Storefronts into ChatGPT + Gemini + Copilot (Oct 2026)
 - [[vivienne-ming]] — neuroscientist + Chief Scientist at Possibility Sciences; canonical framer of [[hybrid-intelligence]]; INSEAD AI Forum Americas keynote + INSEAD Knowledge essay (Oct 2026)
