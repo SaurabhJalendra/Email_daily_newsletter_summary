@@ -58,6 +58,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[fractile]] — UK-based specialized inference-processor startup building in-memory-computing chips; targets up to 25× LLM-inference speedup + fraction-of-cost vs conventional GPUs; ~$6.5B potential valuation (Aug 2026)
 - [[fish-audio]] — Voice-AI company; ships S2.1 Pro (Jul 2026) real-time voice-cloning across 83 languages; positioned against ElevenLabs on cost
 - [[friendliai]] — "Frontier Inference Cloud for agents" serving frontier open-weight models; powers [[claude-code]] + [[cursor]] + Kilo Code + Hermes Agents + [[ollama]] (Jul 2026)
+- [[furiosa-ai]] — Korean AI-inference-chip startup; RNGD 180W accelerator claims GPU throughput at half the power; $620M at $2.9B valuation to scale production (Oct 30 2026)
 - [[ghost]] — San Francisco AI startup building [[core]], a $3,499 screenless personal AI computer for autonomous local agents; $11M a16z-led seed (Oct 2026)
 - [[general-intuition-ai]] — Neo Lab building Large Action Models (LAMs) and world models that perceive/predict/act across virtual and physical spaces (Jun 2026)
 - [[glean]] — enterprise AI search/agent company co-founded by ex-Google Distinguished Engineer Arvind Jain; canonical enterprise implementer of model routing (three modes: explicit / admin / automatic); Waldo agentic-search model (50% latency + 25% token reduction); $150M Series F, ~$300M ARR (Aug 2026)
@@ -119,6 +120,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[parlance-labs]] — Hamel Husain's engineer-led AI-evals consultancy; publishes free open-source [[evals-skills]] bundle (w/ Shreya Shankar) + Maven *AI Evals for Engineers & PMs* course (5,000+ taught) + hamel.dev evals-FAQ + Oct 6 2026 free *Cracking the AI Evals Interview* lesson
 - [[periodic-labs]] — "Synthesis superintelligence" AI-for-science startup co-led by Liam Fedus + Ekin Dogus Cubuk; automated materials discovery via simulations + high-throughput experiments + ML; targets room-temperature superconductors, new magnets, more efficient computing materials (Oct 2026)
 - [[perplexity]] — AI search; Comet browser; AI Browser w/ shopping + virtual try-on
+- [[psiquantum]] — US photonic quantum-computing company adapting silicon-photonics platform to AI datacenter networking via Optical Circuit Switching; 8×8 OCS prototype 1.2 dB insertion loss + 40 dB crosstalk + <3 ms reconfiguration (Oct 30 2026)
 - [[pinecone]] — vector-DB + retrieval-infrastructure company; Aug 2026 Nexus retrieval layer beats frontier-model agents on enterprise-knowledge benchmark
 - [[poolside-ai]] — American-open-weights neolab; "Model Factory" approach; ships [[laguna-s]] family (118B MoE / 1M context, cheaper than Deepseek v4 Flash) (Jul 2026)
 - [[project-prometheus]] — Jeff Bezos's "artificial general engineer" company; automates CAD + physics-based simulation; $41B framing (Jun 2026)
@@ -560,6 +562,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openai-frontier]] — OpenAI's Feb 2026 enterprise AI-Employee platform (personas + skills + memory) *(stale)*
 - [[openai-presence]] — OpenAI's Jul 2026 enterprise agent platform for controlled voice/chat agents; permissions + policies + evaluations + escalation rules + Codex-powered improvement loop; direct competitor to [[claude-managed-agents]]
 - [[openai-jalapeno]] — OpenAI's first custom AI inference chip co-designed with [[broadcom]]; built from scratch in nine months; better performance-per-watt + lower operating costs than current GPU-based systems (Jun 2026)
+- [[openai-model-spec]] — OpenAI's public specification for intended model behavior; Oct 30 2026 revision organizes behavior around five values: faithfulness to human intent + harm minimization + honesty and transparency + human agency + care
 - [[openai-prism]] — OpenAI's free AI-native workspace powered by [[gpt-5-2]] — converts whiteboard sketches into code + manuscript-context chat for researchers (Jun 2026)
 - [[openai-workspace-agents]] — OpenAI's Apr 2026 ChatGPT feature for shared team agents handling complex tasks + long-running workflows *(stale)*
 - [[open-fable]] — Zhipu AI's forecasted ~Dec 2026 open-weights Fable-class model; strategic open-source counter to the Fable/Mythos export-control regime (Jun 2026)
