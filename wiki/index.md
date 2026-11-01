@@ -24,6 +24,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[artificial-analysis]] — Independent AI-model benchmarking organization; Oct 2026 ships Intelligence Index v5 (four categories + 9 evals, 60% private test sets, adds Cognition's FrontierCode 2.0 + Terminal-Bench-Science)
 - [[assemblyai]] — voice/speech AI vendor; Voice Agent API collapses pipeline into a single WebSocket (Jun 2026)
 - [[auth0]] — identity platform; Auth0 for AI Agents *(stale)*
+- [[axiom-math]] — AI-for-math research lab; mathematician-directed agent swarms via AxiomProver completed a Lean formalization of the Classification of Finite Simple Groups (~43.1M lines of Lean over ~24 days) and surfaced 34 discrepancies in published source material (Nov 2026)
 - [[backflip-ai]] — AI startup building scan-to-editable-CAD generation for engineering, architecture, and product design (Aug 2026)
 - [[baidu]] — Chinese search/cloud giant; ships Unlimited-OCR 3B open-source (93.23% OmniDocBench, R-SWA attention, 8GB VRAM) Jul 2026 + ERNIE-4.5-VL-Thinking multimodal reasoning
 - [[baseten]] — AI inference + post-trained-open-models compute company; $1.5B Series F at $13B valuation Jun 2026; "owned intelligence" infrastructure thesis
@@ -355,6 +356,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemma-3-270m]] — Google's 270M small model for edge / on-device use (Jun 2026)
 - [[gen-1-5]] — Generalist AI's Aug 2026 one-shot robot learning model — new physical skill from single 3-12s demo, 59% first-try / 83% after few minutes of practice
 - [[gemma-4]] — Google's open-weights family (E2B/E4B/12B encoder-free multimodal/26B MoE/31B Dense); 256K context; Apache 2.0; QAT weights for all sizes (Jun 2026)
+- [[genie-4]] — Google DeepMind's Nov 2026 next-generation interactive-world/3D-environment generative model; details limited at first surfacing
 - [[genpage]] — Netflix's single-model end-to-end generative homepage (rows + titles + layout from viewing history; 20% serving-latency reduction) (Jul 2026)
 - [[github-agent-hq]] — GitHub's multi-agent control plane *(stale)*
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
@@ -683,6 +685,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ai-supply-chain-attacks]] — DPRK-linked npm/PyPI/Packagist/marketplace package compromises + registry-tier defensive responses (Github Dependabot 3-day hold-and-observe); foundational-dependency targeting reaches AI-toolchain transitively (Aug 2026 creation, covers 2026-05 → 2026-08 arc)
 - [[ai-video-generation]] — generative video models; Sora 2 monetization vs Veo 3.1 ad *(stale)*
 - [[ai-watermarking]] — frontier-lab invisible-signature systems for detecting AI-generated content; Anthropic Aug 2026 Claude text watermark + Text Detection API, tied to EU AI Act transparency code applied worldwide (Aug 2026)
+- [[cfsg-lean-formalization]] — [[axiom-math]]'s Nov 2026 machine-checkable Lean translation of the Classification of Finite Simple Groups ("Enormous Theorem") — ~15,000-page proof → ~43.1M lines of Lean via mathematician-directed agent swarms over ~24 days; surfaced 34 discrepancies in published source material
 - [[andrej-karpathy]] — influential AI commentator; nanoGPT/nanochat author *(stale)*
 - [[andrew-ng]] — Google Brain / Coursera / DeepLearning.AI co-founder; publishes AI Engineering Skills Map (4 core skill areas from 10K+ job posting analysis) + Coursera-backed LearnVector $100M; canonical mid-2026 educator for AI-engineering discipline (Aug 2026)
 - [[computer-use]] — models that drive GUIs directly; Aug 2026 [[hark-handoff]] launch adds consumer/lifestyle-tier entrant (food ordering, shopping, recruiting) alongside prior coding-agent + browser-agent tiers
