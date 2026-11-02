@@ -8,9 +8,10 @@ type: topic
 
 > **Type**: topic
 > **First mentioned**: 2026-10-21-evening
-> **Last updated**: 2026-10-21-evening
+> **Last updated**: 2026-11-02-evening (**[[cisco]] launches 24-month 98%-legacy-code-rewrite initiative under 27-year-old engineer Padmanabhan Krishnamurthy with "unlimited AI tokens" canonical concrete-enterprise-tier anchor** — TLDR MEDIUM: *"Cisco has tasked a 27-year-old engineer, Padmanabhan Krishnamurthy, with rewriting 98% of the company's legacy code within 24 months using unlimited AI tokens"*. First-in-wiki: (a) **Named-engineer-led 98%-of-legacy-code-in-24-months concrete-scope canonical anchor on a Fortune-100 networking incumbent** — productizes the mid-2026 AI-native-SDLC arc with a *concrete named-enterprise + concrete-scope + concrete-horizon code-modernization-via-AI canonical anchor* distinct from [[tenex]] consulting-plus-internal-tools model and [[warp]] [[software-factories]] framing; (b) **"Unlimited AI tokens" concrete-budget-framing canonical anchor** — first-in-wiki *concrete enterprise-tier unlimited-AI-coding-agent-token-budget canonical anchor* on a listed-enterprise substrate; structurally novel because prior enterprise AI-cost framings (Palo Alto Arora ~90%-cost-drop + Uber budget-burned + 18-cents-per-dollar + Claude "massive bills") have framed token costs as a *constraint* — Cisco's framing inverts this into a *strategic unlock*; (c) **Cross-pattern with [[shopify]] self-improving-AI-pipeline enterprise-case-study (Sep 2026) + [[tenex]] MetaHarness Fortune-2000 operating model (Oct 2026)** — Cisco anchors the AI-native-SDLC arc at *Fortune-100-networking-tier* substrate alongside Fortune-2000-SaaS-tier (Tenex) + e-commerce-tier (Shopify). See [[cisco]] + [[tenex]] + [[software-factories]] + [[claude-code]] — *source: data/summaries/2026-11-02-evening.json (TLDR MEDIUM "OpenAI funding issues 💰, Cisco rewrites code 👨‍💻, hiring junior devs 💼")*)
+> **Previously updated**: 2026-10-21-evening
 > **Status**: active
-> **Related**: [[tenex]], [[agent-frameworks]], [[software-factories]], [[claude-code]], [[recursive-self-improvement]], [[enterprise-ai]]
+> **Related**: [[tenex]], [[cisco]], [[agent-frameworks]], [[software-factories]], [[claude-code]], [[recursive-self-improvement]], [[enterprise-ai]]
 
 ## Summary
 
@@ -20,6 +21,7 @@ The term was canonicalized in a Tenex August 2026 blog post, "Building an AI-Nat
 
 ## Timeline
 
+- **2026-11-02-evening**: **[[cisco]] 24-month 98%-of-legacy-code-rewrite initiative under 27-year-old Padmanabhan Krishnamurthy with "unlimited AI tokens"** — first-in-wiki Fortune-100-networking-tier concrete-enterprise AI-native-SDLC canonical anchor; unlimited-token-budget framing inverts prior enterprise AI-cost-constraint arc into *strategic unlock*. See [[cisco]] — *source: data/summaries/2026-11-02-evening.json (TLDR MEDIUM "OpenAI funding issues 💰, Cisco rewrites code 👨‍💻, hiring junior devs 💼")*
 - **2026-10-21-evening**: Latent.Space episode canonicalizes AI-Native SDLC as [[tenex]]'s operating model + MetaHarness implementation + eight-stage lifecycle (requirements/access → planning → design review → build → demos → testing/QA → shipping → hypercare/handoff) + Fortune 2000 enterprise target + "Citizen SDLC" extension for nontechnical employees. First-in-wiki standalone topic-page anchor. — *source: data/summaries/2026-10-21-evening.json (Latent.Space MEDIUM)*
 - **2026-08-05**: Tenex "Building an AI-Native SDLC" blog post publishes the eight-stage definition (per Latent.Space source attribution). — *source: data/summaries/2026-10-21-evening.json (researchFindings.additionalContext)*
 
@@ -41,4 +43,5 @@ The term was canonicalized in a Tenex August 2026 blog post, "Building an AI-Nat
 
 ## Sources
 
+- data/summaries/2026-11-02-evening.json (TLDR MEDIUM "OpenAI funding issues 💰, Cisco rewrites code 👨‍💻, hiring junior devs 💼" — Cisco 24-month 98%-legacy-code-rewrite with unlimited AI tokens led by Padmanabhan Krishnamurthy)
 - data/summaries/2026-10-21-evening.json (Latent.Space MEDIUM "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess"; researchFindings.additionalContext — Tenex + AI-Native SDLC)
