@@ -461,6 +461,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[ling-3-0-flash]] — Ant Group's efficient AI-agent-powering model that "rivals systems 2-3× its size"; workload-optimized "Flash" SKU in the version-3 Ling line (Jul 2026)
 - [[llm-d]] — Kubernetes-native stack for distributed LLM inference running vLLM/SGLang/more across clusters; turns single-node engines into production-grade serving on local hardware (Oct 2026)
 - [[longcat-2]] — Meituan's Jul 2026 open-source 1.6-trillion-parameter model — first publicly framed Meituan-frontier-AI-lab entrant; one of the largest publicly disclosed open-source parameter counts
+- [[longcat-2-5]] — Meituan's Nov 2026 multimodal successor to LongCat-2.0 — ~1.6T total / ~48B active per token; multimodal MoE for extended coding tasks and visual understanding; API access + planned GitHub + Hugging Face releases
 - [[longcat-avatar]] — Meituan's Aug 2026 open-source 13.6B photo+audio-to-talking-video model; long-form stability + lip sync; extends Meituan open-weights arc from LLM-tier into multimodal-video-generation-tier
 - [[ltx-2]] — Lightricks open-weights 4K video-generation model (Jan 2026) *(stale)*
 - [[lux]] — computer-use agent; 83.6% on OpenAI Operator benchmark *(stale)*
@@ -579,6 +580,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[openjarvis]] — open-source framework for a local personal AI assistant — local chat + document memory + tools (search/calculations) + Google Drive/Gmail connectors + voice I/O + scheduled agents; alpha status; Iron Man Jarvis as design metaphor (Aug 2026)
 - [[openrouter]] — Model-routing platform with unified API access to 400+ AI models across vendors; acquired by [[stripe]] for over $7B (Aug 2026)
 - [[opera-neon]] — Opera's AI browser *(stale)*
+- [[pando]] — OpenAI's horizontally scalable Git backend for its monorepo, announced Nov 2 2026 — Git-client-compatible, ~5× lower median push latency, serves ~1 PB of Git data/day, built for AI-agent-driven development scale
 - [[pinecone-nexus]] — Pinecone's Aug 2026 GA retrieval layer; tops open enterprise-knowledge benchmark, beats agents built on OpenAI/Anthropic/Google frontier models on corporate-data grounding
 - [[pipette]] — Liquid AI + Artificial Analysis open-source on-device benchmark stack; measures quality/speed/latency/memory across model × quantization × runtime × device combinations (Aug 2026)
 - [[perplexity-brain]] — Perplexity's self-improving memory system; persistent context graph across tasks/projects/decisions/files with origin-source linking (Jun 2026)
