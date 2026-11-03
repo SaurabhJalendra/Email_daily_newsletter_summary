@@ -138,6 +138,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[sakana-ai]] — Tokyo AI lab; launches dedicated RSI Lab in Tokyo (Jun 2026)
 - [[salesforce]] — enterprise SaaS; Agentforce 360 *(stale)*
 - [[sambanova]] — AI-computing-solutions vendor for data centers; $1B Series F at $11B valuation Jul 2026
+- [[samsung]] — Korean conglomerate; Samsung Foundry's 2nm GAA ramp — Q3 2026 earnings confirms new 2nm contracts from major cloud hyperscalers and AI/HPC customers; 2nm GAA mass production started Q3 2026; 2nm project wins expected to more than double YoY; adjacent Faraday Technology US cloud-AI chip project on Samsung 2nm GAA with first revenue H1 2027 (Nov 2026)
 - [[sf-compute]] — AI-compute marketplace building a "programmable data center"; multi-constraint order book + physical settlement (buyer receives usable compute, not cash against index) + cluster-delivery via partners + InfiniBand-subdivide-on-the-fly + sovereign-compute partnerships; CEO Evan Conrad; several hundred million dollars of volume closed (Oct 2026)
 - [[shopify]] — Canadian e-commerce platform; ships [[shopify-sidekick]] AI merchant assistant + Storefront Model Context Protocol (Anthropic co-built) + Universal Commerce Protocol (Google co-built); canonical mid-2026 self-improving-AI-pipeline case-study via GraphQL agent 0.8B Qwen fine-tune vs GPT-5.6 Sol xhigh (Sep 2026)
 - [[sierra]] — customer-service AI company; co-authors [[personal-agent-protocol]] open standard with [[meta]] (Oct 2026) for personal AI agent authentication + interaction with businesses
@@ -308,6 +309,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[deepseek-v4-1-flash]] — DeepSeek's Sep 2026 efficient open-weight MoE (552B total / 8-16B active); ~33× cheaper than GPT-6 Astra; 98% of Astra score at 1.4% cost; edges Claude Opus 5 + GPT-5.6 Sol on agentic/coding/cyber benchmarks; native image understanding
 - [[dots]] — OpenAI's Sep 29 2026 DevDay launch — persistent always-on AI agents powered by GPT-6 Astra; each has its own cloud computer + 4,000+ app integrations + Slack/Teams + user-defined boundary controls + consequential-actions-require-approval; free with Pro and Business Premium
 - [[dsec]] — DeepSeek's Sep 2026 production sandbox infrastructure (arXiv:2609.22978); 380K+ concurrent + 5K+/s + 3M/day sandboxes; four backends (function/container/microVM/full-VM); AppArmor + eBPF security
+- [[dsh-superagent]] — DeepSeek Harness bundle (MIT research prototype) — proactive coding agent that monitors GitHub repositories and picks up authorized work without a fresh prompt; runs isolated sessions + returns PRs; direct competition with [[claude-code]] + [[openai-codex]] proactive-coding-agent tier (Nov 2026)
 - [[dessa]] — Block's unreleased full-duplex speech-to-speech model that listens and speaks simultaneously while modeling conversational cues (pauses, laughter, emotion); high-end consumer hardware; safety-research testing only (Oct 2026)
 - [[devin-fusion]] — Cognition's multi-model coding-agent harness mixing frontier + cheaper "sidekick" models with dynamic mid-session routing; 35% cost cut vs frontier-alone (Jul 2026)
 - [[dig-bench]] — agent benchmark measuring rule-discovery-through-experimentation; 70 text-based games (21 publicly released, ~49 held for anti-contamination) (Aug 2026)
@@ -517,6 +519,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwen-3-8-27b]] — Alibaba's Aug 2026 27B vision-language open-weights model under Apache 2.0; 262K native context + Gated DeltaNet + gated-attention hybrid + ~61.7 SWE-bench Pro + fits high-end consumer hardware; defaults to xhigh reasoning effort (Simon Willison *"defaults to wildly overthinking"* framing)
 - [[qwen-3-8-omni-flash]] — Alibaba's Sep-2026 omnimodal Qwen model — 1M-token context window + audio-visual performance reportedly close to Google's Gemini 3.8 Flash
 - [[raft]] — Botiverse's multi-agent collaboration platform (Raft 1.0); turns ChatGPT into coordinated teams of persistent specialized agents in shared workspaces; BYO-model + per-agent-seat billing (Jul 2026)
+- [[realtime-bench]] — benchmark suite of 50 interactive game and web tasks evaluating frontier AI performance on low-latency real-time interactive problems; initial results show even best frontier models struggle (Nov 2026)
 - [[robostral-navigate]] — Mistral's Jul 2026 first robotics-tier model for factories/warehouses/industrial automation; cross-supplier hardware portability
 - [[minicpm5-2b]] — OpenBMB's Sep 2026 open-source 2B model; ranks first among open models under 4B on Artificial Analysis Intelligence Index
 - [[ministral-3]] — Mistral dense small-model line (3B/8B) for on-device inference *(stale)*
@@ -742,6 +745,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[vivienne-ming]] — neuroscientist + Chief Scientist at Possibility Sciences; canonical framer of [[hybrid-intelligence]]; INSEAD AI Forum Americas keynote + INSEAD Knowledge essay (Oct 2026)
 - [[waico]] — World Artificial Intelligence Cooperation Organization; China-led intergovernmental AI governance body launched Jul 16 2026 in Shanghai; 29 founding countries (US/UK/Canada/EU absent)
 - [[webmcp]] — Web Model Communication Protocol — enables websites to expose direct JavaScript tools callable by AI agents, bypassing slow browser-automation + screen-scraping agent-site interaction (Oct 2026)
+- [[weight-space-programming]] — MIT CSAIL research technique in which a frontier reasoning model reads and modifies another model's weights directly from natural-language specifications without gradient descent; initial demo uses [[gpt-6-1-astra]] as programmer model; points toward models that inspect and reprogram internal parameters (Nov 2026)
 - [[world-models]] — AI systems that model physical/spatial environments; Marble, Atlas, Hydra-0, GWM Worlds 2, Odyssey-3, Google DeepMind Genie 4 (native audio Oct 2026)
 
 ## Trends
