@@ -323,6 +323,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[firefox]] — Mozilla's browser joins the AI browser race with Aug 2026 Exa partnership powering *Smart Window* on desktop + *Quick Answers* on iOS; privacy-first + optional-AI + user-choice posture; fills [[chatgpt-atlas]] void (Aug 2026)
 - [[flint]] — Recursive's mixture-of-experts model for fast agentic coding on local hardware; 40B total parameters; >125 tokens/sec on M4 Pro MacBook Pro (Oct 2026)
 - [[flue]] — Fred Schott's (Astro creator) React-style meta-harness for agents; 16 Agent Hooks (`useSkill()` / `useTool()` / `useSubagent()`) atop Pi minimal-harness substrate; host-portable open-source competitor to [[vercel-eve]]; agent-defined-by-harness thesis (Aug 2026)
+- [[flashprove]] — Anthropic + EPFL + MIT Apache 2.0 prototype using zero-knowledge proofs to establish an output came from a specific committed model without revealing weights; ~110 tokens/sec on one H100 (Nov 2026)
 - [[flux-2]] — Black Forest Labs' image model; better realism, text writing, character consistency *(superseded by [[flux-3]])*
 - [[flux-3]] — Black Forest Labs' Jul 2026 multimodal foundation model (image + video + audio + robotics); powers real-world factory robots at Audi
 - [[flux-3-action]] — Black Forest Labs' Oct 2026 7B-parameter world-action model turning camera feeds + text instructions into robot movements; tops Nvidia's RoboLab simulation benchmark; HF-hosted under FLUX Kommunity License
@@ -672,6 +673,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 ## Topics
 - [[aef-1-standard]] — voluntary Sep 2026 standard from the AI Evaluator Forum defining minimum operating conditions for independent third-party AI evaluations (access, COIs, autonomy, transparency, sensitive-info protection); co-signed by [[xai]] + [[openai]] + [[anthropic]]
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
+- [[app-intents]] — Apple's framework declaring app actions/content/entities/data in structures Apple Intelligence can understand; backbone of Siri AI cross-app agent tasks; Developer Preview opens to all developers Nov 3 2026
 - [[agent-harness]] — Latent Space canonicalizes *harness = everything besides the model weights that makes an agent work (environment + tools + context + guardrails)* + three-era framework: Bolt-On 1.0 → Co-Training 2.0 → Attention 3.0 (Aug 2026)
 - [[attention-interface]] — Harness 3.0 — the portion of the agent harness that faces the human (when to interrupt, what to show, which decisions require human input); predicted by Latent.Space (Aug 2026), productized via [[claude-mods]] (Oct 2026)
 - [[agentic-ai-foundation]] — Linux Foundation project for open agentic-AI standards; OpenAI/Anthropic/Block + MCP *(stale)*
