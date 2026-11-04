@@ -9,7 +9,8 @@ type: product
 > **Type**: product
 > **Vendor**: Meituan
 > **First mentioned**: 2026-11-03-evening
-> **Last updated**: 2026-11-03-evening (created)
+> **Last updated**: 2026-11-04-morning (**Cycle-N+1 morning cross-cohort restatement — daily-digest AI Models & Research reaffirms *"Meituan launches LongCat-2.5, a multimodal model designed for extended coding tasks and visual understanding, with 1.6 trillion total parameters and about 48 billion activated per token"*. Captured as cycle-marker — sustains the 11-03-evening launch canonical anchor into cycle-N+1 digest-tier morning saturation. Pairs cycle-structurally with same-cycle [[kimi-k3-1-pro]] T-0 Nov-4-full-weights-release canonical anchor as *canonical early-Nov-2026 twin-Chinese-open-weight-release day canonical anchor pair — Moonshot-2.8T-K3.1-Pro + Meituan-1.6T-LongCat-2.5 (API-first + staged-open-release)*. See [[longcat-2]] + [[kimi-k3-1-pro]] + [[open-source-models]] — *source: data/summaries/2026-11-04-morning.json (daily-digest AI Models & Research — Meituan launches LongCat-2.5)*)
+> **Previously updated**: 2026-11-03-evening (created)
 > **Status**: launched (API available; GitHub + Hugging Face releases planned)
 > **Related**: [[longcat-2]], [[longcat-avatar]], [[open-source-models]], [[kimi-k3-1-pro]], [[deepseek]], [[open-source-models]]
 
