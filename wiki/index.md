@@ -222,6 +222,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-company-knowledge]] — workplace-RAG ChatGPT over Slack/Drive/SharePoint/GitHub/Gmail *(stale)*
 - [[chatgpt-health]] — OpenAI's consumer health assistant (symptom guidance, lab-report reading, clinician review) *(stale)*
 - [[chatgpt-images-2]] — OpenAI's Apr 2026 image-gen upgrade; reasoning step before generation; non-Latin language support *(stale)*
+- [[chatgpt-images-2-6]] — OpenAI's Nov 2026 image-gen upgrade; claimed ~50%-faster generation; ships alongside Flare + Sunburst API models; ChatGPT adds GIF creation + frame editing + reusable reference images
 - [[chatgpt-for-financial-services]] — OpenAI's Sep 2026 vertical ChatGPT-Work edition with PitchBook + Crunchbase + LSEG data baked in for valuation models + pitch decks
 - [[chatgpt-for-teens]] — OpenAI's Aug 2026 age-segmented ChatGPT for users 13-17; powered by GPT-5.6 Luna + parental controls + auto-switch via age-prediction system + verify-age path
 - [[chatgpt-go]] — OpenAI's $8/mo ChatGPT entry-paid tier; launched globally Jan 2026 *(stale)*
