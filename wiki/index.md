@@ -41,6 +41,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cloudflare]] — CDN/edge platform; 1,100 layoffs (~20%) for "agentic AI-first operating model" May 2026
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf; $1B Series D at $26B + Devin writes 89% of own code (May 2026)
 - [[coinbase]] — US-listed crypto exchange; 1,200 full-time AI agents in production + 2× YoY code-per-developer + Coinbase Advisor SEC-registered AI investment advice + SpaceX pre-IPO perps + "bank for the agentic economy" thesis (Jul 2026)
+- [[conductor]] — Acquired-by-Meta startup whose software orchestrates multiple coding agents simultaneously (Nov 2026)
 - [[conviction]] — Sarah Guo's AI-focused VC firm (~$1B AUM); bets on the AI application/inference layer above foundation models; six portfolio companies past $10B including [[baseten]] and Harvey (Aug 2026)
 - [[cohere]] — Toronto enterprise LLM vendor; open-source Transcribe ASR tops HuggingFace leaderboard across 14 languages *(stale)*
 - [[crusoe]] — US AI-infrastructure company; $3.9B raise (Sep 2026) to build massive DCs plus truck-transportable modular "Spark" AI factories that connect to power almost anywhere
@@ -424,6 +425,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours *(stale)*
+- [[hbc-silicon]] — Qualcomm's High Bandwidth Compute memory-centric silicon (LPDDR stacked above compute die); vendor-reported 18× LPDDR5X bandwidth + >5× HBM4 bandwidth-per-watt; debuts in Dragonfly AI250 H1 2027 (Nov 2026 lab-validated)
 - [[harnessx]] — Xiaomi Darwin Agent Team's "agent foundry" framework; nine-component behavior pipeline with self-contained lego-swappable processors (Jul 2026)
 - [[honeycomb]] — Anthropic's unreleased research model briefly visible in Cursor as "Claude Honeycomb EAP"; 1M context, "extra high effort" reasoning tier, safety fallback to Opus 4.8; widely speculated Claude Opus 5 preview (Jul 2026)
 - [[hy3]] — Tencent Hunyuan's 295B / 21B-active open-source MoE model; Apache 2.0; competitive with larger systems on reasoning, coding, and agentic tasks (Jul 2026)
