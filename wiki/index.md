@@ -96,6 +96,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mechanize]] — AI coding startup building virtual environments + benchmarks + training data for AI agents; reportedly in advanced $1.5B acquisition talks with Google (Aug 2026)
 - [[mercor]] — talent-marketplace AI; $350M raise at $10B valuation *(stale)*
 - [[merge-labs]] — Sam Altman BCI startup; $250M raise at $850M valuation Jan 2026 *(stale)*
+- [[metr]] — Model Evaluation & Threat Research; independent AI safety + evaluation org studying frontier-model capabilities + autonomous AI systems + AI R&D acceleration + loss-of-control risks; Nov 2026 publishes high-access assessment of Anthropic (Aug 12–Oct 29) + ~$71M in six-month new commitments
 - [[meta]] — Muse Spark + open-weights pivot; $21B CoreWeave; SAM 3/3D; WorldGen
 - [[microsoft]] — Copilot ecosystem; Mico personality; Copilot App Builder; renewed OpenAI ~27% stake
 - [[midjourney]] — bootstrapped frontier AI lab; text-to-image core + V1 video + Midjourney Medical Scanner (full-body ultrasonic CT); CEO David Holz (Jun 2026)
@@ -247,6 +248,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-duet]] — Anthropic's Oct 2026 AI agent built for work tasks; takes actions and performs tasks on its own; explicitly less capable at personal errands vs OpenAI Dots and Meta Muse
 - [[claude-design]] — Anthropic's prompt-to-deck/prototype design tool
 - [[claude-docs]] — Anthropic's Sep 2026 beta document-authoring product surface bundled into the unified Claude app; competitive with Google Docs + Microsoft Word
+- [[claude-dreams]] — Anthropic's Nov 2026 research-preview "dreaming" memory capability for [[claude-managed-agents]]; reviews prior session transcripts and existing memory store during idle periods; merges duplicates + replaces stale/contradicted info + corrects mistakes + surfaces new insights; changes stored context rather than model weights
 - [[claude-fable-5]] — Anthropic's June 2026 frontier Claude release; "Beats Opus" per TAAFT; introduces "Fable" as a new versioned Claude tier alongside Haiku/Sonnet/Opus/Mythos (Jun 2026)
 - [[claude-fable-5-1]] — Anthropic's Sep 2026 frontier successor to Claude Fable 5 — same $10/$50 base pricing, 75% cheaper cache reads ($0.25/M), ~25% typical / up to 45% agentic cost savings, doubled benchmark scores, coding+research focus, enterprise privacy mode, reduced safety false alarms
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills *(stale)*
@@ -322,6 +324,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[embedding-gemma-2]] — Google's 740M-parameter open multimodal embedding model mapping text, code, images, video, and audio into a shared embedding space (Oct 2026)
 - [[ernie-4-5-vl-thinking]] — Baidu's open-source multimodal reasoning model; rivals GPT-5, Gemini 2.5 Pro *(stale)*
 - [[evals-skills]] — Hamel Husain + Shreya Shankar's free open-source eval skills bundle for coding agents; v2 launched Aug 2026 with new `error-discovery` + `start` skills; installs via `npx skills add ai-evals-course/evals-skills`
+- [[exo]] — Open-source distributed AI-inference system connecting computers, smartphones, and other devices into a peer-to-peer cluster to run frontier models locally across heterogeneous hardware; topology-aware parallelism + tensor parallelism + MLX-based inference + RDMA over Thunderbolt 5 (Nov 2026)
 - [[firefox]] — Mozilla's browser joins the AI browser race with Aug 2026 Exa partnership powering *Smart Window* on desktop + *Quick Answers* on iOS; privacy-first + optional-AI + user-choice posture; fills [[chatgpt-atlas]] void (Aug 2026)
 - [[flint]] — Recursive's mixture-of-experts model for fast agentic coding on local hardware; 40B total parameters; >125 tokens/sec on M4 Pro MacBook Pro (Oct 2026)
 - [[flue]] — Fred Schott's (Astro creator) React-style meta-harness for agents; 16 Agent Hooks (`useSkill()` / `useTool()` / `useSubagent()`) atop Pi minimal-harness substrate; host-portable open-source competitor to [[vercel-eve]]; agent-defined-by-harness thesis (Aug 2026)
@@ -392,6 +395,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gpt-6-2-astra]] — unannounced OpenAI frontier model / apparent GPT-6-Astra successor spotted in Codex usage analytics in late Oct–early Nov 2026; reported focus on coding + long-running agentic tasks + reliability; not in public API catalog as of Nov 3 2026
 - [[gpt-6-luna]] — OpenAI's Sep 22 2026 GPT-6-family low-cost high-volume tier; $0.10/M input + $0.50/M output; text+image input, ~1.05M context; +5.4pp AutomationBench uplift vs GPT-5.6 Luna at 58% lower cost per task; API `gpt-6-luna` + Free/Go desktop app
 - [[gpt-6-sol]] — OpenAI's Sep 22 2026 GPT-6-family professional-and-coding tier; built on Astra's advances; $2/M input + $10/M output; ~half as many mistakes as GPT-5.6 Sol; beats Claude Opus 5 on AutomationBench at ~91% less cost per completed task; API `gpt-6-sol`, ChatGPT Work, Codex
+- [[gpt-6-cyber]] — OpenAI's Nov 2026 GPT-6-tier cybersecurity model for authorized defensive work; 48.5% ExploitGym (vs 32.1% [[gpt-5-6-cyber]]) + 95% RemoteExploitBench; powers an autonomous Linux-kernel pipeline that found 81 high-severity Firefox vulnerabilities; API + Codex via [[openai-daybreak]] Red
 - [[gpt-synopsys]] — OpenAI × [[synopsys]] multiyear-partnership specialized model to operate semiconductor-design tools and automate chip-engineering workflows (Oct 2026)
 - [[gas-town]] — Steve Yegge's coding-agent orchestrator; shut down Sep 2026 after Yegge admitted he had "never successfully built anything" with it despite thousands spent on subscriptions
 - [[gpt-live]] — OpenAI's Jul 2026 full-duplex voice model — listens + speaks simultaneously with mid-sentence handoff to larger models; rebuild of ChatGPT voice mode
@@ -638,6 +642,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[standardos]] — Standard Bots' AI robotics development platform (APIs + SDKs for third-party developers to build industrial-robotics applications on Standard Bots' pretrained models + edge-GPU inference stack, Oct 2026)
 - [[stripe-kai]] — Stripe's Jul 2026 Knowledge AI Platform for enterprise employees — queries data warehouses, researches accounts, triages incidents, models revenue scenarios, prepares compliance reviews
 - [[swe-1-7]] — Cognition's cheap near-frontier coding model built on China's Kimi K2.7 substrate; $1.97/task; RL-pipeline improvements + long-horizon-task techniques (Jul 2026)
+- [[swe-2-flash]] — Cognition's Nov 4 2026 Flash-tier coding model for latency-sensitive agentic software engineering in Devin; built on [[thinking-machines]] Inkling-Small sparse-MoE; ~3× faster and ~1/5 the price of SWE-2; ships in Devin Desktop + CLI
 - [[synthid-bio]] — Google DeepMind's Oct 2 2026 proof-of-concept AI watermarking for tracing unfamiliar DNA designs — bio-domain extension of SynthID aimed at preventing synthetic-biology misuse
 - [[tabfm]] — Google's zero-shot foundation model purpose-built for tabular data; enables spreadsheet analysis/summarization/transformation/quality checks without task-specific training (Jul 2026)
 - [[tabicl]] — Inria/SODA Team's open-source tabular foundation model; two-stage distribution-aware column embedding + row-wise attention; TabICL v2 SOTA on TabArena (Jul 2026)
