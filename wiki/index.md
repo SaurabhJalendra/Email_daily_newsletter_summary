@@ -55,6 +55,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[epoch-ai]] — AI research org quantifying frontier-AI compute, cost, and capabilities; Oct 2026 Epoch Brief: ~2B AI agents on 2027-shipped chips, cost of AI performance falling ~47%/quarter (~13×/year), OpenAI median-researcher daily agent spend <$1 Jan → ~$600 Aug
 - [[etched]] — AI inference chip startup; exits stealth Jul 2026 at $5B valuation ($800M raised, $1B+ in contracts, first inference racks shipping summer 2026)
 - [[extropic]] — TSU thermodynamic-sampling chip; ~10,000× energy-efficiency claim *(stale)*
+- [[fauna-robotics]] — Home-robotics startup acquired by Amazon Nov 2026 as part of a new home-robot project targeting dynamic-home-environment navigation (successor to Astro)
 - [[figure]] — humanoid robots; Figure 03; sued by former product-safety head Nov 2025 *(stale)*
 - [[fireworks]] — NVIDIA-backed AI inference-and-fine-tuning startup at $17.5B valuation; positioned as cheap alternative for hosting open-source frontier models (Jul 2026)
 - [[fractile]] — UK-based specialized inference-processor startup building in-memory-computing chips; targets up to 25× LLM-inference speedup + fraction-of-cost vs conventional GPUs; ~$6.5B potential valuation (Aug 2026)
@@ -675,6 +676,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[voxtral-3]] — Mistral's Oct 2026 voice-agent SDK — Small Transcribe 3 (STT, 50+ languages) + Mini TTS 3 (expressive TTS, 35 languages) + LiveKit-based streaming voice-agent pipeline; seventh vertical in Mistral's open-weight product ladder
 - [[wispr-flow]] — voice-dictation + AI-editing product letting devs prompt agents in [[cursor]] / VS Code / JetBrains ~4× faster than typing; Bloomberg-reported $260M @ ~$2B Menlo Ventures lead (Jun 2026)
 - [[world-action-models]] — NVIDIA's model family for robot manipulation with generalization beyond training scenes; part of NVIDIA physical-AI stack alongside [[isaac-groot]] + [[alpamayo]] (Aug 2026)
+- [[worldparticle]] — MIT + University of British Columbia unified AI model for physical simulation (Nov 2026); replaces specialized simulators with a shared architecture; demonstrates on granular materials and protein folding
 - [[xcode-27]] — Apple's Sep 2026 Xcode release with model-agnostic coding agents + workflow customization + Device Hub for unified device management
 - [[zcode]] — [[zhipu-ai]]'s cross-platform (macOS/Windows/Linux) agentic-coding IDE; ships with [[glm-5-2]] tuned specifically for ZCode's plan → code → review → deploy loop (Jul 2026)
 - [[zero-language]] — Vercel Labs' Jul 2026 experimental language storing programs as a graph database (not text); agents patch nodes not text; <10 KiB native binaries; borrow-checker; structured JSON compiler errors with stable codes; version-pinned `zero skills` command
@@ -754,6 +756,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[prompt-compression]] — techniques to compress long prompts into smaller representations preserving task-relevant info; Shopify "gisting" as named canonical technique for reducing agent-loop context/cost/latency (Sep 2026)
 - [[prompt-injection]] — adversarial-input security; Atlas hidden-text hijack, Gemini disclosures *(stale)*
 - [[recursive-self-improvement]] — Anthropic's "Sparks of RSI" essay; 80% of Anthropic code Claude-authored, 8× engineer output, coordinated-pause ask (Jun 2026)
+- [[score-centering]] — Sep 2026 method for stabilizing off-policy RL (used in LLM post-training) by subtracting the sampler's expected token-level score to cancel training–inference mismatch drift; additive, complements importance sampling; adopted in Hugging Face TRL + NVIDIA NeMo RL
 - [[sebastian-raschka]] — ML researcher + educator; author of [[ahead-of-ai]] newsletter (>223K subs) + `LLMs-from-scratch` repo (>100K stars) + 2026 *Build a Reasoning Model (From Scratch)* book + Oct 2026 companion video course
 - [[tivadar-danka]] — mathematician + ML educator; creator of The Palindrome newsletter on Substack (>48K subs); mathematics-of-ML + from-scratch-implementations specialization; Oct 2026 expansion into YouTube + *Machine Learning From Zero* book + workshops
 - [[tsrx]] — TypeScript language extension + JSX successor by Dominic Gannaway; statically analyzable for LLMs; multi-target compile (React/Solid/Preact/Vue) (Jun 2026)
