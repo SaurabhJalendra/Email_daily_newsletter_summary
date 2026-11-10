@@ -124,6 +124,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[parlance-labs]] — Hamel Husain's engineer-led AI-evals consultancy; publishes free open-source [[evals-skills]] bundle (w/ Shreya Shankar) + Maven *AI Evals for Engineers & PMs* course (5,000+ taught) + hamel.dev evals-FAQ + Oct 6 2026 free *Cracking the AI Evals Interview* lesson
 - [[periodic-labs]] — "Synthesis superintelligence" AI-for-science startup co-led by Liam Fedus + Ekin Dogus Cubuk; automated materials discovery via simulations + high-throughput experiments + ML; targets room-temperature superconductors, new magnets, more efficient computing materials (Oct 2026)
 - [[perplexity]] — AI search; Comet browser; AI Browser w/ shopping + virtual try-on
+- [[physical-superintelligence]] — AI science startup that proved the Aaronson-Ambainis conjecture using a non-public Anthropic model (Nov 10 2026)
 - [[psiquantum]] — US photonic quantum-computing company adapting silicon-photonics platform to AI datacenter networking via Optical Circuit Switching; 8×8 OCS prototype 1.2 dB insertion loss + 40 dB crosstalk + <3 ms reconfiguration (Oct 30 2026)
 - [[pinecone]] — vector-DB + retrieval-infrastructure company; Aug 2026 Nexus retrieval layer beats frontier-model agents on enterprise-knowledge benchmark
 - [[poolside-ai]] — American-open-weights neolab; "Model Factory" approach; ships [[laguna-s]] family (118B MoE / 1M context, cheaper than Deepseek v4 Flash) (Jul 2026)
@@ -175,6 +176,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[typesafe-ai]] — Diogo Almeida-founded vendor behind [[jev]] "System One Model" decision-substrate (Sep 2026); 13% AI-Gateway teams first-day adoption + 6 open clones within 48h of launch
 - [[vercel]] — frontend/edge platform; open-sources Chat SDK for cross-platform bots Feb 2026
 - [[warp]] — AI-terminal startup; ships Oz agent-orchestration platform; CEO Zach Lloyd "software factories are the next phase of coding" (Jul 2026)
+- [[warp-sciences]] — AI-powered-biology-plus-robotics drug-discovery startup; $215M raise Nov 2026 (not to be confused with [[warp]] AI-terminal)
 - [[walden-robotics]] — Toyota's humanoid-robotics spinoff; emerges from stealth at $1.1B valuation Jul 2026 (Toyota + Nvidia + Boeing + Samsung Ventures); robots performing real production work at Toyota plant since Feb 2026
 - [[waymo]] — Alphabet's autonomous-driving subsidiary; $16B raise at $126B valuation Jun 2026; 500K paid rides/week across 11 US cities; sixth-gen Driver + Premier subscription
 - [[world-labs]] — Fei-Fei Li's "spatial intelligence" startup; ships Marble world model; $1B raise Feb 2026 *(stale)*
@@ -252,6 +254,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-dreams]] — Anthropic's Nov 2026 research-preview "dreaming" memory capability for [[claude-managed-agents]]; reviews prior session transcripts and existing memory store during idle periods; merges duplicates + replaces stale/contradicted info + corrects mistakes + surfaces new insights; changes stored context rather than model weights
 - [[claude-fable-5]] — Anthropic's June 2026 frontier Claude release; "Beats Opus" per TAAFT; introduces "Fable" as a new versioned Claude tier alongside Haiku/Sonnet/Opus/Mythos (Jun 2026)
 - [[claude-fable-5-1]] — Anthropic's Sep 2026 frontier successor to Claude Fable 5 — same $10/$50 base pricing, 75% cheaper cache reads ($0.25/M), ~25% typical / up to 45% agentic cost savings, doubled benchmark scores, coding+research focus, enterprise privacy mode, reduced safety false alarms
+- [[claude-fable-5-2]] — Anthropic's Nov 2026 frontier successor — profiled in Ethan Mollick's "Fable 5.2 and Jagged AGI" post with six task case studies demonstrating general+often-expert+sometimes-jagged capability (Nov 10 2026)
 - [[claude-for-excel]] — Anthropic's Excel sidebar with finance-tuned Agent Skills *(stale)*
 - [[claude-frontier-academy]] — Anthropic's Oct 2026 $100M AI-engineer training program targeting 10,000 engineers by 2027; Accenture + Morgan Stanley enterprise partners; AI-fluency + enterprise-tech-integration workforce pipeline
 - [[claude-for-legal]] — Anthropic's vertical Claude package for law firms; 20+ MCP connectors + 12 plugins (May 2026) *(stale)*
@@ -367,6 +370,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemma-4]] — Google's open-weights family (E2B/E4B/12B encoder-free multimodal/26B MoE/31B Dense); 256K context; Apache 2.0; QAT weights for all sizes (Jun 2026)
 - [[genie-4]] — Google DeepMind's Nov 2026 next-generation interactive-world/3D-environment generative model; details limited at first surfacing
 - [[genpage]] — Netflix's single-model end-to-end generative homepage (rows + titles + layout from viewing history; 20% serving-latency reduction) (Jul 2026)
+- [[github-ace]] — GitHub's Nov 2026 local-first multi-agent collaboration tool — "a tool for building software together locally" (Nov 10 2026)
 - [[github-agent-hq]] — GitHub's multi-agent control plane *(stale)*
 - [[github-spec-kit]] — spec-driven development for AI coding agents *(stale)*
 - [[glm-4-7]] — Zhipu AI open-source WebDev model topping open leaderboards Dec 2025 *(stale)*
@@ -609,6 +613,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[prime-agent]] — Prime Intellect's Aug 2026 open-source coding agent — 95.5% on ARC-AGI-3 (surpasses human expert baseline); Recursive Language Model + Continual Harness self-modifying architecture
 - [[qwen-robot-suite]] — Alibaba's open-source trio of robotics AI models for humanoids/robotic arms/quadrupeds (Jun 2026)
 - [[project-genie]] — Google DeepMind's interactive 3D-world generator powered by Genie 3 model *(stale)*
+- [[project-eve]] — Anthropic's Nov 2026 research exploring Claude's complex decision-making in MMORPGs (EVE Online + EVE Frontier) (Nov 10 2026)
 - [[project-parka]] — Anthropic's Mac-first meeting-recorder — captures system + microphone audio, streams speaker-attributed transcripts, creates runnable Claude-agent work; turns meetings into full implementation prompts (Aug 2026)
 - [[project-panama]] — Anthropic initiative to digitize "all the books in the world" for AI training; surged demand for pre-2022 printed books (Jul 2026)
 - [[project-perception]] — Microsoft's forthcoming multi-model AI security tool framed as competitive undercut of Anthropic's Claude Mythos-tier cybersecurity positioning (Jul 2026)
