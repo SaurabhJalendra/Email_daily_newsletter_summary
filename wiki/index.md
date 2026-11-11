@@ -41,6 +41,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[cloudflare]] — CDN/edge platform; 1,100 layoffs (~20%) for "agentic AI-first operating model" May 2026
 - [[cognition]] — AI coding-agent lab; ships SWE-1.5 on Windsurf; $1B Series D at $26B + Devin writes 89% of own code (May 2026)
 - [[coinbase]] — US-listed crypto exchange; 1,200 full-time AI agents in production + 2× YoY code-per-developer + Coinbase Advisor SEC-registered AI investment advice + SpaceX pre-IPO perps + "bank for the agentic economy" thesis (Jul 2026)
+- [[coreweave]] — US-listed GPU-cloud AI-infrastructure operator; Q3 2026 $3.66B revenue (vs $1.37B YoY) + targets profitability 2028; Meta $21B deal customer; investor debt + AI-infra-demand-durability concerns (Nov 2026)
 - [[conductor]] — Acquired-by-Meta startup whose software orchestrates multiple coding agents simultaneously (Nov 2026)
 - [[conviction]] — Sarah Guo's AI-focused VC firm (~$1B AUM); bets on the AI application/inference layer above foundation models; six portfolio companies past $10B including [[baseten]] and Harvey (Aug 2026)
 - [[cohere]] — Toronto enterprise LLM vendor; open-source Transcribe ASR tops HuggingFace leaderboard across 14 languages *(stale)*
@@ -270,6 +271,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[claude-money]] — Anthropic personal-finance product (Sep 2026, in preparation) — link bank accounts, ask Claude about spending/plans/financial questions
 - [[claude-mythos]] — unreleased Anthropic Claude tier above Opus 4.7; release delayed over cybersecurity risk
 - [[claude-mythos-5-1]] — Anthropic's Sep 2026 restricted-access twin of Claude Fable 5.1; same underlying model with more-permissive safeguards; invitation only via Project Glasswing for cybersecurity + life-sciences work
+- [[claude-mythos-5-2]] — Anthropic's Nov 9 2026 restricted-access twin of Claude Fable 5.2; shared architecture with fewer safeguards for approved cyber + life-sciences; Mozilla Firefox ~2× vulnerability-discovery vs Mythos 5.1
 - [[claude-opus-4-5]] — Anthropic's Nov 2025 flagship; 80.9% SWE-bench Verified; T2 Retail 88.9% / Telecom 98.2% *(stale)*
 - [[claude-opus-4-6]] — Anthropic's Feb 2026 flagship; 1M context, agent teams, fast mode 2.5× *(stale)*
 - [[claude-opus-4-7]] — Anthropic's Apr 2026 flagship; 3.75 MP vision, xhigh effort, file memory
@@ -412,6 +414,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[granola]] — AI notepad turning months of meeting notes into a searchable memory with cited answers; canonical *accumulation*-archetype [[ai-moats]] example (Jul 2026)
 - [[groq-3-lpx]] — NVIDIA's AI inference accelerator chip; full-production Aug 2026; extends Vera Rubin platform; delivers 4× boost in response times vs nearest alternative for ultra-fast token generation in response-sensitive agentic workloads
 - [[grok-bot]] — SpaceXAI's iMessage-style team-of-agents product; per-agent dedicated cloud computer + app sign-in + cross-agent context sharing (Aug 2026)
+- [[gr00t-2]] — NVIDIA GEAR Lab's Nov 2026 next-generation foundation world-action model; predicts future video + robot actions together; successor to Isaac GR00T lineage
 - [[grok-build]] — xAI's CLI coding agent for SuperGrok Heavy subscribers (May 2026)
 - [[grok-team-bots]] — xAI's Sep 30 2026 shared AI coworkers that learn a team's workflow over time; team-tier evolution of per-user Grok Bot substrate
 - [[gwm-worlds-2]] — Runway's Sep 2026 real-time interactive world model driven by structured WorldPrompt format; 720p/24fps + 48kHz audio; autoregressive-diffusion frame-by-frame architecture
@@ -442,6 +445,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[hy4-preview]] — Tencent Hunyuan's 770B-parameter open-source AI model (~49B active per token via sparse/modular activation); released Aug 28 2026 as preview, positioned as high-capacity alternative to Western frontier models
 - [[inkling]] — Thinking Machines Lab's first foundation model — 975B-A41B multimodal open-weight LLM (Apache 2.0) with 276B-A12B "Inkling-Small" sibling; 1M context; text/image/audio inputs; day-0 vLLM + NVIDIA GB300 NVL72 + Tinker support; hailed as "best American open model" (Jul 2026)
 - [[ibm-bob]] — IBM's AI coding partner for enterprise teams coordinating planning + coding + testing + validation across the SDLC (Jul 2026)
+- [[imagine-enterprise]] — IBM + Microsoft Nov 2026 jointly launched platform for building, operating, and governing industry-specific AI agents; 6,000+ prebuilt IBM agents + Microsoft cloud/AI/security
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference *(stale)*
 - [[ideogram-4]] — Ideogram's first open-weight text-to-image model; structured JSON prompting + native 2K + multilingual text rendering (Jun 2026)
 - [[imessage-pq3]] — Apple's third-generation cryptographic protocol for iMessage; hybrid Kyber post-quantum KEM + classical ECC + double-ratchet + periodic PQ rekeying; first messaging protocol to achieve "Level 3 security"; formally verified; shipped in iOS 17.4 / iPadOS 17.4 / macOS 14.4 / watchOS 14.4 (canonicalized Aug 2026)
@@ -546,6 +550,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[mistral-ocr-4]] — Mistral's OCR successor — bounding boxes + confidence scores + 170 languages + single-container deployment; built specifically for RAG pipelines (Jun 2026)
 - [[mistral-studio]] — Mistral's production-AI platform *(stale)*
 - [[modsmith]] — Anthropic's distribution platform for sharing and installing Claude Mods — the companion registry to the Claude Code mod ecosystem (Oct 2026)
+- [[muse-ember]] — Meta Superintelligence Labs' Nov 9 2026 smallest + most cost-efficient Muse-family model; `muse-ember-1.0` on Model API + Muse Code; matches Claude Haiku 5.5 reasoning score at ~1/3 cost; $0.10/$0.50 per M input/output
 - [[muse-glimmer]] — Meta's open-source 30B model optimized for "always-on" agents; fourth Muse-family product-line (Aug 2026)
 - [[muse-image]] — Meta's first proprietary AI image-generation model; Muse family replaces Llama era; Muse Spark agentic integration; #2 Image Arena at launch (Jul 2026)
 - [[muse-spark]] — Meta's multimodal reasoning model; marks open-weights pivot; now agentic-orchestration substrate for Muse Image (Apr → Jul 2026)
