@@ -437,6 +437,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[hy-mt2]] — Tencent's Aug 2026 specialized multilingual translation model family — Hy-MT2-30B-A3B + Hy-MT2-1.8B — released ~2026-08-20 for high-quality machine translation across multiple languages
 - [[grok-imagine]] — xAI's image/video generative product; 1.0 adds enhanced video + audio Feb 2026 *(stale)*
 - [[grokipedia]] — xAI's Grok-built Wikipedia alternative; 800K+ articles at launch *(stale)*
+- [[harbor]] — Apple Claris's Nov 2026 app (testing) that turns Apple Silicon Macs into private AI servers; larger models + higher concurrency locally
 - [[harmonic-aristotle]] — Harmonic's math AI; Lean-verified Erdős Problem #124 solution in 6 hours *(stale)*
 - [[hbc-silicon]] — Qualcomm's High Bandwidth Compute memory-centric silicon (LPDDR stacked above compute die); vendor-reported 18× LPDDR5X bandwidth + >5× HBM4 bandwidth-per-watt; debuts in Dragonfly AI250 H1 2027 (Nov 2026 lab-validated)
 - [[harnessx]] — Xiaomi Darwin Agent Team's "agent foundry" framework; nine-component behavior pipeline with self-contained lego-swappable processors (Jul 2026)
@@ -634,6 +635,8 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwengyre]] — Oct 2026 "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents" (arxiv.org/abs/2609.33848); likely Alibaba Qwen team based on naming cohort
 - [[rtx-spark]] — NVIDIA's 1-petaflop consumer-PC superchip for running frontier-scale AI models locally on laptops and desktops; ships fall 2026
 - [[router-ramp]] — Ramp's Aug 2026 single-endpoint LLM aggregator across OpenAI/Anthropic/DeepSeek/xAI; benchmark/cost/difficulty routing; ~40% inference cost claim; free through 2026 + $26 launch credit
+- [[ring-drone-cam]] — Amazon Ring's $249.99 indoor flying security camera (Nov 10 2026 announcement); 2K + 148° FoV + fly-between-rooms-incl-upstairs + AI Pilot four-primitive stack; US ship Jan 27 2027 pending FCC approval
+- [[ring-robotics]] — Amazon Ring's Nov 2026 AI/ML-driven autonomous-security-device category; launch SKUs Ring Drone Cam ($249.99 consumer) + Ring Rover Cam ($999.99 business); revives Always Home Cam 2020 concept
 - [[runway-dev]] — Runway's Jul 2026 developer API serving frontier video models + bundled third-party image and audio generators
 - [[runway-gen-4-5]] — Runway's text-to-video; tops Veo 3 and Sora on Artificial Analysis benchmark *(stale)*
 - [[safari-mcp]] — Apple's Sep 2026 WebKit-native MCP server shipped in Safari 27.0; lets any coding agent (Claude/ChatGPT/etc.) take control of the browser window
@@ -662,6 +665,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[tabpfn]] — Prior Labs' Nature-paper tabular foundation model; transformer trained on synthetic tabular tasks; outperforms XGBoost/AutoGluon on ≤10K-sample datasets with ~1000× speedup (Jul 2026)
 - [[tailwind-css]] — utility-first CSS framework; ~110M installs/week; used by ChatGPT, Reddit, X, Cloudflare; acquired by [[shopify]] (via Tailwind Labs) Sep 2026; remains MIT-licensed open source
 - [[tau]] — Hugging Face's Sep 2026 open-source terminal-native coding agent — reads files, edits code, runs commands, keeps durable session history (`github.com/huggingface/tau`)
+- [[tensorflow-gnn]] — Google Research's Nov 2026 1.0 production-tested framework for constructing + training graph neural networks at scale; backs telecom + fraud + recsys + knowledge-graph production workloads
 - [[tavus-griffin]] — [[tavus]]'s Oct 2 2026 "Human Interaction Model" — real-time video+voice avatar; ~48% of live-call test participants mistook it for a human; Griffin-Lite in trusted-user safety-and-disclosure testing
 - [[tesla-megapod]] — Tesla's modular AI data center hardware system; self-contained compute pod bundling servers/networking/power/cooling; bid into AI-infrastructure-vendor market against NVIDIA DGX
 - [[terafab]] — Tesla + SpaceX jointly-developed AI chip factory in Grimes County, Texas outside Houston; $16.8B initial investment; logic + memory chips for Optimus + Cybercab + SpaceX orbital DCs; >100M sq ft + 3,000+ employees (Aug 2026)
