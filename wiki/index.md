@@ -197,6 +197,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[agentmemory]] — Tom Dörr open-source persistent-memory layer for AI coding agents; 92% token reduction (May 2026) *(stale)*
 - [[agora]] — NVIDIA's Sep 2026 multi-agent coding-collaboration platform; records each result/hypothesis/verification as immutable Git commit for transparent audit trail
 - [[ai-edge-gallery]] — Google on-device AI runtime for Android *(stale)*
+- [[aiperf]] — NVIDIA's Nov 2026 open benchmarking tool for LLM inference at scale — measures TTFT, inter-token latency, request latency, and throughput with realistic, repeatable traffic
 - [[alexa-tablet]] — Amazon's Oct 8 2026 Android tablet line replacing Fire Tablet brand; 8"/11"/12" Pro SKUs at $229.99–$549.99; full Google Play Store + Alexa+ generative-AI assistant
 - [[alpamayo]] — NVIDIA open 10B autonomous-driving model family (Jan 2026 CES) *(stale)*
 - [[alphaevolve]] — Google DeepMind's teased Alpha-series extension into complex evolving/dynamic environments — long-horizon multi-step optimization across science + engineering (Jul 2026)
@@ -217,6 +218,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[bonsai-27b]] — PrismML's 27B on-device model; 3.9 GB footprint via 1-bit binary + ternary quantization; retains ~89.5% of FP16 base; first 27B-class model that fits on a phone (Jul 2026)
 - [[bootloops]] — AI tool for interdisciplinary scientific problem-solving — spots and solves problems in seemingly unrelated fields that share mathematical structures; solutions found across 22 scientific fields (Oct 2026)
 - [[aws-blocks]] — Amazon's open-source framework for building modular, reusable cloud apps from composable software components (Jun 2026)
+- [[aws-emulator]] — Amazon's Nov 2026 free, open-source local AWS emulator; built entirely by autonomous AI agents; written in Rust; runs on Linux/macOS/Windows/Docker; supports hundreds of APIs across 200+ AWS services
 - [[brain2qwerty-v2]] — Meta FAIR's non-invasive brain-to-text system that decodes typed sentences from MEG brain signals; ~61% word accuracy / 78% best-participant (Jun 2026)
 - [[broadcom-truesource]] — Broadcom's Sep 2026 enterprise suite for securely managing + supporting open-source software; verified, human-checked code + enterprise support tier
 - [[build-a-reasoning-model]] — Sebastian Raschka's 2026 book + 8-video / >11h Python/PyTorch video course for implementing a reasoning model end-to-end (evaluation + inference-time scaling + RL + distillation); shipped Oct 24 2026
@@ -367,6 +369,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-omni]] — Google's I/O 2026 conversational video model; any-input → editable video; "Nano Banana for video"
 - [[gemini-robotics-2]] — Google DeepMind's Jul 2026 single-model whole-body robot control; adapts to new hardware in hours + 89.6% precise-insertion success; ships with Gemini Robotics ER 2 embodied-reasoning planning-brain sibling
 - [[gemini-spark]] — Google's I/O 2026 24/7 personal agent on Google Cloud VMs; AI Ultra $100/mo; Sep 2026 integrated with Google Photos (search + edit + curate + collages/videos)
+- [[gemini-decisions-api]] — Google's Nov 11 2026 specialized endpoint for fast closed-set decisions; powered by Gemini Decision 1; up to 1,000 questions per request + up to 255 options + 256K context + 150-250ms latency + $0.10/M input, no output-token charges
 - [[gemini-embedding-2]] — Google's multimodal embedding model across text/image/video/audio/PDF (Mar 2026) *(stale)*
 - [[gemini-enterprise]] — no-code workplace AI from Google *(stale)*
 - [[gemini-enterprise-agent-platform]] — Google Cloud's Aug 2026 consolidated platform for building/scaling/governing enterprise-grade AI agents grounded in corporate data; merges Vertex AI + Agentspace; announced at Cloud Next 2026
