@@ -455,6 +455,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[hy3]] — Tencent Hunyuan's 295B / 21B-active open-source MoE model; Apache 2.0; competitive with larger systems on reasoning, coding, and agentic tasks (Jul 2026)
 - [[hy4-preview]] — Tencent Hunyuan's 770B-parameter open-source AI model (~49B active per token via sparse/modular activation); released Aug 28 2026 as preview, positioned as high-capacity alternative to Western frontier models
 - [[inkling]] — Thinking Machines Lab's first foundation model — 975B-A41B multimodal open-weight LLM (Apache 2.0) with 276B-A12B "Inkling-Small" sibling; 1M context; text/image/audio inputs; day-0 vLLM + NVIDIA GB300 NVL72 + Tinker support; hailed as "best American open model" (Jul 2026)
+- [[inkling-2-small]] — Thinking Machines Lab's Nov 2026 594B mixture-of-experts successor to Inkling-Small; 1M context; day-0 on Ollama Cloud as `inkling-2-small:cloud` with ZDR; benchmarks 83.8% ScreenSpot Pro, 67.5% Finance Agent v2.1, 81.6% MMMU Pro; compatible with Claude Code, Hermes Agent, OpenClaw
 - [[ibm-bob]] — IBM's AI coding partner for enterprise teams coordinating planning + coding + testing + validation across the SDLC (Jul 2026)
 - [[imagine-enterprise]] — IBM + Microsoft Nov 2026 jointly launched platform for building, operating, and governing industry-specific AI agents; 6,000+ prebuilt IBM agents + Microsoft cloud/AI/security
 - [[ironwood-tpu]] — Google's 7th-generation TPU for large-scale AI training and inference *(stale)*
@@ -626,6 +627,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[pi-durable]] — [[earendil]]'s Oct 1 2026 TypeScript port of Pi — adds crash survival + portability + concurrency + extensibility + context management + multiplayer/state sync
 - [[plandex]] — open-source AI coding agent designed for large engineering tasks and multi-file changes (Jun 2026)
 - [[poke]] — first third-party AI agent approved for Apple Messages for Business / iMessage (Jun 2026)
+- [[praxis-1]] — Runway's 27-billion-parameter robotics world-action model; jointly predicts video + actions; weights + fine-tuning code open-sourced Nov 2026; 46.2% success on RoboLab-120 (1,200 episodes)
 - [[prime-agent]] — Prime Intellect's Aug 2026 open-source coding agent — 95.5% on ARC-AGI-3 (surpasses human expert baseline); Recursive Language Model + Continual Harness self-modifying architecture
 - [[qwen-robot-suite]] — Alibaba's open-source trio of robotics AI models for humanoids/robotic arms/quadrupeds (Jun 2026)
 - [[project-genie]] — Google DeepMind's interactive 3D-world generator powered by Genie 3 model *(stale)*
