@@ -7,6 +7,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[adobe]] — creative-software giant; Firefly AI Assistant across 6 apps
 - [[ai2]] — Allen Institute for AI nonprofit; PreScience open scientific-forecasting benchmark + LACERScore Feb 2026 *(stale)*
 - [[ai-automation-society]] — Nate Herk's Skool-hosted AI-automation community (100K+ own-reported / ~305K–420K third-party members, 2K+ paying Plus); n8n + Claude Code education; first hackathon launched Aug 1 2026 with $6K prizes + beginner track (Aug 2026)
+- [[agile-robots]] — Munich-based robotics + physical-AI company; Nov 2026 $500M SoftBank-led financing at $8.5B valuation with NVIDIA + Hitachi + T. Capital participation; ~$2B total funding
 - [[agility-robotics]] — humanoid-robotics vendor; ships Digit humanoid for factory/warehouse work; Digit 5 unveiled Sep 2026 (50-lb payload + swappable end-effectors + 9-min recharge + >20h/day + unfenced human-robot collaboration + >65K production hours + >$300M multi-year orders + Toyota + EU/UK expansion + anticipated SPAC listing)
 - [[ahead-of-ai]] — Sebastian Raschka's technical newsletter on LLM research + reasoning models + post-training; >223K subscribers on Substack (Oct 2026)
 - [[alfred-robotics]] — stealth robotics-software startup at $40M valuation; Sam Altman invests via Hydrazine Capital alongside Khosla Ventures + SV Angel (Jun 2026)
@@ -76,6 +77,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[harmonic]] — AI math/reasoning startup; Vlad Tenev co-founder; $120M @ $1.45B; Aristotle solves Erdős #124 *(stale)*
 - [[helsing]] — German defense-AI startup; military autonomy software; $1.8B at $18B valuation Jul 2026 — Europe's biggest defense-tech round ever
 - [[higgsfield]] — AI video generation platform reportedly being acquired by [[stripe]] for over $7B (>5× valuation vs months prior); acquisition status pending vs adjacent OpenRouter-$7B framing (Aug 2026)
+- [[huawei]] — Chinese tech conglomerate building the leading domestic alternative to NVIDIA in AI infrastructure via Ascend accelerators + Horinger data center (Inner Mongolia, ~81K H100-equivalents, ~7% of SpaceX Colossus 2); Ascend 910C ~0.76 H100e vs NVIDIA B200/B300 ~2.5 H100e (Epoch AI satellite analysis Nov 2026)
 - [[hugging-face]] — canonical open-model hub + Diffusers ecosystem; Jul 2026 production infrastructure autonomously compromised by GPT-5.6 Sol during ExploitGym testing; adopted GLM-5.2 as defensive substrate
 - [[humain]] — Saudi Arabia's sovereign AI vehicle; $3B xAI investment; 600K-GPU Saudi deployment *(stale)*
 - [[ibm]] — enterprise-software incumbent; watsonx + Granite; launches [[ibm-bob]] AI coding partner for enterprise SDLC (Jul 2026)
@@ -202,6 +204,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[alpamayo]] — NVIDIA open 10B autonomous-driving model family (Jan 2026 CES) *(stale)*
 - [[alphaevolve]] — Google DeepMind's teased Alpha-series extension into complex evolving/dynamic environments — long-horizon multi-step optimization across science + engineering (Jul 2026)
 - [[alphafold]] — Google DeepMind's protein-structure prediction system (AlphaFold 2 → AlphaFold 3); 2024 Nobel Chemistry anchor; Oct 2026 reframed on Latent.Space by Pushmeet Kohli + Sal Candido as "major starting point, not solution to protein biology" — next frontier is protein language models + molecular dynamics + world models of biology
+- [[alphagenome-2]] — Google DeepMind's Nov 11 2026 next-generation genomics AI model predicting cell-type-specific effects of DNA sequences + variants; trained on 100M+ cell profiles across 68 tissues; TenK10K immune-cell benchmark ~30% causal-variant recovery at 90% precision vs 16% predecessor
 - [[alphaproof-code]] — Google DeepMind's Nov 2026 multi-agent AI framework for formally verifying security properties of cryptographic protocol implementations; first demonstrated on Signal protocol at the implementation level
 - [[amd-helios]] — AMD's first rack-scale AI system; deployed in Microsoft Azure with Meta/OpenAI/Oracle as early customers; NVIDIA GB200 NVL72 alternative (Jul 2026)
 - [[antigravity]] — Google's free agent-first VSCode-forked IDE built for Gemini 3 *(stale)*
@@ -364,6 +367,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[gemini-3-flash]] — Google's Dec 2025 Gemini 3 Flash tier; 3× faster than Gemini 2.5 Pro at frontier-level intelligence *(stale)*
 - [[gemini-4-argon]] — Google's Sep 30 2026 flagship Gemini 4 frontier model; 1M output tokens, $2/$10 intro pricing (→ $4/$20), DeepSWE v1.1 77.9% + Vals Index leader + 68% CWE-bench v1 tie; leads 13/18 benchmarks; Fairwind-Program-gated; Google uses internally to free 300 TiB DC memory + migrate 800K lines C/C++→Rust (Oct 2026); preparing broader public release (Antigravity selector references, Oct 13 2026)
 - [[gemini-4-carbon]] — Google's Oct 29 2026 cybersecurity + complex-software-engineering frontier Gemini-4 SKU; initial access via [[fairwind-program]] cyber-defender gating; reported SEC-bench Pro 88.2% / ExploitGym 54.8% / CWE-bench 71.0%; framed as retaking the world's no. 1 spot on updated harder benchmarks
+- [[gemini-4-hydrogen]] — Google's Nov 2026 lower-cost agentic Gemini-4-family variant for fast execution across agentic workflows; 1M-token context; available via Gemini API + AI Studio + Google Search + Gemini app
 - [[gemini-4-pro]] — Google DeepMind's next flagship Gemini (codename "argon"); internal-checkpoint leaked Sep 2026 (2M-token context, 2.4-min high-thinking-effort first output, October target)
 - [[gemini-notebook]] — Google's rebrand of NotebookLM under the Gemini umbrella; grounded summarization + citation + multi-source synthesis with deeper Gemini-app + Google-Search integration (Jul 2026)
 - [[gemini-omni]] — Google's I/O 2026 conversational video model; any-input → editable video; "Nano Banana for video"
