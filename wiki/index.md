@@ -488,6 +488,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[laminar]] — Ramp's Oct 2026 managed agents platform — secure conversation history + session compaction + tool calling + message queuing/steering + subagents + multiplayer chat + observability; moves Ramp from inference-router tier into full agent-runtime tier
 - [[leanstral]] — Mistral's Jul 2026 open-source 119B-parameter theorem-proving + code-verification agent; 587/672 Putnam problems at "significantly lower cost"; verify proofs + test logic + catch errors before software ships (Jul 2026)
 - [[linden-stt]] — Speechmatics's Sep 2026 STT model purpose-built for voice agents; 55+ languages, 350ms latency, 1000+ custom-word jargon support, $0.30/hr ($0.15/hr discounted)
+- [[liquidcodec]] — Liquid AI's Nov 2026 fast speech-generation codec with small memory footprint; targets conversational on-device workloads
 - [[ling-3-0-flash]] — Ant Group's efficient AI-agent-powering model that "rivals systems 2-3× its size"; workload-optimized "Flash" SKU in the version-3 Ling line (Jul 2026)
 - [[llm-d]] — Kubernetes-native stack for distributed LLM inference running vLLM/SGLang/more across clusters; turns single-node engines into production-grade serving on local hardware (Oct 2026)
 - [[longcat-2]] — Meituan's Jul 2026 open-source 1.6-trillion-parameter model — first publicly framed Meituan-frontier-AI-lab entrant; one of the largest publicly disclosed open-source parameter counts
@@ -620,6 +621,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[perplexity-computer]] — Perplexity's 19-model orchestration platform for end-to-end workflows (Feb 2026)
 - [[perplexity-personal-computer]] — Perplexity's always-on local AI agent on a dedicated Mac mini (Mar 2026) *(stale)*
 - [[perplexity-portable-computer]] — Perplexity+Nvidia's fully local AI agent on DGX Spark; zero token costs, model/data/work on-device, Linux launch + Windows Sept 2026 (Aug 2026)
+- [[perplexity-decider]] — Perplexity's Nov 2026 dedicated classification-utility model; binary + multi-class with ordered/unordered labels; returns probabilities for classify / route / rank / evaluate in agent pipelines
 - [[perplexity-teammates]] — Perplexity's Nov 2026 always-on workplace AI-agent product for persistent research + operational tasks; extends chat-based-assistant → persistent-agent substrate-shift; five-primitive AgentOps concern cluster (orchestration + permissions + monitoring + cost-controls + reliability)
 - [[personal-agent-protocol]] — [[meta]] + [[sierra]] open standard (Oct 2026) for how personal AI agents authenticate with + interact with businesses across websites, applications, and customer-support systems
 - [[phonon]] — [[gradium]]'s family of small state-of-the-art text-to-speech (TTS) models; first speech model supported in [[ollama]] Oct 2026; streams audio as generated; >100× real-time on Apple Silicon; five languages; dozens of voices
