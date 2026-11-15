@@ -139,6 +139,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[recursive-superintelligence]] — Tim Rocktäschel ex-DeepMind RSI startup; $650M @ $4.65B in a single day (May 2026) *(stale)*
 - [[reflection]] — NVIDIA-backed US open-source lab founded by ex-Google DeepMind researchers; $6.3B SpaceX Colossus 2 / GB300 compute deal (Jun 2026)
 - [[replit]] — browser IDE; non-coder pivot *(stale)*
+- [[rime]] — Enterprise voice-AI company (Rime Labs); Oct 28 2026 ships [[rime-prism]] — fine-tunable speech-to-speech model for voice agents (~300ms latency + inspectable text layer + parallel tool calls + turn detection + enterprise controls); distributed via LiveKit Agents + Together AI
 - [[river-ai]] — Igor Babuschkin's home-computer AI startup; $1.1B raise; user-owned trainable/tuned/controlled AI; open-source technology commitment (Aug 2026)
 - [[runway]] — AI video; Gen-4.5 tops Veo 3 and Sora; ships [[runway-dev]] developer-API Jul 2026
 - [[safe-superintelligence]] — Ilya Sutskever's frontier lab; Nvidia $5B partnership + Vera Rubin access + 10× compute uplift + co-develops future AI hardware (Jul 2026)
@@ -649,6 +650,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwengyre]] — Oct 2026 "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents" (arxiv.org/abs/2609.33848); likely Alibaba Qwen team based on naming cohort
 - [[rtx-spark]] — NVIDIA's 1-petaflop consumer-PC superchip for running frontier-scale AI models locally on laptops and desktops; ships fall 2026
 - [[router-ramp]] — Ramp's Aug 2026 single-endpoint LLM aggregator across OpenAI/Anthropic/DeepSeek/xAI; benchmark/cost/difficulty routing; ~40% inference cost claim; free through 2026 + $26 launch credit
+- [[rime-prism]] — Rime's Oct 28 2026 fine-tunable speech-to-speech model for enterprise voice agents; ~300ms latency + inspectable text layer + parallel tool calls + turn detection + enterprise controls; distributed via LiveKit Agents + Together AI
 - [[ring-drone-cam]] — Amazon Ring's $249.99 indoor flying security camera (Nov 10 2026 announcement); 2K + 148° FoV + fly-between-rooms-incl-upstairs + AI Pilot four-primitive stack; US ship Jan 27 2027 pending FCC approval
 - [[ring-robotics]] — Amazon Ring's Nov 2026 AI/ML-driven autonomous-security-device category; launch SKUs Ring Drone Cam ($249.99 consumer) + Ring Rover Cam ($999.99 business); revives Always Home Cam 2020 concept
 - [[runway-dev]] — Runway's Jul 2026 developer API serving frontier video models + bundled third-party image and audio generators
@@ -660,6 +662,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[seedance-2]] — ByteDance's Feb 2026 multimodal video model; 2.5 weeks away with longer clips + 4K imminent + Seedance 2.0 mini lower-cost variant released (Jun 2026)
 - [[self-harness]] — Shanghai AI Lab framework enabling an agent to autonomously rewrite its own operating harness (~60% perf boost); three-stage iterative loop (weakness mining → harness proposal → proposal validation) (Jul 2026)
 - [[shopify-sidekick]] — Shopify's AI-enabled commerce assistant embedded in the Shopify admin; voice + screen-sharing + 20 languages + action-execution (reports/segments/store-settings); trained via continual-learning-loop + daily fine-tuning + GRPO; "AI co-founder" framing (Sep 2026)
+- [[singularity-bench]] — Nov 13 2026 open-ended benchmark testing whether autonomous AI agents can build/optimize AI-development systems — six end-to-end tasks on NVIDIA GB300; Opus 5.5 via Claude Code scores Singularity-Index 1.25 (human-parity+) vs 0.58 avg for other agents
 - [[siri-ai]] — Apple's Sep 2026 generative-AI-rebuilt Siri — conversational assistant across iPhone/iPad/Mac/Watch/Vision Pro under Apple Intelligence; iOS 27 beta from Sep 14 with daily usage caps + future paid access; Gemini foundation-model backend (~1.2T params) via Private Cloud Compute (Sep 2026)
 - [[skild-s1]] — Skild AI's robot foundation model; in-context learning of 10-min robot tasks from a single demonstration video with no fine-tuning (Aug 2026)
 - [[slack-code]] — Slack's Aug 2026 shared-room coding surface — AI agents author code while human teammates watch/steer/direct across teams; live previews + human-approval gate for deploy
