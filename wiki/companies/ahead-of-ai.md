@@ -8,9 +8,9 @@ type: company
 
 > **Type**: company (publication / newsletter)
 > **First mentioned**: 2026-10-24-evening
-> **Last updated**: 2026-10-24-evening
+> **Last updated**: 2026-11-15-evening ([[positional-embeddings]] NEW canonical topic-page triggered by Ahead of AI issue "Understanding Positional Embeddings in Modern LLMs")
 > **Status**: active
-> **Related**: [[sebastian-raschka]], [[build-a-reasoning-model]], [[reasoning-models]]
+> **Related**: [[sebastian-raschka]], [[build-a-reasoning-model]], [[reasoning-models]], [[positional-embeddings]]
 
 ## Summary
 
@@ -19,6 +19,8 @@ type: company
 Its significance is informational rather than commercial: Ahead of AI helps engineers, researchers, and technically sophisticated decision-makers interpret new model releases and research trends in a field where primary papers and product announcements often outpace documentation. The publication is directly affiliated with Sebastian Raschka's broader educational output (his *from-scratch* books and video courses) — subscribers get both the newsletter and a steady feed of code-along artifacts.
 
 ## Timeline
+
+- **2026-11-15-evening**: **Ahead of AI issue "Understanding Positional Embeddings in Modern LLMs" canonical topic-page trigger anchor** — Sebastian Raschka ships a technical explainer on positional encodings in Transformer LLMs (Rotary Position Embeddings / RoPE and successors). Publication error prevented summary extraction in this cycle (LOW priority, "400 Provider returned error"), but researchFindings.additionalContext canonicalizes the topic: RoPE now dominates modern LLMs; 2026 research increasingly targets RoPE limitations at very long contexts (distance-dependent attention bias, attention sinks) via data-aware RoPE, hybrid RoPE/NoPE routing, token-aware phase functions, adaptive length scaling, and specialized encodings for long-video VLMs (NeurIPS 2026 HoPE + EMNLP 2026 TRONTOR + DaRoPE). First-in-wiki: **[[positional-embeddings]] NEW canonical topic-page** — productizes Ahead of AI as *canonical research-translation substrate operator* bringing a cutting-edge LLM-architecture topic into the wiki. See [[positional-embeddings]] (NEW) + [[sebastian-raschka]] + [[large-language-models]] — *source: data/summaries/2026-11-15-evening.json (newsletter: Ahead of AI "Understanding Positional Embeddings in Modern LLMs"; researchFindings.additionalContext — Positional Embeddings + Ahead of AI + Sebastian Raschka)*
 
 - **2026-10-24-evening**: **Ahead of AI dispatch announces the [[build-a-reasoning-model]] "Build Your Own Reasoning Model: A Full Video Course"** — eight videos, >11 hours of Python + PyTorch coding on evaluation, inference-time scaling, RL, and distillation; positioned as the video companion to the *Build a Reasoning Model (From Scratch)* book — *source: data/summaries/2026-10-24-evening.json (Ahead of AI by Sebastian Raschka — "Build Your Own Reasoning Model: A Full Video Course")*
 
