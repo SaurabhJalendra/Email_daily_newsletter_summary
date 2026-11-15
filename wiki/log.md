@@ -2,6 +2,16 @@
 
 Append-only chronological record of all wiki edits. Newest entries at the top.
 
+## LINT 2026-11-15 (week 2026-W46)
+
+**Lint actions**:
+- Fixed contradictions: none detected this week
+- Resolved orphans: 3 ([[storybook-11]] linked from [[ai-native-sdlc]]; [[worldparticle]] linked from [[world-models]]; [[score-centering]] linked from [[midtraining]])
+- Merged duplicates: none detected
+- Stale pages marked: 0 (previous LINT 2026-11-08 stale set carried forward; [[agentic-ai-foundation]] rescued from stale during 2026-11-14-evening ingest)
+
+**Digest generated**: wiki/digests/2026-W46.md (~5000 words)
+
 ## 2026-11-13-evening
 **Ingested**: data/summaries/2026-11-13-evening.json (3 newsletters — The Batch @ DeepLearning.AI MEDIUM "GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval" + Ollama MEDIUM "Inkling 2 Small is now available on Ollama" + TLDR MEDIUM "Jensen Huang resigns 💼, SpaceX Tesla merger progress 🤝, state of slop 👨‍💻" [daily-digest Top Stories: (1) OpenAI GPT-6 Cyber released as "GPT-6 Astra fine-tuned for cybersecurity tasks" — discover + exploit + patch three-primitive capability + used to address 948 Linux kernel vulnerabilities + 81 high-severity Firefox vulnerabilities + 48.5% ExploitGym (vs 32.1% GPT-5.6 Cyber) + 95% RemoteExploitBench; (2) Thinking Machines Lab Inkling 2 Small 594B MoE on Ollama Cloud as `inkling-2-small:cloud` with ZDR + 1M context + 83.8% ScreenSpot Pro + 67.5% Finance Agent v2.1 + 81.6% MMMU Pro + compatible with Claude Code + Hermes Agent + OpenClaw; (3) Jensen Huang resigns as NVIDIA CEO, Finance Chief Colette Kress serves as interim CEO; (4) Google partners with Samsung + Gentle Monster + Warby Parker on Gemini-powered smartglasses starting at $395 (Ars Technica) with camera + user-data + preferences three-primitive personalization-regime; (5) Runway releases Praxis-1 weights + fine-tuning code — 27B-parameter robotics world-action model, 46.2% success on 1,200 RoboLab-120 episodes; researchFindings.additionalContext — Large language models: MIT CSAIL "Sparks of Weight-Space Programming" — GPT-6 Astra modified 0.016% of Qwen3.5-0.8B weights, raising MATH-500 from 7.9% to 48.1% + substantially improving instruction following; researchFindings.missingStories: (a) Google launches Gemini 4 Hydrogen globally in Search at $1.50/M-input + $7.50/M-output; (b) OpenAI launches Daybreak Red Team + Daybreak Defense Factory; (c) Anthropic moves Claude Managed Agents into self-hosted private beta (enterprises run agent harness + PostgreSQL + worker sandboxes in own cloud/on-prem); (d) EU leaders hold first dedicated talks on AI in Dublin; (e) OpenWorker Agent Harness SDK open-source release; (f) Agentic Doc Retrieval (Amazon Science "Reflect and Retrieve")])
 

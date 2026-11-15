@@ -10,7 +10,7 @@ type: topic
 > **First mentioned**: 2026-08-10-evening
 > **Last updated**: 2026-08-10-evening (**Created — Cameron R. Wolfe's "Notes on Midtraining" Deep (Learning) Focus essay canonicalizes *midtraining* as a distinct intermediate LLM-training stage between pretraining and post-training; introduces two sub-primitives — **Continued Pretraining (CPT)** for domain-specialization and **midtraining** for adapting data mixture over time to bridge general pretraining and post-training. Landing example: **[[cursor]] Composer 2** uses CPT + RL to specialize [[kimi-k3]]-tier Kimi-K2.5 for realistic coding tasks; **domain-specialized CPT** used to add capabilities like Multi-Token Prediction (MTP) layers for accelerated inference. Paper cited: *"Characterizing Datasets and Building Better Models with Continued Pre-Training"* — practical recipe using shorter proxy experiments to identify best datasets, learning rates, and training durations**.)
 > **Status**: active (canonical framing emerged mid-2026)
-> **Related**: [[fine-tuning]], [[cursor]], [[cursor-composer-2-5]], [[claude-code]], [[open-source-models]]
+> **Related**: [[fine-tuning]], [[cursor]], [[cursor-composer-2-5]], [[claude-code]], [[open-source-models]], [[score-centering]]
 
 ## Summary
 
