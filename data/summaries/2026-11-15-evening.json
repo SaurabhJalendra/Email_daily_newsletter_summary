@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-14T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Sunday, 15 November 2026\n\n## 🔥 Top Stories\n1. **Nvidia plans a $10 billion investment in Anthropic** — This investment matters because it deepens the ties between a leading AI-model developer and the dominant AI-accelerator supplier, potentially accelerating advancements in AI technology.\n2. **TSMC invests up to $500 million each in OpenAI and Anthropic** — This investment matters because it extends chip-manufacturing involvement into direct financing of frontier AI companies, indicating a significant commitment to the development of AI.\n3. **Runway releases Praxis-1 open-weight robotics model** — This release matters because it provides a 27-billion-parameter world-action model that can jointly predict future video and robot motion, contributing to advancements in robotics and AI research.\n4. **Mirendil raises $1 billion to automate AI research** — This funding matters because it enables the company to further develop its research agents, which have already shown promising results in training a coding model with limited resources.\n5. **The Philippines adopts a national AI governance framework** — This adoption matters because it adds the Philippines to the growing group of countries formalizing centralized AI oversight, highlighting the increasing importance of regulating AI development and use globally.\n\n## 🤖 AI Models & Research\n- Understanding Positional Embeddings in Modern LLMs is a topic of interest, although details are not provided in the newsletter summary.\n\n## 🛠️ Tools & Products\n- Runway's Praxis-1 open-weight robotics model is now available under the Apache 2.0 license, including the model, weights, and fine-tuning code.\n\n## 📰 Industry News\n- Nvidia's planned investment in Anthropic and TSMC's investments in OpenAI and Anthropic demonstrate significant financial commitments to AI development, indicating a growing industry focus on AI research and application.\n\nTotal Newsletters: 1",
+  "totalNewsletters": 1,
+  "newsletters": [
+    {
+      "from": "\"Sebastian Raschka, PhD from Ahead of AI\" <sebastianraschka@substack.com>",
+      "subject": "Understanding Positional Embeddings in Modern LLMs",
+      "date": "2026-11-15T12:10:37.000Z",
+      "summary": "Error generating summary. Original subject: Understanding Positional Embeddings in Modern LLMs",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9tYWdhemluZS5zZWJhc3RpYW5yYXNjaGthLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZtYWdhemluZS5zZWJhc3RpYW5yYXNjaGthLmNvbSUyRnAlMkZ1bmRlcnN0YW5kaW5nLXBvc2l0aW9uYWwtZW1iZWRkaW5ncyIsInAiOjIyNDkyNjk0NywicyI6MTE3NDY1OSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTQ3NDQ3NDIsImV4cCI6MjExMDMyMDc0MiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.e7YK0ruhePvyv6E9TuWcqjeruoByclbn-1VoSjg7eig?"
+        },
+        {
+          "text": "Understanding Positional Embeddings in Modern LLMs",
+          "url": "https://substack.com/app-link/post?publication_id=1174659&post_id=224926947&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNDkyNjk0NywiaWF0IjoxNzk0NzQ0NzQyLCJleHAiOjE3OTczMzY3NDIsImlzcyI6InB1Yi0xMTc0NjU5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.IVHUxAuDGBs0ekelxXVq4mGgpEXqq7ytTLUzWhTj5P4"
+        },
+        {
+          "text": "Sebastian Raschka, PhD",
+          "url": "https://substack.com/@rasbt"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/sebastianraschka/p/understanding-positional-embeddings?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "LLM gallery",
+          "url": "https://substack.com/redirect/b54ec862-17d4-4044-a611-ab3512cb9710?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Build a Large Language Model (From Scratch)",
+          "url": "https://substack.com/redirect/1ea3fe47-ab77-4185-8587-866f2af161a8?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "self-attention walkthrough",
+          "url": "https://substack.com/redirect/d50abc25-4fac-464a-8085-e8eff4604d94?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "image exports and metadata",
+          "url": "https://substack.com/redirect/ed5fdf9a-b73b-4226-b396-df03bc92df44?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "web view here",
+          "url": "https://substack.com/redirect/52522c44-f56a-441b-a511-8a8624afd5ec?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "tokenizer materials on GitHub",
+          "url": "https://substack.com/redirect/4cf29636-41e3-45c8-8818-47eb37f397ee?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "priority": "LOW",
+      "error": "400 Provider returned error"
+    }
+  ],
+  "tldr": [
+    "Nvidia invests $10 billion in Anthropic.",
+    "TSMC invests $500 million in AI firms.",
+    "Runway releases Praxis-1 robotics model.",
+    "Mirendil raises $1 billion for AI research.",
+    "Philippines adopts national AI framework."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Sebastian Raschka",
+        "context": "Sebastian Raschka, PhD, is an AI/ML researcher, educator, author, and LLM research engineer best known for publishing Ahead of AI, a newsletter focused on machine-learning research and AI developments. The newsletter reportedly reaches more than 200,000 researchers and practitioners, making it an influential channel for accessible explanations of emerging methods, model architectures, and industry trends.[1] His books and educational material—including Machine Learning Q and AI and the 2026 release Build a Reasoning Model From Scratch—extend that role into practical, implementation-oriented ML education.[5][3]\n\nThe most recent activity centers on large-language-model reasoning and architecture: in October–November 2026, Raschka published an 11-hour coding course on building reasoning models and notes on hybrid and sparse attention, open-weight LLM architectures, inference-time scaling, reinforcement learning, and distillation.[3][4] This matters because these topics address the main engineering trade-offs in current AI—reasoning quality, inference cost, memory use, and openness of model development—while his tutorials help practitioners understand and reproduce techniques that might otherwise remain confined to research papers. The available sources primarily document his own publications and educational output rather than a new corporate appointment or major product launch, so his latest industry impact is best characterized as research translation and technical education.",
+        "source": "Ahead of AI and Sebastian Raschka’s official blog"
+      },
+      {
+        "topic": "Ahead of AI",
+        "context": "Ahead of AI is Sebastian Raschka’s technical newsletter focused on machine-learning and artificial-intelligence research, including deep-learning methods, LLM architectures, training, fine-tuning, reasoning models, and practical implementations. Its official publication page says it reaches more than 232,000 subscribers, making it a significant channel for translating fast-moving AI research to practitioners and researchers. [1][5]\n\nThe latest visible issue, published October 24, 2026, is a full video course titled “Building Reasoning Models from the Ground Up,” with eight videos and more than 11 hours of Python and PyTorch instruction covering evaluation, inference-time scaling, reinforcement learning, and distillation. Recent coverage also includes LLM architecture developments, open-weight models, local coding agents, text classification, and watermarking. The newsletter matters because it provides accessible technical analysis of trends shaping model development and helps disseminate implementation-oriented knowledge beyond academic papers and corporate announcements. [4][13][15]",
+        "source": "Ahead of AI official Substack and archive"
+      },
+      {
+        "topic": "Positional Embeddings",
+        "context": "Positional embeddings encode token order and distance so Transformer-based language models can distinguish sequences such as “dog bites man” from “man bites dog.” Modern LLMs predominantly use Rotary Position Embeddings (RoPE), which rotate query and key representations according to position and allow relative-position information to be incorporated efficiently into attention. RoPE matters because context-window length, long-document retrieval, reasoning, and multimodal sequence understanding all depend on preserving useful positional relationships as sequences grow.\n\nRecent work is increasingly focused on RoPE’s limitations at very long contexts, including distance-dependent attention bias, attention sinks, and failures to reliably distinguish positions or tokens. Research in 2026 explores data-aware RoPE, hybrid RoPE/NoPE routing, token-aware phase functions, adaptive length scaling, and specialized encodings for long-video vision-language models. Results are mixed: some methods extend effective context to tens of thousands or even millions of tokens, but several studies report that gains can weaken with longer sequences or larger models. The industry impact is significant because better positional methods can improve long-context assistants, code and document analysis, retrieval, and multimodal systems without requiring wholly new model architectures; however, they often still require fine-tuning or continual pretraining, so efficiency and reliable evaluation remain important constraints. Sources include NeurIPS 2026 work on HoPE, EMNLP 2026 work on TRONTOR, and recent research on DaRoPE and token-aware phase attention.",
+        "source": "web search"
+      },
+      {
+        "topic": "Large Language Models (LLMs)",
+        "context": "Large language models are AI systems trained on very large text datasets to predict and generate language, enabling applications such as chatbots, coding assistants, search, analysis, and increasingly autonomous agents. They matter because they are becoming a general-purpose interface for software and knowledge work, while raising significant questions about reliability, expertise, safety, copyright, and the cost of deploying advanced models.\n\nThe latest developments point to rapid competition among frontier-model providers, with new systems emphasizing stronger reasoning, science and coding performance, longer context windows, lower inference costs, and more capable agentic workflows. Recent reporting highlights Anthropic’s Claude Fable 5.2 and Mythos 5.2, including a variant with relaxed safeguards for verified organizations, alongside continued releases from Google, OpenAI, Meta, Alibaba, Baidu, and open-weight developers. Industry impact is shifting from simple chatbot adoption toward enterprise implementation, where integration, evaluation, security, governance, and ongoing support are becoming as important as benchmark performance. Emerging research also underscores risks: chatbots can become more likely to endorse false claims when users repeatedly assert them, and workplace experiments suggest AI may build or erode expertise depending on users’ prior knowledge.",
+        "source": "web search"
+      },
+      {
+        "topic": "Substack",
+        "context": "Substack is a subscription-based publishing and media platform used by writers, researchers, and organizations to distribute newsletters, podcasts, video, and other content directly to audiences. In the AI/ML space, it functions primarily as an important distribution layer: it hosts a large ecosystem of independent AI analysts, engineers, and research-focused newsletters, rather than being an AI model or machine-learning infrastructure provider. Its AI topic pages and newsletter ecosystem have become a prominent channel for commentary on model releases, AI research, evaluation, safety, and industry developments.[1][3][12]\n\nThe most significant recent development is Substack’s 2026 rollout of Pangram-powered AI-writing detection. Readers can scan posts, replies, and comments for an estimate of human versus AI-assisted authorship, while publishers can scan drafts, disable scanning on individual posts, and add a “How I make this” disclosure. Substack says the tools do not use publisher content to train generative-AI models and are not currently used for ranking, recommendations, monetization, or enforcement decisions.[9] The feature has nevertheless prompted criticism over accuracy, consent, privacy, opt-out controls, and the risk of labeling legitimate human writing incorrectly; Substack subsequently clarified moderation and dispute procedures and expanded publisher controls.[8] Separately, Substack has been reported to be developing Model Context Protocol connectivity so AI assistants could read, write, and act on the platform for creators, which could make it more accessible to agentic AI workflows.[13]",
+        "source": "Substack official announcement and related reporting"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Nvidia reportedly plans a $10 billion investment in Anthropic",
+        "summary": "Nvidia is reportedly preparing to commit $10 billion to Anthropic's private placement alongside the company's planned IPO. The deal would deepen ties between a leading AI-model developer and the dominant AI-accelerator supplier.",
+        "whyItMatters": "The investment could reshape the financing and infrastructure landscape for frontier-model development while increasing strategic dependence between model providers and chip companies.",
+        "source": "La Repubblica and AI Tools Recap"
+      },
+      {
+        "headline": "OpenAI and Anthropic receive major semiconductor backing from TSMC",
+        "summary": "TSMC's board reportedly approved investment ceilings of up to $500 million each in OpenAI and Anthropic, plus a separate semiconductor-investment vehicle. The move would extend chip-manufacturing involvement into direct financing of frontier AI companies.",
+        "whyItMatters": "Practitioners should watch for closer integration among model developers, chip designers, and manufacturers, potentially affecting compute access, supply chains, and hardware optimization.",
+        "source": "AI Tools Recap"
+      },
+      {
+        "headline": "Runway releases Praxis-1 open-weight robotics model",
+        "summary": "Runway introduced Praxis-1, a 27-billion-parameter world-action model that jointly predicts future video and robot motion. The model, weights, and fine-tuning code were released under the Apache 2.0 license.",
+        "whyItMatters": "An openly licensed model combining video understanding with action prediction could accelerate research in robotics, simulation, embodied agents, and robot-policy fine-tuning.",
+        "source": "The Latent Daily"
+      },
+      {
+        "headline": "Mirendil raises $1 billion to automate AI research",
+        "summary": "Mirendil reportedly raised a $1 billion Series A led by Kleiner Perkins and Clearlake. The company says its research agents helped train a coding model with a single researcher and less than $10 million in spending.",
+        "whyItMatters": "Large-scale investment in autonomous research agents signals growing efforts to automate experimentation, model training, and software engineering workflows, potentially changing how AI teams are staffed and organized.",
+        "source": "The Latent Daily"
+      },
+      {
+        "headline": "The Philippines adopts a national AI governance framework",
+        "summary": "President Ferdinand Marcos Jr. signed Executive Order No. 131, establishing a national artificial-intelligence governance framework and creating a National Artificial Intelligence Council. The order adds the Philippines to the growing group of countries formalizing centralized AI oversight.",
+        "whyItMatters": "The framework may affect compliance requirements, public-sector procurement, risk management, and deployment practices for companies operating in or serving the Philippine market.",
+        "source": "The World of AI"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Sebastian Raschka",
+        "type": "person",
+        "context": "Mentioned as the sender of the newsletter with a PhD from Ahead of AI"
+      },
+      {
+        "name": "Ahead of AI",
+        "type": "company",
+        "context": "Mentioned as the affiliation of Sebastian Raschka"
+      },
+      {
+        "name": "Positional Embeddings",
+        "type": "technology",
+        "context": "Discussed as a key concept in modern Large Language Models"
+      },
+      {
+        "name": "Large Language Models (LLMs)",
+        "type": "technology",
+        "context": "Mentioned as the main topic of discussion in the newsletter"
+      },
+      {
+        "name": "Substack",
+        "type": "company",
+        "context": "Mentioned as the platform used to send the newsletter"
+      },
+      {
+        "name": "Modern LLMs",
+        "type": "technology",
+        "context": "Discussed in relation to Positional Embeddings"
+      },
+      {
+        "name": "AI",
+        "type": "technology",
+        "context": "Mentioned as the broader field related to the newsletter's topic"
+      },
+      {
+        "name": "Machine Learning (ML)",
+        "type": "technology",
+        "context": "Implied as the field related to LLMs and Positional Embeddings"
+      },
+      {
+        "name": "Sebastian Raschka's Newsletter",
+        "type": "product",
+        "context": "Mentioned as the source of information on Positional Embeddings in Modern LLMs"
+      },
+      {
+        "name": "Natural Language Processing (NLP)",
+        "type": "technology",
+        "context": "Implied as the subfield of AI related to LLMs and Positional Embeddings"
+      }
+    ]
+  },
+  "edition": "evening",
+  "savedAt": "2026-11-15T12:30:38.145Z",
+  "dateString": "2026-11-15"
+}
