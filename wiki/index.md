@@ -244,6 +244,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[chatgpt-spaces]] — OpenAI's Sep 29 2026 DevDay shared human/agent workspaces — collaborative surface between people, ChatGPT, and agents; launched alongside ChatGPT Pages (spend plan quota inside partner apps)
 - [[chatgpt-tasks]] — OpenAI's scheduled-tasks hub inside ChatGPT — one-off + recurring tasks; replaces Pulse (sunset within 14 days); agent-on-a-schedule shift (Jun 2026)
 - [[chatgpt-translate]] — OpenAI's standalone real-time translation feature (47 languages) *(stale)*
+- [[chatgpt-wallet]] — OpenAI's Nov 13 2026 payment layer for ChatGPT AI agents — tokenized-card credential + per-transaction biometric authorization (Face ID / Touch ID) + user review before approval; Pro-only + US-only + 18+ initial rollout; American Express + Chase + Mastercard + Visa partners
 - [[chatgpt-work]] — OpenAI's agentic ChatGPT workspace — takes outcomes not prompts, works for hours, delivers finished materials; powered by [[gpt-5-6]] (Jul 2026)
 - [[computer-history]] — OpenAI feature that logs clicks + typing to give [[chatgpt]] + Codex a memory of recent work on the user's computer; desktop-context persistent-memory tier alongside [[chatgpt-work]] + [[claude-cowork]] + [[kimi-work]] (Aug 2026)
 - [[core]] — [[ghost]]'s $3,499 screenless local AI computer; NVIDIA RTX Pro 4000 SFF Blackwell GPU (24GB) + Ryzen 5 7600 + 64GB RAM; phone-app-controlled autonomous personal agents (Oct 2026)
@@ -591,6 +592,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[nemotron-3-5-super-vl]] — NVIDIA's Oct 15 2026 open customizable vision-language model — 120B MoE / ~12B active, hybrid Mamba-Transformer + RADIO/C-RADIO vision + native multi-token prediction + video support; text + images + video input (no audio)
 - [[nemotron-3-5-transcribe]] — NVIDIA's Oct 30 2026 open-weight unified multilingual speech model — transcription + translation + speaker attribution + audio Q&A, up to 40 languages, vendor-reported #1 across several transcription + speaker-attribution leaderboards; distributed via Hugging Face `nvidia/nemotron-transcribe-granary`
 - [[nemotron-4]] — NVIDIA's in-development ~1-trillion-parameter open-source model family; rival to the most capable global open models (Aug 2026)
+- [[nemotron-for-science]] — NVIDIA's Nov 2026 open scientific-agent package combining [[nemotron-3-5-super-vl]] + an open chemistry dataset (~50K reasoning questions) + post-training recipes for building domain-specialized scientific agents
 - [[niji-7]] — Midjourney's anime-style image model (Jan 2026) *(stale)*
 - [[nitrogen]] — NVIDIA open-source gaming-agent model *(stale)*
 - [[nvidia-cosmos]] — NVIDIA's physical-AI foundation models (Cosmos 2.5 GA, 3 inbound) *(stale)*
@@ -649,6 +651,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwen-image-2]] — Alibaba's Feb 2026 unified image gen + editing model; #2/#3 AI Arena Elo *(stale)*
 - [[qwen-image-3]] — Alibaba's Jul 2026 image model; 4,500-token prompts + 10px legible text + 12-language rendering + real-looking UI mockups; invite-only, no open weights, mixed vs GPT Image 2
 - [[qwen3-coder-next]] — Alibaba's Feb 2026 open-weights 80B MoE coding-agent model (800K coding tasks) *(stale)*
+- [[qwen4-max]] — Alibaba's Nov 2026 Qwen4-generation flagship — reported 2.4T parameters + 1M-token context + lower average task costs; positioned as major Chinese competitor for complex reasoning + agentic workloads; 3D modeling + game development + finance workload scope
 - [[qwengyre]] — Oct 2026 "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents" (arxiv.org/abs/2609.33848); likely Alibaba Qwen team based on naming cohort
 - [[rtx-spark]] — NVIDIA's 1-petaflop consumer-PC superchip for running frontier-scale AI models locally on laptops and desktops; ships fall 2026
 - [[router-ramp]] — Ramp's Aug 2026 single-endpoint LLM aggregator across OpenAI/Anthropic/DeepSeek/xAI; benchmark/cost/difficulty routing; ~40% inference cost claim; free through 2026 + $26 launch credit
@@ -772,6 +775,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[model-hardware-standard]] — Anthropic's Aug 2026 open research-preview specification enabling AI agents to interface with and control arbitrary real-world hardware via natural-language reference files; Tecan + QIAGEN + AWS launch partners; second cross-vendor Anthropic interoperability primitive after MCP
 - [[model-routers]] — the "missing middleware" for scaling AI apps — heuristic + learned + cascade + ensemble/fusion architectures; OpenRouter Fusion Router + Not Diamond + NadirClaw + ACRouter reference implementations (Jul 2026, AlphaSignal essay)
 - [[omar-yaghi]] — Nobel-laureate chemist (reticular chemistry / MOFs); departs UC Berkeley to lead Tsinghua University's new AI for Chemistry and Materials Science Research Center in Beijing (announced Jul 4 2026)
+- [[paul-christiano]] — AI-alignment researcher; president of the Alignment Research Center (ARC); OpenAI Foundation board member; Nov 2026 Dwarkesh Podcast interview forecasts ~1-in-3 chance of superintelligence overpowering governments within 12 months on current trajectory; 2026 Hinton Lectures substrate
 - [[ontologies-for-agents]] — Semantic-Web ontology revival as deterministic guardrails for probabilistic agents; Neo4j "smarter shared substrate" + OpenLink Software "agent engineering stack"; Frank Coyle + Emil Eifrem + Kingsley Idehen (Jul 2026)
 - [[open-secure-ai-alliance]] — Nvidia-led cross-vendor AI-safety coalition launched Jul 2026 after Sol/HF breach; 30+ orgs including Microsoft/HF/IBM/Cloudflare/Cisco/Red Hat/Salesforce/SAP; OpenAI + Google + Anthropic notably absent
 - [[orbital-data-centers]] — space-based AI compute initiatives; SpaceX, Project Suncatcher, Cowboy Space Corp, Starcloud (May 2026)
