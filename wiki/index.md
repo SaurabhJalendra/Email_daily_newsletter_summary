@@ -627,6 +627,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[perplexity-personal-computer]] — Perplexity's always-on local AI agent on a dedicated Mac mini (Mar 2026) *(stale)*
 - [[perplexity-portable-computer]] — Perplexity+Nvidia's fully local AI agent on DGX Spark; zero token costs, model/data/work on-device, Linux launch + Windows Sept 2026 (Aug 2026)
 - [[perplexity-decider]] — Perplexity's Nov 2026 dedicated classification-utility model; binary + multi-class with ordered/unordered labels; returns probabilities for classify / route / rank / evaluate in agent pipelines
+- [[perplexity-frontier-research]] — Perplexity's Nov 2026 in-house research initiative aiming to build an "automated scientist"; backed by 10,000 GPUs; agenda spans multi-agent orchestration, pre-training, continual learning, RL, systems, frontier evaluations; openly-published results (papers + blog posts + data + model weights + benchmarks + code)
 - [[perplexity-teammates]] — Perplexity's Nov 2026 always-on workplace AI-agent product for persistent research + operational tasks; extends chat-based-assistant → persistent-agent substrate-shift; five-primitive AgentOps concern cluster (orchestration + permissions + monitoring + cost-controls + reliability)
 - [[personal-agent-protocol]] — [[meta]] + [[sierra]] open standard (Oct 2026) for how personal AI agents authenticate with + interact with businesses across websites, applications, and customer-support systems
 - [[phonon]] — [[gradium]]'s family of small state-of-the-art text-to-speech (TTS) models; first speech model supported in [[ollama]] Oct 2026; streams audio as generated; >100× real-time on Apple Silicon; five languages; dozens of voices
@@ -700,6 +701,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[translategemma]] — Google's open 55-language translation model family (4B/12B/27B) *(stale)*
 - [[trueforge]] — TrueFoundry's open-source agent harness; up to 75% cost reduction vs vendor-neutral agents (Aug 2026)
 - [[trex]] — [[greptile]]'s runtime-validation extension — autonomously writes + executes tests for each PR in a dynamic sandbox, returning screenshots + logs as concrete proof of failure; claims 4× faster merges + 3× more production-blocking bugs caught vs static-only review (Aug 2026)
+- [[rubin-hpc]] — NVIDIA's Nov 2026 SC26-announced HPC-tier GPU for agentic workloads, scientific simulation, data processing, engineering, analytics; >50,000 CUDA cores + sparse-data acceleration + seventh-generation NVLink; expected availability 2028
 - [[vera-rubin]] — NVIDIA next-gen GPU architecture (5× inference, 3.5× training vs Blackwell); Groq 3 LPX ships as extension in full production (Aug 2026)
 - [[vera-rubin-dsx-pod]] — NVIDIA's Oct 2026 modular, partner-built AI data-center design unveiled at GTC Berlin keynote; reduces AI-factory deployment time from six months to 14 days (~13× deployment-speed anchor)
 - [[wan-3-0]] — Alibaba's Aug 2026 long-form AI video model; up to 30-second single-pass clips from text/documents; $0.20/sec at 1080p; #1 with-audio on Artificial Analysis arena at 1,240 Elo
