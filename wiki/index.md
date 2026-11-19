@@ -658,6 +658,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[qwengyre]] — Oct 2026 "QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents" (arxiv.org/abs/2609.33848); likely Alibaba Qwen team based on naming cohort
 - [[rtx-spark]] — NVIDIA's 1-petaflop consumer-PC superchip for running frontier-scale AI models locally on laptops and desktops; ships fall 2026
 - [[router-ramp]] — Ramp's Aug 2026 single-endpoint LLM aggregator across OpenAI/Anthropic/DeepSeek/xAI; benchmark/cost/difficulty routing; ~40% inference cost claim; free through 2026 + $26 launch credit
+- [[replit-missions]] — Replit's Nov 2026 agent-swarm-orchestration tool — coordinate swarms of AI agents on complex projects by defining goals and constraints; enables small teams to pursue ambitious projects
 - [[rime-prism]] — Rime's Oct 28 2026 fine-tunable speech-to-speech model for enterprise voice agents; ~300ms latency + inspectable text layer + parallel tool calls + turn detection + enterprise controls; distributed via LiveKit Agents + Together AI
 - [[ring-drone-cam]] — Amazon Ring's $249.99 indoor flying security camera (Nov 10 2026 announcement); 2K + 148° FoV + fly-between-rooms-incl-upstairs + AI Pilot four-primitive stack; US ship Jan 27 2027 pending FCC approval
 - [[ring-robotics]] — Amazon Ring's Nov 2026 AI/ML-driven autonomous-security-device category; launch SKUs Ring Drone Cam ($249.99 consumer) + Ring Rover Cam ($999.99 business); revives Always Home Cam 2020 concept
