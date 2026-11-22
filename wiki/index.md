@@ -47,6 +47,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[conviction]] — Sarah Guo's AI-focused VC firm (~$1B AUM); bets on the AI application/inference layer above foundation models; six portfolio companies past $10B including [[baseten]] and Harvey (Aug 2026)
 - [[cohere]] — Toronto enterprise LLM vendor; open-source Transcribe ASR tops HuggingFace leaderboard across 14 languages *(stale)*
 - [[crusoe]] — US AI-infrastructure company; $3.9B raise (Sep 2026) to build massive DCs plus truck-transportable modular "Spark" AI factories that connect to power almost anywhere
+- [[decart]] — Israeli AI startup reportedly near acquisition by Amazon in Nov 2026 for more than $7 billion (potentially approaching $7.5 billion); one of the largest AI-startup consolidation deals of late 2026
 - [[deepseek]] — Chinese frontier lab; ships DeepSeek-OCR, DeepSeekMath-V2 IMO gold, V3.2/Speciale *(stale)*
 - [[disney]] — entertainment giant; $1B Sora/ChatGPT character deal w/ OpenAI + Google IP lawsuit Dec 2025 *(stale)*
 - [[doordash]] — US local-commerce + food/grocery delivery platform; Ask DoorDash + Text DoorDash + Model Context Protocol enterprise ordering AI agents; agrees Oct 29 2026 to acquire [[instacart]] for ~$17B ($65/share, late-2027-to-H1-2028 close, 50,000+ additional-stores combined-merchant-coverage)
@@ -726,6 +727,7 @@ This is the catalog of all wiki pages. Updated automatically by the LLM during i
 - [[zero-language]] — Vercel Labs' Jul 2026 experimental language storing programs as a graph database (not text); agents patch nodes not text; <10 KiB native binaries; borrow-checker; structured JSON compiler errors with stable codes; version-pinned `zero skills` command
 
 ## Topics
+- [[a-society-of-ai-scientists]] — Nov 2026 alphaXiv preprint describing a 12-week experiment with 936 autonomous AI agents + 35 human-run labs producing 936 studies through shared preprint + messaging workspace; autonomous peer-review journal checks executable artifacts; shifts bottleneck from research-generation to execution-verification
 - [[aef-1-standard]] — voluntary Sep 2026 standard from the AI Evaluator Forum defining minimum operating conditions for independent third-party AI evaluations (access, COIs, autonomy, transparency, sensitive-info protection); co-signed by [[xai]] + [[openai]] + [[anthropic]]
 - [[agent-frameworks]] — SDKs and scaffolding for building AI agents
 - [[app-intents]] — Apple's framework declaring app actions/content/entities/data in structures Apple Intelligence can understand; backbone of Siri AI cross-app agent tasks; Developer Preview opens to all developers Nov 3 2026

@@ -9,9 +9,10 @@ type: product
 > **Type**: product
 > **Vendor**: [[openai]]
 > **First mentioned**: 2026-11-18-evening
-> **Latest**: 2026-11-18-evening (created)
+> **Latest**: 2026-11-22-morning (**NLP Newsletter HIGH "🤖 AI Agents Weekly" top update + researchFindings.additionalContext cycle-N+K cross-cohort Saturday restatement — "GPT-6.2 Sol keeps the same pricing as GPT-6.1 Sol at $2 per million input tokens" + researchFindings.additionalContext: *"OpenAI's efficient, general-purpose model for everyday work, including coding, technical writing, multistep workflows, tool use, and agentic applications... more capable and efficient, completing demanding tasks with fewer output tokens. It accepts text and image inputs, supports tool use through the Responses API, and has a context window of approximately 1.05 million tokens"* + *"Reported API pricing is $2 per million input tokens and $10 per million output tokens for shorter contexts"* + *"availability for Plus, Pro, Business, Enterprise, and Edu users; it is also being distributed through platforms including Microsoft Azure, Amazon Bedrock, and Cloudflare"* + *"OpenAI's deployment-safety materials identify strong cybersecurity and biological/chemical capabilities, while Sol remains below the company's high threshold for AI self-improvement risk"*. First-in-wiki: (a) **$2/M input + $10/M output canonical concrete-pricing anchor pair** — resolves the prior Open Question on exact pricing (confirms unchanged vs [[gpt-6-1-sol]]); (b) **~1.05M-token context window canonical anchor** — resolves the prior Open Question on context length (matches [[gpt-6-2-astra]]); (c) **Text + image input canonical twin-modality anchor** — resolves prior Open Question on modality support (matches Astra); (d) **Microsoft Azure + Amazon Bedrock + Cloudflare canonical three-hyperscaler-plus-edge distribution anchor + Plus + Pro + Business + Enterprise + Edu canonical five-tier ChatGPT-subscription-plan distribution anchor cluster** — productizes Sol as *canonical concrete-first-moment-GPT-6.2-Sol-publicly-attributed-three-hyperscaler-plus-edge-plus-five-tier-ChatGPT-subscription substrate operator*; (e) **"Strong cybersecurity + biological/chemical capabilities + below the company's high threshold for AI self-improvement risk" canonical safety-classification anchor pair** — resolves the prior Open Question on Sol's system-card classifications (strong-cyber-plus-bio-chem plus sub-high-AI-self-improvement vs Astra's Critical-cyber-plus-High-bio-chem-plus-High-AI-self-improvement); (f) **Responses API canonical tool-use-API-substrate anchor** — first-in-wiki concrete tool-use-API-identifier canonical anchor on Sol. Captured as cycle-N+K cross-cohort Saturday restatement + concrete pricing + context + modality + distribution + safety-classification canonical Open-Question-resolution cluster. See [[openai]] this cycle + [[gpt-6-2-astra]] this cycle + [[microsoft]] + [[amazon]] + [[cloudflare]] — *source: data/summaries/2026-11-22-morning.json (NLP Newsletter HIGH "🤖 AI Agents Weekly: GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists..."; researchFindings.additionalContext — GPT-6.2 Sol; attribution OpenAI announcement + AWS + Microsoft Azure + Cloudflare + OpenAI Deployment Safety Hub)*)
+> **Previously (Latest)**: 2026-11-18-evening (created)
 > **Status**: active (officially launched Nov 17 2026)
-> **Related**: [[openai]], [[gpt-6-2-astra]], [[gpt-6-1-sol]], [[gpt-6-sol]], [[openai-astra]], [[chatgpt-work]], [[openai-codex]]
+> **Related**: [[openai]], [[gpt-6-2-astra]], [[gpt-6-1-sol]], [[gpt-6-sol]], [[openai-astra]], [[chatgpt-work]], [[openai-codex]], [[microsoft]], [[amazon]], [[cloudflare]]
 
 ## Summary
 
@@ -21,6 +22,8 @@ Independent reporting from Artificial Analysis notes **unchanged pricing for Sol
 
 ## Timeline
 
+- **2026-11-22-morning**: **NLP Newsletter HIGH cycle-N+K Saturday restatement + concrete Open Question resolution cluster — $2/M input + $10/M output pricing confirmed; ~1.05M-token context window confirmed; text + image inputs confirmed; Responses API tool-use substrate; Microsoft Azure + Amazon Bedrock + Cloudflare distribution; Plus + Pro + Business + Enterprise + Edu subscription-tier availability; "strong cybersecurity + biological/chemical capabilities" + "below the company's high threshold for AI self-improvement risk" system-card classification pair**. See [[openai]] this cycle + [[gpt-6-2-astra]] this cycle + [[microsoft]] + [[amazon]] + [[cloudflare]] — *source: data/summaries/2026-11-22-morning.json (NLP Newsletter HIGH "🤖 AI Agents Weekly: GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists..."; researchFindings.additionalContext — GPT-6.2 Sol)*
+
 - **2026-11-18-evening**: **Created — GPT-6.2 Sol officially launched Nov 17 2026 as companion to flagship [[gpt-6-2-astra]]** — TLDR MEDIUM daily-digest Top Story #1 + researchFindings.additionalContext — GPT-6.2: *"OpenAI has launched GPT-6.2 Astra, a frontier model designed for complex professional work, and GPT-6.2 Sol, an efficient model for everyday tasks. Both models are available through ChatGPT Work, Codex, and the API, and are reported to produce better results with fewer output tokens compared to previous releases"* + *"Independent analysis placed GPT-6.2 Astra near the top of its intelligence index, while reporting highlighted lower pricing for Astra and unchanged pricing for Sol relative to GPT-6.1 Sol, potentially improving the cost-performance tradeoff for agentic and enterprise workloads"*. First-in-wiki: (a) **GPT-6.2 Sol NEW canonical efficient-tier companion-to-Astra product page** — productizes mid-Nov-2026 as *canonical concrete-first-moment-OpenAI-publicly-ships-GPT-6.2-Astra-plus-GPT-6.2-Sol-twin-SKU substrate operator*; graduates the multi-cycle GPT-6-family three-SKU productization arc (GPT-6 Astra + [[gpt-6-sol]] + [[gpt-6-luna]] + GPT-6.1 Terra + [[gpt-6-1-sol]] + [[gpt-6-cyber]] + [[openai-astra]] + [[gpt-6-rosalind]]) with a *concrete GPT-6.2-generation twin-SKU canonical anchor tier at Astra-plus-Sol-launch-pair*; (b) **"Everyday tasks" canonical efficient-tier positioning anchor** — productizes GPT-6.2 Sol as *canonical concrete-first-moment-OpenAI-publicly-attributes-everyday-tasks-vs-complex-professional-work-twin-positioning-split substrate operator* across the Astra/Sol pair; (c) **Unchanged pricing vs [[gpt-6-1-sol]] canonical price-continuity anchor** — productizes mid-Nov-2026 as *canonical concrete-first-moment-OpenAI-holds-Sol-tier-pricing-flat-while-cutting-Astra-tier-pricing-20% substrate operator*; (d) **"Better results with fewer output tokens" canonical token-efficiency-framing anchor** — productizes GPT-6.2 as *canonical concrete-first-moment-OpenAI-publicly-attributes-cross-SKU-token-efficiency-step-up substrate operator*; (e) **ChatGPT Work + Codex + OpenAI API canonical three-primitive distribution anchor** on GPT-6.2 Sol. Pairs cycle-structurally with same-cycle [[gpt-6-2-astra]] flagship launch + Microsoft Copilot "new OS for work" + Google Quaise Energy geothermal + [[jensen-huang]] willingness-to-return canonical anchor cluster. See [[gpt-6-2-astra]] this cycle + [[openai]] this cycle + [[openai-astra]] + [[gpt-6-sol]] + [[gpt-6-1-sol]] + [[chatgpt-work]] + [[openai-codex]] — *source: data/summaries/2026-11-18-evening.json (TLDR MEDIUM "GPT-6.2 🤖, widespread outages ⚠️, being known as a good dev 👨‍💻"; daily-digest Top Story #1; researchFindings.additionalContext — GPT-6.2 Astra + OpenAI + GPT-6.2 + Astra; attribution OpenAI announcement + Artificial Analysis + The Verge + Android Authority)*
 
 ## Key Facts
@@ -29,21 +32,24 @@ Independent reporting from Artificial Analysis notes **unchanged pricing for Sol
 - **Series position**: Efficient-tier companion to flagship [[gpt-6-2-astra]] on the GPT-6 family substrate; successor to [[gpt-6-1-sol]]
 - **Launch date**: 2026-11-17
 - **Status**: officially launched
-- **Positioning**: Everyday tasks (vs Astra's complex professional work)
-- **Distribution**: ChatGPT Work + Codex + OpenAI API
-- **Pricing**: Unchanged relative to [[gpt-6-1-sol]] per Artificial Analysis independent reporting
+- **Positioning**: Everyday tasks (vs Astra's complex professional work); coding + technical writing + multistep workflows + tool use + agentic applications
+- **Context window**: ~1.05 million tokens (confirmed 2026-11-22-morning)
+- **Modalities**: Text + image input (text output)
+- **Pricing**: $2 per million input tokens / $10 per million output tokens (unchanged relative to [[gpt-6-1-sol]])
+- **Distribution**: ChatGPT Work + Codex + OpenAI API + Microsoft Azure + Amazon Bedrock + Cloudflare
+- **Subscription tiers**: Plus + Pro + Business + Enterprise + Edu
+- **Tool-use API**: Responses API
+- **System-card classification**: Strong cybersecurity + biological/chemical capabilities; below company's high threshold for AI self-improvement risk
 - **Token efficiency**: "Better results with fewer output tokens" vs previous releases (per OpenAI)
 - **Companion SKU**: [[gpt-6-2-astra]] (flagship frontier model for complex professional work)
 
 ## Open Questions
 
-- Exact pricing (presumably matches [[gpt-6-1-sol]] at $2/M input + $10/M output, but unconfirmed)
-- Context-window length (presumably 1M+, but unconfirmed — Astra ships at 1.05M)
-- Modality support (text-only vs text+image like Astra)
-- System-card safety classifications (versus Astra's Critical cyber + High bio + High chem + High AI-self-improvement)
 - AutomationBench + SWE-Bench + benchmark comparisons vs [[gpt-6-1-sol]] + [[claude-fable-5-2]] + [[gemini-4-hydrogen]]
 - Whether GPT-6.2 Sol enters standard ChatGPT chat mode
+- Cached-input pricing (Astra ships with 60% cached-discount at $0.40/M cached)
 
 ## Sources
 
+- data/summaries/2026-11-22-morning.json (NLP Newsletter HIGH "🤖 AI Agents Weekly: GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists..." — cycle-N+K cross-cohort restatement + concrete pricing + context + modality + distribution + safety-classification canonical Open-Question-resolution cluster; researchFindings.additionalContext — GPT-6.2 Sol)
 - data/summaries/2026-11-18-evening.json (TLDR MEDIUM "GPT-6.2 🤖, widespread outages ⚠️, being known as a good dev 👨‍💻" — GPT-6.2 Astra + Sol officially launched Nov 17 2026; daily-digest Top Story #1; researchFindings.additionalContext — GPT-6.2 Astra + OpenAI + GPT-6.2 + Astra; attribution OpenAI announcement + Artificial Analysis + The Verge + Android Authority)

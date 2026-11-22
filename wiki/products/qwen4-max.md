@@ -8,7 +8,8 @@ type: product
 
 > **Type**: product
 > **First mentioned**: 2026-11-17-morning
-> **Last updated**: 2026-11-17-morning
+> **Last updated**: 2026-11-22-morning (**NLP Newsletter HIGH "🤖 AI Agents Weekly" top update + Notable Links cycle-N+K cross-cohort Saturday restatement — "Other notable updates include the release of Qwen4-Max by Alibaba"* + cycle-headline includes "Qwen4-Max" as named feature-item alongside GPT-6.2 Astra + Sol + Gemini 4 Neon + Inkling 2 Mini. Captured as cycle-N+K cross-cohort Saturday restatement at NLP Newsletter weekly-anchor tier — primary [[qwen4-max]] + [[alibaba]] 2.4T + 1M-context + lower-cost canonical anchor already captured on 11-17-morning canonical anchor cluster. Sustains the multi-cycle Qwen4-Max canonical arc at daily-digest Top Story / weekly-anchor-cohort cross-restatement tier. See [[alibaba]] this cycle + [[open-source-models]] + [[reasoning-models]] + [[agent-frameworks]] — *source: data/summaries/2026-11-22-morning.json (NLP Newsletter HIGH "🤖 AI Agents Weekly: GPT-6.2 Astra and Sol, Gemini 4 Neon, Inkling 2 Mini, A Society of AI Scientists, FrontierHarness Eval, Self-Improving Memory, Qwen4-Max, and More")*)
+> **Previously updated**: 2026-11-17-morning
 > **Status**: active
 > **Related**: [[alibaba]], [[open-source-models]], [[reasoning-models]], [[agent-frameworks]]
 
