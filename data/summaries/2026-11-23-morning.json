@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-22T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Monday, 23 November 2026\n\n## 🔥 Top Stories\n1. Researchers from Google Cloud AI, Google DeepMind, and Penn State introduced Self-Improvement Memory (SIM), which allows the harness optimizer to record past edits and their outcomes, enabling it to reuse this information for future optimizations — Why it matters: This development has the potential to significantly improve the efficiency and effectiveness of AI models by enabling them to learn from their past experiences.\n2. Levent Alpöge, a mathematician at Anthropic, has claimed to have discovered a proof of the Riemann Hypothesis using AI, with the proposed argument reportedly being formalized in about 17 million lines of Lean code — Why it matters: A proof of the Riemann Hypothesis, even if produced by AI, could have major implications for mathematics and computer science, and could potentially lead to breakthroughs in fields such as cryptography and coding theory.\n3. OpenAI released GPT-6.2 Astra and GPT-6.2 Sol, with GPT-6.2 Astra positioned for complex technical and research work, and GPT-6.2 Sol as a faster model for everyday and enterprise use — Why it matters: The release of these new models demonstrates the ongoing rapid progress in the development of large language models, and could have significant implications for a wide range of applications, from research and development to customer service and content creation.\n4. Google introduced the Gemini 4 model family, including Neon, Hydrogen, and Carbon, targeting reasoning, coding, speed, and agent-swarm use cases, and also launched Genie 4, a world model with native audio capabilities — Why it matters: The introduction of these new models and capabilities highlights the increasing diversity and sophistication of AI technologies, and could enable new applications and use cases in areas such as natural language processing, computer vision, and robotics.\n5. The U.S. Bureau of Industry and Security issued an interim final rule restricting remote access to advanced U.S. AI chips and servers through overseas data centers serving Chinese entities — Why it matters: This move reflects the growing importance of AI and related technologies in the global economy, and the increasing attention being paid to issues of national security, intellectual property, and trade in the development and deployment of these technologies.\n\n## 🤖 AI Models & Research\n- Researchers from Meituan and collaborating universities introduced AutoRL, a multi-agent system that supervises a live RL run, automating reinforcement learning by monitoring training dynamics, proposing interventions, and applying changes through online hot updates or restarts from checkpoints — This development has the potential to improve the efficiency and effectiveness of reinforcement learning, a key area of AI research.\n- Microsoft Research and colleagues introduced interpretable weight-space programming (iWSP), where an LLM agent builds models by writing their weights and features directly in code without gradient training — This approach could enable more transparent and explainable AI models, which is a major area of research and concern in the field.\n- Google Cloud researchers proposed GUARD, a framework for evolving a harness of prompts, skills, tool rules, and memory around a frozen base model without reference answers — This development has the potential to improve the performance and adaptability of AI models in a wide range of applications.\n- Researchers from Google and Purdue University introduced EfficientSkill, which learns a skill for accuracy first and then prunes it for length, reducing output tokens and improving performance on several benchmarks — This approach could enable more efficient and effective AI models, which is a key area of research and development in the field.\n- Amazon researchers presented CompoundingKernel, a self-improving agent system that writes GPU kernels by search, achieving state-of-the-art performance on the public L1, L2, and Quantization boards of SOL-ExecBench on NVIDIA B200 — This development has the potential to improve the performance and efficiency of AI models in areas such as computer vision and natural language processing.\n\n## 🛠️ Tools & Products\n- Thinking Machines Lab released Inkling 2 Mini, an Apache 2.0 mixture-of-experts model with 26.4 billion parameters, multimodal input, and a one-million-token context window — This release demonstrates the increasing availability and diversity of AI models and tools, which could enable new applications and use cases in areas such as natural language processing and computer vision.\n- NVIDIA released Alpamayo 2 Edge, a roughly 2.45-billion-parameter reasoning vision-language-action model designed for autonomous-driving inference — This release highlights the growing importance of AI in areas such as robotics and autonomous systems, and could enable new applications and use cases in these fields.\n\n## 📰 Industry News\n- The concept of mechanistic interpretability in large language models (LLMs) and its limitations is being explored by researchers, using examples such as \"Mr. Socky\" to illustrate the flexibility of human concepts — This area of research has significant implications for the development and deployment of AI models, and could enable more transparent and explainable AI systems.\n- The search for a \"perfect language\" is being discussed by experts, with examples such as John Wilkins's analytical language being cited as attempts to create comprehensive classification systems for the universe — This topic reflects the ongoing debate about the nature and potential of language, and the role of AI in shaping our understanding of human communication and cognition.",
+  "totalNewsletters": 3,
+  "newsletters": [
+    {
+      "from": "\"NLP Newsletter\" <nlpnews@substack.com>",
+      "subject": "🥇Top AI Papers of the Week",
+      "date": "2026-11-22T14:21:01.000Z",
+      "summary": "## NLP Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- Researchers from Google Cloud AI, Google DeepMind, and Penn State studied continual recursive self-improvement and introduced Self-Improvement Memory (SIM), which gives the harness optimizer its own memory to record past edits and their outcomes, allowing it to reuse this information for future optimizations. SIM outperformed harness-only and root-cause-only continuation in several cross-dataset and Opus-to-Gemini settings.\n- Researchers from Meituan and collaborating universities introduced AutoRL, a multi-agent system that supervises a live RL run, automating reinforcement learning by monitoring training dynamics, proposing interventions, and applying changes through online hot updates or restarts from checkpoints. AutoRL improved performance on several benchmarks, including AIME 2024, AIME 2025, and HMMT 2025.\n- Microsoft Research and colleagues introduced interpretable weight-space programming (iWSP), where an LLM agent builds models by writing their weights and features directly in code without gradient training. iWSP achieved 100% accuracy on algorithmic tasks and generalized to unseen data, including brain data from the visual cortex and language fMRI.\n- Google Cloud researchers proposed GUARD, a framework for evolving a harness of prompts, skills, tool rules, and memory around a frozen base model without reference answers. GUARD improved performance on 43 hosted SDK tasks, reaching 80.80% accuracy and reducing token usage.\n- Researchers from Google and Purdue University introduced EfficientSkill, which learns a skill for accuracy first and then prunes it for length, reducing output tokens and improving performance on several benchmarks, including MATH-500, ALFWorld, and SpreadsheetBench.\n- Amazon researchers presented CompoundingKernel, a self-improving agent system that writes GPU kernels by search, achieving state-of-the-art performance on the public L1, L2, and Quantization boards of SOL-ExecBench on NVIDIA B200.\n- Researchers from CMU, UC San Diego, UC Berkeley, and other institutions built Safe Personal RSI, an update gate for Kicker, a personal health assistant, which limits self-improvement to prompt updates and tests proposed updates against safety checks before applying them.\n- Researchers from MIT CSAIL and the University of Tübingen demonstrated self-directed self-improvement, where a frozen model builds a working learning procedure on its own using simple tools and no real tasks, validation scores, or instructions, and improves performance on held-out games with hidden mechanics.\n- Researchers from MIT and NVIDIA presented QDA, a system that designs the post-training quantization recipe for each model and precision, achieving state-of-the-art performance on several benchmarks, including W4A16, W4A8, and W3A16.\n\n### Notable Links\n- Self-Improvement Memory Paper\n- AutoRL Paper\n- Interpretable Weight-Space Programming Paper\n- GUARD Paper\n- EfficientSkill Paper\n- CompoundingKernel Paper\n- Safe Personal RSI Paper\n- Self-Directed Self-Improvement Paper\n- QDA Paper",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9ubHAuZWx2aXNzYXJhdmlhLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZubHAuZWx2aXNzYXJhdmlhLmNvbSUyRnAlMkZ0b3AtYWktcGFwZXJzLW9mLXRoZS13ZWVrLWQyOCIsInAiOjIyNjA0ODIyNywicyI6MTAzMjM4LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc5NTM1NzI4NywiZXhwIjoyMTEwOTMzMjg3LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.wnxEuUeBFGg5HZYFbS91hZY5LMbsIz6es2_JDYLy5LE?"
+        },
+        {
+          "text": "🥇Top AI Papers of the Week",
+          "url": "https://substack.com/app-link/post?publication_id=103238&post_id=226048227&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjA0ODIyNywiaWF0IjoxNzk1MzU3Mjg3LCJleHAiOjE3OTc5NDkyODcsImlzcyI6InB1Yi0xMDMyMzgiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.-IsT3oQKI7KF28kzJatEP6HMZgLxVlaAxPm4RPJb1Dc"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/nlpnews/p/top-ai-papers-of-the-week-d28?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Paper",
+          "url": "https://substack.com/redirect/9fb13455-3e0f-44ae-8614-4124b3cd9066?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Tweet",
+          "url": "https://substack.com/redirect/e3820609-4673-4571-a2aa-753a54d2697b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Get Certified",
+          "url": "https://substack.com/redirect/5ca85360-8b68-4637-8f19-75fdc1c9e423?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Paper",
+          "url": "https://substack.com/redirect/42ce259a-075c-4f89-a19b-4e8cc8825de9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Tweet",
+          "url": "https://substack.com/redirect/68cde916-c523-4da9-acb4-b943fce993fe?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Paper",
+          "url": "https://substack.com/redirect/fe34492a-f98a-455e-a8ee-348bd8abe1da?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Tweet",
+          "url": "https://substack.com/redirect/9322c526-dec8-4ce0-a499-4f05915368e9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "🥇Top AI Papers of the Week![](https://eotrx.substackcdn.com/o/f02f871bd9e8fdfa/p.gif?token=eyJtIjoiPDIwMjYxMTIyMTQyMTAxLjMuZTI2NDI2MWQ0NTA3YWY4OUBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMjYwNDgyMjcsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAzMjM4LCJjIjoicG9zdCIsImYiOnRydWUsInoiOiIiLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc5NTM1NzI4NywiZXhwIjoxNzk3OTQ5Mjg3LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.V7l78q0Xk8o2_1abiKn6BC3GAl0C_QSwS81N26-u68Q)\n\nThe Top AI Papers of the Week (November 16 - November 22)\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"3Blue1Brown\" <3blue1brown@substack.com>",
+      "subject": "We've been asking: “What if AI solved the Riemann Hypothesis?”",
+      "date": "2026-11-22T15:09:17.000Z",
+      "summary": "## 3Blue1Brown Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The 3Blue1Brown newsletter discusses the potential implications of AI solving the Riemann Hypothesis, a long-standing problem in mathematics. The newsletter is based on a collection of interviews with mathematicians and experts in adjacent fields conducted over the last year and a half.\n* The question posed to these experts was: \"How would you feel if there was an AI-produced proof of the Riemann Hypothesis, lean-verified, but impossibly long for humans to understand?\" The answers to this question have been compiled and published in light of the recent announcement of an AI-produced solution to the Riemann Hypothesis.\n* The Riemann Hypothesis is a 1859 conjecture that every nontrivial zero of the Riemann zeta function has real part 1/2, which is important for understanding the distribution of prime numbers.\n* Levent Alpöge, a mathematician at Anthropic, has claimed to have discovered a proof of the Riemann Hypothesis using AI, with the proposed argument reportedly being formalized in about 17 million lines of Lean code. However, independent mathematicians have not yet validated the complete proof.\n* The 3Blue1Brown project, led by Grant Sanderson, is exploring the implications of AI for mathematical research, including the potential for AI to solve long-standing problems like the Riemann Hypothesis.\n* Substack, the platform hosting the 3Blue1Brown newsletter, has recently introduced a feature that allows readers to estimate whether posts, replies, and comments were written by humans or with AI assistance.\n\n### Notable Links\n* [We've been asking: “What if AI solved the Riemann Hypothesis?”](https://substack.com/app-link/post?publication_id=344311&post_id=226054962)\n* [Grant Sanderson](https://substack.com/@3blue1brown)\n* [READ IN APP](https://open.substack.com/pub/3blue1brown/p/weve-been-asking-what-if-ai-solved?redirect=app-store-no-desktop&inbox=true)\n* Subscribe to 3Blue1Brown",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly8zYmx1ZTFicm93bi5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGM2JsdWUxYnJvd24uc3Vic3RhY2suY29tJTJGcCUyRndldmUtYmVlbi1hc2tpbmctd2hhdC1pZi1haS1zb2x2ZWQiLCJwIjoyMjYwNTQ5NjIsInMiOjM0NDMxMSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTUzNjAzNDQsImV4cCI6MjExMDkzNjM0NCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.RgJnSmdAVpBdyUtVv-IZpfx4bUN8qjipPTEqKd0-2fA?"
+        },
+        {
+          "text": "We've been asking: “What if AI solved the Riemann Hypothesis?”",
+          "url": "https://substack.com/app-link/post?publication_id=344311&post_id=226054962&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjA1NDk2MiwiaWF0IjoxNzk1MzYwMzQ0LCJleHAiOjE3OTc5NTIzNDQsImlzcyI6InB1Yi0zNDQzMTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.6_MB83p0n3sa9r7fpjiekPGHQDlr17SvkMMB722ckkc"
+        },
+        {
+          "text": "Grant Sanderson",
+          "url": "https://substack.com/@3blue1brown"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/3blue1brown/p/weve-been-asking-what-if-ai-solved?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Like",
+          "url": "https://substack.com/app-link/post?publication_id=344311&post_id=226054962&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjA1NDk2MiwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3OTUzNjAzNDQsImV4cCI6MTc5Nzk1MjM0NCwiaXNzIjoicHViLTM0NDMxMSIsInN1YiI6InJlYWN0aW9uIn0.pSbDGyVFGZLKd0xlkn7TucJmH1K6KhHx8uyaUFxIxcE&r=49by34"
+        },
+        {
+          "text": "Comment",
+          "url": "https://substack.com/app-link/post?publication_id=344311&post_id=226054962&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjA1NDk2MiwiaWF0IjoxNzk1MzYwMzQ0LCJleHAiOjE3OTc5NTIzNDQsImlzcyI6InB1Yi0zNDQzMTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.6_MB83p0n3sa9r7fpjiekPGHQDlr17SvkMMB722ckkc&r=49by34&action=post-comment"
+        },
+        {
+          "text": "Restack",
+          "url": "https://open.substack.com/pub/3blue1brown/p/weve-been-asking-what-if-ai-solved?action=restack-comment&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjA1NDk2MiwiaWF0IjoxNzk1MzYwMzQ0LCJleHAiOjE3OTc5NTIzNDQsImlzcyI6InB1Yi0zNDQzMTEiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.6_MB83p0n3sa9r7fpjiekPGHQDlr17SvkMMB722ckkc"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "We've been asking: “What if AI solved the Riemann Hypothesis?” ![](https://eotrx.substackcdn.com/o/7a57dabb2a35abf5/p.gif?token=eyJtIjoiPDIwMjYxMTIyMTUwOTE3LjMuYzE3NmIxMDRhOGRjNWY4M0BtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMjYwNTQ5NjIsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MzQ0MzExLCJjIjoicG9zdCIsImYiOnRydWUsInoiOiIiLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc5NTM2MDM0NCwiZXhwIjoxNzk3OTUyMzQ0LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.DCYNiwu3FdCDxuoztjYB-n8SyCpdgGwMCH3QOL4tcp0)\n\nA collection of interviews over the last year and a half\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"Sean Trott from The Counterfactual\" <seantrott@substack.com>",
+      "subject": "Mr. Socky, mechanistic interpretability, and the analytical language of John Wilkins",
+      "date": "2026-11-22T19:09:47.000Z",
+      "summary": "## The Counterfactual\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses the concept of mechanistic interpretability in large language models (LLMs) and its limitations, using the example of \"Mr. Socky,\" a sock that was turned into a character by the author's daughter, to illustrate the flexibility of human concepts.\n* The author argues that the search for a \"perfect language\" is futile, citing the example of John Wilkins's analytical language, which attempted to create a comprehensive classification system for the universe but ultimately failed.\n* The newsletter explores the challenges of mechanistic interpretability, including the difficulty of identifying \"atomic\" concepts and the limitations of the enumerative approach, which involves labeling individual neurons in a network.\n* The author discusses the concept of polysemanticity, where a single neuron can respond to multiple, unrelated inputs, and how this challenges the idea of identifying fixed, context-independent concepts.\n* The newsletter mentions the work of Nick Cammarata, who argues that neural networks are already \"clean\" and that the challenge of interpretability is not as significant as previously thought.\n* The author expresses skepticism about Cammarata's claims, arguing that the complexity of language and the flexibility of human concepts make it unlikely that a single, unified explanation of a network's behavior can be achieved.\n\n### Notable Links\n* [Mr. Socky, mechanistic interpretability, and the analytical language of John Wilkins](https://substack.com/app-link/post?publication_id=1003231&post_id=225217562&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNTIxNzU2MiwiaWF0IjoxNzk1Mzc0NTk0LCJleHAiOjE3OTc5NjY1OTQsImlzcyI6InB1Yi0xMDAzMjMxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8hRtjhTVqUcTxGiAFd_AHZ1B0taNUlLmyzOEHItYnfo)\n* The Analytical Language of John Wilkins\n* Neural Networks are Already Clean",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zZWFudHJvdHQuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnNlYW50cm90dC5zdWJzdGFjay5jb20lMkZwJTJGbXItc29ja3ktbWVjaGFuaXN0aWMtaW50ZXJwcmV0YWJpbGl0eSIsInAiOjIyNTIxNzU2MiwicyI6MTAwMzIzMSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTUzNzQ1OTQsImV4cCI6MjExMDk1MDU5NCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.FMIow8Bs_S7ELvmNUeEL6HhJMxPU2ZZAhXzBwh808mM?"
+        },
+        {
+          "text": "Mr. Socky, mechanistic interpretability, and the analytical language of John Wilkins",
+          "url": "https://substack.com/app-link/post?publication_id=1003231&post_id=225217562&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNTIxNzU2MiwiaWF0IjoxNzk1Mzc0NTk0LCJleHAiOjE3OTc5NjY1OTQsImlzcyI6InB1Yi0xMDAzMjMxIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.8hRtjhTVqUcTxGiAFd_AHZ1B0taNUlLmyzOEHItYnfo"
+        },
+        {
+          "text": "Sean Trott",
+          "url": "https://substack.com/@seantrott"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/seantrott/p/mr-socky-mechanistic-interpretability?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "some vision of a “perfect language”",
+          "url": "https://substack.com/redirect/b9a8d8e8-b13b-4e9c-aa8c-9584541735b4?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "as I’ve written before",
+          "url": "https://substack.com/redirect/0a9cff6c-19fb-4ff7-bc3a-fd263e561e9b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "cue different meanings in different contexts",
+          "url": "https://substack.com/redirect/ef6fb7dc-c9a2-40a3-b6be-485f10aefabc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "mechanistic interpretability of large language models (LLMs)",
+          "url": "https://substack.com/redirect/49829c40-021f-4e25-a23c-c334666dba3c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Jorge Luis Borges",
+          "url": "https://substack.com/redirect/e808a164-a868-42ef-a226-cbcd75e2e113?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "The Analytical Language of John Wilkins",
+          "url": "https://substack.com/redirect/2fcaf45d-675d-47f4-98a9-edaa037c2c37?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Mr. Socky, mechanistic interpretability, and the analytical language of John Wilkins![](https://eotrx.substackcdn.com/o/191460295abe3854/p.gif?token=eyJtIjoiPDIwMjYxMTIyMTkwOTQ3LjMuMzczNjQ1NDk5ODQ1YzVkZkBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIyNTIxNzU2MiwidCI6Im5ld3NsZXR0ZXIiLCJhIjoiZXZlcnlvbmUiLCJzIjoxMDAzMjMxLCJjIjoicG9zdCIsImYiOnRydWUsInoiOiIiLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc5NTM3NDU5NCwiZXhwIjoxNzk3OTY2NTk0LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.VdpAjLxhjF8ur5NNCtvLgWHW3JDKLGKf61MfBipvuPI)\n\nAre neural networks already clean?\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    }
+  ],
+  "tldr": [
+    "Google introduces Self-Improvement Memory (SIM) for AI.",
+    "AI discovers proof of Riemann Hypothesis, a math problem.",
+    "OpenAI releases GPT-6.2 Astra and Sol models.",
+    "Google launches Gemini 4 model family and Genie 4.",
+    "US restricts access to AI chips and servers abroad."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Riemann Hypothesis",
+        "context": "{\"topic\":\"Riemann Hypothesis\",\"context\":\"The Riemann Hypothesis is the 1859 conjecture that every nontrivial zero of the Riemann zeta function has real part \\(1/2\\). It matters because the zeta function encodes the distribution of prime numbers, so a proof would establish exceptionally strong bounds on how regularly primes are distributed and would resolve one of the Clay Mathematics Institute’s Millennium Prize Problems.\\n\\nThe latest AI/ML development is a November 2026 claim by Levent Alpöge, a mathematician at Anthropic, that he and Claude discovered a proof. The proposed argument has reportedly been formalized in about 17 million lines of Lean code, but independent mathematicians have not yet validated the complete proof, and the Clay Institute still lists the problem as unsolved. Anthropic separately reported that an unreleased Claude research model improved a known lower bound for the proportion of zeta zeros on the critical line from 41.6% to 67.2%, while another October result",
+        "source": "web search"
+      },
+      {
+        "topic": "3Blue1Brown",
+        "context": "3Blue1Brown is Grant Sanderson’s mathematics-education project and YouTube channel, now covering the implications of AI for mathematical research. Its latest relevant publication, dated November 22, 2026, revisits interviews conducted since mid-2025 with mathematicians and AI researchers around the question: what would it mean if AI produced a Lean-verified proof of the Riemann Hypothesis that was too long or opaque for humans to understand? The discussion is especially timely because it follows a reported November 20 announcement claiming an AI-produced solution, though the available search results do not independently verify the proof’s correctness or acceptance by the mathematical community.",
+        "source": "3Blue1Brown mailing list, “We’ve been asking: ‘What if AI solved the Riemann Hypothesis?’” (November 22, 2026); 3Blue1Brown YouTube and website materials"
+      },
+      {
+        "topic": "NLP Newsletter",
+        "context": "“NLP Newsletter” most likely refers to Elvis Saravia’s AI Newsletter on Substack, a roughly twice-weekly publication that curates AI trends, research papers, tools, news, and best practices. It is best known for its “Top AI Papers of the Week” and “AI Agents Weekly” series, helping researchers and practitioners track fast-moving developments without reading the full volume of new papers.[1][3][11]\n\nThe latest indexed issue covers November 16–22, 2026, following issues on multi-agent systems, long-context reasoning, AI memory, agent harnesses, and retrieval. The November 9–15 edition highlighted work such as adaptive multi-agent organization, long-context benchmarks, and memory systems, while the companion AI-agents coverage included frontier-model releases, agent evaluation, code-generation systems, and monitorability. Its relevance is primarily as an information-filtering and trend-detection resource: the topics it surfaces reflect the industry’s shift from standalone language models toward reliable, long-running, tool-using agents, with implications for model evaluation, inference cost, software engineering, and enterprise AI adoption.[2][4][5][6]",
+        "source": "AI Newsletter by Elvis Saravia (nlp.elvissaravia.com/Substack); corroborating newsletter directories"
+      },
+      {
+        "topic": "Substack",
+        "context": "Substack is a publishing and subscription platform that hosts newsletters, podcasts, videos, and discussion communities, including a large ecosystem of AI/ML-focused publications. Its most significant recent AI-related development is an integration with Pangram that lets readers estimate whether posts, replies, and comments were written by humans or with AI assistance. Publishers can scan drafts, disclose their creative process, disable scanning for individual posts, or opt out of automated analysis; Substack says the feature does not use publisher content to train generative-AI models.[10][8]\n\nThe rollout matters because it makes AI-authorship transparency a platform-level feature for independent media, while also raising concerns about detector accuracy, consent, privacy, and potential reputational effects. Substack says scan results are informational and are not used for recommendations, search ranking, monetization, or enforcement, but critics have questioned opt-out labeling and the lack of a clear appeals process.[14] The broader industry impact is that Substack is becoming both a distribution channel for AI/ML expertise and a test case for how creator platforms distinguish human work from AI-assisted content without directly restricting publication.",
+        "source": "Substack, “How writers are reacting to Substack’s AI transparency tools” (July 24, 2026), supplemented by recent reporting and commentary"
+      },
+      {
+        "topic": "John Wilkins",
+        "context": "John Wilkins was a 17th-century English polymath who proposed a universal “analytical language” in *An Essay Towards a Real Character, and a Philosophical Language* (1668). His system organized knowledge into a hierarchical taxonomy—classes, differences, and species—and encoded those categories into meaningful linguistic symbols rather than arbitrary words. The concept is relevant to AI/ML because it anticipates modern efforts to represent knowledge through ontologies, structured vocabularies, and machine-readable classification systems.[1][8][12]\n\nThere is no clear evidence of a new AI/ML development involving a person named John Wilkins; the current relevance appears primarily intellectual and cultural. Recent commentary connects Wilkins’s ambition to eliminate ambiguity by classifying the world with contemporary problems in machine learning, especially the limits of taxonomies, mechanistic interpretability, and generative models’ attempts to represent comprehensive knowledge. The key industry implication is cautionary: AI systems depend on negotiated, incomplete classifications, so claims that models can fully capture or neutrally organize reality should be treated critically.[3][14]",
+        "source": "web search"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "OpenAI releases GPT-6.2 Astra and GPT-6.2 Sol",
+        "summary": "OpenAI released GPT-6.2 Astra, positioned for complex technical and research work, alongside GPT-6.2 Sol, a faster model for everyday and enterprise use. The rollout also included guidance for developers to revise system prompts because the models are more concise and more willing to act on reversible assumptions.",
+        "whyItMatters": "Practitioners may need to retest prompts, agent workflows, latency, pricing, and safety controls when migrating from earlier GPT models.",
+        "source": "OpenAI announcements and reporting summarized by Spezia AI and Phygineer"
+      },
+      {
+        "headline": "Google launches the Gemini 4 model family and Genie 4",
+        "summary": "Google introduced multiple Gemini 4 variants, including Neon, Hydrogen, and Carbon, targeting reasoning, coding, speed, and agent-swarm use cases. Google DeepMind also launched Genie 4, a world model with native audio capabilities and availability through Project Genie and the Gemini API.",
+        "whyItMatters": "The releases expand the available frontier-model options and introduce new multimodal and agentic capabilities that could affect model selection and application architecture.",
+        "source": "Google DeepMind announcements and reporting summarized by DailyAI Report and AIBriefs"
+      },
+      {
+        "headline": "Thinking Machines Lab releases Inkling 2 Mini open model",
+        "summary": "Thinking Machines Lab released Inkling 2 Mini, an Apache 2.0 mixture-of-experts model with 26.4 billion parameters, multimodal input, and a one-million-token context window. The looped-transformer design is intended to support extended internal reasoning, and the model is reported to run locally on Macs with at least 32 GB of memory.",
+        "whyItMatters": "A capable, permissively licensed model that runs on consumer hardware could lower inference costs and make agentic coding experimentation more accessible.",
+        "source": "Thinking Machines Lab release, as reported by Phygineer"
+      },
+      {
+        "headline": "NVIDIA releases Alpamayo 2 Edge for autonomous driving",
+        "summary": "NVIDIA released Alpamayo 2 Edge, a roughly 2.45-billion-parameter reasoning vision-language-action model designed for autonomous-driving inference. It targets NVIDIA DRIVE AGX Thor hardware and generates vehicle trajectories directly on the vehicle.",
+        "whyItMatters": "The release illustrates the shift toward compact, specialized reasoning models optimized for edge deployment, where latency, reliability, and data locality are critical.",
+        "source": "NVIDIA announcement, as reported by DailyAI Report"
+      },
+      {
+        "headline": "BIS restricts remote access to advanced AI chips through foreign data centers",
+        "summary": "The U.S. Bureau of Industry and Security issued an interim final rule restricting remote access to advanced U.S. AI chips and servers through overseas data centers serving Chinese entities. The measure adds controls around cloud and remote-compute access rather than focusing only on physical chip exports.",
+        "whyItMatters": "Cloud providers, model developers, and researchers may need to reassess access controls, customer screening, infrastructure locations, and compliance obligations for advanced AI workloads.",
+        "source": "U.S. Bureau of Industry and Security, as reported by Spezia AI"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Riemann Hypothesis",
+        "type": "paper",
+        "context": "Mentioned as a potential problem to be solved by AI"
+      },
+      {
+        "name": "3Blue1Brown",
+        "type": "company",
+        "context": "Sender of a newsletter discussing AI solving the Riemann Hypothesis"
+      },
+      {
+        "name": "NLP Newsletter",
+        "type": "company",
+        "context": "Sender of a newsletter about top AI papers of the week"
+      },
+      {
+        "name": "Substack",
+        "type": "company",
+        "context": "Platform hosting the newsletters"
+      },
+      {
+        "name": "John Wilkins",
+        "type": "person",
+        "context": "Mentioned in relation to the analytical language"
+      },
+      {
+        "name": "Mr. Socky",
+        "type": "product",
+        "context": "Mentioned in relation to mechanistic interpretability"
+      },
+      {
+        "name": "Mechanistic Interpretability",
+        "type": "technology",
+        "context": "Discussed in relation to AI and Mr. Socky"
+      },
+      {
+        "name": "The Counterfactual",
+        "type": "company",
+        "context": "Sender of a newsletter about mechanistic interpretability and Mr. Socky"
+      },
+      {
+        "name": "Sean Trott",
+        "type": "person",
+        "context": "Sender of a newsletter from The Counterfactual"
+      },
+      {
+        "name": "Analytical Language",
+        "type": "technology",
+        "context": "Mentioned in relation to John Wilkins and mechanistic interpretability"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-11-23T00:30:43.579Z",
+  "dateString": "2026-11-23"
+}
