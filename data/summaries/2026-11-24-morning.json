@@ -1,0 +1,379 @@
+{
+  "date": "2026-11-23T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Tuesday, 24 November 2026\n\n## 🔥 Top Stories\n1. **Chinese researchers develop AscendGYM, a kernel optimization benchmark for Ascend NPUs**: Why it matters: This development is significant because export controls prevent Chinese organizations from acquiring Western semiconductors, making it essential for China to optimize its own hardware.\n2. **OpenAI makes progress in AI development, focusing on perplexity as a metric**: Why it matters: Perplexity is a key metric for measuring how well a model predicts the next token on average, and its development will likely play a crucial role in standardizing how AI progress is discussed.\n3. **Google demonstrates quantum contextuality at scale, potentially helping identify hardware errors**: Why it matters: Quantum contextuality is a nonclassical property believed to underpin some quantum algorithms, and demonstrating it at scale could lead to breakthroughs in quantum computing.\n4. **Trump announces plan to tax US companies that build data centers abroad, citing concerns over China's access to rented compute**: Why it matters: This plan could have significant implications for the global tech industry, particularly in terms of data center construction and cloud computing.\n5. **Noeri, a neolab, launches with $110 million in funding to develop AI systems that can learn proactively and continually**: Why it matters: Noeri's focus on developing AI systems that can learn and improve continuously could lead to significant advancements in areas like autonomous experimental agents and plural intelligence.\n\n## 🤖 AI Models & Research\n- Researchers from Lawrence Livermore National Laboratory introduce SciResearch-Eval, a benchmark for evaluating scientific judgment in autonomous experimental agents.\n- Thinking Machines releases Inkling 2 Mini, a 26.4B-parameter open-weight model that excels in internal computation and reasoning.\n- NVIDIA releases Nemotron-Labs-Sigma Continuous Diffusion Language Models, a family of 14 open checkpoints at 3B and 8B parameters.\n- Tencent releases Hy4, a multimodal input model with a 770-billion-parameter backbone that supports text, image, and video understanding.\n- Hugging Face introduces harness adapters, allowing models to optimize performance in specific harness-task combinations.\n\n## 🛠️ Tools & Products\n- Tesla rolls out Full Self-Driving (Supervised) v15, claiming a 25x better critical intervention rate, with features like Tesla Reality View and learned navigation.\n- Boom Supersonic successfully tests its in-house engine core, reaching 6,500 rpm with nearly 2,000 sensors.\n- Google's quantum processor wins a contextuality game 98.3% of the time against an 88.9% classical limit, demonstrating quantum contextuality at scale.\n- TSMC reportedly pauses shipments to Chinese designers after new US rules flag 16nm and 14nm logic chips as controlled, potentially impacting smartphone, TV, and automotive chip production.\n\n## 📰 Industry News\n- The US governors' council asks Congress to preserve state authority over AI deployment, adding to the ongoing debate over federal and state responsibility for AI oversight.\n- Amazon is reportedly nearing a $7.5 billion deal to buy Decart, a three-year-old AI startup.\n- SpaceX lenders seek covenants to prevent Nvidia chips from being launched into orbit, due to concerns over repossession and resale in the event of default.\n- Consulting firms like Accenture and McKinsey are adapting to AI by building their own AI deployment expertise, partnering with AI companies, and staying neutral across AI model providers.",
+  "totalNewsletters": 6,
+  "newsletters": [
+    {
+      "from": "\"Jack Clark from Import AI\" <importai@substack.com>",
+      "subject": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+      "date": "2026-11-23T14:11:18.000Z",
+      "summary": "## Import AI 482\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Chinese researchers have developed and released AscendGYM, a kernel optimization benchmark for Ascend NPUs, to help improve the performance of Huawei's Ascend chips. This is significant because export controls prevent Chinese organizations from acquiring Western semiconductors, making it essential for China to optimize its own hardware.\n* The AscendGYM benchmark includes 48 kernels drawn from real-world workloads and is designed to evaluate the efficacy of AI-designed kernels. The benchmark has been tested with various AI models, including Opus 5, GPT-5.6, and GLM-5.3, with Opus 5 showing the best results.\n* Researchers from Lawrence Livermore National Laboratory have introduced SciResearch-Eval, a benchmark for evaluating scientific judgment in autonomous experimental agents. The benchmark tests an agent's ability to design experiments, use a simulator, and report results with uncertainty.\n* SciResearch-Eval has been tested with various AI models, including GPT-6 Astra and Claude Fable 5.2, with the most powerful models showing reliable performance. This research has implications for the development of AI systems that can operate autonomously in scientific experiments.\n* Stanford professors Yejin Choi and Carlos Guestrin have launched Noeri, a neolab aimed at pushing the frontier of plural intelligence. Noeri has raised $110 million and plans to develop AI systems that can learn proactively and continually.\n* Chinese researchers have developed A2A-UAV, a multimodal dataset for air-to-air UAV detection and identification. The dataset includes 105,263 samples and covers 15 target drones from 13 commercial models.\n* The dataset has been collected using a UAV-mounted platform equipped with an RGB-thermal gimbal camera, a panoramic camera, an RF spectrum analyzer, and a millimeter-wave radar. This dataset can be used to improve the performance of AI systems in detecting and identifying drones in various environments.\n\n### Notable Links\n* [AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs](https://arxiv.org/abs/)\n* [SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents](https://arxiv.org/abs/)\n* [A2A-UAV: A Multimodal Air-to-Air Dataset for UAV Detection and Identification](https://arxiv.org/abs/)\n* [Noeri official website](https://noeri.ai/)\n* [Import AI 482](https://importai.substack.com/p/import-ai-482)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9pbXBvcnRhaS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9ZW1haWwmdXRtX2NhbXBhaWduPWVtYWlsLXN1YnNjcmliZSZyPTQ5YnkzNCZuZXh0PWh0dHBzJTNBJTJGJTJGaW1wb3J0YWkuc3Vic3RhY2suY29tJTJGcCUyRmltcG9ydC1haS00ODItaHVhd2VpLWtlcm5lbC1iZW5jaG1hcmtzIiwicCI6MjI2MTIwNzc3LCJzIjoxMzE3NjczLCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc5NTQ0MzMxOSwiZXhwIjoyMTExMDE5MzE5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.E7Cf82vgTbCKaObHGX16Xl6aGZGtiQuu5WzeWV0N62A?"
+        },
+        {
+          "text": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark",
+          "url": "https://substack.com/app-link/post?publication_id=1317673&post_id=226120777&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjEyMDc3NywiaWF0IjoxNzk1NDQzMzE5LCJleHAiOjE3OTgwMzUzMTksImlzcyI6InB1Yi0xMzE3NjczIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.UQ0ofFUPEeRjCtcuU0PpoKUorGkZOxp8FrxLPI2o_Ec"
+        },
+        {
+          "text": "Jack Clark",
+          "url": "https://substack.com/@importai"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/importai/p/import-ai-482-huawei-kernel-benchmarks?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Upgrade to paid",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9pbXBvcnRhaS5zdWJzdGFjay5jb20vc3Vic2NyaWJlP3V0bV9zb3VyY2U9cG9zdCZ1dG1fY2FtcGFpZ249ZW1haWwtY2hlY2tvdXQmbmV4dD1odHRwcyUzQSUyRiUyRmltcG9ydGFpLnN1YnN0YWNrLmNvbSUyRnAlMkZpbXBvcnQtYWktNDgyLWh1YXdlaS1rZXJuZWwtYmVuY2htYXJrcyZyPTQ5YnkzNCZ0b2tlbj1leUoxYzJWeVgybGtJam95TlRjMU16ZzJOREFzSW1saGRDSTZNVGM1TlRRME16TXhPU3dpWlhod0lqb3hOems0TURNMU16RTVMQ0pwYzNNaU9pSndkV0l0TVRNeE56WTNNeUlzSW5OMVlpSTZJbU5vWldOcmIzVjBJbjAuYmZXU01HZnJGeGRITmQ0TnNpOWNxWXF6VFpsZEUtT0RvN1VWNW45S2NjQSIsInAiOjIyNjEyMDc3NywicyI6MTMxNzY3MywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTU0NDMzMTksImV4cCI6MjExMTAxOTMxOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.J5KwLzZhLGMmbyHD-b8JJA9T3oEStij3Q0Yx8fpi1Io"
+        },
+        {
+          "text": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs (arXiv)",
+          "url": "https://substack.com/redirect/4fdc8c22-144e-4470-89c0-0690e10cd38f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AscendGYM (GitHub)",
+          "url": "https://substack.com/redirect/f04f7b56-1b53-43ef-b653-709d722af4f9?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents (arXiv)",
+          "url": "https://substack.com/redirect/ea8cc1af-0321-442f-be1a-ecf716a77480?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "leaderboard",
+          "url": "https://substack.com/redirect/5170dbc1-85b5-424e-ae2f-4e6d22afe7df?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "announcement tweet from Yejin (Yejin Choi, X)",
+          "url": "https://substack.com/redirect/090e9da7-2701-4c20-92eb-d08b8bba5cda?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab's AI science benchmark![](https://eotrx.substackcdn.com/o/8f1262bdc2839fa3/p.gif?token=eyJtIjoiPDIwMjYxMTIzMTQxMTE4LjMuMWRjMDhlYWQ0ZDUzNmVlYkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMjYxMjA3NzcsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTMxNzY3MywiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTU0NDMzMTksImV4cCI6MTc5ODAzNTMxOSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.aYy2VStHOeF2Efx_-wnPz0mdRQE5n8vf1-MJ9ZDPDUI)\n\nCould the scientific method be emergent?\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏  "
+    },
+    {
+      "from": "\"TLDR Hardware\" <dan@tldrnewsletter.com>",
+      "subject": "Trump’s overseas data center tax 💸, Tesla rolls out FSD v15 🚗, Google's quantum processor ⚛️",
+      "date": "2026-11-23T15:02:33.000Z",
+      "summary": "## TLDR Hardware\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Trump has announced a plan to tax US companies that build data centers abroad, citing concerns over China's access to rented compute, with a proposed tax on Google's facility in Finland.\n* Tesla has rolled out Full Self-Driving (Supervised) v15, claiming a 25x better critical intervention rate, with features such as Tesla Reality View, learned navigation, and improved speed-camera recognition.\n* Google's quantum processor has won a contextuality game 98.3% of the time against an 88.9% classical limit, demonstrating quantum contextuality at scale and potentially helping identify hardware errors.\n* Boom Supersonic has successfully lit its in-house engine core for the first time, reaching 6,500 rpm with nearly 2,000 sensors, a key step towards developing its Mach 1.7 Overture jet.\n* Researchers have created a one-crystal-thick film of mixed nanocrystals that can boost or block infrared light, with potential applications in thermal camouflage or self-cooling surfaces.\n* SpaceX lenders have sought covenants to prevent Nvidia chips from being launched into orbit, due to concerns over repossession and resale in the event of default.\n* Silicon photonics is being explored as a potential next step for AI data centers, with the ability to move data as infrared light through silicon waveguides, removing the reach limit and improving performance per watt.\n* TSMC has reportedly paused shipments to Chinese designers after new US rules flagged 16nm and 14nm logic chips as controlled, potentially impacting smartphone, TV, and automotive chip production.\n\n### Notable Links\n* [Tesla's FSD v15 announcement](https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/)\n* [Google's quantum processor research](https://blog.google/innovation-and-ai/models-and-research/quantum-computing/putting-one-of-quantum-mechanics-deepest-features-to-test-at-scale/)\n* [Boom Supersonic's engine core test](https://avi-go.com/news/articles/021f9bbf9ef77e9f998d4d793e326ce9/)\n* [Silicon photonics for AI data centers](https://www.datacenterdynamics.com/en/opinions/why-the-next-phase-of-the-data-center-buildout-runs-on-light/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR Hardware\n\nAt a White House press conference, Trump promised a \"tremendous tax\" on US firms building data centers overseas, specifically naming a proposed ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fhardware%3Futm_source=tldrhardware/1/010001a208ee21df-e6baa6fe-f279-4ebb-bfc4-1903fdb830ad-000000/Auqu_SBQwkFXlcCSPG4AGYtqQKxxYbGC33L5QE8r2lA=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrhardware%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a208ee21df-e6baa6fe-f279-4ebb-bfc4-1903fdb830ad-000000/OLHhwxQAR3-XYvrMD-1XXxamUmXTotwTw82MZyGJdx0=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ec03effe-5f8e-11f0-99ac-f9a243d0c266%26p=040a4ba0-e703-11f1-8296-3951c864474f%26pt=campaign%26t=1795446153%26s=ef38"
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "OpenAI publishes progress 🧠, Inkling 2 Mini 💧, Riemann proof 📐",
+      "date": "2026-11-23T15:33:01.000Z",
+      "summary": "## TLDR AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* OpenAI has made progress in AI development, with a focus on perplexity as a metric to measure how well a model predicts the next token on average, and lower perplexity means better predictions. This metric has stood the test of time and will likely play an important role in standardizing how AI progress is discussed.\n* Thinking Machines has released Inkling 2 Mini, a 26.4B-parameter open-weight model that does extra internal computation to reason more before it answers, leading every open-weight model under 100B parameters on the DeepSWE coding benchmark.\n* NVIDIA has released Nemotron-Labs-Sigma Continuous Diffusion Language Models, a family of 14 open checkpoints at 3B and 8B that generate text by denoising compact token embeddings instead of predicting one token at a time.\n* Tencent has released Hy4, a multimodal input model with a 770-billion-parameter backbone that supports text, image, and video understanding.\n* Hugging Face has introduced harness adapters, allowing models to optimize performance in specific harness-task combinations, achieving higher accuracy and efficiency.\n* Levent Alpöge has released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code, which has been verified by the Lean and Mathlib communities.\n* Amazon is reportedly nearing a $7.5 billion deal to buy Decart, a three-year-old AI startup.\n* Google has demonstrated quantum contextuality—a nonclassical property believed to underpin some quantum algorithms—at scale, with experiments extending up to 105 qubits on its Willow superconducting processor.\n* OpenAI is stepping up defenses against adversarial distillation, where outsiders train models on its outputs to copy its capabilities.\n* Baseten has released bison-1 and groundhog-1, frontier American decision models built on Google's Gemma 4.\n\n### Notable Links\n* [Perplexity and Intelligence](https://links.tldrnewsletter.com/Umg1zq)\n* [Inkling 2 Mini](https://thinkingmachines.ai/news/inkling-2-mini/)\n* [Nemotron-Labs-Sigma Continuous Diffusion Language Models](https://research.nvidia.com/labs/genair/sigma/)\n* [Hy4](https://huggingface.co/tencent/Hy4)\n* [Harness Adapters](https://huggingface.co/blog/harness-adapters-at-scale)\n* [Riemann Hypothesis proof](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/)\n* [Bison-1 and Groundhog-1](https://www.baseten.co/blog/meet-bison-1-and-groundhog-1/)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "    TLDR AI  \n\nPerplexity measures how well a model predicts the next token on average. Lower perplexity means better predictions. Perplexity has stood the test ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/010001a2090a0749-9c5849b8-0a28-4236-a666-a45ccc729103-000000/eHKJLuiOwav047kOBu5lMCtK_CVc1To8nIrqI5dFz28=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a2090a0749-9c5849b8-0a28-4236-a666-a45ccc729103-000000/KGHZFMXx1GA-iNlt_Pny04916hk5VwQ3bAGabdmZZIU=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=f5eb5356-e726-11f1-853b-ff28cd14459a%26pt=campaign%26t=1795447981%26s=744c932e89d8f7bd881c"
+    },
+    {
+      "from": "\"Understanding AI\" <understandingai@substack.com>",
+      "subject": "The five most important debates in AI right now",
+      "date": "2026-11-23T19:31:14.000Z",
+      "summary": "## Understanding AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses the five most important debates in AI right now, including whether the US should sell advanced chips to China, the possibility of recursive self-improvement, whether AI is a bubble, the potential for a cyber-apocalypse, and the impact of AI on job markets.\n* The debate on selling chips to China is framed as a question of whether it makes America stronger or weaker, with arguments for and against the sale of advanced chips to China.\n* The possibility of recursive self-improvement (RSI) is discussed, with some experts believing it could happen as early as 2027, while others argue that it is not imminent and may not be possible.\n* The question of whether AI is a bubble is also addressed, with arguments for and against the idea that the current AI boom is unsustainable.\n* The potential for a cyber-apocalypse is discussed, with some experts warning of the dangers of advanced AI systems and others arguing that the risks are overstated.\n* The impact of AI on job markets is also considered, with some experts arguing that AI could destroy millions of jobs, while others believe that it will create new opportunities and augment human capabilities.\n\n### Notable Links\n* [The five most important debates in AI right now](https://substack.com/app-link/post?publication_id=1501429&post_id=226233811&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjIzMzgxMSwiaWF0IjoxNzk1NDYyNDI1LCJleHAiOjE3OTgwNTQ0MjUsImlzcyI6InB1Yi0xNTAxNDI5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ufnvbk-6L4jmvnRDctRigfzt_kEN0lN6bzKjWRLr6Dw)\n* Subscribe to Understanding AI\n* Derek Thompson's Substack\n* [Timothy B. Lee](https://substack.com/@timothyblee)\n* [Derek Thompson](https://substack.com/@derekthompson)",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudW5kZXJzdGFuZGluZ2FpLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cudW5kZXJzdGFuZGluZ2FpLm9yZyUyRnAlMkZ0aGUtZml2ZS1tb3N0LWltcG9ydGFudC1kZWJhdGVzLWluIiwicCI6MjI2MjMzODExLCJzIjoxNTAxNDI5LCJmIjp0cnVlLCJ1IjoyNTc1Mzg2NDAsImlhdCI6MTc5NTQ2MjQyNSwiZXhwIjoyMTExMDM4NDI1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.Ms1Q9oH4iVZoyo1-PNQR20QLeXDp19ggYo5VFP1oW8k?"
+        },
+        {
+          "text": "The five most important debates in AI right now",
+          "url": "https://substack.com/app-link/post?publication_id=1501429&post_id=226233811&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjIzMzgxMSwiaWF0IjoxNzk1NDYyNDI1LCJleHAiOjE3OTgwNTQ0MjUsImlzcyI6InB1Yi0xNTAxNDI5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ufnvbk-6L4jmvnRDctRigfzt_kEN0lN6bzKjWRLr6Dw"
+        },
+        {
+          "text": "Timothy B. Lee",
+          "url": "https://substack.com/@timothyblee"
+        },
+        {
+          "text": "Derek Thompson",
+          "url": "https://substack.com/@derekthompson"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/understandingai/p/the-five-most-important-debates-in?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Substack",
+          "url": "https://substack.com/redirect/0d60fcfc-e074-44f7-995b-7b87836d6c5e?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "One year ago",
+          "url": "https://substack.com/redirect/4122da74-3454-4e30-afe4-bbd0072cc7aa?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "argued",
+          "url": "https://substack.com/redirect/06ca4572-9cda-422a-a319-594e21180394?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "imagine AGI as a machine god",
+          "url": "https://substack.com/redirect/cfd1aa4b-01ee-4a75-88bf-eb307c552c1d?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "solve Millennium Problems",
+          "url": "https://substack.com/redirect/9bb39f16-3b6e-4512-998a-e6144ebac140?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "The five most important debates in AI right now![](https://eotrx.substackcdn.com/o/57cef9637b77d98c/p.gif?token=eyJtIjoiPDIwMjYxMTIzMTkzMTE0LjMuMzQ0NTJlYzIwYzEyYjkwOUBtZzIuc3Vic3RhY2suY29tPiIsInUiOjI1NzUzODY0MCwiciI6InNhdXJhYmhqYWxlbmRyYUBnbWFpbC5jb20iLCJkIjoibWcyLnN1YnN0YWNrLmNvbSIsInAiOjIyNjIzMzgxMSwidCI6Im5ld3NsZXR0ZXIiLCJhIjoib25seV9wYWlkIiwicyI6MTUwMTQyOSwiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTU0NjI0MjUsImV4cCI6MTc5ODA1NDQyNSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.Oa4g4hY53yQ85x00DSJ1Qrz38Qjx4LmrycAOcJ1Akfg)\n\nThe best arguments for — and against — an AI bubble, a cyber-apocalypse, and recursive self-improvement.\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"Arvind and Sayash from AI as Normal Technology\" <aisnakeoil@substack.com>",
+      "subject": "Management consulting is not a thin wrapper on intelligence",
+      "date": "2026-11-23T20:12:32.000Z",
+      "summary": "## AI as Normal Technology Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses the impact of AI on management consulting, arguing that consulting is not just a \"thin wrapper\" on intelligence, but involves multiple sources of value including analysis, judgment, coordination, credibility, and accountability.\n* AI already excels at analysis, but strategic judgment is harder to train into AI due to the complexity and uncertainty of high-stakes business decisions, making it difficult to evaluate the quality of advice.\n* Consulting firms provide a structured process for working through disagreements, gathering inputs from affected teams, and explaining how employees' considerations informed the recommendation, which is hard to replicate with AI alone.\n* The adoption of AI creates new demand for consulting services, such as helping clients implement organizational changes, managing implementation, and addressing common challenges faced by many clients in the same industry.\n* Consulting firms need to adapt to AI by building their own AI deployment expertise, partnering with AI companies, and staying neutral across AI model providers to offer solutions that are in the best interests of their clients.\n* Examples of consulting firms adapting to AI include Accenture's partnership with OpenAI and Anthropic, and McKinsey's partnership with both OpenAI and Anthropic.\n\n### Notable Links\n* [Management consulting is not a thin wrapper on intelligence](https://substack.com/app-link/post?publication_id=1008003&post_id=226240267&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjI0MDI2NywiaWF0IjoxNzk1NDY0Nzk5LCJleHAiOjE3OTgwNTY3OTksImlzcyI6InB1Yi0xMDA4MDAzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.FD8QYMMSFOa1LCpZQqFF6h9LwRN4cT_HFMlHpYYjfAk)\n* [READ IN APP](https://open.substack.com/pub/aisnakeoil/p/management-consulting-is-not-a-thin?redirect=app-store-no-desktop&inbox=true)\n* [Sayash Kapoor](https://substack.com/@sayash)\n* Rod Moshtagi",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm9ybWFsdGVjaC5haS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cubm9ybWFsdGVjaC5haSUyRnAlMkZtYW5hZ2VtZW50LWNvbnN1bHRpbmctaXMtbm90LWEtdGhpbiIsInAiOjIyNjI0MDI2NywicyI6MTAwODAwMywiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTU0NjQ3OTksImV4cCI6MjExMTA0MDc5OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.Ru5TH5qb8vmhgxNl4r9C67fWViwCrNlGwrsbtvdtRFY?"
+        },
+        {
+          "text": "Management consulting is not a thin wrapper on intelligence",
+          "url": "https://substack.com/app-link/post?publication_id=1008003&post_id=226240267&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjI0MDI2NywiaWF0IjoxNzk1NDY0Nzk5LCJleHAiOjE3OTgwNTY3OTksImlzcyI6InB1Yi0xMDA4MDAzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.FD8QYMMSFOa1LCpZQqFF6h9LwRN4cT_HFMlHpYYjfAk"
+        },
+        {
+          "text": "Sayash Kapoor",
+          "url": "https://substack.com/@sayash"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/aisnakeoil/p/management-consulting-is-not-a-thin?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Rod Moshtagi",
+          "url": "https://substack.com/redirect/126fc82b-baa0-47b4-99bd-4aa2d257d493?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "the consulting crash is coming",
+          "url": "https://substack.com/redirect/c3faa7cd-f8fa-4610-a378-9caccbae103b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "going to run out of work",
+          "url": "https://substack.com/redirect/08fdc022-e27c-4cf4-a794-89b6a0c99b45?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "predicted",
+          "url": "https://substack.com/redirect/843f4844-563e-408f-b580-2f47ee478ea0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "previous",
+          "url": "https://substack.com/redirect/be4fbda7-f71d-45e0-8eef-e6fff551811f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "analyses",
+          "url": "https://substack.com/redirect/3e5646eb-aa50-444b-90f7-628339ee0826?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Management consulting is not a thin wrapper on intelligence![](https://eotrx.substackcdn.com/o/ec6ca9a05941168e/p.gif?token=eyJtIjoiPDIwMjYxMTIzMjAxMjMyLjMuM2I3Yzk0ZjBjYWQwN2MyNUBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMjYyNDAyNjcsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwODAwMywiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTU0NjQ3OTksImV4cCI6MTc5ODA1Njc5OSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.Gj1x6i4csNJgmArN5vTvWJOtCMrtsb-QBWrmiLBb50s)\n\nConsulting as a test case for AI's impact on knowledge work\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    },
+    {
+      "from": "\"Cerebral Valley\" <team@mail.cerebralvalley.ai>",
+      "subject": "Cerebral Valley – Week of November 23",
+      "date": "2026-11-23T21:04:56.000Z",
+      "summary": "## Cerebral Valley – Week of November 23\n\n**Priority: MEDIUM**\n\n### Top Updates\n- **Meta Muse Ember Hackathon**: A 10-day hackathon with $10 in Meta Model API credits and $5,000 in prizes, where developers can build a solo project on Muse Ember, Meta’s smallest model. Applications close November 25 at 12:00 PM ET.\n- **Hackallax: Presented by Parallax & Anthropic**: A hackathon where teams build real hardware inside Parallax's San Francisco factory with Anthropic, using 3D printers, CNC metal cutting, and laser welding to build an air-powered motor or a freestyle project. Sponsored by Founders Fund, Lux Capital, Diffusion, and Eclipse.\n- **P=NP, solved**: A proof of the P=NP problem has been passed, but it only works for N = 1.\n- **IPv4's other landlords**: Mercedes-Benz owns all of 53, Ford all of 19, and the UK Ministry of Defence all of 25 IPv4 addresses.\n- **The agent platform of 2027**: Every other product becomes a database for the agent platform, and the winner is a garden bed, not a factory of factories.\n- **Fastest YC company to $1B**: A chart of YC's fastest unicorns, measured from demo day.\n- **Claude writes the loop now**: Code Mode makes Claude write one JavaScript script instead of sequential tool calls, with background runs up to two hours.\n- **Proving what nobody doubted**: AI-solved math mostly confirms 99.99999999% certainties; the value is the tools the proof introduces.\n- **370 AI recommendations**: Ramp got AI to recommend it 370 times, in two screenshots.\n- **GRH has fallen**: The generalized Riemann hypothesis has been proven, with full confidence.\n- **A 26B model for your laptop**: Inkling 2 Mini, a looped transformer scoring 20.1 on AA Index, is available.\n- **The collateral in orbit**: SpaceX's lenders are balking at $40B of AI chips in space, with nothing to repossess in case of default.\n\n### Notable Links\n- [P=NP, solved](https://elinkac1.mail.cerebralvalley.ai/v2/c/bfd1e6d27a1b53361981592f9fb0d33f978f28c138e95f50aa8e11c4a5b83ff0da82a063fa9b590ad21f12774733f51bde0d8a932dd96a3122ab42e1e0a97de1349383ccdc64cb76acace1c3f6d26ded942356ea158bf139bbceac6b2b5109dfb8117da114b201cad02711e5313e51a12e0d661ec8567da0e39573117fbbf4167db2da4d5b074aac2d020e41a72c39c803357773a22dcdcbf749f4fab2e89dca/2eba6020dd5cb19b)\n- [IPv4's other landlords](https://elinkac1.mail.cerebralvalley.ai/v2/c/9ea8d9b193ca026c3b5a0e2b1801fd506382c66b655150a16d196d6e577a032e42180db5276418e7052cf094c6de5f771e58ad180337cdc270b71cfa5c0ce232ac13c54f851809b6bbd39a7a03a6f49f61512b0153f8803037fce61ba04db1fff59f054c290fee4e6e6701815e79dad35ed1b7fa01d21100a6fcd42db27684240ca94f05059f0bd049819067ac5c2a3a3d17b2f59b558ababda8419a2f3d0c62/e6f7c272f67fac2e)\n- [The agent platform of 2027](https://elinkac1.mail.cerebralvalley.ai/v2/c/f104ab76d0619e2de6c2a14ee42ebe573b0c6f6b6bb3958487fba2144cefc55bcadf59a51208f611506489c4fd0036daca0c605a8c30363f295c9db8928f25e5325bf2c29dfbe12c7ced7f2b31d94b036783f6759c4ce9785665aa08e69e8c1e4dc1b44f88d6d28e52b4a72374e2d3fb8505d9457012142c32c880920673343ebcd484f9d5b2d0036335e64fd03daf6c56797634873d3d39b57eb185e6fadc04/c46fa36d028e8ac5)\n\n### Job Openings\n- **Content Engineer, Meta Superintelligence Labs**: Meta is hiring a Content Engineer to own the quality bar for its AI products and agents.\n- **Software Engineer III, AI Agent Architecture**: Google is hiring a Software Engineer to build agent architectures and the frameworks that measure whether an agent actually works.\n- **Software Engineer 3**: MongoDB is hiring an engineer to build the core of Atlas Agent Engine, its platform for running agents in production.\n\n### Events\n- **SF Non-Slop Hackathon | Pangram x Kino x Capy x Paper**: A one-day hackathon on using AI to build something intentional that makes people feel something.\n- **Physical AI Hack**: A one-day hackathon on systems that perceive, reason, and act reliably in the physical world.\n- **SF × MIT Hack Day: Peptides - Claims vs Evidence**: A hack day where attendees build agents that audit the evidence behind popular peptides.\n- **Context Engineering Guild of New York City: November Edition**: A monthly Brooklyn meetup for advanced practitioners of LLM coding.\n- **Computer Vision Vibe Coding (w/ Lovable)**: A social build night where teams vibe-code apps that can see, using just their laptop’s webcam and free Lovable credits.\n- **Would You Ship This?**: An interactive AI design, safety, and fairness workshop with Jorteh Senah.\n- **re:Invent 2026 Watch Parties**: A series of watch parties for the AWS re:Invent keynotes, with networking and Q&A sessions.\n- **How to train LLMs to beat frontier models**: A workshop on fine-tuning LLMs to outperform larger general-purpose models.",
+      "links": [
+        {
+          "text": "Meta Muse Ember Hackathon",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/v2/c/5dd9de2b909e7be3486904e68a7efe6d1ef600b4d5aeb37b34c5ddd99fd419e184c7ecc4d833fbb5999bab63864aeae7ff85d355e3e497d96066daccb9e841e10d922cae2d9541a41a2116cdb5e1e91f7af23094226dcd9eadec5a5998e2664611ebf50197a545b919d3025acbc0c7bf2e4f986f8fc6f14c040d4a8e8e79a148b29c42195c9105b74b6ac46c37083eda8101b3e8ad8e6f0d541bdeee6bc18852/1ca001d651507c73"
+        },
+        {
+          "text": "Register here",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/v2/c/eaf78f50debb8d736e6bbf25fdf442e256e67af35d40424ab98997772ff735d39506042a7a806521a3897153b3fb578007b1f786a2cb37b4cacfc8ae17dca00e13dea57dd72f7450ce819f09752fe04b632132f6277a63e9c69223a1fef8aa6b287ff54d149580203531aa88dc8448ac9a2f5e97fdb2461e6124e3040b138fc27acc590b19322005cf4c644cbaf855120e0dbe84fa8e93b4af3a8d1fde690904/b2487beff6f3e34e"
+        },
+        {
+          "text": "Hackallax: Presented by Parallax & Anthropic",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/v2/c/28089eb9ab629c5d2f369366f927666b3f9bed0d723f8c225063268bd430548dcd8ef61493981f6e89a00c3af007d61408674092f83e976609aa51a5e585d336ad6f934459395abcb86e9f19905e7625b38b9f9522fa3028dbf89b3aaa30853fe2b369eab74d4d309382ccce919b8e914f064cb8a262e702ce57b973559cc4e9c6e8b6610bce13399263938f55e8a059f34c1d6c09edfc961df6bce94b14f641/5e5f01a7c0dc057f"
+        },
+        {
+          "text": "Register here",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/v2/c/093f955c9ba9d855c320b8fe103e2cfd29b7d14d3a4ee0c302000ecfddffceddbad2dc60e1f541a7a139a45384905c3a1c585be3cbd07f28df7aa7f26a1e5144407d5778c1361f4c8c0f129dd6a09c7f047e19f84ab7fce0717fce17af296c9426b76a5807d33718dfdca17cb60abfca2459b2ddb181f69c7ec756f673bcc2aa90f3bb68416dbb2a5c7580316f95c4729e6462168669eee0495fb6e411bf7156/98ff0df2a163b416"
+        },
+        {
+          "text": "P=NP, solved",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/v2/c/bfd1e6d27a1b53361981592f9fb0d33f978f28c138e95f50aa8e11c4a5b83ff0da82a063fa9b590ad21f12774733f51bde0d8a932dd96a3122ab42e1e0a97de1349383ccdc64cb76acace1c3f6d26ded942356ea158bf139bbceac6b2b5109dfb8117da114b201cad02711e5313e51a12e0d661ec8567da0e39573117fbbf4167db2da4d5b074aac2d020e41a72c39c803357773a22dcdcbf749f4fab2e89dca/2eba6020dd5cb19b"
+        },
+        {
+          "text": "IPv4's other landlords",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/v2/c/9ea8d9b193ca026c3b5a0e2b1801fd506382c66b655150a16d196d6e577a032e42180db5276418e7052cf094c6de5f771e58ad180337cdc270b71cfa5c0ce232ac13c54f851809b6bbd39a7a03a6f49f61512b0153f8803037fce61ba04db1fff59f054c290fee4e6e6701815e79dad35ed1b7fa01d21100a6fcd42db27684240ca94f05059f0bd049819067ac5c2a3a3d17b2f59b558ababda8419a2f3d0c62/e6f7c272f67fac2e"
+        },
+        {
+          "text": "The agent platform of 2027",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/v2/c/f104ab76d0619e2de6c2a14ee42ebe573b0c6f6b6bb3958487fba2144cefc55bcadf59a51208f611506489c4fd0036daca0c605a8c30363f295c9db8928f25e5325bf2c29dfbe12c7ced7f2b31d94b036783f6759c4ce9785665aa08e69e8c1e4dc1b44f88d6d28e52b4a72374e2d3fb8505d9457012142c32c880920673343ebcd484f9d5b2d0036335e64fd03daf6c56797634873d3d39b57eb185e6fadc04/c46fa36d028e8ac5"
+        },
+        {
+          "text": "Fastest YC company to $1B",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/v2/c/0ada57ce9e28632bb46820e97a88ef920403d3215bf4c3a771302e00c31785b727786ab1744f0f8c3995e6caf9e2a6884f1d9b106d4124ffa6347701f62f0c9c44bff4a383abf278b7354d7d3843e0d0e35870976433344c7d70c943b73c6360b5c4c38bb27bec06dc521014358eea44e6d3f4cbf827e92da41bdae5f9e9c0b0d66de62022b424597f4590c18d369625c1a8a6e060a81cdfba5f919576fffb5e/19971cb6e6c865b8"
+        },
+        {
+          "text": "Claude writes the loop now",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/v2/c/abeb91b40a27c6e961ce3d040365e71a7bf4d7a872c0002e75af1b40592942479d62f60ec48c837419f8626da35c38aa39ad77ea7e6fd6374a4f7aba85048e5f21000f3f32fc0352c90c3c3c803c4491eba95ecdb04342c6b50d091e57cdf7153abe9a8e3d4e885fa4abda1b6e752968de77a1ed6b4360d99a48e4b3e0abe78b3af3f2dd327a945b00ba6a4b49a512bef30030a220a062b3b45050186f507aa6/8bc86aff06294462"
+        },
+        {
+          "text": "Proving what nobody doubted",
+          "url": "https://elinkac1.mail.cerebralvalley.ai/v2/c/dfab3137c81c2d3950d80316e48261ba4a7a29724d292f3396d0947e6d16c7e34df6754d1a4d99eba1567abccdda7b2e0895f21bb66d1a159a4d832cbeaf2b81b121c4eb45d50f4bd90fabf9f8c1a65068bcb66b6785398402dfa7a3841a931acf00f0598a7e5554c6300a22a6a6d66511bb9fb5143f3abbe8df20f272a3180b09f147f1a4bccd0983c147bc3f82369c2c558454c4f39d989c2a459d9db11f7b/3b3cd09d356ca2e5"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Cerebral Valley – Week of November 23\n\nHackathons with Meta, Anthropic, Parallax, and more. Catch up on the latest AI events, industry news, emerging trends, and career opportunities.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌\n\nNovember 23, 2026   |   [Read online](https://elinkac1.mail.cerebralvalley.ai/v2/c/207de5ca67f825b6a4c4d3ec9e8b47a38c9e1a207296bb44bc671081248e5e3d0c34aa5086f81a427bc0b4c45edf6f82943b0abc66f73553225e0a0035f068b4f42dc87881ec779bdfe369c18f225907bae10db12b2df4167f2450dddff7e1a63c84f2e5fc5a938e2fed66dfd76fdd670b74bb4146953065fb258707a7df9c6b3ace6450aa9cc5164a31b82d44873d39a314895afca9beef2dfac2164dcf5954/424c1df71ffb87f8)\n\n# Cerebral Valley – Week of November 23\n\nHackathons with Meta, Anthropic, Parallax, and more. Catch up on the latest AI events, industry news, emerging trends, and career opportunities.\n\n![]("
+    }
+  ],
+  "tldr": [
+    "Chinese researchers develop AscendGYM kernel optimization.",
+    "OpenAI focuses on perplexity metric for AI progress.",
+    "Google demonstrates quantum contextuality at scale successfully.",
+    "Trump plans tax on US companies building data centers abroad.",
+    "Noeri launches with $110M to develop proactive AI systems."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Huawei",
+        "context": "Huawei’s role in AI/ML is centered on its Ascend AI accelerators and the surrounding software stack, including CANN and Ascend C. The immediate context is AscendGYM, a kernel-optimization benchmark released by the Shenzhen Loop Area Institute and highlighted in Import AI on November 23, 2026. It contains 48 kernels drawn from real training and inference workloads and is designed to help developers—and increasingly AI coding agents—produce faster custom kernels for Ascend NPUs. This matters because U.S. export controls limit Chinese access to leading Western accelerators, increasing the strategic importance of improving Huawei hardware utilization and building an independent software ecosystem.[4][11]\n\nHuawei has simultaneously been expanding Ascend beyond individual chips into large-scale SuperPoD and SuperCluster systems. At HUAWEI CONNECT 2026, it announced access to shared compute resources at 10,000-NPU scale, upgraded Ascend C for the Ascend 950 generation, and promoted open-source development around CANN and related tools; it also introduced systems designed to scale to thousands of NPUs through UnifiedBus interconnect technology.[1][6][9] The broader industry impact is a shift from competing only on accelerator specifications to competing on kernels, compilers, interconnects, and AI-agent-assisted optimization. Early benchmark results indicate that frontier coding agents can materially improve Ascend kernel performance, although the results are specialized and should not be interpreted as proof that Huawei hardware matches leading Nvidia systems overall.[11][14]",
+        "source": "Import AI 482; Huawei official announcements; CANN Bench and AscendGYM materials"
+      },
+      {
+        "topic": "Import AI",
+        "context": "Import AI is Jack Clark’s weekly newsletter analyzing cutting-edge AI research and its broader implications. The latest issue, Import AI 482, published November 23, 2026, covers three developments: AscendGYM, a benchmark for optimizing custom kernels on Huawei Ascend NPUs; A2A-UAV, a multimodal air-to-air dataset for detecting and identifying drones; and an AI-science benchmark from a national laboratory. [Primary source: Import AI, Jack Clark]\n\nThe Huawei work matters because export controls have pushed Chinese organizations toward Huawei hardware, increasing the importance of software and kernel optimization as a way to extract more performance from constrained compute ecosystems. The drone dataset reflects a parallel industry trend: combining RGB, thermal, radio-frequency, panoramic-camera, and millimeter-wave data to improve airborne detection and identification, with data covering 15 target drones from 13 commercial models. Together, the issue highlights how AI progress is increasingly shaped by hardware independence, specialized benchmarks, multimodal sensing, and applied autonomy—not only by larger general-purpose models.",
+        "source": "Import AI 482 by Jack Clark (November 23, 2026)"
+      },
+      {
+        "topic": "Tesla",
+        "context": "Tesla has begun a staged rollout of Full Self-Driving (Supervised) v15 to early-access users, starting November 21, 2026. The update is described as a broad upgrade to Tesla’s end-to-end driving AI, with Tesla claiming 25× better handling of safety-critical cases. New features reportedly include Tesla Reality View, learned navigation at the beginning and end of trips, speed-camera recognition and slowing, and Bike Rack Mode. FSD remains a supervised driver-assistance system, not autonomous driving, and the initial rollout appears limited, with wider availability expected in December through Tesla’s 2026 Holiday Update.[1][3][10][14]",
+        "source": "Tesla announcement on X, as reported by Tesla-focused coverage; supporting sources: gettesla.com, Teslarati, Frontier Now"
+      },
+      {
+        "topic": "Tesla FSD v15",
+        "context": "Tesla began rolling out Full Self-Driving (Supervised) v15 to a first wave of U.S. early-access owners on November 21, 2026. The initial customer build is reportedly v15.0.1, delivered through software version 2026.38.6.11, primarily for Tesla vehicles with Hardware 4/AI4; Tesla has not announced equivalent Hardware 3 availability. Tesla describes v15 as an upgrade to the end-to-end driving network, with a new vision encoder shared across FSD, Robotaxi, and Optimus, plus improved handling of sign detection, potholes, school-zone speeds, and other difficult driving situations. The release also introduces “Tesla Reality View,” a unified visualization of the vehicle’s planned actions, and improved learned navigation and features such as speed-camera recognition and Bike Rack Mode. [1][3][5][9][10]",
+        "source": "Tesla announcements via Tesla’s Super Intelligence account, as reported by TLDR, The Defiant, EVwire, and Teslarati"
+      },
+      {
+        "topic": "Google",
+        "context": "Google’s AI/ML-related quantum effort centers on **Google Quantum AI** and its 105-qubit **Willow** superconducting processor. The latest development, published in *Science* on November 19, 2026, demonstrates quantum contextuality—a nonclassical property believed to underpin some quantum algorithms—at scale, with experiments extending up to 105 qubits. In a related test, Willow achieved a 98.3% success rate in the four-qubit Mermin–Peres magic-square game, above the 88.9% classical limit.[1][7][9][12] \n\nThe result matters because it provides a way to test and benchmark genuinely quantum behavior in larger processors, while potentially helping identify hardware errors. It follows Google’s October 2026 demonstration that “magic state cultivation” reduced errors roughly 40-fold on Willow, and a July 2026 study showing reinforcement learning can adapt quantum error correction to system drift. Together, these advances support Google’s longer-term goal of fault-tolerant quantum computing, which could eventually contribute to specialized machine-learning workloads such as training-data generation, optimization, and modeling quantum systems—but they do not yet represent a practical replacement for classical AI hardware.[2][4][6][3]",
+        "source": "Google Quantum AI and Google Research; corroborated by Science-related reporting"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "MIT researchers develop AI technique for faster analog-chip design",
+        "summary": "MIT researchers introduced SLIC, a reinforcement fine-tuning approach for small language models that optimizes analog circuits across multiple design turns. The method aims to reduce the time and cost required for analog-chip engineering.",
+        "whyItMatters": "For AI practitioners, this demonstrates a practical use of small, specialized language models with reinforcement learning in engineering workflows, potentially lowering compute and deployment costs.",
+        "source": "MIT News"
+      },
+      {
+        "headline": "MIT team proposes physics-constrained AI models for chaotic systems",
+        "summary": "Researchers developed a machine-learning approach that imposes boundedness guarantees on models of chaotic dynamics, preventing predictions from exceeding physically realistic limits. The work was published in the Proceedings of the National Academy of Sciences.",
+        "whyItMatters": "Physics constraints can improve the reliability and safety of AI used for scientific simulation, especially where unconstrained models may produce unstable or impossible predictions.",
+        "source": "MIT Laboratory for Information and Decision Systems; Proceedings of the National Academy of Sciences"
+      },
+      {
+        "headline": "Microsoft Research releases BioEmu2 molecular simulation model",
+        "summary": "Microsoft Research reported BioEmu2, a model for molecular simulation that achieves free-energy errors near 1 kilocalorie per mole relative to molecular-dynamics benchmarks. The system is intended to accelerate computational chemistry research.",
+        "whyItMatters": "More accurate and efficient molecular modeling could help practitioners screen compounds and study protein–ligand interactions with substantially less computational expense than conventional simulations.",
+        "source": "Microsoft Research"
+      },
+      {
+        "headline": "Sarvam AI releases open-weight Sarvam-105B-1711",
+        "summary": "Sarvam AI released a new open-weight checkpoint of its 105-billion-parameter model, targeting customer support, voice agents, and general agent tasks. The release expands the set of large models available for organizations seeking alternatives to closed APIs.",
+        "whyItMatters": "Open weights give practitioners greater control over deployment, customization, data governance, and inference infrastructure, particularly for regional-language and enterprise applications.",
+        "source": "Sarvam AI"
+      },
+      {
+        "headline": "US governors' council asks Congress to preserve state authority over AI deployment",
+        "summary": "A bipartisan governors' council urged Congress not to broadly preempt state-level authority over AI deployment. The position adds to the ongoing US debate over how federal and state governments should divide responsibility for AI oversight.",
+        "whyItMatters": "The outcome could determine whether AI developers face one federal framework or a patchwork of state requirements involving safety, privacy, transparency, and sector-specific deployment rules.",
+        "source": "Bipartisan governors' council; AI Edge Briefing"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Huawei",
+        "type": "company",
+        "context": "Mentioned in relation to kernel benchmarks in Import AI newsletter"
+      },
+      {
+        "name": "Import AI",
+        "type": "newsletter",
+        "context": "Newsletter discussing various AI topics including Huawei kernel benchmarks and airborne drone detection"
+      },
+      {
+        "name": "Tesla",
+        "type": "company",
+        "context": "Mentioned as rolling out FSD v15 in TLDR Hardware newsletter"
+      },
+      {
+        "name": "FSD v15",
+        "type": "product",
+        "context": "Mentioned as a new release from Tesla in TLDR Hardware newsletter"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned in relation to its quantum processor in TLDR Hardware newsletter"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as publishing progress in TLDR AI newsletter"
+      },
+      {
+        "name": "Inkling 2 Mini",
+        "type": "product",
+        "context": "Mentioned as a new product in TLDR AI newsletter"
+      },
+      {
+        "name": "Riemann proof",
+        "type": "paper",
+        "context": "Mentioned as a mathematical concept in TLDR AI newsletter"
+      },
+      {
+        "name": "Meta",
+        "type": "company",
+        "context": "Mentioned as participating in hackathons in Cerebral Valley newsletter"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as participating in hackathons in Cerebral Valley newsletter"
+      },
+      {
+        "name": "Parallax",
+        "type": "company",
+        "context": "Mentioned as participating in hackathons in Cerebral Valley newsletter"
+      },
+      {
+        "name": "Trump",
+        "type": "person",
+        "context": "Mentioned as proposing a tax on US firms building data centers overseas in TLDR Hardware newsletter"
+      },
+      {
+        "name": "Airborne drone detection",
+        "type": "technology",
+        "context": "Mentioned as a topic in Import AI newsletter"
+      },
+      {
+        "name": "AI science benchmark",
+        "type": "technology",
+        "context": "Mentioned as a benchmark in Import AI newsletter"
+      },
+      {
+        "name": "Perplexity",
+        "type": "technology",
+        "context": "Mentioned as a measure of model performance in TLDR AI newsletter"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-11-24T00:30:47.230Z",
+  "dateString": "2026-11-24"
+}
