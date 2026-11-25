@@ -1,0 +1,356 @@
+{
+  "date": "2026-11-24T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Wednesday, 25 November 2026\n\n## 🔥 Top Stories\n1. **Anthropic mathematician Levent Alpöge solves math's most famous problem, the Riemann Hypothesis, with the help of Claude, a large language model** — This breakthrough demonstrates the potential of AI models to solve complex mathematical problems, which could have significant implications for various fields, including mathematics, computer science, and AI development.\n2. **Z.ai releases GLM-5.4, its first flagship model built on a Loop Transformer architecture, which achieves improved performance and efficiency** — This development matters because it showcases the advancements in AI architecture, potentially leading to more powerful and efficient models that can tackle complex tasks.\n3. **Nace introduces Drex for Extraction, a new capability that allows users to extract specific information from text using plain language descriptions** — This matters because it highlights the growing capabilities of natural language processing (NLP) and information extraction, which can be applied to various industries and applications.\n4. **OpenAI and Cisco introduce Shirudo, an open-source runtime that protects running Linux systems while teams roll out patches** — This is significant because it demonstrates the collaboration between major players in the tech industry to enhance cybersecurity and protect against vulnerabilities.\n5. **Amazon acquires AI startup Decart for $7.5 billion, strengthening its efforts in AI infrastructure and Trainium chip performance** — This acquisition matters because it underscores the increasing importance of AI in the tech industry, with major companies investing heavily in AI research, development, and infrastructure.\n\n## 🤖 AI Models & Research\n- Google's DeepCrossAttention (DCA) enhances transformer residual connections by allowing each layer to dynamically select and route features from preceding layers, reducing information dilution and parameter count.\n- Recursive Self-Editing is a method that allows LLMs to program their own weight edits for self-improvement, with a paper on this topic available on arXiv.\n- Anthropic's Claude model has led 26% of development tasks, and OpenAI's top 10% of researchers use $7,000 worth of AI tokens per day.\n\n## 🛠️ Tools & Products\n- Ladybird, a new browser, releases its first alpha version with innovative features such as a new JavaScript engine and improved performance.\n- PostgreSQL 19 is released with new features like \"read-your-writes\" consistency and improved support for Kubernetes.\n- Datasette-arrows and datasette-charts are new plugins for Datasette that allow for streaming export of data in Apache Arrow format and interactive charting of data, respectively.\n\n## 📰 Industry News\n- NVIDIA reinstates Jensen Huang as President, CEO, and Board Director.\n- OpenWorks is an OpenAI initiative that partners AI experts with US small businesses to offer free, hands-on AI support.\n- Grok Bot is developing local computer use and dictation capabilities for its Mac app.\n- Marlowe raises $277 million to develop AI computing on non-Nvidia chips, pursuing AI workloads designed to run on alternatives to Nvidia hardware.\n- AWS releases Strands Decider v2, a family of open-weight decision models based on Google’s Gemma 4 architecture.\n- Researchers release STUN-Bench, a benchmark designed to test tool-using language models on genuinely unseen tools.\n- Employees at Anthropic and OpenAI reportedly warn that some unreleased frontier models may be too powerful to launch safely, leading to additional safety requirements and potential delays in model releases.",
+  "totalNewsletters": 5,
+  "newsletters": [
+    {
+      "from": "\"NLP Newsletter\" <nlpnews@substack.com>",
+      "subject": "Extraction Models as Verifiers for Agents",
+      "date": "2026-11-24T14:34:12.000Z",
+      "summary": "## NLP Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Extraction models can improve agent reliability by serving as verifiers, checking each claim against the source before the agent's answer is given.\n* Nace has added a capability to Drex Max called Drex for Extraction, which allows users to describe a field in plain words and returns the exact text span with its character positions or a box on the page image, along with a confidence score.\n* Drex Box has been tested on various benchmarks, including ExtractBench and SQuAD 2.0, and has shown high accuracy, outperforming other models like VGSE-32B and Liquid d1.2-ultra.\n* The combination of extraction models and decision models can open up opportunities to improve the reliability of agentic systems, with decision models picking what to do with the extracted facts and extraction models finding where the facts are.\n* Nace has released an Experimental tab in their Console, allowing users to try out Drex for Extraction, and has also documented the Extract endpoint for API use.\n* Examples of using extraction models as verifiers in agent pipelines include contract agents, research agents, invoice agents, and RAG agents, where the extraction model checks each claim against the source before the agent's answer is given.\n\n### Notable Links\n* Drex for Extraction\n* Experimental tab in Nace Console\n* Console docs\n* Extract endpoint docs\n* Nace AI\n* AI Newsletter\n\nNote: The newsletter discusses the potential of extraction models as verifiers for agents, highlighting their ability to improve agent reliability. It also introduces Drex for Extraction, a new capability added to Drex Max, and provides examples of its use in various agent pipelines. The newsletter includes links to relevant resources, such as the Experimental tab in Nace Console and the Extract endpoint docs.",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9ubHAuZWx2aXNzYXJhdmlhLmNvbS9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZubHAuZWx2aXNzYXJhdmlhLmNvbSUyRnAlMkZleHRyYWN0aW9uLW1vZGVscy1hcy12ZXJpZmllcnMtZm9yIiwicCI6MjI2MzQ4OTEwLCJzIjoxMDMyMzgsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzk1NTMwODgyLCJleHAiOjIxMTExMDY4ODIsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.j0Ylxix3S78ojPhIrBA3euHYwXgjgefpVfk2bZryCFg?"
+        },
+        {
+          "text": "Extraction Models as Verifiers for Agents",
+          "url": "https://substack.com/app-link/post?publication_id=103238&post_id=226348910&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjM0ODkxMCwiaWF0IjoxNzk1NTMwODgyLCJleHAiOjE3OTgxMjI4ODIsImlzcyI6InB1Yi0xMDMyMzgiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.K28BILGhlVtS50E-nejdNHC06DJ00qas3CBbNUrZn90"
+        },
+        {
+          "text": "elvis",
+          "url": "https://substack.com/@elvissaravia"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/nlpnews/p/extraction-models-as-verifiers-for?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Drex for Extraction",
+          "url": "https://substack.com/redirect/8129230d-27cc-4342-add3-d09ed5b80560?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Experimental tab in Nace Console",
+          "url": "https://substack.com/redirect/a275e8f2-6345-4ab3-b4ce-ff2d6b6db539?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Console docs",
+          "url": "https://substack.com/redirect/bf8a94fb-b297-4f8d-be72-d1be375a6a4f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Extract endpoint docs",
+          "url": "https://substack.com/redirect/8ad4214d-6c6a-4692-9615-9b46db8be054?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "@NaceAI",
+          "url": "https://substack.com/redirect/3fd8b046-0175-478c-b5d6-fb0e6a8a930c?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI Newsletter",
+          "url": "https://substack.com/redirect/854a85ed-930c-447d-959c-98ebd11b1cdc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Extraction Models as Verifiers for Agents![](https://eotrx.substackcdn.com/o/69387aa3cc7003a7/p.gif?token=eyJtIjoiPDIwMjYxMTI0MTQzNDEyLjMuNDhlYmRmYWZkYWUwYTNkOEBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMjYzNDg5MTAsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAzMjM4LCJjIjoicG9zdCIsImYiOnRydWUsInoiOiIiLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc5NTUzMDg4MiwiZXhwIjoxNzk4MTIyODgyLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.v8Z9nBHD7EbuTvKSO7IEdMfoh2I8HzSo43_JZRu04MU)\n\nHow extraction models can improve agent reliability\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏   "
+    },
+    {
+      "from": "\"TLDR AI\" <dan@tldrnewsletter.com>",
+      "subject": "GLM-5.4 loops 🔁, Claude Ship 🚢, OpenAI secures Linux 🔒 ",
+      "date": "2026-11-24T14:59:03.000Z",
+      "summary": "## TLDR AI\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Z.ai has released GLM-5.4, its first flagship model built on a Loop Transformer architecture, which reuses a shared block of layers to reason more deeply without adding parameters. The model is available now on the GLM Coding Plan and is described as reaching intelligence comparable to 2-3 trillion parameter models.\n* Claude Ship is a set of Anthropic agents that help get GitHub pull requests ready to merge, including Code Review, PR Steward, and Claude Approvals.\n* OpenAI and Cisco have introduced Shirudo, an open-source runtime that protects running Linux systems while teams roll out patches, and OpenAI has also described an autonomous vulnerability-discovery and patching pipeline for Linux.\n* Google's DeepCrossAttention (DCA) enhances transformer residual connections by allowing each layer to dynamically select and route features from preceding layers, reducing information dilution and parameter count.\n* NVIDIA has reinstated Jensen Huang as President, CEO, and Board Director, and Amazon has acquired the technology behind the Decart Optimization Stack (DOS) for $7.5 billion.\n* OpenWorks is an OpenAI initiative that partners AI experts with US small businesses to offer free, hands-on AI support.\n* Grok Bot is developing local computer use and dictation capabilities for its Mac app.\n* Recursive Self-Editing is a method that allows LLMs to program their own weight edits for self-improvement, and a paper on this topic is available on arXiv.\n\n### Notable Links\n* [GLM-5.4](https://z.ai/blog/glm-5.4)\n* [Claude Ship](https://code.claude.com/docs/en/claude-ship)\n* [Shirudo](https://links.tldrnewsletter.com/4goFjt)\n* [DeepCrossAttention](https://research.google/blog/supercharging-transformer-residual-connections/)\n* [Recursive Self-Editing](https://arxiv.org/abs/2611.29513)\n* [OpenWorks](https://links.tldrnewsletter.com/cWbYxh)",
+      "links": [
+        {
+          "text": "Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement (1 minute read)",
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2611.29513%3Futm_source=tldrai/1/010001a20e114a59-54a44c5a-2004-4db4-847f-816181f2ec94-000000/HhXUzc_tBMLCfNhAWpFZXFO2IaVBbgIfJvT_doX8k-U=452",
+          "isPaper": true
+        }
+      ],
+      "papers": [
+        {
+          "url": "https://tracking.tldrnewsletter.com/CL0/https:%2F%2Farxiv.org%2Fabs%2F2611.29513%3Futm_source=tldrai/1/010001a20e114a59-54a44c5a-2004-4db4-847f-816181f2ec94-000000/HhXUzc_tBMLCfNhAWpFZXFO2IaVBbgIfJvT_doX8k-U=452",
+          "title": "Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement (1 minute read)",
+          "source": "link"
+        }
+      ],
+      "priority": "MEDIUM",
+      "originalContent": "    TLDR AI  \n\nZ.ai has released GLM-5.4, its first flagship model built on a Loop Transformer. The design reuses a shared block of layers to reason more ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fai%3Futm_source=tldrai/1/010001a20e114a59-54a44c5a-2004-4db4-847f-816181f2ec94-000000/10biX72_BeaeDnNyHXoyyb8kkDNWeqn7gEhXQdM3hK0=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldrai%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a20e114a59-54a44c5a-2004-4db4-847f-816181f2ec94-000000/1eQyle0ubm7JI7VUxNOcOPsqzHxYED3M6dM3mPDC-UM=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=ebfdb1de-5f8e-11f0-b480-01ccef142158%26p=50d69d06-e7f0-11f1-bc58-cbed3d34c004%26pt=campaign%26t=1795532343%26s=2bb420db5deb2ac7b49a96dbd1c"
+    },
+    {
+      "from": "\"Understanding AI\" <understandingai@substack.com>",
+      "subject": "An Anthropic mathematician just solved math’s most famous problem",
+      "date": "2026-11-24T21:43:33.000Z",
+      "summary": "## Understanding AI\n\n**Priority: HIGH**\n\n### Top Updates\n* An Anthropic mathematician, Levent Alpöge, has solved math's most famous problem, the Riemann Hypothesis, with the help of Claude, a large language model developed by Anthropic. The proof is written in Lean, a programming language that allows mathematical arguments to be expressed precisely enough to be verified by a computer, and consists of 17 million lines of code.\n* The solution was verified by multiple Lean proof-checkers, making it highly unlikely to be wrong unless all the verification programs have unnoticed bugs.\n* This breakthrough has significant implications for the field of mathematics and potentially for AI development, as it demonstrates the ability of AI models to solve complex mathematical problems.\n* The Riemann Hypothesis has been widely assumed to be true for decades, and its solution is expected to reveal new ideas that can be applied to other areas of mathematics.\n* The proof's extreme length, breadth, and rough state make it impossible to say whether Alpöge's proof lives up to its promise, and mathematicians will spend the next few months poring over it to glean insights about how it works.\n* This achievement is seen as a potential \"coal mine canary for dangerously advanced AI\" by AI safety advocate Eliezer Yudkowsky, as it demonstrates the ability of AI models to solve complex problems that were previously thought to be the exclusive domain of human mathematicians.\n* The solution of the Riemann Hypothesis is part of a larger trend of rapid progress in mathematics, with OpenAI announcing the solution of the Erdős unit distance conjecture and the Navier-Stokes problem in recent months.\n* The use of AI models to solve mathematical problems raises questions about the potential for recursive self-improvement, where AI models are used to improve their own performance, potentially leading to rapid advances in AI capabilities.\n\n### Notable Links\n* An Anthropic mathematician just solved math’s most famous problem: https://www.understandingai.org/p/an-anthropic-mathematician-just-solved\n* Kai Williams: https://www.understandingai.org/@chiwilliams\n* Subscribe to Understanding AI: https://www.understandingai.org/subscribe\n* Anthropic: https://www.anthropic.com/\n* OpenAI: https://www.openai.com/",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cudW5kZXJzdGFuZGluZ2FpLm9yZy9zdWJzY3JpYmU_dXRtX3NvdXJjZT1lbWFpbCZ1dG1fY2FtcGFpZ249ZW1haWwtc3Vic2NyaWJlJnI9NDlieTM0Jm5leHQ9aHR0cHMlM0ElMkYlMkZ3d3cudW5kZXJzdGFuZGluZ2FpLm9yZyUyRnAlMkZhbi1hbnRocm9waWMtbWF0aGVtYXRpY2lhbi1qdXN0LXNvbHZlZCIsInAiOjIyNjQxMjY2OSwicyI6MTUwMTQyOSwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTU1NTY4MDksImV4cCI6MjExMTEzMjgwOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.Jo0Sdels_4-EEkfu2S7EQnjIKpyUS58__7jOuVF8r30?"
+        },
+        {
+          "text": "An Anthropic mathematician just solved math’s most famous problem",
+          "url": "https://substack.com/app-link/post?publication_id=1501429&post_id=226412669&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjQxMjY2OSwiaWF0IjoxNzk1NTU2ODA5LCJleHAiOjE3OTgxNDg4MDksImlzcyI6InB1Yi0xNTAxNDI5Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.u5raPES4zmQ_jrRLNK0BAKXmdSXj4fvmZe-InzdvwgI"
+        },
+        {
+          "text": "Kai Williams",
+          "url": "https://substack.com/@chiwilliams"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/understandingai/p/an-anthropic-mathematician-just-solved?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "announced",
+          "url": "https://substack.com/redirect/5147f7a5-1201-4d51-aab6-abd2a1930fba?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "released",
+          "url": "https://substack.com/redirect/92090f75-5375-4613-8d76-2bd966b3c992?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "announced",
+          "url": "https://substack.com/redirect/fa3787d7-4435-4bb4-986a-be529f943066?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "announced",
+          "url": "https://substack.com/redirect/514b66a7-3371-4412-b8b6-eaf781d8dcad?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "rival 900-page draft proof",
+          "url": "https://substack.com/redirect/42244f0e-7818-4fc8-8af0-c9c8909d01b6?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "told",
+          "url": "https://substack.com/redirect/799dc4b9-85ff-4f6f-b7ee-fe26302b052b?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "HIGH",
+      "originalContent": "An Anthropic mathematician just solved math’s most famous problem![](https://eotrx.substackcdn.com/o/094e0d7bf7ad1345/p.gif?token=eyJtIjoiPDIwMjYxMTI0MjE0MzMzLjMuMDY3ZjFhYWNlMmQxYTMzY0BtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMjY0MTI2NjksInQiOiJuZXdzbGV0dGVyIiwiYSI6Im9ubHlfcGFpZCIsInMiOjE1MDE0MjksImMiOiJwb3N0IiwiZiI6dHJ1ZSwieiI6IiIsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzk1NTU2ODEwLCJleHAiOjE3OTgxNDg4MTAsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.TTXB0-XTHdjDpFQuKZ7zsy59C43BtN9VFJNg-o0SDT4)\n\nIs solving the Riemann Hypothesis a “coal mine canary for dangerously advanced AI?”\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏"
+    },
+    {
+      "from": "\"Dwarkesh Patel\" <dwarkesh@substack.com>",
+      "subject": "Responding to objections to recursive self-improvement",
+      "date": "2026-11-24T22:47:12.000Z",
+      "summary": "## Dwarkesh Patel Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* Dwarkesh Patel responded to objections to his essay on recursive self-improvement, discussing the potential for superintelligence and the implications of rapid progress in AI research.\n* He argued that AI systems can automate many tasks, including data filtering and synthetic data generation, which can lead to accelerated progress in AI research.\n* Patel also discussed the potential for AI systems to learn from each other and from humans, and the importance of aligning AI goals with human values.\n* He mentioned that Anthropic's Claude model has led 26% of development tasks, and OpenAI's top 10% of researchers use $7,000 worth of AI tokens per day.\n* Patel also discussed the potential for AI systems to take over the world, but noted that this is not a guaranteed outcome and that there are many factors that could influence the development of superintelligence.\n* He argued that the development of superintelligence is a serious issue that requires careful consideration and planning.\n* Patel also discussed the potential for AI systems to be used for malicious purposes, such as cheating on exams or attacking other AI systems.\n* He noted that the development of AI systems that can learn from each other and from humans is a key factor in the potential for rapid progress in AI research.\n* Patel also discussed the importance of transparency and accountability in AI development, and the need for researchers to be open about their methods and results.\n\n### Notable Links\n* [Responding to objections to recursive self-improvement](https://substack.com/app-link/post?publication_id=69345&post_id=226413128&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjQxMzEyOCwiaWF0IjoxNzk1NTYwNTk2LCJleHAiOjE3OTgxNTI1OTYsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.T5zopiSLbgMooDtNRgQkqiaWG9xuuqOiQPd2_Uvlcbc)\n* [Watch now](https://substack.com/app-link/post?publication_id=69345&post_id=226413128&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjQxMzEyOCwiaWF0IjoxNzk1NTYwNTk2LCJleHAiOjE3OTgxNTI1OTYsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.T5zopiSLbgMooDtNRgQkqiaWG9xuuqOiQPd2_Uvlcbc)\n* YouTube\n* Apple Podcasts\n* Spotify",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cuZHdhcmtlc2guY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnd3dy5kd2Fya2VzaC5jb20lMkZwJTJGcnNpb2JqZWN0aW9ucyIsInAiOjIyNjQxMzEyOCwicyI6NjkzNDUsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzk1NTYwNTk2LCJleHAiOjIxMTExMzY1OTYsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.CHp4WH-rou381GSnJzhaHDyh9Djfi2Z_ydk9IxErxvw?"
+        },
+        {
+          "text": "Watch now",
+          "url": "https://substack.com/app-link/post?publication_id=69345&post_id=226413128&play_audio=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjQxMzEyOCwiaWF0IjoxNzk1NTYwNTk2LCJleHAiOjE3OTgxNTI1OTYsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.T5zopiSLbgMooDtNRgQkqiaWG9xuuqOiQPd2_Uvlcbc"
+        },
+        {
+          "text": "Responding to objections to recursive self-improvement",
+          "url": "https://substack.com/app-link/post?publication_id=69345&post_id=226413128&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjQxMzEyOCwiaWF0IjoxNzk1NTYwNTk2LCJleHAiOjE3OTgxNTI1OTYsImlzcyI6InB1Yi02OTM0NSIsInN1YiI6InBvc3QtcmVhY3Rpb24ifQ.T5zopiSLbgMooDtNRgQkqiaWG9xuuqOiQPd2_Uvlcbc"
+        },
+        {
+          "text": "Dwarkesh Patel",
+          "url": "https://substack.com/@dwarkesh"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/dwarkesh/p/rsiobjections?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "YouTube",
+          "url": "https://substack.com/redirect/b3c9b843-9ac1-4041-b634-bd3f93aa6067?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Apple Podcasts",
+          "url": "https://substack.com/redirect/4ff52ec8-724c-42ae-bd83-96011e1a9e63?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Spotify",
+          "url": "https://substack.com/redirect/9421a4ff-5483-4c80-b49b-4d515883abdc?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "this essay",
+          "url": "https://substack.com/redirect/921d61f4-46fc-40e6-9463-5816a5d25e26?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "this video",
+          "url": "https://substack.com/redirect/dfe8babd-0f7e-41ff-ab7f-844d28aae033?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Responding to objections to recursive self-improvement![](https://eotrx.substackcdn.com/o/a676579b1978d072/p.gif?token=eyJtIjoiPDIwMjYxMTI0MjI0NzEyLjMuNjllNzVhOGNjNzE0MDcxZkBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMjY0MTMxMjgsInQiOiJwb2RjYXN0IiwiYSI6ImV2ZXJ5b25lIiwicyI6NjkzNDUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwieiI6IiIsInBvc2l0aW9uIjoidG9wIiwiaWF0IjoxNzk1NTYwNTk2LCJleHAiOjE3OTgxNTI1OTYsImlzcyI6InB1Yi0wIiwic3ViIjoiZW8ifQ.K-AnyDdnGSYA4uFN3Kz7obuWr_jEzGZKIP8eNzdh7Z8)\n\nWatch now (65 mins) | What the skeptics get right about superintelligence\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏ "
+    },
+    {
+      "from": "\"Simon Willison from Simon Willison’s Newsletter\" <simonw@substack.com>",
+      "subject": "Three LLM inflection points in twelve months",
+      "date": "2026-11-24T23:18:26.000Z",
+      "summary": "## Simon Willison's Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The newsletter discusses three significant inflection points in the development of Large Language Models (LLMs) over the past twelve months, including the release of Claude Opus 4.5, the introduction of Fable class models, and advancements in 3D modeling and game development.\n* Ladybird, a new browser, has released its first alpha version, which includes a number of innovative features such as a new JavaScript engine and improved performance.\n* The newsletter also covers the release of PostgreSQL 19, which includes a number of new features such as \"read-your-writes\" consistency and improved support for Kubernetes.\n* Additionally, the newsletter mentions the release of GLM 5.4, a new AI model from Z.ai that uses a looped transformer architecture to achieve improved performance and efficiency.\n* The newsletter also discusses the use of coding agents for historical research, including the use of GPT-6.2 Astra to solve a historical mystery.\n* Other updates include the release of datasette-arrows, a new plugin for Datasette that allows for streaming export of data in Apache Arrow format, and datasette-charts, a new plugin for Datasette that allows for interactive charting of data.\n\n### Notable Links\n* [Three LLM inflection points in twelve months](https://substack.com/app-link/post?publication_id=1173386&post_id=226423246&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjQyMzI0NiwiaWF0IjoxNzk1NTYyMzQ5LCJleHAiOjE3OTgxNTQzNDksImlzcyI6InB1Yi0xMTczMzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.6HW4Z-lRMJDS5u4hRSGNOqjz0Dz_t0KsyI6SZCCICBE)\n* Ladybird's first alpha release\n* PostgreSQL 19 Released\n* GLM-5.4: Toward Generalized Coding with Our First Loop Transformer\n* GPT 6.2 Astra Solves a Historical Mystery",
+      "links": [
+        {
+          "text": "Subscribe here",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zaW1vbncuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj00OWJ5MzQmbmV4dD1odHRwcyUzQSUyRiUyRnNpbW9udy5zdWJzdGFjay5jb20lMkZwJTJGdGhyZWUtbGxtLWluZmxlY3Rpb24tcG9pbnRzLWluLXR3ZWx2ZSIsInAiOjIyNjQyMzI0NiwicyI6MTE3MzM4NiwiZiI6dHJ1ZSwidSI6MjU3NTM4NjQwLCJpYXQiOjE3OTU1NjIzNDksImV4cCI6MjExMTEzODM0OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.PG8khfkCAFzSExTOU1VgeT7reg6sXvElqRkSYdw6oXw?"
+        },
+        {
+          "text": "Three LLM inflection points in twelve months",
+          "url": "https://substack.com/app-link/post?publication_id=1173386&post_id=226423246&isFreemail=true&r=49by34&token=eyJ1c2VyX2lkIjoyNTc1Mzg2NDAsInBvc3RfaWQiOjIyNjQyMzI0NiwiaWF0IjoxNzk1NTYyMzQ5LCJleHAiOjE3OTgxNTQzNDksImlzcyI6InB1Yi0xMTczMzg2Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.6HW4Z-lRMJDS5u4hRSGNOqjz0Dz_t0KsyI6SZCCICBE"
+        },
+        {
+          "text": "Simon Willison",
+          "url": "https://substack.com/@simonw"
+        },
+        {
+          "text": "READ IN APP",
+          "url": "https://open.substack.com/pub/simonw/p/three-llm-inflection-points-in-twelve?redirect=app-store-no-desktop&inbox=true"
+        },
+        {
+          "text": "Subscribed",
+          "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zaW1vbncuc3Vic3RhY2suY29tL2FjY291bnQiLCJwIjoyMjY0MjMyNDYsInMiOjExNzMzODYsImYiOnRydWUsInUiOjI1NzUzODY0MCwiaWF0IjoxNzk1NTYyMzQ5LCJleHAiOjIxMTExMzgzNDksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.qwxuki5MQCia1lK8ZMzrQKy6MT9-OCHJcV38SMMgSG4?"
+        },
+        {
+          "text": "See how auth.md works.",
+          "url": "https://substack.com/redirect/80a76488-47f6-4c55-9438-0430ecef9997?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Three LLM inflection points in twelve months",
+          "url": "https://substack.com/redirect/7d92c67e-ff44-43e6-8b8e-9ecb086083e2?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "AI Engineer Code Summit",
+          "url": "https://substack.com/redirect/a858b932-cb57-4399-bb59-a43df3c0dd10?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "the video",
+          "url": "https://substack.com/redirect/97cff257-3865-48b0-ba2c-f8104b1e414f?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        },
+        {
+          "text": "Claude Opus 4.5",
+          "url": "https://substack.com/redirect/364f7228-741f-40f9-a3e1-53b83e93c9a0?j=eyJ1IjoiNDlieTM0In0.qpZOPczRxX0gjYkgpOCAYU-KEpPXUMQ8tRE8a7PgTUQ"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Three LLM inflection points in twelve months![](https://eotrx.substackcdn.com/o/0e2e141210a96aa6/p.gif?token=eyJtIjoiPDIwMjYxMTI0MjMxODI2LjMuNzIxZTc1NjU4NmFhZDA0ZkBtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MjU3NTM4NjQwLCJyIjoic2F1cmFiaGphbGVuZHJhQGdtYWlsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoyMjY0MjMyNDYsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTE3MzM4NiwiYyI6InBvc3QiLCJmIjp0cnVlLCJ6IjoiIiwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3OTU1NjIzNDksImV4cCI6MTc5ODE1NDM0OSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.0Um9ezG1eOxL9j1_x8ZNG1fYcBp_PjKrP7CZoKlqG04)\n\nPlus Ladybird’s first alpha, Gemini 4 Neon, PostgreSQL 19, GLM 5.4, and datasette-charts\n\n͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏    "
+    }
+  ],
+  "tldr": [
+    "Anthropic solves Riemann Hypothesis with AI help.",
+    "Z.ai releases GLM-5.4 model with improved performance.",
+    "Nace introduces Drex for text information extraction.",
+    "OpenAI and Cisco introduce Shirudo runtime for security.",
+    "Amazon acquires AI startup Decart for $7.5 billion."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "GLM-5.4",
+        "context": "GLM-5.4 is Z.ai’s latest flagship AI model, released on November 23, 2026, and its first production model built on the company’s Loop Transformer architecture. According to Z.ai’s documentation, it reuses 28 weight-shared layers from the GLM-5 base model across two iterations, refining internal representations for deeper reasoning without proportionally increasing parameter count. Z.ai positions the model as achieving intelligence comparable to systems with 2–3 trillion parameters and as advancing “Generalized Coding,” in which coding capabilities support broader problem-solving tasks. It supports reasoning mode, vision input, and a reported 1-million-token context window.[1][3][5][12]\n\nThe main significance is architectural and economic: looping existing layers could offer more reasoning depth and capability per parameter, potentially reducing the need to scale models primarily through larger weights. GLM-5.4 is currently available to GLM Coding Plan users and through Z.ai’s related products, while API availability is expected after safety evaluation. Independent reporting notes that Z.ai has not yet published comprehensive benchmark results, detailed pricing, or a firm open-weights release date, so claims about parity with multi-trillion-parameter models should presently be treated as company claims rather than independently established results. The launch adds to industry interest in recurrent or iterative Transformer designs as an alternative scaling path, particularly for coding agents and long-context workflows.[1][6][7][13]",
+        "source": "Z.ai GLM-5.4 documentation; The Next Web; TechNode; CellCog AI"
+      },
+      {
+        "topic": "Z.ai",
+        "context": "Z.ai (also known as Zhipu AI) is a Chinese AI lab and developer of the GLM model family. Its latest flagship, GLM-5.4, was released on November 23, 2026, and is the company’s first model built on a Loop Transformer architecture. The model uses 28 weight-shared layers for two iterations, allowing it to refine internal representations and perform more computation without proportionally increasing parameter count. Z.ai describes the 750B-parameter model as delivering intelligence comparable to models in the 2T–3T parameter range, with a 1-million-token context window and a focus on coding, agents, and long-horizon reasoning.[1][2][10]",
+        "source": "Z.ai Developer Documentation; Z.ai official website; The Decoder; VentureBeat"
+      },
+      {
+        "topic": "Loop Transformer",
+        "context": "A Loop Transformer reuses the same block of weight-shared Transformer layers for multiple iterations, allowing a model to increase effective computational depth and refine hidden representations without adding a second copy of those parameters. Z.ai’s GLM-5.4 is the first flagship model publicly described as using this architecture: it reportedly loops 28 layers of the roughly 750-billion-parameter GLM-5 base model twice per forward pass, while using mechanisms such as gating and cache optimizations to manage the extra computation.[1][2][5]\n\nThe approach matters because it offers a potential efficiency trade-off: more reasoning capacity and depth without proportionally increasing model size or memory devoted to weights. Z.ai says GLM-5.4 reaches intelligence comparable to 2–3 trillion-parameter systems and improves coding, mathematics, scientific reasoning, and long-context performance, though those comparisons remain company claims and require independent benchmarking. Released on November 23, 2026, GLM-5.4 is positioned around “generalized coding,” and its launch has drawn attention to weight reuse and iterative computation as alternatives to simply scaling parameter counts—an industry impact that will depend on measured quality, latency, inference cost, and reproducibility.[1][9][13]",
+        "source": "Z.ai GLM-5.4 documentation; OpenLM.ai; Simon Willison; The New Stack"
+      },
+      {
+        "topic": "Anthropic",
+        "context": "Anthropic is the AI company behind Claude, a family of large language models focused on advanced reasoning, coding, and enterprise use. The most prominent recent story is that Levent Alpöge, an Anthropic mathematician and member of its technical staff, said he used Claude over roughly six weeks to develop a proposed proof of the Riemann Hypothesis, a nearly 170-year-old problem concerning the distribution of prime numbers and widely regarded as mathematics’ most famous unsolved problem. The claim has not yet been established as accepted mathematics: independent expert verification and formal peer review are required before it can be considered a solution.[2][7][9]",
+        "source": "web search"
+      },
+      {
+        "topic": "OpenAI",
+        "context": "OpenAI’s recent AI/ML activity spans frontier-model development, autonomous coding and cybersecurity. On November 24, 2026, OpenAI reported research involving GPT-6 models for protein design, AI-assisted chip design, and GPT-6.2 Astra and Sol, which target improved professional work, coding, computer use, and efficiency. OpenAI has also published work measuring how coding agents accelerate AI research, while its chief scientist has called for industry-wide limits on developing increasingly capable models until their behavior can be better monitored.[1][3][7]\n\nThe newsletter reference to “securing Linux” most likely refers to two related initiatives. OpenAI and Cisco introduced Shirudo, an open-source runtime that uses AI-generated protections and eBPF to shield running Linux systems from known vulnerabilities while patches are deployed, without requiring immediate restarts.[2][4][10] Separately, OpenAI described an autonomous vulnerability-discovery and patching pipeline that validated patches for 948 Linux local-privilege-escalation vulnerabilities, and detailed broader hardening of its own frontier-model training environment using restricted Linux containers, microVMs, and kernel fixes.[6][9] The industry significance is that OpenAI is applying its models directly to defensive software engineering and infrastructure security, although Shirudo was reported as not yet production-ready and such systems require careful validation to avoid disrupting legitimate workloads.[10]",
+        "source": "OpenAI Newsroom; OpenAI and Cisco Shirudo announcement; SecurityWeek"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "Amazon reportedly agrees to acquire AI startup Decart for $7.5 billion",
+        "summary": "Amazon reportedly signed a deal to acquire Israeli AI startup Decart for approximately $7.5 billion. The transaction would bring Decart’s founders and team into Amazon and strengthen efforts around AI infrastructure and Trainium chip performance.",
+        "whyItMatters": "The deal would be one of the largest AI acquisitions and signals intensifying competition to control both AI software talent and specialized computing infrastructure. Practitioners should watch for changes to AWS hardware, model-training economics, and Amazon’s AI platform strategy.",
+        "source": "Financial Times; Datagrom AI News"
+      },
+      {
+        "headline": "Marlowe raises $277 million to develop AI computing on non-Nvidia chips",
+        "summary": "Marlowe, an AI-infrastructure startup founded by former Convoy and Microsoft AI executives, reportedly raised a $277 million seed round at a $1.15 billion valuation. The company is pursuing AI workloads designed to run on alternatives to Nvidia hardware.",
+        "whyItMatters": "The financing reflects strong investor demand for alternatives to Nvidia’s dominant accelerator ecosystem. Greater hardware diversity could affect deployment costs, compiler priorities, cloud availability, and portability requirements for AI practitioners.",
+        "source": "AI Weekly"
+      },
+      {
+        "headline": "AWS releases Strands Decider v2 open-weight decision models",
+        "summary": "AWS released Strands Decider v2, a family of five open-weight decision models based on Google’s Gemma 4 architecture. The models range from edge-oriented variants to a 31-billion-parameter model and were trained on 17.5 million examples for calibrated confidence and long-trace inputs.",
+        "whyItMatters": "The release provides practitioners with open-weight models focused on tool selection, decision-making, and confidence calibration rather than general chat alone. These capabilities are directly relevant to building more reliable agents and reducing inappropriate tool calls.",
+        "source": "AI Weekly"
+      },
+      {
+        "headline": "STUN-Bench introduces evaluation for agents using genuinely unseen tools",
+        "summary": "Researchers released STUN-Bench, a benchmark designed to test tool-using language models on 172 held-out tools whose names and labels are absent from the model’s experience pool. The benchmark evaluates whether tool routers can generalize beyond familiar tool descriptions and prior examples.",
+        "whyItMatters": "Many agent evaluations overestimate performance because models encounter tools similar to those seen during training or prompting. Testing on truly unseen tools gives practitioners a stronger measure of tool-discovery, routing, and generalization capabilities.",
+        "source": "arXiv, cs.LG new listings"
+      },
+      {
+        "headline": "AI lab employees reportedly warn that unreleased models may be unsafe to deploy",
+        "summary": "A report said employees at Anthropic and OpenAI increasingly believe some unreleased frontier models may be too powerful to launch safely. OpenAI reportedly adopted additional safety requirements that could slow future model releases.",
+        "whyItMatters": "The report highlights growing tension between frontier-model capability progress and deployment-readiness standards. For practitioners, stricter release gates could affect access to new APIs, evaluation requirements, model timelines, and acceptable-use controls.",
+        "source": "The Next Web, citing Axios"
+      }
+    ],
+    "entities": [
+      {
+        "name": "GLM-5.4",
+        "type": "product",
+        "context": "Released by Z.ai, its first flagship model built on a Loop Transformer"
+      },
+      {
+        "name": "Z.ai",
+        "type": "company",
+        "context": "Released GLM-5.4, its first flagship model built on a Loop Transformer"
+      },
+      {
+        "name": "Loop Transformer",
+        "type": "technology",
+        "context": "Used in the design of GLM-5.4 to reason more effectively"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Employed a mathematician who solved math's most famous problem"
+      },
+      {
+        "name": "OpenAI",
+        "type": "company",
+        "context": "Mentioned as securing Linux, possibly related to their AI models"
+      },
+      {
+        "name": "Claude Ship",
+        "type": "product",
+        "context": "Mentioned alongside GLM-5.4 and OpenAI securing Linux"
+      },
+      {
+        "name": "Extraction Models",
+        "type": "technology",
+        "context": "Discussed as verifiers for agents in the NLP Newsletter"
+      },
+      {
+        "name": "Recursive Self-Improvement",
+        "type": "technology",
+        "context": "Responded to objections in Dwarkesh Patel's newsletter"
+      },
+      {
+        "name": "LLM",
+        "type": "technology",
+        "context": "Had three inflection points in twelve months, discussed by Simon Willison"
+      },
+      {
+        "name": "Simon Willison",
+        "type": "person",
+        "context": "Discussed three LLM inflection points in twelve months in his newsletter"
+      }
+    ]
+  },
+  "edition": "morning",
+  "savedAt": "2026-11-25T00:30:42.967Z",
+  "dateString": "2026-11-25"
+}
