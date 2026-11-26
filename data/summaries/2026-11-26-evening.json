@@ -1,0 +1,208 @@
+{
+  "date": "2026-11-25T18:30:00.000Z",
+  "summary": "# Daily AI Newsletter Digest - Thursday, 26 November 2026\n\n## 🔥 Top Stories\n1. **NVIDIA expands its role in AI beyond GPUs by releasing open model families and supporting tools** — This matters because it allows developers to inspect, fine-tune, self-host, and deploy models, giving them greater control over proprietary data, model behavior, latency, and compliance.\n2. **SpaceX receives FCC approval to launch a million data centers into space** — This matters because it could enable developers to offload advanced computing to orbit, avoiding headaches on Earth, and potentially revolutionize the field of AI computing.\n3. **Neuralink receives FDA approval for a 'pivotal' brain implant trial in ALS patients** — This matters because it could lead to significant advancements in brain-computer interface technology and potentially improve the lives of individuals with ALS.\n4. **Ollama releases Inkling 2 Mini model for local deployment on Windows and Linux** — This matters because it expands access to multimodal vision-language models beyond Mac systems, enabling more developers to experiment with AI on consumer hardware.\n5. **AI models surpass human capabilities in technical tasks** — This matters because it highlights the rapid progress of AI technology and its potential to automate complex tasks, transforming various industries.\n\n## 🤖 AI Models & Research\n- NVIDIA releases Nemotron for language, reasoning, and agentic AI, and Cosmos for physical AI, among other open models.\n- OpenAI claims to have proven that ω, the exponent of matrix multiplication, is exactly 9/4, which could influence the theoretical foundations of efficient AI workloads.\n- Bicameral Labs explores creating neural networks that minimize the chance of developing consciousness.\n\n## 🛠️ Tools & Products\n- Ollama provides simple deployment for developers and expands its model library with Thinking Machines' Inkling 2 Mini.\n- Antithesis compresses years of production hardening into minutes, and companies can now use it without a sales call required.\n- Ladybird's rendering engine and LibJS JavaScript engine were written from scratch, and the browser's first downloadable alpha is surprisingly capable.\n\n## 📰 Industry News\n- The impact of AI on jobs will be uneven, and governments and firms need to ensure that the benefits are shared among workers.\n- INSEAD alumni emphasize the importance of adaptability and continuous learning for current graduates facing an AI-reshaped job market.\n- Phanish Puranam highlights the need for human-centric organizational design in the face of AI adoption.",
+  "totalNewsletters": 4,
+  "newsletters": [
+    {
+      "from": "\"Ollama\" <hello@ollama.com>",
+      "subject": "Inkling 2 Mini now on Windows and Linux, faster on Mac",
+      "date": "2026-11-26T06:13:18.000Z",
+      "summary": "## Ollama Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n* The Inkling 2 Mini model is now available to run locally on Windows and Linux with the latest version of Ollama (0.40.18), expanding access beyond Mac systems and enabling more developers to experiment with multimodal vision-language models on consumer hardware.\n* On Mac, the latest Ollama version runs Inkling 2 Mini significantly faster with updated kernels, improving performance for users with compatible systems.\n* Inkling 2 Mini is an open-weights, multimodal vision-language model from Thinking Machines Lab, with roughly 26.4B total parameters and about 3.4B active at a time, making it more practical for local deployment than its total size suggests.\n* The model supports a 1M-token context window and is designed to run best with 32GB or more of VRAM or unified memory.\n* Ollama provides simple deployment for developers, and its model library currently includes Thinking Machines’ Inkling 2 Mini, with ready-to-run model variants and tags for local use.\n* The latest Ollama release reinforces the broader shift toward capable multimodal models running privately on consumer hardware rather than exclusively through cloud APIs.\n* Ollama is expanding beyond a local model runner into a broader distribution and inference platform, with recent updates adding support for speech models, decision models, long-horizon agentic workloads, and cloud-hosted models from companies including Cloudflare, Meta, and NVIDIA.\n\n### Notable Links\n* [Inkling 2 Mini](https://ollama.com/library/inkling-2-mini)\n* [Download Ollama](https://ollama.com/download)\n* [Ollama's Discord](https://discord.gg/ollama)",
+      "links": [
+        {
+          "text": "Inkling 2 Mini",
+          "url": "https://ollama.com/library/inkling-2-mini"
+        },
+        {
+          "text": "Download Ollama",
+          "url": "https://ollama.com/download"
+        },
+        {
+          "text": "Ollama's Discord",
+          "url": "https://discord.gg/ollama"
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "Inkling 2 Mini now on Windows and Linux, faster on Mac     \n\n![](https://images.vialoops.com/cljxdpsf70154jt0o2m5pzpx8/cmwpf934c01ly0jwb6c6uaoaq.png)\n\n  \n[Inkling 2 Mini](https://ollama.com/library/inkling-2-mini) is now available to run locally on Windows and Linux with the latest version of Ollama (0.40.18).\n\nOn the Mac, this version runs [Inkling 2 Mini](https://ollama.com/library/inkling-2-mini) significantly faster with updated kernels.\n\nNote: this model runs best with 32GB or more of VRAM or unified memory.\n\n[Download Ollama](https://ollama.com/download)\n\n### Get started\n\nRun it locally:\n\n```\nollama run inkling-2-mini\n```\n\nFor use with Pi:\n\n```\nollama launch pi --model inkling-2-mini\n```\n\nFor use with Claude Code:\n\n```\nollama launch claude --model inkling-2-mini\n```\n\nFor use with Codex:\n\n```\nollama launch codex --model inkling-2-mini\n```\n\nSee the [model page](https://ollama.com/library/inkling-2-mini) for more information and integrations.\n\nIf you have any feedback, reply directl"
+    },
+    {
+      "from": "\"INSEAD Knowledge\" <insead.knowledge@insead.edu>",
+      "subject": "How to Prepare Workers for Tech Shocks",
+      "date": "2026-11-26T08:05:05.000Z",
+      "summary": "## INSEAD Knowledge Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The impact of AI on jobs will be uneven, and governments and firms need to ensure that the benefits are shared among workers, according to Alessandro Sforza and Sameer Hasija in the latest episode of _The INSEAD Perspective: Spotlight on Asia_.\n- To prepare workers for technological shocks, governments should support retraining programs instead of layoffs, and firms should focus on teaching adaptable \"meta skills\" to their employees.\n- A study by Manuel Sosa found that people who have lower expectations often enjoy their experiences more, as they are less likely to be disappointed.\n- INSEAD alumni who graduated during times of economic crisis, such as the dot-com bust, the global financial crisis, and Covid-19, shared their advice for current graduates facing an AI-reshaped job market, emphasizing the importance of adaptability and continuous learning.\n- Phanish Puranam, an INSEAD professor, stated that the impact of AI on organizations is a design problem, not a forecasting problem, highlighting the need for human-centric organizational design.\n\n### Notable Links\n- [The INSEAD Perspective: Spotlight on Asia](https://us.list-manage.com/jjYMfvGxIjX)\n- [The Positive Side of Lowered Expectations](https://us.list-manage.com/_JQa2tbIQLV)\n- [We've Been There: Alumni Give Advice About Graduating Into AI](https://us.list-manage.com/p8UKoJ0xCLi)\n\nThis newsletter provides insights into the impact of AI on jobs and the importance of preparing workers for technological shocks. It also highlights the value of having lower expectations and the need for human-centric organizational design in the face of AI adoption. The newsletter includes links to relevant articles and podcasts, making it a useful resource for AI practitioners and individuals interested in the intersection of technology and business.",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "   How to Prepare Workers for Tech Shocks    AI will reshape jobs unevenly, so how can governments and firms make sure the gains are shared?\n\n͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ ‌     ͏ "
+    },
+    {
+      "from": "\"NVIDIA\" <news@nvidia.com>",
+      "subject": "Open models you can inspect, adapt, and deploy",
+      "date": "2026-11-26T08:33:09.000Z",
+      "summary": "## NVIDIA Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- NVIDIA is expanding its role in AI beyond GPUs by releasing open model families and supporting tools that developers can inspect, fine-tune, self-host, and deploy, including Nemotron for language, reasoning, and agentic AI; Cosmos for physical AI; BioNeMo for biomedical applications; and models such as Alpamayo for autonomous driving.\n- The company has announced NVIDIA Nemotron for Science, which combines the Nemotron 3.5 Super VL open model with an open chemistry dataset and post-training recipes for scientific agents, allowing for greater control over proprietary data, model behavior, latency, and compliance.\n- NVIDIA is also publishing optimized deployment recipes for leading Korean open models through its Dynamo inference platform, which will help strengthen NVIDIA’s influence across the AI software stack and shift the industry toward open, specialized, and deployable models.\n- The newsletter highlights the importance of open models, including architecture, training data, post-training recipes, and evaluation methodology, which determine whether a model can be inspected, adapted to a domain, and deployed under real constraints.\n- NVIDIA provides access to complete course materials from NVIDIA Open Source Courses, no registration required, and invites questions about open model licensing through the NVIDIA Developer Forums.\n- The company has emphasized the significance of open data and repeatable recipes for transparency, sovereignty, regulatory readiness, and production deployment, as discussed by Hugging Face’s Thomas Wolf at GTC Berlin.\n\n### Notable Links\n- Watch the Session: NVIDIA's session on open models and their importance\n- NVIDIA Open Source Courses: Access to complete course materials\n- NVIDIA Developer Forums: For questions about open model licensing\n- Privacy Center: NVIDIA's privacy center for managing preferences\n- Contact Us: NVIDIA's contact page for further inquiries\n- View Online: Option to view the newsletter online",
+      "links": [
+        {
+          "text": "Watch the Session",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGltfVkAsmjPN14WJCb9142jmygBfZmoT-QJlia6c74mK_OUZASxwAPBuqLJV7ND8gMprBqwrY="
+        },
+        {
+          "text": "NVIDIA Open Source Courses",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGltfVkAukWamqngZhvWRaYfUGtHJDcPn0vQF0ujkAQaXr-PaQ46ThR3DOKn7B5cNLH16vXdvk="
+        },
+        {
+          "text": "NVIDIA Developer Forums",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGltfVkApijaMTBhcle03QpilnfA8u2zncta4LE05VU48u3OSL3WeYKOPbeyc34gdmFfX6jq2A="
+        },
+        {
+          "text": "Privacy Center",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGltfVkAk1AhuSTM-AyZh6lXuEynl_-CWYl8udsWLXLOAFfLf_3LDY8fGufhQFq9qS1KNb-1g8="
+        },
+        {
+          "text": "Contact Us",
+          "url": "https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGltfVkAjlrNgR8eU6oB8hSDlp7z0T0sU3KvP039jSW_6tkg63TMCcIGMi1Pe2nEBWSTD9uOVE="
+        },
+        {
+          "text": "View Online",
+          "url": "https://go.nvidianews.com/v/MTU2LU9GTi03NDIAAAGltfVkAsP3bSWCGLSyiVOhUaRwQv_bH7Oy6p516uvXgrWYKXEcEGkIYewwVeUSFVmRX716CXU="
+        }
+      ],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "NVIDIA         \n\nArchitecture, training data, post-training recipes, evaluation—not just the weights.\n\n‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n [![NVIDIA Logo](https://info.nvidia.com/rs/156-OFN-742/images/NVIDIA-Logo-3.3-padded-notr.png?version=0)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGltfVkAkqTsWYS3Ak6tClYpjpPSkD5nrfqNKiY3lRloK62lNkVvOWTPt4f0Vyp6K3jv7CEJII= \"NVIDIA\")[![NVIDIA Logo](https://info.nvidia.com/rs/156-OFN-742/images/NVIDIA-Logo-3.3-inverted-padded.png?version=0)](https://go.nvidianews.com/MTU2LU9GTi03NDIAAAGltfVkAkqTsWYS3Ak6tClYpjpPSkD5nrfqNKiY3lRloK62lNkVvOWTPt4f0Vyp6K3jv7CEJII= \"NVIDIA\")\n\nBuilding Open Models Developers Can Inspect, Adapt, and Deploy\n\n[![newsletter-agentic-ai-nemotron-3-5-super"
+    },
+    {
+      "from": "\"TLDR\" <dan@tldrnewsletter.com>",
+      "subject": "SpaceX Starmind 🚀, Neuralink for ALS 🧠, late mid-game engineering 👨‍💻",
+      "date": "2026-11-26T12:27:43.000Z",
+      "summary": "## TLDR Newsletter\n\n**Priority: MEDIUM**\n\n### Top Updates\n- The FCC has granted SpaceX approval to launch a million data centers into space, with Anthropic and Google committing to pay billions of dollars in fees to rent capacity from the network. This development could allow developers of AI tools to offload advanced computing to orbit, avoiding headaches on Earth. However, numerous hurdles need to be overcome for SpaceX to deploy data centers in space, with the FCC authorization giving SpaceX until 2033 to launch and operate the first satellite and until 2040 to launch the full constellation.\n- Neuralink has received FDA approval for a 'pivotal' brain implant trial in ALS patients, evaluating patients' ability to control digital devices through thought and assessing the system's long-term safety and reliability. If the technology proves safe, the trial may allow Neuralink to apply for more advanced trials and eventually release its LINK brain-computer interface onto the market.\n- SpaceX is uniquely positioned to put compute in space and has been investing heavily in this direction for over a decade. Other tech giants have largely run out of ideas to invest for future growth, resorting to dividends and stock buybacks due to a lack of vision.\n- AI models available to the public have passed a threshold, becoming stronger than most theoretical physicists at most technical tasks. Models can now carry out complex analytical calculations, work out lengthy proofs, and turn well-posed problems into code with minimal input.\n- Antithesis is trusted by Supabase, Replit, and Confluent to compress years of production hardening into minutes, and companies can now use it without a sales call required.\n- Ladybird's rendering engine and its LibJS JavaScript engine were written from scratch, and the browser's first downloadable alpha is surprisingly capable.\n- OpenAI claims to have proven that ω, the exponent of matrix multiplication, is exactly 9/4.\n- Bicameral Labs' founder believes it's possible to create neural networks while ensuring they aren't conscious or minimizing the chance of them developing consciousness.\n\n### Notable Links\n- [SpaceX Gets Approval to Launch One Million Satellites for Orbital Data Centers](https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7)\n- [Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients](https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/)\n- [The Business of Anthropic](https://mhdempsey.substack.com/p/the-business-of-anthropic)\n- [A shallow dive into open-source chip design](https://vitalik.eth.limo/general/2026/11/26/a_shallow_dive_into_open-source_chip_design.html)\n- [Anima, Bicameral](https://www.astralcodexten.com/p/anima-bicameral)",
+      "links": [],
+      "papers": [],
+      "priority": "MEDIUM",
+      "originalContent": "TLDR\n\nThe FCC has granted SpaceX approval to launch a million data centers into space. Anthropic and Google have already committed to paying ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ \n\n  \n\n[Sign Up](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=tldr/1/010001a217d373bd-9d76e812-5abf-4398-b94d-b13cafb77614-000000/OWVQszuqWX5Pm6A2OWFJ_qD3cFS4mfDyj-gpusnpRrU=452) |[Advertise](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=tldr%26utm_medium=newsletter%26utm_campaign=advertisetopnav/1/010001a217d373bd-9d76e812-5abf-4398-b94d-b13cafb77614-000000/fQC5N4wYqWr8GsdkaUyZ_2gql2dOjwKc4Zmh_j_sGC4=452)|[View Online](https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=1%26lc=d3324c64-5f8e-11f0-b1c3-7f12249efa1c%26p=f8f785fa-e97a-11f1-b4a3-416ef413b9b3%26pt=campaign%26t=1795696063%26s=b8fc228a2da2b1fb80bc7a2b9c7f4d65bb271ef6"
+    }
+  ],
+  "tldr": [
+    "NVIDIA expands AI role beyond GPUs.",
+    "SpaceX to launch data centers into space.",
+    "Neuralink gets FDA approval for brain implant.",
+    "AI models surpass human technical capabilities.",
+    "Ollama releases Inkling 2 Mini model locally."
+  ],
+  "researchFindings": {
+    "additionalContext": [
+      {
+        "topic": "Inkling 2 Mini",
+        "context": "Inkling 2 Mini is an open-weights, multimodal vision-language model from Thinking Machines Lab. It accepts text and images, uses a looped transformer architecture with adjustable reasoning, and has roughly 26.4B total parameters with about 3.4B active at a time, making it more practical for local deployment than its total size suggests. It also supports a 1M-token context window. The model was introduced in November 2026 and is distributed through Hugging Face and local runtimes including Ollama, llama.cpp, and LM Studio. [1][2][3]\n\nThe key recent development is that the latest Ollama release now supports Inkling 2 Mini on Windows and Linux, following an initial Apple-silicon-only rollout; users can launch it with `ollama run inkling-2-mini`. This expands access beyond Mac systems and reinforces the broader shift toward capable multimodal models running privately on consumer hardware rather than exclusively through cloud APIs. Practical performance will still depend heavily on RAM, GPU/accelerator support, and quantization, but the release is significant for local AI experimentation, offline workflows, and developer adoption of open-weight models. [4][5][6]",
+        "source": "Thinking Machines Lab, Ollama, Hugging Face, and LM Studio"
+      },
+      {
+        "topic": "Ollama",
+        "context": "Ollama is a platform for running and serving open-weight AI models locally and through cloud-backed infrastructure, with an emphasis on simple deployment for developers. Its model library currently includes Thinking Machines’ Inkling 2 Mini, a multimodal 26-billion-parameter model with 5.4 billion active parameters and looped middle layers; the model is designed to run on a Mac with 32GB or more of memory. Inkling 2 Mini was released on November 20, 2026, and Ollama provides ready-to-run model variants and tags for local use.[1][4][9][10]\n\nOllama’s latest activity shows it expanding beyond a local model runner into a broader distribution and inference platform: recent updates added support for speech models, decision models, long-horizon agentic workloads, and cloud-hosted models from companies including Cloudflare, Meta, and NVIDIA.[14] The company said in July 2026 that it served 8.9 million developers and had raised $88 million from Benchmark, Theory Ventures, 8VC, Y Combinator, and angel investors, underscoring its role as a major channel for open-model adoption. Its importance is that it reduces the friction of deploying increasingly capable models on consumer hardware while also giving model developers a high-visibility route to distribution; Inkling 2 Mini’s rapid availability across Ollama and related runtimes illustrates that impact.[14]",
+        "source": "Ollama Blog and Ollama model library"
+      },
+      {
+        "topic": "NVIDIA",
+        "context": "NVIDIA is expanding its role in AI beyond GPUs by releasing open model families and supporting tools that developers can inspect, fine-tune, self-host, and deploy. Its portfolio includes Nemotron for language, reasoning, and agentic AI; Cosmos for physical AI; BioNeMo for biomedical applications; and models such as Alpamayo for autonomous driving. NVIDIA pairs these models with training recipes, datasets, NIM microservices, and NeMo Guardrails to support customization, deployment, and governance.\n\nThe latest developments include NVIDIA Nemotron for Science, announced in November 2026, which combines the Nemotron 3.5 Super VL open model with an open chemistry dataset and post-training recipes for scientific agents. NVIDIA is also publishing optimized deployment recipes for leading Korean open models through its Dynamo inference platform. These efforts matter because they give enterprises and researchers greater control over proprietary data, model behavior, latency, and compliance while strengthening NVIDIA’s influence across the AI software stack. The broader industry impact is a shift toward open, specialized, and deployable models that can complement or reduce reliance on closed-weight APIs.",
+        "source": "NVIDIA Newsroom; NVIDIA Perspectives"
+      },
+      {
+        "topic": "SpaceX",
+        "context": "SpaceX has received conditional approval from the U.S. Federal Communications Commission to deploy up to 1 million orbital compute modules under a proposed constellation called “Starmind.” The solar-powered satellites are intended to process AI workloads in space and transmit results to Earth, with SpaceX reportedly targeting initial deployments as early as 2028. The authorization requires at least one station by 2033, followed by phased deployment through 2040.[1][2][8][15]\n\nThe plan matters because it positions SpaceX to build AI infrastructure beyond Earth, potentially using continuous solar energy, reducing some terrestrial power and land constraints, and creating demand for launch capacity, satellite networking, and space-qualified computing hardware. However, the million-unit scale remains highly ambitious: scientists and industry observers have raised concerns about orbital congestion, astronomy impacts, debris, thermal management, communications interference, and the feasibility and economics of operating such a large constellation. The approval is a regulatory authorization—not evidence that the data centers have been built or that commercial-scale deployment is assured.[6][9][14]",
+        "source": "FCC authorization, as reported by BBC, NPR, CNBC, and NBC News"
+      },
+      {
+        "topic": "Neuralink",
+        "context": "Neuralink is a neurotechnology company developing implantable brain-computer interfaces (BCIs): systems that translate neural signals into commands for digital devices. Its N1 implant is placed in the skull, while a surgical robot inserts flexible electrodes into the brain. The technology is especially relevant to people with severe paralysis, including individuals with ALS, because it could help them control computers and other devices despite loss of muscle function.\n\nThe latest major development is the company’s November 25, 2026 announcement that the U.S. Food and Drug Administration approved its LINK Pivotal Study—the first U.S. pivotal trial of an implantable BCI—to evaluate safety and effectiveness in people with severe ALS-related paralysis. This moves Neuralink beyond early feasibility testing toward a larger, later-stage clinical evaluation, although FDA approval to begin a trial is not approval of the device as a treatment. The development could accelerate BCI commercialization and competitive investment in neurotechnology, while clinical evidence, long-term implant safety, surgical scalability, and regulatory review remain key constraints.",
+        "source": "Neuralink company update; Engadget; Bloomberg Law"
+      }
+    ],
+    "missingStories": [
+      {
+        "headline": "OpenAI preprint claims matrix multiplication exponent is exactly 9/4",
+        "summary": "OpenAI researchers published a preprint claiming that the matrix multiplication exponent is exactly 9/4 over every field. If independently validated, the result would represent a major advance in computational mathematics and could influence the theoretical foundations of efficient AI workloads.",
+        "whyItMatters": "Matrix multiplication underpins transformer inference, training, and many scientific-computing workloads. A tighter exponent could eventually inform faster algorithms, although practical hardware benefits are not yet established.",
+        "source": "AI Weekly, citing OpenAI's November 24 preprint"
+      },
+      {
+        "headline": "DeepL launches Aure v2 for end-to-end speech translation",
+        "summary": "DeepL released Aure v2, a speech-to-speech translation model that uses a single architecture rather than separate transcription and generation stages. The launch targets lower-latency, more natural multilingual communication.",
+        "whyItMatters": "End-to-end speech translation can reduce pipeline complexity and accumulated transcription errors. Practitioners building voice agents, meeting tools, and multilingual applications may gain a new model and platform option.",
+        "source": "Daily AI Report"
+      },
+      {
+        "headline": "ElevenLabs reportedly explores funding at a $33 billion valuation",
+        "summary": "ElevenLabs is reportedly considering a new funding round that could value the voice-AI company at approximately $33 billion. The discussions highlight continued investor interest in speech synthesis, voice agents, and multimodal audio products.",
+        "whyItMatters": "A funding round at that scale would signal strong commercial expectations for voice AI and could accelerate model development, infrastructure spending, and competition among speech-platform providers.",
+        "source": "NewsBytes, citing reported fundraising discussions"
+      },
+      {
+        "headline": "Kioxia and NVIDIA demonstrate petabyte-scale effective GPU memory",
+        "summary": "Kioxia and NVIDIA demonstrated a proof of concept that pairs high-performance SSDs with NVIDIA software to extend effective GPU memory capacity to the petabyte scale. The approach is aimed at workloads whose model or data state exceeds conventional accelerator memory.",
+        "whyItMatters": "Memory capacity is a major bottleneck for large-model training and inference. Tiered accelerator-storage architectures could enable larger contexts, models, and datasets without requiring equivalent increases in expensive high-bandwidth memory.",
+        "source": "AI Weekly"
+      },
+      {
+        "headline": "New research targets computer-use agents in evolving physical contexts",
+        "summary": "A new arXiv paper introduced EgoUseBench, a benchmark for evaluating computer-use agents under changing first-person contexts, including scenarios involving AI wearables and smart glasses. The work addresses agents operating across digital interfaces and users' physical surroundings.",
+        "whyItMatters": "As agents move beyond browsers and desktops, reliable evaluation must measure context tracking, grounding, and adaptation in dynamic environments. Such benchmarks can expose failure modes that conventional static computer-use tests miss.",
+        "source": "arXiv, November 26, 2026 listings"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Inkling 2 Mini",
+        "type": "product",
+        "context": "Mentioned as now available to run locally on Windows and Linux with the latest version of Ollama"
+      },
+      {
+        "name": "Ollama",
+        "type": "company",
+        "context": "Mentioned as the company behind the Inkling 2 Mini model"
+      },
+      {
+        "name": "NVIDIA",
+        "type": "company",
+        "context": "Mentioned as a company providing open models for inspection, adaptation, and deployment"
+      },
+      {
+        "name": "SpaceX",
+        "type": "company",
+        "context": "Mentioned as a company granted approval to launch a million data centers into space"
+      },
+      {
+        "name": "Neuralink",
+        "type": "company",
+        "context": "Mentioned as a company working on technology for ALS treatment"
+      },
+      {
+        "name": "Anthropic",
+        "type": "company",
+        "context": "Mentioned as a company committed to paying for SpaceX's data centers"
+      },
+      {
+        "name": "Google",
+        "type": "company",
+        "context": "Mentioned as a company committed to paying for SpaceX's data centers"
+      },
+      {
+        "name": "AI",
+        "type": "technology",
+        "context": "Mentioned as a technology that will reshape jobs unevenly"
+      },
+      {
+        "name": "INSEAD Knowledge",
+        "type": "company",
+        "context": "Mentioned as the sender of a newsletter about preparing workers for tech shocks"
+      },
+      {
+        "name": "TLDR",
+        "type": "company",
+        "context": "Mentioned as the sender of a newsletter about SpaceX, Neuralink, and engineering"
+      }
+    ]
+  },
+  "edition": "evening",
+  "savedAt": "2026-11-26T12:30:40.573Z",
+  "dateString": "2026-11-26"
+}
